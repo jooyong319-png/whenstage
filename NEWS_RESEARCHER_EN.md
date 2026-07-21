@@ -69,15 +69,23 @@ git config user.name "News Writer Claude (EN)"
 ### 2. 기존 기사 파악 (중복 방지)
 - `content/news/*.en.md` 파일명·frontmatter의 `title`/`tags`를 훑어 최근 다룬 소식 확인
 - `data/concerts.en.json`에서 오늘 다룰 소식과 관련된 공연 id를 찾아둔다(하이퍼링크용)
+- ⚠️ `content/news/` 폴더 자체가 아직 없을 수 있다(첫 실행 등) — 폴더가 없으면 그냥 새로 만들면 된다,
+  에러 상황이 아니다.
 
 ### 3. 리서치 — 오늘의 소식 수집
 **소스**:
 - Ticketmaster, AXS, Songkick, Bandsintown의 "on sale now"/새로 뜬 공지
-- Billboard, Variety, Rolling Stone, Pitchfork 등 최근 24~48시간 게재 기사
+- Billboard, Rolling Stone, Pitchfork 등 최근 24~48시간 게재 기사
+  ⚠️ Variety는 봇 페이월(HTTP 402/티어 리다이렉트)로 자동 접근이 막혀 있는 경우가 실전에서 확인됐다 —
+  안 열리면 시간 낭비하지 말고 다른 매체로 바로 넘어갈 것.
 - 아티스트 공식 SNS(Instagram, X) 공지 — 가장 신뢰도 높은 1차 소스
 
-각 소식은 **독립 출처 1개 이상**(공식 공지·티켓 플랫폼 공지는 그 자체로 충분한 신뢰도) + 기사 작성일이
-최근 48시간 이내인지 확인.
+각 소식은 **독립 출처 1개 이상**(공식 공지·티켓 플랫폼 공지는 그 자체로 충분한 신뢰도) 확인.
+
+⚠️ **"48시간 이내" 기준 명확화**: 최초 발표일이 아니라 **오늘 팬이 실제로 행동할 수 있는 일이 벌어진
+날짜**(티켓 온세일 개시일, 매진 발생일, 일정 확정 공지일 등) 기준으로 48시간 이내면 된다. 예를 들어
+투어 자체는 몇 주 전에 발표됐어도 "오늘 일반예매가 열렸다"면 대상이다. 반대로 발표도 오래됐고 그 이후
+아무 액션도 없는 소식(그냥 재유통된 기사)은 대상이 아니다.
 
 ### 4. 기사 작성 — `content/news/<slug>.en.md`
 - 파일명(슬러그): `YYYY-MM-DD-<core-keyword-kebab>.en.md` (예: `2026-08-05-blackpink-tour-tickets-on-sale.en.md`)
@@ -86,7 +94,7 @@ git config user.name "News Writer Claude (EN)"
 ---
 title: Article title (concise, 40~70 chars)
 description: One-line summary (60~120 chars, shown on the list card)
-date: YYYY-MM-DD
+date: YYYY-MM-DD  # the date the news actually happened (announcement/on-sale date), not the date you're writing this
 tags: [tickets, tour, artist-name]
 source: Original outlet name (e.g., Billboard, or "Official social media")
 source_url: Original article URL (required — copyright safeguard)
