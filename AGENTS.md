@@ -1,4 +1,4 @@
-# 콘서트 캘린더 데이터 스키마 & 리서처 공통 규칙
+# WhenStage 데이터 스키마 & 리서처 공통 규칙
 
 이 문서는 `data/concerts.ko.json` / `concerts.en.json` / `concerts.ja.json`을 다루는
 **3개의 독립된 리서처 Claude**(한국어권/영어권/일본어권)가 공통으로 참조하는 스키마·정책 문서다.

@@ -65,9 +65,9 @@ const FOOTER_H2: Record<Locale, string> = {
   ja: '毎日更新される公演・発売日程',
 };
 const FOOTER_P: Record<Locale, string> = {
-  ko: '콘서트 캘린더(whenstage.com)는 콘서트·내한 공연, 음원 발매, 페스티벌, 팬미팅 일정을 매일 새로 정리합니다.',
-  en: 'Concert Calendar (whenstage.com) refreshes concert, release, festival, and fan meeting schedules every day.',
-  ja: 'コンサートカレンダー(whenstage.com)はコンサート・来日公演、音源発売、フェス、ファンミーティング情報を毎日整理しています。',
+  ko: 'WhenStage(whenstage.com)는 콘서트·내한 공연, 음원 발매, 페스티벌, 팬미팅 일정을 매일 새로 정리합니다.',
+  en: 'WhenStage (whenstage.com) refreshes concert, release, festival, and fan meeting schedules every day.',
+  ja: 'WhenStage(whenstage.com)はコンサート・来日公演、音源発売、フェス、ファンミーティング情報を毎日整理しています。',
 };
 
 export default async function Page({ params }: Props) {

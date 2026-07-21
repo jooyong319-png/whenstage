@@ -6,7 +6,7 @@ import { SiteFooter } from '@/components/SiteFooter';
 // 왼쪽 플로팅 위젯(N월 출시/사전예약): 재작업 예정, 임시 주석 (재사용 가능)
 // import { FloatingMonthStats } from '@/components/FloatingMonthStats';
 import { BottomTabBar } from '@/components/BottomTabBar';
-// import { SideRailAds } from '@/components/SideRailAds'; // AdSense 심사 중 비활성(콘텐츠 우선) — 애드핏 수익 낮아 제거
+// import { SideRailAds } from '@/components/SideRailAds'; // 카카오 애드핏 — 콘텐츠 우선 정책으로 비활성(수익 낮음)
 import { HeaderScroll } from '@/components/HeaderScroll';
 import { Toaster } from '@/components/Toaster';
 import { PushSync } from '@/components/PushSync';
@@ -15,14 +15,14 @@ import { InstallPrompt } from '@/components/InstallPrompt';
 export const metadata: Metadata = {
   metadataBase: new URL('https://whenstage.com'),
   title: {
-    default: '콘서트 캘린더 | 내한·콘서트·음원 발매·페스티벌 일정 한눈에',
-    template: '%s | 콘서트 캘린더',
+    default: 'WhenStage | 내한·콘서트·음원 발매·페스티벌 일정 한눈에',
+    template: '%s | WhenStage',
   },
   description: '콘서트·내한 공연, 음원 발매(컴백), 페스티벌, 팬미팅 일정을 한눈에. 매일 업데이트되는 공연·발매 캘린더.',
-  keywords: ['콘서트 일정', '내한 공연', '컴백 일정', '음원 발매', '페스티벌 라인업', '팬미팅', '티켓팅 일정', '콘서트 캘린더'],
+  keywords: ['콘서트 일정', '내한 공연', '컴백 일정', '음원 발매', '페스티벌 라인업', '팬미팅', '티켓팅 일정', 'WhenStage'],
   openGraph: {
     type: 'website',
-    siteName: '콘서트 캘린더',
+    siteName: 'WhenStage',
     locale: 'ko_KR',
     images: ['/og-image.png'],
     url: 'https://whenstage.com/',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     },
   },
   icons: { icon: '/favicon.svg', apple: '/icons/apple-touch-icon.png' },
-  appleWebApp: { capable: true, statusBarStyle: 'default', title: '콘서트캘린더' },
+  appleWebApp: { capable: true, statusBarStyle: 'default', title: 'WhenStage' },
 };
 
 export const viewport: Viewport = {
@@ -61,19 +61,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css"
-        />
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2847198878846961"
-          crossOrigin="anonymous"
-        />
-        {/* Google Analytics 4 (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-12Y2DVLYPR" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html:
-              "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-12Y2DVLYPR');",
-          }}
         />
       </head>
       <body>
@@ -111,7 +98,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </header>
         <main id="main">{children}</main>
         {/* <FloatingMonthStats /> 재작업 예정, 임시 비활성 */}
-        {/* <SideRailAds /> — AdSense 심사 중 비활성(콘텐츠 우선), 애드핏 수익 낮음 */}
+        {/* <SideRailAds /> — 카카오 애드핏, 콘텐츠 우선 정책으로 비활성(수익 낮음) */}
         <BottomTabBar />
         <HeaderScroll />
         <Toaster />

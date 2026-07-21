@@ -55,72 +55,75 @@ export function HeaderNav() {
 
   return (
     <div className="header-utils" ref={ref}>
-      {/* 좌측: 상시 노출 accent 링크(캘린더·뉴스·모아보기) */}
-      <nav className="header-primary-nav" aria-label={lang === 'ko' ? '주요 메뉴' : 'Main menu'}>
-      <a
-        href={home}
-        className={`header-cal-link ${pathname === home ? 'header-cal-active' : ''}`}
-        aria-current={pathname === home ? 'page' : undefined}
-      >
-        <svg className="ic" aria-hidden="true"><use href="#ic-calendar" /></svg>
-        <span className="header-cal-label">{ui.calendar}</span>
-      </a>
-      <a
-        href={primary[1].href}
-        className={`header-news-link ${pathname.startsWith(primary[1].href) ? 'header-news-active' : ''}`}
-        aria-current={pathname.startsWith(primary[1].href) ? 'page' : undefined}
-      >
-        <svg className="ic" aria-hidden="true"><use href="#ic-flame" /></svg>
-        <span className="header-news-label">{ui.news}</span>
-      </a>
-      <a
-        href={primary[2].href}
-        className={`header-guide-link ${pathname.startsWith(primary[2].href) ? 'header-guide-active' : ''}`}
-        aria-current={pathname.startsWith(primary[2].href) ? 'page' : undefined}
-      >
-        <svg className="ic" aria-hidden="true"><use href="#ic-file" /></svg>
-        <span className="header-guide-label">{ui.blog}</span>
-      </a>
-      </nav>
+      {/* 좌측: 언어 스위처 + 테마 토글 (마퀴 레이아웃 — 워드마크는 헤더 중앙에 절대배치) */}
+      <div className="header-util-left">
+        <LanguageSwitcher
+          open={openMenu === 'lang'}
+          onOpenChange={(v) => setOpenMenu(v ? 'lang' : null)}
+        />
+        <ThemeToggle />
+      </div>
 
-      {/* 우측: 언어 스위처 + 테마 토글 + ☰ 메뉴 */}
-      <div className="header-right">
-      <LanguageSwitcher
-        open={openMenu === 'lang'}
-        onOpenChange={(v) => setOpenMenu(v ? 'lang' : null)}
-      />
-      <ThemeToggle />
-      <button
-        type="button"
-        className="menu-btn"
-        onClick={() => setOpenMenu(m => m === 'nav' ? null : 'nav')}
-        aria-expanded={open}
-        aria-haspopup="true"
-        aria-label={open ? (lang === 'ko' ? '메뉴 닫기' : 'Close menu') : (lang === 'ko' ? '메뉴 열기' : 'Open menu')}
-      >
-        <svg className="ic" aria-hidden="true"><use href="#ic-menu" /></svg>
-      </button>
+      {/* 우측: 상시 노출 accent 링크(캘린더·뉴스·모아보기) + ☰ 메뉴 */}
+      <div className="header-nav-right">
+        <nav className="header-primary-nav" aria-label={lang === 'ko' ? '주요 메뉴' : 'Main menu'}>
+        <a
+          href={home}
+          className={`header-cal-link ${pathname === home ? 'header-cal-active' : ''}`}
+          aria-current={pathname === home ? 'page' : undefined}
+        >
+          <svg className="ic" aria-hidden="true"><use href="#ic-calendar" /></svg>
+          <span className="header-cal-label">{ui.calendar}</span>
+        </a>
+        <a
+          href={primary[1].href}
+          className={`header-news-link ${pathname.startsWith(primary[1].href) ? 'header-news-active' : ''}`}
+          aria-current={pathname.startsWith(primary[1].href) ? 'page' : undefined}
+        >
+          <svg className="ic" aria-hidden="true"><use href="#ic-flame" /></svg>
+          <span className="header-news-label">{ui.news}</span>
+        </a>
+        <a
+          href={primary[2].href}
+          className={`header-guide-link ${pathname.startsWith(primary[2].href) ? 'header-guide-active' : ''}`}
+          aria-current={pathname.startsWith(primary[2].href) ? 'page' : undefined}
+        >
+          <svg className="ic" aria-hidden="true"><use href="#ic-file" /></svg>
+          <span className="header-guide-label">{ui.blog}</span>
+        </a>
+        </nav>
 
-      {/* 링크는 항상 DOM에 유지(크롤 가능) — 열림 상태만 CSS로 토글 */}
-      <nav className={`site-menu ${open ? 'site-menu-open' : ''}`} aria-label={lang === 'ko' ? '주요 메뉴' : 'Main menu'}>
-        {/* 앱(standalone) 전용: 상단 accent 링크를 메뉴 안에 노출(웹에선 CSS로 숨김) */}
-        <div className="menu-primary">
-          {primary.map(item => {
-            const active = item.href === home ? pathname === home : pathname.startsWith(item.href);
-            return (
-              <a
-                key={item.href}
-                href={item.href}
-                className="menu-link menu-link-primary"
-                aria-current={active ? 'page' : undefined}
-                onClick={() => setOpenMenu(null)}
-              >
-                {item.label}
-              </a>
-            );
-          })}
-        </div>
-      </nav>
+        <button
+          type="button"
+          className="menu-btn"
+          onClick={() => setOpenMenu(m => m === 'nav' ? null : 'nav')}
+          aria-expanded={open}
+          aria-haspopup="true"
+          aria-label={open ? (lang === 'ko' ? '메뉴 닫기' : 'Close menu') : (lang === 'ko' ? '메뉴 열기' : 'Open menu')}
+        >
+          <svg className="ic" aria-hidden="true"><use href="#ic-menu" /></svg>
+        </button>
+
+        {/* 링크는 항상 DOM에 유지(크롤 가능) — 열림 상태만 CSS로 토글 */}
+        <nav className={`site-menu ${open ? 'site-menu-open' : ''}`} aria-label={lang === 'ko' ? '주요 메뉴' : 'Main menu'}>
+          {/* 앱(standalone) 전용: 상단 accent 링크를 메뉴 안에 노출(웹에선 CSS로 숨김) */}
+          <div className="menu-primary">
+            {primary.map(item => {
+              const active = item.href === home ? pathname === home : pathname.startsWith(item.href);
+              return (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  className="menu-link menu-link-primary"
+                  aria-current={active ? 'page' : undefined}
+                  onClick={() => setOpenMenu(null)}
+                >
+                  {item.label}
+                </a>
+              );
+            })}
+          </div>
+        </nav>
       </div>
     </div>
   );

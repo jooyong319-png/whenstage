@@ -22,7 +22,7 @@ export async function GET() {
     'PRODID:-//whenstage//concert-calendar//KR',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
-    'X-WR-CALNAME:콘서트 캘린더',
+    'X-WR-CALNAME:WhenStage',
     'X-WR-CALDESC:콘서트·내한 공연, 음원 발매, 페스티벌, 팬미팅 일정 (whenstage.com)',
     'X-WR-TIMEZONE:Asia/Seoul',
     'REFRESH-INTERVAL;VALUE=DURATION:PT12H',

@@ -35,6 +35,6 @@
 - ROCK IN JAPAN / ULTRA JAPAN: 개최일·라인업은 확정했으나 데이별 헤드라이너 매핑 미확정으로 festival_days는 null 처리(공식 데이별 확정 후 보강)
 
 ## [2026-07-21 00:00] [시스템]
-콘서트 캘린더 리서처 체계 시작. `data/concerts.ko.json` / `concerts.en.json` / `concerts.ja.json` 각각
+WhenStage 리서처 체계 시작. `data/concerts.ko.json` / `concerts.en.json` / `concerts.ja.json` 각각
 KO/EN/JA 리서처가 독립적으로 관리. 스키마는 `AGENTS.md`, 리서처별 작업 지시는
 `RESEARCHER_KO.md` / `RESEARCHER_EN.md` / `RESEARCHER_JA.md` 참고.

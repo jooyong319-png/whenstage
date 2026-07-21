@@ -67,8 +67,8 @@ interface UiStrings {
 
 export const UI: Record<Locale, UiStrings> = {
   ko: {
-    siteName: '콘서트 캘린더 — 내한·컴백·페스티벌',
-    siteNameShort: '콘서트 캘린더',
+    siteName: 'WhenStage — 내한·컴백·페스티벌',
+    siteNameShort: 'WhenStage',
     home: '홈',
     calendar: '캘린더',
     news: '뉴스',
@@ -95,8 +95,8 @@ export const UI: Record<Locale, UiStrings> = {
     siteDescription: '콘서트·내한 공연, 음원 발매(컴백), 페스티벌, 팬미팅 일정을 한눈에. 매일 업데이트되는 공연·발매 캘린더.',
   },
   en: {
-    siteName: 'Concert Calendar — Tours, Comebacks & Festivals',
-    siteNameShort: 'Concert Calendar',
+    siteName: 'WhenStage — Tours, Comebacks & Festivals',
+    siteNameShort: 'WhenStage',
     home: 'Home',
     calendar: 'Calendar',
     news: 'News',
@@ -123,8 +123,8 @@ export const UI: Record<Locale, UiStrings> = {
     siteDescription: 'Track Korean and global game release dates, pre-registrations, new server openings, and events in one calendar — updated daily.',
   },
   ja: {
-    siteName: 'コンサートカレンダー — 来日公演・カムバック・フェス',
-    siteNameShort: 'コンサートカレンダー',
+    siteName: 'WhenStage — 来日公演・カムバック・フェス',
+    siteNameShort: 'WhenStage',
     home: 'ホーム',
     calendar: 'カレンダー',
     news: 'ニュース',

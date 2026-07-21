@@ -13,7 +13,7 @@ export async function generateStaticParams() {
 const META: Record<Locale, Metadata> = {
   ko: {
     title: '이용약관',
-    description: '콘서트 캘린더(whenstage.com) 이용약관 — 서비스 내용, 댓글 운영 방침, 저작권 및 면책 사항에 대한 안내.',
+    description: 'WhenStage(whenstage.com) 이용약관 — 서비스 내용, 댓글 운영 방침, 저작권 및 면책 사항에 대한 안내.',
     alternates: { canonical: 'https://whenstage.com/ko/terms' },
   },
   en: {
@@ -39,7 +39,7 @@ function KoBody() {
       <h1>이용약관</h1>
 
       <h2>제1조 (목적)</h2>
-      <p>본 약관은 콘서트 캘린더(whenstage.com, 이하 &ldquo;서비스&rdquo;)가 제공하는 서비스의 이용 조건과 절차를 규정합니다.</p>
+      <p>본 약관은 WhenStage(whenstage.com, 이하 &ldquo;서비스&rdquo;)가 제공하는 서비스의 이용 조건과 절차를 규정합니다.</p>
 
       <h2>제2조 (서비스 내용)</h2>
       <ul>

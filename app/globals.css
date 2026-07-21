@@ -70,10 +70,23 @@ textarea:focus-visible,
   gap: 1rem;
   padding: 0.7rem 1.2rem;
   background: var(--bg);
-  border-bottom: 1px solid var(--border);
 }
+/* 하단 라인 — 워드마크와 같은 그라데이션(마퀴 헤더 시그니처) */
+.site-header::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: var(--accent-grad);
+}
+/* 마퀴 레이아웃 — 워드마크를 헤더 중앙에 절대배치, 좌우 유틸/내비는 그 아래 flex로 양끝 정렬 */
 .site-header .site-wordmark {
-  position: relative;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   font-size: 1.25rem;
   font-weight: 800;
   letter-spacing: -0.02em;
@@ -108,27 +121,31 @@ textarea:focus-visible,
   color: var(--text);
   border-bottom-color: var(--accent);
 }
-/* 헤더 본체: 좌측 accent 링크 그룹 + 우측 유틸을 한 줄에 */
+/* 헤더 본체: 좌측 유틸(언어·테마) + 우측 내비를 양끝 정렬, 워드마크는 그 위에 절대배치로 중앙 */
 .header-utils {
   flex: 1;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 0.5rem;
-  margin-left: 0.75rem;
 }
-/* 좌측: accent 링크(캘린더~게임 목록) — 워드마크 옆 */
+/* 좌측: 언어 스위처 + 테마 토글 */
+.header-util-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+/* 우측: accent 링크(캘린더~모아보기) + ☰ 메뉴. 드롭다운(site-menu) 기준점 */
+.header-nav-right {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  position: relative;
+}
 .header-primary-nav {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-}
-/* 우측: 테마 토글 + ☰ 메뉴 — 헤더 오른쪽 끝으로. 드롭다운(site-menu) 기준점 */
-.header-right {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin-left: auto;
-  position: relative;
+  gap: 0.2rem;
 }
 /* 메뉴 버튼(☰) */
 .menu-btn {
@@ -146,28 +163,33 @@ textarea:focus-visible,
 }
 .menu-btn:hover { border-color: var(--accent); }
 .menu-btn .ic { width: 20px; height: 20px; }
-/* 헤더 상시 노출 링크 — 동일 사각형 */
-.header-cal-link, .header-guide-link, .header-news-link, .header-coupon-link, .header-games-link {
+/* 헤더 상시 노출 링크 — 필(pill) 형태, 활성 시 꽉 채움 */
+.header-cal-link, .header-guide-link, .header-news-link {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
   height: 38px;
-  padding: 0 0.55rem;
+  padding: 0 0.85rem;
   border: none;
+  border-radius: 999px;
   background: none;
-  color: var(--text);
+  color: var(--text-faint);
   font-size: 0.88rem;
   font-weight: 700;
   white-space: nowrap;
-  transition: color 0.15s;
+  transition: color 0.15s, background 0.15s;
 }
-.header-cal-link:hover, .header-guide-link:hover, .header-news-link:hover, .header-coupon-link:hover, .header-games-link:hover,
+.header-cal-link:hover, .header-guide-link:hover, .header-news-link:hover {
+  color: var(--text);
+  background: var(--bg-elev);
+}
 .header-cal-link.header-cal-active,
 .header-guide-link.header-guide-active,
-.header-news-link.header-news-active,
-.header-coupon-link.header-coupon-active,
-.header-games-link.header-games-active { color: var(--accent); background: none; }
-.header-cal-link .ic, .header-guide-link .ic, .header-news-link .ic, .header-coupon-link .ic, .header-games-link .ic { width: 17px; height: 17px; }
+.header-news-link.header-news-active {
+  color: var(--bg);
+  background: var(--text);
+}
+.header-cal-link .ic, .header-guide-link .ic, .header-news-link .ic { width: 17px; height: 17px; }
 /* 드롭다운 메뉴 — 링크는 항상 DOM에 있고 열림만 토글(크롤 가능) */
 .site-menu {
   position: absolute;
@@ -294,10 +316,8 @@ textarea:focus-visible,
     will-change: transform;
   }
   html[data-scroll="down"] .site-header { transform: translateY(-100%); }
-  /* 앱에선 푸터 법적 링크/광고 숨김 (소개·약관은 가이드 메뉴로 충분) */
+  /* 앱에선 푸터 법적 링크 숨김 (소개·약관은 가이드 메뉴로 충분) */
   .site-footer { display: none; }
-  ins.adsbygoogle,
-  .adsbygoogle { display: none !important; }
   /* 당겨서 새로고침/바운스 시 배경 노출 방지 */
   body { overscroll-behavior-y: contain; }
   /* 토스트는 하단 탭 바 위로 */
@@ -305,6 +325,9 @@ textarea:focus-visible,
   /* 앱: 상단 accent 링크(캘린더~게임 목록)는 ☰ 메뉴로 이동 → 상단바에선 숨김 */
   .header-primary-nav { display: none; }  /* 앱: 상단 accent 링크 그룹은 ☰ 메뉴로 이동 */
   .site-menu .menu-primary { display: flex; }  /* 구체적 선택자로 아래 base(display:none)를 이김 */
+  /* 마퀴 중앙정렬은 데스크톱 전용 — 설치 앱은 항상 좌:워드마크 · 우:유틸 묶음 */
+  .site-header .site-wordmark { position: static; left: auto; top: auto; transform: none; }
+  .header-utils { justify-content: flex-end; }
 }
 
 /* 메뉴 안 상단 링크 묶음 — 웹에선 숨김(상단 accent 링크가 있음), 앱에서만 노출 */
@@ -314,18 +337,24 @@ textarea:focus-visible,
 
 /* ─── 모바일 웹: 설치 앱과 동일한 크롬(하단 탭바 + accent 링크는 ☰ 메뉴로) ───
    base .bottom-tabbar(display:none)·standalone 블록 뒤에 둬서 순서상 이김.
-   ⚠️ 광고·푸터는 유지(standalone과 다름 → AdSense·법적 링크 보호). */
+   ⚠️ 푸터는 유지(standalone과 다름 → 법적 링크 보호). */
 @media (max-width: 640px) {
   .site-header { flex-wrap: nowrap; padding: 0.6rem 0.8rem; }
+  /* 마퀴 중앙정렬은 좌우 여백이 있는 데스크톱 전용 — 모바일은 원래대로 좌:워드마크 · 우:유틸 묶음 */
   .site-header .site-wordmark {
+    position: static;
+    left: auto;
+    top: auto;
+    transform: none;
     font-size: 1.1rem;
     flex: 1 1 auto;
     min-width: 0;
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  .header-utils { justify-content: flex-end; gap: 0.4rem; }
 
-  /* 상단 accent 링크(캘린더~게임 목록)는 ☰ 메뉴 안으로 → 헤더 = 워드마크 + 테마 + ☰ */
+  /* 상단 accent 링크(캘린더~게임 목록)는 ☰ 메뉴 안으로 → 헤더 = 워드마크 + 언어·테마 + ☰ */
   .header-primary-nav { display: none; }
   .site-menu .menu-primary { display: flex; }
 

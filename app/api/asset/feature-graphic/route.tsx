@@ -3,7 +3,7 @@ import { readFileSync } from 'fs';
 import path from 'path';
 
 // Play 스토어 피처 그래픽(1024x500) 생성용 일회성 에셋 엔드포인트.
-// 브랜드 코랄-바이올렛 그라데이션 + 콘서트 캘린더 워드마크 + 한글 태그라인 + 미니 캘린더 모티브.
+// 브랜드 코랄-바이올렛 그라데이션 + WhenStage 워드마크 + 한글 태그라인 + 미니 캘린더 모티브.
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
@@ -36,7 +36,7 @@ export async function GET() {
         {/* 왼쪽 텍스트 */}
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           <span style={{ fontSize: 84, fontWeight: 700, color: '#ffffff', lineHeight: 1 }}>WhenStage</span>
-          <span style={{ fontSize: 48, fontWeight: 700, color: '#ffffff', marginTop: 14 }}>콘서트 캘린더</span>
+          <span style={{ fontSize: 48, fontWeight: 700, color: '#ffffff', marginTop: 14 }}>공연·발매 캘린더</span>
           <span style={{ fontSize: 25, color: '#ffe1ec', marginTop: 18 }}>콘서트 · 내한 · 티켓팅 · 페스티벌 · 컴백</span>
           <span style={{ fontSize: 22, color: '#ffd0e0', marginTop: 8 }}>매일 업데이트되는 국내외 공연 일정</span>
         </div>

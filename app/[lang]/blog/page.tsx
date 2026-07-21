@@ -16,17 +16,17 @@ export async function generateStaticParams() {
 const META: Record<Locale, Metadata> = {
   ko: {
     title: '모아보기 | 발매 픽, 월간 정리, TOP 리스트',
-    description: '신작 발매 픽, 월간·반기 정리, 기대작 TOP 리스트 등 콘서트 캘린더가 직접 정리하는 모아보기.',
+    description: '신작 발매 픽, 월간·반기 정리, 기대작 TOP 리스트 등 WhenStage가 직접 정리하는 모아보기.',
     alternates: { canonical: 'https://whenstage.com/ko/blog' },
   },
   en: {
     title: 'Roundups | New Release Picks, Monthly Summaries, Top Lists',
-    description: 'New release picks, monthly and half-year roundups, and most-anticipated lists — curated by Concert Calendar.',
+    description: 'New release picks, monthly and half-year roundups, and most-anticipated lists — curated by WhenStage.',
     alternates: { canonical: 'https://whenstage.com/en/blog' },
   },
   ja: {
     title: 'まとめ記事 | 新作おすすめ・発売情報まとめ・TOPリスト',
-    description: '新作おすすめ、月間・下半期発売まとめ、期待作TOPリストなど、コンサートカレンダーがキュレーションするまとめ記事。',
+    description: '新作おすすめ、月間・下半期発売まとめ、期待作TOPリストなど、WhenStageがキュレーションするまとめ記事。',
     alternates: { canonical: 'https://whenstage.com/ja/blog' },
   },
 };

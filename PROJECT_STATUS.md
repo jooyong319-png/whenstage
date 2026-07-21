@@ -1,4 +1,4 @@
-# PROJECT_STATUS.md — 콘서트 캘린더
+# PROJECT_STATUS.md — WhenStage
 
 ## 현재 상태 (2026-07-21)
 - `/ko` `/en` `/ja` 완전 대칭 라우팅 구조 전환 완료
