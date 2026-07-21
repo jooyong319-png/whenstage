@@ -16,7 +16,28 @@
 - 콘서트 링크 연결 0건 / 링크 없음 2건(이즈나·JIMFF 원썸머나잇 모두 concerts.ko.json 미등록 아티스트/행사로 링크 생략)
 - 스킵(중복·소스 불충분): 없음 — content/news 디렉터리 자체가 이번에 처음 생성됨(기존 기사 없어 중복 확인 대상 없음)
 - 참고: 인터파크 오픈공지 페이지의 "izna Concert Tour: WHO DAT GIRL？"(팬클럽 선예매 22일 20:00) 공지, 헤럴드경제 기사(2026-07-21 08:30 게재, JIMFF 라인업)를 각각 원 출처로 확인 후 재서술
+## [2026-07-22 00:53] [JA 리서처]
+리서치 완료 (일본 국내 공연)
+- 콘서트/来日 5→10, 발매 3→3, 페스티벌 3→3, 팬미팅 2→2 (후보→통과)
+- 신규 5개 / 갱신 0개 (삭제 없음·전량 보존)
+- 티켓팅 진행중 4개: EPICA(각 프레이가이드 先着一般発売中), SUPER JUNIOR-RYEOWOOK(一般発売 7/18 開始 진행중), 福山雅治(BROS.회원 先行 진행중), FLO(一般発売 7/18 開始 진행중) / JAURIM은 확인된 先行(抽選) 회차가 이미 종료됐고 一般発売 일자 미확인으로 티켓팅 필드 미기재
+- description 보강: 신규 5개 전부 일본어 185~233자
+- image_url: 5개 전부 확신 가능한 티켓 플랫폼 og:image를 추출하지 못해 null 처리(추후 ぴあ/イープラス 상세페이지에서 og:image 재확인 대상)
+- 총 등록 18개
 
+[신규 항목]
+- EPICA「JAPAN TOUR 2026」来日公演(concert_tour, 9/14 東京LIQUIDROOM・9/15 大阪BIGCAT): eplus.jp 공식 티켓 페이지 + jambase + bandsintown 일치. 2025년 12월 来日과는 별개의 신규 투어임을 gekirock 기사(2025년 来日 발표분)와 대조해 확인
+- SUPER JUNIOR-RYEOWOOK「Special Live 2026 〜紺碧〜」(concert_tour, 8/19~20 LINE CUBE SHIBUYA 全3公演): SUPER JUNIOR JAPAN 공식 사이트 + SJ_NEWS_JP 공식 트위터 + dareae.info 집계 일치
+- 福山雅治「NISSAY PRESENTS WE'RE BROS. TOUR 2026 DOME LIVE 龍、涼風至」(concert_tour, 8/5~6 東京ドーム・8/22~23 京セラドーム大阪): 福山雅治 공식 사이트 + 京セラドーム大阪 공식 스케줄 + ローソンチケット 공식 트위터 일치
+- JAURIM（紫雨林）「CONCERT in JAPAN 2026 〜LIFE! X TOKYO〜」(concert_tour, 8/29 Veats Shibuya 昼夜2公演): 韓流ぴあ 공식 트위터(hanryu_pia) + TRAICY + korepo.com 기사 일치. ⚠️1차 검색에서 걸린 buzzyroots 기사는 2025년 2月 duo MUSIC EXCHANGE 공연(작년 来日)에 관한 것으로 확인돼 탈락시키고 재검색으로 올해 8/29 Veats Shibuya 공연을 재확정(정기 来日 아티스트 연도 혼동 함정 실제 발생 사례)
+- FLO「初単独来日ツアー」(concert_tour, 8/31 東京TOYOSU PIT・9/2 大阪Zepp Namba): universal-music.co.jp 공식 뉴스 + Billboard JAPAN + NME Japan + Kyodo 기사 일치
+
+[검증 탈락 / 보류]
+- JAURIM 一般発売 정확 일시: ぴあ最速先行(6/19~6/28 抽選)·ぴあ先行予約(7/2~7/12 抽選) 확인됐으나 一般発売 개시일 자체는 독립 출처로 확정 못 해 presale/general_sale 필드는 미기재(다음 사이클 t.pia 상세페이지에서 재확인)
+- Janet Jackson Japan 2026(6/9~17 神戸·横浜·名古屋): 공연 자체는 잘 검증되나 오늘(7/22) 기준 이미 종료된 공연이라 신규 추가 실익이 없다고 판단해 보류(과거 공연 아카이브 추가는 다음 우선순위로)
+
+[검증 프로세스 노트]
+- 이번 사이클은 RESEARCHER_JA.md 프롬프트를 처음부터 끝까지 따라가며 실제 검증 실행. 2단계 원칙(집계→개별 검색)과 연도 함정 경고가 실제로 JAURIM 건에서 작동함을 확인(1차 결과로 잡힌 buzzyroots 기사가 작년 공연이었음을 재검색으로 발견)
 ## [2026-07-22 00:07] [KO 리서처]
 리서치 완료 (한국 국내 공연)
 - 콘서트/내한 6→1, 음원발매 11→9, 페스티벌 5→1, 팬미팅 0→0 (후보→통과)
