@@ -134,7 +134,7 @@
         "R&B",
         "ポップ"
       ],
-      "image_url": null,
+      "image_url": "https://img.hmv.co.jp/hybridimage/eventpage/394438/main.webp?20260626104229",
       "source_url": "https://www.universal-music.co.jp/the-weeknd/news/2026-05-13/",
       "general_sale": true,
       "general_sale_datetime": null,
@@ -186,7 +186,11 @@
       "general_sale": true,
       "general_sale_datetime": "2026-07-25T10:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://www.udo.jp/shows/Journey26"
+      "general_sale_url": "https://www.udo.jp/shows/Journey26",
+      "presale": true,
+      "presale_datetime": "2026-07-06T12:00:00+09:00",
+      "presale_end_datetime": "2026-07-24T18:00:00+09:00",
+      "presale_url": "https://www.udo.jp/shows/Journey26"
     },
     {
       "id": "ja-charlie-puth-2026-20261016",
@@ -244,6 +248,91 @@
       ],
       "image_url": null,
       "source_url": "https://www.sixtones.jp/news/471/"
+    },
+    {
+      "id": "ja-nakajima-kento-onigoto-20260819",
+      "name": "中島健人『鬼事 / Fiction Love』",
+      "release_date": "2026-08-19",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "中島健人",
+      "publisher": null,
+      "description": "元Sexy Zoneの中島健人が2026年8月19日にリリースする、初の両A面となる3rdシングル。表題曲「鬼事」はTVアニメ「逃げ上手の若君」第二期のオープニングテーマで、中島自身も作詞に参加している。もう一方の表題曲「Fiction Love」は、7月に全国公開された主演映画「ラブ≠コメディ」の主題歌。ソロ活動を本格化させる中島の新たな表現が詰まった一枚として注目を集めている。",
+      "genres": [
+        "J-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/584745"
+    },
+    {
+      "id": "ja-treasure-the-stage-20260905",
+      "name": "TREASURE「THE STAGE 2026 IN JAPAN」来日公演",
+      "release_date": "2026-09-05",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "有明アリーナ"
+      ],
+      "developer": "TREASURE",
+      "publisher": "YGEX",
+      "description": "YGエンターテインメント所属のボーイズグループTREASUREによる来日公演。2026年9月5日・6日の2日間、東京・有明アリーナで開催される。ファンクラブ先行やオフィシャル先行など各種チケット販売はすでに終了しており、当日は電子チケットアプリ「AnyPASS」を通じて入場する方式が採られる。日本のファンと直接向き合う大規模なアリーナ公演として期待が高まっている。",
+      "genres": [
+        "来日",
+        "K-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://ygex.jp/en/treasure/live/tour.php?id=1002948"
+    },
+    {
+      "id": "ja-jisung-our-scene-20260918",
+      "name": "チソン『2026 JISUNG FANMEETING IN JAPAN : OUR SCENE』",
+      "release_date": "2026-09-18",
+      "release_time": "17:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "fanmeeting",
+      "platforms": [
+        "せたがやイーグレットホール（世田谷区民会館）"
+      ],
+      "developer": "チソン",
+      "publisher": null,
+      "description": "韓国の俳優チソンによる約1年ぶりの来日ファンミーティング。2026年9月18日に東京・せたがやイーグレットホール、9月19日に大阪・寝屋川市立市民会館大ホールで開催される。同じ事務所の俳優ファンヒがゲストとして出演することも発表された。ファンクラブ限定の1次先行が7月13日から7月26日まで受け付けられており、来場者にはオリジナルペンライトが用意される。",
+      "genres": [
+        "ファンミーティング",
+        "韓国"
+      ],
+      "image_url": null,
+      "source_url": "https://ticketplus.co.jp/news/detail/968",
+      "presale": true,
+      "presale_datetime": "2026-07-13T10:00:00+09:00",
+      "presale_end_datetime": "2026-07-26T23:59:00+09:00",
+      "presale_url": null
+    },
+    {
+      "id": "ja-ko1keyz-1st-fanmeeting-20260821",
+      "name": "2026 KO1KEYZ 1ST FAN MEETING",
+      "release_date": "2026-08-21",
+      "release_time": "18:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "fanmeeting",
+      "platforms": [
+        "TOYOTA ARENA TOKYO"
+      ],
+      "developer": "KO1KEYZ",
+      "publisher": null,
+      "description": "オーディション番組「PRODUCE 101 JAPAN 新世界」から誕生したグローバルボーイズグループKO1KEYZ初のファンミーティング。2026年8月21日から23日にかけて東京・TOYOTA ARENA TOKYOで、9月9日・10日には兵庫・神戸ワールド記念ホールで開催される。応募多数を受けて追加公演が決定し、複数の日程が昼夜2部制で行われる。デビュー間もないグループがファンと初めて対面する記念すべき機会となる。",
+      "genres": [
+        "ファンミーティング",
+        "K-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://shinsekai.produce101.jp/feature/1st_fanmeeting"
     }
   ]
 }
