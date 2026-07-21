@@ -1,5 +1,5 @@
-// 게임 출시 캘린더 서비스워커 — PWA 설치/오프라인 폴백 + 웹 푸시 알림.
-const CACHE = 'gcalen-v3';
+// 콘서트 캘린더 서비스워커 — PWA 설치/오프라인 폴백 + 웹 푸시 알림.
+const CACHE = 'whenstage-v1';
 const OFFLINE_URL = '/offline.html';
 
 self.addEventListener('install', (e) => {
@@ -33,7 +33,7 @@ self.addEventListener('fetch', (e) => {
 self.addEventListener('push', (e) => {
   let data = {};
   try { data = e.data ? e.data.json() : {}; } catch (_) { /* ignore */ }
-  const title = data.title || '게임 출시 캘린더';
+  const title = data.title || '콘서트 캘린더';
   const options = {
     body: data.body || '',
     icon: '/icons/icon-192.png',

@@ -60,7 +60,7 @@ export function Comments({ gameId, placeholder }: Props) {
       if (insErr) throw insErr;
       setContent('');
       // 닉네임은 다음에도 쓸 수 있게 localStorage에 저장
-      try { localStorage.setItem('gcalen.nickname', nick); } catch { /* ignore */ }
+      try { localStorage.setItem('whenstage.nickname', nick); } catch { /* ignore */ }
       await loadComments();
     } catch {
       setError('댓글 등록에 실패했어요. 잠시 후 다시 시도해주세요.');
@@ -72,7 +72,7 @@ export function Comments({ gameId, placeholder }: Props) {
   // 마지막 사용한 닉네임 복원
   useEffect(() => {
     try {
-      const saved = localStorage.getItem('gcalen.nickname');
+      const saved = localStorage.getItem('whenstage.nickname');
       if (saved) setNickname(saved);
     } catch { /* ignore */ }
   }, []);

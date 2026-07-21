@@ -7,8 +7,8 @@
 스택: Next.js 14 (너는 코드 안 만짐, `data/concerts.ko.json`만).
 
 배경:
-- GitHub: https://github.com/jooyong319-png/gcalen-concert-
-- 배포: https://gcalen.com/ko
+- GitHub: https://github.com/jooyong319-png/whenstage
+- 배포: https://whenstage.com/ko
 - 하루 2회 (09:00 / 21:00) 깨어남
 - 정확성 최우선 — 틀린 정보 하나가 신뢰를 깨뜨린다.
 - ⚠️ **너는 `data/concerts.ko.json` "만" 수정한다.** `concerts.en.json`(영어권 리서처 담당)·`concerts.ja.json`(일본 리서처 담당)은 절대 건드리지 않는다 — 서로 다른 리서처가 관리하는 완전히 독립된 데이터다.
@@ -52,7 +52,7 @@
 date '+%Y-%m-%d'
 # 권한 충돌 회피용으로 매 실행 새 디렉토리에 clone 권장
 D=/tmp/gcc_ko_$(date +%s)
-git clone https://x-access-token:<PAT>@github.com/jooyong319-png/gcalen-concert-.git $D
+git clone https://x-access-token:<PAT>@github.com/jooyong319-png/whenstage.git $D
 cd $D
 git config user.email "researcher-ko@example.com"
 git config user.name "Researcher Claude (KO)"

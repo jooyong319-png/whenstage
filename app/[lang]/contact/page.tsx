@@ -13,18 +13,18 @@ export async function generateStaticParams() {
 const META: Record<Locale, Metadata> = {
   ko: {
     title: '문의하기',
-    description: '콘서트 캘린더(gcalen.com) 문의처 — 정보 정정·삭제 요청, 제휴, 저작권, 개인정보 관련 문의를 받습니다.',
-    alternates: { canonical: 'https://gcalen.com/ko/contact' },
+    description: '콘서트 캘린더(whenstage.com) 문의처 — 정보 정정·삭제 요청, 제휴, 저작권, 개인정보 관련 문의를 받습니다.',
+    alternates: { canonical: 'https://whenstage.com/ko/contact' },
   },
   en: {
     title: 'Contact',
-    description: 'Contact Concert Calendar (gcalen.com) for corrections, removal requests, partnerships, copyright, or privacy inquiries.',
-    alternates: { canonical: 'https://gcalen.com/en/contact' },
+    description: 'Contact Concert Calendar (whenstage.com) for corrections, removal requests, partnerships, copyright, or privacy inquiries.',
+    alternates: { canonical: 'https://whenstage.com/en/contact' },
   },
   ja: {
     title: 'お問い合わせ',
-    description: 'コンサートカレンダー(gcalen.com)へのお問い合わせ — 情報の訂正・削除依頼、提携、著作権、個人情報に関するご相談を受け付けています。',
-    alternates: { canonical: 'https://gcalen.com/ja/contact' },
+    description: 'コンサートカレンダー(whenstage.com)へのお問い合わせ — 情報の訂正・削除依頼、提携、著作権、個人情報に関するご相談を受け付けています。',
+    alternates: { canonical: 'https://whenstage.com/ja/contact' },
   },
 };
 
@@ -37,7 +37,7 @@ function KoBody() {
   return (
     <>
       <h1>문의하기</h1>
-      <p>콘서트 캘린더(gcalen.com)를 이용해 주셔서 감사합니다. 아래 내용은 이메일로 문의해 주시면 확인 후 성실히 답변드리겠습니다.</p>
+      <p>콘서트 캘린더(whenstage.com)를 이용해 주셔서 감사합니다. 아래 내용은 이메일로 문의해 주시면 확인 후 성실히 답변드리겠습니다.</p>
 
       <h2>이런 문의를 받습니다</h2>
       <ul>
@@ -61,7 +61,7 @@ function EnBody() {
   return (
     <>
       <h1>Contact</h1>
-      <p>Thanks for using Concert Calendar (gcalen.com). Email us with the details below and we&rsquo;ll review and respond.</p>
+      <p>Thanks for using Concert Calendar (whenstage.com). Email us with the details below and we&rsquo;ll review and respond.</p>
 
       <h2>We accept</h2>
       <ul>
@@ -85,7 +85,7 @@ function JaBody() {
   return (
     <>
       <h1>お問い合わせ</h1>
-      <p>Gcalen(gcalen.com)をご利用いただきありがとうございます。以下の内容でメールいただければ、確認のうえ誠実にご対応いたします。</p>
+      <p>WhenStage(whenstage.com)をご利用いただきありがとうございます。以下の内容でメールいただければ、確認のうえ誠実にご対応いたします。</p>
 
       <h2>受け付けている内容</h2>
       <ul>

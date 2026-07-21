@@ -8,11 +8,11 @@ export const LOCALES: Locale[] = ['ko', 'en', 'ja'];
 // locale별 data/concerts.{ko,en,ja}.json을 각각 읽음) — 그래서 게임명/설명에 별도
 // 폴백 헬퍼가 필요 없음. 각 페이지가 자기 locale의 데이터를 그대로 씀.
 
-// events.json 이벤트 타입(game_show/sale/season/free_game) 라벨
-export const EVENT_TYPE_LABELS: Record<Locale, Record<'game_show' | 'sale' | 'season' | 'free_game', string>> = {
-  ko: { game_show: '게임쇼', sale: '할인', season: '새 시즌', free_game: '무료' },
-  en: { game_show: 'Game Show', sale: 'Sale', season: 'New Season', free_game: 'Free' },
-  ja: { game_show: 'ゲームショー', sale: 'セール', season: '新シーズン', free_game: '無料' },
+// events.json 이벤트 타입(game_show/sale/season) 라벨
+export const EVENT_TYPE_LABELS: Record<Locale, Record<'game_show' | 'sale' | 'season', string>> = {
+  ko: { game_show: '게임쇼', sale: '할인', season: '새 시즌' },
+  en: { game_show: 'Game Show', sale: 'Sale', season: 'New Season' },
+  ja: { game_show: 'ゲームショー', sale: 'セール', season: '新シーズン' },
 };
 
 export const CATEGORY_LABELS: Record<Locale, Record<Category, string>> = {
@@ -160,14 +160,11 @@ interface CalUiStrings {
   searchPlaceholder: string;
   wishlist: string;
   wishlistOnly: string;
-  viewCalendar: string;
-  viewList: string;
   today: string;
   noImage: string;
   lastUpdated: string;
   noSchedule: string;
   totalCount: string;
-  free: string;
   comingSoon: string;
   days: string;
   hours: string;
@@ -193,6 +190,7 @@ interface CalUiStrings {
   swipeHint: string;
   closePanel: string;
   noScheduleThisDate: string;
+  todaySchedule: string;
   presaleTag: string;
   generalSaleTag: string;
   deadlineTag: string;
@@ -227,6 +225,7 @@ interface CalUiStrings {
   startsOn: (label: string) => string;
   totalItems: (count: number) => string;
   noScheduleRegistered: string;
+  noSearchResults: string;
   copy: string;
   copiedCheck: string;
   expiredTag: string;
@@ -249,7 +248,6 @@ interface CalUiStrings {
   upcomingTag: string;
   fullGameList: string;
   otherGameCouponsShort: string;
-  gcalenHome: string;
   noValidCodesShort: string;
   hubLastUpdatedNote: (dateLabel: string) => string;
   couponFor: (name: string, term: string) => string;
@@ -278,8 +276,6 @@ interface CalUiStrings {
   switchToDark: string;
   recommendedSchedule: string;
   eventEnds: (title: string) => string;
-  freeStarts: (title: string) => string;
-  freeEnds: (title: string) => string;
 }
 
 export const CAL: Record<Locale, CalUiStrings> = {
@@ -287,14 +283,11 @@ export const CAL: Record<Locale, CalUiStrings> = {
     searchPlaceholder: '공연명 검색…',
     wishlist: '찜',
     wishlistOnly: '찜한 것만 보기',
-    viewCalendar: '캘린더',
-    viewList: '리스트',
     today: '오늘',
     noImage: '이미지 없음',
     lastUpdated: '데이터 마지막 갱신',
     noSchedule: '등록된 일정이 없어요.',
     totalCount: '총',
-    free: '무료',
     comingSoon: '공개 임박',
     days: '일', hours: '시간', minutes: '분', seconds: '초',
     weekdays: ['일', '월', '화', '수', '목', '금', '토'],
@@ -317,6 +310,7 @@ export const CAL: Record<Locale, CalUiStrings> = {
     swipeHint: '좌우로 밀거나 ‹ ›로 다른 달을 살펴보세요.',
     closePanel: '패널 닫기',
     noScheduleThisDate: '이 날짜엔 일정이 없어요.',
+    todaySchedule: '오늘의 일정',
     presaleTag: '선예매',
     generalSaleTag: '일반예매',
     deadlineTag: '마감',
@@ -351,6 +345,7 @@ export const CAL: Record<Locale, CalUiStrings> = {
     startsOn: (label) => `${label} 시작`,
     totalItems: (count) => `총 ${count}개`,
     noScheduleRegistered: '아직 등록된 일정이 없어요.',
+    noSearchResults: '검색 결과가 없어요.',
     copy: '복사',
     copiedCheck: '복사됨 ✓',
     expiredTag: '만료됨',
@@ -373,7 +368,6 @@ export const CAL: Record<Locale, CalUiStrings> = {
     upcomingTag: '예정',
     fullGameList: '전체 목록 보기 →',
     otherGameCouponsShort: '다른 항목 →',
-    gcalenHome: '콘서트 캘린더 →',
     noValidCodesShort: '현재 유효한 항목이 없어요.',
     hubLastUpdatedNote: (dateLabel) => `마지막 업데이트: ${dateLabel}.`,
     couponFor: (name, term) => `${name} ${term}`,
@@ -402,21 +396,16 @@ export const CAL: Record<Locale, CalUiStrings> = {
     switchToDark: '다크 모드로 전환',
     recommendedSchedule: '추천 일정',
     eventEnds: (title) => `${title} 종료`,
-    freeStarts: (title) => `${title} 무료 시작`,
-    freeEnds: (title) => `${title} 무료 종료`,
   },
   en: {
     searchPlaceholder: 'Search games…',
     wishlist: 'Wishlist',
     wishlistOnly: 'Wishlist only',
-    viewCalendar: 'Calendar',
-    viewList: 'List',
     today: 'Today',
     noImage: 'No image',
     lastUpdated: 'Data last updated',
     noSchedule: 'No games scheduled.',
     totalCount: 'Total',
-    free: 'Free',
     comingSoon: 'Coming soon',
     days: 'D', hours: 'H', minutes: 'M', seconds: 'S',
     weekdays: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
@@ -439,6 +428,7 @@ export const CAL: Record<Locale, CalUiStrings> = {
     swipeHint: 'Swipe or use ‹ › to browse other months.',
     closePanel: 'Close panel',
     noScheduleThisDate: 'Nothing scheduled on this date.',
+    todaySchedule: "Today's Schedule",
     presaleTag: 'Presale',
     generalSaleTag: 'General sale',
     deadlineTag: 'Deadline',
@@ -473,6 +463,7 @@ export const CAL: Record<Locale, CalUiStrings> = {
     startsOn: (label) => `Starts ${label}`,
     totalItems: (count) => `${count} total`,
     noScheduleRegistered: 'No games scheduled here yet.',
+    noSearchResults: 'No results found.',
     copy: 'Copy',
     copiedCheck: 'Copied ✓',
     expiredTag: 'Expired',
@@ -496,7 +487,6 @@ export const CAL: Record<Locale, CalUiStrings> = {
     upcomingTag: 'Upcoming',
     fullGameList: 'Full game list →',
     otherGameCouponsShort: 'Other game coupons →',
-    gcalenHome: 'Game release calendar →',
     noValidCodesShort: 'No active codes right now. See the dedicated page for recently expired codes and how to redeem.',
     hubLastUpdatedNote: (dateLabel) => `Last updated: ${dateLabel}. Codes and schedules are verified against official channels.`,
     couponFor: (name, term) => `${name} ${term}`,
@@ -525,21 +515,16 @@ export const CAL: Record<Locale, CalUiStrings> = {
     switchToDark: 'Switch to dark mode',
     recommendedSchedule: 'Recommended schedule',
     eventEnds: (title) => `${title} ends`,
-    freeStarts: (title) => `${title} free starts`,
-    freeEnds: (title) => `${title} free ends`,
   },
   ja: {
     searchPlaceholder: 'ゲームを検索…',
     wishlist: 'お気に入り',
     wishlistOnly: 'お気に入りのみ表示',
-    viewCalendar: 'カレンダー',
-    viewList: 'リスト',
     today: '今日',
     noImage: '画像なし',
     lastUpdated: 'データ最終更新',
     noSchedule: '登録されている予定がありません。',
     totalCount: '合計',
-    free: '無料',
     comingSoon: '発売間近',
     days: '日', hours: '時間', minutes: '分', seconds: '秒',
     weekdays: ['日', '月', '火', '水', '木', '金', '土'],
@@ -562,6 +547,7 @@ export const CAL: Record<Locale, CalUiStrings> = {
     swipeHint: 'スワイプまたは‹ ›で他の月を見る。',
     closePanel: 'パネルを閉じる',
     noScheduleThisDate: 'この日には予定がありません。',
+    todaySchedule: '本日の予定',
     presaleTag: '先行予約',
     generalSaleTag: '一般発売',
     deadlineTag: '締切',
@@ -596,6 +582,7 @@ export const CAL: Record<Locale, CalUiStrings> = {
     startsOn: (label) => `${label}開始`,
     totalItems: (count) => `合計${count}件`,
     noScheduleRegistered: 'まだ登録されている予定がありません。',
+    noSearchResults: '検索結果がありません。',
     copy: 'コピー',
     copiedCheck: 'コピーしました ✓',
     expiredTag: '期限切れ',
@@ -619,7 +606,6 @@ export const CAL: Record<Locale, CalUiStrings> = {
     upcomingTag: '予定',
     fullGameList: 'ゲーム一覧を見る →',
     otherGameCouponsShort: '他のゲームクーポン →',
-    gcalenHome: 'ゲーム発売カレンダー →',
     noValidCodesShort: '現在有効なコードはありません。専用ページで最近期限切れのコードと使い方を確認できます。',
     hubLastUpdatedNote: (dateLabel) => `最終更新: ${dateLabel}。コード・日程は公式チャンネルを基に確認しています。`,
     couponFor: (name, term) => `${name} ${term}`,
@@ -648,7 +634,5 @@ export const CAL: Record<Locale, CalUiStrings> = {
     switchToDark: 'ダークモードに切り替え',
     recommendedSchedule: 'おすすめの日程',
     eventEnds: (title) => `${title} 終了`,
-    freeStarts: (title) => `${title} 無料開始`,
-    freeEnds: (title) => `${title} 無料終了`,
   },
 };

@@ -9,7 +9,6 @@ import { CAL, type Locale } from '@/lib/i18nLabels';
 // import { PromoBanner } from './PromoBanner';
 // import { PopularGames } from './PopularGames';
 // import { CalendarSubscribe } from './CalendarSubscribe';
-// import { FreeGames } from './FreeGames';
 // import { AdFit } from './AdFit';
 import styles from './PageShell.module.css';
 
@@ -33,7 +32,6 @@ export async function PageShell({ children, lang }: Props) {
         {/* ── 이전 위젯들: 재구성으로 임시 비활성 (재사용 가능) ──
         <NextByCategory games={games} now={now} />
         <AdFit unit="DAN-OszywWckdPV6qhbX" width={300} height={250} />
-        <FreeGames compact />
         <PopularGames meta={meta} />
         <CalendarSubscribe />
         <PromoBanner variant="update" />

@@ -13,18 +13,18 @@ export async function generateStaticParams() {
 const META: Record<Locale, Metadata> = {
   ko: {
     title: '개인정보처리방침',
-    description: '콘서트 캘린더(gcalen.com) 개인정보처리방침 — 수집 항목, 쿠키 및 맞춤 광고(Google AdSense), 제3자 처리 위탁에 대한 안내.',
-    alternates: { canonical: 'https://gcalen.com/ko/privacy' },
+    description: '콘서트 캘린더(whenstage.com) 개인정보처리방침 — 수집 항목, 쿠키 및 맞춤 광고(Google AdSense), 제3자 처리 위탁에 대한 안내.',
+    alternates: { canonical: 'https://whenstage.com/ko/privacy' },
   },
   en: {
     title: 'Privacy Policy',
-    description: 'Gcalen (gcalen.com) privacy policy — data we collect, cookies and personalized ads (Google AdSense), and third-party processing.',
-    alternates: { canonical: 'https://gcalen.com/en/privacy' },
+    description: 'WhenStage (whenstage.com) privacy policy — data we collect, cookies and personalized ads (Google AdSense), and third-party processing.',
+    alternates: { canonical: 'https://whenstage.com/en/privacy' },
   },
   ja: {
     title: 'プライバシーポリシー',
-    description: 'Gcalen(gcalen.com)のプライバシーポリシー — 収集項目、クッキーおよびパーソナライズ広告(Google AdSense)、第三者への処理委託について。',
-    alternates: { canonical: 'https://gcalen.com/ja/privacy' },
+    description: 'WhenStage(whenstage.com)のプライバシーポリシー — 収集項目、クッキーおよびパーソナライズ広告(Google AdSense)、第三者への処理委託について。',
+    alternates: { canonical: 'https://whenstage.com/ja/privacy' },
   },
 };
 
@@ -37,7 +37,7 @@ function KoBody() {
   return (
     <>
       <h1>개인정보처리방침</h1>
-      <p>콘서트 캘린더(gcalen.com, 이하 &ldquo;서비스&rdquo;)는 이용자의 개인정보를 소중히 다루며 관련 법령을 준수합니다. 본 방침은 서비스가 수집하는 정보와 이용 방식을 설명합니다.</p>
+      <p>콘서트 캘린더(whenstage.com, 이하 &ldquo;서비스&rdquo;)는 이용자의 개인정보를 소중히 다루며 관련 법령을 준수합니다. 본 방침은 서비스가 수집하는 정보와 이용 방식을 설명합니다.</p>
 
       <h2>1. 수집하는 정보</h2>
       <p>서비스는 회원가입·로그인 없이 이용할 수 있으며, 이름·이메일·전화번호 등 개인 식별정보는 수집하지 않습니다. 다음 정보가 수집·저장될 수 있습니다.</p>
@@ -76,7 +76,7 @@ function KoBody() {
       <p>댓글은 운영 방침에 따라 삭제 시까지 보관됩니다.</p>
 
       <h2>6. 이용자 권리 및 데이터 삭제 요청</h2>
-      <p>콘서트 캘린더(gcalen.com) 이용자는 다음과 같은 방법으로 데이터 삭제를 요청할 수 있습니다.</p>
+      <p>콘서트 캘린더(whenstage.com) 이용자는 다음과 같은 방법으로 데이터 삭제를 요청할 수 있습니다.</p>
       <ul>
         <li><strong>이메일을 통한 삭제 요청</strong>: 작성한 댓글의 삭제를 원하시면 해당 페이지 링크와 함께 이메일로 요청해 주세요. 확인 후 신속히 삭제해 드립니다.</li>
         <li><strong>삭제되는 데이터</strong>: 댓글 내용.</li>
@@ -96,7 +96,7 @@ function EnBody() {
   return (
     <>
       <h1>Privacy Policy</h1>
-      <p>Gcalen (gcalen.com, the &ldquo;Service&rdquo;) values your privacy and complies with applicable law. This policy explains what information the Service collects and how it&rsquo;s used.</p>
+      <p>WhenStage (whenstage.com, the &ldquo;Service&rdquo;) values your privacy and complies with applicable law. This policy explains what information the Service collects and how it&rsquo;s used.</p>
 
       <h2>1. Information we collect</h2>
       <p>The Service can be used without signing up or logging in, and we don&rsquo;t collect personal identifiers like name, email, or phone number. The following may be collected and stored:</p>
@@ -135,7 +135,7 @@ function EnBody() {
       <p>Comments are retained until deleted per our operating policy.</p>
 
       <h2>6. Your rights and data deletion requests</h2>
-      <p>Gcalen (gcalen.com) users may request data deletion as follows:</p>
+      <p>WhenStage (whenstage.com) users may request data deletion as follows:</p>
       <ul>
         <li><strong>Request deletion by email</strong>: to delete a comment you posted, email us with a link to the relevant page. We&rsquo;ll verify and delete it promptly.</li>
         <li><strong>Data that gets deleted</strong>: comment content.</li>
@@ -155,7 +155,7 @@ function JaBody() {
   return (
     <>
       <h1>プライバシーポリシー</h1>
-      <p>Gcalen(gcalen.com、以下「本サービス」)は利用者の個人情報を大切に扱い、関連法令を遵守します。本ポリシーは、本サービスがどのような情報をどのように収集・利用するかを説明するものです。</p>
+      <p>WhenStage(whenstage.com、以下「本サービス」)は利用者の個人情報を大切に扱い、関連法令を遵守します。本ポリシーは、本サービスがどのような情報をどのように収集・利用するかを説明するものです。</p>
 
       <h2>1. 収集する情報</h2>
       <p>本サービスは会員登録・ログインなしでご利用いただけ、氏名・メールアドレス・電話番号等の個人識別情報は収集しません。以下の情報が収集・保存される場合があります。</p>
@@ -194,7 +194,7 @@ function JaBody() {
       <p>コメントは運営ポリシーに従い、削除されるまで保管されます。</p>
 
       <h2>6. 利用者の権利およびデータ削除依頼</h2>
-      <p>Gcalen(gcalen.com)の利用者は、以下の方法でデータ削除を依頼できます。</p>
+      <p>WhenStage(whenstage.com)の利用者は、以下の方法でデータ削除を依頼できます。</p>
       <ul>
         <li><strong>メールによる削除依頼</strong>: ご自身が投稿したコメントの削除をご希望の場合、該当ページのリンクを添えて下記の連絡先までメールでご依頼ください。本人確認のうえ速やかに削除いたします。</li>
         <li><strong>削除されるデータ</strong>: コメント内容。</li>

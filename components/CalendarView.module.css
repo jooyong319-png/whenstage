@@ -1,369 +1,180 @@
 .view {
   margin: 0;
-  background: var(--bg-elev);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 14px;
 }
 
 .calCatBar {
-  margin-bottom: 0.9rem;
-  padding-bottom: 0.8rem;
-  border-bottom: 1px solid var(--border);
+  margin-bottom: 1rem;
 }
+
+/* ─── 본문: 캘린더(좌) + 오늘의 일정 패널(우) ─── */
+.body {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  gap: 1.4rem;
+  align-items: start;
+}
+@media (max-width: 900px) {
+  .body { grid-template-columns: 1fr; }
+}
+
+.calCol {
+  background: var(--bg);
+  border-radius: var(--radius);
+  padding: 1rem 1.1rem 1.3rem;
+}
+
 .header {
   display: flex;
   align-items: center;
   gap: 0.6rem;
   justify-content: center;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.9rem;
 }
-.label { font-size: 1.2rem; font-weight: 700; }
+.label { font-size: 1.2rem; font-weight: 800; }
 .navBtn {
   background: var(--bg-elev);
   border: 1px solid var(--border);
   color: var(--text);
-  width: 36px; height: 36px;
+  width: 34px; height: 34px;
   border-radius: 50%;
   font-size: 1.2rem;
   cursor: pointer;
 }
 .navBtn:hover { border-color: var(--accent); }
 .todayBtn {
-  background: rgba(16,185,129,0.12);
-  border: 1px solid rgba(16,185,129,0.4);
+  background: rgba(255,61,120,0.12);
+  border: 1px solid rgba(255,61,120,0.4);
   color: var(--text);
   padding: 0.4rem 0.9rem;
-  border-radius: 6px;
+  border-radius: 999px;
   font-size: 0.85rem;
+  font-weight: 700;
   cursor: pointer;
 }
-.todayBtn:hover { background: rgba(16,185,129,0.22); color: var(--text); }
+.todayBtn:hover { background: rgba(255,61,120,0.22); color: var(--text); }
 
 /* ─── 주말 색 구분 (한국 달력 관습) ─── */
 .sun { color: #e57373; }
 .sat { color: #4a90e2; }
 .cellDate.sun { color: #e57373; }
 .cellDate.sat { color: #4a90e2; }
-/* 강조 셀 날짜는 흰색 유지 (소스 후행 override) */
-.cellSelected .cellDate { color: var(--text); }
 
-/* ─── Calendar Grid ─── */
+/* ─── Calendar Grid — 경계선 없이 숫자+점만(정리된 대시보드 느낌) ─── */
 .grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap: 1px;
-  background: var(--border);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  overflow: hidden;
+  row-gap: 0.5rem;
 }
-/* 월 전환 슬라이드 */
 .slideNext { animation: calSlideNext 0.24s ease; }
 .slidePrev { animation: calSlidePrev 0.24s ease; }
 @keyframes calSlideNext { from { opacity: 0; transform: translateX(16px); } to { opacity: 1; transform: none; } }
 @keyframes calSlidePrev { from { opacity: 0; transform: translateX(-16px); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { .slideNext, .slidePrev { animation: none; } }
 .dayHead {
-  background: var(--bg);
-  padding: 0.4rem;
+  padding: 0.3rem 0 0.6rem;
   text-align: center;
   font-size: 0.78rem;
   color: var(--text-faint);
-  font-weight: 600;
+  font-weight: 700;
 }
-/* 요일 헤더 주말 색 (2클래스 특이도로 후행 .dayHead{color:var(--text-faint)} override) */
 .dayHead.sun { color: #e57373; }
 .dayHead.sat { color: #4a90e2; }
 
-/* ─── Cell ─── */
+/* ─── Cell — 배경/보더 없음, 숫자 + 점만 ─── */
 .cell {
-  background: var(--bg);
-  min-height: 92px;
-  padding: 0.35rem 0.4rem;
+  min-height: 68px;
+  padding: 0.3rem 0.15rem;
   display: flex;
   flex-direction: column;
-  gap: 0.2rem;
-  position: relative;
-  outline: none;
-  cursor: pointer;
-  transition: background 0.12s, border-color 0.12s;
-}
-.cell:hover { background: var(--bg); }
-.cell:focus-visible {
-  background: var(--bg-elev);
-  box-shadow: inset 0 0 0 2px var(--accent);
-}
-.cellOther { opacity: 0.35; }
-.cellOther.cellToday { opacity: 1; }
-.cellClickable { cursor: pointer; }
-.cellClickable:hover { background: var(--bg-elev); }
-.cellClickable:focus-visible {
-  background: var(--bg-elev);
-  box-shadow: inset 0 0 0 2px var(--accent);
-}
-.cellHas {
-  /* 정리 §B-5: tint·좌측 정보색 바 제거 — 카테고리는 우하단 점(.cellDot)으로만 식별 */
-  background: var(--bg);
-}
-.cellToday {
-  background: var(--bg);
-  box-shadow: inset 0 0 0 1px var(--accent);
-}
-.cellSelected {
-  background: var(--bg-elev);
-  box-shadow: inset 0 0 0 2px var(--accent);
-}
-
-.cellDate {
-  font-size: 0.78rem;
-  color: var(--text);
-  font-weight: 600;
-  display: flex;
   align-items: center;
   gap: 0.3rem;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background 0.12s;
 }
-.cellTodayNum {
-  width: 1.5em;
-  height: 1.5em;
-  border-radius: 50%;
-  background: var(--accent);
+.cell:hover { background: var(--bg-elev); }
+.cell:focus-visible { box-shadow: inset 0 0 0 2px var(--accent); }
+.cellOther { opacity: 0.3; }
+.cellSelected { background: var(--bg-elev); }
+
+.cellDate {
+  font-size: 0.85rem;
   color: var(--text);
   font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+.cellDateNum {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--text);
+  color: var(--bg-elev);
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
-
-.cellName {
-  font-size: 0.72rem;
-  color: var(--text);
-  font-weight: 500;
-  line-height: 1.2;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  word-break: keep-all;
-  overflow-wrap: anywhere;
-  min-height: 1.7em;
-}
-.cellMore {
-  font-size: 0.65rem;
-  color: var(--accent-warm);
-  margin-left: 0.2rem;
-  font-weight: 700;
-}
-/* 셀 이름 옆 '사전예약' 소형 태그 */
-.cellPreTag {
-  font-size: 0.58rem;
-  font-weight: 700;
-  color: var(--accent-warm);
-  margin-left: 0.25rem;
-  white-space: nowrap;
-  letter-spacing: -0.02em;
-}
+.cellSelected .cellDateNum { background: var(--accent); color: #fff; }
 
 .cellDots {
   display: flex;
-  gap: 0.18rem;
+  gap: 0.2rem;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: auto;
+  justify-content: center;
+  min-height: 8px;
 }
 .cellDot {
-  width: 7px; height: 7px;
+  width: 6px; height: 6px;
   border-radius: 50%;
   display: block;
 }
 .cellDotMore {
-  font-size: 0.62rem;
-  color: var(--text-faint);
-  margin-left: 0.1rem;
-}
-
-/* 이벤트 칩(게임쇼/할인/시즌/무료) */
-.cellEvents { display: flex; flex-direction: column; gap: 2px; margin-top: 3px; }
-.cellEvent {
-  font-size: 0.6rem;
-  line-height: 1.25;
-  font-weight: 600;
-  color: var(--text);
-  background: color-mix(in srgb, var(--ev) 16%, transparent);
-  border-left: 2px solid var(--ev);
-  padding: 1px 4px;
-  border-radius: 0 3px 3px 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.cellEventMore { font-size: 0.58rem; color: var(--text-faint); }
-
-/* 날짜 패널 이벤트 행 */
-.dayEventRow {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.5rem 0.2rem;
-  border-bottom: 1px solid var(--border);
-}
-.dayEventRow:hover { text-decoration: none; }
-.dayEventRow:hover .dayEventName { color: var(--accent); }
-.dayEventName { flex: 1; font-size: 0.88rem; font-weight: 600; color: var(--text); min-width: 0; }
-.dayEventGo { color: var(--text-faint); font-size: 0.85rem; }
-
-/* ─── 색상 범례 (카테고리·이벤트 색 안내) ─── */
-.legend {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.5rem 1.1rem;
-  margin-top: 0.9rem;
-  padding-top: 0.8rem;
-  border-top: 1px solid var(--border);
-  font-size: 0.78rem;
+  font-size: 0.58rem;
   color: var(--text-faint);
 }
-.legendGroup { display: flex; flex-wrap: wrap; gap: 0.5rem 0.9rem; }
-.legendItem { display: inline-flex; align-items: center; gap: 0.35rem; white-space: nowrap; }
-.legendDot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
 
 .empty { text-align: center; color: var(--text-faint); padding: 2.5rem 1.5rem; }
 .emptyIcon { font-size: 2.6rem; line-height: 1; margin-bottom: 0.7rem; opacity: 0.85; }
 .emptyText { font-size: 1rem; font-weight: 600; color: var(--text); margin-bottom: 0.25rem; }
 .emptyHint { font-size: 0.85rem; color: var(--text-faint); }
 
-/* ─── Day Detail Panel (셀 클릭 시 하단 표시) ─── */
-.dayPanel {
-  margin-top: 1rem;
+/* ─── 오늘의 일정 패널(우측, 상시 노출) ─── */
+.sidePanel {
+  min-width: 0;
+}
+.sidePanelTitle {
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.9rem;
+  color: var(--text);
+}
+.scheduleGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+}
+@media (max-width: 560px) {
+  .scheduleGrid { grid-template-columns: 1fr; }
+}
+.dayEmpty {
+  color: var(--text-faint);
+  padding: 1.4rem 1rem;
+  text-align: center;
   background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 1rem;
-  animation: slideDown 0.25s ease-out;
-}
-@keyframes slideDown {
-  from { opacity: 0; transform: translateY(-8px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-.dayPanelHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 0.8rem;
-  padding-bottom: 0.6rem;
-  border-bottom: 1px solid var(--border);
-}
-.dayPanelTitle { font-size: 1rem; font-weight: 700; color: var(--text); }
-.dayPanelClose {
-  background: var(--bg-elev);
-  border: 1px solid var(--border);
-  color: var(--text);
-  font-size: 1.2rem;
-  width: 32px; height: 32px;
-  border-radius: 50%;
-  cursor: pointer;
-  line-height: 1;
-}
-.dayPanelClose:hover { background: var(--border); color: var(--text); }
-.dayPanelList { display: flex; flex-direction: column; gap: 0.4rem; }
-/* 게임 행 리스트(리스트 뷰와 동일한 GameRow) 컨테이너 */
-.dayGameList {
-  list-style: none;
-  margin: 0.1rem 0 0;
-  padding: 0;
-  background: var(--bg-elev);
-  border: 1px solid var(--border);
   border-radius: var(--radius);
-  overflow: hidden;
+  font-size: 0.9rem;
 }
-.dayRow {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  padding: 0.55rem 0.7rem;
-  background: var(--bg-elev);
-  border: 1px solid var(--border);
-  border-left: 3px solid var(--cat, var(--border));
-  border-radius: 6px;
-  cursor: pointer;
-  text-align: left;
-  color: var(--text);
-  transition: background 0.12s, border-color 0.12s;
-}
-.dayBadge {
-  flex: 0 0 auto;
-  font-size: 0.7rem;
-  font-weight: 700;
-  padding: 0.12rem 0.5rem;
-  border-radius: 5px;
-  border: 1px solid currentColor;
-  line-height: 1.4;
-}
-.dayRow:hover {
-  background: rgba(16,185,129,0.08);
-  border-color: rgba(16,185,129,0.3);
-}
-.dayRowDate {
-  color: var(--text-faint);
-  font-size: 0.8rem;
-  font-weight: 600;
-  min-width: 3.5em;
-}
-.dayRowDot {
-  width: 8px; height: 8px;
-  border-radius: 50%;
-  flex-shrink: 0;
-}
-.dayRowName {
-  flex: 1;
-  font-size: 0.92rem;
-  color: var(--text);
-}
-.dayRowDday {
-  font-size: 0.78rem;
-  color: var(--text-faint);
-  font-weight: 600;
-}
-.dayRowDdaySoon { color: var(--accent-warm); }
-.dayRowDdayToday { color: var(--accent-warm); font-weight: 700; }
-/* 상세 패널 행의 '사전예약 시작' 배지 */
-.dayRowPre {
-  flex: 0 0 auto;
-  font-size: 0.68rem;
-  font-weight: 700;
-  color: var(--accent-warm);
-  border: 1px solid currentColor;
-  border-radius: 5px;
-  padding: 0.08rem 0.4rem;
-  line-height: 1.4;
-}
-.dayEmpty { color: var(--text-faint); padding: 1rem; text-align: center; }
 
 /* ─── 모바일 ─── */
 @media (max-width: 480px) {
-  .view { padding: 9px; border-radius: 12px; }
-  .cell { min-height: 64px; padding: 0.25rem 0.2rem; }
-  .cellDate { font-size: 0.72rem; }
-  .cellName { display: none; }
-  .cellHas {
-    background: var(--bg);
-  }
-  .cellDot { width: 7px; height: 7px; }
-  /* 작은 칸에선 이벤트 칩 텍스트 대신 색점으로(넘침 방지) */
-  .cellEvents { flex-direction: row; flex-wrap: wrap; gap: 3px; margin-top: 2px; }
-  .cellEvent {
-    font-size: 0;
-    width: 7px;
-    height: 7px;
-    padding: 0;
-    border-left: none;
-    border-radius: 50%;
-    background: var(--ev);
-  }
-  .cellEventMore { font-size: 0.55rem; }
-  .dayPanel { padding: 0.7rem; }
-  .dayRow { gap: 0.45rem; padding: 0.45rem 0.55rem; }
-  .dayBadge { font-size: 0.66rem; padding: 0.1rem 0.4rem; }
+  .calCol { padding: 0.8rem 0.6rem 1rem; }
+  .cell { min-height: 52px; }
+  .cellDate { width: 26px; height: 26px; font-size: 0.78rem; }
+  .cellDateNum { width: 24px; height: 24px; }
 }

@@ -14,17 +14,17 @@ const META: Record<Locale, Metadata> = {
   ko: {
     title: '콘서트·티켓팅·페스티벌 가이드 | 자주 묻는 질문',
     description: '콘서트 사전예약/티켓팅, 페스티벌 라인업, 팬미팅, 일정 변동까지. 자주 묻는 질문을 한곳에 정리했습니다.',
-    alternates: { canonical: 'https://gcalen.com/ko/guide' },
+    alternates: { canonical: 'https://whenstage.com/ko/guide' },
   },
   en: {
     title: 'Concert & Ticketing Guide | FAQ',
     description: 'Concert pre-registration/ticketing, festival line-ups, fan meetings, and why dates change — answers to common questions.',
-    alternates: { canonical: 'https://gcalen.com/en/guide' },
+    alternates: { canonical: 'https://whenstage.com/en/guide' },
   },
   ja: {
     title: 'コンサート・チケット・フェスガイド | よくある質問',
     description: 'コンサートのチケット先行、フェスラインナップ、ファンミーティング、日程変更まで、よくある質問をまとめました。',
-    alternates: { canonical: 'https://gcalen.com/ja/guide' },
+    alternates: { canonical: 'https://whenstage.com/ja/guide' },
   },
 };
 
@@ -65,9 +65,9 @@ const FOOTER_H2: Record<Locale, string> = {
   ja: '毎日更新される公演・発売日程',
 };
 const FOOTER_P: Record<Locale, string> = {
-  ko: '콘서트 캘린더(gcalen.com)는 콘서트·내한 공연, 음원 발매, 페스티벌, 팬미팅 일정을 매일 새로 정리합니다.',
-  en: 'Concert Calendar (gcalen.com) refreshes concert, release, festival, and fan meeting schedules every day.',
-  ja: 'コンサートカレンダー(gcalen.com)はコンサート・来日公演、音源発売、フェス、ファンミーティング情報を毎日整理しています。',
+  ko: '콘서트 캘린더(whenstage.com)는 콘서트·내한 공연, 음원 발매, 페스티벌, 팬미팅 일정을 매일 새로 정리합니다.',
+  en: 'Concert Calendar (whenstage.com) refreshes concert, release, festival, and fan meeting schedules every day.',
+  ja: 'コンサートカレンダー(whenstage.com)はコンサート・来日公演、音源発売、フェス、ファンミーティング情報を毎日整理しています。',
 };
 
 export default async function Page({ params }: Props) {

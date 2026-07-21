@@ -19,17 +19,17 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!isLocale(params.lang)) return {};
   const ui = UI[params.lang];
-  const url = `https://gcalen.com/${params.lang}`;
+  const url = `https://whenstage.com/${params.lang}`;
   return {
     title: ui.siteName,
     description: ui.siteDescription,
     alternates: {
       canonical: url,
       languages: {
-        ko: 'https://gcalen.com/ko',
-        en: 'https://gcalen.com/en',
-        ja: 'https://gcalen.com/ja',
-        'x-default': 'https://gcalen.com/',
+        ko: 'https://whenstage.com/ko',
+        en: 'https://whenstage.com/en',
+        ja: 'https://whenstage.com/ja',
+        'x-default': 'https://whenstage.com/',
       },
     },
     openGraph: { title: ui.siteName, description: ui.siteDescription, url, type: 'website' },
@@ -49,7 +49,7 @@ export default async function LocaleHomePage({ params }: Props) {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: ui.siteName,
-    url: `https://gcalen.com/${lang}`,
+    url: `https://whenstage.com/${lang}`,
     description: ui.siteDescription,
     inLanguage: lang,
   };

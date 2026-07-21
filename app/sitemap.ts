@@ -5,7 +5,7 @@ import { getAllNews, getNewsTranslation } from '@/lib/news';
 import { hasActiveTicketing, type Game } from '@/lib/types';
 import { LOCALES, type Locale } from '@/lib/i18nLabels';
 
-const BASE = 'https://gcalen.com';
+const BASE = 'https://whenstage.com';
 
 function staticAlternates(path: (lang: Locale) => string): Record<string, string> {
   const languages: Record<string, string> = {};

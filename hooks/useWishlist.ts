@@ -2,7 +2,7 @@
 import { useCallback, useSyncExternalStore } from 'react';
 import { showToast } from '@/lib/toast';
 
-const KEY = 'gcalen.wishlist.v1';
+const KEY = 'whenstage.wishlist.v1';
 
 // ── 모듈 레벨 싱글톤 store ──
 // useWishlist를 어디서 몇 번 호출하든 동일 스냅샷을 공유한다(인스턴스별 state 아님).

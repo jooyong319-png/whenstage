@@ -19,11 +19,11 @@ export async function GET() {
   const lines: string[] = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//gcalen//concert-calendar//KR',
+    'PRODID:-//whenstage//concert-calendar//KR',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
     'X-WR-CALNAME:콘서트 캘린더',
-    'X-WR-CALDESC:콘서트·내한 공연, 음원 발매, 페스티벌, 팬미팅 일정 (gcalen.com)',
+    'X-WR-CALDESC:콘서트·내한 공연, 음원 발매, 페스티벌, 팬미팅 일정 (whenstage.com)',
     'X-WR-TIMEZONE:Asia/Seoul',
     'REFRESH-INTERVAL;VALUE=DURATION:PT12H',
   ];
@@ -31,15 +31,15 @@ export async function GET() {
   for (const g of games) {
     const date = g.release_date.replace(/-/g, ''); // YYYYMMDD
     const cat = CATEGORY_META[g.category]?.label ?? '';
-    const desc = `${cat ? `[${cat}] ` : ''}${g.description ?? ''}\nhttps://gcalen.com/ko/concert/${g.id}`;
+    const desc = `${cat ? `[${cat}] ` : ''}${g.description ?? ''}\nhttps://whenstage.com/ko/concert/${g.id}`;
     lines.push(
       'BEGIN:VEVENT',
-      `UID:${g.id}@gcalen.com`,
+      `UID:${g.id}@whenstage.com`,
       `DTSTAMP:${date}T000000Z`,
       `DTSTART;VALUE=DATE:${date}`,
       `SUMMARY:${esc(g.name)} 출시`,
       `DESCRIPTION:${esc(desc)}`,
-      `URL:https://gcalen.com/ko/concert/${g.id}`,
+      `URL:https://whenstage.com/ko/concert/${g.id}`,
       'TRANSP:TRANSPARENT',
       'END:VEVENT',
     );
@@ -51,7 +51,7 @@ export async function GET() {
   return new Response(body, {
     headers: {
       'Content-Type': 'text/calendar; charset=utf-8',
-      'Content-Disposition': 'inline; filename="gcalen.ics"',
+      'Content-Disposition': 'inline; filename="whenstage.ics"',
       'Cache-Control': 'public, max-age=3600, s-maxage=3600',
     },
   });

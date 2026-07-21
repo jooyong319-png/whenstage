@@ -13,7 +13,7 @@ import { PushSync } from '@/components/PushSync';
 import { InstallPrompt } from '@/components/InstallPrompt';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://gcalen.com'),
+  metadataBase: new URL('https://whenstage.com'),
   title: {
     default: '콘서트 캘린더 | 내한·콘서트·음원 발매·페스티벌 일정 한눈에',
     template: '%s | 콘서트 캘린더',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: '콘서트 캘린더',
     locale: 'ko_KR',
     images: ['/og-image.png'],
-    url: 'https://gcalen.com/',
+    url: 'https://whenstage.com/',
   },
   twitter: {
     card: 'summary_large_image',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: '#047857',
+  themeColor: '#ff3d78',
   viewportFit: 'cover', // 설치 앱(노치/홈바)에서 safe-area-inset 사용 위해
 };
 

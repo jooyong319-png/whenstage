@@ -13,18 +13,18 @@ export async function generateStaticParams() {
 const META: Record<Locale, Metadata> = {
   ko: {
     title: '소개',
-    description: '콘서트 캘린더(gcalen.com)는 콘서트·내한 공연, 음원 발매(컴백), 페스티벌, 팬미팅 일정을 한곳에 모아 매일 직접 큐레이션하는 서비스입니다.',
-    alternates: { canonical: 'https://gcalen.com/ko/about' },
+    description: '콘서트 캘린더(whenstage.com)는 콘서트·내한 공연, 음원 발매(컴백), 페스티벌, 팬미팅 일정을 한곳에 모아 매일 직접 큐레이션하는 서비스입니다.',
+    alternates: { canonical: 'https://whenstage.com/ko/about' },
   },
   en: {
     title: 'About',
-    description: 'Concert Calendar (gcalen.com) curates concert & tour, music release, festival, and fan meeting schedules from around the world.',
-    alternates: { canonical: 'https://gcalen.com/en/about' },
+    description: 'Concert Calendar (whenstage.com) curates concert & tour, music release, festival, and fan meeting schedules from around the world.',
+    alternates: { canonical: 'https://whenstage.com/en/about' },
   },
   ja: {
     title: 'サイトについて',
-    description: 'コンサートカレンダー(gcalen.com)はコンサート・来日公演、音源発売、フェスティバル、ファンミーティング情報を毎日キュレーションするサービスです。',
-    alternates: { canonical: 'https://gcalen.com/ja/about' },
+    description: 'コンサートカレンダー(whenstage.com)はコンサート・来日公演、音源発売、フェスティバル、ファンミーティング情報を毎日キュレーションするサービスです。',
+    alternates: { canonical: 'https://whenstage.com/ja/about' },
   },
 };
 
@@ -37,7 +37,7 @@ function KoBody() {
   return (
     <>
       <h1>콘서트 캘린더 소개</h1>
-      <p><strong>콘서트 캘린더</strong>(gcalen.com)는 콘서트·내한 공연, 음원 발매(컴백), 페스티벌, 팬미팅 일정을 한곳에 모아 보여주는 서비스입니다. 흩어져 있는 일정 정보를 매일 직접 정리해, 다가오는 공연과 발매를 한눈에 확인할 수 있게 만들었습니다.</p>
+      <p><strong>콘서트 캘린더</strong>(whenstage.com)는 콘서트·내한 공연, 음원 발매(컴백), 페스티벌, 팬미팅 일정을 한곳에 모아 보여주는 서비스입니다. 흩어져 있는 일정 정보를 매일 직접 정리해, 다가오는 공연과 발매를 한눈에 확인할 수 있게 만들었습니다.</p>
 
       <h2>무엇을 다루나요</h2>
       <ul>
@@ -71,7 +71,7 @@ function EnBody() {
   return (
     <>
       <h1>About Concert Calendar</h1>
-      <p><strong>Concert Calendar</strong> (gcalen.com) brings together concert & tour dates, music releases (comebacks), festival line-ups, and fan meeting schedules in one place. We manually curate scattered schedule information every day so you can see upcoming shows and releases at a glance.</p>
+      <p><strong>Concert Calendar</strong> (whenstage.com) brings together concert & tour dates, music releases (comebacks), festival line-ups, and fan meeting schedules in one place. We manually curate scattered schedule information every day so you can see upcoming shows and releases at a glance.</p>
 
       <h2>What we cover</h2>
       <ul>
@@ -105,7 +105,7 @@ function JaBody() {
   return (
     <>
       <h1>コンサートカレンダーについて</h1>
-      <p><strong>コンサートカレンダー</strong>(gcalen.com)は、コンサート・来日公演、音源発売(カムバック)、フェスティバル、ファンミーティング情報を一箇所にまとめたサービスです。散らばった日程情報を毎日手作業で整理し、今後の公演や発売を一目で確認できるようにしています。</p>
+      <p><strong>コンサートカレンダー</strong>(whenstage.com)は、コンサート・来日公演、音源発売(カムバック)、フェスティバル、ファンミーティング情報を一箇所にまとめたサービスです。散らばった日程情報を毎日手作業で整理し、今後の公演や発売を一目で確認できるようにしています。</p>
 
       <h2>取り扱う情報</h2>
       <ul>

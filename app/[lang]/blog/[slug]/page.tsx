@@ -31,16 +31,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = lang === 'ko' ? { title: post.title, description: post.description, content: post.content } : await getPostTranslation(params.slug, lang);
   if (!t) return { title: `${post.title} — ${UI[lang].siteName}`, robots: { index: false } };
 
-  const url = `https://gcalen.com/${lang}/blog/${params.slug}`;
+  const url = `https://whenstage.com/${lang}/blog/${params.slug}`;
   return {
     title: `${t.title} | ${UI[lang].siteName}`,
     description: t.description.slice(0, 158),
     alternates: {
       canonical: url,
       languages: {
-        ko: `https://gcalen.com/ko/blog/${params.slug}`,
-        en: `https://gcalen.com/en/blog/${params.slug}`,
-        ja: `https://gcalen.com/ja/blog/${params.slug}`,
+        ko: `https://whenstage.com/ko/blog/${params.slug}`,
+        en: `https://whenstage.com/en/blog/${params.slug}`,
+        ja: `https://whenstage.com/ja/blog/${params.slug}`,
       },
     },
     openGraph: { title: t.title, description: t.description, url, type: 'article' },
@@ -55,7 +55,7 @@ export default async function LocaleBlogPage({ params }: Props) {
   const post = await getPostBySlug(params.slug);
   if (!post) notFound();
   const t = lang === 'ko' ? { title: post.title, description: post.description, content: post.content } : await getPostTranslation(params.slug, lang);
-  const koUrl = `https://gcalen.com/ko/blog/${params.slug}`;
+  const koUrl = `https://whenstage.com/ko/blog/${params.slug}`;
 
   // redirect()는 이 라우트의 정적 캐싱과 충돌해 신뢰할 수 없이 동작해 일반 조건부 렌더로 대체.
   if (!t) {

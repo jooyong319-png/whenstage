@@ -1,47 +1,34 @@
-/* 카테고리/이벤트 아이콘 필터 줄 — 리스트·캘린더 공용 */
+/* 카테고리 필터 줄 — 가로 필 칩(아이콘+텍스트 한 줄), 활성 = 카테고리색 채움 */
 .bar {
   display: flex;
-  gap: 0.3rem;
-  justify-content: center;
+  gap: 0.5rem;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
 }
 .item {
-  display: flex;
-  flex-direction: column;
+  display: inline-flex;
   align-items: center;
-  gap: 0.32rem;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0.1rem 0.5rem;
-  color: var(--text-faint);
-  flex: 0 0 auto;
-}
-.icon {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  gap: 0.4rem;
   background: var(--bg-elev);
   border: 1px solid var(--border);
-  font-size: 1.15rem;
-  transition: color 0.15s, border-color 0.15s, background 0.15s;
+  border-radius: 999px;
+  cursor: pointer;
+  padding: 0.45rem 0.9rem;
+  color: var(--text-faint);
+  font-size: 0.85rem;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
 }
-.item:hover .icon { color: var(--accent); border-color: var(--accent); }
-.label { font-size: 0.72rem; font-weight: 500; white-space: nowrap; }
-.active { color: var(--accent); }
-.active .icon {
-  color: var(--accent);
-  border-color: var(--accent);
-  background: rgba(16, 185, 129, 0.10);
+.item .ic { width: 15px; height: 15px; }
+.item:hover { border-color: var(--cat, var(--accent)); color: var(--cat, var(--accent)); }
+.label { line-height: 1; }
+.active {
+  background: var(--cat, var(--accent));
+  border-color: var(--cat, var(--accent));
+  color: #fff;
 }
-.active .label { font-weight: 700; }
-
-.divider { align-self: center; width: 1px; height: 34px; background: var(--border); margin: 0 0.15rem; flex: 0 0 auto; }
-.evItem { position: relative; } /* 이벤트 칩 — item과 동일, 구분용 클래스 */
+.active:hover { color: #fff; }
 
 /* 모바일: 줄바꿈 대신 가로 스크롤(깨짐 방지) */
 @media (max-width: 760px) {
@@ -56,6 +43,5 @@
     mask-image: linear-gradient(90deg, transparent, #000 14px, #000 calc(100% - 14px), transparent);
   }
   .bar::-webkit-scrollbar { display: none; }
-  .icon { width: 40px; height: 40px; font-size: 1.05rem; }
-  .item { padding: 0.1rem 0.35rem; }
+  .item { padding: 0.4rem 0.75rem; font-size: 0.8rem; }
 }

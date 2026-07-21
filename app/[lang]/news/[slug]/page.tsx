@@ -32,16 +32,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = lang === 'ko' ? { title: item.title, description: item.description, content: item.content } : await getNewsTranslation(item.slug, lang);
   if (!t) return { title: `${item.title} — ${UI[lang].siteName}`, robots: { index: false } };
 
-  const url = `https://gcalen.com/${lang}/news/${item.slug}`;
+  const url = `https://whenstage.com/${lang}/news/${item.slug}`;
   return {
     title: `${t.title} | ${UI[lang].siteName}`,
     description: t.description.slice(0, 158),
     alternates: {
       canonical: url,
       languages: {
-        ko: `https://gcalen.com/ko/news/${item.slug}`,
-        en: `https://gcalen.com/en/news/${item.slug}`,
-        ja: `https://gcalen.com/ja/news/${item.slug}`,
+        ko: `https://whenstage.com/ko/news/${item.slug}`,
+        en: `https://whenstage.com/en/news/${item.slug}`,
+        ja: `https://whenstage.com/ja/news/${item.slug}`,
       },
     },
     openGraph: { title: t.title, description: t.description, url, type: 'article' },
@@ -56,7 +56,7 @@ export default async function LocaleNewsPage({ params }: Props) {
   const item = await getNewsBySlug(params.slug);
   if (!item) notFound();
   const t = lang === 'ko' ? { title: item.title, description: item.description, content: item.content } : await getNewsTranslation(item.slug, lang);
-  const koUrl = `https://gcalen.com/ko/news/${item.slug}`;
+  const koUrl = `https://whenstage.com/ko/news/${item.slug}`;
 
   // redirect()는 이 라우트의 정적 캐싱과 충돌해 신뢰할 수 없이 동작해 일반 조건부 렌더로 대체.
   if (!t) {

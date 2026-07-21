@@ -24,7 +24,7 @@ export function AdminDashboard({ nameMap }: { nameMap: Record<string, string> })
 
   useEffect(() => {
     if (unlocked) return;
-    try { if (sessionStorage.getItem('gcalen.admin') === '1') setUnlocked(true); } catch { /* ignore */ }
+    try { if (sessionStorage.getItem('whenstage.admin') === '1') setUnlocked(true); } catch { /* ignore */ }
   }, [unlocked]);
 
   useEffect(() => {
@@ -108,7 +108,7 @@ export function AdminDashboard({ nameMap }: { nameMap: Record<string, string> })
 
   function tryUnlock() {
     if (pw === ADMIN_PASS) {
-      try { sessionStorage.setItem('gcalen.admin', '1'); } catch { /* ignore */ }
+      try { sessionStorage.setItem('whenstage.admin', '1'); } catch { /* ignore */ }
       setUnlocked(true);
     } else {
       setGateErr('키가 틀렸어요');

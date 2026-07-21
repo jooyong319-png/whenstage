@@ -3,8 +3,8 @@ import { useState } from 'react';
 import { showToast } from '@/lib/toast';
 import styles from './CalendarSubscribe.module.css';
 
-const ICS_WEBCAL = 'webcal://gcalen.com/calendar.ics';
-const GOOGLE_ADD = 'https://calendar.google.com/calendar/u/0/r?cid=webcal%3A%2F%2Fgcalen.com%2Fcalendar.ics';
+const ICS_WEBCAL = 'webcal://whenstage.com/calendar.ics';
+const GOOGLE_ADD = 'https://calendar.google.com/calendar/u/0/r?cid=webcal%3A%2F%2Fwhenstage.com%2Fcalendar.ics';
 
 export function CalendarSubscribe() {
   const [copied, setCopied] = useState(false);

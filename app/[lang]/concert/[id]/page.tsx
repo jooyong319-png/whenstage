@@ -34,8 +34,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const game = await getGameById(params.id, params.lang);
   if (!game) return { title: UI[params.lang].notFound };
 
-  const url = `https://gcalen.com/${params.lang}/concert/${params.id}`;
-  const ogImage = game.image_url || 'https://gcalen.com/og-image.png';
+  const url = `https://whenstage.com/${params.lang}/concert/${params.id}`;
+  const ogImage = game.image_url || 'https://whenstage.com/og-image.png';
   const title = `${game.name} — ${UI[params.lang].siteName}`;
   const desc = (game.description ?? '').slice(0, 158);
 
@@ -73,12 +73,12 @@ export default async function LocaleGamePage({ params }: Props) {
     '@context': 'https://schema.org',
     '@type': 'Event',
     name: game.name,
-    image: game.image_url || 'https://gcalen.com/og-image.png',
+    image: game.image_url || 'https://whenstage.com/og-image.png',
     startDate: game.release_date,
     ...(game.publisher ? { organizer: { '@type': 'Organization', name: game.publisher } } : {}),
     description: game.description ?? '',
     inLanguage: lang,
-    url: `https://gcalen.com/${lang}/concert/${params.id}`,
+    url: `https://whenstage.com/${lang}/concert/${params.id}`,
   };
 
   return (

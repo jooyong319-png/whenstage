@@ -13,18 +13,18 @@ export async function generateStaticParams() {
 const META: Record<Locale, Metadata> = {
   ko: {
     title: '이용약관',
-    description: '콘서트 캘린더(gcalen.com) 이용약관 — 서비스 내용, 댓글 운영 방침, 저작권 및 면책 사항에 대한 안내.',
-    alternates: { canonical: 'https://gcalen.com/ko/terms' },
+    description: '콘서트 캘린더(whenstage.com) 이용약관 — 서비스 내용, 댓글 운영 방침, 저작권 및 면책 사항에 대한 안내.',
+    alternates: { canonical: 'https://whenstage.com/ko/terms' },
   },
   en: {
     title: 'Terms of Service',
-    description: 'Gcalen (gcalen.com) terms of service — service description, comment policy, copyright, and disclaimers.',
-    alternates: { canonical: 'https://gcalen.com/en/terms' },
+    description: 'WhenStage (whenstage.com) terms of service — service description, comment policy, copyright, and disclaimers.',
+    alternates: { canonical: 'https://whenstage.com/en/terms' },
   },
   ja: {
     title: '利用規約',
-    description: 'Gcalen(gcalen.com)利用規約 — サービス内容、コメント運営方針、著作権および免責事項について。',
-    alternates: { canonical: 'https://gcalen.com/ja/terms' },
+    description: 'WhenStage(whenstage.com)利用規約 — サービス内容、コメント運営方針、著作権および免責事項について。',
+    alternates: { canonical: 'https://whenstage.com/ja/terms' },
   },
 };
 
@@ -39,7 +39,7 @@ function KoBody() {
       <h1>이용약관</h1>
 
       <h2>제1조 (목적)</h2>
-      <p>본 약관은 콘서트 캘린더(gcalen.com, 이하 &ldquo;서비스&rdquo;)가 제공하는 서비스의 이용 조건과 절차를 규정합니다.</p>
+      <p>본 약관은 콘서트 캘린더(whenstage.com, 이하 &ldquo;서비스&rdquo;)가 제공하는 서비스의 이용 조건과 절차를 규정합니다.</p>
 
       <h2>제2조 (서비스 내용)</h2>
       <ul>
@@ -85,7 +85,7 @@ function EnBody() {
       <h1>Terms of Service</h1>
 
       <h2>Article 1 (Purpose)</h2>
-      <p>These Terms govern the conditions and procedures for using the services provided by Gcalen (gcalen.com, the &ldquo;Service&rdquo;).</p>
+      <p>These Terms govern the conditions and procedures for using the services provided by WhenStage (whenstage.com, the &ldquo;Service&rdquo;).</p>
 
       <h2>Article 2 (Service description)</h2>
       <ul>
@@ -131,7 +131,7 @@ function JaBody() {
       <h1>利用規約</h1>
 
       <h2>第1条(目的)</h2>
-      <p>本規約は、Gcalen(gcalen.com、以下「本サービス」)が提供するサービスの利用条件および手続きについて定めるものです。</p>
+      <p>本規約は、WhenStage(whenstage.com、以下「本サービス」)が提供するサービスの利用条件および手続きについて定めるものです。</p>
 
       <h2>第2条(サービス内容)</h2>
       <ul>

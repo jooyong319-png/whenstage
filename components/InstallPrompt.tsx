@@ -3,11 +3,11 @@ import { useEffect, useState } from 'react';
 import styles from './InstallPrompt.module.css';
 
 // ▼▼ Play 스토어 출시되면 여기에 URL 한 줄 넣고 배포하면 끝 ▼▼
-//    예: 'https://play.google.com/store/apps/details?id=com.gcalen.app'
+//    예: 'https://play.google.com/store/apps/details?id=com.whenstage.app'
 //    비어있으면 → PWA 설치(현재). 채우면 → Android는 자동으로 Play 링크로 전환.
 const PLAY_STORE_URL = '';
 
-const DISMISS_KEY = 'gcalen.installDismissed';
+const DISMISS_KEY = 'whenstage.installDismissed';
 const DISMISS_DAYS = 1;
 
 interface BIPEvent extends Event {
@@ -83,7 +83,7 @@ export function InstallPrompt() {
   return (
     <div className={styles.banner} role="dialog" aria-label="앱 설치 안내">
       <span className={styles.icon} aria-hidden="true">
-        <svg className="ic"><use href="#ic-gamepad" /></svg>
+        <svg className="ic"><use href="#ic-calendar" /></svg>
       </span>
       <div className={styles.text}>
         <strong className={styles.title}>앱으로 설치하기</strong>

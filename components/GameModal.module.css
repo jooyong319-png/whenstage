@@ -124,11 +124,20 @@
   opacity: 0.85;
   letter-spacing: 0.02em;
 }
-.title { font-size: 1.3rem; line-height: 1.25; margin: 0; word-break: keep-all; }
+.title { font-size: 1.3rem; font-weight: 800; letter-spacing: -0.01em; line-height: 1.25; margin: 0; word-break: keep-all; }
 .nameEn { color: var(--text-faint); font-size: 0.85rem; margin: 0; }
 .row { font-size: 0.92rem; color: var(--text); padding: 0.24rem 0; }
 .row strong { display: inline-block; min-width: 4.2em; color: var(--text-faint); margin-right: 0.4rem; font-weight: 600; }
-.dday { color: var(--accent-warm); font-weight: 700; }
+.dday {
+  display: inline-block;
+  color: #fff;
+  background: var(--accent-warm);
+  font-weight: 800;
+  font-size: 0.82rem;
+  padding: 1px 9px;
+  border-radius: 999px;
+  vertical-align: middle;
+}
 .desc { color: var(--text); line-height: 1.6; margin: 0.8rem 0; font-size: 0.92rem; }
 .source { color: var(--accent); font-size: 0.9rem; display: inline-block; margin-top: 0.5rem; }
 /* 사전예약 CTA — 눈에 띄는 채움 버튼 */

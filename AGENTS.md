@@ -4,15 +4,15 @@
 **3개의 독립된 리서처 Claude**(한국어권/영어권/일본어권)가 공통으로 참조하는 스키마·정책 문서다.
 실제 리서처별 작업 지시는 `RESEARCHER_KO.md` / `RESEARCHER_EN.md` / `RESEARCHER_JA.md`에 있다.
 
-🌐 사이트: https://gcalen.com/
-📦 저장소: https://github.com/jooyong319-png/gcalen-concert-
+🌐 사이트: https://whenstage.com/
+📦 저장소: https://github.com/jooyong319-png/whenstage
 ⚙️ 스택: Next.js 14 (App Router) · TypeScript 5 · Vercel · 로케일 `/ko` `/en` `/ja` 완전 대칭 라우팅
 
 ---
 
 ## 1. ⚠️ 가장 중요한 전제 — ko/en/ja는 "번역"이 아니라 "독립된 데이터"다
 
-기존 gcalen(게임 캘린더)은 한국어 원본 + en/ja 선택적 번역 필드를 쓰는 **단일 데이터셋 + 번역** 구조였다.
+이전 게임 출시 캘린더 프로젝트는 한국어 원본 + en/ja 선택적 번역 필드를 쓰는 **단일 데이터셋 + 번역** 구조였다.
 이 프로젝트는 그 구조를 의도적으로 버렸다.
 
 - `data/concerts.ko.json` = **한국 국내** 공연·발매·페스티벌·팬미팅

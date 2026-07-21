@@ -22,17 +22,17 @@ textarea:focus-visible,
 
 /* ─── 변수 ─── */
 :root {
-  /* 라이트(화이트) 기본 테마 — 운영자 17:46 결정 */
+  /* 라이트(화이트) 기본 테마 — 비비드 페스티벌(콘서트 도메인 전용 아이덴티티, 2026-07-21) */
   color-scheme: light;
   --bg: #f6f7f9;
   --bg-elev: #ffffff;
   --border: #e4e7ec;
   --text: #1a1d24;
   --text-faint: #6b7280;
-  --accent: #047857;
-  --accent-2: #10b981;
-  --accent-grad: linear-gradient(92deg, #047857, #10b981);
-  --accent-warm: #c47a00;
+  --accent: #ff3d78;
+  --accent-2: #7c3aed;
+  --accent-grad: linear-gradient(92deg, #ff3d78, #7c3aed);
+  --accent-warm: #ff8a00;
   --danger: #e74c3c;
   --radius: 12px;
   --radius-sm: 8px;
@@ -54,10 +54,10 @@ textarea:focus-visible,
   --border: #2a2e38;
   --text: #e6e6e6;
   --text-faint: #888;
-  --accent: #34d399;
-  --accent-2: #6ee7b7;
-  --accent-grad: linear-gradient(92deg, #34d399, #6ee7b7);
-  --accent-warm: #f5a623;
+  --accent: #ff5c8f;
+  --accent-2: #a78bfa;
+  --accent-grad: linear-gradient(92deg, #ff5c8f, #a78bfa);
+  --accent-warm: #ffa733;
 }
 
 /* ─── 헤더 (내비 포함형 단일행 §E) / 푸터 ─── */
@@ -252,7 +252,7 @@ textarea:focus-visible,
   transition: background 0.18s ease;
 }
 .bottom-tab[aria-current="page"] { color: var(--accent); }
-.bottom-tab[aria-current="page"] .tab-ico { background: rgba(4, 120, 87, 0.14); }
+.bottom-tab[aria-current="page"] .tab-ico { background: rgba(255, 61, 120, 0.14); }
 @supports (background: color-mix(in srgb, red, blue)) {
   .bottom-tab[aria-current="page"] .tab-ico { background: color-mix(in srgb, var(--accent) 16%, transparent); }
 }
@@ -405,15 +405,15 @@ textarea:focus-visible,
 @keyframes sk-shimmer { 0% { background-position: 100% 0; } 100% { background-position: 0 0; } }
 @media (prefers-reduced-motion: reduce) { .sk-line, .sk-card { animation: none; } }
 
-/* ─── 카테고리 색 토큰 ─── */
-.cat-concert_tour { color: #81c784; }
-.cat-music_release { color: #64b5f6; }
-.cat-festival { color: #ba68c8; }
-.cat-fanmeeting { color: #ff8a65; }
-.cat-bg-concert_tour { background: rgba(76, 175, 80, 0.15); color: #81c784; }
-.cat-bg-music_release { background: rgba(33, 150, 243, 0.15); color: #64b5f6; }
-.cat-bg-festival { background: rgba(156, 39, 176, 0.15); color: #ba68c8; }
-.cat-bg-fanmeeting { background: rgba(255, 87, 34, 0.15); color: #ff8a65; }
+/* ─── 카테고리 색 토큰 (비비드 페스티벌 4색 — CATEGORY_META와 동일 값, lib/types.ts §단일 출처) ─── */
+.cat-concert_tour { color: #2f6fed; }
+.cat-music_release { color: #06b6d4; }
+.cat-festival { color: #16a34a; }
+.cat-fanmeeting { color: #f59e0b; }
+.cat-bg-concert_tour { background: rgba(47, 111, 237, 0.15); color: #2f6fed; }
+.cat-bg-music_release { background: rgba(6, 182, 212, 0.15); color: #06b6d4; }
+.cat-bg-festival { background: rgba(22, 163, 74, 0.15); color: #16a34a; }
+.cat-bg-fanmeeting { background: rgba(245, 158, 11, 0.15); color: #f59e0b; }
 
 /* ─── 카테고리 태그 (중립 글래스 칩 1언어 + 좌측 정보색 점) ─── */
 .category-tag {
@@ -437,10 +437,10 @@ textarea:focus-visible,
   background: var(--cat-dot, var(--text-faint));
   flex: 0 0 auto;
 }
-.category-tag.cat-bg-concert_tour     { --cat-dot: #6f9c7a; }
-.category-tag.cat-bg-music_release { --cat-dot: #5f86b8; }
-.category-tag.cat-bg-festival    { --cat-dot: #9a7bb0; }
-.category-tag.cat-bg-fanmeeting    { --cat-dot: #c08560; }
+.category-tag.cat-bg-concert_tour     { --cat-dot: #2f6fed; }
+.category-tag.cat-bg-music_release { --cat-dot: #06b6d4; }
+.category-tag.cat-bg-festival    { --cat-dot: #16a34a; }
+.category-tag.cat-bg-fanmeeting    { --cat-dot: #f59e0b; }
 
 /* ─── 게임 상세 페이지 (정적) ─── */
 /* 상세 빵부스러기(breadcrumb) */
@@ -533,15 +533,15 @@ textarea:focus-visible,
   object-fit: contain;
   display: block;
 }
-.game-detail h1 { font-size: var(--fs-title); font-weight: 700; letter-spacing: -0.01em; margin: 0.35rem 0 0.25rem; }
+.game-detail h1 { font-size: var(--fs-title); font-weight: 800; letter-spacing: -0.02em; margin: 0.35rem 0 0.25rem; }
 .game-detail .name-en { color: var(--text-faint); font-size: 0.9rem; margin: 0 0 0.5rem; }
 .game-detail .detail-head { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; margin: 0; }
 .game-detail .detail-release-row { display: flex; align-items: center; gap: 0.8rem; flex-wrap: wrap; margin: 0.4rem 0 0; }
 .game-detail .detail-release-row .release-date { margin: 0; }
 .game-detail .release-date { color: var(--accent); font-size: 1rem; font-weight: 600; margin: 0.5rem 0 1rem; }
 .game-detail .dday-badge { display: inline-block; padding: 3px 11px; border-radius: 999px; font-size: 1rem; font-weight: 800; vertical-align: middle; }
-.game-detail .dday-badge.dday-soon { color: var(--accent-warm); background: rgba(245, 166, 35, 0.12); }
-.game-detail .dday-badge.dday-today { color: var(--accent-warm); background: rgba(245, 166, 35, 0.16); }
+.game-detail .dday-badge.dday-soon,
+.game-detail .dday-badge.dday-today { color: #fff; background: var(--accent-warm); }
 .game-detail .dday-badge.dday-far { color: var(--text-faint); background: var(--border); }
 .game-detail .desc { color: var(--text); margin-bottom: 1rem; line-height: 1.6; }
 .game-detail .detail-meta { list-style: none; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 0 1.6rem; margin: 1rem 0; }

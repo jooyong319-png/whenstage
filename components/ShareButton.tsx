@@ -17,7 +17,7 @@ export function ShareButton({ url, title, className }: Props) {
   const [copied, setCopied] = useState(false);
 
   const onShare = async () => {
-    const fullUrl = url.startsWith('http') ? url : `https://gcalen.com${url}`;
+    const fullUrl = url.startsWith('http') ? url : `https://whenstage.com${url}`;
     // 모바일/지원 브라우저: 네이티브 공유 시트
     if (typeof navigator !== 'undefined' && navigator.share) {
       try {

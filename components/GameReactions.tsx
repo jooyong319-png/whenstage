@@ -4,7 +4,7 @@ import { supabase, isSupabaseReady } from '@/lib/supabase';
 import { showToast } from '@/lib/toast';
 import styles from './GameReactions.module.css';
 
-const KEY = 'gcalen.reacted.v1';
+const KEY = 'whenstage.reacted.v1';
 type Vote = 'like' | 'dislike';
 
 function getVoted(): Record<string, Vote> {

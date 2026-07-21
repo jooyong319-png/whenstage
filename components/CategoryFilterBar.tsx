@@ -1,4 +1,5 @@
 'use client';
+import type { CSSProperties } from 'react';
 import type { Category, FilterKey } from '@/lib/types';
 import { CATEGORY_META } from '@/lib/types';
 import { useLocale } from '@/hooks/useLocale';
@@ -41,6 +42,7 @@ export function CategoryFilterBar({ category, onCategory, className }: Props) {
           key={c}
           type="button"
           className={`${styles.item} ${category === c ? styles.active : ''}`}
+          style={{ '--cat': CATEGORY_META[c].color } as CSSProperties}
           aria-pressed={category === c}
           onClick={() => onCategory(category === c ? null : c)}
         >

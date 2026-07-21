@@ -3,15 +3,15 @@ import { readFileSync } from 'fs';
 import path from 'path';
 
 // Play 스토어 피처 그래픽(1024x500) 생성용 일회성 에셋 엔드포인트.
-// 브랜드 초록 그라데이션 + gcalen 워드마크 + 한글 태그라인 + 미니 캘린더 모티브.
+// 브랜드 코랄-바이올렛 그라데이션 + 콘서트 캘린더 워드마크 + 한글 태그라인 + 미니 캘린더 모티브.
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
 const PRETENDARD = readFileSync(path.join(process.cwd(), 'assets/fonts/pretendard-bold.otf'));
 
 export async function GET() {
-  const RELEASE = '#34d399';
-  const PREREG = '#fbbf24';
+  const RELEASE = '#ff5c8f';
+  const PREREG = '#ffcf5c';
   // 미니 캘린더 셀(숫자 + 점 유무)
   const cells = [
     { d: 1, dot: 'p' }, { d: 2, dot: 'r' }, { d: 3 }, { d: 4 }, { d: 5 }, { d: 6, dot: 'r' }, { d: 7 },
@@ -26,7 +26,7 @@ export async function GET() {
           display: 'flex',
           width: '100%',
           height: '100%',
-          backgroundImage: 'linear-gradient(135deg, #065f46 0%, #047857 45%, #10b981 100%)',
+          backgroundImage: 'linear-gradient(135deg, #c724b1 0%, #ff3d78 55%, #ff8a00 100%)',
           fontFamily: 'Pretendard',
           padding: '0 56px',
           alignItems: 'center',
@@ -35,10 +35,10 @@ export async function GET() {
       >
         {/* 왼쪽 텍스트 */}
         <div style={{ display: 'flex', flexDirection: 'column' }}>
-          <span style={{ fontSize: 84, fontWeight: 700, color: '#ffffff', lineHeight: 1 }}>gcalen</span>
-          <span style={{ fontSize: 48, fontWeight: 700, color: '#ffffff', marginTop: 14 }}>게임 출시 캘린더</span>
-          <span style={{ fontSize: 25, color: '#d1fae5', marginTop: 18 }}>신작 · 사전예약 · 신규 서버 · 이벤트 · 뉴스</span>
-          <span style={{ fontSize: 22, color: '#a7f3d0', marginTop: 8 }}>매일 업데이트되는 국내외 게임 일정</span>
+          <span style={{ fontSize: 84, fontWeight: 700, color: '#ffffff', lineHeight: 1 }}>WhenStage</span>
+          <span style={{ fontSize: 48, fontWeight: 700, color: '#ffffff', marginTop: 14 }}>콘서트 캘린더</span>
+          <span style={{ fontSize: 25, color: '#ffe1ec', marginTop: 18 }}>콘서트 · 내한 · 티켓팅 · 페스티벌 · 컴백</span>
+          <span style={{ fontSize: 22, color: '#ffd0e0', marginTop: 8 }}>매일 업데이트되는 국내외 공연 일정</span>
         </div>
 
         {/* 오른쪽 미니 캘린더 카드 */}
@@ -80,7 +80,7 @@ export async function GET() {
                     fontSize: 19,
                     fontWeight: 700,
                     color: c.today ? '#ffffff' : '#111827',
-                    backgroundColor: c.today ? '#059669' : 'transparent',
+                    backgroundColor: c.today ? '#ff3d78' : 'transparent',
                   }}
                 >
                   {c.d}

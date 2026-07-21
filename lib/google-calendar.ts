@@ -18,7 +18,7 @@ export function buildGoogleCalendarUrl(game: Game): string {
     game.publisher ? `주최: ${game.publisher}` : '',
     game.platforms?.length ? `공연장: ${game.platforms.join(', ')}` : '',
     '',
-    `출처: https://gcalen.com/ko/concert/${game.id}`
+    `출처: https://whenstage.com/ko/concert/${game.id}`
   ].filter(Boolean).join('\n');
 
   const params = new URLSearchParams({

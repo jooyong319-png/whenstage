@@ -1,18 +1,14 @@
 'use client';
-import { useState, useMemo, useEffect, useCallback, useRef } from 'react';
+import { useState, useMemo, useEffect, useCallback } from 'react';
 import type { Game, FilterState, CalEvent } from '@/lib/types';
 import { EVENT_TYPE_META } from '@/lib/types';
 import { formatShortDate, kstDateOnly } from '@/lib/utils';
 // ── 사이드바 재작업 예정: 아래 import는 임시 주석(재사용 가능) ──
 // import { NextByCategory } from './NextByCategory';
-import { BannerCarousel } from './BannerCarousel';
-import { FeaturedCards } from './FeaturedCards';
 // import { PromoBanner } from './PromoBanner';
 // import { PopularGames } from './PopularGames';
 // import { CalendarSubscribe } from './CalendarSubscribe';
-// import { FreeGames } from './FreeGames';
 // import { AdFit } from './AdFit';
-import { ViewToggle } from './ViewToggle';
 import { CalendarView } from './CalendarView';
 import { ListView } from './ListView';
 import { GameModal } from './GameModal';
@@ -29,8 +25,6 @@ interface HomeProps {
   initialCalEvents?: CalEvent[];
 }
 
-const FREE_COLOR = '#6f9c7a';
-
 export function Home({ initialGames, lastUpdated, serverNow, initialCalEvents = [] }: HomeProps) {
   const lang = useLocale();
   const t = CAL[lang];
@@ -41,16 +35,8 @@ export function Home({ initialGames, lastUpdated, serverNow, initialCalEvents = 
     search: '',
     wishlistOnly: false,
   });
-  const [view, setView] = useState<'calendar' | 'list'>('calendar');
-  // 기본 뷰: 모바일/앱은 리스트, PC는 캘린더 (사용자가 토글하면 그 선택 유지)
-  const viewInit = useRef(false);
-  useEffect(() => {
-    if (viewInit.current) return;
-    viewInit.current = true;
-    if (typeof window !== 'undefined' && window.matchMedia('(max-width: 760px)').matches) {
-      setView('list');
-    }
-  }, []);
+  // 검색어가 있으면 리스트(검색 결과), 없으면 캘린더 — 별도 토글 없이 검색 여부로 자동 전환.
+  const showList = filters.search.trim().length > 0;
   const [calendarCursor, setCalendarCursor] = useState<Date>(() => {
     const d = kstDateOnly(serverNow);
     d.setDate(1);
@@ -60,27 +46,8 @@ export function Home({ initialGames, lastUpdated, serverNow, initialCalEvents = 
   // mount 후 실제 현재 시각으로 교체 → D-day·오늘 셀이 클라에서 정확.
   const [now, setNow] = useState<Date>(() => kstDateOnly(serverNow));
   const [openGameId, setOpenGameId] = useState<string | null>(null);
-  const [freeEvents, setFreeEvents] = useState<CalEvent[]>([]);
 
-  // 에픽 무료배포 → 캘린더 마커(시작/종료). 클라에서 1회 로드.
-  useEffect(() => {
-    let cancelled = false;
-    fetch('/api/free-games')
-      .then(r => r.json())
-      .then(d => {
-        if (cancelled) return;
-        const evs: CalEvent[] = [];
-        for (const g of (d.games ?? []) as { title: string; status: string; start?: string; end?: string; url?: string; image?: string }[]) {
-          if (g.status === 'upcoming' && g.start) evs.push({ date: g.start.slice(0, 10), label: t.freeStarts(g.title), color: FREE_COLOR, type: 'free_game', url: g.url, image: g.image ?? null });
-          if (g.end) evs.push({ date: g.end.slice(0, 10), label: t.freeEnds(g.title), color: FREE_COLOR, type: 'free_game', url: g.url, image: g.image ?? null });
-        }
-        setFreeEvents(evs);
-      })
-      .catch(() => {});
-    return () => { cancelled = true; };
-  }, []);
-
-  const calEvents = useMemo(() => [...initialCalEvents, ...freeEvents], [initialCalEvents, freeEvents]);
+  const calEvents = initialCalEvents;
 
   // 필터가 이벤트 타입이면 그 타입만, 게임 카테고리면 이벤트 숨김, 없으면 전부
   const displayEvents = useMemo(() => {
@@ -189,11 +156,6 @@ export function Home({ initialGames, lastUpdated, serverNow, initialCalEvents = 
     <div className={styles.home}>
       <div className={styles.layout}>
         <div className={styles.main}>
-          <div className={styles.hero}>
-            <BannerCarousel games={initialGames} />
-            <FeaturedCards games={initialGames} now={now} />
-          </div>
-
           <div className={styles.topRow}>
             <input
               type="search"
@@ -214,14 +176,11 @@ export function Home({ initialGames, lastUpdated, serverNow, initialCalEvents = 
               <svg className={wishlistOnly ? 'ic ic-fill' : 'ic'} aria-hidden="true"><use href="#ic-star" /></svg>
               <span className={styles.wishToggleLabel}>{t.wishlist}</span>
             </button>
-            <ViewToggle value={view} onChange={setView} />
           </div>
 
-      {view === 'calendar' ? (
-        <CalendarView
-          cursor={calendarCursor}
-          onCursorChange={setCalendarCursor}
-          games={filteredGames}
+      {showList ? (
+        <ListView
+          games={listGames}
           events={displayEvents}
           wishlist={wishlist}
           onPick={openModal}
@@ -230,8 +189,10 @@ export function Home({ initialGames, lastUpdated, serverNow, initialCalEvents = 
           onCategory={c => setFilters({ ...filters, category: c })}
         />
       ) : (
-        <ListView
-          games={listGames}
+        <CalendarView
+          cursor={calendarCursor}
+          onCursorChange={setCalendarCursor}
+          games={filteredGames}
           events={displayEvents}
           wishlist={wishlist}
           onPick={openModal}
@@ -250,7 +211,6 @@ export function Home({ initialGames, lastUpdated, serverNow, initialCalEvents = 
         <aside className={styles.rightCol} aria-label="추천 일정">
           <NextByCategory games={initialGames} now={now} />
           <AdFit unit="DAN-OszywWckdPV6qhbX" width={300} height={250} />
-          <FreeGames compact />
           <PopularGames meta={Object.fromEntries(initialGames.map(g => [g.id, { name: g.name, category: g.category }]))} />
           <CalendarSubscribe />
           <PromoBanner variant="update" />

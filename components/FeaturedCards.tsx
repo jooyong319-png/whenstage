@@ -1,5 +1,5 @@
 'use client';
-import { Fragment, useEffect, useMemo, useRef, useState } from 'react';
+import { Fragment, useEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
 import Link from 'next/link';
 import type { Game, Category } from '@/lib/types';
 import { CATEGORY_META } from '@/lib/types';
@@ -9,16 +9,7 @@ import styles from './FeaturedCards.module.css';
 
 interface Props { games: Game[]; now: Date; variant?: 'hero' | 'list'; }
 
-interface FreeGame {
-  title: string;
-  status: 'current' | 'upcoming';
-  start: string | null;
-  end: string | null;
-  image: string | null;
-  url: string | null;
-}
-
-// 카드 표시용 정규화 데이터 (게임/무료게임 공통)
+// 카드 표시용 정규화 데이터
 interface CardData {
   key: string;
   href: string;
@@ -34,7 +25,6 @@ interface CardData {
 }
 
 const CATS: Category[] = ['concert_tour', 'music_release', 'festival', 'fanmeeting'];
-const FREE_COLOR = '#6f9c7a';
 
 function pad(n: number): string { return String(n).padStart(2, '0'); }
 function shortDate(iso: string): string { const [, m, d] = iso.split('-'); return `${m}.${d}`; }
@@ -75,22 +65,6 @@ function gameToCard(game: Game, isPreReg: boolean, lang: Locale | null): CardDat
     countdownLabel: lang === 'ko' ? '출시까지 남은 시간' : lang === 'en' ? 'Time until release' : '発売までの時間',
     targetMs: game.release_date_approx ? null : new Date(`${game.release_date}T00:00:00+09:00`).getTime(),
     fallbackText: tba,
-  };
-}
-
-function freeToCard(free: FreeGame, lang: Locale | null): CardData {
-  return {
-    key: `free-${free.title}`,
-    href: free.url ?? '#',
-    external: true,
-    imageUrl: free.image,
-    badge: lang ? CAL[lang].free : '무료',
-    badgeColor: FREE_COLOR,
-    name: free.title,
-    dateText: lang === 'ko' ? '에픽게임즈 무료 배포' : lang === 'en' ? 'Free on Epic Games' : 'Epic Games無料配布',
-    countdownLabel: lang === 'ko' ? '무료 종료까지 남은 시간' : lang === 'en' ? 'Time until free ends' : '無料終了までの時間',
-    targetMs: free.end ? new Date(free.end).getTime() : null,
-    fallbackText: lang ? CAL[lang].ongoing : '진행 중',
   };
 }
 
@@ -146,7 +120,7 @@ function FeaturedCard({ data }: { data: CardData }) {
           )}
         </div>
         <div className={styles.info}>
-          <span className={styles.badge} style={{ color: data.badgeColor, borderColor: data.badgeColor }}>{data.badge}</span>
+          <span className={styles.badge} style={{ background: data.badgeColor }}>{data.badge}</span>
           <span className={styles.name}>{data.name}</span>
           <span className={styles.date}>{data.dateText}</span>
         </div>
@@ -175,9 +149,10 @@ function FeaturedCard({ data }: { data: CardData }) {
     </>
   );
 
+  const cardStyle = { '--cat': data.badgeColor } as CSSProperties;
   return data.external
-    ? <a href={data.href} target="_blank" rel="noopener" className={styles.card}>{inner}</a>
-    : <Link href={data.href} className={styles.card}>{inner}</Link>;
+    ? <a href={data.href} target="_blank" rel="noopener" className={styles.card} style={cardStyle}>{inner}</a>
+    : <Link href={data.href} className={styles.card} style={cardStyle}>{inner}</Link>;
 }
 
 // 서브페이지 사이드바 — 풀에서 중복 없이 랜덤 count개(진입 시 셔플, 고정)
@@ -230,40 +205,22 @@ export function FeaturedCards({ games, now, variant = 'hero' }: Props) {
     .map(g => gameToCard(g, false, lang)),
     [games, preReg?.id, today, lang]);
 
-  // 현재 무료 배포 중인 게임 (에픽) — 클라에서 로드
-  const [freeItems, setFreeItems] = useState<CardData[]>([]);
-  const [ready, setReady] = useState(false);
-  useEffect(() => {
-    let cancelled = false;
-    fetch('/api/free-games')
-      .then(r => r.json())
-      .then(d => {
-        if (cancelled) return;
-        const cur: FreeGame[] = (d.games ?? []).filter((g: FreeGame) => g.status === 'current');
-        setFreeItems(cur.map(g => freeToCard(g, lang)));
-        setReady(true);
-      })
-      .catch(() => { if (!cancelled) setReady(true); });
-    return () => { cancelled = true; };
-  }, [lang]);
+  const pool = categoryItems;
 
-  const pool = useMemo(() => [...categoryItems, ...freeItems], [categoryItems, freeItems]);
-
-  // 진입 시 1회 랜덤 선택 (hero 전용, 무료게임 로드된 뒤 전체 풀에서)
+  // 진입 시 1회 랜덤 선택 (hero 전용)
   const [idx, setIdx] = useState(0);
   useEffect(() => {
-    if (variant !== 'hero' || !ready || pool.length === 0) return;
+    if (variant !== 'hero' || pool.length === 0) return;
     setIdx(Math.floor(Math.random() * pool.length));
-  }, [variant, ready, pool.length]);
+  }, [variant, pool.length]);
 
   if (!preReg && pool.length === 0) return null;
 
-  // list: 풀(사전예약 + 카테고리별 + 무료게임)에서 중복 없이 랜덤 4장
+  // list: 풀(사전예약 + 카테고리별)에서 중복 없이 랜덤 4장
   if (variant === 'list') {
     const listPool = [
       ...(preReg ? [gameToCard(preReg, true, lang)] : []),
       ...categoryItems,
-      ...freeItems,
     ];
     return <ListCards pool={listPool} count={4} />;
   }

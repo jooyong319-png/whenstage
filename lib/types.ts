@@ -68,13 +68,12 @@ export interface GamesData {
   games: Game[];
 }
 
-export type EventType = 'game_show' | 'sale' | 'season' | 'free_game';
+export type EventType = 'game_show' | 'sale' | 'season';
 
 export const EVENT_TYPE_META: Record<EventType, { label: string; color: string; icon: string }> = {
   game_show: { label: '게임쇼',   color: '#9a7bb0', icon: 'ic-star' },
   sale:      { label: '할인',     color: '#c47a00', icon: 'ic-tag' },
   season:    { label: '새 시즌',  color: '#5f86b8', icon: 'ic-refresh' },
-  free_game: { label: '무료',     color: '#6f9c7a', icon: 'ic-gift' },
 };
 
 // 캘린더/리스트에 얹는 이벤트 마커 — 클라이언트 공유용 (현재 데이터 소스 없음, 추후 필요 시 사용)
@@ -105,8 +104,8 @@ export const CATEGORY_META: Record<Category, {
   icon: string;
   color: string;
 }> = {
-  concert_tour:  { label: '콘서트·내한 공연', short: '콘서트',  icon: 'ic-star',    color: '#5f86b8' },
-  music_release: { label: '음원 발매(컴백)',   short: '음원발매', icon: 'ic-flame',   color: '#9a7bb0' },
-  festival:      { label: '페스티벌',         short: '페스티벌', icon: 'ic-globe',   color: '#6f9c7a' },
-  fanmeeting:    { label: '팬미팅',           short: '팬미팅',  icon: 'ic-comment', color: '#c08560' },
+  concert_tour:  { label: '콘서트·내한 공연', short: '콘서트',  icon: 'ic-star',    color: '#2f6fed' },
+  music_release: { label: '음원 발매(컴백)',   short: '음원발매', icon: 'ic-flame',   color: '#06b6d4' },
+  festival:      { label: '페스티벌',         short: '페스티벌', icon: 'ic-globe',   color: '#16a34a' },
+  fanmeeting:    { label: '팬미팅',           short: '팬미팅',  icon: 'ic-comment', color: '#f59e0b' },
 };

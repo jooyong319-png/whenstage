@@ -10,7 +10,7 @@ interface Props { gameId: string; }
 // localStorage 불가 시엔 그냥 집계(우아한 폴백).
 function shouldCount(gameId: string): boolean {
   try {
-    const KEY = 'gcalen.viewed.v1';
+    const KEY = 'whenstage.viewed.v1';
     const raw = localStorage.getItem(KEY);
     const map = (raw ? JSON.parse(raw) : {}) as Record<string, string>;
     const today = new Date().toISOString().slice(0, 10);

@@ -63,10 +63,10 @@ export async function GET(req: Request) {
 
   // 테마 색상
   const c = theme === 'dark'
-    ? { bg: '#111827', fg: '#f3f4f6', sub: '#9ca3af', grid: '#1f2937', today: '#34d399', sun: '#f87171', sat: '#60a5fa' }
-    : { bg: '#ffffff', fg: '#111827', sub: '#6b7280', grid: '#f3f4f6', today: '#059669', sun: '#dc2626', sat: '#2563eb' };
-  const RELEASE = '#10b981';
-  const PREREG = '#f59e0b';
+    ? { bg: '#111827', fg: '#f3f4f6', sub: '#9ca3af', grid: '#1f2937', today: '#ff5c8f', sun: '#f87171', sat: '#60a5fa' }
+    : { bg: '#ffffff', fg: '#111827', sub: '#6b7280', grid: '#f3f4f6', today: '#ff3d78', sun: '#dc2626', sat: '#2563eb' };
+  const RELEASE = '#ff3d78';
+  const PREREG = '#ff8a00';
 
   const WD = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
   const MONTHS_EN = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];

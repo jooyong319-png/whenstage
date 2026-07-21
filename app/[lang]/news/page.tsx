@@ -18,17 +18,17 @@ const META: Record<Locale, Metadata> = {
   ko: {
     title: '공연 뉴스 | 신규 소식, 업데이트, 발표',
     description: '국내외 콘서트·페스티벌·발매 관련 신규 소식, 일정 변경, 사전예약, 발표를 매일 정리합니다.',
-    alternates: { canonical: 'https://gcalen.com/ko/news' },
+    alternates: { canonical: 'https://whenstage.com/ko/news' },
   },
   en: {
     title: 'News | New Announcements, Updates, Ticketing',
     description: 'Daily-curated concert and release news from Korea and worldwide — announcements, updates, and pre-registration.',
-    alternates: { canonical: 'https://gcalen.com/en/news' },
+    alternates: { canonical: 'https://whenstage.com/en/news' },
   },
   ja: {
     title: 'ニュース | 新着情報・アップデート・発売情報',
     description: '国内外のコンサート・フェス・発売関連の新着情報、日程変更、先行予約情報を毎日整理。',
-    alternates: { canonical: 'https://gcalen.com/ja/news' },
+    alternates: { canonical: 'https://whenstage.com/ja/news' },
   },
 };
 
