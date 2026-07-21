@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllGames, getGameById, getUpcomingGamesByCategory, getLastUpdated } from '@/lib/games';
-import { CATEGORY_LABELS, UI, LOCALES, type Locale } from '@/lib/i18nLabels';
+import { CATEGORY_LABELS, UI, CAL, LOCALES, type Locale } from '@/lib/i18nLabels';
 import type { Game } from '@/lib/types';
 import { PageShell } from '@/components/PageShell';
 import { WishlistButton } from '@/components/WishlistButton';
@@ -9,7 +9,7 @@ import { DdayBadge } from '@/components/DdayBadge';
 import { ShareButton } from '@/components/ShareButton';
 import { ViewCounter } from '@/components/ViewCounter';
 import { DetailCover } from '@/components/DetailCover';
-import { PreRegCountdown } from '@/components/PreRegCountdown';
+import { TicketingPhase } from '@/components/TicketingPhase';
 
 interface Props {
   params: { lang: string; id: string };
@@ -52,6 +52,7 @@ export default async function LocaleGamePage({ params }: Props) {
   if (!isLocale(params.lang)) notFound();
   const lang = params.lang;
   const ui = UI[lang];
+  const t = CAL[lang];
 
   const game = await getGameById(params.id, lang);
   if (!game) notFound();
@@ -95,10 +96,20 @@ export default async function LocaleGamePage({ params }: Props) {
         <p className="release-date">
           <strong>{ui.releaseDate}:</strong> {dateStr}
         </p>
-        {game.pre_registration && (
-          <PreRegCountdown startDate={game.pre_registration_date} endDate={game.pre_registration_end_date} />
+        {game.presale && (
+          <TicketingPhase label={t.presaleTag} startDateTime={game.presale_datetime} endDateTime={game.presale_end_datetime} timezone={game.timezone} />
+        )}
+        {game.general_sale && (
+          <TicketingPhase label={t.generalSaleTag} startDateTime={game.general_sale_datetime} endDateTime={game.general_sale_end_datetime} timezone={game.timezone} />
         )}
         {game.description && <p className="desc">{game.description}</p>}
+        {game.festival_days && game.festival_days.length > 0 && (
+          <ul className="detail-festival-days">
+            {game.festival_days.map(day => (
+              <li key={day.date}><strong>{day.date}</strong>{day.lineup.join(', ')}</li>
+            ))}
+          </ul>
+        )}
         <ul className="detail-meta">
           {game.developer && <li><strong>{ui.developer}</strong>{game.developer}</li>}
           {game.publisher && <li><strong>{ui.publisher}</strong>{game.publisher}</li>}
@@ -106,9 +117,14 @@ export default async function LocaleGamePage({ params }: Props) {
           {game.genres.length > 0 && <li><strong>{ui.genres}</strong>{game.genres.join(', ')}</li>}
         </ul>
         <div className="detail-actions">
-          {game.pre_registration_url && (
-            <a className="detail-link prereg-cta" href={game.pre_registration_url} target="_blank" rel="noopener">
-              →
+          {game.presale_url && (
+            <a className="detail-link prereg-cta" href={game.presale_url} target="_blank" rel="noopener">
+              {t.goToPresale} →
+            </a>
+          )}
+          {game.general_sale_url && (
+            <a className="detail-link prereg-cta" href={game.general_sale_url} target="_blank" rel="noopener">
+              {t.goToGeneralSale} →
             </a>
           )}
           <WishlistButton id={game.id} className="detail-link" />

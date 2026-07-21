@@ -4,7 +4,7 @@ import type { Game } from '@/lib/types';
 import { CATEGORY_META } from '@/lib/types';
 import { calcDayDiff } from '@/lib/utils';
 import { ShareButton } from './ShareButton';
-import { PreRegCountdown } from './PreRegCountdown';
+import { TicketingPhase } from './TicketingPhase';
 import { useLocale } from '@/hooks/useLocale';
 import { UI, CAL, CATEGORY_LABELS } from '@/lib/i18nLabels';
 import styles from './GameModal.module.css';
@@ -17,8 +17,8 @@ interface Props {
 
 export function GameModal({ game, onClose, wishlist }: Props) {
   const lang = useLocale();
-  const ui = lang ? UI[lang] : null;
-  const t = lang ? CAL[lang] : null;
+  const ui = UI[lang];
+  const t = CAL[lang];
   const [imgError, setImgError] = useState(false);
   const imgRef = useRef<HTMLImageElement>(null);
   // 하이드레이션 전에 이미 로드 실패한 이미지는 onError가 안 잡히므로 마운트 시 직접 확인.
@@ -82,14 +82,28 @@ export function GameModal({ game, onClose, wishlist }: Props) {
             ? <span className={styles.dday}>{tba}</span>
             : <>{dateStr}{weekday} · <span className={styles.dday}>{dd}</span></>}
         </div>
-        {game.pre_registration && (
-          <PreRegCountdown startDate={game.pre_registration_date} endDate={game.pre_registration_end_date} />
+        {game.presale && (
+          <TicketingPhase label={t.presaleTag} startDateTime={game.presale_datetime} endDateTime={game.presale_end_datetime} timezone={game.timezone} />
+        )}
+        {game.general_sale && (
+          <TicketingPhase label={t.generalSaleTag} startDateTime={game.general_sale_datetime} endDateTime={game.general_sale_end_datetime} timezone={game.timezone} />
         )}
         {game.platforms.length > 0 && <div className={styles.row}><strong>{ui ? ui.platforms : '플랫폼'}</strong>{game.platforms.join(', ')}</div>}
         {game.genres.length > 0 && <div className={styles.row}><strong>{ui ? ui.genres : '장르'}</strong>{game.genres.join(', ')}</div>}
         {game.developer && <div className={styles.row}><strong>{ui ? ui.developer : '개발'}</strong>{game.developer}</div>}
         {game.publisher && game.publisher !== game.developer && (
           <div className={styles.row}><strong>{ui ? ui.publisher : '퍼블리셔'}</strong>{game.publisher}</div>
+        )}
+
+        {game.festival_days && game.festival_days.length > 0 && (
+          <div className={styles.festivalDays}>
+            {game.festival_days.map(day => (
+              <div key={day.date} className={styles.festivalDay}>
+                <strong className={styles.festivalDayDate}>{day.date}</strong>
+                <span className={styles.festivalDayLineup}>{day.lineup.join(', ')}</span>
+              </div>
+            ))}
+          </div>
         )}
 
         {displayDesc && <p className={styles.desc}>{displayDesc}</p>}
@@ -100,9 +114,14 @@ export function GameModal({ game, onClose, wishlist }: Props) {
           </a>
         )}
 
-        {game.pre_registration_url && (
-          <a className={styles.preRegCta} href={game.pre_registration_url} target="_blank" rel="noopener">
-            {t ? t.goToPreReg : '사전예약 하러 가기'} <svg className="ic" aria-hidden="true"><use href="#ic-arrow-ur" /></svg>
+        {game.presale_url && (
+          <a className={styles.preRegCta} href={game.presale_url} target="_blank" rel="noopener">
+            {t.goToPresale} <svg className="ic" aria-hidden="true"><use href="#ic-arrow-ur" /></svg>
+          </a>
+        )}
+        {game.general_sale_url && (
+          <a className={styles.preRegCta} href={game.general_sale_url} target="_blank" rel="noopener">
+            {t.goToGeneralSale} <svg className="ic" aria-hidden="true"><use href="#ic-arrow-ur" /></svg>
           </a>
         )}
 

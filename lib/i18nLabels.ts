@@ -193,10 +193,13 @@ interface CalUiStrings {
   swipeHint: string;
   closePanel: string;
   noScheduleThisDate: string;
-  preRegTag: string;
+  presaleTag: string;
+  generalSaleTag: string;
   deadlineTag: string;
-  preRegStartBadge: string;
-  preRegEndBadge: string;
+  presaleStartBadge: string;
+  presaleEndBadge: string;
+  generalSaleStartBadge: string;
+  generalSaleEndBadge: string;
   ongoing: string;
   closed: string;
   all: string;
@@ -210,16 +213,17 @@ interface CalUiStrings {
   noReleaseThisMonthYear: (monthYearLabel: string) => string;
   pickOtherMonth: string;
   viewSource: string;
-  goToPreReg: string;
+  goToPresale: string;
+  goToGeneralSale: string;
   favorited: string;
   favorite: string;
   fullPage: string;
   copied: string;
-  preRegLive: string;
-  preRegTimeLeft: string;
-  preRegClosedText: string;
-  preRegDeadlineTba: string;
-  preRegInfo: string;
+  ticketingLive: string;
+  ticketingTimeLeft: string;
+  ticketingClosedText: string;
+  ticketingDeadlineTba: string;
+  ticketingInfo: string;
   startsOn: (label: string) => string;
   totalItems: (count: number) => string;
   noScheduleRegistered: string;
@@ -313,10 +317,13 @@ export const CAL: Record<Locale, CalUiStrings> = {
     swipeHint: '좌우로 밀거나 ‹ ›로 다른 달을 살펴보세요.',
     closePanel: '패널 닫기',
     noScheduleThisDate: '이 날짜엔 일정이 없어요.',
-    preRegTag: '사전예약',
+    presaleTag: '선예매',
+    generalSaleTag: '일반예매',
     deadlineTag: '마감',
-    preRegStartBadge: '티켓팅 시작',
-    preRegEndBadge: '티켓팅 마감',
+    presaleStartBadge: '선예매 시작',
+    presaleEndBadge: '선예매 마감',
+    generalSaleStartBadge: '일반예매 시작',
+    generalSaleEndBadge: '일반예매 마감',
     ongoing: '진행 중',
     closed: '종료',
     all: '전체',
@@ -330,16 +337,17 @@ export const CAL: Record<Locale, CalUiStrings> = {
     noReleaseThisMonthYear: (label) => `${label} 일정이 없어요.`,
     pickOtherMonth: '위 탭에서 다른 달을 골라보세요.',
     viewSource: '출처 보기',
-    goToPreReg: '티켓팅/사전예약 하러 가기',
+    goToPresale: '선예매 하러 가기',
+    goToGeneralSale: '일반예매 하러 가기',
     favorited: '즐겨찾기됨',
     favorite: '즐겨찾기',
     fullPage: '전체 페이지',
     copied: '복사됨',
-    preRegLive: '티켓팅/사전예약 진행 중',
-    preRegTimeLeft: '마감까지 남은 시간',
-    preRegClosedText: '사전예약 마감됨',
-    preRegDeadlineTba: '마감일 미정',
-    preRegInfo: '사전예약 안내',
+    ticketingLive: '티켓팅 진행 중',
+    ticketingTimeLeft: '마감까지 남은 시간',
+    ticketingClosedText: '판매 마감됨',
+    ticketingDeadlineTba: '마감일 미정',
+    ticketingInfo: '티켓팅 안내',
     startsOn: (label) => `${label} 시작`,
     totalItems: (count) => `총 ${count}개`,
     noScheduleRegistered: '아직 등록된 일정이 없어요.',
@@ -431,10 +439,13 @@ export const CAL: Record<Locale, CalUiStrings> = {
     swipeHint: 'Swipe or use ‹ › to browse other months.',
     closePanel: 'Close panel',
     noScheduleThisDate: 'Nothing scheduled on this date.',
-    preRegTag: 'Pre-reg',
+    presaleTag: 'Presale',
+    generalSaleTag: 'General sale',
     deadlineTag: 'Deadline',
-    preRegStartBadge: 'Pre-registration opens',
-    preRegEndBadge: 'Pre-registration closes',
+    presaleStartBadge: 'Presale opens',
+    presaleEndBadge: 'Presale closes',
+    generalSaleStartBadge: 'General sale opens',
+    generalSaleEndBadge: 'General sale closes',
     ongoing: 'Ongoing',
     closed: 'Closed',
     all: 'All',
@@ -448,16 +459,17 @@ export const CAL: Record<Locale, CalUiStrings> = {
     noReleaseThisMonthYear: (label) => `No releases in ${label}.`,
     pickOtherMonth: 'Pick another month from the tabs above.',
     viewSource: 'View source',
-    goToPreReg: 'Go to pre-registration',
+    goToPresale: 'Go to presale',
+    goToGeneralSale: 'Go to general sale',
     favorited: 'Favorited',
     favorite: 'Favorite',
     fullPage: 'Full page',
     copied: 'Copied',
-    preRegLive: 'Pre-registration open',
-    preRegTimeLeft: 'Time left to pre-register',
-    preRegClosedText: 'Pre-registration closed',
-    preRegDeadlineTba: 'Pre-registration deadline TBA',
-    preRegInfo: 'Pre-registration info',
+    ticketingLive: 'Tickets on sale',
+    ticketingTimeLeft: 'Time left',
+    ticketingClosedText: 'Sale closed',
+    ticketingDeadlineTba: 'Deadline TBA',
+    ticketingInfo: 'Ticketing info',
     startsOn: (label) => `Starts ${label}`,
     totalItems: (count) => `${count} total`,
     noScheduleRegistered: 'No games scheduled here yet.',
@@ -550,10 +562,13 @@ export const CAL: Record<Locale, CalUiStrings> = {
     swipeHint: 'スワイプまたは‹ ›で他の月を見る。',
     closePanel: 'パネルを閉じる',
     noScheduleThisDate: 'この日には予定がありません。',
-    preRegTag: '事前予約',
+    presaleTag: '先行予約',
+    generalSaleTag: '一般発売',
     deadlineTag: '締切',
-    preRegStartBadge: '事前予約開始',
-    preRegEndBadge: '事前予約締切',
+    presaleStartBadge: '先行予約開始',
+    presaleEndBadge: '先行予約締切',
+    generalSaleStartBadge: '一般発売開始',
+    generalSaleEndBadge: '一般発売締切',
     ongoing: '受付中',
     closed: '終了',
     all: 'すべて',
@@ -567,16 +582,17 @@ export const CAL: Record<Locale, CalUiStrings> = {
     noReleaseThisMonthYear: (label) => `${label}の発売予定はありません。`,
     pickOtherMonth: '上のタブから他の月を選んでください。',
     viewSource: '出典を見る',
-    goToPreReg: '事前予約はこちら',
+    goToPresale: '先行予約はこちら',
+    goToGeneralSale: '一般発売はこちら',
     favorited: 'お気に入り済み',
     favorite: 'お気に入り',
     fullPage: '詳細ページ',
     copied: 'コピーしました',
-    preRegLive: '事前予約受付中',
-    preRegTimeLeft: '事前予約締切までの時間',
-    preRegClosedText: '事前予約は終了しました',
-    preRegDeadlineTba: '事前予約締切日は未定',
-    preRegInfo: '事前予約情報',
+    ticketingLive: 'チケット発売中',
+    ticketingTimeLeft: '締切までの時間',
+    ticketingClosedText: '発売終了',
+    ticketingDeadlineTba: '締切日は未定',
+    ticketingInfo: 'チケット情報',
     startsOn: (label) => `${label}開始`,
     totalItems: (count) => `合計${count}件`,
     noScheduleRegistered: 'まだ登録されている予定がありません。',

@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useMemo, useState, type CSSProperties } from 'react';
-import type { Game } from '@/lib/types';
+import { hasActiveTicketing, type Game } from '@/lib/types';
 import { supabase, isSupabaseReady } from '@/lib/supabase';
 import { useLocale } from '@/hooks/useLocale';
 import { CAL, type Locale } from '@/lib/i18nLabels';
@@ -79,7 +79,7 @@ function decorateWithImages(games: Game[], banners: Banner[]): Banner[] {
   };
   return banners.map(b => {
     let bg: string | undefined;
-    if (b.id === 'd-pre') bg = pick(g => g.pre_registration === true);
+    if (b.id === 'd-pre') bg = pick(g => hasActiveTicketing(g));
     else if (b.id === 'd-upcoming') bg = pick(g => !g.release_date_approx);
     else if (b.id === 'd-events') bg = pick(() => true);
     else if (b.id === 'd-newserver') bg = pick(g => g.category === 'festival');

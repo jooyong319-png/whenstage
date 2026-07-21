@@ -25,19 +25,22 @@ interface Props {
   onCategory: (c: FilterKey | null) => void;
 }
 
-// 캘린더 셀 위의 한 개 표기 = 게임 1개 × 유형(출시 / 사전예약 시작 / 사전예약 마감)
-type CalKind = 'release' | 'prereg' | 'prereg_end';
+// 캘린더 셀 위의 한 개 표기 = 게임 1개 × 유형(출시 / 선예매 시작·마감 / 일반예매 시작·마감)
+type CalKind = 'release' | 'presale' | 'presale_end' | 'general_sale' | 'general_sale_end';
 interface CalEntry { game: Game; kind: CalKind; }
 // 셀 소형 태그 · 상세 패널 배지 · 지난 날짜 라벨 (release는 태그/배지 없음)
-function kindTag(lang: Locale | null): Record<CalKind, string> {
-  if (!lang) return { release: '', prereg: '사전예약', prereg_end: '마감' };
+function kindTag(lang: Locale): Record<CalKind, string> {
   const t = CAL[lang];
-  return { release: '', prereg: t.preRegTag, prereg_end: t.deadlineTag };
+  return { release: '', presale: t.presaleTag, presale_end: t.deadlineTag, general_sale: t.generalSaleTag, general_sale_end: t.deadlineTag };
 }
-function kindBadge(lang: Locale | null): Record<CalKind, string> {
-  if (!lang) return { release: '', prereg: '사전예약 시작', prereg_end: '사전예약 마감' };
+function kindBadge(lang: Locale): Record<CalKind, string> {
   const t = CAL[lang];
-  return { release: '', prereg: t.preRegStartBadge, prereg_end: t.preRegEndBadge };
+  return { release: '', presale: t.presaleStartBadge, presale_end: t.presaleEndBadge, general_sale: t.generalSaleStartBadge, general_sale_end: t.generalSaleEndBadge };
+}
+// 선예매/일반예매 datetime(ISO, 오프셋 포함)에서 달력 배치용 날짜만 추출 — 오프셋을 UTC로
+// 환산하지 않고 문자열 앞 10자만 쓴다(작성된 그대로가 곧 그 공연 타임존 기준 로컬 날짜이므로).
+function dateOnly(iso: string | null | undefined): string | null {
+  return iso ? iso.slice(0, 10) : null;
 }
 
 interface Cell {
@@ -66,8 +69,10 @@ function buildCells(cursor: Date, games: Game[], now: Date): Cell[] {
   };
   for (const g of games) {
     addEntry(g.release_date, g, 'release');
-    addEntry(g.pre_registration_date, g, 'prereg');         // 사전예약 시작일
-    addEntry(g.pre_registration_end_date, g, 'prereg_end'); // 사전예약 마감일
+    addEntry(dateOnly(g.presale_datetime), g, 'presale');
+    addEntry(dateOnly(g.presale_end_datetime), g, 'presale_end');
+    addEntry(dateOnly(g.general_sale_datetime), g, 'general_sale');
+    addEntry(dateOnly(g.general_sale_end_datetime), g, 'general_sale_end');
   }
   const cells: Cell[] = [];
   for (let i = 0; i < 42; i++) {
@@ -87,7 +92,7 @@ function buildCells(cursor: Date, games: Game[], now: Date): Cell[] {
 
 export function CalendarView({ cursor, onCursorChange, games, events = [], wishlist, onPick, now, category, onCategory }: Props) {
   const lang = useLocale();
-  const t = lang ? CAL[lang] : null;
+  const t = CAL[lang];
   const KIND_TAG = useMemo(() => kindTag(lang), [lang]);
   const KIND_BADGE = useMemo(() => kindBadge(lang), [lang]);
   const eventsByDate = useMemo(() => {
@@ -179,8 +184,10 @@ export function CalendarView({ cursor, onCursorChange, games, events = [], wishl
     const out: CalEntry[] = [];
     for (const g of games) {
       if (g.release_date === selectedISO) out.push({ game: g, kind: 'release' });
-      if (g.pre_registration_date === selectedISO) out.push({ game: g, kind: 'prereg' });
-      if (g.pre_registration_end_date === selectedISO) out.push({ game: g, kind: 'prereg_end' });
+      if (dateOnly(g.presale_datetime) === selectedISO) out.push({ game: g, kind: 'presale' });
+      if (dateOnly(g.presale_end_datetime) === selectedISO) out.push({ game: g, kind: 'presale_end' });
+      if (dateOnly(g.general_sale_datetime) === selectedISO) out.push({ game: g, kind: 'general_sale' });
+      if (dateOnly(g.general_sale_end_datetime) === selectedISO) out.push({ game: g, kind: 'general_sale_end' });
     }
     return out.sort((a, b) => a.game.name.localeCompare(b.game.name));
   }, [selectedISO, games]);
@@ -259,7 +266,7 @@ export function CalendarView({ cursor, onCursorChange, games, events = [], wishl
                         className={styles.cellDot}
                         style={e.kind === 'release'
                           ? { background: c }
-                          : { background: 'transparent', boxShadow: `inset 0 0 0 2px ${c}`, opacity: e.kind === 'prereg_end' ? 0.5 : 1 }} // 사전예약 = 속 빈 링(마감은 흐리게)
+                          : { background: 'transparent', boxShadow: `inset 0 0 0 2px ${c}`, opacity: e.kind.endsWith('_end') ? 0.5 : 1 }} // 선예매/일반예매 = 속 빈 링(마감은 흐리게)
                         title={KIND_TAG[e.kind] ? `${e.game.name} (${KIND_TAG[e.kind]})` : e.game.name}
                       />
                     );

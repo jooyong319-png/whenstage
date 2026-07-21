@@ -1,6 +1,6 @@
 import { getAllGames } from '@/lib/games';
 import { kstDateOnly } from '@/lib/utils';
-import { CATEGORY_META, type Category } from '@/lib/types';
+import { CATEGORY_META, hasActiveTicketing, type Category } from '@/lib/types';
 import styles from './FloatingMonthStats.module.css';
 
 const ORDER: Category[] = ['concert_tour', 'music_release', 'festival', 'fanmeeting'];
@@ -31,13 +31,10 @@ export async function FloatingMonthStats() {
   }
   const max = Math.max(1, ...ORDER.map(c => counts[c]));
 
-  // 지금 가능한 사전예약: pre_registration=true · 시작됨 · 마감 전 · 미출시 → 출시 임박순 최대 5개
+  // 지금 티켓팅 중(선예매/일반예매) · 미출시 → 출시 임박순 최대 5개
   const today = ymd(now);
   const preRegs = games
-    .filter(g => g.pre_registration === true
-      && g.category !== 'fanmeeting' // 신규 서버·업데이트 이벤트는 게임 사전예약 아님 → 제외
-      && !(g.pre_registration_date && g.pre_registration_date > today)
-      && !(g.pre_registration_end_date && g.pre_registration_end_date < today)
+    .filter(g => hasActiveTicketing(g)
       && !(!g.release_date_approx && g.release_date < today))
     .sort((a, b) => a.release_date.localeCompare(b.release_date))
     .slice(0, 5);

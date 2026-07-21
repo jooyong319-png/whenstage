@@ -36,3 +36,20 @@ export function getKoreanWeekday(release_date: string): string {
   const d = new Date(release_date);
   return ['일', '월', '화', '수', '목', '금', '토'][d.getDay()];
 }
+
+// 티켓팅 시각을 "그 공연의 타임존" 기준으로 포맷 (예: '2026. 8. 5. 오전 11:00 GMT+9').
+// 뷰어의 브라우저 타임존과 무관하게 항상 같은 값을 보여줘야, 해외 팬이 자기 시간대로
+// 착각해 티켓팅을 놓치는 사고를 막을 수 있다 — 그래서 항상 timezone을 명시해 포맷한다.
+export function formatEventDateTime(iso: string, timezone: string, locale: 'ko' | 'en' | 'ja'): string {
+  const intlLocale = locale === 'en' ? 'en-US' : locale === 'ja' ? 'ja-JP' : 'ko-KR';
+  const dtf = new Intl.DateTimeFormat(intlLocale, {
+    timeZone: timezone,
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: 'numeric',
+    minute: '2-digit',
+    timeZoneName: 'short',
+  });
+  return dtf.format(new Date(iso));
+}

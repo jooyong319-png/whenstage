@@ -148,6 +148,17 @@
   transition: filter 0.15s ease;
 }
 .preRegCta:hover { filter: brightness(1.08); }
+/* 페스티벌 데이별 라인업 */
+.festivalDays { margin: 0.6rem 0; display: flex; flex-direction: column; gap: 0.35rem; }
+.festivalDay {
+  padding: 0.5rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg);
+  font-size: 0.88rem;
+}
+.festivalDayDate { display: block; color: var(--text-faint); font-size: 0.78rem; margin-bottom: 0.15rem; }
+.festivalDayLineup { color: var(--text); }
 .actions { display: flex; gap: 0.5rem; margin-top: 1rem; flex-wrap: wrap; }
 .fav, .detail, .share {
   display: inline-flex;

@@ -44,7 +44,8 @@ export async function GET(req: Request) {
       if (!g.release_date_approx && g.release_date?.startsWith(monthPrefix)) {
         releaseDays.add(parseInt(g.release_date.slice(8, 10), 10));
       }
-      for (const d of [g.pre_registration_date, g.pre_registration_end_date]) {
+      for (const dt of [g.presale_datetime, g.presale_end_datetime, g.general_sale_datetime, g.general_sale_end_datetime]) {
+        const d = dt ? dt.slice(0, 10) : null;
         if (d && d.startsWith(monthPrefix)) preRegDays.add(parseInt(d.slice(8, 10), 10));
       }
     }

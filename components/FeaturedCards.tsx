@@ -42,15 +42,33 @@ function ymd(d: Date): string {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 }
 
+// 선예매·일반예매 중 하나라도 "지금" 진행 중인지(시작함·아직 안 끝남) — 오늘 날짜 문자열과 비교.
+function isActiveTicketing(g: Game, today: string): boolean {
+  const phases: Array<[boolean | undefined, string | null | undefined, string | null | undefined]> = [
+    [g.presale, g.presale_datetime, g.presale_end_datetime],
+    [g.general_sale, g.general_sale_datetime, g.general_sale_end_datetime],
+  ];
+  return phases.some(([flag, start, end]) => {
+    if (!flag) return false;
+    const startDate = start ? start.slice(0, 10) : null;
+    const endDate = end ? end.slice(0, 10) : null;
+    if (startDate && startDate > today) return false;
+    if (endDate && endDate < today) return false;
+    return true;
+  });
+}
+
 function gameToCard(game: Game, isPreReg: boolean, lang: Locale | null): CardData {
   const cat = CATEGORY_META[game.category];
   const tba = lang ? UI[lang].tba : '미정';
+  const t = lang ? CAL[lang] : null;
+  const ticketBadge = t ? (game.presale ? t.presaleTag : t.generalSaleTag) : (game.presale ? '선예매' : '일반예매');
   return {
     key: `game-${game.id}`,
     href: `/${lang ?? 'ko'}/concert/${game.id}`,
     external: false,
     imageUrl: game.image_url,
-    badge: isPreReg ? (lang ? CAL[lang].preRegTag : '사전예약') : cat.short,
+    badge: isPreReg ? ticketBadge : cat.short,
     badgeColor: isPreReg ? 'var(--accent-warm)' : cat.color,
     name: game.name,
     dateText: game.release_date_approx ? tba : shortDate(game.release_date),
@@ -189,11 +207,9 @@ export function FeaturedCards({ games, now, variant = 'hero' }: Props) {
   const today = ymd(now);
   const notReleased = (g: Game) => g.release_date_approx || g.release_date >= today;
 
-  // 사전예약 진행 중인 게임 목록 → 진입 시 이 중 '랜덤 1개' 노출(고정 최신 아님)
+  // 티켓팅(선예매/일반예매) 진행 중인 게임 목록 → 진입 시 이 중 '랜덤 1개' 노출(고정 최신 아님)
   const preRegList = useMemo(() => games
-    .filter(g => notReleased(g) && g.pre_registration === true
-      && !(g.pre_registration_date && g.pre_registration_date > today)
-      && !(g.pre_registration_end_date && g.pre_registration_end_date < today))
+    .filter(g => notReleased(g) && isActiveTicketing(g, today))
     .sort((a, b) => a.release_date.localeCompare(b.release_date)),
     [games, today]);
 

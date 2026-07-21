@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { getAllGames, getLastUpdated } from '@/lib/games';
 import { getAllPosts, getPostTranslation } from '@/lib/blog';
 import { getAllNews, getNewsTranslation } from '@/lib/news';
+import { hasActiveTicketing, type Game } from '@/lib/types';
 import { LOCALES, type Locale } from '@/lib/i18nLabels';
 
 const BASE = 'https://gcalen.com';
@@ -41,19 +42,44 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
   }
 
-  // 콘서트/발매 상세 — 로케일별로 완전히 독립된 데이터(id가 서로 다름)라 언어간 hreflang 매핑 없이 등록
+  // 콘서트/발매 상세 — 로케일별로 완전히 독립된 데이터(id가 서로 다름)라 기본적으로 언어간
+  // hreflang 매핑이 없지만, 같은 물리적 공연이 related_locale_ids로 다른 로케일에도 등재된
+  // 경우(선택적 크로스 등재)에는 그 페어에만 hreflang alternate를 붙인다.
+  const gamesByLocale: Record<Locale, Game[]> = {
+    ko: await getAllGames('ko'),
+    en: await getAllGames('en'),
+    ja: await getAllGames('ja'),
+  };
+  const idSets: Record<Locale, Set<string>> = {
+    ko: new Set(gamesByLocale.ko.map(g => g.id)),
+    en: new Set(gamesByLocale.en.map(g => g.id)),
+    ja: new Set(gamesByLocale.ja.map(g => g.id)),
+  };
+
   const gameUrls: MetadataRoute.Sitemap = [];
   for (const lang of LOCALES) {
-    const [games, dataUpdatedStr] = await Promise.all([getAllGames(lang), getLastUpdated(lang)]);
-    const dataUpdated = new Date(dataUpdatedStr);
-    for (const g of games) {
+    const dataUpdated = new Date(await getLastUpdated(lang));
+    for (const g of gamesByLocale[lang]) {
       const upcoming = g.release_date_approx || g.release_date >= todayStr;
-      const priority = g.pre_registration ? 0.85 : upcoming ? 0.75 : 0.6;
+      const ticketing = hasActiveTicketing(g);
+      const priority = ticketing ? 0.85 : upcoming ? 0.75 : 0.6;
+
+      let alternates: { languages: Record<string, string> } | undefined;
+      if (g.related_locale_ids) {
+        const languages: Record<string, string> = { [lang]: `${BASE}/${lang}/concert/${g.id}` };
+        for (const relLang of LOCALES) {
+          const relId = g.related_locale_ids[relLang];
+          if (relId && idSets[relLang].has(relId)) languages[relLang] = `${BASE}/${relLang}/concert/${relId}`;
+        }
+        if (Object.keys(languages).length > 1) alternates = { languages };
+      }
+
       gameUrls.push({
         url: `${BASE}/${lang}/concert/${g.id}`,
         lastModified: dataUpdated,
-        changeFrequency: g.pre_registration || upcoming ? 'daily' : 'weekly',
+        changeFrequency: ticketing || upcoming ? 'daily' : 'weekly',
         priority,
+        ...(alternates ? { alternates } : {}),
       });
     }
   }
