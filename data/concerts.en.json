@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-22",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -124,6 +124,163 @@
       "general_sale": true,
       "general_sale_datetime": null,
       "general_sale_url": "https://www.aclfestival.com/passes"
+    },
+    {
+      "id": "en-enhypen-blood-saga-oakland-20260728",
+      "name": "ENHYPEN: Blood Saga World Tour - Oakland",
+      "release_date": "2026-07-28",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Oakland Arena, Oakland, CA"
+      ],
+      "developer": "ENHYPEN",
+      "publisher": "Live Nation",
+      "description": "ENHYPEN bring their fourth world tour, Blood Saga, to Oakland Arena for two nights on July 28 and 29, 2026, both starting at 7:30 PM with doors at 6:00 PM. The North American leg follows the seven-member group's 2025 WALK THE LINE tour, which sold out its US and European legs, and continues on to Las Vegas after Oakland. ENGENE membership presale ran April 22-23, with general on-sale opening April 24 via Ticketmaster and AXS.",
+      "genres": [
+        "K-pop",
+        "Concert",
+        "World Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.theoaklandarena.com/events/detail/enhypen-1",
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_url": "https://www.axs.com/events/1380740/enhypen-tickets"
+    },
+    {
+      "id": "en-monsta-x-nexus-newyork-20261006",
+      "name": "Monsta X: THE X : NEXUS World Tour - New York",
+      "release_date": "2026-10-06",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Infosys Theater at Madison Square Garden, New York, NY"
+      ],
+      "developer": "Monsta X",
+      "publisher": "Live Nation",
+      "description": "Monsta X bring THE X : NEXUS, their 2026 world tour, to the Infosys Theater at Madison Square Garden on October 6, with doors at 7:00 PM and the show starting at 8:00 PM. The North American leg runs October 3-24 across ten cities including Fairfax, Boston, Toronto and Los Angeles, following the tour's launch with three sold-out nights at Seoul's KSPO Dome and stops across Asia and Latin America. Tickets have been on sale since April 14 through Ticketmaster.",
+      "genres": [
+        "K-pop",
+        "Concert",
+        "World Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.msg.com/events-tickets/monsta-x-infosys-theater-at-madison-square-garden-october-2026/3B00647BF0495307",
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_url": "https://www.ticketmaster.com/monsta-x-tickets/artist/2371302"
+    },
+    {
+      "id": "en-charli-xcx-music-fashion-film-philadelphia-20260911",
+      "name": "Charli xcx: Music, Fashion, Film Tour - Philadelphia",
+      "release_date": "2026-09-11",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Xfinity Mobile Arena, Philadelphia, PA"
+      ],
+      "developer": "Charli xcx",
+      "publisher": "Live Nation",
+      "description": "Charli xcx opens her Music, Fashion, Film Tour at Xfinity Mobile Arena in Philadelphia on September 11, 2026, at 8:00 PM, in support of her seventh studio album of the same name. The arena run continues across North America into late October, including two-night stands in Brooklyn and Los Angeles, with underscores as support on every date. An artist presale ran June 12 at 9:00 AM, followed by general on-sale the same day at 1:00 PM through Ticketmaster, including $20 'Angel Tickets.'",
+      "genres": [
+        "Pop",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.xfinitymobilearena.com/news/detail/charli-xcx-announces-the-music-fashion-film-tour",
+      "presale": true,
+      "presale_datetime": "2026-06-12T09:00:00-04:00",
+      "presale_url": "https://www.ticketmaster.com/event/300064C5A4647126",
+      "general_sale": true,
+      "general_sale_datetime": "2026-06-12T13:00:00-04:00",
+      "general_sale_url": "https://www.ticketmaster.com/event/300064C5A4647126"
+    },
+    {
+      "id": "en-phoebe-bridgers-lost-tour-indianapolis-20260914",
+      "name": "Phoebe Bridgers: The Lost Tour - Indianapolis",
+      "release_date": "2026-09-14",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "America/Indiana/Indianapolis",
+      "category": "concert_tour",
+      "platforms": [
+        "Gainbridge Fieldhouse, Indianapolis, IN"
+      ],
+      "developer": "Phoebe Bridgers",
+      "publisher": "Live Nation",
+      "description": "Phoebe Bridgers brings The Lost Tour to Indianapolis for two nights, September 14 and 15, 2026, at Gainbridge Fieldhouse, with both shows starting at 7:30 PM. The completely phone-free arena tour supports her third studio album, Lost Weekend, and runs through North America before continuing to the UK and Europe in November. Alex G opens the North American dates, and all phones and smartwatches are secured in Yondr pouches for the duration of each show. Tickets went on sale June 12 at 10:00 AM ET.",
+      "genres": [
+        "Indie",
+        "Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.gainbridgefieldhouse.com/events/detail/phoebe-bridgers",
+      "general_sale": true,
+      "general_sale_datetime": "2026-06-12T10:00:00-04:00",
+      "general_sale_url": "https://www.ticketmaster.com/phoebe-bridgers-tickets/artist/2133305?venueId=41417&brand=fieldhouse&camefrom=CFC_FIELDHOUSE_SITE_EVENT"
+    },
+    {
+      "id": "en-lollapalooza-2026-20260730",
+      "name": "Lollapalooza 2026",
+      "release_date": "2026-07-30",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Chicago",
+      "category": "festival",
+      "platforms": [
+        "Grant Park, Chicago, IL"
+      ],
+      "developer": null,
+      "publisher": "C3 Presents",
+      "description": "Lollapalooza returns to Grant Park in Chicago for four days, July 30 to August 2, 2026, with more than 150 acts across seven stages under a 10-year city contract extension. Daily headliners are Lorde and John Summit on Thursday, Charli xcx and The Smashing Pumpkins on Friday, Olivia Dean and Jennie of Blackpink on Saturday, and Tate McRae and The xx on Sunday. The bill also features Turnstile, Aespa, Clipse, YOASOBI and Yungblud. Four-day passes are waitlisted, but single-day tickets remain on sale.",
+      "genres": [
+        "Festival",
+        "Multi-artist"
+      ],
+      "image_url": null,
+      "source_url": "https://www.lollapalooza.com/lineup",
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_url": "https://www.lollapalooza.com/",
+      "festival_days": [
+        { "date": "2026-07-30", "lineup": ["Lorde", "John Summit"] },
+        { "date": "2026-07-31", "lineup": ["Charli xcx", "The Smashing Pumpkins"] },
+        { "date": "2026-08-01", "lineup": ["Olivia Dean", "JENNIE"] },
+        { "date": "2026-08-02", "lineup": ["Tate McRae", "The xx"] }
+      ]
+    },
+    {
+      "id": "en-charli-xcx-music-fashion-film-20260724",
+      "name": "Charli xcx - Music, Fashion, Film",
+      "release_date": "2026-07-24",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "music_release",
+      "platforms": [
+        "Streaming",
+        "Digital",
+        "CD",
+        "Vinyl"
+      ],
+      "developer": "Charli xcx",
+      "publisher": "Atlantic Records",
+      "description": "Charli xcx releases her seventh studio album, Music, Fashion, Film, on July 24, 2026, via Atlantic Records, produced with longtime collaborators A. G. Cook and Finn Keane. The album was preceded by three singles: lead track 'Rock Music,' followed by 'SS26' and 'Wink Wink.' Its black-and-white cover features John Cale, Marc Jacobs and Martin Scorsese as emblems of the title's three disciplines. Charli supports the release with an eponymous North American arena tour running September and October.",
+      "genres": [
+        "Pop",
+        "Album",
+        "Comeback"
+      ],
+      "image_url": null,
+      "source_url": "https://en.wikipedia.org/wiki/Music,_Fashion,_Film"
     }
   ]
 }

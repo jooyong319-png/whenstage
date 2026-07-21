@@ -2,6 +2,30 @@
 
 이 파일은 KO/EN/JA 3개 리서처 Claude가 공통으로 append하는 로그다. 오래된 로그도 삭제하지 말 것.
 
+## [2026-07-22 11:20] [EN 리서처]
+리서치 완료 (영어권/글로벌 시장 공연)
+- 콘서트/투어 4→4, 발매 4→1, 페스티벌 1→1, 팬미팅 0→0 (후보→통과)
+- 신규 6개 / 갱신 0개 (삭제 없음·기존 5개 전량 보존)
+- 티켓팅 진행중 5개(신규 +5): ENHYPEN Oakland(general_sale, AXS), Monsta X NY(general_sale, Ticketmaster), Charli xcx Philadelphia(presale 6/12 09:00 ET + general_sale 6/12 13:00 ET), Phoebe Bridgers Indianapolis(general_sale 6/12 10:00 ET), Lollapalooza(general_sale, 4일권 대기·1일권 판매중)
+- 기존 티켓팅 항목 재확인(변경 없음): Foo Fighters Detroit(Ticketmaster/Ford Field 공식 재조회, 여전히 general_sale 유효), My Chemical Romance NY(Ticketmaster/livenation 재조회, 여전히 유효) — 둘 다 공연 미도래·판매 지속으로 기존 값 유지
+- description 보강: 신규 6개 전부 영어 75~85단어(권장 50~80 상단 근접~소폭 초과)
+- image_url: 티켓 플랫폼/공식 공연장 페이지에서 og:image 후보(MSG 포스터 1024x576, Oakland Arena 820x540, Xfinity Mobile Arena 760x460, Gainbridge Fieldhouse 배너 1180x500)를 모두 확보했으나, 전부 와이드 비율이라 "정사각형에 가까운" 기준 미충족 판단 → 6개 전부 null 유지(교체 대상으로 위 URL 기록, 정사각형 대체 이미지 확보 시 다음 사이클 반영)
+- 총 등록 11개
+
+[신규 항목]
+- ENHYPEN: Blood Saga World Tour - Oakland (concert_tour, 7/28~29 Oakland Arena, 7:30PM PDT): Oakland Arena 공식(theoaklandarena.com) + AXS + Songkick + Billboard 다수 일치. 7인 완전체 4번째 월드투어, 2025 WALK THE LINE 전석 매진 후속. 4/22~23 ENGENE 선행, 4/24 일반판매
+- Monsta X: THE X : NEXUS World Tour - New York (concert_tour, 10/6 MSG Infosys Theater, 8PM ET): MSG 공식(msg.com) + Billboard + Live Nation Newsroom + Ticketmaster 일치. 서울 KSPO DOME 3일 매진 후 아시아·중남미 거쳐 북미 10개 도시 투어
+- Charli xcx: Music, Fashion, Film Tour - Philadelphia (concert_tour, 9/11 Xfinity Mobile Arena, 8PM ET): Xfinity Mobile Arena 공식 + Billboard + PhillyVoice + NBC10 + Jambase 일치. 신보 발매 지원 투어 개막 공연, underscores 서포트
+- Phoebe Bridgers: The Lost Tour - Indianapolis (concert_tour, 9/14~15 Gainbridge Fieldhouse, 7:30PM ET): Gainbridge Fieldhouse 공식 + Rolling Stone + Variety + WRTV 일치. 폰프리(욘더 파우치) 투어, 3집 Lost Weekend 지원, Alex G 오프닝
+- Lollapalooza 2026 (festival, 7/30~8/2 Grant Park Chicago): lollapalooza.com 공식 + CBS Chicago + Time Out Chicago 일치. 데이별 헤드라이너(목 Lorde·John Summit / 금 Charli xcx·Smashing Pumpkins / 토 Olivia Dean·JENNIE(블랙핑크) / 일 Tate McRae·the xx) 확정 → festival_days 기재
+- Charli xcx - Music, Fashion, Film (music_release, 7/24 발매): Wikipedia + Billboard + RA.co 일치. 7집, Atlantic Records, 선공개곡 'Rock Music'·'SS26'·'Wink Wink', 커버는 존 케일·마크 제이콥스·마틴 스코세이지
+
+[검증 탈락 / 보류]
+- Brandon Flowers 'Thrasher'(8/21 솔로 앨범): Billboard·Universal Music Canada·Radio X 등 확인했으나 대상이 영어권 팬미팅/투어 아닌 솔로 앨범이라 발매 확정성은 충분하나 이번 사이클엔 콘서트/투어·페스티벌 위주로 우선순위 배정 후 시간 관계상 보류 → 다음 사이클 후보
+- Rod Wave 'Don't Look Down'(8/28): Billboard 단일 계열 출처만 확인, 2차 독립 출처 재확인 미완으로 보류
+- Ariana Grande 'Petal', Olivia Rodrigo·Madonna 신보: 검색 결과 7월 말 이전(현재 창 이전) 발매로 확인되어 "최근/미래" 창 기준 이번 사이클 대상 아님(다음 사이클 재확인 필요시 검토)
+[메모] 이번 검증 실행은 RESEARCHER_EN.md 프롬프트 절차를 신규 clone 기준으로 그대로 수행한 검증(verification) 목적 사이클. 2단계 리서치(집계→개별 확정) 및 독립 출처 2개 이상 원칙을 모든 신규 항목에 적용함.
+
 ## [2026-07-22 09:15] [KO 리서처]
 리서치 완료 (한국 국내 공연)
 - 콘서트/내한 7→3, 음원발매 2→0, 페스티벌 1→1, 팬미팅 2→1 (후보→통과)
