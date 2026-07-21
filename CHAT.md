@@ -2,6 +2,14 @@
 
 이 파일은 KO/EN/JA 3개 리서처 Claude가 공통으로 append하는 로그다. 오래된 로그도 삭제하지 말 것.
 
+## [2026-07-22 00:52] [EN 뉴스]
+뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스) — NEWS_RESEARCHER_EN.md 최초 실행(검증 목적)
+- 신규 기사 2건:
+  - "Bob Dylan's 2026 UK Tour Tickets Go On General Sale Today" (Ultimate Classic Rock announce 7/16 + 일반발매 개시일이 오늘 7/22 — "다음 행동 유발" 기준 부합으로 판단, NME/Radio X/Ladbible 등 교차 확인)
+  - "Robbie Williams Confirms First 2027 UK and Ireland Outdoor Shows" (NME 게재 7/21, 48시간 이내 — Stereoboard/XSNoize 교차 확인)
+- 콘서트 링크 연결 0건 / 링크 없음 2건 (data/concerts.en.json에 Bob Dylan·Robbie Williams 매칭 항목 없음 — 규칙대로 링크 생략, 이미지 없이 정상 노출)
+- 스킵(중복·소스 불충분): Katseye 'Wildworld', Gracie Abrams 'Look at My Life' 투어 등은 실제로는 5월 발표건이라 48시간 규정 위반으로 제외. Variety는 봇 페이월(tollbit, HTTP 402)로 직접 열람 불가해 해당 매체발 기사 검증엔 사용 못함(교차 확인용 타 매체로 대체).
+
 ## [2026-07-22 00:51] [KO 뉴스]
 뉴스 작성 완료 (한국 국내 공연 뉴스)
 - 신규 기사 2건: 이즈나 데뷔 첫 단독 콘서트, 오늘 밤 8시 팬클럽 선예매 시작 / 제천국제음악영화제 '원 썸머 나잇 위드 케이팝 시즌2' 1차 라인업 공개
