@@ -64,6 +64,8 @@ textarea:focus-visible,
   --accent-2: #7c3aed;
   --accent-grad: linear-gradient(92deg, #ff3d78, #7c3aed);
   --accent-grad-135: linear-gradient(135deg, #ff3d78, #7c3aed);
+  /* 흰 텍스트가 직접 올라가는 작은 필/버튼 전용 — 원색 그라데이션보다 어둡게 낮춰 WCAG AA(4.5:1) 확보 */
+  --accent-grad-text: linear-gradient(92deg, #bf2e5a, #5d2cb2);
   --accent-warm: #ff8a00;
   --danger: #e74c3c;
   --radius: 12px;
@@ -99,6 +101,7 @@ textarea:focus-visible,
   --accent-2: #a78bfa;
   --accent-grad: linear-gradient(92deg, #ff5c8f, #a78bfa);
   --accent-grad-135: linear-gradient(135deg, #ff5c8f, #a78bfa);
+  --accent-grad-text: linear-gradient(92deg, #bf456b, #7d68bc);
   --accent-warm: #ffa733;
   --shadow-sm: 0 2px 8px -2px rgba(0, 0, 0, 0.35);
   --shadow-md: 0 10px 28px -10px rgba(0, 0, 0, 0.5);
@@ -236,7 +239,7 @@ textarea:focus-visible,
 .header-news-link.header-news-active,
 .header-artist-link.header-artist-active {
   color: #fff;
-  background: var(--accent-grad);
+  background: var(--accent-grad-text);
   box-shadow: 0 4px 14px -4px rgba(255, 61, 120, 0.5);
 }
 .header-cal-link .ic, .header-guide-link .ic, .header-news-link .ic, .header-artist-link .ic { width: 17px; height: 17px; }
@@ -659,7 +662,7 @@ textarea:focus-visible,
 .prereg-info .ic { color: var(--accent-warm); flex: 0 0 auto; }
 /* 사전예약/일반예매 CTA(상세 액션) — 그라데이션 채움으로 강한 강조(가장 중요한 액션) */
 .detail-actions .prereg-cta {
-  background: var(--accent-grad);
+  background: var(--accent-grad-text);
   color: #fff;
   border-color: transparent;
   box-shadow: var(--shadow-glow);
@@ -667,7 +670,7 @@ textarea:focus-visible,
 .detail-actions .prereg-cta:hover,
 .detail-actions .prereg-cta:focus-visible {
   filter: brightness(1.08);
-  background: var(--accent-grad);
+  background: var(--accent-grad-text);
   border-color: transparent;
   transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
