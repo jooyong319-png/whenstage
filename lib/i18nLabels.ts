@@ -43,6 +43,11 @@ interface UiStrings {
   calendar: string;
   news: string;
   blog: string;
+  artist: string;
+  artistListTitle: string;
+  artistListSubtitle: string;
+  artistUpcomingCount: string;
+  artistNoEvents: string;
   releaseDate: string;
   platforms: string;
   genres: string;
@@ -73,6 +78,11 @@ export const UI: Record<Locale, UiStrings> = {
     calendar: '캘린더',
     news: '뉴스',
     blog: '모아보기',
+    artist: '아티스트',
+    artistListTitle: '아티스트',
+    artistListSubtitle: '아티스트별로 발매·투어·팬미팅 일정을 모아봤어요.',
+    artistUpcomingCount: '개 예정',
+    artistNoEvents: '등록된 일정이 없어요.',
     releaseDate: '일정',
     platforms: '공연장',
     genres: '태그',
@@ -101,6 +111,11 @@ export const UI: Record<Locale, UiStrings> = {
     calendar: 'Calendar',
     news: 'News',
     blog: 'Roundups',
+    artist: 'Artists',
+    artistListTitle: 'Artists',
+    artistListSubtitle: 'Releases, tours, and fan meetings, grouped by artist.',
+    artistUpcomingCount: ' upcoming',
+    artistNoEvents: 'No scheduled events.',
     releaseDate: 'Date',
     platforms: 'Venue',
     genres: 'Tags',
@@ -129,6 +144,11 @@ export const UI: Record<Locale, UiStrings> = {
     calendar: 'カレンダー',
     news: 'ニュース',
     blog: 'まとめ記事',
+    artist: 'アーティスト',
+    artistListTitle: 'アーティスト',
+    artistListSubtitle: 'アーティストごとに発売・ツアー・ファンミーティング情報をまとめました。',
+    artistUpcomingCount: '件予定',
+    artistNoEvents: '登録された日程はありません。',
     releaseDate: '日程',
     platforms: '会場',
     genres: 'タグ',
@@ -190,6 +210,7 @@ interface CalUiStrings {
   swipeHint: string;
   closePanel: string;
   noScheduleThisDate: string;
+  nextSchedule: string;
   todaySchedule: string;
   presaleTag: string;
   generalSaleTag: string;
@@ -310,6 +331,7 @@ export const CAL: Record<Locale, CalUiStrings> = {
     swipeHint: '좌우로 밀거나 ‹ ›로 다른 달을 살펴보세요.',
     closePanel: '패널 닫기',
     noScheduleThisDate: '이 날짜엔 일정이 없어요.',
+    nextSchedule: '다음 일정',
     todaySchedule: '오늘의 일정',
     presaleTag: '선예매',
     generalSaleTag: '일반예매',
@@ -428,6 +450,7 @@ export const CAL: Record<Locale, CalUiStrings> = {
     swipeHint: 'Swipe or use ‹ › to browse other months.',
     closePanel: 'Close panel',
     noScheduleThisDate: 'Nothing scheduled on this date.',
+    nextSchedule: 'Coming Up Next',
     todaySchedule: "Today's Schedule",
     presaleTag: 'Presale',
     generalSaleTag: 'General sale',
@@ -547,6 +570,7 @@ export const CAL: Record<Locale, CalUiStrings> = {
     swipeHint: 'スワイプまたは‹ ›で他の月を見る。',
     closePanel: 'パネルを閉じる',
     noScheduleThisDate: 'この日には予定がありません。',
+    nextSchedule: '次の予定',
     todaySchedule: '本日の予定',
     presaleTag: '先行予約',
     generalSaleTag: '一般発売',

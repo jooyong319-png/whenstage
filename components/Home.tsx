@@ -15,7 +15,7 @@ import { GameModal } from './GameModal';
 import { useWishlist } from '@/hooks/useWishlist';
 import { useWishlistFilter } from '@/hooks/useWishlistFilter';
 import { useLocale } from '@/hooks/useLocale';
-import { CAL } from '@/lib/i18nLabels';
+import { CAL, UI } from '@/lib/i18nLabels';
 import styles from './Home.module.css';
 
 interface HomeProps {
@@ -154,6 +154,7 @@ export function Home({ initialGames, lastUpdated, serverNow, initialCalEvents = 
 
   return (
     <div className={styles.home}>
+      <h1 className="sr-only">{UI[lang].siteName}</h1>
       <div className={styles.layout}>
         <div className={styles.main}>
           <div className={styles.topRow}>

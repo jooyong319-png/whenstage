@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { getAllGames, getLastUpdated } from '@/lib/games';
 import { getAllPosts, getPostTranslation } from '@/lib/blog';
 import { getAllNews } from '@/lib/news';
+import { getAllArtists } from '@/lib/artists';
 import { hasActiveTicketing, type Game } from '@/lib/types';
 import { LOCALES, type Locale } from '@/lib/i18nLabels';
 
@@ -16,6 +17,7 @@ function staticAlternates(path: (lang: Locale) => string): Record<string, string
 const STATIC_PAGES: { path: (lang: Locale) => string; changeFrequency: 'daily' | 'monthly' | 'yearly'; priority: number }[] = [
   { path: lang => `/${lang}`, changeFrequency: 'daily', priority: 0.9 },
   { path: lang => `/${lang}/news`, changeFrequency: 'daily', priority: 0.7 },
+  { path: lang => `/${lang}/artist`, changeFrequency: 'daily', priority: 0.65 },
   { path: lang => `/${lang}/blog`, changeFrequency: 'daily', priority: 0.65 },
   { path: lang => `/${lang}/guide`, changeFrequency: 'monthly', priority: 0.6 },
   { path: lang => `/${lang}/about`, changeFrequency: 'monthly', priority: 0.45 },
@@ -112,5 +114,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
   }
 
-  return [...staticUrls, ...gameUrls, ...blogUrls, ...newsUrls];
+  // 아티스트 상세 — 콘서트와 마찬가지로 로케일별 독립 그룹핑(번역 아님) → hreflang alternate 없음
+  const artistUrls: MetadataRoute.Sitemap = [];
+  for (const lang of LOCALES) {
+    const artists = await getAllArtists(lang);
+    for (const a of artists) {
+      artistUrls.push({
+        url: `${BASE}/${lang}/artist/${encodeURIComponent(a.slug)}`,
+        lastModified: now,
+        changeFrequency: 'weekly',
+        priority: a.upcomingCount > 0 ? 0.6 : 0.45,
+      });
+    }
+  }
+
+  return [...staticUrls, ...gameUrls, ...blogUrls, ...newsUrls, ...artistUrls];
 }

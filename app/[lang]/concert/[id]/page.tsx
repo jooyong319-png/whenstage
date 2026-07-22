@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllGames, getGameById, getUpcomingGamesByCategory, getLastUpdated } from '@/lib/games';
+import { normalizeArtistKey } from '@/lib/artists';
 import { CATEGORY_LABELS, UI, CAL, LOCALES, type Locale } from '@/lib/i18nLabels';
 import type { Game } from '@/lib/types';
 import { PageShell } from '@/components/PageShell';
@@ -75,6 +76,17 @@ export default async function LocaleGamePage({ params }: Props) {
     name: game.name,
     image: game.image_url || 'https://whenstage.com/og-image.png',
     startDate: game.release_date,
+    // music_release는 실제 장소가 없는 발매 소식이라 물리적 이벤트 필드(장소·참석방식)를 안 붙인다 —
+    // platforms엔 "Streaming"/"CD" 같은 값이 들어있어 그대로 location에 쓰면 의미 없는 데이터가 된다.
+    ...(game.category !== 'music_release' && game.platforms.length > 0
+      ? {
+          eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+          eventStatus: 'https://schema.org/EventScheduled',
+          // platforms[0]에 공연장명(+도시)이 통짜 문자열로 들어있어 구조화된 주소는 아니지만,
+          // Event에 location이 아예 없으면 리치 리절트 노출이 안 되므로 최소 요건은 채운다.
+          location: { '@type': 'Place', name: game.platforms[0], address: game.platforms[0] },
+        }
+      : {}),
     ...(game.publisher ? { organizer: { '@type': 'Organization', name: game.publisher } } : {}),
     description: game.description ?? '',
     inLanguage: lang,
@@ -111,7 +123,14 @@ export default async function LocaleGamePage({ params }: Props) {
           </ul>
         )}
         <ul className="detail-meta">
-          {game.developer && <li><strong>{ui.developer}</strong>{game.developer}</li>}
+          {game.developer && (
+            <li>
+              <strong>{ui.developer}</strong>
+              <a href={`/${lang}/artist/${encodeURIComponent(normalizeArtistKey(game.developer))}`} className="detail-artist-link">
+                {game.developer}
+              </a>
+            </li>
+          )}
           {game.publisher && <li><strong>{ui.publisher}</strong>{game.publisher}</li>}
           {game.platforms.length > 0 && <li><strong>{ui.platforms}</strong>{game.platforms.join(', ')}</li>}
           {game.genres.length > 0 && <li><strong>{ui.genres}</strong>{game.genres.join(', ')}</li>}

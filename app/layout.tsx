@@ -57,11 +57,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "(function(){try{var t=localStorage.getItem('theme')||'dark';document.documentElement.setAttribute('data-theme',t);}catch(e){document.documentElement.setAttribute('data-theme','dark');}try{var m=location.pathname.match(/^\\/(ko|en|ja)(\\/|$)/);if(m)document.documentElement.lang=m[1];}catch(e){}})();",
           }}
         />
-        <link rel="preconnect" href="https://cdn.jsdelivr.net" />
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css"
-        />
+        <link rel="preload" href="/fonts/PretendardVariable.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
       </head>
       <body>
         <svg width="0" height="0" style={{ position: 'absolute' }} aria-hidden="true">

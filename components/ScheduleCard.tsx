@@ -68,7 +68,7 @@ export function ScheduleCard({ game, kind, onPick }: Props) {
             <img
               ref={imgRef}
               src={game.image_url!}
-              alt=""
+              alt={game.name}
               className={styles.thumbFg}
               loading="lazy"
               onError={() => setImgError(true)}

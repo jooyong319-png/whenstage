@@ -2,11 +2,12 @@
 import { useMemo, useState, useEffect, useRef, type CSSProperties } from 'react';
 import type { Game, CalEvent, FilterKey } from '@/lib/types';
 import { CATEGORY_META } from '@/lib/types';
+import type { Category } from '@/lib/types';
 import { CategoryFilterBar } from './CategoryFilterBar';
 import { ScheduleCard, type ScheduleKind } from './ScheduleCard';
 import { EventRow } from './EventRow';
 import { useLocale } from '@/hooks/useLocale';
-import { CAL } from '@/lib/i18nLabels';
+import { CAL, CATEGORY_LABELS } from '@/lib/i18nLabels';
 import styles from './CalendarView.module.css';
 
 interface Props {
@@ -22,6 +23,8 @@ interface Props {
 }
 
 interface CalEntry { game: Game; kind: ScheduleKind; }
+
+const LEGEND_CATS: Category[] = ['concert_tour', 'music_release', 'festival', 'fanmeeting'];
 
 // 선예매/일반예매 datetime(ISO, 오프셋 포함)에서 달력 배치용 날짜만 추출 — 오프셋을 UTC로
 // 환산하지 않고 문자열 앞 10자만 쓴다(작성된 그대로가 곧 그 공연 타임존 기준 로컬 날짜이므로).
@@ -155,6 +158,24 @@ export function CalendarView({ cursor, onCursorChange, games, events = [], wishl
     return out.sort((a, b) => a.game.name.localeCompare(b.game.name));
   }, [selectedISO, games]);
 
+  // 선택된 날짜에 일정이 없을 때 보여줄 "다음 일정" 미리보기 — 전체 games 대상으로
+  // selectedISO 이후 가장 가까운 날짜의 항목들만 뽑는다(연/월 무관).
+  const nextEntries = useMemo<CalEntry[]>(() => {
+    if (panelEntries.length > 0) return [];
+    type Dated = CalEntry & { date: string };
+    const all: Dated[] = [];
+    for (const g of games) {
+      if (g.release_date > selectedISO) all.push({ game: g, kind: 'release', date: g.release_date });
+      const presaleD = dateOnly(g.presale_datetime);
+      if (presaleD && presaleD > selectedISO) all.push({ game: g, kind: 'presale', date: presaleD });
+      const gsD = dateOnly(g.general_sale_datetime);
+      if (gsD && gsD > selectedISO) all.push({ game: g, kind: 'general_sale', date: gsD });
+    }
+    if (all.length === 0) return [];
+    const nearestDate = all.reduce((min, e) => (e.date < min ? e.date : min), all[0].date);
+    return all.filter(e => e.date === nearestDate).sort((a, b) => a.game.name.localeCompare(b.game.name));
+  }, [panelEntries, games, selectedISO]);
+
   const isToday = selectedISO === toISO(now);
   const panelTitle = isToday
     ? (t ? t.todaySchedule : '오늘의 일정')
@@ -233,12 +254,33 @@ export function CalendarView({ cursor, onCursorChange, games, events = [], wishl
               <p className={styles.emptyHint}>{t ? t.swipeHint : '좌우로 밀거나 ‹ ›로 다른 달을 살펴보세요.'}</p>
             </div>
           )}
+
+          <ul className={styles.legend}>
+            {LEGEND_CATS.map(c => (
+              <li key={c} className={styles.legendItem}>
+                <span className={styles.legendDot} style={{ background: CATEGORY_META[c].color }} aria-hidden="true" />
+                {CATEGORY_LABELS[lang][c]}
+              </li>
+            ))}
+          </ul>
         </div>
 
         <aside className={styles.sidePanel}>
           <h3 className={styles.sidePanelTitle}>{panelTitle}</h3>
           {panelEntries.length === 0 && (eventsByDate.get(selectedISO) ?? []).length === 0 ? (
-            <p className={styles.dayEmpty}>{t ? t.noScheduleThisDate : '이 날짜엔 일정이 없어요.'}</p>
+            <div className={styles.dayEmptyWrap}>
+              <p className={styles.dayEmpty}>{t ? t.noScheduleThisDate : '이 날짜엔 일정이 없어요.'}</p>
+              {nextEntries.length > 0 && (
+                <div className={styles.nextUp}>
+                  <p className={styles.nextUpLabel}>{t ? t.nextSchedule : '다음 일정'}</p>
+                  <div className={styles.scheduleGrid}>
+                    {nextEntries.map(({ game: g, kind }) => (
+                      <ScheduleCard key={`next-${g.id}-${kind}`} game={g} kind={kind} onPick={onPick} />
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
           ) : (
             <div className={styles.scheduleGrid}>
               {(eventsByDate.get(selectedISO) ?? []).map((ev, idx) => (

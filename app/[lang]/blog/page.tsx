@@ -68,7 +68,7 @@ export default async function Page({ params }: Props) {
     <PageShell lang={lang}>
       <section className={styles.indexSection}>
         <header className={styles.header}>
-          <h2 className={styles.title}><svg className="ic" aria-hidden="true"><use href="#ic-file" /></svg> {H2[lang]}</h2>
+          <h1 className={styles.title}><svg className="ic" aria-hidden="true"><use href="#ic-file" /></svg> {H2[lang]}</h1>
           <p className={styles.subtitle}>{SUBTITLE[lang]}</p>
         </header>
 

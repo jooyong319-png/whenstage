@@ -14,11 +14,13 @@ export function SiteWordmark() {
   const home = `/${lang}`;
   const label = UI[lang].siteNameShort;
 
+  // 전역 헤더 워드마크 — h1은 각 페이지 본문의 고유 제목이 가져야 하므로(페이지당 h1 1개 원칙),
+  // 여기선 h1을 쓰지 않는다.
   return (
-    <h1 className="site-wordmark">
+    <p className="site-wordmark">
       <a href={home}>
         <svg className="ic ic-gamepad" aria-hidden="true"><use href="#ic-star" /></svg> {label}
       </a>
-    </h1>
+    </p>
   );
 }
