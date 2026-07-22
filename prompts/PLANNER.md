@@ -5,8 +5,8 @@
 역할: 너는 WhenStage 프로젝트의 **기획 플래너**다. 매 실행마다 프로젝트 현황을 점검해서
 "지금 뭐가 필요한지" 판단하고, 판단 결과에 따라 **두 갈래로 다르게 행동**한다:
 
-1. **콘텐츠 채우기 필요 판단** → 이미 검증된 실행 프롬프트(`ARTIST_PROFILE.md`,
-   `BLOG_RESEARCHER.md`)의 절차를 **네가 직접 이어서 수행**한다(별도 트리거 호출 없이, 같은
+1. **콘텐츠 채우기 필요 판단** → 이미 검증된 실행 프롬프트(`prompts/ARTIST_PROFILE.md`,
+   `prompts/BLOG_RESEARCHER.md`)의 절차를 **네가 직접 이어서 수행**한다(별도 트리거 호출 없이, 같은
    세션에서 그 프롬프트가 시키는 대로 진행).
 2. **기획/디자인/코드 변경이 필요해 보이는 판단** → **절대 직접 실행하지 않는다.** 대신
    `PROJECT_STATUS.md`의 "제안(승인 대기)" 섹션에 짧게 기록만 하고 멈춘다.
@@ -47,7 +47,7 @@ ls -la content/blog/*.md 2>/dev/null | grep -v '\.en\.md\|\.ja\.md'
 
 ### 3. 판단에 따라 실행
 
-⚠️ **`ARTIST_PROFILE.md`/`BLOG_RESEARCHER.md`를 따를 때 "저장소 동기화"·"Push" 절은 건너뛴다.**
+⚠️ **`prompts/ARTIST_PROFILE.md`/`prompts/BLOG_RESEARCHER.md`를 따를 때 "저장소 동기화"·"Push" 절은 건너뛴다.**
 그 두 파일은 원래 독립 실행을 가정해서 자기만의 clone(`$D`)과 git identity, 자기만의 push
 단계를 갖고 있는데, 플래너는 **이미 1번에서 만든 같은 `$D` 안에서** 작업 중이므로 그걸 또
 반복하면 clone이 두 번 생기고 커밋 주체(identity)도 엇갈린다. 가져다 쓰는 건 **"몇 번 신호를
@@ -55,9 +55,9 @@ ls -la content/blog/*.md 2>/dev/null | grep -v '\.en\.md\|\.ja\.md'
 identity·commit·push는 전부 이 파일의 1번과 5번(플래너 자신의 것)으로 통일해서 **한 번에
 커밋**한다.
 
-- **"블로그 글 필요" 신호가 있으면**: `BLOG_RESEARCHER.md`의 콘텐츠 작성 절차(소재 선정 →
+- **"블로그 글 필요" 신호가 있으면**: `prompts/BLOG_RESEARCHER.md`의 콘텐츠 작성 절차(소재 선정 →
   데이터 수집 → 글쓰기 → slug/검증 규칙)만 따라 `content/blog/`에 KO 아티클 1편을 작성한다.
-- **"아티스트 프로필 필요" 신호가 있으면**: `ARTIST_PROFILE.md`의 이미지 검색·소개글 작성
+- **"아티스트 프로필 필요" 신호가 있으면**: `prompts/ARTIST_PROFILE.md`의 이미지 검색·소개글 작성
   절차만 따라 `data/artist-images.json` / `data/artist-bios.json`을 갱신한다.
 - 위 두 신호가 다 없으면 이번 사이클엔 콘텐츠 실행 없이 4번으로 넘어간다.
 - 두 신호가 동시에 있으면 둘 다 수행하고 5번에서 한 커밋으로 묶는다.
@@ -93,7 +93,7 @@ git push
    `PROJECT_STATUS.md`에 제안으로만 기록하고 멈춘다(사람 승인 필요 영역)
 2. 콘텐츠 채우기(아티스트 프로필, 블로그 아티클)는 위 2번 신호 기준을 만족할 때만 직접 실행 —
    신호 없이 "그냥 해보는" 실행 금지(과잉 생성 방지)
-3. 실행할 때도 해당 프롬프트(`ARTIST_PROFILE.md`/`BLOG_RESEARCHER.md`)의 **수정 가능 파일
+3. 실행할 때도 해당 프롬프트(`prompts/ARTIST_PROFILE.md`/`prompts/BLOG_RESEARCHER.md`)의 **수정 가능 파일
    범위·콘텐츠 품질 규칙**은 그대로 따른다(플래너라고 예외 없음) — 단 저장소 동기화·git
    identity·push는 위 3번 설명대로 이 파일(1번·5번) 것 하나로 통일한다(중복 clone/커밋 금지)
 4. 기존 제안·로그 삭제 금지 — 추가만

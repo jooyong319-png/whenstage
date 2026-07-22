@@ -1,6 +1,6 @@
 # BACKLOG.md — 기획→개발 인계 큐
 
-`PRODUCT_PLANNER.md`가 항목을 추가하고, `PRODUCT_DEVELOPER.md`가 "대기" 상태인 항목을
+`prompts/PRODUCT_PLANNER.md`가 항목을 추가하고, `prompts/PRODUCT_DEVELOPER.md`가 "대기" 상태인 항목을
 위에서부터 하나씩 가져가 구현한다. 사람이 직접 항목을 추가/수정해도 된다.
 
 ⚠️ 두 프롬프트 모두 **기존 항목을 삭제하지 않는다** — 상태만 바꾼다(대기 → 진행중 → 완료/보류).
@@ -15,4 +15,4 @@
 
 ---
 
-<!-- 아래에 항목 추가. 형식은 PRODUCT_PLANNER.md §5 참고. -->
+<!-- 아래에 항목 추가. 형식은 prompts/PRODUCT_PLANNER.md §5 참고. -->

@@ -19,8 +19,8 @@
 - [todo.md](todo.md) — 남은 작업 목록
 
 ## 이 위키를 읽어야 하는 프롬프트
-`PRODUCT_PLANNER.md`, `PRODUCT_DEVELOPER.md`(기획/개발 자동화)는 실행 시작 시 **반드시**
+`prompts/PRODUCT_PLANNER.md`, `prompts/PRODUCT_DEVELOPER.md`(기획/개발 자동화)는 실행 시작 시 **반드시**
 이 위키 3개 문서를 먼저 읽는다 — 과거에 왜 이렇게 결정했는지 모르고 움직이면 이미 폐기된
 패턴(쿠폰/게임 허브 등)을 되살리거나 이미 검증된 아키텍처 원칙을 어길 위험이 있다.
-콘텐츠 리서처(`RESEARCHER_*`, `NEWS_RESEARCHER_*`, `ARTIST_PROFILE.md`, `BLOG_RESEARCHER.md`)와
-콘텐츠 신호 점검용 `PLANNER.md`는 이 위키를 읽을 필요 없음(코드/기획 판단을 안 하므로).
+콘텐츠 리서처(`RESEARCHER_*`, `NEWS_RESEARCHER_*`, `prompts/ARTIST_PROFILE.md`, `prompts/BLOG_RESEARCHER.md`)와
+콘텐츠 신호 점검용 `prompts/PLANNER.md`는 이 위키를 읽을 필요 없음(코드/기획 판단을 안 하므로).

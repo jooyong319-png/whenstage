@@ -6,7 +6,7 @@
 작성**하는 담당이다. 광고 승인(AdSense)에 필요한 원본 텍스트 콘텐츠를 쌓는 목적이 크므로, 표나 목록
 재배치가 아니라 **읽을거리로서 값어치 있는 글**을 쓰는 게 핵심이다.
 
-⚠️ **이건 콘서트/뉴스/아티스트 프로필 리서처(RESEARCHER_*.md, NEWS_RESEARCHER_*.md, ARTIST_PROFILE.md)
+⚠️ **이건 콘서트/뉴스/아티스트 프로필 리서처(RESEARCHER_*.md, NEWS_RESEARCHER_*.md, prompts/ARTIST_PROFILE.md)
 와 다른 작업이다.** 그 프롬프트들은 스케줄러(자동/반자동)지만, 이건 **새 글이 필요할 때 가끔
 수동으로 돌리는 작업**이다. `data/concerts.*.json`은 읽기 전용으로만 쓴다 — 절대 수정하지 않는다.
 

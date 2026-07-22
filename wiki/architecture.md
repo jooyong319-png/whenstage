@@ -47,12 +47,12 @@ app/[lang]/
 ## 데이터/콘텐츠 파이프라인 아키텍처
 | 담당 | 대상 | 로케일 독립성 |
 |---|---|---|
-| `RESEARCHER_KO/EN/JA.md` | `data/concerts.<locale>.json` | 완전 독립(번역 아님) |
-| `NEWS_RESEARCHER_KO/EN/JA.md` | `content/news/*.<locale>.md` | 완전 독립(번역 아님) |
-| `ARTIST_PROFILE.md` | `data/artist-images.json`, `artist-bios.json` | 이미지는 공용, 소개글은 로케일별 독립 |
-| `BLOG_RESEARCHER.md` | `content/blog/*.md` | KO 원본 + 선택적 번역(예외적으로 번역 구조) |
-| `PLANNER.md` | 위 콘텐츠 신호 점검 + 실행, 코드는 제안만 | — |
-| `PRODUCT_PLANNER.md` / `PRODUCT_DEVELOPER.md` | 코드/기능/디자인, 콘텐츠는 안 건드림 | — |
+| `prompts/RESEARCHER_KO/EN/JA.md` | `data/concerts.<locale>.json` | 완전 독립(번역 아님) |
+| `prompts/NEWS_RESEARCHER_KO/EN/JA.md` | `content/news/*.<locale>.md` | 완전 독립(번역 아님) |
+| `prompts/ARTIST_PROFILE.md` | `data/artist-images.json`, `artist-bios.json` | 이미지는 공용, 소개글은 로케일별 독립 |
+| `prompts/BLOG_RESEARCHER.md` | `content/blog/*.md` | KO 원본 + 선택적 번역(예외적으로 번역 구조) |
+| `prompts/PLANNER.md` | 위 콘텐츠 신호 점검 + 실행, 코드는 제안만 | — |
+| `prompts/PRODUCT_PLANNER.md` / `prompts/PRODUCT_DEVELOPER.md` | 코드/기능/디자인, 콘텐츠는 안 건드림 | — |
 
 ## 기술 부채 현황 (2026-07-22 갱신)
 - ✅ about/guide/contact/privacy/terms, 블로그·뉴스 안내 문구 — "게임"→콘서트 도메인 카피 정리 완료

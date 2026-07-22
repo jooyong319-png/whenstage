@@ -2,7 +2,7 @@
 
 이 문서는 `data/concerts.ko.json` / `concerts.en.json` / `concerts.ja.json`을 다루는
 **3개의 독립된 리서처 Claude**(한국어권/영어권/일본어권)가 공통으로 참조하는 스키마·정책 문서다.
-실제 리서처별 작업 지시는 `RESEARCHER_KO.md` / `RESEARCHER_EN.md` / `RESEARCHER_JA.md`에 있다.
+실제 리서처별 작업 지시는 `prompts/RESEARCHER_KO.md` / `prompts/RESEARCHER_EN.md` / `prompts/RESEARCHER_JA.md`에 있다.
 
 🌐 사이트: https://whenstage.com/
 📦 저장소: https://github.com/jooyong319-png/whenstage
