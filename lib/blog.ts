@@ -46,10 +46,14 @@ function parseFrontmatter(raw: string): { meta: Record<string, string | string[]
   return { meta, body };
 }
 
-// 본문에서 첫 번째 내부 게임 링크(/game/<id>)의 id를 추출
+// 본문에 등장하는 모든 내부 콘서트 링크(/ko|en|ja/concert/<id>)의 id를 등장 순서대로 추출
+export function allGameIds(content: string): string[] {
+  return [...content.matchAll(/\]\(\/(?:ko|en|ja)\/concert\/([^)\s#?]+)\)/g)].map(m => m[1]);
+}
+
+// 본문에서 첫 번째 내부 콘서트 링크의 id를 추출(하위 호환용)
 export function firstGameId(content: string): string | null {
-  const m = content.match(/\]\(\/game\/([^)\s#?]+)\)/);
-  return m ? m[1] : null;
+  return allGameIds(content)[0] ?? null;
 }
 
 async function readAllPosts(): Promise<BlogPost[]> {
@@ -75,12 +79,15 @@ async function readAllPosts(): Promise<BlogPost[]> {
       });
     }
 
-    // 본문 첫 게임 링크 → 대표 이미지 자동 매핑 (게임 데이터 조인)
+    // 본문에 링크된 콘서트 중 대표 이미지가 있는 첫 항목을 히어로로 사용(순서상 첫 링크가
+    // 이미지 없는 항목일 수 있어, 등장 순서대로 훑어 이미지 있는 첫 링크를 고른다).
     try {
       const games = await getAllGames();
       const imgById = new Map(games.map(g => [g.id, g.image_url]));
       for (const p of posts) {
-        const gid = firstGameId(p.content);
+        const ids = allGameIds(p.content);
+        const withImage = ids.find(id => imgById.get(id));
+        const gid = withImage ?? ids[0] ?? null;
         p.heroGameId = gid;
         p.heroImage = gid ? (imgById.get(gid) ?? null) : null;
       }

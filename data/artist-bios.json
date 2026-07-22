@@ -1,0 +1,179 @@
+{
+  "_comment": "아티스트 소개글 — 로케일별 독립 관리(번역 아님, 그 언어로 직접 작성). 키는 lib/artists.ts의 normalizeArtistKey() 결과와 정확히 일치해야 매칭됨. text는 2~4문장, facts는 선택 필드(없으면 카드 자체가 안 뜸).",
+  "bios": {
+    "ko": {
+      "에스파": {
+        "text": "에스파는 카리나, 지젤, 윈터, 닝닝 4인조로 구성된 SM엔터테인먼트 소속 걸그룹이다. 현실 세계와 가상 세계를 넘나드는 독자적인 세계관을 앞세워 데뷔 초부터 화제를 모았으며, 강렬한 퍼포먼스 기반 타이틀곡으로 4세대 K-pop을 대표하는 그룹으로 자리매김했다.",
+        "agency": "SM엔터테인먼트",
+        "members": "4인조",
+        "debut": "2020.11.17"
+      },
+      "레드벨벳": {
+        "text": "레드벨벳은 아이린, 슬기, 웬디, 조이, 예리 5인조로 구성된 SM엔터테인먼트 소속 걸그룹이다. 청량한 '레드' 콘셉트와 몽환적인 '벨벳' 콘셉트를 오가는 이중적인 색깔로 데뷔 이후 꾸준한 사랑을 받아왔으며, 특히 여름마다 발매하는 시즌송으로 유명하다.",
+        "agency": "SM엔터테인먼트",
+        "members": "5인조",
+        "debut": "2014.08.01"
+      },
+      "스트레이 키즈": {
+        "text": "스트레이 키즈는 방찬, 리노, 창빈, 현진, 한, 필릭스, 승민, 아이엔 8인조로 구성된 JYP엔터테인먼트 소속 보이그룹이다. 그룹 내 프로듀싱팀 '3RACHA'가 앨범 대부분의 작사·작곡에 참여하는 자체 프로듀싱 역량으로 잘 알려져 있으며, 글로벌 투어를 활발히 이어가고 있다.",
+        "agency": "JYP엔터테인먼트",
+        "members": "8인조",
+        "debut": "2018.03.25"
+      },
+      "엔하이픈": {
+        "text": "엔하이픈은 정원, 제이, 제이크, 성훈, 선우, 니키 6인조로 구성된 빌리프랩 소속 보이그룹이다. Mnet 서바이벌 프로그램 'I-LAND'를 통해 결성됐으며, 앨범마다 이어지는 독자적인 세계관과 완성도 높은 퍼포먼스로 글로벌 팬덤을 빠르게 확장해왔다.",
+        "agency": "빌리프랩",
+        "members": "6인조",
+        "debut": "2020.11.30"
+      },
+      "NCT 127": {
+        "text": "NCT 127은 SM엔터테인먼트의 다국적 프로젝트 그룹 NCT의 첫 번째 유닛이다. 활동하는 도시를 뜻하는 '서울의 위도 127'에서 이름을 따왔으며, 고정 멤버제가 아닌 유동적 구성이라는 NCT 특유의 정체성 속에서도 안정적인 라인업으로 다수의 히트곡을 남겼다.",
+        "agency": "SM엔터테인먼트",
+        "members": "가변",
+        "debut": "2016.07.07"
+      },
+      "아르테미스": {
+        "text": "아르테미스(ARTMS)는 이달의 소녀 출신 멤버들이 결성한 모드하우스 소속 걸그룹이다. 하슬, 김립, 진솔, 최리, 희진 5인조로, 전작에서 이어지는 세계관과 실험적인 음악 색깔로 마니아층의 지지를 받고 있다.",
+        "agency": "모드하우스",
+        "members": "5인조",
+        "debut": "2023.09.25"
+      },
+      "앤팀": {
+        "text": "앤팀(&TEAM)은 HYBE JAPAN과 하이브가 함께 만든 다국적 보이그룹으로, 일본 도쿄를 거점으로 활동한다. 오디션 프로그램을 통해 결성됐으며, 한국·일본 등 다양한 국적의 멤버로 구성돼 있다.",
+        "agency": "HYBE JAPAN",
+        "members": "9인조",
+        "debut": "2024.02.28"
+      },
+      "라이즈": {
+        "text": "라이즈(RIIZE)는 성찬, 은석, 소희, 원빈, 앤톤, 쇼타로 6인조로 구성된 SM엔터테인먼트 소속 보이그룹이다. 'Get A Guitar'로 데뷔해 밝고 청량한 이미지와 자연스러운 매력으로 데뷔 초부터 빠르게 팬덤을 확장했다.",
+        "agency": "SM엔터테인먼트",
+        "members": "6인조",
+        "debut": "2023.09.04"
+      },
+      "키스오브라이프": {
+        "text": "키스오브라이프(KISS OF LIFE)는 줄리, 나띠, 벨, 하늘 4인조로 구성된 S2엔터테인먼트 소속 걸그룹이다. 멤버들이 직접 작사·작곡에 참여하는 자작곡 활동으로 주목받았으며, 완성도 높은 무대와 개성 있는 음악 색깔로 4세대 걸그룹 중에서도 독자적인 입지를 다지고 있다.",
+        "agency": "S2엔터테인먼트",
+        "members": "4인조",
+        "debut": "2023.07.05"
+      },
+      "키키": {
+        "text": "키키(KiiiKiii)는 스타쉽엔터테인먼트 소속 5인조 걸그룹이다. Mnet 서바이벌 프로그램 '걸스플래닛999'의 후속 프로젝트로 결성됐으며, Y2K 감성과 하이틴 무드를 살린 콘셉트로 데뷔와 동시에 화제를 모았다.",
+        "agency": "스타쉽엔터테인먼트",
+        "members": "5인조",
+        "debut": "2025.05.20"
+      },
+      "티파니 영": {
+        "text": "티파니 영은 소녀시대 출신으로, 소녀시대와 유닛 소녀시대-태티서로도 활동한 싱어송라이터다. 미국 샌프란시스코 출신으로 한국·미국을 오가며 솔로 활동을 이어왔으며, 2026년 배우로도 영역을 넓히는 한편 첫 정규앨범을 준비하고 있다.",
+        "agency": "Pacific Music Group",
+        "members": "솔로",
+        "debut": "2007 (소녀시대)"
+      },
+      "김종국": {
+        "text": "김종국은 1995년 그룹 터보로 데뷔해 2001년부터 솔로 가수로 활동해온 베테랑 뮤지션이다. 'SBS 런닝맨' 등 예능 프로그램에서도 오랜 기간 활약하며 가수와 방송인을 겸업해왔고, 데뷔 30주년을 맞아 대규모 기념 콘서트를 이어가고 있다.",
+        "agency": "갤럭시코퍼레이션",
+        "members": "솔로",
+        "debut": "1995 (터보)"
+      },
+      "싸이": {
+        "text": "싸이(PSY)는 'Gangnam Style'로 세계적인 인지도를 얻은 대한민국의 대표 싱어송라이터다. 2011년부터 매년 여름 대규모 워터 콘서트 '흠뻑쇼'를 열어온 것으로도 유명하며, 특유의 에너지 넘치는 라이브 무대로 꾸준한 사랑을 받고 있다.",
+        "agency": "피네이션",
+        "members": "솔로",
+        "debut": "2001"
+      },
+      "빅뱅": {
+        "text": "빅뱅(BIGBANG)은 G-DRAGON, 태양, 대성 3인조로 활동 중인 YG엔터테인먼트 소속 그룹이다. 2006년 데뷔 이후 K-pop 4세대 이전 세대를 대표하는 그룹으로 자리매김했으며, 데뷔 20주년을 맞아 월드투어를 진행하고 있다.",
+        "agency": "YG엔터테인먼트",
+        "members": "3인조",
+        "debut": "2006.08.19"
+      }
+    },
+    "en": {
+      "Ariana Grande": {
+        "text": "Ariana Grande is an American singer, songwriter, and actress known for her multi-octave vocal range and a string of chart-topping albums. She rose to fame through Nickelodeon television roles before establishing herself as one of pop music's biggest stars, and has more recently expanded into film with roles such as Glinda in Wicked.",
+        "agency": "Republic Records",
+        "members": "Solo",
+        "debut": "2013"
+      },
+      "Phoebe Bridgers": {
+        "text": "Phoebe Bridgers is an American singer-songwriter known for introspective, indie-folk influenced songwriting. Alongside her solo work, she is a member of the supergroups boygenius and Better Oblivion Community Center, and has built a devoted following for her intimate live performances.",
+        "agency": "Dead Oceans / Saddest Factory",
+        "members": "Solo",
+        "debut": "2017"
+      },
+      "Foo Fighters": {
+        "text": "Foo Fighters are an American rock band formed by former Nirvana drummer Dave Grohl. Since 1994 the group has become one of the most consistently successful rock acts of their generation, known for stadium-filling live shows and a catalog of radio staples.",
+        "agency": "Roswell / RCA Records",
+        "members": "6-piece",
+        "debut": "1994"
+      },
+      "BTS": {
+        "text": "BTS are a seven-member South Korean boy band under BIGHIT MUSIC whose global impact helped redefine K-pop's reach in the West. Following the completion of each member's mandatory military service, the group returned to full activity with a new album and world tour.",
+        "agency": "BIGHIT MUSIC / HYBE",
+        "members": "7-piece",
+        "debut": "2013.06.13"
+      },
+      "ENHYPEN": {
+        "text": "ENHYPEN are a six-member boy group under BELIFT LAB formed through the Mnet survival show I-LAND. Known for cinematic, story-driven album concepts and polished performances, the group has rapidly built a large international fanbase since debut.",
+        "agency": "BELIFT LAB",
+        "members": "6-piece",
+        "debut": "2020.11.30"
+      },
+      "Monsta X": {
+        "text": "Monsta X are a South Korean boy group under Starship Entertainment known for their powerful vocals, sharp choreography, and consistent international touring. The group debuted via the reality survival show No.Mercy and has since built a strong global fanbase.",
+        "agency": "Starship Entertainment",
+        "members": "6-piece",
+        "debut": "2015.05.14"
+      },
+      "My Chemical Romance": {
+        "text": "My Chemical Romance are an American rock band whose 2006 album The Black Parade became a defining record of the mid-2000s emo and alternative rock scene. Following a hiatus, the band has reunited for large-scale anniversary tours that continue to draw devoted multi-generational crowds.",
+        "agency": "Reprise Records",
+        "members": "4-piece",
+        "debut": "2001"
+      }
+    },
+    "ja": {
+      "木村拓哉": {
+        "text": "木村拓哉は日本を代表する俳優・アーティストの一人で、SMAPのメンバーとしても活動した。俳優業と並行して音楽活動も継続しており、幅広いジャンルのアーティストとのコラボレーションでも知られる。",
+        "agency": "C&C STAGE",
+        "members": "ソロ",
+        "debut": "1987"
+      },
+      "福山雅治": {
+        "text": "福山雅治は俳優・ミュージシャンとして長年第一線で活躍する日本の総合アーティスト。シンガーソングライターとして数多くのヒット曲を生み出す一方、映画・ドラマ出演でも高い評価を得ている。",
+        "agency": "アミューズ",
+        "members": "ソロ",
+        "debut": "1990"
+      },
+      "中島健人": {
+        "text": "中島健人は元Sexy Zoneのメンバーで、俳優・アーティストとして活動する。グループ卒業後はソロでの音楽活動と俳優業を並行して展開している。",
+        "agency": "avex",
+        "members": "ソロ",
+        "debut": "2011 (Sexy Zone)"
+      },
+      "SixTONES": {
+        "text": "SixTONESはジャニーズ事務所(現STARTO ENTERTAINMENT)出身の6人組グループ。メンバーそれぞれが音楽性の異なるユニット活動やソロ活動も行っており、多彩な音楽ジャンルを横断する作品作りで知られる。",
+        "agency": "STARTO ENTERTAINMENT",
+        "members": "6人組",
+        "debut": "2020.01.22"
+      },
+      "TREASURE": {
+        "text": "TREASUREはYGエンターテインメント所属の10人組ボーイズグループ。オーディション番組を通じて結成され、韓国と日本の両方で精力的な活動を展開している。",
+        "agency": "YGエンターテインメント",
+        "members": "10人組",
+        "debut": "2020.08.07"
+      },
+      "EPICA": {
+        "text": "EPICAはオランダ出身のシンフォニック・メタルバンド。ボーカルのシモーネ・シモンズを中心に、オーケストラサウンドと重厚なメタルサウンドを融合させた壮大な楽曲で世界的な人気を誇る。",
+        "agency": "Nuclear Blast",
+        "members": "6人組",
+        "debut": "2002"
+      },
+      "JOURNEY": {
+        "text": "JOURNEYはアメリカ出身のロックバンドで、'Don't Stop Believin''など数々のロック・スタンダードを生み出したことで知られる。結成から半世紀近くを経た今も精力的にツアー活動を続けている。",
+        "agency": "Nomota / Roman Records",
+        "members": "5人組",
+        "debut": "1973"
+      }
+    }
+  }
+}

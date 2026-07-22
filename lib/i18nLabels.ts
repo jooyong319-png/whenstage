@@ -48,6 +48,9 @@ interface UiStrings {
   artistListSubtitle: string;
   artistUpcomingCount: string;
   artistNoEvents: string;
+  bioAgency: string;
+  bioMembers: string;
+  bioDebut: string;
   releaseDate: string;
   platforms: string;
   genres: string;
@@ -83,6 +86,9 @@ export const UI: Record<Locale, UiStrings> = {
     artistListSubtitle: '아티스트별로 발매·투어·팬미팅 일정을 모아봤어요.',
     artistUpcomingCount: '개 예정',
     artistNoEvents: '등록된 일정이 없어요.',
+    bioAgency: '소속사',
+    bioMembers: '구성',
+    bioDebut: '데뷔',
     releaseDate: '일정',
     platforms: '공연장',
     genres: '태그',
@@ -116,6 +122,9 @@ export const UI: Record<Locale, UiStrings> = {
     artistListSubtitle: 'Releases, tours, and fan meetings, grouped by artist.',
     artistUpcomingCount: ' upcoming',
     artistNoEvents: 'No scheduled events.',
+    bioAgency: 'Agency',
+    bioMembers: 'Members',
+    bioDebut: 'Debut',
     releaseDate: 'Date',
     platforms: 'Venue',
     genres: 'Tags',
@@ -149,6 +158,9 @@ export const UI: Record<Locale, UiStrings> = {
     artistListSubtitle: 'アーティストごとに発売・ツアー・ファンミーティング情報をまとめました。',
     artistUpcomingCount: '件予定',
     artistNoEvents: '登録された日程はありません。',
+    bioAgency: '所属',
+    bioMembers: '構成',
+    bioDebut: 'デビュー',
     releaseDate: '日程',
     platforms: '会場',
     genres: 'タグ',

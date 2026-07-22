@@ -9,3 +9,46 @@
 @media (max-width: 600px) {
   .grid { grid-template-columns: repeat(2, 1fr); }
 }
+
+.bioSection {
+  display: flex;
+  gap: 1.75rem;
+  flex-wrap: wrap;
+  margin: 0 0 2rem;
+  padding-bottom: 1.75rem;
+  border-bottom: 1px solid var(--border);
+}
+.bioText {
+  flex: 1 1 320px;
+  margin: 0;
+  color: var(--text-faint);
+  line-height: 1.75;
+  font-size: var(--fs-base);
+}
+.factGrid {
+  flex: 0 0 200px;
+  display: grid;
+  gap: 0.6rem;
+  align-content: start;
+}
+@media (max-width: 600px) {
+  .factGrid { flex-basis: 100%; grid-template-columns: repeat(3, 1fr); }
+}
+.factCard {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-elev);
+  padding: 0.55rem 0.85rem;
+}
+.factLabel {
+  display: block;
+  font-size: var(--fs-xs);
+  color: var(--text-faint);
+  margin-bottom: 0.15rem;
+}
+.factValue {
+  display: block;
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  color: var(--text);
+}

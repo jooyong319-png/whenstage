@@ -18,12 +18,33 @@ function getCuratedImages(): Promise<Record<string, string>> {
   return curatedImagesCache;
 }
 
+export interface ArtistBio {
+  text: string;
+  agency: string | null;
+  members: string | null;
+  debut: string | null;
+}
+
+// 로케일별 소개글 — data/artist-bios.json({bios: {ko: {...}, en: {...}, ja: {...}}}).
+// 이미지와 달리 언어 텍스트라 로케일마다 별도 사전으로 관리(번역이 아니라 그 언어로 직접 작성).
+let curatedBiosCache: Promise<Record<GameLocale, Record<string, ArtistBio>>> | null = null;
+function getCuratedBios(): Promise<Record<GameLocale, Record<string, ArtistBio>>> {
+  if (!curatedBiosCache) {
+    curatedBiosCache = fs
+      .readFile(path.join(process.cwd(), 'data', 'artist-bios.json'), 'utf-8')
+      .then(raw => (JSON.parse(raw).bios ?? {}) as Record<GameLocale, Record<string, ArtistBio>>)
+      .catch(() => ({} as Record<GameLocale, Record<string, ArtistBio>>));
+  }
+  return curatedBiosCache;
+}
+
 export interface ArtistSummary {
   slug: string;         // 표시명 그대로(다른 언어 세그먼트가 URL 인코딩 처리) — NFC 정규화됨
   name: string;         // 대표 표시명(그룹 내 가장 긴 표기 — 로마자 병기가 있으면 그쪽 우선)
   events: Game[];       // 이 아티스트의 전체 항목(과거+미래), release_date 오름차순
   upcomingCount: number;
   image: string | null; // 대표 이미지(가장 최근 항목 중 image_url 있는 것)
+  bio: ArtistBio | null;
 }
 
 // "에스파(aespa)" / "에스파" 처럼 표기가 갈려도 같은 아티스트로 묶기 위해 괄호(반각/전각) 안 로마자
@@ -43,6 +64,7 @@ export async function getAllArtists(locale: GameLocale = 'ko'): Promise<ArtistSu
   const games = await getAllGames(locale);
   const today = todayKstStr();
   const curated = await getCuratedImages();
+  const bios = (await getCuratedBios())[locale] ?? {};
 
   const groups = new Map<string, Game[]>();
   for (const g of games) {
@@ -66,6 +88,7 @@ export async function getAllArtists(locale: GameLocale = 'ko'): Promise<ArtistSu
       events: sorted,
       upcomingCount,
       image: curated[key] ?? null,
+      bio: bios[key] ?? null,
     });
   }
 
