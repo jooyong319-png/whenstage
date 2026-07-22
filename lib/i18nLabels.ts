@@ -51,6 +51,9 @@ interface UiStrings {
   bioAgency: string;
   bioMembers: string;
   bioDebut: string;
+  venue: string;
+  venueListTitle: string;
+  venueListSubtitle: string;
   releaseDate: string;
   platforms: string;
   genres: string;
@@ -89,6 +92,9 @@ export const UI: Record<Locale, UiStrings> = {
     bioAgency: '소속사',
     bioMembers: '구성',
     bioDebut: '데뷔',
+    venue: '공연장',
+    venueListTitle: '공연장',
+    venueListSubtitle: '공연장별로 열리는 콘서트·페스티벌·팬미팅 일정을 모아봤어요.',
     releaseDate: '일정',
     platforms: '공연장',
     genres: '태그',
@@ -125,6 +131,9 @@ export const UI: Record<Locale, UiStrings> = {
     bioAgency: 'Agency',
     bioMembers: 'Members',
     bioDebut: 'Debut',
+    venue: 'Venues',
+    venueListTitle: 'Venues',
+    venueListSubtitle: 'Concerts, festivals, and fan meetings, grouped by venue.',
     releaseDate: 'Date',
     platforms: 'Venue',
     genres: 'Tags',
@@ -161,6 +170,9 @@ export const UI: Record<Locale, UiStrings> = {
     bioAgency: '所属',
     bioMembers: '構成',
     bioDebut: 'デビュー',
+    venue: '会場',
+    venueListTitle: '会場',
+    venueListSubtitle: '会場ごとにコンサート・フェス・ファンミーティング情報をまとめました。',
     releaseDate: '日程',
     platforms: '会場',
     genres: 'タグ',

@@ -46,6 +46,7 @@ const FAQS: Record<Locale, Faq[]> = {
     { q: '팬미팅과 콘서트는 뭐가 다른가요?', a: '팬미팅은 소규모 팬 교류 중심 행사로 토크·게임 등이 포함되고, 콘서트는 공연 자체가 중심인 대형 행사입니다.' },
     { q: '일정 알림을 받을 수 있나요?', a: '네. 관심 있는 일정을 즐겨찾기에 담아두면 공연 하루 전과 당일에 알림을 받을 수 있습니다.' },
     { q: '아티스트별로 일정을 모아 볼 수 있나요?', a: '네. 상단 메뉴의 "아티스트"에서 아티스트를 선택하면 그 아티스트의 발매·투어·팬미팅 일정을 한 번에 확인할 수 있습니다.' },
+    { q: '같은 공연장에서 열리는 다른 공연도 볼 수 있나요?', a: '네. 콘서트 상세 페이지에서 공연장 이름을 누르면 그 공연장에서 예정된 다른 콘서트·페스티벌·팬미팅 일정을 함께 볼 수 있습니다.' },
   ],
   en: [
     { q: 'What is concert pre-registration / early ticketing?', a: 'Early ticket sales open to fan club members before general sale. Popular shows often sell out before general sale, so it&rsquo;s worth tracking early access dates.' },
@@ -57,6 +58,7 @@ const FAQS: Record<Locale, Faq[]> = {
     { q: 'What&rsquo;s the difference between a fan meeting and a concert?', a: 'Fan meetings are smaller, interactive events (talk segments, games), while concerts are larger performance-focused shows.' },
     { q: 'Can I get schedule notifications?', a: 'Yes — add a show to your wishlist and you&rsquo;ll get notified the day before and on the day of the event.' },
     { q: 'Can I see all of an artist&rsquo;s schedules in one place?', a: 'Yes — go to "Artists" in the top menu and select an artist to see their full schedule of releases, tours, and fan meetings.' },
+    { q: 'Can I see other shows happening at the same venue?', a: 'Yes — on any concert page, click the venue name to see every other concert, festival, or fan meeting scheduled there.' },
   ],
   ja: [
     { q: 'コンサートのチケット先行/事前予約とは何ですか?', a: '一般発売前にファンクラブ会員向けに行われる先行販売です。人気公演は一般発売前に完売することが多いため、先行日程の確認が重要です。' },
@@ -68,7 +70,14 @@ const FAQS: Record<Locale, Faq[]> = {
     { q: 'ファンミーティングとコンサートの違いは?', a: 'ファンミーティングはトークやゲームなど交流中心の小規模イベント、コンサートはパフォーマンス中心の大規模公演です。' },
     { q: '日程の通知は受け取れますか?', a: 'はい。気になる公演をウィッシュリストに追加すると、前日と当日に通知が届きます。' },
     { q: 'アーティストごとに日程をまとめて見られますか?', a: 'はい。上部メニューの「アーティスト」からアーティストを選ぶと、発売・ツアー・ファンミーティングの全日程を一度に確認できます。' },
+    { q: '同じ会場で開催される他の公演も見られますか?', a: 'はい。コンサート詳細ページで会場名をクリックすると、その会場で予定されている他のコンサート・フェス・ファンミーティング情報も一緒に確認できます。' },
   ],
+};
+
+const GLOSSARY_LINK: Record<Locale, string> = {
+  ko: '선예매, 취켓팅, 앵콜 공연... 용어가 헷갈린다면? 콘서트·티켓팅 용어 사전 보기 →',
+  en: 'Not sure what "presale" or "GA" means? See the concert & ticketing glossary →',
+  ja: '先行予約、電子チケット...用語が分かりにくい方は コンサート・チケット用語集 へ →',
 };
 
 const FOOTER_H2: Record<Locale, string> = {
@@ -108,6 +117,7 @@ export default async function Page({ params }: Props) {
             <p dangerouslySetInnerHTML={{ __html: f.a }} />
           </section>
         ))}
+        <p><a href={`/${lang}/guide/glossary`} className="detail-link">{GLOSSARY_LINK[lang]}</a></p>
         <h2>{FOOTER_H2[lang]}</h2>
         <p>{FOOTER_P[lang]}</p>
       </article>

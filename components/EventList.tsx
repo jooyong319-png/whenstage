@@ -8,8 +8,8 @@ import styles from './ListView.module.css';
 
 interface Props { events: Game[]; }
 
-// 아티스트 상세 — 일정 목록(클릭 시 사이트 공통 모달로 상세 확인). 새 페이지로 이동하지 않음.
-export function ArtistEventList({ events }: Props) {
+// 아티스트/공연장 상세 — 일정 목록(클릭 시 사이트 공통 모달로 상세 확인). 새 페이지로 이동하지 않음.
+export function EventList({ events }: Props) {
   const wishlist = useWishlist();
   const [openId, setOpenId] = useState<string | null>(null);
   const [now] = useState(() => new Date());

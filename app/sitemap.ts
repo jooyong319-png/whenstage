@@ -3,6 +3,7 @@ import { getAllGames, getLastUpdated } from '@/lib/games';
 import { getAllPosts, getPostTranslation } from '@/lib/blog';
 import { getAllNews } from '@/lib/news';
 import { getAllArtists } from '@/lib/artists';
+import { getAllVenues } from '@/lib/venues';
 import { hasActiveTicketing, type Game } from '@/lib/types';
 import { LOCALES, type Locale } from '@/lib/i18nLabels';
 
@@ -18,8 +19,10 @@ const STATIC_PAGES: { path: (lang: Locale) => string; changeFrequency: 'daily' |
   { path: lang => `/${lang}`, changeFrequency: 'daily', priority: 0.9 },
   { path: lang => `/${lang}/news`, changeFrequency: 'daily', priority: 0.7 },
   { path: lang => `/${lang}/artist`, changeFrequency: 'daily', priority: 0.65 },
+  { path: lang => `/${lang}/venue`, changeFrequency: 'daily', priority: 0.6 },
   { path: lang => `/${lang}/blog`, changeFrequency: 'daily', priority: 0.65 },
   { path: lang => `/${lang}/guide`, changeFrequency: 'monthly', priority: 0.6 },
+  { path: lang => `/${lang}/guide/glossary`, changeFrequency: 'monthly', priority: 0.5 },
   { path: lang => `/${lang}/about`, changeFrequency: 'monthly', priority: 0.45 },
   { path: lang => `/${lang}/contact`, changeFrequency: 'monthly', priority: 0.35 },
   { path: lang => `/${lang}/privacy`, changeFrequency: 'yearly', priority: 0.25 },
@@ -128,5 +131,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
   }
 
-  return [...staticUrls, ...gameUrls, ...blogUrls, ...newsUrls, ...artistUrls];
+  // 공연장 상세 — 아티스트와 마찬가지로 로케일별 독립 그룹핑(번역 아님) → hreflang alternate 없음
+  const venueUrls: MetadataRoute.Sitemap = [];
+  for (const lang of LOCALES) {
+    const venues = await getAllVenues(lang);
+    for (const v of venues) {
+      venueUrls.push({
+        url: `${BASE}/${lang}/venue/${encodeURIComponent(v.slug)}`,
+        lastModified: now,
+        changeFrequency: 'weekly',
+        priority: v.upcomingCount > 0 ? 0.55 : 0.4,
+      });
+    }
+  }
+
+  return [...staticUrls, ...gameUrls, ...blogUrls, ...newsUrls, ...artistUrls, ...venueUrls];
 }

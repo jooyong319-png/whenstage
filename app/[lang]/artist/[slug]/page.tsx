@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllArtists, getArtistBySlug } from '@/lib/artists';
 import { PageShell } from '@/components/PageShell';
-import { ArtistEventList } from '@/components/ArtistEventList';
+import { EventList } from '@/components/EventList';
 import { ArtistAvatar } from '@/components/ArtistAvatar';
 import { UI, LOCALES, type Locale } from '@/lib/i18nLabels';
 import styles from '@/app/blog/blog.module.css';
@@ -90,7 +90,7 @@ export default async function ArtistDetailPage({ params }: Props) {
         {artist.events.length === 0 ? (
           <p className={styles.empty}>{ui.artistNoEvents}</p>
         ) : (
-          <ArtistEventList events={artist.events} />
+          <EventList events={artist.events} />
         )}
       </article>
     </PageShell>

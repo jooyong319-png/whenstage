@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllGames, getGameById, getUpcomingGamesByCategory, getLastUpdated } from '@/lib/games';
 import { normalizeArtistKey } from '@/lib/artists';
+import { normalizeVenueKey, VENUE_CATEGORIES } from '@/lib/venues';
 import { CATEGORY_LABELS, UI, CAL, LOCALES, type Locale } from '@/lib/i18nLabels';
 import type { Game } from '@/lib/types';
 import { PageShell } from '@/components/PageShell';
@@ -78,7 +79,7 @@ export default async function LocaleGamePage({ params }: Props) {
     startDate: game.release_date,
     // music_release는 실제 장소가 없는 발매 소식이라 물리적 이벤트 필드(장소·참석방식)를 안 붙인다 —
     // platforms엔 "Streaming"/"CD" 같은 값이 들어있어 그대로 location에 쓰면 의미 없는 데이터가 된다.
-    ...(game.category !== 'music_release' && game.platforms.length > 0
+    ...(VENUE_CATEGORIES.has(game.category) && game.platforms.length > 0
       ? {
           eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
           eventStatus: 'https://schema.org/EventScheduled',
@@ -132,7 +133,21 @@ export default async function LocaleGamePage({ params }: Props) {
             </li>
           )}
           {game.publisher && <li><strong>{ui.publisher}</strong>{game.publisher}</li>}
-          {game.platforms.length > 0 && <li><strong>{ui.platforms}</strong>{game.platforms.join(', ')}</li>}
+          {game.platforms.length > 0 && (
+            <li>
+              <strong>{ui.platforms}</strong>
+              {VENUE_CATEGORIES.has(game.category) ? (
+                game.platforms.map((p, i) => (
+                  <span key={p}>
+                    {i > 0 && ', '}
+                    <a href={`/${lang}/venue/${encodeURIComponent(normalizeVenueKey(p))}`} className="detail-artist-link">{p}</a>
+                  </span>
+                ))
+              ) : (
+                game.platforms.join(', ')
+              )}
+            </li>
+          )}
           {game.genres.length > 0 && <li><strong>{ui.genres}</strong>{game.genres.join(', ')}</li>}
         </ul>
         <div className="detail-actions">
