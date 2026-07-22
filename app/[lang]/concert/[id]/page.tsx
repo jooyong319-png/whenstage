@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllGames, getGameById, getUpcomingGamesByCategory, getLastUpdated } from '@/lib/games';
-import { normalizeArtistKey } from '@/lib/artists';
-import { normalizeVenueKey, VENUE_CATEGORIES } from '@/lib/venues';
+import { getArtistBySlug, normalizeArtistKey } from '@/lib/artists';
+import { getVenueBySlug, normalizeVenueKey, VENUE_CATEGORIES } from '@/lib/venues';
+import { formatShortDate, calcDayDiff } from '@/lib/utils';
 import { CATEGORY_LABELS, UI, CAL, LOCALES, type Locale } from '@/lib/i18nLabels';
 import type { Game } from '@/lib/types';
 import { PageShell } from '@/components/PageShell';
@@ -12,6 +13,8 @@ import { ShareButton } from '@/components/ShareButton';
 import { ViewCounter } from '@/components/ViewCounter';
 import { DetailCover } from '@/components/DetailCover';
 import { TicketingPhase } from '@/components/TicketingPhase';
+import { SidebarSection } from '@/components/SidebarSection';
+import { RelatedEventCard } from '@/components/RelatedEventCard';
 
 interface Props {
   params: { lang: string; id: string };
@@ -71,6 +74,40 @@ export default async function LocaleGamePage({ params }: Props) {
     .sort((a, b) => a.release_date.localeCompare(b.release_date))
     .slice(0, 6);
 
+  const isUpcoming = (g: Game) => g.release_date_approx || calcDayDiff(g.release_date) >= 0;
+
+  const artist = game.developer ? await getArtistBySlug(normalizeArtistKey(game.developer), lang) : null;
+  const artistOthers = artist
+    ? artist.events.filter(g => g.id !== game.id && isUpcoming(g)).slice(0, 3)
+    : [];
+
+  const venue = VENUE_CATEGORIES.has(game.category) && game.platforms.length > 0
+    ? await getVenueBySlug(normalizeVenueKey(game.platforms[0]), lang)
+    : null;
+  const venueOthers = venue
+    ? venue.events.filter(g => g.id !== game.id && isUpcoming(g)).slice(0, 3)
+    : [];
+
+  const artistLabel = lang === 'ko' ? `${artist?.name}의 다른 일정` : lang === 'ja' ? `${artist?.name}の他の予定` : `More from ${artist?.name}`;
+  const venueLabel = lang === 'ko' ? `${venue?.name}의 다른 일정` : lang === 'ja' ? `${venue?.name}の他の公演` : `More at ${venue?.name}`;
+  const seeAllArtist = lang === 'ko' ? '아티스트 페이지 전체보기' : lang === 'ja' ? 'アーティストページ全体を見る' : 'See full artist page';
+  const seeAllVenue = lang === 'ko' ? '공연장 페이지 전체보기' : lang === 'ja' ? '会場ページ全体を見る' : 'See full venue page';
+
+  const sidebar = (artistOthers.length > 0 || venueOthers.length > 0) ? (
+    <>
+      {artistOthers.length > 0 && artist && (
+        <SidebarSection title={artistLabel} moreHref={`/${lang}/artist/${encodeURIComponent(artist.slug)}`} moreLabel={seeAllArtist}>
+          {artistOthers.map(g => <RelatedEventCard key={g.id} game={g} lang={lang} dateText={formatShortDate(g.release_date)} />)}
+        </SidebarSection>
+      )}
+      {venueOthers.length > 0 && venue && (
+        <SidebarSection title={venueLabel} moreHref={`/${lang}/venue/${encodeURIComponent(venue.slug)}`} moreLabel={seeAllVenue}>
+          {venueOthers.map(g => <RelatedEventCard key={g.id} game={g} lang={lang} dateText={formatShortDate(g.release_date)} />)}
+        </SidebarSection>
+      )}
+    </>
+  ) : undefined;
+
   const eventLd = {
     '@context': 'https://schema.org',
     '@type': 'Event',
@@ -95,7 +132,7 @@ export default async function LocaleGamePage({ params }: Props) {
   };
 
   return (
-    <PageShell lang={lang}>
+    <PageShell lang={lang} sidebar={sidebar}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(eventLd) }} />
       <article className="game-detail">
         <div className="detail-head">

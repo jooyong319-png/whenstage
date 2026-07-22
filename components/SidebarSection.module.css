@@ -1,0 +1,18 @@
+.section { display: flex; flex-direction: column; gap: 0.6rem; }
+.section + .section { margin-top: 1.4rem; padding-top: 1.4rem; border-top: 1px solid var(--border); }
+.title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0;
+}
+.list { display: flex; flex-direction: column; gap: 0.55rem; }
+.more {
+  align-self: flex-start;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+.more:hover { text-decoration: underline; }

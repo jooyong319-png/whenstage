@@ -4,6 +4,8 @@ import { getAllArtists, getArtistBySlug } from '@/lib/artists';
 import { PageShell } from '@/components/PageShell';
 import { EventList } from '@/components/EventList';
 import { ArtistAvatar } from '@/components/ArtistAvatar';
+import { SidebarSection } from '@/components/SidebarSection';
+import { RelatedArtistCard } from '@/components/RelatedArtistCard';
 import { UI, LOCALES, type Locale } from '@/lib/i18nLabels';
 import styles from '@/app/blog/blog.module.css';
 import artistStyles from '../artist.module.css';
@@ -42,8 +44,27 @@ export default async function ArtistDetailPage({ params }: Props) {
   const artist = await getArtistBySlug(params.slug, lang);
   if (!artist) notFound();
 
+  const others = (await getAllArtists(lang))
+    .filter(a => a.slug !== artist.slug && a.upcomingCount > 0)
+    .slice(0, 4);
+  const popularLabel = lang === 'ko' ? '이런 아티스트는 어때요?' : lang === 'ja' ? '他にはこんなアーティストも' : 'You might also like';
+  const seeAll = lang === 'ko' ? '아티스트 전체 목록' : lang === 'ja' ? 'アーティスト一覧' : 'See all artists';
+  const sidebar = others.length > 0 ? (
+    <SidebarSection title={popularLabel} moreHref={`/${lang}/artist`} moreLabel={seeAll}>
+      {others.map(a => (
+        <RelatedArtistCard
+          key={a.slug}
+          href={`/${lang}/artist/${encodeURIComponent(a.slug)}`}
+          name={a.name}
+          image={a.image}
+          metaText={`${a.upcomingCount}${ui.artistUpcomingCount}`}
+        />
+      ))}
+    </SidebarSection>
+  ) : undefined;
+
   return (
-    <PageShell lang={lang}>
+    <PageShell lang={lang} sidebar={sidebar}>
       <article className={styles.post}>
         <a href={`/${lang}/artist`} className={styles.backLink}>{ui.backToList}</a>
         <header className={styles.postHeader}>

@@ -1,9 +1,11 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getAllNews, getNewsBySlug, markdownToHtml, formatPostDate } from '@/lib/news';
+import { getAllNews, getNewsBySlug, getRelatedNews, markdownToHtml, formatPostDate } from '@/lib/news';
 import { UI, LOCALES, type Locale } from '@/lib/i18nLabels';
 import { PageShell } from '@/components/PageShell';
 import { BlogHero } from '@/components/BlogHero';
+import { SidebarSection } from '@/components/SidebarSection';
+import { RelatedArticleCard } from '@/components/RelatedArticleCard';
 import styles from '@/app/blog/blog.module.css';
 import n from '@/app/news/news.module.css';
 
@@ -49,8 +51,17 @@ export default async function LocaleNewsPage({ params }: Props) {
 
   const html = markdownToHtml(item.content);
 
+  const related = await getRelatedNews(params.slug, lang, 3);
+  const relatedLabel = lang === 'ko' ? '관련 뉴스' : lang === 'ja' ? '関連ニュース' : 'Related News';
+  const seeAllNews = lang === 'ko' ? '뉴스 전체 보기' : lang === 'ja' ? 'ニュース一覧' : 'See all news';
+  const sidebar = related.length > 0 ? (
+    <SidebarSection title={relatedLabel} moreHref={`/${lang}/news`} moreLabel={seeAllNews}>
+      {related.map(r => <RelatedArticleCard key={r.slug} href={`/${lang}/news/${r.slug}`} title={r.title} dateText={formatPostDate(r.date)} />)}
+    </SidebarSection>
+  ) : undefined;
+
   return (
-    <PageShell lang={lang}>
+    <PageShell lang={lang} sidebar={sidebar}>
       <article className={styles.post}>
         <a href={`/${lang}/news`} className={styles.backLink}>{ui.backToList}</a>
         {item.heroImage && <BlogHero src={item.heroImage} alt={item.title} />}
