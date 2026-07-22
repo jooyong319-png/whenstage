@@ -142,7 +142,20 @@ function FeaturedCard({ data }: { data: CardData }) {
           ))}
         </div>
       ) : showSkeleton ? (
-        <div className={styles.timerSkeleton} aria-hidden="true" />
+        // 마운트 전에도 최종 카운트다운과 동일한 박스 그리드를 보여주고 숫자만 "--"로 채운다 —
+        // 예전엔 반짝이는 스켈레톤 바였는데, 마운트 후 완전히 다른 모양(숫자 그리드)으로 바뀌는 게
+        // 눈에 띄게 어색해서(page 열리자마자 "뭔가 보였다가 다른 게 뜬다") 모양 자체를 통일했다.
+        <div className={styles.timer} aria-hidden="true">
+          {(['Days', 'Hours', 'Min', 'Sec'] as const).map((label, i) => (
+            <Fragment key={label}>
+              {i > 0 && <span className={styles.sep}>:</span>}
+              <div className={styles.unit}>
+                <span className={styles.num}>--</span>
+                <span className={styles.unitLabel}>{label}</span>
+              </div>
+            </Fragment>
+          ))}
+        </div>
       ) : (
         <div className={styles.mijeong}>{data.fallbackText}</div>
       )}

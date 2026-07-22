@@ -132,16 +132,3 @@
   font-weight: 700;
   color: var(--text-faint);
 }
-/* 카운트다운 로딩 스켈레톤 (마운트 전) */
-.timerSkeleton {
-  height: 2.5rem;
-  border-radius: 7px;
-  background: linear-gradient(90deg, var(--bg) 25%, var(--bg-elev) 50%, var(--bg) 75%);
-  background-size: 200% 100%;
-  animation: cardShimmer 1.3s ease-in-out infinite;
-}
-@keyframes cardShimmer {
-  from { background-position: 200% 0; }
-  to { background-position: -200% 0; }
-}
-@media (prefers-reduced-motion: reduce) { .timerSkeleton { animation: none; } }
