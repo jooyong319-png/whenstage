@@ -70,7 +70,7 @@ export function NotifyToggle() {
         <span className={styles.sub}>
           {state === 'denied'
             ? (t ? t.notifyDeniedSub : '브라우저 설정에서 알림을 허용해 주세요.')
-            : (t ? t.notifyNormalSub : '찜한 게임 출시 하루 전·당일에 알려드려요.')}
+            : (t ? t.notifyNormalSub : '찜한 일정 하루 전·당일에 알려드려요.')}
         </span>
       </div>
       <button

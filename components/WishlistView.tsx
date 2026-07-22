@@ -26,7 +26,7 @@ export function WishlistView({ games }: { games: Game[] }) {
           <svg className="ic ic-fill" aria-hidden="true" style={{ color: 'var(--accent-warm)' }}><use href="#ic-star" /></svg>
           {' '}{t ? t.myWishlist : '내 즐겨찾기'}{items.length > 0 ? ` (${items.length})` : ''}
         </h1>
-        <p className={styles.sub}>{t ? t.myWishlistSub : '관심 게임의 출시 일정을 모아봤어요.'}</p>
+        <p className={styles.sub}>{t ? t.myWishlistSub : '관심 있는 공연·발매 일정을 모아봤어요.'}</p>
       </header>
 
       <NotifyToggle />
@@ -34,8 +34,8 @@ export function WishlistView({ games }: { games: Game[] }) {
       {items.length === 0 ? (
         <div className={styles.empty}>
           <div className={styles.emptyIcon} aria-hidden="true"><svg className="ic"><use href="#ic-star" /></svg></div>
-          <p className={styles.emptyText}>{t ? t.wishlistEmptyText : '아직 즐겨찾기한 게임이 없어요.'}</p>
-          <p className={styles.emptyHint}>{t ? t.wishlistEmptyHint : '게임 상세에서 즐겨찾기 버튼을 눌러 추가하세요.'}</p>
+          <p className={styles.emptyText}>{t ? t.wishlistEmptyText : '아직 즐겨찾기한 일정이 없어요.'}</p>
+          <p className={styles.emptyHint}>{t ? t.wishlistEmptyHint : '상세 페이지에서 즐겨찾기 버튼을 눌러 추가하세요.'}</p>
         </div>
       ) : (
         <ul className={styles.list}>

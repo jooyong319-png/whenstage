@@ -170,7 +170,7 @@ export function AdminDashboard({ nameMap }: { nameMap: Record<string, string> })
                     <li key={id} className={styles.topRow}>
                       <span className={styles.rank}>{i + 1}</span>
                       <span className={styles.detailMain}>
-                        <span className={`${styles.kind} ${isBlog ? styles.kindGuide : styles.kindGame}`}>{isBlog ? '가이드' : '게임'}</span>
+                        <span className={`${styles.kind} ${isBlog ? styles.kindGuide : styles.kindGame}`}>{isBlog ? '모아보기' : '콘서트'}</span>
                         <a className={styles.topName} href={href} target="_blank" rel="noopener">{nameMap[id] ?? slug}</a>
                       </span>
                       <span className={styles.topNum}>{n.toLocaleString()}</span>
@@ -183,7 +183,7 @@ export function AdminDashboard({ nameMap }: { nameMap: Record<string, string> })
         );
       })()}
 
-      <h2 className={styles.h2}>인기 게임 (누적 조회 TOP 25)</h2>
+      <h2 className={styles.h2}>인기 콘서트/발매 (누적 조회 TOP 25)</h2>
       <ol className={styles.topList}>
         {stats.topGames.map(([id, n], i) => (
           <li key={id} className={styles.topRow}>

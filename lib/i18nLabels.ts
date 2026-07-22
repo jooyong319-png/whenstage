@@ -153,7 +153,7 @@ export const UI: Record<Locale, UiStrings> = {
     privacy: 'Privacy Policy',
     terms: 'Terms of Service',
     footerDisclaimer: 'Artist names, images, and trademarks are property of their respective rights holders. This site exists to provide schedule information and will edit or remove content upon a rights holder’s request.',
-    siteDescription: 'Track Korean and global game release dates, pre-registrations, new server openings, and events in one calendar — updated daily.',
+    siteDescription: 'Concerts, world tours, music releases (comebacks), festivals, and fan meetings — all in one calendar, updated daily.',
   },
   ja: {
     siteName: 'WhenStage — 来日公演・カムバック・フェス',
@@ -192,7 +192,7 @@ export const UI: Record<Locale, UiStrings> = {
     privacy: 'プライバシーポリシー',
     terms: '利用規約',
     footerDisclaimer: 'アーティスト名・画像・商標等は各権利者の資産であり、本サイトは日程情報の提供を目的としています。権利者の要請があれば該当コンテンツを速やかに修正・削除します。',
-    siteDescription: '国内外のゲーム発売日程・事前予約・新規サーバー・イベント情報を一つのカレンダーにまとめて毎日更新しています。',
+    siteDescription: 'コンサート・来日公演、音源発売(カムバック)、フェスティバル、ファンミーティングの日程を一つのカレンダーに。毎日更新中。',
   },
 };
 
@@ -207,7 +207,6 @@ interface CalUiStrings {
   today: string;
   noImage: string;
   lastUpdated: string;
-  noSchedule: string;
   totalCount: string;
   comingSoon: string;
   days: string;
@@ -221,7 +220,6 @@ interface CalUiStrings {
   removeFromWishlist: string;
   share: string;
   comments: string;
-  commentPlaceholder: string;
   postComment: string;
   nickname: string;
   loading: string;
@@ -251,10 +249,6 @@ interface CalUiStrings {
   nextYear: string;
   monthSelect: string;
   months: string[]; // Jan..Dec short
-  noDateSet: string;
-  noApproxGames: string;
-  noReleaseThisMonthYear: (monthYearLabel: string) => string;
-  pickOtherMonth: string;
   viewSource: string;
   goToPresale: string;
   goToGeneralSale: string;
@@ -262,40 +256,12 @@ interface CalUiStrings {
   favorite: string;
   fullPage: string;
   copied: string;
-  ticketingLive: string;
   ticketingTimeLeft: string;
   ticketingClosedText: string;
   ticketingDeadlineTba: string;
   ticketingInfo: string;
-  startsOn: (label: string) => string;
   totalItems: (count: number) => string;
-  noScheduleRegistered: string;
   noSearchResults: string;
-  copy: string;
-  copiedCheck: string;
-  expiredTag: string;
-  expiredUntil: (label: string) => string;
-  copyAria: (code: string) => string;
-  noActiveCoupons: string;
-  officialRedeemPage: (name: string, term: string) => string;
-  pastCoupons: (term: string) => string;
-  couponIntro: (name: string, term: string) => string;
-  howToUse: (name: string, term: string) => string;
-  faqTitle: (name: string, term: string) => string;
-  otherGameCoupons: (term: string) => string;
-  gameHub: (name: string) => string;
-  releaseInfo: (name: string) => string;
-  allCoupons: string;
-  lastUpdatedCouponNote: (dateLabel: string) => string;
-  gameCoupons: string;
-  scheduleCount: (count: number) => string;
-  scheduleTitle: (name: string) => string;
-  upcomingTag: string;
-  fullGameList: string;
-  otherGameCouponsShort: string;
-  noValidCodesShort: string;
-  hubLastUpdatedNote: (dateLabel: string) => string;
-  couponFor: (name: string, term: string) => string;
   myWishlist: string;
   myWishlistSub: string;
   wishlistEmptyText: string;
@@ -311,11 +277,6 @@ interface CalUiStrings {
   notifyDeniedToast: string;
   notifyFailToast: (reason: string) => string;
   notifyUnknownError: string;
-  freeGamesAria: string;
-  freeGamesTitle: string;
-  freeGamesTag: string;
-  freeDaysLeft: (days: number) => string;
-  freeFromDate: (mmdd: string) => string;
   appBottomNavAria: string;
   switchToLight: string;
   switchToDark: string;
@@ -331,7 +292,6 @@ export const CAL: Record<Locale, CalUiStrings> = {
     today: '오늘',
     noImage: '이미지 없음',
     lastUpdated: '데이터 마지막 갱신',
-    noSchedule: '등록된 일정이 없어요.',
     totalCount: '총',
     comingSoon: '공개 임박',
     days: '일', hours: '시간', minutes: '분', seconds: '초',
@@ -342,7 +302,6 @@ export const CAL: Record<Locale, CalUiStrings> = {
     removeFromWishlist: '찜 해제',
     share: '공유',
     comments: '댓글',
-    commentPlaceholder: '이 일정에 대한 댓글 (최대 500자)',
     postComment: '등록',
     nickname: '닉네임',
     loading: '불러오는 중…',
@@ -372,10 +331,6 @@ export const CAL: Record<Locale, CalUiStrings> = {
     nextYear: '다음 해',
     monthSelect: '월 선택',
     months: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
-    noDateSet: '미정',
-    noApproxGames: '일정 미정인 항목이 없어요.',
-    noReleaseThisMonthYear: (label) => `${label} 일정이 없어요.`,
-    pickOtherMonth: '위 탭에서 다른 달을 골라보세요.',
     viewSource: '출처 보기',
     goToPresale: '선예매 하러 가기',
     goToGeneralSale: '일반예매 하러 가기',
@@ -383,40 +338,12 @@ export const CAL: Record<Locale, CalUiStrings> = {
     favorite: '즐겨찾기',
     fullPage: '전체 페이지',
     copied: '복사됨',
-    ticketingLive: '티켓팅 진행 중',
     ticketingTimeLeft: '마감까지 남은 시간',
     ticketingClosedText: '판매 마감됨',
     ticketingDeadlineTba: '마감일 미정',
     ticketingInfo: '티켓팅 안내',
-    startsOn: (label) => `${label} 시작`,
     totalItems: (count) => `총 ${count}개`,
-    noScheduleRegistered: '아직 등록된 일정이 없어요.',
     noSearchResults: '검색 결과가 없어요.',
-    copy: '복사',
-    copiedCheck: '복사됨 ✓',
-    expiredTag: '만료됨',
-    expiredUntil: (label) => `${label} · 만료`,
-    copyAria: (code) => `${code} 복사`,
-    noActiveCoupons: '현재 유효한 코드가 없어요.',
-    officialRedeemPage: (name, term) => `${name} 공식 ${term} 등록 페이지 →`,
-    pastCoupons: (term) => `지난 ${term} (만료)`,
-    couponIntro: (name, term) => `${name} ${term} 안내입니다.`,
-    howToUse: (name, term) => `${name} ${term} 사용법`,
-    faqTitle: (name, term) => `${name} ${term} 자주 묻는 질문`,
-    otherGameCoupons: (term) => `다른 ${term}`,
-    gameHub: (name) => `${name} 허브 →`,
-    releaseInfo: (name) => `${name} 일정 정보 →`,
-    allCoupons: '전체 보기 →',
-    lastUpdatedCouponNote: (dateLabel) => `마지막 업데이트: ${dateLabel}.`,
-    gameCoupons: '쿠폰',
-    scheduleCount: (count) => `${count}건 예정`,
-    scheduleTitle: (name) => `${name} 일정`,
-    upcomingTag: '예정',
-    fullGameList: '전체 목록 보기 →',
-    otherGameCouponsShort: '다른 항목 →',
-    noValidCodesShort: '현재 유효한 항목이 없어요.',
-    hubLastUpdatedNote: (dateLabel) => `마지막 업데이트: ${dateLabel}.`,
-    couponFor: (name, term) => `${name} ${term}`,
     myWishlist: '내 즐겨찾기',
     myWishlistSub: '관심 있는 공연·발매 일정을 모아봤어요.',
     wishlistEmptyText: '아직 즐겨찾기한 일정이 없어요.',
@@ -432,11 +359,6 @@ export const CAL: Record<Locale, CalUiStrings> = {
     notifyDeniedToast: '알림 권한이 거부됐어요',
     notifyFailToast: (reason) => `알림 실패: ${reason}`,
     notifyUnknownError: '알 수 없음',
-    freeGamesAria: '무료 배포',
-    freeGamesTitle: '지금 무료',
-    freeGamesTag: 'Epic Games',
-    freeDaysLeft: (days) => `무료 · ${days}일 남음`,
-    freeFromDate: (mmdd) => `${mmdd}부터 무료`,
     appBottomNavAria: '앱 하단 메뉴',
     switchToLight: '라이트 모드로 전환',
     switchToDark: '다크 모드로 전환',
@@ -444,13 +366,12 @@ export const CAL: Record<Locale, CalUiStrings> = {
     eventEnds: (title) => `${title} 종료`,
   },
   en: {
-    searchPlaceholder: 'Search games…',
+    searchPlaceholder: 'Search shows…',
     wishlist: 'Wishlist',
     wishlistOnly: 'Wishlist only',
     today: 'Today',
     noImage: 'No image',
     lastUpdated: 'Data last updated',
-    noSchedule: 'No games scheduled.',
     totalCount: 'Total',
     comingSoon: 'Coming soon',
     days: 'D', hours: 'H', minutes: 'M', seconds: 'S',
@@ -461,7 +382,6 @@ export const CAL: Record<Locale, CalUiStrings> = {
     removeFromWishlist: 'Remove from wishlist',
     share: 'Share',
     comments: 'Comments',
-    commentPlaceholder: 'Comment on this game (max 500 chars)',
     postComment: 'Post',
     nickname: 'Nickname',
     loading: 'Loading…',
@@ -491,10 +411,6 @@ export const CAL: Record<Locale, CalUiStrings> = {
     nextYear: 'Next year',
     monthSelect: 'Select month',
     months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-    noDateSet: 'TBA',
-    noApproxGames: 'No games with a TBA release date.',
-    noReleaseThisMonthYear: (label) => `No releases in ${label}.`,
-    pickOtherMonth: 'Pick another month from the tabs above.',
     viewSource: 'View source',
     goToPresale: 'Go to presale',
     goToGeneralSale: 'Go to general sale',
@@ -502,61 +418,27 @@ export const CAL: Record<Locale, CalUiStrings> = {
     favorite: 'Favorite',
     fullPage: 'Full page',
     copied: 'Copied',
-    ticketingLive: 'Tickets on sale',
     ticketingTimeLeft: 'Time left',
     ticketingClosedText: 'Sale closed',
     ticketingDeadlineTba: 'Deadline TBA',
     ticketingInfo: 'Ticketing info',
-    startsOn: (label) => `Starts ${label}`,
     totalItems: (count) => `${count} total`,
-    noScheduleRegistered: 'No games scheduled here yet.',
     noSearchResults: 'No results found.',
-    copy: 'Copy',
-    copiedCheck: 'Copied ✓',
-    expiredTag: 'Expired',
-    expiredUntil: (label) => `${label} · expired`,
-    copyAria: (code) => `Copy ${code}`,
-    noActiveCoupons: 'No active codes right now. Check the recently-expired codes and how to redeem below.',
-    officialRedeemPage: (name, term) => `Open ${name} official ${term} redemption page →`,
-    pastCoupons: (term) => `Past ${term} (expired)`,
-    couponIntro: (name, term) =>
-      `${name} ${term} codes are free reward codes the publisher gives out during official broadcasts, major updates, and anniversary events. This page collects only codes verified on official channels and refreshes daily; expired codes stay visible for 90 days for reference. Codes are often first-come, first-served or time-limited, so redeem them as soon as they appear — some may require a specific server or account condition, so check each code's reward description.`,
-    howToUse: (name, term) => `How to redeem ${name} ${term}`,
-    faqTitle: (name, term) => `${name} ${term} FAQ`,
-    otherGameCoupons: (term) => `Other games' ${term}`,
-    gameHub: (name) => `${name} hub (coupons & schedule) →`,
-    releaseInfo: (name) => `${name} release info →`,
-    allCoupons: 'All game coupons →',
-    lastUpdatedCouponNote: (dateLabel) => `Last updated: ${dateLabel}. Codes are verified against official channels and status changes when expired or exhausted.`,
-    gameCoupons: 'Game Coupons',
-    scheduleCount: (count) => `${count} scheduled`,
-    scheduleTitle: (name) => `${name} release, update & event schedule`,
-    upcomingTag: 'Upcoming',
-    fullGameList: 'Full game list →',
-    otherGameCouponsShort: 'Other game coupons →',
-    noValidCodesShort: 'No active codes right now. See the dedicated page for recently expired codes and how to redeem.',
-    hubLastUpdatedNote: (dateLabel) => `Last updated: ${dateLabel}. Codes and schedules are verified against official channels.`,
-    couponFor: (name, term) => `${name} ${term}`,
     myWishlist: 'My Wishlist',
-    myWishlistSub: 'Release schedules for games you’re watching.',
-    wishlistEmptyText: 'No games in your wishlist yet.',
-    wishlistEmptyHint: 'Tap the star button on a game’s page to add it.',
+    myWishlistSub: 'Shows and releases you’re watching, all in one place.',
+    wishlistEmptyText: 'No shows in your wishlist yet.',
+    wishlistEmptyHint: 'Tap the star button on a show’s page to add it.',
     releaseDateTba: 'Release date TBA',
     removeFromWishlistAria: (name) => `Remove ${name} from wishlist`,
     notifyTitle: 'Release notifications',
     notifyToggleAria: 'Toggle release notifications',
     notifyDeniedSub: 'Please allow notifications in your browser settings.',
-    notifyNormalSub: 'We’ll notify you the day before and on the day your wishlisted games release.',
+    notifyNormalSub: 'We’ll notify you the day before and on the day of your wishlisted shows.',
     notifyOnToast: 'Release notifications turned on',
     notifyOffToast: 'Release notifications turned off',
     notifyDeniedToast: 'Notification permission was denied',
     notifyFailToast: (reason) => `Notification setup failed: ${reason}`,
     notifyUnknownError: 'Unknown error',
-    freeGamesAria: 'Free game giveaways',
-    freeGamesTitle: 'Free right now',
-    freeGamesTag: 'Epic Games',
-    freeDaysLeft: (days) => `Free · ${days} day${days === 1 ? '' : 's'} left`,
-    freeFromDate: (mmdd) => `Free from ${mmdd}`,
     appBottomNavAria: 'App bottom menu',
     switchToLight: 'Switch to light mode',
     switchToDark: 'Switch to dark mode',
@@ -564,13 +446,12 @@ export const CAL: Record<Locale, CalUiStrings> = {
     eventEnds: (title) => `${title} ends`,
   },
   ja: {
-    searchPlaceholder: 'ゲームを検索…',
+    searchPlaceholder: '公演名を検索…',
     wishlist: 'お気に入り',
     wishlistOnly: 'お気に入りのみ表示',
     today: '今日',
     noImage: '画像なし',
     lastUpdated: 'データ最終更新',
-    noSchedule: '登録されている予定がありません。',
     totalCount: '合計',
     comingSoon: '発売間近',
     days: '日', hours: '時間', minutes: '分', seconds: '秒',
@@ -581,7 +462,6 @@ export const CAL: Record<Locale, CalUiStrings> = {
     removeFromWishlist: 'お気に入りから削除',
     share: '共有',
     comments: 'コメント',
-    commentPlaceholder: 'このゲームへのコメント(最大500文字)',
     postComment: '投稿',
     nickname: 'ニックネーム',
     loading: '読み込み中…',
@@ -611,10 +491,6 @@ export const CAL: Record<Locale, CalUiStrings> = {
     nextYear: '翌年',
     monthSelect: '月を選択',
     months: ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
-    noDateSet: '未定',
-    noApproxGames: '発売日未定のゲームはありません。',
-    noReleaseThisMonthYear: (label) => `${label}の発売予定はありません。`,
-    pickOtherMonth: '上のタブから他の月を選んでください。',
     viewSource: '出典を見る',
     goToPresale: '先行予約はこちら',
     goToGeneralSale: '一般発売はこちら',
@@ -622,61 +498,27 @@ export const CAL: Record<Locale, CalUiStrings> = {
     favorite: 'お気に入り',
     fullPage: '詳細ページ',
     copied: 'コピーしました',
-    ticketingLive: 'チケット発売中',
     ticketingTimeLeft: '締切までの時間',
     ticketingClosedText: '発売終了',
     ticketingDeadlineTba: '締切日は未定',
     ticketingInfo: 'チケット情報',
-    startsOn: (label) => `${label}開始`,
     totalItems: (count) => `合計${count}件`,
-    noScheduleRegistered: 'まだ登録されている予定がありません。',
     noSearchResults: '検索結果がありません。',
-    copy: 'コピー',
-    copiedCheck: 'コピーしました ✓',
-    expiredTag: '期限切れ',
-    expiredUntil: (label) => `${label}・期限切れ`,
-    copyAria: (code) => `${code}をコピー`,
-    noActiveCoupons: '現在有効なコードはありません。下記の最近期限切れになったコードと使い方をご確認ください。',
-    officialRedeemPage: (name, term) => `${name}公式${term}登録ページを開く →`,
-    pastCoupons: (term) => `過去の${term}(期限切れ)`,
-    couponIntro: (name, term) =>
-      `${name}の${term}は、公式配信や大型アップデート、記念イベントの際に配布される無料報酬コードです。このページは公式チャンネルで確認できたコードのみを毎日更新して掲載し、期限切れのコードも参考用に90日間表示します。コードは先着順・期間限定のことが多いため、公開されたらすぐに登録するのがおすすめです。サーバーやアカウントの条件が必要な場合もあるため、各コードの報酬内容をご確認ください。`,
-    howToUse: (name, term) => `${name} ${term}の使い方`,
-    faqTitle: (name, term) => `${name} ${term}によくある質問`,
-    otherGameCoupons: (term) => `他のゲームの${term}`,
-    gameHub: (name) => `${name}ハブ(クーポン・日程) →`,
-    releaseInfo: (name) => `${name}の発売情報 →`,
-    allCoupons: 'ゲームクーポン一覧 →',
-    lastUpdatedCouponNote: (dateLabel) => `最終更新: ${dateLabel}。コードは公式チャンネルを基に確認しており、期限切れ・終了時は表示が変わります。`,
-    gameCoupons: 'ゲームクーポン',
-    scheduleCount: (count) => `${count}件の予定`,
-    scheduleTitle: (name) => `${name}の発売・アップデート・イベント情報`,
-    upcomingTag: '予定',
-    fullGameList: 'ゲーム一覧を見る →',
-    otherGameCouponsShort: '他のゲームクーポン →',
-    noValidCodesShort: '現在有効なコードはありません。専用ページで最近期限切れのコードと使い方を確認できます。',
-    hubLastUpdatedNote: (dateLabel) => `最終更新: ${dateLabel}。コード・日程は公式チャンネルを基に確認しています。`,
-    couponFor: (name, term) => `${name} ${term}`,
     myWishlist: 'マイお気に入り',
-    myWishlistSub: '気になるゲームの発売日程をまとめました。',
-    wishlistEmptyText: 'まだお気に入りに追加したゲームがありません。',
-    wishlistEmptyHint: 'ゲーム詳細ページのお気に入りボタンから追加できます。',
+    myWishlistSub: '気になる公演・発売日程をまとめました。',
+    wishlistEmptyText: 'まだお気に入りに追加した日程がありません。',
+    wishlistEmptyHint: '詳細ページのお気に入りボタンから追加できます。',
     releaseDateTba: '発売日未定',
     removeFromWishlistAria: (name) => `${name}をお気に入りから削除`,
     notifyTitle: '発売通知',
     notifyToggleAria: '発売通知の切り替え',
     notifyDeniedSub: 'ブラウザの設定で通知を許可してください。',
-    notifyNormalSub: 'お気に入りゲームの発売前日と当日にお知らせします。',
+    notifyNormalSub: 'お気に入りの公演・発売の前日と当日にお知らせします。',
     notifyOnToast: '発売通知をオンにしました',
     notifyOffToast: '発売通知をオフにしました',
     notifyDeniedToast: '通知の許可が拒否されました',
     notifyFailToast: (reason) => `通知の設定に失敗しました: ${reason}`,
     notifyUnknownError: '不明なエラー',
-    freeGamesAria: '無料ゲーム配布',
-    freeGamesTitle: '今すぐ無料',
-    freeGamesTag: 'Epic Games',
-    freeDaysLeft: (days) => `無料 · 残り${days}日`,
-    freeFromDate: (mmdd) => `${mmdd}から無料`,
     appBottomNavAria: 'アプリ下部メニュー',
     switchToLight: 'ライトモードに切り替え',
     switchToDark: 'ダークモードに切り替え',
