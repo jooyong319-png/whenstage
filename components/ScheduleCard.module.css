@@ -7,10 +7,11 @@
   border-radius: var(--radius);
   padding: 1rem 1.1rem;
   cursor: pointer;
-  transition: border-color 0.15s, transform 0.15s;
+  transition: border-color 0.15s, box-shadow 0.15s;
 }
-.card:hover { border-color: var(--accent); transform: translateY(-2px); }
-@media (prefers-reduced-motion: reduce) { .card:hover { transform: none; } }
+/* 위치 이동(translateY)은 이제 ScheduleCard.tsx의 Motion whileHover가 담당(MotionConfig가
+   reduced-motion 사용자에겐 자동으로 꺼줌) — 여기선 색·그림자만 */
+.card:hover { border-color: var(--accent); box-shadow: 0 8px 20px -12px rgba(0, 0, 0, 0.25); }
 
 .head { display: flex; align-items: flex-start; gap: 0.6rem; }
 .thumb {

@@ -1,5 +1,6 @@
 'use client';
 import { useMemo, useState, useEffect, useRef, type CSSProperties } from 'react';
+import { motion, AnimatePresence } from 'motion/react';
 import type { Game, CalEvent, FilterKey } from '@/lib/types';
 import { CATEGORY_META } from '@/lib/types';
 import type { Category } from '@/lib/types';
@@ -267,30 +268,46 @@ export function CalendarView({ cursor, onCursorChange, games, events = [], wishl
 
         <aside className={styles.sidePanel}>
           <h3 className={styles.sidePanelTitle}>{panelTitle}</h3>
-          {panelEntries.length === 0 && (eventsByDate.get(selectedISO) ?? []).length === 0 ? (
-            <div className={styles.dayEmptyWrap}>
-              <p className={styles.dayEmpty}>{t ? t.noScheduleThisDate : '이 날짜엔 일정이 없어요.'}</p>
-              {nextEntries.length > 0 && (
-                <div className={styles.nextUp}>
-                  <p className={styles.nextUpLabel}>{t ? t.nextSchedule : '다음 일정'}</p>
-                  <div className={styles.scheduleGrid}>
-                    {nextEntries.map(({ game: g, kind }) => (
-                      <ScheduleCard key={`next-${g.id}-${kind}`} game={g} kind={kind} onPick={onPick} />
-                    ))}
+          <AnimatePresence mode="wait">
+            {panelEntries.length === 0 && (eventsByDate.get(selectedISO) ?? []).length === 0 ? (
+              <motion.div
+                key={`empty-${selectedISO}`}
+                className={styles.dayEmptyWrap}
+                initial={{ opacity: 0, x: 14 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -14 }}
+                transition={{ duration: 0.22, ease: 'easeOut' }}
+              >
+                <p className={styles.dayEmpty}>{t ? t.noScheduleThisDate : '이 날짜엔 일정이 없어요.'}</p>
+                {nextEntries.length > 0 && (
+                  <div className={styles.nextUp}>
+                    <p className={styles.nextUpLabel}>{t ? t.nextSchedule : '다음 일정'}</p>
+                    <div className={styles.scheduleGrid}>
+                      {nextEntries.map(({ game: g, kind }) => (
+                        <ScheduleCard key={`next-${g.id}-${kind}`} game={g} kind={kind} onPick={onPick} />
+                      ))}
+                    </div>
                   </div>
-                </div>
-              )}
-            </div>
-          ) : (
-            <div className={styles.scheduleGrid}>
-              {(eventsByDate.get(selectedISO) ?? []).map((ev, idx) => (
-                <EventRow key={`ev-${idx}`} event={ev} />
-              ))}
-              {panelEntries.map(({ game: g, kind }) => (
-                <ScheduleCard key={`${g.id}-${kind}`} game={g} kind={kind} onPick={onPick} />
-              ))}
-            </div>
-          )}
+                )}
+              </motion.div>
+            ) : (
+              <motion.div
+                key={`filled-${selectedISO}`}
+                className={styles.scheduleGrid}
+                initial={{ opacity: 0, x: 14 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -14 }}
+                transition={{ duration: 0.22, ease: 'easeOut' }}
+              >
+                {(eventsByDate.get(selectedISO) ?? []).map((ev, idx) => (
+                  <EventRow key={`ev-${idx}`} event={ev} />
+                ))}
+                {panelEntries.map(({ game: g, kind }) => (
+                  <ScheduleCard key={`${g.id}-${kind}`} game={g} kind={kind} onPick={onPick} />
+                ))}
+              </motion.div>
+            )}
+          </AnimatePresence>
         </aside>
       </div>
     </section>

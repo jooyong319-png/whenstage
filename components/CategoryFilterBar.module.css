@@ -6,6 +6,7 @@
   align-items: center;
 }
 .item {
+  position: relative;
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
@@ -18,13 +19,20 @@
   font-size: 0.85rem;
   font-weight: 700;
   white-space: nowrap;
-  transition: background 0.15s, border-color 0.15s, color 0.15s;
+  transition: border-color 0.15s, color 0.15s;
 }
-.item .ic { width: 15px; height: 15px; }
+.item .ic { position: relative; z-index: 1; width: 15px; height: 15px; }
 .item:hover { border-color: var(--cat, var(--accent)); color: var(--cat, var(--accent)); }
-.label { line-height: 1; }
-.active {
+.label { position: relative; z-index: 1; line-height: 1; }
+/* 활성 필 배경 — CategoryFilterBar.tsx에서 layoutId="cat-active-pill"로 버튼 간 이동을 애니메이션 */
+.pill {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: 999px;
   background: var(--cat, var(--accent));
+}
+.active {
   border-color: var(--cat, var(--accent));
   color: #fff;
 }

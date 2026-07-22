@@ -4,6 +4,7 @@ import { getAllArtists } from '@/lib/artists';
 import { CATEGORY_META } from '@/lib/types';
 import { PageShell } from '@/components/PageShell';
 import { ArtistCard } from '@/components/ArtistCard';
+import { RevealGroup, RevealItem } from '@/components/motion/Reveal';
 import { UI, LOCALES, type Locale } from '@/lib/i18nLabels';
 import blogStyles from '@/app/blog/blog.module.css';
 import styles from './artist.module.css';
@@ -44,7 +45,7 @@ export default async function ArtistListPage({ params }: Props) {
         {artists.length === 0 ? (
           <p className={blogStyles.empty}>{ui.artistNoEvents}</p>
         ) : (
-          <div className={styles.grid}>
+          <RevealGroup className={styles.grid}>
             {artists.map(a => {
               // 다가오는 일정이 있으면 그중 가장 가까운 것, 없으면 가장 최근 지난 항목의 카테고리색
               const upcoming = a.events.filter(g => g.release_date_approx || g.release_date >= new Date().toISOString().slice(0, 10));
@@ -52,18 +53,19 @@ export default async function ArtistListPage({ params }: Props) {
               const catColor = CATEGORY_META[repGame.category].color;
               const eventsLabel = `${a.events.length}${lang === 'ko' ? '개 일정' : lang === 'ja' ? '件' : ' events'}`;
               return (
-                <ArtistCard
-                  key={a.slug}
-                  href={`/${lang}/artist/${encodeURIComponent(a.slug)}`}
-                  name={a.name}
-                  image={a.image}
-                  catColor={catColor}
-                  upcomingLabel={a.upcomingCount > 0 ? `${a.upcomingCount}${ui.artistUpcomingCount}` : null}
-                  metaText={eventsLabel}
-                />
+                <RevealItem key={a.slug}>
+                  <ArtistCard
+                    href={`/${lang}/artist/${encodeURIComponent(a.slug)}`}
+                    name={a.name}
+                    image={a.image}
+                    catColor={catColor}
+                    upcomingLabel={a.upcomingCount > 0 ? `${a.upcomingCount}${ui.artistUpcomingCount}` : null}
+                    metaText={eventsLabel}
+                  />
+                </RevealItem>
               );
             })}
-          </div>
+          </RevealGroup>
         )}
       </section>
     </PageShell>

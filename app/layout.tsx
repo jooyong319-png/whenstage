@@ -11,6 +11,7 @@ import { HeaderScroll } from '@/components/HeaderScroll';
 import { Toaster } from '@/components/Toaster';
 import { PushSync } from '@/components/PushSync';
 import { InstallPrompt } from '@/components/InstallPrompt';
+import { MotionProvider } from '@/components/motion/MotionProvider';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://whenstage.com'),
@@ -92,7 +93,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <SiteWordmark />
           <HeaderNav />
         </header>
-        <main id="main">{children}</main>
+        <main id="main"><MotionProvider>{children}</MotionProvider></main>
         {/* <FloatingMonthStats /> 재작업 예정, 임시 비활성 */}
         {/* <SideRailAds /> — 카카오 애드핏, 콘텐츠 우선 정책으로 비활성(수익 낮음) */}
         <BottomTabBar />

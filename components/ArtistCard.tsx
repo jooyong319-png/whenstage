@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
+import { motion } from 'motion/react';
 import styles from './ArtistCard.module.css';
 
 interface Props {
@@ -23,7 +24,12 @@ export function ArtistCard({ href, name, image, catColor, upcomingLabel, metaTex
   const showImg = !!image && !imgError;
 
   return (
-    <a href={href} className={`${styles.card} ${!upcomingLabel ? styles.noUpcoming : ''}`}>
+    <motion.a
+      href={href}
+      className={`${styles.card} ${!upcomingLabel ? styles.noUpcoming : ''}`}
+      whileHover={{ y: -5, transition: { type: 'spring', stiffness: 380, damping: 24 } }}
+      whileTap={{ scale: 0.96 }}
+    >
       <div className={styles.thumb}>
         {upcomingLabel && <span className={styles.badge} style={{ background: catColor }}>{upcomingLabel}</span>}
         {showImg ? (
@@ -46,6 +52,6 @@ export function ArtistCard({ href, name, image, catColor, upcomingLabel, metaTex
         <div className={styles.name}>{name}</div>
         <div className={styles.meta}>{metaText}</div>
       </div>
-    </a>
+    </motion.a>
   );
 }

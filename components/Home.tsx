@@ -1,5 +1,6 @@
 'use client';
 import { useState, useMemo, useEffect, useCallback } from 'react';
+import { motion } from 'motion/react';
 import type { Game, FilterState, CalEvent } from '@/lib/types';
 import { EVENT_TYPE_META } from '@/lib/types';
 import { formatShortDate, kstDateOnly } from '@/lib/utils';
@@ -157,7 +158,12 @@ export function Home({ initialGames, lastUpdated, serverNow, initialCalEvents = 
       <h1 className="sr-only">{UI[lang].siteName}</h1>
       <div className={styles.layout}>
         <div className={styles.main}>
-          <div className={styles.topRow}>
+          <motion.div
+            className={styles.topRow}
+            initial={{ opacity: 0, y: -12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, ease: 'easeOut' }}
+          >
             <input
               type="search"
               placeholder={t.searchPlaceholder}
@@ -177,8 +183,13 @@ export function Home({ initialGames, lastUpdated, serverNow, initialCalEvents = 
               <svg className={wishlistOnly ? 'ic ic-fill' : 'ic'} aria-hidden="true"><use href="#ic-star" /></svg>
               <span className={styles.wishToggleLabel}>{t.wishlist}</span>
             </button>
-          </div>
+          </motion.div>
 
+      <motion.div
+        initial={{ opacity: 0, y: 18 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.45, ease: 'easeOut', delay: 0.08 }}
+      >
       {showList ? (
         <ListView
           games={listGames}
@@ -202,6 +213,7 @@ export function Home({ initialGames, lastUpdated, serverNow, initialCalEvents = 
           onCategory={c => setFilters({ ...filters, category: c })}
         />
       )}
+      </motion.div>
 
           <p className={styles.lastUpdated}>
             {t.lastUpdated}: {formatShortDate(lastUpdated.slice(0, 10))}

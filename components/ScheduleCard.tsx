@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useRef, useState, type CSSProperties } from 'react';
+import { motion } from 'motion/react';
 import type { Game } from '@/lib/types';
 import { CATEGORY_META } from '@/lib/types';
 import { formatShortDate, formatEventDateTime } from '@/lib/utils';
@@ -54,12 +55,14 @@ export function ScheduleCard({ game, kind, onPick }: Props) {
   const ctaLabel = kind === 'presale' ? t.goToPresale : kind === 'general_sale' ? t.goToGeneralSale : null;
 
   return (
-    <div
+    <motion.div
       className={styles.card}
       role="button"
       tabIndex={0}
       onClick={() => onPick(game.id)}
       onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onPick(game.id); } }}
+      whileHover={{ y: -4, transition: { type: 'spring', stiffness: 400, damping: 22 } }}
+      whileTap={{ scale: 0.97 }}
     >
       <div className={styles.head}>
         {showImg && (
@@ -105,6 +108,6 @@ export function ScheduleCard({ game, kind, onPick }: Props) {
           {ctaLabel}
         </a>
       )}
-    </div>
+    </motion.div>
   );
 }

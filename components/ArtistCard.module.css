@@ -5,10 +5,10 @@
   border-radius: 16px;
   overflow: hidden;
   color: inherit;
-  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
 }
+/* 위치 이동(translateY)은 ArtistCard.tsx의 Motion whileHover가 담당(reduced-motion 자동 대응) */
 .card:hover {
-  transform: translateY(-3px);
   border-color: var(--accent);
   box-shadow: 0 12px 28px -14px rgba(124, 58, 237, 0.35);
   text-decoration: none;
