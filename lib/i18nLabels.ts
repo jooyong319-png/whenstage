@@ -242,6 +242,7 @@ interface CalUiStrings {
   presaleTag: string;
   generalSaleTag: string;
   deadlineTag: string;
+  ticketingLegend: string;
   presaleStartBadge: string;
   presaleEndBadge: string;
   generalSaleStartBadge: string;
@@ -324,6 +325,7 @@ export const CAL: Record<Locale, CalUiStrings> = {
     presaleTag: '선예매',
     generalSaleTag: '일반예매',
     deadlineTag: '마감',
+    ticketingLegend: '티켓팅',
     presaleStartBadge: '선예매 시작',
     presaleEndBadge: '선예매 마감',
     generalSaleStartBadge: '일반예매 시작',
@@ -404,6 +406,7 @@ export const CAL: Record<Locale, CalUiStrings> = {
     presaleTag: 'Presale',
     generalSaleTag: 'General sale',
     deadlineTag: 'Deadline',
+    ticketingLegend: 'Ticketing',
     presaleStartBadge: 'Presale opens',
     presaleEndBadge: 'Presale closes',
     generalSaleStartBadge: 'General sale opens',
@@ -484,6 +487,7 @@ export const CAL: Record<Locale, CalUiStrings> = {
     presaleTag: '先行予約',
     generalSaleTag: '一般発売',
     deadlineTag: '締切',
+    ticketingLegend: 'チケット',
     presaleStartBadge: '先行予約開始',
     presaleEndBadge: '先行予約締切',
     generalSaleStartBadge: '一般発売開始',

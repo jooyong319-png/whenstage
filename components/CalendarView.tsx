@@ -62,6 +62,15 @@ function buildCells(cursor: Date, games: Game[], now: Date): Cell[] {
     addEntry(dateOnly(g.general_sale_datetime), g, 'general_sale');
     addEntry(dateOnly(g.general_sale_end_datetime), g, 'general_sale_end');
   }
+  // 예매(선예매/일반예매) 정보가 공연일 자체보다 더 중요하다는 실사용자 피드백 반영 —
+  // 하루에 항목이 4개 넘어 점이 잘릴 때(+N 처리), 예매 관련 점이 먼저 잘리지 않도록
+  // release보다 앞에 오게 정렬한다.
+  const KIND_ORDER: Record<ScheduleKind, number> = {
+    presale: 0, general_sale: 1, presale_end: 2, general_sale_end: 3, release: 4,
+  };
+  for (const list of byDate.values()) {
+    list.sort((a, b) => KIND_ORDER[a.kind] - KIND_ORDER[b.kind]);
+  }
   const cells: Cell[] = [];
   for (let i = 0; i < 42; i++) {
     const d = new Date(start);
@@ -215,7 +224,15 @@ export function CalendarView({ cursor, onCursorChange, games, wishlist: _wishlis
                       onCellClick(cell);
                     }
                   }}
-                  title={has ? cell.entries.map(e => `${e.game.name} (${CATEGORY_META[e.game.category].short})`).join(', ') : undefined}
+                  title={has ? cell.entries.map(e => {
+                    const kindLabel =
+                      e.kind === 'presale' ? t.presaleTag :
+                      e.kind === 'presale_end' ? `${t.presaleTag} ${t.deadlineTag}` :
+                      e.kind === 'general_sale' ? t.generalSaleTag :
+                      e.kind === 'general_sale_end' ? `${t.generalSaleTag} ${t.deadlineTag}` :
+                      CATEGORY_META[e.game.category].short;
+                    return `${e.game.name} (${kindLabel})`;
+                  }).join(', ') : undefined}
                 >
                   <div className={`${styles.cellDate} ${cell.date.getDay() === 0 ? styles.sun : cell.date.getDay() === 6 ? styles.sat : ''}`.trim()}>
                     {isSelected && (
@@ -234,14 +251,21 @@ export function CalendarView({ cursor, onCursorChange, games, wishlist: _wishlis
 
                   {has && (
                     <div className={styles.cellDots}>
-                      {dots.map((e, idx) => (
+                      {dots.map((e, idx) => {
+                        const isTicketing = e.kind !== 'release';
+                        return (
                         <span
                           key={`${e.game.id}-${e.kind}-${idx}`}
-                          className={styles.cellDot}
+                          className={isTicketing ? styles.cellDotTicket : styles.cellDot}
                           aria-hidden="true"
-                          style={{ background: CATEGORY_META[e.game.category].color, opacity: e.kind.endsWith('_end') ? 0.45 : 1 }}
+                          style={
+                            isTicketing
+                              ? { background: 'var(--accent-warm)', opacity: e.kind.endsWith('_end') ? 0.55 : 1 }
+                              : { background: CATEGORY_META[e.game.category].color }
+                          }
                         />
-                      ))}
+                        );
+                      })}
                       {overflow > 0 && <span className={styles.cellDotMore}>+{overflow}</span>}
                     </div>
                   )}
@@ -265,6 +289,10 @@ export function CalendarView({ cursor, onCursorChange, games, wishlist: _wishlis
                 {CATEGORY_LABELS[lang][c]}
               </li>
             ))}
+            <li className={styles.legendItem}>
+              <span className={styles.legendDotTicket} style={{ background: 'var(--accent-warm)' }} aria-hidden="true" />
+              {t.ticketingLegend}
+            </li>
           </ul>
         </div>
 
