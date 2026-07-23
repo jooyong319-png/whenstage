@@ -6,7 +6,7 @@ import { EventList } from '@/components/EventList';
 import { ArtistAvatar } from '@/components/ArtistAvatar';
 import { SidebarSection } from '@/components/SidebarSection';
 import { RelatedArtistCard } from '@/components/RelatedArtistCard';
-import { UI, LOCALES, type Locale } from '@/lib/i18nLabels';
+import { UI, LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
 import styles from '@/app/blog/blog.module.css';
 import artistStyles from '../artist.module.css';
 
@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${artist.name} | ${UI[params.lang].siteName}`,
     description: desc,
     alternates: { canonical: url },
-    openGraph: { title: artist.name, description: desc, url, images: artist.image ? [{ url: artist.image }] : undefined },
+    openGraph: { title: artist.name, description: desc, url, locale: OG_LOCALE[params.lang], images: artist.image ? [{ url: artist.image }] : undefined },
   };
 }
 
@@ -63,8 +63,18 @@ export default async function ArtistDetailPage({ params }: Props) {
     </SidebarSection>
   ) : undefined;
 
+  const artistLd = {
+    '@context': 'https://schema.org',
+    '@type': 'MusicGroup',
+    name: artist.name,
+    url: `https://whenstage.com/${lang}/artist/${encodeURIComponent(artist.slug)}`,
+    ...(artist.image ? { image: artist.image } : {}),
+    ...(artist.bio?.text ? { description: artist.bio.text } : {}),
+  };
+
   return (
     <PageShell lang={lang} sidebar={sidebar}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(artistLd) }} />
       <article className={styles.post}>
         <a href={`/${lang}/artist`} className={styles.backLink}>{ui.backToList}</a>
         <header className={styles.postHeader}>

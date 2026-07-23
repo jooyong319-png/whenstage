@@ -4,7 +4,7 @@ import { getAllNews, formatPostDate } from '@/lib/news';
 import { PageShell } from '@/components/PageShell';
 import { BlogImg } from '@/components/BlogImg';
 import { RevealGroup, RevealItem } from '@/components/motion/Reveal';
-import { LOCALES, type Locale } from '@/lib/i18nLabels';
+import { LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
 import styles from '@/app/blog/blog.module.css';
 import n from '@/app/news/news.module.css';
 
@@ -15,23 +15,35 @@ export async function generateStaticParams() {
   return LOCALES.map(lang => ({ lang }));
 }
 
-const META: Record<Locale, Metadata> = {
+const NEWS_LIST_COPY: Record<Locale, { title: string; description: string; url: string }> = {
   ko: {
     title: '공연 뉴스 | 신규 소식, 업데이트, 발표',
     description: '국내외 콘서트·페스티벌·발매 관련 신규 소식, 일정 변경, 사전예약, 발표를 매일 정리합니다.',
-    alternates: { canonical: 'https://whenstage.com/ko/news' },
+    url: 'https://whenstage.com/ko/news',
   },
   en: {
     title: 'News | New Announcements, Updates, Ticketing',
     description: 'Daily-curated concert and release news from Korea and worldwide — announcements, updates, and pre-registration.',
-    alternates: { canonical: 'https://whenstage.com/en/news' },
+    url: 'https://whenstage.com/en/news',
   },
   ja: {
     title: 'ニュース | 新着情報・アップデート・発売情報',
     description: '国内外のコンサート・フェス・発売関連の新着情報、日程変更、先行予約情報を毎日整理。',
-    alternates: { canonical: 'https://whenstage.com/ja/news' },
+    url: 'https://whenstage.com/ja/news',
   },
 };
+
+const META: Record<Locale, Metadata> = Object.fromEntries(
+  LOCALES.map(lang => {
+    const { title, description, url } = NEWS_LIST_COPY[lang];
+    return [lang, {
+      title,
+      description,
+      alternates: { canonical: url },
+      openGraph: { title, description, url, locale: OG_LOCALE[lang] },
+    }];
+  })
+) as Record<Locale, Metadata>;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!isLocale(params.lang)) return {};

@@ -4,6 +4,10 @@ import type { Category } from './types';
 export type Locale = 'ko' | 'en' | 'ja';
 export const LOCALES: Locale[] = ['ko', 'en', 'ja'];
 
+// openGraph.locale용 — 각 페이지 generateMetadata가 명시적으로 지정해야 og:locale이 실제
+// 페이지 언어와 항상 일치한다(안 넣으면 부모 레이아웃 기본값에 기댈 여지가 생김).
+export const OG_LOCALE: Record<Locale, string> = { ko: 'ko_KR', en: 'en_US', ja: 'ja_JP' };
+
 // ko/en/ja는 서로 번역 관계가 아니라 국가별로 완전히 독립된 콘텐츠(lib/games.ts가
 // locale별 data/concerts.{ko,en,ja}.json을 각각 읽음) — 그래서 게임명/설명에 별도
 // 폴백 헬퍼가 필요 없음. 각 페이지가 자기 locale의 데이터를 그대로 씀.

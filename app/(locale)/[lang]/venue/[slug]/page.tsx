@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { getAllVenues, getVenueBySlug } from '@/lib/venues';
 import { PageShell } from '@/components/PageShell';
 import { EventList } from '@/components/EventList';
-import { UI, LOCALES, type Locale } from '@/lib/i18nLabels';
+import { UI, LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
 import styles from '@/app/blog/blog.module.css';
 
 interface Props { params: { lang: string; slug: string }; }
@@ -28,6 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${venue.name} | ${UI[params.lang].siteName}`,
     description: desc,
     alternates: { canonical: url },
+    openGraph: { title: venue.name, description: desc, url, locale: OG_LOCALE[params.lang] },
   };
 }
 
@@ -38,8 +39,16 @@ export default async function VenueDetailPage({ params }: Props) {
   const venue = await getVenueBySlug(params.slug, lang);
   if (!venue) notFound();
 
+  const venueLd = {
+    '@context': 'https://schema.org',
+    '@type': 'MusicVenue',
+    name: venue.name,
+    url: `https://whenstage.com/${lang}/venue/${encodeURIComponent(venue.slug)}`,
+  };
+
   return (
     <PageShell lang={lang}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(venueLd) }} />
       <article className={styles.post}>
         <a href={`/${lang}/venue`} className={styles.backLink}>{ui.backToList}</a>
         <header className={styles.postHeader}>

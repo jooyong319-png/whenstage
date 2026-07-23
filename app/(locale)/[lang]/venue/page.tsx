@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllVenues } from '@/lib/venues';
-import { UI, LOCALES, type Locale } from '@/lib/i18nLabels';
+import { UI, LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
 import { PageShell } from '@/components/PageShell';
 import { RevealGroup, RevealItem } from '@/components/motion/Reveal';
 import styles from '@/app/blog/blog.module.css';
@@ -16,10 +16,12 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!isLocale(params.lang)) return {};
   const ui = UI[params.lang];
+  const url = `https://whenstage.com/${params.lang}/venue`;
   return {
     title: ui.venueListTitle,
     description: ui.venueListSubtitle,
-    alternates: { canonical: `https://whenstage.com/${params.lang}/venue` },
+    alternates: { canonical: url },
+    openGraph: { title: ui.venueListTitle, description: ui.venueListSubtitle, url, locale: OG_LOCALE[params.lang] },
   };
 }
 

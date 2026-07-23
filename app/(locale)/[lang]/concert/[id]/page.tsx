@@ -4,7 +4,7 @@ import { getAllGames, getGameById, getUpcomingGamesByCategory, getLastUpdated } 
 import { getArtistBySlug, normalizeArtistKey } from '@/lib/artists';
 import { getVenueBySlug, normalizeVenueKey, VENUE_CATEGORIES } from '@/lib/venues';
 import { formatShortDate, calcDayDiff } from '@/lib/utils';
-import { CATEGORY_LABELS, UI, CAL, LOCALES, type Locale } from '@/lib/i18nLabels';
+import { CATEGORY_LABELS, UI, CAL, LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
 import type { Game } from '@/lib/types';
 import { PageShell } from '@/components/PageShell';
 import { WishlistButton } from '@/components/WishlistButton';
@@ -48,7 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description: desc,
     alternates: { canonical: url },
-    openGraph: { title, description: desc, url, type: 'article', images: [{ url: ogImage }] },
+    openGraph: { title, description: desc, url, type: 'article', locale: OG_LOCALE[params.lang], images: [{ url: ogImage }] },
     twitter: { card: 'summary_large_image', title, description: desc, images: [ogImage] },
   };
 }

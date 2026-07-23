@@ -4,7 +4,7 @@ import { getAllPosts, formatPostDate } from '@/lib/blog';
 import { PageShell } from '@/components/PageShell';
 import { BlogImg } from '@/components/BlogImg';
 import { RevealGroup, RevealItem } from '@/components/motion/Reveal';
-import { LOCALES, type Locale } from '@/lib/i18nLabels';
+import { LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
 import styles from '@/app/blog/blog.module.css';
 
 interface Props { params: { lang: string }; }
@@ -14,23 +14,35 @@ export async function generateStaticParams() {
   return LOCALES.map(lang => ({ lang }));
 }
 
-const META: Record<Locale, Metadata> = {
+const BLOG_LIST_COPY: Record<Locale, { title: string; description: string; url: string }> = {
   ko: {
     title: '모아보기 | 발매 픽, 월간 정리, TOP 리스트',
     description: '신작 발매 픽, 월간·반기 정리, 기대작 TOP 리스트 등 WhenStage가 직접 정리하는 모아보기.',
-    alternates: { canonical: 'https://whenstage.com/ko/blog' },
+    url: 'https://whenstage.com/ko/blog',
   },
   en: {
     title: 'Roundups | New Release Picks, Monthly Summaries, Top Lists',
     description: 'New release picks, monthly and half-year roundups, and most-anticipated lists — curated by WhenStage.',
-    alternates: { canonical: 'https://whenstage.com/en/blog' },
+    url: 'https://whenstage.com/en/blog',
   },
   ja: {
     title: 'まとめ記事 | 新作おすすめ・発売情報まとめ・TOPリスト',
     description: '新作おすすめ、月間・下半期発売まとめ、期待作TOPリストなど、WhenStageがキュレーションするまとめ記事。',
-    alternates: { canonical: 'https://whenstage.com/ja/blog' },
+    url: 'https://whenstage.com/ja/blog',
   },
 };
+
+const META: Record<Locale, Metadata> = Object.fromEntries(
+  LOCALES.map(lang => {
+    const { title, description, url } = BLOG_LIST_COPY[lang];
+    return [lang, {
+      title,
+      description,
+      alternates: { canonical: url },
+      openGraph: { title, description, url, locale: OG_LOCALE[lang] },
+    }];
+  })
+) as Record<Locale, Metadata>;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!isLocale(params.lang)) return {};

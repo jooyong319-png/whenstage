@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { PageShell } from '@/components/PageShell';
-import { LOCALES, type Locale } from '@/lib/i18nLabels';
+import { LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
 
 interface Props { params: { lang: string }; }
 function isLocale(v: string): v is Locale { return (LOCALES as string[]).includes(v); }
@@ -10,23 +10,35 @@ export async function generateStaticParams() {
   return LOCALES.map(lang => ({ lang }));
 }
 
-const META: Record<Locale, Metadata> = {
+const GUIDE_COPY: Record<Locale, { title: string; description: string; url: string }> = {
   ko: {
     title: '콘서트·티켓팅·페스티벌 가이드 | 자주 묻는 질문',
     description: '콘서트 사전예약/티켓팅, 페스티벌 라인업, 팬미팅, 일정 변동까지. 자주 묻는 질문을 한곳에 정리했습니다.',
-    alternates: { canonical: 'https://whenstage.com/ko/guide' },
+    url: 'https://whenstage.com/ko/guide',
   },
   en: {
     title: 'Concert & Ticketing Guide | FAQ',
     description: 'Concert pre-registration/ticketing, festival line-ups, fan meetings, and why dates change — answers to common questions.',
-    alternates: { canonical: 'https://whenstage.com/en/guide' },
+    url: 'https://whenstage.com/en/guide',
   },
   ja: {
     title: 'コンサート・チケット・フェスガイド | よくある質問',
     description: 'コンサートのチケット先行、フェスラインナップ、ファンミーティング、日程変更まで、よくある質問をまとめました。',
-    alternates: { canonical: 'https://whenstage.com/ja/guide' },
+    url: 'https://whenstage.com/ja/guide',
   },
 };
+
+const META: Record<Locale, Metadata> = Object.fromEntries(
+  LOCALES.map(lang => {
+    const { title, description, url } = GUIDE_COPY[lang];
+    return [lang, {
+      title,
+      description,
+      alternates: { canonical: url },
+      openGraph: { title, description, url, locale: OG_LOCALE[lang] },
+    }];
+  })
+) as Record<Locale, Metadata>;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!isLocale(params.lang)) return {};

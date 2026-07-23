@@ -5,7 +5,7 @@ import { CATEGORY_META } from '@/lib/types';
 import { PageShell } from '@/components/PageShell';
 import { ArtistCard } from '@/components/ArtistCard';
 import { RevealGroup, RevealItem } from '@/components/motion/Reveal';
-import { UI, LOCALES, type Locale } from '@/lib/i18nLabels';
+import { UI, LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
 import blogStyles from '@/app/blog/blog.module.css';
 import styles from './artist.module.css';
 
@@ -19,10 +19,12 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!isLocale(params.lang)) return {};
   const ui = UI[params.lang];
+  const url = `https://whenstage.com/${params.lang}/artist`;
   return {
     title: ui.artistListTitle,
     description: ui.artistListSubtitle,
-    alternates: { canonical: `https://whenstage.com/${params.lang}/artist` },
+    alternates: { canonical: url },
+    openGraph: { title: ui.artistListTitle, description: ui.artistListSubtitle, url, locale: OG_LOCALE[params.lang] },
   };
 }
 

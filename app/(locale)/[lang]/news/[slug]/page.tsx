@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllNews, getNewsBySlug, getRelatedNews, markdownToHtml, formatPostDate } from '@/lib/news';
-import { UI, LOCALES, type Locale } from '@/lib/i18nLabels';
+import { UI, LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
 import { PageShell } from '@/components/PageShell';
 import { BlogHero } from '@/components/BlogHero';
 import { SidebarSection } from '@/components/SidebarSection';
@@ -37,7 +37,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${item.title} | ${UI[lang].siteName}`,
     description: item.description.slice(0, 158),
     alternates: { canonical: url },
-    openGraph: { title: item.title, description: item.description, url, type: 'article' },
+    openGraph: {
+      title: item.title,
+      description: item.description,
+      url,
+      type: 'article',
+      locale: OG_LOCALE[lang],
+      images: item.heroImage ? [{ url: item.heroImage }] : undefined,
+    },
   };
 }
 
@@ -51,6 +58,24 @@ export default async function LocaleNewsPage({ params }: Props) {
 
   const html = markdownToHtml(item.content);
 
+  const newsLd = {
+    '@context': 'https://schema.org',
+    '@type': 'NewsArticle',
+    headline: item.title,
+    description: item.description,
+    datePublished: item.date,
+    dateModified: item.date,
+    inLanguage: lang,
+    url: `https://whenstage.com/${lang}/news/${item.slug}`,
+    image: item.heroImage || 'https://whenstage.com/og-image.png',
+    author: { '@type': 'Organization', name: 'WhenStage' },
+    publisher: {
+      '@type': 'Organization',
+      name: 'WhenStage',
+      logo: { '@type': 'ImageObject', url: 'https://whenstage.com/og-image.png' },
+    },
+  };
+
   const related = await getRelatedNews(params.slug, lang, 3);
   const relatedLabel = lang === 'ko' ? '관련 뉴스' : lang === 'ja' ? '関連ニュース' : 'Related News';
   const seeAllNews = lang === 'ko' ? '뉴스 전체 보기' : lang === 'ja' ? 'ニュース一覧' : 'See all news';
@@ -62,6 +87,7 @@ export default async function LocaleNewsPage({ params }: Props) {
 
   return (
     <PageShell lang={lang} sidebar={sidebar}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(newsLd) }} />
       <article className={styles.post}>
         <a href={`/${lang}/news`} className={styles.backLink}>{ui.backToList}</a>
         {item.heroImage && <BlogHero src={item.heroImage} alt={item.title} />}

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllGames, getLastUpdated } from '@/lib/games';
 import { Home } from '@/components/Home';
-import { UI, LOCALES, type Locale } from '@/lib/i18nLabels';
+import { UI, LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
 
 interface Props {
   params: { lang: string };
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         'x-default': 'https://whenstage.com/',
       },
     },
-    openGraph: { title: ui.siteName, description: ui.siteDescription, url, type: 'website' },
+    openGraph: { title: ui.siteName, description: ui.siteDescription, url, type: 'website', locale: OG_LOCALE[params.lang] },
   };
 }
 

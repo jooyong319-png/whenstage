@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllPosts, getPostBySlug, getRelatedPosts, markdownToHtml, formatPostDate } from '@/lib/blog';
-import { UI, LOCALES, type Locale } from '@/lib/i18nLabels';
+import { UI, LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
 import { PageShell } from '@/components/PageShell';
 import { BlogHero } from '@/components/BlogHero';
 import { SidebarSection } from '@/components/SidebarSection';
@@ -36,7 +36,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${post.title} | ${UI[lang].siteName}`,
     description: post.description.slice(0, 158),
     alternates: { canonical: url },
-    openGraph: { title: post.title, description: post.description, url, type: 'article' },
+    openGraph: {
+      title: post.title,
+      description: post.description,
+      url,
+      type: 'article',
+      locale: OG_LOCALE[lang],
+      images: post.heroImage ? [{ url: post.heroImage }] : undefined,
+    },
   };
 }
 
@@ -50,6 +57,24 @@ export default async function LocaleBlogPage({ params }: Props) {
 
   const html = markdownToHtml(post.content);
 
+  const articleLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.description,
+    datePublished: post.date,
+    dateModified: post.date,
+    inLanguage: lang,
+    url: `https://whenstage.com/${lang}/blog/${params.slug}`,
+    image: post.heroImage || 'https://whenstage.com/og-image.png',
+    author: { '@type': 'Organization', name: 'WhenStage' },
+    publisher: {
+      '@type': 'Organization',
+      name: 'WhenStage',
+      logo: { '@type': 'ImageObject', url: 'https://whenstage.com/og-image.png' },
+    },
+  };
+
   const related = await getRelatedPosts(params.slug, lang, 3);
   const relatedLabel = lang === 'ko' ? '관련 아티클' : lang === 'ja' ? '関連記事' : 'Related Articles';
   const seeAllBlog = lang === 'ko' ? '모아보기 전체 글' : lang === 'ja' ? 'まとめ記事一覧' : 'See all roundups';
@@ -61,6 +86,7 @@ export default async function LocaleBlogPage({ params }: Props) {
 
   return (
     <PageShell lang={lang} sidebar={sidebar}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd) }} />
       <article className={styles.post}>
         <a href={`/${lang}/blog`} className={styles.backLink}>{ui.backToList}</a>
         {post.heroImage && <BlogHero src={post.heroImage} alt={post.title} />}
