@@ -157,7 +157,25 @@ python3 -c "import json; d=json.load(open('data/concerts.ja.json')); print('JA',
   원본 공지를 링크하는 편이 낫다.
 - 대부분의 공연은 이 기능이 필요 없다 — 남발하지 말 것.
 
-### 6. CHAT.md 보고 (맨 위, append-only — 오래된 로그 삭제 금지, **한국어로 작성**)
+### 6. Push — 데이터부터 먼저 (fetch → rebase → push)
+⚠️ CHAT.md 로그는 7~8단계에서 **별도로** push한다. 하루 2회 스케줄러가 KO/EN/JA 리서처 +
+뉴스 리서처까지 겹쳐서 돌 수 있어서, CHAT.md는 append 위치가 자주 충돌한다 — 데이터
+(`concerts.ja.json`)를 CHAT.md와 분리해서 먼저 push해두면 로그 쪽에서 충돌이 나도 실제
+데이터는 안전하게 반영된다.
+```bash
+cd $D
+git config user.email "researcher-ja@example.com"
+git config user.name "Researcher Claude (JA)"
+python3 -c "import json; json.load(open('data/concerts.ja.json'))" || { echo "JSON 깨짐 — 중단"; exit 1; }
+git add data/concerts.ja.json
+git diff --cached --quiet && { echo "변경 없음 — 종료"; exit 0; }
+git commit -m "[JA 리서처] $(date '+%Y-%m-%d') 일본 국내 공연 갱신 (검증완료)"
+git fetch origin
+git rebase origin/main || { git rebase --abort; echo "rebase 충돌 — 데이터 보류, 처음부터 재시도"; exit 1; }
+git push
+```
+
+### 7. CHAT.md 보고 (맨 위, append-only — 오래된 로그 삭제 금지, **한국어로 작성**)
 ```
 ## [YYYY-MM-DD HH:MM] [JA 리서처]
 리서치 완료 (일본 국내 공연)
@@ -171,17 +189,20 @@ python3 -c "import json; d=json.load(open('data/concerts.ja.json')); print('JA',
 - 공연명: 사유
 ```
 
-### 7. Push (fetch → rebase → push)
+### 8. CHAT.md Push (충돌 나면 abort 후 재시도 — 다른 리서처와 동시 실행 시 흔한 정상 상황)
 ```bash
 cd $D
-git config user.email "researcher-ja@example.com"
-git config user.name "Researcher Claude (JA)"
-python3 -c "import json; json.load(open('data/concerts.ja.json'))" || { echo "JSON 깨짐 — 중단"; exit 1; }
-git add -A
-git diff --cached --quiet && { echo "변경 없음 — 종료"; exit 0; }
-git commit -m "[JA 리서처] $(date '+%Y-%m-%d') 일본 국내 공연 갱신 (검증완료)"
+git add CHAT.md
+git commit -m "[JA 리서처] $(date '+%Y-%m-%d') 로그"
 git fetch origin
-git rebase origin/main || { git rebase --abort; echo "rebase 충돌 — 보류"; exit 1; }
+git rebase origin/main
+```
+- 충돌 나면(다른 리서처가 같은 위치에 먼저 append) `git rebase --abort` 후 `CHAT.md`를 다시
+  열어 방금 받은 최신 버전 맨 위에 내 로그를 다시 붙여넣고 새로 commit → fetch+rebase부터
+  재시도. append-only라 내용 자체가 충돌할 일은 없고 위치만 겹치는 것이므로 2~3회면 해결된다.
+  (데이터는 이미 6단계에서 push 완료됐으니 이 단계가 계속 실패해도 로그만 늦어질 뿐 데이터
+  유실은 없다 — 무기한 재시도하지 말고 2~3회 넘으면 보류하고 다음 실행에 맡겨도 된다.)
+```bash
 git push
 ```
 
@@ -200,7 +221,7 @@ git push
 12. 티켓팅(`presale`/`general_sale`) 정보는 공식/플랫폼에서 확인된 것만 true. 종료/공연 완료 시 해제. url·시작일도 최대한 채울 것. 둘은 별개 이벤트이니 섞어 쓰지 말 것
 13. image_url은 티켓 플랫폼 og:image 우선, 폴백 아티스트 공식 유튜브 채널 아바타. 만료성 URL 금지, 확신 없으면 null
 14. description은 일본어로 원본 재서술(최소 120자, 권장 150~250자), 보도자료 복붙 금지, 사실만
-15. push 전 fetch + rebase origin/main 필수, 충돌 시 abort 후 보류(강제 push 금지)
+15. 데이터/기사 push 전 fetch + rebase origin/main 필수, 충돌 시 abort 후 보류(강제 push 금지) — CHAT.md push는 예외로, 충돌 시 재시도(위 CHAT.md Push 단계 참고)
 16. 의심스러우면 추가 안 함이 정답
 17. 확인 안 한 제약을 규칙처럼 말하지 말 것 — 궁금하면 lib/games.ts·AGENTS.md·concerts.ja.json을 직접 열어 확인
 18. 취소된 공연은 삭제 금지, `[中止]` 표기 후 보존

@@ -105,7 +105,24 @@ source_url: 원문 URL (필수 — 저작권 안전판)
 - JSON이 아니므로 별도 스키마 검증 불필요하지만, frontmatter 구분선(`---`)이 정확히 파일 맨 위·필드
   다음 두 번 나오는지 확인(파서가 `^---\n...\n---\n` 정규식으로 파싱).
 
-### 5. CHAT.md 보고 (맨 위, append-only — 오래된 로그 삭제 금지)
+### 5. Push — 기사부터 먼저 (fetch → rebase → push)
+⚠️ CHAT.md 로그는 6~7단계에서 **별도로** push한다. 하루 2회 스케줄러가 KO/EN/JA 뉴스 +
+콘서트 리서처까지 겹쳐서 돌 수 있어서, CHAT.md는 append 위치가 자주 충돌한다 — 기사
+(`content/news/*.ko.md`)를 CHAT.md와 분리해서 먼저 push해두면 로그 쪽에서 충돌이 나도
+실제 기사는 안전하게 반영된다.
+```bash
+cd $D
+git config user.email "news-ko@example.com"
+git config user.name "News Writer Claude (KO)"
+git add content/news/*.ko.md
+git diff --cached --quiet && { echo "변경 없음 — 종료"; exit 0; }
+git commit -m "[KO 뉴스] $(date '+%Y-%m-%d') 한국 국내 공연 뉴스 N건 추가"
+git fetch origin
+git rebase origin/main || { git rebase --abort; echo "rebase 충돌 — 기사 보류, 처음부터 재시도"; exit 1; }
+git push
+```
+
+### 6. CHAT.md 보고 (맨 위, append-only — 오래된 로그 삭제 금지)
 ```
 ## [YYYY-MM-DD HH:MM] [KO 뉴스]
 뉴스 작성 완료 (한국 국내 공연 뉴스)
@@ -114,16 +131,20 @@ source_url: 원문 URL (필수 — 저작권 안전판)
 - 스킵(중복·소스 불충분): 사유
 ```
 
-### 6. Push (fetch → rebase → push)
+### 7. CHAT.md Push (충돌 나면 abort 후 재시도 — 다른 리서처와 동시 실행 시 흔한 정상 상황)
 ```bash
 cd $D
-git config user.email "news-ko@example.com"
-git config user.name "News Writer Claude (KO)"
-git add -A
-git diff --cached --quiet && { echo "변경 없음 — 종료"; exit 0; }
-git commit -m "[KO 뉴스] $(date '+%Y-%m-%d') 한국 국내 공연 뉴스 N건 추가"
+git add CHAT.md
+git commit -m "[KO 뉴스] $(date '+%Y-%m-%d') 로그"
 git fetch origin
-git rebase origin/main || { git rebase --abort; echo "rebase 충돌 — 보류"; exit 1; }
+git rebase origin/main
+```
+- 충돌 나면(다른 리서처가 같은 위치에 먼저 append) `git rebase --abort` 후 `CHAT.md`를 다시
+  열어 방금 받은 최신 버전 맨 위에 내 로그를 다시 붙여넣고 새로 commit → fetch+rebase부터
+  재시도. append-only라 내용 자체가 충돌할 일은 없고 위치만 겹치는 것이므로 2~3회면 해결된다.
+  (기사는 이미 5단계에서 push 완료됐으니 이 단계가 계속 실패해도 로그만 늦어질 뿐 기사 유실은
+  없다 — 무기한 재시도하지 말고 2~3회 넘으면 보류하고 다음 실행에 맡겨도 된다.)
+```bash
 git push
 ```
 
@@ -136,6 +157,6 @@ git push
 6. 콘서트 링크는 반드시 `/ko/concert/<id>` 패턴 — 다른 형태(`/concert/<id>`, `/game/<id>` 등)는 이미지
    자동 연결이 깨지므로 금지
 7. 기사 삭제 금지 — 사실관계 변경 시 본문 상단에 갱신 문구 추가, 취소 시 `[취소됨]` 표기 후 보존
-8. push 전 fetch + rebase origin/main 필수, 충돌 시 abort 후 보류(강제 push 금지)
+8. 데이터/기사 push 전 fetch + rebase origin/main 필수, 충돌 시 abort 후 보류(강제 push 금지) — CHAT.md push는 예외로, 충돌 시 재시도(위 CHAT.md Push 단계 참고)
 9. 하루 신규 기사 10건 이하(과다 생성 지양 — 질 우선)
 10. 확인 안 한 제약을 규칙처럼 말하지 말 것 — 궁금하면 lib/news.ts·content/news/*.ko.md를 직접 열어 확인

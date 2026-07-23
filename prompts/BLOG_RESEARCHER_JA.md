@@ -77,7 +77,11 @@ tags: [タグ1, タグ2]
 **내부 링크 규칙** (전부 `/ja/...` 접두사):
 - 콘서트/발매 상세: `/ja/concert/<id>` — `id`는 `concerts.ja.json`의 실제 `id` 값 그대로.
 - 아티스트 상세: `/ja/artist/<encodeURIComponent(정규화된 아티스트명)>` — `lib/artists.ts`의
-  `normalizeArtistKey()`와 동일한 규칙(괄호 부연설명 제거).
+  `normalizeArtistKey()`와 동일한 규칙(괄호 부연설명 제거). ⚠️ **아티스트 페이지는
+  `concerts.ja.json`의 `developer` 필드에 실제로 등장하는 이름만 존재한다** — 페스티벌
+  라인업이나 본문에서 이름만 언급하고 그 아티스트의 `developer` 단독 공연이 데이터에 없으면
+  아티스트 링크를 걸지 말 것(깨진 링크가 됨). 걸기 전에 `concerts.ja.json`에서 해당 이름이
+  `developer`로 실제 등장하는지 먼저 확인.
 - 공연장 상세: `/ja/venue/<encodeURIComponent(정규화된 공연장명)>` — `lib/venues.ts`의
   `normalizeVenueKey()`와 동일한 규칙.
 - 캘린더: `/ja` (홈이 곧 캘린더). 아티스트 목록: `/ja/artist`. 가이드: `/ja/guide`.
