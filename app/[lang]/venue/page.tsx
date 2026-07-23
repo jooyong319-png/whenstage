@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { getAllVenues } from '@/lib/venues';
 import { UI, LOCALES, type Locale } from '@/lib/i18nLabels';
 import { PageShell } from '@/components/PageShell';
+import { RevealGroup, RevealItem } from '@/components/motion/Reveal';
 import styles from '@/app/blog/blog.module.css';
 
 interface Props { params: { lang: string }; }
@@ -41,20 +42,20 @@ export default async function VenueListPage({ params }: Props) {
         {venues.length === 0 ? (
           <p className={styles.empty}>{ui.artistNoEvents}</p>
         ) : (
-          <ul className={styles.postList}>
+          <RevealGroup as="ul" className={styles.postList}>
             {venues.map(v => {
               const eventsLabel = `${v.events.length}${lang === 'ko' ? '개 일정' : lang === 'ja' ? '件' : ' events'}`;
               const upcomingLabel = v.upcomingCount > 0 ? ` · ${v.upcomingCount}${ui.artistUpcomingCount}` : '';
               return (
-                <li key={v.slug} className={styles.postCard}>
+                <RevealItem key={v.slug} as="li" className={styles.postCard}>
                   <a href={`/${lang}/venue/${encodeURIComponent(v.slug)}`} className={styles.postLink}>
                     <div className={styles.postTitle}>{v.name}</div>
                     <p className={styles.postDesc}>{eventsLabel}{upcomingLabel}</p>
                   </a>
-                </li>
+                </RevealItem>
               );
             })}
-          </ul>
+          </RevealGroup>
         )}
       </section>
     </PageShell>

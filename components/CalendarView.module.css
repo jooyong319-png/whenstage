@@ -42,16 +42,16 @@
 }
 .navBtn:hover { border-color: var(--accent); }
 .todayBtn {
-  background: rgba(255,61,120,0.12);
-  border: 1px solid rgba(255,61,120,0.4);
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
   color: var(--text);
   padding: 0.4rem 0.9rem;
-  border-radius: 999px;
+  border-radius: var(--radius-sm);
   font-size: 0.85rem;
   font-weight: 700;
   cursor: pointer;
 }
-.todayBtn:hover { background: rgba(255,61,120,0.22); color: var(--text); }
+.todayBtn:hover { background: color-mix(in srgb, var(--accent) 22%, transparent); color: var(--text); }
 
 /* ─── 주말 색 구분 (한국 달력 관습) ─── */
 .sun { color: #e57373; }
@@ -116,7 +116,7 @@
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  background: var(--accent-grad);
+  background: var(--accent);
   box-shadow: var(--shadow-glow);
 }
 .cellDateNum,
@@ -135,7 +135,7 @@
   background: var(--text);
   color: var(--bg-elev);
 }
-.cellDateNumOnRing { color: #fff; }
+.cellDateNumOnRing { color: var(--accent-contrast); }
 
 .cellDots {
   display: flex;

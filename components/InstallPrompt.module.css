@@ -30,8 +30,8 @@
   width: 40px;
   height: 40px;
   border-radius: 11px;
-  background: var(--accent-grad);
-  color: #fff;
+  background: var(--accent);
+  color: var(--accent-contrast);
   font-size: 1.3rem;
 }
 .text { display: flex; flex-direction: column; gap: 0.1rem; min-width: 0; flex: 1; }
@@ -45,17 +45,17 @@
   justify-content: center;
   border: none;
   background: var(--accent);
-  color: #fff;
+  color: var(--accent-contrast);
   font-weight: 700;
   font-size: 0.88rem;
   padding: 0.5rem 1.1rem;
-  border-radius: 999px;
+  border-radius: var(--radius-sm);
   cursor: pointer;
   white-space: nowrap;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
-.cta:hover { color: #fff; text-decoration: none; }
+.cta:hover { color: var(--accent-contrast); text-decoration: none; }
 .cta:active { transform: scale(0.95); }
 .close {
   flex: 0 0 auto;

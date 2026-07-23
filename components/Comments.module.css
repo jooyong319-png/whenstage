@@ -50,7 +50,7 @@
 .contentInput:focus {
   outline: none;
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.12);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 12%, transparent);
 }
 .formRow {
   display: flex;
@@ -66,10 +66,10 @@
 .submitBtn {
   margin-left: auto;
   background: var(--accent);
-  color: #fff;
+  color: var(--accent-contrast);
   border: none;
   padding: 0.5rem 1.1rem;
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   font-size: 0.88rem;
   font-weight: 600;
   cursor: pointer;
@@ -88,7 +88,7 @@
 .empty {
   background: var(--bg-elev);
   border: 1px dashed var(--border);
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
   color: var(--text-faint);
   font-size: 0.88rem;
   text-align: center;
@@ -99,7 +99,7 @@
   padding: 0.7rem 0.9rem;
   background: var(--bg-elev);
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
 }
 .itemHeader {
   display: flex;

@@ -17,6 +17,7 @@
 - [decisions.md](decisions.md) — 왜 이렇게 만들었는지(결정 기록, 시간순 추가)
 - [architecture.md](architecture.md) — 아키텍처 현황과 지난 결정들
 - [todo.md](todo.md) — 남은 작업 목록
+- [design-audit.md](design-audit.md) — 2차 리디자인 착수 전 디자인 시스템·컴포넌트·페이지 현황 감사(2026-07-23)
 
 ## 이 위키를 읽어야 하는 프롬프트
 `prompts/PRODUCT_PLANNER.md`, `prompts/PRODUCT_DEVELOPER.md`(기획/개발 자동화)는 실행 시작 시 **반드시**

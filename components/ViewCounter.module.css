@@ -2,10 +2,10 @@
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: color-mix(in srgb, var(--text) 4%, transparent);
+  border: 1px solid color-mix(in srgb, var(--text) 8%, transparent);
   padding: 0.35rem 0.75rem;
-  border-radius: 999px;
+  border-radius: var(--radius-xs);
   font-size: 0.85rem;
   color: var(--text-faint);
   margin-top: 0.5rem;

@@ -57,7 +57,7 @@ export default async function LocaleHomePage({ params }: Props) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
-      <Home initialGames={games} lastUpdated={lastUpdated} serverNow={serverNow} initialCalEvents={[]} />
+      <Home initialGames={games} lastUpdated={lastUpdated} serverNow={serverNow} />
     </>
   );
 }

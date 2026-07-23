@@ -18,7 +18,7 @@
   position: relative;
   width: 54px;
   height: 54px;
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
   overflow: hidden;
   background: var(--bg);
   align-self: center;
@@ -90,7 +90,7 @@
 .title {
   flex: 1 1 auto;
   min-width: 3.5em;
-  font-size: 0.96rem;
+  font-size: var(--fs-base);
   font-weight: 600;
   color: var(--text);
   white-space: nowrap;
@@ -125,7 +125,7 @@
   background: var(--bg);
   border: 1px solid var(--border);
   padding: 0.08rem 0.45rem;
-  border-radius: 999px;
+  border-radius: var(--radius-xs);
   white-space: nowrap;
 }
 

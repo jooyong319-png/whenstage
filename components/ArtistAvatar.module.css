@@ -2,7 +2,7 @@
   width: 96px;
   height: 96px;
   flex-shrink: 0;
-  border-radius: 20px;
+  border-radius: var(--radius-lg);
   overflow: hidden;
   border: 1px solid var(--border);
   background: var(--bg-sunken);
@@ -25,6 +25,6 @@
   font-size: 2rem;
 }
 @media (max-width: 600px) {
-  .avatar { width: 72px; height: 72px; border-radius: 16px; }
+  .avatar { width: 72px; height: 72px; border-radius: var(--radius-lg); }
   .placeholder { font-size: 1.5rem; }
 }

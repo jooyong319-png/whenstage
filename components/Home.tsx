@@ -1,15 +1,8 @@
 'use client';
 import { useState, useMemo, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import type { Game, FilterState, CalEvent } from '@/lib/types';
-import { EVENT_TYPE_META } from '@/lib/types';
+import type { Game, FilterState } from '@/lib/types';
 import { formatShortDate, kstDateOnly } from '@/lib/utils';
-// ── 사이드바 재작업 예정: 아래 import는 임시 주석(재사용 가능) ──
-// import { NextByCategory } from './NextByCategory';
-// import { PromoBanner } from './PromoBanner';
-// import { PopularGames } from './PopularGames';
-// import { CalendarSubscribe } from './CalendarSubscribe';
-// import { AdFit } from './AdFit';
 import { CalendarView } from './CalendarView';
 import { ListView } from './ListView';
 import { GameModal } from './GameModal';
@@ -23,10 +16,9 @@ interface HomeProps {
   initialGames: Game[];
   lastUpdated: string;
   serverNow: string;
-  initialCalEvents?: CalEvent[];
 }
 
-export function Home({ initialGames, lastUpdated, serverNow, initialCalEvents = [] }: HomeProps) {
+export function Home({ initialGames, lastUpdated, serverNow }: HomeProps) {
   const lang = useLocale();
   const t = CAL[lang];
   const [filters, setFilters] = useState<FilterState>({
@@ -47,16 +39,6 @@ export function Home({ initialGames, lastUpdated, serverNow, initialCalEvents = 
   // mount 후 실제 현재 시각으로 교체 → D-day·오늘 셀이 클라에서 정확.
   const [now, setNow] = useState<Date>(() => kstDateOnly(serverNow));
   const [openGameId, setOpenGameId] = useState<string | null>(null);
-
-  const calEvents = initialCalEvents;
-
-  // 필터가 이벤트 타입이면 그 타입만, 게임 카테고리면 이벤트 숨김, 없으면 전부
-  const displayEvents = useMemo(() => {
-    const f = filters.category;
-    if (!f) return calEvents;
-    if (f in EVENT_TYPE_META) return calEvents.filter(e => e.type === f);
-    return [];
-  }, [calEvents, filters.category]);
 
   const wishlist = useWishlist();
   const wishFilter = useWishlistFilter(); // 위시만 보기 토글 — 본문 상단행 ★(§F)
@@ -163,8 +145,18 @@ export function Home({ initialGames, lastUpdated, serverNow, initialCalEvents = 
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: 'easeOut' }}
       >
-        <span className={styles.heroBlob1} aria-hidden="true" />
-        <span className={styles.heroBlob2} aria-hidden="true" />
+        <motion.span
+          className={styles.heroBlob1}
+          aria-hidden="true"
+          animate={{ x: [0, 18, -6, 0], y: [0, -14, 10, 0], scale: [1, 1.06, 0.98, 1] }}
+          transition={{ duration: 14, repeat: Infinity, ease: 'easeInOut' }}
+        />
+        <motion.span
+          className={styles.heroBlob2}
+          aria-hidden="true"
+          animate={{ x: [0, -16, 8, 0], y: [0, 12, -10, 0], scale: [1, 0.95, 1.05, 1] }}
+          transition={{ duration: 17, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
+        />
         <h1 className={styles.heroTitle}>{ui.heroTitle}</h1>
         <p className={styles.heroSubtitle}>{ui.heroSubtitle}</p>
       </motion.section>
@@ -205,7 +197,6 @@ export function Home({ initialGames, lastUpdated, serverNow, initialCalEvents = 
       {showList ? (
         <ListView
           games={listGames}
-          events={displayEvents}
           wishlist={wishlist}
           onPick={openModal}
           now={now}
@@ -217,7 +208,6 @@ export function Home({ initialGames, lastUpdated, serverNow, initialCalEvents = 
           cursor={calendarCursor}
           onCursorChange={setCalendarCursor}
           games={filteredGames}
-          events={displayEvents}
           wishlist={wishlist}
           onPick={openModal}
           now={now}
@@ -231,16 +221,6 @@ export function Home({ initialGames, lastUpdated, serverNow, initialCalEvents = 
             {t.lastUpdated}: {formatShortDate(lastUpdated.slice(0, 10))}
           </p>
         </div>
-
-        {/* ── 오른쪽 사이드바: 재작업 예정, 임시 비활성 (재사용 가능) ──
-        <aside className={styles.rightCol} aria-label="추천 일정">
-          <NextByCategory games={initialGames} now={now} />
-          <AdFit unit="DAN-OszywWckdPV6qhbX" width={300} height={250} />
-          <PopularGames meta={Object.fromEntries(initialGames.map(g => [g.id, { name: g.name, category: g.category }]))} />
-          <CalendarSubscribe />
-          <PromoBanner variant="update" />
-        </aside>
-        ──────────────────────────────────────────────────────── */}
       </div>
 
       <AnimatePresence>

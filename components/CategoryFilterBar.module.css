@@ -12,7 +12,7 @@
   gap: 0.4rem;
   background: var(--bg-elev);
   border: 1px solid var(--border);
-  border-radius: 999px;
+  border-radius: var(--radius-sm);
   cursor: pointer;
   padding: 0.45rem 0.9rem;
   color: var(--text-faint);
@@ -29,14 +29,14 @@
   position: absolute;
   inset: 0;
   z-index: 0;
-  border-radius: 999px;
+  border-radius: var(--radius-sm);
   background: var(--cat, var(--accent));
 }
 .active {
   border-color: var(--cat, var(--accent));
-  color: #fff;
+  color: var(--cat-contrast, var(--accent-contrast));
 }
-.active:hover { color: #fff; }
+.active:hover { color: var(--cat-contrast, var(--accent-contrast)); }
 
 /* 모바일: 줄바꿈 대신 가로 스크롤(깨짐 방지) */
 @media (max-width: 760px) {

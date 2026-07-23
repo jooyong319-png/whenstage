@@ -3,10 +3,7 @@ import './globals.css';
 import { HeaderNav } from '@/components/HeaderNav';
 import { SiteWordmark } from '@/components/SiteWordmark';
 import { SiteFooter } from '@/components/SiteFooter';
-// 왼쪽 플로팅 위젯(N월 출시/사전예약): 재작업 예정, 임시 주석 (재사용 가능)
-// import { FloatingMonthStats } from '@/components/FloatingMonthStats';
 import { BottomTabBar } from '@/components/BottomTabBar';
-// import { SideRailAds } from '@/components/SideRailAds'; // 카카오 애드핏 — 콘텐츠 우선 정책으로 비활성(수익 낮음)
 import { HeaderScroll } from '@/components/HeaderScroll';
 import { Toaster } from '@/components/Toaster';
 import { PushSync } from '@/components/PushSync';
@@ -44,7 +41,10 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: '#ff3d78',
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#fafafa' },
+    { media: '(prefers-color-scheme: dark)', color: '#0b1220' },
+  ],
   viewportFit: 'cover', // 설치 앱(노치/홈바)에서 safe-area-inset 사용 위해
 };
 
@@ -63,12 +63,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         <svg width="0" height="0" style={{ position: 'absolute' }} aria-hidden="true">
-          <symbol id="ic-gamepad" viewBox="0 0 24 24"><path d="M6 11h4M8 9v4M15 12h.01M18 10h.01M17.32 5H6.68a4 4 0 0 0-3.978 3.59C2.6 9.4 2 14.46 2 16a3 3 0 0 0 5 2l1.41-1.41A2 2 0 0 1 9.83 16h4.34a2 2 0 0 1 1.42.59L17 18a3 3 0 0 0 5-2c0-1.54-.6-6.6-.7-7.41A4 4 0 0 0 17.32 5z" /></symbol>
           <symbol id="ic-calendar" viewBox="0 0 24 24"><path d="M8 2v4M16 2v4" /><rect x="3" y="4" width="18" height="18" rx="2" /><path d="M3 10h18" /></symbol>
           <symbol id="ic-list" viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01" /></symbol>
           <symbol id="ic-menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18" /></symbol>
           <symbol id="ic-flame" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.07-2.14-.22-4.05 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.15.43-2.29 1-3a2.5 2.5 0 0 0 2.5 2.5z" /></symbol>
           <symbol id="ic-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26" /></symbol>
+          {/* 로고 마크 — "티켓 스텁 W" (2026-07-23 확정). 단색 currentColor가 아니라 테마 토큰 3개를
+              직접 참조(배경/노치/W 획) — 헤더처럼 인라인 렌더되는 곳 전용, 파비콘은 별도 SVG 파일. */}
+          <symbol id="ic-logo-ticket" viewBox="0 0 32 32">
+            <rect x="4" y="7" width="24" height="18" rx="4" fill="var(--accent)" />
+            <circle cx="4" cy="16" r="3.2" fill="var(--bg)" />
+            <circle cx="28" cy="16" r="3.2" fill="var(--bg)" />
+            <path d="M9 13 L12.5 20 L16 14 L19.5 20 L23 13" fill="none" stroke="var(--accent-contrast)" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
+          </symbol>
           <symbol id="ic-file" viewBox="0 0 24 24"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /><path d="M14 2v4a2 2 0 0 0 2 2h4M16 13H8M16 17H8M10 9H8" /></symbol>
           <symbol id="ic-image" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="9" cy="9" r="2" /><path d="M21 15l-5-5L5 21" /></symbol>
           <symbol id="ic-arrow-ur" viewBox="0 0 24 24"><path d="M7 7h10v10M7 17 17 7" /></symbol>
@@ -95,8 +102,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <HeaderNav />
         </header>
         <main id="main"><MotionProvider>{children}</MotionProvider></main>
-        {/* <FloatingMonthStats /> 재작업 예정, 임시 비활성 */}
-        {/* <SideRailAds /> — 카카오 애드핏, 콘텐츠 우선 정책으로 비활성(수익 낮음) */}
         <BottomTabBar />
         <HeaderScroll />
         <Toaster />

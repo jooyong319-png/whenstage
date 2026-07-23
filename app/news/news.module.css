@@ -10,7 +10,7 @@
   color: var(--accent);
   background: color-mix(in srgb, var(--accent) 10%, transparent);
   border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
   padding: 2px 8px;
   margin-left: 8px;
   vertical-align: middle;
@@ -21,12 +21,12 @@
   margin: 28px 0 8px;
   padding: 14px 16px;
   border: 1px solid var(--border);
-  border-radius: 10px;
-  background: var(--surface-2, color-mix(in srgb, var(--fg) 4%, transparent));
+  border-radius: var(--radius);
+  background: var(--bg-sunken);
   font-size: 0.9rem;
   line-height: 1.5;
 }
-.sourceBox strong { color: var(--fg); }
+.sourceBox strong { color: var(--text); }
 .sourceBox a {
   color: var(--accent);
   text-decoration: underline;
@@ -36,5 +36,5 @@
   display: block;
   margin-top: 6px;
   font-size: 0.78rem;
-  color: var(--muted);
+  color: var(--text-faint);
 }

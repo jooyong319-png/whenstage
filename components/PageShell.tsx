@@ -3,13 +3,6 @@ import { getAllGames } from '@/lib/games';
 import { kstDateOnly } from '@/lib/utils';
 import { FeaturedCards } from './FeaturedCards';
 import { CAL, type Locale } from '@/lib/i18nLabels';
-// ── 사이드바 재구성: 아래 위젯들은 임시 주석(재사용 가능) ──
-// import type { Category } from '@/lib/types';
-// import { NextByCategory } from './NextByCategory';
-// import { PromoBanner } from './PromoBanner';
-// import { PopularGames } from './PopularGames';
-// import { CalendarSubscribe } from './CalendarSubscribe';
-// import { AdFit } from './AdFit';
 import styles from './PageShell.module.css';
 
 interface Props {
@@ -32,13 +25,6 @@ export async function PageShell({ children, lang, sidebar }: Props) {
 
       <aside className={styles.rightCol} aria-label={lang ? CAL[lang].recommendedSchedule : '추천 일정'}>
         {defaultSidebar}
-        {/* ── 이전 위젯들: 재구성으로 임시 비활성 (재사용 가능) ──
-        <NextByCategory games={games} now={now} />
-        <AdFit unit="DAN-OszywWckdPV6qhbX" width={300} height={250} />
-        <PopularGames meta={meta} />
-        <CalendarSubscribe />
-        <PromoBanner variant="update" />
-        ──────────────────────────────────────────── */}
       </aside>
     </div>
   );

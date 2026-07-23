@@ -48,7 +48,7 @@ export function CategoryFilterBar({ category, onCategory, className }: Props) {
           key={c}
           type="button"
           className={`${styles.item} ${category === c ? styles.active : ''}`}
-          style={{ '--cat': CATEGORY_META[c].color } as CSSProperties}
+          style={{ '--cat': CATEGORY_META[c].color, '--cat-contrast': '#fff' } as CSSProperties}
           aria-pressed={category === c}
           onClick={() => onCategory(category === c ? null : c)}
           whileTap={{ scale: 0.94 }}

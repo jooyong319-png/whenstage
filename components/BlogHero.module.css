@@ -2,7 +2,7 @@
   position: relative;
   height: 320px;
   margin: 0 0 1.5rem;
-  border-radius: 12px;
+  border-radius: var(--radius-lg);
   overflow: hidden;
   border: 1px solid var(--border);
   background: var(--bg-elev);

@@ -1,13 +1,24 @@
 .grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  /* minmax(0, 1fr) 필수 — 그냥 1fr만 쓰면 트랙이 콘텐츠의 최소 크기 밑으로 못 줄어들어서
+     그리드 전체가 옆(사이드바) 쪽으로 넘치는 버그가 있었음(2026-07-23) */
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 1rem;
+  align-items: stretch;
+}
+/* 그리드 셀 래퍼(RevealItem) — flex column으로 감싸 카드가 flex:1로 셀 높이를 꽉 채우게 함.
+   (그리드 stretch만으로는 motion 래퍼를 거치며 카드 높이가 콘텐츠에 따라 제각각이 되는 문제가 있었음)
+   min-width:0도 같은 이유로 필수(안 그러면 내부 콘텐츠가 셀 폭을 밀어냄). */
+.cardWrap {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
 }
 @media (max-width: 900px) {
-  .grid { grid-template-columns: repeat(3, 1fr); }
+  .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 600px) {
-  .grid { grid-template-columns: repeat(2, 1fr); }
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 .headerRow {

@@ -53,7 +53,7 @@ export default async function ArtistListPage({ params }: Props) {
               const catColor = CATEGORY_META[repGame.category].color;
               const eventsLabel = `${a.events.length}${lang === 'ko' ? '개 일정' : lang === 'ja' ? '件' : ' events'}`;
               return (
-                <RevealItem key={a.slug}>
+                <RevealItem key={a.slug} className={styles.cardWrap}>
                   <ArtistCard
                     href={`/${lang}/artist/${encodeURIComponent(a.slug)}`}
                     name={a.name}

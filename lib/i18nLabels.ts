@@ -8,13 +8,6 @@ export const LOCALES: Locale[] = ['ko', 'en', 'ja'];
 // locale별 data/concerts.{ko,en,ja}.json을 각각 읽음) — 그래서 게임명/설명에 별도
 // 폴백 헬퍼가 필요 없음. 각 페이지가 자기 locale의 데이터를 그대로 씀.
 
-// events.json 이벤트 타입(game_show/sale/season) 라벨
-export const EVENT_TYPE_LABELS: Record<Locale, Record<'game_show' | 'sale' | 'season', string>> = {
-  ko: { game_show: '게임쇼', sale: '할인', season: '새 시즌' },
-  en: { game_show: 'Game Show', sale: 'Sale', season: 'New Season' },
-  ja: { game_show: 'ゲームショー', sale: 'セール', season: '新シーズン' },
-};
-
 export const CATEGORY_LABELS: Record<Locale, Record<Category, string>> = {
   ko: {
     concert_tour: '콘서트·내한 공연',

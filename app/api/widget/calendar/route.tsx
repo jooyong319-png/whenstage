@@ -61,12 +61,13 @@ export async function GET(req: Request) {
   for (let d = 1; d <= daysInMonth; d++) cells.push(d);
   while (cells.length % 7 !== 0) cells.push(null);
 
-  // 테마 색상
+  // 테마 색상 — app/globals.css 토큰과 동일 값(라이트=모노, 다크=레이저 워시)
   const c = theme === 'dark'
-    ? { bg: '#111827', fg: '#f3f4f6', sub: '#9ca3af', grid: '#1f2937', today: '#ff5c8f', sun: '#f87171', sat: '#60a5fa' }
-    : { bg: '#ffffff', fg: '#111827', sub: '#6b7280', grid: '#f3f4f6', today: '#ff3d78', sun: '#dc2626', sat: '#2563eb' };
-  const RELEASE = '#ff3d78';
-  const PREREG = '#ff8a00';
+    ? { bg: '#0b1220', fg: '#eaf2fb', sub: '#8fa3bf', grid: '#1e2a42', today: '#33d6ff', todayText: '#0b1220', sun: '#f87171', sat: '#60a5fa' }
+    : { bg: '#ffffff', fg: '#121212', sub: '#6e6e6e', grid: '#f3f4f6', today: '#121212', todayText: '#fafafa', sun: '#dc2626', sat: '#2563eb' };
+  // RELEASE=accent(오늘 강조와 동일 신호), PREREG=accent-warm(예매/시간 민감 정보 전용 — 앱 본체와 동일 규칙)
+  const RELEASE = c.today;
+  const PREREG = theme === 'dark' ? '#ffb545' : '#c97a08';
 
   const WD = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
   const MONTHS_EN = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
@@ -149,7 +150,7 @@ export async function GET(req: Request) {
                       height: 40,
                       borderRadius: 20,
                       fontSize: 24,
-                      color: !day ? 'transparent' : isToday ? '#ffffff' : di === 0 ? c.sun : di === 6 ? c.sat : c.fg,
+                      color: !day ? 'transparent' : isToday ? c.todayText : di === 0 ? c.sun : di === 6 ? c.sat : c.fg,
                       backgroundColor: isToday ? c.today : 'transparent',
                       fontWeight: isToday ? 700 : 400,
                     }}

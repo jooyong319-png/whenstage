@@ -17,6 +17,7 @@ interface CardData {
   imageUrl: string | null;
   badge: string;
   badgeColor: string;
+  badgeTextColor: string;
   name: string;
   dateText: string;
   countdownLabel: string;
@@ -60,6 +61,7 @@ function gameToCard(game: Game, isPreReg: boolean, lang: Locale | null): CardDat
     imageUrl: game.image_url,
     badge: isPreReg ? ticketBadge : cat.short,
     badgeColor: isPreReg ? 'var(--accent-warm)' : cat.color,
+    badgeTextColor: isPreReg ? 'var(--on-warm)' : '#fff',
     name: game.name,
     dateText: game.release_date_approx ? tba : shortDate(game.release_date),
     countdownLabel: lang === 'ko' ? '출시까지 남은 시간' : lang === 'en' ? 'Time until release' : '発売までの時間',
@@ -120,7 +122,7 @@ function FeaturedCard({ data }: { data: CardData }) {
           )}
         </div>
         <div className={styles.info}>
-          <span className={styles.badge} style={{ background: data.badgeColor }}>{data.badge}</span>
+          <span className={styles.badge} style={{ background: data.badgeColor, color: data.badgeTextColor }}>{data.badge}</span>
           <span className={styles.name}>{data.name}</span>
           <span className={styles.date}>{data.dateText}</span>
         </div>

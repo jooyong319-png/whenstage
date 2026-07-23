@@ -1,12 +1,11 @@
 'use client';
 import { useMemo, useState, useEffect, useRef, type CSSProperties } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import type { Game, CalEvent, FilterKey } from '@/lib/types';
+import type { Game, FilterKey } from '@/lib/types';
 import { CATEGORY_META } from '@/lib/types';
 import type { Category } from '@/lib/types';
 import { CategoryFilterBar } from './CategoryFilterBar';
 import { ScheduleCard, type ScheduleKind } from './ScheduleCard';
-import { EventRow } from './EventRow';
 import { useLocale } from '@/hooks/useLocale';
 import { CAL, CATEGORY_LABELS } from '@/lib/i18nLabels';
 import styles from './CalendarView.module.css';
@@ -15,7 +14,6 @@ interface Props {
   cursor: Date;
   onCursorChange: (d: Date) => void;
   games: Game[];
-  events?: CalEvent[];
   wishlist: { has: (id: string) => boolean; toggle: (id: string) => void };
   onPick: (id: string) => void;
   now: Date;
@@ -80,17 +78,9 @@ function buildCells(cursor: Date, games: Game[], now: Date): Cell[] {
   return cells;
 }
 
-export function CalendarView({ cursor, onCursorChange, games, events = [], wishlist: _wishlist, onPick, now, category, onCategory }: Props) {
+export function CalendarView({ cursor, onCursorChange, games, wishlist: _wishlist, onPick, now, category, onCategory }: Props) {
   const lang = useLocale();
   const t = CAL[lang];
-  const eventsByDate = useMemo(() => {
-    const m = new Map<string, CalEvent[]>();
-    for (const e of events) {
-      if (!m.has(e.date)) m.set(e.date, []);
-      m.get(e.date)!.push(e);
-    }
-    return m;
-  }, [events]);
   const cells = useMemo(() => buildCells(cursor, games, now), [cursor, games, now]);
   const monthLabel = new Intl.DateTimeFormat(
     lang === 'en' ? 'en-US' : lang === 'ja' ? 'ja-JP' : 'ko-KR',
@@ -225,7 +215,7 @@ export function CalendarView({ cursor, onCursorChange, games, events = [], wishl
                       onCellClick(cell);
                     }
                   }}
-                  title={has ? cell.entries.map(e => e.game.name).join(', ') : undefined}
+                  title={has ? cell.entries.map(e => `${e.game.name} (${CATEGORY_META[e.game.category].short})`).join(', ') : undefined}
                 >
                   <div className={`${styles.cellDate} ${cell.date.getDay() === 0 ? styles.sun : cell.date.getDay() === 6 ? styles.sat : ''}`.trim()}>
                     {isSelected && (
@@ -248,6 +238,7 @@ export function CalendarView({ cursor, onCursorChange, games, events = [], wishl
                         <span
                           key={`${e.game.id}-${e.kind}-${idx}`}
                           className={styles.cellDot}
+                          aria-hidden="true"
                           style={{ background: CATEGORY_META[e.game.category].color, opacity: e.kind.endsWith('_end') ? 0.45 : 1 }}
                         />
                       ))}
@@ -280,7 +271,7 @@ export function CalendarView({ cursor, onCursorChange, games, events = [], wishl
         <aside className={styles.sidePanel}>
           <h3 className={styles.sidePanelTitle}>{panelTitle}</h3>
           <AnimatePresence mode="wait">
-            {panelEntries.length === 0 && (eventsByDate.get(selectedISO) ?? []).length === 0 ? (
+            {panelEntries.length === 0 ? (
               <motion.div
                 key={`empty-${selectedISO}`}
                 className={styles.dayEmptyWrap}
@@ -310,9 +301,6 @@ export function CalendarView({ cursor, onCursorChange, games, events = [], wishl
                 exit={{ opacity: 0, x: -14 }}
                 transition={{ duration: 0.22, ease: 'easeOut' }}
               >
-                {(eventsByDate.get(selectedISO) ?? []).map((ev, idx) => (
-                  <EventRow key={`ev-${idx}`} event={ev} />
-                ))}
                 {panelEntries.map(({ game: g, kind }) => (
                   <ScheduleCard key={`${g.id}-${kind}`} game={g} kind={kind} onPick={onPick} />
                 ))}

@@ -16,7 +16,7 @@
   width: 38px;
   height: 38px;
   border-radius: 10px;
-  background: rgba(255, 61, 120, 0.12);
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
   color: var(--accent);
   font-size: 1.2rem;
 }
@@ -30,7 +30,7 @@
   position: relative;
   width: 46px;
   height: 28px;
-  border-radius: 999px;
+  border-radius: var(--radius-lg);
   border: none;
   background: var(--border);
   cursor: pointer;

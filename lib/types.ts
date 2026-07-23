@@ -68,26 +68,9 @@ export interface GamesData {
   games: Game[];
 }
 
-export type EventType = 'game_show' | 'sale' | 'season';
-
-export const EVENT_TYPE_META: Record<EventType, { label: string; color: string; icon: string }> = {
-  game_show: { label: '게임쇼',   color: '#9a7bb0', icon: 'ic-star' },
-  sale:      { label: '할인',     color: '#c47a00', icon: 'ic-tag' },
-  season:    { label: '새 시즌',  color: '#5f86b8', icon: 'ic-refresh' },
-};
-
-// 캘린더/리스트에 얹는 이벤트 마커 — 클라이언트 공유용 (현재 데이터 소스 없음, 추후 필요 시 사용)
-export interface CalEvent {
-  date: string;   // 'YYYY-MM-DD'
-  label: string;
-  color: string;
-  type: EventType;
-  url?: string | null;
-  image?: string | null;
-}
-
-// 필터 단일 키 — 카테고리 또는 이벤트 타입
-export type FilterKey = Category | EventType;
+// 필터 단일 키 — 카테고리 4종(과거엔 게임쇼/할인/시즌 이벤트 타입도 포함했으나,
+// 콘서트 도메인엔 대응 개념이 없어 제거됨 — wiki/decisions.md 참고)
+export type FilterKey = Category;
 
 export interface FilterState {
   category: FilterKey | null;
@@ -104,8 +87,8 @@ export const CATEGORY_META: Record<Category, {
   icon: string;
   color: string;
 }> = {
-  concert_tour:  { label: '콘서트·내한 공연', short: '콘서트',  icon: 'ic-star',    color: '#2f6fed' },
-  music_release: { label: '음원 발매(컴백)',   short: '음원발매', icon: 'ic-flame',   color: '#06b6d4' },
-  festival:      { label: '페스티벌',         short: '페스티벌', icon: 'ic-globe',   color: '#16a34a' },
-  fanmeeting:    { label: '팬미팅',           short: '팬미팅',  icon: 'ic-comment', color: '#f59e0b' },
+  concert_tour:  { label: '콘서트·내한 공연', short: '콘서트',  icon: 'ic-star',    color: '#4a5fe0' },
+  music_release: { label: '음원 발매(컴백)',   short: '음원발매', icon: 'ic-flame',   color: '#0e9d94' },
+  festival:      { label: '페스티벌',         short: '페스티벌', icon: 'ic-globe',   color: '#1f9d52' },
+  fanmeeting:    { label: '팬미팅',           short: '팬미팅',  icon: 'ic-comment', color: '#df3d78' },
 };

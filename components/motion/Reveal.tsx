@@ -11,15 +11,17 @@ const itemVariants: Variants = {
   show: { opacity: 1, y: 0, transition: { type: 'spring', stiffness: 320, damping: 28 } },
 };
 
-interface GroupProps { children: ReactNode; className?: string; }
+interface GroupProps { children: ReactNode; className?: string; as?: 'div' | 'ul'; }
 
 // 그리드/리스트 컨테이너 — 자식(RevealItem)들을 스크롤 진입 시 순차적으로(stagger) 등장시킨다.
 // prefers-reduced-motion이면 애니메이션 없이 그냥 렌더(레이아웃은 동일하게 유지).
-export function RevealGroup({ children, className }: GroupProps) {
+// as="ul"이면 <ul>/<li>(RevealItem as="li")로 렌더 — 시맨틱 리스트를 쓰는 목록 페이지용.
+export function RevealGroup({ children, className, as = 'div' }: GroupProps) {
   const reduce = useReducedMotion();
-  if (reduce) return <div className={className}>{children}</div>;
+  if (reduce) { const Plain = as; return <Plain className={className}>{children}</Plain>; }
+  const Tag = as === 'ul' ? motion.ul : motion.div;
   return (
-    <motion.div
+    <Tag
       className={className}
       variants={containerVariants}
       initial="hidden"
@@ -27,19 +29,20 @@ export function RevealGroup({ children, className }: GroupProps) {
       viewport={{ once: true, margin: '-60px' }}
     >
       {children}
-    </motion.div>
+    </Tag>
   );
 }
 
-interface ItemProps { children: ReactNode; className?: string; }
+interface ItemProps { children: ReactNode; className?: string; as?: 'div' | 'li'; }
 
 // RevealGroup의 자식 — fade+slide-up으로 개별 등장(부모의 staggerChildren이 순서를 조율).
-export function RevealItem({ children, className }: ItemProps) {
+export function RevealItem({ children, className, as = 'div' }: ItemProps) {
   const reduce = useReducedMotion();
-  if (reduce) return <div className={className}>{children}</div>;
+  if (reduce) { const Plain = as; return <Plain className={className}>{children}</Plain>; }
+  const Tag = as === 'li' ? motion.li : motion.div;
   return (
-    <motion.div className={className} variants={itemVariants}>
+    <Tag className={className} variants={itemVariants}>
       {children}
-    </motion.div>
+    </Tag>
   );
 }

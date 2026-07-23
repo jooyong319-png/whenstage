@@ -107,11 +107,11 @@ export default async function GlossaryPage({ params }: Props) {
       <article className="legal">
         <a href={`/${lang}/guide`} className="detail-link">{BACK_LABEL[lang]}</a>
         <h1>{META[lang].title as string}</h1>
-        <dl>
+        <dl className="glossary-list">
           {terms.map(t => (
-            <div key={t.term} style={{ marginBottom: '1.1rem' }}>
-              <dt style={{ fontWeight: 700, marginBottom: '0.25rem' }}>{t.term}</dt>
-              <dd style={{ margin: 0, color: 'var(--text-faint)' }}>{t.def}</dd>
+            <div key={t.term} className="glossary-item">
+              <dt>{t.term}</dt>
+              <dd>{t.def}</dd>
             </div>
           ))}
         </dl>

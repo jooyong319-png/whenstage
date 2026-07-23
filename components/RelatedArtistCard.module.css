@@ -2,16 +2,16 @@
   display: flex;
   gap: 0.6rem;
   align-items: center;
-  border: 1px solid var(--accent);
+  border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   box-shadow: var(--shadow-sm);
   padding: 0.5rem 0.6rem;
   background: var(--bg-elev);
   color: var(--text);
   text-decoration: none;
-  transition: border-color 0.15s, transform 0.15s;
+  transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
 }
-.card:hover { border-color: var(--accent-2); transform: translateY(-1px); text-decoration: none; }
+.card:hover { border-color: var(--accent); box-shadow: var(--shadow-glow); transform: translateY(-1px); text-decoration: none; }
 
 .avatar {
   flex: 0 0 auto;

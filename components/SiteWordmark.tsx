@@ -19,7 +19,7 @@ export function SiteWordmark() {
   return (
     <p className="site-wordmark">
       <a href={home}>
-        <svg className="ic ic-gamepad" aria-hidden="true"><use href="#ic-star" /></svg> {label}
+        <svg className="ic" aria-hidden="true"><use href="#ic-logo-ticket" /></svg> {label}
       </a>
     </p>
   );

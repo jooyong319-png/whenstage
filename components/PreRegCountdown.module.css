@@ -47,7 +47,7 @@
   padding: 0.45rem 0.3rem;
   background: var(--bg-elev);
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
 }
 .num {
   font-size: 1.45rem;

@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { getAllNews, formatPostDate } from '@/lib/news';
 import { PageShell } from '@/components/PageShell';
 import { BlogImg } from '@/components/BlogImg';
+import { RevealGroup, RevealItem } from '@/components/motion/Reveal';
 import { LOCALES, type Locale } from '@/lib/i18nLabels';
 import styles from '@/app/blog/blog.module.css';
 import n from '@/app/news/news.module.css';
@@ -61,9 +62,9 @@ export default async function Page({ params }: Props) {
         {items.length === 0 ? (
           <p className={styles.empty}>{EMPTY[lang]}</p>
         ) : (
-          <ul className={styles.postList}>
+          <RevealGroup as="ul" className={styles.postList}>
             {items.map(it => (
-              <li key={it.slug} className={it.heroImage ? `${styles.postCard} ${styles.postCardThumb}` : styles.postCard}>
+              <RevealItem key={it.slug} as="li" className={it.heroImage ? `${styles.postCard} ${styles.postCardThumb}` : styles.postCard}>
                 <a href={`/${lang}/news/${it.slug}`} className={styles.postLink}>
                   {it.heroImage && <BlogImg src={it.heroImage} containerClassName={styles.thumb} />}
                   <div className={styles.postCardBody}>
@@ -75,9 +76,9 @@ export default async function Page({ params }: Props) {
                     {it.description && <p className={styles.postDesc}>{it.description}</p>}
                   </div>
                 </a>
-              </li>
+              </RevealItem>
             ))}
-          </ul>
+          </RevealGroup>
         )}
       </section>
     </PageShell>
