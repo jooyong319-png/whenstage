@@ -103,6 +103,30 @@
         "agency": "Third Man Records",
         "members": "솔로",
         "debut": "1997 (더 화이트 스트라입스)"
+      },
+      "바운디": {
+        "text": "바운디(Vaundy)는 2000년생 일본의 싱어송라이터로, 도쿄를 기반으로 활동한다. 2019년 유튜브에 직접 만든 곡들을 올리며 이름을 알렸고, 작사·작곡·편곡은 물론 아트워크와 영상 연출까지 스스로 관여하는 멀티 아티스트로 평가받는다. '괴수의 꽃노래', '춤추는 사람' 등으로 폭넓은 인기를 얻으며 일본 신세대를 대표하는 아티스트로 자리 잡았다.",
+        "agency": "SDR (스타더스트 프로모션 계열)",
+        "members": "솔로",
+        "debut": "2019년"
+      },
+      "성시경": {
+        "text": "성시경은 대한민국의 발라드 가수이자 싱어송라이터로, 2000년에 데뷔했다. 부드러운 미성과 정교한 감정 표현으로 '너의 모든 순간', '거리에서' 등 다수의 발라드 히트곡을 남겼다. 현재 젤리피쉬엔터테인먼트 소속으로, 음악 외에도 방송·유튜브 등 폭넓은 활동을 이어가고 있다.",
+        "agency": "젤리피쉬엔터테인먼트",
+        "members": "솔로",
+        "debut": "2000년"
+      },
+      "임영웅": {
+        "text": "임영웅은 대한민국의 트로트 가수로, 2016년에 데뷔했다. 2020년 TV조선 '내일은 미스터트롯'에서 압도적인 득표로 최종 1위(진)를 차지하며 전국적인 인기를 얻었다. 2022년 첫 정규앨범 'IM HERO'가 발매 첫 주 100만 장을 넘기는 등 솔로 가수로서 굵직한 기록을 세웠다.",
+        "agency": "물고기뮤직",
+        "members": "솔로",
+        "debut": "2016년"
+      },
+      "전유진": {
+        "text": "전유진은 2006년 경상북도 포항에서 태어난 대한민국의 트로트 가수다. 어린 시절 지역 가요제에서 두각을 나타낸 뒤 2020년 디지털 싱글로 정식 데뷔했으며, 여러 트로트 경연 프로그램을 통해 폭넓은 팬층을 확보했다. 안정적인 가창력과 폭넓은 음역대로 트로트뿐 아니라 다양한 장르를 소화한다.",
+        "agency": "온리유엔터테인먼트",
+        "members": "솔로",
+        "debut": "2020년"
       }
     },
     "en": {
@@ -177,6 +201,36 @@
         "agency": null,
         "members": null,
         "debut": "2004"
+      },
+      "Jon Pardi": {
+        "text": "Jon Pardi is an American country singer-songwriter known for a neotraditional, honky-tonk sound rooted in fiddle and steel guitar. Signed to Capitol Records Nashville, he released his debut album \"Write You a Song\" in 2014 and broke through with chart-topping hits such as \"Head Over Boots\" and \"Dirt on My Boots.\" He has since become one of the leading voices championing traditional country within the mainstream.",
+        "agency": "Capitol Records Nashville",
+        "members": "Solo",
+        "debut": "2014"
+      },
+      "Lucinda Williams": {
+        "text": "Lucinda Williams is an American singer-songwriter whose work blends rock, folk, blues and country into a distinctive Americana sound. She released her debut album \"Ramblin' on My Mind\" in 1979 and earned wide acclaim for the 1998 album \"Car Wheels on a Gravel Road.\" A multiple Grammy winner, she is regarded as one of the most respected songwriters of her generation.",
+        "agency": null,
+        "members": "Solo",
+        "debut": "1979"
+      },
+      "Michelle Branch": {
+        "text": "Michelle Branch is an American singer-songwriter who emerged in the early 2000s with a guitar-driven pop-rock sound. Her debut studio album \"The Spirit Room\" (2001, Maverick Records) produced the hits \"Everywhere,\" \"All You Wanted\" and \"Goodbye to You.\" She later explored country and roots music, including work as one half of the duo The Wreckers.",
+        "agency": "Maverick Records",
+        "members": "Solo",
+        "debut": "2001"
+      },
+      "Rebecca Black": {
+        "text": "Rebecca Black is an American singer who first gained attention in 2011 with the viral single \"Friday,\" recorded when she was thirteen. Rather than fading as a one-hit novelty, she reinvented herself over the following decade as an independent pop and hyperpop artist. Her later releases have drawn critical praise for their bold, experimental production.",
+        "agency": null,
+        "members": "Solo",
+        "debut": "2011"
+      },
+      "Silvana Estrada": {
+        "text": "Silvana Estrada is a Mexican singer-songwriter and multi-instrumentalist from Veracruz whose music weaves the son jarocho traditions of her home region with jazz sensibilities. In 2020 she became the first Latin American artist signed to Glassnote Records, and her debut album \"Marchita\" arrived in 2022 to international acclaim. Her intimate songwriting and expressive voice have marked her as a distinctive new voice in Latin American music.",
+        "agency": "Glassnote Records",
+        "members": "Solo",
+        "debut": "2022"
       }
     },
     "ja": {
@@ -287,6 +341,18 @@
         "agency": null,
         "members": "3人組",
         "debut": "2001"
+      },
+      "Number_i": {
+        "text": "Number_i(ナンバーアイ)は、元King & Princeの平野紫耀・神宮寺勇太・岸優太の3人からなる男性グループである。滝沢秀明が設立した事務所TOBEに所属し、2023年に結成を発表、2024年1月にデジタルシングル「GOAT」でデビューした。高いパフォーマンス力とグローバルを見据えた活動で注目を集めている。",
+        "agency": "TOBE",
+        "members": "3人組",
+        "debut": "2024年1月"
+      },
+      "桑田佳祐": {
+        "text": "桑田佳祐は神奈川県出身のシンガーソングライターで、サザンオールスターズのボーカル・ギターとして知られる。1978年にサザンオールスターズ「勝手にシンドバッド」でデビューし、1987年にはソロとしても活動を開始した。「白い恋人達」「波乗りジョニー」など数々のヒット曲を生み出し、日本のポピュラー音楽を代表する存在である。",
+        "agency": "アミューズ",
+        "members": "ソロ",
+        "debut": "1987年(ソロ)"
       }
     }
   }
