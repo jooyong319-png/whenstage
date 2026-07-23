@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import { motion } from 'motion/react';
 import type { Game } from '@/lib/types';
-import { CATEGORY_META } from '@/lib/types';
+import { CATEGORY_META, effectivePresaleEnd } from '@/lib/types';
 import { formatShortDate, formatEventDateTime } from '@/lib/utils';
 import { useLocale } from '@/hooks/useLocale';
 import { CAL, CATEGORY_LABELS } from '@/lib/i18nLabels';
@@ -55,7 +55,7 @@ export function ScheduleCard({ game, kind, onPick }: Props) {
   const ctaUrl = kind === 'presale' ? game.presale_url : kind === 'general_sale' ? game.general_sale_url : null;
   const ctaLabel = kind === 'presale' ? t.goToPresale : kind === 'general_sale' ? t.goToGeneralSale : null;
   const ctaClosedLabel = kind === 'presale' ? t.presaleClosedLabel : kind === 'general_sale' ? t.generalSaleClosedLabel : null;
-  const ctaEndDateTime = kind === 'presale' ? game.presale_end_datetime : kind === 'general_sale' ? game.general_sale_end_datetime : null;
+  const ctaEndDateTime = kind === 'presale' ? effectivePresaleEnd(game) : kind === 'general_sale' ? game.general_sale_end_datetime : null;
   const ctaEnded = useSaleWindowEnded(ctaEndDateTime);
 
   return (

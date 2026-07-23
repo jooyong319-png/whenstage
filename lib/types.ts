@@ -77,6 +77,16 @@ export function hasSaleWindowEnded(endIso: string | null | undefined, now: Date)
   return !Number.isNaN(end) && now.getTime() >= end;
 }
 
+// 선예매 마감 판정 전용 — presale_end_datetime이 없는 실전 데이터가 많은데(마감일을
+// 공지 안 하는 경우), 그렇다고 영원히 "선예매 중"으로 남으면 안 된다. 일반예매가 이미
+// 시작됐으면 선예매는 사실상 종료된 것으로 본다(실제 티켓팅 관행상 일반예매 오픈 = 선예매
+// 종료) — 명시된 마감일이 있으면 그게 우선, 없을 때만 이 추론을 폴백으로 쓴다.
+export function effectivePresaleEnd(
+  g: Pick<Game, 'presale_end_datetime' | 'general_sale_datetime'>,
+): string | null | undefined {
+  return g.presale_end_datetime ?? g.general_sale_datetime;
+}
+
 // 지금 이 순간이 실제로 예매 판매 구간(선예매 또는 일반예매) 안인지 — hasActiveTicketing과 달리
 // 날짜/시각까지 따진다(리서처가 채운 presale/general_sale 불리언은 "예정 있음"일 뿐 지금
 // 열려있다는 보장이 아님). 검색 결과 등에서 "예매중" 배지를 띄울 때 씀.

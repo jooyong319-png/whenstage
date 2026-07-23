@@ -107,14 +107,17 @@ export function Home({ initialGames, lastUpdated, serverNow, artistAliases }: Ho
 
       if (filters.search) {
         const q = filters.search.toLowerCase();
+        // 이벤트 제목만으로는 부족함(예: "BIGBANG 2026 WORLD TOUR IN GOYANG"엔 "빅뱅"이 아예
+        // 없음) — developer(아티스트명) 원문도 직접 매치 대상에 넣는다.
         const nameMatch = g.name.toLowerCase().includes(q);
-        // "bigbang" 검색으로 "빅뱅"이 나오게 — 아티스트명을 정규화해 큐레이션된 영문/로마자
-        // 별칭(data/artist-aliases.json) 중 하나라도 검색어를 포함하면 매치로 본다.
         const devKey = g.developer ? normalizeArtistKey(g.developer) : null;
+        const devMatch = g.developer ? g.developer.toLowerCase().includes(q) : false;
+        // "bigbang" 검색으로 "빅뱅"이 나오게(역방향도) — 큐레이션된 영문/로마자 별칭
+        // (data/artist-aliases.json) 중 하나라도 검색어를 포함하면 매치로 본다.
         const aliasMatch = devKey
           ? (artistAliases[devKey] ?? []).some(a => a.toLowerCase().includes(q))
           : false;
-        if (!nameMatch && !aliasMatch) return false;
+        if (!nameMatch && !devMatch && !aliasMatch) return false;
       }
 
       if (filters.platform) {

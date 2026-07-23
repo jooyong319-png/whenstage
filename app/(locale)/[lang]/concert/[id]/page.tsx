@@ -6,6 +6,7 @@ import { getVenueBySlug, normalizeVenueKey, VENUE_CATEGORIES } from '@/lib/venue
 import { formatShortDate, calcDayDiff } from '@/lib/utils';
 import { CATEGORY_LABELS, UI, CAL, LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
 import type { Game } from '@/lib/types';
+import { effectivePresaleEnd } from '@/lib/types';
 import { PageShell } from '@/components/PageShell';
 import { WishlistButton } from '@/components/WishlistButton';
 import { DdayBadge } from '@/components/DdayBadge';
@@ -148,7 +149,7 @@ export default async function LocaleGamePage({ params }: Props) {
           <strong>{ui.releaseDate}:</strong> {dateStr}
         </p>
         {game.presale && (
-          <TicketingPhase label={t.presaleTag} startDateTime={game.presale_datetime} endDateTime={game.presale_end_datetime} timezone={game.timezone} />
+          <TicketingPhase label={t.presaleTag} startDateTime={game.presale_datetime} endDateTime={effectivePresaleEnd(game)} timezone={game.timezone} />
         )}
         {game.general_sale && (
           <TicketingPhase label={t.generalSaleTag} startDateTime={game.general_sale_datetime} endDateTime={game.general_sale_end_datetime} timezone={game.timezone} />
@@ -192,7 +193,7 @@ export default async function LocaleGamePage({ params }: Props) {
           {game.presale_url && (
             <TicketingCtaButton
               url={game.presale_url}
-              endDateTime={game.presale_end_datetime}
+              endDateTime={effectivePresaleEnd(game)}
               openLabel={t.goToPresale}
               closedLabel={t.presaleClosedLabel}
             />

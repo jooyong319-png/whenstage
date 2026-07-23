@@ -7,6 +7,7 @@ import { calcDayDiff } from '@/lib/utils';
 import { ShareButton } from './ShareButton';
 import { TicketingPhase } from './TicketingPhase';
 import { useSaleWindowEnded } from '@/hooks/useSaleWindowEnded';
+import { effectivePresaleEnd } from '@/lib/types';
 import { useLocale } from '@/hooks/useLocale';
 import { UI, CAL, CATEGORY_LABELS } from '@/lib/i18nLabels';
 import styles from './GameModal.module.css';
@@ -21,7 +22,7 @@ export function GameModal({ game, onClose, wishlist }: Props) {
   const lang = useLocale();
   const ui = UI[lang];
   const t = CAL[lang];
-  const presaleEnded = useSaleWindowEnded(game.presale_end_datetime);
+  const presaleEnded = useSaleWindowEnded(effectivePresaleEnd(game));
   const generalSaleEnded = useSaleWindowEnded(game.general_sale_end_datetime);
   const [imgError, setImgError] = useState(false);
   const imgRef = useRef<HTMLImageElement>(null);
@@ -105,7 +106,7 @@ export function GameModal({ game, onClose, wishlist }: Props) {
             : <>{dateStr}{weekday} · <span className={styles.dday}>{dd}</span></>}
         </div>
         {game.presale && (
-          <TicketingPhase label={t.presaleTag} startDateTime={game.presale_datetime} endDateTime={game.presale_end_datetime} timezone={game.timezone} />
+          <TicketingPhase label={t.presaleTag} startDateTime={game.presale_datetime} endDateTime={effectivePresaleEnd(game)} timezone={game.timezone} />
         )}
         {game.general_sale && (
           <TicketingPhase label={t.generalSaleTag} startDateTime={game.general_sale_datetime} endDateTime={game.general_sale_end_datetime} timezone={game.timezone} />
