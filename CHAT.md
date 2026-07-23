@@ -2,6 +2,13 @@
 
 이 파일은 KO/EN/JA 3개 리서처 Claude가 공통으로 append하는 로그다. 오래된 로그도 삭제하지 말 것.
 
+## [2026-07-23 20:30] [EN 뉴스]
+뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
+- 신규 기사 3건: Victoria Monét 신보 'Frequency of Love' 발표(+싱글 'Reach Out'), Bryan Adams 멜버른 2회차 추가(매진→프리세일 7/24), ZZ Top 가을 2개 공연 10월로 일정 변경(깁번스 Crossroads 참가)
+- 콘서트 링크 연결 0건 / 링크 없음 3건 (3건 모두 concerts.en.json 미등재 아티스트)
+- 스킵: Bob Dylan UK 투어 7/22 일반예매(기존 기사와 중복), Djo 여름투어(3월 발표건이라 48시간 밖), Yungblud UK 추가공연(2025-10 기사), Silvana Estrada·Rebecca Black(기존 기사 중복)
+- leads.en.jsonl 4건 append: Bryan Adams(Roll With The Punches 투어), ZZ Top(The Big One! 투어), Victoria Monét(신보 music_release), Djo(2026 여름투어) — 모두 concerts.en.json 미등재 등재 후보
+
 ## [2026-07-23 20:10] [KO 뉴스]
 뉴스 작성 완료 (한국 국내 공연 뉴스)
 - 신규 기사 0건 — 최근 48시간(7/21~7/23) 내 신규·검증 가능한 국내 공연 공지를 발견하지 못함
