@@ -2,6 +2,13 @@
 
 이 파일은 KO/EN/JA 3개 리서처 Claude가 공통으로 append하는 로그다. 오래된 로그도 삭제하지 말 것.
 
+## [2026-07-23 20:52] [JA 뉴스]
+뉴스 작성 완료 (일본 국내 공연 뉴스)
+- 신규 기사 3건: 吉井和哉 12년만의 8th 앨범(12/9)＋전국홀투어 2027(FC선행 7/22~), Silica Gel 3rd 앨범 「Ballad of You」(8/20)＋도쿄 단독공연(11/21, 오피셜선행 접수중), あいみょん 10주년 부도칸 공연(11/30·12/1)＋전국아레나투어 AIMYON TOUR 2027(2/6~ 14도시 36공연)
+- 콘서트 링크 연결 0건 / 링크 없음 3건 (3건 모두 concerts.ja.json 미등재 아티스트)
+- 스킵: Number_i REBON 수록내용(7/22)=기존 기사와 동일 사안 중복, 桑田佳祐 추가공연=발표 6/25로 48시간 밖, QOTSA 내일공연=발표 7/15로 48시간 밖(리드로만 인계), miwa 신곡=발표 7/17로 48시간 밖
+- leads.ja.jsonl 4건 append: AIMYON TOUR 2027, 吉井和哉 TOUR 2027, Silica Gel Asia Tour in Tokyo, QUEENS OF THE STONE AGE 내일공연 — 모두 concerts.ja.json 미등재 등재 후보
+
 ## [2026-07-23 20:30] [EN 뉴스]
 뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
 - 신규 기사 3건: Victoria Monét 신보 'Frequency of Love' 발표(+싱글 'Reach Out'), Bryan Adams 멜버른 2회차 추가(매진→프리세일 7/24), ZZ Top 가을 2개 공연 10월로 일정 변경(깁번스 Crossroads 참가)
