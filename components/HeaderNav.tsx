@@ -24,6 +24,7 @@ function buildPrimary(lang: Locale): NavItem[] {
     { href: `${p}/news`, label: ui.news },
     { href: `${p}/artist`, label: ui.artist },
     { href: `${p}/blog`, label: ui.blog },
+    { href: `${p}/venue`, label: ui.venue },
   ];
 }
 
@@ -99,6 +100,14 @@ export function HeaderNav() {
         >
           <svg className="ic" aria-hidden="true"><use href="#ic-file" /></svg>
           <span className="header-guide-label">{ui.blog}</span>
+        </a>
+        <a
+          href={primary[4].href}
+          className={`header-venue-link ${pathname.startsWith(primary[4].href) ? 'header-venue-active' : ''}`}
+          aria-current={pathname.startsWith(primary[4].href) ? 'page' : undefined}
+        >
+          <svg className="ic" aria-hidden="true"><use href="#ic-pin" /></svg>
+          <span className="header-venue-label">{ui.venue}</span>
         </a>
         </nav>
 

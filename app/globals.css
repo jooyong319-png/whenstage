@@ -205,7 +205,7 @@ textarea:focus-visible,
 .menu-btn:hover { border-color: var(--accent); }
 .menu-btn .ic { width: 20px; height: 20px; }
 /* 헤더 상시 노출 링크 — 활성 시 꽉 채움 */
-.header-cal-link, .header-guide-link, .header-news-link, .header-artist-link {
+.header-cal-link, .header-guide-link, .header-news-link, .header-artist-link, .header-venue-link {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
@@ -220,18 +220,19 @@ textarea:focus-visible,
   white-space: nowrap;
   transition: color 0.15s, background 0.15s;
 }
-.header-cal-link:hover, .header-guide-link:hover, .header-news-link:hover, .header-artist-link:hover {
+.header-cal-link:hover, .header-guide-link:hover, .header-news-link:hover, .header-artist-link:hover, .header-venue-link:hover {
   color: var(--text);
   background: var(--bg-sunken, var(--bg-elev));
 }
 .header-cal-link.header-cal-active,
 .header-guide-link.header-guide-active,
 .header-news-link.header-news-active,
-.header-artist-link.header-artist-active {
+.header-artist-link.header-artist-active,
+.header-venue-link.header-venue-active {
   color: var(--accent-contrast);
   background: var(--accent);
 }
-.header-cal-link .ic, .header-guide-link .ic, .header-news-link .ic, .header-artist-link .ic { width: 17px; height: 17px; }
+.header-cal-link .ic, .header-guide-link .ic, .header-news-link .ic, .header-artist-link .ic, .header-venue-link .ic { width: 17px; height: 17px; }
 /* 드롭다운 메뉴 — 링크는 항상 DOM에 있고 열림만 토글(크롤 가능) */
 .site-menu {
   position: absolute;

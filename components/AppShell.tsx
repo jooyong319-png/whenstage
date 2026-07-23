@@ -32,6 +32,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
         <symbol id="ic-image" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="9" cy="9" r="2" /><path d="M21 15l-5-5L5 21" /></symbol>
         <symbol id="ic-arrow-ur" viewBox="0 0 24 24"><path d="M7 7h10v10M7 17 17 7" /></symbol>
         <symbol id="ic-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5M5 9.2V21h14V9.2M9 21v-6h6v6" /></symbol>
+        <symbol id="ic-pin" viewBox="0 0 24 24"><path d="M12 22s7-7.44 7-12a7 7 0 1 0-14 0c0 4.56 7 12 7 12z" /><circle cx="12" cy="10" r="2.5" /></symbol>
         <symbol id="ic-mobile" viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2" /><path d="M11 18h2" /></symbol>
         <symbol id="ic-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" /><path d="M3 12h18M12 3c2.5 2.6 2.5 15.4 0 18M12 3c-2.5 2.6-2.5 15.4 0 18" /></symbol>
         <symbol id="ic-server" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="7" rx="1.5" /><rect x="3" y="13" width="18" height="7" rx="1.5" /><path d="M7 7.5h.01M7 16.5h.01" /></symbol>
