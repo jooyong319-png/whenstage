@@ -63,7 +63,6 @@ interface UiStrings {
   publishedOn: string;
   source: string;
   notFound: string;
-  notTranslated: string;
   contact: string;
   about: string;
   contactPage: string;
@@ -107,7 +106,6 @@ export const UI: Record<Locale, UiStrings> = {
     publishedOn: '게시일',
     source: '출처',
     notFound: '페이지를 찾을 수 없어요.',
-    notTranslated: '이 페이지는 아직 준비되지 않았어요.',
     contact: '문의',
     about: '소개',
     contactPage: '문의하기',
@@ -149,7 +147,6 @@ export const UI: Record<Locale, UiStrings> = {
     publishedOn: 'Published',
     source: 'Source',
     notFound: 'Page not found.',
-    notTranslated: "This page hasn't been translated into English yet.",
     contact: 'Contact',
     about: 'About',
     contactPage: 'Contact',
@@ -191,7 +188,6 @@ export const UI: Record<Locale, UiStrings> = {
     publishedOn: '公開日',
     source: '出典',
     notFound: 'ページが見つかりません。',
-    notTranslated: 'このページはまだ日本語に翻訳されていません。',
     contact: 'お問い合わせ',
     about: 'サイトについて',
     contactPage: 'お問い合わせ',
