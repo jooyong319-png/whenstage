@@ -71,7 +71,7 @@ function toggleId(id: string): void {
     /* quota 초과 등 무시 */
   }
   emit();
-  showToast(added ? '즐겨찾기에 추가됨' : '즐겨찾기에서 제거됨');
+  showToast(added ? '찜 목록에 추가됨' : '찜 목록에서 제거됨');
 }
 
 export interface WishlistApi {

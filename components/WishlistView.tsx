@@ -24,7 +24,7 @@ export function WishlistView({ games }: { games: Game[] }) {
       <header className={styles.head}>
         <h1 className={styles.title}>
           <svg className="ic ic-fill" aria-hidden="true" style={{ color: 'var(--accent-warm)' }}><use href="#ic-star" /></svg>
-          {' '}{t ? t.myWishlist : '내 즐겨찾기'}{items.length > 0 ? ` (${items.length})` : ''}
+          {' '}{t ? t.myWishlist : '내 찜'}{items.length > 0 ? ` (${items.length})` : ''}
         </h1>
         <p className={styles.sub}>{t ? t.myWishlistSub : '관심 있는 공연·발매 일정을 모아봤어요.'}</p>
       </header>
@@ -34,8 +34,8 @@ export function WishlistView({ games }: { games: Game[] }) {
       {items.length === 0 ? (
         <div className={styles.empty}>
           <div className={styles.emptyIcon} aria-hidden="true"><svg className="ic"><use href="#ic-star" /></svg></div>
-          <p className={styles.emptyText}>{t ? t.wishlistEmptyText : '아직 즐겨찾기한 일정이 없어요.'}</p>
-          <p className={styles.emptyHint}>{t ? t.wishlistEmptyHint : '상세 페이지에서 즐겨찾기 버튼을 눌러 추가하세요.'}</p>
+          <p className={styles.emptyText}>{t ? t.wishlistEmptyText : '아직 찜한 일정이 없어요.'}</p>
+          <p className={styles.emptyHint}>{t ? t.wishlistEmptyHint : '상세 페이지에서 찜 버튼을 눌러 추가하세요.'}</p>
         </div>
       ) : (
         <ul className={styles.list}>
@@ -66,7 +66,7 @@ export function WishlistView({ games }: { games: Game[] }) {
                   type="button"
                   className={styles.remove}
                   onClick={() => wishlist.toggle(g.id)}
-                  aria-label={t ? t.removeFromWishlistAria(displayName) : `${g.name} 즐겨찾기 제거`}
+                  aria-label={t ? t.removeFromWishlistAria(displayName) : `${g.name} 찜 해제`}
                 >
                   <svg className="ic ic-fill" aria-hidden="true"><use href="#ic-star" /></svg>
                 </button>

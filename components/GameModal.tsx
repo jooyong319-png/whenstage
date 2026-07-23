@@ -168,7 +168,7 @@ export function GameModal({ game, onClose, wishlist }: Props) {
             aria-pressed={isWished}
           >
             <svg className={`ic ${isWished ? 'ic-fill' : ''}`} aria-hidden="true"><use href="#ic-star" /></svg>
-            {t ? (isWished ? t.favorited : t.favorite) : (isWished ? '즐겨찾기됨' : '즐겨찾기')}
+            {t ? (isWished ? t.favorited : t.favorite) : (isWished ? '찜함' : '찜하기')}
           </button>
           <a className={styles.detail} href={`/${lang}/concert/${game.id}`} target="_blank" rel="noopener">
             <svg className="ic" aria-hidden="true"><use href="#ic-file" /></svg> {t ? t.fullPage : '전체 페이지'} <svg className="ic" aria-hidden="true"><use href="#ic-arrow-ur" /></svg>

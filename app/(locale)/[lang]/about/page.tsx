@@ -54,7 +54,7 @@ function KoBody() {
       <ul>
         <li>월간 <strong>캘린더</strong> / <strong>리스트</strong> 뷰 전환</li>
         <li>카테고리·검색 필터, <strong>위시리스트</strong>(관심 일정 저장)</li>
-        <li>상세 페이지에서 <strong>즐겨찾기</strong> · <strong>댓글</strong> · <strong>공유</strong></li>
+        <li>상세 페이지에서 <strong>찜</strong> · <strong>댓글</strong> · <strong>공유</strong></li>
         <li>각 일정 상세 페이지(일정·아티스트/기획사·공연장·태그·공식 출처)</li>
       </ul>
 
