@@ -662,6 +662,12 @@ textarea:focus-visible,
   color: var(--on-warm);
   border-color: transparent;
 }
+/* 예매 마감(선예매/일반예매) — 클릭 불가 상태를 색으로도 분명히 구분(흐린 중립색, 커서 기본) */
+.detail-actions .detail-link-closed {
+  color: var(--text-faint);
+  cursor: default;
+  opacity: 0.7;
+}
 .detail-actions .prereg-cta:hover,
 .detail-actions .prereg-cta:focus-visible {
   filter: brightness(1.08);

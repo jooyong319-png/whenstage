@@ -157,6 +157,13 @@
   text-decoration: none;
   transition: filter 0.15s ease;
 }
+/* 예매 마감 — 클릭 불가 상태를 색으로 분명히 구분 */
+.preRegCtaClosed {
+  background: var(--bg-elev);
+  color: var(--text-faint);
+  border: 1px solid var(--border);
+  cursor: default;
+}
 .preRegCta:hover { filter: brightness(1.08); }
 /* 페스티벌 데이별 라인업 */
 .festivalDays { margin: 0.6rem 0; display: flex; flex-direction: column; gap: 0.35rem; }

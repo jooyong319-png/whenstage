@@ -13,6 +13,7 @@ import { ShareButton } from '@/components/ShareButton';
 import { ViewCounter } from '@/components/ViewCounter';
 import { DetailCover } from '@/components/DetailCover';
 import { TicketingPhase } from '@/components/TicketingPhase';
+import { TicketingCtaButton } from '@/components/TicketingCtaButton';
 import { SidebarSection } from '@/components/SidebarSection';
 import { RelatedEventCard } from '@/components/RelatedEventCard';
 
@@ -189,14 +190,20 @@ export default async function LocaleGamePage({ params }: Props) {
         </ul>
         <div className="detail-actions">
           {game.presale_url && (
-            <a className="detail-link prereg-cta" href={game.presale_url} target="_blank" rel="noopener">
-              {t.goToPresale} →
-            </a>
+            <TicketingCtaButton
+              url={game.presale_url}
+              endDateTime={game.presale_end_datetime}
+              openLabel={t.goToPresale}
+              closedLabel={t.presaleClosedLabel}
+            />
           )}
           {game.general_sale_url && (
-            <a className="detail-link prereg-cta" href={game.general_sale_url} target="_blank" rel="noopener">
-              {t.goToGeneralSale} →
-            </a>
+            <TicketingCtaButton
+              url={game.general_sale_url}
+              endDateTime={game.general_sale_end_datetime}
+              openLabel={t.goToGeneralSale}
+              closedLabel={t.generalSaleClosedLabel}
+            />
           )}
           <WishlistButton id={game.id} className="detail-link" />
           <ShareButton url={`/${lang}/concert/${game.id}`} title={game.name} className="detail-link" />

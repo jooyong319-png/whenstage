@@ -6,6 +6,7 @@ import { CATEGORY_META } from '@/lib/types';
 import { formatShortDate, formatEventDateTime } from '@/lib/utils';
 import { useLocale } from '@/hooks/useLocale';
 import { CAL, CATEGORY_LABELS } from '@/lib/i18nLabels';
+import { useSaleWindowEnded } from '@/hooks/useSaleWindowEnded';
 import styles from './ScheduleCard.module.css';
 
 export type ScheduleKind = 'release' | 'presale' | 'presale_end' | 'general_sale' | 'general_sale_end';
@@ -53,6 +54,9 @@ export function ScheduleCard({ game, kind, onPick }: Props) {
 
   const ctaUrl = kind === 'presale' ? game.presale_url : kind === 'general_sale' ? game.general_sale_url : null;
   const ctaLabel = kind === 'presale' ? t.goToPresale : kind === 'general_sale' ? t.goToGeneralSale : null;
+  const ctaClosedLabel = kind === 'presale' ? t.presaleClosedLabel : kind === 'general_sale' ? t.generalSaleClosedLabel : null;
+  const ctaEndDateTime = kind === 'presale' ? game.presale_end_datetime : kind === 'general_sale' ? game.general_sale_end_datetime : null;
+  const ctaEnded = useSaleWindowEnded(ctaEndDateTime);
 
   return (
     <motion.div
@@ -98,15 +102,21 @@ export function ScheduleCard({ game, kind, onPick }: Props) {
         </div>
       )}
       {ctaUrl && ctaLabel && (
-        <a
-          className={styles.cta}
-          href={ctaUrl}
-          target="_blank"
-          rel="noopener"
-          onClick={(e) => e.stopPropagation()}
-        >
-          {ctaLabel}
-        </a>
+        ctaEnded ? (
+          <span className={`${styles.cta} ${styles.ctaClosed}`} aria-disabled="true">
+            {ctaClosedLabel}
+          </span>
+        ) : (
+          <a
+            className={styles.cta}
+            href={ctaUrl}
+            target="_blank"
+            rel="noopener"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {ctaLabel}
+          </a>
+        )
       )}
     </motion.div>
   );

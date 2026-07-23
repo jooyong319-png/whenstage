@@ -60,6 +60,15 @@ export function hasActiveTicketing(g: Pick<Game, 'presale' | 'general_sale'>): b
   return g.presale === true || g.general_sale === true;
 }
 
+// 선예매/일반예매 각각의 마감(end_datetime)이 지났는지 — 마감 정보가 없으면(매진 시까지
+// 판매) 절대 "마감"으로 취급하지 않는다. 예매 CTA 버튼을 마감 후엔 링크 대신 마감 문구로
+// 바꿀 때 씀(presale/general_sale 따로 판단 — isTicketingLiveNow는 둘을 합쳐서만 본다).
+export function hasSaleWindowEnded(endIso: string | null | undefined, now: Date): boolean {
+  if (!endIso) return false;
+  const end = new Date(endIso).getTime();
+  return !Number.isNaN(end) && now.getTime() >= end;
+}
+
 // 지금 이 순간이 실제로 예매 판매 구간(선예매 또는 일반예매) 안인지 — hasActiveTicketing과 달리
 // 날짜/시각까지 따진다(리서처가 채운 presale/general_sale 불리언은 "예정 있음"일 뿐 지금
 // 열려있다는 보장이 아님). 검색 결과 등에서 "예매중" 배지를 띄울 때 씀.

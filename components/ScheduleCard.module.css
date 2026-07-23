@@ -95,4 +95,11 @@
   font-size: 0.82rem;
   font-weight: 800;
 }
+/* 예매 마감 — 클릭 불가 상태를 색으로 분명히 구분 */
+.ctaClosed {
+  background: transparent;
+  color: var(--text-faint);
+  border: 1px solid var(--border);
+  cursor: default;
+}
 .cta:hover { background: color-mix(in srgb, var(--accent-warm) 20%, transparent); text-decoration: none; }
