@@ -2,6 +2,14 @@
 // ※ ko/en/ja는 서로 번역 관계가 아니라 완전히 독립된 콘텐츠(국가/지역별 실제 공연).
 //   그래서 name_en/name_ja 같은 번역 필드 없이 언어별 파일 각각이 자체 완결형.
 
+// "에스파(aespa)" / "에스파" 처럼 표기가 갈려도 같은 아티스트로 묶기 위해 괄호(반각/전각) 안 로마자
+// 병기를 떼고 비교한다. 완벽한 정규화는 아니지만(오탈자까지는 못 잡음) 실전에서 가장 흔한
+// "같은 이름, 로마자 유무만 다름" 케이스를 커버한다. fs 의존 없는 순수 함수 — 클라이언트
+// 컴포넌트(검색 등)에서도 그대로 import 가능하도록 여기(server-only가 아닌 lib/types.ts)에 둔다.
+export function normalizeArtistKey(name: string): string {
+  return name.replace(/[（(][^）)]*[）)]/g, '').trim().normalize('NFC');
+}
+
 export type Category =
   | 'concert_tour'   // 콘서트·내한 공연
   | 'music_release'  // 음원 발매(컴백)

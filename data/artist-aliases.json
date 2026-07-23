@@ -1,0 +1,23 @@
+{
+  "_comment": "검색용 아티스트 영문/로마자 별칭 — 키는 normalizeArtistKey() 정규화된 한국어 표기(괄호 제거). 'bigbang'으로 검색해도 '빅뱅'이 나오게 하는 용도. 값은 data/artist-bios.json의 검증된 영문 표기(괄호 안)에서 가져오거나, 널리 알려진 공식 영문명만 추가 — 확신 없는 로마자 표기는 추가하지 않는다.",
+  "aliases": {
+    "빅뱅": ["BIGBANG", "Big Bang"],
+    "아르테미스": ["ARTMS"],
+    "앤팀": ["&TEAM", "ANTEAM"],
+    "라이즈": ["RIIZE"],
+    "키스오브라이프": ["KISS OF LIFE"],
+    "키키": ["KiiiKiii"],
+    "싸이": ["PSY"],
+    "에이엔": ["AEN"],
+    "레드벨벳": ["Red Velvet"],
+    "스트레이 키즈": ["Stray Kids"],
+    "에스파": ["aespa"],
+    "엔하이픈": ["ENHYPEN"],
+    "김종국": ["Kim Jong-kook", "Kim Jong Kook"],
+    "성시경": ["Sung Si-kyung", "Sung Si Kyung"],
+    "전유진": ["Jeon Yu-jin", "Jeon Yu Jin"],
+    "티파니 영": ["Tiffany Young"],
+    "잭 화이트": ["Jack White"],
+    "Official髭男dism": ["Official HIGE DANdism"]
+  }
+}

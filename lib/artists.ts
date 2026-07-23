@@ -3,6 +3,7 @@ import path from 'path';
 import { promises as fs } from 'fs';
 import { getAllGames, type GameLocale } from './games';
 import type { Game } from './types';
+import { normalizeArtistKey } from './types';
 
 // 아티스트 전용 큐레이션 이미지(공연/발매 리서치와 분리 관리) — data/artist-images.json.
 // 콘서트 엔트리의 image_url을 재활용하면 행사 스냅샷이 섞여 품질이 들쭉날쭉해지므로,
@@ -16,6 +17,19 @@ function getCuratedImages(): Promise<Record<string, string>> {
       .catch(() => ({}));
   }
   return curatedImagesCache;
+}
+
+// 검색용 영문/로마자 별칭 — data/artist-aliases.json({aliases: {"빅뱅": ["BIGBANG", ...]}}).
+// "bigbang"으로 검색해도 "빅뱅"이 나오게 하는 용도. 키는 normalizeArtistKey() 정규화된 표기.
+let artistAliasesCache: Promise<Record<string, string[]>> | null = null;
+export function getArtistAliases(): Promise<Record<string, string[]>> {
+  if (!artistAliasesCache) {
+    artistAliasesCache = fs
+      .readFile(path.join(process.cwd(), 'data', 'artist-aliases.json'), 'utf-8')
+      .then(raw => (JSON.parse(raw).aliases ?? {}) as Record<string, string[]>)
+      .catch(() => ({}));
+  }
+  return artistAliasesCache;
 }
 
 export interface ArtistBio {
@@ -47,12 +61,9 @@ export interface ArtistSummary {
   bio: ArtistBio | null;
 }
 
-// "에스파(aespa)" / "에스파" 처럼 표기가 갈려도 같은 아티스트로 묶기 위해 괄호(반각/전각) 안 로마자
-// 병기를 떼고 비교한다. 완벽한 정규화는 아니지만(오탈자까지는 못 잡음) 실전에서 가장 흔한
-// "같은 이름, 로마자 유무만 다름" 케이스를 커버한다.
-export function normalizeArtistKey(name: string): string {
-  return name.replace(/[（(][^）)]*[）)]/g, '').trim().normalize('NFC');
-}
+// normalizeArtistKey는 lib/types.ts로 이동(fs 의존 없는 순수 함수라 클라이언트 컴포넌트에서도
+// import 가능해야 함 — 검색의 별칭 매칭에 씀). 기존 import 경로 호환을 위해 재수출.
+export { normalizeArtistKey };
 
 function todayKstStr(now: Date = new Date()): string {
   const kst = new Date(now.getTime() + 9 * 60 * 60 * 1000);

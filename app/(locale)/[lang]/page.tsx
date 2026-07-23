@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllGames, getLastUpdated } from '@/lib/games';
+import { getArtistAliases } from '@/lib/artists';
 import { Home } from '@/components/Home';
 import { UI, LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
 
@@ -43,6 +44,7 @@ export default async function LocaleHomePage({ params }: Props) {
 
   const games = await getAllGames(lang);
   const lastUpdated = await getLastUpdated(lang);
+  const artistAliases = await getArtistAliases();
   const serverNow = new Date().toISOString();
 
   const websiteJsonLd = {
@@ -57,7 +59,7 @@ export default async function LocaleHomePage({ params }: Props) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
-      <Home initialGames={games} lastUpdated={lastUpdated} serverNow={serverNow} />
+      <Home initialGames={games} lastUpdated={lastUpdated} serverNow={serverNow} artistAliases={artistAliases} />
     </>
   );
 }

@@ -2,6 +2,7 @@
 import { useState, useMemo, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import type { Game, FilterState } from '@/lib/types';
+import { normalizeArtistKey } from '@/lib/types';
 import { formatShortDate, kstDateOnly } from '@/lib/utils';
 import { CalendarView } from './CalendarView';
 import { ListView } from './ListView';
@@ -16,9 +17,10 @@ interface HomeProps {
   initialGames: Game[];
   lastUpdated: string;
   serverNow: string;
+  artistAliases: Record<string, string[]>;
 }
 
-export function Home({ initialGames, lastUpdated, serverNow }: HomeProps) {
+export function Home({ initialGames, lastUpdated, serverNow, artistAliases }: HomeProps) {
   const lang = useLocale();
   const t = CAL[lang];
   const [filters, setFilters] = useState<FilterState>({
@@ -104,8 +106,15 @@ export function Home({ initialGames, lastUpdated, serverNow }: HomeProps) {
       if (wishlistOnly && !wishlist.has(g.id)) return false;
 
       if (filters.search) {
-        const hay = g.name.toLowerCase();
-        if (!hay.includes(filters.search.toLowerCase())) return false;
+        const q = filters.search.toLowerCase();
+        const nameMatch = g.name.toLowerCase().includes(q);
+        // "bigbang" 검색으로 "빅뱅"이 나오게 — 아티스트명을 정규화해 큐레이션된 영문/로마자
+        // 별칭(data/artist-aliases.json) 중 하나라도 검색어를 포함하면 매치로 본다.
+        const devKey = g.developer ? normalizeArtistKey(g.developer) : null;
+        const aliasMatch = devKey
+          ? (artistAliases[devKey] ?? []).some(a => a.toLowerCase().includes(q))
+          : false;
+        if (!nameMatch && !aliasMatch) return false;
       }
 
       if (filters.platform) {
