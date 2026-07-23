@@ -15,6 +15,7 @@ import { ViewCounter } from '@/components/ViewCounter';
 import { DetailCover } from '@/components/DetailCover';
 import { TicketingPhase } from '@/components/TicketingPhase';
 import { TicketingCtaButton } from '@/components/TicketingCtaButton';
+import { ReportForm } from '@/components/ReportForm';
 import { SidebarSection } from '@/components/SidebarSection';
 import { RelatedEventCard } from '@/components/RelatedEventCard';
 
@@ -229,6 +230,19 @@ export default async function LocaleGamePage({ params }: Props) {
           )}
           <ViewCounter gameId={game.id} />
         </div>
+
+        <ReportForm
+          kind="ticketing_link"
+          targetType="concert"
+          targetId={game.id}
+          locale={lang}
+          buttonLabel={t.reportTicketingLabel}
+          placeholder={t.reportTicketingPlaceholder}
+          successLabel={t.reportSuccess}
+          submitLabel={t.reportSubmit}
+          contactLabel={t.reportContactPlaceholder}
+          cancelLabel={t.reportCancel}
+        />
 
         {related.length > 0 && (
           <section className="detail-related">

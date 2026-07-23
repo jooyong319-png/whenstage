@@ -7,6 +7,23 @@ import styles from './AdminDashboard.module.css';
 const ADMIN_PASS = process.env.NEXT_PUBLIC_ADMIN_PASS;
 
 interface Row { created_at: string; game_id: string; }
+interface ReportRow {
+  id: string;
+  kind: string;
+  target_type: string;
+  target_id: string;
+  locale: string;
+  message: string;
+  contact: string | null;
+  status: 'pending' | 'approved' | 'rejected';
+  created_at: string;
+}
+
+const KIND_LABEL: Record<string, string> = {
+  ticketing_link: '예매 링크',
+  artist_info: '아티스트 정보',
+  other: '기타',
+};
 
 // UTC ISO → KST 날짜(YYYY-MM-DD)
 function kstDay(iso: string): string {
@@ -21,6 +38,8 @@ export function AdminDashboard({ nameMap }: { nameMap: Record<string, string> })
   const [total, setTotal] = useState<number | null>(null); // 실제 누적(정확한 count)
   const [err, setErr] = useState<string | null>(null);
   const [selectedDate, setSelectedDate] = useState<string | null>(null);
+  const [reports, setReports] = useState<ReportRow[] | null>(null);
+  const [reportFilter, setReportFilter] = useState<'pending' | 'approved' | 'rejected' | 'all'>('pending');
 
   useEffect(() => {
     if (unlocked) return;
@@ -56,6 +75,26 @@ export function AdminDashboard({ nameMap }: { nameMap: Record<string, string> })
       setRows(all);
     })();
   }, [unlocked]);
+
+  useEffect(() => {
+    if (!unlocked || !isSupabaseReady() || !supabase) return;
+    (async () => {
+      const { data, error } = await supabase!
+        .from('data_reports')
+        .select('id,kind,target_type,target_id,locale,message,contact,status,created_at')
+        .order('created_at', { ascending: false })
+        .limit(500);
+      if (!error) setReports((data as ReportRow[]) ?? []);
+    })();
+  }, [unlocked]);
+
+  async function updateReportStatus(id: string, status: 'approved' | 'rejected') {
+    if (!supabase) return;
+    setReports(prev => prev?.map(r => (r.id === id ? { ...r, status } : r)) ?? prev);
+    await supabase.from('data_reports').update({ status }).eq('id', id);
+  }
+
+  const visibleReports = (reports ?? []).filter(r => reportFilter === 'all' || r.status === reportFilter);
 
   const stats = useMemo(() => {
     if (!rows) return null;
@@ -123,6 +162,63 @@ export function AdminDashboard({ nameMap }: { nameMap: Record<string, string> })
   return (
     <div className={styles.wrap}>
       <h1 className={styles.title}>조회수 대시보드</h1>
+
+      <h2 className={styles.h2}>
+        제보함{' '}
+        <span className={styles.hint}>
+          ({(reports ?? []).filter(r => r.status === 'pending').length}건 대기)
+        </span>
+      </h2>
+      <div className={styles.reportActions} style={{ marginBottom: '0.6rem' }}>
+        {(['pending', 'approved', 'rejected', 'all'] as const).map(f => (
+          <button
+            key={f}
+            type="button"
+            className={f === reportFilter ? styles.reportApprove : styles.reportReject}
+            onClick={() => setReportFilter(f)}
+          >
+            {f === 'pending' ? '대기' : f === 'approved' ? '승인됨' : f === 'rejected' ? '거부됨' : '전체'}
+          </button>
+        ))}
+      </div>
+      {!reports ? (
+        <p className={styles.muted}>불러오는 중…</p>
+      ) : visibleReports.length === 0 ? (
+        <p className={styles.muted}>해당하는 제보가 없어요.</p>
+      ) : (
+        <ul className={styles.reportList}>
+          {visibleReports.map(r => {
+            const href = r.target_type === 'concert'
+              ? `/${r.locale}/concert/${r.target_id}`
+              : `/${r.locale}/artist/${encodeURIComponent(r.target_id)}`;
+            return (
+              <li key={r.id} className={styles.reportRow}>
+                <div className={styles.reportTop}>
+                  <span className={styles.reportKind}>{KIND_LABEL[r.kind] ?? r.kind}</span>
+                  <span className={styles.reportTarget}>
+                    <a href={href} target="_blank" rel="noopener">{nameMap[r.target_id] ?? r.target_id}</a>
+                    {' '}· {r.locale}
+                  </span>
+                  {r.status !== 'pending' && (
+                    <span className={`${styles.reportStatus} ${r.status === 'approved' ? styles.reportStatusApproved : styles.reportStatusRejected}`}>
+                      {r.status === 'approved' ? '승인됨' : '거부됨'}
+                    </span>
+                  )}
+                  <span className={styles.reportDate}>{kstDay(r.created_at)}</span>
+                </div>
+                <p className={styles.reportMsg}>{r.message}</p>
+                {r.contact && <p className={styles.reportContact}>연락처: {r.contact}</p>}
+                {r.status === 'pending' && (
+                  <div className={styles.reportActions}>
+                    <button type="button" className={styles.reportApprove} onClick={() => updateReportStatus(r.id, 'approved')}>승인</button>
+                    <button type="button" className={styles.reportReject} onClick={() => updateReportStatus(r.id, 'rejected')}>거부</button>
+                  </div>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      )}
 
       <div className={styles.cards}>
         <div className={styles.card}><span className={styles.cardLabel}>오늘</span><span className={styles.cardNum}>{stats.today_count.toLocaleString()}</span></div>

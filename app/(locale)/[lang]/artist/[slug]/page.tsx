@@ -6,7 +6,8 @@ import { EventList } from '@/components/EventList';
 import { ArtistAvatar } from '@/components/ArtistAvatar';
 import { SidebarSection } from '@/components/SidebarSection';
 import { RelatedArtistCard } from '@/components/RelatedArtistCard';
-import { UI, LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
+import { UI, CAL, LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
+import { ReportForm } from '@/components/ReportForm';
 import styles from '@/app/blog/blog.module.css';
 import artistStyles from '../artist.module.css';
 
@@ -41,6 +42,7 @@ export default async function ArtistDetailPage({ params }: Props) {
   if (!isLocale(params.lang)) notFound();
   const lang = params.lang;
   const ui = UI[lang];
+  const t = CAL[lang];
   const artist = await getArtistBySlug(params.slug, lang);
   if (!artist) notFound();
 
@@ -91,6 +93,19 @@ export default async function ArtistDetailPage({ params }: Props) {
         </header>
 
         {artist.image && <p className={artistStyles.imageSourceNote}>{ui.artistImageSourceNote}</p>}
+
+        <ReportForm
+          kind="artist_info"
+          targetType="artist"
+          targetId={artist.slug}
+          locale={lang}
+          buttonLabel={t.reportArtistLabel}
+          placeholder={t.reportArtistPlaceholder}
+          successLabel={t.reportSuccess}
+          submitLabel={t.reportSubmit}
+          contactLabel={t.reportContactPlaceholder}
+          cancelLabel={t.reportCancel}
+        />
 
         {artist.bio && (
           <div className={artistStyles.bioSection}>

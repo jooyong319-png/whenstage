@@ -67,6 +67,25 @@
 .topName:hover { color: var(--accent); }
 .topNum { font-weight: 700; color: var(--accent); font-variant-numeric: tabular-nums; }
 
+/* 제보함 */
+.reportList { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.6rem; }
+.reportRow { background: var(--bg-elev); border: 1px solid var(--border); border-radius: var(--radius); padding: 0.9rem 1rem; }
+.reportTop { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem; flex-wrap: wrap; }
+.reportKind { flex: 0 0 auto; font-size: 0.66rem; font-weight: 700; padding: 0.1rem 0.45rem; border-radius: 5px; color: var(--accent-contrast); background: var(--accent); }
+.reportTarget { font-size: 0.8rem; color: var(--text-faint); }
+.reportTarget a { color: var(--text-faint); }
+.reportTarget a:hover { color: var(--accent); }
+.reportDate { margin-left: auto; font-size: 0.72rem; color: var(--text-faint); }
+.reportMsg { color: var(--text); font-size: 0.9rem; line-height: 1.5; white-space: pre-wrap; margin-bottom: 0.4rem; }
+.reportContact { font-size: 0.78rem; color: var(--text-faint); margin-bottom: 0.5rem; }
+.reportActions { display: flex; gap: 0.5rem; }
+.reportApprove, .reportReject { padding: 0.35rem 0.8rem; border-radius: var(--radius-xs); font-size: 0.78rem; font-weight: 700; border: 1px solid var(--border); }
+.reportApprove { color: var(--accent-contrast); background: var(--accent); border-color: transparent; }
+.reportReject { color: var(--text-faint); background: var(--bg); }
+.reportStatus { font-size: 0.75rem; font-weight: 700; padding: 0.15rem 0.5rem; border-radius: 5px; }
+.reportStatusApproved { color: #1f9d52; background: rgba(31,157,82,0.12); }
+.reportStatusRejected { color: var(--danger); background: rgba(231,76,60,0.1); }
+
 @media (max-width: 560px) {
   .cards { grid-template-columns: repeat(2, 1fr); }
 }

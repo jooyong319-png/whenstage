@@ -274,6 +274,14 @@ interface CalUiStrings {
   ticketingDeadlineTba: string;
   ticketingInfo: string;
   ticketingLinkPending: string;
+  reportTicketingLabel: string;
+  reportTicketingPlaceholder: string;
+  reportArtistLabel: string;
+  reportArtistPlaceholder: string;
+  reportSuccess: string;
+  reportSubmit: string;
+  reportContactPlaceholder: string;
+  reportCancel: string;
   totalItems: (count: number) => string;
   noSearchResults: string;
   myWishlist: string;
@@ -361,6 +369,14 @@ export const CAL: Record<Locale, CalUiStrings> = {
     ticketingDeadlineTba: '마감일 미정',
     ticketingInfo: '티켓팅 안내',
     ticketingLinkPending: '예매 링크를 아직 못 찾았어요 — 아래 출처나 공식 채널에서 확인해 주세요.',
+    reportTicketingLabel: '예매 링크 제보/수정',
+    reportTicketingPlaceholder: '정확한 예매 링크나 잘못된 정보를 알려주세요. 확인 후 반영할게요.',
+    reportArtistLabel: '아티스트 정보 수정·등록 제보',
+    reportArtistPlaceholder: '수정하거나 등록할 아티스트 정보를 알려주세요(소속사, 사진 출처, 오탈자 등).',
+    reportSuccess: '제보 감사합니다! 확인 후 반영할게요.',
+    reportSubmit: '제보하기',
+    reportContactPlaceholder: '답변받을 이메일(선택)',
+    reportCancel: '취소',
     totalItems: (count) => `총 ${count}개`,
     noSearchResults: '검색 결과가 없어요.',
     myWishlist: '내 찜',
@@ -446,6 +462,14 @@ export const CAL: Record<Locale, CalUiStrings> = {
     ticketingDeadlineTba: 'Deadline TBA',
     ticketingInfo: 'Ticketing info',
     ticketingLinkPending: "We haven't found a direct ticketing link yet — please check the source below or the official channel.",
+    reportTicketingLabel: 'Report/fix ticketing link',
+    reportTicketingPlaceholder: "Let us know the correct ticketing link or what's wrong. We'll review and update it.",
+    reportArtistLabel: 'Suggest an artist info fix or addition',
+    reportArtistPlaceholder: 'Tell us what to fix or add (agency, photo source, typos, etc.).',
+    reportSuccess: "Thanks for the report! We'll review and update it.",
+    reportSubmit: 'Submit',
+    reportContactPlaceholder: 'Email for a reply (optional)',
+    reportCancel: 'Cancel',
     totalItems: (count) => `${count} total`,
     noSearchResults: 'No results found.',
     myWishlist: 'My Wishlist',
@@ -531,6 +555,14 @@ export const CAL: Record<Locale, CalUiStrings> = {
     ticketingDeadlineTba: '締切日は未定',
     ticketingInfo: 'チケット情報',
     ticketingLinkPending: 'チケットリンクがまだ見つかっていません — 下記の出典または公式チャンネルでご確認ください。',
+    reportTicketingLabel: 'チケットリンクを報告・修正',
+    reportTicketingPlaceholder: '正確なチケットリンクや誤った情報を教えてください。確認後に反映します。',
+    reportArtistLabel: 'アーティスト情報の修正・登録を報告',
+    reportArtistPlaceholder: '修正・登録したいアーティスト情報を教えてください(所属事務所、写真の出典、誤字など)。',
+    reportSuccess: 'ご報告ありがとうございます！確認後に反映します。',
+    reportSubmit: '報告する',
+    reportContactPlaceholder: '返信用メール(任意)',
+    reportCancel: 'キャンセル',
     totalItems: (count) => `合計${count}件`,
     noSearchResults: '検索結果がありません。',
     myWishlist: 'マイお気に入り',
