@@ -9,6 +9,22 @@ const VAPID_PUBLIC = process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY?.trim().replace(/^
 let lastPushError: string | null = null;
 export function getLastPushError(): string | null { return lastPushError; }
 
+// 알림 권한(Notification.permission)과 구독 여부(subscription)는 서로 다른 상태다 — 사용자가
+// 토글을 꺼서 unsubscribe()해도 브라우저의 알림 "권한"은 grant된 채로 남는다. 그래서 마운트
+// 시 "권한은 있는데 구독이 없다"만으로는 "사용자가 방금 껐다"와 "구독이 우연히 유실됐다
+// (TWA 재시작 등)"를 구분할 수 없어, 끄기 직후 새로고침하면 자동 재구독 로직이 다시 켜버리는
+// 버그가 있었다. 이 플래그로 "사용자가 명시적으로 껐다"는 의도를 별도 기록해 구분한다.
+const OPT_OUT_KEY = 'whenstage.notify.optedOut';
+export function markNotifyOptedOut(): void {
+  try { localStorage.setItem(OPT_OUT_KEY, '1'); } catch { /* ignore */ }
+}
+export function clearNotifyOptedOut(): void {
+  try { localStorage.removeItem(OPT_OUT_KEY); } catch { /* ignore */ }
+}
+export function isNotifyOptedOut(): boolean {
+  try { return localStorage.getItem(OPT_OUT_KEY) === '1'; } catch { return false; }
+}
+
 export function pushConfigured(): boolean {
   return !!VAPID_PUBLIC;
 }
@@ -102,6 +118,7 @@ export async function subscribePush(gameIds: string[]): Promise<SubscribeResult>
     console.error('[push] save 실패', e);
     return 'error';
   }
+  clearNotifyOptedOut();
   return 'ok';
 }
 
@@ -119,6 +136,7 @@ export async function unsubscribePush(): Promise<void> {
   if (isSupabaseReady() && supabase) {
     await supabase.from('push_subscriptions').delete().eq('endpoint', endpoint);
   }
+  markNotifyOptedOut();
 }
 
 // 찜 목록 변경 시 구독자의 game_ids 동기화(구독 없으면 무시)

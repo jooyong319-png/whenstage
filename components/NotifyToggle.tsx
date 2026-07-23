@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import { useWishlist } from '@/hooks/useWishlist';
-import { pushConfigured, pushSupported, getCurrentSubscription, subscribePush, unsubscribePush, isEndpointRegistered, getLastPushError } from '@/lib/push';
+import { pushConfigured, pushSupported, getCurrentSubscription, subscribePush, unsubscribePush, isEndpointRegistered, isNotifyOptedOut, markNotifyOptedOut, getLastPushError } from '@/lib/push';
 import { showToast } from '@/lib/toast';
 import { useLocale } from '@/hooks/useLocale';
 import { CAL } from '@/lib/i18nLabels';
@@ -29,11 +29,15 @@ export function NotifyToggle() {
           // 지워지고 브라우저 구독은 남아있던 경우, 여기서 걸러서 진짜로 정리한다.
           if (await isEndpointRegistered(sub.endpoint)) { setState('on'); return; }
           await sub.unsubscribe().catch(() => {});
+          markNotifyOptedOut(); // DB에 없는 상태는 "구독 없음"으로 취급 — 다음에 다시 켤 땐 토글을 명시적으로 눌러야 함
           setState('off');
           return;
         }
-        // 권한은 허용돼 있는데 구독이 유실됨(TWA 재시작 등) → 조용히 재구독해 ON 유지 + 410 방지
-        if (Notification.permission === 'granted') {
+        // 권한(permission)은 끄기 눌러도 grant된 채로 남기 때문에, "권한 있음 + 구독 없음"만으론
+        // "방금 사용자가 껐다"와 "구독이 우연히 유실됐다(TWA 재시작 등)"를 구분할 수 없다 —
+        // isNotifyOptedOut()으로 명시적으로 끈 적이 있는지 먼저 확인해야 끄기 직후 새로고침
+        // 했을 때 자동으로 다시 켜버리는 걸 막을 수 있다.
+        if (Notification.permission === 'granted' && !isNotifyOptedOut()) {
           const r = await subscribePush([...idsRef.current]);
           setState(r === 'ok' ? 'on' : 'off');
         } else {
