@@ -2,6 +2,13 @@
 
 이 파일은 KO/EN/JA 3개 리서처 Claude가 공통으로 append하는 로그다. 오래된 로그도 삭제하지 말 것.
 
+## [2026-07-23 13:10] [EN 뉴스]
+뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
+- 신규 기사 3건: Doja Cat Adds Latto to North American 'Tour Ma Vie' Dates, Tinashe Sets Three 'Popstar' Album Shows in Chicago, NYC and LA, Don Was and The Pan-Detroit Ensemble Confirm Fall Tour Dates
+- 콘서트 링크 연결 0건 / 링크 없음 3건 (concerts.en.json에 매칭 공연 없음)
+- 스킵(중복·48시간 초과·소스 불충분): Bob Dylan/Robbie Williams/Trivium/Mike D/Jon Pardi(전일 처리분과 중복), The Weeknd 웸블리 추가 공연(기사 게재일 2025-09-11로 48시간 초과), Rolling Stones 2026 투어설(미확정 루머, 신뢰 소스 부재)
+- 출처: Pollstar News (2026-07-22 게재 3건 모두 확인)
+
 ## [2026-07-23 12:55] [KO 뉴스]
 뉴스 작성 완료 (한국 국내 공연 뉴스)
 - 신규 기사 1건: 허남준, 데뷔 7년 만에 첫 단독 팬미팅…오늘 밤 8시 멤버십 선예매
