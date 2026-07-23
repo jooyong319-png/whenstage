@@ -557,6 +557,51 @@
       "general_sale": true,
       "general_sale_datetime": "2026-07-24T20:00:00+09:00",
       "general_sale_url": null
+    },
+    {
+      "id": "ko-limyoungwoong-imhero-stadium2-20260904",
+      "name": "2026 임영웅 콘서트 [IM HERO - THE STADIUM 2]",
+      "release_date": "2026-09-04",
+      "release_time": "18:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "고양종합운동장 주경기장"
+      ],
+      "developer": "임영웅",
+      "publisher": null,
+      "description": "트로트 대세 임영웅이 여는 초대형 스타디움 콘서트로, 9월 4일부터 6일까지 사흘간 고양종합운동장 주경기장에서 매일 오후 6시 30분에 열린다. 2024년 첫 스타디움 공연 'IM HERO - THE STADIUM'에 이은 두 번째 스타디움 시리즈로, 대규모 무대 연출과 밴드 라이브를 앞세운 것이 특징이다. 티켓은 7월 16일 오후 8시 NOL 티켓 단독으로 예매가 시작됐으며 전 좌석 지정석으로 운영되고 1인 2매까지 구매할 수 있다.",
+      "genres": [
+        "트로트",
+        "콘서트"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Temp_1662384481565.-511956263.jpg",
+      "source_url": "https://tickets.interpark.com/contents/notice/detail/14497",
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-16T20:00:00+09:00",
+      "general_sale_url": null
+    },
+    {
+      "id": "ko-vaundy-horo-seoul-20260919",
+      "name": "Vaundy ASIA ARENA TOUR 2026 \"HORO\" IN SEOUL",
+      "release_date": "2026-09-19",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "인스파이어 아레나"
+      ],
+      "developer": "바운디(Vaundy)",
+      "publisher": null,
+      "description": "'일본의 괴물 아티스트'로 불리는 싱어송라이터 바운디(Vaundy)의 첫 단독 내한 공연으로, 아시아 아레나 투어 'HORO'의 서울 무대다. 9월 19일 오후 5시와 20일 오후 4시 이틀에 걸쳐 인천 인스파이어 아레나에서 열린다. 애니메이션 '체인소 맨' 엔딩곡 등으로 국내에도 두터운 팬층을 보유한 그가 처음으로 한국 관객과 만나는 자리로, 3월 11일 오후 8시 NOL 티켓 예매가 시작되자마자 전석이 매진됐다.",
+      "genres": [
+        "J-POP",
+        "내한공연"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Vaundy_2025.jpg",
+      "source_url": "https://sports.khan.co.kr/en/article/202603111454007"
     }
   ]
 }
