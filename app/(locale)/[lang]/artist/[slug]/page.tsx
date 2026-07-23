@@ -90,6 +90,8 @@ export default async function ArtistDetailPage({ params }: Props) {
           </div>
         </header>
 
+        {artist.image && <p className={artistStyles.imageSourceNote}>{ui.artistImageSourceNote}</p>}
+
         {artist.bio && (
           <div className={artistStyles.bioSection}>
             <p className={artistStyles.bioText}>{artist.bio.text}</p>

@@ -48,6 +48,7 @@ interface UiStrings {
   bioAgency: string;
   bioMembers: string;
   bioDebut: string;
+  artistImageSourceNote: string;
   venue: string;
   venueListTitle: string;
   venueListSubtitle: string;
@@ -91,6 +92,7 @@ export const UI: Record<Locale, UiStrings> = {
     bioAgency: '소속사',
     bioMembers: '구성',
     bioDebut: '데뷔',
+    artistImageSourceNote: '사진 출처: 소속사 공식 프로필·보도자료 또는 위키미디어 커먼즈. 권리자 요청 시 삭제됩니다.',
     venue: '공연장',
     venueListTitle: '공연장',
     venueListSubtitle: '공연장별로 열리는 콘서트·페스티벌·팬미팅 일정을 모아봤어요.',
@@ -132,6 +134,7 @@ export const UI: Record<Locale, UiStrings> = {
     bioAgency: 'Agency',
     bioMembers: 'Members',
     bioDebut: 'Debut',
+    artistImageSourceNote: 'Image source: official agency profile/press materials or Wikimedia Commons. Removed promptly upon a rights holder’s request.',
     venue: 'Venues',
     venueListTitle: 'Venues',
     venueListSubtitle: 'Concerts, festivals, and fan meetings, grouped by venue.',
@@ -173,6 +176,7 @@ export const UI: Record<Locale, UiStrings> = {
     bioAgency: '所属',
     bioMembers: '構成',
     bioDebut: 'デビュー',
+    artistImageSourceNote: '画像出典: 所属事務所の公式プロフィール・報道資料またはWikimedia Commons。権利者の要請があれば速やかに削除します。',
     venue: '会場',
     venueListTitle: '会場',
     venueListSubtitle: '会場ごとにコンサート・フェス・ファンミーティング情報をまとめました。',

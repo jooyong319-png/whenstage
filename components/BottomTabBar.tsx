@@ -1,6 +1,6 @@
 'use client';
 import { usePathname } from 'next/navigation';
-import { UI, CAL, type Locale } from '@/lib/i18nLabels';
+import { UI, CAL, LOCALES, type Locale } from '@/lib/i18nLabels';
 
 interface Tab {
   href: string;
@@ -8,21 +8,17 @@ interface Tab {
   icon: string;
 }
 
+// ko도 반드시 포함해야 함 — 빠뜨리면(예전 버그) 기본 로케일(ko) 페이지에서 lang이 계속
+// null로 잡혀 아래 buildTabs가 "/news"처럼 로케일 접두사 없는 존재하지 않는 경로로 링크해버림.
 function detectLang(pathname: string): Locale | null {
-  const m = pathname.match(/^\/(en|ja)(\/|$)/);
-  return m ? (m[1] as Locale) : null;
+  const m = pathname.match(/^\/(ko|en|ja)(\/|$)/);
+  return m && (LOCALES as string[]).includes(m[1]) ? (m[1] as Locale) : null;
 }
 
 // 설치 앱(standalone) 전용 하단 내비. 웹(브라우저)에선 CSS로 숨김.
-function buildTabs(lang: Locale | null): Tab[] {
-  if (!lang) {
-    return [
-      { href: '/', label: '캘린더', icon: 'ic-calendar' },
-      { href: '/news', label: '뉴스', icon: 'ic-flame' },
-      { href: '/blog', label: '모아보기', icon: 'ic-file' },
-      { href: '/wishlist', label: '찜', icon: 'ic-star' },
-    ];
-  }
+// lang을 못 찾은 경우(예: /admin 등 로케일 없는 라우트)는 안전하게 ko로 폴백 — 링크가
+// 아예 깨지는 것보다 낫다(이 경로들에서 탭바 자체가 노출될 일은 거의 없음).
+function buildTabs(lang: Locale): Tab[] {
   const ui = UI[lang];
   const t = CAL[lang];
   const p = `/${lang}`;
@@ -36,8 +32,8 @@ function buildTabs(lang: Locale | null): Tab[] {
 
 export function BottomTabBar() {
   const pathname = usePathname();
-  const lang = detectLang(pathname);
-  const home = lang ? `/${lang}` : '/';
+  const lang = detectLang(pathname) ?? 'ko';
+  const home = `/${lang}`;
   const TABS = buildTabs(lang);
 
   return (
