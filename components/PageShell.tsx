@@ -17,7 +17,7 @@ interface Props {
 // 정적 생성이라 빌드 시각(KST) 기준 D-day(데이터 일일 갱신 시 재배포로 신선도 유지).
 export async function PageShell({ children, lang, sidebar }: Props) {
   const now = kstDateOnly(new Date().toISOString());
-  const defaultSidebar = sidebar ?? <FeaturedCards games={await getAllGames(lang)} now={now} variant="list" />;
+  const defaultSidebar = sidebar ?? <FeaturedCards games={await getAllGames(lang)} now={now} />;
 
   return (
     <div className={styles.layout}>

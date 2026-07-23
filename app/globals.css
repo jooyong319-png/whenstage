@@ -114,7 +114,9 @@ textarea:focus-visible,
   padding: 0.7rem 1.2rem;
   background: var(--bg);
 }
-/* 하단 라인 — 액센트 한 줄(마퀴 헤더 시그니처) */
+/* 하단 라인 — 무채색 바탕 위로 배너와 같은 카테고리색 빛줄기가 천천히 흘러감(오너 확정,
+   2026-07-23 "라인에도 배너 같은 느낌" — 시안 7번 "무빙 시그널 라인"). 별도 DOM 없이
+   background-position 애니메이션 하나로 처리. */
 .site-header::after {
   content: '';
   position: absolute;
@@ -122,7 +124,18 @@ textarea:focus-visible,
   right: 0;
   bottom: 0;
   height: 2px;
-  background: var(--accent);
+  background-color: var(--border);
+  background-image: linear-gradient(90deg, transparent, var(--accent) 45%, #4a5fe0 50%, #df3d78 55%, transparent);
+  background-size: 300% 100%;
+  background-repeat: no-repeat;
+  animation: headerSignalMove 6s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .site-header::after { animation: none; background-image: none; }
+}
+@keyframes headerSignalMove {
+  from { background-position: 150% 0; }
+  to { background-position: -150% 0; }
 }
 /* 마퀴 레이아웃 — 워드마크를 헤더 중앙에 절대배치, 좌우 유틸/내비는 그 아래 flex로 양끝 정렬 */
 .site-header .site-wordmark {
@@ -139,8 +152,39 @@ textarea:focus-visible,
 .site-header a { color: inherit; }
 .site-header a:hover { text-decoration: none; }
 .site-header .site-wordmark a {
+  display: inline-block;
   color: var(--text);
 }
+/* 헤더 미니 라이트쇼 — 홈 배너와 같은 재료(액센트+카테고리색 광원)를 훨씬 작게 재사용
+   (오너 확정, 2026-07-23 "배너랑 같은 느낌으로" — 헤더 위치/버튼 배치는 그대로 유지).
+   전용 래퍼(overflow:hidden)로만 광원을 자르고, .site-header 자체는 overflow 그대로 둬서
+   드롭다운 메뉴(.site-menu)가 안 잘리게 함. */
+.header-glow-bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+.header-glow {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(26px);
+}
+.header-glow-a { width: 130px; height: 130px; left: 4%; top: -70px; background: var(--accent); opacity: 0.18; animation: headerGlowA 9s ease-in-out infinite; }
+.header-glow-b { width: 100px; height: 100px; left: 22%; bottom: -70px; background: #df3d78; opacity: 0.16; animation: headerGlowB 11s ease-in-out infinite; }
+.header-glow-c { width: 90px; height: 90px; left: 40%; top: -60px; background: #1f9d52; opacity: 0.15; animation: headerGlowA 8s ease-in-out infinite reverse; }
+@keyframes headerGlowA { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(12px, 8px); } }
+@keyframes headerGlowB { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(-10px, 6px); } }
+@media (prefers-reduced-motion: reduce) {
+  .header-glow { animation: none; }
+}
+/* 로고·좌우 유틸 그룹은 광원 배경(position:absolute, z-index:0)보다 항상 위에 그려져야 함 —
+   static 요소는 positioned 요소 뒤로 밀리는 스태킹 규칙 때문에 명시적으로 위치 지정 필요.
+   .header-utils는 flex:1이라 가운데(워드마크) 영역까지 박스가 덮고 있어서, 같은 z-index면
+   DOM상 나중에 그려지는 쪽이 클릭을 가로챔 — 워드마크를 한 단계 위로 둬서 항상 클릭 가능하게. */
+.site-header .site-wordmark { z-index: 2; }
+.header-utils { position: relative; z-index: 1; }
 /* 좌측 그룹 내비 6링크 — 워드마크 옆에 붙이고, 유틸은 우측 끝으로 밀어냄 */
 .site-nav {
   display: flex;

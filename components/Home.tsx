@@ -2,8 +2,8 @@
 import { useState, useMemo, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import type { Game, FilterState } from '@/lib/types';
-import { normalizeArtistKey } from '@/lib/types';
-import { formatShortDate, kstDateOnly } from '@/lib/utils';
+import { normalizeArtistKey, CATEGORY_META } from '@/lib/types';
+import { formatShortDate, kstDateOnly, calcDayDiff } from '@/lib/utils';
 import { CalendarView } from './CalendarView';
 import { ListView } from './ListView';
 import { GameModal } from './GameModal';
@@ -149,6 +149,16 @@ export function Home({ initialGames, lastUpdated, serverNow, artistAliases }: Ho
 
   const ui = UI[lang];
 
+  // 히어로 마퀴 티커 — 확정일(approx 제외) 다가오는 일정 중 가까운 순 10개(실데이터, 장식 아님)
+  const tickerItems = useMemo(() => {
+    const today = new Date(now);
+    today.setHours(0, 0, 0, 0);
+    return initialGames
+      .filter(g => !g.release_date_approx && new Date(g.release_date) >= today)
+      .sort((a, b) => a.release_date.localeCompare(b.release_date))
+      .slice(0, 10);
+  }, [initialGames, now]);
+
   return (
     <div className={styles.home}>
       <motion.section
@@ -158,19 +168,57 @@ export function Home({ initialGames, lastUpdated, serverNow, artistAliases }: Ho
         transition={{ duration: 0.5, ease: 'easeOut' }}
       >
         <motion.span
-          className={styles.heroBlob1}
+          className={`${styles.heroBlob} ${styles.heroBlobA}`}
           aria-hidden="true"
-          animate={{ x: [0, 18, -6, 0], y: [0, -14, 10, 0], scale: [1, 1.06, 0.98, 1] }}
-          transition={{ duration: 14, repeat: Infinity, ease: 'easeInOut' }}
+          animate={{ x: [0, 22, -8, 0], y: [0, -16, 10, 0] }}
+          transition={{ duration: 13, repeat: Infinity, ease: 'easeInOut' }}
         />
         <motion.span
-          className={styles.heroBlob2}
+          className={`${styles.heroBlob} ${styles.heroBlobB}`}
           aria-hidden="true"
-          animate={{ x: [0, -16, 8, 0], y: [0, 12, -10, 0], scale: [1, 0.95, 1.05, 1] }}
-          transition={{ duration: 17, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
+          animate={{ x: [0, -18, 12, 0], y: [0, 14, -10, 0] }}
+          transition={{ duration: 16, repeat: Infinity, ease: 'easeInOut', delay: 0.5 }}
+        />
+        <motion.span
+          className={`${styles.heroBlob} ${styles.heroBlobC}`}
+          aria-hidden="true"
+          animate={{ x: [0, 16, -14, 0], y: [0, -12, 14, 0] }}
+          transition={{ duration: 11, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
+        />
+        <motion.span
+          className={`${styles.heroBlob} ${styles.heroBlobD}`}
+          aria-hidden="true"
+          animate={{ x: [0, -20, 8, 0], y: [0, 10, -14, 0] }}
+          transition={{ duration: 15, repeat: Infinity, ease: 'easeInOut', delay: 1.5 }}
+        />
+        <motion.span
+          className={`${styles.heroBlob} ${styles.heroBlobE}`}
+          aria-hidden="true"
+          animate={{ x: [0, 14, -10, 0], y: [0, 12, -8, 0] }}
+          transition={{ duration: 12.5, repeat: Infinity, ease: 'easeInOut', delay: 0.8 }}
         />
         <h1 className={styles.heroTitle}>{ui.heroTitle}</h1>
-        <p className={styles.heroSubtitle}>{ui.heroSubtitle}</p>
+        {tickerItems.length > 0 ? (
+          <div className={styles.tickerWrap}>
+            <div className={styles.tickerTrack}>
+              {[...tickerItems, ...tickerItems].map((g, i) => (
+                <a
+                  key={`${g.id}-${i}`}
+                  href={`/${lang}/concert/${g.id}`}
+                  className={styles.tickerItem}
+                  aria-hidden={i >= tickerItems.length || undefined}
+                  tabIndex={i >= tickerItems.length ? -1 : undefined}
+                >
+                  <span className={styles.tickerDday} style={{ color: CATEGORY_META[g.category].color }}>D-{calcDayDiff(g.release_date, now)}</span>
+                  <span className={styles.tickerName}>{g.name}</span>
+                  <span className={styles.tickerDate}>{formatShortDate(g.release_date)}</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        ) : (
+          <p className={styles.heroSubtitle}>{ui.heroSubtitle}</p>
+        )}
       </motion.section>
       <div className={styles.layout}>
         <div className={styles.main}>

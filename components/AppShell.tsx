@@ -51,6 +51,11 @@ export function AppShell({ children }: { children: React.ReactNode }) {
         <symbol id="ic-chevron-down" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6" /></symbol>
       </svg>
       <header className="site-header">
+        <span className="header-glow-bg" aria-hidden="true">
+          <span className="header-glow header-glow-a" />
+          <span className="header-glow header-glow-b" />
+          <span className="header-glow header-glow-c" />
+        </span>
         <SiteWordmark />
         <HeaderNav />
       </header>
