@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-07-22",
+  "last_updated": "2026-07-23",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -509,6 +509,54 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ko-jeonyujin-twenty-one-20260829",
+      "name": "전유진 2nd Fan Concert 'TWENTY-ONE'",
+      "release_date": "2026-08-29",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "올림픽공원 우리금융아트홀"
+      ],
+      "developer": "전유진",
+      "publisher": "제이레이블",
+      "description": "현역가왕 우승으로 차세대 트롯 여제로 떠오른 전유진의 두 번째 단독 팬 콘서트다. 스물한 살을 맞은 전유진이 한층 성장한 음악과 무대를 선보이며, 라이브 무대와 함께 토크·이벤트 등 팬들과 가까이 호흡하는 코너로 꾸며진다. 8월 29일 오후 6시와 30일 오후 5시 두 차례 서울 올림픽공원 우리금융아트홀에서 열리며, 티켓은 7월 23일 오후 7시 NOL 티켓을 통해 예매가 시작된다.",
+      "genres": [
+        "트로트",
+        "팬콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://www.gukjenews.com/news/articleView.html?idxno=3643427",
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-23T19:00:00+09:00",
+      "general_sale_url": null
+    },
+    {
+      "id": "ko-sungsikyung-with-friends-20260905",
+      "name": "2026 성시경 with friends [자, 오늘은]",
+      "release_date": "2026-09-05",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "올림픽공원 88잔디마당"
+      ],
+      "developer": "성시경",
+      "publisher": null,
+      "description": "'고막 남친'으로 불리는 성시경이 약 2년 만에 여는 야외 콘서트로, 가을 하늘과 노을을 배경으로 한 피크닉형 공연이다. 성시경을 중심으로 양희은, 이재훈, 원미연, 김장훈, 거미, 권진아, 김광진 등 실력파 보컬리스트가 총출동하고 인도네시아 슈퍼스타 라이사(Raisa)도 합류한다. 9월 5일과 6일 이틀간 서울 올림픽공원 88잔디마당에서 열리며, 티켓은 7월 24일 오후 8시 NOL 티켓에서 예매가 시작된다.",
+      "genres": [
+        "발라드",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://sports.khan.co.kr/article/202607211450003/",
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-24T20:00:00+09:00",
+      "general_sale_url": null
     }
   ]
 }
