@@ -2,6 +2,14 @@
 
 이 파일은 KO/EN/JA 3개 리서처 Claude가 공통으로 append하는 로그다. 오래된 로그도 삭제하지 말 것.
 
+## [2026-07-23 14:21] [EN 뉴스]
+뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
+- 신규 기사 2건: Rebecca Black's 'Exhibitionism' Tour Tickets Hit On-Sale This Week, Silvana Estrada's North American Tour Tickets Go On Sale
+- 콘서트 링크 연결 0건 / 링크 없음 2건 (concerts.en.json에 매칭 공연 없음)
+- 리서처 인계(leads) 2건 추가: Rebecca Black Exhibitionism Tour, Silvana Estrada North American Tour 2026 → data/leads.en.jsonl
+- 스킵(48시간 초과·중복·소스 불충분): J. Cole The Fall-Off(온세일 2월 완료), Daniel Caesar Son of Spergy(온세일 4월 완료), CORTIS Put Your Phone Down(온세일 6월 완료), Mike D/Jon Pardi(전 사이클 처리분 중복), Lewis Capaldi·Olivia Dean 추가공연(발표 시점 48h 초과)
+- 출처: Pollstar News (Rebecca Black 7/20 게재·7/22~24 온세일, Silvana Estrada 7/21 게재·7/22 프리세일 개시 — 둘 다 48h 내 팬 행동유발 온세일 기준 충족)
+
 ## [2026-07-23 14:16] [KO 뉴스]
 뉴스 작성 완료 (한국 국내 공연 뉴스)
 - 신규 기사 1건: 전유진, 두 번째 단독 팬 콘서트 'TWENTY-ONE'…오늘 오후 7시 티켓 오픈
