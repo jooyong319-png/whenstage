@@ -81,7 +81,7 @@ git config user.name "Artist Profile Curator Claude"
   기반으로 2~4문장. 사실관계(소속사, 결성 계기, 음악 색깔·세계관, 대표 활동)를 담되 홍보 문구처럼
   과장하지 않는다. 날짜·숫자는 반드시 출처 확인 후 기입 — 추측 금지.
 - **agency/members/debut**: 확인 안 되면 그 필드만 `null`로 둔다(카드 자체가 자동으로 안 뜬다 —
-  `app/[lang]/artist/[slug]/page.tsx`가 null 필드는 렌더링하지 않음). 억지로 채우지 말 것.
+  `app/(locale)/[lang]/artist/[slug]/page.tsx`가 null 필드는 렌더링하지 않음). 억지로 채우지 말 것.
 - **로케일 규칙**: 같은 아티스트라도 `ko`/`en`/`ja` 각각 그 언어로 새로 쓴다. 예를 들어 에스파는
   `bios.ko.에스파`, `bios.en.aespa`(영문 콘서트 데이터의 developer 표기가 다르면 그 표기 기준으로
   정규화한 키 사용), `bios.ja.aespa` 처럼 로케일마다 독립된 엔트리. 한 로케일만 먼저 채워도 무방.
@@ -98,6 +98,18 @@ git config user.name "Artist Profile Curator Claude"
 { "_comment": "...", "bios": { "ko": { "기존...": {...}, "새 아티스트명": { "text": "...", "agency": "...", "members": "...", "debut": "..." } }, "en": {...}, "ja": {...} } }
 ```
 - 기존 항목 삭제 금지, 새 항목만 추가(또는 비어있던 필드 보완).
+
+**검색 별칭도 같이 챙긴다 — `data/artist-aliases.json`** (선택이지만 권장): 사이트 검색은
+아티스트의 영문/로마자 이름(예: "bigbang")으로도 한국어 아티스트("빅뱅")를 찾게 해준다.
+그 매칭 표가 이 파일인데, 자동으로 안 채워지므로 **새 아티스트를 추가하면서 널리 알려진
+공식 영문/로마자 활동명을 여기에도 넣어준다.**
+```json
+// data/artist-aliases.json
+{ "_comment": "...", "aliases": { "빅뱅": ["BIGBANG", "Big Bang"], "새 아티스트명(정규화)": ["영문 활동명", ...] } }
+```
+- 키는 `artist-bios.json`과 동일하게 정규화된 한국어 표기. 값은 **확신하는 공식 표기만**
+  (발음대로 지어낸 로마자 금지 — 케이팝은 "방탄소년단→BTS"처럼 발음과 무관한 활동명이 흔함,
+  확실치 않으면 아예 안 넣는 게 낫다). bios `text`의 괄호 안 영문 표기가 좋은 출처.
 - JSON 검증 필수:
 ```bash
 python3 -c "import json; d=json.load(open('data/artist-images.json', encoding='utf-8')); print(len(d['images']),'개 이미지')"

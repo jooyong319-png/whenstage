@@ -48,7 +48,7 @@ git config user.name "Product Planner Claude"
 
 **실제 코드베이스를 훑는다(문서가 아니라 코드가 진실이다)**
 ```bash
-ls app/[lang]/                    # 실제 라우트 목록
+ls "app/(locale)/[lang]/"         # 실제 라우트 목록(로케일 페이지 — 멀티 루트 레이아웃)
 ls components/ | head -60          # 실제 컴포넌트 목록
 git log --oneline -30              # 최근 30개 커밋 — 최근 뭘 했는지, 반복 패턴 확인
 ```

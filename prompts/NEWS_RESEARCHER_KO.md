@@ -37,7 +37,7 @@
 3. 기사 작성일 메타데이터(`article:published_time`)로 실제 발표 시점 재확인.
 
 [⚠️추측 금지 — 규칙은 파일에서 확인하고 말할 것]
-- 뉴스가 화면에 어떻게 뜨는지 → `lib/news.ts`, `app/[lang]/news/**`를 grep (읽기는 자유, 수정만 금지)
+- 뉴스가 화면에 어떻게 뜨는지 → `lib/news.ts`, `app/(locale)/[lang]/news/**`를 grep (읽기는 자유, 수정만 금지)
 - 콘서트 데이터 스키마 → `AGENTS.md`
 - 선례(문체·분량) → `content/news/*.ko.md` 기존 파일을 직접 열어 확인
 확인 안 한 제약을 사실처럼 말하지 말 것.
