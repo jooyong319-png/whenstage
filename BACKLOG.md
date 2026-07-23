@@ -127,3 +127,44 @@
   - not-found 화면의 디자인/문구 변경은 이번 범위가 아니다(상태 코드만 고친다).
   - `app/(locale)/[lang]/`·`app/(app)/` 멀티 루트 레이아웃 구조 자체를 되돌리는 것은
     범위 아님(2026-07-23 SEO 작업의 핵심 목적이므로 유지).
+
+## [20260724-01] 쉼표로 여러 아티스트를 한 `developer`에 담은 항목이 "합쳐진 유령 아티스트"로 묶이는 문제
+- 상태: 대기
+- 등록일: 2026-07-24
+- 우선순위: P1(잘못된 아티스트 페이지가 실제로 노출·색인 + 콘텐츠 파이프라인 오탐을 매 사이클 유발)
+- 근거: 라이브 `https://whenstage.com/en` 확인 + 코드/데이터 대조로 확정. `lib/artists.ts`
+  `getAllArtists()`가 `normalizeArtistKey(g.developer)` 하나를 그룹 키로 쓰는데,
+  `data/concerts.en.json`에 `"developer": "Avenged Sevenfold, Good Charlotte"`,
+  `"developer": "Lupe Fiasco, Gym Class Heroes, B.o.B"`처럼 쉼표로 여러 아티스트를 한 필드에
+  담은 항목이 있어(EN 2건, KO/JA 0건) 이 둘이 각각 "Avenged Sevenfold, Good Charlotte" /
+  "Lupe Fiasco, Gym Class Heroes, B.o.B"라는 **하나의 합쳐진 유령 아티스트 카드**로
+  `/en/artist` 목록·상세에 뜬다. 콘서트 상세(`app/(locale)/[lang]/concert/[id]/page.tsx`
+  82·186행)의 아티스트 칩도 `/artist/{normalizeArtistKey(developer)}` 즉 이 합쳐진 슬러그로
+  링크된다. 전자는 이미 그 합친 키로 bio/이미지가 채워져 있고, 후자(Lupe Fiasco…)는 프로필이
+  비어 `prompts/PLANNER.md`가 매 사이클 "프로필 필요" 오탐 신호를 낸다(이미 `PROJECT_STATUS.md`
+  "제안(승인 대기)" 2026-07-23 항목으로 기록돼 있던 관찰을 이번에 backlog로 이관·구체화).
+- 스펙:
+  - 한 `developer` 문자열에 여러 아티스트가 담긴 경우 이를 개별 아티스트로 분리해 각자
+    자기 카드/그룹으로 묶이도록 `lib/artists.ts` `getAllArtists()`의 그룹핑을 고친다.
+    분리용 헬퍼(예: `splitArtists(developer): string[]`)를 만들어, `getAllArtists()`가 한
+    콘서트를 분리된 아티스트 각각의 그룹에 넣도록 한다(한 콘서트가 여러 아티스트 그룹에 동시
+    소속될 수 있음).
+  - **분리 규칙의 오탐(false split)을 반드시 막을 것** — "Tyler, the Creator", "Earth, Wind & Fire"
+    처럼 아티스트명 자체에 쉼표가 들어가는 케이스를 단순 `split(',')`로 쪼개면 안 된다.
+    구현 방향(개발 담당 재량): 쉼표 분리 후 각 조각을 트림하되, 알려진 예외를 거르는
+    작은 큐레이션 목록(또는 데이터에 명시적 다중-아티스트 구분자 도입)을 쓰는 등 보수적으로.
+    확신 없으면 안 쪼개는 게 원칙(틀리게 합치는 것보다 틀리게 쪼개는 게 더 나쁨).
+  - 콘서트 상세(`concert/[id]/page.tsx`)의 아티스트 칩(186행)과 사이드바(82·102행)도 분리에
+    맞춰 손본다 — 다중 아티스트면 칩을 아티스트별로 각각 렌더하거나, 최소한 존재하는 개별
+    아티스트 슬러그로 링크가 가게 한다(합쳐진 슬러그로 링크가 남지 않게).
+  - 처리 후 `PROJECT_STATUS.md`의 해당 "제안(승인 대기)" 항목 옆에 "→ 20260724-01로 backlog
+    이관" 한 줄을 남긴다(제안이 계속 미결로 보이지 않게 — 삭제는 사람 몫이므로 표시만).
+- 완료 조건:
+  - [ ] `/en/artist` 목록에 "Avenged Sevenfold, Good Charlotte" / "Lupe Fiasco, Gym Class Heroes, B.o.B" 같은 합쳐진 유령 카드가 사라지고 개별 아티스트로 분리돼 나온다
+  - [ ] 위 두 콘서트의 상세 페이지 아티스트 칩이 존재하는 개별 아티스트 슬러그로 링크된다(합쳐진 슬러그 링크 0건)
+  - [ ] 쉼표가 이름에 든 단일 아티스트(회귀 테스트용: "Tyler, the Creator" 같은 예)가 잘못 쪼개지지 않는다
+  - [ ] `npm run typecheck` / `npm run build` 통과
+- 범위 아닌 것:
+  - `data/concerts.*.json` 콘텐츠 편집(리서처 담당 영역 — 코드로 데이터를 고치지 않는다)
+  - `developer` 필드를 문자열→배열로 바꾸는 전면 스키마 마이그레이션(수십 컴포넌트 영향, 별도 대형 항목으로 미룸 — `wiki/decisions.md`가 필드 리네임/구조 변경을 우선순위 낮음으로 명시)
+  - 공연장(`platforms`) 그룹핑(`lib/venues.ts`)은 다중-공연장 사례가 관측되지 않아 이번 범위 아님
