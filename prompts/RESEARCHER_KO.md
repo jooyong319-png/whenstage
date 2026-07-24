@@ -114,8 +114,16 @@ python3 -c "import json; d=json.load(open('data/concerts.ko.json')); print('KO',
 작은 회색 아이콘이 노출되는 사고로 이어진다). 대략 100×100px 미만이거나 파일 크기가 비정상적으로 작으면
 (수백 바이트 수준) 십중팔구 기본 placeholder이니 폐기하고 다음 우선순위로 넘어갈 것.
 
-1) 예매처 공연 상세 페이지의 og:image(인터파크/멜론티켓/예스24) — web_fetch로 해당 공연 페이지 열어 og:image 추출.
-   보통 공식 포스터라 가장 신뢰도 높음. (실전 확인: 멜론티켓·인터파크는 대체로 잘 됨)
+1) 예매처 공연 상세 페이지의 og:image(인터파크·NOL/멜론티켓/예스24) — **Claude in Chrome(브라우저 확장) 우선 사용.**
+   예매처 상세 페이지는 대부분 JS 렌더링이라 web_fetch로 열면 빈 껍데기만 오고 og:image·예매 URL이 안 잡힌다(실전 확인됨).
+   브라우저 도구로 해당 공연 페이지를 실제로 연 뒤 다음을 뽑는다:
+     - og:image: `javascript_tool`로 `document.querySelector('meta[property="og:image"]').content` 추출.
+       (인터파크는 대개 `ticketimage.interpark.com/Play/image/large/…/<goods>_p.gif`, 예스24는 `tkfile.yes24.com/…-<Perf>.jpg` 형태)
+     - `new Image()`로 naturalWidth/Height를 찍어 실제 포스터인지 검증(위 100×100px 미만 placeholder 거르기 그대로 적용).
+   공연명만 알고 goods/Perf id를 모르면 예매처 검색으로 역추적한다:
+     - 인터파크: `tickets.interpark.com/contents/search?keyword=<아티스트명>` (단독판매가 아닌 공연은 안 뜰 수 있음)
+     - 예스24: 메인(`ticket.yes24.com`) 헤더 검색창에 아티스트명 입력→Enter, 결과의 `/Perf/<id>` 링크 확인(예스24 전용 판매가 여기서 잡힘)
+   보통 공식 포스터라 신뢰도가 가장 높다. (브라우저 확장이 연결 안 돼 있으면 web_fetch로 시도하되, 안 되면 다음 순위로.)
 2) 위키피디아 아티스트 문서의 인포박스 이미지 — 봇 차단이 없고 안정적이라 좋은 대안. 영어 위키피디아가 없으면
    한국어 위키피디아도 확인.
    ⚠️ **반드시 `upload.wikimedia.org/wikipedia/commons/...`(위키미디어 커먼즈, 자유 라이선스)만 쓸 것.**
@@ -136,7 +144,7 @@ python3 -c "import json; d=json.load(open('data/concerts.ko.json')); print('KO',
 - `presale`/`general_sale`: 해당 구간이 임박/진행 중이면 true. 공연이 지나면 자연히 "예정"에서 빠지므로 별도 false 처리는 선택.
 - `presale_datetime`/`general_sale_datetime`: 시작 일시(위 타임존 형식). 확정되면 반드시 채울 것.
 - `*_end_datetime`: 대개 비워둠(매진 시까지 판매). 한정 판매로 마감일이 명시된 경우만.
-- `presale_url`/`general_sale_url`: **실제 예매 페이지 URL**(인터파크/멜론티켓 등). 뉴스 기사 URL은 여기 아니고 `source_url`.
+- `presale_url`/`general_sale_url`: **실제 예매 페이지 URL**(인터파크 `tickets.interpark.com/goods/<id>`, 예스24 `ticket.yes24.com/Perf/<id>` 등). 뉴스 기사 URL은 여기 아니고 `source_url`. 뉴스에 예매처만 나오고 딥링크가 없으면 위 '이미지 소싱'과 동일하게 Claude in Chrome으로 예매처를 검색해 정확한 goods/Perf URL을 확보한다(예매처 검색 결과는 JS라 web_fetch로는 대개 실패).
 - 이 필드들은 이미 types.ts에 정의된 기존 선택 필드다. 채우는 건 '스키마 변경'이 아니니 주저 말 것.
 
 ### 페스티벌 데이별 라인업(`festival_days`) — AGENTS.md §4-3 참고
@@ -218,7 +226,7 @@ git push
 10. 해외 단독 개최 공연(한국 미개최) 제외 — 그건 EN/JA 리서처 영역
 11. 모든 항목 영구 보존 — 삭제 금지. 6개월/미래 조건은 '새 추가' 필터일 뿐 삭제 근거 아님
 12. 티켓팅(`presale`/`general_sale`) 정보는 공식/예매처에서 확인된 것만 true. 종료/공연 완료 시 해제. url·시작일도 최대한 채울 것. 둘은 별개 이벤트이니 섞어 쓰지 말 것
-13. image_url은 예매처 og:image 우선, 폴백 아티스트 공식 유튜브 채널 아바타. 만료성 URL(네이버 이미지검색 등) 금지, 확신 없으면 null
+13. image_url은 예매처 og:image 우선(예매처 페이지는 JS 렌더링이라 Claude in Chrome으로 열어 추출), 폴백 위키미디어 커먼즈/아티스트 공식 채널. 만료성 URL(네이버 이미지검색 등) 금지, 실제 열어 크기 검증, 확신 없으면 null
 14. description은 원본 재서술(한국어 최소 130자, 권장 150~300자), 보도자료 복붙 금지, 사실만
 15. 데이터/기사 push 전 fetch + rebase origin/main 필수, 충돌 시 abort 후 보류(강제 push 금지) — CHAT.md push는 예외로, 충돌 시 재시도(위 CHAT.md Push 단계 참고)
 16. 의심스러우면 추가 안 함이 정답
