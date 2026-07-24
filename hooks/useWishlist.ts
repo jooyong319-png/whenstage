@@ -1,6 +1,7 @@
 'use client';
 import { useCallback, useSyncExternalStore } from 'react';
 import { showToast } from '@/lib/toast';
+import { CAL, type Locale } from '@/lib/i18nLabels';
 import { pushSupported, pushConfigured, isNotifyOptedOut, subscribePush } from '@/lib/push';
 
 const KEY = 'whenstage.wishlist.v1';
@@ -108,7 +109,9 @@ function toggleId(id: string): void {
   if (added && shouldNudgeNotify()) {
     nudgeNotify([...next]);
   } else {
-    showToast(added ? '찜 목록에 추가됨' : '찜 목록에서 제거됨');
+    const lang = (typeof document !== 'undefined' && document.documentElement.lang) || 'ko';
+    const cal = CAL[lang as Locale] ?? CAL.ko;
+    showToast(added ? cal.wishlistAddedToast : cal.wishlistRemovedToast);
   }
 }
 

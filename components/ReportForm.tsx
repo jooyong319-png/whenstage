@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { submitReport, reportsConfigured, type ReportKind, type ReportTargetType } from '@/lib/reports';
 import { showToast } from '@/lib/toast';
+import { CAL, type Locale } from '@/lib/i18nLabels';
 import styles from './ReportForm.module.css';
 
 interface Props {
@@ -42,7 +43,8 @@ export function ReportForm({ kind, targetType, targetId, locale, buttonLabel, pl
       setContact('');
       showToast(successLabel);
     } else {
-      showToast(`${submitLabel} 실패: ${r.error ?? '알 수 없음'}`, 5000);
+      const cal = CAL[locale as Locale] ?? CAL.ko;
+      showToast(cal.reportFailToast(submitLabel, r.error ?? cal.reportUnknownError), 5000);
     }
   };
 

@@ -209,6 +209,8 @@ interface CalUiStrings {
   searchPlaceholder: string;
   wishlist: string;
   wishlistOnly: string;
+  wishlistAddedToast: string;
+  wishlistRemovedToast: string;
   today: string;
   noImage: string;
   lastUpdated: string;
@@ -279,6 +281,8 @@ interface CalUiStrings {
   reportSubmit: string;
   reportContactPlaceholder: string;
   reportCancel: string;
+  reportFailToast: (label: string, reason: string) => string;
+  reportUnknownError: string;
   totalItems: (count: number) => string;
   noSearchResults: string;
   myWishlist: string;
@@ -308,6 +312,8 @@ export const CAL: Record<Locale, CalUiStrings> = {
     searchPlaceholder: '공연명 검색…',
     wishlist: '찜',
     wishlistOnly: '찜한 것만 보기',
+    wishlistAddedToast: '찜 목록에 추가됨',
+    wishlistRemovedToast: '찜 목록에서 제거됨',
     today: '오늘',
     noImage: '이미지 없음',
     lastUpdated: '데이터 마지막 갱신',
@@ -375,6 +381,8 @@ export const CAL: Record<Locale, CalUiStrings> = {
     reportSubmit: '제보하기',
     reportContactPlaceholder: '답변받을 이메일(선택)',
     reportCancel: '취소',
+    reportFailToast: (label, reason) => `${label} 실패: ${reason}`,
+    reportUnknownError: '알 수 없음',
     totalItems: (count) => `총 ${count}개`,
     noSearchResults: '검색 결과가 없어요.',
     myWishlist: '내 찜',
@@ -402,6 +410,8 @@ export const CAL: Record<Locale, CalUiStrings> = {
     searchPlaceholder: 'Search shows…',
     wishlist: 'Wishlist',
     wishlistOnly: 'Wishlist only',
+    wishlistAddedToast: 'Added to wishlist',
+    wishlistRemovedToast: 'Removed from wishlist',
     today: 'Today',
     noImage: 'No image',
     lastUpdated: 'Data last updated',
@@ -469,6 +479,8 @@ export const CAL: Record<Locale, CalUiStrings> = {
     reportSubmit: 'Submit',
     reportContactPlaceholder: 'Email for a reply (optional)',
     reportCancel: 'Cancel',
+    reportFailToast: (label, reason) => `${label} failed: ${reason}`,
+    reportUnknownError: 'Unknown',
     totalItems: (count) => `${count} total`,
     noSearchResults: 'No results found.',
     myWishlist: 'My Wishlist',
@@ -496,6 +508,8 @@ export const CAL: Record<Locale, CalUiStrings> = {
     searchPlaceholder: '公演名を検索…',
     wishlist: 'お気に入り',
     wishlistOnly: 'お気に入りのみ表示',
+    wishlistAddedToast: 'お気に入りに追加しました',
+    wishlistRemovedToast: 'お気に入りから削除しました',
     today: '今日',
     noImage: '画像なし',
     lastUpdated: 'データ最終更新',
@@ -563,6 +577,8 @@ export const CAL: Record<Locale, CalUiStrings> = {
     reportSubmit: '報告する',
     reportContactPlaceholder: '返信用メール(任意)',
     reportCancel: 'キャンセル',
+    reportFailToast: (label, reason) => `${label}に失敗しました: ${reason}`,
+    reportUnknownError: '不明',
     totalItems: (count) => `合計${count}件`,
     noSearchResults: '検索結果がありません。',
     myWishlist: 'マイお気に入り',
