@@ -602,14 +602,18 @@ textarea:focus-visible,
   align-items: flex-start;
   margin-bottom: 1.2rem;
 }
+/* 상세 커버 — 작은 정사각형 대신 풀폭 히어로(블러 배경 + contain, BlogHero와 동일 결).
+   자르지 않고 전체를 보여주고 남는 여백은 같은 이미지 블러로 채워, 세로/정사각 이미지도
+   의도된 커버처럼 보이게 한다. */
 .game-detail .detail-thumb {
   position: relative;
-  flex: 0 0 auto;
-  width: clamp(120px, 20vw, 168px);
-  aspect-ratio: 1 / 1;
-  border-radius: var(--radius-sm);
+  width: 100%;
+  height: 340px;
+  margin: 0 0 1.3rem;
+  border-radius: var(--radius-lg);
   overflow: hidden;
-  background: var(--bg);
+  border: 1px solid var(--border);
+  background: var(--bg-elev);
 }
 .game-detail .detail-header-info { flex: 1 1 auto; min-width: 0; }
 /* 이미지 없을 때 통일 플레이스홀더 ('이미지 없음') */
@@ -679,7 +683,7 @@ textarea:focus-visible,
   .game-detail { padding: 1.2rem 1.1rem 1.6rem; }
   .game-detail h1 { font-size: 1.5rem; }
   .game-detail .detail-header { gap: 1rem; }
-  .game-detail .detail-thumb { width: clamp(96px, 30vw, 120px); }
+  .game-detail .detail-thumb { height: 210px; }
   .game-detail .detail-meta { grid-template-columns: 1fr; }
   .detail-actions .detail-link { flex: 1 1 auto; justify-content: center; }
 }
