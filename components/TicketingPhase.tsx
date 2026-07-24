@@ -3,7 +3,7 @@ import { Fragment, useEffect, useState } from 'react';
 import { useLocale } from '@/hooks/useLocale';
 import { CAL } from '@/lib/i18nLabels';
 import { formatEventDateTime } from '@/lib/utils';
-import styles from './PreRegCountdown.module.css';
+import styles from './TicketingPhase.module.css';
 
 interface Props {
   label: string;                    // '선예매' / '일반예매' 등 이 구간의 이름
