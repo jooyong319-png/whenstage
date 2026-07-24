@@ -257,8 +257,9 @@
   - 배지 문구/디자인/폭 변경(한국어 노출 제거가 최우선), `HeroSpotlight`의 캐러셀 로직·모션
 
 ## [20260725-01] 클라이언트 토스트가 하드코딩 한국어라 EN/JA 로케일에 그대로 새는 문제
-- 상태: 대기
+- 상태: 완료 (2026-07-25, 커밋 331bcaf)
 - 등록일: 2026-07-25
+- 처리 기록(2026-07-25, 개발 담당): 스펙대로 두 곳의 하드코딩 한국어 토스트를 로케일화. (1) `hooks/useWishlist.ts:111` 찜 추가/제거 확인 토스트 — 같은 파일 `NUDGE_COPY`가 쓰던 검증된 `document.documentElement.lang` 로케일 판별 패턴을 따라, `lib/i18nLabels.ts` `CAL`에 `wishlistAddedToast`/`wishlistRemovedToast`를 ko/en/ja로 신설하고 `CAL[lang as Locale] ?? CAL.ko`로 문자열 선택(모듈 레벨 함수라 `useLocale()` 못 씀 → html lang 읽기가 맞음). (2) `components/ReportForm.tsx:45` 제보 실패 토스트 — 이미 받던 `locale` prop을 써 `CAL[locale as Locale] ?? CAL.ko`에서 `reportFailToast(label, reason)`/`reportUnknownError`를 신설·사용(“ 실패:”/“알 수 없음” 하드코딩 제거). `CAL` ja 찜 토스트는 파일 전반의 위시리스트 용어(お気に入り)와 통일. 한국어 값은 폴백(lang 미상 시 CAL.ko)으로 유지 — ko 페이지 문구 불변. **검증 = 타입체크 + 코드 리뷰**(저위험 5-A 표시 문자열 변경이라 무거운 `npm run build` 생략): `./node_modules/.bin/tsc --noEmit` ✅ 오류 0, `grep -rn '찜 목록에 추가됨\|찜 목록에서 제거됨' hooks/ components/` 및 `grep '실패:\|알 수 없음' components/ReportForm.tsx` 모두 표시 경로 잔존 0건(한국어는 CAL.ko 딕셔너리로만 존재). 전체 빌드는 환경 되면 Vercel 프리뷰에서 EN/JA 찜 토글·제보 실패 토스트 육안 확인 권장(SSG 완주 못 하는 샌드박스 제약).
 - 우선순위: P2(확실한 i18n 개선 — 단, SEO 색인 대상이 아닌 일시적 클라이언트 토스트라 카테고리 배지 누수(-02/-03)보다 노출 지속성은 낮음. 대신 찜 토스트는 찜 토글마다 매번 뜨는 고빈도 UI)
 - 근거: 코드 대조로 확정. 두 곳의 `showToast(...)` 호출이 로케일과 무관하게 한국어 문자열을 하드코딩해, EN/JA 사용자에게도 한국어 토스트가 그대로 뜬다 — 최근 사이클들이 반복해 고쳐온 "카테고리 배지 로케일 누수(-02/-03)"와 같은 클래스의 잔여 i18n 갭이고, `wiki/todo.md`의 "다듬을거리"에도 찜 토스트가 이미 플래그돼 있다.
   - `hooks/useWishlist.ts:111` — `showToast(added ? '찜 목록에 추가됨' : '찜 목록에서 제거됨')`. 찜 추가/제거 토글마다 매번 뜨는 고빈도 확인 토스트인데 로케일 분기가 없다. **바로 위 같은 파일**의 첫-찜 넛지(`NUDGE_COPY`, 9~13행 ko/en/ja 완비 + 32행에서 `document.documentElement.lang`로 현재 로케일을 읽는 패턴)가 이미 이 문제를 풀어놨으므로, 같은 파일 안에 따라 쓸 검증된 패턴이 있다. `toggleId`는 React 컴포넌트가 아니라 모듈 레벨 함수라 `useLocale()`을 못 쓰지만, `NUDGE_COPY`처럼 `document.documentElement.lang`을 읽으면 된다(멀티 루트 레이아웃이 `<html lang>`을 서버에서 정확히 렌더하므로 신뢰 가능).
