@@ -8,6 +8,11 @@ import { normalizeArtistKey } from './types';
 // 아티스트 전용 큐레이션 이미지(공연/발매 리서치와 분리 관리) — data/artist-images.json.
 // 콘서트 엔트리의 image_url을 재활용하면 행사 스냅샷이 섞여 품질이 들쭉날쭉해지므로,
 // 대표 이미지는 이 파일을 우선 쓰고 없을 때만 콘서트 이미지로 폴백한다.
+// (정규화된 아티스트명 → 이미지 URL) 맵을 그대로 노출 — 콘서트 카드가 image_url 없을 때
+// developer로 아티스트 이미지를 폴백 조회하는 데 씀.
+export function getArtistImageMap(): Promise<Record<string, string>> {
+  return getCuratedImages();
+}
 let curatedImagesCache: Promise<Record<string, string>> | null = null;
 function getCuratedImages(): Promise<Record<string, string>> {
   if (!curatedImagesCache) {

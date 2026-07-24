@@ -6,6 +6,7 @@ import { normalizeArtistKey, CATEGORY_META } from '@/lib/types';
 import { formatShortDate, kstDateOnly, calcDayDiff } from '@/lib/utils';
 import { CalendarView } from './CalendarView';
 import { ListView } from './ListView';
+import { UpcomingStrip } from './UpcomingStrip';
 import { GameModal } from './GameModal';
 import { useWishlist } from '@/hooks/useWishlist';
 import { useWishlistFilter } from '@/hooks/useWishlistFilter';
@@ -18,9 +19,10 @@ interface HomeProps {
   lastUpdated: string;
   serverNow: string;
   artistAliases: Record<string, string[]>;
+  cardImages: Record<string, string>;
 }
 
-export function Home({ initialGames, lastUpdated, serverNow, artistAliases }: HomeProps) {
+export function Home({ initialGames, lastUpdated, serverNow, artistAliases, cardImages }: HomeProps) {
   const lang = useLocale();
   const t = CAL[lang];
   const [filters, setFilters] = useState<FilterState>({
@@ -159,6 +161,17 @@ export function Home({ initialGames, lastUpdated, serverNow, artistAliases }: Ho
       .slice(0, 10);
   }, [initialGames, now]);
 
+  // 캘린더 아래 "다가오는 일정" 스트립용 — 카테고리/찜 필터 반영(filteredGames 기반), 오늘 이후만,
+  // 가까운 순 12개. 캘린더의 빈 공간을 이미지 카드로 채운다.
+  const upcomingForStrip = useMemo(() => {
+    const today = new Date(now);
+    today.setHours(0, 0, 0, 0);
+    return filteredGames
+      .filter(g => g.release_date_approx || new Date(g.release_date) >= today)
+      .sort((a, b) => a.release_date.localeCompare(b.release_date))
+      .slice(0, 12);
+  }, [filteredGames, now]);
+
   return (
     <div className={styles.home}>
       <motion.section
@@ -276,6 +289,10 @@ export function Home({ initialGames, lastUpdated, serverNow, artistAliases }: Ho
         />
       )}
       </motion.div>
+
+          {!showList && (
+            <UpcomingStrip games={upcomingForStrip} cardImages={cardImages} now={now} onPick={openModal} />
+          )}
 
           <p className={styles.lastUpdated}>
             {t.lastUpdated}: {formatShortDate(lastUpdated.slice(0, 10))}
