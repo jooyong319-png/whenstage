@@ -276,3 +276,48 @@
   - `NotifyToggle.tsx`의 토스트(이미 `t ? t.notifyOnToast : '한국어'`로 로케일 분기됨 — 한국어는 SSR t=null 폴백일 뿐 정상)는 손대지 않는다.
   - 토스트 문구/디자인/지속시간 변경, `lib/toast.ts` 로직 변경(한국어 누수 제거가 최우선).
   - 카테고리 배지 누수(-02/-03가 담당) 중복 처리.
+
+## [20260725-02] InstallPrompt(앱 설치 배너) 문구가 통째로 하드코딩 한국어라 EN/JA에 그대로 새는 문제
+- 상태: 대기
+- 등록일: 2026-07-25
+- 우선순위: P2(확실한 i18n 개선 — 단 SSR HTML에 안 실리는 조건부 클라이언트 배너라 SEO 색인 대상은 아님. 대신 EN/JA 사용자가 설치를 시도하는 순간 배너 전체가 한국어라 노출 시 이질감이 큼)
+- 근거: 코드 대조로 확정. `components/InstallPrompt.tsx`는 `components/AppShell.tsx:67`에서 렌더돼 **모든 로케일(ko/en/ja) 공통 크롬**으로 붙는데, 배너에 뜨는 표시 문자열이 전부 로케일 분기 없이 한국어로 하드코딩돼 있다 — 최근 사이클들이 반복해 고쳐온 "하드코딩 한국어 로케일 누수(-01 토스트, -02/-03 카테고리 배지)"와 정확히 같은 클래스의 잔여 i18n 갭이고, `BACKLOG.md`·`wiki/todo.md` 어디에도 아직 등록되지 않았다. 해당 컴포넌트는 `use client`라 `hooks/useLocale.ts`(usePathname으로 `/ko|/en|/ja` 판별, ko 폴백)를 바로 쓸 수 있는데 현재는 `useLocale`을 import하지 않는다. 누수 위치:
+  - `InstallPrompt.tsx:89` — 제목 `<strong>앱으로 설치하기</strong>`
+  - `InstallPrompt.tsx:78~81` — 3개 모드별 설명(`sub`): iOS `'공유 버튼 → "홈 화면에 추가"로 설치하세요.'` / Play `'Google Play에서 설치하고 출시 알림까지 받아보세요.'` / PWA `'홈 화면에서 바로 열고, 출시 알림까지 받아보세요.'`
+  - `InstallPrompt.tsx:94` — Play CTA 텍스트 `Play 스토어`
+  - `InstallPrompt.tsx:98` — PWA 설치 버튼 텍스트 `설치`
+  - `InstallPrompt.tsx:84` — 배너 `aria-label="앱 설치 안내"`, `:100` — 닫기 버튼 `aria-label="닫기"`
+- 스펙:
+  - `components/InstallPrompt.tsx`의 위 표시 문자열(제목·3개 sub·CTA 2종·aria-label 2종)을 로케일별로 분기한다. 구현 방향(개발 담당 재량): `hooks/useLocale.ts`의 `useLocale()`로 현재 lang을 얻고, 문구는 `lib/i18nLabels.ts`에 install 배너용 키(예: `installTitle`, `installSubIos`/`installSubPlay`/`installSubPwa`, `installCtaPlay`, `installCtaPwa`, `installAriaBanner`, `installAriaClose`)를 ko/en/ja로 신설해 `CAL[lang]` 또는 `UI[lang]`(프로젝트 관례에 맞는 쪽)에서 읽는다. 다른 로케일 UI 문구가 대부분 `CAL`/`UI` 딕셔너리에 모여 있으므로 거기에 추가하는 게 일관됨.
+  - 한국어 값 자체는 폴백으로 유지(lang 미상 시 ko). ko 배너는 기존과 동일 문구.
+  - `PLAY_STORE_URL`·설치 로직·`localStorage` dismiss·모드 판별(iOS/PWA/Play) 등 **동작 코드는 손대지 않는다**(표시 문자열만 로케일화).
+- 완료 조건:
+  - [ ] EN/JA 로케일에서 설치 배너의 제목·설명·CTA·aria-label이 각 로케일 언어로 뜬다(한국어 노출 0건), ko는 기존 문구 유지
+  - [ ] iOS/PWA/Play 세 모드 문구가 각각 로케일화됨
+  - [ ] `grep -n "앱으로 설치하기\|Play 스토어\|앱 설치 안내" components/InstallPrompt.tsx` 결과가 폴백/주석 외 표시 경로에 남지 않음
+  - [ ] `npm run typecheck` 통과(표시 문자열만 바꾸는 저위험 변경 — 전체 빌드는 환경 되면 Vercel 프리뷰로 확인 권장)
+- 범위 아닌 것:
+  - `PLAY_STORE_URL` 값 채우기·Play 스토어 실제 출시(사람 판단 영역), 설치/dismiss 로직·모드 판별 변경
+  - 배너 디자인/`InstallPrompt.module.css` 변경(한국어 누수 제거가 최우선)
+  - 다른 컴포넌트의 i18n 누수(-01/-02/-03가 담당한 토스트·카테고리 배지) 중복 처리
+
+## [20260725-03] ViewCounter(조회수) "회 조회"/"조회수"가 하드코딩 한국어라 EN/JA에 그대로 새는 문제
+- 상태: 대기
+- 등록일: 2026-07-25
+- 우선순위: P2(확실한 i18n 개선 — SSR HTML에 안 실리는 클라이언트 렌더 값이라 SEO 색인 대상은 아니나, EN/JA 콘서트 상세 페이지마다 노출되는 표시 문자열)
+- 근거: 코드 대조로 확정. `components/ViewCounter.tsx`는 `app/(locale)/[lang]/concert/[id]/page.tsx:239`에서 모든 로케일 콘서트 상세에 렌더되는데, 조회수 라벨이 로케일 분기 없이 한국어로 하드코딩돼 EN/JA 상세 페이지에도 한국어가 그대로 뜬다 — -01/-02/-03과 같은 클래스의 미등록 i18n 갭. 이 컴포넌트도 `use client`라 `useLocale()`를 바로 쓸 수 있으나 현재 import하지 않는다. 누수 위치:
+  - `ViewCounter.tsx:66` — 시각 라벨 `<span className={styles.label}>회 조회</span>`
+  - `ViewCounter.tsx:63` — 컨테이너 `aria-label="조회수"`
+  `lib/i18nLabels.ts`에 조회수 표시용 키는 아직 없다(`viewOriginal`/`viewSource`는 "원문 보기"/"출처 보기"로 의미가 다름 — 재사용 금지).
+- 스펙:
+  - `components/ViewCounter.tsx`의 "회 조회"(:66)와 `aria-label`(:63)을 로케일별로 분기한다. 구현 방향(개발 담당 재량): `useLocale()`로 lang을 얻고, `lib/i18nLabels.ts`에 조회수 라벨 키(예: `views`, `viewsAria`)를 ko/en/ja로 신설해 `CAL[lang]`/`UI[lang]`에서 읽는다. 한국어는 숫자 뒤에 "회 조회"가 붙는 어순인데(`{count} 회 조회`), en/ja는 어순이 달라(예: en `{count} views`, ja `{count} 回閲覧`) **숫자와 라벨의 결합 방식이 로케일마다 다를 수 있음**을 고려해 라벨 문자열에 위치를 녹이거나(예: 접미/접두) 개발 담당이 각 로케일 자연스러운 표기를 정한다.
+  - 한국어 값 자체는 폴백으로 유지(lang 미상 시 ko). ko 표기는 기존과 동일.
+  - 조회수 집계 로직(`shouldCount`/supabase insert·select)·`ViewCounter.module.css`는 손대지 않는다(표시 문자열만).
+- 완료 조건:
+  - [ ] EN/JA 콘서트 상세에서 조회수 라벨·aria-label이 각 로케일 언어로 뜬다(한국어 "회 조회"/"조회수" 노출 0건), ko는 기존 표기 유지
+  - [ ] 숫자와 라벨 결합이 각 로케일에서 어색하지 않게 표기됨
+  - [ ] `grep -n "회 조회\|조회수" components/ViewCounter.tsx` 결과가 폴백/주석 외 표시 경로에 남지 않음
+  - [ ] `npm run typecheck` 통과(표시 문자열만 바꾸는 저위험 변경 — 전체 빌드는 환경 되면 Vercel 프리뷰로 확인 권장)
+- 범위 아닌 것:
+  - 조회수 집계 로직·Supabase `page_views` 스키마 변경
+  - `ViewCounter.module.css`/디자인 변경, 다른 컴포넌트 i18n 누수(-01/-02/-03) 중복 처리
