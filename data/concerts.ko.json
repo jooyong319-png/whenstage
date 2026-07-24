@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-07-23",
+  "last_updated": "2026-07-24",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -602,6 +602,62 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Vaundy_2025.jpg",
       "source_url": "https://sports.khan.co.kr/en/article/202603111454007"
+    },
+    {
+      "id": "ko-backnumber-grateful-yesterdays-seoul-20260912",
+      "name": "back number 'Grateful Yesterdays Tour 2026' in SEOUL",
+      "release_date": "2026-09-12",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "킨텍스 제9홀"
+      ],
+      "developer": "back number(백넘버)",
+      "publisher": null,
+      "description": "일본 국민밴드로 불리는 back number(백넘버)가 첫 아시아 투어 'Grateful Yesterdays Tour 2026'의 일환으로 데뷔 이래 첫 내한공연을 갖는다. 서울 공연은 9월 12일과 13일 이틀간 고양 킨텍스 제9홀에서 열리며, 서정적인 멜로디와 진솔한 노랫말의 발라드로 사랑받아온 밴드의 대표곡들을 라이브로 만날 수 있다. 티켓은 4월 22일 예스24 티켓 일반예매로 오픈됐으며 현재도 판매가 진행 중이다.",
+      "genres": [
+        "J-POP",
+        "밴드",
+        "내한"
+      ],
+      "image_url": null,
+      "source_url": "https://www.slist.kr/news/articleView.html?idxno=731524",
+      "general_sale": true,
+      "general_sale_datetime": "2026-04-22T19:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null
+    },
+    {
+      "id": "ko-postmalone-big-stadium-tour-seoul-20261002",
+      "name": "Post Malone – The BIG Stadium World Tour in Seoul",
+      "release_date": "2026-10-02",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "고양종합운동장 주경기장"
+      ],
+      "developer": "포스트 말론(Post Malone)",
+      "publisher": null,
+      "description": "미국 힙합·팝 스타 포스트 말론(Post Malone)이 'The BIG Stadium World Tour'로 약 3년 만에 다시 한국을 찾는다. 10월 2일 오후 7시 고양종합운동장 주경기장에서 열리는 이번 단독 공연에는 힙합 아티스트 돈 톨리버(Don Toliver)가 스페셜 게스트로 함께 무대에 오른다. 티켓은 4월 6일 아티스트 선예매에 이어 4월 7일 NOL 티켓 일반예매로 오픈됐다.",
+      "genres": [
+        "힙합",
+        "팝",
+        "내한"
+      ],
+      "image_url": null,
+      "source_url": "https://www.starnewskorea.com/en/music/2026/04/01/2026040113330227206",
+      "presale": false,
+      "presale_datetime": "2026-04-06T12:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-04-07T12:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null
     }
   ]
 }
