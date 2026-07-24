@@ -35,7 +35,9 @@
   transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
   animation: cardFade 0.4s ease;
 }
-.card:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: var(--shadow-glow); text-decoration: none; }
+/* 호버: 부드러운 글로우 + 살짝 떠오름만. border-color를 accent로 바꾸면 그 1px 라인이
+   우측 D-day 스텁(진한 단색) 위를 가로질러 상단 색을 덮어 이물감이 생겨서 제외한다. */
+.card:hover { transform: translateY(-2px); box-shadow: var(--shadow-glow); text-decoration: none; }
 @media (prefers-reduced-motion: reduce) { .card:hover { transform: none; } }
 @keyframes cardFade { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { .card { animation: none; } }

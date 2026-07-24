@@ -61,7 +61,7 @@ export default function LocaleRootLayout({
 }) {
   const lang = isLocale(params.lang) ? params.lang : 'ko';
   return (
-    <html lang={lang}>
+    <html lang={lang} suppressHydrationWarning>
       <head>
         <AppHead />
       </head>
