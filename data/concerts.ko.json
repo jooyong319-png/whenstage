@@ -607,12 +607,12 @@
       "id": "ko-backnumber-grateful-yesterdays-seoul-20260912",
       "name": "back number 'Grateful Yesterdays Tour 2026' in SEOUL",
       "release_date": "2026-09-12",
-      "release_time": null,
+      "release_time": "18:00",
       "release_date_approx": false,
       "timezone": "Asia/Seoul",
       "category": "concert_tour",
       "platforms": [
-        "킨텍스 제9홀"
+        "킨텍스 제2전시장 9홀"
       ],
       "developer": "back number(백넘버)",
       "publisher": null,
@@ -622,12 +622,12 @@
         "밴드",
         "내한"
       ],
-      "image_url": null,
+      "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202604/20260416/20260416-58079.jpg",
       "source_url": "https://www.slist.kr/news/articleView.html?idxno=731524",
       "general_sale": true,
       "general_sale_datetime": "2026-04-22T19:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": "https://ticket.yes24.com/Perf/58079"
     },
     {
       "id": "ko-postmalone-big-stadium-tour-seoul-20261002",
@@ -648,7 +648,7 @@
         "팝",
         "내한"
       ],
-      "image_url": null,
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26004944_p.gif",
       "source_url": "https://www.starnewskorea.com/en/music/2026/04/01/2026040113330227206",
       "presale": false,
       "presale_datetime": "2026-04-06T12:00:00+09:00",
@@ -657,7 +657,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-04-07T12:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": "https://tickets.interpark.com/goods/26004944"
     }
   ]
 }
