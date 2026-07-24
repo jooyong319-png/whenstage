@@ -1,4 +1,5 @@
 'use client';
+import type React from 'react';
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { motion } from 'motion/react';
 import type { Game } from '@/lib/types';
@@ -57,6 +58,36 @@ export function HeroSpotlight({ slides, cardImages, tickerItems, now, lang, hero
   const curDiff = cur ? calcDayDiff(cur.release_date, now) : 0;
   const curDday = curDiff <= 0 ? 'D-DAY' : `D-${curDiff}`;
 
+  // 터치 스와이프 — 가로 이동만 슬라이드 전환(세로는 페이지 스크롤 그대로). 스와이프 직후엔
+  // 내부 링크 클릭을 막아 실수 이동 방지.
+  const touchRef = useRef<{ x: number; y: number } | null>(null);
+  const swipedRef = useRef(false);
+  const onTouchStart = (e: React.TouchEvent) => {
+    const t = e.touches[0];
+    touchRef.current = { x: t.clientX, y: t.clientY };
+    swipedRef.current = false;
+  };
+  const onTouchEnd = (e: React.TouchEvent) => {
+    const s = touchRef.current;
+    touchRef.current = null;
+    if (!s || !hasCarousel) return;
+    const t = e.changedTouches[0];
+    const dx = t.clientX - s.x;
+    const dy = t.clientY - s.y;
+    if (Math.abs(dx) >= 45 && Math.abs(dx) > Math.abs(dy) * 1.4) {
+      swipedRef.current = true;
+      go(dx < 0 ? 1 : -1);
+    }
+  };
+  // 스와이프 제스처가 링크 탭으로 오인되어 페이지가 넘어가는 것 방지
+  const onClickCapture = (e: React.MouseEvent) => {
+    if (swipedRef.current) {
+      e.preventDefault();
+      e.stopPropagation();
+      swipedRef.current = false;
+    }
+  };
+
   return (
     <motion.section
       className={`${styles.hero} ${cine ? styles.heroCine : ''}`}
@@ -67,6 +98,9 @@ export function HeroSpotlight({ slides, cardImages, tickerItems, now, lang, hero
       onMouseLeave={() => setPaused(false)}
       onFocusCapture={() => setPaused(true)}
       onBlurCapture={() => setPaused(false)}
+      onTouchStart={onTouchStart}
+      onTouchEnd={onTouchEnd}
+      onClickCapture={onClickCapture}
     >
       {cine && (
         <div className={styles.heroBackdrop} aria-hidden="true">
