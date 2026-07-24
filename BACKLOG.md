@@ -169,3 +169,44 @@
   - `data/concerts.*.json` 콘텐츠 편집(리서처 담당 영역 — 코드로 데이터를 고치지 않는다)
   - `developer` 필드를 문자열→배열로 바꾸는 전면 스키마 마이그레이션(수십 컴포넌트 영향, 별도 대형 항목으로 미룸 — `wiki/decisions.md`가 필드 리네임/구조 변경을 우선순위 낮음으로 명시)
   - 공연장(`platforms`) 그룹핑(`lib/venues.ts`)은 다중-공연장 사례가 관측되지 않아 이번 범위 아님
+
+## [20260724-02] 비-한국어 로케일(EN/JA)에서 카테고리 배지가 한국어(`cat.short`)로 새는 로케일 누수
+- 상태: 대기
+- 등록일: 2026-07-24
+- 우선순위: P1(EN/JA 실사용·색인 페이지에 한국어가 그대로 노출 — 로케일 신뢰도·SEO 직접 영향)
+- 근거: 라이브 `https://whenstage.com/ja` 홈의 "近日の予定"(`UpcomingStrip`) 카드 배지가
+  「콘서트 / 음원발매 / 페스티벌 / 팬미팅」로 **한국어 그대로** 뜬다(같은 페이지 상단 필터바와
+  "本日の予定" 카드는 「コンサート・来日公演」 등 정상 일본어라 한 화면 안에서 언어가 섞여
+  보임). 원인은 `CATEGORY_META[cat].short`(`lib/types.ts` 132·136~139행)가 로케일 무관 한국어
+  단일 문자열인데, 로케일 인식 라벨은 `CATEGORY_LABELS[lang][category]`(`lib/i18nLabels.ts` 15행,
+  ko/en/ja 완비)로 별도로 존재하기 때문. 이미 검증된 패턴
+  `lang ? CATEGORY_LABELS[lang][category] : cat.short`를 `ScheduleCard`(100행)·
+  `CategoryFilterBar`(58행)는 쓰지만, 아래 컴포넌트들은 `cat.short`를 그대로 렌더해 EN/JA에서
+  한국어가 샌다(전부 `use client` + 이미 로케일 접근 가능 확인):
+  - `components/UpcomingStrip.tsx:66` — 배지(라이브 JA에서 실제 확인), `useLocale()`
+  - `components/FeaturedCards.tsx:59` — `gameToCard(...)` 배지, 이미 `lang: Locale|null` 인자 받음
+  - `components/GameRow.tsx:88` — 리스트 뷰 행 배지, `useLocale()`
+  - `components/RelatedEventCard.tsx:33` — 사이드바 관련 일정 배지, 이미 `lang: string` prop 받음
+  - `components/WishlistView.tsx:59` — 위시리스트 배지, `useLocale()`
+  - `components/CalendarView.tsx:236` — 날짜 셀 `title`(tooltip/접근성 텍스트, 시각 배지 아님), `useLocale()`
+- 스펙:
+  - 위 6개 컴포넌트의 카테고리 표시 문자열을 `CATEGORY_META[cat].short` 직접 렌더 대신
+    `lang ? CATEGORY_LABELS[lang][category] : CATEGORY_META[category].short`로 교체한다
+    (`ScheduleCard`/`CategoryFilterBar`와 동일 패턴). `CATEGORY_LABELS`는 `@/lib/i18nLabels`에서 import.
+  - 각 컴포넌트는 이미 lang을 보유: `UpcomingStrip`/`GameRow`/`WishlistView`/`CalendarView`는
+    `useLocale()`, `FeaturedCards`는 `gameToCard(game, isPreReg, lang, now)` 인자, `RelatedEventCard`는
+    `lang: string` prop — **새로 lang을 배선할 필요 없음**.
+  - `CATEGORY_META.short`의 한국어 값 자체는 바꾸지 않는다(색/아이콘 메타 및 ko 폴백으로 계속
+    사용됨). 로케일별 "짧은" 라벨을 새로 만들 필요 없음 — `CATEGORY_LABELS` 전체 라벨을 쓰는 게
+    `ScheduleCard`와 일관됨. 배지 폭이 넘치면 CSS 처리는 개발 담당 재량이되 **한국어 노출 제거가
+    최우선**.
+- 완료 조건:
+  - [ ] `https://whenstage.com/ja`·`/en` 홈 `UpcomingStrip` 배지가 각 로케일 언어로 표기(한국어 노출 0건)
+  - [ ] 리스트 뷰(`GameRow`)·위시리스트·사이드바 관련 일정 카드·캘린더 날짜 셀 tooltip도 EN/JA에서 한국어 카테고리 라벨이 뜨지 않음
+  - [ ] KO 페이지는 기존과 동일한 한국어 라벨 유지(회귀 없음)
+  - [ ] `grep -rn "\.short" components/` 결과에서 표시용(로케일 미적용) `cat.short` 사용이 남지 않음(색/아이콘/폴백·`LanguageSwitcher`의 언어명 `current.short` 제외)
+  - [ ] `npm run typecheck` 통과(표시 문자열만 바꾸는 저위험 변경 — `PROJECT_STATUS.md` 2026-07-24 개정된 검증 기준 적용, 전체 빌드는 환경 되면 Vercel 프리뷰로 확인 권장)
+- 범위 아닌 것:
+  - `CATEGORY_META`에 로케일별 `short` 필드를 신설하는 스키마 확장(현행 `CATEGORY_LABELS`로 충분, 불필요한 중복)
+  - EN/JA 페이지 `meta-keywords`가 한국어로 고정된 별개 이슈 — 검색엔진이 사실상 무시하는 태그라 가치 낮음, 이번 범위 아님(이전 사이클에서도 저가치로 스킵됨)
+  - 배지 문구/디자인 변경, `LanguageSwitcher`의 `current.short`(언어 이름이라 카테고리 라벨과 무관, 정상)
