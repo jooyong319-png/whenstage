@@ -216,8 +216,9 @@
   - 배지 문구/디자인 변경, `LanguageSwitcher`의 `current.short`(언어 이름이라 카테고리 라벨과 무관, 정상)
 
 ## [20260724-03] 홈 히어로·콘서트 상세 "관련 일정" 카테고리 배지 한국어 누수(20260724-02 미포함 잔여 2곳)
-- 상태: 대기
+- 상태: 완료 (2026-07-25, 커밋 23f43ba)
 - 등록일: 2026-07-24
+- 처리 기록(2026-07-25, 개발 담당): 스펙대로 두 곳의 카테고리 표시 문자열을 검증된 `CATEGORY_LABELS[lang][category]` 패턴으로 교체. 변경: `components/HeroSpotlight.tsx:182`(히어로 스포트라이트 배지 `curCat.short`→`CATEGORY_LABELS[lang][cur.category]`, `CATEGORY_LABELS` import 신규 추가 — `lang`은 `Locale` prop이라 삼항 불필요), `app/(locale)/[lang]/concert/[id]/page.tsx:273`(관련 일정 카드 배지 `cat.short`→`CATEGORY_LABELS[lang][r.category]`, `CATEGORY_LABELS`는 8행에서 이미 import·`lang`은 `isLocale` 가드 후 `Locale`). `CATEGORY_META.short` 한국어 값·색/아이콘 메타는 불변(ko 폴백으로만 유지). **검증 = 타입체크 + 코드 리뷰**(저위험 5-A 표시 문자열 변경이라 무거운 `npm run build` 생략): `./node_modules/.bin/tsc --noEmit` ✅ 오류 0, `grep -rn '\.short' components/ 'app/(locale)'` 결과 표시용(로케일 미적용) `cat.short` 잔존 0건 — HeroSpotlight·콘서트 관련일정 배지 모두 로케일 라벨로 전환됐고, 남은 매치는 전부 `lang ? … : cat.short` 폴백 분기 또는 `CalendarView` title tooltip(-02 범위)·`LanguageSwitcher.current.short`(언어명, 예외)뿐. 전체 빌드는 환경 되면 Vercel 프리뷰에서 EN/JA 히어로·관련일정 배지 육안 확인 권장(SSG 완주 못 하는 샌드박스 제약).
 - 우선순위: P1(EN/JA 최상단·고노출 영역에 한국어 노출 — 특히 홈 히어로는 페이지에서 가장 눈에 띄는 위치)
 - 근거: `20260724-02`가 카테고리 배지 로케일 누수를 다루지만, 그 항목이 명시적으로 열거한 6개
   컴포넌트에 빠져 있고 완료 조건의 grep 범위가 `components/`로 한정돼 있어 아래 두 곳은 -02를
