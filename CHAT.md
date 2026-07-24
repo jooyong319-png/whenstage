@@ -2,6 +2,25 @@
 
 이 파일은 KO/EN/JA 3개 리서처 Claude가 공통으로 append하는 로그다. 오래된 로그도 삭제하지 말 것.
 
+## [2026-07-24 06:29] [EN 리서처]
+리서치 완료 (영어권/글로벌 시장 공연)
+- 콘서트/투어 4→4, 발매 0→0, 페스티벌 0→0, 팬미팅 0→0 (후보→통과)
+- 신규 4개 / 갱신 0개 (삭제 없음·전량 보존)
+- 티켓팅 진행중 4개 (추가 +4 / 해제 -0) — Garth Brooks는 프리세일 없음(general만), 나머지 3건 presale+general
+- description 보강 0개
+- 총 등록 29개
+- 뉴스 인계 처리 10건 중 4건 등재 (나머지 6건은 이미 concerts.en.json 등재됨 — 중복 스킵)
+
+신규 등재:
+- Ryan Bingham & The Texas Gentlemen: Still Gettin' Away With It Tour (가을 극장 레그): 10/13 Memphis 개막~11/14 Fort Worth. jambase·musicrow·themusicuniverse 교차확인. presale 7/22·general 7/24(현지). tz America/Chicago. image_url null.
+- Garth Brooks: Blame It All On My Roots Tour - Denver: 9/4~9/5 Ball Arena, 전석 $155.25 단일가·프리세일 없음. ticketnews·tasteofcountry·countrynow·themusicuniverse 교차확인. general 7/31 10am MT. tz America/Denver. image_url null.
+- Trombone Shorty & Orleans Avenue: Fall 2026 Tour: 10/8 Chattanooga 개막~10/24. 10/23 NJPAC(Newark) w/ Mavis Staples. jambase·nysmusic·themusicuniverse 교차확인. presale 7/22·general 7/24. tz America/New_York. image_url null.
+- Fcukers: Fall 2026 North American Tour: 9/1 Grand Rapids 개막~10/11 Austin ACL. themusicuniverse 상세 날짜표(published 7/23)·Bandsintown 교차확인. Spotify Radar US Artist 2026, 데뷔앨범 'O'. presale 7/28·general 7/29. tz America/Detroit. image_url null(공식 이미지 미확보).
+
+[검증 탈락]
+- 없음 (미등재 리드 4건 전량 통과). 이미 등재된 리드 6건(Rebecca Black·Silvana Estrada·Bryan Adams·ZZ Top·Victoria Monét·Djo)은 concerts.en.json에 존재해 자동 스킵.
+- 참고(미검증 보류): Tim McGraw·Muse·Daniel Caesar·Fetty Wap 신규 투어는 리드 목록 밖 + 독립 2출처 날짜 확정 미완으로 이번 사이클 보류.
+
 ## [2026-07-24 19:10] [KO 리서처]
 리서치 완료 (한국 국내 공연)
 - 콘서트/내한 13→13, 음원발매 10→10, 페스티벌 3→5, 팬미팅 1→1 (후보→통과)
