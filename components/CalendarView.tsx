@@ -158,23 +158,26 @@ export function CalendarView({ cursor, onCursorChange, games, wishlist: _wishlis
     return out.sort((a, b) => a.game.name.localeCompare(b.game.name));
   }, [selectedISO, games]);
 
-  // 선택된 날짜에 일정이 없을 때 보여줄 "다음 일정" 미리보기 — 전체 games 대상으로
-  // selectedISO 이후 가장 가까운 항목부터 날짜순으로 최대 4개까지 뽑는다(단일 날짜에 안 묶임).
-  const nextEntries = useMemo<CalEntry[]>(() => {
-    if (panelEntries.length > 0) return [];
+  // "다가오는 일정" 미리보기 — 선택 날짜와 무관하게 오늘 이후 가까운 순 최대 4개(출시/선예매/
+  // 일반예매). 우측 패널이 그날 일정 1~2개로 짧게 끝나 아래가 비는 걸 채우고, 캘린더 높이와
+  // 균형을 맞춘다. 이미 그날 패널에 뜬 항목은 제외해 중복 방지.
+  const upcomingPreview = useMemo<CalEntry[]>(() => {
+    const todayISO = toISO(now);
+    const shown = new Set(panelEntries.map(e => `${e.game.id}-${e.kind}`));
     type Dated = CalEntry & { date: string };
     const all: Dated[] = [];
     for (const g of games) {
-      if (g.release_date > selectedISO) all.push({ game: g, kind: 'release', date: g.release_date });
+      if (g.release_date >= todayISO) all.push({ game: g, kind: 'release', date: g.release_date });
       const presaleD = dateOnly(g.presale_datetime);
-      if (presaleD && presaleD > selectedISO) all.push({ game: g, kind: 'presale', date: presaleD });
+      if (presaleD && presaleD >= todayISO) all.push({ game: g, kind: 'presale', date: presaleD });
       const gsD = dateOnly(g.general_sale_datetime);
-      if (gsD && gsD > selectedISO) all.push({ game: g, kind: 'general_sale', date: gsD });
+      if (gsD && gsD >= todayISO) all.push({ game: g, kind: 'general_sale', date: gsD });
     }
     return all
+      .filter(e => !shown.has(`${e.game.id}-${e.kind}`))
       .sort((a, b) => a.date.localeCompare(b.date) || a.game.name.localeCompare(b.game.name))
       .slice(0, 4);
-  }, [panelEntries, games, selectedISO]);
+  }, [games, now, panelEntries]);
 
   const isToday = selectedISO === toISO(now);
   const panelTitle = isToday
@@ -309,16 +312,6 @@ export function CalendarView({ cursor, onCursorChange, games, wishlist: _wishlis
                 transition={{ duration: 0.22, ease: 'easeOut' }}
               >
                 <p className={styles.dayEmpty}>{t ? t.noScheduleThisDate : '이 날짜엔 일정이 없어요.'}</p>
-                {nextEntries.length > 0 && (
-                  <div className={styles.nextUp}>
-                    <p className={styles.nextUpLabel}>{t ? t.nextSchedule : '다음 일정'}</p>
-                    <div className={styles.scheduleGrid}>
-                      {nextEntries.map(({ game: g, kind }) => (
-                        <ScheduleCard key={`next-${g.id}-${kind}`} game={g} kind={kind} onPick={onPick} />
-                      ))}
-                    </div>
-                  </div>
-                )}
               </motion.div>
             ) : (
               <motion.div
@@ -335,6 +328,18 @@ export function CalendarView({ cursor, onCursorChange, games, wishlist: _wishlis
               </motion.div>
             )}
           </AnimatePresence>
+
+          {/* 다가오는 일정 미리보기 — 선택 날짜와 무관하게 항상 아래에 노출(패널 빈 공간 채우기) */}
+          {upcomingPreview.length > 0 && (
+            <div className={styles.nextUp}>
+              <p className={styles.nextUpLabel}>{t ? t.nextSchedule : '다음 일정'}</p>
+              <div className={styles.scheduleGrid}>
+                {upcomingPreview.map(({ game: g, kind }) => (
+                  <ScheduleCard key={`next-${g.id}-${kind}`} game={g} kind={kind} onPick={onPick} />
+                ))}
+              </div>
+            </div>
+          )}
         </aside>
       </div>
     </section>
