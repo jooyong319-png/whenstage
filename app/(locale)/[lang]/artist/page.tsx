@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { getAllArtists } from '@/lib/artists';
 import { CATEGORY_META } from '@/lib/types';
 import { PageShell } from '@/components/PageShell';
+import { PageHeader } from '@/components/PageHeader';
 import { ArtistCard } from '@/components/ArtistCard';
 import { RevealGroup, RevealItem } from '@/components/motion/Reveal';
 import { UI, LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
@@ -37,12 +38,13 @@ export default async function ArtistListPage({ params }: Props) {
   return (
     <PageShell lang={lang}>
       <section className={blogStyles.indexSection}>
-        <header className={blogStyles.header}>
-          <h1 className={blogStyles.title}>
-            <svg className="ic" aria-hidden="true"><use href="#ic-star" /></svg> {ui.artistListTitle}
-          </h1>
-          <p className={blogStyles.subtitle}>{ui.artistListSubtitle}</p>
-        </header>
+        <PageHeader
+          icon="ic-star"
+          title={ui.artistListTitle}
+          subtitle={ui.artistListSubtitle}
+          count={artists.length}
+          countLabel={lang === 'ko' ? '아티스트' : lang === 'ja' ? 'アーティスト' : 'artists'}
+        />
 
         {artists.length === 0 ? (
           <p className={blogStyles.empty}>{ui.artistNoEvents}</p>

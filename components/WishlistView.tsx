@@ -7,6 +7,7 @@ import { useWishlist } from '@/hooks/useWishlist';
 import { useLocale } from '@/hooks/useLocale';
 import { UI, CAL } from '@/lib/i18nLabels';
 import { NotifyToggle } from './NotifyToggle';
+import { PageHeader } from './PageHeader';
 import styles from './WishlistView.module.css';
 
 export function WishlistView({ games }: { games: Game[] }) {
@@ -21,13 +22,13 @@ export function WishlistView({ games }: { games: Game[] }) {
 
   return (
     <section className={styles.section}>
-      <header className={styles.head}>
-        <h1 className={styles.title}>
-          <svg className="ic ic-fill" aria-hidden="true" style={{ color: 'var(--accent-warm)' }}><use href="#ic-star" /></svg>
-          {' '}{t ? t.myWishlist : '내 찜'}{items.length > 0 ? ` (${items.length})` : ''}
-        </h1>
-        <p className={styles.sub}>{t ? t.myWishlistSub : '관심 있는 공연·발매 일정을 모아봤어요.'}</p>
-      </header>
+      <PageHeader
+        icon="ic-star"
+        title={t ? t.myWishlist : '내 찜'}
+        subtitle={t ? t.myWishlistSub : '관심 있는 공연·발매 일정을 모아봤어요.'}
+        count={items.length > 0 ? items.length : undefined}
+        countLabel={lang === 'ko' ? '개' : lang === 'ja' ? '件' : 'saved'}
+      />
 
       <NotifyToggle />
 

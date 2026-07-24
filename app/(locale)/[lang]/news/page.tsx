@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllNews, formatPostDate } from '@/lib/news';
 import { PageShell } from '@/components/PageShell';
+import { PageHeader } from '@/components/PageHeader';
 import { BlogImg } from '@/components/BlogImg';
 import { RevealGroup, RevealItem } from '@/components/motion/Reveal';
 import { LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
@@ -66,10 +67,13 @@ export default async function Page({ params }: Props) {
   return (
     <PageShell lang={lang}>
       <section className={styles.indexSection}>
-        <header className={styles.header}>
-          <h1 className={styles.title}><svg className="ic" aria-hidden="true"><use href="#ic-flame" /></svg> {H2[lang]}</h1>
-          <p className={styles.subtitle}>{SUBTITLE[lang]}</p>
-        </header>
+        <PageHeader
+          icon="ic-flame"
+          title={H2[lang]}
+          subtitle={SUBTITLE[lang]}
+          count={items.length}
+          countLabel={lang === 'ko' ? '건' : lang === 'ja' ? '件' : 'stories'}
+        />
 
         {items.length === 0 ? (
           <p className={styles.empty}>{EMPTY[lang]}</p>

@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { getAllVenues } from '@/lib/venues';
 import { UI, LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
 import { PageShell } from '@/components/PageShell';
+import { PageHeader } from '@/components/PageHeader';
 import { RevealGroup, RevealItem } from '@/components/motion/Reveal';
 import styles from '@/app/blog/blog.module.css';
 
@@ -34,12 +35,13 @@ export default async function VenueListPage({ params }: Props) {
   return (
     <PageShell lang={lang}>
       <section className={styles.indexSection}>
-        <header className={styles.header}>
-          <h1 className={styles.title}>
-            <svg className="ic" aria-hidden="true"><use href="#ic-globe" /></svg> {ui.venueListTitle}
-          </h1>
-          <p className={styles.subtitle}>{ui.venueListSubtitle}</p>
-        </header>
+        <PageHeader
+          icon="ic-pin"
+          title={ui.venueListTitle}
+          subtitle={ui.venueListSubtitle}
+          count={venues.length}
+          countLabel={lang === 'ko' ? '곳' : lang === 'ja' ? '会場' : 'venues'}
+        />
 
         {venues.length === 0 ? (
           <p className={styles.empty}>{ui.artistNoEvents}</p>
