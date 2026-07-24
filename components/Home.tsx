@@ -2,11 +2,12 @@
 import { useState, useMemo, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import type { Game, FilterState } from '@/lib/types';
-import { normalizeArtistKey, CATEGORY_META } from '@/lib/types';
-import { formatShortDate, kstDateOnly, calcDayDiff } from '@/lib/utils';
+import { normalizeArtistKey } from '@/lib/types';
+import { formatShortDate, kstDateOnly } from '@/lib/utils';
 import { CalendarView } from './CalendarView';
 import { ListView } from './ListView';
 import { UpcomingStrip } from './UpcomingStrip';
+import { HeroSpotlight } from './HeroSpotlight';
 import { LatestNews, type LatestNewsItem } from './LatestNews';
 import { GameModal } from './GameModal';
 import { useWishlist } from '@/hooks/useWishlist';
@@ -174,108 +175,31 @@ export function Home({ initialGames, lastUpdated, serverNow, artistAliases, card
       .slice(0, 12);
   }, [filteredGames, now]);
 
-  // 히어로 시네마틱 스포트라이트 — 다가오는 확정 일정 중 "이미지가 있는" 가장 가까운 헤드라인
-  // (콘서트/페스티벌 우선, 없으면 이미지 보유 최근접). 이 공연 이미지를 히어로 배경으로 깔아
-  // "지금 이 공연이 온다"는 구체적 임팩트를 만든다. 이미지 있는 후보가 없으면 null → 기존 글로우 히어로.
-  const featured = useMemo(() => {
+  // 히어로 시네마틱 스포트라이트 캐러셀 — 다가오는 확정 일정 중 "이미지가 있는" 대형 공연
+  // (콘서트/페스티벌 우선, 그 다음 나머지) 최대 5개를 히어로 배경으로 순환시킨다. 후보가 없으면
+  // 빈 배열 → HeroSpotlight가 기존 글로우 히어로로 폴백.
+  const heroSlides = useMemo(() => {
     const today = new Date(now);
     today.setHours(0, 0, 0, 0);
     const withImg = initialGames
       .filter(g => !g.release_date_approx && new Date(g.release_date) >= today && cardImages[g.id])
       .sort((a, b) => a.release_date.localeCompare(b.release_date));
-    const headline = withImg.find(g => g.category === 'concert_tour' || g.category === 'festival');
-    return headline ?? withImg[0] ?? null;
+    const headline = withImg.filter(g => g.category === 'concert_tour' || g.category === 'festival');
+    const rest = withImg.filter(g => g.category !== 'concert_tour' && g.category !== 'festival');
+    return [...headline, ...rest].slice(0, 5);
   }, [initialGames, cardImages, now]);
-  const featuredImg = featured ? cardImages[featured.id] : null;
-  const featuredCat = featured ? CATEGORY_META[featured.category] : null;
-  const featuredDiff = featured ? calcDayDiff(featured.release_date, now) : 0;
-  const featuredDday = featuredDiff <= 0 ? 'D-DAY' : `D-${featuredDiff}`;
-  const spotlightLabel = lang === 'en' ? 'Spotlight' : lang === 'ja' ? '注目の公演' : '지금 주목';
 
   return (
     <div className={styles.home}>
-      <motion.section
-        className={`${styles.hero} ${featuredImg ? styles.heroCine : ''}`}
-        initial={{ opacity: 0, y: -16 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, ease: 'easeOut' }}
-      >
-        {featuredImg && (
-          <div className={styles.heroBackdrop} aria-hidden="true">
-            <img src={featuredImg} alt="" className={styles.heroBackdropImg} />
-            <span className={styles.heroBackdropVeil} />
-          </div>
-        )}
-        <motion.span
-          className={`${styles.heroBlob} ${styles.heroBlobA}`}
-          aria-hidden="true"
-          animate={{ x: [0, 22, -8, 0], y: [0, -16, 10, 0] }}
-          transition={{ duration: 13, repeat: Infinity, ease: 'easeInOut' }}
-        />
-        <motion.span
-          className={`${styles.heroBlob} ${styles.heroBlobB}`}
-          aria-hidden="true"
-          animate={{ x: [0, -18, 12, 0], y: [0, 14, -10, 0] }}
-          transition={{ duration: 16, repeat: Infinity, ease: 'easeInOut', delay: 0.5 }}
-        />
-        <motion.span
-          className={`${styles.heroBlob} ${styles.heroBlobC}`}
-          aria-hidden="true"
-          animate={{ x: [0, 16, -14, 0], y: [0, -12, 14, 0] }}
-          transition={{ duration: 11, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
-        />
-        <motion.span
-          className={`${styles.heroBlob} ${styles.heroBlobD}`}
-          aria-hidden="true"
-          animate={{ x: [0, -20, 8, 0], y: [0, 10, -14, 0] }}
-          transition={{ duration: 15, repeat: Infinity, ease: 'easeInOut', delay: 1.5 }}
-        />
-        <motion.span
-          className={`${styles.heroBlob} ${styles.heroBlobE}`}
-          aria-hidden="true"
-          animate={{ x: [0, 14, -10, 0], y: [0, 12, -8, 0] }}
-          transition={{ duration: 12.5, repeat: Infinity, ease: 'easeInOut', delay: 0.8 }}
-        />
-        <div className={styles.heroInner}>
-          <h1 className={styles.heroTitle}>{ui.heroTitle}</h1>
-          {featured && featuredCat && (
-            <a href={`/${lang}/concert/${featured.id}`} className={styles.spotlight}>
-              <span className={styles.spotlightEyebrow}>
-                <svg className="ic" aria-hidden="true"><use href="#ic-flame" /></svg>
-                {spotlightLabel}
-              </span>
-              <span className={styles.spotlightName}>{featured.name}</span>
-              <span className={styles.spotlightMeta}>
-                <span className={styles.spotlightDday} style={{ color: featuredCat.color }}>{featuredDday}</span>
-                <span className={styles.spotlightSep} aria-hidden="true">·</span>
-                <span className={styles.spotlightDate}>{formatShortDate(featured.release_date)}</span>
-                <span className={styles.spotlightBadge} style={{ background: featuredCat.color }}>{featuredCat.short}</span>
-              </span>
-            </a>
-          )}
-          {tickerItems.length > 0 ? (
-            <div className={styles.tickerWrap}>
-              <div className={styles.tickerTrack}>
-                {[...tickerItems, ...tickerItems].map((g, i) => (
-                  <a
-                    key={`${g.id}-${i}`}
-                    href={`/${lang}/concert/${g.id}`}
-                    className={styles.tickerItem}
-                    aria-hidden={i >= tickerItems.length || undefined}
-                    tabIndex={i >= tickerItems.length ? -1 : undefined}
-                  >
-                    <span className={styles.tickerDday} style={{ color: CATEGORY_META[g.category].color }}>D-{calcDayDiff(g.release_date, now)}</span>
-                    <span className={styles.tickerName}>{g.name}</span>
-                    <span className={styles.tickerDate}>{formatShortDate(g.release_date)}</span>
-                  </a>
-                ))}
-              </div>
-            </div>
-          ) : (
-            <p className={styles.heroSubtitle}>{ui.heroSubtitle}</p>
-          )}
-        </div>
-      </motion.section>
+      <HeroSpotlight
+        slides={heroSlides}
+        cardImages={cardImages}
+        tickerItems={tickerItems}
+        now={now}
+        lang={lang}
+        heroTitle={ui.heroTitle}
+        heroSubtitle={ui.heroSubtitle}
+      />
       <div className={styles.layout}>
         <div className={styles.main}>
           <motion.div
