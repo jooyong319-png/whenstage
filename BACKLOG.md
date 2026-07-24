@@ -99,8 +99,9 @@
     (`wiki/decisions.md`가 우선순위 낮음으로 명시, 섣불리 손대지 말 것).
 
 ## [20260723-04] `notFound()` 발생 페이지가 HTTP 200을 반환하는 soft-404 조사·수정
-- 상태: 대기
+- 상태: 보류 (2026-07-24 — 고위험 항목, 샌드박스 빌드 완주 불가로 런타임(HTTP 상태 코드) 검증 미완 → 로컬/Vercel 위임)
 - 등록일: 2026-07-23
+- 처리 기록(2026-07-24, 개발 담당): 근본 원인 조사 완료 + 후보 수정 준비(타입체크 ✅)했으나 §5-B에 따라 코드 push 보류. 이 항목은 완료 조건이 `next build && next start` + `curl -D -`로 HTTP 상태 코드(404)를 확인하는 **런타임 검증 필수의 고위험(라우팅/프레임워크) 변경**인데, 이 클라우드 샌드박스는 프로덕션 빌드가 정적 생성 단계("Generating static pages 0/314")에서 이번에도 멈춰(39/314 생성 후 130초+ 무진행) 완주 못 함 → 그린 빌드·런타임 상태 코드 미확인. 조사 결과: (1) 미존재 콘서트 id 케이스 — `concert/[id]`·`artist/[slug]`·`venue/[slug]`·`news/[slug]`·`blog/[slug]` 다섯 동적 라우트가 `generateStaticParams`는 있으나 `export const dynamicParams = false`가 없어, 정적 목록에 없는 param을 요청하면 온디맨드 렌더되며 `notFound()`가 200으로 나가는 게 유력 원인. 후보 수정 = 위 5개 파일에 `export const dynamicParams = false;` 추가(`npx tsc --noEmit` ✅ 통과 확인, 코드는 §6-B에 따라 되돌림). (2) 로케일 세그먼트조차 없는 완전 미매칭 경로(`/totally-bogus-path`) 케이스 — param 문제가 아니라 전역 not-found 상태 문제. 이 앱은 루트 `app/layout.tsx`가 없고(두 레이아웃 모두 route group 내부) 루트 `app/not-found.tsx`도 없어 route group만으로 전역 404가 200으로 떨어지는 것으로 추정 → `dynamicParams`로는 안 고쳐지고, 루트 레이아웃 부재 탓에 루트 not-found 추가가 까다로워 신중한 작업+런타임 검증 필요(규칙 9). 권장: 전체 빌드가 도는 로컬(`d:/Gcalen/whenstage`) 또는 Vercel 프리뷰에서 (1) 후보 수정 적용 후 `curl -D -`로 두 케이스(미존재 id·완전 미매칭 경로) 재현·검증, (2)는 루트 전역 not-found 방식을 별도 조사. 검증 통과 시 완료 처리.
 - 우선순위: P1(SEO 직접 영향 — 구글이 soft-404로 플래그하면 검색 노출에 불이익)
 - 근거: 존재하지 않는 콘서트 id(`/ko/concert/<없는-id>`)나 아예 매칭 안 되는 경로
   (`/totally-bogus-path`)로 접속하면 `app/(locale)/[lang]/not-found.tsx`/
