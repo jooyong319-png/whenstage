@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-07-23",
+  "last_updated": "2026-07-24",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -587,6 +587,172 @@
       ],
       "image_url": null,
       "source_url": "https://natalie.mu/music/news/670380"
+    },
+    {
+      "id": "ja-aimyon-tour-2027-20270206",
+      "name": "AIMYON TOUR 2027（あいみょん 全国アリーナツアー）",
+      "release_date": "2027-02-06",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "ぴあアリーナMM（神奈川）ほか 全国14都市"
+      ],
+      "developer": "あいみょん",
+      "publisher": null,
+      "description": "あいみょんが、メジャーデビュー10周年を記念して2027年2月6日の神奈川・ぴあアリーナMMを皮切りに、全国14都市36公演の大規模アリーナツアー「AIMYON TOUR 2027」を開催する。7月11日の沖縄・沖縄サントリーアリーナまで続く自身最大規模のツアーで、バンド編成で臨む。これに先立ち、デビュー記念日の2026年11月30日・12月1日には日本武道館公演も行われる。チケットは9月9日発売のベストアルバム封入の10周年記念カードのQRコードから先行予約を受け付ける。",
+      "genres": [
+        "J-POP",
+        "アリーナツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://natalie.mu/music/news/681003"
+    },
+    {
+      "id": "ja-yoshii-kazuya-tour-2027-20270209",
+      "name": "吉井和哉 TOUR 2027 イ・キ・モ・ノ・エ・ネ・ジ・ー",
+      "release_date": "2027-02-09",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "フェスティバルホール（大阪）ほか 全国6都市7公演"
+      ],
+      "developer": "吉井和哉",
+      "publisher": null,
+      "description": "吉井和哉が、約12年ぶりとなる8枚目のオリジナル・フルアルバム（2026年12月9日発売）を引っ提げ、2027年2月9日の大阪・フェスティバルホールを皮切りに全国6都市7公演のホールツアー「吉井和哉 TOUR 2027 イ・キ・モ・ノ・エ・ネ・ジ・ー」を開催する。仙台、名古屋、東京・国際フォーラムホールAなどを回り、3月18日の東京・SGC HALL ARIAKE公演で全日程を締めくくる。7月22日よりファンクラブ先行受付を開始している。",
+      "genres": [
+        "J-POP",
+        "ロック",
+        "ホールツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://www.yoshiikazuya.com/feature/tour2027",
+      "presale": true,
+      "presale_datetime": null,
+      "presale_url": "https://www.yoshiikazuya.com/feature/tour2027"
+    },
+    {
+      "id": "ja-silica-gel-ballad-of-you-20261121",
+      "name": "Silica Gel「Asia Tour in Tokyo」来日公演",
+      "release_date": "2026-11-21",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "Spotify O-EAST（東京・渋谷）"
+      ],
+      "developer": "Silica Gel（シリカゲル）",
+      "publisher": "SMASH",
+      "description": "韓国発の4人組ロックバンド、Silica Gel（シリカゲル）が、3rdアルバム『Ballad of You』（2026年8月20日発売）を携えたアジアツアーの一環として、2026年11月21日に東京・渋谷Spotify O-EASTで一夜限りの単独来日公演を開催する。爆発的な人気で日本でも注目を集める同バンドの来日単独公演で、チケットは7,500円（別途1ドリンク）。最速先行受付が7月27日まで行われている。",
+      "genres": [
+        "ロック",
+        "来日",
+        "K-インディー"
+      ],
+      "image_url": null,
+      "source_url": "https://spincoaster.com/news/silica-gel-ballad-of-you",
+      "presale": true,
+      "presale_datetime": null,
+      "presale_url": "https://eplus.jp/sf/detail/4415100001"
+    },
+    {
+      "id": "ja-queens-of-the-stone-age-2026-20261125",
+      "name": "QUEENS OF THE STONE AGE 来日公演2026",
+      "release_date": "2026-11-25",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "Zepp Haneda（TOKYO）",
+        "Zepp Nagoya",
+        "Zepp Namba（大阪）"
+      ],
+      "developer": "QUEENS OF THE STONE AGE",
+      "publisher": "CREATIVEMAN PRODUCTIONS",
+      "description": "米ロックバンド、QUEENS OF THE STONE AGE（クイーンズ・オブ・ザ・ストーン・エイジ）が約2年ぶりの来日公演を行う。2026年11月25日のZepp Haneda（TOKYO）を皮切りに、11月26日のZepp Nagoya、11月28日のZepp Nambaを回る東名阪ツアー。約3年ぶりの新曲発表に合わせた来日で、オフィシャル先行は7月22日正午から、一般発売は8月1日午前10時からスタートする。チケットは1階スタンディング11,000円ほか。",
+      "genres": [
+        "ロック",
+        "来日"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/-/128119",
+      "presale": true,
+      "presale_datetime": "2026-07-22T12:00:00+09:00",
+      "presale_url": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2347554",
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-01T10:00:00+09:00",
+      "general_sale_url": "https://l-tike.com/concert/mevent/?mid=367063"
+    },
+    {
+      "id": "ja-crazy-ken-band-nani-20260916",
+      "name": "クレイジーケンバンド『何？』",
+      "release_date": "2026-09-16",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [
+        "CD／配信"
+      ],
+      "developer": "クレイジーケンバンド",
+      "publisher": "UNIVERSAL MUSIC JAPAN",
+      "description": "クレイジーケンバンドが、通算26枚目となるニューアルバム『何？』を2026年9月16日にリリースする。バンド結成29年、デビュー28年、フロントマン横山剣のデビュー45周年という節目に届けられる全16トラック収録の意欲作。ベテランながらフレッシュさを失わない仕上がりで、初回限定盤には2025年に地元・横浜で行われた「華麗なるツアー 2025-2026」のライブ映像を収めたDVDが付属する。",
+      "genres": [
+        "J-POP",
+        "アルバム"
+      ],
+      "image_url": null,
+      "source_url": "https://www.universal-music.co.jp/ckb/news/2026-07-01/"
+    },
+    {
+      "id": "ja-5-seconds-of-summer-2026-20261121",
+      "name": "5 SECONDS OF SUMMER 来日公演2026",
+      "release_date": "2026-11-21",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "SGC HALL ARIAKE（東京・有明）"
+      ],
+      "developer": "5 SECONDS OF SUMMER",
+      "publisher": null,
+      "description": "オーストラリア出身のバンド、5 SECONDS OF SUMMER（5SOS）が8年ぶりの来日公演を開催する。6thアルバム『Everyone's A Star!』を引っ提げ、2026年11月21日に東京・SGC HALL ARIAKEで単独公演を行う。開場17時／開演18時。11月21日公演は即日完売となり、翌11月22日にも同会場での追加公演が決定した。世界的な人気を誇るポップ・ロックバンドの待望の再来日となる。",
+      "genres": [
+        "ポップ",
+        "ロック",
+        "来日"
+      ],
+      "image_url": null,
+      "source_url": "https://tower.jp/article/news/2026/04/28/tg015"
+    },
+    {
+      "id": "ja-two-door-cinema-club-2026-20261130",
+      "name": "TWO DOOR CINEMA CLUB 来日公演2026",
+      "release_date": "2026-11-30",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "SGC HALL ARIAKE（東京）",
+        "DIAMOND HALL（名古屋）",
+        "Zepp Osaka Bayside（大阪）"
+      ],
+      "developer": "TWO DOOR CINEMA CLUB",
+      "publisher": "CREATIVEMAN PRODUCTIONS",
+      "description": "北アイルランド出身のバンド、TWO DOOR CINEMA CLUB（トゥー・ドア・シネマ・クラブ）が、デビュー15周年を記念した約7年ぶりの単独来日公演を開催する。2026年11月30日の東京・SGC HALL ARIAKEを皮切りに、12月1日に名古屋・DIAMOND HALL、12月2日に大阪・Zepp Osaka Baysideを回る。デビュー作『Tourist History』の再現に加えベスト・ヒットを織り交ぜたセットリストで届ける。各公演とも開場18時／開演19時。",
+      "genres": [
+        "インディーロック",
+        "来日"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/two-door-cinema-club/126242"
     }
   ]
 }
