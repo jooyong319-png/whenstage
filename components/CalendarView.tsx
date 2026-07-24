@@ -135,14 +135,25 @@ export function CalendarView({ cursor, onCursorChange, games, wishlist: _wishlis
     }
   };
 
+  // 모바일(캘린더 아래에 패널이 오는 1열 레이아웃)에서 날짜를 탭하면 그 날 일정 패널로 스크롤.
+  const panelRef = useRef<HTMLElement>(null);
+  const scrollToPanelOnMobile = () => {
+    if (typeof window === 'undefined') return;
+    if (!window.matchMedia('(max-width: 900px)').matches) return;
+    requestAnimationFrame(() => {
+      panelRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  };
+
   function onCellClick(cell: Cell) {
     if (!cell.inMonth) {
       // 인접월 셀: 그 달로 점프 + 그 날짜 선택
       onCursorChange(new Date(cell.date.getFullYear(), cell.date.getMonth(), 1));
       setSelectedISO(cell.iso);
-      return;
+    } else {
+      setSelectedISO(cell.iso);
     }
-    setSelectedISO(cell.iso);
+    scrollToPanelOnMobile();
   }
 
   // 선택된 날짜의 출시·선예매·일반예매 항목
@@ -299,7 +310,7 @@ export function CalendarView({ cursor, onCursorChange, games, wishlist: _wishlis
           </ul>
         </div>
 
-        <aside className={styles.sidePanel}>
+        <aside className={styles.sidePanel} ref={panelRef}>
           <h3 className={styles.sidePanelTitle}>{panelTitle}</h3>
           <AnimatePresence mode="wait">
             {panelEntries.length === 0 ? (
