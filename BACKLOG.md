@@ -254,3 +254,24 @@
     WishlistView/CalendarView) 중복 처리
   - `CATEGORY_META`에 로케일별 `short` 필드 신설(현행 `CATEGORY_LABELS`로 충분)
   - 배지 문구/디자인/폭 변경(한국어 노출 제거가 최우선), `HeroSpotlight`의 캐러셀 로직·모션
+
+## [20260725-01] 클라이언트 토스트가 하드코딩 한국어라 EN/JA 로케일에 그대로 새는 문제
+- 상태: 대기
+- 등록일: 2026-07-25
+- 우선순위: P2(확실한 i18n 개선 — 단, SEO 색인 대상이 아닌 일시적 클라이언트 토스트라 카테고리 배지 누수(-02/-03)보다 노출 지속성은 낮음. 대신 찜 토스트는 찜 토글마다 매번 뜨는 고빈도 UI)
+- 근거: 코드 대조로 확정. 두 곳의 `showToast(...)` 호출이 로케일과 무관하게 한국어 문자열을 하드코딩해, EN/JA 사용자에게도 한국어 토스트가 그대로 뜬다 — 최근 사이클들이 반복해 고쳐온 "카테고리 배지 로케일 누수(-02/-03)"와 같은 클래스의 잔여 i18n 갭이고, `wiki/todo.md`의 "다듬을거리"에도 찜 토스트가 이미 플래그돼 있다.
+  - `hooks/useWishlist.ts:111` — `showToast(added ? '찜 목록에 추가됨' : '찜 목록에서 제거됨')`. 찜 추가/제거 토글마다 매번 뜨는 고빈도 확인 토스트인데 로케일 분기가 없다. **바로 위 같은 파일**의 첫-찜 넛지(`NUDGE_COPY`, 9~13행 ko/en/ja 완비 + 32행에서 `document.documentElement.lang`로 현재 로케일을 읽는 패턴)가 이미 이 문제를 풀어놨으므로, 같은 파일 안에 따라 쓸 검증된 패턴이 있다. `toggleId`는 React 컴포넌트가 아니라 모듈 레벨 함수라 `useLocale()`을 못 쓰지만, `NUDGE_COPY`처럼 `document.documentElement.lang`을 읽으면 된다(멀티 루트 레이아웃이 `<html lang>`을 서버에서 정확히 렌더하므로 신뢰 가능).
+  - `components/ReportForm.tsx:45` — `showToast(\`${submitLabel} 실패: ${r.error ?? '알 수 없음'}\`, 5000)`. `submitLabel`은 로케일 prop이지만 " 실패: " 접미사와 "알 수 없음" 폴백이 한국어 하드코딩. 이 컴포넌트는 `locale: string` prop(7~17행)을 이미 보유하므로 로케일 접근이 가능하다(제보 실패 경로라 노출 빈도는 낮지만 같은 클래스의 누수).
+- 스펙:
+  - `hooks/useWishlist.ts:111`의 확인 토스트 문자열을 로케일별로 분기한다. 구현 방향(개발 담당 재량): (a) `lib/i18nLabels.ts`의 `CAL` 딕셔너리에 `wishlistAddedToast`/`wishlistRemovedToast` 두 키를 ko/en/ja로 신설하고 — `CAL`은 순수 객체라 컴포넌트가 아닌 모듈 함수에서도 `import { CAL }` 후 `CAL[lang]`로 접근 가능 — `NUDGE_COPY`와 동일하게 `document.documentElement.lang`으로 lang을 읽어 문자열을 고르거나, (b) `NUDGE_COPY`처럼 이 파일 안에 작은 로케일 테이블을 두는 방식. `CAL`을 쓰는 (a)가 문구를 한 곳에서 관리하므로 권장.
+  - `components/ReportForm.tsx:45`의 실패 토스트도 로케일화한다. `locale` prop을 이미 받으므로 `import { CAL, type Locale }` 후 `CAL[locale as Locale]`에서 "실패"/"알 수 없음"에 해당하는 라벨을 쓰거나, 상위 서버 페이지가 이미 다른 라벨들을 prop으로 내려주는 패턴을 따라 실패용 라벨(`failLabel` 등)을 prop으로 추가한다(둘 중 프로젝트 관례에 맞는 쪽 — 다른 라벨들이 전부 prop이므로 prop 추가가 더 일관될 수 있음).
+  - 한국어 값 자체는 폴백으로 유지(lang 미상 시). ko 페이지는 기존과 동일 문구.
+- 완료 조건:
+  - [ ] EN/JA 로케일에서 찜 추가/제거 토스트가 각 로케일 언어로 뜬다(한국어 노출 0건), ko는 기존 문구 유지
+  - [ ] EN/JA 로케일에서 제보 실패 토스트가 각 로케일 언어로 뜬다(한국어 " 실패:"/"알 수 없음" 노출 0건), ko는 기존 문구 유지
+  - [ ] `grep -rn "찜 목록에 추가됨\|찜 목록에서 제거됨" hooks/ components/` 결과가 폴백 분기 외 표시 경로에 남지 않음
+  - [ ] `npm run typecheck` 통과(표시 문자열만 바꾸는 저위험 변경 — 전체 빌드는 환경 되면 Vercel 프리뷰로 확인 권장)
+- 범위 아닌 것:
+  - `NotifyToggle.tsx`의 토스트(이미 `t ? t.notifyOnToast : '한국어'`로 로케일 분기됨 — 한국어는 SSR t=null 폴백일 뿐 정상)는 손대지 않는다.
+  - 토스트 문구/디자인/지속시간 변경, `lib/toast.ts` 로직 변경(한국어 누수 제거가 최우선).
+  - 카테고리 배지 누수(-02/-03가 담당) 중복 처리.
