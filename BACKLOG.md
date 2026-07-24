@@ -75,8 +75,9 @@
   - EN/JA 문구, 인터페이스 타입 키 이름 변경, 위시리스트 기능 로직은 손대지 않는다.
 
 ## [20260723-03] gcalen 잔재 CSS 모듈명 `PreRegCountdown.module.css` → 컴포넌트명과 일치하게 정리
-- 상태: 대기
+- 상태: 완료 (2026-07-24, 커밋 53218d0)
 - 등록일: 2026-07-23
+- 처리 기록(2026-07-24, 개발 담당): `git mv components/PreRegCountdown.module.css components/TicketingPhase.module.css`로 순수 리네임, `components/TicketingPhase.tsx` 6행 import 경로를 `./TicketingPhase.module.css`로 갱신. CSS 셀렉터/규칙·컴포넌트 로직은 한 글자도 안 바꿈(rename diff 0줄). 검증 = **타입체크 + 코드 리뷰**(저위험 5-A 항목이라 무거운 `npm run build` 생략): `npx tsc --noEmit` ✅ 통과, `PreRegCountdown` 코드(.ts/.tsx/.css/.js) 참조 0건 재확인(남은 매치는 BACKLOG/wiki/PROJECT_STATUS 등 이력·설명 문서뿐 — 6-C상 단순 리네임은 위키 갱신 트리거 아님이라 문서는 손대지 않음).
 - 우선순위: P2(네이밍 정합성 — 소소한 기술부채)
 - 근거: `components/TicketingPhase.tsx`가 `import styles from './PreRegCountdown.module.css'`로
   이름이 어긋난 CSS 모듈을 참조한다. "PreReg(=사전예약, pre-registration)"는 gcalen(게임
