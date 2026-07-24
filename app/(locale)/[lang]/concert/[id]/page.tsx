@@ -270,7 +270,7 @@ export default async function LocaleGamePage({ params }: Props) {
                       )}
                     </span>
                     <span className="related-body">
-                      <span className="related-badge" style={{ background: cat.color }}>{cat.short}</span>
+                      <span className="related-badge" style={{ background: cat.color }}>{CATEGORY_LABELS[lang][r.category]}</span>
                       <span className="related-name">{r.name}</span>
                       <span className="related-date">{formatShortDate(r.release_date)}</span>
                     </span>

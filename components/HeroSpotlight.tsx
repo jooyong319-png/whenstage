@@ -5,6 +5,7 @@ import { motion } from 'motion/react';
 import type { Game } from '@/lib/types';
 import { CATEGORY_META } from '@/lib/types';
 import { calcDayDiff, formatShortDate } from '@/lib/utils';
+import { CATEGORY_LABELS } from '@/lib/i18nLabels';
 import type { Locale } from '@/lib/i18nLabels';
 import styles from './Home.module.css';
 
@@ -178,7 +179,7 @@ export function HeroSpotlight({ slides, cardImages, tickerItems, now, lang, hero
               <span className={styles.spotlightDday} style={{ color: curCat.color }}>{curDday}</span>
               <span className={styles.spotlightSep} aria-hidden="true">·</span>
               <span className={styles.spotlightDate}>{formatShortDate(cur.release_date)}</span>
-              <span className={styles.spotlightBadge} style={{ background: curCat.color }}>{curCat.short}</span>
+              <span className={styles.spotlightBadge} style={{ background: curCat.color }}>{CATEGORY_LABELS[lang][cur.category]}</span>
             </span>
           </a>
         )}
