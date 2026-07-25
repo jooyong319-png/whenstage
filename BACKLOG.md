@@ -383,3 +383,22 @@
 - 범위 아닌 것:
   - `app/robots.ts`·`app/sitemap.ts`·`public/ads.txt`·`public/google*.html` 등 실제 서빙/검증 파일 변경
   - robots 규칙 자체(allow/disallow) 정책 변경 — 이번은 순수 죽은 파일 삭제만(규칙은 `app/robots.ts` 현행 유지)
+
+## [20260725-07] 뉴스·모아보기 frontmatter 파서가 값 끝 따옴표를 잘못 떼어 곡·앨범명 닫는 따옴표가 사라지는 버그
+- 상태: 대기
+- 등록일: 2026-07-25
+- 우선순위: P1(라이브 색인 콘텐츠의 제목·설명 결함 — 뉴스/블로그 제목이 카드·상세 `<title>`·OG에 그대로 노출되는데 닫는 따옴표가 잘려 검색/공유 미리보기 품질을 떨어뜨림. 케이팝/음악 도메인 특성상 곡·앨범·투어명을 따옴표로 감싼 제목이 매우 흔해 신규 기사마다 반복 재발)
+- 근거: 라이브 `https://whenstage.com/en/news`에서 제목 `Gayle Sets ... Debut Album 'Observing Chaos`(닫는 `'` 없음), `Morgan Wallen Drops New Solo Single "Been By Now`(닫는 `"` 없음), 설명 `... shares new single "Loving You Is.`(닫는 `"` 없음)를 실측. 원본 마크다운(`content/news/2026-07-24-gayle-observing-chaos-release-date.en.md`)의 frontmatter는 `title: ... 'Observing Chaos'`로 양끝 따옴표가 정상 존재 → 콘텐츠 결함이 아니라 파서 결함. 원인: `lib/news.ts:38`·`lib/blog.ts:34`의 `val = val.replace(/^["']|["']$/g, '')` — 값 전체가 따옴표로 감싸졌을 때만 바깥 한 쌍을 벗겨야 하는데, 정규식이 **여는 따옴표 또는 닫는 따옴표를 독립적으로(그리고 `g` 플래그로) 제거**해서, 값이 우연히 따옴표로 끝나면(곡·앨범명 인용) 그 닫는 따옴표까지 떼어낸다. 대칭으로, 값이 인용어로 시작하면 여는 따옴표도 사라진다. 배열 분기(`lib/news.ts:36`·`lib/blog.ts:32`)의 요소별 strip도 동일 결함(태그가 따옴표로 끝나는 경우는 드물지만 일관성 위해 함께 고침). 콘서트(`data/concerts.*.json`)는 JSON 파싱이라 무관, `lib/push.ts:7`도 같은 정규식이나 VAPID 키(base64url)라 실무상 영향 없어 이번 범위 아님.
+- 스펙:
+  - `lib/news.ts`·`lib/blog.ts`의 frontmatter 값 언쿼트 로직을 "**값의 양끝이 같은 따옴표로 감싸진 경우에만** 바깥 한 쌍을 제거"하도록 고친다. 예: `val = (/^"[\s\S]*"$/.test(val) || /^'[\s\S]*'$/.test(val)) ? val.slice(1, -1) : val;`(구현 세부는 개발 담당 재량 — 핵심은 감싸지 않은 값의 한쪽 따옴표를 건드리지 않는 것). 배열 분기의 요소별 strip도 동일 규칙으로 통일.
+  - 두 파일의 파서가 사실상 동일하므로 같은 방식으로 맞춰 고친다(가능하면 공용 헬퍼로 추출해 중복 제거 — 재량).
+  - 콘텐츠 파일(`content/**`)·JSON 데이터는 손대지 않는다(원본은 이미 정상, 순수 파서 수정).
+- 완료 조건:
+  - [ ] `content/news/2026-07-24-gayle-observing-chaos-release-date.en.md`의 title이 `Gayle Sets September 18 Release Date for Debut Album 'Observing Chaos'`(닫는 `'` 포함)로 파싱됨(단위테스트 또는 로컬 렌더로 확인)
+  - [ ] 값 양끝이 따옴표로 감싸진 경우(`title: "..."`)는 종전처럼 바깥 한 쌍만 제거(회귀 없음), 한쪽만 따옴표인 값은 그대로 보존
+  - [ ] 재배포 후 `https://whenstage.com/en/news`의 제목·설명에 닫는 따옴표가 살아있음(`curl` 또는 육안)
+  - [ ] `npm run typecheck` 통과(파서 순수 함수 국소 수정 — 단위테스트 추가 권장, 전체 빌드는 Vercel 프리뷰 위임 가능)
+- 범위 아닌 것:
+  - 완전한 YAML 파서 도입(멀티라인·중첩·이스케이프 등) — 이번은 따옴표 언쿼트 결함만 국소 수정
+  - `lib/push.ts`의 env 트림 정규식(실무 영향 없음)·`data/concerts.*.json`(JSON이라 무관)
+  - 콘텐츠 마크다운 자체 수정(원본은 정상)
