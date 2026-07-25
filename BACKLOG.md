@@ -304,8 +304,9 @@
   - 다른 컴포넌트의 i18n 누수(-01/-02/-03가 담당한 토스트·카테고리 배지) 중복 처리
 
 ## [20260725-03] ViewCounter(조회수) "회 조회"/"조회수"가 하드코딩 한국어라 EN/JA에 그대로 새는 문제
-- 상태: 대기
+- 상태: 완료 (2026-07-25, 커밋 eafd9a0)
 - 등록일: 2026-07-25
+- 처리 기록(2026-07-25, 개발 담당): 스펙대로 `components/ViewCounter.tsx`의 하드코딩 한국어 표시 문자열 2곳을 로케일화. 시각 라벨 "회 조회"(:66)와 컨테이너 `aria-label="조회수"`(:63)를 `lib/i18nLabels.ts` `CAL` 딕셔너리 신규 키(`views`/`viewsAria`, ko/en/ja + `CalUiStrings` 인터페이스)로 교체 — 컴포넌트는 `use client`라 `hooks/useLocale.ts`의 `useLocale()`로 lang을 얻어 `const t = CAL[useLocale()]`로 참조, 라벨은 `{t.views}`·aria는 `{t.viewsAria}`. 숫자는 기존대로 별도 span에 먼저 오고 라벨이 뒤따르는 어순이라(ko `회 조회`/en `views`/ja `回閲覧`) 숫자-라벨 결합이 세 로케일 모두 자연스러움. 한국어 값은 `CAL.ko` 폴백으로 유지(lang 미상 시 useLocale이 ko 반환)라 ko 표기 불변. 조회수 집계 로직(`shouldCount`/supabase insert·select)·`ViewCounter.module.css`는 한 줄도 안 건드림(표시 문자열만). **검증 = 타입체크 + 코드 리뷰**(저위험 5-A 표시 문자열 변경이라 무거운 `npm run build` 생략): `./node_modules/.bin/tsc --noEmit` ✅ 오류 0, `grep -n "회 조회|조회수" components/ViewCounter.tsx` 결과 표시 경로 잔존 0건(남은 매치는 :44 코드 주석 "누적 조회수"뿐 — 표시 문자열 아님), `views:`/`viewsAria:` 각 4곳(인터페이스 1 + ko/en/ja 3) 존재 확인. 전체 빌드는 환경 되면 Vercel 프리뷰에서 EN/JA 콘서트 상세 조회수 라벨(views/回閲覧) 육안 확인 권장(SSG 완주 못 하는 샌드박스 제약).
 - 우선순위: P2(확실한 i18n 개선 — SSR HTML에 안 실리는 클라이언트 렌더 값이라 SEO 색인 대상은 아니나, EN/JA 콘서트 상세 페이지마다 노출되는 표시 문자열)
 - 근거: 코드 대조로 확정. `components/ViewCounter.tsx`는 `app/(locale)/[lang]/concert/[id]/page.tsx:239`에서 모든 로케일 콘서트 상세에 렌더되는데, 조회수 라벨이 로케일 분기 없이 한국어로 하드코딩돼 EN/JA 상세 페이지에도 한국어가 그대로 뜬다 — -01/-02/-03과 같은 클래스의 미등록 i18n 갭. 이 컴포넌트도 `use client`라 `useLocale()`를 바로 쓸 수 있으나 현재 import하지 않는다. 누수 위치:
   - `ViewCounter.tsx:66` — 시각 라벨 `<span className={styles.label}>회 조회</span>`
