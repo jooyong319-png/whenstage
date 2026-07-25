@@ -322,3 +322,45 @@
 - 범위 아닌 것:
   - 조회수 집계 로직·Supabase `page_views` 스키마 변경
   - `ViewCounter.module.css`/디자인 변경, 다른 컴포넌트 i18n 누수(-01/-02/-03) 중복 처리
+
+## [20260725-04] 홈·인덱스·이미지없는 상세 페이지에서 `og:image`가 통째로 빠지는 소셜 공유 미리보기 누락
+- 상태: 대기
+- 등록일: 2026-07-25
+- 우선순위: P1(공유 미리보기 이미지 누락 — 카카오/라인/페이스북/디스코드/슬랙 링크 카드에 대표 이미지가 안 뜸. K팝 팬덤 특성상 카카오/라인/트위터 공유가 유입의 큰 축이라 공유 CTR에 직접 영향)
+- 근거: 라이브 3개 로케일 홈(`https://whenstage.com/ko`·`/en`·`/ja`)의 실제 응답 메타태그를 확인한 결과 **`og:image`가 아예 없고**(`meta-og:title/description/locale/type/url`은 정상), 반면 **`twitter:image`는 `https://whenstage.com/og-image.png`로 정상** 출력된다. 원인은 Next.js App Router의 메타데이터 병합 방식: 자식 세그먼트의 `generateMetadata`가 `openGraph` 객체를 반환하면 부모(루트 레이아웃)의 `openGraph`를 **얕은 병합으로 통째 대체**해(하위 필드 딥머지 아님) 레이아웃이 설정한 `images: ['/og-image.png']`가 사라진다. 반대로 `twitter`는 자식이 재정의하지 않아 레이아웃 값(`images: ['/og-image.png']`)이 그대로 상속돼 유지된다 — 라이브에서 og만 빠지고 twitter는 남는 현상이 이 병합 동작과 정확히 일치(코드 대조로 재확인). 관련 코드:
+  - `app/(locale)/[lang]/layout.tsx:25,30` — 레이아웃이 `openGraph.images`·`twitter.images`에 `'/og-image.png'` 설정(사이트 기본 OG 이미지 의도).
+  - `app/(locale)/[lang]/page.tsx:38`(홈) — `openGraph`를 재정의하는데 `images`를 안 넣어 홈에서 og:image 소실(가장 많이 공유되는 각 로케일 진입 페이지).
+  - 같은 패턴으로 og:image가 빠지는 인덱스/리스트 페이지: `blog/page.tsx:43`, `artist/page.tsx:28`, `news/page.tsx:44`, `venue/page.tsx:26`, `guide/page.tsx:38`.
+  - 대표 이미지가 없을 때 `images: undefined`로 떨어져 소실되는 상세 페이지: `artist/[slug]/page.tsx:37`(artist.image 없을 때), `venue/[slug]/page.tsx:31`(항상 없음), `blog/[slug]/page.tsx:45`·`news/[slug]/page.tsx:46`(heroImage 없을 때).
+  - 이미 정상인 곳(참고): `concert/[id]/page.tsx:57`은 `images: [{ url: ogImage }]`로 폴백을 넣어 og:image가 나감 — 이 항목의 수정 방향과 동일한 형태.
+- 스펙:
+  - `openGraph`를 재정의하는 모든 로케일 페이지의 `generateMetadata`에서, 페이지 고유 이미지가 없을 때 **사이트 기본 OG 이미지(`/og-image.png`, `metadataBase`로 절대경로 해석)로 폴백**하도록 `images`를 항상 채운다. 즉 리스트/홈 페이지는 `images: ['/og-image.png']`를 명시하고, 상세 페이지(`artist/[slug]`·`venue/[slug]`·`blog/[slug]`·`news/[slug]`)는 `images: 고유이미지 ? [{ url: 고유이미지 }] : ['/og-image.png']`처럼 `undefined` 대신 기본 이미지로 폴백한다.
+  - 반복을 줄이려면 `lib/i18nLabels.ts`(또는 seo 헬퍼)에 `DEFAULT_OG_IMAGE = '/og-image.png'` 상수를 두고 각 페이지가 참조하는 방식을 권장(개발 담당 재량 — 상수화 없이 각 페이지에 리터럴로 넣어도 무방).
+  - `twitter`는 이미 정상 상속되므로 굳이 각 페이지에 추가할 필요 없음(단, 상세 페이지가 이미 `twitter.images`를 명시한 경우 og와 동일 폴백으로 맞추면 일관적).
+- 완료 조건:
+  - [ ] `https://whenstage.com/ko`·`/en`·`/ja` 홈 응답에 `og:image`(= `https://whenstage.com/og-image.png`)가 존재
+  - [ ] 인덱스 페이지(news/artist/blog/venue/guide)와 대표 이미지 없는 상세(artist/venue/heroImage 없는 blog·news)에서도 `og:image`가 최소 기본 이미지로 존재
+  - [ ] 고유 이미지가 있는 상세(콘서트/heroImage 있는 글/이미지 있는 아티스트)는 기존처럼 그 이미지가 og:image로 유지(회귀 없음)
+  - [ ] `npm run typecheck` 통과(전체 빌드는 환경 되면 Vercel 프리뷰로 실제 메타태그 육안 확인 권장 — 라이브 재배포 후 `curl -s <url> | grep og:image`로 재검증)
+- 범위 아닌 것:
+  - `og-image.png` 이미지 자체의 디자인/교체(별개), 페이지별 동적 OG 이미지 생성(대형 작업, 이번 범위 아님 — 기본 이미지 폴백만)
+  - `meta-keywords`가 한국어로 고정된 별개 이슈(검색엔진이 무시하는 태그라 저가치, 계속 스킵)
+  - `twitter` 카드 구조 변경(이미 정상 동작)
+
+## [20260725-05] 어디서도 렌더되지 않는 gcalen 잔재 죽은 코드 `Comments.tsx`(+`.module.css`) 제거
+- 상태: 대기
+- 등록일: 2026-07-25
+- 우선순위: P2(죽은 에셋 정리 — 2026-07-23 orphan 청소에서 누락된 gcalen 잔재. `og-image.png`(20260723-01)·`PreRegCountdown.module.css`(20260723-03) 완료 항목과 동일 성격)
+- 근거: `components/Comments.tsx`가 **어떤 페이지·컴포넌트에서도 import/렌더되지 않는다**(전 소스 `import ... Comments` 스캔 결과 자기 자신의 `Comments.module.css` 참조 1건 외 0건; `<Comments`·dynamic import도 0건). 또한 이 컴포넌트가 조회/삽입하는 Supabase `comments` 테이블은 스키마 소스인 `supabase/*.sql`에 정의가 없다(현재 `data_reports.sql`·`push_subscriptions.sql`만 존재, `wiki/architecture.md` "외부 서비스 연동 현황"의 실사용 테이블 목록에도 `comments` 없음). `git log` 상 이 파일은 초기 스캐폴드(cea0056, 2026-07-21)·도메인 전환(c49fa5a, 2026-07-21) 이후 한 번도 수정되지 않았고, 2026-07-23 2차 오버홀의 orphan 컴포넌트 7종 청소(`wiki/decisions.md`/`design-audit.md`) 목록에서 빠져 살아남은 잔재다. `wiki/design-audit.md:220`은 이 파일이 아직 gcalen 시절 "이 게임에 대한 댓글" 카피를 그대로 갖고 있다고 이미 지적. 참고로 같은 감사 문서가 함께 거론한 `GameReactions.tsx`는 2026-07-23에 제거됐으나 `Comments`만 남음.
+- 스펙:
+  - `components/Comments.tsx`와 짝인 `components/Comments.module.css`를 삭제한다(`git rm`). 두 파일 모두 다른 곳에서 참조하지 않음을 삭제 전 재확인.
+  - `comments` Supabase 테이블은 스키마 파일이 없어 코드 삭제만으로 충분(별도 SQL 정리 불필요). 실제 DB에 잔존 테이블이 있는지 여부는 사람 확인 영역이라 이 항목에서 건드리지 않는다.
+  - 코드 삭제 외 다른 컴포넌트·라우트·스타일은 손대지 않는다(순수 죽은 코드 제거).
+- 완료 조건:
+  - [ ] `components/Comments.tsx`·`components/Comments.module.css`가 저장소에서 제거됨
+  - [ ] `grep -rn "Comments" app/ components/ lib/ hooks/` 결과에 제거된 컴포넌트를 import/렌더하는 참조가 없음(privacy 페이지 본문의 영어 단어 "Comments"는 무관 — 정책 문구)
+  - [ ] `npm run typecheck` 통과(로직·라우팅·타입 무영향 죽은 코드 삭제라 저위험 5-A, 전체 빌드 생략 가능 — 20260723-01/-03 선례)
+- 범위 아닌 것:
+  - `data/`·`content/` 콘텐츠, `supabase/*.sql` 스키마 변경
+  - `Game`/`GameRow`/`GameModal` 등 `Game` 인터페이스 계열 대규모 리네임(`wiki/decisions.md`가 우선순위 낮음으로 명시)
+  - 실제 Supabase DB의 `comments` 테이블 삭제(사람 판단 영역)
