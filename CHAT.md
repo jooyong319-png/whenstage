@@ -1,3 +1,10 @@
+## [2026-07-25 10:49] [JA 뉴스]
+뉴스 작성 완료 (일본 국내 공연 뉴스)
+- 신규 기사 2건: sumika 전국 홀＆아레나 투어〈Laurens Library〉2027년 개최 발표(7/24 부도칸 파이널서 공개, FC선행 8/3까지), 上白石萌音 주최 야외페스〈bouquet〉제4탄 라인업에 adieu(여동생 上白石萌歌) 출연 결정
+- 콘서트 링크 연결 0건 / 링크 없음 2건 (두 건 모두 concerts.ja.json 미등재 → 이미지 자동연결 링크 생략, leads로 인계)
+- 리서처 인계(leads.ja.jsonl) 3건 추가: sumika Laurens Library 투어(공연), 上白石萌音 bouquet 페스(페스티벌), AKASAKI 1st World Tour "ONIGIRI"(공연·일정 미발표 보류)
+- 스킵: KEN THE 390·jo0ji·シャイ・マエストロ(기존 ja 기사 중복), AKASAKI 메이저데뷔(7/23 라이브 사후 리뷰성+월드투어 일정 미발표), Journey 一般発売(원출처 신뢰도 부족으로 보류)
+
 ## [2026-07-25 10:30] [EN 뉴스]
 뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
 - 신규 기사 4건: Morgan Wallen 신곡 "Been By Now"(7/24 발매), ADÉLA 데뷔앨범 "PRIMA"(9/4 발매 발표), Goose Goosemas 2026 애틀랜틱시티(12/11~12) 일반예매 7/24 개시, Ministry 마지막 앨범 "Hate To Go"+작별 투어 발표
