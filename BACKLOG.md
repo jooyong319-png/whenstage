@@ -279,8 +279,9 @@
   - 카테고리 배지 누수(-02/-03가 담당) 중복 처리.
 
 ## [20260725-02] InstallPrompt(앱 설치 배너) 문구가 통째로 하드코딩 한국어라 EN/JA에 그대로 새는 문제
-- 상태: 대기
+- 상태: 완료 (2026-07-25, 커밋 a02ee90)
 - 등록일: 2026-07-25
+- 처리 기록(2026-07-25, 개발 담당): 스펙대로 `components/InstallPrompt.tsx`의 하드코딩 한국어 표시 문자열(제목·3개 모드 sub·CTA 2종·aria-label 2종)을 전부 로케일화. `lib/i18nLabels.ts`의 `UI` 딕셔너리(앱 크롬 문구가 모여 있는 곳)에 install 배너용 키 8종(`installTitle`, `installSubIos`/`installSubPlay`/`installSubPwa`, `installCtaPlay`/`installCtaPwa`, `installAriaBanner`/`installAriaClose`)을 ko/en/ja로 신설(인터페이스 `UiStrings`에도 추가). 컴포넌트는 `use client`라 `hooks/useLocale.ts`의 `useLocale()`로 lang을 얻어 `const t = UI[lang]`로 참조 — `sub` 삼항·제목·CTA·aria가 모두 `t.install*`을 씀. 한국어 값은 `UI.ko` 폴백으로 유지(lang 미상 시 useLocale이 ko 반환)라 ko 배너 문구 불변. `PLAY_STORE_URL`·설치/dismiss 로직·모드 판별(iOS/PWA/Play)·`localStorage`·CSS는 한 줄도 안 건드림(표시 문자열만). **검증 = 타입체크 + 코드 리뷰**(저위험 5-A 표시 문자열 변경이라 무거운 `npm run build` 생략): `npm run typecheck`(tsc --noEmit) ✅ 오류 0, `grep -n "앱으로 설치하기\|Play 스토어\|앱 설치 안내" components/InstallPrompt.tsx` 결과 표시 경로 잔존 0건(남은 매치 2건은 파일 상단 주석뿐 — 표시 문자열 아님), `installTitle`이 인터페이스 1 + 3로케일 = 4곳 존재 확인. 전체 빌드는 환경 되면 Vercel 프리뷰에서 EN/JA 설치 배너(iOS/PWA/Play 3모드) 문구 육안 확인 권장(SSG 완주 못 하는 샌드박스 제약).
 - 우선순위: P2(확실한 i18n 개선 — 단 SSR HTML에 안 실리는 조건부 클라이언트 배너라 SEO 색인 대상은 아님. 대신 EN/JA 사용자가 설치를 시도하는 순간 배너 전체가 한국어라 노출 시 이질감이 큼)
 - 근거: 코드 대조로 확정. `components/InstallPrompt.tsx`는 `components/AppShell.tsx:67`에서 렌더돼 **모든 로케일(ko/en/ja) 공통 크롬**으로 붙는데, 배너에 뜨는 표시 문자열이 전부 로케일 분기 없이 한국어로 하드코딩돼 있다 — 최근 사이클들이 반복해 고쳐온 "하드코딩 한국어 로케일 누수(-01 토스트, -02/-03 카테고리 배지)"와 정확히 같은 클래스의 잔여 i18n 갭이고, `BACKLOG.md`·`wiki/todo.md` 어디에도 아직 등록되지 않았다. 해당 컴포넌트는 `use client`라 `hooks/useLocale.ts`(usePathname으로 `/ko|/en|/ja` 판별, ko 폴백)를 바로 쓸 수 있는데 현재는 `useLocale`을 import하지 않는다. 누수 위치:
   - `InstallPrompt.tsx:89` — 제목 `<strong>앱으로 설치하기</strong>`
