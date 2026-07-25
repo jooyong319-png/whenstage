@@ -735,6 +735,102 @@
       ],
       "image_url": null,
       "source_url": "https://tickets.interpark.com/contents/notice/detail/13718"
+    },
+    {
+      "id": "ko-busan-rock-festival-20261002",
+      "name": "2026 부산국제록페스티벌",
+      "release_date": "2026-10-02",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "festival",
+      "platforms": [
+        "부산 삼락생태공원"
+      ],
+      "developer": null,
+      "publisher": "부산시·부산국제록페스티벌 조직위원회",
+      "description": "부산을 대표하는 야외 록 축제인 부산국제록페스티벌이 2026년 10월 2일부터 4일까지 사흘간 부산 삼락생태공원에서 열린다. 올해 헤드라이너로는 세계적인 헤비메탈 밴드 메가데스가 이름을 올렸고, 잔나비·한로로·우즈(WOODZ)·엑스디너리 히어로즈·카더가든 등 국내외 아티스트 18개 팀이 2차 라인업으로 공개됐다. 정규 티켓은 1·2·3일권으로 나뉘어 예스24 티켓에서 판매되며, 낙동강을 낀 대규모 무대에서 국내외 록 밴드들의 열기를 만끽할 수 있다.",
+      "genres": [
+        "페스티벌",
+        "록"
+      ],
+      "image_url": null,
+      "source_url": "https://www.mhns.co.kr/news/articleView.html?idxno=753761",
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-21T14:00:00+09:00",
+      "general_sale_url": null,
+      "last_updated": "2026-07-25",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-jeongeunji-summer-i-20260811",
+      "name": "정은지 미니 5집 'Summer, I'",
+      "release_date": "2026-08-11",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "정은지",
+      "publisher": "빌리언스",
+      "description": "에이핑크 정은지가 미니 5집 'Summer, I(썸머, 아이)'로 솔로 컴백한다. 8월 11일 오후 6시 각 음원 사이트에서 공개되며, 2022년 11월 리메이크 앨범 'log' 이후 약 3년 9개월 만의 솔로 신보이자 정규 미니앨범으로는 약 6년 만이다. 타이틀곡 '파도'에는 10CM·적재·소수빈이 참여해 여름 감성을 더했으며, 정은지 특유의 청량하고 서정적인 보컬을 앞세운 여름 시즌 음반으로 기대를 모은다.",
+      "genres": [
+        "가요",
+        "컴백"
+      ],
+      "image_url": null,
+      "source_url": "https://www.munhwa.com/article/11604169",
+      "last_updated": "2026-07-25",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-bigbang-20th-hangang-20260819",
+      "name": "쿠팡플레이 빅뱅 20주년 X 한강 콜라보레이션 (리스닝 파티)",
+      "release_date": "2026-08-19",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "서울 여의도 한강공원 물빛무대"
+      ],
+      "developer": "빅뱅(BIGBANG)",
+      "publisher": "쿠팡플레이",
+      "description": "쿠팡플레이가 빅뱅의 데뷔 20주년을 기념해 8월 19일 오후 8시 서울 여의도 한강공원 물빛무대에서 '쿠팡플레이와 함께하는 빅뱅 20주년 X 한강 콜라보레이션' 리스닝 파티를 연다. 대표곡을 재해석한 디제잉 퍼포먼스와 20년의 서사를 담은 히스토리 영상, 미디어 아트와 오케스트라 사운드에 이어 대규모 드론쇼와 불꽃놀이로 마무리되는 야외 이벤트다. 전석 무료로 진행되며 7월 28일 오후 7시 쿠팡플레이 앱에서 선착순 예매가 열린다. 8월 21일 고양 월드투어와는 별개의 단독 사전 이벤트다.",
+      "genres": [
+        "K-POP",
+        "이벤트"
+      ],
+      "image_url": null,
+      "source_url": "https://www.starnewskorea.com/music/2026/07/22/2026072215142522460",
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-28T19:00:00+09:00",
+      "general_sale_url": null,
+      "last_updated": "2026-07-25",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-persona-live-tour-resonance-seoul-20261003",
+      "name": "PERSONA LIVE TOUR 2026 -Resonance- in Seoul",
+      "release_date": "2026-10-03",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "서울 예스24 라이브홀"
+      ],
+      "developer": "아틀러스(ATLUS)",
+      "publisher": "아틀러스 코리아",
+      "description": "인기 게임 '페르소나' 시리즈의 음악 라이브 'PERSONA LIVE TOUR 2026 -Resonance-'가 10월 3일 서울 예스24 라이브홀에서 열린다. 일본 후쿠오카를 시작으로 오사카·도쿄를 거쳐 서울, 대만 타이베이로 이어지는 아시아 투어의 서울 공연으로, 다카하시 아즈미·로터스 주스·Lyn 등 시리즈를 대표하는 보컬리스트들이 무대에 오른다. '페르소나3 리로드'와 '페르소나5' 시리즈의 인기곡은 물론 30주년 기념 특별 곡도 선보일 예정이다. 7월 24일 오후 8시 예스24 티켓에서 예매가 시작돼 전석이 매진됐다.",
+      "genres": [
+        "게임음악",
+        "라이브"
+      ],
+      "image_url": null,
+      "source_url": "https://x.com/Atlus_korea/status/2079038893941239912",
+      "last_updated": "2026-07-25",
+      "last_researched_by": "ko-researcher"
     }
   ]
 }
