@@ -1,3 +1,17 @@
+## [2026-07-25 09:27] [EN 리서처]
+리서치 완료 (영어권/글로벌 시장 공연)
+- 콘서트/투어 1→1, 발매 1→1, 페스티벌 0→0, 팬미팅 0→0 (후보→통과)
+- 신규 2개 / 갱신 0개 (삭제 없음·전량 보존)
+- 티켓팅 진행중 22개 유지 (추가 +0 / 해제 -0 — 전 항목 공연일 미래라 해제 대상 없음)
+- description 보강 0개
+- 총 등록 31개
+- 뉴스 인계 처리 12건 중 2건 등재 (leads.en.jsonl 12건 중 10건은 이미 concerts.en.json에 등재돼 자동 스킵, 미등재 2건만 검증 후 등재)
+- 신규 등재:
+  - GAYLE 'Observing Chaos' 데뷔 정규앨범 (9/18, Atlantic Records) — Apple Music·The Music Universe·idobi 다중 출처로 발매일·레이블 확정. image_url은 앨범 커버(비자유 fair-use)라 null.
+  - Amon Amarth 'The Allfather Awakens' UK/EU 투어 - Manchester 개막(10/9 O2 Apollo, 11/15 Lisbon 폐막, 28회) — Knotfest·Kerrang·MetalTalk·Metal Blade 다중 출처 확정. 일반예매 2025-11-28 개시분 진행중(general_sale:true). image_url null.
+
+[검증 탈락]
+- 없음 (미등재 리드 2건 모두 독립 출처 2개 이상으로 검증 통과)
 ## [2026-07-25 09:12] [KO 리서처]
 리서치 완료 (한국 국내 공연)
 - 콘서트/내한 3→1, 음원발매 0→0, 페스티벌 0→0, 팬미팅 1→0 (후보→통과)
