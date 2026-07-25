@@ -127,6 +127,24 @@
         "agency": "온리유엔터테인먼트",
         "members": "솔로",
         "debut": "2020년"
+      },
+      "back number": {
+        "text": "백넘버(back number)는 시미즈 이요리(보컬·기타)를 중심으로 2004년 결성된 일본의 3인조 록 밴드다. 실연과 일상의 감정을 섬세하게 담아낸 가사와 서정적인 멜로디로 폭넓은 사랑을 받았으며, 2011년 싱글 '하나비라'로 메이저 데뷔했다.",
+        "agency": null,
+        "members": "3인조",
+        "debut": "2011.04.06"
+      },
+      "이승철": {
+        "text": "이승철은 1985년 록 밴드 부활의 보컬로 데뷔해 이름을 알린 뒤 1988년 솔로로 독립한 대한민국의 가수다. '안녕이라고 말하지 마', '그런 사람 또 없습니다' 등 여러 세대에 사랑받은 발라드 히트곡으로 '가왕'이라 불리며 오랜 기간 정상급 보컬리스트로 활동해 왔다.",
+        "agency": null,
+        "members": "솔로",
+        "debut": "1985"
+      },
+      "포스트 말론": {
+        "text": "포스트 말론은 힙합, 팝, 록, 컨트리를 넘나드는 장르 융합으로 2010년대 후반 미국 대중음악을 대표하게 된 싱어송라이터다. 2015년 'White Iverson'으로 주목받은 뒤 'Rockstar', 'Sunflower' 등 연이은 히트로 세계적인 스타로 자리매김했다.",
+        "agency": "Republic Records",
+        "members": "솔로",
+        "debut": "2015"
       }
     },
     "en": {
@@ -231,6 +249,54 @@
         "agency": "Glassnote Records",
         "members": "Solo",
         "debut": "2022"
+      },
+      "Amon Amarth": {
+        "text": "Amon Amarth are a Swedish melodic death metal band formed in Tumba in 1992, taking their name from the Sindarin word for Mount Doom in Tolkien's Middle-earth. Fronted by vocalist Johan Hegg, they are known for anthemic songs steeped in Viking and Norse mythology and a commanding, theatrical live show.",
+        "agency": null,
+        "members": "5-piece",
+        "debut": "1992"
+      },
+      "Bryan Adams": {
+        "text": "Bryan Adams is a Canadian singer-songwriter who became a global rock star in the 1980s. After his 1980 self-titled debut, albums such as Cuts Like a Knife (1983) and Reckless (1984) produced enduring hits like \"Summer of '69\" and \"Run to You,\" and he has remained a durable arena draw for decades.",
+        "agency": "A&M Records",
+        "members": "Solo",
+        "debut": "1980"
+      },
+      "Fcukers": {
+        "text": "Fcukers are a New York City dance-punk trio formed in 2022 by vocalist Shanny Wise, multi-instrumentalist Jackson Walker Lewis, and drummer Ben Scharf. Emerging from the city's club scene, they pair house and dance grooves with an irreverent, party-first sensibility.",
+        "agency": null,
+        "members": "3-piece",
+        "debut": "2022"
+      },
+      "GAYLE": {
+        "text": "GAYLE is an American singer-songwriter from Texas who broke through with her 2021 single \"abcdefu,\" a global hit that topped charts in several countries and earned a Grammy nomination for Song of the Year. She is signed to Atlantic and Arthouse Records.",
+        "agency": "Atlantic / Arthouse Records",
+        "members": "Solo",
+        "debut": "2021"
+      },
+      "Garth Brooks": {
+        "text": "Garth Brooks is an American country singer-songwriter whose blend of traditional country with arena-rock showmanship made him one of the best-selling music artists of all time. After signing to Capitol and releasing his self-titled debut in 1989, albums like No Fences helped push country music into the mainstream.",
+        "agency": "Capitol Records",
+        "members": "Solo",
+        "debut": "1989"
+      },
+      "Ryan Bingham & The Texas Gentlemen": {
+        "text": "Ryan Bingham is an American singer-songwriter and guitarist whose music spans country, folk, rock, and Americana, drawing on a hardscrabble upbringing across Texas and the Southwest. He won an Academy Award and a Grammy for \"The Weary Kind\" from Crazy Heart, and tours backed by the acclaimed roots ensemble The Texas Gentlemen.",
+        "agency": null,
+        "members": null,
+        "debut": "2007"
+      },
+      "Trombone Shorty & Orleans Avenue": {
+        "text": "Trombone Shorty & Orleans Avenue is the band led by New Orleans trombonist, trumpeter, and singer Troy \"Trombone Shorty\" Andrews. Blending funk, jazz, R&B, rock, and hip-hop into a high-energy sound Andrews calls \"supafunkrock,\" the group carries forward the musical traditions of its hometown.",
+        "agency": null,
+        "members": null,
+        "debut": "2010"
+      },
+      "Victoria Monét": {
+        "text": "Victoria Monét is an American R&B singer-songwriter who spent years as an acclaimed songwriter — including co-writes for Ariana Grande — before breaking through as an artist. Her 2023 major-label album Jaguar II and the hit \"On My Mama\" earned multiple Grammy Awards, including Best New Artist.",
+        "agency": "RCA Records",
+        "members": "Solo",
+        "debut": "2023"
       }
     },
     "ja": {
@@ -353,6 +419,72 @@
         "agency": "アミューズ",
         "members": "ソロ",
         "debut": "1987年(ソロ)"
+      },
+      "5 SECONDS OF SUMMER": {
+        "text": "5 Seconds of Summer（5SOS）は、2011年にシドニーで結成されたオーストラリアのポップ・ロックバンド。ルーク・ヘミングス、マイケル・クリフォード、カラム・フッド、アシュトン・アーウィンの4人組で、YouTubeへのカバー投稿から人気に火がつき、2014年のデビュー・アルバムを世界的ヒットへと導いた。",
+        "agency": null,
+        "members": "4人組",
+        "debut": "2014"
+      },
+      "QUEENS OF THE STONE AGE": {
+        "text": "クイーンズ・オブ・ザ・ストーン・エイジ（QOTSA）は、カイアス解散後にジョシュ・オムがヴォーカル／ギターとして1996年にカリフォルニアで結成したアメリカのロックバンド。反復するリフを軸にした重厚でグルーヴィなサウンドで知られ、オムを中心にメンバーを変えながら活動を続けている。",
+        "agency": null,
+        "members": "5人組",
+        "debut": "1998"
+      },
+      "Silica Gel": {
+        "text": "Silica Gel（シリカゲル）は、2013年に韓国・安山で結成されたインディー・ロックバンド。キム・ハンジュを中心とする4人組で、ジャンルを横断する実験的なサウンドと映像表現で高く評価され、韓国大衆音楽賞などで注目を集めた。",
+        "agency": null,
+        "members": "4人組",
+        "debut": "2015"
+      },
+      "TWO DOOR CINEMA CLUB": {
+        "text": "トゥー・ドア・シネマ・クラブは、2007年に北アイルランドのバンガーで結成された3人組ロックバンド。アレックス・トリンブル、サム・ハリデイ、ケヴィン・ベアードからなり、軽快なギターとダンサブルなリズムが持ち味。2010年のデビュー作『Tourist History』で世界的に注目された。",
+        "agency": null,
+        "members": "3人組",
+        "debut": "2010"
+      },
+      "jo0ji": {
+        "text": "jo0ji（ジョージ）は、鳥取県出身のシンガーソングライター。地元の漁港で働きながら音楽活動を続ける異色の経歴を持ち、作詞・作曲・編曲を自身で手がける。ノスタルジックな言葉選びと温もりのある歌声で、次世代アーティストとして注目を集めている。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": null
+      },
+      "あいみょん": {
+        "text": "あいみょんは、兵庫県西宮市出身のシンガーソングライター。2016年にシングル「生きていたんだよな」でメジャーデビューし、赤裸々で等身大の歌詞と親しみやすいメロディで幅広い世代の支持を集め、令和を代表するアーティストの一人となった。",
+        "agency": "エンズエンターテイメント",
+        "members": "ソロ",
+        "debut": "2016"
+      },
+      "クレイジーケンバンド": {
+        "text": "クレイジーケンバンドは、横山剣を中心に1997年に横浜で結成されたバンド。ジャズ、ファンク、歌謡曲、ラテンなどを大胆に取り込んだ独自のサウンドと、横浜の情景をまとった世界観で知られ、1998年にアルバム『PUNCH! PUNCH! PUNCH!』でデビューした。",
+        "agency": null,
+        "members": null,
+        "debut": "1998"
+      },
+      "シャイ・マエストロ": {
+        "text": "シャイ・マエストロは、1987年生まれのイスラエル出身のジャズ・ピアニスト。アヴィシャイ・コーエンのトリオで頭角を現した後、自身のトリオを率いて活動し、2018年からは名門ECMに作品を発表。叙情的で緻密なピアノで国際的に高く評価されている。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": "2012"
+      },
+      "乃木坂46": {
+        "text": "乃木坂46は、秋元康の総合プロデュースにより「AKB48公式ライバル」として2011年に結成された日本の女性アイドルグループ。2012年のシングル「ぐるぐるカーテン」でデビューし、洗練された楽曲と表現力で高い人気を誇る、坂道シリーズを代表するグループである。",
+        "agency": "ソニー・ミュージックレコーズ",
+        "members": null,
+        "debut": "2012.02"
+      },
+      "吉井和哉": {
+        "text": "吉井和哉は、1966年生まれの日本のミュージシャン、シンガーソングライター。ロックバンドTHE YELLOW MONKEYのヴォーカル／ギターとして1992年にメジャーデビューしバンドを牽引した。2003年からはソロ活動も開始し、精力的に作品を発表し続けている。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": "1992"
+      },
+      "櫻坂46": {
+        "text": "櫻坂46は、秋元康がプロデュースする坂道シリーズのアイドルグループ。前身の欅坂46が2020年に改名して誕生し、同年12月にシングル「Nobody's fault」でデビューした。力強いパフォーマンスと独自の世界観を打ち出す楽曲で知られる。",
+        "agency": "ソニー・ミュージックレコーズ",
+        "members": null,
+        "debut": "2020.12"
       }
     }
   }
