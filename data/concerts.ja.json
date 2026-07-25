@@ -870,6 +870,88 @@
       "general_sale_datetime": "2026-08-03T12:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": null
+    },
+    {
+      "id": "ja-sumika-laurens-library-20270123",
+      "name": "sumika Live Tour 2027『Laurens Library』",
+      "release_date": "2027-01-23",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "三郷市文化会館 大ホール（埼玉）ほか 全国ホール＆アリーナ",
+        "大阪城ホール（ツアーファイナル）"
+      ],
+      "developer": "sumika",
+      "publisher": "FOB企画",
+      "description": "ロックバンドsumikaが2027年1月23日、埼玉・三郷市文化会館 大ホールを皮切りに、全国のホール＆アリーナをまわる自身最大規模のライブツアー『Laurens Library』を開催する。約3か月にわたり全24公演を予定し、ツアーファイナルは4月24日・25日の大阪城ホール2デイズで締めくくられる。2026年7月24日の日本武道館公演〈Unique〉のファイナルで発表された新ツアーで、ファンクラブ「ATTiC ROOM」先行受付が8月3日まで実施されている。",
+      "genres": [
+        "邦ロック",
+        "バンド",
+        "ツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/sumika/128348",
+      "presale": true,
+      "presale_datetime": null,
+      "presale_end_datetime": "2026-08-03T23:59:00+09:00",
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-07-25",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-kamishiraishi-mone-bouquet-20261003",
+      "name": "Mone Kamishiraishi 10th Live《bouquet》for ALL（上白石萌音 初主催フェス）",
+      "release_date": "2026-10-03",
+      "release_time": "11:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "festival",
+      "platforms": [
+        "横浜赤レンガパーク 野外特設ステージ"
+      ],
+      "developer": "上白石萌音",
+      "publisher": null,
+      "description": "歌手デビュー10周年を迎えた上白石萌音が、自身初の主催野外フェスを2026年10月3日・4日の2日間、横浜赤レンガパークの野外特設ステージで開催する。両日とも開場11時・開演13時で、androp、MONGOL800、AI、森山直太朗、大橋トリオ、GLIM SPANKYらが日替わりで出演。10月4日には妹adieu（上白石萌歌）がBAND ACTとして加わり、歌手として初の姉妹共演が実現する。ゲストには井上芳雄や小林武史らも名を連ねる、10周年を締めくくる記念公演となる。",
+      "genres": [
+        "フェスティバル",
+        "複数アーティスト",
+        "J-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/kamishiraishi-mone/128351",
+      "last_updated": "2026-07-25",
+      "last_researched_by": "ja-researcher",
+      "festival_days": [
+        {
+          "date": "2026-10-03",
+          "lineup": [
+            "上白石萌音",
+            "androp",
+            "MONGOL800",
+            "AI",
+            "森山直太朗",
+            "屋比久知奈"
+          ]
+        },
+        {
+          "date": "2026-10-04",
+          "lineup": [
+            "上白石萌音",
+            "adieu（上白石萌歌）",
+            "GLIM SPANKY",
+            "大橋トリオ",
+            "井上芳雄",
+            "YOGEE NEW WAVES",
+            "小林武史"
+          ]
+        }
+      ]
     }
   ]
 }
