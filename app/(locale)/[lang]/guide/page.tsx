@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { PageShell } from '@/components/PageShell';
-import { LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
+import { LOCALES, OG_LOCALE, DEFAULT_OG_IMAGE, type Locale } from '@/lib/i18nLabels';
 
 interface Props { params: { lang: string }; }
 function isLocale(v: string): v is Locale { return (LOCALES as string[]).includes(v); }
@@ -35,7 +35,7 @@ const META: Record<Locale, Metadata> = Object.fromEntries(
       title,
       description,
       alternates: { canonical: url },
-      openGraph: { title, description, url, locale: OG_LOCALE[lang] },
+      openGraph: { title, description, url, locale: OG_LOCALE[lang], images: [DEFAULT_OG_IMAGE] },
     }];
   })
 ) as Record<Locale, Metadata>;

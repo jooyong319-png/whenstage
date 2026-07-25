@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllNews, getNewsBySlug, getRelatedNews, markdownToHtml, formatPostDate } from '@/lib/news';
-import { UI, LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
+import { UI, LOCALES, OG_LOCALE, DEFAULT_OG_IMAGE, type Locale } from '@/lib/i18nLabels';
 import { PageShell } from '@/components/PageShell';
 import { BlogHero } from '@/components/BlogHero';
 import { SidebarSection } from '@/components/SidebarSection';
@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url,
       type: 'article',
       locale: OG_LOCALE[lang],
-      images: item.heroImage ? [{ url: item.heroImage }] : undefined,
+      images: item.heroImage ? [{ url: item.heroImage }] : [DEFAULT_OG_IMAGE],
     },
   };
 }

@@ -6,7 +6,7 @@ import { PageShell } from '@/components/PageShell';
 import { PageHeader } from '@/components/PageHeader';
 import { ArtistCard } from '@/components/ArtistCard';
 import { RevealGroup, RevealItem } from '@/components/motion/Reveal';
-import { UI, LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
+import { UI, LOCALES, OG_LOCALE, DEFAULT_OG_IMAGE, type Locale } from '@/lib/i18nLabels';
 import blogStyles from '@/app/blog/blog.module.css';
 import styles from './artist.module.css';
 
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: ui.artistListTitle,
     description: ui.artistListSubtitle,
     alternates: { canonical: url },
-    openGraph: { title: ui.artistListTitle, description: ui.artistListSubtitle, url, locale: OG_LOCALE[params.lang] },
+    openGraph: { title: ui.artistListTitle, description: ui.artistListSubtitle, url, locale: OG_LOCALE[params.lang], images: [DEFAULT_OG_IMAGE] },
   };
 }
 

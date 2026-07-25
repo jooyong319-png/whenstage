@@ -5,7 +5,7 @@ import { PageShell } from '@/components/PageShell';
 import { PageHeader } from '@/components/PageHeader';
 import { BlogImg } from '@/components/BlogImg';
 import { RevealGroup, RevealItem } from '@/components/motion/Reveal';
-import { LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
+import { LOCALES, OG_LOCALE, DEFAULT_OG_IMAGE, type Locale } from '@/lib/i18nLabels';
 import styles from '@/app/blog/blog.module.css';
 
 interface Props { params: { lang: string }; }
@@ -40,7 +40,7 @@ const META: Record<Locale, Metadata> = Object.fromEntries(
       title,
       description,
       alternates: { canonical: url },
-      openGraph: { title, description, url, locale: OG_LOCALE[lang] },
+      openGraph: { title, description, url, locale: OG_LOCALE[lang], images: [DEFAULT_OG_IMAGE] },
     }];
   })
 ) as Record<Locale, Metadata>;

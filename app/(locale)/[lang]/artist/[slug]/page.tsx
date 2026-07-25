@@ -6,7 +6,7 @@ import { EventList } from '@/components/EventList';
 import { ArtistAvatar } from '@/components/ArtistAvatar';
 import { SidebarSection } from '@/components/SidebarSection';
 import { RelatedArtistCard } from '@/components/RelatedArtistCard';
-import { UI, CAL, LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
+import { UI, CAL, LOCALES, OG_LOCALE, DEFAULT_OG_IMAGE, type Locale } from '@/lib/i18nLabels';
 import { ReportForm } from '@/components/ReportForm';
 import styles from '@/app/blog/blog.module.css';
 import artistStyles from '../artist.module.css';
@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: artist.name,
     description: desc,
     alternates: { canonical: url },
-    openGraph: { title: artist.name, description: desc, url, locale: OG_LOCALE[params.lang], images: artist.image ? [{ url: artist.image }] : undefined },
+    openGraph: { title: artist.name, description: desc, url, locale: OG_LOCALE[params.lang], images: artist.image ? [{ url: artist.image }] : [DEFAULT_OG_IMAGE] },
   };
 }
 

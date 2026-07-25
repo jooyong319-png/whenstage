@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllPosts, getPostBySlug, getRelatedPosts, markdownToHtml, formatPostDate } from '@/lib/blog';
-import { UI, LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
+import { UI, LOCALES, OG_LOCALE, DEFAULT_OG_IMAGE, type Locale } from '@/lib/i18nLabels';
 import { PageShell } from '@/components/PageShell';
 import { BlogHero } from '@/components/BlogHero';
 import { SidebarSection } from '@/components/SidebarSection';
@@ -42,7 +42,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url,
       type: 'article',
       locale: OG_LOCALE[lang],
-      images: post.heroImage ? [{ url: post.heroImage }] : undefined,
+      images: post.heroImage ? [{ url: post.heroImage }] : [DEFAULT_OG_IMAGE],
     },
   };
 }

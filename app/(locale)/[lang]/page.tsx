@@ -5,7 +5,7 @@ import { getArtistAliases, getArtistImageMap } from '@/lib/artists';
 import { getAllNews } from '@/lib/news';
 import { normalizeArtistKey } from '@/lib/types';
 import { Home } from '@/components/Home';
-import { UI, LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
+import { UI, LOCALES, OG_LOCALE, DEFAULT_OG_IMAGE, type Locale } from '@/lib/i18nLabels';
 
 interface Props {
   params: { lang: string };
@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         'x-default': 'https://whenstage.com/',
       },
     },
-    openGraph: { title: ui.siteName, description: ui.siteDescription, url, type: 'website', locale: OG_LOCALE[params.lang] },
+    openGraph: { title: ui.siteName, description: ui.siteDescription, url, type: 'website', locale: OG_LOCALE[params.lang], images: [DEFAULT_OG_IMAGE] },
   };
 }
 

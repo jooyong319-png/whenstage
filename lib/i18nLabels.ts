@@ -8,6 +8,11 @@ export const LOCALES: Locale[] = ['ko', 'en', 'ja'];
 // 페이지 언어와 항상 일치한다(안 넣으면 부모 레이아웃 기본값에 기댈 여지가 생김).
 export const OG_LOCALE: Record<Locale, string> = { ko: 'ko_KR', en: 'en_US', ja: 'ja_JP' };
 
+// 사이트 기본 OG 이미지 — 페이지 고유 이미지가 없을 때 og:image 폴백(metadataBase로 절대경로 해석).
+// 자식 generateMetadata가 openGraph를 재정의하면 부모 레이아웃의 images가 얕은 병합으로 통째
+// 사라지므로, 고유 이미지가 없는 페이지는 이 상수로 images를 항상 채워야 og:image가 유지된다.
+export const DEFAULT_OG_IMAGE = '/og-image.png';
+
 // ko/en/ja는 서로 번역 관계가 아니라 국가별로 완전히 독립된 콘텐츠(lib/games.ts가
 // locale별 data/concerts.{ko,en,ja}.json을 각각 읽음) — 그래서 게임명/설명에 별도
 // 폴백 헬퍼가 필요 없음. 각 페이지가 자기 locale의 데이터를 그대로 씀.
