@@ -1,6 +1,8 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { supabase, isSupabaseReady } from '@/lib/supabase';
+import { useLocale } from '@/hooks/useLocale';
+import { CAL } from '@/lib/i18nLabels';
 import styles from './ViewCounter.module.css';
 
 interface Props { gameId: string; }
@@ -26,6 +28,7 @@ function shouldCount(gameId: string): boolean {
 export function ViewCounter({ gameId }: Props) {
   const [count, setCount] = useState<number | null>(null);
   const [error, setError] = useState<boolean>(false);
+  const t = CAL[useLocale()];
 
   useEffect(() => {
     if (!isSupabaseReady() || !supabase) return;
@@ -60,10 +63,10 @@ export function ViewCounter({ gameId }: Props) {
   if (!isSupabaseReady() || error || count === null) return null;
 
   return (
-    <div className={styles.counter} aria-label="조회수">
+    <div className={styles.counter} aria-label={t.viewsAria}>
       <span className={styles.icon}><svg className="ic" aria-hidden="true"><use href="#ic-eye" /></svg></span>
       <span className={styles.num}>{count.toLocaleString()}</span>
-      <span className={styles.label}>회 조회</span>
+      <span className={styles.label}>{t.views}</span>
     </div>
   );
 }

@@ -243,6 +243,8 @@ interface CalUiStrings {
   wishlistOnly: string;
   wishlistAddedToast: string;
   wishlistRemovedToast: string;
+  views: string;
+  viewsAria: string;
   today: string;
   noImage: string;
   lastUpdated: string;
@@ -346,6 +348,8 @@ export const CAL: Record<Locale, CalUiStrings> = {
     wishlistOnly: '찜한 것만 보기',
     wishlistAddedToast: '찜 목록에 추가됨',
     wishlistRemovedToast: '찜 목록에서 제거됨',
+    views: '회 조회',
+    viewsAria: '조회수',
     today: '오늘',
     noImage: '이미지 없음',
     lastUpdated: '데이터 마지막 갱신',
@@ -444,6 +448,8 @@ export const CAL: Record<Locale, CalUiStrings> = {
     wishlistOnly: 'Wishlist only',
     wishlistAddedToast: 'Added to wishlist',
     wishlistRemovedToast: 'Removed from wishlist',
+    views: 'views',
+    viewsAria: 'Views',
     today: 'Today',
     noImage: 'No image',
     lastUpdated: 'Data last updated',
@@ -542,6 +548,8 @@ export const CAL: Record<Locale, CalUiStrings> = {
     wishlistOnly: 'お気に入りのみ表示',
     wishlistAddedToast: 'お気に入りに追加しました',
     wishlistRemovedToast: 'お気に入りから削除しました',
+    views: '回閲覧',
+    viewsAria: '閲覧数',
     today: '今日',
     noImage: '画像なし',
     lastUpdated: 'データ最終更新',
