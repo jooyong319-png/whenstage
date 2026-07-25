@@ -1,6 +1,8 @@
 'use client';
 import { useEffect, useState } from 'react';
 import styles from './InstallPrompt.module.css';
+import { useLocale } from '@/hooks/useLocale';
+import { UI } from '@/lib/i18nLabels';
 
 // ▼▼ Play 스토어 출시되면 여기에 URL 한 줄 넣고 배포하면 끝 ▼▼
 //    예: 'https://play.google.com/store/apps/details?id=com.whenstage.app'
@@ -20,6 +22,8 @@ type Mode = 'pwa' | 'ios' | 'play';
 export function InstallPrompt() {
   const [deferred, setDeferred] = useState<BIPEvent | null>(null);
   const [mode, setMode] = useState<Mode | null>(null);
+  const lang = useLocale();
+  const t = UI[lang];
 
   useEffect(() => {
     // 이미 설치(standalone)면 숨김
@@ -75,29 +79,29 @@ export function InstallPrompt() {
 
   const sub =
     mode === 'ios'
-      ? '공유 버튼 → "홈 화면에 추가"로 설치하세요.'
+      ? t.installSubIos
       : mode === 'play'
-        ? 'Google Play에서 설치하고 출시 알림까지 받아보세요.'
-        : '홈 화면에서 바로 열고, 출시 알림까지 받아보세요.';
+        ? t.installSubPlay
+        : t.installSubPwa;
 
   return (
-    <div className={styles.banner} role="dialog" aria-label="앱 설치 안내">
+    <div className={styles.banner} role="dialog" aria-label={t.installAriaBanner}>
       <span className={styles.icon} aria-hidden="true">
         <svg className="ic"><use href="#ic-logo-ticket" /></svg>
       </span>
       <div className={styles.text}>
-        <strong className={styles.title}>앱으로 설치하기</strong>
+        <strong className={styles.title}>{t.installTitle}</strong>
         <span className={styles.sub}>{sub}</span>
       </div>
       {mode === 'play' && (
         <a className={styles.cta} href={PLAY_STORE_URL} target="_blank" rel="noopener" onClick={dismiss}>
-          Play 스토어
+          {t.installCtaPlay}
         </a>
       )}
       {mode === 'pwa' && (
-        <button type="button" className={styles.cta} onClick={install}>설치</button>
+        <button type="button" className={styles.cta} onClick={install}>{t.installCtaPwa}</button>
       )}
-      <button type="button" className={styles.close} onClick={dismiss} aria-label="닫기">×</button>
+      <button type="button" className={styles.close} onClick={dismiss} aria-label={t.installAriaClose}>×</button>
     </div>
   );
 }

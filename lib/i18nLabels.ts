@@ -73,6 +73,14 @@ interface UiStrings {
   siteDescription: string;
   heroTitle: string;
   heroSubtitle: string;
+  installTitle: string;
+  installSubIos: string;
+  installSubPlay: string;
+  installSubPwa: string;
+  installCtaPlay: string;
+  installCtaPwa: string;
+  installAriaBanner: string;
+  installAriaClose: string;
 }
 
 export const UI: Record<Locale, UiStrings> = {
@@ -116,6 +124,14 @@ export const UI: Record<Locale, UiStrings> = {
     siteDescription: '콘서트·내한 공연, 음원 발매(컴백), 페스티벌, 팬미팅 일정을 한눈에. 매일 업데이트되는 공연·발매 캘린더.',
     heroTitle: '콘서트·컴백·페스티벌, 한눈에',
     heroSubtitle: '매일 업데이트되는 내한·투어·발매 캘린더',
+    installTitle: '앱으로 설치하기',
+    installSubIos: '공유 버튼 → "홈 화면에 추가"로 설치하세요.',
+    installSubPlay: 'Google Play에서 설치하고 출시 알림까지 받아보세요.',
+    installSubPwa: '홈 화면에서 바로 열고, 출시 알림까지 받아보세요.',
+    installCtaPlay: 'Play 스토어',
+    installCtaPwa: '설치',
+    installAriaBanner: '앱 설치 안내',
+    installAriaClose: '닫기',
   },
   en: {
     siteName: 'WhenStage — Tours, Comebacks & Festivals',
@@ -157,6 +173,14 @@ export const UI: Record<Locale, UiStrings> = {
     siteDescription: 'Concerts, world tours, music releases (comebacks), festivals, and fan meetings — all in one calendar, updated daily.',
     heroTitle: 'Every Show, Right On Time',
     heroSubtitle: 'A daily-updated calendar for tours, comebacks & festivals',
+    installTitle: 'Install the app',
+    installSubIos: 'Tap Share → "Add to Home Screen" to install.',
+    installSubPlay: 'Install from Google Play and get release alerts too.',
+    installSubPwa: 'Open it straight from your home screen and get release alerts too.',
+    installCtaPlay: 'Play Store',
+    installCtaPwa: 'Install',
+    installAriaBanner: 'App install prompt',
+    installAriaClose: 'Close',
   },
   ja: {
     siteName: 'WhenStage — 来日公演・カムバック・フェス',
@@ -198,6 +222,14 @@ export const UI: Record<Locale, UiStrings> = {
     siteDescription: 'コンサート・来日公演、音源発売(カムバック)、フェスティバル、ファンミーティングの日程を一つのカレンダーに。毎日更新中。',
     heroTitle: 'コンサート・カムバック・フェスを一目で',
     heroSubtitle: '毎日更新される来日公演・カムバック・フェスカレンダー',
+    installTitle: 'アプリをインストール',
+    installSubIos: '共有ボタン →「ホーム画面に追加」でインストールできます。',
+    installSubPlay: 'Google Playでインストールして、リリース通知も受け取れます。',
+    installSubPwa: 'ホーム画面から直接開けて、リリース通知も受け取れます。',
+    installCtaPlay: 'Playストア',
+    installCtaPwa: 'インストール',
+    installAriaBanner: 'アプリインストール案内',
+    installAriaClose: '閉じる',
   },
 };
 
