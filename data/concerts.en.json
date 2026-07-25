@@ -840,6 +840,80 @@
       "general_sale_url": null,
       "last_updated": "2026-07-25",
       "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-goose-goosemas-atlantic-city-20261211",
+      "name": "Goose: Goosemas 2026 - Atlantic City",
+      "release_date": "2026-12-11",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Jim Whelan Boardwalk Hall, Atlantic City, NJ"
+      ],
+      "developer": "Goose",
+      "publisher": null,
+      "description": "The Connecticut jam band Goose bring their 13th annual Goosemas celebration to Atlantic City for the first time, playing two nights at the historic Jim Whelan Boardwalk Hall on December 11 and 12, 2026. General tickets went on sale July 24, following VIP, travel package, and local presales. One dollar from every ticket sold benefits the Western Sun Foundation, which supports grassroots nonprofits in the cities the band tours.",
+      "genres": [
+        "Jam Band",
+        "Rock",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Crowd_shot_of_Goose_performing_at_The_Capitol_Theatre_on_March_10%2C_2023.jpg/330px-Crowd_shot_of_Goose_performing_at_The_Capitol_Theatre_on_March_10%2C_2023.jpg",
+      "source_url": "https://www.jambase.com/article/goose-goosemas-2026-atlantic-city",
+      "last_updated": "2026-07-25",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-ministry-hate-to-go-farewell-red-rocks-20260915",
+      "name": "Ministry: Hate To Go Farewell Tour - Red Rocks",
+      "release_date": "2026-09-15",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Denver",
+      "category": "concert_tour",
+      "platforms": [
+        "Red Rocks Amphitheatre, Morrison, CO"
+      ],
+      "developer": "Ministry",
+      "publisher": null,
+      "description": "After 45 years, founder Al Jourgensen is retiring his industrial metal institution Ministry, a farewell tied to the band's final studio album 'Hate To Go (Take Out or Delivery),' due October 30. The 2026 U.S. dates open at Red Rocks Amphitheatre in Morrison, Colorado on September 15, followed by festival appearances at Louder Than Life and Sick New World Texas and a Chicago headline show at the Salt Shed on October 3. A Goodbye Europe leg is set for spring 2027.",
+      "genres": [
+        "Industrial Metal",
+        "Concert",
+        "Farewell Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Hellfest2017Ministry_14.jpg/330px-Hellfest2017Ministry_14.jpg",
+      "source_url": "https://consequence.net/2026/07/ministry-final-album-farewell-tour-single-burned-out/",
+      "last_updated": "2026-07-25",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-adela-prima-20260904",
+      "name": "ADÉLA - PRIMA",
+      "release_date": "2026-09-04",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "music_release",
+      "platforms": [
+        "Streaming",
+        "Digital",
+        "CD",
+        "Vinyl"
+      ],
+      "developer": "ADÉLA",
+      "publisher": "Capitol Records",
+      "description": "ADÉLA, the Bratislava-born pop provocateur, announced her debut album 'PRIMA' for release on September 4, 2026 via Capitol Records, executive-produced by Dylan Brady and Blake Slatkin. The reveal on July 23 arrived alongside the single and music video 'Ain't In LA,' filmed in her hometown, and follows earlier teasers 'KGB' and 'Red Bottoms.' Across the record she digs into insecurity, toxic relationships, and themes of love, loss, identity, and friendship.",
+      "genres": [
+        "Pop",
+        "Album"
+      ],
+      "image_url": null,
+      "source_url": "https://www.universalmusic.ca/2026/07/23/adela-announces-debut-album-prima-due-september-4th-releases-new-single-and-music-video-aint-in-laout-now/",
+      "last_updated": "2026-07-25",
+      "last_researched_by": "en-researcher"
     }
   ]
 }
