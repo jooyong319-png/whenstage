@@ -1,3 +1,10 @@
+## [2026-07-25 10:30] [EN 뉴스]
+뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
+- 신규 기사 4건: Morgan Wallen 신곡 "Been By Now"(7/24 발매), ADÉLA 데뷔앨범 "PRIMA"(9/4 발매 발표), Goose Goosemas 2026 애틀랜틱시티(12/11~12) 일반예매 7/24 개시, Ministry 마지막 앨범 "Hate To Go"+작별 투어 발표
+- 콘서트 링크 연결 0건 / 링크 없음 4건 (4건 모두 concerts.en.json 미등재 → 이미지 자동연결용 링크 생략)
+- 리서처 인계(leads.en.jsonl) 4건 추가: Goose Goosemas(공연), Ministry 작별투어(공연), ADÉLA PRIMA(음원), Morgan Wallen 싱글(음원)
+- 스킵: Daniel Caesar/Hank Williams Jr.(온세일 이미 4월·2월로 48시간 밖), Mike D 5D(기존 en 기사 중복), Disco Biscuits(온세일 3월)
+
 ## [2026-07-25 10:13] [KO 뉴스]
 뉴스 작성 완료 (한국 국내 공연 뉴스)
 - 신규 기사 2건: 정은지 미니 5집 '썸머, 아이' 8/11 발매 확정(9월 단독콘서트 예고), '페르소나 라이브 투어 2026' 서울 공연 티켓 오픈(전석 매진·추가공연 협의)
