@@ -788,6 +788,58 @@
       "general_sale_url": null,
       "last_updated": "2026-07-24",
       "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-gayle-observing-chaos-20260918",
+      "name": "GAYLE - Observing Chaos",
+      "release_date": "2026-09-18",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "music_release",
+      "platforms": [
+        "Atlantic Records"
+      ],
+      "developer": "GAYLE",
+      "publisher": "Atlantic Records",
+      "description": "Pop singer-songwriter GAYLE, known for the viral 2021 breakout hit 'abcdefu', releases her debut studio album 'Observing Chaos' on September 18, 2026 via Atlantic Records. The record spans thirteen tracks and is led by the singles 'Loving You Is' and the summery 'junebug!', marking the start of a new era after her earlier EPs. GAYLE has teased a fan album-listening roadtrip ahead of the release.",
+      "genres": [
+        "Pop",
+        "Pop-rock",
+        "Album"
+      ],
+      "image_url": null,
+      "source_url": "https://themusicuniverse.com/gayle-announces-observing-chaos-release-date/",
+      "last_updated": "2026-07-25",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-amon-amarth-allfather-awakens-manchester-20261009",
+      "name": "Amon Amarth: The Allfather Awakens Tour - Manchester",
+      "release_date": "2026-10-09",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Manchester, England (O2 Apollo, UK/EU leg opener)"
+      ],
+      "developer": "Amon Amarth",
+      "publisher": null,
+      "description": "Swedish melodic death metal veterans Amon Amarth headline The Allfather Awakens tour across the UK and mainland Europe, opening October 9, 2026 at Manchester's O2 Apollo and finishing November 15 in Lisbon over roughly 28 dates. The run features an updated stage production and an extended headlining set, with support from Orbit Culture and Soilwork. It accompanies the band's thirteenth studio album, 'The Allfather Awakens', due on Metal Blade Records in the second half of 2026.",
+      "genres": [
+        "Melodic death metal",
+        "Metal",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.metalblade.com/us/news/amon-amarth-announce-uk-eu-2026-tour-dates-tease-new-album/",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2025-11-28T09:00:00+00:00",
+      "general_sale_url": null,
+      "last_updated": "2026-07-25",
+      "last_researched_by": "en-researcher"
     }
   ]
 }
