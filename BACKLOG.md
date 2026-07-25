@@ -365,3 +365,20 @@
   - `data/`·`content/` 콘텐츠, `supabase/*.sql` 스키마 변경
   - `Game`/`GameRow`/`GameModal` 등 `Game` 인터페이스 계열 대규모 리네임(`wiki/decisions.md`가 우선순위 낮음으로 명시)
   - 실제 Supabase DB의 `comments` 테이블 삭제(사람 판단 영역)
+
+## [20260725-06] 저장소 루트 잔재 `robots.txt`(gcalen 스캐폴드) 제거 — 서빙은 `app/robots.ts`가 담당
+- 상태: 대기
+- 등록일: 2026-07-25
+- 우선순위: P2(죽은 에셋 정리 + 소스 오브 트루스 이원화 해소 — `og-image.png`(20260723-01)·`Comments.tsx`(20260725-05)와 동일 성격의 gcalen 스캐폴드 잔재)
+- 근거: 저장소 루트에 `robots.txt`(67B)가 있는데 **Next.js App Router는 루트 파일을 정적 서빙하지 않고 `public/`과 `app/`의 특수 파일만 서빙**하므로 이 루트 파일은 어디에도 노출되지 않는 죽은 파일이다. 실제 `/robots.txt`는 `app/robots.ts`(`MetadataRoute.Robots` 라우트, `User-agent:* / Allow:/ / Sitemap: https://whenstage.com/sitemap.xml`)가 동적 생성하며, 라이브 `https://whenstage.com/robots.txt`도 이쪽이 나간다. 확인 사항: (1) `public/robots.txt`는 존재하지 않음(`ls public/` = ads.txt·favicon.svg·google 인증·icons·fonts·offline.html·.well-known뿐) → 루트 파일과 `app/robots.ts`가 충돌하지도 않음, (2) 루트 `robots.txt`의 `git log`상 마지막 변경이 초기 스캐폴드(cea0056, 2026-07-21)·리브랜딩(c49fa5a)뿐 이후 방치, (3) `grep -rn "robots.txt" app/ components/ lib/ vercel.json next.config.js middleware.ts` 참조 0건. 즉 순수 죽은 파일이면서, 동시에 robots 규칙이 루트 파일과 `app/robots.ts` 두 곳에 흩어져 있어(현재 내용은 동일) 나중에 규칙을 바꿀 때 엉뚱한(서빙 안 되는) 파일을 고칠 위험이 있는 이원화 상태다.
+- 스펙:
+  - 저장소 루트의 `robots.txt` 파일 1개를 삭제한다(`git rm robots.txt`). robots 규칙의 소스 오브 트루스는 `app/robots.ts` 단일로 남긴다.
+  - `app/robots.ts`는 실제 서빙 소스이므로 절대 건드리지 않는다(내용·로직 불변). `public/`의 다른 검증/에셋 파일(ads.txt·google*.html 등)도 손대지 않는다.
+  - 삭제 후 어떤 코드도 루트 파일을 참조하지 않았으므로 빌드/타입 영향 없음을 확인만 한다.
+- 완료 조건:
+  - [ ] 루트 `robots.txt`가 저장소에서 제거됨(`app/robots.ts`는 그대로)
+  - [ ] `grep -rn "robots.txt" app/ components/ lib/ vercel.json next.config.js middleware.ts` 결과에 루트 파일을 가리키는 참조가 없음(원래 없음) 재확인
+  - [ ] `npm run typecheck` 통과(로직·라우팅·타입 무영향 죽은 파일 삭제라 저위험 5-A, 전체 빌드 생략 가능 — 20260723-01/-05 선례). 배포 후 `curl -s https://whenstage.com/robots.txt`가 여전히 `app/robots.ts` 출력(Sitemap 라인 포함)을 반환하는지 육안 확인 권장
+- 범위 아닌 것:
+  - `app/robots.ts`·`app/sitemap.ts`·`public/ads.txt`·`public/google*.html` 등 실제 서빙/검증 파일 변경
+  - robots 규칙 자체(allow/disallow) 정책 변경 — 이번은 순수 죽은 파일 삭제만(규칙은 `app/robots.ts` 현행 유지)
