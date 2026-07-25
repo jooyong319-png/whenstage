@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-07-25",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -840,6 +840,36 @@
       "presale": true,
       "presale_datetime": null,
       "presale_url": "https://smam.jp/s/sma01/ticket/detail/2512_ticket_26052201?ima=2922"
+    },
+    {
+      "id": "ja-shai-maestro-guesthouse-20261020",
+      "name": "シャイ・マエストロ・トリオ「The Guesthouse」来日公演",
+      "release_date": "2026-10-20",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "コットンクラブ（東京・丸の内）"
+      ],
+      "developer": "シャイ・マエストロ（Shai Maestro）",
+      "publisher": "コットンクラブ",
+      "description": "現代ジャズを代表するイスラエル出身のピアニスト／作曲家シャイ・マエストロが、約2年半ぶりに自身のトリオを率いて来日する。ルーベン・ロジャース（b）、オフリ・ネヘミヤ（ds）とともに、naïveレーベルからの最新作『The Guesthouse』の楽曲を中心に披露する。2026年10月20日（火）・21日（水）の2日間、東京・丸の内のコットンクラブで各日2ステージ制（1st開演18:00／2nd開演20:30）で開催。全席指定でテーブル席は9,000円。",
+      "genres": [
+        "ジャズ",
+        "来日",
+        "ピアノ"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/shai-maestro/128336",
+      "presale": true,
+      "presale_datetime": "2026-08-01T12:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5722/#5722",
+      "general_sale": false,
+      "general_sale_datetime": "2026-08-03T12:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null
     }
   ]
 }
