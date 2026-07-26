@@ -75,6 +75,12 @@ export default async function LocaleHomePage({ params }: Props) {
     url: `https://whenstage.com/${lang}`,
     description: ui.siteDescription,
     inLanguage: lang,
+    // 사이트링크 검색창 — Home이 ?q= 파라미터를 읽어 공연명 검색을 실행한다.
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: { '@type': 'EntryPoint', urlTemplate: `https://whenstage.com/${lang}?q={search_term_string}` },
+      'query-input': 'required name=search_term_string',
+    },
   };
 
   return (

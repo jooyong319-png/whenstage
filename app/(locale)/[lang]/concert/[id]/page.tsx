@@ -19,6 +19,7 @@ import { TicketingCtaButton } from '@/components/TicketingCtaButton';
 import { ReportForm } from '@/components/ReportForm';
 import { SidebarSection } from '@/components/SidebarSection';
 import { RelatedEventCard } from '@/components/RelatedEventCard';
+import { breadcrumbLd, jsonLd } from '@/lib/seo';
 
 interface Props {
   params: { lang: string; id: string };
@@ -29,6 +30,9 @@ function isLocale(v: string): v is Locale {
 }
 
 // SSG: 각 locale은 자기 언어 데이터 파일의 모든 항목으로 정적 페이지 생성(번역 개념 없음 — 국가별 독립 콘텐츠)
+// 빌드에 없는 slug는 하드 404(soft-404 방지) — 콘텐츠가 모두 빌드 시점에 정해지므로 안전
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const params: { lang: Locale; id: string }[] = [];
   for (const lang of LOCALES) {
@@ -119,15 +123,18 @@ export default async function LocaleGamePage({ params }: Props) {
     </>
   ) : undefined;
 
+  const isVenueEvent = VENUE_CATEGORIES.has(game.category);
+  const ticketUrl = game.general_sale_url || game.presale_url || null;
   const eventLd = {
     '@context': 'https://schema.org',
-    '@type': 'Event',
+    // 실제 공연(콘서트/페스티벌/팬미팅)은 MusicEvent로 → 아티스트·티켓 리치 리절트 유리.
+    '@type': isVenueEvent ? 'MusicEvent' : 'Event',
     name: game.name,
     image: game.image_url || 'https://whenstage.com/og-image.png',
-    startDate: game.release_date,
+    startDate: game.release_time ? `${game.release_date}T${game.release_time}` : game.release_date,
     // music_release는 실제 장소가 없는 발매 소식이라 물리적 이벤트 필드(장소·참석방식)를 안 붙인다 —
     // platforms엔 "Streaming"/"CD" 같은 값이 들어있어 그대로 location에 쓰면 의미 없는 데이터가 된다.
-    ...(VENUE_CATEGORIES.has(game.category) && game.platforms.length > 0
+    ...(isVenueEvent && game.platforms.length > 0
       ? {
           eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
           eventStatus: 'https://schema.org/EventScheduled',
@@ -136,15 +143,33 @@ export default async function LocaleGamePage({ params }: Props) {
           location: { '@type': 'Place', name: game.platforms[0], address: game.platforms[0] },
         }
       : {}),
+    // 아티스트(공연자) — 리치 리절트에 아티스트 노출.
+    ...(game.developer ? { performer: { '@type': 'MusicGroup', name: game.developer } } : {}),
     ...(game.publisher ? { organizer: { '@type': 'Organization', name: game.publisher } } : {}),
+    // 예매 링크가 있으면 offers로 → 검색결과에 티켓 정보.
+    ...(ticketUrl
+      ? {
+          offers: {
+            '@type': 'Offer',
+            url: ticketUrl,
+            availability: 'https://schema.org/InStock',
+            ...(game.general_sale_datetime ? { validFrom: game.general_sale_datetime } : {}),
+          },
+        }
+      : {}),
     description: game.description ?? '',
     inLanguage: lang,
     url: `https://whenstage.com/${lang}/concert/${params.id}`,
   };
+  const crumbLd = breadcrumbLd([
+    { name: 'WhenStage', url: `https://whenstage.com/${lang}` },
+    { name: game.name, url: `https://whenstage.com/${lang}/concert/${params.id}` },
+  ]);
 
   return (
     <PageShell lang={lang} sidebar={sidebar}>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(eventLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(eventLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(crumbLd) }} />
       <article className="game-detail">
         <div className="detail-head">
           <span className={`category-tag cat-bg-${game.category}`}>{CATEGORY_LABELS[lang][game.category]}</span>

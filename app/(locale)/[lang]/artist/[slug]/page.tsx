@@ -8,11 +8,15 @@ import { SidebarSection } from '@/components/SidebarSection';
 import { RelatedArtistCard } from '@/components/RelatedArtistCard';
 import { UI, CAL, LOCALES, OG_LOCALE, DEFAULT_OG_IMAGE, type Locale } from '@/lib/i18nLabels';
 import { ReportForm } from '@/components/ReportForm';
+import { breadcrumbLd, jsonLd } from '@/lib/seo';
 import styles from '@/app/blog/blog.module.css';
 import artistStyles from '../artist.module.css';
 
 interface Props { params: { lang: string; slug: string }; }
 function isLocale(v: string): v is Locale { return (LOCALES as string[]).includes(v); }
+
+// 빌드에 없는 slug는 하드 404(soft-404 방지) — 콘텐츠가 모두 빌드 시점에 정해지므로 안전
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
   const params: { lang: Locale; slug: string }[] = [];
@@ -74,9 +78,16 @@ export default async function ArtistDetailPage({ params }: Props) {
     ...(artist.bio?.text ? { description: artist.bio.text } : {}),
   };
 
+  const crumbLd = breadcrumbLd([
+    { name: 'WhenStage', url: `https://whenstage.com/${lang}` },
+    { name: lang === 'ja' ? 'アーティスト' : lang === 'en' ? 'Artists' : '아티스트', url: `https://whenstage.com/${lang}/artist` },
+    { name: artist.name, url: `https://whenstage.com/${lang}/artist/${encodeURIComponent(artist.slug)}` },
+  ]);
+
   return (
     <PageShell lang={lang} sidebar={sidebar}>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(artistLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(artistLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(crumbLd) }} />
       <article className={styles.post}>
         <a href={`/${lang}/artist`} className={styles.backLink}>{ui.backToList}</a>
         <header className={styles.postHeader}>

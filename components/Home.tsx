@@ -58,6 +58,11 @@ export function Home({ initialGames, lastUpdated, serverNow, artistAliases, card
     const m = new Date(real);
     m.setDate(1);
     setCalendarCursor(m);
+    // 사이트링크 검색창(SearchAction) 등에서 ?q= 로 들어오면 검색 실행
+    try {
+      const q = new URLSearchParams(window.location.search).get('q');
+      if (q) setFilters(f => ({ ...f, search: q }));
+    } catch { /* no-op */ }
   }, []);
 
   // 모달 열기 + URL 변경 (인스타 스타일)

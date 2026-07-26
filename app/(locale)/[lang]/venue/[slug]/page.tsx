@@ -4,10 +4,14 @@ import { getAllVenues, getVenueBySlug } from '@/lib/venues';
 import { PageShell } from '@/components/PageShell';
 import { EventList } from '@/components/EventList';
 import { UI, LOCALES, OG_LOCALE, DEFAULT_OG_IMAGE, type Locale } from '@/lib/i18nLabels';
+import { breadcrumbLd, jsonLd } from '@/lib/seo';
 import styles from '@/app/blog/blog.module.css';
 
 interface Props { params: { lang: string; slug: string }; }
 function isLocale(v: string): v is Locale { return (LOCALES as string[]).includes(v); }
+
+// 빌드에 없는 slug는 하드 404(soft-404 방지) — 콘텐츠가 모두 빌드 시점에 정해지므로 안전
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
   const params: { lang: Locale; slug: string }[] = [];
@@ -46,9 +50,16 @@ export default async function VenueDetailPage({ params }: Props) {
     url: `https://whenstage.com/${lang}/venue/${encodeURIComponent(venue.slug)}`,
   };
 
+  const crumbLd = breadcrumbLd([
+    { name: 'WhenStage', url: `https://whenstage.com/${lang}` },
+    { name: lang === 'ja' ? '会場' : lang === 'en' ? 'Venues' : '공연장', url: `https://whenstage.com/${lang}/venue` },
+    { name: venue.name, url: `https://whenstage.com/${lang}/venue/${encodeURIComponent(venue.slug)}` },
+  ]);
+
   return (
     <PageShell lang={lang}>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(venueLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(venueLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(crumbLd) }} />
       <article className={styles.post}>
         <a href={`/${lang}/venue`} className={styles.backLink}>{ui.backToList}</a>
         <header className={styles.postHeader}>

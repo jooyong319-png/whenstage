@@ -126,6 +126,7 @@ export function HeroSpotlight({ slides, cardImages, tickerItems, now, lang, hero
               className={styles.heroBackdropFg}
               style={{ opacity: i === active ? 1 : 0 }}
               loading={i === 0 ? 'eager' : 'lazy'}
+              fetchPriority={i === 0 ? 'high' : undefined}
             />
           ))}
           {/* ③ 인물 사진 위 비네트 오버레이 — mask 없이(모든 브라우저 렌더) 사방 가장자리를 어둠에 녹인다 */}

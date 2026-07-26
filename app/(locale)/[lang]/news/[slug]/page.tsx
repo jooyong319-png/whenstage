@@ -6,6 +6,7 @@ import { PageShell } from '@/components/PageShell';
 import { BlogHero } from '@/components/BlogHero';
 import { SidebarSection } from '@/components/SidebarSection';
 import { RelatedArticleCard } from '@/components/RelatedArticleCard';
+import { breadcrumbLd, jsonLd } from '@/lib/seo';
 import styles from '@/app/blog/blog.module.css';
 import n from '@/app/news/news.module.css';
 
@@ -16,6 +17,9 @@ interface Props {
 function isLocale(v: string): v is Locale {
   return (LOCALES as string[]).includes(v);
 }
+
+// 빌드에 없는 slug는 하드 404(soft-404 방지) — 콘텐츠가 모두 빌드 시점에 정해지므로 안전
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
   const params: { lang: Locale; slug: string }[] = [];
@@ -85,9 +89,16 @@ export default async function LocaleNewsPage({ params }: Props) {
     </SidebarSection>
   ) : undefined;
 
+  const crumbLd = breadcrumbLd([
+    { name: 'WhenStage', url: `https://whenstage.com/${lang}` },
+    { name: lang === 'ja' ? 'ニュース' : lang === 'en' ? 'News' : '뉴스', url: `https://whenstage.com/${lang}/news` },
+    { name: item.title, url: `https://whenstage.com/${lang}/news/${item.slug}` },
+  ]);
+
   return (
     <PageShell lang={lang} sidebar={sidebar}>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(newsLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(newsLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(crumbLd) }} />
       <article className={styles.post}>
         <a href={`/${lang}/news`} className={styles.backLink}>{ui.backToList}</a>
         {item.heroImage && <BlogHero src={item.heroImage} alt={item.title} />}
