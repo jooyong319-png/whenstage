@@ -117,6 +117,11 @@ UI를 추가할 때도 이 원칙을 기억할 것.
   해제할 것(서버 전용 변수는 Sensitive 체크해도 무방, runtime에만 읽으므로 문제없음).
 - **Google Search Console**: 속성 등록 + HTML 파일 인증(`public/google*.html`) 완료,
   sitemap.xml 제출 완료.
+- **GA4(Google Analytics)**: `G-EY2H3WVTG2`, `components/GoogleAnalytics.tsx`(next/script,
+  프로덕션에서만) → AppHead로 전 페이지. SPA 이동은 향상된 측정이 자동 집계. (2026-07-24)
+- **SEO 심화(2026-07-24)**: soft-404 → `dynamicParams=false`(상세 5종), BreadcrumbList(`lib/seo.ts`),
+  콘서트 MusicEvent+performer+offers, WebSite SearchAction(홈 `?q=` 검색). 일반 패턴은 통합 위키
+  [seo.md]/[nextjs.md].
 
 ## 알려진 이슈 / 백로그
 `BACKLOG.md`가 실제 소스 오브 트루스. 2026-07-23 기준 대기 중:

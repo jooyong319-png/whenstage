@@ -38,8 +38,9 @@
 - [ ] `-01` 저장소 루트 잔재 `og-image.png`(gcalen 스캐폴드, `public/og-image.png`와는 별개) 제거
 - [ ] `-03` `components/PreRegCountdown.module.css` → `TicketingPhase.module.css` 리네임
       (컴포넌트는 이미 TicketingPhase인데 CSS 파일명만 gcalen 시절 이름 그대로 남음)
-- [ ] `-04` (P1) soft-404 조사·수정 — `notFound()` 화면은 정상인데 HTTP 상태 코드가 200으로
-      나가는 문제. 원인 조사 필요, 프레임워크 레벨 제약으로 못 고치면 보류 처리하고 근거 기록
+- [x] `-04` (P1) soft-404 **해결(2026-07-24)** — 상세 5종(concert/news/blog/artist/venue)에
+      `export const dynamicParams = false;` → 빌드에 없는 slug는 진짜 404. `curl`로 404 확인.
+      (원인·일반 해법은 통합 위키 [nextjs.md] "soft-404" 참고)
 
 그 외엔 이 문서 + `PROJECT_STATUS.md` + `BACKLOG.md` + 실제 코드베이스를 보고 스스로 다음
 우선순위를 판단할 것(막연한 신규 아이디어보다 관찰된 구체적 문제 우선). 최대 3개까지만
