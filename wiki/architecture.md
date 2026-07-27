@@ -119,6 +119,11 @@ UI를 추가할 때도 이 원칙을 기억할 것.
   sitemap.xml 제출 완료.
 - **GA4(Google Analytics)**: `G-EY2H3WVTG2`, `components/GoogleAnalytics.tsx`(next/script,
   프로덕션에서만) → AppHead로 전 페이지. SPA 이동은 향상된 측정이 자동 집계. (2026-07-24)
+  커스텀 이벤트(`lib/analytics.ts` `trackEvent`): `wishlist_toggle`·`notify_enable`·
+  `ticketing_click`(찜/알림/예매 클릭 추적, 2026-07-28).
+- **접근성(2026-07-28)**: axe-core(Playwright CDN 주입) 실측으로 home/검색/공연장/콘서트/뉴스
+  axe 위반 0건 달성. 성능도 실측 양호(LCP 0.4~1.1s, CLS ~0). 일반 패턴은 통합 위키
+  [accessibility.md](../../wiki/accessibility.md).
 - **SEO 심화(2026-07-24)**: soft-404 → `dynamicParams=false`(상세 5종), BreadcrumbList(`lib/seo.ts`),
   콘서트 MusicEvent+performer+offers, WebSite SearchAction(홈 `?q=` 검색). 일반 패턴은 통합 위키
   [seo.md]/[nextjs.md].
