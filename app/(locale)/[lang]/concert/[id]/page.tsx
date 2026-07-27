@@ -125,42 +125,56 @@ export default async function LocaleGamePage({ params }: Props) {
 
   const isVenueEvent = VENUE_CATEGORIES.has(game.category);
   const ticketUrl = game.general_sale_url || game.presale_url || null;
-  const eventLd = {
-    '@context': 'https://schema.org',
-    // 실제 공연(콘서트/페스티벌/팬미팅)은 MusicEvent로 → 아티스트·티켓 리치 리절트 유리.
-    '@type': isVenueEvent ? 'MusicEvent' : 'Event',
-    name: game.name,
-    image: game.image_url || 'https://whenstage.com/og-image.png',
-    startDate: game.release_time ? `${game.release_date}T${game.release_time}` : game.release_date,
-    // music_release는 실제 장소가 없는 발매 소식이라 물리적 이벤트 필드(장소·참석방식)를 안 붙인다 —
-    // platforms엔 "Streaming"/"CD" 같은 값이 들어있어 그대로 location에 쓰면 의미 없는 데이터가 된다.
-    ...(isVenueEvent && game.platforms.length > 0
-      ? {
-          eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
-          eventStatus: 'https://schema.org/EventScheduled',
-          // platforms[0]에 공연장명(+도시)이 통짜 문자열로 들어있어 구조화된 주소는 아니지만,
-          // Event에 location이 아예 없으면 리치 리절트 노출이 안 되므로 최소 요건은 채운다.
-          location: { '@type': 'Place', name: game.platforms[0], address: game.platforms[0] },
-        }
-      : {}),
-    // 아티스트(공연자) — 리치 리절트에 아티스트 노출.
-    ...(game.developer ? { performer: { '@type': 'MusicGroup', name: game.developer } } : {}),
-    ...(game.publisher ? { organizer: { '@type': 'Organization', name: game.publisher } } : {}),
-    // 예매 링크가 있으면 offers로 → 검색결과에 티켓 정보.
-    ...(ticketUrl
-      ? {
-          offers: {
-            '@type': 'Offer',
-            url: ticketUrl,
-            availability: 'https://schema.org/InStock',
-            ...(game.general_sale_datetime ? { validFrom: game.general_sale_datetime } : {}),
-          },
-        }
-      : {}),
-    description: game.description ?? '',
-    inLanguage: lang,
-    url: `https://whenstage.com/${lang}/concert/${params.id}`,
-  };
+  const eventUrl = `https://whenstage.com/${lang}/concert/${params.id}`;
+  const ogImg = game.image_url || 'https://whenstage.com/og-image.png';
+  const startDate = game.release_time ? `${game.release_date}T${game.release_time}` : game.release_date;
+  // 페스티벌 등 다일 공연만 endDate(마지막 날). 단일 공연은 endDate=startDate 충돌 방지 위해 생략.
+  const festEnd = game.festival_days && game.festival_days.length > 0
+    ? game.festival_days[game.festival_days.length - 1].date
+    : null;
+  const venueName = game.platforms[0] || game.name; // location은 필수 — 없으면 공연명으로 폴백
+
+  // 실제 공연(콘서트/페스티벌/팬미팅) = MusicEvent(location 필수 항상 채움).
+  // 음원 발매 = MusicAlbum(물리적 장소가 없어 Event의 location 필수 요건에서 자유 → soft 에러 방지).
+  const eventLd = isVenueEvent
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'MusicEvent',
+        name: game.name,
+        image: ogImg,
+        startDate,
+        ...(festEnd && festEnd > game.release_date ? { endDate: festEnd } : {}),
+        eventStatus: 'https://schema.org/EventScheduled',
+        eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+        location: { '@type': 'Place', name: venueName, address: venueName },
+        ...(game.developer ? { performer: { '@type': 'MusicGroup', name: game.developer } } : {}),
+        ...(game.publisher ? { organizer: { '@type': 'Organization', name: game.publisher, url: eventUrl } } : {}),
+        ...(ticketUrl
+          ? {
+              offers: {
+                '@type': 'Offer',
+                url: ticketUrl,
+                availability: 'https://schema.org/InStock',
+                ...(game.general_sale_datetime ? { validFrom: game.general_sale_datetime } : {}),
+              },
+            }
+          : {}),
+        description: game.description ?? '',
+        inLanguage: lang,
+        url: eventUrl,
+      }
+    : {
+        '@context': 'https://schema.org',
+        '@type': 'MusicAlbum',
+        name: game.name,
+        image: ogImg,
+        datePublished: game.release_date,
+        ...(game.developer ? { byArtist: { '@type': 'MusicGroup', name: game.developer } } : {}),
+        ...(game.publisher ? { publisher: { '@type': 'Organization', name: game.publisher } } : {}),
+        description: game.description ?? '',
+        inLanguage: lang,
+        url: eventUrl,
+      };
   const crumbLd = breadcrumbLd([
     { name: 'WhenStage', url: `https://whenstage.com/${lang}` },
     { name: game.name, url: `https://whenstage.com/${lang}/concert/${params.id}` },
