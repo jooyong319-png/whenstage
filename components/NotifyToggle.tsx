@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useWishlist } from '@/hooks/useWishlist';
 import { pushConfigured, pushSupported, getCurrentSubscription, subscribePush, unsubscribePush, isEndpointRegistered, isNotifyOptedOut, markNotifyOptedOut, getLastPushError } from '@/lib/push';
 import { showToast } from '@/lib/toast';
+import { trackEvent } from '@/lib/analytics';
 import { useLocale } from '@/hooks/useLocale';
 import { CAL } from '@/lib/i18nLabels';
 import { NotifyPrefs } from './NotifyPrefs';
@@ -62,7 +63,7 @@ export function NotifyToggle() {
     }
     setState('loading');
     const r = await subscribePush([...wishlist.ids]);
-    if (r === 'ok') { setState('on'); showToast(t ? t.notifyOnToast : '출시 알림을 켰어요'); }
+    if (r === 'ok') { setState('on'); trackEvent('notify_enable', { source: 'toggle' }); showToast(t ? t.notifyOnToast : '출시 알림을 켰어요'); }
     else if (r === 'denied') { setState('denied'); showToast(t ? t.notifyDeniedToast : '알림 권한이 거부됐어요'); }
     else {
       setState('off');

@@ -136,7 +136,7 @@ export function CalendarView({ cursor, onCursorChange, games, wishlist: _wishlis
   };
 
   // 모바일(캘린더 아래에 패널이 오는 1열 레이아웃)에서 날짜를 탭하면 그 날 일정 패널로 스크롤.
-  const panelRef = useRef<HTMLElement>(null);
+  const panelRef = useRef<HTMLDivElement>(null);
   const scrollToPanelOnMobile = () => {
     if (typeof window === 'undefined') return;
     if (!window.matchMedia('(max-width: 900px)').matches) return;
@@ -310,7 +310,7 @@ export function CalendarView({ cursor, onCursorChange, games, wishlist: _wishlis
           </ul>
         </div>
 
-        <aside className={styles.sidePanel} ref={panelRef}>
+        <div className={styles.sidePanel} ref={panelRef}>
           <h3 className={styles.sidePanelTitle}>{panelTitle}</h3>
           <AnimatePresence mode="wait">
             {panelEntries.length === 0 ? (
@@ -351,7 +351,7 @@ export function CalendarView({ cursor, onCursorChange, games, wishlist: _wishlis
               </div>
             </div>
           )}
-        </aside>
+        </div>
       </div>
     </section>
   );

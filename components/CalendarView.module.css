@@ -95,7 +95,9 @@
 }
 .cell:hover { background: var(--bg-elev); }
 .cell:focus-visible { box-shadow: inset 0 0 0 2px var(--accent); }
-.cellOther { opacity: 0.3; }
+.cellOther { opacity: 0.55; }  /* 인접월 날짜 — 너무 흐리면 WCAG 대비 미달(0.3→0.55) */
+/* 인접월은 주말 색(빨강/파랑) 대신 중립색 — dim과 겹치면 빨강이 대비 미달이라 */
+.cellOther .cellDate.sun, .cellOther .cellDate.sat { color: var(--text); }
 .cellSelected { background: var(--bg-elev); }
 
 .cellDate {

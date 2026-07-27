@@ -88,7 +88,7 @@ export default async function Page({ params }: Props) {
                       {formatPostDate(it.date)}
                       {it.source && <span className={n.sourceBadge}>{it.source}</span>}
                     </time>
-                    <h3 className={styles.postTitle}>{it.title}</h3>
+                    <h2 className={styles.postTitle}>{it.title}</h2>
                     {it.description && <p className={styles.postDesc}>{it.description}</p>}
                   </div>
                 </a>

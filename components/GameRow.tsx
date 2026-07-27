@@ -3,6 +3,7 @@ import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import { motion } from 'motion/react';
 import type { Game } from '@/lib/types';
 import { CATEGORY_META, availableTicketingUrl } from '@/lib/types';
+import { trackEvent } from '@/lib/analytics';
 import { calcDayDiff, getKoreanWeekday } from '@/lib/utils';
 import { useLocale } from '@/hooks/useLocale';
 import { UI, CAL, CATEGORY_LABELS } from '@/lib/i18nLabels';
@@ -51,13 +52,11 @@ export function GameRow({ game: g, now, wishlist, onPick, preBadge }: Props) {
     <motion.li
       className={`${styles.row} ${imminent ? styles.rowImminent : ''} ${released ? styles.rowReleased : ''}`}
       style={{ '--cat': cat.color } as CSSProperties}
-      role="button"
-      tabIndex={0}
-      onClick={() => onPick(g.id)}
-      onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onPick(g.id); } }}
       whileHover={{ y: -3, transition: { type: 'spring', stiffness: 400, damping: 24 } }}
       whileTap={{ scale: 0.985 }}
     >
+      {/* 행 전체 클릭 → 상세. 오버레이 버튼으로 분리해 액션(출처/찜/예매) 링크와 중첩 안 되게(nested-interactive 방지) */}
+      <button type="button" className={styles.rowOverlay} onClick={() => onPick(g.id)} aria-label={displayName} />
       <div className={styles.thumb}>
         {showImg ? (
           <>
@@ -87,7 +86,7 @@ export function GameRow({ game: g, now, wishlist, onPick, preBadge }: Props) {
 
       <div className={styles.main}>
         <div className={styles.titleRow}>
-          <span className={styles.badge} style={{ color: cat.color }}>{lang ? CATEGORY_LABELS[lang][g.category] : cat.short}</span>
+          <span className={styles.badge} style={{ background: cat.color }}>{lang ? CATEGORY_LABELS[lang][g.category] : cat.short}</span>
           <span className={styles.title}>{displayName}</span>
           {preBadge && <span className={styles.preBadge}>{preBadge}</span>}
         </div>
@@ -107,7 +106,7 @@ export function GameRow({ game: g, now, wishlist, onPick, preBadge }: Props) {
             target="_blank"
             rel="noopener"
             aria-label={t ? t.buyTicket : '예매하기'}
-            onClick={(e) => e.stopPropagation()}
+            onClick={(e) => { e.stopPropagation(); trackEvent('ticketing_click', { game_id: g.id, source: 'search_row' }); }}
           >
             <svg className="ic" aria-hidden="true"><use href="#ic-tag" /></svg>
             <span className={styles.actLabel}>{t ? t.buyTicket : '예매하기'}</span>

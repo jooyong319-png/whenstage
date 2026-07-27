@@ -1,5 +1,6 @@
 'use client';
 import { useSaleWindowEnded } from '@/hooks/useSaleWindowEnded';
+import { trackEvent } from '@/lib/analytics';
 
 interface Props {
   url: string;
@@ -20,7 +21,13 @@ export function TicketingCtaButton({ url, endDateTime, openLabel, closedLabel }:
     );
   }
   return (
-    <a className="detail-link prereg-cta" href={url} target="_blank" rel="noopener">
+    <a
+      className="detail-link prereg-cta"
+      href={url}
+      target="_blank"
+      rel="noopener"
+      onClick={() => trackEvent('ticketing_click', { source: 'detail' })}
+    >
       {openLabel} →
     </a>
   );

@@ -3,6 +3,7 @@ import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import { motion } from 'motion/react';
 import type { Game } from '@/lib/types';
 import { CATEGORY_META, effectivePresaleEnd, availableTicketingUrl } from '@/lib/types';
+import { trackEvent } from '@/lib/analytics';
 import { formatShortDate, formatEventDateTime } from '@/lib/utils';
 import { useLocale } from '@/hooks/useLocale';
 import { CAL, CATEGORY_LABELS } from '@/lib/i18nLabels';
@@ -65,13 +66,11 @@ export function ScheduleCard({ game, kind, onPick, now }: Props) {
   return (
     <motion.div
       className={styles.card}
-      role="button"
-      tabIndex={0}
-      onClick={() => onPick(game.id)}
-      onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onPick(game.id); } }}
       whileHover={{ y: -4, transition: { type: 'spring', stiffness: 400, damping: 22 } }}
       whileTap={{ scale: 0.97 }}
     >
+      {/* 카드 클릭 영역을 button으로 분리 — 예매 링크(아래)와 중첩 안 되게(nested-interactive 방지) */}
+      <button type="button" className={styles.cardMain} onClick={() => onPick(game.id)}>
       <div className={styles.head}>
         {showImg && (
           <div className={styles.thumb} style={{ '--cat': cat.color } as CSSProperties}>
@@ -105,6 +104,7 @@ export function ScheduleCard({ game, kind, onPick, now }: Props) {
           {game.developer}
         </div>
       )}
+      </button>
       {ctaUrl && ctaLabel && (
         ctaEnded ? (
           <span className={`${styles.cta} ${styles.ctaClosed}`} aria-disabled="true">
@@ -116,7 +116,7 @@ export function ScheduleCard({ game, kind, onPick, now }: Props) {
             href={ctaUrl}
             target="_blank"
             rel="noopener"
-            onClick={(e) => e.stopPropagation()}
+            onClick={(e) => { e.stopPropagation(); trackEvent('ticketing_click', { game_id: game.id, source: 'calendar_card' }); }}
           >
             {ctaLabel}
           </a>

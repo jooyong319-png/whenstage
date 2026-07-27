@@ -15,6 +15,21 @@
    reduced-motion 사용자에겐 자동으로 꺼줌) — 여기선 색·그림자만 */
 .card:hover { border-color: var(--accent); box-shadow: var(--shadow-md); }
 
+/* 카드 클릭 영역(button) — 카드 안 콘텐츠(head/meta/artist)를 감싸되 버튼 기본 스타일 제거,
+   기존 flex-column 레이아웃 그대로 재현(예매 링크는 이 button 밖 형제 → nested-interactive 없음). */
+.cardMain {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
 .head { display: flex; align-items: flex-start; gap: 0.6rem; }
 .thumb {
   position: relative;

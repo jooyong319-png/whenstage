@@ -123,7 +123,7 @@ export function HeaderNav() {
         </button>
 
         {/* 링크는 항상 DOM에 유지(크롤 가능) — 열림 상태만 CSS로 토글 */}
-        <nav className={`site-menu ${open ? 'site-menu-open' : ''}`} aria-label={lang === 'ko' ? '주요 메뉴' : 'Main menu'}>
+        <nav className={`site-menu ${open ? 'site-menu-open' : ''}`} aria-label={lang === 'ko' ? '전체 메뉴' : lang === 'ja' ? 'メニュー' : 'All menu'}>
           {/* 앱(standalone) 전용: 상단 accent 링크를 메뉴 안에 노출(웹에선 CSS로 숨김) */}
           <div className="menu-primary">
             {primary.map(item => {

@@ -84,7 +84,7 @@ export default async function Page({ params }: Props) {
                   {p.heroImage && <BlogImg src={p.heroImage} containerClassName={styles.thumb} />}
                   <div className={styles.postCardBody}>
                     <time className={styles.postDate}>{formatPostDate(p.date)}</time>
-                    <h3 className={styles.postTitle}>{p.title}</h3>
+                    <h2 className={styles.postTitle}>{p.title}</h2>
                     {p.description && <p className={styles.postDesc}>{p.description}</p>}
                   </div>
                 </a>

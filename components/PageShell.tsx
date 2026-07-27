@@ -2,7 +2,7 @@ import type { ReactNode } from 'react';
 import { getAllGames } from '@/lib/games';
 import { kstDateOnly } from '@/lib/utils';
 import { FeaturedCards } from './FeaturedCards';
-import { CAL, type Locale } from '@/lib/i18nLabels';
+import { type Locale } from '@/lib/i18nLabels';
 import styles from './PageShell.module.css';
 
 interface Props {
@@ -19,13 +19,14 @@ export async function PageShell({ children, lang, sidebar }: Props) {
   const now = kstDateOnly(new Date().toISOString());
   const defaultSidebar = sidebar ?? <FeaturedCards games={await getAllGames(lang)} now={now} />;
 
+  // AppShell이 이미 <main id="main">을 렌더하므로 여기선 중복 main을 만들지 않는다(landmark 중복
+   // 방지). 우측 레일도 <aside>(complementary)로 두면 main 안에 중첩돼 랜드마크 경고 → div로.
   return (
     <div className={styles.layout}>
-      <main className={styles.main}>{children}</main>
-
-      <aside className={styles.rightCol} aria-label={lang ? CAL[lang].recommendedSchedule : '추천 일정'}>
+      <div className={styles.main}>{children}</div>
+      <div className={styles.rightCol}>
         {defaultSidebar}
-      </aside>
+      </div>
     </div>
   );
 }

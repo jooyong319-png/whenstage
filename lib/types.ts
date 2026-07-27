@@ -157,8 +157,9 @@ export const CATEGORY_META: Record<Category, {
   icon: string;
   color: string;
 }> = {
+  // 색상은 배지(흰 글씨 위)에서 WCAG AA(작은 글씨 4.5:1)를 만족하도록 약간 어둡게 조정됨.
   concert_tour:  { label: '콘서트·내한 공연', short: '콘서트',  icon: 'ic-star',    color: '#4a5fe0' },
-  music_release: { label: '음원 발매(컴백)',   short: '음원발매', icon: 'ic-flame',   color: '#0e9d94' },
-  festival:      { label: '페스티벌',         short: '페스티벌', icon: 'ic-globe',   color: '#1f9d52' },
-  fanmeeting:    { label: '팬미팅',           short: '팬미팅',  icon: 'ic-comment', color: '#df3d78' },
+  music_release: { label: '음원 발매(컴백)',   short: '음원발매', icon: 'ic-flame',   color: '#0a7d74' },
+  festival:      { label: '페스티벌',         short: '페스티벌', icon: 'ic-globe',   color: '#17823f' },
+  fanmeeting:    { label: '팬미팅',           short: '팬미팅',  icon: 'ic-comment', color: '#c92c62' },
 };

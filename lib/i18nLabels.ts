@@ -139,7 +139,7 @@ export const UI: Record<Locale, UiStrings> = {
     installAriaClose: '닫기',
   },
   en: {
-    siteName: 'WhenStage — Tours, Comebacks & Festivals',
+    siteName: 'WhenStage — Concert, Comeback & Festival Schedule',
     siteNameShort: 'WhenStage',
     home: 'Home',
     calendar: 'Calendar',
@@ -188,7 +188,7 @@ export const UI: Record<Locale, UiStrings> = {
     installAriaClose: 'Close',
   },
   ja: {
-    siteName: 'WhenStage — 来日公演・カムバック・フェス',
+    siteName: 'WhenStage — コンサート・カムバック・フェス日程',
     siteNameShort: 'WhenStage',
     home: 'ホーム',
     calendar: 'カレンダー',

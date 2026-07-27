@@ -1,5 +1,6 @@
 /* 게임 1행 — 리스트 뷰 + 캘린더 상세 패널 공용 (ListView 행 디자인 기준) */
 .row {
+  position: relative;
   display: grid;
   grid-template-columns: 58px 54px minmax(0, 1fr) auto;
   grid-template-areas: "date thumb main actions";
@@ -9,8 +10,17 @@
   border-bottom: 1px solid var(--border);
   border-left: 3px solid var(--cat);
   transition: background 0.15s;
+}
+/* 행 전체 클릭 오버레이(상세로) — 액션 링크와 형제라 중첩 인터랙티브가 아님 */
+.rowOverlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;                   /* 썸네일 fg(z-index:1) 위 — 행 전체가 클릭되게. 액션(z-index:3)은 이 위 */
+  border: none;
+  background: none;
   cursor: pointer;
 }
+.rowOverlay:focus-visible { outline: 2px solid var(--accent); outline-offset: -3px; border-radius: var(--radius); }
 
 /* 왼쪽 이미지 썸네일 (비율 다양 → 블러 배경 + contain, 없으면 아이콘) */
 .thumb {
@@ -54,7 +64,7 @@
 .row:hover { background: var(--bg); }
 .row:hover .title { color: var(--accent); }
 .rowImminent { background: rgba(245, 166, 35, 0.06); }
-.rowReleased { opacity: 0.58; }
+.rowReleased { opacity: 0.85; }  /* 지난 공연 dim — 너무 흐리면 텍스트 대비 미달(0.58→0.85) */
 .rowReleased:hover { opacity: 1; }
 
 /* 날짜 칼럼 */
@@ -71,9 +81,9 @@
   flex: 0 0 auto;
   font-size: 0.7rem;
   font-weight: 700;
-  padding: 0.12rem 0.5rem;
+  padding: 0.14rem 0.5rem;
   border-radius: 5px;
-  border: 1px solid currentColor;
+  color: #fff;                 /* 채움 배지(흰 글씨) — 아웃라인 색 텍스트는 어두운 배경서 대비 미달 */
   line-height: 1.4;
 }
 .preBadge {
@@ -130,7 +140,7 @@
 }
 
 /* 액션 */
-.actions { grid-area: actions; display: flex; align-items: center; gap: 0.4rem; flex: 0 0 auto; }
+.actions { grid-area: actions; display: flex; align-items: center; gap: 0.4rem; flex: 0 0 auto; position: relative; z-index: 3; }
 .actBtn {
   display: inline-flex;
   align-items: center;

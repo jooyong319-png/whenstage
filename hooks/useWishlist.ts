@@ -3,6 +3,7 @@ import { useCallback, useSyncExternalStore } from 'react';
 import { showToast } from '@/lib/toast';
 import { CAL, type Locale } from '@/lib/i18nLabels';
 import { pushSupported, pushConfigured, isNotifyOptedOut, subscribePush } from '@/lib/push';
+import { trackEvent } from '@/lib/analytics';
 
 const KEY = 'whenstage.wishlist.v1';
 const NUDGE_KEY = 'whenstage.notify.nudge.v1';
@@ -32,6 +33,7 @@ function nudgeNotify(ids: string[]): void {
     label: c.action,
     onClick: async () => {
       const r = await subscribePush(ids);
+      if (r === 'ok') trackEvent('notify_enable', { source: 'wishlist_nudge' });
       showToast(r === 'ok' ? c.ok : r === 'denied' ? c.denied : c.fail, r === 'ok' ? 2200 : 3500);
     },
   });
@@ -104,6 +106,7 @@ function toggleId(id: string): void {
     /* quota 초과 등 무시 */
   }
   emit();
+  trackEvent('wishlist_toggle', { action: added ? 'add' : 'remove', game_id: id });
   // 첫 찜 순간이 알림 유도의 최적 타이밍 — 조건 맞으면 "알림 켜기" 액션 토스트(한 번만),
   // 아니면 기존 확인 토스트.
   if (added && shouldNudgeNotify()) {
