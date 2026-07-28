@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-07-28",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -914,6 +914,86 @@
       "source_url": "https://www.universalmusic.ca/2026/07/23/adela-announces-debut-album-prima-due-september-4th-releases-new-single-and-music-video-aint-in-laout-now/",
       "last_updated": "2026-07-25",
       "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-tyla-apop-world-tour-london-20261015",
+      "name": "Tyla: A*POP World Tour - London",
+      "release_date": "2026-10-15",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "O2 Academy Brixton, London"
+      ],
+      "developer": "Tyla",
+      "publisher": null,
+      "description": "Tyla brings her A*POP World Tour to O2 Academy Brixton on October 15, 2026, one of 34 dates announced on July 27. The run supports APOP, the Grammy winner's second album, released July 24. The tour opens October 12 at Zenith Paris and works through Amsterdam, Glasgow, Manchester, Brussels, Berlin and Stockholm before a North American leg starting November 12 in Wheatland, California, and closing dates in Lagos, Cape Town and Johannesburg. An artist presale runs July 29 via Laylo, with general on-sale July 31 through Ticketmaster.",
+      "genres": [
+        "Pop",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Tyla_at_2026_Montreux_Jazz_Festival_8.png/330px-Tyla_at_2026_Montreux_Jazz_Festival_8.png",
+      "source_url": "https://consequence.net/2026/07/tyla-announces-apop-world-tour/",
+      "presale": true,
+      "presale_datetime": "2026-07-29T10:00:00+01:00",
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-31T10:00:00+01:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null
+    },
+    {
+      "id": "en-jay-z-30th-anniversary-los-angeles-20261023",
+      "name": "JAY-Z 30th Anniversary - Los Angeles",
+      "release_date": "2026-10-23",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "SoFi Stadium, Los Angeles, CA"
+      ],
+      "developer": "JAY-Z",
+      "publisher": null,
+      "description": "JAY-Z plays SoFi Stadium on October 23 and 24, 2026 as part of the 30th anniversary run marking three decades since Reasonable Doubt. The Los Angeles dates were announced July 27 alongside stadium shows at Tottenham Hotspur Stadium in London on September 4 and 5 and Stade de France in Paris on September 10, and they follow three hometown nights at Yankee Stadium earlier in July. Presales open July 29 at 10 a.m. local time with Citi cardholder access in Los Angeles, ahead of the general on-sale July 30 via Ticketmaster.",
+      "genres": [
+        "Hip-Hop",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Jay-Z_meets_with_New_York_Senate_Majority_Leader_in_Albany_%28cropped%29.webp/330px-Jay-Z_meets_with_New_York_Senate_Majority_Leader_in_Albany_%28cropped%29.webp.png",
+      "source_url": "https://consequence.net/2026/07/jay-z-los-angeles-london-tour-dates/",
+      "presale": true,
+      "presale_datetime": "2026-07-29T10:00:00-07:00",
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-30T10:00:00-07:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null
+    },
+    {
+      "id": "en-orville-peck-mule-20260918",
+      "name": "Orville Peck - Mule",
+      "release_date": "2026-09-18",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "music_release",
+      "platforms": [
+        "Streaming",
+        "Digital"
+      ],
+      "developer": "Orville Peck",
+      "publisher": "Warner Records",
+      "description": "Orville Peck releases Mule, his fourth studio album, on September 18, 2026 through Warner Records. The 13-track record traces the year that reshaped his life, moving through addiction, the pursuit of sobriety and the slow work of rebuilding. Lead single Too Little, Too Late arrived with the announcement, written with Dan Wilson and Steve Rusch and produced by Jay Joyce. The album also features Prologue (Eulogy Of A Man Turned Mule), a collaboration with Emmylou Harris, Noah Cyrus and Allison Russell.",
+      "genres": [
+        "Country",
+        "Album"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Orville_Peck%2C_Roundhouse%2C_London.jpg/330px-Orville_Peck%2C_Roundhouse%2C_London.jpg",
+      "source_url": "https://consequence.net/2026/07/orville-peck-new-album-mule-2026-tour-dates/"
     }
   ]
 }
