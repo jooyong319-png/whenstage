@@ -75,9 +75,9 @@ data/                         # 데이터 (리서처만 수정)
     release_date_approx: boolean,   // 정확한 날짜 미확정이면 true
     timezone: string,               // IANA 타임존, 예: "Asia/Seoul" — 이 항목의 모든 시각 필드 기준(§4-1, 필수)
     category: "concert_tour" | "music_release" | "festival" | "fanmeeting",
-    platforms: string[],            // 공연장·지역 (예: ["잠실종합운동장 주경기장"], ["Tokyo Dome"])
-    developer: string | null,       // 아티스트 / 기획사명
-    publisher: string | null,       // 주최사·프로모터 (예: 라이브네이션코리아, CJ ENM, Live Nation)
+    platforms: string[],            // 공연장·지역 — 부속 시설은 괄호로(§4-5). 예: ["잠실종합운동장(주경기장)"], ["Tokyo Dome"]
+    developer: string | null,       // 아티스트 / 기획사명 — 검색결과 구조화 데이터의 performer가 된다(§4-6)
+    publisher: string | null,       // 주최사·프로모터 (예: 라이브네이션코리아, CJ ENM, Live Nation) — organizer가 된다(§4-6)
     description: string | null,     // 그 언어로 된 2~4문장 소개 (§자세한 기준은 각 리서처 프롬프트)
     genres: string[],               // 장르/태그 (예: ["K-POP","내한"], ["Pop","Tour"], ["J-POP","来日"])
     image_url: string | null,       // 확신 없으면 null
@@ -158,6 +158,41 @@ festival_days: [
 - 크로스 등재본은 티켓팅 필드(`presale*`/`general_sale*`)를 원본과 중복 관리하기보다, `description`에서
   안내하고 `source_url`로 원본 공지를 링크하는 편이 유지보수에 유리하다(두 파일을 계속 동기화할 필요가 없어짐).
 - 대부분의 공연은 이 기능을 쓰지 않는 게 정상이다 — 국제적으로 주목받을 만한 공연에만 선택적으로 사용할 것.
+
+### §4-5 `platforms` — 공연장 표기 통일 (부속 시설은 반드시 괄호로)
+`platforms[0]`은 단순한 텍스트가 아니라 **공연장 페이지(`/[lang]/venue/[slug]`)를 만드는 키**다.
+`lib/venues.ts`의 `normalizeVenueKey()`가 **괄호 안 내용만** 떼고 같은 공연장으로 묶는다. 그래서
+부속 경기장·홀 이름을 괄호 없이 붙여 쓰면 **같은 장소가 서로 다른 공연장 페이지로 갈라진다.**
+
+```
+❌ "올림픽공원 88잔디마당" + "올림픽공원 우리금융아트홀" + "올림픽공원"
+   → 공연장 페이지 3개, 각각 공연 1건씩 (전부 저품질 판정 → noindex)
+✅ "올림픽공원(88잔디마당)" + "올림픽공원(우리금융아트홀)" + "올림픽공원"
+   → 공연장 페이지 1개에 공연 3건 (검색에 노출되는 제대로 된 모아보기 페이지)
+```
+
+- 상위 공간명을 먼저 쓰고, 그 안의 세부 시설은 **괄호 안에** 넣는다.
+- 공연 1건짜리 공연장 페이지는 그 공연 상세와 내용이 겹쳐 자동으로 `noindex` 처리된다
+  (`isVenueIndexable`). 표기를 통일하는 것만으로 색인되는 페이지가 늘어난다.
+- 기존 데이터에 이미 같은 장소가 갈라져 있으면 표기를 맞춰 정리할 것(이건 '삭제'가 아니라 '표기 수정'이라 데이터 보존 원칙에 어긋나지 않는다).
+- 같은 원칙이 `developer`(아티스트명)에도 적용된다 — `normalizeArtistKey()`가 동일하게 동작한다.
+  예: `"에스파(aespa)"`와 `"에스파"`는 한 아티스트로 묶이지만, `"에스파 aespa"`는 별도 아티스트가 된다.
+
+### §4-6 데이터가 검색결과에 그대로 나간다 (구조화 데이터)
+공연 상세 페이지는 아래 필드를 그대로 Google 구조화 데이터(`MusicEvent`)로 내보낸다. 비어 있으면
+검색결과에서 그만큼 기능이 빠진다 — **채울 수 있는데 비워두는 게 가장 아까운 손실**이다.
+
+| 데이터 필드 | 검색결과 항목 | 비면 생기는 일 |
+|---|---|---|
+| `general_sale_url` / `presale_url` | `offers` | 검색결과에 티켓 정보·예매 링크가 안 뜬다 |
+| `publisher` | `organizer` | 주최사 정보 누락 |
+| `developer`, `festival_days[].lineup` | `performer` | 출연 아티스트 누락 (라인업도 performer로 쓰인다) |
+| `release_time` | `startDate` 시각 | 날짜만 노출 |
+| `platforms[0]` | `location` | (필수 항목이라 공연명으로 폴백되지만 부정확) |
+
+- 없는 정보를 지어내면 안 된다. **확인되면 채운다**가 원칙이다.
+- 특히 `publisher`(주최사)는 지금까지 대부분 비어 있다 — 예매처 상세 페이지나 공식 공지에 주최/주관이
+  거의 항상 적혀 있으니 확인되는 대로 채울 것.
 
 ### description 작성 원칙(공통)
 - 공식 보도자료/포스터 문구를 그대로 복붙 금지 — 같은 사실관계를 직접 재서술

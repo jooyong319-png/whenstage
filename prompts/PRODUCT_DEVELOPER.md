@@ -40,6 +40,20 @@ git config user.name "Product Developer Claude"
 - 기존 코드 스타일·네이밍 컨벤션을 따른다(주변 코드를 먼저 읽고 패턴을 파악할 것).
 - 불필요한 주석 추가 금지, 과도한 추상화 금지 — 스펙이 요구하는 만큼만.
 
+**목록·카드 UI를 건드릴 때 지킬 것 (실제로 사고가 났던 부분):**
+상세 페이지로 가는 진입점은 **반드시 `<a href>`**여야 한다. `<button onClick>`으로 모달만 띄우면
+서버 HTML에 링크가 하나도 안 남아 크롤러가 상세 페이지를 고아로 취급한다 — 실제로 콘서트 상세
+34개 중 11개가 어디서도 링크되지 않아 색인에서 누락됐었다. 모달 UX가 필요하면 링크로 만든 뒤
+클릭에서 `preventDefault()`로 가로채면 된다(`components/GameRow.tsx`가 이 패턴의 기준):
+```tsx
+<a href={`/${lang}/concert/${g.id}`} onClick={(e) => {
+  if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return; // 새 탭은 브라우저에 맡김
+  e.preventDefault();
+  onPick(g.id);
+}} />
+```
+사용자 경험은 그대로면서 크롤러·새 탭 열기·가운데 클릭이 정상 동작한다.
+
 ### 5. 검증 (필수 — 항목 위험도에 따라 강도를 나눈다)
 
 ⚠️ **환경 제약(중요):** 이 자동화가 도는 클라우드 샌드박스는 프로덕션 빌드(`npm run build`,

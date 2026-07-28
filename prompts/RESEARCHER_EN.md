@@ -85,6 +85,8 @@ git config user.name "Researcher Claude (EN)"
 - `name`, `description`: **영어로 작성**(§아래 description 기준).
 - `timezone`: **반드시 채운다.** 공연장이 있는 실제 지역의 IANA 타임존(예: 뉴욕 공연이면 `"America/New_York"`, LA면 `"America/Los_Angeles"`). 뷰어의 타임존이 아니라 공연장 타임존이다(§타임존 참고).
 - `release_time`: 공연 시작 시각("HH:mm") 확인되면 채우고, 모르면 null.
+- `platforms`: 공연장명 — **부속 홀/스테이지는 반드시 괄호 안에**(§아래 공연장 표기 참고). `"Madison Square Garden(The Theater)"` ○ / `"Madison Square Garden The Theater"` ✗
+- `publisher`: 주최사·프로모터(Live Nation, AEG Presents 등). **지금까지 대부분 비어 있다** — 티켓 플랫폼 상세 페이지·공식 공지에 프로모터가 대개 적혀 있으니 확인되는 대로 채울 것(§아래 검색결과 반영 참고).
 - `image_url`(§아래 이미지 소싱 참고). 확신 없으면 null.
 - `presale`/`general_sale`(§아래 티켓팅 필드): 공식/티켓 플랫폼에서 확인되면 true. 기존 true 항목 매 사이클 재확인, 종료·공연 완료되면 해제.
 - `festival_days`(festival 카테고리만, §아래 페스티벌 라인업 참고): 공식 라인업 발표 후에만.
@@ -102,6 +104,30 @@ NY는 Eastern, 런던은 Europe/London 등) **공연이 실제로 열리는 도�
 투어 다른 도시 공연과 혼동해 잘못된 타임존을 넣으면 안 된다. `presale_datetime` 등은
 **ISO 8601 + UTC 오프셋** 포함 문자열로 쓴다. 예: `"2026-08-10T10:00:00-07:00"`(LA, 오전 10시 PDT).
 DST(서머타임) 시기에 따라 오프셋이 달라지므로(PST -08:00 vs PDT -07:00) 해당 날짜 기준 오프셋을 확인할 것.
+
+### 공연장 표기(`platforms`) — AGENTS.md §4-5 참고
+`platforms[0]`은 공연장 페이지(`/en/venue/...`)를 만드는 키다. 코드가 **괄호 안 내용만** 떼고 같은
+공연장으로 묶기 때문에, 부속 시설을 괄호 없이 붙여 쓰면 같은 장소가 여러 페이지로 갈라진다.
+```
+❌ "Madison Square Garden The Theater" / "Madison Square Garden"  → 1건짜리 페이지 2개
+✅ "Madison Square Garden(The Theater)" / "Madison Square Garden"  → 2건 모인 페이지 1개
+```
+공연 1건뿐인 공연장 페이지는 자동으로 검색 색인에서 빠진다. 표기만 맞춰도 제대로 된 모아보기
+페이지가 된다. 기존 데이터에 갈라진 표기가 보이면 맞춰서 정리할 것(표기 수정은 삭제가 아니다).
+`developer`(아티스트명)도 같은 규칙 — 괄호 밖 병기는 별도 아티스트로 갈라진다.
+
+### 데이터가 검색결과에 그대로 나간다 — AGENTS.md §4-6 참고
+아래 필드는 공연 상세 페이지에서 Google 구조화 데이터로 그대로 나간다. 비면 검색결과 기능이 빠진다.
+
+| 필드 | 검색결과 | 비면 |
+|---|---|---|
+| `general_sale_url`/`presale_url` | 티켓 정보(offers) | 예매 링크가 검색결과에 안 뜸 |
+| `publisher` | 주최사(organizer) | 누락 |
+| `developer`, `festival_days[].lineup` | 출연진(performer) | 누락 (라인업도 performer로 쓰임) |
+| `release_time` | 공연 시작 시각 | 날짜만 노출 |
+
+지어내지 말 것. 다만 **확인 가능한데 비워두는 게 가장 아까운 손실**이다 — 티켓 플랫폼 상세 페이지를
+이미 열어봤다면 프로모터·티켓 URL·시작 시각이 대개 같은 화면에 다 있다. 한 번에 같이 뽑아올 것.
 
 ### 이미지 소싱 (우선순위)
 ⚠️ **공식 출처만 사용** — 티켓팅 플랫폼 공식 페이지, 레이블/아티스트 공식 채널, 위키피디아만 쓴다.
@@ -235,3 +261,5 @@ git push
 19. **사용자에게 하는 모든 메시지·CHAT.md·커밋 메시지는 한국어**. 오직 `name`/`description` 필드 값만 영어.
 20. `timezone`은 모든 항목 필수 — 공연이 실제로 열리는 도시 기준(뷰어 타임존 아님). 시각 필드는 UTC 오프셋 포함 ISO 8601로
 21. `related_locale_ids`는 국제적으로 주목받는 한국/일본 개최 공연에만 선택적으로. 원본 쪽(KO/JA)에도 역방향 링크가 채워지도록 CHAT.md에 요청 기록할 것
+22. 공연장(`platforms`)·아티스트(`developer`) 표기는 부속 시설/병기를 **괄호 안에** — 괄호 밖에 붙여 쓰면 같은 장소·같은 아티스트가 별도 페이지로 갈라진다
+23. `publisher`(주최사·프로모터)는 확인되면 반드시 채울 것 — 검색결과 organizer로 나가는데 지금 대부분 비어 있다
