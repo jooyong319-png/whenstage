@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-07-25",
+  "last_updated": "2026-07-28",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -952,6 +952,42 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ja-befirst-bruce-wayne-20260731",
+      "name": "BE:FIRST「BRUCE WAYNE feat. Flo Milli, ATL Jacob」",
+      "release_date": "2026-07-31",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "BE:FIRST",
+      "publisher": null,
+      "description": "BE:FIRSTがグローバル展開に向けた新曲「BRUCE WAYNE feat. Flo Milli, ATL Jacob」を2026年7月31日に配信リリースする。米ラッパーのFlo Milli、プロデューサーのATL Jacobを迎えた一曲で、海外市場を意識した制作陣によるトラックとなる。グループは2026年9月からバンコク・台北・マニラ・ニューヨークを巡るワールドショーケースを控えており、本作はその流れに連なる国際的な布石と位置づけられる。",
+      "genres": [
+        "J-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://www.billboard-japan.com/d_news/detail/163940"
+    },
+    {
+      "id": "ja-ballistik-boyz-saku-20260731",
+      "name": "BALLISTIK BOYZ from EXILE TRIBE「SAKU -朔-」",
+      "release_date": "2026-07-31",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "BALLISTIK BOYZ from EXILE TRIBE",
+      "publisher": null,
+      "description": "BALLISTIK BOYZ from EXILE TRIBEが新曲「SAKU -朔-」を2026年7月31日に配信リリースする。本作はメンバーの海沼流星が手がけた初のプロデュース楽曲で、自身が受けてきたインスピレーションを形にした一曲だという。グループ内から制作者が立つ形は初の試みであり、活動の幅を広げる節目のリリースとなる。",
+      "genres": [
+        "J-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://www.billboard-japan.com/d_news/detail/163943"
     }
   ]
 }
