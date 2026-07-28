@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   verification: {
     google: 'lzLVWegsUNGglPnfG4v2LZbpcqZufhIdksQHS1C9Vjc',
     other: {
-      'naver-site-verification': '3ec567114e683e947e53e79a6f652d967c57231c',
+      'naver-site-verification': 'd8bfc5a47c5763ce011b23b05549bb4b9071cc8e',
     },
   },
   icons: { icon: '/favicon.svg', apple: '/icons/apple-touch-icon.png' },
