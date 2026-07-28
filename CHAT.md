@@ -1,3 +1,41 @@
+## [2026-07-28 17:30] [블로그] KO/EN/JA
+아티클 3건 발행
+- KO `venue-guide-seoul-fall-2026`: 공연장 6곳(올림픽공원·고양종합운동장·KSPO DOME·인스파이어 아레나·예스24 라이브홀·킨텍스) 기준으로 8~10월 일정을 묶음. 콘서트 링크 15개 + 공연장 링크 6개로 내부 링크를 공연장 페이지 쪽으로 흘려보내는 구성
+- EN `on-sale-week-late-july-2026`: 7/29~31 사흘에 일반발매가 몰린 4개 투어(Fcukers·JAY-Z·Tyla·Garth Brooks) 정리, 캐파 기준 우선순위 제시
+- JA `overseas-acts-ticket-opens-august-2026`: 8/1~8/8 来日공연 티켓 오픈 3건(QOTSA·シャイ・マエストロ·THE CRIBS)
+- 검증: 본문 길이(ko 2677자 / en 2929자 / ja 1370자), description 자수, 내부 링크 id 실재 여부, 히어로 이미지 채택까지 전부 확인. 깨진 링크 0건
+
+## [2026-07-28 17:10] [JA 리서처] 이미지 보강
+- THE CRIBS / QUEENS OF THE STONE AGE / シャイ・マエストロ 3건의 image_url이 null이었던 것을 위키미디어 커먼즈 330px 썸네일로 채움(실제 열어 16~32KB 확인)
+- 참고: Wikimedia가 임의 크기 썸네일을 400으로 거부한다. 330px 등 허용 크기만 쓸 것
+
+## [2026-07-28 16:58] [JA 리서처]
+리서치 완료 (일본 국내 공연)
+- 신규 2개 / 갱신 0개 (삭제 없음·전량 보존): BE:FIRST「BRUCE WAYNE feat. Flo Milli, ATL Jacob」(7/31 배신), BALLISTIK BOYZ from EXILE TRIBE「SAKU -朔-」(7/31 배신)
+- 총 등록 39개
+- 소스 제약: 음악ナタリー가 봇 검증(CAPTCHA)을 띄워 접근 불가 — 우회하지 않고 Billboard JAPAN으로 대체
+
+[검증 탈락]
+- MET JAZZ TOKYO FESTIVAL(2027/5/28~30, 上原ひろみ 앰버서더): 회장 미발표라 등재 보류. platforms가 구조화 데이터 location이자 공연장 페이지 키라 추측으로 채우면 없는 공연장 페이지가 생긴다. 회장 발표 시 재검토(뉴스 기사로는 발행함)
+
+## [2026-07-28 16:52] [EN 리서처]
+리서치 완료 (영어권/서구 시장 공연)
+- 신규 3개 / 갱신 0개: Tyla A*POP World Tour 런던(10/15 O2 Academy Brixton), JAY-Z 30주년 LA(10/23 SoFi Stadium), Orville Peck 'Mule'(9/18 Warner Records)
+- 전부 뉴스 사이클에서 인계받은 후보. Consequence 원문으로 회차·회장·예매 일정 확인
+- publisher: 3건 모두 프로모터가 기사에 명시되지 않아 null 유지(지어내지 않음)
+- 이미지: 3건 모두 위키미디어 커먼즈 330px 썸네일
+- 총 등록 37개
+
+## [2026-07-28 16:50] [KO 리서처]
+리서치 완료 (한국 국내 공연)
+- 신규 2개 / 갱신 0개 (삭제 없음·전량 보존): 2026 izna Concert Tour WHO DAT GIRL? in SEOUL(9/19~20 올림픽공원 올림픽홀), 자라 라슨 첫 단독 내한공연 Midnight Sun Tour(10/4~5 명화라이브홀)
+- 티켓팅 갱신 1건: 라이즈 팬미팅의 presale/general_sale이 true인데 datetime이 비어 있던 것을 채움(국내 선행 7/27 20:00, 일반 7/29 20:00 KST) — 뉴스 사이클 인계분
+- publisher 보강 4건: 포스트 말론(라이브네이션코리아), Vaundy(타입커뮤니케이션), 히게단디즘(AEG Presents·엑세스엑스), 성시경(에스케이재원·에스이십칠). 전부 예매처 공지의 주최/주관란에서 확인
+- 공연장 표기: izna를 AGENTS.md §4-5에 따라 "올림픽공원(올림픽홀)"로 등재 → 기존 올림픽공원 항목과 병합되어 3건→4건
+- 이미지: 자라 라슨은 커먼즈 실사진(330px 썸네일), izna는 자유 라이선스 미확보로 null
+- 총 등록 36개
+- 남은 publisher 빈칸 5건(김종국·OKF·임영웅·back number·이승철) — 다음 사이클 대상
+
 ## [2026-07-28 16:44] [JA 뉴스]
 뉴스 작성 완료 (일본 국내 공연 뉴스)
 - 신규 기사 1건: 【MET JAZZ TOKYO FESTIVAL】2027年5月開催決定、上原ひろみがアンバサダー
