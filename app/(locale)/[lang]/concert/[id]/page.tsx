@@ -19,7 +19,7 @@ import { TicketingCtaButton } from '@/components/TicketingCtaButton';
 import { ReportForm } from '@/components/ReportForm';
 import { SidebarSection } from '@/components/SidebarSection';
 import { RelatedEventCard } from '@/components/RelatedEventCard';
-import { breadcrumbLd, jsonLd } from '@/lib/seo';
+import { breadcrumbLd, jsonLd, eventStartDate } from '@/lib/seo';
 
 interface Props {
   params: { lang: string; id: string };
@@ -127,7 +127,7 @@ export default async function LocaleGamePage({ params }: Props) {
   const ticketUrl = game.general_sale_url || game.presale_url || null;
   const eventUrl = `https://whenstage.com/${lang}/concert/${params.id}`;
   const ogImg = game.image_url || 'https://whenstage.com/og-image.png';
-  const startDate = game.release_time ? `${game.release_date}T${game.release_time}` : game.release_date;
+  const startDate = eventStartDate(game.release_date, game.release_time, game.timezone);
   const festEnd = game.festival_days && game.festival_days.length > 0
     ? game.festival_days[game.festival_days.length - 1].date
     : null;
