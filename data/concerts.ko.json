@@ -370,7 +370,7 @@
       "timezone": "Asia/Seoul",
       "category": "concert_tour",
       "platforms": [
-        "수원종합운동장 등 전국 9개 도시"
+        "수원종합운동장"
       ],
       "developer": "싸이(PSY)",
       "publisher": "피네이션(P NATION)",
@@ -523,7 +523,7 @@
       "timezone": "Asia/Seoul",
       "category": "concert_tour",
       "platforms": [
-        "올림픽공원 우리금융아트홀"
+        "올림픽공원(우리금융아트홀)"
       ],
       "developer": "전유진",
       "publisher": "제이레이블",
@@ -547,7 +547,7 @@
       "timezone": "Asia/Seoul",
       "category": "concert_tour",
       "platforms": [
-        "올림픽공원 88잔디마당"
+        "올림픽공원(88잔디마당)"
       ],
       "developer": "성시경",
       "publisher": null,
@@ -571,7 +571,7 @@
       "timezone": "Asia/Seoul",
       "category": "concert_tour",
       "platforms": [
-        "고양종합운동장 주경기장"
+        "고양종합운동장(주경기장)"
       ],
       "developer": "임영웅",
       "publisher": null,
@@ -618,7 +618,7 @@
       "timezone": "Asia/Seoul",
       "category": "concert_tour",
       "platforms": [
-        "킨텍스 제2전시장 9홀"
+        "킨텍스(제2전시장 9홀)"
       ],
       "developer": "back number(백넘버)",
       "publisher": null,
@@ -644,7 +644,7 @@
       "timezone": "Asia/Seoul",
       "category": "concert_tour",
       "platforms": [
-        "고양종합운동장 주경기장"
+        "고양종합운동장(주경기장)"
       ],
       "developer": "포스트 말론(Post Malone)",
       "publisher": null,
@@ -818,7 +818,7 @@
       "timezone": "Asia/Seoul",
       "category": "concert_tour",
       "platforms": [
-        "서울 예스24 라이브홀"
+        "예스24 라이브홀"
       ],
       "developer": "아틀러스(ATLUS)",
       "publisher": "아틀러스 코리아",

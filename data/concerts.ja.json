@@ -597,7 +597,7 @@
       "timezone": "Asia/Tokyo",
       "category": "concert_tour",
       "platforms": [
-        "ぴあアリーナMM（神奈川）ほか 全国14都市"
+        "ぴあアリーナMM（神奈川ほか全国14都市）"
       ],
       "developer": "あいみょん",
       "publisher": null,
@@ -618,7 +618,7 @@
       "timezone": "Asia/Tokyo",
       "category": "concert_tour",
       "platforms": [
-        "フェスティバルホール（大阪）ほか 全国6都市7公演"
+        "フェスティバルホール（大阪ほか全国6都市7公演）"
       ],
       "developer": "吉井和哉",
       "publisher": null,
@@ -880,7 +880,7 @@
       "timezone": "Asia/Tokyo",
       "category": "concert_tour",
       "platforms": [
-        "三郷市文化会館 大ホール（埼玉）ほか 全国ホール＆アリーナ",
+        "三郷市文化会館 大ホール（埼玉ほか全国ホール＆アリーナ）",
         "大阪城ホール（ツアーファイナル）"
       ],
       "developer": "sumika",

@@ -629,7 +629,7 @@
       "timezone": "America/New_York",
       "category": "concert_tour",
       "platforms": [
-        "Allianz Amphitheater, Richmond, VA"
+        "Allianz Amphitheater at Riverfront, Richmond, VA"
       ],
       "developer": "Djo (Joe Keery), Pond",
       "publisher": null,
@@ -676,7 +676,7 @@
       "timezone": "America/Chicago",
       "category": "concert_tour",
       "platforms": [
-        "Memphis, TN (Satellite Music Hall, fall leg opener)"
+        "Satellite Music Hall, Memphis, TN (fall leg opener)"
       ],
       "developer": "Ryan Bingham & The Texas Gentlemen",
       "publisher": null,
@@ -767,7 +767,7 @@
       "timezone": "America/Detroit",
       "category": "concert_tour",
       "platforms": [
-        "Grand Rapids, MI (Acrisure Amphitheater, North American leg opener)"
+        "Acrisure Amphitheater, Grand Rapids, MI (North American leg opener)"
       ],
       "developer": "Fcukers",
       "publisher": null,
@@ -822,7 +822,7 @@
       "timezone": "Europe/London",
       "category": "concert_tour",
       "platforms": [
-        "Manchester, England (O2 Apollo, UK/EU leg opener)"
+        "O2 Apollo, Manchester, England (UK/EU leg opener)"
       ],
       "developer": "Amon Amarth",
       "publisher": null,
