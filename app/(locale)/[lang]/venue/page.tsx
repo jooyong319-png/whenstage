@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllVenues } from '@/lib/venues';
 import { UI, LOCALES, OG_LOCALE, DEFAULT_OG_IMAGE, type Locale } from '@/lib/i18nLabels';
+import { localeAlternates } from '@/lib/seo';
 import { PageShell } from '@/components/PageShell';
 import { PageHeader } from '@/components/PageHeader';
 import { RevealGroup, RevealItem } from '@/components/motion/Reveal';
@@ -22,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: ui.venueListTitle,
     description: ui.venueListSubtitle,
-    alternates: { canonical: url },
+    alternates: localeAlternates('/venue', params.lang),
     openGraph: { title: ui.venueListTitle, description: ui.venueListSubtitle, url, locale: OG_LOCALE[params.lang], images: [DEFAULT_OG_IMAGE] },
   };
 }

@@ -69,8 +69,18 @@ export function ScheduleCard({ game, kind, onPick, now }: Props) {
       whileHover={{ y: -4, transition: { type: 'spring', stiffness: 400, damping: 22 } }}
       whileTap={{ scale: 0.97 }}
     >
-      {/* 카드 클릭 영역을 button으로 분리 — 예매 링크(아래)와 중첩 안 되게(nested-interactive 방지) */}
-      <button type="button" className={styles.cardMain} onClick={() => onPick(game.id)}>
+      {/* 카드 클릭 영역을 분리 — 예매 링크(아래)와 중첩 안 되게(nested-interactive 방지).
+          GameRow와 같은 이유로 button이 아닌 상세 페이지 <a>: 캘린더가 유일한 진입점인 공연이 많아
+          여기가 링크가 아니면 해당 상세 페이지는 사이트맵에만 존재하는 고아 URL이 된다. */}
+      <a
+        href={`/${lang}/concert/${game.id}`}
+        className={styles.cardMain}
+        onClick={(e) => {
+          if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return; // 새 탭/새 창은 브라우저에 맡김
+          e.preventDefault();
+          onPick(game.id);
+        }}
+      >
       <div className={styles.head}>
         {showImg && (
           <div className={styles.thumb} style={{ '--cat': cat.color } as CSSProperties}>
@@ -104,7 +114,7 @@ export function ScheduleCard({ game, kind, onPick, now }: Props) {
           {game.developer}
         </div>
       )}
-      </button>
+      </a>
       {ctaUrl && ctaLabel && (
         ctaEnded ? (
           <span className={`${styles.cta} ${styles.ctaClosed}`} aria-disabled="true">

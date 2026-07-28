@@ -6,6 +6,7 @@ import { getAllNews } from '@/lib/news';
 import { normalizeArtistKey } from '@/lib/types';
 import { Home } from '@/components/Home';
 import { UI, LOCALES, OG_LOCALE, DEFAULT_OG_IMAGE, type Locale } from '@/lib/i18nLabels';
+import { localeAlternates } from '@/lib/seo';
 
 interface Props {
   params: { lang: string };
@@ -26,15 +27,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: ui.siteName,
     description: ui.siteDescription,
-    alternates: {
-      canonical: url,
-      languages: {
-        ko: 'https://whenstage.com/ko',
-        en: 'https://whenstage.com/en',
-        ja: 'https://whenstage.com/ja',
-        'x-default': 'https://whenstage.com/',
-      },
-    },
+    // x-default는 리다이렉트되지 않는 실제 페이지를 가리켜야 한다 — '/'는 미들웨어가 307로
+    // 언어별 경로에 넘기므로 localeAlternates가 기본 언어(ko) 페이지를 직접 지정한다.
+    alternates: localeAlternates('', params.lang),
     openGraph: { title: ui.siteName, description: ui.siteDescription, url, type: 'website', locale: OG_LOCALE[params.lang], images: [DEFAULT_OG_IMAGE] },
   };
 }

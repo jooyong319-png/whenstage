@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { PageShell } from '@/components/PageShell';
 import { LOCALES, type Locale } from '@/lib/i18nLabels';
+import { localeAlternates } from '@/lib/seo';
 
 interface Props { params: { lang: string }; }
 function isLocale(v: string): v is Locale { return (LOCALES as string[]).includes(v); }
@@ -14,17 +15,17 @@ const META: Record<Locale, Metadata> = {
   ko: {
     title: '개인정보처리방침',
     description: 'WhenStage(whenstage.com) 개인정보처리방침 — 수집 항목, 쿠키 및 맞춤 광고, 제3자 처리 위탁에 대한 안내.',
-    alternates: { canonical: 'https://whenstage.com/ko/privacy' },
+    alternates: localeAlternates('/privacy', 'ko'),
   },
   en: {
     title: 'Privacy Policy',
     description: 'WhenStage (whenstage.com) privacy policy — data we collect, cookies and personalized ads, and third-party processing.',
-    alternates: { canonical: 'https://whenstage.com/en/privacy' },
+    alternates: localeAlternates('/privacy', 'en'),
   },
   ja: {
     title: 'プライバシーポリシー',
     description: 'WhenStage(whenstage.com)のプライバシーポリシー — 収集項目、クッキーおよびパーソナライズ広告、第三者への処理委託について。',
-    alternates: { canonical: 'https://whenstage.com/ja/privacy' },
+    alternates: localeAlternates('/privacy', 'ja'),
   },
 };
 

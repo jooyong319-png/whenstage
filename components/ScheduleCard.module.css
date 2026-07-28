@@ -29,6 +29,7 @@
   font: inherit;
   text-align: left;
   cursor: pointer;
+  text-decoration: none;        /* <a>로 렌더(크롤 가능한 상세 링크) — 밑줄/방문색 제거 */
 }
 .head { display: flex; align-items: flex-start; gap: 0.6rem; }
 .thumb {

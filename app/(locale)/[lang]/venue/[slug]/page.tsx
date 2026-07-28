@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getAllVenues, getVenueBySlug } from '@/lib/venues';
+import { getAllVenues, getVenueBySlug, isVenueIndexable } from '@/lib/venues';
 import { PageShell } from '@/components/PageShell';
 import { EventList } from '@/components/EventList';
 import { UI, LOCALES, OG_LOCALE, DEFAULT_OG_IMAGE, type Locale } from '@/lib/i18nLabels';
@@ -32,6 +32,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: venue.name,
     description: desc,
     alternates: { canonical: url },
+    // 공연 하나뿐이면 그 공연 상세와 중복 — 색인 제외(follow는 유지)
+    ...(isVenueIndexable(venue) ? {} : { robots: { index: false, follow: true } }),
     openGraph: { title: venue.name, description: desc, url, locale: OG_LOCALE[params.lang], images: [DEFAULT_OG_IMAGE] },
   };
 }

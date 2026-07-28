@@ -36,12 +36,16 @@ export function UpcomingStrip({ games, cardImages, now, onPick }: Props) {
           const dday = diff == null ? (ui ? ui.tba : '미정') : diff <= 0 ? 'D-DAY' : `D-${diff}`;
           const dateText = g.release_date_approx ? (ui ? ui.tba : '미정') : formatShortDate(g.release_date);
           return (
-            <motion.button
-              type="button"
+            <motion.a
               key={g.id}
+              href={`/${lang}/concert/${g.id}`}
               className={styles.card}
               style={{ '--cat': cat.color } as CSSProperties}
-              onClick={() => onPick(g.id)}
+              onClick={(e) => {
+                if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return; // 새 탭/새 창은 브라우저에 맡김
+                e.preventDefault();
+                onPick(g.id);
+              }}
               initial={{ opacity: 0, y: 14 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-40px' }}
@@ -67,7 +71,7 @@ export function UpcomingStrip({ games, cardImages, now, onPick }: Props) {
                 <span className={styles.name}>{g.name}</span>
                 <span className={styles.date}>{dateText}</span>
               </div>
-            </motion.button>
+            </motion.a>
           );
         })}
       </div>

@@ -66,6 +66,13 @@ export interface ArtistSummary {
   bio: ArtistBio | null;
 }
 
+// 아티스트 페이지의 고유 콘텐츠는 큐레이션 소개문(bio)과 일정 묶음 둘뿐이다. 소개문도 없고
+// 일정도 하나뿐이면 그 공연 상세와 겹치는 껍데기 페이지라 색인 대상에서 뺀다(lib/venues.ts의
+// isVenueIndexable과 같은 취지 — 다만 소개문이 있으면 일정이 하나여도 고유 텍스트가 있으니 남긴다).
+export function isArtistIndexable(a: ArtistSummary): boolean {
+  return a.events.length >= 2 || !!a.bio;
+}
+
 // normalizeArtistKey는 lib/types.ts로 이동(fs 의존 없는 순수 함수라 클라이언트 컴포넌트에서도
 // import 가능해야 함 — 검색의 별칭 매칭에 씀). 기존 import 경로 호환을 위해 재수출.
 export { normalizeArtistKey };

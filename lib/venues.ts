@@ -9,6 +9,14 @@ export interface VenueSummary {
   upcomingCount: number;
 }
 
+// 공연장 페이지는 "이 장소의 여러 공연을 모아 보여주는 것"이 유일한 가치다(고유 설명문이 없음).
+// 공연이 하나뿐이면 그 공연 상세 페이지와 내용이 사실상 같아 검색엔진엔 중복·저품질 페이지로 남는다
+// (실제로 색인 요청만 쌓이고 색인은 안 되던 URL 다수가 이 케이스). 페이지 자체는 살려두되
+// (사용자 유입/내부 링크엔 여전히 쓸모 있음) noindex + 사이트맵 제외로 크롤 예산을 아낀다.
+export function isVenueIndexable(v: VenueSummary): boolean {
+  return v.events.length >= 2;
+}
+
 // "KSPO DOME(올림픽체조경기장)" / "KSPO DOME(올림픽공원 체조경기장)" 처럼 부연설명 표기가 갈려도
 // 같은 공연장으로 묶기 위해 괄호(반각/전각) 안 내용을 떼고 비교한다. lib/artists.ts의
 // normalizeArtistKey()와 동일한 규칙 — 공연장에도 같은 표기 흔들림이 있어서 같이 쓴다.

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { PageShell } from '@/components/PageShell';
 import { LOCALES, type Locale } from '@/lib/i18nLabels';
+import { localeAlternates } from '@/lib/seo';
 
 interface Props { params: { lang: string }; }
 function isLocale(v: string): v is Locale { return (LOCALES as string[]).includes(v); }
@@ -14,17 +15,17 @@ const META: Record<Locale, Metadata> = {
   ko: {
     title: '소개',
     description: 'WhenStage(whenstage.com)는 콘서트·내한 공연, 음원 발매(컴백), 페스티벌, 팬미팅 일정을 한곳에 모아 매일 직접 큐레이션하는 서비스입니다.',
-    alternates: { canonical: 'https://whenstage.com/ko/about' },
+    alternates: localeAlternates('/about', 'ko'),
   },
   en: {
     title: 'About',
     description: 'WhenStage (whenstage.com) curates concert & tour, music release, festival, and fan meeting schedules from around the world.',
-    alternates: { canonical: 'https://whenstage.com/en/about' },
+    alternates: localeAlternates('/about', 'en'),
   },
   ja: {
     title: 'サイトについて',
     description: 'WhenStage(whenstage.com)はコンサート・来日公演、音源発売、フェスティバル、ファンミーティング情報を毎日キュレーションするサービスです。',
-    alternates: { canonical: 'https://whenstage.com/ja/about' },
+    alternates: localeAlternates('/about', 'ja'),
   },
 };
 

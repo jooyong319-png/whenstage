@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getAllArtists, getArtistBySlug } from '@/lib/artists';
+import { getAllArtists, getArtistBySlug, isArtistIndexable } from '@/lib/artists';
 import { PageShell } from '@/components/PageShell';
 import { EventList } from '@/components/EventList';
 import { ArtistAvatar } from '@/components/ArtistAvatar';
@@ -38,6 +38,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: artist.name,
     description: desc,
     alternates: { canonical: url },
+    // 소개문도 일정 묶음도 없는 껍데기 페이지는 색인 제외(follow는 유지 — 링크는 계속 따라가게)
+    ...(isArtistIndexable(artist) ? {} : { robots: { index: false, follow: true } }),
     openGraph: { title: artist.name, description: desc, url, locale: OG_LOCALE[params.lang], images: artist.image ? [{ url: artist.image }] : [DEFAULT_OG_IMAGE] },
   };
 }

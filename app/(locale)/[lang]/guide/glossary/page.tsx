@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { PageShell } from '@/components/PageShell';
 import { LOCALES, type Locale } from '@/lib/i18nLabels';
+import { localeAlternates } from '@/lib/seo';
 
 interface Props { params: { lang: string }; }
 function isLocale(v: string): v is Locale { return (LOCALES as string[]).includes(v); }
@@ -14,17 +15,17 @@ const META: Record<Locale, Metadata> = {
   ko: {
     title: '콘서트·티켓팅 용어 사전 | 가이드',
     description: '선예매, 취켓팅, 스탠딩석, 앵콜 공연 등 콘서트·티켓팅에서 자주 쓰이는 용어를 정리했습니다.',
-    alternates: { canonical: 'https://whenstage.com/ko/guide/glossary' },
+    alternates: localeAlternates('/guide/glossary', 'ko'),
   },
   en: {
     title: 'Concert & Ticketing Glossary | Guide',
     description: 'Presale, general admission, encore shows, and more — a glossary of common concert and ticketing terms.',
-    alternates: { canonical: 'https://whenstage.com/en/guide/glossary' },
+    alternates: localeAlternates('/guide/glossary', 'en'),
   },
   ja: {
     title: 'コンサート・チケット用語集 | ガイド',
     description: '先行予約、電子チケット、特典会など、コンサート・チケットでよく使われる用語をまとめました。',
-    alternates: { canonical: 'https://whenstage.com/ja/guide/glossary' },
+    alternates: localeAlternates('/guide/glossary', 'ja'),
   },
 };
 

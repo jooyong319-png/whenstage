@@ -55,8 +55,20 @@ export function GameRow({ game: g, now, wishlist, onPick, preBadge }: Props) {
       whileHover={{ y: -3, transition: { type: 'spring', stiffness: 400, damping: 24 } }}
       whileTap={{ scale: 0.985 }}
     >
-      {/* 행 전체 클릭 → 상세. 오버레이 버튼으로 분리해 액션(출처/찜/예매) 링크와 중첩 안 되게(nested-interactive 방지) */}
-      <button type="button" className={styles.rowOverlay} onClick={() => onPick(g.id)} aria-label={displayName} />
+      {/* 행 전체 클릭 → 상세 모달. 오버레이로 분리해 액션(출처/찜/예매) 링크와 중첩 안 되게(nested-interactive 방지).
+          button이 아니라 상세 페이지를 가리키는 진짜 <a>인 이유: 목록이 전부 모달이면 /concert/[id]로
+          가는 링크가 서버 HTML에 하나도 없어 크롤러가 상세 페이지를 고아로 취급한다(색인 누락).
+          기본 클릭은 preventDefault로 막고 모달을 띄워 UX는 그대로, 새 탭/가운데 클릭은 정상 이동. */}
+      <a
+        href={`/${lang}/concert/${g.id}`}
+        className={styles.rowOverlay}
+        aria-label={displayName}
+        onClick={(e) => {
+          if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return; // 새 탭/새 창은 브라우저에 맡김
+          e.preventDefault();
+          onPick(g.id);
+        }}
+      />
       <div className={styles.thumb}>
         {showImg ? (
           <>

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { PageShell } from '@/components/PageShell';
 import { LOCALES, type Locale } from '@/lib/i18nLabels';
+import { localeAlternates } from '@/lib/seo';
 
 interface Props { params: { lang: string }; }
 function isLocale(v: string): v is Locale { return (LOCALES as string[]).includes(v); }
@@ -14,17 +15,17 @@ const META: Record<Locale, Metadata> = {
   ko: {
     title: '문의하기',
     description: 'WhenStage(whenstage.com) 문의처 — 정보 정정·삭제 요청, 제휴, 저작권, 개인정보 관련 문의를 받습니다.',
-    alternates: { canonical: 'https://whenstage.com/ko/contact' },
+    alternates: localeAlternates('/contact', 'ko'),
   },
   en: {
     title: 'Contact',
     description: 'Contact WhenStage (whenstage.com) for corrections, removal requests, partnerships, copyright, or privacy inquiries.',
-    alternates: { canonical: 'https://whenstage.com/en/contact' },
+    alternates: localeAlternates('/contact', 'en'),
   },
   ja: {
     title: 'お問い合わせ',
     description: 'WhenStage(whenstage.com)へのお問い合わせ — 情報の訂正・削除依頼、提携、著作権、個人情報に関するご相談を受け付けています。',
-    alternates: { canonical: 'https://whenstage.com/ja/contact' },
+    alternates: localeAlternates('/contact', 'ja'),
   },
 };
 

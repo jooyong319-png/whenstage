@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { PageShell } from '@/components/PageShell';
 import { LOCALES, type Locale } from '@/lib/i18nLabels';
+import { localeAlternates } from '@/lib/seo';
 
 interface Props { params: { lang: string }; }
 function isLocale(v: string): v is Locale { return (LOCALES as string[]).includes(v); }
@@ -14,17 +15,17 @@ const META: Record<Locale, Metadata> = {
   ko: {
     title: '이용약관',
     description: 'WhenStage(whenstage.com) 이용약관 — 서비스 내용, 댓글 운영 방침, 저작권 및 면책 사항에 대한 안내.',
-    alternates: { canonical: 'https://whenstage.com/ko/terms' },
+    alternates: localeAlternates('/terms', 'ko'),
   },
   en: {
     title: 'Terms of Service',
     description: 'WhenStage (whenstage.com) terms of service — service description, comment policy, copyright, and disclaimers.',
-    alternates: { canonical: 'https://whenstage.com/en/terms' },
+    alternates: localeAlternates('/terms', 'en'),
   },
   ja: {
     title: '利用規約',
     description: 'WhenStage(whenstage.com)利用規約 — サービス内容、コメント運営方針、著作権および免責事項について。',
-    alternates: { canonical: 'https://whenstage.com/ja/terms' },
+    alternates: localeAlternates('/terms', 'ja'),
   },
 };
 

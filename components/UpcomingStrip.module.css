@@ -33,6 +33,7 @@
   overflow: hidden;
   color: inherit;
   cursor: pointer;
+  text-decoration: none;        /* <a>로 렌더(크롤 가능한 상세 링크) — 밑줄/방문색 제거 */
   box-shadow: var(--shadow-sm);
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
