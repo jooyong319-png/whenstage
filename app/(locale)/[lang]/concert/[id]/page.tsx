@@ -128,10 +128,23 @@ export default async function LocaleGamePage({ params }: Props) {
   const eventUrl = `https://whenstage.com/${lang}/concert/${params.id}`;
   const ogImg = game.image_url || 'https://whenstage.com/og-image.png';
   const startDate = game.release_time ? `${game.release_date}T${game.release_time}` : game.release_date;
-  // 페스티벌 등 다일 공연만 endDate(마지막 날). 단일 공연은 endDate=startDate 충돌 방지 위해 생략.
   const festEnd = game.festival_days && game.festival_days.length > 0
     ? game.festival_days[game.festival_days.length - 1].date
     : null;
+  // endDate는 아는 만큼만 쓴다. 다일 공연(페스티벌)은 마지막 날이 명확하고, 시작 시각을 모르는
+  // 공연은 "그 날 하루"로 보면 되므로 release_date를 그대로 종료일로 쓴다(startDate도 날짜 단위라
+  // 정밀도가 맞음). 시작 시각까지 아는 공연은 끝나는 시각을 알 방법이 없어 생략한다 — 임의로
+  // 몇 시간을 더하면 검색 결과에 없는 사실이 표기된다.
+  const endDate = festEnd && festEnd > game.release_date
+    ? festEnd
+    : (!game.release_time ? game.release_date : null);
+  // performer는 단독 아티스트(developer)뿐 아니라 페스티벌 데이별 라인업까지 합친다 —
+  // 라인업은 데이터에 이미 있는데 구조화 데이터에선 안 쓰이고 있었다(단독 아티스트가 없는
+  // 페스티벌이 performer 누락으로 잡히던 원인). 중복 표기는 제거.
+  const performerNames = Array.from(new Set([
+    ...(game.developer ? [game.developer] : []),
+    ...(game.festival_days?.flatMap(d => d.lineup) ?? []),
+  ]));
   const venueName = game.platforms[0] || game.name; // location은 필수 — 없으면 공연명으로 폴백
 
   // 실제 공연(콘서트/페스티벌/팬미팅) = MusicEvent(location 필수 항상 채움).
@@ -143,19 +156,30 @@ export default async function LocaleGamePage({ params }: Props) {
         name: game.name,
         image: ogImg,
         startDate,
-        ...(festEnd && festEnd > game.release_date ? { endDate: festEnd } : {}),
+        ...(endDate ? { endDate } : {}),
         eventStatus: 'https://schema.org/EventScheduled',
         eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
         location: { '@type': 'Place', name: venueName, address: venueName },
-        ...(game.developer ? { performer: { '@type': 'MusicGroup', name: game.developer } } : {}),
-        ...(game.publisher ? { organizer: { '@type': 'Organization', name: game.publisher, url: eventUrl } } : {}),
+        ...(performerNames.length > 0
+          ? { performer: performerNames.map(n => ({ '@type': 'MusicGroup', name: n })) }
+          : {}),
+        // organizer.url에는 주최사 URL이 들어가야 한다 — 예전엔 여기 우리 페이지(eventUrl)를
+        // 넣었는데, 그건 "주최사 홈페이지가 whenstage"라고 주장하는 잘못된 표기라 뺐다.
+        // 주최사 URL은 데이터에 없다(추가되면 그때 채운다).
+        ...(game.publisher ? { organizer: { '@type': 'Organization', name: game.publisher } } : {}),
         ...(ticketUrl
           ? {
               offers: {
                 '@type': 'Offer',
                 url: ticketUrl,
                 availability: 'https://schema.org/InStock',
-                ...(game.general_sale_datetime ? { validFrom: game.general_sale_datetime } : {}),
+                // validFrom은 그 offers.url로 실제 살 수 있게 되는 시점 — 일반예매 URL이면
+                // 일반예매 시작, 선예매 URL(일반예매 URL이 없어 폴백된 경우)이면 선예매 시작.
+                ...(game.general_sale_url && game.general_sale_datetime
+                  ? { validFrom: game.general_sale_datetime }
+                  : !game.general_sale_url && game.presale_datetime
+                    ? { validFrom: game.presale_datetime }
+                    : {}),
               },
             }
           : {}),
