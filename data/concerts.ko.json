@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-07-25",
+  "last_updated": "2026-07-28",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -353,11 +353,11 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Riize_at_the_2024_Melon_Music_Awards-2.png/330px-Riize_at_the_2024_Melon_Music_Awards-2.png",
       "source_url": "https://www.etoday.co.kr/news/view/2605229",
       "presale": true,
-      "presale_datetime": null,
+      "presale_datetime": "2026-07-27T20:00:00+09:00",
       "presale_end_datetime": null,
       "presale_url": "https://tickets.interpark.com/goods/26010045",
       "general_sale": true,
-      "general_sale_datetime": null,
+      "general_sale_datetime": "2026-07-29T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26010045"
     },
@@ -433,7 +433,7 @@
         "KSPO DOME(올림픽공원 체조경기장)"
       ],
       "developer": "Official髭男dism(오피셜히게단디즘)",
-      "publisher": null,
+      "publisher": "AEG Presents·엑세스엑스",
       "description": "일본 대표 밴드 오피셜히게단디즘(히게단)이 2년 만에 내한해 서울 공연을 연다. 8월 8일과 9일 이틀간 오후 7시 올림픽공원 KSPO DOME(체조경기장)에서 아시아 투어 서울 스탑을 진행한다. 'Pretender', 'Subtitle' 등으로 국내에서도 두꺼운 팬층을 확보한 팀으로, 2024년 내한에 이은 두 번째 대규모 단독 공연이다. 팬클럽 선예매는 3월 31일부터, 일반예매는 4월 16일 오후 7시 NOL 티켓에서 열렸다.",
       "genres": [
         "J-POP",
@@ -550,7 +550,7 @@
         "올림픽공원(88잔디마당)"
       ],
       "developer": "성시경",
-      "publisher": null,
+      "publisher": "에스케이재원·에스이십칠",
       "description": "'고막 남친'으로 불리는 성시경이 약 2년 만에 여는 야외 콘서트로, 가을 하늘과 노을을 배경으로 한 피크닉형 공연이다. 성시경을 중심으로 양희은, 이재훈, 원미연, 김장훈, 거미, 권진아, 김광진 등 실력파 보컬리스트가 총출동하고 인도네시아 슈퍼스타 라이사(Raisa)도 합류한다. 9월 5일과 6일 이틀간 서울 올림픽공원 88잔디마당에서 열리며, 티켓은 7월 24일 오후 8시 NOL 티켓에서 예매가 시작된다.",
       "genres": [
         "발라드",
@@ -598,7 +598,7 @@
         "인스파이어 아레나"
       ],
       "developer": "바운디(Vaundy)",
-      "publisher": null,
+      "publisher": "타입커뮤니케이션",
       "description": "'일본의 괴물 아티스트'로 불리는 싱어송라이터 바운디(Vaundy)의 첫 단독 내한 공연으로, 아시아 아레나 투어 'HORO'의 서울 무대다. 9월 19일 오후 5시와 20일 오후 4시 이틀에 걸쳐 인천 인스파이어 아레나에서 열린다. 애니메이션 '체인소 맨' 엔딩곡 등으로 국내에도 두터운 팬층을 보유한 그가 처음으로 한국 관객과 만나는 자리로, 3월 11일 오후 8시 NOL 티켓 예매가 시작되자마자 전석이 매진됐다.",
       "genres": [
         "J-POP",
@@ -647,7 +647,7 @@
         "고양종합운동장(주경기장)"
       ],
       "developer": "포스트 말론(Post Malone)",
-      "publisher": null,
+      "publisher": "라이브네이션코리아",
       "description": "미국 힙합·팝 스타 포스트 말론(Post Malone)이 'The BIG Stadium World Tour'로 약 3년 만에 다시 한국을 찾는다. 10월 2일 오후 7시 고양종합운동장 주경기장에서 열리는 이번 단독 공연에는 힙합 아티스트 돈 톨리버(Don Toliver)가 스페셜 게스트로 함께 무대에 오른다. 티켓은 4월 6일 아티스트 선예매에 이어 4월 7일 NOL 티켓 일반예매로 오픈됐다.",
       "genres": [
         "힙합",
@@ -831,6 +831,63 @@
       "source_url": "https://x.com/Atlus_korea/status/2079038893941239912",
       "last_updated": "2026-07-25",
       "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-izna-who-dat-girl-seoul-20260919",
+      "name": "2026 izna Concert Tour: WHO DAT GIRL? in SEOUL",
+      "release_date": "2026-09-19",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "올림픽공원(올림픽홀)"
+      ],
+      "developer": "이즈나(izna)",
+      "publisher": "웨이크원(WAKEONE)·CJ ENM",
+      "description": "걸그룹 이즈나(izna)가 데뷔 후 첫 단독 콘서트 투어의 서울 공연을 9월 19일과 20일 이틀간 올림픽공원 올림픽홀에서 연다. 웨이크원과 CJ ENM이 주최·주관하며 티켓은 VIP석 19만8000원, 일반석 15만4000원으로 책정됐다. VIP석 관객에게는 본공연 전 사운드체크 참관과 우선 입장 혜택이 주어진다. 팬클럽 선예매는 7월 22일 마감됐고 일반 예매는 23일 오후 8시부터 진행 중이다. 관람 연령은 만 7세 이상이다.",
+      "genres": [
+        "K-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://tickets.interpark.com/contents/notice/detail/14554",
+      "presale": false,
+      "presale_datetime": "2026-07-22T20:00:00+09:00",
+      "presale_end_datetime": "2026-07-22T23:59:59+09:00",
+      "presale_url": "https://tickets.interpark.com/goods/26010264",
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-23T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26010264"
+    },
+    {
+      "id": "ko-zaralarsson-midnight-sun-seoul-20261004",
+      "name": "자라 라슨(Zara Larsson) 첫 단독 내한공연 - Midnight Sun Tour",
+      "release_date": "2026-10-04",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "명화라이브홀"
+      ],
+      "developer": "자라 라슨(Zara Larsson)",
+      "publisher": "라이브네이션코리아",
+      "description": "스웨덴 출신 팝 싱어송라이터 자라 라슨(Zara Larsson)이 첫 단독 내한공연을 연다. 10월 4일과 5일 이틀간 명화라이브홀에서 각각 오후 7시 30분에 열리며, 아시아 투어 '미드나이트 선(Midnight Sun)'의 일환이다. 라이브네이션코리아가 주최·주관을 맡았고 티켓은 스탠딩과 지정석이 13만2000원, 사운드체크 참관이 포함된 VIP 패키지가 34만7000원이다. 아티스트 선예매는 6월 8일, 일반 예매는 6월 11일 낮 12시 시작됐다. 관람 연령은 만 15세 이상이다.",
+      "genres": [
+        "팝",
+        "내한"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Zara_Larsson_Midnight_Sun_European_Tour_%28cropped%29_%28cropped%29.jpg",
+      "source_url": "https://tickets.interpark.com/contents/notice/detail/14009",
+      "presale": false,
+      "presale_datetime": "2026-06-08T12:00:00+09:00",
+      "presale_end_datetime": "2026-06-08T15:00:00+09:00",
+      "presale_url": "https://www.livenation.kr/event/zara-larsson-midnight-sun-tour-seoul-tickets-edp1680726",
+      "general_sale": true,
+      "general_sale_datetime": "2026-06-11T12:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://www.livenation.kr/event/zara-larsson-midnight-sun-tour-seoul-tickets-edp1680726"
     }
   ]
 }
