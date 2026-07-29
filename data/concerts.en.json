@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-07-29",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -994,6 +994,57 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Orville_Peck%2C_Roundhouse%2C_London.jpg/330px-Orville_Peck%2C_Roundhouse%2C_London.jpg",
       "source_url": "https://consequence.net/2026/07/orville-peck-new-album-mule-2026-tour-dates/"
+    },
+    {
+      "id": "en-silverstein-story-of-the-year-camp-screamo-2-seattle-20261116",
+      "name": "Silverstein & Story of the Year: Camp Screamo 2 - Seattle",
+      "release_date": "2026-11-16",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Showbox SoDo, Seattle, WA"
+      ],
+      "developer": "Silverstein & Story of the Year",
+      "publisher": null,
+      "description": "Silverstein and Story of the Year open Camp Screamo 2 at Showbox SoDo in Seattle on November 16, 2026. The co-headlining run covers 24 North American dates through December 13 at Citizens House of Blues in Boston, following the pair's first Camp Screamo leg earlier in the year. Stand Atlantic and Footballhead support throughout. Presales began July 28 with the code CAMPSCREAMO via Ticketmaster, and the general on-sale is July 31 at 10 a.m. local time.",
+      "genres": [
+        "Rock",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Silverstein_Live_Studio_Session_Digital_Promos.jpg/330px-Silverstein_Live_Studio_Session_Digital_Promos.jpg",
+      "source_url": "https://consequence.net/2026/07/silverstein-story-of-the-year-camp-screamo-2-tour/",
+      "presale": true,
+      "presale_datetime": "2026-07-28T10:00:00-07:00",
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-31T10:00:00-07:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null
+    },
+    {
+      "id": "en-jim-james-wowed-out-20260828",
+      "name": "Jim James - Wowed Out",
+      "release_date": "2026-08-28",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "music_release",
+      "platforms": [
+        "Streaming",
+        "Digital"
+      ],
+      "developer": "Jim James",
+      "publisher": null,
+      "description": "Jim James releases Wowed Out, his new solo album, on August 28, 2026. The My Morning Jacket frontman shared the title track alongside the announcement and described the record as drawing on Alice Coltrane's spiritual recordings, saying he wanted the songs to feel like a journey that takes the listener somewhere rewarding. A solo acoustic tour follows from November 28, 2026 through April 25, 2027.",
+      "genres": [
+        "Rock",
+        "Album"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Global_Citizen_2015_Earth_Day_%2817210694452%29_%28Jim_James%29.jpg/330px-Global_Citizen_2015_Earth_Day_%2817210694452%29_%28Jim_James%29.jpg",
+      "source_url": "https://consequence.net/2026/07/jim-james-2026-tour-dates-wowed-out-new-single/"
     }
   ]
 }

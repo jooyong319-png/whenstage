@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-07-29",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -988,6 +988,34 @@
       ],
       "image_url": null,
       "source_url": "https://www.billboard-japan.com/d_news/detail/163943"
+    },
+    {
+      "id": "ja-hinatazaka46-hinakuri-2026-kobe-20261121",
+      "name": "日向坂46 ARENA TOUR「ひなくり2026」",
+      "release_date": "2026-11-21",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "神戸ワールド記念ホール"
+      ],
+      "developer": "日向坂46",
+      "publisher": null,
+      "description": "日向坂46が毎年12月に開催してきた恒例ライブ「ひなくり」を約4年ぶりに復活させる。2022年を最後に途絶えていたが、今回は単独会場ではなく3都市を回るアリーナツアー形式となる。11月21日から23日の兵庫・神戸ワールド記念ホールを皮切りに、12月9日から11日は東京・国立代々木競技場第一体育館、12月22日から24日は愛知・日本ガイシホールと続き全9公演。チケットはファンクラブ抽選先行およびLemino各種先行の受付が9月9日12時に始まる。価格はLeminoスペシャルシート1万7000円、全席指定と親子・女性エリアが各1万1000円。",
+      "genres": [
+        "J-POP"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Hinatazaka46_members_at_Yokohama_Stadium.jpg/330px-Hinatazaka46_members_at_Yokohama_Stadium.jpg",
+      "source_url": "https://www.billboard-japan.com/d_news/detail/163948",
+      "presale": true,
+      "presale_datetime": "2026-09-09T12:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null
     }
   ]
 }
