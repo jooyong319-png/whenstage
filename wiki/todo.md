@@ -32,7 +32,10 @@
 - [ ] **알림 발송 시각용 외부 크론 유지** — cron-job.org 매시간 잡 + Vercel env `CRON_HOURLY=1` +
       Supabase `alter table push_subscriptions add column prefs jsonb`(적용 완료). 이 세 개가
       살아있어야 유저별 발송 시각이 동작(Hobby 플랜 제약). 자세한 건 [[architecture]].
-- [ ] **서치 콘솔 주소 변경 실행: gcalen.com → whenstage.com** (2026-07-29 등록)
+- [x] **서치 콘솔 주소 변경: gcalen.com → whenstage.com — 완료(2026-07-29)**
+      301 리다이렉트 설정 → 신 도메인에 구 계정 인증 태그 추가 → 주소 변경 요청까지 모두 완료.
+      요청 직후 전제 조건 재확인함(apex/www 모두 301, 최종 200, 인증 태그 2개 유지).
+      **남은 것은 유지뿐** — 아래 갱신·주의사항만 지키면 된다.
       이전 서비스 gcalen.com(게임 캘린더)은 두 달간 약 450클릭을 쌓았고 도메인도 아직 보유 중
       (만료 2027-05-27). 서비스 종료 후 Vercel 배포가 없어 **전 경로 404로 방치**돼 있던 것을
       2026-07-29에 `gcalen.com`·`www.gcalen.com` → `whenstage.com` **301 리다이렉트**로 연결했다
