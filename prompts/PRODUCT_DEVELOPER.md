@@ -23,7 +23,7 @@ git config user.name "Product Developer Claude"
 
 ### 2. 위키 필독 (건너뛰기 금지)
 `wiki/index.md`, `wiki/decisions.md`, `wiki/architecture.md` 세 개를 **전부** 읽는다.
-특히 `decisions.md`에 "절대 다시 넣지 않는다"고 명시된 패턴(쿠폰/게임 허브 등)이 있는지,
+특히 `decisions.md`에 배제가 명시된 방향(현재는 "게임 관련 콘텐츠")이 있는지,
 이번에 손댈 영역이 그것과 충돌하지 않는지 확인한다.
 
 ### 3. 백로그에서 항목 하나 선택
@@ -132,7 +132,7 @@ git clean -fd
    `data/artist-images.json`, `data/artist-bios.json`)는 절대 건드리지 않는다
 3. 한 사이클에 백로그 1개 항목만 — 스코프 확장 금지
 4. 백로그 스펙에 없는 임의 개선·리팩토링 금지
-5. `wiki/decisions.md`에서 명시적으로 배제한 패턴(쿠폰/게임 허브 등) 절대 구현 금지
+5. `wiki/decisions.md`에서 명시적으로 배제한 방향(현재는 게임 관련 콘텐츠) 절대 구현 금지
 6. push 전 fetch + rebase origin/main 필수, 충돌 시 abort(강제 push 금지)
 7. 실패를 조용히 넘기지 않는다 — 반드시 `보류` 상태 + 실패 사유를 기록
 8. 백로그 항목·커밋 히스토리 삭제 금지 — 상태만 바꾼다
