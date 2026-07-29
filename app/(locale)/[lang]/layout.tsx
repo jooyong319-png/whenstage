@@ -31,7 +31,14 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true },
   verification: {
-    google: 'lzLVWegsUNGglPnfG4v2LZbpcqZufhIdksQHS1C9Vjc',
+    // 두 개인 이유: 첫 번째가 현재 운영 계정, 두 번째는 이전 서비스(gcalen.com)를 등록해 둔
+    // 다른 구글 계정이다. gcalen.com → whenstage.com 주소 변경 도구를 쓰려면 두 속성이 같은
+    // 계정에 있어야 해서 그쪽 계정으로도 이 사이트를 인증해 둔다. 주소 변경이 끝나도
+    // 지우지 말 것 — 인증이 풀리면 그 계정에서 속성 접근을 잃는다.
+    google: [
+      'lzLVWegsUNGglPnfG4v2LZbpcqZufhIdksQHS1C9Vjc',
+      '_5bLAeAAZclbsM-2zDQ7MteY4Ya9yWJTV0HRNdnE2gs',
+    ],
     other: {
       'naver-site-verification': 'd8bfc5a47c5763ce011b23b05549bb4b9071cc8e',
     },
