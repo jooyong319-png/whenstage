@@ -145,6 +145,78 @@
         "agency": "Republic Records",
         "members": "솔로",
         "debut": "2015"
+      },
+      "CNBLUE": {
+        "text": "CNBLUE는 FNC엔터테인먼트 소속의 밴드로, 정용화, 이정신, 강민혁으로 구성되어 있다. 2010년 '외톨이야'로 국내 데뷔해 밴드 사운드와 아이돌 팬덤을 아우르는 대중성으로 인기를 얻었으며, 멤버들이 직접 작사·작곡에 참여하는 자작곡 활동으로도 알려져 있다.",
+        "agency": "FNC엔터테인먼트",
+        "members": "3인조",
+        "debut": "2010.01.14"
+      },
+      "N.Flying": {
+        "text": "N.Flying은 FNC엔터테인먼트 소속의 5인조 밴드다. 랩을 접목한 밴드 사운드가 특징이며, '옥탑방', '고민중독' 등의 곡으로 폭넓은 사랑을 받았다.",
+        "agency": "FNC엔터테인먼트",
+        "members": "5인조",
+        "debut": "2015.05.20"
+      },
+      "ONEWE": {
+        "text": "ONEWE는 RBW 소속의 5인조 밴드로, 서정적인 멜로디와 탄탄한 밴드 연주를 바탕으로 한 음악을 선보인다. 멤버들이 작사·작곡·편곡에 폭넓게 참여하는 자작곡 밴드로 알려져 있다.",
+        "agency": "RBW",
+        "members": "5인조",
+        "debut": "2019.05.13"
+      },
+      "극동아시아타이거즈": {
+        "text": "극동아시아타이거즈는 2019년 홍대 무대에서 출발한 4인조 밴드로, 펑키한 리듬과 공감 가는 노랫말을 앞세운 음악을 선보인다. 여름 페스티벌 무대에 꾸준히 오르며 인디 신에서 입지를 넓혀 왔다.",
+        "agency": null,
+        "members": "4인조",
+        "debut": "2020"
+      },
+      "까치산": {
+        "text": "까치산은 한태인, 김진호, 최선용으로 구성된 3인조 밴드다. 1990년대 후반부터 2000년대 초반의 팝펑크·파워팝과 J-록, 애니메이션 주제가에서 영향을 받은 밝고 향수 어린 사운드가 특징이다.",
+        "agency": null,
+        "members": "3인조",
+        "debut": null
+      },
+      "드래곤포니": {
+        "text": "드래곤포니는 안테나 소속의 4인조 밴드로, 2024년 EP 'Pop Up'으로 정식 데뷔했다. 멤버 전원이 작사·작곡·편곡·프로듀싱에 직접 참여하는 싱어송라이터 밴드이며, 팀명은 용띠와 말띠 멤버들의 띠에서 따왔다.",
+        "agency": "안테나",
+        "members": "4인조",
+        "debut": "2024.09.26"
+      },
+      "로이킴": {
+        "text": "로이킴은 2012년 오디션 프로그램 '슈퍼스타K4' 우승으로 이름을 알린 싱어송라이터다. 이듬해 '봄봄봄'으로 큰 인기를 얻었으며, 어쿠스틱 기반의 서정적인 자작곡으로 꾸준히 활동하고 있다.",
+        "agency": null,
+        "members": "솔로",
+        "debut": "2013"
+      },
+      "쏜애플": {
+        "text": "쏜애플은 윤성현을 중심으로 한 3인조 밴드로, 사이키델릭한 사운드와 짙은 서정의 노랫말이 특징이다. 2009년 '가시사과'라는 이름으로 활동을 시작해 2010년 지금의 이름으로 바꿨으며, 국내 인디 록을 대표하는 밴드 중 하나로 꼽힌다.",
+        "agency": null,
+        "members": "3인조",
+        "debut": "2010"
+      },
+      "윤하": {
+        "text": "윤하는 2004년 일본에서 먼저 데뷔한 뒤 2007년 국내 무대에 선 싱어송라이터다. '비밀번호 486', '사건의 지평선' 등으로 사랑받았으며, 피아노와 밴드 사운드를 아우르는 폭넓은 음악 세계로 '테라피 가수'라는 별명을 얻었다.",
+        "agency": "C9엔터테인먼트",
+        "members": "솔로",
+        "debut": "2004"
+      },
+      "이즈나": {
+        "text": "이즈나(izna)는 Mnet '아이랜드2'를 통해 결성된 WAKEONE 소속 걸그룹이다. 2024년 11월 데뷔했으며, 프로듀서 테디의 더블랙레이블과 협업해 완성도 높은 퍼포먼스를 선보인다.",
+        "agency": "WAKEONE",
+        "members": "6인조",
+        "debut": "2024.11.25"
+      },
+      "자라 라슨": {
+        "text": "자라 라슨은 스웨덴 출신의 팝 싱어송라이터다. 2008년 오디션 프로그램에서 우승하며 주목받았고, 이후 'Lush Life', 'Never Forget You' 등 글로벌 히트곡으로 세계적인 팝스타로 자리매김했다.",
+        "agency": null,
+        "members": "솔로",
+        "debut": "2013"
+      },
+      "정은지": {
+        "text": "정은지는 걸그룹 에이핑크의 메인보컬로, 2016년 솔로 앨범 'Dream'으로 솔로 활동을 시작했다. 청량하면서도 짙은 감성의 보컬로 다수의 OST와 솔로곡을 히트시켰다.",
+        "agency": null,
+        "members": "솔로",
+        "debut": "2016"
       }
     },
     "en": {
@@ -297,6 +369,84 @@
         "agency": "RCA Records",
         "members": "Solo",
         "debut": "2023"
+      },
+      "Goose": {
+        "text": "Goose is an American jam band formed in 2014 in Connecticut, known for their improvisational live shows and a genre-blending sound that draws on rock, funk, and electronic influences. The band has built a devoted following through extensive touring and a strong live-taping culture.",
+        "agency": null,
+        "members": "Band",
+        "debut": "2014"
+      },
+      "JAY-Z": {
+        "text": "JAY-Z is an American rapper, songwriter, and entrepreneur widely regarded as one of the most influential figures in hip-hop. Since his 1996 debut album Reasonable Doubt he has released a long string of acclaimed records, and he also co-founded the entertainment company Roc Nation.",
+        "agency": "Roc Nation",
+        "members": "Solo",
+        "debut": "1996"
+      },
+      "JENNIE": {
+        "text": "Jennie is a South Korean singer and a member of the group BLACKPINK who has also built a prominent solo career. She founded her own label, Odd Atelier, and released her debut solo studio album Ruby in 2025, collaborating with a range of international artists.",
+        "agency": "Odd Atelier / Columbia Records",
+        "members": "Solo",
+        "debut": "2018"
+      },
+      "Jim James": {
+        "text": "Jim James is an American singer, songwriter, and guitarist best known as the frontman of the rock band My Morning Jacket. Alongside that band he has released solo albums and collaborated across a range of projects, showcasing an expansive, atmospheric musical style.",
+        "agency": null,
+        "members": "Solo",
+        "debut": null
+      },
+      "John Summit": {
+        "text": "John Summit is an American DJ and producer known for his high-energy house and tech-house records. He rose to prominence in the late 2010s and has become a fixture on international dance-music festival lineups.",
+        "agency": null,
+        "members": "Solo",
+        "debut": null
+      },
+      "Lorde": {
+        "text": "Lorde is a New Zealand singer-songwriter who broke through in 2013 with the single 'Royals' and her debut album Pure Heroine. Known for her distinctive vocals and introspective songwriting, she has since released the albums Melodrama and Solar Power.",
+        "agency": null,
+        "members": "Solo",
+        "debut": "2013"
+      },
+      "Ministry": {
+        "text": "Ministry is an American band formed in 1981 by Al Jourgensen, widely credited as a pioneer of industrial metal. Their aggressive fusion of metal guitars, electronics, and samples influenced a generation of heavy and industrial acts.",
+        "agency": null,
+        "members": "Band",
+        "debut": "1981"
+      },
+      "Olivia Dean": {
+        "text": "Olivia Dean is a British singer-songwriter from London known for her warm blend of soul, pop, and R&B. Her acclaimed debut album Messy established her as one of the UK's rising vocal talents.",
+        "agency": null,
+        "members": "Solo",
+        "debut": null
+      },
+      "Orville Peck": {
+        "text": "Orville Peck is a masked country singer-songwriter known for his rich baritone and cinematic, outlaw-country-inspired sound. Performing behind a signature fringed mask, he has brought a distinctive theatrical persona to contemporary country music.",
+        "agency": null,
+        "members": "Solo",
+        "debut": null
+      },
+      "Tate McRae": {
+        "text": "Tate McRae is a Canadian singer, songwriter, and dancer who first gained attention as a finalist on So You Think You Can Dance before pivoting to music. Signed to RCA Records, she broke through with the hit 'You Broke Me First' and has become a prominent pop performer known for her dance-driven live shows.",
+        "agency": "RCA Records",
+        "members": "Solo",
+        "debut": null
+      },
+      "The Smashing Pumpkins": {
+        "text": "The Smashing Pumpkins are an American alternative rock band formed in Chicago in 1988 by frontman Billy Corgan. With landmark 1990s albums such as Siamese Dream and Mellon Collie and the Infinite Sadness, they became one of the era's defining and most ambitious rock acts.",
+        "agency": null,
+        "members": "Band",
+        "debut": "1988"
+      },
+      "The xx": {
+        "text": "The xx are an English indie pop band formed in London in 2005, known for their minimalist arrangements, intertwined male-female vocals, and intimate atmosphere. Their Mercury Prize-winning debut album xx made them one of the most influential British bands of their generation.",
+        "agency": "Young Turks",
+        "members": "Band",
+        "debut": "2005"
+      },
+      "Tyla": {
+        "text": "Tyla is a South African singer-songwriter who blends pop and R&B with amapiano, a dance style from her home country. She achieved global success with the single 'Water' and has become a leading voice in the international rise of South African pop.",
+        "agency": null,
+        "members": "Solo",
+        "debut": null
       }
     },
     "ja": {
@@ -485,6 +635,192 @@
         "agency": "ソニー・ミュージックレコーズ",
         "members": null,
         "debut": "2020.12"
+      },
+      "AI": {
+        "text": "AIはアメリカ生まれのR&B・ポップシンガーで、力強くソウルフルな歌声で知られる。「Story」「ハピネス」などのヒット曲で幅広い世代に親しまれ、日本のR&Bシーンを代表するアーティストの一人として長く活躍している。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": "2000"
+      },
+      "ALEX WARREN": {
+        "text": "アレックス・ウォーレンはアメリカのシンガーソングライターで、SNSでの人気を背景に音楽活動へと進出した。エモーショナルなポップソングで注目を集め、「Ordinary」などの楽曲で国際的なヒットを記録している。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": null
+      },
+      "BABYMETAL": {
+        "text": "BABYMETALはメタルとアイドルポップを融合させた独自のスタイルで世界的な人気を得た日本のグループである。2010年に結成され、激しいメタルサウンドとキャッチーなメロディ、洗練されたダンスを組み合わせたステージで海外の大型フェスにも数多く出演している。",
+        "agency": "アミューズ",
+        "members": null,
+        "debut": null
+      },
+      "BALLISTIK BOYZ from EXILE TRIBE": {
+        "text": "BALLISTIK BOYZ from EXILE TRIBEはLDH所属の7人組パフォーマンスグループで、EXILE TRIBEの一員として活動する。ラップと歌、ダンスを兼ね備えたメンバーによるエネルギッシュなステージが特徴である。",
+        "agency": "LDH JAPAN",
+        "members": "7人組",
+        "debut": "2019"
+      },
+      "BE:FIRST": {
+        "text": "BE:FIRSTはSKY-HIが主宰するBMSG所属のダンス&ボーカルグループである。オーディション番組「THE FIRST」から誕生し、2021年に「Gifted.」でデビュー、高い歌唱力とパフォーマンス力で幅広い支持を集めている。",
+        "agency": "BMSG",
+        "members": "6人組",
+        "debut": "2021.11.03"
+      },
+      "BUMP OF CHICKEN": {
+        "text": "BUMP OF CHICKENは千葉県出身の4人組ロックバンドで、藤原基央を中心に幼なじみで結成された。文学的で情景豊かな歌詞とメロディアスな楽曲で幅広い世代に支持され、日本のロックシーンを代表するバンドの一つである。",
+        "agency": null,
+        "members": "4人組",
+        "debut": null
+      },
+      "DAVID BYRNE": {
+        "text": "デヴィッド・バーンはトーキング・ヘッズのフロントマンとして知られるミュージシャンで、ソロとしても実験的で多彩な作品を発表してきた。ワールドミュージックや演劇的な要素を取り入れた独創的な表現で高く評価されている。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": null
+      },
+      "FKA TWIGS": {
+        "text": "FKA twigsはイギリスのシンガーソングライター、ダンサー、プロデューサーで、実験的なエレクトロニック・R&Bと先鋭的なビジュアル表現で知られる。緻密なサウンドと身体性を活かしたパフォーマンスで、独自の芸術世界を築いている。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": null
+      },
+      "GLIM SPANKY": {
+        "text": "GLIM SPANKYは松尾レミと亀本寛貴による日本のロックデュオである。1960〜70年代のロックやブルースに根ざしたサウンドと、ハスキーで力強いボーカルが特徴で、レトロと現代性を併せ持つ楽曲を発表している。",
+        "agency": null,
+        "members": "2人組",
+        "debut": "2014"
+      },
+      "JAMIROQUAI": {
+        "text": "ジャミロクワイはジェイ・ケイを中心とするイギリスのバンドで、ファンクやアシッドジャズを基盤としたグルーヴィなサウンドで知られる。1990年代に「Virtual Insanity」などで世界的ヒットを記録し、ファンクの現代的な担い手として高い人気を誇る。",
+        "agency": null,
+        "members": "バンド",
+        "debut": null
+      },
+      "KASABIAN": {
+        "text": "カサビアンはイギリス・レスター出身のロックバンドで、ロックにエレクトロニックなビートを取り入れたダイナミックなサウンドが特徴である。アンセミックな楽曲とエネルギッシュなライブで、UKロックを代表するバンドの一つに数えられる。",
+        "agency": null,
+        "members": "バンド",
+        "debut": null
+      },
+      "KESHI": {
+        "text": "keshiはアメリカ出身のシンガーソングライター、プロデューサーで、繊細なボーカルとローファイなベッドルームポップ的サウンドで人気を得た。自身で制作した楽曲をオンラインで発表して支持を広げ、世界的なツアーを行うアーティストへと成長した。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": null
+      },
+      "L'Arc-en-Ciel": {
+        "text": "L'Arc-en-Cielは1991年に結成された日本のロックバンドで、hyde、ken、tetsuya、yukihiroの4人からなる。壮大でメロディアスな楽曲と多彩な音楽性で長年にわたり第一線で活躍し、日本を代表するロックバンドの一つである。",
+        "agency": null,
+        "members": "4人組",
+        "debut": null
+      },
+      "LE SSERAFIM": {
+        "text": "LE SSERAFIMはSOURCE MUSIC所属の5人組ガールグループで、HYBE傘下から2022年にデビューした。「恐れず前へ進む」という意志を掲げ、洗練されたパフォーマンスと堂々とした世界観で国際的な人気を集めている。",
+        "agency": "SOURCE MUSIC",
+        "members": "5人組",
+        "debut": "2022.05.02"
+      },
+      "MONGOL800": {
+        "text": "MONGOL800は沖縄出身の3人組パンクロックバンドである。インディーズながら大ヒットを記録したアルバムやライブ定番曲「小さな恋のうた」で知られ、ストレートで熱量の高い楽曲が幅広い世代に親しまれている。",
+        "agency": null,
+        "members": "3人組",
+        "debut": null
+      },
+      "STEVE LACY": {
+        "text": "スティーヴ・レイシーはアメリカのシンガーソングライター、ギタリスト、プロデューサーで、バンドThe Internetのメンバーとしても知られる。ソウルやファンク、オルタナティブを横断する感覚的なサウンドと、宅録的な制作手法で高い評価を受けている。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": null
+      },
+      "SUEDE": {
+        "text": "スウェードは1989年に結成されたイギリスのロックバンドで、ブリットポップ・ムーブメントの先駆けとして知られる。ブレット・アンダーソンの耽美的なボーカルとドラマティックな楽曲で、UKロックに大きな影響を与えた。",
+        "agency": null,
+        "members": "バンド",
+        "debut": null
+      },
+      "THE STROKES": {
+        "text": "ザ・ストロークスは1998年にニューヨークで結成されたアメリカのロックバンドである。2001年のデビューアルバム「Is This It」で2000年代のガレージロック・リバイバルを牽引し、世界的に大きな影響を与えたバンドとして知られる。",
+        "agency": null,
+        "members": "バンド",
+        "debut": null
+      },
+      "YOGEE NEW WAVES": {
+        "text": "YOGEE NEW WAVESは2013年に結成された日本のインディーバンドである。シティポップやフォークを感じさせる爽やかでメロウなサウンドが特徴で、都会的で温かみのある楽曲を発表している。",
+        "agency": null,
+        "members": "バンド",
+        "debut": "2013"
+      },
+      "adieu": {
+        "text": "adieu(アデュー)は女優・上白石萌歌による音楽活動プロジェクトである。透明感のある歌声で映画主題歌などを手がけ、俳優業と並行して独自の音楽世界を表現している。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": null
+      },
+      "androp": {
+        "text": "andropは2008年に結成された日本のロックバンドである。緻密なサウンドプロダクションと美しいメロディ、映像や照明を駆使した演出で知られ、洗練されたポップロックを追求している。",
+        "agency": null,
+        "members": "バンド",
+        "debut": "2008"
+      },
+      "mgk": {
+        "text": "Machine Gun Kelly(mgk)はアメリカのラッパー、シンガー、俳優である。ヒップホップで頭角を現した後、ポップパンクへと大きく舵を切ったアルバムで新たな成功を収め、ジャンルを越えた活動で知られる。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": null
+      },
+      "sumika": {
+        "text": "sumikaは2013年に結成された日本のロックバンドである。ポップでカラフルなメロディと多彩なアレンジが特徴で、アニメ主題歌などを通じて幅広い層から支持を集めている。",
+        "agency": null,
+        "members": "バンド",
+        "debut": "2013"
+      },
+      "サカナクション": {
+        "text": "サカナクションは山口一郎を中心に2005年に北海道で結成された日本のバンドである。ロックとエレクトロニックミュージックを高度に融合させたサウンドと、映像や照明を駆使した先鋭的なライブ演出で高く評価されている。",
+        "agency": null,
+        "members": "5人組",
+        "debut": null
+      },
+      "上白石萌音": {
+        "text": "上白石萌音は女優・歌手として活動するアーティストで、透明感のある歌声と豊かな表現力で知られる。ミュージカルや映画で活躍する一方、歌手としても作品を発表し、幅広いジャンルで存在感を示している。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": null
+      },
+      "井上芳雄": {
+        "text": "井上芳雄は日本を代表するミュージカル俳優で、「ミュージカル界のプリンス」とも称される。数多くの舞台で主演を務める一方、コンサートやアルバムなど歌手としての活動も精力的に行っている。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": null
+      },
+      "大橋トリオ": {
+        "text": "大橋トリオは大橋好規によるソロ音楽プロジェクトである。ジャズやポップ、クラシックの要素を織り交ぜた温かくメロウなサウンドが特徴で、CMや映像作品への楽曲提供でも知られる。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": null
+      },
+      "小林武史": {
+        "text": "小林武史は日本を代表する音楽プロデューサー、作曲家、キーボーディストである。Mr.ChildrenやMy Little Loverなど数多くのアーティストのプロデュースを手がけ、日本のポップシーンに大きな影響を与えてきた。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": null
+      },
+      "屋比久知奈": {
+        "text": "屋比久知奈は沖縄出身のミュージカル女優で、豊かな歌唱力で知られる。ディズニーの舞台作品などで主要な役を務め、舞台を中心に幅広く活躍している。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": null
+      },
+      "日向坂46": {
+        "text": "日向坂46は坂道シリーズの一つとして知られる日本の女性アイドルグループである。前身のけやき坂46(ひらがなけやき)を経て2019年に改名・改めてデビューし、明るく前向きなグループカラーで人気を集めている。",
+        "agency": null,
+        "members": null,
+        "debut": "2019"
+      },
+      "森山直太朗": {
+        "text": "森山直太朗は日本のシンガーソングライターで、伸びやかで表現力豊かな歌声で知られる。「さくら(独唱)」で広く知られるようになり、叙情的で日本語の美しさを生かした楽曲を数多く発表している。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": null
       }
     }
   }
