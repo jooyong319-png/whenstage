@@ -1,3 +1,16 @@
+## [2026-07-30 14:50] [JA 뉴스]
+뉴스 작성 완료 (일본 국내 공연 뉴스)
+- 신규 기사 4건: ピーター・ゴールウェイ＆佐橋佳幸 10월 전국투어(Full Circle Tour) / 雀斑 Freckles 『Imperfect Lover』LP 발매 기념 9월 일본투어 / 〈FESTIVAL de FRUE 2026〉 추가 라인업(坂本慎太郎·CHAPPO·Pachyman) / 踊る！ディスコ室町 「すいか」 8/12 배포 + 교토·나고야 릴리스 파티
+- 콘서트 링크 연결 0건 / 링크 없음 4건 (4건 모두 concerts.ja.json 미등재로 `/ja/concert/<id>` 링크 생략 — 대신 leads로 인계)
+- 리서처 leads 4건 append: Peter Gallway&佐橋佳幸 Full Circle Tour, 雀斑 Freckles 일본투어, FESTIVAL de FRUE 2026, 踊る！ディスコ室町 릴리스 파티
+- 스킵(중복·소스 불충분):
+  - 日向坂46「ひなくり2026」아리나 투어, MET JAZZ TOKYO FESTIVAL 2027(둘 다 7/28): 이미 기사 존재 — 중복
+  - 米津玄師×バンダイ 카드 웨하스 상품사진, Snow Man 칼비 신규 TV-CM, YOASOBI 잡지 표지, ゆず×羽生結弦 NHK 방송, M!LK/乃木坂46 차트 1위(모두 7/29~7/30): 티켓 등 다음 행동을 유발하는 공지가 아니라 대상 아님
+  - ザ・エックス・エックス 〈FUJI ROCK'26〉 리포트, Mrs. GREEN APPLE 레드카펫 등장(7/30): 사후 리뷰·가십성 기사로 지시서상 대상 제외
+  - 竹内アンナ 신곡 라디오 초 온에어(7/30), 羊文学·春茶·高岩遼 등 배포 릴리스(7/30): 공연·티켓 액션이 약해 이번 회차에서는 보류
+  - ザ・ビートルズ『ラバー・ソウル』스페셜 에디션, エイフェックス・ツイン『Drukqs』25주년반, THE HU 국내반(7/29~30): 재발매 카탈로그 정보로 일본 국내 공연 뉴스 범위 밖
+- 참고: 音楽ナタリー(natalie.mu)는 이번 실행에서 본문이 비어 응답해 사용하지 못했고, Billboard JAPAN 뉴스 목록은 7/10 시점 캐시가 반환돼 최신순 확인이 불가했다. 따라서 CDJournal 뉴스 목록(7/29~7/30 게재분)을 1차 소스로 삼아 각 기사 상세 페이지의 게재 시각을 직접 확인하는 방식으로 진행했다.
+
 ## [2026-07-30 14:30] [EN 뉴스]
 뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
 - 신규 기사 5건: Godsmack Add October US Leg, General On-Sale July 31 / EsDeeKid Books 48-Date Council House Rat Tour, On Sale July 31 / Tony Iommi Sets First Solo Album in 21 Years for October 23 / Jodeci Announce 36-Date Forever My Lady 35th Anniversary Tour / The Faint Plot 13-Date Fall US Tour, Tickets Out July 31
