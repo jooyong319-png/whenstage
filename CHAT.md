@@ -1,3 +1,17 @@
+## [2026-07-30 14:30] [EN 뉴스]
+뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
+- 신규 기사 5건: Godsmack Add October US Leg, General On-Sale July 31 / EsDeeKid Books 48-Date Council House Rat Tour, On Sale July 31 / Tony Iommi Sets First Solo Album in 21 Years for October 23 / Jodeci Announce 36-Date Forever My Lady 35th Anniversary Tour / The Faint Plot 13-Date Fall US Tour, Tickets Out July 31
+- 콘서트 링크 연결 0건 / 링크 없음 5건 (5건 모두 concerts.en.json에 해당 아티스트 항목이 없어 링크 생략 — leads로 인계)
+- 리서처 leads 5건 append: Godsmack 10월 leg, EsDeeKid Council House Rat Tour, Jodeci 35주년 투어, The Faint 가을 투어, Tony Iommi 'From the Dark'
+- 스킵(중복·소스 불충분):
+  - Jim James 'Wowed Out'(7/28), Silverstein & Story of the Year Camp Screamo 2(7/28), JAY-Z 30주년 LA/London(7/27), Tyla A*POP World Tour(7/27): 이미 기사 존재 — 중복
+  - Lollapalooza 2026 Hulu/Disney+ 라이브스트림 라인업(7/29): 티켓 액션이 아닌 시청 안내라 대상 아님
+  - Foo Fighters 스타디움 투어 '막판 티켓 구하기'(7/28): 신규 공지가 아닌 어피셜 커머스성 가이드 기사 — 제외
+  - Audrey Hobert 투어 확대(7/27): 48시간 창 경계 + 예매 액션 시점 불명확으로 보류
+  - John Mulaney 2027 NYC 런(7/28): 스탠드업 코미디 공연으로 음악 공연 범위와 어긋나 보류
+  - Roxette 40주년 북미 투어 취소(7/26): 창 밖 + concerts.en.json 미등재로 [Cancelled] 대상 기사도 없음
+- 참고: Variety는 지시서 경고대로 접근 시도하지 않고 Consequence 1차 소스로 진행
+
 ## [2026-07-30 14:30] [KO 뉴스]
 뉴스 작성 완료 (한국 국내 공연 뉴스)
 - 신규 기사 2건: NCT 127 정규 7집 'BLINGY' 스케줄 포스터 공개(7/29), 프로미스나인 첫 아시아 투어 서울 공연 개최(7/29)
