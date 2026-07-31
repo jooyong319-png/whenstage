@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-07-29",
+  "last_updated": "2026-07-31",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -9,6 +9,251 @@
     "fanmeeting": "ファンミーティング"
   },
   "games": [
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "developer": null,
+      "publisher": "クリエイティブマンプロダクション",
+      "image_url": null,
+      "source_url": "https://www.m-messe.co.jp/event/detail/8281",
+      "genres": [
+        "フェスティバル",
+        "複数アーティスト",
+        "ロック",
+        "ポップ"
+      ],
+      "id": "ja-summer-sonic-2025-20250816",
+      "name": "SUMMER SONIC 2025（東京）",
+      "release_date": "2025-08-16",
+      "category": "festival",
+      "platforms": [
+        "ZOZOマリンスタジアム",
+        "幕張メッセ"
+      ],
+      "description": "都市型音楽フェスティバル〈サマーソニック〉の2025年東京公演が、8月16日・17日の2日間、千葉のZOZOマリンスタジアムと幕張メッセで開催された。ヘッドライナーはFALL OUT BOYと、サマソニ初出演となったALICIA KEYSが務めた。Official髭男dism、SixTONES、aespa、MAN WITH A MISSIONら国内外のアーティストが複数ステージに登場し、16日深夜には幕張メッセでm-floがキュレーターを務める〈ミッドナイトソニック〉も行われた。"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "developer": null,
+      "publisher": null,
+      "image_url": null,
+      "source_url": "https://www.thefirsttimes.jp/news/0000633028/",
+      "genres": [
+        "フェスティバル",
+        "複数アーティスト",
+        "ロック"
+      ],
+      "id": "ja-rock-in-japan-2025-20250913",
+      "name": "ROCK IN JAPAN FESTIVAL 2025",
+      "release_date": "2025-09-13",
+      "category": "festival",
+      "platforms": [
+        "蘇我スポーツ公園"
+      ],
+      "description": "国内最大級のロック・フェスティバル〈ROCK IN JAPAN FESTIVAL〉の2025年開催が、9月13日・14日・15日と20日・21日の計5日間、千葉市蘇我スポーツ公園で行われた。5日間で計115組のアーティストが出演し、開催前にはタイムテーブルも公開された。チケットはそのタイムテーブル発表を待たずに全券種が売り切れ、4年連続での早期ソールドアウトとなった。"
+    },
+    {
+      "release_time": "11:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "developer": null,
+      "publisher": null,
+      "image_url": null,
+      "source_url": "https://www.fashion-press.net/news/124013",
+      "genres": [
+        "フェスティバル",
+        "ダンスミュージック",
+        "EDM"
+      ],
+      "id": "ja-ultra-japan-2025-20250913",
+      "name": "ULTRA JAPAN 2025",
+      "release_date": "2025-09-13",
+      "category": "festival",
+      "platforms": [
+        "お台場 ULTRA PARK特設会場（TOKYO ODAIBA ULTRA PARK）"
+      ],
+      "description": "世界最大級のダンス・ミュージック・フェスティバル〈ULTRA〉の日本版が、2025年9月13日・14日に東京・お台場の特設会場で開催された。開場10時・開演11時、終演21時予定の2日間で、Calvin HarrisとMartin Garrixを筆頭に、DJ Snake、Hardwell、Amelie Lens、ARTBATら国内外のトップアーティストが出演した。チケットはGAの1日券1万8000円・2日通し券3万2000円などが用意された。"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "developer": "Perfume",
+      "publisher": null,
+      "image_url": null,
+      "source_url": "https://www.perfume-web.jp/news/detail.php?id=4266",
+      "genres": [
+        "J-POP",
+        "テクノポップ"
+      ],
+      "id": "ja-perfume-nebula-romance-tokyo-dome-20250922",
+      "name": "Perfume ZO/Z5 Anniversary \"ネビュラロマンス\" Episode TOKYO DOME",
+      "release_date": "2025-09-22",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ドーム"
+      ],
+      "description": "Perfumeが結成25周年とメジャーデビュー20周年を締めくくる公演として、2025年9月22日・23日に東京ドームで2デイズを開催した。同会場でのライブは2020年の〈P Cubed〉以来5年ぶりで、アルバム『ネビュラロマンス』の世界観を軸にした構成が組まれた。最終日の9月23日公演は世界に向けたライブ配信も実施され、アニバーサリーイヤーの集大成となるステージが披露された。"
+    },
+    {
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "developer": "SEVENTEEN",
+      "publisher": "キョードー大阪",
+      "image_url": null,
+      "source_url": "https://kyodo-osaka.co.jp/search/detail/11252",
+      "genres": [
+        "K-POP",
+        "来日",
+        "ドームツアー"
+      ],
+      "id": "ja-seventeen-new-osaka-20251204",
+      "name": "SEVENTEEN WORLD TOUR [NEW_] IN JAPAN（京セラドーム大阪）",
+      "release_date": "2025-12-04",
+      "category": "concert_tour",
+      "platforms": [
+        "京セラドーム大阪"
+      ],
+      "description": "SEVENTEENのワールドツアー〈[NEW_]〉日本公演のうち大阪公演が、2025年12月4日・6日・7日に京セラドーム大阪で行われた。いずれも開場16時・開演18時で、日本国内では4大ドームを回る全10公演が組まれた。全メンバーのソロ曲を初めて収録した最新作を軸に、30曲以上・約3時間半に及ぶセットが披露された。スタンド指定席は1万7000円で、公演直前には機材開放席の追加販売も行われた。"
+    },
+    {
+      "id": "ja-nogizaka46-manatsu-tour-2026-20260613",
+      "name": "乃木坂46「真夏の全国ツアー2026」",
+      "release_date": "2026-06-13",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "サンドーム福井",
+        "横浜アリーナ",
+        "真駒内セキスイハイムアイスアリーナ",
+        "広島グリーンアリーナ",
+        "大阪城ホール",
+        "セキスイハイムスーパーアリーナ（宮城）",
+        "マリンメッセ福岡A館",
+        "明治神宮野球場（東京）"
+      ],
+      "developer": "乃木坂46",
+      "publisher": "乃木坂46合同会社",
+      "description": "乃木坂46が夏の恒例企画「真夏の全国ツアー2026」を全国8か所で開催する。昨年より1か所増え、6月13日のサンドーム福井を皮切りに、神奈川・北海道・広島・大阪・宮城・福岡を巡り、8月20日から23日まで恒例の明治神宮野球場でツアーファイナルを迎える。福井は同グループにとって初のライブ開催地となり、全18公演にわたる過去最大規模のツアーとなる。",
+      "genres": [
+        "J-POP",
+        "アイドル"
+      ],
+      "image_url": null,
+      "source_url": "https://www.nogizaka46.com/s/n46/news/detail/101747"
+    },
+    {
+      "id": "ja-sakurazaka46-arena-tour-2026-20260723",
+      "name": "櫻坂46「全国アリーナツアー2026」",
+      "release_date": "2026-07-23",
+      "release_time": "18:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "エコパアリーナ（静岡）",
+        "神戸ワールド記念ホール",
+        "広島グリーンアリーナ",
+        "LaLa arena TOKYO-BAY（千葉）",
+        "セキスイハイムスーパーアリーナ（宮城）",
+        "あなぶきアリーナ香川"
+      ],
+      "developer": "櫻坂46",
+      "publisher": null,
+      "description": "櫻坂46が「全国アリーナツアー2026」を開催する。7月23日・24日の静岡・エコパアリーナを皮切りに、兵庫・神戸ワールド記念ホール、広島グリーンアリーナ、千葉・LaLa arena TOKYO-BAY、宮城・セキスイハイムスーパーアリーナ、香川・あなぶきアリーナ香川と全国のアリーナ会場を巡る。オフィシャル先行は5月に受付が始まり、グループの成長を示す大規模アリーナツアーとして注目を集めている。",
+      "genres": [
+        "J-POP",
+        "アイドル"
+      ],
+      "image_url": null,
+      "source_url": "https://sakurazaka46.com/s/s46/news/detail/E00619"
+    },
+    {
+      "id": "ja-ballistik-boyz-saku-20260731",
+      "name": "BALLISTIK BOYZ from EXILE TRIBE「SAKU -朔-」",
+      "release_date": "2026-07-31",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "BALLISTIK BOYZ from EXILE TRIBE",
+      "publisher": null,
+      "description": "BALLISTIK BOYZ from EXILE TRIBEが新曲「SAKU -朔-」を2026年7月31日に配信リリースする。本作はメンバーの海沼流星が手がけた初のプロデュース楽曲で、自身が受けてきたインスピレーションを形にした一曲だという。グループ内から制作者が立つ形は初の試みであり、活動の幅を広げる節目のリリースとなる。",
+      "genres": [
+        "J-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://www.billboard-japan.com/d_news/detail/163943"
+    },
+    {
+      "id": "ja-befirst-bruce-wayne-20260731",
+      "name": "BE:FIRST「BRUCE WAYNE feat. Flo Milli, ATL Jacob」",
+      "release_date": "2026-07-31",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "BE:FIRST",
+      "publisher": null,
+      "description": "BE:FIRSTがグローバル展開に向けた新曲「BRUCE WAYNE feat. Flo Milli, ATL Jacob」を2026年7月31日に配信リリースする。米ラッパーのFlo Milli、プロデューサーのATL Jacobを迎えた一曲で、海外市場を意識した制作陣によるトラックとなる。グループは2026年9月からバンコク・台北・マニラ・ニューヨークを巡るワールドショーケースを控えており、本作はその流れに連なる国際的な布石と位置づけられる。",
+      "genres": [
+        "J-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://www.billboard-japan.com/d_news/detail/163940"
+    },
+    {
+      "id": "ja-fukuyama-masaharu-dome-2026-20260805",
+      "name": "福山雅治「NISSAY PRESENTS WE'RE BROS. TOUR 2026 DOME LIVE 龍、涼風至」",
+      "release_date": "2026-08-05",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ドーム",
+        "京セラドーム大阪"
+      ],
+      "developer": "福山雅治",
+      "publisher": "アミューズ",
+      "description": "福山雅治が新作アルバム『超新星』を携えて開催するドームツアー『NISSAY PRESENTS WE'RE BROS. TOUR 2026 DOME LIVE 龍、涼風至』。2026年8月5日・6日に東京ドーム、8月22日・23日に京セラドーム大阪で計4公演が行われる。全席指定・スマートフォンでの電子チケット発券のみで、ファンクラブ「BROS.」「BROS.+」向け先行受付を経て、現在も一部会場で先行受付が続いている。",
+      "genres": [
+        "J-POP",
+        "ドームツアー"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Fukuyama_Masaharu_in_Taipei%2C_2013_cropped.jpg/250px-Fukuyama_Masaharu_in_Taipei%2C_2013_cropped.jpg",
+      "source_url": "https://fmsp.amob.jp/mob/news/news_show.php?site=F&ima=1201&aff=ROBO004&cd=12938",
+      "presale": true,
+      "presale_datetime": "2026-04-09T12:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": "https://eplus.jp/sf/detail/0018730001"
+    },
+    {
+      "id": "ja-kimura-takuya-checkpoint-20260812",
+      "name": "木村拓哉『Checkpoint』",
+      "release_date": "2026-08-12",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "木村拓哉",
+      "publisher": "C&C STAGE",
+      "description": "木村拓哉が新レーベルC&C STAGEへ移籍して初めてリリースする、4枚目のオリジナルアルバム。2026年8月12日発売。タイトルには第一線を走り続けてきた自身の「現在地」を見つめ直す意味が込められている。明石家さんま、奥田民生、Taka(ONE OK ROCK)、Rei、山崎まさよしといったジャンルや世代を超えた豪華アーティストが楽曲提供・共演で参加している。",
+      "genres": [
+        "J-POP"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Takuya_Kimura_January_2023.jpg/250px-Takuya_Kimura_January_2023.jpg",
+      "source_url": "https://candcstage.com/news/detail.php?id=1134178"
+    },
     {
       "id": "ja-summer-sonic-2026-20260814",
       "name": "SUMMER SONIC 2026（東京）",
@@ -70,184 +315,22 @@
       ]
     },
     {
-      "id": "ja-rock-in-japan-2026-20260912",
-      "name": "ROCK IN JAPAN FESTIVAL 2026",
-      "release_date": "2026-09-12",
-      "release_time": "11:45",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "festival",
-      "platforms": [
-        "蘇我スポーツ公園"
-      ],
-      "developer": null,
-      "publisher": "ロッキング・オン",
-      "description": "ロッキング・オンが主催する日本最大級の邦楽ロックフェスティバル。2026年は千葉市の蘇我スポーツ公園を舞台に、9月12日・13日・19日・20日・21日の5日間で計115組が出演する。BUMP OF CHICKEN、Vaundy、Ado、Number_i、Creepy Nuts、UVERworldら人気アーティストが集結する大型フェス。一部の日程はすでにソールドアウトとなっている。",
-      "genres": [
-        "フェスティバル",
-        "邦ロック",
-        "複数アーティスト"
-      ],
-      "image_url": null,
-      "source_url": "https://rijfes.jp/2026/artist/",
-      "festival_days": null
-    },
-    {
-      "id": "ja-ultra-japan-2026-20260919",
-      "name": "ULTRA JAPAN 2026",
-      "release_date": "2026-09-19",
-      "release_time": "11:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "festival",
-      "platforms": [
-        "お台場 ULTRA PARK特設会場"
-      ],
-      "developer": null,
-      "publisher": null,
-      "description": "世界的ダンスミュージックフェス「ULTRA」の日本版。2026年は9月19日・20日の2日間、東京・お台場の特設会場ULTRA PARKで開催される。第1弾ラインナップにはZedd B2B Knock2、Alesso、Peggy Gou、The Martinez Brothersら国内外のトップDJ・アーティストが名を連ねる。ULTRA MAIN STAGEやRESISTANCEなど複数ステージで一日中パフォーマンスが繰り広げられる。",
-      "genres": [
-        "フェスティバル",
-        "EDM",
-        "ダンスミュージック"
-      ],
-      "image_url": null,
-      "source_url": "https://ultrajapan.com/",
-      "festival_days": null
-    },
-    {
-      "id": "ja-the-weeknd-2026-20260919",
-      "name": "The Weeknd「After Hours Til Dawn Tour」来日公演",
-      "release_date": "2026-09-19",
-      "release_time": "17:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "ベルーナドーム"
-      ],
-      "developer": "The Weeknd",
-      "publisher": "ライブネーション・ジャパン",
-      "description": "世界的R&B/ポップ・スターThe Weekndによる久々の来日公演。スタジアム・ツアー「After Hours Til Dawn Tour」の一環として、2026年9月19日・20日に埼玉のベルーナドームで行われる。スペシャルゲストにCreepy Nutsと¥ØU$UK€ ¥UK1MAT$Uが出演。9月20日公演は完売し、追加された9月19日公演のチケットが一般発売中となっている。",
-      "genres": [
-        "来日",
-        "R&B",
-        "ポップ"
-      ],
-      "image_url": "https://img.hmv.co.jp/hybridimage/eventpage/394438/main.webp?20260626104229",
-      "source_url": "https://www.universal-music.co.jp/the-weeknd/news/2026-05-13/",
-      "general_sale": true,
-      "general_sale_datetime": null,
-      "general_sale_end_datetime": null,
-      "general_sale_url": "https://l-tike.com/the-weeknd"
-    },
-    {
-      "id": "ja-post-malone-2026-20261006",
-      "name": "Post Malone「The BIG ASS Stadium World Tour」来日公演",
-      "release_date": "2026-10-06",
-      "release_time": "18:30",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "Kアリーナ横浜"
-      ],
-      "developer": "Post Malone",
-      "publisher": "ライブネーション・ジャパン",
-      "description": "ヒップホップとポップを軸に幅広いジャンルを横断するPost Maloneの3年ぶりの来日公演。スタジアム規模のワールドツアー「The BIG ASS Stadium World Tour」として、2026年10月6日にKアリーナ横浜で開催される。最新作『F-1 Trillion』の楽曲を中心に、これまでのヒット曲も披露する見込み。スペシャルゲストとしてDon Toliverが出演する。",
-      "genres": [
-        "来日",
-        "ヒップホップ",
-        "ポップ"
-      ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Post_Malone_July_2021_%28cropped%29.jpg/250px-Post_Malone_July_2021_%28cropped%29.jpg",
-      "source_url": "https://www.universal-music.co.jp/post-malone/news/2026-04-01/"
-    },
-    {
-      "id": "ja-journey-2026-20260901",
-      "name": "JOURNEY「FINAL FRONTIER TOUR」来日公演",
-      "release_date": "2026-09-01",
-      "release_time": "19:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "有明アリーナ"
-      ],
-      "developer": "JOURNEY",
-      "publisher": "ウドー音楽事務所",
-      "description": "「Don't Stop Believin'」などで知られるアメリカのロックバンドJOURNEYの単独来日公演。「FINAL FRONTIER TOUR」の日本公演として、2026年9月1日に東京・有明アリーナで開催される。今回は東京公演のみの予定で、バンドの日本での歩みの集大成となるフル・コンサートが期待される。チケットは7月25日10時から一般発売が始まる。",
-      "genres": [
-        "来日",
-        "ロック"
-      ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Journey_publicity_photo_2013.jpg/250px-Journey_publicity_photo_2013.jpg",
-      "source_url": "https://www.udo.jp/shows/Journey26",
-      "general_sale": true,
-      "general_sale_datetime": "2026-07-25T10:00:00+09:00",
-      "general_sale_end_datetime": null,
-      "general_sale_url": "https://www.udo.jp/shows/Journey26",
-      "presale": true,
-      "presale_datetime": "2026-07-06T12:00:00+09:00",
-      "presale_end_datetime": "2026-07-24T18:00:00+09:00",
-      "presale_url": "https://www.udo.jp/shows/Journey26"
-    },
-    {
-      "id": "ja-charlie-puth-2026-20261016",
-      "name": "Charlie Puth「Whatever's Clever! World Tour」来日公演",
-      "release_date": "2026-10-16",
-      "release_time": "19:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "ぴあアリーナMM"
-      ],
-      "developer": "Charlie Puth",
-      "publisher": "ライブネーション・ジャパン",
-      "description": "「Attention」「See You Again」などのヒットで知られるシンガーソングライターCharlie Puthの一夜限りの来日公演。ワールドツアー「Whatever's Clever! World Tour」として、2026年10月16日に横浜のぴあアリーナMMで開催される。最新アルバム『Whatever's Clever!』の楽曲やヒット曲を披露する予定。同作には宇多田ヒカルが参加した「Home」も収録されている。",
-      "genres": [
-        "来日",
-        "ポップ"
-      ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Charlie_Puth.jpg/250px-Charlie_Puth.jpg",
-      "source_url": "https://skream.jp/news/2026/04/charlie_puth_whatevers_clever_world_tour.php"
-    },
-    {
-      "id": "ja-kimura-takuya-checkpoint-20260812",
-      "name": "木村拓哉『Checkpoint』",
-      "release_date": "2026-08-12",
+      "id": "ja-milet-made-of-glass-20260819",
+      "name": "milet『Made of Glass』",
+      "release_date": "2026-08-19",
       "release_time": null,
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "category": "music_release",
       "platforms": [],
-      "developer": "木村拓哉",
-      "publisher": "C&C STAGE",
-      "description": "木村拓哉が新レーベルC&C STAGEへ移籍して初めてリリースする、4枚目のオリジナルアルバム。2026年8月12日発売。タイトルには第一線を走り続けてきた自身の「現在地」を見つめ直す意味が込められている。明石家さんま、奥田民生、Taka(ONE OK ROCK)、Rei、山崎まさよしといったジャンルや世代を超えた豪華アーティストが楽曲提供・共演で参加している。",
-      "genres": [
-        "J-POP"
-      ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Takuya_Kimura_January_2023.jpg/250px-Takuya_Kimura_January_2023.jpg",
-      "source_url": "https://candcstage.com/news/detail.php?id=1134178"
-    },
-    {
-      "id": "ja-sixtones-dance-forever-20260909",
-      "name": "SixTONES『Dance Forever/マイオンリー』",
-      "release_date": "2026-09-09",
-      "release_time": null,
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "music_release",
-      "platforms": [],
-      "developer": "SixTONES",
+      "developer": "milet",
       "publisher": null,
-      "description": "6人組グループSixTONESの18枚目シングル。2026年9月9日発売の両A面作品で、表題曲は前向きな気持ちを歌う「Dance Forever」と、松村北斗が主演する日本テレビ土曜ドラマ「告白─25年目の秘密」の主題歌「マイオンリー」の2曲。初回盤・通常盤で収録内容が異なり、新曲やダンスパフォーマンス映像なども収められる。",
+      "description": "シンガーソングライターmiletが、約3年ぶりとなる4枚目のオリジナルアルバム『Made of Glass』を2026年8月19日にリリースする。TVアニメ「葬送のフリーレン」エンディングテーマ「Anytime Anywhere」「The Story of Us」や、映画・ドラマの主題歌といった数々のタイアップ曲に加え、新曲も多数収録される。初回生産限定盤には「milet Asia Tour 2024 in Taipei」やファンクラブ向けライブの映像が付属。ソニーミュージック公式サイトで予約受付が始まっている。",
       "genres": [
         "J-POP"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SixTONES.png/330px-SixTONES.png",
-      "source_url": "https://www.sixtones.jp/news/471/"
+      "image_url": null,
+      "source_url": "https://www.sonymusic.co.jp/artist/milet_music/info/584236"
     },
     {
       "id": "ja-nakajima-kento-onigoto-20260819",
@@ -266,99 +349,6 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/BuzzFeed_MUSIC_AWARDS_JAPAN_2026_-_%E4%B8%AD%E5%B3%B6%E5%81%A5%E4%BA%BA.png/250px-BuzzFeed_MUSIC_AWARDS_JAPAN_2026_-_%E4%B8%AD%E5%B3%B6%E5%81%A5%E4%BA%BA.png",
       "source_url": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/584745"
-    },
-    {
-      "id": "ja-treasure-the-stage-20260905",
-      "name": "TREASURE「THE STAGE 2026 IN JAPAN」来日公演",
-      "release_date": "2026-09-05",
-      "release_time": "18:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "有明アリーナ"
-      ],
-      "developer": "TREASURE",
-      "publisher": "YGEX",
-      "description": "YGエンターテインメント所属のボーイズグループTREASUREによる来日公演。2026年9月5日・6日の2日間、東京・有明アリーナで開催される。ファンクラブ先行やオフィシャル先行など各種チケット販売はすでに終了しており、当日は電子チケットアプリ「AnyPASS」を通じて入場する方式が採られる。日本のファンと直接向き合う大規模なアリーナ公演として期待が高まっている。",
-      "genres": [
-        "来日",
-        "K-POP"
-      ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/240405_%ED%8A%B8%EB%A0%88%EC%A0%80_TTA_Malaysia_1st_Place.jpg/330px-240405_%ED%8A%B8%EB%A0%88%EC%A0%80_TTA_Malaysia_1st_Place.jpg",
-      "source_url": "https://ygex.jp/en/treasure/live/tour.php?id=1002948"
-    },
-    {
-      "id": "ja-jisung-our-scene-20260918",
-      "name": "チソン『2026 JISUNG FANMEETING IN JAPAN : OUR SCENE』",
-      "release_date": "2026-09-18",
-      "release_time": "17:30",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "fanmeeting",
-      "platforms": [
-        "せたがやイーグレットホール（世田谷区民会館）"
-      ],
-      "developer": "チソン",
-      "publisher": null,
-      "description": "韓国の俳優チソンによる約1年ぶりの来日ファンミーティング。2026年9月18日に東京・せたがやイーグレットホール、9月19日に大阪・寝屋川市立市民会館大ホールで開催される。同じ事務所の俳優ファンヒがゲストとして出演することも発表された。ファンクラブ限定の1次先行が7月13日から7月26日まで受け付けられており、来場者にはオリジナルペンライトが用意される。",
-      "genres": [
-        "ファンミーティング",
-        "韓国"
-      ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/180212_%EC%A7%80%EC%84%B1.png/250px-180212_%EC%A7%80%EC%84%B1.png",
-      "source_url": "https://ticketplus.co.jp/news/detail/968",
-      "presale": true,
-      "presale_datetime": "2026-07-13T10:00:00+09:00",
-      "presale_end_datetime": "2026-07-26T23:59:00+09:00",
-      "presale_url": null
-    },
-    {
-      "id": "ja-ko1keyz-1st-fanmeeting-20260821",
-      "name": "2026 KO1KEYZ 1ST FAN MEETING",
-      "release_date": "2026-08-21",
-      "release_time": "18:30",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "fanmeeting",
-      "platforms": [
-        "TOYOTA ARENA TOKYO"
-      ],
-      "developer": "KO1KEYZ",
-      "publisher": null,
-      "description": "オーディション番組「PRODUCE 101 JAPAN 新世界」から誕生したグローバルボーイズグループKO1KEYZ初のファンミーティング。2026年8月21日から23日にかけて東京・TOYOTA ARENA TOKYOで、9月9日・10日には兵庫・神戸ワールド記念ホールで開催される。応募多数を受けて追加公演が決定し、複数の日程が昼夜2部制で行われる。デビュー間もないグループがファンと初めて対面する記念すべき機会となる。",
-      "genres": [
-        "ファンミーティング",
-        "K-POP"
-      ],
-      "image_url": null,
-      "source_url": "https://shinsekai.produce101.jp/feature/1st_fanmeeting"
-    },
-    {
-      "id": "ja-epica-japan-tour-2026-20260914",
-      "name": "EPICA「JAPAN TOUR 2026」来日公演",
-      "release_date": "2026-09-14",
-      "release_time": "19:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "LIQUIDROOM（東京）",
-        "BIGCAT（大阪）"
-      ],
-      "developer": "EPICA",
-      "publisher": "SMASH",
-      "description": "オランダのシンフォニック・メタルバンドEPICAによる来日公演。2026年9月14日に東京・LIQUIDROOM、15日に大阪・BIGCATの2公演が行われる。シモーネ・シモンズの圧倒的な歌声とオーケストラサウンドを融合させた壮大なライブで世界的な人気を誇るバンドで、2025年12月の来日公演に続く新たなジャパンツアーとなる。チケットは各プレイガイドで先着一般発売中。",
-      "genres": [
-        "来日",
-        "シンフォニックメタル"
-      ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Epica%2C_3-Maj%C3%B3wka_2022_96.jpg/330px-Epica%2C_3-Maj%C3%B3wka_2022_96.jpg",
-      "source_url": "https://www.epica.nl/tour/",
-      "general_sale": true,
-      "general_sale_datetime": "2025-12-06T10:00:00+09:00",
-      "general_sale_end_datetime": null,
-      "general_sale_url": "https://eplus.jp/sf/detail/2058110001"
     },
     {
       "id": "ja-super-junior-ryeowook-konpeki-20260819",
@@ -384,36 +374,70 @@
       "general_sale_datetime": "2026-07-18T10:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://eplus.jp/sf/word/0000075063",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-06-01T17:00:00+09:00",
       "presale_end_datetime": "2026-06-08T23:59:00+09:00",
       "presale_url": "https://superjunior-jp.net/en/news/detail.php?id=1133791"
     },
     {
-      "id": "ja-fukuyama-masaharu-dome-2026-20260805",
-      "name": "福山雅治「NISSAY PRESENTS WE'RE BROS. TOUR 2026 DOME LIVE 龍、涼風至」",
-      "release_date": "2026-08-05",
-      "release_time": "18:00",
+      "id": "ja-ko1keyz-1st-fanmeeting-20260821",
+      "name": "2026 KO1KEYZ 1ST FAN MEETING",
+      "release_date": "2026-08-21",
+      "release_time": "18:30",
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
+      "category": "fanmeeting",
       "platforms": [
-        "東京ドーム",
-        "京セラドーム大阪"
+        "TOYOTA ARENA TOKYO"
       ],
-      "developer": "福山雅治",
-      "publisher": "アミューズ",
-      "description": "福山雅治が新作アルバム『超新星』を携えて開催するドームツアー『NISSAY PRESENTS WE'RE BROS. TOUR 2026 DOME LIVE 龍、涼風至』。2026年8月5日・6日に東京ドーム、8月22日・23日に京セラドーム大阪で計4公演が行われる。全席指定・スマートフォンでの電子チケット発券のみで、ファンクラブ「BROS.」「BROS.+」向け先行受付を経て、現在も一部会場で先行受付が続いている。",
+      "developer": "KO1KEYZ",
+      "publisher": null,
+      "description": "オーディション番組「PRODUCE 101 JAPAN 新世界」から誕生したグローバルボーイズグループKO1KEYZ初のファンミーティング。2026年8月21日から23日にかけて東京・TOYOTA ARENA TOKYOで、9月9日・10日には兵庫・神戸ワールド記念ホールで開催される。応募多数を受けて追加公演が決定し、複数の日程が昼夜2部制で行われる。デビュー間もないグループがファンと初めて対面する記念すべき機会となる。",
+      "genres": [
+        "ファンミーティング",
+        "K-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://shinsekai.produce101.jp/feature/1st_fanmeeting"
+    },
+    {
+      "id": "ja-number-i-numbers-ur26-20260825",
+      "name": "Number_i「Numbers Ur'26」ファンミーティング（東京公演）",
+      "release_date": "2026-08-25",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "fanmeeting",
+      "platforms": [
+        "TOYOTA ARENA TOKYO"
+      ],
+      "developer": "Number_i",
+      "publisher": null,
+      "description": "Number_iが、グループ初のファンミーティング「Numbers Ur'26」の東京公演を、東京・TOYOTA ARENA TOKYOで開催する。東京公演は8月25日・26日・27日の3日間で計5回。7月21日・22日の大阪城ホール公演に続く日程で、ファンクラブ「iLYs」会員限定、顔認証入場のため来場者全員の事前の顔写真登録が必要となる。移籍第1弾シングルのリリースを控えた夏の重要イベントとして注目を集めている。",
       "genres": [
         "J-POP",
-        "ドームツアー"
+        "ファンミーティング"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Fukuyama_Masaharu_in_Taipei%2C_2013_cropped.jpg/250px-Fukuyama_Masaharu_in_Taipei%2C_2013_cropped.jpg",
-      "source_url": "https://fmsp.amob.jp/mob/news/news_show.php?site=F&ima=1201&aff=ROBO004&cd=12938",
-      "presale": true,
-      "presale_datetime": "2026-04-09T12:00:00+09:00",
-      "presale_end_datetime": null,
-      "presale_url": "https://eplus.jp/sf/detail/0018730001"
+      "image_url": null,
+      "source_url": "https://natalie.mu/music/news/670380"
+    },
+    {
+      "id": "ja-ikimonogakari-sayonara-lara-20260826",
+      "name": "いきものがかり「さよならララ」",
+      "release_date": "2026-08-26",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "いきものがかり",
+      "publisher": null,
+      "description": "3人組ポップグループいきものがかりが、ニューシングル「さよならララ」を2026年8月26日にCDリリースする。表題曲は7月5日に放送を開始したオリジナルTVアニメ『さよならララ』のオープニングテーマとして書き下ろされ、7月15日に先行配信された。吉岡聖恵の伸びやかな歌声と水野良樹のメロディ、亀田誠治の編曲が、人魚姫ララと人間たちの物語を彩る一曲。初回生産限定盤と通常盤の2形態で、限定盤のBlu-rayにはMVやノンクレジットオープニング映像などが収録される予定。",
+      "genres": [
+        "J-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://ikimonogakari.com/news/media/20260417-1"
     },
     {
       "id": "ja-jaurim-life-tokyo-2026-20260829",
@@ -463,6 +487,311 @@
       "general_sale_url": "https://eplus.jp/flo/"
     },
     {
+      "id": "ja-journey-2026-20260901",
+      "name": "JOURNEY「FINAL FRONTIER TOUR」来日公演",
+      "release_date": "2026-09-01",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "有明アリーナ"
+      ],
+      "developer": "JOURNEY",
+      "publisher": "ウドー音楽事務所",
+      "description": "「Don't Stop Believin'」などで知られるアメリカのロックバンドJOURNEYの単独来日公演。「FINAL FRONTIER TOUR」の日本公演として、2026年9月1日に東京・有明アリーナで開催される。今回は東京公演のみの予定で、バンドの日本での歩みの集大成となるフル・コンサートが期待される。チケットは7月25日10時から一般発売が始まる。",
+      "genres": [
+        "来日",
+        "ロック"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Journey_publicity_photo_2013.jpg/250px-Journey_publicity_photo_2013.jpg",
+      "source_url": "https://www.udo.jp/shows/Journey26",
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-25T10:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://www.udo.jp/shows/Journey26",
+      "presale": false,
+      "presale_datetime": "2026-07-06T12:00:00+09:00",
+      "presale_end_datetime": "2026-07-24T18:00:00+09:00",
+      "presale_url": "https://www.udo.jp/shows/Journey26"
+    },
+    {
+      "id": "ja-treasure-the-stage-20260905",
+      "name": "TREASURE「THE STAGE 2026 IN JAPAN」来日公演",
+      "release_date": "2026-09-05",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "有明アリーナ"
+      ],
+      "developer": "TREASURE",
+      "publisher": "YGEX",
+      "description": "YGエンターテインメント所属のボーイズグループTREASUREによる来日公演。2026年9月5日・6日の2日間、東京・有明アリーナで開催される。ファンクラブ先行やオフィシャル先行など各種チケット販売はすでに終了しており、当日は電子チケットアプリ「AnyPASS」を通じて入場する方式が採られる。日本のファンと直接向き合う大規模なアリーナ公演として期待が高まっている。",
+      "genres": [
+        "来日",
+        "K-POP"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/240405_%ED%8A%B8%EB%A0%88%EC%A0%80_TTA_Malaysia_1st_Place.jpg/330px-240405_%ED%8A%B8%EB%A0%88%EC%A0%80_TTA_Malaysia_1st_Place.jpg",
+      "source_url": "https://ygex.jp/en/treasure/live/tour.php?id=1002948"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "developer": "緑黄色社会",
+      "publisher": null,
+      "image_url": null,
+      "source_url": "https://www.sonymusic.co.jp/artist/ryokusyaka/info/584370",
+      "genres": [
+        "J-POP",
+        "アルバム"
+      ],
+      "id": "ja-ryokushaka-atamago-20260909",
+      "name": "緑黄色社会『あたまご』",
+      "release_date": "2026-09-09",
+      "category": "music_release",
+      "platforms": [
+        "CD／配信"
+      ],
+      "description": "緑黄色社会が約1年7か月ぶりとなるオリジナル・アルバム『あたまご』を9月9日にリリースする。タイトルは頭の中から生まれる発想を卵になぞらえたもので、バンドの現在地を示す1枚となる。発売に合わせて9月19日の千葉公演から全5都市10公演のアリーナツアー〈緑黄色社会 ARENA TOUR 2026 \"あたまご\"〉が始まり、収録曲がステージで披露される予定だ。"
+    },
+    {
+      "id": "ja-sixtones-dance-forever-20260909",
+      "name": "SixTONES『Dance Forever/マイオンリー』",
+      "release_date": "2026-09-09",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "SixTONES",
+      "publisher": null,
+      "description": "6人組グループSixTONESの18枚目シングル。2026年9月9日発売の両A面作品で、表題曲は前向きな気持ちを歌う「Dance Forever」と、松村北斗が主演する日本テレビ土曜ドラマ「告白─25年目の秘密」の主題歌「マイオンリー」の2曲。初回盤・通常盤で収録内容が異なり、新曲やダンスパフォーマンス映像なども収められる。",
+      "genres": [
+        "J-POP"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SixTONES.png/330px-SixTONES.png",
+      "source_url": "https://www.sixtones.jp/news/471/"
+    },
+    {
+      "id": "ja-rock-in-japan-2026-20260912",
+      "name": "ROCK IN JAPAN FESTIVAL 2026",
+      "release_date": "2026-09-12",
+      "release_time": "11:45",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "festival",
+      "platforms": [
+        "蘇我スポーツ公園"
+      ],
+      "developer": null,
+      "publisher": "ロッキング・オン",
+      "description": "ロッキング・オンが主催する日本最大級の邦楽ロックフェスティバル。2026年は千葉市の蘇我スポーツ公園を舞台に、9月12日・13日・19日・20日・21日の5日間で計115組が出演する。BUMP OF CHICKEN、Vaundy、Ado、Number_i、Creepy Nuts、UVERworldら人気アーティストが集結する大型フェス。一部の日程はすでにソールドアウトとなっている。",
+      "genres": [
+        "フェスティバル",
+        "邦ロック",
+        "複数アーティスト"
+      ],
+      "image_url": null,
+      "source_url": "https://rijfes.jp/2026/artist/",
+      "festival_days": null
+    },
+    {
+      "id": "ja-epica-japan-tour-2026-20260914",
+      "name": "EPICA「JAPAN TOUR 2026」来日公演",
+      "release_date": "2026-09-14",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "LIQUIDROOM（東京）",
+        "BIGCAT（大阪）"
+      ],
+      "developer": "EPICA",
+      "publisher": "SMASH",
+      "description": "オランダのシンフォニック・メタルバンドEPICAによる来日公演。2026年9月14日に東京・LIQUIDROOM、15日に大阪・BIGCATの2公演が行われる。シモーネ・シモンズの圧倒的な歌声とオーケストラサウンドを融合させた壮大なライブで世界的な人気を誇るバンドで、2025年12月の来日公演に続く新たなジャパンツアーとなる。チケットは各プレイガイドで先着一般発売中。",
+      "genres": [
+        "来日",
+        "シンフォニックメタル"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Epica%2C_3-Maj%C3%B3wka_2022_96.jpg/330px-Epica%2C_3-Maj%C3%B3wka_2022_96.jpg",
+      "source_url": "https://www.epica.nl/tour/",
+      "general_sale": true,
+      "general_sale_datetime": "2025-12-06T10:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://eplus.jp/sf/detail/2058110001"
+    },
+    {
+      "id": "ja-crazy-ken-band-nani-20260916",
+      "name": "クレイジーケンバンド『何？』",
+      "release_date": "2026-09-16",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [
+        "CD／配信"
+      ],
+      "developer": "クレイジーケンバンド",
+      "publisher": "UNIVERSAL MUSIC JAPAN",
+      "description": "クレイジーケンバンドが、通算26枚目となるニューアルバム『何？』を2026年9月16日にリリースする。バンド結成29年、デビュー28年、フロントマン横山剣のデビュー45周年という節目に届けられる全16トラック収録の意欲作。ベテランながらフレッシュさを失わない仕上がりで、初回限定盤には2025年に地元・横浜で行われた「華麗なるツアー 2025-2026」のライブ映像を収めたDVDが付属する。",
+      "genres": [
+        "J-POP",
+        "アルバム"
+      ],
+      "image_url": null,
+      "source_url": "https://www.universal-music.co.jp/ckb/news/2026-07-01/"
+    },
+    {
+      "id": "ja-jisung-our-scene-20260918",
+      "name": "チソン『2026 JISUNG FANMEETING IN JAPAN : OUR SCENE』",
+      "release_date": "2026-09-18",
+      "release_time": "17:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "fanmeeting",
+      "platforms": [
+        "せたがやイーグレットホール（世田谷区民会館）"
+      ],
+      "developer": "チソン",
+      "publisher": null,
+      "description": "韓国の俳優チソンによる約1年ぶりの来日ファンミーティング。2026年9月18日に東京・せたがやイーグレットホール、9月19日に大阪・寝屋川市立市民会館大ホールで開催される。同じ事務所の俳優ファンヒがゲストとして出演することも発表された。ファンクラブ限定の1次先行が7月13日から7月26日まで受け付けられており、来場者にはオリジナルペンライトが用意される。",
+      "genres": [
+        "ファンミーティング",
+        "韓国"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/180212_%EC%A7%80%EC%84%B1.png/250px-180212_%EC%A7%80%EC%84%B1.png",
+      "source_url": "https://ticketplus.co.jp/news/detail/968",
+      "presale": false,
+      "presale_datetime": "2026-07-13T10:00:00+09:00",
+      "presale_end_datetime": "2026-07-26T23:59:00+09:00",
+      "presale_url": null
+    },
+    {
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "developer": "緑黄色社会",
+      "publisher": null,
+      "image_url": null,
+      "source_url": "https://www.sonymusic.co.jp/artist/ryokusyaka/info/584370",
+      "genres": [
+        "J-POP",
+        "アリーナツアー"
+      ],
+      "id": "ja-ryokushaka-arena-tour-2026-20260919",
+      "name": "緑黄色社会 ARENA TOUR 2026 \"あたまご\"",
+      "release_date": "2026-09-19",
+      "category": "concert_tour",
+      "platforms": [
+        "LaLa arena TOKYO-BAY（千葉ほか全国5都市10公演）"
+      ],
+      "description": "緑黄色社会が約1年7か月ぶりのアルバム『あたまご』を携え、全5都市10公演のアリーナツアーを行う。9月19日・20日の千葉・LaLa arena TOKYO-BAYを皮切りに、福岡のマリンメッセ福岡A館、大阪城ホール、愛知のIGアリーナと巡り、12月5日・6日の横浜アリーナで締めくくる。チケットは指定席1万1000円のほか学割9000円、親子席も設定され、IGアリーナ公演にはプレミアムラウンジ付きの限定シートが用意される。",
+      "presale": true,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2667589",
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null
+    },
+    {
+      "id": "ja-the-weeknd-2026-20260919",
+      "name": "The Weeknd「After Hours Til Dawn Tour」来日公演",
+      "release_date": "2026-09-19",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "ベルーナドーム"
+      ],
+      "developer": "The Weeknd",
+      "publisher": "ライブネーション・ジャパン",
+      "description": "世界的R&B/ポップ・スターThe Weekndによる久々の来日公演。スタジアム・ツアー「After Hours Til Dawn Tour」の一環として、2026年9月19日・20日に埼玉のベルーナドームで行われる。スペシャルゲストにCreepy Nutsと¥ØU$UK€ ¥UK1MAT$Uが出演。9月20日公演は完売し、追加された9月19日公演のチケットが一般発売中となっている。",
+      "genres": [
+        "来日",
+        "R&B",
+        "ポップ"
+      ],
+      "image_url": "https://img.hmv.co.jp/hybridimage/eventpage/394438/main.webp?20260626104229",
+      "source_url": "https://www.universal-music.co.jp/the-weeknd/news/2026-05-13/",
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://l-tike.com/the-weeknd"
+    },
+    {
+      "id": "ja-ultra-japan-2026-20260919",
+      "name": "ULTRA JAPAN 2026",
+      "release_date": "2026-09-19",
+      "release_time": "11:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "festival",
+      "platforms": [
+        "お台場 ULTRA PARK特設会場"
+      ],
+      "developer": null,
+      "publisher": null,
+      "description": "世界的ダンスミュージックフェス「ULTRA」の日本版。2026年は9月19日・20日の2日間、東京・お台場の特設会場ULTRA PARKで開催される。第1弾ラインナップにはZedd B2B Knock2、Alesso、Peggy Gou、The Martinez Brothersら国内外のトップDJ・アーティストが名を連ねる。ULTRA MAIN STAGEやRESISTANCEなど複数ステージで一日中パフォーマンスが繰り広げられる。",
+      "genres": [
+        "フェスティバル",
+        "EDM",
+        "ダンスミュージック"
+      ],
+      "image_url": null,
+      "source_url": "https://ultrajapan.com/",
+      "festival_days": null
+    },
+    {
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "developer": "雀斑 Freckles",
+      "publisher": "BIG ROMANTIC ENTERTAINMENT",
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/-/128465",
+      "genres": [
+        "インディーポップ",
+        "来日"
+      ],
+      "id": "ja-freckles-japan-tour-2026-20260923",
+      "name": "雀斑 Freckles Japan Tour 2026 in Tokyo",
+      "release_date": "2026-09-23",
+      "category": "concert_tour",
+      "platforms": [
+        "青山月見ル君想フ（東京）"
+      ],
+      "description": "台湾のインディー・ポップ・バンド、雀斑 Frecklesが代表作『Imperfect Lover』のアナログ盤発売に合わせて日本ツアーを行う。9月23日の東京・青山月見ル君想フ公演は開場19時・開演19時30分で、共演にeverforとDJマイケルJフォクスを迎える。料金は前売6000円・当日6500円（ドリンク代別）。東京のあとは名古屋KDJAPON、京都UrBANGUILDと3都市を回る。",
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://260923.peatix.com/"
+    },
+    {
+      "id": "ja-number-i-rebon-20260923",
+      "name": "Number_i『REBON / BUGS LIFE / DIGITAL GIRL』",
+      "release_date": "2026-09-23",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "Number_i",
+      "publisher": "Atlantic Records",
+      "description": "Number_iが、米アトランティック・レコード移籍第1弾となる4thシングル『REBON / BUGS LIFE / DIGITAL GIRL』を2026年9月23日にリリースする。代表曲「BON」の続編にあたる「REBON」、神宮寺勇太プロデュースの「BUGS LIFE」、春の渡米中にロサンゼルスで制作された「DIGITAL GIRL」の3曲をそろえたトリプルAサイド作品。通常盤・初回限定盤A・初回限定盤Bそれぞれにメンバープロデュースの楽曲を収録する。7月21日の初ファンミーティングでタイトルと収録内容が発表された。",
+      "genres": [
+        "J-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://mikiki.tokyo.jp/articles/-/45580"
+    },
+    {
       "id": "ja-the-cribs-selling-a-vibe-20261002",
       "name": "THE CRIBS「Selling A Vibe」来日公演",
       "release_date": "2026-10-02",
@@ -486,153 +815,298 @@
       "general_sale_datetime": "2026-08-08T10:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://eplus.jp/thecribs/",
-      "presale": true,
+      "presale": false,
       "presale_datetime": null,
       "presale_end_datetime": "2026-07-27T23:59:00+09:00",
       "presale_url": "https://eplus.jp/thecribs/"
     },
     {
-      "id": "ja-milet-made-of-glass-20260819",
-      "name": "milet『Made of Glass』",
-      "release_date": "2026-08-19",
-      "release_time": null,
+      "id": "ja-kamishiraishi-mone-bouquet-20261003",
+      "name": "Mone Kamishiraishi 10th Live《bouquet》for ALL（上白石萌音 初主催フェス）",
+      "release_date": "2026-10-03",
+      "release_time": "11:00",
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
-      "category": "music_release",
-      "platforms": [],
-      "developer": "milet",
+      "category": "festival",
+      "platforms": [
+        "横浜赤レンガパーク 野外特設ステージ"
+      ],
+      "developer": "上白石萌音",
       "publisher": null,
-      "description": "シンガーソングライターmiletが、約3年ぶりとなる4枚目のオリジナルアルバム『Made of Glass』を2026年8月19日にリリースする。TVアニメ「葬送のフリーレン」エンディングテーマ「Anytime Anywhere」「The Story of Us」や、映画・ドラマの主題歌といった数々のタイアップ曲に加え、新曲も多数収録される。初回生産限定盤には「milet Asia Tour 2024 in Taipei」やファンクラブ向けライブの映像が付属。ソニーミュージック公式サイトで予約受付が始まっている。",
+      "description": "歌手デビュー10周年を迎えた上白石萌音が、自身初の主催野外フェスを2026年10月3日・4日の2日間、横浜赤レンガパークの野外特設ステージで開催する。両日とも開場11時・開演13時で、androp、MONGOL800、AI、森山直太朗、大橋トリオ、GLIM SPANKYらが日替わりで出演。10月4日には妹adieu（上白石萌歌）がBAND ACTとして加わり、歌手として初の姉妹共演が実現する。ゲストには井上芳雄や小林武史らも名を連ねる、10周年を締めくくる記念公演となる。",
       "genres": [
+        "フェスティバル",
+        "複数アーティスト",
         "J-POP"
       ],
       "image_url": null,
-      "source_url": "https://www.sonymusic.co.jp/artist/milet_music/info/584236"
+      "source_url": "https://www.cdjournal.com/news/kamishiraishi-mone/128351",
+      "last_updated": "2026-07-25",
+      "last_researched_by": "ja-researcher",
+      "festival_days": [
+        {
+          "date": "2026-10-03",
+          "lineup": [
+            "上白石萌音",
+            "androp",
+            "MONGOL800",
+            "AI",
+            "森山直太朗",
+            "屋比久知奈"
+          ]
+        },
+        {
+          "date": "2026-10-04",
+          "lineup": [
+            "上白石萌音",
+            "adieu（上白石萌歌）",
+            "GLIM SPANKY",
+            "大橋トリオ",
+            "井上芳雄",
+            "YOGEE NEW WAVES",
+            "小林武史"
+          ]
+        }
+      ]
     },
     {
-      "id": "ja-ikimonogakari-sayonara-lara-20260826",
-      "name": "いきものがかり「さよならララ」",
-      "release_date": "2026-08-26",
+      "id": "ja-post-malone-2026-20261006",
+      "name": "Post Malone「The BIG ASS Stadium World Tour」来日公演",
+      "release_date": "2026-10-06",
+      "release_time": "18:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "Kアリーナ横浜"
+      ],
+      "developer": "Post Malone",
+      "publisher": "ライブネーション・ジャパン",
+      "description": "ヒップホップとポップを軸に幅広いジャンルを横断するPost Maloneの3年ぶりの来日公演。スタジアム規模のワールドツアー「The BIG ASS Stadium World Tour」として、2026年10月6日にKアリーナ横浜で開催される。最新作『F-1 Trillion』の楽曲を中心に、これまでのヒット曲も披露する見込み。スペシャルゲストとしてDon Toliverが出演する。",
+      "genres": [
+        "来日",
+        "ヒップホップ",
+        "ポップ"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Post_Malone_July_2021_%28cropped%29.jpg/250px-Post_Malone_July_2021_%28cropped%29.jpg",
+      "source_url": "https://www.universal-music.co.jp/post-malone/news/2026-04-01/"
+    },
+    {
       "release_time": null,
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
-      "category": "music_release",
-      "platforms": [],
-      "developer": "いきものがかり",
-      "publisher": null,
-      "description": "3人組ポップグループいきものがかりが、ニューシングル「さよならララ」を2026年8月26日にCDリリースする。表題曲は7月5日に放送を開始したオリジナルTVアニメ『さよならララ』のオープニングテーマとして書き下ろされ、7月15日に先行配信された。吉岡聖恵の伸びやかな歌声と水野良樹のメロディ、亀田誠治の編曲が、人魚姫ララと人間たちの物語を彩る一曲。初回生産限定盤と通常盤の2形態で、限定盤のBlu-rayにはMVやノンクレジットオープニング映像などが収録される予定。",
-      "genres": [
-        "J-POP"
-      ],
+      "developer": "PETER GALLWAY & 佐橋佳幸",
+      "publisher": "VIVID SOUND",
       "image_url": null,
-      "source_url": "https://ikimonogakari.com/news/media/20260417-1"
+      "source_url": "https://www.vividsound.co.jp/news/16954/",
+      "genres": [
+        "フォーク",
+        "AOR"
+      ],
+      "id": "ja-peter-gallway-sahashi-full-circle-20261010",
+      "name": "PETER GALLWAY & 佐橋佳幸 EN Japan 2026 \"Full Circle Tour\"",
+      "release_date": "2026-10-10",
+      "category": "concert_tour",
+      "platforms": [
+        "金沢 もっきりや（石川ほか全国11都市12公演）"
+      ],
+      "description": "ザ・フィフス・アヴェニュー・バンドで知られるシンガー・ソングライターのピーター・ゴールウェイと、ギタリスト／プロデューサーの佐橋佳幸が、コラボ・アルバム『EN』を携えて全国を回る。10月10日の石川・金沢もっきりやを皮切りに福井・京都・愛知・大分・福岡・広島・大阪・香川・愛媛を巡り、10月28日・29日の東京・BLUES ALLEY JAPAN 2デイズでフィナーレを迎える。チケットは前売8000円・当日9000円（ドリンク／フード代別）。",
+      "presale": true,
+      "presale_datetime": "2026-07-29T00:00:00+09:00",
+      "presale_end_datetime": "2026-08-16T23:59:00+09:00",
+      "presale_url": "https://t.pia.jp/pia/event/event.do?eventCd=2625547",
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-22T10:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://t.pia.jp/pia/event/event.do?eventCd=2625547"
     },
     {
-      "id": "ja-number-i-rebon-20260923",
-      "name": "Number_i『REBON / BUGS LIFE / DIGITAL GIRL』",
-      "release_date": "2026-09-23",
+      "id": "ja-charlie-puth-2026-20261016",
+      "name": "Charlie Puth「Whatever's Clever! World Tour」来日公演",
+      "release_date": "2026-10-16",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "ぴあアリーナMM"
+      ],
+      "developer": "Charlie Puth",
+      "publisher": "ライブネーション・ジャパン",
+      "description": "「Attention」「See You Again」などのヒットで知られるシンガーソングライターCharlie Puthの一夜限りの来日公演。ワールドツアー「Whatever's Clever! World Tour」として、2026年10月16日に横浜のぴあアリーナMMで開催される。最新アルバム『Whatever's Clever!』の楽曲やヒット曲を披露する予定。同作には宇多田ヒカルが参加した「Home」も収録されている。",
+      "genres": [
+        "来日",
+        "ポップ"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Charlie_Puth.jpg/250px-Charlie_Puth.jpg",
+      "source_url": "https://skream.jp/news/2026/04/charlie_puth_whatevers_clever_world_tour.php"
+    },
+    {
+      "id": "ja-shai-maestro-guesthouse-20261020",
+      "name": "シャイ・マエストロ・トリオ「The Guesthouse」来日公演",
+      "release_date": "2026-10-20",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "コットンクラブ（東京・丸の内）"
+      ],
+      "developer": "シャイ・マエストロ（Shai Maestro）",
+      "publisher": "コットンクラブ",
+      "description": "現代ジャズを代表するイスラエル出身のピアニスト／作曲家シャイ・マエストロが、約2年半ぶりに自身のトリオを率いて来日する。ルーベン・ロジャース（b）、オフリ・ネヘミヤ（ds）とともに、naïveレーベルからの最新作『The Guesthouse』の楽曲を中心に披露する。2026年10月20日（火）・21日（水）の2日間、東京・丸の内のコットンクラブで各日2ステージ制（1st開演18:00／2nd開演20:30）で開催。全席指定でテーブル席は9,000円。",
+      "genres": [
+        "ジャズ",
+        "来日",
+        "ピアノ"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/By_Liri_Agami.jpg/330px-By_Liri_Agami.jpg",
+      "source_url": "https://www.cdjournal.com/news/shai-maestro/128336",
+      "presale": true,
+      "presale_datetime": "2026-08-01T12:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5722/#5722",
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-03T12:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null
+    },
+    {
       "release_time": null,
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
-      "category": "music_release",
-      "platforms": [],
-      "developer": "Number_i",
-      "publisher": "Atlantic Records",
-      "description": "Number_iが、米アトランティック・レコード移籍第1弾となる4thシングル『REBON / BUGS LIFE / DIGITAL GIRL』を2026年9月23日にリリースする。代表曲「BON」の続編にあたる「REBON」、神宮寺勇太プロデュースの「BUGS LIFE」、春の渡米中にロサンゼルスで制作された「DIGITAL GIRL」の3曲をそろえたトリプルAサイド作品。通常盤・初回限定盤A・初回限定盤Bそれぞれにメンバープロデュースの楽曲を収録する。7月21日の初ファンミーティングでタイトルと収録内容が発表された。",
-      "genres": [
-        "J-POP"
-      ],
+      "developer": null,
+      "publisher": "FRUE",
       "image_url": null,
-      "source_url": "https://mikiki.tokyo.jp/articles/-/45580"
+      "source_url": "https://festivaldefrue.com/",
+      "genres": [
+        "フェスティバル",
+        "ワールド",
+        "ジャズ",
+        "エレクトロニック"
+      ],
+      "id": "ja-festival-de-frue-2026-20261031",
+      "name": "FESTIVAL de FRUE 2026",
+      "release_date": "2026-10-31",
+      "category": "festival",
+      "platforms": [
+        "つま恋リゾート彩の郷（静岡・掛川）"
+      ],
+      "description": "静岡・掛川のつま恋リゾート彩の郷で10月31日と11月1日の2日間開かれる半野外の音楽フェスティバル。ジャズ、ロック、ワールド、電子音楽など国や世代を越えた濃い音楽性のミュージシャンをブッキングするのが特徴で、屋根に覆われたザ・ホールと森の中のグラス・ステージの2会場で行われる。出演者にはThe Master Musicians of Joujouka、Juana Molina、Sylvan Esso、Alabaster DePlumeらに加え、追加発表で坂本慎太郎、CHAPPO、初来日のPachymanが決まった。",
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://shop.frue.jp/",
+      "festival_days": null
     },
     {
-      "id": "ja-kuwata-keisuke-natsumatsuri-2026-add-20261216",
-      "name": "桑田佳祐「夏祭りツアー 2026」追加公演",
-      "release_date": "2026-12-16",
+      "id": "ja-jo0ji-ikari-tour-2026-20261101",
+      "name": "jo0ji one-man tour 2026「いかり」",
+      "release_date": "2026-11-01",
       "release_time": null,
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "category": "concert_tour",
       "platforms": [
-        "日本ガイシホール（愛知）",
-        "大阪城ホール",
-        "横浜アリーナ"
+        "KT Zepp Yokohama",
+        "金沢 EIGHT HALL",
+        "Zepp Namba（大阪）",
+        "高松 festhalle",
+        "BLUE LIVE HIROSHIMA",
+        "Zepp Sapporo",
+        "Zepp Fukuoka",
+        "Zepp Nagoya",
+        "Zepp DiverCity（東京）",
+        "SENDAI GIGS"
       ],
-      "developer": "桑田佳祐",
-      "publisher": null,
-      "description": "桑田佳祐が、7月に開幕した「夏祭りツアー 2026」の年末追加公演を2026年12月に開催する。夏に実現できなかった大都市会場での公演として、12月16日・17日の愛知・日本ガイシホール、12月22日・23日の大阪城ホール、12月28日・30日・31日の横浜アリーナの3会場・計7公演を追加した。追加分を含めると全国13カ所29公演となり、ソロとしては自身最大規模のアリーナツアーとなる。公演およびチケット受付の詳細は2026年秋頃に発表予定。",
-      "genres": [
-        "J-POP"
-      ],
-      "image_url": null,
-      "source_url": "https://southernallstars.jp/news/detail/4028"
-    },
-    {
-      "id": "ja-number-i-numbers-ur26-20260825",
-      "name": "Number_i「Numbers Ur'26」ファンミーティング（東京公演）",
-      "release_date": "2026-08-25",
-      "release_time": null,
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "fanmeeting",
-      "platforms": [
-        "TOYOTA ARENA TOKYO"
-      ],
-      "developer": "Number_i",
-      "publisher": null,
-      "description": "Number_iが、グループ初のファンミーティング「Numbers Ur'26」の東京公演を、東京・TOYOTA ARENA TOKYOで開催する。東京公演は8月25日・26日・27日の3日間で計5回。7月21日・22日の大阪城ホール公演に続く日程で、ファンクラブ「iLYs」会員限定、顔認証入場のため来場者全員の事前の顔写真登録が必要となる。移籍第1弾シングルのリリースを控えた夏の重要イベントとして注目を集めている。",
+      "developer": "jo0ji",
+      "publisher": "ソニーミュージック",
+      "description": "シンガーソングライターのjo0jiが、自身最大規模となる全国ツアー「jo0ji one-man tour 2026『いかり』」を開催する。11月1日の神奈川・KT Zepp Yokohamaを皮切りに、金沢・大阪・高松・広島・北海道・福岡・愛知・東京・宮城を巡り、12月19日のSENDAI GIGSまで全10公演を行う。全国6か所のZeppを含む会場で、チケットはスタンディング6,000円、2階指定席7,000円。ファンクラブ「潮風交流センター」での最速先行が実施されている。",
       "genres": [
         "J-POP",
-        "ファンミーティング"
+        "ツアー"
       ],
       "image_url": null,
-      "source_url": "https://natalie.mu/music/news/670380"
+      "source_url": "https://tvfan.kyodo.co.jp/music/news-music/1513392",
+      "presale": true,
+      "presale_datetime": null,
+      "presale_url": "https://smam.jp/s/sma01/ticket/detail/2512_ticket_26052201?ima=2922"
     },
     {
-      "id": "ja-aimyon-tour-2027-20270206",
-      "name": "AIMYON TOUR 2027（あいみょん 全国アリーナツアー）",
-      "release_date": "2027-02-06",
-      "release_time": null,
+      "release_time": "18:30",
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "ぴあアリーナMM（神奈川ほか全国14都市）"
-      ],
-      "developer": "あいみょん",
+      "developer": "米津玄師",
       "publisher": null,
-      "description": "あいみょんが、メジャーデビュー10周年を記念して2027年2月6日の神奈川・ぴあアリーナMMを皮切りに、全国14都市36公演の大規模アリーナツアー「AIMYON TOUR 2027」を開催する。7月11日の沖縄・沖縄サントリーアリーナまで続く自身最大規模のツアーで、バンド編成で臨む。これに先立ち、デビュー記念日の2026年11月30日・12月1日には日本武道館公演も行われる。チケットは9月9日発売のベストアルバム封入の10周年記念カードのQRコードから先行予約を受け付ける。",
+      "image_url": null,
+      "source_url": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
       "genres": [
         "J-POP",
         "アリーナツアー"
       ],
-      "image_url": null,
-      "source_url": "https://natalie.mu/music/news/681003"
+      "id": "ja-yonezu-kenshi-ghost-2026-20261106",
+      "name": "米津玄師 2026 TOUR / GHOST",
+      "release_date": "2026-11-06",
+      "category": "concert_tour",
+      "platforms": [
+        "長野ビッグハット（長野ほか全国6都市14公演）"
+      ],
+      "description": "米津玄師が全国6都市・計14公演のアリーナツアーを開催する。11月6日・7日の長野ビッグハットで幕を開け、Kアリーナ横浜、大阪城ホール、マリンメッセ福岡A館、宮城のセキスイハイムスーパーアリーナ、ポートメッセなごや第1展示館を回り、12月16日・17日のKアリーナ横浜で全日程を終える。チケットは指定席・立見とも9900円で、一般販売（抽選）の受付は7月7日18時から7月26日23時59分まで行われ、当選発表は8月12日正午が予定されている。",
+      "presale": false,
+      "general_sale": false,
+      "general_sale_datetime": "2026-07-07T18:00:00+09:00",
+      "general_sale_end_datetime": "2026-07-26T23:59:00+09:00",
+      "general_sale_url": null
     },
     {
-      "id": "ja-yoshii-kazuya-tour-2027-20270209",
-      "name": "吉井和哉 TOUR 2027 イ・キ・モ・ノ・エ・ネ・ジ・ー",
-      "release_date": "2027-02-09",
+      "id": "ja-5-seconds-of-summer-2026-20261121",
+      "name": "5 SECONDS OF SUMMER 来日公演2026",
+      "release_date": "2026-11-21",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "SGC HALL ARIAKE（東京・有明）"
+      ],
+      "developer": "5 SECONDS OF SUMMER",
+      "publisher": null,
+      "description": "オーストラリア出身のバンド、5 SECONDS OF SUMMER（5SOS）が8年ぶりの来日公演を開催する。6thアルバム『Everyone's A Star!』を引っ提げ、2026年11月21日に東京・SGC HALL ARIAKEで単独公演を行う。開場17時／開演18時。11月21日公演は即日完売となり、翌11月22日にも同会場での追加公演が決定した。世界的な人気を誇るポップ・ロックバンドの待望の再来日となる。",
+      "genres": [
+        "ポップ",
+        "ロック",
+        "来日"
+      ],
+      "image_url": null,
+      "source_url": "https://tower.jp/article/news/2026/04/28/tg015"
+    },
+    {
+      "id": "ja-hinatazaka46-hinakuri-2026-kobe-20261121",
+      "name": "日向坂46 ARENA TOUR「ひなくり2026」",
+      "release_date": "2026-11-21",
       "release_time": null,
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "category": "concert_tour",
       "platforms": [
-        "フェスティバルホール（大阪ほか全国6都市7公演）"
+        "神戸ワールド記念ホール"
       ],
-      "developer": "吉井和哉",
+      "developer": "日向坂46",
       "publisher": null,
-      "description": "吉井和哉が、約12年ぶりとなる8枚目のオリジナル・フルアルバム（2026年12月9日発売）を引っ提げ、2027年2月9日の大阪・フェスティバルホールを皮切りに全国6都市7公演のホールツアー「吉井和哉 TOUR 2027 イ・キ・モ・ノ・エ・ネ・ジ・ー」を開催する。仙台、名古屋、東京・国際フォーラムホールAなどを回り、3月18日の東京・SGC HALL ARIAKE公演で全日程を締めくくる。7月22日よりファンクラブ先行受付を開始している。",
+      "description": "日向坂46が毎年12月に開催してきた恒例ライブ「ひなくり」を約4年ぶりに復活させる。2022年を最後に途絶えていたが、今回は単独会場ではなく3都市を回るアリーナツアー形式となる。11月21日から23日の兵庫・神戸ワールド記念ホールを皮切りに、12月9日から11日は東京・国立代々木競技場第一体育館、12月22日から24日は愛知・日本ガイシホールと続き全9公演。チケットはファンクラブ抽選先行およびLemino各種先行の受付が9月9日12時に始まる。価格はLeminoスペシャルシート1万7000円、全席指定と親子・女性エリアが各1万1000円。",
       "genres": [
-        "J-POP",
-        "ロック",
-        "ホールツアー"
+        "J-POP"
       ],
-      "image_url": null,
-      "source_url": "https://www.yoshiikazuya.com/feature/tour2027",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Hinatazaka46_members_at_Yokohama_Stadium.jpg/330px-Hinatazaka46_members_at_Yokohama_Stadium.jpg",
+      "source_url": "https://www.billboard-japan.com/d_news/detail/163948",
       "presale": true,
-      "presale_datetime": null,
-      "presale_url": "https://www.yoshiikazuya.com/feature/tour2027"
+      "presale_datetime": "2026-09-09T12:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null
     },
     {
       "id": "ja-silica-gel-ballad-of-you-20261121",
@@ -689,49 +1163,6 @@
       "general_sale_url": "https://l-tike.com/concert/mevent/?mid=367063"
     },
     {
-      "id": "ja-crazy-ken-band-nani-20260916",
-      "name": "クレイジーケンバンド『何？』",
-      "release_date": "2026-09-16",
-      "release_time": null,
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "music_release",
-      "platforms": [
-        "CD／配信"
-      ],
-      "developer": "クレイジーケンバンド",
-      "publisher": "UNIVERSAL MUSIC JAPAN",
-      "description": "クレイジーケンバンドが、通算26枚目となるニューアルバム『何？』を2026年9月16日にリリースする。バンド結成29年、デビュー28年、フロントマン横山剣のデビュー45周年という節目に届けられる全16トラック収録の意欲作。ベテランながらフレッシュさを失わない仕上がりで、初回限定盤には2025年に地元・横浜で行われた「華麗なるツアー 2025-2026」のライブ映像を収めたDVDが付属する。",
-      "genres": [
-        "J-POP",
-        "アルバム"
-      ],
-      "image_url": null,
-      "source_url": "https://www.universal-music.co.jp/ckb/news/2026-07-01/"
-    },
-    {
-      "id": "ja-5-seconds-of-summer-2026-20261121",
-      "name": "5 SECONDS OF SUMMER 来日公演2026",
-      "release_date": "2026-11-21",
-      "release_time": "18:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "SGC HALL ARIAKE（東京・有明）"
-      ],
-      "developer": "5 SECONDS OF SUMMER",
-      "publisher": null,
-      "description": "オーストラリア出身のバンド、5 SECONDS OF SUMMER（5SOS）が8年ぶりの来日公演を開催する。6thアルバム『Everyone's A Star!』を引っ提げ、2026年11月21日に東京・SGC HALL ARIAKEで単独公演を行う。開場17時／開演18時。11月21日公演は即日完売となり、翌11月22日にも同会場での追加公演が決定した。世界的な人気を誇るポップ・ロックバンドの待望の再来日となる。",
-      "genres": [
-        "ポップ",
-        "ロック",
-        "来日"
-      ],
-      "image_url": null,
-      "source_url": "https://tower.jp/article/news/2026/04/28/tg015"
-    },
-    {
       "id": "ja-two-door-cinema-club-2026-20261130",
       "name": "TWO DOOR CINEMA CLUB 来日公演2026",
       "release_date": "2026-11-30",
@@ -755,121 +1186,26 @@
       "source_url": "https://www.cdjournal.com/news/two-door-cinema-club/126242"
     },
     {
-      "id": "ja-nogizaka46-manatsu-tour-2026-20260613",
-      "name": "乃木坂46「真夏の全国ツアー2026」",
-      "release_date": "2026-06-13",
+      "id": "ja-kuwata-keisuke-natsumatsuri-2026-add-20261216",
+      "name": "桑田佳祐「夏祭りツアー 2026」追加公演",
+      "release_date": "2026-12-16",
       "release_time": null,
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "category": "concert_tour",
       "platforms": [
-        "サンドーム福井",
-        "横浜アリーナ",
-        "真駒内セキスイハイムアイスアリーナ",
-        "広島グリーンアリーナ",
+        "日本ガイシホール（愛知）",
         "大阪城ホール",
-        "セキスイハイムスーパーアリーナ（宮城）",
-        "マリンメッセ福岡A館",
-        "明治神宮野球場（東京）"
+        "横浜アリーナ"
       ],
-      "developer": "乃木坂46",
-      "publisher": "乃木坂46合同会社",
-      "description": "乃木坂46が夏の恒例企画「真夏の全国ツアー2026」を全国8か所で開催する。昨年より1か所増え、6月13日のサンドーム福井を皮切りに、神奈川・北海道・広島・大阪・宮城・福岡を巡り、8月20日から23日まで恒例の明治神宮野球場でツアーファイナルを迎える。福井は同グループにとって初のライブ開催地となり、全18公演にわたる過去最大規模のツアーとなる。",
-      "genres": [
-        "J-POP",
-        "アイドル"
-      ],
-      "image_url": null,
-      "source_url": "https://www.nogizaka46.com/s/n46/news/detail/101747"
-    },
-    {
-      "id": "ja-sakurazaka46-arena-tour-2026-20260723",
-      "name": "櫻坂46「全国アリーナツアー2026」",
-      "release_date": "2026-07-23",
-      "release_time": "18:30",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "エコパアリーナ（静岡）",
-        "神戸ワールド記念ホール",
-        "広島グリーンアリーナ",
-        "LaLa arena TOKYO-BAY（千葉）",
-        "セキスイハイムスーパーアリーナ（宮城）",
-        "あなぶきアリーナ香川"
-      ],
-      "developer": "櫻坂46",
+      "developer": "桑田佳祐",
       "publisher": null,
-      "description": "櫻坂46が「全国アリーナツアー2026」を開催する。7月23日・24日の静岡・エコパアリーナを皮切りに、兵庫・神戸ワールド記念ホール、広島グリーンアリーナ、千葉・LaLa arena TOKYO-BAY、宮城・セキスイハイムスーパーアリーナ、香川・あなぶきアリーナ香川と全国のアリーナ会場を巡る。オフィシャル先行は5月に受付が始まり、グループの成長を示す大規模アリーナツアーとして注目を集めている。",
+      "description": "桑田佳祐が、7月に開幕した「夏祭りツアー 2026」の年末追加公演を2026年12月に開催する。夏に実現できなかった大都市会場での公演として、12月16日・17日の愛知・日本ガイシホール、12月22日・23日の大阪城ホール、12月28日・30日・31日の横浜アリーナの3会場・計7公演を追加した。追加分を含めると全国13カ所29公演となり、ソロとしては自身最大規模のアリーナツアーとなる。公演およびチケット受付の詳細は2026年秋頃に発表予定。",
       "genres": [
-        "J-POP",
-        "アイドル"
+        "J-POP"
       ],
       "image_url": null,
-      "source_url": "https://sakurazaka46.com/s/s46/news/detail/E00619"
-    },
-    {
-      "id": "ja-jo0ji-ikari-tour-2026-20261101",
-      "name": "jo0ji one-man tour 2026「いかり」",
-      "release_date": "2026-11-01",
-      "release_time": null,
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "KT Zepp Yokohama",
-        "金沢 EIGHT HALL",
-        "Zepp Namba（大阪）",
-        "高松 festhalle",
-        "BLUE LIVE HIROSHIMA",
-        "Zepp Sapporo",
-        "Zepp Fukuoka",
-        "Zepp Nagoya",
-        "Zepp DiverCity（東京）",
-        "SENDAI GIGS"
-      ],
-      "developer": "jo0ji",
-      "publisher": "ソニーミュージック",
-      "description": "シンガーソングライターのjo0jiが、自身最大規模となる全国ツアー「jo0ji one-man tour 2026『いかり』」を開催する。11月1日の神奈川・KT Zepp Yokohamaを皮切りに、金沢・大阪・高松・広島・北海道・福岡・愛知・東京・宮城を巡り、12月19日のSENDAI GIGSまで全10公演を行う。全国6か所のZeppを含む会場で、チケットはスタンディング6,000円、2階指定席7,000円。ファンクラブ「潮風交流センター」での最速先行が実施されている。",
-      "genres": [
-        "J-POP",
-        "ツアー"
-      ],
-      "image_url": null,
-      "source_url": "https://tvfan.kyodo.co.jp/music/news-music/1513392",
-      "presale": true,
-      "presale_datetime": null,
-      "presale_url": "https://smam.jp/s/sma01/ticket/detail/2512_ticket_26052201?ima=2922"
-    },
-    {
-      "id": "ja-shai-maestro-guesthouse-20261020",
-      "name": "シャイ・マエストロ・トリオ「The Guesthouse」来日公演",
-      "release_date": "2026-10-20",
-      "release_time": "18:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "コットンクラブ（東京・丸の内）"
-      ],
-      "developer": "シャイ・マエストロ（Shai Maestro）",
-      "publisher": "コットンクラブ",
-      "description": "現代ジャズを代表するイスラエル出身のピアニスト／作曲家シャイ・マエストロが、約2年半ぶりに自身のトリオを率いて来日する。ルーベン・ロジャース（b）、オフリ・ネヘミヤ（ds）とともに、naïveレーベルからの最新作『The Guesthouse』の楽曲を中心に披露する。2026年10月20日（火）・21日（水）の2日間、東京・丸の内のコットンクラブで各日2ステージ制（1st開演18:00／2nd開演20:30）で開催。全席指定でテーブル席は9,000円。",
-      "genres": [
-        "ジャズ",
-        "来日",
-        "ピアノ"
-      ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/By_Liri_Agami.jpg/330px-By_Liri_Agami.jpg",
-      "source_url": "https://www.cdjournal.com/news/shai-maestro/128336",
-      "presale": true,
-      "presale_datetime": "2026-08-01T12:00:00+09:00",
-      "presale_end_datetime": null,
-      "presale_url": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5722/#5722",
-      "general_sale": false,
-      "general_sale_datetime": "2026-08-03T12:00:00+09:00",
-      "general_sale_end_datetime": null,
-      "general_sale_url": null
+      "source_url": "https://southernallstars.jp/news/detail/4028"
     },
     {
       "id": "ja-sumika-laurens-library-20270123",
@@ -905,117 +1241,50 @@
       "last_researched_by": "ja-researcher"
     },
     {
-      "id": "ja-kamishiraishi-mone-bouquet-20261003",
-      "name": "Mone Kamishiraishi 10th Live《bouquet》for ALL（上白石萌音 初主催フェス）",
-      "release_date": "2026-10-03",
-      "release_time": "11:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "festival",
-      "platforms": [
-        "横浜赤レンガパーク 野外特設ステージ"
-      ],
-      "developer": "上白石萌音",
-      "publisher": null,
-      "description": "歌手デビュー10周年を迎えた上白石萌音が、自身初の主催野外フェスを2026年10月3日・4日の2日間、横浜赤レンガパークの野外特設ステージで開催する。両日とも開場11時・開演13時で、androp、MONGOL800、AI、森山直太朗、大橋トリオ、GLIM SPANKYらが日替わりで出演。10月4日には妹adieu（上白石萌歌）がBAND ACTとして加わり、歌手として初の姉妹共演が実現する。ゲストには井上芳雄や小林武史らも名を連ねる、10周年を締めくくる記念公演となる。",
-      "genres": [
-        "フェスティバル",
-        "複数アーティスト",
-        "J-POP"
-      ],
-      "image_url": null,
-      "source_url": "https://www.cdjournal.com/news/kamishiraishi-mone/128351",
-      "last_updated": "2026-07-25",
-      "last_researched_by": "ja-researcher",
-      "festival_days": [
-        {
-          "date": "2026-10-03",
-          "lineup": [
-            "上白石萌音",
-            "androp",
-            "MONGOL800",
-            "AI",
-            "森山直太朗",
-            "屋比久知奈"
-          ]
-        },
-        {
-          "date": "2026-10-04",
-          "lineup": [
-            "上白石萌音",
-            "adieu（上白石萌歌）",
-            "GLIM SPANKY",
-            "大橋トリオ",
-            "井上芳雄",
-            "YOGEE NEW WAVES",
-            "小林武史"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ja-befirst-bruce-wayne-20260731",
-      "name": "BE:FIRST「BRUCE WAYNE feat. Flo Milli, ATL Jacob」",
-      "release_date": "2026-07-31",
-      "release_time": null,
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "music_release",
-      "platforms": [],
-      "developer": "BE:FIRST",
-      "publisher": null,
-      "description": "BE:FIRSTがグローバル展開に向けた新曲「BRUCE WAYNE feat. Flo Milli, ATL Jacob」を2026年7月31日に配信リリースする。米ラッパーのFlo Milli、プロデューサーのATL Jacobを迎えた一曲で、海外市場を意識した制作陣によるトラックとなる。グループは2026年9月からバンコク・台北・マニラ・ニューヨークを巡るワールドショーケースを控えており、本作はその流れに連なる国際的な布石と位置づけられる。",
-      "genres": [
-        "J-POP"
-      ],
-      "image_url": null,
-      "source_url": "https://www.billboard-japan.com/d_news/detail/163940"
-    },
-    {
-      "id": "ja-ballistik-boyz-saku-20260731",
-      "name": "BALLISTIK BOYZ from EXILE TRIBE「SAKU -朔-」",
-      "release_date": "2026-07-31",
-      "release_time": null,
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "music_release",
-      "platforms": [],
-      "developer": "BALLISTIK BOYZ from EXILE TRIBE",
-      "publisher": null,
-      "description": "BALLISTIK BOYZ from EXILE TRIBEが新曲「SAKU -朔-」を2026年7月31日に配信リリースする。本作はメンバーの海沼流星が手がけた初のプロデュース楽曲で、自身が受けてきたインスピレーションを形にした一曲だという。グループ内から制作者が立つ形は初の試みであり、活動の幅を広げる節目のリリースとなる。",
-      "genres": [
-        "J-POP"
-      ],
-      "image_url": null,
-      "source_url": "https://www.billboard-japan.com/d_news/detail/163943"
-    },
-    {
-      "id": "ja-hinatazaka46-hinakuri-2026-kobe-20261121",
-      "name": "日向坂46 ARENA TOUR「ひなくり2026」",
-      "release_date": "2026-11-21",
+      "id": "ja-aimyon-tour-2027-20270206",
+      "name": "AIMYON TOUR 2027（あいみょん 全国アリーナツアー）",
+      "release_date": "2027-02-06",
       "release_time": null,
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "category": "concert_tour",
       "platforms": [
-        "神戸ワールド記念ホール"
+        "ぴあアリーナMM（神奈川ほか全国14都市）"
       ],
-      "developer": "日向坂46",
+      "developer": "あいみょん",
       "publisher": null,
-      "description": "日向坂46が毎年12月に開催してきた恒例ライブ「ひなくり」を約4年ぶりに復活させる。2022年を最後に途絶えていたが、今回は単独会場ではなく3都市を回るアリーナツアー形式となる。11月21日から23日の兵庫・神戸ワールド記念ホールを皮切りに、12月9日から11日は東京・国立代々木競技場第一体育館、12月22日から24日は愛知・日本ガイシホールと続き全9公演。チケットはファンクラブ抽選先行およびLemino各種先行の受付が9月9日12時に始まる。価格はLeminoスペシャルシート1万7000円、全席指定と親子・女性エリアが各1万1000円。",
+      "description": "あいみょんが、メジャーデビュー10周年を記念して2027年2月6日の神奈川・ぴあアリーナMMを皮切りに、全国14都市36公演の大規模アリーナツアー「AIMYON TOUR 2027」を開催する。7月11日の沖縄・沖縄サントリーアリーナまで続く自身最大規模のツアーで、バンド編成で臨む。これに先立ち、デビュー記念日の2026年11月30日・12月1日には日本武道館公演も行われる。チケットは9月9日発売のベストアルバム封入の10周年記念カードのQRコードから先行予約を受け付ける。",
       "genres": [
-        "J-POP"
+        "J-POP",
+        "アリーナツアー"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Hinatazaka46_members_at_Yokohama_Stadium.jpg/330px-Hinatazaka46_members_at_Yokohama_Stadium.jpg",
-      "source_url": "https://www.billboard-japan.com/d_news/detail/163948",
+      "image_url": null,
+      "source_url": "https://natalie.mu/music/news/681003"
+    },
+    {
+      "id": "ja-yoshii-kazuya-tour-2027-20270209",
+      "name": "吉井和哉 TOUR 2027 イ・キ・モ・ノ・エ・ネ・ジ・ー",
+      "release_date": "2027-02-09",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "フェスティバルホール（大阪ほか全国6都市7公演）"
+      ],
+      "developer": "吉井和哉",
+      "publisher": null,
+      "description": "吉井和哉が、約12年ぶりとなる8枚目のオリジナル・フルアルバム（2026年12月9日発売）を引っ提げ、2027年2月9日の大阪・フェスティバルホールを皮切りに全国6都市7公演のホールツアー「吉井和哉 TOUR 2027 イ・キ・モ・ノ・エ・ネ・ジ・ー」を開催する。仙台、名古屋、東京・国際フォーラムホールAなどを回り、3月18日の東京・SGC HALL ARIAKE公演で全日程を締めくくる。7月22日よりファンクラブ先行受付を開始している。",
+      "genres": [
+        "J-POP",
+        "ロック",
+        "ホールツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://www.yoshiikazuya.com/feature/tour2027",
       "presale": true,
-      "presale_datetime": "2026-09-09T12:00:00+09:00",
-      "presale_end_datetime": null,
-      "presale_url": null,
-      "general_sale": false,
-      "general_sale_datetime": null,
-      "general_sale_end_datetime": null,
-      "general_sale_url": null
+      "presale_datetime": null,
+      "presale_url": "https://www.yoshiikazuya.com/feature/tour2027"
     }
   ]
 }
