@@ -1,3 +1,10 @@
+## [2026-07-31 14:40] [EN 뉴스]
+뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
+- 신규 기사 6건: Orville Peck's Man Turned Mule Tour Hits General Sale July 31 / Quadeca's Life 1 Tour Reaches General On-Sale July 31 / Ride Book Here And Now 2027 UK Tour, General Sale July 31 / The National Book First Show Since 2024 at Spain's AB100 Festival / Rachel Chinouriri Sets Second Album for October 16 Release / THAO Announces Show Me Album and Six Fall US Headline Dates
+- 콘서트 링크 연결 1건(Orville Peck → en-orville-peck-mule-20260918) / 링크 없음 5건 (concerts.en.json 미등재)
+- 리서처 인계(leads.en.jsonl) 6건 append: Orville Peck 투어, Quadeca 투어, Ride UK 투어, The National AB100 단독공연, Rachel Chinouriri 앨범, THAO 앨범+투어
+- 스킵: JAY-Z 추가공연·EsDeeKid·Godsmack·Tyla·The Faint·Jodeci(7/31 온세일이지만 기존 기사에서 이미 다룸, 중복), Barack Obama UK 아레나 투어(강연 투어라 공연 뉴스 범주 밖), William Shatner 코첼라 2027(공식 라인업 발표 아닌 본인 발언), Roxette 투어 취소·Faith No More 재결합(7/26 발표로 48시간 초과)
+
 ## [2026-07-31 14:30] [KO 뉴스]
 뉴스 작성 완료 (한국 국내 공연 뉴스)
 - 신규 기사 4건: 존박 단독 콘서트 'BREAK!' 티켓 오픈(7/31), NCT 127 5th 투어 'NEO CITY - THE REDLINE' 포스터 공개(7/30), 인피니트 '무한대집회V' 인천 양일 전석 매진(7/30), 티파니 영 '2026 러브 앤 피스 페스티벌' 출연 취소(7/30)
