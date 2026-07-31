@@ -1,3 +1,11 @@
+## [2026-07-31 14:50] [JA 뉴스]
+뉴스 작성 완료 (일본 국내 공연 뉴스)
+- 신규 기사 4건: BAND-MAID 무도관 2days 오프닝액트 NEK! / Finally 도쿄·나고야·오사카 3바퀴 투어 / Tommy february6 라이브 필름 상영 재팬 투어 / A.B.C-Z 10th 앨범 + 전국 투어
+- 콘서트 링크 연결 0건 / 링크 없음 4건 (4건 모두 concerts.ja.json 미등재 → leads로 인계)
+- leads.ja.jsonl 5건 추가: BAND-MAID 무도관 파이널, Finally TAKE to GIVE 투어, Tommy The Screening Japan Tour, A.B.C-Z Concert Tour 2026, A.B.C-Z CONNECTION Vol.2
+- 스킵: CDJournal 07/30~31 신보·MV·타이업·방송 관련 다수(행동 유발 공지 아님), BABYMONSTER 돔공연 WOWOW 생중계(방송 소식), 이미 기사화된 07/30 건(Freckles·FESTIVAL de FRUE·Peter Gallway)
+- 참고: Billboard JAPAN·음악나탈리 목록 페이지는 캐시/차단으로 최신분 접근 불가 → CDJournal 중심으로 취재
+
 ## [2026-07-31 14:40] [EN 뉴스]
 뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
 - 신규 기사 6건: Orville Peck's Man Turned Mule Tour Hits General Sale July 31 / Quadeca's Life 1 Tour Reaches General On-Sale July 31 / Ride Book Here And Now 2027 UK Tour, General Sale July 31 / The National Book First Show Since 2024 at Spain's AB100 Festival / Rachel Chinouriri Sets Second Album for October 16 Release / THAO Announces Show Me Album and Six Fall US Headline Dates
