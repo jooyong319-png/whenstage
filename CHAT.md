@@ -1,3 +1,44 @@
+## [2026-07-31 09:45] [EN 리서처]
+리서치 완료 (영어권/글로벌 시장 공연)
+- 콘서트/투어 9→9(예정 5→5 + 백필 4→4), 발매 2→1, 페스티벌 2→2, 팬미팅 0→0 (후보→통과)
+- 뉴스 인계 처리 6건 중 5건 등재 (leads.en.jsonl 22건 중 16건은 이미 concerts.en.json에 있어 자동 스킵)
+- 신규 12개(예정 6 + 과거 백필 6) / 갱신 1개 (삭제 없음·전량 보존)
+- 과거 백필 6개 → **공연장 색인전환 6개**(SoFi Stadium / Citi Field / Grant Park / Zilker Park / Red Rocks Amphitheatre / The O2 Arena — 모두 1건→2건) / 기존 공연장 보강 0개
+- 표기 정리 1건 → **Madison Square Garden도 색인전환**(아래 [표기 정리] 참고). 합계 **색인 대상 공연장 1개 → 8개**
+- 티켓팅 진행중 4개 (추가 +4 / 해제 -0): Godsmack·Jodeci·The Faint·EsDeeKid 모두 7/31 10시(현지) 일반예매 개시
+- description 보강 0개 (기존 39건 전부 이미 영어 40단어 이상)
+- 총 등록 51개
+
+[신규 등재 — 예정 공연 6건]
+- Rush: Fifty Something - New York (8/1, Madison Square Garden) / rush.com 공식 공연 페이지 + Ticketmaster 이벤트 + msg.com 교차 확인. MSG 4연야(7/28·7/30·8/1·8/3) 중 3회차
+- Godsmack: The Rise of Rock World Tour - Airway Heights (10/9, Northern Quest Resort & Casino) / Blabbermouth 2026-07-29(published_time 확인) + The Music Universe·BroadwayWorld 교차 확인
+- Tony Iommi - From the Dark (10/23 발매, BMG) / Blabbermouth + Loudwire·Louder(loudersound)·mxdwn 교차 확인
+- Jodeci: Forever My Lady 35th Anniversary Tour - San Francisco (10/24, The Masonic) / Consequence 2026-07-28 + Pollstar·Yahoo(ABC 신디케이트) 교차 확인
+- The Faint: Fall 2026 US Tour - Springfield (10/30, The Regency Live) / Consequence 2026-07-28 + Bandsintown·Live Nation 아티스트 페이지 교차 확인
+- EsDeeKid: Council House Rat Tour - London (12/3, OVO Arena Wembley) / **공연장 공식 페이지(ovoarena.co.uk)에서 날짜·온세일 7/31 10:00·AXS 티켓 URL 직접 확인** + NME·Official Charts·Consequence 교차 확인
+
+[신규 등재 — 과거 백필 6건] (전부 release_date 오늘 이전 확인, approx=false, 티켓팅 필드 비움, 과거 시제 서술)
+- Beyonce: Cowboy Carter Tour - Los Angeles (2025-04-28, SoFi Stadium) / SoFi Stadium 공식 공지 + Variety 공연 리뷰·CBS LA
+- ATEEZ [In Your Fantasy] - New York (2025-07-13 20:00, Citi Field) / setlist.fm + Consequence 공연 리뷰·Songkick
+- Lollapalooza 2025 (2025-07-31~08-03, Grant Park) / ABC7 Chicago 셋타임 발표 + NBC Chicago·Variety. 4일치 festival_days 라인업 등재
+- Austin City Limits Music Festival 2025 (2025-10-03~05·10-12, Zilker Park) / KVUE 라인업 기사 + AOL·Holler. **일자별 라인업 공식 확인 불가로 festival_days는 비움**
+- Lorde: Ultrasound World Tour - Red Rocks (2025-10-14, Red Rocks Amphitheatre) / setlist.fm + Westword 공연 리뷰·Songkick
+- Radiohead: European Tour 2025 - London (2025-11-25, The O2 Arena) / Billboard(관객 동원 기록 기사) + The O2 공식·Radio X·setlist.fm
+
+[표기 정리 — 삭제 아님]
+- `en-monsta-x-nexus-newyork-20261006`의 platforms를 `"Infosys Theater at Madison Square Garden, New York, NY"` → `"Madison Square Garden(Infosys Theater), New York, NY"`로 수정. AGENTS.md §4-5 규칙대로 부속 홀을 괄호 안으로 넣어, 위 Rush MSG 항목과 같은 공연장으로 묶이게 했다(1건짜리 2개 → 2건짜리 1개)
+
+[검증 탈락]
+- Morgan Wallen "Been By Now"(2026-07-24 발매): 정규 앨범이 아닌 선공개 싱글 1곡이라 music_release 등재 가치가 낮다고 판단해 보류. 진행 중인 Still The Problem Tour의 개별 공연은 다음 사이클에서 별도 검토
+- Godsmack Atlantic City 10/23(Hard Rock Live at Etess Arena): 날짜·공연장 자체는 확인됐으나, 같은 투어의 다른 도시라 등재해도 1건짜리 공연장만 늘어나 지시서 3-B 함정 규정에 걸린다 — 투어 개막일(10/9)만 등재
+- EsDeeKid 북미 개막(9월, The Fillmore Charlotte): 개막일이 소스마다 "9월"·"9/12"로 갈려 특정일 확정 실패. 런던 공연이 공연장 공식 페이지로 확정돼 그쪽만 등재
+
+[비고]
+- **image_url 신규 12건 전부 null.** AXS·Ticketmaster는 지시서대로 이미지 소싱에서 제외했고, 위키미디어 커먼즈 재사용 가능 이미지를 이번 사이클에 검증할 여력이 없었다(백필 검증에 소진). Rush·Radiohead·Lorde·Beyonce·ATEEZ·Godsmack은 커먼즈에 자유 라이선스 사진이 있을 가능성이 높으니 **다음 실행 최우선 교체 대상**
+- publisher는 확인된 2건만 채움(Rush=Live Nation, Tony Iommi=BMG, 페스티벌 2건=C3 Presents). Jodeci·The Faint·EsDeeKid·Godsmack은 프로모터가 기사·티켓 페이지에 명시돼 있지 않아 null — 다음 사이클 보강 대상
+- 신규 1건짜리 공연장 4개 발생: Northern Quest Resort & Casino / The Masonic / The Regency Live / OVO Arena Wembley. 예정 공연 트랙이라 불가피하며, OVO Arena Wembley는 상시 공연이 많아 다음 회차 백필 1순위 타깃
+- 남은 EN 1건짜리 공연장 26개 중 백필 효율이 좋은 대형 회장: Ford Field / UBS Arena / Forest Hills Stadium / Ball Arena / Oakland Arena / AT&T Stadium / O2 Academy Brixton / Xfinity Mobile Arena. 다음 사이클 백필은 여기서 고를 것
+
 ## [2026-07-31 09:30] [KO 리서처]
 리서치 완료 (한국 국내 공연)
 - 콘서트/내한 7→6, 음원발매 4→0, 페스티벌 0→0, 팬미팅 1→1 (후보→통과)
