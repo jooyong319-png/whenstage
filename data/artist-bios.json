@@ -217,6 +217,48 @@
         "agency": null,
         "members": "솔로",
         "debut": "2016"
+      },
+      "박은빈": {
+        "text": "박은빈은 1996년 아역으로 데뷔해 30년 가까이 활동해 온 배우다. 드라마와 영화를 오가며 폭넓은 배역을 소화해 왔고, 어린 시절부터 쌓아 온 필모그래피를 바탕으로 안정적인 연기력을 인정받고 있다. 최근에는 데뷔 30주년을 기념한 첫 단독 팬 콘서트로 팬들과 직접 만나는 자리를 마련했다.",
+        "agency": "나무엑터스",
+        "members": "솔로",
+        "debut": "1996"
+      },
+      "벤슨 분": {
+        "text": "벤슨 분(Benson Boone)은 미국 워싱턴주 출신의 싱어송라이터다. 고등학교 시절 우연히 노래를 시작해 틱톡에 영상을 올리며 알려졌고, 2021년 싱글 'Ghost Town'으로 정식 데뷔했다. 2024년 발표한 'Beautiful Things'가 빌보드 핫 100 2위와 영국 싱글 차트 1위에 오르며 세계적인 팝 스타로 자리 잡았다.",
+        "agency": null,
+        "members": "솔로",
+        "debut": "2021"
+      },
+      "아틀러스": {
+        "text": "아틀러스(ATLUS)는 '페르소나'와 '진 여신전생' 시리즈로 잘 알려진 일본의 게임 개발·퍼블리싱 회사다. 독특한 세계관과 아트 디렉션뿐 아니라 재즈·팝·록을 넘나드는 게임 음악으로도 두터운 팬층을 확보했으며, 시리즈 음악을 밴드 편성으로 재현하는 라이브 투어를 정기적으로 열고 있다.",
+        "agency": null,
+        "members": null,
+        "debut": "1986"
+      },
+      "위켄드": {
+        "text": "위켄드(The Weeknd)는 캐나다 토론토 출신의 싱어송라이터 에이벌 테스파예의 활동명이다. 2011년 익명으로 공개한 믹스테이프 'House of Balloons'로 주목받았고, 어두운 분위기의 알앤비에 신스팝을 결합한 사운드로 독자적인 영역을 구축했다. 'Blinding Lights' 등 다수의 세계적 히트곡을 남겼다.",
+        "agency": "XO / 리퍼블릭 레코드",
+        "members": "솔로",
+        "debut": "2011"
+      },
+      "찰리 푸스": {
+        "text": "찰리 푸스(Charlie Puth)는 미국의 싱어송라이터이자 프로듀서다. 유튜브에 올린 커버 영상으로 알려진 뒤 2015년 'See You Again'이 세계적으로 크게 히트하며 이름을 알렸다. 직접 작곡·편곡·프로듀싱을 도맡는 것으로 유명하며, 완성도 높은 팝 멜로디와 화성 감각으로 평가받는다.",
+        "agency": "애틀랜틱 레코드",
+        "members": "솔로",
+        "debut": "2015"
+      },
+      "파이브 세컨즈 오브 서머": {
+        "text": "파이브 세컨즈 오브 서머(5 Seconds of Summer)는 2011년 호주 시드니에서 결성된 4인조 밴드다. 유튜브 커버 영상으로 팬층을 모은 뒤 2014년 첫 정규 앨범으로 세계 무대에 진출했다. 팝 펑크에서 출발해 신스팝과 얼터너티브 록을 오가며 사운드를 넓혀 왔다.",
+        "agency": null,
+        "members": "4인조",
+        "debut": "2014"
+      },
+      "프로미스나인": {
+        "text": "프로미스나인은 2018년 1월 24일 데뷔한 걸그룹이다. 2024년 말 기존 소속사와의 전속계약이 끝난 뒤 2025년 송하영·박지원·이나경·이채영·백지헌 5인 체제로 재편해 팀명을 그대로 유지한 채 활동을 이어가고 있다. 밝고 청량한 콘셉트의 곡들로 꾸준한 팬덤을 확보했다.",
+        "agency": "어센드엔터테인먼트",
+        "members": "5인조",
+        "debut": "2018.01.24"
       }
     },
     "en": {
@@ -447,6 +489,60 @@
         "agency": null,
         "members": "Solo",
         "debut": null
+      },
+      "ADÉLA": {
+        "text": "ADÉLA is a Slovak pop artist from Bratislava who has been billed as a pop provocateur since her first singles. She announced her debut album 'PRIMA' for release on September 4, 2026 via Capitol Records, working with executive producers Dylan Brady of 100 gecs and Blake Slatkin. Her songs pair maximalist hyperpop production with blunt, first-person writing.",
+        "agency": "Capitol Records",
+        "members": "Solo",
+        "debut": null
+      },
+      "ATEEZ": {
+        "text": "ATEEZ are an eight-member South Korean group who debuted on October 24, 2018. Built around cinematic concept albums and unusually physical choreography, they broke through internationally on the strength of relentless touring rather than domestic chart hits. Their releases are organised into long-running narrative series that carry across multiple albums.",
+        "agency": "KQ Entertainment",
+        "members": "Eight members",
+        "debut": "2018.10.24"
+      },
+      "Beyonce": {
+        "text": "Beyoncé is an American singer, songwriter and performer who first found fame as a member of Destiny's Child before releasing her solo debut 'Dangerously in Love' in 2003. Her later work moved toward long-form visual albums and genre projects, from the house-oriented 'Renaissance' to the country-facing 'Cowboy Carter'. She is also known for the scale and precision of her live productions.",
+        "agency": "Parkwood Entertainment / Columbia Records",
+        "members": "Solo",
+        "debut": "2003"
+      },
+      "EsDeeKid": {
+        "text": "EsDeeKid is a rapper from Liverpool who performs with his face covered and raps in a pronounced Scouse accent. He emerged in 2024 and broke through with the album 'Rebel' in 2025, drawing on cloud rap and trap with a laid-back, melodic delivery. His single 'Phantom' became one of the most-streamed UK rap tracks of the period.",
+        "agency": null,
+        "members": "Solo",
+        "debut": "2024"
+      },
+      "Jodeci": {
+        "text": "Jodeci are an American R&B quartet made up of two pairs of brothers: K-Ci and JoJo Hailey, and DeVanté Swing and Mr. Dalvin DeGrate. Their 1991 debut 'Forever My Lady', released on Uptown Records, brought a rougher, hip-hop-informed edge to R&B vocal groups and topped the R&B albums chart. DeVanté Swing wrote and produced most of the group's material.",
+        "agency": "Uptown Records / MCA",
+        "members": "Four members",
+        "debut": "1991"
+      },
+      "Radiohead": {
+        "text": "Radiohead are an English rock band formed in Abingdon, Oxfordshire in 1985, comprising Thom Yorke, Jonny and Colin Greenwood, Ed O'Brien and Philip Selway. After the guitar-driven 'Pablo Honey' and 'The Bends' they moved sharply toward electronic and experimental territory on 'OK Computer' and 'Kid A'. They have released independently since 2007.",
+        "agency": "XL Recordings",
+        "members": "Five members",
+        "debut": "1993"
+      },
+      "Rush": {
+        "text": "Rush were a Canadian rock trio formed in Toronto in 1968, best known in the line-up of Geddy Lee, Alex Lifeson and drummer-lyricist Neil Peart. Their music combined progressive rock's long forms and odd meters with hard rock power, and albums such as '2112' and 'Moving Pictures' became touchstones for musicians. The band stopped touring in 2015 and Peart died in 2020.",
+        "agency": "Anthem Records",
+        "members": "Trio",
+        "debut": "1974"
+      },
+      "The Faint": {
+        "text": "The Faint are a dance-punk band from Omaha, Nebraska, formed in 1995 and long associated with the Saddle Creek Records collective. They began as a guitar-based indie group before turning to synthesizers and drum machines on 'Danse Macabre', which defined their sound. Their live shows are built around heavy strobe and video work.",
+        "agency": "Saddle Creek Records",
+        "members": "Four members",
+        "debut": "1998"
+      },
+      "Tony Iommi": {
+        "text": "Tony Iommi is an English guitarist and the founding member of Black Sabbath, widely credited with shaping the sound of heavy metal. After losing the tips of two fingers in a factory accident he fitted homemade thimbles and detuned his guitar, producing the heavy, sludge-like riffs that became the band's signature. He has also released solo and collaborative albums outside Sabbath.",
+        "agency": null,
+        "members": "Solo",
+        "debut": "1968"
       }
     },
     "ja": {
@@ -821,6 +917,36 @@
         "agency": null,
         "members": "ソロ",
         "debut": null
+      },
+      "Perfume": {
+        "text": "Perfumeはあ〜ちゃん、かしゆか、のっちによる3人組テクノポップユニット。広島で結成され、2005年にメジャーデビューした。中田ヤスタカが手がける電子音と、緻密に構成されたダンスパフォーマンスを組み合わせたスタイルで知られ、演出面でもテクノロジーを積極的に取り入れている。",
+        "agency": "アミューズ",
+        "members": "3人組",
+        "debut": "2005"
+      },
+      "SEVENTEEN": {
+        "text": "SEVENTEENは13人組の韓国のグループで、2015年5月にデビューした。ヒップホップ・ボーカル・パフォーマンスの3つのユニットに分かれて活動する構成が特徴で、楽曲制作や振付にメンバー自身が深く関わる「自主制作アイドル」として知られる。大人数を生かした精度の高いフォーメーションが持ち味。",
+        "agency": "PLEDIS ENTERTAINMENT",
+        "members": "13人組",
+        "debut": "2015.05.26"
+      },
+      "米津玄師": {
+        "text": "米津玄師はシンガーソングライター。「ハチ」名義でボーカロイド楽曲を発表して注目を集め、2012年に本人名義のアルバム『diorama』で活動を始めた。作詞・作曲・編曲に加えイラストや映像も自ら手がけることが多く、ドラマ・アニメ・映画の主題歌でも広く知られている。",
+        "agency": "ソニー・ミュージックレーベルズ",
+        "members": "ソロ",
+        "debut": "2012"
+      },
+      "緑黄色社会": {
+        "text": "緑黄色社会は長屋晴子（Vo.）、小林壱誓（G）、peppe（Key）、穴見真吾（B）による男女混合4人組バンド。愛知県で2012年に結成され、2018年11月にエピックレコードジャパンからメジャーデビューした。「リョクシャカ」の愛称で親しまれ、伸びやかなボーカルとポップな鍵盤アレンジが特徴。",
+        "agency": "エピックレコードジャパン",
+        "members": "4人組",
+        "debut": "2018.11.07"
+      },
+      "雀斑 Freckles": {
+        "text": "雀斑 Frecklesは台湾のインディー・ポップバンド。2003年に結成され一度は解散したが、2014年に再結成した。ボーカル・ギターの林以樂（benben）を中心に、柔らかなメロディと軽やかなアレンジを聴かせるスタイルで、2017年のアルバム『Imperfect Lover』は台湾シティポップの代表作として日本でも評価された。",
+        "agency": null,
+        "members": "4人組",
+        "debut": "2003"
       }
     }
   }
