@@ -1,3 +1,11 @@
+## [2026-08-01 14:35] [EN 뉴스]
+뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
+- 신규 기사 3건: Yo La Tengo Void Scalped Hanukkah Tickets, Open New Lottery / Lollapalooza 2026 Streams on Hulu and Disney+ Through August 2 / North West and Molly Santana's Kimokawaii Tour Marked Cancelled
+- 콘서트 링크 연결 1건(Lollapalooza 2026 → en-lollapalooza-2026-20260730) / 링크 없음 2건
+- 리서처 인계 leads.en.jsonl 5건 append: Yo La Tengo 하누카 레지던시(12/4~11 Bowery Ballroom), Tame Impala Deadbeat Tour 북미 레그(~9/20 휴스턴), Ocean Way Festival 2026(Goldenvoice, 일정 확인 필요), John Mulaney Takes Manhattan 2027 뉴욕 9회, Audrey Hobert Staircase to Stardom 증설분
+- 스킵: Tyla A*POP 7/31 일반예매(7/27 기사에 이미 온세일 일자 포함 — 중복), Rachel Chinouriri 가을 투어 온세일(7/30 앨범 기사와 사안 중복), Massive Attack 싱가포르 입국금지·Modest Mouse 기타리스트 투어 이탈·William Shatner Coachella 2027 발언(가십/미확정 — 취재 대상 아님), Alkaline Trio UK 투어 취소(NME 게재일 7/4로 48시간 창 초과)
+- 소스 접근 메모: NME·BrooklynVegan 목록 페이지가 캐시된 구버전을 반환(각각 7/4, 2020년 기사)해 이번 회차는 Consequence·Stereogum 위주로 취재함. 다음 회차에서도 동일하면 개별 기사 URL 직접 접근 권장
+
 ## [2026-08-01 14:15] [KO 뉴스]
 뉴스 작성 완료 (한국 국내 공연 뉴스)
 - 신규 기사 3건: 웨이션브이 미니 8집 'Vision Wings' 8월 10일 발매(9월 KBS아레나 콘서트 투어 개막), '무명전설 전국투어' 대구 앵콜 공연 티켓 오픈(11월 21일 엑스코), 오마이걸 미미 데뷔 11년 만 솔로 싱글 8월 20일 발매
