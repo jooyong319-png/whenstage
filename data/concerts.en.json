@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-01",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -31,6 +31,31 @@
       "image_url": null,
       "source_url": "https://www.sofistadium.com/news/detail/beyonce-announces-details-for-cowboy-carter-tour-with-four-shows-at-sofi-stadium",
       "last_updated": "2026-07-31",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-jack-white-no-name-san-francisco-20250517",
+      "name": "Jack White: No Name Tour - San Francisco",
+      "release_date": "2025-05-17",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "The Masonic, San Francisco, CA"
+      ],
+      "developer": "Jack White",
+      "publisher": "Live Nation",
+      "description": "Jack White played The Masonic in San Francisco on May 17, 2025 as part of the No Name Tour, the theater run supporting his surprise-released album No Name. The show, promoted locally by radio station LIVE 105, drew on the full span of his catalogue, mixing No Name material with songs from The White Stripes and The Raconteurs alongside his solo work. The Masonic date sat within a spring leg that kept White in mid-sized rooms rather than arenas.",
+      "genres": [
+        "Rock",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Werchter070718_p2_%285_of_37%29_%2853977414178%29_%28cropped%29.jpg/500px-Werchter070718_p2_%285_of_37%29_%2853977414178%29_%28cropped%29.jpg",
+      "source_url": "https://www.livenation.com/event/G5vYZbpwQh-EA/jack-white-no-name-tour",
+      "presale": false,
+      "general_sale": false,
+      "last_updated": "2026-08-01",
       "last_researched_by": "en-researcher"
     },
     {
@@ -120,6 +145,81 @@
       "last_researched_by": "en-researcher"
     },
     {
+      "id": "en-nine-inch-nails-peel-it-back-oakland-20250806",
+      "name": "Nine Inch Nails: Peel It Back Tour - Oakland",
+      "release_date": "2025-08-06",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Oakland Arena, Oakland, CA"
+      ],
+      "developer": "Nine Inch Nails, Boys Noize",
+      "publisher": "Live Nation",
+      "description": "Nine Inch Nails opened the North American leg of the Peel It Back Tour at Oakland Arena on August 6, 2025. Trent Reznor and Atticus Ross were joined onstage by Robin Finck, Alessandro Cortini and Ilan Rubin, with Boys Noize supporting. The arena run continued through Portland, Vancouver, Chicago, Toronto, Boston, Brooklyn, Nashville and Houston before wrapping on September 18 at the Kia Forum in Los Angeles.",
+      "genres": [
+        "Industrial Rock",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Nine_Inch_Nails_-_20.06.2022_-_O2_Apollo_Manchester.jpg/500px-Nine_Inch_Nails_-_20.06.2022_-_O2_Apollo_Manchester.jpg",
+      "source_url": "https://www.theoaklandarena.com/events/detail/nine-inch-nails-peel-it-back-world-tour-2025",
+      "presale": false,
+      "general_sale": false,
+      "last_updated": "2026-08-01",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-linkin-park-from-zero-denver-20250903",
+      "name": "Linkin Park: From Zero World Tour - Denver",
+      "release_date": "2025-09-03",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "America/Denver",
+      "category": "concert_tour",
+      "platforms": [
+        "Ball Arena, Denver, CO"
+      ],
+      "developer": "Linkin Park, Jean Dawson",
+      "publisher": "Live Nation",
+      "description": "Linkin Park played Ball Arena in Denver on September 3, 2025 on the From Zero World Tour, the band's first major touring cycle in nearly a decade and the first with vocalist Emily Armstrong and drummer Colin Brittain. Jean Dawson opened the Denver show. The set paired From Zero tracks such as The Emptiness Machine, Heavy Is The Crown and Two Faced with older catalogue staples, and the tour ran to more than fifty dates across North America, Asia, Europe and Latin America.",
+      "genres": [
+        "Rock",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Linkin_Park_-_From_Zero_Lead_Press_Photo_-_James_Minchin_III.jpg/500px-Linkin_Park_-_From_Zero_Lead_Press_Photo_-_James_Minchin_III.jpg",
+      "source_url": "https://www.livenation.com/event/G5vzZbpwQK8z_/linkin-park-from-zero-world-tour-2025",
+      "presale": false,
+      "general_sale": false,
+      "last_updated": "2026-08-01",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-pulp-here-comes-more-queens-20250911",
+      "name": "Pulp: Here Comes More - Forest Hills",
+      "release_date": "2025-09-11",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Forest Hills Stadium, Queens, NY"
+      ],
+      "developer": "Pulp",
+      "publisher": null,
+      "description": "Pulp played Forest Hills Stadium in Queens on September 11, 2025 during the North American leg of their Here Comes More tour, the band's touring return behind the 2025 album More. Jarvis Cocker led a theatrical set that moved between new material and Different Class staples including Babies, with Common People held back for the finale. Reviewers singled out the show's saturated, shifting stage lighting and the band's precision, and the same North American run also took in Red Rocks Amphitheatre.",
+      "genres": [
+        "Britpop",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/PulpEventim290723_%28110_of_130%29_%2853082647673%29.jpg/500px-PulpEventim290723_%28110_of_130%29_%2853082647673%29.jpg",
+      "source_url": "https://www.jambase.com/show/pulp-forest-hills-stadium-20250911",
+      "presale": false,
+      "general_sale": false,
+      "last_updated": "2026-08-01",
+      "last_researched_by": "en-researcher"
+    },
+    {
       "id": "en-austin-city-limits-festival-2025-20251003",
       "name": "Austin City Limits Music Festival 2025",
       "release_date": "2025-10-03",
@@ -165,6 +265,31 @@
       "image_url": null,
       "source_url": "https://www.westword.com/music/lorde-red-rocks-concert-was-electrifying-photos-40791548/",
       "last_updated": "2026-07-31",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-billie-eilish-hit-me-hard-and-soft-belmont-park-20251025",
+      "name": "Billie Eilish: Hit Me Hard and Soft: The Tour - Belmont Park",
+      "release_date": "2025-10-25",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "UBS Arena, Belmont Park, NY"
+      ],
+      "developer": "Billie Eilish, Young Miko",
+      "publisher": "Live Nation",
+      "description": "Billie Eilish played the first of two nights at UBS Arena in Belmont Park on October 25, 2025 on Hit Me Hard and Soft: The Tour. Puerto Rican rapper Young Miko opened both evenings, and the pair of shows sold out within hours of going on sale. The tour was staged around a sustainability programme covering reduced greenhouse gas emissions, cuts to single-use plastic and expanded plant-based concessions at each venue.",
+      "genres": [
+        "Pop",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/BillieEilishO2140725-39_-_54665577407_%28cropped%29.jpg/500px-BillieEilishO2140725-39_-_54665577407_%28cropped%29.jpg",
+      "source_url": "https://ubsarena.com/event/billie-eilish-hit-me-hard-and-soft-the-tour/",
+      "presale": false,
+      "general_sale": false,
+      "last_updated": "2026-08-01",
       "last_researched_by": "en-researcher"
     },
     {
@@ -237,9 +362,12 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Enhypen_at_Golden_disc_awards.png/330px-Enhypen_at_Golden_disc_awards.png",
       "source_url": "https://www.theoaklandarena.com/events/detail/enhypen-1",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": "https://www.axs.com/events/1380740/enhypen-tickets"
+      "general_sale_url": "https://www.axs.com/events/1380740/enhypen-tickets",
+      "presale": false,
+      "last_updated": "2026-08-01",
+      "last_researched_by": "en-researcher"
     },
     {
       "id": "en-lollapalooza-2026-20260730",
@@ -316,9 +444,12 @@
       ],
       "image_url": null,
       "source_url": "https://www.jambase.com/article/djo-headline-tour-dates-summer-2026",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-03-20T10:00:00-04:00",
-      "general_sale_url": null
+      "general_sale_url": null,
+      "presale": false,
+      "last_updated": "2026-08-01",
+      "last_researched_by": "en-researcher"
     },
     {
       "id": "en-rush-fifty-something-new-york-20260801",
@@ -1179,6 +1310,63 @@
       "general_sale_url": null
     },
     {
+      "id": "en-rachel-chinouriri-i-think-i-spoke-too-soon-20261016",
+      "name": "Rachel Chinouriri - I think I spoke too soon",
+      "release_date": "2026-10-16",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "music_release",
+      "platforms": [
+        "Streaming",
+        "Digital",
+        "CD",
+        "Vinyl"
+      ],
+      "developer": "Rachel Chinouriri",
+      "publisher": "Parlophone / Atlas Artists",
+      "description": "British alt-pop singer-songwriter Rachel Chinouriri releases her second album, I think I spoke too soon, on October 16, 2026 through Parlophone and Atlas Artists. The record follows her 2024 debut What A Devastating Turn of Events and was written and recorded across London, Hereford and Los Angeles with returning collaborators APOB, Mary Weitz, Glen Roberts and Daniel Hylton-Nuamah alongside newcomers Lucy Dacus and Eli Teplin. Lead single One song away from crying, a synth-leaning pop track, arrived with the announcement on July 30.",
+      "genres": [
+        "Alternative Pop",
+        "Album"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Glaston2024_2806_300624_%282_of_173%29_%2853838112030%29_%28cropped%29.jpg/500px-Glaston2024_2806_300624_%282_of_173%29_%2853838112030%29_%28cropped%29.jpg",
+      "source_url": "https://www.rollingstone.com/music/music-news/rachel-chinouriri-new-single-album-i-think-i-spoke-too-soon-1235599351/",
+      "last_updated": "2026-08-01",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-the-national-ab100-san-sebastian-20261018",
+      "name": "The National and Friends - AB100, San Sebastian",
+      "release_date": "2026-10-18",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/Madrid",
+      "category": "concert_tour",
+      "platforms": [
+        "Kursaal Donostia, San Sebastian, Spain"
+      ],
+      "developer": "The National",
+      "publisher": null,
+      "description": "The National close the AB100 weekend at Kursaal Donostia in San Sebastian on October 18, 2026, playing an expanded \"and friends\" set that stands as their only confirmed concert of the year and their first live performance since the end of 2024. AB100 is a two-day gathering curated by band members Aaron and Bryce Dessner, running October 17 and 18 in the Basque Country, with Kevin Morby, Ben Howard, Jon Hopkins and Richard Reed Parry among the collaborators taking part. A limited members presale opened July 30 and general tickets go on sale August 3.",
+      "genres": [
+        "Indie Rock",
+        "Festival"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/PrimaveraBarcW1Jun22_%28104_of_318%29_%2852163773566%29.jpg/500px-PrimaveraBarcW1Jun22_%28104_of_318%29_%2852163773566%29.jpg",
+      "source_url": "https://relix.com/news/detail/the-national-confirm-only-2026-concert",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://www.kursaal.eus/",
+      "last_updated": "2026-08-01",
+      "last_researched_by": "en-researcher"
+    },
+    {
       "id": "en-jay-z-30th-anniversary-los-angeles-20261023",
       "name": "JAY-Z 30th Anniversary - Los Angeles",
       "release_date": "2026-10-23",
@@ -1260,6 +1448,63 @@
       "last_researched_by": "en-researcher"
     },
     {
+      "id": "en-orville-peck-man-turned-mule-sacramento-20261028",
+      "name": "Orville Peck: Man Turned Mule Tour - Sacramento",
+      "release_date": "2026-10-28",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Channel 24, Sacramento, CA (tour opener)"
+      ],
+      "developer": "Orville Peck",
+      "publisher": null,
+      "description": "Orville Peck opens the Man Turned Mule Tour at Channel 24 in Sacramento on October 28, 2026, launching a 19-date North American theater run behind his fourth album Mule. The itinerary moves through Anaheim, Phoenix, Denver, Minneapolis, Chicago, Philadelphia, Atlanta and Nashville, includes two nights at Brooklyn Paramount on November 9 and 10, and closes November 22 at The Paramount in Huntington, New York. Artist and Citi presales ran from July 28, with the general on-sale on July 31 at 10 a.m. local time.",
+      "genres": [
+        "Country",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Orville_Peck%2C_Roundhouse%2C_London.jpg/330px-Orville_Peck%2C_Roundhouse%2C_London.jpg",
+      "source_url": "https://news.pollstar.com/2026/07/27/orville-peck-announces-man-turned-mule-tour/",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-31T10:00:00-07:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://orvillepeck.com/tour",
+      "last_updated": "2026-08-01",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-thao-show-me-20261030",
+      "name": "THAO - Show Me",
+      "release_date": "2026-10-30",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "music_release",
+      "platforms": [
+        "Streaming",
+        "Digital",
+        "CD",
+        "Vinyl"
+      ],
+      "developer": "THAO",
+      "publisher": "Kill Rock Stars",
+      "description": "THAO returns to Kill Rock Stars with Show Me on October 30, 2026, her first new album in six years. The record was co-produced by THAO with Merrill Garbus and Nate Brenner of Tune-Yards and features guest turns from Neko Case, The Linda Lindas and Black Pumas guitarist Adrian Quesada. Lead single Sick Of The Times, credited with Tune-Yards and The Linda Lindas, introduced the album in late July, and a short West Coast and East Coast headline run follows in November.",
+      "genres": [
+        "Indie Rock",
+        "Album"
+      ],
+      "image_url": null,
+      "source_url": "https://stereogum.com/2506577/thao-announces-new-album-show-me-hear-sick-of-the-times-feat-tune-yards-the-linda-lindas/music",
+      "last_updated": "2026-08-01",
+      "last_researched_by": "en-researcher"
+    },
+    {
       "id": "en-the-faint-fall-tour-springfield-20261030",
       "name": "The Faint: Fall 2026 US Tour - Springfield",
       "release_date": "2026-10-30",
@@ -1285,6 +1530,37 @@
       "general_sale_datetime": "2026-07-31T10:00:00-05:00",
       "general_sale_url": "https://www.ticketmaster.com/the-faint-tickets/artist/717900",
       "last_updated": "2026-07-31",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-quadeca-life-1-tour-seattle-20261106",
+      "name": "Quadeca: The Life 1 Tour - Seattle",
+      "release_date": "2026-11-06",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "The Showbox, Seattle, WA"
+      ],
+      "developer": "Quadeca, Derby, Oleka",
+      "publisher": null,
+      "description": "Quadeca brings The Life 1 Tour to The Showbox in Seattle on November 6, 2026, one of 23 North American dates supporting his fifth album Life 1. The run opens October 10 at The Nile Theater in Mesa, Arizona and finishes November 10 at The Fonda in his native Los Angeles, with Derby and Oleka opening throughout. An artist presale ran July 29 and general tickets went on sale July 31 at 10 a.m. local time via Ticketmaster; a portion of tour proceeds goes to cancer research nonprofit City of Hope.",
+      "genres": [
+        "Hip-Hop",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Quadeca_Performance_%28cropped%29.jpg/500px-Quadeca_Performance_%28cropped%29.jpg",
+      "source_url": "https://consequence.net/2026/07/quadeca-2026-life-1-tour-hell-of-a-time-stream/",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-31T10:00:00-07:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://www.ticketmaster.com/quadeca-tickets/artist/3002632",
+      "last_updated": "2026-08-01",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1365,6 +1641,71 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Crowd_shot_of_Goose_performing_at_The_Capitol_Theatre_on_March_10%2C_2023.jpg/330px-Crowd_shot_of_Goose_performing_at_The_Capitol_Theatre_on_March_10%2C_2023.jpg",
       "source_url": "https://www.jambase.com/article/goose-goosemas-2026-atlantic-city",
       "last_updated": "2026-07-25",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-system-of-a-down-faith-no-more-sydney-20270122",
+      "name": "System of a Down & Faith No More - Australia & New Zealand 2027",
+      "release_date": "2027-01-22",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Australia/Sydney",
+      "category": "concert_tour",
+      "platforms": [
+        "Accor Stadium, Sydney",
+        "Marvel Stadium, Melbourne",
+        "Suncorp Stadium, Brisbane",
+        "Hnry Stadium, Wellington"
+      ],
+      "developer": "System of a Down, Faith No More",
+      "publisher": null,
+      "description": "System of a Down and Faith No More play four stadium shows across Australia and New Zealand in early 2027, opening January 22 at Accor Stadium in Sydney before Marvel Stadium in Melbourne on January 27, Suncorp Stadium in Brisbane on February 1 and Hnry Stadium in Wellington on February 7. The run marks Faith No More's first concerts in nearly a decade and System of a Down's first Australian dates since 2012. An artist mailing-list presale opened July 28 and general tickets went on sale July 31 with staggered start times in each market.",
+      "genres": [
+        "Metal",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/System_of_a_Down_live_in_Mexico_2026.jpg/500px-System_of_a_Down_live_in_Mexico_2026.jpg",
+      "source_url": "https://www.billboard.com/music/rock/system-of-a-down-faith-no-more-announce-australian-new-zealand-tour-1236303129/",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-01",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-ride-here-and-now-london-20270213",
+      "name": "Ride: Here And Now 2027 Tour - London",
+      "release_date": "2027-02-13",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "O2 Academy Brixton, London"
+      ],
+      "developer": "Ride",
+      "publisher": "Live Nation",
+      "description": "Oxford shoegaze band Ride play O2 Academy Brixton on February 13, 2027 as part of the six-date Here And Now UK tour, their first live shows in three years. Andy Bell, Mark Gardener, Steve Queralt and Laurence Colbert reunite for a set built around the band's classic material, returning to the venue 34 years after the 1992 concert filmed as Ride - Live at Brixton Academy. The tour opens February 12 in Bournemouth and closes February 19 in Glasgow; general tickets went on sale July 31 at 10am.",
+      "genres": [
+        "Shoegaze",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Ride_Primavera_2022.jpg/500px-Ride_Primavera_2022.jpg",
+      "source_url": "https://www.nme.com/news/music/ride-to-play-the-classics-on-here-and-now-2027-uk-tour-buy-tickets-3959774",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-31T10:00:00+01:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://www.ticketmaster.co.uk/ride-tickets/artist/2062264",
+      "last_updated": "2026-08-01",
       "last_researched_by": "en-researcher"
     },
     {
