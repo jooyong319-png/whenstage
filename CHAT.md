@@ -1,3 +1,11 @@
+## [2026-08-01 14:50] [JA 뉴스]
+뉴스 작성 완료 (일본 국내 공연 뉴스)
+- 신규 기사 5건: KEN THE 390主催〈CITY GARDEN〉町田開催・般若/OCTPATH追加(一般発売8/4) / YOASOBI アジア10都市ツアー타이틀〈超惑星〉決定・グッズ事前通販8/1 18時 / SUPER BEAVER 完売した初ドームツアー東京ドーム公演をWOWOW放送 / やまもとはると 投げ銭スタイル全国弾き語りツアー・会場公募 / MASS OF THE FERMENTING DREGS 6thアルバム『祝おう』8月リリース
+- 콘서트 링크 연결 0건 / 링크 없음 5건 (5건 모두 concerts.ja.json 미등재 — leads로 인계)
+- 리서처 인계 leads.ja.jsonl 5건 append: CITY GARDEN in MACHIDA(12/19 町田市民ホール), YOASOBI ASIA 10-CITY DOME & STADIUM TOUR "超惑星"(10월~2027), SUPER BEAVER 都会のラクダ DOME TOUR 2026(9/23 도쿄돔, 전 공연 완매), やまもとはると 全国弾き語りツアー(일정 미정·회장 공모중), MASS OF THE FERMENTING DREGS『祝おう』(8/12 선행판매)
+- 스킵: INI 「ANTHEM」비주얼 공개·Mrs. GREEN APPLE/muque/緑黄色社会/米津玄師 MV·PV 공개(공연·발매 확정 아닌 부수 콘텐츠), スピッツ「見知らぬ糸」배신 결정 및 ≠ME THE FIRST TAKE(티켓 동선 없음), NIGHTMARE 스페인 애니 이벤트 출연(일본 국내 개최분 아님), BE:FIRST/JO1 미국 데뷔 EP(일본 국내 행동 유발성 약함), ZORN×OZROSAURUS 영상작품화(사후 라이브 영상화)
+- 소스 메모: CDJournal 목록 페이지 + 개별 기사 URL 직접 접근으로 취재. Billboard JAPAN은 7/31~8/1 게재분에 신규 공연/티켓 공지가 거의 없어(YOASOBI 건은 CDJournal과 동일 사안) 이번 회차 채택분 없음
+
 ## [2026-08-01 14:35] [EN 뉴스]
 뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
 - 신규 기사 3건: Yo La Tengo Void Scalped Hanukkah Tickets, Open New Lottery / Lollapalooza 2026 Streams on Hulu and Disney+ Through August 2 / North West and Molly Santana's Kimokawaii Tour Marked Cancelled
