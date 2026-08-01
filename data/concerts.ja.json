@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-08-01",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -9,6 +9,37 @@
     "fanmeeting": "ファンミーティング"
   },
   "games": [
+    {
+      "id": "ja-bz-unite-02-yokohama-20250628",
+      "name": "B'z presents UNITE #02（Kアリーナ横浜）",
+      "release_date": "2025-06-28",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "festival",
+      "platforms": [
+        "Kアリーナ横浜"
+      ],
+      "developer": "B'z",
+      "publisher": null,
+      "description": "B'zがオーガナイザーを務めるロック・プロジェクト〈UNITE〉の第2弾が、2025年6月21日・22日・28日・29日の4日間、Kアリーナ横浜で開催された。前回からおよそ4年9カ月ぶりの開催で、日替わりで異なるアーティストがB'zと共演する形式が採られた。6月28日はMAN WITH A MISSIONが登場し、ほかの日程にはTHE YELLOW MONKEY、マキシマム ザ ホルモン、ONE OK ROCKが名を連ねた。各日とも15時30分開場、17時開演で行われた。",
+      "genres": [
+        "フェスティバル",
+        "ロック",
+        "複数アーティスト"
+      ],
+      "image_url": null,
+      "source_url": "https://natalie.mu/music/news/618196",
+      "festival_days": [
+        {
+          "date": "2025-06-28",
+          "lineup": [
+            "B'z",
+            "MAN WITH A MISSION"
+          ]
+        }
+      ]
+    },
     {
       "release_time": null,
       "release_date_approx": false,
@@ -32,6 +63,27 @@
         "幕張メッセ"
       ],
       "description": "都市型音楽フェスティバル〈サマーソニック〉の2025年東京公演が、8月16日・17日の2日間、千葉のZOZOマリンスタジアムと幕張メッセで開催された。ヘッドライナーはFALL OUT BOYと、サマソニ初出演となったALICIA KEYSが務めた。Official髭男dism、SixTONES、aespa、MAN WITH A MISSIONら国内外のアーティストが複数ステージに登場し、16日深夜には幕張メッセでm-floがキュレーターを務める〈ミッドナイトソニック〉も行われた。"
+    },
+    {
+      "id": "ja-fukuyama-masaharu-soul-osaka-20250830",
+      "name": "福山雅治「FUKUYAMA MASAHARU 35TH ANNIVERSARY DOME LIVE 2025 // SOUL」（京セラドーム大阪）",
+      "release_date": "2025-08-30",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "京セラドーム大阪"
+      ],
+      "developer": "福山雅治",
+      "publisher": null,
+      "description": "福山雅治のデビュー35周年を記念したドーム公演〈FUKUYAMA MASAHARU 35TH ANNIVERSARY DOME LIVE 2025 // SOUL〉が、2025年8月30日・31日に京セラドーム大阪で開催された。福山にとって7年ぶりとなるドーム公演で、この大阪公演を皮切りに埼玉・福岡を回る3都市6公演のドームツアーが始まった。初日は17時、2日目は16時に開演し、映画『ブラック・ショーマン』のテーマソングなど新曲も披露された。",
+      "genres": [
+        "J-POP",
+        "ロック"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Fukuyama_Masaharu_in_Taipei%2C_2013_cropped.jpg/250px-Fukuyama_Masaharu_in_Taipei%2C_2013_cropped.jpg",
+      "source_url": "https://www.thefirsttimes.jp/news/0000678595/"
     },
     {
       "release_time": null,
@@ -99,6 +151,48 @@
       "description": "Perfumeが結成25周年とメジャーデビュー20周年を締めくくる公演として、2025年9月22日・23日に東京ドームで2デイズを開催した。同会場でのライブは2020年の〈P Cubed〉以来5年ぶりで、アルバム『ネビュラロマンス』の世界観を軸にした構成が組まれた。最終日の9月23日公演は世界に向けたライブ配信も実施され、アニバーサリーイヤーの集大成となるステージが披露された。"
     },
     {
+      "id": "ja-number-i-no2-kobe-20251105",
+      "name": "Number_i LIVE TOUR 2025 No.Ⅱ（神戸公演）",
+      "release_date": "2025-11-05",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "神戸ワールド記念ホール"
+      ],
+      "developer": "Number_i",
+      "publisher": null,
+      "description": "Number_iの全国アリーナツアー〈Number_i LIVE TOUR 2025 No.Ⅱ〉神戸公演が、2025年11月5日・6日に神戸ワールド記念ホールで行われた。9月22日に発表された2ndフル・アルバム『No.Ⅱ』を携えたツアーで、10月11日の札幌公演から始まった長丁場の一部にあたる。初日は18時開演、2日目は13時30分と18時の2回公演。平野紫耀・神宮寺勇太・岸優太それぞれのソロ曲を含む構成でステージが組まれた。",
+      "genres": [
+        "J-POP",
+        "アイドル"
+      ],
+      "image_url": null,
+      "source_url": "https://tobe-official.jp/artists/number_i/news/1333"
+    },
+    {
+      "id": "ja-txt-act-tomorrow-saitama-20251115",
+      "name": "TOMORROW X TOGETHER WORLD TOUR ＜ACT : TOMORROW＞ IN JAPAN（埼玉公演）",
+      "release_date": "2025-11-15",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "ベルーナドーム"
+      ],
+      "developer": "TOMORROW X TOGETHER",
+      "publisher": null,
+      "description": "TOMORROW X TOGETHERの〈TOMORROW X TOGETHER WORLD TOUR ＜ACT : TOMORROW＞ IN JAPAN〉埼玉公演が、2025年11月15日・16日にベルーナドームで開催された。日本デビュー5周年の節目に実施された自身初の5大ドームツアーの開幕にあたる公演で、両日とも15時開場・17時開演。この後、名古屋・福岡・東京・大阪へと巡演が続いた。一般席は16,500円（税込）、MOA会員向けのプレミアム席アップグレードも用意された。",
+      "genres": [
+        "K-POP",
+        "来日"
+      ],
+      "image_url": null,
+      "source_url": "https://txt-official.jp/schedule/detail.php?sid=udFZlOtygSE%3D"
+    },
+    {
       "release_time": "18:00",
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
@@ -119,6 +213,27 @@
         "京セラドーム大阪"
       ],
       "description": "SEVENTEENのワールドツアー〈[NEW_]〉日本公演のうち大阪公演が、2025年12月4日・6日・7日に京セラドーム大阪で行われた。いずれも開場16時・開演18時で、日本国内では4大ドームを回る全10公演が組まれた。全メンバーのソロ曲を初めて収録した最新作を軸に、30曲以上・約3時間半に及ぶセットが披露された。スタンド指定席は1万7000円で、公演直前には機材開放席の追加販売も行われた。"
+    },
+    {
+      "id": "ja-ling-tosite-sigure-budokan-20251227",
+      "name": "凛として時雨 日本武道館単独公演",
+      "release_date": "2025-12-27",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "日本武道館"
+      ],
+      "developer": "凛として時雨",
+      "publisher": null,
+      "description": "凛として時雨がおよそ12年ぶりとなる日本武道館単独公演を、2025年12月27日に開催した。2005年のインディーズ・デビュー作「#4」から20周年、結成から23年を数えるメモリアル・イヤーを締めくくる一夜で、17時開場・18時開演で行われた。チケットは指定席8,800円、高校生以下の学割指定席4,900円（いずれも税込）。全国ツアーの締めくくりとして、3人が久々に武道館のステージに立った。",
+      "genres": [
+        "ロック",
+        "J-ROCK"
+      ],
+      "image_url": null,
+      "source_url": "https://www.billboard-japan.com/d_news/detail/144971/"
     },
     {
       "id": "ja-nogizaka46-manatsu-tour-2026-20260613",
@@ -173,6 +288,43 @@
       ],
       "image_url": null,
       "source_url": "https://sakurazaka46.com/s/s46/news/detail/E00619"
+    },
+    {
+      "id": "ja-creator-dream-fes-2026-20260730",
+      "name": "Creator Dream Fes 2026 〜produced by Com.〜",
+      "release_date": "2026-07-30",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "festival",
+      "platforms": [
+        "東京ドーム"
+      ],
+      "developer": "コムドット",
+      "publisher": null,
+      "description": "動画クリエイター5人組コムドットが総合プロデュースする〈Creator Dream Fes 2026 〜produced by Com.〜〉が、2026年7月30日に東京ドームで開催された。2年ぶり3回目の開催で、コムドットのほかESPOIR TRIBE、しなこ、スカイピース、竹下☆ぱらだいす、とうあ、ばんばんざい、むくえながステージに登場した。AMUGIRIが新曲「ミツイ」を、ゆうたがソロ・デビュー曲「チャンリカ」を初披露するなど、一夜限りの内容となった。",
+      "genres": [
+        "フェスティバル",
+        "複数アーティスト",
+        "J-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://www.oricon.co.jp/news/2471346/full/",
+      "festival_days": [
+        {
+          "date": "2026-07-30",
+          "lineup": [
+            "コムドット",
+            "ESPOIR TRIBE",
+            "しなこ",
+            "スカイピース",
+            "竹下☆ぱらだいす",
+            "とうあ",
+            "ばんばんざい",
+            "むくえな"
+          ]
+        }
+      ]
     },
     {
       "id": "ja-ballistik-boyz-saku-20260731",
@@ -231,7 +383,7 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Fukuyama_Masaharu_in_Taipei%2C_2013_cropped.jpg/250px-Fukuyama_Masaharu_in_Taipei%2C_2013_cropped.jpg",
       "source_url": "https://fmsp.amob.jp/mob/news/news_show.php?site=F&ima=1201&aff=ROBO004&cd=12938",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-04-09T12:00:00+09:00",
       "presale_end_datetime": null,
       "presale_url": "https://eplus.jp/sf/detail/0018730001"
@@ -313,6 +465,31 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ja-abc-z-connection-vol2-20260819",
+      "name": "A.B.C-Z CONNECTION Vol.2",
+      "release_date": "2026-08-19",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "大阪国際会議場（グランキューブ大阪）",
+        "パシフィコ横浜（国立大ホール）"
+      ],
+      "developer": "A.B.C-Z",
+      "publisher": null,
+      "description": "A.B.C-Zが自ら企画するツーマン・ライヴ・フェスの第2弾。8月19日の大阪国際会議場 グランキューブ大阪、8月29日・30日のパシフィコ横浜 国立大ホールの計3公演で、日替わりゲストを迎えて共演する。ゲストは大阪公演がZiDol、横浜初日が新浜レオン、最終日が大黒摩季。秋から始まるワンマン・ツアーに先立つ夏の自主企画で、先着一般販売は8月1日12時にスタートする。",
+      "genres": [
+        "J-POP",
+        "アイドル"
+      ],
+      "image_url": null,
+      "source_url": "https://www.musicvoice.jp/news/310961/",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-01T12:00:00+09:00"
     },
     {
       "id": "ja-milet-made-of-glass-20260819",
@@ -792,6 +969,27 @@
       "source_url": "https://mikiki.tokyo.jp/articles/-/45580"
     },
     {
+      "id": "ja-abc-z-the-way-of-love-20260930",
+      "name": "A.B.C-Z『The Way of L.O.V-E』",
+      "release_date": "2026-09-30",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [
+        "CD／配信"
+      ],
+      "developer": "A.B.C-Z",
+      "publisher": "ポニーキャニオン",
+      "description": "A.B.C-Zの通算10枚目となるオリジナル・アルバム『The Way of L.O.V-E』が9月30日に発売される。7月にリリースした3rd EP『THE WAY』が現在進行形のA.B.C-Zを提示した作品だったのに対し、本作はそこからさまざまな形の\"L.O.V-E\"を描き出すミクスチャー・リバイバル・アルバムと位置づけられている。早期予約特典は「マジマジック」のミュージック・ビデオの場面を用いたソロ＆集合ステッカーのセット。10月からは本作を携えた全国ツアーも始まる。",
+      "genres": [
+        "J-POP",
+        "アルバム"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/abc-z/128426"
+    },
+    {
       "id": "ja-the-cribs-selling-a-vibe-20261002",
       "name": "THE CRIBS「Selling A Vibe」来日公演",
       "release_date": "2026-10-02",
@@ -919,6 +1117,32 @@
       "general_sale_datetime": "2026-08-22T10:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://t.pia.jp/pia/event/event.do?eventCd=2625547"
+    },
+    {
+      "id": "ja-abc-z-way-of-love-tour-20261014",
+      "name": "A.B.C-Z Concert Tour 2026 The Way of L.O.V-E",
+      "release_date": "2026-10-14",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "オリックス劇場",
+        "刈谷市総合文化センター（大ホール）",
+        "東京ガーデンシアター",
+        "福岡サンパレス"
+      ],
+      "developer": "A.B.C-Z",
+      "publisher": null,
+      "description": "A.B.C-Zが10枚目のアルバム『The Way of L.O.V-E』を携えた全国コンサート・ツアーを開催する。10月14日・15日の大阪オリックス劇場を皮切りに、10月19日・20日に愛知の刈谷市総合文化センター 大ホール、10月31日・11月1日に東京ガーデンシアター、11月24日に福岡サンパレスを回る4都市7公演。2027年にデビュー15周年を迎える5人が、さまざまな形の\"L.O.V-E\"を提示するミクスチャー・リバイバル・アルバムの楽曲をステージで届ける。",
+      "genres": [
+        "J-POP",
+        "アイドル"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/abc-z/128426",
+      "presale": false,
+      "general_sale": false
     },
     {
       "id": "ja-charlie-puth-2026-20261016",
@@ -1059,6 +1283,31 @@
       "general_sale_url": null
     },
     {
+      "id": "ja-band-maid-world-tour-final-20261113",
+      "name": "BAND-MAID WORLD TOUR 2026 FINAL（日本武道館）",
+      "release_date": "2026-11-13",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "日本武道館"
+      ],
+      "developer": "BAND-MAID",
+      "publisher": null,
+      "description": "メイド服姿でハードなサウンドを鳴らす5人組、BAND-MAIDが現在開催中の\"BAND-MAID WORLD TOUR 2026\"のファイナルとして、11月13日・14日の2日間、日本武道館に立つ。2021年に予定しながら中止となった武道館公演の再挑戦であり、バンドにとって悲願のステージとなる。オープニング・アクトには今年メジャー・デビューした4人組ガールズ・ロック・バンドNEK!が両日出演。初日は18時、2日目は17時開演。11月公演のオフィシャル先行は8月1日正午から受付が始まる。",
+      "genres": [
+        "ロック",
+        "J-ROCK"
+      ],
+      "image_url": null,
+      "source_url": "https://gekirock.com/news/2026/07/bandmaid_oa_neki.php",
+      "presale": true,
+      "presale_datetime": "2026-08-01T12:00:00+09:00",
+      "presale_url": "https://l-tike.com/bandmaid/",
+      "general_sale": false
+    },
+    {
       "id": "ja-5-seconds-of-summer-2026-20261121",
       "name": "5 SECONDS OF SUMMER 来日公演2026",
       "release_date": "2026-11-21",
@@ -1184,6 +1433,29 @@
       ],
       "image_url": null,
       "source_url": "https://www.cdjournal.com/news/two-door-cinema-club/126242"
+    },
+    {
+      "id": "ja-khalid-japan-2026-20261203",
+      "name": "カリード（Khalid）来日公演2026",
+      "release_date": "2026-12-03",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ガーデンシアター"
+      ],
+      "developer": "Khalid",
+      "publisher": null,
+      "description": "米テキサス出身のシンガー・ソングライター、カリード（Khalid）が12月3日に東京ガーデンシアターで公演を行う。単独での来日はおよそ8年ぶり。昨年発表したアルバム『After the Sun Goes Down』を携えたワールド・ツアー\"It's Always Summer Somewhere\"の一環で、開場18時・開演19時。チケットはGOLD席42,800円、SS席18,800円、S席12,800円、A席9,800円（すべて税込）で、ミート＆グリートなどのVIPアップグレードも用意される。",
+      "genres": [
+        "R&B",
+        "来日"
+      ],
+      "image_url": null,
+      "source_url": "https://nme-jp.com/news/170008/",
+      "presale": false,
+      "general_sale": false
     },
     {
       "id": "ja-kuwata-keisuke-natsumatsuri-2026-add-20261216",
