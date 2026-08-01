@@ -1,3 +1,38 @@
+## [2026-08-01 09:40] [EN 리서처]
+리서치 완료 (영어권/글로벌 시장 공연)
+- 콘서트/투어 9→5, 발매 4→2, 페스티벌 0→0, 팬미팅 0→0 (후보→통과)
+- 뉴스 인계 처리 27건 중 5건 등재 (나머지 22건 중 20건은 이미 concerts.en.json에 등재돼 자동 스킵, 2건은 아래 검증 탈락)
+- 신규 12개(예정 7 + 과거 백필 5) / 갱신 2개 (삭제 없음·전량 보존)
+- 과거 백필 5개 → **공연장 색인전환 5개**(The Masonic, San Francisco / Oakland Arena / Ball Arena, Denver / Forest Hills Stadium, Queens / UBS Arena, Belmont Park) / 기존 공연장 보강 0개
+  · 예정 공연 등재로 O2 Academy Brixton(Ride)·The Showbox, Seattle(Quadeca)도 1건→2건 전환
+  · **EN 공연장 색인 8/36 → 15/42**로 개선. 백필 항목은 전부 "기존 1건짜리 공연장의 다른 아티스트 과거 공연"으로만 골랐고, 같은 투어의 다른 도시는 한 건도 넣지 않음
+- 티켓팅 진행중 30개 (추가 +5 The National·Orville Peck·Quadeca·SOAD&FNM·Ride / 해제 -2 ENHYPEN 오클랜드·Djo 리치먼드 — 공연 종료)
+- description 보강 0개 (기존 전건 영어 40단어 이상 유지 확인)
+- 총 등록 63개
+
+[신규 등재 — 예정 공연]
+- The National and Friends - AB100, San Sebastian (10/18, Kursaal Donostia, 2024년 이후 첫 공연이자 2026년 유일 공연, 8/3 일반예매)
+- Orville Peck: Man Turned Mule Tour - Sacramento (10/28 Channel 24 개막, 19일정 극장 투어, 7/31 일반예매)
+- Rachel Chinouriri - I think I spoke too soon (10/16, Parlophone/Atlas Artists, 2집)
+- THAO - Show Me (10/30, Kill Rock Stars, 6년 만 신보, Tune-Yards 공동 프로듀스)
+- Quadeca: The Life 1 Tour - Seattle (11/6 The Showbox, 23일정 중 시애틀 스탑, 7/31 일반예매)
+- System of a Down & Faith No More - Australia & New Zealand 2027 (1/22 시드니 Accor Stadium 개막~2/7 웰링턴, FNM 10년 만 복귀)
+- Ride: Here And Now 2027 Tour - London (2027-02-13 O2 Academy Brixton, 1992년 브릭스턴 라이브 필름 34년 만의 귀환, 7/31 일반예매)
+
+[신규 등재 — 과거 백필]
+- Jack White: No Name Tour - San Francisco (2025-05-17, The Masonic)
+- Nine Inch Nails: Peel It Back Tour - Oakland (2025-08-06, Oakland Arena, 북미 레그 개막전)
+- Linkin Park: From Zero World Tour - Denver (2025-09-03, Ball Arena, w/ Jean Dawson)
+- Pulp: Here Comes More - Forest Hills (2025-09-11, Forest Hills Stadium)
+- Billie Eilish: Hit Me Hard and Soft: The Tour - Belmont Park (2025-10-25, UBS Arena, w/ Young Miko)
+
+[검증 탈락]
+- Ride 브릭스턴 공연 날짜 — NME 본문은 브릭스턴을 "2월 12일"로 적었으나 같은 기사 내 다른 문장·Clash·Official Charts 일정표·Live Nation 이벤트 페이지(Sat, 13 Feb 2027 19:00)가 모두 2월 13일로 일치. NME 오기로 판단해 **2027-02-13**으로 등재(12일은 본머스 개막)
+- Morgan Wallen - Been By Now (뉴스 인계 건): 2026-07-24 발매된 단일 싱글이고 이미 발매 완료 — 예정 공연 트랙 기준 미달, 앨범 단위 발매 아님으로 등재 보류
+- John Mulaney "Mulaney Takes Manhattan" 2027 (MSG·Carnegie Hall 등 9회차): 날짜·회장 확인은 됐으나 스탠드업 코미디라 concerts.en.json의 4개 카테고리(concert_tour/music_release/festival/fanmeeting) 어디에도 맞지 않아 보류
+- Roxette 40주년 북미 투어: Live Nation이 취소했다는 보도 확인. 다만 concerts.en.json에 원래 등재된 적이 없어 `[Cancelled]` 표기 대상 없음 — 조치 불필요
+
+[KO/JA 리서처 참고] 이번 사이클 크로스 등재(`related_locale_ids`) 건은 없음.
 ## [2026-08-01 09:30] [KO 리서처]
 리서치 완료 (한국 국내 공연)
 - 콘서트/내한 6→3, 음원발매 1→0, 페스티벌 0→0, 팬미팅 1→1 (후보→통과)
