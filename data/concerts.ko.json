@@ -10,6 +10,29 @@
   },
   "games": [
     {
+      "id": "ko-edc-korea-2025-20250425",
+      "name": "2025 EDC KOREA",
+      "release_date": "2025-04-25",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "festival",
+      "platforms": [
+        "인천 인스파이어 엔터테인먼트 리조트"
+      ],
+      "developer": null,
+      "publisher": "인섬니악(Insomniac)",
+      "description": "세계 최대 규모의 EDM 페스티벌 EDC(일렉트릭 데이지 카니발)가 2025년 4월 25일과 26일 인천 인스파이어 엔터테인먼트 리조트에서 열렸다. 2019년 이후 6년 만의 한국 개최로, 리조트 내 디스커버리 파크와 임시주차장 부지 약 5만 평을 활용해 키네틱 필드·써킷 그라운드·스테레오 블룸·네온 가든 등 네 개 스테이지가 운영됐다. 티켓은 GA 2일권 19만원, VIP 2일권 29만원으로 인터파크에서 판매됐다.",
+      "genres": [
+        "페스티벌",
+        "EDM"
+      ],
+      "image_url": null,
+      "source_url": "https://festivallife.kr/festival/?bmode=view&idx=134719395",
+      "last_updated": "2026-08-02",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-pentaport-rock-festival-20250801",
       "name": "2025 인천 펜타포트 락 페스티벌",
       "release_date": "2025-08-01",
@@ -30,6 +53,53 @@
       "image_url": null,
       "source_url": "https://sports.khan.co.kr/article/202503312319003",
       "last_updated": "2026-08-01",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-psy-heumppuck-show-2025-suwon-20250802",
+      "name": "싸이 흠뻑쇼 SUMMER SWAG 2025 - 수원",
+      "release_date": "2025-08-02",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "수원월드컵경기장(보조경기장)"
+      ],
+      "developer": "싸이(PSY)",
+      "publisher": "피네이션(P NATION)",
+      "description": "싸이가 2025년 8월 2일과 3일 이틀간 수원월드컵경기장 보조경기장에서 '흠뻑쇼 SUMMER SWAG 2025' 수원 공연을 열었다. 매년 여름 대량의 물을 쏟아부으며 진행하는 대표적인 야외 콘서트로, 이해 투어는 과천을 시작으로 수원·대구·부산·광주 등 전국을 돌았다. 수원 공연에 앞서 인근 주민을 위한 리허설 일정이 별도로 공지되기도 했다.",
+      "genres": [
+        "K-POP",
+        "콘서트",
+        "여름"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26007849_p.gif",
+      "source_url": "https://suwonworldcup.gg.go.kr/archives/61927",
+      "last_updated": "2026-08-02",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-busan-rock-festival-2025-20250926",
+      "name": "2025 부산국제록페스티벌",
+      "release_date": "2025-09-26",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "festival",
+      "platforms": [
+        "부산 삼락생태공원"
+      ],
+      "developer": null,
+      "publisher": "부산시·부산국제록페스티벌 조직위원회",
+      "description": "2025 부산국제록페스티벌이 2025년 9월 26일부터 28일까지 사흘간 부산 사상구 삼락생태공원에서 열렸다. 스웨이드(Suede), 스매싱 펌킨스, 베이비메탈이 날짜별 헤드라이너로 무대에 올랐고 자우림·씨엔블루·쏜애플·국카스텐·10CM·글렌체크·포터 로빈슨·도쿄 스카 파라다이스 오케스트라 등 국내외 밴드가 함께했다. 티켓은 3일권 24만2000원, 1일권 11만원으로 예스24 티켓에서 단독 판매됐다.",
+      "genres": [
+        "페스티벌",
+        "록"
+      ],
+      "image_url": null,
+      "source_url": "https://www.fnnews.com/news/202509261925182963",
+      "last_updated": "2026-08-02",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -125,6 +195,54 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-onerepublic-from-asia-with-love-seoul-20260223",
+      "name": "ONEREPUBLIC 'From Asia, With Love' 2026 in Seoul",
+      "release_date": "2026-02-23",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "잠실실내체육관"
+      ],
+      "developer": "원리퍼블릭(OneRepublic)",
+      "publisher": "라이브네이션코리아",
+      "description": "미국 팝록 밴드 원리퍼블릭이 2026년 2월 23일 서울 잠실실내체육관에서 내한 공연 'From Asia, With Love 2026 in Seoul'을 열었다. 아시아 투어의 일환으로 홍콩·일본·싱가포르·대만 등을 도는 일정 가운데 서울 무대가 포함됐다. 라이언 테더가 이끄는 이 밴드는 'Counting Stars', 'Apologize' 등의 히트곡으로 국내에서도 두터운 팬층을 확보하고 있으며, 이날 공연은 만 7세 이상 관람가로 진행됐다.",
+      "genres": [
+        "팝",
+        "록",
+        "내한"
+      ],
+      "image_url": null,
+      "source_url": "https://tickets.interpark.com/contents/notice/detail/11831",
+      "last_updated": "2026-08-02",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-oneokrock-detox-asia-tour-seoul-20260227",
+      "name": "ONE OK ROCK DETOX Asia Tour 2026 in Korea",
+      "release_date": "2026-02-27",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "잠실실내체육관"
+      ],
+      "developer": "원 오크 록(ONE OK ROCK)",
+      "publisher": null,
+      "description": "일본 록밴드 원 오크 록이 2026년 2월 27일과 28일 이틀간 서울 잠실실내체육관에서 'DETOX Asia Tour 2026 in Korea'를 열었다. 정규 앨범 'DETOX'를 앞세운 아시아 투어로, 2월 21일 방콕에서 출발해 서울에 이어 마닐라·싱가포르·타이베이·쿠알라룸푸르·홍콩·상하이·자카르타로 이어진 일정이었다. 국내 공연은 만 12세 이상 관람가로 진행됐다.",
+      "genres": [
+        "J-POP",
+        "밴드",
+        "내한"
+      ],
+      "image_url": null,
+      "source_url": "https://www.setlist.fm/setlist/one-ok-rock/2026/jamsil-arena-seoul-south-korea-7341d2a5.html",
+      "last_updated": "2026-08-02",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-zutomayo-intense-ii-seoul-20260314",
       "name": "ZUTOMAYO INTENSE II 「坐・ZOMBIE CRAB LABO」 in Seoul",
       "release_date": "2026-03-14",
@@ -168,6 +286,52 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/ONEOHTRIX_POINT_NEVER_%28cropped%29.jpg/330px-ONEOHTRIX_POINT_NEVER_%28cropped%29.jpg",
       "source_url": "https://korean-vibe.com/news/newsview.php?ncode=179564704746522",
       "last_updated": "2026-08-01",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-seoul-park-music-festival-2026-20260620",
+      "name": "2026 서울파크뮤직페스티벌",
+      "release_date": "2026-06-20",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "festival",
+      "platforms": [
+        "올림픽공원(88잔디마당)"
+      ],
+      "developer": null,
+      "publisher": "민트페이퍼(Mint Paper)",
+      "description": "2026 서울파크뮤직페스티벌이 2026년 6월 20일과 21일 이틀간 서울 올림픽공원 88잔디마당과 실내 공연장을 함께 활용해 열렸다. 잔나비·실리카겔·십센치·권진아·정승환·씨엔블루·몬스타엑스·산다라박 등 양일 합쳐 29팀이 출연했으며, 야외와 실내를 오가는 구성으로 진행됐다. 티켓은 1일권 11만9000원으로 NOL 티켓과 네이버예약에서 판매됐다.",
+      "genres": [
+        "페스티벌",
+        "인디"
+      ],
+      "image_url": null,
+      "source_url": "https://www.thetrippick.com/news/articleView.html?idxno=2722",
+      "last_updated": "2026-08-02",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-mumyeongjeonseol-daegu-20260718",
+      "name": "2026 무명전설 전국투어 콘서트 - 대구",
+      "release_date": "2026-07-18",
+      "release_time": "13:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "대구 엑스코"
+      ],
+      "developer": "무명전설",
+      "publisher": null,
+      "description": "MBN 오디션 프로그램 '무명전설'의 TOP7이 2026년 7월 18일 대구 엑스코에서 전국투어 대구 공연을 열었다. 이창민·장한별·성리·하루·정연호·은·황윤성이 이날 오후 1시와 오후 6시 두 차례 무대에 올랐으며, 공연 시간은 약 120분, 8세 이상 관람가로 진행됐다. 객석 반응이 뜨거워 같은 장소에서 11월 21일 앵콜 공연이 추가로 편성됐다.",
+      "genres": [
+        "트로트",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://www.stagepick.co.kr/performances/detail/214777",
+      "last_updated": "2026-08-02",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -231,7 +395,7 @@
       "timezone": "Asia/Seoul",
       "category": "concert_tour",
       "platforms": [
-        "수원종합운동장"
+        "수원월드컵경기장(보조경기장)"
       ],
       "developer": "싸이(PSY)",
       "publisher": "피네이션(P NATION)",
@@ -250,7 +414,9 @@
       "general_sale": true,
       "general_sale_datetime": "2026-06-04T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/"
+      "general_sale_url": "https://tickets.interpark.com/",
+      "last_updated": "2026-08-02",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-redvelvet-velvet-summer-20260803",
