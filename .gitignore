@@ -9,3 +9,7 @@ tsconfig.tsbuildinfo
 # 옵시디언 볼트 워크스페이스(위키를 옵시디언으로 열 때 생김) — 문서(.md)는 커밋하되
 # 워크스페이스 상태/플러그인 캐시는 잦은 변경이라 커밋 안 함
 .obsidian/
+
+# 빌드가 자동 생성 — 커밋해두면 rebase 때마다 충돌한다
+next-env.d.ts
+.claude/
