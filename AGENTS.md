@@ -51,6 +51,9 @@ data/                         # 데이터 (리서처만 수정)
 4. **스키마 임의 변경 금지** — 아래 §4에 없는 새 key 추가/삭제/개명 금지. 단 이미 정의된 선택 필드(`presale*`/`general_sale*`/`festival_days`/`related_locale_ids` 등)에 값을 채우는 것은 스키마 변경이 아니다 — 적극 채울 것
 5. **삭제 금지 — 예외 없음**: `concerts.*.json`의 기존 항목, `CHAT.md` 로그 전부 무기한 보존. "미래/최근 6개월" 조건은 신규 후보를 거르는 기준일 뿐 기존 항목 삭제 근거가 아니다
 6. **취소된 공연**: 삭제하지 말고 `description` 맨 앞에 `[취소됨]`/`[Cancelled]`/`[中止]` 표기 후 보존. 일정이 변경된 경우는 `release_date`를 새 날짜로 갱신(approx 재설정 포함)
+7. **⚠️ 값을 모를 때 `null`을 쓰지 말아야 하는 필드가 있다** — 배열 필드(`platforms`, `genres`)는
+   값을 못 찾았으면 **빈 배열 `[]`**를 쓴다. `null`을 쓰면 **배포가 통째로 막힌다**(§6-1 참고).
+   반대로 문자열 필드(`release_time`, `developer`, `image_url` 등)는 `null`이 정상이다.
 
 ---
 
@@ -175,6 +178,7 @@ festival_days: [
 - 공연 1건짜리 공연장 페이지는 그 공연 상세와 내용이 겹쳐 자동으로 `noindex` 처리된다
   (`isVenueIndexable`). 표기를 통일하는 것만으로 색인되는 페이지가 늘어난다.
 - 기존 데이터에 이미 같은 장소가 갈라져 있으면 표기를 맞춰 정리할 것(이건 '삭제'가 아니라 '표기 수정'이라 데이터 보존 원칙에 어긋나지 않는다).
+- **공연장을 못 찾았으면 `null`이 아니라 `[]`를 쓴다.** `null`은 배포를 막는다(§6-1).
 - 같은 원칙이 `developer`(아티스트명)에도 적용된다 — `normalizeArtistKey()`가 동일하게 동작한다.
   예: `"에스파(aespa)"`와 `"에스파"`는 한 아티스트로 묶이지만, `"에스파 aespa"`는 별도 아티스트가 된다.
 
@@ -210,14 +214,53 @@ festival_days: [
 
 ---
 
-## 6. JSON 무결성 검증 (push 전 필수)
+## 6. 데이터 검증 (push 전 필수)
+
 ```bash
-python3 -c "import json; d=json.load(open('data/concerts.ko.json')); print('KO', len(d['games']),'개')"
-python3 -c "import json; d=json.load(open('data/concerts.en.json')); print('EN', len(d['games']),'개')"
-python3 -c "import json; d=json.load(open('data/concerts.ja.json')); print('JA', len(d['games']),'개')"
+npm run validate
 ```
-깨진 채 push 절대 금지. 각 리서처는 **자기 언어 파일만** 검증하면 되지만, 위 3줄을 매번 다 돌려서
-다른 리서처가 실수로 깨뜨린 게 없는지도 확인하는 것을 권장한다(발견 시 CHAT.md에 기록만, 수정은 X — 남의 파일이므로).
+
+이 한 줄이면 된다. 아래를 한꺼번에 검사하고, 문제가 있으면 **어느 파일 / 어느 id / 어느 필드**인지
+찍어준다. `npm run build` 앞에도 자동으로 붙어 있어(`prebuild`) 깨진 데이터는 빌드까지 못 간다.
+
+- JSON 파싱 가능 여부
+- 배열이어야 하는 필드(`platforms`, `genres`)가 배열인지
+- 필수 필드(`id`, `name`, `release_date`, `category`)가 비어 있지 않은지
+- `id` 중복
+- `release_date`가 `YYYY-MM-DD` 형식인지
+
+각 리서처는 자기 언어 파일만 책임지면 되지만, 이 명령은 3개 파일을 다 보므로 다른 리서처가 깨뜨린
+것도 함께 보인다(발견 시 CHAT.md에 기록만, 수정은 X — 남의 파일이므로).
+
+### §6-1 ⚠️ `platforms: null`이 배포를 막는다 (2026-08-02 실제 사고)
+
+공연장을 못 찾아 `"platforms": null`로 써 넣은 레코드 4건 때문에 Vercel 배포가 실패했다.
+
+```
+TypeError: Cannot read properties of null (reading 'length')
+Error occurred prerendering page "/ko/concert/ko-wayv-vision-wings-20260810"
+```
+
+**왜 미리 안 걸렸나.** `lib/types.ts`가 `platforms: string[]`로 선언해도 **JSON은 타입 검사를 거치지
+않는다.** `npm run typecheck`도 통과하고, 그 페이지를 직접 열어보기 전까지는 아무 데서도 안 보인다.
+빌드의 프리렌더 단계에 가서야 터진다.
+
+**그래서 이렇게 쓴다.**
+
+```jsonc
+// ❌ 공연장을 모르겠다고 null
+"platforms": null
+
+// ✅ 모르면 빈 배열
+"platforms": []
+
+// ✅ 아는 대로
+"platforms": ["올림픽공원(88잔디마당)"]
+```
+
+다만 `platforms`가 비면 **공연장 페이지가 안 만들어진다**(`platforms[0]`이 공연장 페이지의 키다,
+§4-5 참고). 빈 배열은 "배포는 안 막지만 SEO 자산 하나를 포기하는" 선택이므로, 되도록 실제 공연장을
+찾아 채울 것. 온라인 공연처럼 물리적 장소가 없는 경우에만 `[]`가 정답이다.
 
 ---
 
