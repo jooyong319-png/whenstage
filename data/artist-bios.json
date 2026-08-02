@@ -295,6 +295,60 @@
         "agency": null,
         "members": "프로젝트 밴드",
         "debut": "2018"
+      },
+      "공유": {
+        "text": "공유는 본명 공지철로, 2001년 KBS 드라마 '학교 4'를 통해 연기자 활동을 시작한 배우다. 드라마 '커피프린스 1호점'과 '도깨비', 영화 '도가니'·'부산행'·'밀정' 등에서 폭넓은 배역을 소화하며 국내외에 두터운 팬층을 쌓았다. 데뷔 26년 만에 처음으로 아시아 팬미팅 투어 'The Long Take'를 열고 여러 도시에서 팬들과 만나고 있다.",
+        "agency": "매니지먼트 숲",
+        "members": "솔로",
+        "debut": "2001"
+      },
+      "무명전설": {
+        "text": "무명전설은 2026년 2월부터 5월까지 방송된 MBN 트로트 오디션 프로그램 '무명전설'에서 최종 선발된 TOP7을 가리킨다. 초대 우승자 성리를 비롯해 하루·장한별·황윤성·정연호·이창민 등이 이름을 올렸다. 프로그램 종영 이후에도 전국투어 콘서트를 이어가며 방송에서 보여준 가창력과 무대 장악력을 공연으로 선보이고 있다.",
+        "agency": null,
+        "members": "TOP7",
+        "debut": null
+      },
+      "미미": {
+        "text": "미미는 2015년 걸그룹 오마이걸로 데뷔해 랩과 퍼포먼스를 맡아온 멤버다. 그룹 활동과 함께 예능·라디오 등으로 활동 반경을 넓혀왔다. 2026년 8월 데뷔 약 11년 만에 첫 솔로 싱글을 내며 솔로 아티스트로 나서는데, 작사·작곡을 포함해 곡 전반의 프로듀싱에 직접 참여했다.",
+        "agency": "WM엔터테인먼트",
+        "members": "솔로",
+        "debut": "2015 (오마이걸)"
+      },
+      "박재범": {
+        "text": "박재범은 2008년 그룹 2PM으로 데뷔한 뒤 솔로 아티스트이자 프로듀서, 레이블 경영자로 활동 영역을 넓혀온 뮤지션이다. R&B와 힙합을 바탕으로 한 음악과 밴드 편성을 앞세운 라이브로 국내외 무대에 꾸준히 서 왔다. 2022년 자신의 회사 모어비전(MORE VISION)을 설립해 아티스트 겸 대표로 활동하고 있다.",
+        "agency": "모어비전(MORE VISION)",
+        "members": "솔로",
+        "debut": "2008 (2PM)"
+      },
+      "베리베리": {
+        "text": "베리베리는 젤리피쉬엔터테인먼트 소속 보이그룹으로 2019년 1월 데뷔했다. 팀명은 '진실'을 뜻하는 라틴어 'Veri'와 영어 'Very'를 합친 것으로, 다채로운 콘셉트와 퍼포먼스를 앞세워 활동해 왔다. 2026년에는 데뷔 후 처음으로 아레나 규모 단독 공연을 열고 아시아와 유럽을 아우르는 해외 투어에 나선다.",
+        "agency": "젤리피쉬엔터테인먼트",
+        "members": "7인조",
+        "debut": "2019.01.09"
+      },
+      "원 오크 록": {
+        "text": "원 오크 록(ONE OK ROCK)은 2005년 기타 토루를 중심으로 결성된 일본의 록밴드로, 보컬 타카·기타 토루·베이스 료타·드럼 토모야 4인으로 이뤄져 있다. 일본어와 영어를 오가는 가사와 강한 에너지의 라이브로 아시아를 넘어 북미·유럽까지 활동 무대를 넓혔다. 2021년 소속사에서 독립한 이후에도 대형 월드투어를 이어가고 있으며, 정규 앨범 'DETOX'를 앞세운 아시아 투어로 한국 무대에도 올랐다.",
+        "agency": null,
+        "members": "4인조",
+        "debut": "2007"
+      },
+      "원리퍼블릭": {
+        "text": "원리퍼블릭(OneRepublic)은 2002년 미국 콜로라도에서 라이언 테더와 잭 필킨스를 중심으로 결성된 팝록 밴드다. 2007년 데뷔 앨범 'Dreaming Out Loud'와 수록곡 'Apologize'로 세계적인 주목을 받았고, 이후 'Counting Stars', 'I Ain't Worried' 등으로 히트를 이어갔다. 리더 라이언 테더는 다른 아티스트의 곡을 다수 만든 프로듀서 겸 작곡가로도 잘 알려져 있다.",
+        "agency": "인터스코프 레코드",
+        "members": "5인조",
+        "debut": "2007"
+      },
+      "웨이션브이": {
+        "text": "웨이션브이(WayV)는 SM엔터테인먼트의 중국 현지 레이블 레이블 브이(LABEL V)를 통해 2019년 1월 데뷔한 그룹으로, NCT의 중화권 유닛에서 출발했다. 중국어 곡을 중심으로 활동하며 강렬한 퍼포먼스와 멤버들의 프로듀싱 참여로 색깔을 다져왔다. 미니 8집 '비전 윙스' 발매와 함께 세 번째 콘서트 투어 [BORN THIS Way]에 나선다.",
+        "agency": "레이블 브이(LABEL V)",
+        "members": null,
+        "debut": "2019.01.17"
+      },
+      "태민": {
+        "text": "태민은 2008년 그룹 샤이니로 데뷔해 2014년부터 솔로 활동을 병행해 온 아티스트다. 섬세한 춤선과 무대 위 표현력으로 'MOVE', 'Criminal' 등 퍼포먼스 중심의 솔로곡을 선보이며 독자적인 영역을 구축했다. 2024년 SM엔터테인먼트를 떠난 뒤 소속사를 옮겼고, 2026년 갤럭시코퍼레이션과 전속계약을 맺었다.",
+        "agency": "갤럭시코퍼레이션",
+        "members": "솔로",
+        "debut": "2008 (샤이니)"
       }
     },
     "en": {
@@ -678,6 +732,66 @@
       },
       "ZZ Top, Cheap Trick": {
         "text": "ZZ Top formed in Houston in 1969 and turned Texas blues-rock into arena-scale success with Eliminator and singles like \"Gimme All Your Lovin'.\" Following bassist Dusty Hill's death in 2021, longtime guitar tech Elwood Francis joined Billy Gibbons and Frank Beard. Cheap Trick, from Rockford, Illinois, shares the bill with a power-pop catalog anchored by \"I Want You to Want Me\" and the landmark live album Cheap Trick at Budokan.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Audrey Hobert": {
+        "text": "Audrey Hobert is an American singer and songwriter based in Los Angeles who studied screenwriting before turning to music. She first drew attention as a co-writer on Gracie Abrams' 2024 album, then broke through on her own with the 2025 single \"Sue Me\" and her debut album Who's the Clown?, released that August on RCA Records. Her writing leans on conversational, comic detail, and she has since scaled up from clubs to theater-sized headline rooms.",
+        "agency": "RCA Records",
+        "members": "Solo",
+        "debut": "2025"
+      },
+      "Yo La Tengo": {
+        "text": "Yo La Tengo formed in Hoboken, New Jersey in 1984 around the married pair of Ira Kaplan and Georgia Hubley, with James McNew joining on bass in 1992 to complete the long-running lineup. Across albums such as I Can Hear the Heart Beating as One and And Then Nothing Turned Itself Inside Out, the trio moves freely between feedback-drenched guitar workouts and hushed, melodic songwriting. Their annual multi-night Hanukkah benefit residency, built on surprise guests and comedians, has become a New York institution.",
+        "agency": "Matador Records",
+        "members": "Trio",
+        "debut": "1986"
+      },
+      "AC/DC, The Pretty Reckless": {
+        "text": "This listing covers a stadium bill headlined by AC/DC, the Australian rock band formed in Sydney in 1973 by brothers Malcolm and Angus Young, whose Back in Black remains one of the best-selling albums ever made. The Power Up Tour brought Angus Young and vocalist Brian Johnson back to North American stadiums. Opening is The Pretty Reckless, the New York rock band fronted by Taylor Momsen, who moved from acting into music and has led the group since 2009.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Deftones, The Mars Volta, Fleshwater": {
+        "text": "This bill pairs three generations of heavy alternative music. Deftones, formed in Sacramento in 1988, built a distinctive sound from downtuned guitars and Chino Moreno's shifts between whisper and scream on records like White Pony. The Mars Volta, launched in 2001 by Omar Rodríguez-López and Cedric Bixler-Zavala after At the Drive-In, trade in restless progressive rock. Fleshwater, a Massachusetts band featuring members of Vein.fm, opens with shoegaze-leaning alternative rock.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Kendrick Lamar, SZA": {
+        "text": "The Grand National Tour paired two of the most decorated artists of their generation on a co-headlining stadium run. Kendrick Lamar, from Compton, California, is the only rapper to win a Pulitzer Prize for Music and toured behind his 2024 album GNX. SZA, his longtime label mate at Top Dawg Entertainment, arrived on the back of SOS and its expanded reissue. Rather than splitting the night in two, the pair trade the stage across multiple sets.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Lil Wayne, French Montana": {
+        "text": "This listing covers Lil Wayne's Tha Carter VI Tour, a North American run supporting the sixth entry in an album series he began in 2004. The New Orleans rapper rose through Cash Money Records as a teenager and became one of the most influential and prolific figures in modern hip-hop. French Montana, the Moroccan-born rapper who built his career in the Bronx and is known for hits such as \"Unforgettable,\" joins the bill in support.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Pierce the Veil, Cavetown, Hot Mulligan, Crawlers": {
+        "text": "Pierce the Veil headline this bill on the I Can't Hear You World Tour, having grown out of the San Diego post-hardcore scene since forming in 2006. Cavetown is the project of British musician Robin Skinner, whose bedroom-recorded indie songs found a large young audience online. Hot Mulligan bring Michigan emo with shouted, wordy choruses, and Crawlers are a Liverpool alternative rock band who broke through in the early 2020s.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Tame Impala, Djo": {
+        "text": "Tame Impala is the psychedelic project of Australian musician Kevin Parker, who writes, plays and produces the studio albums himself and expands the material into a full band live. Since Innerspeaker and the widely influential Currents, the project has moved steadily toward dance-leaning pop, most recently on 2025's Deadbeat. Supporting on this leg is Djo, the synth-driven music project of actor and musician Joe Keery, known for \"End of Beginning.\"",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Tame Impala, Ninajirachi": {
+        "text": "This listing covers the Australian leg of Tame Impala's Deadbeat Tour, bringing Kevin Parker's psychedelic project home for arena shows including two nights in his native Perth. Tame Impala began as Parker's solo studio work and became one of Australia's biggest musical exports through Currents and The Slow Rush. Support comes from Ninajirachi, an Australian electronic producer and DJ whose club-facing pop productions have made her a fixture of the country's dance scene.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "The Killers, Jack White, Olivia Dean, Khruangbin, Sublime": {
+        "text": "This is the inaugural Ocean Way Festival lineup, staged on the sand at Santa Monica Beach by Goldenvoice, the promoter behind Coachella and Stagecoach. The Killers, the Las Vegas band behind Hot Fuss and \"Mr. Brightside,\" share headline billing with Jack White, the former White Stripes frontman, and British soul singer Olivia Dean. Also on the bill are Khruangbin, the Texas trio known for their instrumental blend of dub, soul and psychedelia, and Sublime, the Long Beach ska-punk band now fronted by Jakob Nowell.",
         "agency": null,
         "members": null,
         "debut": null
@@ -1133,6 +1247,48 @@
         "agency": null,
         "members": "3人組",
         "debut": "2002"
+      },
+      "BABYMONSTER": {
+        "text": "BABYMONSTERはYGエンターテインメント所属のガールズグループ。オーディションを経て結成され、2023年11月にデジタルシングル「BATTER UP」で活動を開始し、2024年に7人体制で本格デビューした。力強いボーカルとラップ、パフォーマンスを軸に、デビューから短期間でワールドツアーやドーム公演へと規模を広げている。",
+        "agency": "YGエンターテインメント",
+        "members": "7人組",
+        "debut": "2023.11.27"
+      },
+      "DEFTONES": {
+        "text": "DEFTONESは1988年に米カリフォルニア州サクラメントで結成されたオルタナティヴ・メタル・バンド。重心の低いギターと、囁きと叫びを行き来するチノ・モレノのボーカルを組み合わせ、『Around the Fur』『White Pony』などでジャンルの枠を越えた評価を確立した。2025年には10作目のアルバム『Private Music』を発表し、約15年ぶりとなる単独来日公演も行った。",
+        "agency": null,
+        "members": "4人組",
+        "debut": "1995"
+      },
+      "INI": {
+        "text": "INIはオーディション番組「PRODUCE 101 JAPAN SEASON2」から誕生したLAPONE ENTERTAINMENT所属の11人組グループ。2021年11月にシングル「A」でデビューし、緻密なパフォーマンスと楽曲ごとに振れ幅の大きいコンセプトで支持を集めている。2026年6月に結成5周年を迎え、アニバーサリーイヤーの活動を続けている。",
+        "agency": "LAPONE ENTERTAINMENT",
+        "members": "11人組",
+        "debut": "2021.11.03"
+      },
+      "MASS OF THE FERMENTING DREGS": {
+        "text": "MASS OF THE FERMENTING DREGSは2002年に神戸で結成されたオルタナティヴ・ロック・バンド。ベース&ボーカルの宮本菜津子を中心とする3ピース編成で、轟音と透明感のあるボーカル、繊細なコード感が同居するサウンドを特徴とする。メンバーチェンジや活動休止を経て再始動し、現在もセルフ・プロデュースを軸に作品を発表し続けている。",
+        "agency": null,
+        "members": "3人組",
+        "debut": "2007"
+      },
+      "Mr.Children": {
+        "text": "Mr.Childrenは1989年に結成され、1992年にアルバム『EVERYTHING』でメジャーデビューした4人組ロックバンド。桜井和寿のソングライティングを核に、「innocent world」「Tomorrow never knows」「HANABI」など時代を代表するヒット曲を数多く残してきた。デビュー以来アリーナ・スタジアム規模の全国ツアーを継続し、日本のポップミュージックに長く影響を与え続けている。",
+        "agency": "烏龍舎",
+        "members": "4人組",
+        "debut": "1992.05.10"
+      },
+      "SUPER BEAVER": {
+        "text": "SUPER BEAVERは2005年に結成された4人組ロックバンド。一度メジャーを離れ、インディーズでライブハウスを回り続けた時期を経て再びメジャーで活動する経歴を持つ。渋谷龍太のまっすぐな言葉と歌に支えられたライブが評価を広げ、結成21年目にして初のドームツアーを実現させた。",
+        "agency": null,
+        "members": "4人組",
+        "debut": "2009"
+      },
+      "YOASOBI": {
+        "text": "YOASOBIはコンポーザーのAyaseとボーカルのikura（幾田りら）による2人組ユニット。「小説を音楽にする」というコンセプトのもと、2019年に「夜に駆ける」を発表して大きな反響を呼び、以降もアニメ主題歌などを通じて国内外に活動を広げている。2026年からはアジア10都市を回るドーム&スタジアム規模のツアーを予定している。",
+        "agency": "ソニー・ミュージックエンタテインメント",
+        "members": "2人組",
+        "debut": "2019.11.16"
       }
     }
   }
