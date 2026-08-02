@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-01",
+  "last_updated": "2026-08-02",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -236,6 +236,52 @@
       "source_url": "https://www.billboard-japan.com/d_news/detail/144971/"
     },
     {
+      "id": "ja-mr-children-saturday-in-the-park-nagoya-20260425",
+      "name": "Mr.Children Tour 2026 \"Saturday in the park\"（名古屋公演）",
+      "release_date": "2026-04-25",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "日本ガイシホール（愛知）"
+      ],
+      "developer": "Mr.Children",
+      "publisher": "サンデーフォークプロモーション",
+      "description": "Mr.Childrenが2026年4月から11月にかけて全国28公演で回ったアリーナ・ツアーの名古屋公演。会場は日本ガイシホールで、4月25日は開場16:00・開演17:00、翌26日は開場15:00・開演16:00の2days として行われた。ツアー・タイトルの「Saturday in the park」は週末の公園に集うような開放感を掲げたもので、名古屋公演はサンデーフォークプロモーションが主催した。",
+      "genres": [
+        "J-ROCK",
+        "アリーナツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://www.sundayfolk.com/liveinfo/8cdfdjm",
+      "last_updated": "2026-08-02",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-deftones-japan-2026-tokyo-20260518",
+      "name": "DEFTONES JAPAN 2026（東京公演）",
+      "release_date": "2026-05-18",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ガーデンシアター"
+      ],
+      "developer": "DEFTONES",
+      "publisher": "クリエイティブマンプロダクション",
+      "description": "米サクラメント出身のオルタナティヴ・メタル・バンドが、単独としては約15年ぶりに行った来日公演の初日。2025年発表の10作目『Private Music』を携えたジャパン・ツアーで、5月18日に東京ガーデンシアター、19日にZepp Osaka Bayside、20日にCOMTEC PORTBASEを回った。約8,000人規模の東京公演は月曜開催ながらソールドアウトとなり、開場18:00・開演19:00で行われた。企画・制作・招聘はクリエイティブマンプロダクション。",
+      "genres": [
+        "オルタナティヴ・メタル",
+        "来日"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Deftones_Rock_im_Park_2016_%289_von_14%29.jpg/330px-Deftones_Rock_im_Park_2016_%289_von_14%29.jpg",
+      "source_url": "https://www.creativeman.co.jp/artist/2026/05deftones/",
+      "last_updated": "2026-08-02",
+      "last_researched_by": "ja-researcher"
+    },
+    {
       "id": "ja-nogizaka46-manatsu-tour-2026-20260613",
       "name": "乃木坂46「真夏の全国ツアー2026」",
       "release_date": "2026-06-13",
@@ -405,6 +451,29 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Takuya_Kimura_January_2023.jpg/250px-Takuya_Kimura_January_2023.jpg",
       "source_url": "https://candcstage.com/news/detail.php?id=1134178"
+    },
+    {
+      "id": "ja-motfd-iwaou-20260814",
+      "name": "MASS OF THE FERMENTING DREGS『祝おう』",
+      "release_date": "2026-08-14",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [
+        "CD／配信"
+      ],
+      "developer": "MASS OF THE FERMENTING DREGS",
+      "publisher": null,
+      "description": "兵庫出身のオルタナティヴ・ロック・バンドが約4年ぶりに届ける通算6枚目のアルバム。2022年の『Awakening:Sleeping』以来の作品で、「Simmer Summer」「Let It Go」「Hers」「誰かが傷を負うその瞬間を」「祝おう」「幽霊」の全6曲をセルフ・プロデュースで仕上げた。8月14日に全世界配信、8月12日にFLAKE RECORDSなどでCDを先行販売し、CDの一般発売は9月11日。ジャケットは漫画家の香崎藍がイラストを手掛けている。",
+      "genres": [
+        "オルタナティヴ・ロック",
+        "アルバム"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/mass-of-the-fermenting-dregs/128491",
+      "last_updated": "2026-08-02",
+      "last_researched_by": "ja-researcher"
     },
     {
       "id": "ja-summer-sonic-2026-20260814",
@@ -823,6 +892,52 @@
       "source_url": "https://www.universal-music.co.jp/ckb/news/2026-07-01/"
     },
     {
+      "id": "ja-ini-anthem-20260916",
+      "name": "INI『ANTHEM』",
+      "release_date": "2026-09-16",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [
+        "CD／配信"
+      ],
+      "developer": "INI",
+      "publisher": null,
+      "description": "11人組グループINIが9月16日にリリースする9枚目のシングル。2026年6月13日に結成5周年を迎えたグループにとって、アニバーサリー・イヤーの幕開けを飾る作品にあたる。表題曲「ANTHEM」には、これまで積み重ねてきたチームワークを前へ進む力へと昇華させる青春讃歌のようなメッセージが込められている。7月末には新ビジュアルが解禁され、予約キャンペーンも各店で展開されている。",
+      "genres": [
+        "J-POP",
+        "シングル"
+      ],
+      "image_url": null,
+      "source_url": "https://cf.ini-official.com/news/detail/4199",
+      "last_updated": "2026-08-02",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-befirst-watch-me-20260918",
+      "name": "BE:FIRST『WATCH ME』",
+      "release_date": "2026-09-18",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [
+        "CD／配信"
+      ],
+      "developer": "BE:FIRST",
+      "publisher": "BMSG",
+      "description": "BE:FIRSTが9月18日にリリースする初のグローバルEPで、グループにとってのUSデビュー作にあたる。所属事務所BMSGの設立日と同じ日付が発売日に選ばれた。海外の第一線で活躍するアーティスト・プロデューサー陣との共創による5曲が収録され、先行曲「BRUCE WAYNE feat. Flo Milli, ATL Jacob」は7月31日に配信とMV公開が行われている。「世界で活躍するボーイバンド」という結成時からの目標を形にする作品と位置づけられている。",
+      "genres": [
+        "J-POP",
+        "EP"
+      ],
+      "image_url": null,
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000252.000118793.html",
+      "last_updated": "2026-08-02",
+      "last_researched_by": "ja-researcher"
+    },
+    {
       "id": "ja-jisung-our-scene-20260918",
       "name": "チソン『2026 JISUNG FANMEETING IN JAPAN : OUR SCENE』",
       "release_date": "2026-09-18",
@@ -926,6 +1041,59 @@
       "festival_days": null
     },
     {
+      "id": "ja-babymonster-choom-japan-kyocera-20260922",
+      "name": "2026-27 BABYMONSTER WORLD TOUR [춤(CHOOM)] IN JAPAN（京セラドーム大阪公演）",
+      "release_date": "2026-09-22",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "京セラドーム大阪"
+      ],
+      "developer": "BABYMONSTER",
+      "publisher": null,
+      "description": "2024年デビューのYG所属ガールズ・グループBABYMONSTERによる2度目のワールド・ツアーの日本公演。7月の神戸を皮切りに福岡・横浜・千葉・名古屋を回り、9月22日・23日の京セラドーム大阪でグループ初のドーム公演を迎える。22日は開場17:00・開演19:00、23日は開場13:00・開演15:00。23日公演はWOWOWで生中継される。京セラドーム分の各プレイガイド先行 先着2次受付が8月16日23:59まで行われている。",
+      "genres": [
+        "K-POP",
+        "来日",
+        "ドーム公演"
+      ],
+      "image_url": null,
+      "source_url": "https://yg-babymonster-official.jp/live/2026-2027_worldtour_in_japan/",
+      "last_updated": "2026-08-02",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "presale_datetime": "2026-07-28T18:00:00+09:00",
+      "presale_end_datetime": "2026-08-16T23:59:00+09:00",
+      "presale_url": "https://eplus.jp/babymonster/"
+    },
+    {
+      "id": "ja-super-beaver-dome-tour-tokyo-20260922",
+      "name": "SUPER BEAVER「都会のラクダ DOME TOUR 2026」東京ドーム公演",
+      "release_date": "2026-09-22",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ドーム"
+      ],
+      "developer": "SUPER BEAVER",
+      "publisher": "ディスクガレージ",
+      "description": "結成21年目のSUPER BEAVERが初めて挑むドーム・ツアーの東京公演。2025年から続く「都会のラクダ」シリーズの到達点として企画され、8月1日・2日の京セラドーム大阪に続き、9月22日・23日に東京ドームで2days を行う。開場16:00・開演18:00。チケットは各先行と3月20日の一般発売で売り切れており、9月23日公演の模様はWOWOWで放送・配信されることが決まっている。",
+      "genres": [
+        "J-ROCK",
+        "ドームツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://sp.super-beaver.com/feature/dometour2026",
+      "last_updated": "2026-08-02",
+      "last_researched_by": "ja-researcher",
+      "general_sale": false,
+      "general_sale_url": "https://eplus.jp/sb26-dome/"
+    },
+    {
       "release_time": "19:30",
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
@@ -1027,7 +1195,7 @@
       "timezone": "Asia/Tokyo",
       "category": "festival",
       "platforms": [
-        "横浜赤レンガパーク 野外特設ステージ"
+        "横浜赤レンガパーク(野外特設ステージ)"
       ],
       "developer": "上白石萌音",
       "publisher": null,
@@ -1039,7 +1207,7 @@
       ],
       "image_url": null,
       "source_url": "https://www.cdjournal.com/news/kamishiraishi-mone/128351",
-      "last_updated": "2026-07-25",
+      "last_updated": "2026-08-02",
       "last_researched_by": "ja-researcher",
       "festival_days": [
         {
@@ -1194,6 +1362,30 @@
       "general_sale_datetime": "2026-08-03T12:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": null
+    },
+    {
+      "id": "ja-yoasobi-chowakusei-2026-20261024",
+      "name": "YOASOBI ASIA 10-CITY DOME & STADIUM TOUR 2026-2027 \"超惑星\"（国内公演）",
+      "release_date": "2026-10-24",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "京セラドーム大阪（大阪ほか国内5都市10公演）"
+      ],
+      "developer": "YOASOBI",
+      "publisher": null,
+      "description": "YOASOBIが2026年10月から2027年にかけて回るアジア10都市のドーム＆スタジアム・ツアー。7月31日にツアータイトルが「超惑星」に決まったことが発表され、キービジュアルと国内公演グッズの一部も解禁された。国内は10月24日・25日の京セラドーム大阪を皮切りに、バンテリンドーム ナゴヤ、大和ハウス プレミストドーム、みずほPayPayドーム福岡、12月5日・6日の東京ドームまで5都市10公演。日本人アーティストとして初のアジア10都市規模のドーム＆スタジアム公演となる。",
+      "genres": [
+        "J-POP",
+        "ドームツアー",
+        "アジアツアー"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Yoasobi.jpg/330px-Yoasobi.jpg",
+      "source_url": "https://tvfan.kyodo.co.jp/music/news-music/1520554",
+      "last_updated": "2026-08-02",
+      "last_researched_by": "ja-researcher"
     },
     {
       "release_time": null,
@@ -1480,6 +1672,44 @@
       "source_url": "https://southernallstars.jp/news/detail/4028"
     },
     {
+      "id": "ja-city-garden-machida-20261219",
+      "name": "CITY GARDEN in MACHIDA",
+      "release_date": "2026-12-19",
+      "release_time": "15:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "festival",
+      "platforms": [
+        "町田市民ホール（東京・町田）"
+      ],
+      "developer": null,
+      "publisher": "DREAM BOY",
+      "description": "KEN THE 390が主宰するヒップホップ・フェスが、初めて東京・町田で開催される。会場は町田市民ホールで開場14:00・開演15:00、終演は20:00の予定。8月1日発表の第二弾出演者として般若とOCTPATHが加わり、RHYMESTER・梅田サイファー・KEN THE 390と合わせた5組が出演する。町田市とのコラボレーションにより町田市役所1・2階がフリーエリアとして開放される。一般発売は8月4日10:00開始で、A席8,800円からプレミアム指定席19,800円まで。",
+      "genres": [
+        "ヒップホップ",
+        "フェス"
+      ],
+      "image_url": "https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/1790779/9416c4c43a860dd6ba17cfb15307ad62_81b87c7d31b4f3ca0813834a2182df5d.jpg",
+      "source_url": "https://www.citygarden.info/",
+      "last_updated": "2026-08-02",
+      "last_researched_by": "ja-researcher",
+      "festival_days": [
+        {
+          "date": "2026-12-19",
+          "lineup": [
+            "RHYMESTER",
+            "梅田サイファー",
+            "般若",
+            "KEN THE 390",
+            "OCTPATH"
+          ]
+        }
+      ],
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-04T10:00:00+09:00",
+      "general_sale_url": "https://eplus.jp/citygarden-machida/"
+    },
+    {
       "id": "ja-sumika-laurens-library-20270123",
       "name": "sumika Live Tour 2027『Laurens Library』",
       "release_date": "2027-01-23",
@@ -1488,7 +1718,7 @@
       "timezone": "Asia/Tokyo",
       "category": "concert_tour",
       "platforms": [
-        "三郷市文化会館 大ホール（埼玉ほか全国ホール＆アリーナ）",
+        "三郷市文化会館(大ホール)（埼玉ほか全国ホール＆アリーナ）",
         "大阪城ホール（ツアーファイナル）"
       ],
       "developer": "sumika",
@@ -1509,7 +1739,7 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-07-25",
+      "last_updated": "2026-08-02",
       "last_researched_by": "ja-researcher"
     },
     {
