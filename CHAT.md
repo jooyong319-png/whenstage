@@ -1,3 +1,39 @@
+## [2026-08-02 09:55] [JA 리서처]
+리서치 완료 (일본 국내 공연)
+- 콘서트/来日 6→3, 발매 4→3, 페스티벌 1→1, 팬미팅 0→0 (후보→통과, 예정 공연 트랙 기준. 백필 2건은 별도)
+- 뉴스 인계 처리 9건 중 4건 등재 (leads.ja.jsonl 미등재분 검토: YOASOBI 超惑星·SUPER BEAVER 東京ドーム·CITY GARDEN in MACHIDA·MASS OF THE FERMENTING DREGS『祝おう』 등재 / 나머지는 아래 검증 탈락 참고)
+- 신규 9개 / 갱신 2개(공연장 표기 정리) (삭제 없음·전량 보존)
+- 과거 백필 2개 → **공연장 색인전환 2개**(東京ガーデンシアター 1→2건, 日本ガイシホール 1→2건) / 기존 공연장 보강 0개
+- 티켓팅 진행중 21개 (추가 +2 / 해제 -0 — 기존 true 20건 중 공연 완료·판매 종료된 건 없음. 최근접이 8/14 SUMMER SONIC 2026)
+- description 보강 0개 (기존 62건 전부 120자 이상 충족 확인)
+- 총 등록 71개
+
+[신규 등재 상세]
+- YOASOBI ASIA 10-CITY DOME & STADIUM TOUR 2026-2027 "超惑星" 국내공연 (10/24 京セラドーム大阪 시작, 5도시 10공연) — Billboard JAPAN/エンタメOVO 7/31 기사 + 공식 사이트 일정
+- SUPER BEAVER 都会のラクダ DOME TOUR 2026 東京ドーム (9/22) — 공식 특설 사이트 SCHEDULE + CDJournal
+- 2026-27 BABYMONSTER WORLD TOUR [춤(CHOOM)] IN JAPAN 京セラドーム大阪 (9/22) — 공식 라이브 사이트 + 音楽ナタリー/ソニーミュージック
+- CITY GARDEN in MACHIDA (12/19 町田市民ホール) — 공식 사이트 + CDJournal, 一般発売 8/4 10:00 등재
+- MASS OF THE FERMENTING DREGS『祝おう』(8/14 全世界配信) — CDJournal + 音楽ナタリー/indiegrab
+- INI『ANTHEM』(9/16) — INI 공식 사이트 + 音楽ナタリー/TOWER RECORDS
+- BE:FIRST『WATCH ME』(9/18) — BMSG 프레스릴리스 + Billboard JAPAN/CDJournal
+- [백필] DEFTONES JAPAN 2026 東京公演 (5/18 東京ガーデンシアター) — クリエイティブマン 공식 + 激ロック ライブレポート
+- [백필] Mr.Children Tour 2026 "Saturday in the park" 名古屋公演 (4/25 日本ガイシホール) — サンデーフォークプロモーション 공식 + 공식 사이트/LiveFans
+
+[갱신]
+- ja-kamishiraishi-mone-bouquet-20261003 / ja-sumika-laurens-library-20270123 : 부속 스테이지·홀 표기를 괄호 안으로 이동(§4-5, 삭제 아님)
+
+[검증 탈락]
+- AKASAKI 1st World Tour "ONIGIRI"(리드 #9): 일정·회장 미발표로 날짜 확정 불가
+- Finally「TAKE to GIVE」투어(리드 #15): 2026년 10~12월 개최만 발표, 개별 공연일·회장 미확정
+- Tommy The Screening Japan Tour(리드 #16): 라이브 필름 상영 이벤트로 4개 카테고리에 해당하지 않음
+- やまもとはると 全国弾き語りツアー(리드 #22): 회장 공모 중, 일정 전무
+- 踊る！ディスコ室町 리릴리스 파티(리드 #13): 개최 자체는 확인되나 독립 출처 2개 이상 확보 실패(CDJournal 단일), 다음 사이클 재확인
+- JO1『ANIMAL』: 전미 데뷔 EP로 발매일 확정 정보를 이번 사이클 내 2개 출처로 못 맞춤, 다음 사이클 재확인
+
+[다음 사이클 메모]
+- 1건짜리 공연장 23개(전체 38개 중, 색인대상 15개). 백필 우선순위: LINE CUBE SHIBUYA / Zepp Haneda / フェスティバルホール / オリックス劇場 / 東京国際フォーラム계열 — 이번엔 과거 공연 날짜를 독립 2출처로 확정 못 해 2건에서 멈춤
+- SUPER BEAVER·BABYMONSTER는 京セラドーム大阪·東京ドーム 쪽 등재라 공연장 색인 전환에는 기여 없음(이미 2건 이상)
+
 ## [2026-08-02 09:40] [EN 리서처]
 리서치 완료 (영어권/글로벌 시장 공연)
 - 콘서트/투어 4→3, 발매 1→0, 페스티벌 1→1, 팬미팅 0→0 (후보→통과, 예정 공연 트랙 기준. 백필 6건은 별도)
