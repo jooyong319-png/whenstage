@@ -1,3 +1,25 @@
+## [2026-08-02 09:40] [EN 리서처]
+리서치 완료 (영어권/글로벌 시장 공연)
+- 콘서트/투어 4→3, 발매 1→0, 페스티벌 1→1, 팬미팅 0→0 (후보→통과, 예정 공연 트랙 기준. 백필 6건은 별도)
+- 뉴스 인계 처리 5건 중 4건 등재 (leads.en.jsonl 미등재분: Tame Impala Deadbeat 투어·Ocean Way Festival 2026·Yo La Tengo Hanukkah 2026·Audrey Hobert Staircase to Stardom — 전부 독립 출처 2개 이상 확인 후 등재)
+- 신규 10개 / 갱신 2개 (삭제 없음·전량 보존)
+  · 예정 신규 4건: Tame Impala Deadbeat Tour 호주 레그(10/24, RAC Arena Perth) / Ocean Way Festival 2026(9/26~27, Santa Monica Beach) / Yo La Tengo Hanukkah 2026(12/4~11, Bowery Ballroom) / Audrey Hobert Staircase To Stardom 가을 레그(9/29, Brooklyn Paramount)
+  · 갱신 2건: Lollapalooza 2026(7/30~8/2 개최 종료)·Rush Fifty Something 뉴욕(8/1 공연 완료) — general_sale 해제
+- 과거 백필 6개 → **공연장 색인전환 6개**(Xfinity Mobile Arena Philadelphia 1→2, Ford Field Detroit 1→2, AT&T Stadium Arlington 1→2, OVO Arena Wembley London 1→2, Gainbridge Fieldhouse Indianapolis 1→2, Jim Whelan Boardwalk Hall Atlantic City 1→2) / 기존 공연장 보강 0개
+  · Tame Impala Deadbeat Tour 필라델피아(2026-07-15) / AC/DC Power Up Tour 디트로이트(2025-04-30) / Kendrick Lamar & SZA Grand National Tour 알링턴(2025-04-26) / Pierce the Veil I Can't Hear You 런던(2025-09-23) / Deftones North American Tour 인디애나폴리스(2025-03-28) / Lil Wayne Tha Carter VI 애틀랜틱시티(2025-08-02)
+  · 백필 전량 release_date_approx:false·티켓팅 필드 비움·과거 시제 영어 서술로 등재. 등재 직전 release_date가 오늘(2026-08-02)보다 과거인지 전건 재확인
+  · 추가로 예정 공연 Tame Impala 호주 레그가 platforms에 RAC Arena Perth·Rod Laver Arena Melbourne을 함께 담아 두 곳도 1→2로 전환 — 이번 회차 총 색인전환 8개
+- 티켓팅 진행중 34개 (추가 +4 / 해제 -2)
+- description 보강 0개 (기존 항목 영어 40단어 미만 없음 — 보강 대상 없음)
+- 총 등록 73개 (공연장 45곳 중 23곳이 색인 대상 — 이전 42곳 중 15곳)
+
+[검증 탈락]
+- John Mulaney: Mulaney Takes Manhattan (2027): MSG·카네기홀 규모의 뉴욕 레지던시지만 스탠드업 코미디 공연이라 concert_tour/music_release/festival/fanmeeting 어느 카테고리에도 맞지 않음 — 카테고리 부적합으로 제외
+- Morgan Wallen 'Been By Now'(2026-07-24 발매): 정규 앨범이 아닌 단일 신곡 싱글이고 발매일도 이미 지남 — music_release 등재 가치 낮다고 판단해 보류
+- Audrey Hobert 브루클린 2회차 날짜: Nylon(7/27)은 9/30, Ticketmaster 목록에는 10/1로 표기돼 독립 출처 2개가 불일치 — 확정된 9/29 개막일만 등재하고 2회차 날짜는 description에 명시하지 않음
+- Tame Impala 북미 레그 종료일: Consequence 일정표는 9/19·9/20 휴스턴 2회차, 일부 매체는 9/19 종료로 표기 — 종료일 자체가 쟁점이라 북미 종료 공연은 등재하지 않고, 날짜가 확정된 필라델피아(7/15, 백필)와 호주 레그만 등재
+- O2 Apollo Manchester·Royale Boston·Variety Playhouse Atlanta·Showbox SoDo Seattle 등 나머지 1건짜리 공연장: 백필 한도(8건) 및 검증 여력 초과로 이번 회차 보류 — 다음 사이클 우선 후보
+
 ## [2026-08-02 09:05] [KO 리서처]
 리서치 완료 (한국 국내 공연)
 - 콘서트/내한 6→4, 음원발매 4→3, 페스티벌 0→0, 팬미팅 1→1 (후보→통과)
