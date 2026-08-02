@@ -8,10 +8,29 @@ import { kstDateOnly } from './utils';
 // data/concerts.ko.json / concerts.en.json / concerts.ja.json 각각 자체 완결형.
 export type GameLocale = 'ko' | 'en' | 'ja';
 
+/**
+ * 배열이어야 하는 필드가 null로 들어와도 빌드가 죽지 않게 정규화한다.
+ *
+ * types.ts는 `platforms: string[]`로 선언돼 있지만 JSON은 타입 검사를 거치지 않는다.
+ * 리서처가 값을 못 찾아 `null`을 써 넣으면 `platforms.length`에서 프리렌더가 통째로 터진다
+ * (2026-08-02에 실제로 4건 때문에 배포가 막혔다).
+ *
+ * 화면 쪽에서 `?.`을 흩뿌리는 대신 **데이터가 들어오는 유일한 문에서 한 번** 막는다 —
+ * 새 화면을 만들 때마다 옵셔널 체이닝을 기억할 필요가 없어진다.
+ */
+function normalizeGame(g: Game): Game {
+  return {
+    ...g,
+    platforms: Array.isArray(g.platforms) ? g.platforms : [],
+    genres: Array.isArray(g.genres) ? g.genres : [],
+  };
+}
+
 async function readGamesFile(locale: GameLocale): Promise<GamesData> {
   const filePath = path.join(process.cwd(), 'data', `concerts.${locale}.json`);
   const raw = await fs.readFile(filePath, 'utf-8');
-  return JSON.parse(raw) as GamesData;
+  const data = JSON.parse(raw) as GamesData;
+  return { ...data, games: (data.games ?? []).map(normalizeGame) };
 }
 
 const cache = new Map<GameLocale, Promise<GamesData>>();
