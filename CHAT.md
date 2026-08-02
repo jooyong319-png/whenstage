@@ -1,3 +1,11 @@
+## [2026-08-02 14:30] [EN 뉴스]
+뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
+- 신규 기사 3건: Um, Jennifer? Set Dirty Twice EP for August 21, Add Fall Tour / Chrome Sparks Announces Ball Of Light for September 11 / Peace Test Line Up Second Album Repercussion for August 14
+- 콘서트 링크 연결 0건 / 링크 없음 3건 (세 건 모두 concerts.en.json 미등재 — leads로 인계)
+- 리서처 인계 leads.en.jsonl 4건 append: Um, Jennifer? 'Dirty Twice' EP(8/21), Slothrust 가을 북미 투어 16회(10/27~11/18, Um Jennifer? 서포트), Chrome Sparks 'Ball Of Light'(9/11), Peace Test 'Repercussion'(8/14)
+- 스킵: Slipknot Sid Wilson 해고설(TMZ 단독·밴드 미확인, 가십) / Olivia Rodrigo의 Smashing Pumpkins 롤라팔루자 합류·Phish 버스트아웃 기록·Tori Amos/Fiddlehead 추모 커버(사후 공연 리뷰성 소식) / Massive Attack 싱가포르 입국금지(공연 액션 유발 아님) / Charli xcx 'I Want Your Sex' 클립(영화 홍보 영상, 공연/발매 공지 아님) / Alkaline Trio UK 투어 취소(NME 게재 7/4로 창 밖 — 전 회차와 동일 판단)
+- 소스 접근 메모: Consequence 카테고리·홈 페이지가 7/30자 캐시본을 반환했고 NME 목록은 7/4자, BrooklynVegan은 2020년 기사를 반환 — 이번 회차도 Stereagum 개별 기사 URL 직접 접근으로만 신선한 48시간 내 소식 확보. 8/1~2 주말이라 티켓 온세일 공지 자체가 거의 없어 발매 공지 위주로 선별함
+
 ## [2026-08-02 14:30] [KO 뉴스]
 뉴스 작성 완료 (한국 국내 공연 뉴스)
 - 신규 기사 3건: 공유 첫 아시아 팬미팅 투어 'The Long Take' 11월 28일 서울 피날레 / 원어스 이적 후 첫 월드투어 'FULL MOON' 10월 24~25일 서울 개막 / 던 3년 만의 신곡 'Too Much' 8월 7일 발매 확정
