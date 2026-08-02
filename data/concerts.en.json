@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-01",
+  "last_updated": "2026-08-02",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -9,6 +9,49 @@
     "fanmeeting": "Fan Meeting"
   },
   "games": [
+    {
+      "id": "en-deftones-north-american-tour-indianapolis-20250328",
+      "name": "Deftones: North American Tour 2025 - Indianapolis",
+      "release_date": "2025-03-28",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "America/Indiana/Indianapolis",
+      "category": "concert_tour",
+      "platforms": [
+        "Gainbridge Fieldhouse, Indianapolis, IN"
+      ],
+      "developer": "Deftones, The Mars Volta, Fleshwater",
+      "publisher": null,
+      "description": "Deftones played Gainbridge Fieldhouse on March 28, 2025, one arena stop on a spring North American tour that paired the Sacramento band with The Mars Volta. Fleshwater opened the evening at seven, The Mars Volta followed just before eight, and Deftones took the stage shortly after nine. The run drew heavily on the White Pony and Diamond Eyes catalogue.",
+      "genres": [
+        "Alternative Metal",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.setlist.fm/setlist/deftones/2025/gainbridge-fieldhouse-indianapolis-in-6b53eed6.html"
+    },
+    {
+      "id": "en-kendrick-lamar-sza-grand-national-arlington-20250426",
+      "name": "Kendrick Lamar & SZA: Grand National Tour - Arlington",
+      "release_date": "2025-04-26",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Chicago",
+      "category": "concert_tour",
+      "platforms": [
+        "AT&T Stadium, Arlington, TX"
+      ],
+      "developer": "Kendrick Lamar, SZA",
+      "publisher": null,
+      "description": "Kendrick Lamar and SZA brought the Grand National Tour to AT&T Stadium in Arlington on April 26, 2025, early in a co-headlining stadium run that followed Lamar's album GNX. The pair traded the stage across six acts rather than splitting the night in two, with Lamar opening on \"Wacced Out Murals\" and the two joining forces on \"All the Stars\" before a closing stretch of \"Peekaboo\" and \"DNA.\"",
+      "genres": [
+        "Hip Hop",
+        "R&B",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.setlist.fm/setlist/kendrick-lamar-and-sza/2025/atandt-stadium-arlington-tx-135fe9b9.html"
+    },
     {
       "id": "en-beyonce-cowboy-carter-los-angeles-20250428",
       "name": "Beyonce: Cowboy Carter Tour - Los Angeles (Opening Night)",
@@ -32,6 +75,27 @@
       "source_url": "https://www.sofistadium.com/news/detail/beyonce-announces-details-for-cowboy-carter-tour-with-four-shows-at-sofi-stadium",
       "last_updated": "2026-07-31",
       "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-acdc-power-up-detroit-20250430",
+      "name": "AC/DC: Power Up Tour - Detroit",
+      "release_date": "2025-04-30",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "America/Detroit",
+      "category": "concert_tour",
+      "platforms": [
+        "Ford Field, Detroit, MI"
+      ],
+      "developer": "AC/DC, The Pretty Reckless",
+      "publisher": null,
+      "description": "AC/DC returned to Detroit for the first time in nearly a decade on April 30, 2025, filling Ford Field on the North American leg of the Power Up Tour. The Pretty Reckless opened the stadium show. Angus Young and Brian Johnson worked through a career-spanning set that began with \"Stiff Upper Lip\" and ran through \"Thunderstruck,\" \"Back in Black\" and \"Highway to Hell\" before closing on \"For Those About to Rock.\"",
+      "genres": [
+        "Hard Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.setlist.fm/setlist/acdc/2025/ford-field-detroit-mi-b5ff5ce.html"
     },
     {
       "id": "en-jack-white-no-name-san-francisco-20250517",
@@ -145,6 +209,27 @@
       "last_researched_by": "en-researcher"
     },
     {
+      "id": "en-lil-wayne-tha-carter-vi-atlantic-city-20250802",
+      "name": "Lil Wayne: Tha Carter VI Tour - Atlantic City",
+      "release_date": "2025-08-02",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Jim Whelan Boardwalk Hall, Atlantic City, NJ"
+      ],
+      "developer": "Lil Wayne, French Montana",
+      "publisher": null,
+      "description": "Lil Wayne played Jim Whelan Boardwalk Hall on August 2, 2025 as part of Tha Carter VI Tour, a 34-city North American run supporting the sixth entry in his Carter album series and marking more than twenty years of the franchise. Tyga had been billed as support but withdrew from the date, and French Montana was announced in his place ahead of the Atlantic City show.",
+      "genres": [
+        "Hip Hop",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.setlist.fm/setlist/lil-wayne/2025/jim-whelan-boardwalk-hall-atlantic-city-nj-1344a195.html"
+    },
+    {
       "id": "en-nine-inch-nails-peel-it-back-oakland-20250806",
       "name": "Nine Inch Nails: Peel It Back Tour - Oakland",
       "release_date": "2025-08-06",
@@ -218,6 +303,27 @@
       "general_sale": false,
       "last_updated": "2026-08-01",
       "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-pierce-the-veil-i-cant-hear-you-london-20250923",
+      "name": "Pierce the Veil: I Can't Hear You World Tour - London",
+      "release_date": "2025-09-23",
+      "release_time": "17:30",
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "OVO Arena Wembley, London"
+      ],
+      "developer": "Pierce the Veil, Cavetown, Hot Mulligan, Crawlers",
+      "publisher": null,
+      "description": "Pierce the Veil headlined OVO Arena Wembley on September 23, 2025, the London stop of the I Can't Hear You World Tour and the largest UK headline show of the San Diego band's career. Around 12,000 fans attended a bill that also carried Crawlers, Hot Mulligan and Cavetown across the evening. The headline set ranged across the band's catalogue rather than leaning on any single album era.",
+      "genres": [
+        "Post-Hardcore",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.setlist.fm/setlist/pierce-the-veil/2025/ovo-arena-wembley-london-england-435fe3fb.html"
     },
     {
       "id": "en-austin-city-limits-festival-2025-20251003",
@@ -317,6 +423,27 @@
       "last_researched_by": "en-researcher"
     },
     {
+      "id": "en-tame-impala-deadbeat-philadelphia-20260715",
+      "name": "Tame Impala: Deadbeat Tour - Philadelphia",
+      "release_date": "2026-07-15",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Xfinity Mobile Arena, Philadelphia, PA"
+      ],
+      "developer": "Tame Impala, Djo",
+      "publisher": null,
+      "description": "Tame Impala played Xfinity Mobile Arena on July 15, 2026, the sixth stop of the second North American leg of the Deadbeat Tour. Djo supported the first half of that run, and Kevin Parker's band performed on a stage set in the round with a career-spanning set drawing on Deadbeat alongside Currents and Lonerism material. Tickets for the leg were sold through Ticketmaster's Face Value Exchange to curb resale.",
+      "genres": [
+        "Psychedelic Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/07/tame-impala-2026-deadbeat-north-american-tour-kickoff/"
+    },
+    {
       "id": "en-charli-xcx-music-fashion-film-20260724",
       "name": "Charli xcx - Music, Fashion, Film",
       "release_date": "2026-07-24",
@@ -389,7 +516,7 @@
       ],
       "image_url": null,
       "source_url": "https://www.lollapalooza.com/lineup",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_url": "https://www.lollapalooza.com/",
       "festival_days": [
@@ -472,7 +599,7 @@
       ],
       "image_url": null,
       "source_url": "https://www.rush.com/show/fifty-something-2026-08-01/",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_url": "https://www.ticketmaster.com/event/3B00634413F131FB",
       "last_updated": "2026-07-31",
       "last_researched_by": "en-researcher"
@@ -1014,6 +1141,49 @@
       "last_researched_by": "en-researcher"
     },
     {
+      "id": "en-ocean-way-festival-2026-20260926",
+      "name": "Ocean Way Festival 2026",
+      "release_date": "2026-09-26",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "festival",
+      "platforms": [
+        "Santa Monica Beach, Santa Monica, CA"
+      ],
+      "developer": "The Killers, Jack White, Olivia Dean, Khruangbin, Sublime",
+      "publisher": "Goldenvoice",
+      "description": "Goldenvoice, the promoter behind Coachella and Stagecoach, launches Ocean Way Festival on the sand at Santa Monica Beach across September 26 and 27, 2026. The Killers, Jack White and Olivia Dean headline an inaugural bill that also features Khruangbin, Sublime, Alvvays, Durand Jones & The Indications, Hiatus Kaiyote, SG Lewis, BLOND:ISH, Poolside and a Hot Chip DJ set. Single-day and two-day general admission passes went on sale in July.",
+      "genres": [
+        "Festival",
+        "Rock",
+        "Pop"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/07/ocean-way-fesitval-jack-white-the-killers/",
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-23T11:00:00-07:00",
+      "general_sale_url": "https://oceanwayfestival.com/tickets/",
+      "festival_days": [
+        {
+          "date": "2026-09-26",
+          "lineup": [
+            "The Killers",
+            "Jack White",
+            "Sublime"
+          ]
+        },
+        {
+          "date": "2026-09-27",
+          "lineup": [
+            "Olivia Dean",
+            "Khruangbin",
+            "Durand Jones & The Indications"
+          ]
+        }
+      ]
+    },
+    {
       "id": "en-michelle-branch-everywhere-back-again-seattle-20260927",
       "name": "Michelle Branch: Everywhere and Back Again Tour - Seattle",
       "release_date": "2026-09-27",
@@ -1039,6 +1209,31 @@
       "general_sale_url": null,
       "last_updated": "2026-07-23",
       "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-audrey-hobert-staircase-to-stardom-brooklyn-20260929",
+      "name": "Audrey Hobert: The Staircase To Stardom Tour - Fall 2026",
+      "release_date": "2026-09-29",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Brooklyn Paramount, Brooklyn, NY"
+      ],
+      "developer": "Audrey Hobert",
+      "publisher": null,
+      "description": "Audrey Hobert extends The Staircase To Stardom Tour into autumn with the biggest headline rooms of her career, opening the final leg at Brooklyn Paramount on September 29, 2026. The run announced in late July continues through Nashville's Ryman Auditorium, two nights at Chicago's Riviera Theatre and Oakland's Fox Theater, and is built around her debut album Who's The Clown?. She also plays both weekends of Austin City Limits in October.",
+      "genres": [
+        "Pop",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.nylon.com/entertainment/audrey-hobert-staircase-to-stardom-tour-new-dates-tickets",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-31T10:00:00-04:00",
+      "general_sale_url": "https://www.ticketmaster.com/audrey-hobert-tickets/artist/3919869"
     },
     {
       "id": "en-ringo-starr-all-starr-band-queens-20261001",
@@ -1448,6 +1643,30 @@
       "last_researched_by": "en-researcher"
     },
     {
+      "id": "en-tame-impala-deadbeat-perth-20261024",
+      "name": "Tame Impala: Deadbeat Tour - Australia",
+      "release_date": "2026-10-24",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "Australia/Perth",
+      "category": "concert_tour",
+      "platforms": [
+        "RAC Arena, Perth",
+        "Rod Laver Arena, Melbourne"
+      ],
+      "developer": "Tame Impala, Ninajirachi",
+      "publisher": "Frontier Touring",
+      "description": "Kevin Parker brings the Deadbeat Tour home to Australia in October 2026, closing the year-long run behind Tame Impala's fifth album with two nights at Perth's RAC Arena on October 24 and 25. The Frontier Touring arena run also takes in Brisbane, four nights at Melbourne's Rod Laver Arena and three in Sydney, with Ninajirachi supporting every date and the band performing as a six-piece on a stage set in the round.",
+      "genres": [
+        "Psychedelic Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/07/tame-impala-2026-deadbeat-north-american-tour-kickoff/",
+      "general_sale": true,
+      "general_sale_url": "https://www.frontiertouring.com/tameimpala"
+    },
+    {
       "id": "en-orville-peck-man-turned-mule-sacramento-20261028",
       "name": "Orville Peck: Man Turned Mule Tour - Sacramento",
       "release_date": "2026-10-28",
@@ -1618,6 +1837,30 @@
       "general_sale_url": "https://www.axs.com/uk/events/1537621/esdeekid-tickets?skin=wembley",
       "last_updated": "2026-07-31",
       "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-yo-la-tengo-hanukkah-new-york-20261204",
+      "name": "Yo La Tengo: Hanukkah 2026",
+      "release_date": "2026-12-04",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Bowery Ballroom, New York, NY"
+      ],
+      "developer": "Yo La Tengo",
+      "publisher": null,
+      "description": "Yo La Tengo return to the Bowery Ballroom for eight consecutive nights of their long-running Hanukkah benefit residency, opening December 4 and closing December 11, 2026. Each evening pairs a surprise comedian and a surprise musical guest with a Yo La Tengo set that repeats no song across the run, usually ending in an all-covers encore. Proceeds go to charity, and tickets went on sale July 24.",
+      "genres": [
+        "Indie Rock",
+        "Residency"
+      ],
+      "image_url": null,
+      "source_url": "https://matadorrecords.com/blogs/news/yo-la-tengo-hanukkah-2026",
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-24T10:00:00-04:00",
+      "general_sale_url": "https://www.ticketmaster.com/event/000064F0DFF524D2"
     },
     {
       "id": "en-goose-goosemas-atlantic-city-20261211",
