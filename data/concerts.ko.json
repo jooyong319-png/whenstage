@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-01",
+  "last_updated": "2026-08-02",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -447,6 +447,27 @@
       "source_url": "https://kpopofficial.com/album/kiiikiii-whykiiikiii/"
     },
     {
+      "id": "ko-wayv-vision-wings-20260810",
+      "name": "웨이션브이(WayV) 미니 8집 'Vision Wings'",
+      "release_date": "2026-08-10",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": null,
+      "developer": "웨이션브이(WayV)",
+      "publisher": "SM엔터테인먼트",
+      "description": "웨이션브이가 8월 10일 오후 6시 미니 8집 '비전 윙스(Vision Wings)'를 발매한다. 타이틀곡 '鸢 (Vision Wings)'을 포함해 모두 일곱 곡이 실리며, 타이틀곡은 중국어 버전과 영어 버전이 함께 수록된다. 앨범 발매 한 달여 뒤인 9월 12일에는 서울 KBS아레나에서 새 콘서트 투어 'BORN THIS Way'의 첫 공연이 예정돼 있어 컴백과 투어가 나란히 이어진다.",
+      "genres": [
+        "K-POP",
+        "컴백"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/WayV_241128_SBS_Radio.png",
+      "source_url": "https://www.tenasia.co.kr/article/2026073169884",
+      "last_updated": "2026-08-02",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-jeongeunji-summer-i-20260811",
       "name": "정은지 미니 5집 'Summer, I'",
       "release_date": "2026-08-11",
@@ -545,6 +566,27 @@
       "general_sale_datetime": "2026-07-28T19:00:00+09:00",
       "general_sale_url": null,
       "last_updated": "2026-07-25",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-mimi-first-solo-single-20260820",
+      "name": "미미 첫 번째 솔로 싱글",
+      "release_date": "2026-08-20",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": null,
+      "developer": "미미(오마이걸)",
+      "publisher": null,
+      "description": "오마이걸 미미가 8월 20일 오후 6시 첫 번째 솔로 싱글을 발매하며 솔로 아티스트로 나선다. 2015년 오마이걸로 데뷔한 지 약 11년 만의 첫 솔로 활동으로, 미미는 이번 싱글의 작사와 작곡을 비롯해 곡 전반의 프로듀싱에 직접 참여해 자신의 음악적 색깔을 담아냈다. 앨범명과 타이틀곡은 아직 공개되지 않았고 세부 일정은 공식 채널을 통해 순차 공개될 예정이다.",
+      "genres": [
+        "K-POP",
+        "솔로"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Oh_My_Girl_at_Golden_Hourglass_showcase_on_250723_%281%29.png",
+      "source_url": "https://www.heraldmuse.com/article/10827730",
+      "last_updated": "2026-08-02",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -660,6 +702,34 @@
       "general_sale": false
     },
     {
+      "id": "ko-jaypark-serenades-body-rolls-replay-seoul-20260829",
+      "name": "2026 JAY PARK WORLD TOUR 'SERENADES & BODY ROLLS' IN SEOUL : THE REPLAY",
+      "release_date": "2026-08-29",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "잠실실내체육관"
+      ],
+      "developer": "박재범(Jay Park)",
+      "publisher": "모어비전(MORE VISION)·현대카드",
+      "description": "박재범이 8월 29일과 30일 이틀간 서울 잠실실내체육관에서 '2026 JAY PARK WORLD TOUR SERENADES & BODY ROLLS IN SEOUL : THE REPLAY'를 연다. 지난해 서울에서 출발한 월드투어 이후 1년 3개월 만의 국내 단독 공연이며, 9월부터 이어질 남미·북미·유럽 투어에 앞서 열리는 무대다. 신곡 '레메디(Remedy)'와 새로 구성한 밴드 편성이 예고됐고 현대카드 공연 브랜드 'Loved by Hyundai Card'의 다섯 번째 주인공으로 나선다. 일반 예매는 8월 3일 오후 8시 멜론티켓에서 열린다.",
+      "genres": [
+        "힙합",
+        "알앤비",
+        "콘서트"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Jay_Park_in_September_2024.jpg",
+      "source_url": "https://sports.khan.co.kr/article/202607281715003",
+      "last_updated": "2026-08-02",
+      "last_researched_by": "ko-researcher",
+      "presale": false,
+      "presale_datetime": "2026-07-29T20:00:00+09:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-03T20:00:00+09:00"
+    },
+    {
       "id": "ko-jeonyujin-twenty-one-20260829",
       "name": "전유진 2nd Fan Concert 'TWENTY-ONE'",
       "release_date": "2026-08-29",
@@ -682,6 +752,27 @@
       "general_sale": true,
       "general_sale_datetime": "2026-07-23T19:00:00+09:00",
       "general_sale_url": "https://tickets.interpark.com/goods/26010675"
+    },
+    {
+      "id": "ko-taemin-phase1-soft-violence-20260831",
+      "name": "태민 'PHASE 1 : SOFT VIOLENCE'",
+      "release_date": "2026-08-31",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": null,
+      "developer": "태민(TAEMIN)",
+      "publisher": "갤럭시코퍼레이션",
+      "description": "태민이 8월 31일 오후 6시 새 앨범 'PHASE 1 : SOFT VIOLENCE'를 발매한다. 앨범 공개와 함께 '2026-27 TAEMIN WORLD TOUR [LiMiNaL]'의 1차 투어 일정도 나왔는데, 서울을 출발점으로 산호세·로스앤젤레스·라스베이거스·그랜드프레리·시카고·뉴욕 등 미국 6개 도시와 몬테레이·멕시코시티·산티아고·리마 등 중남미 4개 도시를 도는 3개 지역 12개 도시 일정이다. 서울 공연의 구체적인 날짜와 장소는 아직 공개되지 않았다.",
+      "genres": [
+        "K-POP",
+        "솔로"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/2025-12-08_Taemin_at_AHC_event_04_%28cropped%29.jpg",
+      "source_url": "https://www.heraldmuse.com/article/10822616",
+      "last_updated": "2026-08-02",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-fromis9-tomorrow-glow-seoul-20260904",
@@ -922,6 +1013,33 @@
       "general_sale_url": "https://tickets.interpark.com/goods/26010045"
     },
     {
+      "id": "ko-wayv-born-this-way-seoul-20260912",
+      "name": "2026 WayV CONCERT TOUR [BORN THIS Way] IN SEOUL",
+      "release_date": "2026-09-12",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KBS아레나"
+      ],
+      "developer": "웨이션브이(WayV)",
+      "publisher": "SM엔터테인먼트",
+      "description": "웨이션브이가 세 번째 콘서트 투어 '2026 WayV CONCERT TOUR [BORN THIS Way]'의 막을 서울에서 연다. 9월 12일과 13일 이틀간 서울 강서구 KBS아레나에서 열리며 쿤·샤오쥔·헨드리·양양 네 멤버가 무대에 오른다. 8월 10일 발매하는 미니 8집 '비전 윙스' 수록곡을 더한 새 세트리스트가 예고됐고, 서울을 출발점으로 요코하마 등 아시아 주요 도시로 투어가 이어진다. 예매는 티켓링크에서 진행됐다.",
+      "genres": [
+        "K-POP",
+        "콘서트"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/WayV_241128_SBS_Radio.png",
+      "source_url": "https://www.tenasia.co.kr/article/2026073169884",
+      "last_updated": "2026-08-02",
+      "last_researched_by": "ko-researcher",
+      "presale": false,
+      "presale_datetime": "2026-07-30T20:00:00+09:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-31T19:00:00+09:00"
+    },
+    {
       "id": "ko-nct127-neocity-redline-seoul-20260918",
       "name": "NCT 127 5TH TOUR 'NEO CITY : THE REDLINE' IN SEOUL",
       "release_date": "2026-09-18",
@@ -1122,6 +1240,29 @@
       "image_url": null,
       "source_url": "https://x.com/Atlus_korea/status/2079038893941239912",
       "last_updated": "2026-07-25",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-verivery-give-me-five-seoul-20261003",
+      "name": "2026 VERIVERY CONCERT [GIVE ME FIVE, KEEP THAT VIBE] SEOUL",
+      "release_date": "2026-10-03",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KBS아레나"
+      ],
+      "developer": "베리베리(VERIVERY)",
+      "publisher": null,
+      "description": "베리베리가 10월 3일과 4일 서울 강서구 KBS아레나에서 '2026 VERIVERY CONCERT [GIVE ME FIVE, KEEP THAT VIBE] SEOUL'을 연다. 2019년 데뷔 이후 처음으로 서는 아레나 규모 무대이자 11개 도시를 도는 해외 투어의 출발점이다. 서울 공연 이후 자카르타·오사카·도쿄를 거쳐 바르샤바·암스테르담·쾰른·베를린·파리 등 유럽 도시와 마카오·타이베이로 일정이 이어진다.",
+      "genres": [
+        "K-POP",
+        "콘서트"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/190506_%EB%B2%A0%EB%A6%AC%EB%B2%A0%EB%A6%AC_%EC%8B%A0%EC%B4%8C_%EB%B2%84%EC%8A%A4%ED%82%B9.jpg",
+      "source_url": "http://www.osen.co.kr/article/G1112848840",
+      "last_updated": "2026-08-02",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -1335,6 +1476,31 @@
       "general_sale_url": null
     },
     {
+      "id": "ko-mumyeongjeonseol-daegu-encore-20261121",
+      "name": "2026 무명전설 전국투어 콘서트 - 대구 앵콜",
+      "release_date": "2026-11-21",
+      "release_time": "13:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "대구 엑스코(컨벤션홀)"
+      ],
+      "developer": "무명전설",
+      "publisher": null,
+      "description": "MBN 오디션 프로그램 '무명전설'에서 배출된 TOP7이 11월 21일 대구 엑스코 5층 컨벤션홀에서 전국투어 대구 앵콜 공연을 연다. 성리·하루·장한별·황윤성·정연호·이창민·이루네가 이날 오후 1시와 오후 6시 두 차례 무대에 오른다. 7월 18일 열린 대구 공연에 관객 성원이 이어지면서 재공연 요청에 화답해 마련된 자리이며, 예매는 7월 31일 오후 1시 NOL 티켓에서 시작됐다.",
+      "genres": [
+        "트로트",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://sports.khan.co.kr/article/202607310950003/",
+      "last_updated": "2026-08-02",
+      "last_researched_by": "ko-researcher",
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-31T13:00:00+09:00"
+    },
+    {
       "id": "ko-roykim-year-end-concert-seoul-20261121",
       "name": "2026 로이킴 연말 단독 콘서트",
       "release_date": "2026-11-21",
@@ -1355,6 +1521,27 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/180531_%EB%A1%9C%EC%9D%B4%ED%82%B4.jpg/330px-180531_%EB%A1%9C%EC%9D%B4%ED%82%B4.jpg",
       "source_url": "https://sports.khan.co.kr/article/202607160757003/",
       "last_updated": "2026-08-01",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-gongyoo-the-long-take-seoul-20261128",
+      "name": "2026 공유 아시아 팬미팅 투어 'The Long Take' 서울",
+      "release_date": "2026-11-28",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": null,
+      "developer": "공유",
+      "publisher": "매니지먼트 숲",
+      "description": "배우 공유가 데뷔 26년 만에 처음 여는 아시아 팬미팅 투어 'The Long Take'의 마지막 도시로 11월 28일 서울 무대에 오른다. 투어는 10월 4일 요코하마를 시작으로 방콕(10월 10일), 자카르타(10월 17일), 마카오(11월 7일), 마닐라(11월 21일)를 거쳐 서울로 이어지는 6개 도시 일정이다. 서울 공연장과 예매 일정은 소속사 매니지먼트 숲을 통해 추후 공개된다.",
+      "genres": [
+        "팬미팅",
+        "배우"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Gong_Yoo_in_2021_-_3.png",
+      "source_url": "https://www.tenasia.co.kr/article/2026073177024",
+      "last_updated": "2026-08-02",
       "last_researched_by": "ko-researcher"
     }
   ]
