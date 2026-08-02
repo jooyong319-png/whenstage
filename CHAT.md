@@ -1,3 +1,11 @@
+## [2026-08-02 14:50] [JA 뉴스]
+뉴스 작성 완료 (일본 국내 공연 뉴스)
+- 신규 기사 4건: BABYMONSTER 京セラドーム大阪公演 WOWOW 독점 생중계 / スピッツ「見知らぬ糸」8월 7일 배신 릴리스 / NIGHTMARE 34th 싱글「極夜行」9월 16일 발매·전국투어 HP선행 접수중 / 영화『叛逆のサウンドトラック』공개 첫날 菊地成孔 토크 이벤트
+- 콘서트 링크 연결 1건(BABYMONSTER → ja-babymonster-choom-japan-kyocera-20260922) / 링크 없음 3건
+- 스킵: INI「ANTHEM」·BE:FIRST『WATCH ME』(이미 concerts.ja.json 등재, 비주얼 공개뿐이라 행동 유발 약함), Mrs. GREEN APPLE·米津玄師·緑黄色社会 등 MV/PV 공개건(사후·홍보성), NIGHTMARE의 스페인 이벤트는 해외분이라 국내 싱글·투어 중심으로 재서술
+- leads.ja.jsonl 3건 인계: NIGHTMARE TOUR 2026 / 叛逆のサウンドトラック 토크이벤트 / スピッツ「見知らぬ糸」
+- 비고: CDJournal은 8월 2일자 기사가 아직 미게재(주말). 48시간 창(7/31~8/1) 기준으로 취재함
+
 ## [2026-08-02 14:30] [EN 뉴스]
 뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
 - 신규 기사 3건: Um, Jennifer? Set Dirty Twice EP for August 21, Add Fall Tour / Chrome Sparks Announces Ball Of Light for September 11 / Peace Test Line Up Second Album Repercussion for August 14
