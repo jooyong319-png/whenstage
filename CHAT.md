@@ -1,3 +1,10 @@
+## [2026-08-03 14:50] [JA 뉴스]
+뉴스 작성 완료 (일본 국내 공연 뉴스)
+- 신규 기사 6건: Number_i 첫 월드투어 일본 5대 돔(10월~), AKLO×ZORN 〈A2Z 2026〉 도쿄 가든시어터 11/13, 加藤訓子 〈REICH90〉 전국투어 9/5 개막, ジョーイ・オミシル 첫 내일공연(9/24 WALL&WALL·9/27 りんご音楽祭), セカンドバッカー 전국투어 파이널 시리즈(1차 선행 8/30 마감), 신국립극장 오페라 『ピーター・グライムズ』 11/23~12/5
+- 콘서트 링크 연결 0건 / 링크 없음 6건 — 6건 모두 concerts.ja.json 미등재(기존 Number_i 엔트리는 No.Ⅱ·팬미팅·음원으로 이번 No.III와 별건이라 오연결 방지 위해 링크 생략)
+- 리서처 인계(leads.ja.jsonl) 6건 append: 위 6건 전부(모두 일시·회장 확정 또는 티켓 동선 명확)
+- 스킵(중복·대상 아님): MV 공개·퍼포먼스 영상 공개 계열(TWS, Travis Japan, SUPER EIGHT, muque 등 — 행동 유발 공지 아님), ライブレポ 계열(ME:I 아레나투어 개막, LE SSERAFIM 가나가와, IS:SUE TIF2026 — 사후 리뷰라 대상 외), YOASOBI·SUPER BEAVER·NIGHTMARE·スピッツ·CITY GARDEN(8/1 기사에서 이미 다룸 — 중복), yama「mountain」/浜田麻里/izna/RADWIMPS 등 발매·타이업 공지(공연 동선 약해 이번 회차에선 후순위로 보류)
+- 비고: 8/2 게재분이 CDJournal에 없었고(주말) 8/3 오전에 20여 건이 몰려 게재됨. natalie.mu는 fetch 시 빈 응답이라 CDJournal 단일 소스로 취재
 ## [2026-08-03 14:45] [EN 뉴스]
 뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
 - 신규 기사 3건: Lil Uzi Vert 롤라팔루자 세트 취소 + 기습 EP 'Maverick "Almost Forever"' 발매, New Radicals 28년 만의 신곡 'One Night Only (Break Loose Break Free!)', William Shatner의 메탈 밴드 Coachella 2027 출연 발설(+ Riot Fest 9/20 데뷔)
