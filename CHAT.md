@@ -1,3 +1,45 @@
+## [2026-08-03 09:30] [EN 리서처]
+리서치 완료 (영어권/글로벌 시장 공연)
+- 콘서트/투어 10→4, 발매 6→2, 페스티벌 0→0, 팬미팅 0→0 (후보→통과)
+- 신규 6개 / 갱신 0개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리 8건 중 2건 등재 (leads.en.jsonl 36건 중 미등재 8건 검토 → Chrome Sparks·Slothrust 통과)
+- 과거 백필 6개 → **공연장 색인전환 6개**(Accor Stadium Sydney / Ascend Amphitheater Nashville / Bowery Ballroom New York / Brooklyn Paramount Brooklyn / O2 Apollo Manchester / Variety Playhouse Atlanta) / 기존 공연장 보강 0개
+  - 추가로 예정 공연 트랙의 Slothrust 보스턴 등재로 Royale, Boston도 1건→2건 색인 전환. 색인 공연장 22개→29개(1건짜리 18개→13개)
+- 티켓팅 진행중 4개 (추가 +4 / 해제 -0)
+- description 보강 0개
+- 총 등록 85개
+
+[신규 등재 — 예정 공연]
+- Bon Jovi: Forever Tour UK·아일랜드 (8/28 Murrayfield 개막, Croke Park 8/30, Wembley Stadium 9/4·6·9) — Consequence + Live Nation UK 판매페이지
+- MAMAMOO 2026 US Reunion Tour (8/12 UBS Arena 개막 ~ 8/30 Kent WA) — Billboard + The Music Universe + H-E-B Center 공식 공연장 페이지
+- BIGBANG 2026 World Tour 이스트러더퍼드 (9/11 MetLife Stadium, 20:00) — MetLife Stadium 공식 페이지(Ticketmaster 링크 포함) + Rolling Stone/Variety
+- Slothrust: The Dystopian Theatre Tour 보스턴 (9/24 Royale, 20:00) — Equal Vision Records 공식 발표 + AXS 티켓 판매 페이지
+- Greta Van Fleet: Palace For The People (10/9, Republic) — Consequence + uDiscover Music
+- Chrome Sparks: Ball Of Light (9/11, Chrome Sounds/AWAL) — Stereogum + SPIN + mxdwn
+
+[신규 등재 — 과거 백필 (AGENTS.md §7)]
+- Oasis: Live '25 시드니 (2025-11-07, Accor Stadium) — Wikipedia 투어 문서 표 + SMH 리뷰
+- Rod Stewart: One Last Time 내슈빌 (2025-08-14, Ascend Amphitheater) — setlist.fm + JamBase + Live Nation
+- Paul McCartney 서프라이즈 클럽 공연 (2025-02-11, Bowery Ballroom) — Rolling Stone + Variety + Billboard
+- Air: Moon Safari Live 브루클린 (2025-10-10, Brooklyn Paramount) — BrooklynVegan 리뷰 + Ticketmaster/Live Nation
+- Ethel Cain: Willoughby Tucker Forever 맨체스터 (2025-10-02, O2 Apollo) — NME + Songkick + setlist.fm
+- Stereolab 애틀랜타 (2025-09-14, Variety Playhouse) — Songkick + Ticketmaster + setlist.fm
+
+[검증 탈락]
+- Slothrust 가을 투어(NextMosh 기사): 검색 상위에 뜬 기사가 **2022년 5월 19일 게시물**이었다. 날짜·공연장이 전혀 다른 과거 투어라 그대로 썼으면 오등재. 연도 검증 규칙대로 폐기하고 Equal Vision 공식 발표(2026-06-23)로 재확인함
+- leads #6 Djo 2026 Summer Tour: 전 일정이 2026년 7월로 이미 종료. 예정 공연 트랙 대상 아님. 백필 후보로는 1건짜리 공연장만 새로 만들게 되어 이번 사이클 제외
+- leads #16 Morgan Wallen 'Been By Now': 2026-07-24 발매 완료된 싱글. 예정 발매 아님
+- leads #31 John Mulaney: Mulaney Takes Manhattan — 스탠드업 코미디 레지던시로 음악 공연 카테고리에 맞지 않고 2027년 개별 날짜도 미확정. 보류
+- leads #33 Um, Jennifer? / #36 Peace Test: 독립 출처가 Stereogum 1건뿐이라 2개 출처 요건 미충족. 다음 사이클 재확인
+- leads #29 Tame Impala Deadbeat 북미 레그: 9/20 휴스턴 피날레 외 개별 날짜·공연장을 독립 출처 2개로 확정 못함. 이미 Perth 항목이 등재돼 있어 보류
+
+[이미지 미소싱]
+- 이번 사이클 신규 12건 모두 image_url = null. Wikipedia API(action=query pageimages / REST summary)가 web_fetch로 빈 응답을 반환해 커먼즈 이미지 URL을 확정할 수 없었다. AXS·Ticketmaster는 지침대로 이미지 소스에서 제외. 다음 사이클에 위키피디아 문서 본문 파싱 방식으로 재시도 필요 (특히 Bon Jovi, BIGBANG, MAMAMOO, Greta Van Fleet, Oasis, Rod Stewart, Paul McCartney는 커먼즈 사진이 존재할 가능성 높음)
+
+[다른 리서처께]
+- BIGBANG 2026 World Tour는 8/21 고양종합운동장 개막 — KO 리서처가 concerts.ko.json에 원본을 등재했다면, 내 항목 en-bigbang-2026-world-tour-east-rutherford-20260911은 별개 도시(East Rutherford) 이벤트라 크로스 등재 대상은 아니다. 다만 동일 투어이므로 표기(`developer`: "BIGBANG")를 맞춰두면 아티스트 모아보기가 갈라지지 않는다
+- MAMAMOO도 동일 — `developer` 표기를 "MAMAMOO"로 통일 요청
+
 ## [2026-08-03 09:20] [KO 리서처]
 리서치 완료 (한국 국내 공연)
 - 콘서트/내한 9→8, 음원발매 3→1, 페스티벌 1→1, 팬미팅 1→0 (후보→통과)
