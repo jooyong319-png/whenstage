@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-02",
+  "last_updated": "2026-08-03",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -9,6 +9,29 @@
     "fanmeeting": "Fan Meeting"
   },
   "games": [
+    {
+      "id": "en-paul-mccartney-bowery-ballroom-20250211",
+      "name": "Paul McCartney at Bowery Ballroom - New York",
+      "release_date": "2025-02-11",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Bowery Ballroom, New York, NY"
+      ],
+      "developer": "Paul McCartney",
+      "publisher": null,
+      "description": "Paul McCartney played an unannounced club show at the 575-capacity Bowery Ballroom on February 11, 2025, days before the Saturday Night Live fiftieth anniversary special. Tickets cost fifty dollars cash at the box office, one per person, and sold out within roughly half an hour. The career-spanning set opened with A Hard Day's Night and included the American live debut of Now And Then.",
+      "genres": [
+        "Rock",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.rollingstone.com/music/music-features/paul-mccartney-new-york-bowery-ballroom-review-1235264544/",
+      "last_updated": "2026-08-03",
+      "last_researched_by": "en-researcher"
+    },
     {
       "id": "en-deftones-north-american-tour-indianapolis-20250328",
       "name": "Deftones: North American Tour 2025 - Indianapolis",
@@ -255,6 +278,29 @@
       "last_researched_by": "en-researcher"
     },
     {
+      "id": "en-rod-stewart-one-last-time-nashville-20250814",
+      "name": "Rod Stewart: One Last Time - Nashville",
+      "release_date": "2025-08-14",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "America/Chicago",
+      "category": "concert_tour",
+      "platforms": [
+        "Ascend Amphitheater, Nashville, TN"
+      ],
+      "developer": "Rod Stewart, Cheap Trick",
+      "publisher": "Live Nation",
+      "description": "Rod Stewart brought the One Last Time tour to Ascend Amphitheater in downtown Nashville on August 14, 2025, with Cheap Trick opening the bill. The show began at 7:30pm and drew on five decades of material, closing with Maggie May and Da Ya Think I'm Sexy. Stewart had announced ahead of the run that he intended to step back from large-scale touring.",
+      "genres": [
+        "Classic Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.jambase.com/show/rod-stewart-ascend-amphitheater-20250814",
+      "last_updated": "2026-08-03",
+      "last_researched_by": "en-researcher"
+    },
+    {
       "id": "en-linkin-park-from-zero-denver-20250903",
       "name": "Linkin Park: From Zero World Tour - Denver",
       "release_date": "2025-09-03",
@@ -305,6 +351,29 @@
       "last_researched_by": "en-researcher"
     },
     {
+      "id": "en-stereolab-atlanta-20250914",
+      "name": "Stereolab: North American Tour 2025 - Atlanta",
+      "release_date": "2025-09-14",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Variety Playhouse, Atlanta, GA"
+      ],
+      "developer": "Stereolab",
+      "publisher": null,
+      "description": "Stereolab played Variety Playhouse in Atlanta's Little Five Points on September 14, 2025, an eight o'clock start on a southern swing that also took in Nashville, Miami, New Orleans, Athens, Asheville and Saxapahaw. The dates followed the reactivated group's first new studio album in more than fifteen years and leaned on both recent material and their motorik back catalogue.",
+      "genres": [
+        "Indie Pop",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.setlist.fm/setlist/stereolab/2025/variety-playhouse-atlanta-ga-435b13bf.html",
+      "last_updated": "2026-08-03",
+      "last_researched_by": "en-researcher"
+    },
+    {
       "id": "en-pierce-the-veil-i-cant-hear-you-london-20250923",
       "name": "Pierce the Veil: I Can't Hear You World Tour - London",
       "release_date": "2025-09-23",
@@ -324,6 +393,29 @@
       ],
       "image_url": null,
       "source_url": "https://www.setlist.fm/setlist/pierce-the-veil/2025/ovo-arena-wembley-london-england-435fe3fb.html"
+    },
+    {
+      "id": "en-ethel-cain-willoughby-tucker-forever-manchester-20251002",
+      "name": "Ethel Cain: Willoughby Tucker Forever Tour - Manchester",
+      "release_date": "2025-10-02",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "O2 Apollo, Manchester, England"
+      ],
+      "developer": "Ethel Cain, 9Million",
+      "publisher": null,
+      "description": "Ethel Cain opened the UK leg of the Willoughby Tucker Forever tour at the O2 Apollo in Manchester on October 2, 2025, returning to the same room the following night after demand prompted a second date. 9Million supported. The run continued to O2 Academy Glasgow on October 4 and London's Eventim Apollo on October 9, following the album released that summer.",
+      "genres": [
+        "Alternative",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.songkick.com/concerts/42504733-ethel-cain-at-o2-apollo-manchester",
+      "last_updated": "2026-08-03",
+      "last_researched_by": "en-researcher"
     },
     {
       "id": "en-austin-city-limits-festival-2025-20251003",
@@ -347,6 +439,29 @@
       "image_url": null,
       "source_url": "https://www.kvue.com/article/entertainment/events/austin-city-limits/acl-2025-lineup-headliners/269-9dbdc036-9020-4ddd-90bd-89a81479adca",
       "last_updated": "2026-07-31",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-air-moon-safari-brooklyn-20251010",
+      "name": "Air: Moon Safari Live - Brooklyn",
+      "release_date": "2025-10-10",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Brooklyn Paramount, Brooklyn, NY"
+      ],
+      "developer": "Air",
+      "publisher": "Live Nation",
+      "description": "French duo Air opened a three-night Brooklyn Paramount residency on October 10, 2025, performing their 1998 debut Moon Safari in full. Seated shows on October 10 and 11 were followed by a general-admission finale on October 12, billed as a special club version of the record plus a second set drawn from their wider catalogue, which wrapped the North American tour.",
+      "genres": [
+        "Electronic",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.brooklynvegan.com/air-wrapped-up-the-dazzling-moon-safari-tour-brooklyn-paramount-pics-setlist/",
+      "last_updated": "2026-08-03",
       "last_researched_by": "en-researcher"
     },
     {
@@ -396,6 +511,29 @@
       "presale": false,
       "general_sale": false,
       "last_updated": "2026-08-01",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-oasis-live-25-sydney-20251107",
+      "name": "Oasis: Live '25 - Sydney",
+      "release_date": "2025-11-07",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Australia/Sydney",
+      "category": "concert_tour",
+      "platforms": [
+        "Accor Stadium, Sydney"
+      ],
+      "developer": "Oasis, Ball Park Music",
+      "publisher": "Live Nation",
+      "description": "Oasis played the first of two sold-out Sydney nights at Accor Stadium on November 7, 2025, with a second show following on November 8. The two concerts drew roughly 140,000 people between them, and Ball Park Music opened the Australian leg. The Live '25 reunion run had already passed through Melbourne's Marvel Stadium and ranked among the highest-grossing tours ever staged.",
+      "genres": [
+        "Britpop",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://en.wikipedia.org/wiki/Oasis_Live_%2725_Tour",
+      "last_updated": "2026-08-03",
       "last_researched_by": "en-researcher"
     },
     {
@@ -679,6 +817,36 @@
       "general_sale_url": null
     },
     {
+      "id": "en-mamamoo-2026-us-reunion-tour-belmont-park-20260812",
+      "name": "MAMAMOO 2026 US Reunion Tour - Belmont Park",
+      "release_date": "2026-08-12",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "UBS Arena, Belmont Park, NY",
+        "Wintrust Arena, Chicago, IL",
+        "Dickies Arena, Fort Worth, TX",
+        "H-E-B Center, Cedar Park, TX",
+        "Crypto.com Arena, Los Angeles, CA",
+        "SAP Center, San Jose, CA",
+        "accesso ShoWare Center, Kent, WA"
+      ],
+      "developer": "MAMAMOO",
+      "publisher": null,
+      "description": "All four members of MAMAMOO - Solar, Moonbyul, Whee In and Hwasa - reunite for a seven-arena American run that opens August 12 at UBS Arena in Belmont Park, New York. The tour then visits Chicago, Fort Worth, Cedar Park, Los Angeles and San Jose before closing August 30 at the accesso ShoWare Center in Kent, Washington. It is the group's first US touring since the 2023 My Con world tour.",
+      "genres": [
+        "K-pop",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.billboard.com/music/pop/mamamoo-dates-2026-us-reunion-tour-1236236788/",
+      "general_sale": true,
+      "last_updated": "2026-08-03",
+      "last_researched_by": "en-researcher"
+    },
+    {
       "id": "en-ariana-grande-eternal-sunshine-london-20260815",
       "name": "Ariana Grande: The Eternal Sunshine Tour - London (The O2 Residency)",
       "release_date": "2026-08-15",
@@ -745,6 +913,33 @@
       ],
       "image_url": null,
       "source_url": "https://www.billboard.com/music/country/brandon-flowers-thrasher-solo-album-release-date-1236279531/"
+    },
+    {
+      "id": "en-bon-jovi-forever-tour-edinburgh-20260828",
+      "name": "Bon Jovi: Forever Tour - UK & Ireland",
+      "release_date": "2026-08-28",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Scottish Gas Murrayfield, Edinburgh",
+        "Croke Park, Dublin",
+        "Wembley Stadium, London"
+      ],
+      "developer": "Bon Jovi",
+      "publisher": "Live Nation",
+      "description": "Bon Jovi cross the Atlantic for a short stadium run after their July residency at Madison Square Garden, opening August 28 at Scottish Gas Murrayfield in Edinburgh and playing Croke Park in Dublin on August 30. The leg closes with three nights at Wembley Stadium in London on September 4, 6 and 9. These are the band's first extensive shows since Jon Bon Jovi underwent vocal cord surgery.",
+      "genres": [
+        "Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2025/10/bon-jovi-2026-tour-dates/",
+      "general_sale": true,
+      "general_sale_url": "https://www.livenation.co.uk/event/bon-jovi-forever-tour-edinburgh-tickets-edp1629000",
+      "last_updated": "2026-08-03",
+      "last_researched_by": "en-researcher"
     },
     {
       "id": "en-jim-james-wowed-out-20260828",
@@ -935,6 +1130,32 @@
       "general_sale_url": "https://www.ticketmaster.com/lupe-fiasco-tickets/artist/1036994"
     },
     {
+      "id": "en-bigbang-2026-world-tour-east-rutherford-20260911",
+      "name": "BIGBANG 2026 World Tour - East Rutherford",
+      "release_date": "2026-09-11",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "MetLife Stadium, East Rutherford, NJ",
+        "Oakland Coliseum, Oakland, CA"
+      ],
+      "developer": "BIGBANG",
+      "publisher": null,
+      "description": "BIGBANG bring their 20th anniversary stadium tour to MetLife Stadium on September 11, one of only two North American stops on a 31-show run that opened August 21 at Goyang Stadium in South Korea. G-DRAGON, TAEYANG and DAESUNG reunited for the trek, their first since 2017, which also visits Oakland Coliseum on September 5 before continuing through Europe and Australia into February 2027.",
+      "genres": [
+        "K-pop",
+        "World Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.metlifestadium.com/events/detail/bigbang",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.com/bigbang-2026-world-tour-east-rutherford-new-jersey-09-11-2026/event/000064CFBC9CE038",
+      "last_updated": "2026-08-03",
+      "last_researched_by": "en-researcher"
+    },
+    {
       "id": "en-charli-xcx-music-fashion-film-philadelphia-20260911",
       "name": "Charli xcx: Music, Fashion, Film Tour - Philadelphia",
       "release_date": "2026-09-11",
@@ -960,6 +1181,29 @@
       "general_sale": true,
       "general_sale_datetime": "2026-06-12T13:00:00-04:00",
       "general_sale_url": "https://www.ticketmaster.com/event/300064C5A4647126"
+    },
+    {
+      "id": "en-chrome-sparks-ball-of-light-20260911",
+      "name": "Chrome Sparks: Ball Of Light",
+      "release_date": "2026-09-11",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "music_release",
+      "platforms": [
+        "Chrome Sounds / AWAL"
+      ],
+      "developer": "Chrome Sparks",
+      "publisher": "Chrome Sounds / AWAL",
+      "description": "Producer Jeremy Malvin issues Ball Of Light, his first full-length as Chrome Sparks since the 2018 self-titled debut, on September 11 via Chrome Sounds and AWAL. The twelve-track record is led by the single Sleeper, which pairs Khalid's vocal with Jonsi of Sigur Ros over cinematic electronic production. Malvin has described the album as the sound of finding himself again after years away.",
+      "genres": [
+        "Electronic",
+        "Album"
+      ],
+      "image_url": null,
+      "source_url": "https://stereogum.com/2507037/chrome-sparks-sleeper-feat-khalid-jonsi/music",
+      "last_updated": "2026-08-03",
+      "last_researched_by": "en-researcher"
     },
     {
       "id": "en-phoebe-bridgers-lost-tour-indianapolis-20260914",
@@ -1138,6 +1382,33 @@
       "general_sale_datetime": "2026-07-17T10:00:00-04:00",
       "general_sale_url": null,
       "last_updated": "2026-07-23",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-slothrust-dystopian-theatre-tour-boston-20260924",
+      "name": "Slothrust: The Dystopian Theatre Tour - Boston",
+      "release_date": "2026-09-24",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Royale, Boston, MA",
+        "Reverb Lounge, Omaha, NE",
+        "The Bellwether, Los Angeles, CA"
+      ],
+      "developer": "Slothrust, The Velveteers",
+      "publisher": null,
+      "description": "Slothrust stop at Royale in Boston on September 24 during The Dystopian Theatre Tour, the alt-rock trio's first headline run in more than a year and their first since signing to Equal Vision Records. The Velveteers support the eastern dates, with Um, Jennifer? joining the western leg. The tour opened September 15 in Omaha and finishes November 18 at The Bellwether in Los Angeles.",
+      "genres": [
+        "Alternative Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://equalvision.com/blogs/news/slothrust-signs-to-equal-vision-records-announces-new-tour-and-upcoming-new-single",
+      "general_sale": true,
+      "general_sale_url": "https://www.axs.com/events/1491810/slothrust-the-dystopian-theatre-tour-tickets",
+      "last_updated": "2026-08-03",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1442,6 +1713,29 @@
       "general_sale": true,
       "general_sale_datetime": "2026-07-31T10:00:00-07:00",
       "last_updated": "2026-07-31",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-greta-van-fleet-palace-for-the-people-20261009",
+      "name": "Greta Van Fleet: Palace For The People",
+      "release_date": "2026-10-09",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "music_release",
+      "platforms": [
+        "Republic Records"
+      ],
+      "developer": "Greta Van Fleet",
+      "publisher": "Republic Records",
+      "description": "Greta Van Fleet release their fourth studio album, Palace For The People, on October 9 through Republic Records. The Michigan band recorded it in Tennessee during spring 2026 and co-produced the sessions with Mike Elizondo, whose credits include Turnstile and Fiona Apple. Lead single Saw You Stand arrived July 31, following the earlier comeback track Play Your Games after an extended break from the road.",
+      "genres": [
+        "Rock",
+        "Album"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/07/greta-van-fleet-new-album-single-saw-you-stand/",
+      "last_updated": "2026-08-03",
       "last_researched_by": "en-researcher"
     },
     {
