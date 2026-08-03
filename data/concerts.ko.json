@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-02",
+  "last_updated": "2026-08-03",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -266,6 +266,29 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-bbc-symphony-seongnam-20260328",
+      "name": "BBC 심포니 오케스트라, 사카리 오라모 & 손열음",
+      "release_date": "2026-03-28",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "성남아트센터(콘서트홀)"
+      ],
+      "developer": "BBC 심포니 오케스트라",
+      "publisher": "성남문화재단",
+      "description": "영국을 대표하는 악단 BBC 심포니 오케스트라가 2026년 3월 28일 오후 5시 성남아트센터 콘서트홀 무대에 올랐다. 수석지휘자인 핀란드 출신 사카리 오라모가 지휘를 맡았고, 피아니스트 손열음이 협연자로 함께했다. 프로그램은 슈트라우스 '돈 후안', 버르토크 피아노 협주곡 3번, 핀지 '에클로그', 스트라빈스키 '불새' 모음곡으로 20세기 관현악 레퍼토리를 폭넓게 아울렀다.",
+      "genres": [
+        "클래식",
+        "내한"
+      ],
+      "image_url": null,
+      "source_url": "https://www.snart.or.kr/main/prex/prefer/view.do?prfr_exhb_sn=100042",
+      "last_updated": "2026-08-03",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-opn-tranquilizer-seoul-20260329",
       "name": "원오트릭스 포인트 네버 내한공연 (Oneohtrix Point Never 'Tranquilizer' Live in Seoul)",
       "release_date": "2026-03-29",
@@ -286,6 +309,75 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/ONEOHTRIX_POINT_NEVER_%28cropped%29.jpg/330px-ONEOHTRIX_POINT_NEVER_%28cropped%29.jpg",
       "source_url": "https://korean-vibe.com/news/newsview.php?ncode=179564704746522",
       "last_updated": "2026-08-01",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-kimjunsu-gravity-seoul-20260612",
+      "name": "2026 XIA 6TH ASIA TOUR CONCERT 'GRAVITY' IN SEOUL",
+      "release_date": "2026-06-12",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KSPO DOME(올림픽체조경기장)"
+      ],
+      "developer": "김준수(XIA)",
+      "publisher": null,
+      "description": "김준수가 여섯 번째 아시아 투어 'GRAVITY'의 서울 공연을 6월 12일부터 14일까지 사흘간 KSPO DOME에서 열었다. 같은 달 발매한 정규 5집 'GRAVITY'의 타이틀곡과 수록곡 무대를 중심으로 구성됐고, 앙코르에서 타이틀곡을 다시 부르며 공연을 마무리했다. 서울 공연을 출발점으로 아시아 주요 도시로 투어가 이어졌다.",
+      "genres": [
+        "K-POP",
+        "아시아투어"
+      ],
+      "image_url": null,
+      "source_url": "https://www.heraldmuse.com/article/10709913",
+      "last_updated": "2026-08-03",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-mamamoo-4ward-seoul-20260619",
+      "name": "마마무(MAMAMOO) 2026 WORLD TOUR [4WARD] in SEOUL",
+      "release_date": "2026-06-19",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "올림픽공원(올림픽홀)"
+      ],
+      "developer": "마마무(MAMAMOO)",
+      "publisher": "RBW",
+      "description": "마마무가 완전체로 다시 뭉쳐 연 월드투어 [4WARD]의 서울 개막 공연이다. 6월 19일부터 21일까지 사흘간 올림픽공원 올림픽홀에서 열렸고 세 회차 모두 매진됐다. 투어명은 멤버 네 명을 뜻하는 숫자 4와 '앞으로'를 뜻하는 FORWARD를 겹쳐 지은 것이다. 첫날이 데뷔 기념일과 겹쳐, 멤버들은 2016년 첫 단독 콘서트 'MOOSICAL'의 오프닝을 재현하는 무대를 꾸몄다.",
+      "genres": [
+        "K-POP",
+        "월드투어"
+      ],
+      "image_url": null,
+      "source_url": "https://www.allkpop.com/article/2026/06/mamamoo-launch-their-4ward-world-tour-with-three-sold-out-nights-in-seoul",
+      "last_updated": "2026-08-03",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-treasure-the-stage-newwav-seoul-20260619",
+      "name": "TREASURE THE STAGE 2026 NEW WAV : LIVE IN SEOUL",
+      "release_date": "2026-06-19",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "고려대학교 화정체육관(타이거돔)"
+      ],
+      "developer": "트레저(TREASURE)",
+      "publisher": "YG엔터테인먼트",
+      "description": "트레저가 1년 3개월 만에 연 국내 단독 공연으로, 6월 19일부터 21일까지 사흘간 고려대학교 화정체육관에서 열렸다. 미니 4집 'NEW WAV'의 전곡 무대를 처음으로 공개했고, 기존 발표곡을 새로 편곡한 무대와 유닛 무대도 함께 선보였다. 서울 공연은 이후 이어진 아시아 8개 도시 투어의 출발점이 됐다.",
+      "genres": [
+        "K-POP",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://yg-life.com/archives/196920?lang=en",
+      "last_updated": "2026-08-03",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -312,6 +404,53 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-babymonster-choom-seoul-20260626",
+      "name": "2026-27 BABYMONSTER WORLD TOUR [춤 (CHOOM)] IN SEOUL",
+      "release_date": "2026-06-26",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "잠실실내체육관"
+      ],
+      "developer": "베이비몬스터(BABYMONSTER)",
+      "publisher": "YG엔터테인먼트",
+      "description": "베이비몬스터의 두 번째 월드투어 '춤(CHOOM)'이 6월 26일부터 28일까지 사흘간 서울 잠실실내체육관에서 막을 올렸다. 데뷔 2년여 만에 나선 두 번째 월드투어로, 신보 수록곡과 'SHEESH', 'DRIP' 등 대표곡 무대가 이어졌다. 사운드체크석을 포함한 좌석 구성으로 운영됐고, 서울을 시작으로 2027년까지 이어지는 장기 투어 일정이 잡혔다.",
+      "genres": [
+        "K-POP",
+        "월드투어"
+      ],
+      "image_url": null,
+      "source_url": "https://ygfamily.com/ko/artists/babymonster/notice/211",
+      "last_updated": "2026-08-03",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-day6-the-decade-finale-seoul-20260703",
+      "name": "DAY6 10th Anniversary Tour 〈The DECADE〉 FINALE in SEOUL",
+      "release_date": "2026-07-03",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KSPO DOME(올림픽체조경기장)"
+      ],
+      "developer": "데이식스(DAY6)",
+      "publisher": "JYP엔터테인먼트",
+      "description": "데뷔 10주년 투어 'The DECADE'의 마지막 공연으로, 7월 3일부터 5일까지 사흘간 KSPO DOME에서 열렸다. 3일 오후 7시, 4일 오후 6시, 5일 오후 5시 세 차례 무대가 마련됐고 지정석과 스탠딩으로 운영됐다. 아시아와 북미를 돌며 이어 온 10주년 투어를 서울에서 마무리하며, 10년 치 대표곡을 정리하는 구성으로 꾸며졌다.",
+      "genres": [
+        "K-POP",
+        "밴드",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://tickets.interpark.com/goods/26007498",
+      "last_updated": "2026-08-03",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-mumyeongjeonseol-daegu-20260718",
       "name": "2026 무명전설 전국투어 콘서트 - 대구",
       "release_date": "2026-07-18",
@@ -332,6 +471,30 @@
       "image_url": null,
       "source_url": "https://www.stagepick.co.kr/performances/detail/214777",
       "last_updated": "2026-08-02",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-waterbomb-seoul-2026-20260724",
+      "name": "워터밤 서울 2026 (WATERBOMB SEOUL 2026)",
+      "release_date": "2026-07-24",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "festival",
+      "platforms": [
+        "킨텍스(야외 글로벌 스테이지)"
+      ],
+      "developer": null,
+      "publisher": null,
+      "description": "국내 최대 규모의 여름 워터 뮤직 페스티벌 워터밤의 서울 공연이 7월 24일부터 26일까지 사흘간 고양 킨텍스 야외 글로벌 스테이지에서 열렸다. 만 19세 이상 관람가로 진행됐고, 태민과 박재범, 카리나, 박진영, 지코, 라이즈, 선미, 비비 등 K-POP·힙합 아티스트에 디플로를 비롯한 해외 DJ 라인업이 더해졌다. 관객에게 물을 뿌리는 무대 연출로 매년 여름 최대 인파가 몰리는 행사다.",
+      "genres": [
+        "페스티벌",
+        "여름",
+        "K-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://www.waterbombfestival.com/en/2026-seoul-lineup",
+      "last_updated": "2026-08-03",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -411,11 +574,11 @@
       "presale_datetime": "2026-06-04T12:00:00+09:00",
       "presale_end_datetime": null,
       "presale_url": "https://tickets.interpark.com/",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-06-04T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-08-03",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -495,14 +658,15 @@
       ],
       "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/product/2026/06/202606112111474b29f4a6-276a-45a5-9d96-0af16312c9fd.jpg",
       "source_url": "https://www.jnilbo.com/news/articleView.html?idxno=90000042555",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-06-24T20:00:00+09:00",
       "presale_end_datetime": null,
       "presale_url": "https://ticket.melon.com/performance/index.htm?prodId=213414",
       "general_sale": true,
       "general_sale_datetime": "2026-06-30T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://ticket.melon.com/performance/index.htm?prodId=213414"
+      "general_sale_url": "https://ticket.melon.com/performance/index.htm?prodId=213414",
+      "last_updated": "2026-08-03"
     },
     {
       "id": "ko-artms-hyper-ego-20260807",
@@ -522,6 +686,28 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Artms_250613.jpg/330px-Artms_250613.jpg",
       "source_url": "https://kpopofficial.com/album/artms-hyper-ego/"
+    },
+    {
+      "id": "ko-dawn-too-much-20260807",
+      "name": "던(DAWN) 디지털 싱글 'Too Much'",
+      "release_date": "2026-08-07",
+      "release_time": "13:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "던(DAWN)",
+      "publisher": null,
+      "description": "던이 8월 7일 오후 1시 디지털 싱글 'Too Much'를 공개한다. 2023년 9월 두 번째 EP 'Narcissus' 이후 약 3년 만에 내놓는 신보로, 얼터너티브 R&B 계열의 곡이다. 공백기 동안 뮤직비디오 연출과 사진 작업 등 다른 창작 영역으로 활동을 넓혀 온 그는 7월 30일 흑백 톤의 티저 이미지를 개인 SNS에 공개하며 컴백을 예고했다.",
+      "genres": [
+        "K-POP",
+        "R&B",
+        "컴백"
+      ],
+      "image_url": null,
+      "source_url": "https://www.tenasia.co.kr/article/2026073171714",
+      "last_updated": "2026-08-03",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-straykids-this-and-that-20260807",
@@ -581,7 +767,7 @@
       "timezone": "Asia/Seoul",
       "category": "concert_tour",
       "platforms": [
-        "성남아트센터 오페라하우스"
+        "성남아트센터(오페라하우스)"
       ],
       "developer": "이승철",
       "publisher": null,
@@ -591,7 +777,8 @@
         "콘서트"
       ],
       "image_url": null,
-      "source_url": "https://tickets.interpark.com/contents/notice/detail/13718"
+      "source_url": "https://tickets.interpark.com/contents/notice/detail/13718",
+      "last_updated": "2026-08-03"
     },
     {
       "id": "ko-kiiikiii-whykiiikiii-20260810",
@@ -663,7 +850,7 @@
       "timezone": "Asia/Seoul",
       "category": "concert_tour",
       "platforms": [
-        "블루스퀘어 우리WON뱅킹홀"
+        "블루스퀘어(우리WON뱅킹홀)"
       ],
       "developer": "김종국",
       "publisher": null,
@@ -677,7 +864,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-06-02T19:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/25013284"
+      "general_sale_url": "https://tickets.interpark.com/goods/25013284",
+      "last_updated": "2026-08-03"
     },
     {
       "id": "ko-jackwhite-live-seoul-20260817",
@@ -1078,7 +1266,7 @@
       "timezone": "Asia/Seoul",
       "category": "concert_tour",
       "platforms": [
-        "블루스퀘어 우리WON뱅킹홀"
+        "블루스퀘어(우리WON뱅킹홀)"
       ],
       "developer": "존박",
       "publisher": "뮤직팜엔터테인먼트",
@@ -1089,7 +1277,7 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/John_Park_at_the_Samsung%27s_Galaxy_Tab_on_Jan_6%2C_2011_from_acrofan.jpg",
       "source_url": "https://sports.khan.co.kr/article/202607271333003/",
-      "last_updated": "2026-08-01",
+      "last_updated": "2026-08-03",
       "last_researched_by": "ko-researcher",
       "general_sale": true,
       "general_sale_datetime": "2026-07-31T18:00:00+09:00"
@@ -1169,14 +1357,15 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Riize_at_the_2024_Melon_Music_Awards-2.png/330px-Riize_at_the_2024_Melon_Music_Awards-2.png",
       "source_url": "https://www.etoday.co.kr/news/view/2605229",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-07-27T20:00:00+09:00",
       "presale_end_datetime": null,
       "presale_url": "https://tickets.interpark.com/goods/26010045",
       "general_sale": true,
       "general_sale_datetime": "2026-07-29T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26010045"
+      "general_sale_url": "https://tickets.interpark.com/goods/26010045",
+      "last_updated": "2026-08-03"
     },
     {
       "id": "ko-wayv-born-this-way-seoul-20260912",
@@ -1581,6 +1770,27 @@
       ],
       "general_sale": true,
       "general_sale_url": "https://tickets.interpark.com/goods/26010721"
+    },
+    {
+      "id": "ko-oneus-full-moon-seoul-20261024",
+      "name": "2026 ONEUS WORLD TOUR 'FULL MOON' IN SEOUL",
+      "release_date": "2026-10-24",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [],
+      "developer": "원어스(ONEUS)",
+      "publisher": null,
+      "description": "원어스가 소속사를 옮긴 뒤 처음으로 여는 월드투어의 개막 공연이다. 서울 공연은 10월 24일과 25일 이틀간 열리며, 이후 남미와 유럽, 북미, 아시아로 이어지는 일정이 예고돼 있다. 그룹은 7월 30일 공식 SNS에 1차 포스터를 올리며 투어 개최를 알렸고, 공연장과 예매 일정은 아직 공개되지 않아 추후 공식 채널을 통해 안내될 예정이다.",
+      "genres": [
+        "K-POP",
+        "월드투어"
+      ],
+      "image_url": null,
+      "source_url": "https://www.tenasia.co.kr/article/2026073174404",
+      "last_updated": "2026-08-03",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-bensonboone-wanted-man-tour-seoul-20261026",
