@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-02",
+  "last_updated": "2026-08-03",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -39,6 +39,30 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ja-chevon-dua-rhythm-final-20250630",
+      "name": "Chevon Zepp ONE MAN TOUR .25『DUA･RHYTHM』ツアーファイナル（Zepp Haneda）",
+      "release_date": "2025-06-30",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "Zepp Haneda（TOKYO）"
+      ],
+      "developer": "Chevon",
+      "publisher": "SOGO TOKYO",
+      "description": "Chevonが2025年6月30日、東京・Zepp Hanedaで〈Chevon Zepp ONE MAN TOUR .25『DUA･RHYTHM』〉のツアーファイナルを開催した。バンドにとって初のZeppワンマンツアーで、追加公演を含む全公演がソールドアウトとなり、キャリア最大規模の会場で幕を閉じた。開場18時・開演19時で行われたこの日のステージでは、バンドの「第二章」の開幕が改めて宣言された。公演の模様はU-NEXTで独占ライブ配信され、のちにメジャーデビュー作『三者山羊』のFC盤にも収録された。",
+      "genres": [
+        "J-ROCK",
+        "邦ロック",
+        "ワンマン"
+      ],
+      "image_url": null,
+      "source_url": "https://www.chevon.biz/live/2025/zepp-one-man-2025.html",
+      "last_updated": "2026-08-03",
+      "last_researched_by": "ja-researcher"
     },
     {
       "release_time": null,
@@ -170,6 +194,30 @@
       ],
       "image_url": null,
       "source_url": "https://tobe-official.jp/artists/number_i/news/1333"
+    },
+    {
+      "id": "ja-chevon-yoshinani-zenkoku-final-20251115",
+      "name": "Chevon pre. よしなに 〜全国編〜 ツアーファイナル（Zepp Haneda）",
+      "release_date": "2025-11-15",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "Zepp Haneda（TOKYO）"
+      ],
+      "developer": "Chevon",
+      "publisher": null,
+      "description": "Chevonが2025年11月15日、東京・Zepp Hanedaで〈Chevon pre. よしなに 〜全国編〜〉のツアーファイナルとなるワンマン公演を開催した。同ツアーは各地でUNISON SQUARE GARDEN、フレデリック、THE ORAL CIGARETTES、須田景凪、indigo la Endをゲストに迎えたツーマン形式で行われ、締めくくりのZepp Haneda公演のみ単独公演として実施された。このステージで、2026年春にavex内レーベルcutting edgeからメジャーデビューすることが発表された。",
+      "genres": [
+        "J-ROCK",
+        "邦ロック",
+        "ワンマン"
+      ],
+      "image_url": null,
+      "source_url": "https://ototoy.jp/news/126978",
+      "last_updated": "2026-08-03",
+      "last_researched_by": "ja-researcher"
     },
     {
       "id": "ja-txt-act-tomorrow-saitama-20251115",
@@ -310,6 +358,65 @@
       "source_url": "https://www.nogizaka46.com/s/n46/news/detail/101747"
     },
     {
+      "id": "ja-dead-end-shikiyakou-nanajiki-20260616",
+      "name": "DEAD END主催「四鬼夜行-七喰-」",
+      "release_date": "2026-06-16",
+      "release_time": "18:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "festival",
+      "platforms": [
+        "Spotify O-EAST（東京・渋谷）"
+      ],
+      "developer": "DEAD END",
+      "publisher": "DEAD END",
+      "description": "DEAD ENDが主催するイベント〈四鬼夜行〉が11年ぶりに復活し、2026年6月16日に東京・Spotify O-EASTで第7回となる〈四鬼夜行-七喰-〉が開催された。DEAD ENDはMORRIE、「CRAZY」COOL-JOEに、サポートの藤本泰司と菊地英二（THE YELLOW MONKEY）を加えた編成で登場。共演にはcali≠gari、NIGHTMARE、The Legend Of Rose［Jill岡垣プロジェクト］が名を連ねた。開場17時45分・開演18時30分、オールスタンディングで行われた。",
+      "genres": [
+        "フェスティバル",
+        "ヴィジュアル系",
+        "複数アーティスト"
+      ],
+      "image_url": null,
+      "source_url": "https://dead-end.jp/contents/378995",
+      "festival_days": [
+        {
+          "date": "2026-06-16",
+          "lineup": [
+            "DEAD END",
+            "cali≠gari",
+            "NIGHTMARE",
+            "The Legend Of Rose［Jill岡垣プロジェクト］"
+          ]
+        }
+      ],
+      "last_updated": "2026-08-03",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-akasaki-last-young-20260723",
+      "name": "AKASAKI「last YOUNG」-10代最後の単独公演-",
+      "release_date": "2026-07-23",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "LINE CUBE SHIBUYA"
+      ],
+      "developer": "AKASAKI",
+      "publisher": null,
+      "description": "シンガーソングライターのAKASAKIが2026年7月23日、東京・LINE CUBE SHIBUYAで単独公演〈AKASAKI「last YOUNG」-10代最後の単独公演-〉を開催した。アップテンポなロックナンバーからバラードまで全21曲を披露し、公演中にユニバーサルミュージック内のEMI Recordsからメジャーデビューすることをサプライズ発表。同日21時にはデビュー曲「トンチンカン」が配信された。あわせて8カ国11都市を回る初のワールドツアー開催も明かされた。",
+      "genres": [
+        "J-POP",
+        "シンガーソングライター",
+        "ワンマン"
+      ],
+      "image_url": null,
+      "source_url": "https://www.chunichi.co.jp/article/1285592",
+      "last_updated": "2026-08-03",
+      "last_researched_by": "ja-researcher"
+    },
+    {
       "id": "ja-sakurazaka46-arena-tour-2026-20260723",
       "name": "櫻坂46「全国アリーナツアー2026」",
       "release_date": "2026-07-23",
@@ -435,6 +542,30 @@
       "presale_url": "https://eplus.jp/sf/detail/0018730001"
     },
     {
+      "id": "ja-spitz-mishiranu-ito-20260807",
+      "name": "スピッツ「見知らぬ糸」（配信シングル）",
+      "release_date": "2026-08-07",
+      "release_time": "00:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [
+        "配信"
+      ],
+      "developer": "スピッツ",
+      "publisher": "ユニバーサル ミュージック",
+      "description": "スピッツが新曲「見知らぬ糸」を2026年8月7日0時に配信リリースする。TBS系金曜ドラマ『Tシャツが乾くまで』の主題歌として書き下ろされた楽曲で、蒼井優が主演、生方美久が脚本を手掛ける同作のために制作された。先行して8月1日放送のTOKYO FM『SPITZ 草野マサムネのロック大陸漫遊記』でオンエアされ、SNS上でも音源の一部が公開されている。各配信サービスではPre-Add／Pre-Saveキャンペーンも実施されている。",
+      "genres": [
+        "J-POP",
+        "ロック",
+        "シングル"
+      ],
+      "image_url": null,
+      "source_url": "https://www.universal-music.co.jp/spitz/news/2026-07-31/",
+      "last_updated": "2026-08-03",
+      "last_researched_by": "ja-researcher"
+    },
+    {
       "id": "ja-kimura-takuya-checkpoint-20260812",
       "name": "木村拓哉『Checkpoint』",
       "release_date": "2026-08-12",
@@ -534,6 +665,52 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ja-augusta-camp-2026-20260815",
+      "name": "Augusta Camp 2026 〜HATA MOTOHIRO & NAGASAWA TOMOYUKI 20th Anniversary〜",
+      "release_date": "2026-08-15",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "festival",
+      "platforms": [
+        "ぴあアリーナMM"
+      ],
+      "developer": null,
+      "publisher": "オフィスオーガスタ",
+      "description": "オフィスオーガスタが主催する夏の恒例ライブイベント〈Augusta Camp〉が、2026年8月15日に神奈川・ぴあアリーナMMで開催される。今年のテーマは「秦 基博＆長澤知之デビュー20周年」で、両者に加えて杏子、山崎まさよし、岡本定義（COIL）、あらきゆうこ、元ちとせ、スキマスイッチ、さかいゆう、松室政哉、ルイ、大東まみの計12組が出演する。前日8月14日には同会場で前夜祭も行われ、本編は8月29日にU-NEXTで独占ライブ配信される。",
+      "genres": [
+        "フェスティバル",
+        "J-POP",
+        "複数アーティスト"
+      ],
+      "image_url": "https://image.pia.jp/images/202605/202605140010_ex.png",
+      "source_url": "https://www.office-augusta.com/ac2026/",
+      "general_sale": true,
+      "general_sale_end_datetime": "2026-08-06T23:59:00+09:00",
+      "general_sale_url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2611197&rlsCd=001",
+      "festival_days": [
+        {
+          "date": "2026-08-15",
+          "lineup": [
+            "秦 基博",
+            "長澤知之",
+            "杏子",
+            "山崎まさよし",
+            "岡本定義（COIL）",
+            "あらきゆうこ",
+            "元ちとせ",
+            "スキマスイッチ",
+            "さかいゆう",
+            "松室政哉",
+            "ルイ",
+            "大東まみ"
+          ]
+        }
+      ],
+      "last_updated": "2026-08-03",
+      "last_researched_by": "ja-researcher"
     },
     {
       "id": "ja-abc-z-connection-vol2-20260819",
@@ -961,6 +1138,34 @@
       "presale_datetime": "2026-07-13T10:00:00+09:00",
       "presale_end_datetime": "2026-07-26T23:59:00+09:00",
       "presale_url": null
+    },
+    {
+      "id": "ja-nightmare-tour-2026-20260919",
+      "name": "NIGHTMARE TOUR 2026（ツアー初日・横浜BAY HALL）",
+      "release_date": "2026-09-19",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "横浜BAY HALL"
+      ],
+      "developer": "NIGHTMARE",
+      "publisher": "ディスクガレージ",
+      "description": "ヴィジュアル系ロックバンドNIGHTMAREが、全国9カ所で全11公演を行う〈NIGHTMARE TOUR 2026〉を開催する。初日は2026年9月19日の神奈川・横浜BAY HALL公演で、開場16時15分・開演17時。ツアーは10月の北海道・札幌cube garden2デイズや11月の福岡・DRUM Be-1 2デイズを経て、11月22日の東京・EX THEATER ROPPONGI公演で締めくくられる。9月16日発売の34thシングル「極夜行」に続く活動で、一般発売は8月15日から。",
+      "genres": [
+        "J-ROCK",
+        "ヴィジュアル系",
+        "ツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://nightmare-web.com/news/detail/4946",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-15T00:00:00+09:00",
+      "general_sale_url": "https://eplus.jp/sf/detail/0062600001",
+      "last_updated": "2026-08-03",
+      "last_researched_by": "ja-researcher"
     },
     {
       "release_time": "18:00",
@@ -1596,12 +1801,14 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Queens_of_the_Stone_Age_-_SSE_Arena_Wembley_-_Saturday_18th_November_2017_QOTSAWembley181117-29_%2824730972488%29_%28cropped%29.jpg/330px-Queens_of_the_Stone_Age_-_SSE_Arena_Wembley_-_Saturday_18th_November_2017_QOTSAWembley181117-29_%2824730972488%29_%28cropped%29.jpg",
       "source_url": "https://www.cdjournal.com/news/-/128119",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-07-22T12:00:00+09:00",
       "presale_url": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2347554",
       "general_sale": true,
       "general_sale_datetime": "2026-08-01T10:00:00+09:00",
-      "general_sale_url": "https://l-tike.com/concert/mevent/?mid=367063"
+      "general_sale_url": "https://l-tike.com/concert/mevent/?mid=367063",
+      "last_updated": "2026-08-03",
+      "last_researched_by": "ja-researcher"
     },
     {
       "id": "ja-two-door-cinema-club-2026-20261130",
@@ -1708,6 +1915,34 @@
       "general_sale": true,
       "general_sale_datetime": "2026-08-04T10:00:00+09:00",
       "general_sale_url": "https://eplus.jp/citygarden-machida/"
+    },
+    {
+      "id": "ja-chevon-sanshasanyou-budokan-20261220",
+      "name": "Chevon ONE MAN TOUR 2026『三者山羊 -日本武道館-』",
+      "release_date": "2026-12-20",
+      "release_time": "18:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "日本武道館"
+      ],
+      "developer": "Chevon",
+      "publisher": null,
+      "description": "札幌発の3人組ロックバンドChevonが、2026年12月20日・21日の2日間、東京・日本武道館で〈Chevon ONE MAN TOUR 2026『三者山羊 -日本武道館-』〉を開催する。横浜アリーナを含むバンド史上最大規模の全国ツアーが一般発売直後に全公演ソールドアウトとなったことを受けて決定した追加公演で、初の武道館単独公演となる。開場17時30分・開演18時30分、全席指定8,800円。一般発売は6月20日10時に始まっている。",
+      "genres": [
+        "J-ROCK",
+        "邦ロック",
+        "ツアー"
+      ],
+      "image_url": "https://portal-media-org.avexnet.jp/wp-content/news/uploads/Chevon_260314.jpg",
+      "source_url": "https://avexnet.jp/news/1031810",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-06-20T10:00:00+09:00",
+      "general_sale_url": "https://w.pia.jp/t/chevon-tour2026/",
+      "last_updated": "2026-08-03",
+      "last_researched_by": "ja-researcher"
     },
     {
       "id": "ja-sumika-laurens-library-20270123",
