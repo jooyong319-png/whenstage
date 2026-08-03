@@ -1,3 +1,11 @@
+## [2026-08-03 14:45] [EN 뉴스]
+뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
+- 신규 기사 3건: Lil Uzi Vert 롤라팔루자 세트 취소 + 기습 EP 'Maverick "Almost Forever"' 발매, New Radicals 28년 만의 신곡 'One Night Only (Break Loose Break Free!)', William Shatner의 메탈 밴드 Coachella 2027 출연 발설(+ Riot Fest 9/20 데뷔)
+- 콘서트 링크 연결 1건(Lil Uzi Vert → en-lollapalooza-2026-20260730) / 링크 없음 2건(New Radicals·Shatner — concerts.en.json 미등재)
+- 리서처 인계(leads.en.jsonl) 3건 append: New Radicals 신곡, Lil Uzi Vert EP, William Shatner & The *uckers(Riot Fest 2026 / Coachella 2027)
+- 스킵: Slipknot Sid Wilson 해고·Boy George 소송·Phil Collins 건강 고백 등(가십성, 팬 액션 유발 없음), Peace Test/Chrome Sparks/Um Jennifer?(7/31 기사에서 이미 다룸 — 중복), Greta Van Fleet·Silvertomb 신보(7/31 발표로 48시간 경과 + 세부 확인 불충분)
+- 비고: 8/1~8/2가 주말 + 롤라팔루자 기간이라 온세일·투어확정 공지가 거의 없었고 현장 리뷰·사진 기사가 대부분이었음. 소스 상태 — Pitchfork는 fetch 차단(403), NME·BrooklynVegan은 인덱스가 과거 캐시(각각 7/4, 2020년)로 반환돼 사용 불가 → Stereogum·Consequence 위주로 취재
+
 ## [2026-08-03 14:30] [KO 뉴스]
 뉴스 작성 완료 (한국 국내 공연 뉴스)
 - 신규 기사 3건: 김재중 '더 웨이브' 8/20 발매·8/29~30 KBS아레나 콘서트, 에스파 고척돔 공연 메가박스 라이브뷰잉 단독 생중계, 박은빈 팬콘 '은빈노트' 일반예매 8/3 오픈
