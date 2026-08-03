@@ -1,57 +1,208 @@
 {
   "_comment": "검색용 아티스트 영문/로마자 별칭 — 키는 normalizeArtistKey() 정규화된 한국어 표기(괄호 제거). 'bigbang'으로 검색해도 '빅뱅'이 나오게 하는 용도. 값은 data/artist-bios.json의 검증된 영문 표기(괄호 안)에서 가져오거나, 널리 알려진 공식 영문명만 추가 — 확신 없는 로마자 표기는 추가하지 않는다.",
   "aliases": {
-    "빅뱅": ["BIGBANG", "Big Bang"],
-    "아르테미스": ["ARTMS"],
-    "앤팀": ["&TEAM", "ANTEAM"],
-    "라이즈": ["RIIZE"],
-    "키스오브라이프": ["KISS OF LIFE"],
-    "키키": ["KiiiKiii"],
-    "싸이": ["PSY"],
-    "에이엔": ["AEN"],
-    "레드벨벳": ["Red Velvet"],
-    "스트레이 키즈": ["Stray Kids"],
-    "에스파": ["aespa"],
-    "엔하이픈": ["ENHYPEN"],
-    "김종국": ["Kim Jong-kook", "Kim Jong Kook"],
-    "성시경": ["Sung Si-kyung", "Sung Si Kyung"],
-    "전유진": ["Jeon Yu-jin", "Jeon Yu Jin"],
-    "티파니 영": ["Tiffany Young"],
-    "잭 화이트": ["Jack White"],
-    "Official髭男dism": ["Official HIGE DANdism"],
-    "이승철": ["Lee Seung-chul", "Lee Seung Chul"],
-    "포스트 말론": ["Post Malone"],
-    "극동아시아타이거즈": ["Far East Asian Tigers"],
-    "까치산": ["KACHISAN", "Kachisan"],
-    "드래곤포니": ["Dragon Pony"],
-    "로이킴": ["Roy Kim"],
-    "쏜애플": ["Thornapple", "THORNAPPLE"],
-    "윤하": ["Younha", "YOUNHA"],
-    "이즈나": ["izna", "IZNA"],
-    "자라 라슨": ["Zara Larsson"],
-    "정은지": ["Jeong Eun-ji", "Jung Eun-ji"],
-    "박은빈": ["Park Eun-bin", "Park Eunbin"],
-    "벤슨 분": ["Benson Boone"],
-    "아틀러스": ["ATLUS", "Atlus"],
-    "위켄드": ["The Weeknd", "Weeknd"],
-    "찰리 푸스": ["Charlie Puth"],
-    "파이브 세컨즈 오브 서머": ["5 Seconds of Summer", "5SOS"],
-    "프로미스나인": ["fromis_9", "fromis 9"],
-    "임영웅": ["Lim Young-woong", "Im Young-woong"],
-    "바운디": ["Vaundy"],
-    "인피니트": ["INFINITE"],
-    "존박": ["John Park"],
-    "기비온": ["GIVĒON", "Giveon"],
-    "멘 아이 트러스트": ["Men I Trust"],
-    "원오트릭스 포인트 네버": ["Oneohtrix Point Never"],
-    "즛토마요": ["ZUTOMAYO"],
-    "공유": ["Gong Yoo"],
-    "미미": ["MIMI"],
-    "박재범": ["Jay Park", "JAY PARK"],
-    "베리베리": ["VERIVERY"],
-    "웨이션브이": ["WayV", "WAYV"],
-    "태민": ["TAEMIN", "Taemin"],
-    "원 오크 록": ["ONE OK ROCK"],
-    "원리퍼블릭": ["OneRepublic"]
+    "빅뱅": [
+      "BIGBANG",
+      "Big Bang"
+    ],
+    "아르테미스": [
+      "ARTMS"
+    ],
+    "앤팀": [
+      "&TEAM",
+      "ANTEAM"
+    ],
+    "라이즈": [
+      "RIIZE"
+    ],
+    "키스오브라이프": [
+      "KISS OF LIFE"
+    ],
+    "키키": [
+      "KiiiKiii"
+    ],
+    "싸이": [
+      "PSY"
+    ],
+    "에이엔": [
+      "AEN"
+    ],
+    "레드벨벳": [
+      "Red Velvet"
+    ],
+    "스트레이 키즈": [
+      "Stray Kids"
+    ],
+    "에스파": [
+      "aespa"
+    ],
+    "엔하이픈": [
+      "ENHYPEN"
+    ],
+    "김종국": [
+      "Kim Jong-kook",
+      "Kim Jong Kook"
+    ],
+    "성시경": [
+      "Sung Si-kyung",
+      "Sung Si Kyung"
+    ],
+    "전유진": [
+      "Jeon Yu-jin",
+      "Jeon Yu Jin"
+    ],
+    "티파니 영": [
+      "Tiffany Young"
+    ],
+    "잭 화이트": [
+      "Jack White"
+    ],
+    "Official髭男dism": [
+      "Official HIGE DANdism"
+    ],
+    "이승철": [
+      "Lee Seung-chul",
+      "Lee Seung Chul"
+    ],
+    "포스트 말론": [
+      "Post Malone"
+    ],
+    "극동아시아타이거즈": [
+      "Far East Asian Tigers"
+    ],
+    "까치산": [
+      "KACHISAN",
+      "Kachisan"
+    ],
+    "드래곤포니": [
+      "Dragon Pony"
+    ],
+    "로이킴": [
+      "Roy Kim"
+    ],
+    "쏜애플": [
+      "Thornapple",
+      "THORNAPPLE"
+    ],
+    "윤하": [
+      "Younha",
+      "YOUNHA"
+    ],
+    "이즈나": [
+      "izna",
+      "IZNA"
+    ],
+    "자라 라슨": [
+      "Zara Larsson"
+    ],
+    "정은지": [
+      "Jeong Eun-ji",
+      "Jung Eun-ji"
+    ],
+    "박은빈": [
+      "Park Eun-bin",
+      "Park Eunbin"
+    ],
+    "벤슨 분": [
+      "Benson Boone"
+    ],
+    "아틀러스": [
+      "ATLUS",
+      "Atlus"
+    ],
+    "위켄드": [
+      "The Weeknd",
+      "Weeknd"
+    ],
+    "찰리 푸스": [
+      "Charlie Puth"
+    ],
+    "파이브 세컨즈 오브 서머": [
+      "5 Seconds of Summer",
+      "5SOS"
+    ],
+    "프로미스나인": [
+      "fromis_9",
+      "fromis 9"
+    ],
+    "임영웅": [
+      "Lim Young-woong",
+      "Im Young-woong"
+    ],
+    "바운디": [
+      "Vaundy"
+    ],
+    "인피니트": [
+      "INFINITE"
+    ],
+    "존박": [
+      "John Park"
+    ],
+    "기비온": [
+      "GIVĒON",
+      "Giveon"
+    ],
+    "멘 아이 트러스트": [
+      "Men I Trust"
+    ],
+    "원오트릭스 포인트 네버": [
+      "Oneohtrix Point Never"
+    ],
+    "즛토마요": [
+      "ZUTOMAYO"
+    ],
+    "공유": [
+      "Gong Yoo"
+    ],
+    "미미": [
+      "MIMI"
+    ],
+    "박재범": [
+      "Jay Park",
+      "JAY PARK"
+    ],
+    "베리베리": [
+      "VERIVERY"
+    ],
+    "웨이션브이": [
+      "WayV",
+      "WAYV"
+    ],
+    "태민": [
+      "TAEMIN",
+      "Taemin"
+    ],
+    "원 오크 록": [
+      "ONE OK ROCK"
+    ],
+    "원리퍼블릭": [
+      "OneRepublic"
+    ],
+    "데이식스": [
+      "DAY6"
+    ],
+    "마마무": [
+      "MAMAMOO",
+      "Mamamoo"
+    ],
+    "베이비몬스터": [
+      "BABYMONSTER"
+    ],
+    "원어스": [
+      "ONEUS"
+    ],
+    "트레저": [
+      "TREASURE"
+    ],
+    "던": [
+      "DAWN"
+    ],
+    "김준수": [
+      "XIA",
+      "Kim Junsu"
+    ],
+    "BBC 심포니 오케스트라": [
+      "BBC Symphony Orchestra"
+    ]
   }
 }

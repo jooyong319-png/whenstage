@@ -349,6 +349,54 @@
         "agency": "갤럭시코퍼레이션",
         "members": "솔로",
         "debut": "2008 (샤이니)"
+      },
+      "BBC 심포니 오케스트라": {
+        "text": "BBC 심포니 오케스트라는 1930년 창단된 영국 BBC 소속 교향악단으로, 런던을 거점으로 활동한다. 매년 여름 로열 앨버트 홀에서 열리는 클래식 축제 BBC 프롬스의 중심 악단으로 개막과 폐막 공연을 맡아 왔으며, 동시대 작곡가의 신작 초연에도 꾸준히 힘써 온 것으로 알려져 있다.",
+        "agency": "BBC",
+        "members": null,
+        "debut": "1930"
+      },
+      "김준수": {
+        "text": "김준수는 2003년 동방신기 멤버로 데뷔한 뒤 JYJ를 거쳐 솔로 아티스트 XIA로 활동해 온 가수다. 폭넓은 음역과 감정 표현을 살린 곡으로 자신의 색깔을 굳혔고, 국내 뮤지컬 무대에서도 오랜 기간 주연급으로 서며 배우로서의 입지를 함께 쌓아 왔다. 2026년에는 정규 5집 《GRAVITY》를 내고 아시아 투어를 이어갔다.",
+        "agency": "팜트리아일랜드",
+        "members": "솔로",
+        "debut": "2003"
+      },
+      "던": {
+        "text": "던(DAWN)은 본명 김효종으로, 2016년 펜타곤의 메인래퍼 이던(E'Dawn)으로 데뷔했다. 2018년 팀을 떠난 뒤 2019년 싱글 《MONEY》로 솔로 활동을 시작했고, 랩과 보컬을 오가는 퍼포먼스와 직접 참여하는 작사·작곡으로 자기 색이 뚜렷한 음악을 선보이고 있다.",
+        "agency": "AT AREA",
+        "members": "솔로",
+        "debut": "2016"
+      },
+      "데이식스": {
+        "text": "데이식스(DAY6)는 성진, 영케이, 원필, 도운으로 구성된 JYP엔터테인먼트 소속 밴드다. 멤버들이 직접 연주와 작사·작곡에 참여하는 밴드 정체성을 유지해 왔으며, 〈예뻤어〉·〈한 페이지가 될 수 있게〉처럼 발매 후 시간이 지나 역주행한 곡들로 폭넓은 청중을 얻었다.",
+        "agency": "JYP엔터테인먼트",
+        "members": "4인조",
+        "debut": "2015.09.07"
+      },
+      "마마무": {
+        "text": "마마무는 솔라, 문별, 휘인, 화사로 구성된 4인조 걸그룹으로 2014년 6월 데뷔했다. 데뷔 초부터 재즈·R&B를 끌어들인 편곡과 네 멤버 모두가 메인 보컬급인 가창력으로 실력파 그룹이라는 평가를 받아 왔다. 이후 멤버들이 각자 다른 소속사로 옮긴 뒤에도 완전체 활동을 이어가고 있다.",
+        "agency": null,
+        "members": "4인조",
+        "debut": "2014.06"
+      },
+      "베이비몬스터": {
+        "text": "베이비몬스터는 YG엔터테인먼트가 블랙핑크 이후 7년 만에 선보인 다국적 걸그룹으로, 7인으로 구성돼 있다. 2023년 11월 디지털 싱글 《BATTER UP》으로 처음 모습을 드러냈고, 이후 미니 1집 《BABYMONS7ER》 발매일인 2024년 4월 1일이 공식 데뷔일로 정해졌다. 데뷔 전 공개된 연습 영상 시리즈로 일찌감치 해외 팬층을 확보했다.",
+        "agency": "YG엔터테인먼트",
+        "members": "7인조",
+        "debut": "2024.04.01"
+      },
+      "원어스": {
+        "text": "원어스(ONEUS)는 서호, 이도, 건희, 환웅, 시온으로 구성된 5인조 보이그룹이다. 2019년 미니 1집 《LIGHT US》와 타이틀곡 〈발키리〉로 데뷔했으며, 국악·전통 요소를 현대적인 퍼포먼스와 결합한 무대로 자기 색을 만들어 왔다. 데뷔 당시 소속사였던 RBW를 떠나 현재는 B.WAVE 엔터테인먼트에서 활동한다.",
+        "agency": "B.WAVE 엔터테인먼트",
+        "members": "5인조",
+        "debut": "2019.01.09"
+      },
+      "트레저": {
+        "text": "트레저(TREASURE)는 YG엔터테인먼트의 오디션 프로그램 'YG보석함'을 통해 결성돼 2020년 데뷔한 보이그룹이다. 데뷔 당시 12인조였으나 두 멤버가 팀을 떠나 현재는 10인조로 활동한다. 한국과 일본 출신 멤버가 함께 있어 일본에서도 두터운 팬층을 갖고 있으며, 멤버들이 곡 작업에 직접 참여하는 비중이 높은 편이다.",
+        "agency": "YG엔터테인먼트",
+        "members": "10인조",
+        "debut": "2020.08.07"
       }
     },
     "en": {
@@ -795,6 +843,78 @@
         "agency": null,
         "members": null,
         "debut": null
+      },
+      "Air": {
+        "text": "Air is a French electronic duo formed in Versailles by Nicolas Godin and Jean-Benoit Dunckel. Their 1998 debut album Moon Safari, built on vintage synthesizers and a soft, widescreen melodicism, became a touchstone of the French electronic wave, and they followed it with the soundtrack to Sofia Coppola's The Virgin Suicides. The pair have continued to tour the Moon Safari material in full alongside their later catalogue.",
+        "agency": null,
+        "members": "Duo",
+        "debut": "1998"
+      },
+      "BIGBANG": {
+        "text": "BIGBANG debuted in 2006 under YG Entertainment and became one of the most influential acts in Korean pop, in part because its members wrote and produced much of their own material rather than working solely with in-house writers. The group now performs as a trio of G-Dragon, Taeyang and Daesung. In 2026 they marked their twentieth anniversary with a world tour and a Coachella appearance.",
+        "agency": null,
+        "members": "Three members",
+        "debut": "2006"
+      },
+      "Bon Jovi": {
+        "text": "Bon Jovi formed in Sayreville, New Jersey in 1983 around frontman Jon Bon Jovi, and broke through worldwide with the 1986 album Slippery When Wet and its singles \"Livin' on a Prayer\" and \"You Give Love a Bad Name.\" The long partnership between Jon Bon Jovi and guitarist Richie Sambora defined the band's arena-rock songwriting, and the group was inducted into the Rock and Roll Hall of Fame in 2018.",
+        "agency": "Island Records",
+        "members": "Band",
+        "debut": "1983"
+      },
+      "Chrome Sparks": {
+        "text": "Chrome Sparks is the electronic project of Jeremy Malvin, a classically trained percussionist who began releasing music under the name while studying at the University of Michigan. His work pairs lush analog synthesizers with intricate rhythmic detail, and the 2012 track \"Marijuana\" gave him an early online following. He has since released through the Australian label Future Classic.",
+        "agency": "Future Classic",
+        "members": "Solo",
+        "debut": "2010"
+      },
+      "Ethel Cain, 9Million": {
+        "text": "Ethel Cain is the project of Hayden Anhedonia, an American songwriter whose slow-building, gothic-tinged records draw on Southern gospel and the American South she grew up in. The 2022 album Preacher's Daughter established the narrative world she has continued to expand across later releases. Supporting on this run is 9Million, an alt-rock band from Toronto who have opened multiple legs of her recent touring.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Greta Van Fleet": {
+        "text": "Greta Van Fleet formed in Frankenmuth, Michigan, around brothers Josh, Jake and Sam Kiszka with drummer Danny Wagner. Their blues-driven hard rock drew immediate comparisons to Led Zeppelin, and their 2017 EP From the Fires won the Grammy for Best Rock Album. Later records such as The Battle at Garden's Gate and Starcatcher pushed the band toward more expansive, orchestral arrangements.",
+        "agency": "Republic Records",
+        "members": "Four-piece",
+        "debut": "2017"
+      },
+      "MAMAMOO": {
+        "text": "MAMAMOO is a South Korean group made up of Solar, Moonbyul, Wheein and Hwasa, who debuted in 2014. The quartet built its reputation on jazz and R&B influenced arrangements and on four singers each strong enough to carry a lead, an unusual balance in Korean pop. The members have since signed with different agencies but continue to tour and record together as a group.",
+        "agency": null,
+        "members": "Four members",
+        "debut": "2014"
+      },
+      "Oasis, Ball Park Music": {
+        "text": "Oasis formed in Manchester in 1991 and defined British guitar music of the decade with Definitely Maybe and (What's the Story) Morning Glory?, driven by the songwriting of Noel Gallagher and the voice of his brother Liam. The band split acrimoniously in 2009, and the brothers reunited for a run of stadium shows beginning in 2025. Ball Park Music, an indie pop band from Brisbane, supports on the Australian dates.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Paul McCartney": {
+        "text": "Paul McCartney's songwriting partnership with John Lennon in the Beatles reshaped popular music, and he has released solo and Wings material continuously since 1970. His live shows draw across all three phases of that catalogue and typically run well past two hours. He remains one of the most commercially successful songwriters in recorded history.",
+        "agency": "MPL Communications",
+        "members": "Solo",
+        "debut": "1970"
+      },
+      "Rod Stewart, Cheap Trick": {
+        "text": "Rod Stewart emerged from the British blues scene with the Jeff Beck Group and Faces before a solo career spanning rock, folk-inflected balladry and the American songbook, carried by one of the most recognizable rasps in popular music. Sharing the bill is Cheap Trick, the Rockford, Illinois power-pop band whose catalogue includes \"I Want You to Want Me\" and the landmark live album Cheap Trick at Budokan.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Slothrust, The Velveteers": {
+        "text": "Slothrust is an American band led by singer and guitarist Leah Wellbaum, whose songwriting mixes blues phrasing and grunge weight with dry, unsettling lyrics. The Velveteers, from Colorado, are built around guitarist Demi Demitro and an unusual two-drummer lineup that gives their garage rock an especially heavy live attack.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Stereolab": {
+        "text": "Stereolab formed in London in 1990 around Tim Gane and Laetitia Sadier, folding motorik krautrock rhythms, lounge and French pop into a sound that influenced a generation of indie bands. They released much of their catalogue through their own Duophonic label. After a long hiatus beginning in 2009, the group returned to touring and to releasing new material.",
+        "agency": "Duophonic Records",
+        "members": "Band",
+        "debut": "1991"
       }
     },
     "ja": {
@@ -1289,6 +1409,36 @@
         "agency": "ソニー・ミュージックエンタテインメント",
         "members": "2人組",
         "debut": "2019.11.16"
+      },
+      "AKASAKI": {
+        "text": "AKASAKIは2006年生まれのシンガーソングライター。高校在学中にTikTokへ投稿した弾き語り動画をきっかけに注目を集め、2024年に「弾きこもり」でアーティストとしてデビューした。同年発表の「Bunny Girl」がストリーミングで大きく広がり、Billboard JAPAN Hot 100にもチャートインしている。",
+        "agency": "REVOLTE",
+        "members": "ソロ",
+        "debut": "2024"
+      },
+      "Chevon": {
+        "text": "Chevonは札幌で結成された3人組ロックバンドで、谷絹茉優（Vo）、Ktjm（Gt）、オオノタツヤ（Ba）から成る。文学的な言葉選びと転調の多い展開を組み合わせた楽曲が特徴で、詞・リズム・コードをメンバーがそれぞれ分担して作る制作スタイルをとる。2021年に結成し、翌年からライブ活動を本格化させた。",
+        "agency": "PRIDE&JOY",
+        "members": "3人組",
+        "debut": "2021"
+      },
+      "DEAD END": {
+        "text": "DEAD ENDは1984年に結成された日本のロックバンドで、MORRIE（Vo）、YOU（Gt）、\"CRAZY\" COOL-JOE（Ba）、MINATO（Dr）の4人編成。1987年のアルバム『GHOST OF ROMANCE』でメジャーデビューし、メタル・グラムロック・ゴス・プログレを横断する音楽性とMORRIEの独特な詞世界で後続のバンドに大きな影響を与えた。1990年に解散したが、2009年にオリジナルメンバーで再結成している。",
+        "agency": null,
+        "members": "4人組",
+        "debut": "1987"
+      },
+      "NIGHTMARE": {
+        "text": "NIGHTMAREは2000年に結成されたヴィジュアル系ロックバンドで、YOMI（Vo）、柩（Gt）、咲人（Gt）、Ni〜ya（Ba）、RUKA（Dr）の5人編成。2003年にメジャーデビューし、アニメ『DEATH NOTE』の主題歌「the WORLD」などで広く知られるようになった。活動休止期間を経て再始動している。",
+        "agency": null,
+        "members": "5人組",
+        "debut": "2003"
+      },
+      "スピッツ": {
+        "text": "スピッツは1987年に結成された4人組ロックバンドで、草野マサムネ（Vo/Gt）、三輪テツヤ（Gt）、田村明浩（Ba）、崎山龍男（Dr）が結成時から変わらず在籍している。1991年にメジャーデビューし、「ロビンソン」「チェリー」などのヒットで広く知られる。柔らかなメロディと、そこに乗る屈折した言葉のギャップが長く支持されてきた。",
+        "agency": "グラスホッパー",
+        "members": "4人組",
+        "debut": "1991"
       }
     }
   }
