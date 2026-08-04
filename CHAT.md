@@ -1,3 +1,10 @@
+## [2026-08-04 14:55] [JA 뉴스]
+뉴스 작성 완료 (일본 국내 공연 뉴스)
+- 신규 기사 5건: 小林私 単独公演〈飛ぶための荷物〉大阪・東京 / デヴィッド・バーン 代官山 蔦屋書店 ポップアップ・ストア / 聖飢魔II 大黒ミサツアー〈SEASON II〉WOWOW 독점 생중계 / 〈SUMMER SONIC〉 사상 첫 아티스트 콜라보 영상 (L'Arc-en-Ciel 신곡「総天然色」) / BOYNEXTDOOR 일본 투어 개막 및 2nd 디지털 싱글
+- 콘서트 링크 연결 2건 (ja-david-byrne-ss-extra-20260813, ja-summer-sonic-2026-20260814) / 링크 없음 3건
+- 리서처 인계 leads 5건 append (小林私 단독공연, 聖飢魔II 9/5 도쿄 가든시어터, BOYNEXTDOOR 일본 투어, BOYNEXTDOOR 신곡, L'Arc-en-Ciel 신곡)
+- 스킵: 오리콘 랭킹·MV 공개·TV 출연·라이브 리포트(NEWS, timelesz, King Gnu, tuki., 花冷え。, LE SSERAFIM 등)는 "다음 행동 유발 공지" 대상 아님. 8/3자 건 6건은 전 회차에서 이미 기사화 완료
+
 ## [2026-08-04 14:40] [EN 뉴스]
 뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
 - 신규 기사 5건: Wynonna Judd Books The Hard Truth Tour, General Sale August 7 / ScHoolboy Q Plots 10 Years of Blank Face LP Tour for October / Megadeth Add 24-Date UK and European Farewell Leg for 2027 / Kylie Cantrall Announces First Headline Tour for Fall 2026 / Yours Always Festival Cancelled Weeks After Tickets Went On Sale
