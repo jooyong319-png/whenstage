@@ -1,3 +1,44 @@
+## [2026-08-04 09:41] [JA 리서처]
+리서치 완료 (일본 국내 공연)
+- 콘서트/来日 11→6, 발매 0→0, 페스티벌 3→2, 팬미팅 0→0 (후보→통과)
+- 뉴스 인계 처리 8건 중 4건 등재 (leads.ja.jsonl 33건 중 21건은 이미 concerts.ja.json에 등재돼 자동 스킵, 4건은 검증 탈락)
+- 신규 12개(예정 8 + 과거 백필 4) / 갱신 0개 (삭제 없음·전량 보존)
+- 과거 백필 4개 → **공연장 색인전환 3개**(LaLa arena TOKYO-BAY / LIQUIDROOM / KT Zepp Yokohama — 전부 1건→2건) / 기존 공연장 보강 1개(アルプス公園, 2026분과 짝을 이뤄 신규 2건 공연장 성립)
+- 티켓팅 진행중 신규 5건(+5 / 해제 -0 — 기존 true 25건 전량 재확인했으나 모두 미래 공연이라 해제 대상 없음)
+- description 보강 0개 (기존 전 항목 일본어 120자 이상 유지 확인)
+- 총 등록 91개
+
+[신규 등재 — 예정 공연 8건]
+- DAVID BYRNE ＜SUMMER SONIC EXTRA＞ / SGC HALL ARIAKE 2026-08-13 — 프로모터 클리에이티브맨 공식 페이지(published_time 2026-06-19) + 소니뮤직·CDJournal·NME Japan 교차. SOLD OUT이라 general_sale=false로 등재, 일반발매일시(7/4 10:00 JST)·이플러스 URL·publisher(クリエイティブマンプロダクション)까지 확보
+- HOLLY HUMBERSTONE ＜SUMMER SONIC EXTRA＞ / duo MUSIC EXCHANGE 2026-08-13 — 클리에이티브맨 공식(published_time 2026-07-09) + NME Japan. **duo MUSIC EXCHANGE 1건→2건 색인전환**
+- STEVE LACY 単独来日公演 ＜SUMMER SONIC EXTRA＞ / TOYOSU PIT 2026-08-13 — 소니뮤직 공식(2026-06-19) + 클리에이티브맨 공연 페이지. **TOYOSU PIT 1건→2건 색인전환**
+- 加藤訓子〈STEVE REICH PROJECT「REICH90」〉東京公演 / めぐろパーシモンホール(大ホール) 2026-09-05 — CDJournal + atpress/NEWSCAST 보도자료·ぶらあぼONLINE 교차, 개연 15:00 확인
+- ジョーイ・オミシル 初来日公演 / WALL&WALL(東京・表参道) 2026-09-24 — CDJournal + MUSIC TRIBUNE 교차. 9/27 りんご音楽祭2026 출연도 동일 소스에서 확인
+- りんご音楽祭2026 / アルプス公園(長野・松本) 2026-09-26~27 — 공식 ringofes.info + 松本市 공식 사이트 + イープラス 판매 페이지. 〈東アジア文化都市2026松本〉 공동주최
+- A2Z 2026（AKLO × ZORN）/ 東京ガーデンシアター 2026-11-13 — CDJournal(2026-08-03) + spincoaster·오리콘(福島民報 전재)·ZORN 공식. 개장 18:00/개연 19:00, ZORN FC 추첨 선행 URL 확보
+- セカンドバッカー 全国ツアー2026 ファイナル・シリーズ 仙台公演 / 仙台MACANA 2026-11-22 — 아티스트 공식(fanpla) + CDJournal·livedoor 교차, 오피셜 1차 추첨 선행 8/2 20:00~8/30 23:59 등재
+
+[신규 등재 — 과거 백필 4건] (전부 release_date 오늘 이전 확인, approx=false, 티켓팅 필드 비움, 과거 시제 일본어 서술)
+- Official髭男dism「one-man live 2025 -UNOFFICIAL-」/ KT Zepp Yokohama 2025-04-24 → **KT Zepp Yokohama 1건→2건**. 아티스트 공식 higedan.com 공지 + live-events 교차, publisher=ディスクガレージ
+- NEWS LIVE TOUR 2025 変身 千葉公演 / LaLa arena TOKYO-BAY 2025-08-22 → **LaLa arena TOKYO-BAY 1건→2건**. 공연장 공식 사이트(lalaarenatokyo-bay.com/event/1519) + MELD 교차
+- LIQUIDROOM 21st ANNIVERSARY 踊ってばかりの国 ワンマンライブ 2025 / LIQUIDROOM 2025-09-05 → **LIQUIDROOM 1건→2건**. LIQUIDROOM 공식 스케줄 + 아티스트 공식·音楽ナタリー·OTOTOY 교차
+- りんご音楽祭2025 / アルプス公園 2025-09-27 → 같은 사이클에 등재한 2026분과 합쳐 アルプス公園 2건 성립(색인 대상). 공식 ringofes.info + 松本市 관광 사이트·ongakufes 교차
+※ 백필은 "全国ツアーの別회차"를 한 건도 넣지 않음. 1건짜리 공연장을 새로 만드는 백필도 없음.
+※ 공연장 표기는 기존 항목의 괄호 밖 부분과 정확히 일치시킴(예: 豊洲PIT가 아니라 기존 표기에 맞춘 "TOYOSU PIT（東京・豊洲）", "LIQUIDROOM（東京・恵比寿）") — 페이지 분리 방지.
+
+[검증 탈락]
+- Number_i LIVE TOUR No.III（Chapter 1 : Japan）: 5대 돔이라는 규모만 발표됐을 뿐 개별 날짜·회장이 모두 미발표. platforms[0]을 확정할 수 없어 approx 등재도 보류(회장 미상으로 등재하면 잘못된 공연장 페이지가 생김). 일정 발표 후 재검토
+- 踊る！ディスコ室町「すいか」リリース・パーティー(9/27 京都西院ネガポジ 외): 날짜·회장은 확인되나 1건짜리 지방 소규모 회장만 새로 늘어나는 건이라 이번 사이클 보류
+- Finally「TAKE to GIVE」ツアー: "2026년 10~12월 東名阪 3주"까지만 공표되고 개별 일자·회장 미발표
+- やまもとはると 全国弾き語りツアー: 회장을 공식 폼으로 공모 중인 단계라 일정·회장 모두 미확정
+- Tommy The Screening Japan Tour / 映画『叛逆のサウンドトラック』 토크 이벤트 / 新国立劇場 オペラ『ピーター・グライムズ』: leads의 kind가 screening_event·opera로, 본 파일의 4개 카테고리(콘서트·음원발매·페스티벌·팬미팅) 범위 밖이라 제외
+
+[연도 함정 기록 — 다음 사이클 참고]
+- 검색엔진이 같은 아티스트의 **과거 来日 기사**를 올해 것처럼 요약해 돌려주는 사례를 2건 실제로 겪음:
+  Steve Lacy(OTOTOY 2023-11-01 기사 → 2024년 立川ステージガーデン 공연), Holly Humberstone(amass 2023-10-10 기사 → 2024년 恵比寿ガーデンホール 공연).
+  둘 다 검색 요약만 봤으면 2026년 공연으로 잘못 등재할 뻔했다. **프로모터/레이블 공식 페이지의 published_time을 반드시 직접 열어 확인**하는 절차가 실제로 작동함.
+- SUMMER SONIC 2026 기존 등재분(8/14)도 재확인 — 8/14~16 3일 개최가 맞아 수정 불필요. 8/13 単独公演 3건은 전부 〈SUMMER SONIC EXTRA〉 사이드쇼.
+
 ## [2026-08-04 09:30] [EN 리서처]
 리서치 완료 (영어권/글로벌 시장 공연)
 - 콘서트/투어 8→5, 발매 5→5, 페스티벌 2→1, 팬미팅 0→0 (후보→통과)
