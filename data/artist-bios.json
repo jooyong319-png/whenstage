@@ -397,6 +397,30 @@
         "agency": "YG엔터테인먼트",
         "members": "10인조",
         "debut": "2020.08.07"
+      },
+      "AxMxP": {
+        "text": "AxMxP(에이엠피)는 FNC엔터테인먼트 소속 4인조 밴드로, 하유준·크루·김신·주환으로 구성됐다. 팀명은 'Amplify Music Power'의 약자로 음악의 힘을 증폭시킨다는 의미를 담았다. FNC가 2015년 엔플라잉 이후 10년 만에 선보인 밴드로, 2025년 9월 정규 1집 'AxMxP'로 데뷔했다.",
+        "agency": "FNC엔터테인먼트",
+        "members": "4인조",
+        "debut": "2025.09.10"
+      },
+      "김재중": {
+        "text": "김재중은 2003년 동방신기 멤버로 데뷔한 가수 겸 배우다. 이후 JYJ로 활동했으며 현재는 직접 설립에 참여한 iNKODE 소속으로 솔로 활동을 이어가고 있다. 국내뿐 아니라 일본에서도 오랜 기간 음반과 콘서트를 병행해 왔고, 연기와 방송 활동도 함께하고 있다.",
+        "agency": "iNKODE",
+        "members": "솔로",
+        "debut": "2003 (동방신기)"
+      },
+      "세쿠": {
+        "text": "세쿠(Sekou)는 영국 레스터 출신의 싱어송라이터로, 소울과 가스펠에 뿌리를 둔 창법과 폭발적인 성량으로 주목받았다. 10대 시절 노래하는 영상이 온라인에서 화제가 되며 유니버설 산하 아일랜드 레코드와 계약했고, 2023년 첫 EP 'Out of Mind'를 발표했다. 2024년 브릿 어워드 라이징 스타 부문 후보에 오르며 영국에서 가장 주목받는 신인 중 하나로 꼽혔다.",
+        "agency": "Island Records",
+        "members": "솔로",
+        "debut": "2023"
+      },
+      "크로스진": {
+        "text": "크로스진(CROSS GENE)은 2012년 6월 데뷔한 아뮤즈코리아 소속 그룹이다. 한국·일본·중국 출신 멤버가 함께한 다국적 6인조로 출발해 한국과 일본을 오가며 활동했다. 현재는 신(신원호)과 용석 2인 체제로 팀을 이어가고 있다.",
+        "agency": "아뮤즈코리아",
+        "members": "2인조",
+        "debut": "2012.06.11"
       }
     },
     "en": {
@@ -915,6 +939,96 @@
         "agency": "Duophonic Records",
         "members": "Band",
         "debut": "1991"
+      },
+      "Dropkick Murphys, Bad Religion, The Mainliners": {
+        "text": "This listing covers the co-headlining Summer of Discontent tour. Dropkick Murphys, formed in Quincy, Massachusetts in 1996, fuse Celtic folk instrumentation with hardcore punk and are inseparable from Boston's sporting and civic life. Bad Religion have been a cornerstone of Southern California punk since 1980, known for dense vocal harmonies and lyrics that argue with authority. The Mainliners open the bill.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Icona Pop": {
+        "text": "Icona Pop are a Swedish pop duo made up of Caroline Hjelt and Aino Jawo, who met in Stockholm in 2009. Their breakthrough came with \"I Love It,\" a collaboration with Charli xcx that became a global hit, and they have since built a catalog rooted in euphoric dance-pop and club production. Their album Ritual arrived in 2026 via Ultra Records and Iconic Sound Records.",
+        "agency": "Ultra Records / Iconic Sound Records",
+        "members": "Duo",
+        "debut": "2009"
+      },
+      "Jimmy Eat World, The Format": {
+        "text": "This listing covers a co-headlining bill pairing two Arizona bands. Jimmy Eat World formed in Mesa in 1993 and broke through with Bleed American in 2001, a record that helped define mainstream emo and alternative rock of the era. The Format, the Peoria duo of Nate Ruess and Sam Means, released two albums in the 2000s before splitting; Ruess went on to front fun. The two acts had never shared a stage before this pairing.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "John Mulaney": {
+        "text": "John Mulaney is an American stand-up comedian, writer and actor from Chicago. He wrote for Saturday Night Live before establishing himself as a touring stand-up, and his specials — among them New in Town, Kid Gorgeous and Baby J — are built on tightly constructed storytelling. He has also worked extensively in television and voice acting.",
+        "agency": null,
+        "members": "Solo",
+        "debut": null
+      },
+      "LCD Soundsystem, Pulp": {
+        "text": "This listing covers a co-headlining pairing of two bands separated by a generation but joined by a talent for wry, danceable songs about getting older. LCD Soundsystem, James Murphy's New York project, emerged from DFA Records in the early 2000s and turned disco-punk into a vehicle for middle-aged anxiety. Pulp, formed in Sheffield in 1978 and fronted by Jarvis Cocker, became one of Britpop's sharpest social observers and returned with new material decades later.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Lil Uzi Vert": {
+        "text": "Lil Uzi Vert is a rapper and singer from Philadelphia whose melodic, punk-inflected approach helped reshape mainstream rap in the late 2010s. The mixtape run that began with Luv Is Rage led to the breakout single \"XO Tour Llif3\" and the album Eternal Atake, and their releases frequently arrive with little warning.",
+        "agency": "Generation Now / Atlantic Records",
+        "members": "Solo",
+        "debut": "2014"
+      },
+      "MARINA, Coco & Clair Clair": {
+        "text": "MARINA is a Welsh singer-songwriter who recorded as Marina and the Diamonds before releasing music under her own name. Across albums including The Family Jewels, Electra Heart and Froot she has paired theatrical pop with writing about identity and femininity, and her sixth studio album underpins The Princess of Power Tour. Support comes from Coco & Clair Clair, an Atlanta duo known for deadpan, minimal rap-pop.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Morgan Wallen": {
+        "text": "Morgan Wallen is an American country singer from Sneedville, Tennessee, who first reached a wide audience through a televised singing competition before signing with Big Loud. His albums If I Know Me, Dangerous and One Thing at a Time made him one of the biggest commercial forces in country music, with a sound that borrows freely from rock and hip-hop production.",
+        "agency": "Big Loud Records",
+        "members": "Solo",
+        "debut": "2016"
+      },
+      "New Radicals": {
+        "text": "New Radicals were the project of American songwriter and producer Gregg Alexander, whose only album, Maybe You've Been Brainwashed Too, arrived in 1998 and produced the enduring single \"You Get What You Give.\" Alexander dissolved the group at the height of its success and spent the following decades writing and producing for other artists alongside collaborator Danielle Brisebois. The pair reunited the name for new music in 2026, their first original song in twenty-eight years.",
+        "agency": null,
+        "members": null,
+        "debut": "1998"
+      },
+      "Oasis, Richard Ashcroft, Cast": {
+        "text": "This listing covers a stadium bill from the Oasis Live '25 reunion run. Oasis, formed in Manchester in 1991 around brothers Liam and Noel Gallagher, defined Britpop with Definitely Maybe and (What's the Story) Morning Glory? before splitting in 2009. Richard Ashcroft, former frontman of The Verve, and Liverpool band Cast — both contemporaries from the same era — support across the run.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Peace Test": {
+        "text": "Peace Test are a hardcore punk band from Rhode Island. Their album Repercussion, released in 2026 through Delayed Gratification Records, is their first full-length since Pry in 2022.",
+        "agency": "Delayed Gratification Records",
+        "members": null,
+        "debut": null
+      },
+      "System of a Down, Korn, Polyphia, Wisp": {
+        "text": "This listing covers a stadium bill built around two pillars of late-1990s heavy music. System of a Down, formed in Los Angeles by members of the Armenian diaspora, pair lurching time signatures with political lyrics on albums such as Toxicity. Korn, from Bakersfield, California, are widely credited with codifying nu-metal on their 1994 debut. Instrumental guitar band Polyphia and shoegaze project Wisp fill out the undercard.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Thomas Rhett, Kameron Marlowe": {
+        "text": "Thomas Rhett is an American country singer and songwriter from Valdosta, Georgia, whose records lean toward pop and R&B-inflected production. The son of songwriter Rhett Akins, he has placed a long run of singles at the top of country radio since his 2013 debut. Kameron Marlowe, a North Carolina singer with a more traditional country bent, opens the Soundtrack To Life shows.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Tool, Twenty One Pilots, Alanis Morissette, Pierce the Veil, Iggy Pop, Morrissey": {
+        "text": "This listing covers a multi-day festival bill rather than a single act. Riot Fest, held in Chicago, books more than a hundred artists across its stages each year, mixing punk and hardcore with alternative and pop acts. The headline slots here span Tool's long-form progressive metal, the arena pop-rock of Twenty One Pilots, Alanis Morissette's 1990s alternative songwriting, and veterans Iggy Pop and Morrissey.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Um, Jennifer?": {
+        "text": "Um, Jennifer? are a post-punk duo from Brooklyn made up of Fig and Eli, who split vocals, guitar, bass and drums between them and write and record on their own. Their EP Dirty Twice was released in 2026 via Final Girl.",
+        "agency": "Final Girl",
+        "members": "Duo",
+        "debut": null
       }
     },
     "ja": {
@@ -1439,6 +1553,66 @@
         "agency": "グラスホッパー",
         "members": "4人組",
         "debut": "1991"
+      },
+      "AKLO × ZORN": {
+        "text": "日本語ラップシーンで長く活動する二人のラッパー、AKLOとZORNによるツーマン企画。AKLOはバイリンガルな言語感覚を生かしたフロウと緻密な韻で知られ、メジャーとアンダーグラウンドの双方で支持を集めてきた。ZORNは東京・葛飾出身で、家族や日々の生活を等身大の言葉で描くリリックを持ち味とする。両者は客演を通じて長く交流を重ね、〈AtoZ〉名義の共同公演も行ってきた。",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "David Byrne": {
+        "text": "デヴィッド・バーンはスコットランド生まれ、アメリカを拠点に活動するミュージシャン。1970年代半ばにニューヨークで結成されたトーキング・ヘッズのフロントマンとして、パンク以降のロックにアフリカ音楽やファンクの要素を持ち込んだ。バンド解散後もソロや映画音楽、演劇的なライヴ作品など領域を横断する活動を続けており、2025年にはアルバム『Who Is The Sky?』を発表した。",
+        "agency": "Matador Records",
+        "members": "ソロ",
+        "debut": "1977 (Talking Heads)"
+      },
+      "Holly Humberstone": {
+        "text": "ホリー・ハンバーストーンはイギリス・リンカンシャー州グランサム出身のシンガーソングライター。宅録的な質感のプロダクションと、親しい人との関係を細やかに綴る歌詞で知られる。2020年のデビューEP以降、フェスやツアーで着実に支持を広げ、2026年に2作目のアルバム『Cruel World』を発表した。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": "2020"
+      },
+      "NEWS": {
+        "text": "NEWSは2003年に結成された男性グループ。度重なるメンバーの変動を経て、現在は小山慶一郎・増田貴久・加藤シゲアキの3人体制で活動している。音楽活動に加え、俳優や執筆など各メンバーが個別の分野でも活動の幅を広げているのが特徴で、アルバムごとに明確なテーマを掲げたツアーを重ねてきた。",
+        "agency": "STARTO ENTERTAINMENT",
+        "members": "3人組",
+        "debut": "2003.11.07"
+      },
+      "Official髭男dism": {
+        "text": "Official髭男dismは島根県松江市で結成された4人組ピアノPOPバンド。藤原聡（Vo/Pf）を中心に、緻密なコード進行とソウル／R&Bを消化したメロディで知られる。2018年にメジャーデビューし、ドラマ・アニメ主題歌を通じて広く知られる存在となった。",
+        "agency": "ポニーキャニオン",
+        "members": "4人組",
+        "debut": "2018.04.11 (メジャー)"
+      },
+      "Steve Lacy": {
+        "text": "スティーヴ・レイシーはカリフォルニア州コンプトン出身のシンガー／ギタリスト／プロデューサー。バンドThe Internetのギタリストとして頭角を現し、スマートフォンだけで制作した楽曲でも注目を集めた。ソロでは2022年のアルバム『Gemini Rights』が世界的にヒットし、グラミー賞を受賞している。",
+        "agency": "RCA Records",
+        "members": "ソロ",
+        "debut": "2017"
+      },
+      "ジョーイ・オミシル": {
+        "text": "ジョーイ・オミシル（Jowee Omicil）はカナダ・モントリオール生まれ、ハイチ系のマルチ奏者／作曲家。父の教会で音楽に触れ、サックスを中心にクラリネットやトランペット、鍵盤まで持ち替える。バークリー音楽大学で学んだ後、ゴスペルやアフリカ／カリブの伝統リズムにジャズ、ヒップホップ、ソウルを溶かし込んだ独自のスタイル「BasH!」を掲げて活動している。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": null
+      },
+      "セカンドバッカー": {
+        "text": "セカンドバッカーはこうへい（Gt/Vo）とまさみ（Dr）による2人組バンド。「あなたを支えるバンド」をコンセプトに2023年に活動を開始し、SNSを起点に若い世代へ支持を広げた。サーキットフェスや対バンでのライヴを重ね、2025年には初の全国流通盤EP『言えなかったことばっかりだった。』を発表している。",
+        "agency": null,
+        "members": "2人組",
+        "debut": "2023"
+      },
+      "加藤訓子": {
+        "text": "加藤訓子は愛知県豊橋市出身の打楽器奏者。桐朋学園大学研究科修了後にオランダへ渡り、ロッテルダム音楽院を首席で卒業した。英スコットランドのレーベルLinn Recordsから継続的に録音を発表しており、スティーヴ・ライヒ作品の打楽器独奏への編曲・演奏や、バッハの無伴奏作品のマリンバ演奏で国際的に評価されている。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": null
+      },
+      "踊ってばかりの国": {
+        "text": "踊ってばかりの国は2008年に神戸で下津光史（Vo/Gt）を中心に結成されたロックバンド。サイケデリックで陶酔的なギターサウンドと、生活の手触りを残した歌詞が持ち味で、2009年の1stミニアルバム以降フジロックをはじめとする大型フェスにも出演してきた。メンバーの入れ替わりを経ながらも長く活動を続け、ライヴバンドとして根強い支持を得ている。",
+        "agency": null,
+        "members": null,
+        "debut": "2009"
       }
     }
   }
