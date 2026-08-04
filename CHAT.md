@@ -1,3 +1,11 @@
+## [2026-08-04 14:40] [EN 뉴스]
+뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
+- 신규 기사 5건: Wynonna Judd Books The Hard Truth Tour, General Sale August 7 / ScHoolboy Q Plots 10 Years of Blank Face LP Tour for October / Megadeth Add 24-Date UK and European Farewell Leg for 2027 / Kylie Cantrall Announces First Headline Tour for Fall 2026 / Yours Always Festival Cancelled Weeks After Tickets Went On Sale
+- 콘서트 링크 연결 0건 / 링크 없음 5건 (5건 모두 concerts.en.json 미등재 신규 건 — leads로 인계)
+- 리서처 인계 leads 7건 append (Wynonna 투어/앨범, ScHoolboy Q 투어, Megadeth 유럽 레그, Kylie Cantrall 투어/EP, Yours Always 취소 참고)
+- 스킵: Zac Brown 펜웨이 크루즈 증정·Lollapalooza 홍수 리캡·Boy George AI 논란·Slipknot 멤버 해고 등은 티켓 액션 유발 공지가 아니라 제외. Stereogum 8/3자 기사는 대부분 가십·부고성이라 대상 없음
+- 소스: Consequence(8/3자 투어 공지 4건), Stereogum(8/3자 페스티벌 취소 1건). Pitchfork는 fetch 차단, NME·Brooklyn Vegan 목록 페이지는 최신분 미갱신
+
 ## [2026-08-04 14:20] [KO 뉴스]
 뉴스 작성 완료 (한국 국내 공연 뉴스)
 - 신규 기사 1건: 한일 22팀 뜬다…'XMF 2026' 라인업 공개, 3일 티켓 오픈 (2026-08-03 발표, 헤럴드경제)
