@@ -1,44 +1,44 @@
-## [2026-07-31 09:50] [JA 리서처]
-리서치 완료 (일본 국내 공연)
-- 콘서트/来日 6→4, 발매 1→1, 페스티벌 2→2, 팬미팅 0→0 (후보→통과)
-- 뉴스 인계 처리 5건 중 3건 등재 (leads.ja.jsonl 14건 중 9건은 이미 concerts.ja.json에 있어 자동 스킵)
-- 신규 11개(예정 6 + 과거 백필 5) / 갱신 5개 (삭제 없음·전량 보존)
-- 과거 백필 5개 → **공연장 색인전환 6개**(東京ドーム / ZOZOマリンスタジアム / 幕張メッセ / 蘇我スポーツ公園 / お台場 ULTRA PARK特設会場 / 京セラドーム大阪 — 모두 1건→2건) / 기존 공연장 보강 0개
-- 예정 공연 등재로 **LaLa arena TOKYO-BAY도 추가 색인전환**(1건→2건). 합계 **색인 대상 공연장 11개 → 18개**
-- 티켓팅 진행중 12개 (추가 +4 / 해제 -4)
-- description 보강 0개 (기존 40건 전부 이미 일본어 120자 이상)
-- 총 등록 51개
+## [2026-08-04 09:30] [EN 리서처]
+리서치 완료 (영어권/글로벌 시장 공연)
+- 콘서트/투어 8→5, 발매 5→5, 페스티벌 2→1, 팬미팅 0→0 (후보→통과)
+- 뉴스 인계 처리 7건 중 5건 등재 (leads.en.jsonl 39건 중 32건은 이미 concerts.en.json에 등재돼 자동 스킵)
+- 신규 15개(예정 10 + 과거 백필 5) / 갱신 9개 (삭제 없음·전량 보존)
+- 과거 백필 5개 → **공연장 색인전환 5개**(Scottish Gas Murrayfield / MetLife Stadium / Jacobs Pavilion / Hollywood Bowl / Showbox SoDo — 전부 1건→2건) / 기존 공연장 보강 0개
+- 티켓팅 진행중: 신규 등재분 general_sale true 5건 추가(+5) / 이미 종료된 프리세일 9건 해제(-9)
+- description 보강 0개 (기존 전 항목 영어 40단어 이상 유지 확인)
+- 총 등록 100개
 
-[신규 등재 — 예정 공연 6건]
-- 緑黄色社会 ARENA TOUR 2026 "あたまご" (9/19, LaLa arena TOKYO-BAY 개막, 전국 5도시 10공연) / 소니뮤직 공식 아티스트 페이지(2026-06-19) + キョードー大阪 공연 상세 교차 확인. **1건짜리였던 LaLa arena TOKYO-BAY를 2건으로 만들어 색인 전환**
-- 緑黄色社会『あたまご』 (9/9 발매) / 소니뮤직 공식 + CDJournal·音楽ナタリー 교차 확인
-- 米津玄師 2026 TOUR / GHOST (11/6, 長野ビッグハット 개막, 전국 6도시 14공연) / 米津玄師 공식 사이트 REISSUE RECORDS(published_time 2026-07-03) + 공연장 공식(長野ビッグハット) 교차 확인. 一般販売(추첨) 접수는 7/26 마감 → general_sale=false로 등재하고 접수 기간만 기록
-- 雀斑 Freckles Japan Tour 2026 in Tokyo (9/23, 青山月見ル君想フ) / CDJournal 2026-07-30 + Peatix 공식 티켓 페이지(開場/開演·요금 직접 확인)
-- PETER GALLWAY & 佐橋佳幸 EN Japan 2026 "Full Circle Tour" (10/10, 金沢 もっきりや 개막, 전국 11도시 12공연) / VIVID SOUND 공식(published_time 2026-07-28) + CDJournal 2026-07-30. 主催 VIVID SOUND·先行 8/16 마감·一般 8/22 10시·ぴあ URL까지 확보
-- FESTIVAL de FRUE 2026 (10/31~11/1, つま恋リゾート彩の郷) / 공식 사이트 + CDJournal 2026-07-30. **日割り(데이별 라인업)는 2026년분 미발표라 festival_days는 비움**
+[신규 등재 — 예정 공연 10건]
+- Jimmy Eat World & The Format / Hollywood Bowl 2026-11-07 — Bleed American 25주년 + Dog Problems 20주년 합동 공연. Pollstar(published_time 2026-07-29) + BroadwayWorld·The Music Universe 교차 확인, Ticketmaster 실판매 URL·프리세일(7/30 08:00 PT)·일반예매(7/31 10:00 PT)까지 확보
+- Thomas Rhett: Soundtrack To Life UK / London The O2 2027-04-23 — Pollstar 원문의 3개 도시 일정표 + Holler·Entertainment Focus 교차 확인. 프리세일 8/4 10:00 BST·일반예매 8/7 10:00 BST, publisher=Live Nation
+- Icona Pop: Ritual Fall Tour / Brooklyn Baby's All Right 2026-09-25 — Pollstar 원문 일정표 + 공식 iconapop.com/tour
+- Riot Fest 2026 / Douglass Park, Chicago 2026-09-18~20 — 공식 riotfest.org + Billboard·Rolling Stone·BrooklynVegan. festival_days 3일 라인업 등재(9/20에 William Shatner & The *uckers 데뷔 포함)
+- John Mulaney Takes Manhattan / Madison Square Garden 2027-01-15 — 9일간 9개 회장 릴레이의 피날레. Pollstar + Consequence·TODAY·Playbill 교차 확인
+- Morgan Wallen - Been By Now (2026-07-24) — Billboard + uDiscover/SiriusXM
+- Lil Uzi Vert - Maverick "Almost Forever" EP (2026-07-31) — The FADER + Complex/The Source, Apple Music 페이지
+- New Radicals - One Night Only (Break Loose Break Free!) (2026-07-31) — Rolling Stone + NME/Stereogum
+- Peace Test - Repercussion (2026-08-14) — Stereogum + Punknews
+- Um, Jennifer? - Dirty Twice EP (2026-08-21) — Stereogum + 레이블 Final Girl 공지
 
-[신규 등재 — 과거 백필 5건] (전부 release_date 오늘 이전 확인, approx=false, 티켓팅 필드 비움, 과거 시제 서술)
-- Perfume ZO/Z5 Anniversary "ネビュラロマンス" Episode TOKYO DOME (2025-09-22, 東京ドーム) / Perfume 공식 사이트 + アミューズ 공식·fashion-press 교차 확인
-- SUMMER SONIC 2025（東京） (2025-08-16~17, ZOZOマリンスタジアム＋幕張メッセ) / 幕張メッセ 공식 이벤트 캘린더 + 서머소닉 공식 뉴스·fashion-press. **한 건으로 공연장 2곳을 동시에 색인 전환**
-- ROCK IN JAPAN FESTIVAL 2025 (2025-09-13~15·20~21, 蘇我スポーツ公園) / THE FIRST TIMES 타임테이블 발표 기사 + 출연 아티스트 공식(マカロニえんぴつ·ヤバイTシャツ屋さん)·JR東日본 미디어 교차 확인
-- ULTRA JAPAN 2025 (2025-09-13~14, お台場 ULTRA PARK特設会場) / fashion-press + 東京お台場.net·odaibapark 교차 확인. 기존 2026년 항목과 같은 공연장 키로 묶이도록 표기를 맞춤
-- SEVENTEEN WORLD TOUR [NEW_] IN JAPAN（京セラドーム大阪） (2025-12-04·06·07, 京セラドーム大阪) / キョードー大阪 공연 상세 페이지(일시·開場/開演·요금 직접 확인) + 공식 특설 사이트. 主催 キョードー大阪를 publisher에 기입
+[신규 등재 — 과거 백필 5건] (전부 release_date 오늘 이전 확인, approx=false, 티켓팅 필드 비움, 과거 시제 영어 서술)
+- Oasis: Live '25 / Scottish Gas Murrayfield 2025-08-08 → Murrayfield 1건→2건
+- System of a Down & Korn / MetLife Stadium 2025-08-28 → MetLife 1건→2건
+- Dropkick Murphys & Bad Religion: Summer of Discontent / Jacobs Pavilion, Cleveland 2025-08-10 → Jacobs Pavilion 1건→2건
+- LCD Soundsystem & Pulp / Hollywood Bowl 2025-09-26 → Hollywood Bowl 1건→2건 (같은 사이클 Jimmy Eat World 등재분과 합산)
+- MARINA: The Princess of Power Tour / Showbox SoDo, Seattle 2025-09-06 → Showbox SoDo 1건→2건
+※ 백필은 전부 "이미 등록된 공연장 + 다른 아티스트" 원칙으로만 선정. "같은 투어 다른 도시"는 한 건도 넣지 않음.
+※ 공연장 표기는 기존 항목과 정확히 일치시킴(예: setlist.fm의 "Jacobs Pavilion at Nautica"가 아니라 기존 표기 "Jacobs Pavilion, Cleveland, OH", "The Showbox SoDo"가 아니라 "Showbox SoDo, Seattle, WA")로 맞춰 페이지가 갈라지지 않게 처리.
 
-[티켓팅 재확인 — 갱신 5건]
-- ja-journey-2026-20260901: 先行 7/24 마감 → presale false (一般은 7/25 개시로 계속 true)
-- ja-jisung-our-scene-20260918: 先行 7/26 마감 → presale false
-- ja-the-cribs-selling-a-vibe-20261002: 先行 7/27 마감 → presale false (一般 8/8 예정으로 계속 true)
-- ja-super-junior-ryeowook-konpeki-20260819: 先行 6/8 마감 → presale false
-- ja-shai-maestro-guesthouse-20261020: 一般 8/3 12시 임박 → general_sale true
+[검증 탈락 / 보류]
+- Natanael Cano 스타디움 3회차(Estadio GNP Seguros 외): 사실관계는 Pollstar 원문으로 확정됐으나 전 공연이 멕시코 국내 개최라 영어권/서구 시장 대상이 아님 — 스코프 밖으로 보류
+- Riot Fest 2026 세부 시작 시각(release_time): 공식 데일리 스케줄에 게이트/스테이지 타임이 아직 공개돼 있지 않아 null 유지
 
-[검증 탈락]
-- 踊る！ディスコ室町「すいか」リリース・パーティー(9/27 京都西院ネガポジ 등): 독립 출처가 CDJournal 1건뿐. イープラス 아티스트 페이지에 해당 공연 등록 없음 → 출처 2개 요건 미달로 보류
-- AKASAKI 1st World Tour "ONIGIRI": 일본 공연 일정 자체가 미발표 → 날짜 확정 불가로 보류(placeholder 등재도 시기 정보가 없어 불가)
+[다음 사이클 메모]
+- 남은 1건짜리 공연장(11개): Acrisure Amphitheater(Grand Rapids), Santa Monica Beach, Northern Quest Resort & Casino, Satellite Music Hall(Memphis), Kursaal Donostia, Channel 24(Sacramento), The Regency Live(Springfield), Baby's All Right(Brooklyn), Lincoln Hall 계열, Douglass Park(Chicago) 등.
+  → 다음 백필 최우선 타깃은 **Douglass Park(Riot Fest 2025 지난 회차 1건이면 즉시 색인 전환)**, 그다음 Baby's All Right·Northern Quest Resort & Casino(과거 공연 후보가 풍부).
+- `platforms[0]`이 공연장명 없이 도시만 들어간 항목 2건("Portland, OR" / "Chattanooga, TN")이 있어 공연장 페이지가 제대로 생성되지 않는다. 실제 회장명 확인 후 보정 필요(표기 수정은 삭제가 아님).
+- 이번 사이클 CHAT.md 작성 중 /tmp/log.md에 다른 리서처의 잔여 파일이 남아 있어 JA 리서처 2026-07-31 로그가 최상단에 한 번 잘못 복제 append됐다. 즉시 되돌렸고 원본 JA 로그는 원위치에 그대로 보존돼 있다(삭제·손실 없음). 다음부터 로그 임시파일은 저장소 밖 공유 경로를 쓰지 않는다.
 
-[비고]
-- 지난 공연이 된 항목(乃木坂46 6/13, 櫻坂46 7/23)은 정책대로 전량 보존, 손대지 않음
-- 백필 함정 회피: "全国ツアー의 다른 회차"는 한 건도 고르지 않았고, 5건 모두 **기존 1건짜리 대형 공연장에서 열린 다른 아티스트/다른 회차 페스티벌**로 선정
-- image_url: 신규 11건 전부 null. ぴあ/イープラス는 지시서대로 빠르게 포기했고, 위키미디어 커먼즈 쪽에도 적합한 정사각형 이미지를 확인하지 못함. Peatix 커버는 가로로 긴 배너라 미채택
 ## [2026-08-04 09:30] [KO 리서처]
 리서치 완료 (한국 국내 공연)
 - 뉴스 인계 처리 19건 중 3건 등재 (나머지 16건은 이전 사이클에 이미 등재 완료)
