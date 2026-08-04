@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-04",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -9,6 +9,29 @@
     "fanmeeting": "ファンミーティング"
   },
   "games": [
+    {
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": "ディスクガレージ",
+      "image_url": null,
+      "source_url": "https://higedan.com/news/detail/101289",
+      "last_updated": "2026-08-04",
+      "last_researched_by": "ja-researcher",
+      "id": "ja-higedan-unofficial-yokohama-20250424",
+      "name": "Official髭男dism「one-man live 2025 -UNOFFICIAL-」",
+      "release_date": "2025-04-24",
+      "category": "concert_tour",
+      "platforms": [
+        "KT Zepp Yokohama"
+      ],
+      "developer": "Official髭男dism",
+      "description": "Official髭男dismが2025年4月24日にKT Zepp Yokohamaで行ったワンマン公演。開場18時・開演19時で、同時刻からオンラインでの生配信も実施され、アーカイブは5月6日まで公開された。チケットは1階スタンディング6,600円、2階の指定親子席は大人6,600円・こども3,300円という設定で、親子での来場を想定した席種が用意された点が特徴だった。公演に関する問い合わせ窓口はディスクガレージが担当した。",
+      "genres": [
+        "J-POP",
+        "ワンマン"
+      ]
+    },
     {
       "id": "ja-bz-unite-02-yokohama-20250628",
       "name": "B'z presents UNITE #02（Kアリーナ横浜）",
@@ -89,6 +112,29 @@
       "description": "都市型音楽フェスティバル〈サマーソニック〉の2025年東京公演が、8月16日・17日の2日間、千葉のZOZOマリンスタジアムと幕張メッセで開催された。ヘッドライナーはFALL OUT BOYと、サマソニ初出演となったALICIA KEYSが務めた。Official髭男dism、SixTONES、aespa、MAN WITH A MISSIONら国内外のアーティストが複数ステージに登場し、16日深夜には幕張メッセでm-floがキュレーターを務める〈ミッドナイトソニック〉も行われた。"
     },
     {
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": null,
+      "source_url": "https://lalaarenatokyo-bay.com/event/1519/",
+      "last_updated": "2026-08-04",
+      "last_researched_by": "ja-researcher",
+      "id": "ja-news-henshin-chiba-20250822",
+      "name": "NEWS LIVE TOUR 2025 変身 千葉公演",
+      "release_date": "2025-08-22",
+      "category": "concert_tour",
+      "platforms": [
+        "LaLa arena TOKYO-BAY（千葉・船橋）"
+      ],
+      "developer": "NEWS",
+      "description": "NEWSが15枚目のアルバム『変身』を携えて行った全国ツアーの千葉公演。2025年8月22日から24日までの3日間、船橋のLaLa arena TOKYO-BAYで開催され、初日は18時、23日と24日は17時開演で行われた。ツアーは全国8都市19公演の規模で組まれ、北海道・愛知に続く3か所目が千葉だった。「変身」というテーマに沿った衣装や演出、メンバーのソロ・パフォーマンスを盛り込んだ構成が採られた。",
+      "genres": [
+        "J-POP",
+        "アリーナツアー"
+      ]
+    },
+    {
       "id": "ja-fukuyama-masaharu-soul-osaka-20250830",
       "name": "福山雅治「FUKUYAMA MASAHARU 35TH ANNIVERSARY DOME LIVE 2025 // SOUL」（京セラドーム大阪）",
       "release_date": "2025-08-30",
@@ -108,6 +154,29 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Fukuyama_Masaharu_in_Taipei%2C_2013_cropped.jpg/250px-Fukuyama_Masaharu_in_Taipei%2C_2013_cropped.jpg",
       "source_url": "https://www.thefirsttimes.jp/news/0000678595/"
+    },
+    {
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": null,
+      "source_url": "https://www.liquidroom.net/schedule/odottebakarinokuni_20250905",
+      "last_updated": "2026-08-04",
+      "last_researched_by": "ja-researcher",
+      "id": "ja-odotte-bakari-liquidroom-20250905",
+      "name": "LIQUIDROOM 21st ANNIVERSARY 踊ってばかりの国 ワンマンライブ 2025",
+      "release_date": "2025-09-05",
+      "category": "concert_tour",
+      "platforms": [
+        "LIQUIDROOM（東京・恵比寿）"
+      ],
+      "developer": "踊ってばかりの国",
+      "description": "恵比寿への移転21周年を記念してLIQUIDROOMが企画した〈LIQUIDROOM 21st ANNIVERSARY〉の一環として、踊ってばかりの国が2025年9月5日に行ったワンマンライヴ。20周年公演に続く2年連続の出演で、前年の公演はソールドアウトとなっていた。開場19時・開演20時、チケットはスタンディング5,000円（税込・1ドリンク別）。5月10日からイープラスでのプレオーダー抽選が始まり、5月31日に一般発売された。",
+      "genres": [
+        "ロック",
+        "ワンマン"
+      ]
     },
     {
       "release_time": null,
@@ -173,6 +242,30 @@
         "東京ドーム"
       ],
       "description": "Perfumeが結成25周年とメジャーデビュー20周年を締めくくる公演として、2025年9月22日・23日に東京ドームで2デイズを開催した。同会場でのライブは2020年の〈P Cubed〉以来5年ぶりで、アルバム『ネビュラロマンス』の世界観を軸にした構成が組まれた。最終日の9月23日公演は世界に向けたライブ配信も実施され、アニバーサリーイヤーの集大成となるステージが披露された。"
+    },
+    {
+      "release_time": "10:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": null,
+      "source_url": "https://ringofes.info/fes2025/",
+      "last_updated": "2026-08-04",
+      "last_researched_by": "ja-researcher",
+      "id": "ja-ringo-ongakusai-2025-20250927",
+      "name": "りんご音楽祭2025",
+      "release_date": "2025-09-27",
+      "category": "festival",
+      "platforms": [
+        "アルプス公園（長野・松本）"
+      ],
+      "developer": null,
+      "description": "長野県松本市のアルプス公園で2025年9月27日・28日に開催された野外フェスティバル。開場9時・開演10時、閉演20時30分という長時間の2日間開催で、150組を超えるアーティストが複数のステージに出演した。チケットは通し入場券18,500円、1日入場券9,800円という設定だった。市街地から離れた自然公園を会場に使う点が特色で、2026年も同じアルプス公園で9月26日・27日に開かれることが決まっている。",
+      "genres": [
+        "フェスティバル",
+        "野外フェス",
+        "複数アーティスト"
+      ]
     },
     {
       "id": "ja-number-i-no2-kobe-20251105",
@@ -584,6 +677,89 @@
       "source_url": "https://candcstage.com/news/detail.php?id=1134178"
     },
     {
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": "クリエイティブマンプロダクション",
+      "image_url": null,
+      "source_url": "https://www.creativeman.co.jp/event/david-byrne-ssextra/",
+      "last_updated": "2026-08-04",
+      "last_researched_by": "ja-researcher",
+      "id": "ja-david-byrne-ss-extra-20260813",
+      "name": "DAVID BYRNE「Who Is The Sky? Tour」＜SUMMER SONIC EXTRA＞",
+      "release_date": "2026-08-13",
+      "category": "concert_tour",
+      "platforms": [
+        "SGC HALL ARIAKE（東京・有明）"
+      ],
+      "developer": "David Byrne",
+      "description": "トーキング・ヘッズのフロントマンとして知られるデヴィッド・バーンが、〈SUMMER SONIC 2026〉出演に合わせた単独公演〈SUMMER SONIC EXTRA〉を東京・SGC HALL 有明で行う。2025年9月に〈Matador Records〉から発表した最新アルバム『Who Is The Sky?』を携えたツアーの一環で、開場18時・開演19時。アリーナ前方スタンディングとS席・A席の三種で7月4日に一般発売されたが、すでにソールドアウトとなっている。企画・制作・招聘はクリエイティブマンプロダクション、協力はBEATINK。",
+      "genres": [
+        "ロック",
+        "来日",
+        "SUMMER SONIC EXTRA"
+      ],
+      "presale": false,
+      "general_sale": false,
+      "general_sale_datetime": "2026-07-04T10:00:00+09:00",
+      "general_sale_url": "https://eplus.jp/davidbyrne/"
+    },
+    {
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": "クリエイティブマンプロダクション",
+      "image_url": null,
+      "source_url": "https://www.creativeman.co.jp/event/holly-humberstone-ssextra/",
+      "last_updated": "2026-08-04",
+      "last_researched_by": "ja-researcher",
+      "id": "ja-holly-humberstone-ss-extra-20260813",
+      "name": "HOLLY HUMBERSTONE 来日公演＜SUMMER SONIC EXTRA＞",
+      "release_date": "2026-08-13",
+      "category": "concert_tour",
+      "platforms": [
+        "duo MUSIC EXCHANGE（東京・渋谷）"
+      ],
+      "developer": "Holly Humberstone",
+      "description": "イギリス・グランサム出身のシンガーソングライター、ホリー・ハンバーストーンが〈SUMMER SONIC 2026〉出演に合わせ、渋谷duo MUSIC EXCHANGEで単独公演を行う。2026年春に発表した2枚目のアルバム『Cruel World』を携えた来日で、開場18時・開演19時のオールスタンディング公演。チケットは8,000円（税込・1ドリンク別）で、7月11日に一般発売された。企画・制作・招聘はクリエイティブマンプロダクション、協力はユニバーサルミュージック。",
+      "genres": [
+        "ポップ",
+        "シンガーソングライター",
+        "来日"
+      ],
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-11T10:00:00+09:00",
+      "general_sale_url": "https://eplus.jp/hollyhumberstone/"
+    },
+    {
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": "クリエイティブマンプロダクション",
+      "image_url": null,
+      "source_url": "https://www.sonymusic.co.jp/artist/stevelacy/info/584363",
+      "last_updated": "2026-08-04",
+      "last_researched_by": "ja-researcher",
+      "id": "ja-steve-lacy-ss-extra-20260813",
+      "name": "STEVE LACY 単独来日公演＜SUMMER SONIC EXTRA＞",
+      "release_date": "2026-08-13",
+      "category": "concert_tour",
+      "platforms": [
+        "TOYOSU PIT（東京・豊洲）"
+      ],
+      "developer": "Steve Lacy",
+      "description": "グラミー賞受賞アーティストのスティーヴ・レイシーが、〈SUMMER SONIC 2026〉出演に合わせた単独公演を東京・豊洲PITで開催する。単独公演としては初来日を果たした2024年以来2年ぶりとなる。約4年ぶり通算3作目のアルバム『Oh Yeah?（オー・イェー？）』の国内盤が来日直前の8月7日に発売されるタイミングでの公演で、開場18時・開演19時。チケットはオールスタンディング12,000円（税込・ドリンク代別）で、7月4日に一般発売された。",
+      "genres": [
+        "R&B",
+        "来日",
+        "SUMMER SONIC EXTRA"
+      ],
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-04T10:00:00+09:00"
+    },
+    {
       "id": "ja-motfd-iwaou-20260814",
       "name": "MASS OF THE FERMENTING DREGS『祝おう』",
       "release_date": "2026-08-14",
@@ -937,6 +1113,30 @@
       "presale_datetime": "2026-07-06T12:00:00+09:00",
       "presale_end_datetime": "2026-07-24T18:00:00+09:00",
       "presale_url": "https://www.udo.jp/shows/Journey26"
+    },
+    {
+      "release_time": "15:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/kato-kuniko/128545",
+      "last_updated": "2026-08-04",
+      "last_researched_by": "ja-researcher",
+      "id": "ja-kato-kuniko-reich90-meguro-20260905",
+      "name": "加藤訓子〈STEVE REICH PROJECT「REICH90」〉東京公演",
+      "release_date": "2026-09-05",
+      "category": "concert_tour",
+      "platforms": [
+        "めぐろパーシモンホール(大ホール)"
+      ],
+      "developer": "加藤訓子",
+      "description": "打楽器奏者・加藤訓子が企画・プロデュースする〈STEVE REICH PROJECT「REICH90」〉の東京公演。作曲家スティーヴ・ライヒの90歳を記念した特別プログラムで、2026年6月20日の彩の国さいたま芸術劇場での開幕を経て、9月5日のめぐろパーシモンホール大ホール公演から本格的な全国ツアーが始まる。《Drumming Part I》《Nagoya Marimbas》《Mallet Quartet》《Four Organs》などの代表作を中心に構成され、開演は15時。ツアーは2027年3月まで全9公演が予定されている。",
+      "genres": [
+        "現代音楽",
+        "クラシック",
+        "打楽器"
+      ]
     },
     {
       "id": "ja-treasure-the-stage-20260905",
@@ -1342,6 +1542,56 @@
       "source_url": "https://mikiki.tokyo.jp/articles/-/45580"
     },
     {
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/-/128527",
+      "last_updated": "2026-08-04",
+      "last_researched_by": "ja-researcher",
+      "id": "ja-jowee-omicil-japan-2026-20260924",
+      "name": "ジョーイ・オミシル 初来日公演（東京）",
+      "release_date": "2026-09-24",
+      "category": "concert_tour",
+      "platforms": [
+        "WALL&WALL（東京・表参道）"
+      ],
+      "developer": "ジョーイ・オミシル（Jowee Omicil）",
+      "description": "カナダとハイチにルーツを持つマルチ奏者／作曲家、ジョーイ・オミシルの初来日公演。ゴスペルやアフリカ系の伝統リズムを土台に、ジャズ・ヒップホップ・ソウルを混ぜ合わせた独自のスタイル「BasH!」を掲げる。1月に発表した最新アルバム『スマイルズ』を携えた来日で、東京・表参道WALL&WALLでは松下マサナオ（ドラム）、岩見継吾（ベース）、KUMA-CHANG（パーカッション）とのバンド編成で臨み、THG,HIMI&MANAWがオープニング・アクトを務める。9月27日には長野・松本の〈りんご音楽祭2026〉にも出演する。",
+      "genres": [
+        "ジャズ",
+        "ワールド",
+        "来日"
+      ]
+    },
+    {
+      "release_time": "10:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": null,
+      "source_url": "https://ringofes.info/fes2026/",
+      "last_updated": "2026-08-04",
+      "last_researched_by": "ja-researcher",
+      "id": "ja-ringo-ongakusai-2026-20260926",
+      "name": "りんご音楽祭2026",
+      "release_date": "2026-09-26",
+      "category": "festival",
+      "platforms": [
+        "アルプス公園（長野・松本）"
+      ],
+      "developer": null,
+      "description": "長野県松本市のアルプス公園で毎年秋に開かれる野外フェスティバルの2026年開催。9月26日・27日の2日間で、開場9時・開演10時、閉演は20時30分。2026年は〈東アジア文化都市2026松本〉の共催事業として行われ、中国・韓国をはじめとする東アジアや東南アジアのアーティスト、東アジア圏と縁の深い出演者を中心にラインナップが組まれている。新設の「ぶどうステージ」が加わり、〈第3回松本カリージャンボリー〉も同時開催される。",
+      "genres": [
+        "フェスティバル",
+        "野外フェス",
+        "複数アーティスト"
+      ],
+      "general_sale": true,
+      "general_sale_url": "https://eplus.jp/ringofes2026/"
+    },
+    {
       "id": "ja-abc-z-the-way-of-love-20260930",
       "name": "A.B.C-Z『The Way of L.O.V-E』",
       "release_date": "2026-09-30",
@@ -1680,6 +1930,32 @@
       "general_sale_url": null
     },
     {
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/-/128544",
+      "last_updated": "2026-08-04",
+      "last_researched_by": "ja-researcher",
+      "id": "ja-aklo-zorn-a2z-2026-20261113",
+      "name": "A2Z 2026（AKLO × ZORN）",
+      "release_date": "2026-11-13",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ガーデンシアター"
+      ],
+      "developer": "AKLO × ZORN",
+      "description": "ラッパーのAKLOとZORNによるツーマン・ライヴ。全国11か所を回った〈AtoZ TOUR 2018〉、そして新型コロナウイルスの影響で中止となった〈AtoZ 2020〉から6年を経ての再集結となる。会場は東京ガーデンシアターで、開場18時・開演19時の一夜限りの公演。チケットはアリーナ立見席22,000円、バルコニー指定席11,000円のほか、Tシャツ付き・CAP付きの席種も用意される。ZORNのファンクラブ「Chill Out Club」会員限定の抽選先行が実施されている。",
+      "genres": [
+        "ヒップホップ",
+        "日本語ラップ",
+        "ツーマン"
+      ],
+      "presale": true,
+      "presale_url": "https://fc.zorn.tokyo/news/?id=515"
+    },
+    {
       "id": "ja-band-maid-world-tour-final-20261113",
       "name": "BAND-MAID WORLD TOUR 2026 FINAL（日本武道館）",
       "release_date": "2026-11-13",
@@ -1778,6 +2054,32 @@
       "presale": true,
       "presale_datetime": null,
       "presale_url": "https://eplus.jp/sf/detail/4415100001"
+    },
+    {
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": null,
+      "source_url": "https://secondbacker.fanpla.jp/news/detail/65632",
+      "last_updated": "2026-08-04",
+      "last_researched_by": "ja-researcher",
+      "id": "ja-second-backer-final-sendai-20261122",
+      "name": "セカンドバッカー 全国ツアー2026〈あの時こうしておけばよかった〉ファイナル・シリーズ 仙台公演",
+      "release_date": "2026-11-22",
+      "category": "concert_tour",
+      "platforms": [
+        "仙台MACANA"
+      ],
+      "developer": "セカンドバッカー",
+      "description": "セカンドバッカーが2026年に行っている全国ツアー〈あの時こうしておけばよかった〉のファイナル・シリーズ初日。仙台MACANAを皮切りに、札幌・高松・広島・福岡・名古屋・大阪・金沢・東京と全国9都市を回るワンマン公演で、開場16時30分・開演17時。オフィシャル1次抽選先行は8月2日20時から8月30日23時59分まで受け付けられる。ツアー本編で重ねてきた対バン形式を離れ、単独編成で締めくくる構成となっている。",
+      "genres": [
+        "J-ROCK",
+        "全国ツアー"
+      ],
+      "presale": true,
+      "presale_datetime": "2026-08-02T20:00:00+09:00",
+      "presale_end_datetime": "2026-08-30T23:59:00+09:00"
     },
     {
       "id": "ja-queens-of-the-stone-age-2026-20261125",
