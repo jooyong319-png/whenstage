@@ -550,6 +550,29 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-redvelvet-a-day-in-red-and-velvet-20260731",
+      "name": "2026 Red Velvet FAN-CON <A Day in Red & Velvet>",
+      "release_date": "2026-07-31",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "고려대학교 화정체육관(타이거돔)"
+      ],
+      "developer": "레드벨벳",
+      "publisher": "SM엔터테인먼트",
+      "description": "레드벨벳이 7월 31일부터 8월 2일까지 사흘간 서울 고려대학교 화정체육관에서 팬콘서트 'A Day in Red & Velvet'을 열었다. 당초 8월 1~2일 양일로 예정됐던 공연이 팬클럽 선예매만으로 매진되면서 7월 31일 회차가 추가됐고, 추가 회차 역시 전석 매진됐다. 2년 2개월 만의 완전체 컴백을 앞두고 마련된 자리로, 8월 3일 발매된 미니앨범 'Velvet Summer'의 타이틀곡 '서핀 보이'와 수록곡 '훌라후프' 무대가 이 공연에서 처음 공개됐다.",
+      "genres": [
+        "팬콘서트",
+        "K-POP"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/%EB%A0%88%EB%93%9C%EB%B2%A8%EB%B2%B3%28Red_Velvet%29_%EC%BC%80%EC%9D%B4%EC%BD%98_%EC%9E%AC%ED%8C%AC_2024_%EB%A0%88%EB%93%9C%EC%B9%B4%ED%8E%AB_KCON_JAPAN_2024_%281%29.jpg/330px-%EB%A0%88%EB%93%9C%EB%B2%A8%EB%B2%B3%28Red_Velvet%29_%EC%BC%80%EC%9D%B4%EC%BD%98_%EC%9E%AC%ED%8C%AC_2024_%EB%A0%88%EB%93%9C%EC%B9%B4%ED%8E%AB_KCON_JAPAN_2024_%281%29.jpg",
+      "source_url": "https://www.tenasia.co.kr/article/2026071684304",
+      "last_updated": "2026-08-04",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-psy-heumppuck-show-2026-20260801",
       "name": "싸이 흠뻑쇼 SUMMER SWAG 2026",
       "release_date": "2026-08-01",
@@ -729,6 +752,33 @@
       "source_url": "https://kpopofficial.com/album/stray-kids-this-and-that/"
     },
     {
+      "id": "ko-crossgene-cross-the-line-20260808",
+      "name": "[CROSS GENE FANCON 2026] CROSS THE LINE",
+      "release_date": "2026-08-08",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "구름아래소극장"
+      ],
+      "developer": "크로스진(Cross Gene)",
+      "publisher": null,
+      "description": "크로스진이 8월 8일 서울 마포구 구름아래소극장에서 팬콘서트 '크로스 더 라인(CROSS THE LINE)'을 개최한다. 2017년 'CROSS GENE LIVE [MIRROR]' 이후 약 9년 만에 열리는 팬콘서트이자 데뷔 14주년을 기념하는 무대다. 2012년 데뷔 이래 쌓아온 음악적 발자취를 총망라한 세트리스트로 구성되며, 티켓은 멜론티켓에서 판매됐다. 소극장 규모로 진행돼 팬들과 가까이 호흡하는 공연이 될 전망이다.",
+      "genres": [
+        "팬콘서트",
+        "K-POP"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/09%EC%9B%94_26%EC%9D%BC_%EB%AE%A4%EC%BD%98_%EC%87%BC%EC%BC%80%EC%9D%B4%EC%8A%A4_MUCON_Showcase_%2833%29.jpg/330px-09%EC%9B%94_26%EC%9D%BC_%EB%AE%A4%EC%BD%98_%EC%87%BC%EC%BC%80%EC%9D%B4%EC%8A%A4_MUCON_Showcase_%2833%29.jpg",
+      "source_url": "https://www.tenasia.co.kr/article/2026070342144",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-04",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-higedandism-asiatour-seoul-20260808",
       "name": "오피셜히게단디즘 아시아 투어 2026 in SEOUL",
       "release_date": "2026-08-08",
@@ -842,6 +892,27 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-axmxp-hello-axmxp-20260812",
+      "name": "AxMxP 미니 2집 'HELLO AxMxP'",
+      "release_date": "2026-08-12",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "AxMxP(에이엠피)",
+      "publisher": "FNC엔터테인먼트",
+      "description": "FNC엔터테인먼트 소속 4인조 밴드 AxMxP가 8월 12일 미니 2집 'HELLO AxMxP'를 발매한다. 저마다의 꿈을 안고 서울로 모인 네 소년이 하나의 밴드가 되어 가는 과정을 담은 앨범이다. 2025년 9월 정규 1집 'AxMxP'로 데뷔한 이후 미니 1집 'Amplify My Way'와 첫 디지털 싱글 '편의점 불빛 (24 Hours)'을 차례로 선보여 왔으며, 이번 신보는 9월 데뷔 첫 단독 콘서트로도 이어진다.",
+      "genres": [
+        "밴드",
+        "컴백"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/AxMxP%2C_2026.jpg/330px-AxMxP%2C_2026.jpg",
+      "source_url": "https://www.heraldmuse.com/article/10829183",
+      "last_updated": "2026-08-04",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-kimjongkook-theoriginals-seoul-encore-20260815",
       "name": "김종국 30주년 콘서트 〈The Originals〉 - 서울 앵콜",
       "release_date": "2026-08-15",
@@ -897,6 +968,34 @@
       "general_sale_url": "https://ticket.yes24.com/Perf/58375"
     },
     {
+      "id": "ko-sekou-live-in-seoul-20260818",
+      "name": "세쿠(Sekou) 내한공연 - Sekou Live in Seoul",
+      "release_date": "2026-08-18",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "현대카드 언더스테이지"
+      ],
+      "developer": "세쿠(Sekou)",
+      "publisher": null,
+      "description": "영국 싱어송라이터 세쿠(Sekou)가 8월 18일 오후 8시 서울 현대카드 언더스테이지에서 첫 단독 내한공연을 연다. 폭발적인 성량과 소울풀한 창법으로 주목받아 온 신예로, 이번 공연은 전석 스탠딩으로 진행된다. 티켓은 6월 23일 낮 12시 티켓링크에서 판매를 시작했으며 가격은 12만 원이다. 소규모 공연장에서 열리는 만큼 밀도 높은 라이브를 가까이서 접할 수 있는 무대가 될 전망이다.",
+      "genres": [
+        "팝",
+        "내한"
+      ],
+      "image_url": "https://image.toast.com/aaaaab/ticketlink/TKL_2/se_main_0622.jpg",
+      "source_url": "https://www.ticketlink.co.kr/product/64028",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-06-23T12:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://www.ticketlink.co.kr/product/64028",
+      "last_updated": "2026-08-04",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-bigbang-20th-hangang-20260819",
       "name": "쿠팡플레이 빅뱅 20주년 X 한강 콜라보레이션 (리스닝 파티)",
       "release_date": "2026-08-19",
@@ -920,6 +1019,27 @@
       "general_sale_datetime": "2026-07-28T19:00:00+09:00",
       "general_sale_url": null,
       "last_updated": "2026-07-25",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-kimjaejoong-the-wave-single-20260820",
+      "name": "김재중 싱글 앨범 'THE WAVE'",
+      "release_date": "2026-08-20",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "김재중",
+      "publisher": "인코드 엔터테인먼트",
+      "description": "김재중이 8월 20일 오후 6시 새 싱글 앨범 '더 웨이브(THE WAVE)'를 발매한다. 2025년 5월 미니앨범 'Beauty in Chaos' 이후 약 1년 3개월 만의 국내 신보다. 8월 3일 0시 공식 SNS에 공개된 티징 영상에는 바다가 내려다보이는 언덕에서 바람을 맞는 김재중의 모습이 담겨 자유롭고 시원한 분위기를 예고했다. 같은 이름의 서울 콘서트가 8월 29~30일 열려 발매 직후 신곡 무대가 공개될 전망이다.",
+      "genres": [
+        "K-POP",
+        "컴백"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Kim_Jae-joong_at_Bvlgari_event_in_March_2025_02.jpg/330px-Kim_Jae-joong_at_Bvlgari_event_in_March_2025_02.jpg",
+      "source_url": "https://www.heraldmuse.com/article/10829407",
+      "last_updated": "2026-08-04",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -1106,6 +1226,37 @@
       "general_sale": true,
       "general_sale_datetime": "2026-07-23T19:00:00+09:00",
       "general_sale_url": "https://tickets.interpark.com/goods/26010675"
+    },
+    {
+      "id": "ko-kimjaejoong-the-wave-seoul-20260829",
+      "name": "2026 KIM JAE JOONG CONCERT [THE WAVE]",
+      "release_date": "2026-08-29",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KBS아레나"
+      ],
+      "developer": "김재중",
+      "publisher": "인코드 엔터테인먼트",
+      "description": "김재중이 8월 29일과 30일 이틀간 서울 강서구 KBS아레나에서 단독 콘서트 '더 웨이브(THE WAVE)'를 연다. 2025년 4월 이후 약 1년 3개월 만에 여는 국내 단독 공연으로, 작은 물결이 거대한 파도가 되기까지의 흐름을 주제로 무대를 구성한다. 티켓은 7월 21일 저녁 8시 공식 팬클럽 선예매를 시작으로 7월 24일 일반 예매가 티켓링크에서 진행됐다. 공연 직전인 8월 20일 동명의 싱글 앨범이 발매돼 신곡 무대도 예고돼 있다.",
+      "genres": [
+        "K-POP",
+        "콘서트"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Kim_Jae-joong_at_Bvlgari_event_in_March_2025_02.jpg/330px-Kim_Jae-joong_at_Bvlgari_event_in_March_2025_02.jpg",
+      "source_url": "https://www.heraldmuse.com/article/10815276",
+      "presale": false,
+      "presale_datetime": "2026-07-21T20:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-04",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-taemin-phase1-soft-violence-20260831",
@@ -1418,6 +1569,33 @@
       "last_researched_by": "ko-researcher",
       "presale": false,
       "general_sale": false
+    },
+    {
+      "id": "ko-axmxp-x-verse-seoul-20260919",
+      "name": "2026 AxMxP CONCERT 'X VERSE'",
+      "release_date": "2026-09-19",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "NOL 씨어터 합정(동양생명홀)"
+      ],
+      "developer": "AxMxP(에이엠피)",
+      "publisher": "FNC엔터테인먼트",
+      "description": "밴드 AxMxP가 9월 19일과 20일 이틀간 서울 NOL 씨어터 합정 동양생명홀에서 데뷔 첫 단독 콘서트 'X VERSE'를 연다. 2025년 9월 데뷔한 이들이 1주년을 맞는 시점에 여는 공연으로, 공연명은 무한한 가능성(X)과 하나의 세계(VERSE)를 뜻한다. 소속사 FNC엔터테인먼트가 8월 3일 개최를 공식화했으며, 티켓 예매는 NOL에서 진행된다. 8월 12일 발매되는 미니 2집 'HELLO AxMxP' 수록곡 무대도 예상된다.",
+      "genres": [
+        "밴드",
+        "콘서트"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/AxMxP%2C_2026.jpg/330px-AxMxP%2C_2026.jpg",
+      "source_url": "https://www.heraldmuse.com/article/10829183",
+      "presale": false,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-04",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-izna-who-dat-girl-seoul-20260919",
