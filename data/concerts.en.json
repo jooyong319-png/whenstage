@@ -985,13 +985,13 @@
       ],
       "image_url": null,
       "source_url": "https://themusicuniverse.com/fcukers-announce-fall-2026-north-american-tour-dates/",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-07-28T10:00:00-04:00",
       "presale_url": null,
       "general_sale": true,
       "general_sale_datetime": "2026-07-29T10:00:00-04:00",
       "general_sale_url": null,
-      "last_updated": "2026-07-24",
+      "last_updated": "2026-08-04",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1016,13 +1016,13 @@
       ],
       "image_url": null,
       "source_url": "https://news.pollstar.com/2026/07/21/latin-grammy-winner-silvana-estrada-embarking-on-north-american-tour/",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-07-22T10:00:00-07:00",
       "presale_url": null,
       "general_sale": true,
       "general_sale_datetime": "2026-07-24T10:00:00-07:00",
       "general_sale_url": null,
-      "last_updated": "2026-07-23",
+      "last_updated": "2026-08-04",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1175,12 +1175,14 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Charli_xcx_at_Berlinale_2026-1.jpg/250px-Charli_xcx_at_Berlinale_2026-1.jpg",
       "source_url": "https://www.xfinitymobilearena.com/news/detail/charli-xcx-announces-the-music-fashion-film-tour",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-06-12T09:00:00-04:00",
       "presale_url": "https://www.ticketmaster.com/event/300064C5A4647126",
       "general_sale": true,
       "general_sale_datetime": "2026-06-12T13:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/event/300064C5A4647126"
+      "general_sale_url": "https://www.ticketmaster.com/event/300064C5A4647126",
+      "last_updated": "2026-08-04",
+      "last_researched_by": "en-researcher"
     },
     {
       "id": "en-chrome-sparks-ball-of-light-20260911",
@@ -1347,13 +1349,13 @@
       ],
       "image_url": null,
       "source_url": "https://news.pollstar.com/2026/07/20/rebecca-black-announces-headlining-north-america-tour/",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-07-22T10:00:00-04:00",
       "presale_url": null,
       "general_sale": true,
       "general_sale_datetime": "2026-07-24T10:00:00-04:00",
       "general_sale_url": "https://www.livenation.com/artist/K8vZ9178Z_7/rebecca-black-events",
-      "last_updated": "2026-07-23",
+      "last_updated": "2026-08-04",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1626,13 +1628,13 @@
       ],
       "image_url": null,
       "source_url": "https://themusicuniverse.com/trombone-shorty-orleans-avenue-announce-new-fall-2026-tour-dates/",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-07-22T10:00:00-04:00",
       "presale_url": null,
       "general_sale": true,
       "general_sale_datetime": "2026-07-24T10:00:00-04:00",
       "general_sale_url": null,
-      "last_updated": "2026-07-24",
+      "last_updated": "2026-08-04",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1760,13 +1762,13 @@
       ],
       "image_url": null,
       "source_url": "https://themusicuniverse.com/ryan-bingham-expands-2026-tour-dates-with-the-texas-gentlemen/",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-07-22T10:00:00-05:00",
       "presale_url": null,
       "general_sale": true,
       "general_sale_datetime": "2026-07-24T10:00:00-05:00",
       "general_sale_url": null,
-      "last_updated": "2026-07-24",
+      "last_updated": "2026-08-04",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1789,14 +1791,16 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Tyla_at_2026_Montreux_Jazz_Festival_8.png/330px-Tyla_at_2026_Montreux_Jazz_Festival_8.png",
       "source_url": "https://consequence.net/2026/07/tyla-announces-apop-world-tour/",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-07-29T10:00:00+01:00",
       "presale_end_datetime": null,
       "presale_url": null,
       "general_sale": true,
       "general_sale_datetime": "2026-07-31T10:00:00+01:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "last_updated": "2026-08-04",
+      "last_researched_by": "en-researcher"
     },
     {
       "id": "en-rachel-chinouriri-i-think-i-spoke-too-soon-20261016",
@@ -1875,14 +1879,16 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Jay-Z_meets_with_New_York_Senate_Majority_Leader_in_Albany_%28cropped%29.webp/330px-Jay-Z_meets_with_New_York_Senate_Majority_Leader_in_Albany_%28cropped%29.webp.png",
       "source_url": "https://consequence.net/2026/07/jay-z-los-angeles-london-tour-dates/",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-07-29T10:00:00-07:00",
       "presale_end_datetime": null,
       "presale_url": null,
       "general_sale": true,
       "general_sale_datetime": "2026-07-30T10:00:00-07:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "last_updated": "2026-08-04",
+      "last_researched_by": "en-researcher"
     },
     {
       "id": "en-tony-iommi-from-the-dark-20261023",
@@ -2096,14 +2102,16 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Silverstein_Live_Studio_Session_Digital_Promos.jpg/330px-Silverstein_Live_Studio_Session_Digital_Promos.jpg",
       "source_url": "https://consequence.net/2026/07/silverstein-story-of-the-year-camp-screamo-2-tour/",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-07-28T10:00:00-07:00",
       "presale_end_datetime": null,
       "presale_url": null,
       "general_sale": true,
       "general_sale_datetime": "2026-07-31T10:00:00-07:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "last_updated": "2026-08-04",
+      "last_researched_by": "en-researcher"
     },
     {
       "id": "en-esdeekid-council-house-rat-london-20261203",
@@ -2267,6 +2275,448 @@
       ],
       "image_url": null,
       "source_url": "https://www.billboard.com/music/concerts/bryan-adams-roll-with-the-punches-2027-australasia-tour-1236294428/"
+    },
+    {
+      "id": "en-jimmy-eat-world-the-format-hollywood-bowl-20261107",
+      "name": "Jimmy Eat World & The Format: Bleed American 25 / Dog Problems 20 - Hollywood Bowl",
+      "release_date": "2026-11-07",
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Hollywood Bowl, Los Angeles, CA"
+      ],
+      "developer": "Jimmy Eat World, The Format",
+      "description": "Arizona bands Jimmy Eat World and The Format co-headline the Hollywood Bowl on November 7, 2026, marking the first time the two acts have shared a stage. Jimmy Eat World perform Bleed American in full for the album's twenty-fifth anniversary, covering Sweetness, The Middle and Hear You Me, while The Format play their 2006 record Dog Problems front to back for its twentieth. It is one of only two full-album shows The Format have scheduled this year.",
+      "genres": [
+        "Rock",
+        "Tour"
+      ],
+      "presale": false,
+      "presale_datetime": "2026-07-30T08:00:00-07:00",
+      "presale_end_datetime": "2026-07-30T22:00:00-07:00",
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-31T10:00:00-07:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://www.ticketmaster.com/jimmy-eat-world-the-format-sing-hollywood-california-11-07-2026/event/0B0064F5C75F3BBB",
+      "source_url": "https://news.pollstar.com/2026/07/29/jimmy-eat-world-the-format-to-celebrate-anniversaries-of-landmark-albums-at-the-hollywood-bowl/",
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": null,
+      "last_updated": "2026-08-04",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-thomas-rhett-soundtrack-to-life-london-20270423",
+      "name": "Thomas Rhett: Soundtrack To Life UK Tour - London",
+      "release_date": "2027-04-23",
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "The O2 Arena, London",
+        "AO Arena, Manchester",
+        "OVO Hydro, Glasgow"
+      ],
+      "developer": "Thomas Rhett, Kameron Marlowe",
+      "publisher": "Live Nation",
+      "description": "Thomas Rhett returns to the United Kingdom for his first headline arena run there in almost a decade, playing London's The O2 on April 23, 2027. The three-date Soundtrack To Life UK trek opens April 22 at Manchester's AO Arena and closes April 25 at the OVO Hydro in Glasgow, with fellow country singer Kameron Marlowe supporting throughout. A Live Nation sign-up presale opens August 4, 2026 ahead of the general on-sale on August 7.",
+      "genres": [
+        "Country",
+        "Tour"
+      ],
+      "presale": true,
+      "presale_datetime": "2026-08-04T10:00:00+01:00",
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-07T10:00:00+01:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "source_url": "https://news.pollstar.com/2026/07/31/thomas-rhett-reveals-2027-soundtrack-to-life-uk-tour/",
+      "release_time": null,
+      "release_date_approx": false,
+      "image_url": null,
+      "last_updated": "2026-08-04",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-icona-pop-ritual-tour-brooklyn-20260925",
+      "name": "Icona Pop: Ritual Fall Tour - Brooklyn",
+      "release_date": "2026-09-25",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Baby's All Right, Brooklyn, NY",
+        "Lincoln Hall, Chicago, IL",
+        "Moroccan Lounge, Los Angeles, CA"
+      ],
+      "developer": "Icona Pop",
+      "description": "Swedish synthpop duo Icona Pop open a short American club run at Baby's All Right in Brooklyn on September 25, 2026, supporting their album Ritual, out August 14 via Ultra Records and Iconic Sound Recordings. Caroline Hjelt and Aino Jawo follow the Brooklyn date with Lincoln Hall in Chicago on October 2, a Las Vegas show on November 20 and the Moroccan Lounge in Los Angeles on November 21. Tickets are on general sale through the band's site.",
+      "genres": [
+        "Synthpop",
+        "Tour"
+      ],
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_url": "https://www.iconapop.com/tour",
+      "source_url": "https://news.pollstar.com/2026/07/31/icona-pop-unveil-fall-tour-dates/",
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": null,
+      "last_updated": "2026-08-04",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-riot-fest-2026-20260918",
+      "name": "Riot Fest 2026",
+      "release_date": "2026-09-18",
+      "timezone": "America/Chicago",
+      "category": "festival",
+      "platforms": [
+        "Douglass Park, Chicago, IL"
+      ],
+      "developer": "Tool, Twenty One Pilots, Alanis Morissette, Pierce the Veil, Iggy Pop, Morrissey",
+      "description": "Riot Fest returns to Douglass Park in Chicago's North Lawndale neighborhood for three days from September 18 to 20, 2026, with more than one hundred artists booked across its stages. Twenty One Pilots and Iggy Pop lead the Friday bill, Tool and Morrissey headline Saturday, and Pierce The Veil and Alanis Morissette close the festival on Sunday. That final day also brings the live debut of The *uckers, the heavy metal band fronted by ninety-five-year-old William Shatner.",
+      "genres": [
+        "Punk",
+        "Festival"
+      ],
+      "festival_days": [
+        {
+          "date": "2026-09-18",
+          "lineup": [
+            "Twenty One Pilots",
+            "Iggy Pop",
+            "Rise Against",
+            "Pixies",
+            "Sex Pistols",
+            "Alkaline Trio",
+            "The All-American Rejects",
+            "Santigold",
+            "Motion City Soundtrack",
+            "GWAR"
+          ]
+        },
+        {
+          "date": "2026-09-19",
+          "lineup": [
+            "Tool",
+            "Morrissey",
+            "Nas",
+            "Social Distortion",
+            "Bad Religion",
+            "Bright Eyes",
+            "Descendents",
+            "Public Image Ltd.",
+            "Gogol Bordello",
+            "PUP",
+            "Thrice"
+          ]
+        },
+        {
+          "date": "2026-09-20",
+          "lineup": [
+            "Pierce the Veil",
+            "Alanis Morissette",
+            "Elvis Costello & The Imposters",
+            "Patti Smith and Her Band",
+            "Taking Back Sunday",
+            "Pennywise",
+            "The Beths",
+            "William Shatner & The *uckers"
+          ]
+        }
+      ],
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_url": "https://riotfest.org/",
+      "source_url": "https://riotfest.org/2026/07/16/riot-fest-2026-now-with-100-more-william-shatner/",
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": null,
+      "last_updated": "2026-08-04",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-john-mulaney-takes-manhattan-msg-20270115",
+      "name": "John Mulaney Takes Manhattan - Madison Square Garden Finale",
+      "release_date": "2027-01-15",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Madison Square Garden, New York, NY",
+        "Radio City Music Hall, New York, NY",
+        "Carnegie Hall, New York, NY"
+      ],
+      "developer": "John Mulaney",
+      "description": "John Mulaney closes his Mulaney Takes Manhattan run at Madison Square Garden on January 15, 2027, the ninth night of a nine-night residency staged at nine different New York City rooms. The sequence starts January 7 at the Comedy Cellar and works upward in scale through the Blue Note, Joe's Pub, Bowery Ballroom, the Music Box Theatre, the Beacon Theatre, Carnegie Hall and Radio City Music Hall. The dates extend his Mister Whatever world tour, which runs across North America through December 2026.",
+      "genres": [
+        "Comedy",
+        "Tour"
+      ],
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "source_url": "https://news.pollstar.com/2026/07/28/john-mulaney-takes-manhattan-9-venues-9-nights-for-ny-takeover-including-msg-finale/",
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": null,
+      "last_updated": "2026-08-04",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-morgan-wallen-been-by-now-20260724",
+      "name": "Morgan Wallen - Been By Now",
+      "release_date": "2026-07-24",
+      "timezone": "America/Chicago",
+      "category": "music_release",
+      "platforms": [
+        "Big Loud",
+        "Mercury Records",
+        "Republic Records"
+      ],
+      "developer": "Morgan Wallen",
+      "publisher": "Big Loud / Mercury / Republic",
+      "description": "Morgan Wallen released the standalone single Been By Now on July 24, 2026, a day after an exclusive first play on his SiriusXM channel. He debuted the song live at M&T Bank Stadium in Baltimore, and it went to United States hot adult contemporary radio on July 27 and to pop and country formats on July 28. Wallen wrote it with Charlie Handsome, John Byron, Blake Pendergrass, Rocky Block and Taylor Phillips, framing a relationship that never moved past the will-they-won't-they stage.",
+      "genres": [
+        "Country",
+        "Single"
+      ],
+      "source_url": "https://www.billboard.com/music/music-news/morgan-wallen-been-by-now-new-song-live-debut-1236297867/",
+      "release_time": null,
+      "release_date_approx": false,
+      "image_url": null,
+      "last_updated": "2026-08-04",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-lil-uzi-vert-maverick-almost-forever-20260731",
+      "name": "Lil Uzi Vert - Maverick “Almost Forever” EP",
+      "release_date": "2026-07-31",
+      "timezone": "America/New_York",
+      "category": "music_release",
+      "platforms": [
+        "Roc Nation Distribution",
+        "Spotify",
+        "Apple Music"
+      ],
+      "developer": "Lil Uzi Vert",
+      "publisher": "Roc Nation Distribution",
+      "description": "Lil Uzi Vert surprise-released the eight-track EP Maverick “Almost Forever” on July 31, 2026, their first new music of the year and a birthday drop that landed hours after a scheduled Lollapalooza set in Chicago was scrapped over travel problems. The record carries no guest features and returns to the melodic trap register of their earlier work, including London, a song previewed at Lyrical Lemonade's Summer Smash. The artwork hides the phrase “Album after this.”",
+      "genres": [
+        "Hip-Hop",
+        "EP"
+      ],
+      "source_url": "https://www.thefader.com/2026/08/03/lil-uzi-vert-drops-surprise-ep-after-a-canceled-lolla-set",
+      "release_time": null,
+      "release_date_approx": false,
+      "image_url": null,
+      "last_updated": "2026-08-04",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-new-radicals-one-night-only-20260731",
+      "name": "New Radicals - One Night Only (Break Loose Break Free!)",
+      "release_date": "2026-07-31",
+      "timezone": "America/Los_Angeles",
+      "category": "music_release",
+      "platforms": [
+        "Spotify",
+        "Apple Music"
+      ],
+      "developer": "New Radicals",
+      "description": "New Radicals put out One Night Only (Break Loose Break Free!) on July 31, 2026, their first original song in twenty-eight years. Gregg Alexander and Danielle Brisebois wrote the piano-led pop-rock track with Nick Lashley as the theme for the romantic comedy One Night Only, starring Monica Barbaro and Callum Turner and due in cinemas on August 7. The group last released the album Maybe You've Been Brainwashed Too in 1998, home to You Get What You Give.",
+      "genres": [
+        "Pop Rock",
+        "Single"
+      ],
+      "source_url": "https://www.rollingstone.com/music/music-news/new-radicals-first-new-song-28-years-one-night-only-1235602202/",
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": null,
+      "last_updated": "2026-08-04",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-peace-test-repercussion-20260814",
+      "name": "Peace Test - Repercussion",
+      "release_date": "2026-08-14",
+      "timezone": "America/New_York",
+      "category": "music_release",
+      "platforms": [
+        "Delayed Gratification Records",
+        "Bandcamp"
+      ],
+      "developer": "Peace Test",
+      "publisher": "Delayed Gratification Records",
+      "description": "Rhode Island hardcore punk band Peace Test release their album Repercussion on August 14, 2026 through Delayed Gratification Records. It is their first full-length since Pry in 2022, and the lead single Total Power arrived ahead of the announcement. Cedrick Gustave created the cover artwork. The record is being issued on both digital platforms and physical formats through the label.",
+      "genres": [
+        "Hardcore Punk",
+        "Album"
+      ],
+      "source_url": "https://stereogum.com/2507047/peace-test-announce-new-album-repercussion-hear-total-power/music",
+      "release_time": null,
+      "release_date_approx": false,
+      "image_url": null,
+      "last_updated": "2026-08-04",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-um-jennifer-dirty-twice-20260821",
+      "name": "Um, Jennifer? - Dirty Twice (EP)",
+      "release_date": "2026-08-21",
+      "timezone": "America/New_York",
+      "category": "music_release",
+      "platforms": [
+        "Final Girl",
+        "Bandcamp"
+      ],
+      "developer": "Um, Jennifer?",
+      "publisher": "Final Girl",
+      "description": "Brooklyn post-punk duo Um, Jennifer? release the EP Dirty Twice on August 21, 2026 via Final Girl. Fig and Eli wrote and recorded the whole thing themselves, splitting vocals, guitar, bass and drums between them, with Teddy O'Mara producing. The lead single Bushwick Ratbag introduced the record, and the jangly Comedy 42, first shared in February, also appears on the track list. The duo tour behind it this autumn supporting Slothrust.",
+      "genres": [
+        "Post-Punk",
+        "EP"
+      ],
+      "source_url": "https://stereogum.com/2507026/um-jennifer-announce-new-ep-dirty-twice-hear-bushwick-ratbag/music",
+      "release_time": null,
+      "release_date_approx": false,
+      "image_url": null,
+      "last_updated": "2026-08-04",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-oasis-live-25-edinburgh-20250808",
+      "name": "Oasis: Live '25 - Edinburgh",
+      "release_date": "2025-08-08",
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Scottish Gas Murrayfield, Edinburgh"
+      ],
+      "developer": "Oasis, Richard Ashcroft, Cast",
+      "publisher": "Live Nation",
+      "description": "Oasis played the first of three nights at Scottish Gas Murrayfield in Edinburgh on August 8, 2025, part of the Live '25 reunion run. Demand was heavy enough that a third Edinburgh date was added on August 12 alongside the original August 8 and 9 shows. Cast opened at six in the evening and Richard Ashcroft followed at seven, with Liam and Noel Gallagher taking the stage at quarter past eight and a curfew of half past ten.",
+      "genres": [
+        "Britpop",
+        "Tour"
+      ],
+      "presale": false,
+      "general_sale": false,
+      "image_url": null,
+      "source_url": "https://www.radiox.co.uk/artists/oasis/live-25-tour-edinburgh-murrayfield-stadium-stage-times-travel-information/",
+      "release_time": null,
+      "release_date_approx": false,
+      "last_updated": "2026-08-04",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-system-of-a-down-korn-east-rutherford-20250828",
+      "name": "System of a Down & Korn - MetLife Stadium",
+      "release_date": "2025-08-28",
+      "release_time": "17:30",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "MetLife Stadium, East Rutherford, NJ"
+      ],
+      "developer": "System of a Down, Korn, Polyphia, Wisp",
+      "description": "System of a Down closed a two-night stand at MetLife Stadium in East Rutherford on August 28, 2025, the second of back-to-back New Jersey stadium dates on their North American run. Korn co-headlined that evening, with Polyphia and Wisp opening from a five-thirty start. The tour paired System with a different co-headliner in each market, and the New Jersey shows included a tribute to Ozzy Osbourne.",
+      "genres": [
+        "Metal",
+        "Tour"
+      ],
+      "presale": false,
+      "general_sale": false,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/System_of_a_Down_live_in_Mexico_2026.jpg/500px-System_of_a_Down_live_in_Mexico_2026.jpg",
+      "source_url": "https://consequence.net/2025/08/system-of-a-down-metlife-stadium-2025-review-photos/",
+      "release_date_approx": false,
+      "publisher": null,
+      "last_updated": "2026-08-04",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-dropkick-murphys-bad-religion-cleveland-20250810",
+      "name": "Dropkick Murphys & Bad Religion: Summer of Discontent - Cleveland",
+      "release_date": "2025-08-10",
+      "release_time": "19:00",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Jacobs Pavilion, Cleveland, OH"
+      ],
+      "developer": "Dropkick Murphys, Bad Religion, The Mainliners",
+      "description": "Dropkick Murphys and Bad Religion brought their co-headlining Summer of Discontent tour to Jacobs Pavilion in Cleveland on August 10, 2025, with The Mainliners opening the bill. Doors and the first set began at seven in the evening, Bad Religion went on at a quarter to eight, and Dropkick Murphys followed at twenty-five past nine. The waterfront amphitheatre show was one of the earlier stops on the two-band summer package.",
+      "genres": [
+        "Punk",
+        "Tour"
+      ],
+      "presale": false,
+      "general_sale": false,
+      "source_url": "https://www.setlist.fm/setlist/bad-religion/2025/jacobs-pavilion-at-nautica-cleveland-oh-b5bad92.html",
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": null,
+      "last_updated": "2026-08-04",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-lcd-soundsystem-pulp-hollywood-bowl-20250926",
+      "name": "LCD Soundsystem & Pulp - Hollywood Bowl",
+      "release_date": "2025-09-26",
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Hollywood Bowl, Los Angeles, CA"
+      ],
+      "developer": "LCD Soundsystem, Pulp",
+      "description": "LCD Soundsystem and Pulp shared the bill at the Hollywood Bowl on September 26, 2025, the second of two co-headlining nights that were the only confirmed dates to feature the pairing. Pulp were touring their eighth album More, their first record since 2001, while the Bowl shows served as the finale of LCD Soundsystem's 2025 North American run. Reviewers described the double bill as a disco-leaning night that moved between Britpop and dance-punk.",
+      "genres": [
+        "Dance-Punk",
+        "Tour"
+      ],
+      "presale": false,
+      "general_sale": false,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/PulpEventim290723_%28110_of_130%29_%2853082647673%29.jpg/500px-PulpEventim290723_%28110_of_130%29_%2853082647673%29.jpg",
+      "source_url": "https://www.hollywoodbowl.com/events/performances/4045/2025-09-25/lcd-soundsystem-pulp",
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "last_updated": "2026-08-04",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-marina-princess-of-power-seattle-20250906",
+      "name": "MARINA: The Princess of Power Tour - Seattle",
+      "release_date": "2025-09-06",
+      "release_time": "20:30",
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Showbox SoDo, Seattle, WA"
+      ],
+      "developer": "MARINA, Coco & Clair Clair",
+      "description": "MARINA opened The Princess of Power Tour at Showbox SoDo in Seattle on September 6, 2025, the first night of a twenty-one city North American trek behind her sixth studio album. Coco & Clair Clair supported. The show started at half past eight and was all ages. Princess of Power, released in June 2025, had entered the United States dance and electronic albums chart at number two and the United Kingdom albums chart at number seven.",
+      "genres": [
+        "Pop",
+        "Tour"
+      ],
+      "presale": false,
+      "general_sale": false,
+      "source_url": "https://everout.com/seattle/events/marina-the-princess-of-power-tour/e208562/",
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": null,
+      "last_updated": "2026-08-04",
+      "last_researched_by": "en-researcher"
     }
   ]
 }
