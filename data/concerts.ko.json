@@ -809,6 +809,34 @@
       "general_sale_url": "https://tickets.interpark.com/contents/notice/detail/13341"
     },
     {
+      "id": "ko-itzy-all-in-midzy-seoul-20260808",
+      "name": "ITZY The 5th Fan Meeting 있지 믿지, 날자! \"ALL IN, MIDZY\"",
+      "release_date": "2026-08-08",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "올림픽공원(올림픽홀)"
+      ],
+      "developer": "있지(ITZY)",
+      "publisher": "주식회사 제이와이피엔터테인먼트",
+      "description": "있지가 약 11개월 만에 여는 다섯 번째 공식 팬미팅으로, 8월 8일 오후 6시와 9일 오후 5시 두 차례 서울 올림픽공원 올림픽홀에서 진행된다. 팬덤명 '믿지'를 앞세운 부제 'ALL IN, MIDZY'처럼 팬과의 소통에 무게를 둔 구성이다. 7월 13~14일 팬클럽 선예매에 이어 15일 오후 7시 일반예매가 열렸고 양일 전석이 매진됐다. 9일 공연은 현장을 찾지 못하는 해외 팬을 위해 온라인 생중계로도 함께 송출된다.",
+      "genres": [
+        "K-POP",
+        "팬미팅"
+      ],
+      "image_url": "https://www.ksponco.or.kr/olympicpark/attachFiles/eventInfo/202607131221262181.jpg",
+      "source_url": "https://www.tenasia.co.kr/article/2026071682424",
+      "presale": false,
+      "presale_datetime": "2026-07-13T20:00:00+09:00",
+      "general_sale": false,
+      "general_sale_datetime": "2026-07-15T19:00:00+09:00",
+      "general_sale_url": "https://tickets.interpark.com/goods/26009613",
+      "last_updated": "2026-08-05",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-leeseungchul-thevoice-seongnam-20260808",
       "name": "2026 이승철 40주년 콘서트 [THE VOICE : LEE SEUNG CHUL] - 성남",
       "release_date": "2026-08-08",
@@ -829,6 +857,33 @@
       "image_url": null,
       "source_url": "https://tickets.interpark.com/contents/notice/detail/13718",
       "last_updated": "2026-08-03"
+    },
+    {
+      "id": "ko-nflying-into-rem-daegu-20260808",
+      "name": "2026 N.Flying LIVE '&CON5 : into REM' - 대구",
+      "release_date": "2026-08-08",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "대구 엑스코(컨벤션홀)"
+      ],
+      "developer": "엔플라잉(N.Flying)",
+      "publisher": "FNC엔터테인먼트",
+      "description": "밴드 엔플라잉이 데뷔 후 처음 진행하는 전국투어 '&CON5 : into REM'의 두 번째 도시로 8월 8일과 9일 이틀간 대구 엑스코 5층 컨벤션홀 무대에 오른다. 공연명 'into REM'은 생생한 꿈을 꾸는 렘수면에서 착안한 것으로, 꿈과 현실의 경계를 무대 연출과 VCR 전반에 녹여냈다. 7월 31일부터 8월 2일까지 사흘간 열린 서울 잠실실내체육관 공연에서는 새 앨범 수록곡 '우주먼지'와 타이틀곡 '잔불'이 처음 공개됐다. 대구에 이어 부산과 광주 일정이 이어진다.",
+      "genres": [
+        "밴드",
+        "록",
+        "K-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://www.tenasia.co.kr/article/2026080307084",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketlink.co.kr/product/63748",
+      "last_updated": "2026-08-05",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-kiiikiii-whykiiikiii-20260810",
@@ -913,6 +968,33 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-kodaline-farewell-tour-seoul-20260812",
+      "name": "코다라인 내한공연 (Kodaline - Farewell Tour in Seoul)",
+      "release_date": "2026-08-12",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "올림픽공원(올림픽홀)"
+      ],
+      "developer": "코다라인(Kodaline)",
+      "publisher": "(주)라이브네이션코리아",
+      "description": "아일랜드 4인조 밴드 코다라인이 해체를 앞두고 진행하는 마지막 월드투어의 일환으로 8월 12일 오후 8시 서울 올림픽공원 올림픽홀에서 내한공연을 연다. 밴드는 지난 3월 고별 투어와 마지막 정규 앨범 계획을 함께 발표했으며, 이번 투어는 아시아와 호주, 유럽, 영국을 순회한다. 'All I Want', 'High Hopes', 'Brother' 등으로 국내에도 두꺼운 팬층을 확보한 팀이다. 티켓은 사운드체크 VIP 패키지를 포함해 NOL 티켓에서 단독 판매되며 만 7세 이상 관람할 수 있다.",
+      "genres": [
+        "록",
+        "내한",
+        "얼터너티브"
+      ],
+      "image_url": "https://www.ksponco.or.kr/olympicpark/attachFiles/eventInfo/202603300838092091.gif",
+      "source_url": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=5101&mid=a20301010200",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_url": "https://tickets.interpark.com/goods/26004589",
+      "last_updated": "2026-08-05",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-kimjongkook-theoriginals-seoul-encore-20260815",
       "name": "김종국 30주년 콘서트 〈The Originals〉 - 서울 앵콜",
       "release_date": "2026-08-15",
@@ -937,6 +1019,60 @@
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/25013284",
       "last_updated": "2026-08-03"
+    },
+    {
+      "id": "ko-nflying-into-rem-busan-20260815",
+      "name": "2026 N.Flying LIVE '&CON5 : into REM' - 부산",
+      "release_date": "2026-08-15",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "부산 벡스코(오디토리움)"
+      ],
+      "developer": "엔플라잉(N.Flying)",
+      "publisher": "FNC엔터테인먼트",
+      "description": "엔플라잉의 데뷔 첫 전국투어 '&CON5 : into REM' 부산 공연이 8월 15일과 16일 이틀간 부산 벡스코 오디토리움에서 열린다. 서울(7월 31일~8월 2일 잠실실내체육관)과 대구를 거쳐 이어지는 세 번째 도시 일정으로, 렘수면 속 꿈을 콘셉트로 한 무대 연출과 밴드 라이브가 중심을 이룬다. 'Rooftop(옥탑방)', '진짜가 나타났다', 'Blue Moon' 등 대표곡과 신보 수록곡이 함께 연주된다. 부산 이후에는 광주 공연과 타이베이·나고야·오사카·도쿄 등 아시아 일정이 예정돼 있다.",
+      "genres": [
+        "밴드",
+        "록",
+        "K-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://www.tenasia.co.kr/article/2026080307084",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketlink.co.kr/product/63748",
+      "last_updated": "2026-08-05",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-thornapple-my-century-seoul-20260815",
+      "name": "쏜애플 콘서트 '나의 세기' - 서울",
+      "release_date": "2026-08-15",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "올림픽공원(올림픽홀)"
+      ],
+      "developer": "쏜애플(THORNAPPLE)",
+      "publisher": "주식회사 엠피엠지",
+      "description": "밴드 쏜애플이 6월 발매한 새 EP '나의 세기'의 수록곡 전곡을 처음으로 무대에서 선보이는 단독 공연이다. 8월 15일 오후 7시와 16일 오후 5시 두 차례 서울 올림픽공원 올림픽홀에서 열리며, 공연 시간은 약 120분이다. 티켓은 스탠딩 R석과 지정석 R·S석으로 나뉘어 NOL 티켓에서 판매되고 회차별 1인 4매까지 예매할 수 있다. 한 시기를 마무리하고 새로운 장으로 넘어간 밴드의 현재를 확인할 수 있는 자리로 소개됐다.",
+      "genres": [
+        "밴드",
+        "록",
+        "인디"
+      ],
+      "image_url": "https://www.ksponco.or.kr/olympicpark/attachFiles/eventInfo/202607131217418551.jpg",
+      "source_url": "https://tickets.interpark.com/goods/26008537",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_url": "https://tickets.interpark.com/goods/26008537",
+      "last_updated": "2026-08-05",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-jackwhite-live-seoul-20260817",
@@ -966,6 +1102,33 @@
       "general_sale_datetime": "2026-05-15T12:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.yes24.com/Perf/58375"
+    },
+    {
+      "id": "ko-live-icon9-onewe-dragonpony-20260817",
+      "name": "live ICON 9 : ONEWE X Dragon Pony",
+      "release_date": "2026-08-17",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "올림픽공원(올림픽홀)"
+      ],
+      "developer": "원위(ONEWE)",
+      "publisher": "주식회사 엠피엠지",
+      "description": "민트페이퍼의 밴드 기획공연 시리즈 'live ICON'의 아홉 번째 무대로, 8월 17일 오후 6시 서울 올림픽공원 올림픽홀에서 원위와 드래곤포니가 함께 선다. 두 팀 모두 자작곡 중심의 연주력으로 페스티벌 무대에서 존재감을 쌓아온 밴드이며, 드래곤포니는 앞서 2026 인천 펜타포트 락 페스티벌에서도 무대를 꾸몄다. 공연 시간은 약 120분이고 스탠딩석과 지정 R·S석으로 나뉘어 NOL 티켓에서 판매된다.",
+      "genres": [
+        "밴드",
+        "록",
+        "인디"
+      ],
+      "image_url": "https://www.ksponco.or.kr/olympicpark/attachFiles/eventInfo/202607131253586901.jpg",
+      "source_url": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=5135&mid=a20301010200",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_url": "https://tickets.interpark.com/goods/26009778",
+      "last_updated": "2026-08-05",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-sekou-live-in-seoul-20260818",
@@ -1019,6 +1182,33 @@
       "general_sale_datetime": "2026-07-28T19:00:00+09:00",
       "general_sale_url": null,
       "last_updated": "2026-07-25",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-stevelacy-oh-yeah-asia-tour-seoul-20260819",
+      "name": "스티브 레이시 첫 단독 내한공연 (Steve Lacy 'Oh yeah?' Asia Tour in Seoul)",
+      "release_date": "2026-08-19",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "올림픽공원(올림픽홀)"
+      ],
+      "developer": "스티브 레이시(Steve Lacy)",
+      "publisher": "(주)라이브네이션코리아",
+      "description": "미국 싱어송라이터 겸 프로듀서 스티브 레이시가 아시아 투어 'Oh yeah?'의 일환으로 8월 19일 오후 8시 서울 올림픽공원 올림픽홀에서 첫 단독 내한공연을 연다. 밴드 디 인터넷의 기타리스트로 출발해 'Bad Habit'으로 빌보드 싱글 차트 정상에 오른 뒤 솔로 아티스트로 자리를 굳힌 인물이다. 티켓은 스탠딩석과 지정 P·R석으로 구성되며 만 15세 이상 관람할 수 있다. 예매는 NOL 티켓에서 진행된다.",
+      "genres": [
+        "R&B",
+        "내한",
+        "얼터너티브"
+      ],
+      "image_url": "https://www.ksponco.or.kr/olympicpark/attachFiles/eventInfo/202607131316023331.jpg",
+      "source_url": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=5133&mid=a20301010200",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_url": "https://tickets.interpark.com/goods/26009146",
+      "last_updated": "2026-08-05",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -1130,6 +1320,59 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Enhypen_at_Golden_disc_awards.png/330px-Enhypen_at_Golden_disc_awards.png",
       "source_url": "https://kpopofficial.com/album/enhypen-the-sin-bliss/"
+    },
+    {
+      "id": "ko-hyeonyeokgawang-family-festival-seoul-20260822",
+      "name": "〈현역가왕3〉 with 현역가왕 패밀리 페스티벌 - 서울",
+      "release_date": "2026-08-22",
+      "release_time": "13:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "올림픽공원(올림픽홀)"
+      ],
+      "developer": "현역가왕",
+      "publisher": "주식회사 로드쇼엔터테인먼트",
+      "description": "MBN '현역가왕' 시리즈의 역대 시즌 출연진이 한자리에 모이는 첫 패밀리 콘서트의 서울 공연이다. 8월 22일과 23일 이틀간 각각 오후 1시와 오후 6시 두 차례씩, 서울 올림픽공원 올림픽홀에서 열린다. '현역가왕3' 우승자 홍지윤을 비롯해 이수연·구수경·강혜연·김태연·솔지·빈예서가 무대에 오르고, 1대 현역가왕 전유진과 2대 박서진의 합류도 확정됐다. 공연 시간은 약 150분이며 8세 이상 관람할 수 있다.",
+      "genres": [
+        "트로트",
+        "콘서트"
+      ],
+      "image_url": "https://www.ksponco.or.kr/olympicpark/attachFiles/eventInfo/202607131327423211.jpg",
+      "source_url": "https://sports.khan.co.kr/article/202607100833003/",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_url": "https://tickets.interpark.com/goods/26009620",
+      "last_updated": "2026-08-05",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-nflying-into-rem-gwangju-20260822",
+      "name": "2026 N.Flying LIVE '&CON5 : into REM' - 광주",
+      "release_date": "2026-08-22",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "광주여자대학교(유니버시아드체육관)"
+      ],
+      "developer": "엔플라잉(N.Flying)",
+      "publisher": "FNC엔터테인먼트",
+      "description": "엔플라잉 데뷔 첫 전국투어 '&CON5 : into REM'의 마지막 국내 도시인 광주 공연이 8월 22일과 23일 이틀간 광주여자대학교 유니버시아드체육관에서 열린다. 서울과 대구, 부산을 차례로 거친 뒤 마무리되는 일정으로 총 4개 도시 규모의 투어다. 서울 공연을 마친 멤버들은 전국의 팬들을 위해 달려 나가겠다는 소감을 남겼다. 국내 투어를 마친 뒤에는 타이베이·나고야·오사카·도쿄 등 아시아 지역 공연이 이어질 예정이다.",
+      "genres": [
+        "밴드",
+        "록",
+        "K-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://www.tenasia.co.kr/article/2026080307084",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketlink.co.kr/product/63748",
+      "last_updated": "2026-08-05",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-nct127-7th-album-20260824",
@@ -1796,6 +2039,62 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/190506_%EB%B2%A0%EB%A6%AC%EB%B2%A0%EB%A6%AC_%EC%8B%A0%EC%B4%8C_%EB%B2%84%EC%8A%A4%ED%82%B9.jpg",
       "source_url": "http://www.osen.co.kr/article/G1112848840",
       "last_updated": "2026-08-02",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-xmf-2026-20261003",
+      "name": "XMF 2026 (Xnterstellar Music Festival 2026)",
+      "release_date": "2026-10-03",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "festival",
+      "platforms": [
+        "파라다이스시티(인천)"
+      ],
+      "developer": null,
+      "publisher": "파라다이스시티",
+      "description": "인천 영종도 파라다이스시티가 10월 3일과 4일 이틀간 여는 한일 합동 음악 페스티벌이다. 한국과 일본 아티스트 총 22팀이 참여하며, 일본 국립경기장에서 여성 솔로 최초로 단독 공연을 연 아도(Ado)의 출연이 특히 주목받고 있다. 첫날에는 윤하·루시·FT아일랜드·원위 등 국내 팀과 아도·콜드레인·노벨브라이트가, 둘째 날에는 YB와 사우시 독·히라테 유리나 등이 무대에 오른다. 티켓은 8월 3일 오후 2시부터 예스24 티켓에서 판매됐다.",
+      "genres": [
+        "페스티벌",
+        "록",
+        "J-POP"
+      ],
+      "festival_days": [
+        {
+          "date": "2026-10-03",
+          "lineup": [
+            "윤하(YOUNHA)",
+            "루시(LUCY)",
+            "FT아일랜드(FTISLAND)",
+            "원위(ONEWE)",
+            "하츠웨이브(hrtz.wav)",
+            "아도(Ado)",
+            "콜드레인(coldrain)",
+            "노벨브라이트(Novelbright)",
+            "마이 헤어 이즈 배드(My Hair is Bad)",
+            "피플 원(PEOPLE 1)"
+          ]
+        },
+        {
+          "date": "2026-10-04",
+          "lineup": [
+            "YB",
+            "더 픽스(THE FIX)",
+            "하이파이유니콘(Hi-Fi Un!corn)",
+            "사우시 독(Saucy Dog)",
+            "에에! 그룹(Ae! group)",
+            "마르시(Marcy)",
+            "히라테 유리나(YURINA HIRATE)"
+          ]
+        }
+      ],
+      "image_url": null,
+      "source_url": "https://biz.heraldcorp.com/article/10829202",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-03T14:00:00+09:00",
+      "last_updated": "2026-08-05",
       "last_researched_by": "ko-researcher"
     },
     {
