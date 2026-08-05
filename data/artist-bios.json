@@ -421,6 +421,42 @@
         "agency": "아뮤즈코리아",
         "members": "2인조",
         "debut": "2012.06.11"
+      },
+      "스티브 레이시": {
+        "text": "스티브 레이시는 밴드 디 인터넷(The Internet)의 기타리스트로 출발해 솔로 아티스트로 자리를 굳힌 미국의 싱어송라이터 겸 프로듀서다. 인디 록과 얼터너티브 R&B에 펑크·재즈·사이키델리아를 뒤섞은 사운드가 특징이다. 2022년 두 번째 정규 앨범 'Gemini Rights'와 수록곡 'Bad Habit'으로 빌보드 핫 100 정상에 올랐다.",
+        "agency": "RCA 레코드",
+        "members": "솔로",
+        "debut": "2017"
+      },
+      "엔플라잉": {
+        "text": "엔플라잉은 FNC엔터테인먼트 소속 5인조 밴드로, 이승협·차훈·김재현·유회승·서동성으로 구성돼 있다. 록에 힙합과 랩을 결합한 '하이브리드 밴드'를 표방하며 2015년 싱글 '기가 막혀'로 국내 데뷔했다. 2019년 '옥탑방'이 발매 이후 음원 차트를 역주행하면서 폭넓은 대중적 인지도를 얻었다.",
+        "agency": "FNC엔터테인먼트",
+        "members": "5인조",
+        "debut": "2015.05.20"
+      },
+      "원위": {
+        "text": "원위(ONEWE)는 RBW 소속 5인조 밴드로 용훈·강현·하린·동명·기욱으로 구성돼 있다. 2015년 mas0094라는 이름으로 먼저 활동을 시작해 2019년 싱글 '1/4'로 지금의 이름을 걸고 다시 데뷔했다. 멤버들이 직접 작사·작곡과 연주에 참여하는 자작곡 중심의 밴드 사운드를 선보인다.",
+        "agency": "RBW",
+        "members": "5인조",
+        "debut": "2019.05.13"
+      },
+      "있지": {
+        "text": "있지(ITZY)는 예지·리아·류진·채령·유나 5인조로 구성된 JYP엔터테인먼트 소속 걸그룹이다. 2019년 'DALLA DALLA'로 데뷔해 남의 시선에 휘둘리지 않고 나답게 산다는 당당한 메시지를 앞세운 콘셉트로 주목받았다. 강한 비트와 퍼포먼스 중심의 타이틀곡을 이어가며 4세대 걸그룹을 대표하는 팀 중 하나로 자리 잡았다.",
+        "agency": "JYP엔터테인먼트",
+        "members": "5인조",
+        "debut": "2019.02.12"
+      },
+      "코다라인": {
+        "text": "코다라인은 아일랜드 더블린 근교 소즈 출신의 4인조 록 밴드로, 스티브 개리건·마크 프렌더개스트·비니 메이·제이슨 볼랜드로 구성돼 있다. 2013년 데뷔 앨범 'In a Perfect World'가 아일랜드 차트 1위에 오르며 'All I Want', 'High Hopes' 같은 곡으로 널리 알려졌다. 밴드는 해체를 예고하고 마지막 정규 앨범과 함께 고별 월드투어를 진행 중이다.",
+        "agency": null,
+        "members": "4인조",
+        "debut": "2013"
+      },
+      "현역가왕": {
+        "text": "'현역가왕'은 MBN이 방영하는 트로트 경연 프로그램으로, 이미 현업에서 활동 중인 가수들이 실력을 겨루는 형식이다. 시즌마다 배출된 상위 입상자들이 팀을 이뤄 전국 투어 콘서트를 이어가고 있으며, 한일가왕전 등 파생 프로그램과 함께 중장년층을 중심으로 폭넓은 인기를 얻었다. 공연은 개별 아티스트 단독이 아니라 시즌 출연진이 함께 꾸리는 합동 무대 형태로 열린다.",
+        "agency": null,
+        "members": null,
+        "debut": null
       }
     },
     "en": {
@@ -1029,6 +1065,72 @@
         "agency": "Final Girl",
         "members": "Duo",
         "debut": null
+      },
+      "Eagles": {
+        "text": "Eagles are an American rock band formed in Los Angeles in 1971, whose blend of country-rock harmonies and radio-ready songwriting produced some of the best-selling albums in history, including Hotel California and Their Greatest Hits (1971-1975). Founding drummer and vocalist Don Henley leads the current lineup alongside Joe Walsh, Timothy B. Schmit, Vince Gill and Deacon Frey, son of late co-founder Glenn Frey. The band has held an extended residency at Sphere in Las Vegas since September 2024.",
+        "agency": null,
+        "members": "Band",
+        "debut": "1972"
+      },
+      "Kylie Cantrall": {
+        "text": "Kylie Cantrall is an American singer and actress who built an early following posting cover videos online before moving into Disney television roles. She starred as Red, the daughter of the Queen of Hearts, in the 2024 Disney+ musical Descendants: The Rise of Red, and has released solo pop singles alongside her screen work. She launched her first headlining run, the Valley Girl Problems Tour, in 2026.",
+        "agency": null,
+        "members": "Solo",
+        "debut": null
+      },
+      "Queensryche": {
+        "text": "Queensryche are an American progressive metal band formed in Bellevue, Washington in 1980 by guitarist Michael Wilton and bassist Eddie Jackson. Their 1988 concept album Operation: Mindcrime and the multi-platinum Empire (1990) helped define the genre, pairing intricate arrangements with socially charged narratives. Todd La Torre has fronted the band since 2012, appearing on albums including Condition Human, The Verdict and Digital Noise Alliance.",
+        "agency": null,
+        "members": "Band",
+        "debut": "1983"
+      },
+      "ScHoolboy Q": {
+        "text": "ScHoolboy Q is an American rapper from Los Angeles and a longtime fixture of the Top Dawg Entertainment roster, where he emerged alongside Kendrick Lamar, Ab-Soul and Jay Rock as part of Black Hippy. His 2014 album Oxymoron topped the Billboard 200, and he followed it with Blank Face LP in 2016. Blue Lips, released in 2024 after a five-year gap, drew some of the strongest reviews of his career.",
+        "agency": "Top Dawg Entertainment",
+        "members": "Solo",
+        "debut": "2011"
+      },
+      "The Band CAMINO": {
+        "text": "The Band CAMINO are an American pop-rock trio who formed in Memphis in 2015 while their members were students at the University of Memphis, and are now based in Nashville. Singer-guitarists Jeffery Jordan and Spencer Stewart lead the group, with Garrison Burgess on drums. A run of EPs built their audience before their self-titled debut album arrived in 2021.",
+        "agency": null,
+        "members": "Trio",
+        "debut": "2015"
+      },
+      "Wynonna Judd": {
+        "text": "Wynonna Judd is an American country singer who first rose to fame in the 1980s as half of The Judds with her mother Naomi, a duo that scored a long run of number-one singles before disbanding in 1991. Her 1992 self-titled solo debut sold in the millions and produced chart-topping singles including 'No One Else on Earth'. She released The Hard Truth, her first solo studio album in a decade, in 2026 through ANTI- Records.",
+        "agency": "ANTI- Records",
+        "members": "Solo",
+        "debut": "1992"
+      },
+      "Wynonna Judd, Troubadour Blue": {
+        "text": "Wynonna Judd is an American country singer who rose to fame as half of The Judds with her mother Naomi before launching a multi-platinum solo career in 1992. Troubadour Blue are a Nashville band working in Americana and modern bluegrass, co-led by vocalists Daniel Kim Ethridge and Brenna Wheeler. The two acts are paired on Judd's 2026 Hard Truth Tour, where Troubadour Blue appear as special guest.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Djo, Post Animal": {
+        "text": "Djo is the musical project of Joe Keery, the actor best known for Stranger Things, whose synth-leaning psychedelic pop albums include Twenty Twenty, Decide and The Crux. Post Animal are a Chicago psychedelic rock band formed in 2014, of which Keery was a founding member before departing to focus on acting. The two sides reunited to write and record Post Animal's 2025 album IRON, and the projects have shared bills on tour.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Megadeth, Black Label Society, Testament": {
+        "text": "Megadeth are an American thrash metal band founded by Dave Mustaine in 1983 and long counted among the genre's 'Big Four', with Rust in Peace and Countdown to Extinction among their defining records. Black Label Society is the hard rock outfit led by guitarist Zakk Wylde, best known for his years with Ozzy Osbourne, while Testament are Bay Area thrash veterans who emerged in the late 1980s with The Legacy. The three share bills on Megadeth's multi-year farewell tour, announced alongside the band's self-titled final album.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Lionel Richie, The War and Treaty, Brian Vander Ark": {
+        "text": "Lionel Richie is an American singer-songwriter who first found success with the Commodores before a solo run that produced 'All Night Long (All Night)', 'Hello' and 'Say You, Say Me'. The War and Treaty are a husband-and-wife duo, Michael and Tanya Trotter, whose music draws on soul, gospel and country. Brian Vander Ark is a Michigan singer-songwriter best known as frontman of The Verve Pipe and their 1996 hit 'The Freshmen'.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Blink-182, Weezer, Green Day, Jack White, Sex Pistols, Rilo Kiley": {
+        "text": "This bill headlined the twentieth edition of Riot Fest in Chicago. Blink-182 and Green Day are California punk-pop institutions whose albums Enema of the State and Dookie carried the genre into the mainstream, while Weezer built a parallel career on fuzzed-out power pop beginning with 1994's Blue Album. Jack White performs solo material rooted in his work with The White Stripes, the Sex Pistols are the London group whose Never Mind the Bollocks defined British punk, and Rilo Kiley are a Los Angeles indie rock band fronted by Jenny Lewis.",
+        "agency": null,
+        "members": null,
+        "debut": null
       }
     },
     "ja": {
@@ -1613,6 +1715,42 @@
         "agency": null,
         "members": null,
         "debut": "2009"
+      },
+      "BOYNEXTDOOR": {
+        "text": "BOYNEXTDOORはKOZ ENTERTAINMENT所属の6人組ボーイズグループで、ソンホ、リウ、ジェヒョン、テサン、リハン、ウナクで構成される。2023年5月にシングルアルバム『WHO!』でデビューし、グループ名の通り「隣の家の男の子」のような親しみやすさをコンセプトに掲げる。等身大の恋愛や日常を描いた歌詞が特徴で、メンバーが楽曲制作にも参加している。",
+        "agency": "KOZ ENTERTAINMENT",
+        "members": "6人組",
+        "debut": "2023.05.30"
+      },
+      "C&K": {
+        "text": "C&KはCLIEVYとKEENによる男性2人組のシンガーソングライター・ユニット。2008年にミニアルバム『CK island』で活動を始め、2010年8月のシングル「梅雨明け宣言」でメジャーデビューした。ソウルやファンク、レゲエといったブラックミュージックから歌謡曲までを取り込んだ楽曲と、トークを交えた長尺のライブで知られる。",
+        "agency": null,
+        "members": "2人組",
+        "debut": "2008"
+      },
+      "ME:I": {
+        "text": "ME:Iはオーディション番組『PRODUCE 101 JAPAN THE GIRLS』から誕生した11人組ガールズグループ。2023年12月に結成され、2024年4月17日にデビューシングル『MIRAI』でデビューした。グループ名には「未来のアイドル」「me」「愛」の意味が込められており、LAPONE GIRLSに所属する。",
+        "agency": "LAPONE GIRLS",
+        "members": "11人組",
+        "debut": "2024.04.17"
+      },
+      "yama": {
+        "text": "yamaは素顔を明かさずに活動する日本のシンガー。2019年頃からカバー動画や客演で注目を集め、2020年にくじらが作詞作曲を手がけた「春を告げる」がSNSを中心に大きな話題となった。マスクとフードで顔を隠すスタイルは「誰が歌っているか」ではなく「どう歌うか」に耳を向けてほしいという本人の考えによるもので、年齢や性別は公表していない。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": "2020"
+      },
+      "小林私": {
+        "text": "小林私は1999年生まれ、東京都あきる野市出身のシンガー・ソングライター。多摩美術大学在学中からYouTubeでオリジナル曲やカバーを発表して注目を集めた。2023年4月にキングレコード内のレーベルHEROIC LINEへ所属し、同年6月にメジャー第1弾となるアルバム『象形に裁つ』をリリースしている。アコースティックギター一本での弾き語りを軸にした楽曲づくりで知られる。",
+        "agency": "HEROIC LINE（キングレコード）",
+        "members": "ソロ",
+        "debut": "2023"
+      },
+      "聖飢魔II": {
+        "text": "聖飢魔IIは1985年に大教典『聖飢魔II〜悪魔が来たりてヘヴィメタる』で地球デビューした日本のヘヴィメタルバンド。デーモン閣下を中心に「悪魔教の布教」という設定を掲げた世界観とステージングで知られ、翌1986年の小教典「蝋人形の館」が大ヒットした。1999年末にいったん解散したが節目ごとに期間限定で再集結しており、地球デビュー40周年を機に再び活動している。",
+        "agency": null,
+        "members": "バンド",
+        "debut": "1985"
       }
     }
   }
