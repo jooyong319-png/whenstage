@@ -10,6 +10,29 @@
   },
   "games": [
     {
+      "id": "ja-perfume-nebula-romance-ep1-shizuoka-20250222",
+      "name": "Perfume 10th Tour Z0Z5「ネビュラロマンス」Episode 1 静岡公演",
+      "release_date": "2025-02-22",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "エコパアリーナ（静岡）"
+      ],
+      "developer": "Perfume",
+      "publisher": "サンデーフォークプロモーション",
+      "description": "Perfumeの全国アリーナ・ツアー〈Perfume 10th Tour Z0Z5「ネビュラロマンス」Episode 1〉の静岡公演として、エコパアリーナで2月22日・23日の2日間にわたって開催された。22日は開場16:00・開演17:00、23日は開場15:00・開演16:00という時間で行われている。指定席12,500円のチケットは1月18日10時から一般発売されていた。静岡公演の主催・企画制作はサンデーフォークプロモーションが担当し、同社の静岡窓口が問い合わせ先となっていた。",
+      "genres": [
+        "テクノポップ",
+        "アリーナツアー"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Perfume%EF%BC%88%E3%83%91%E3%83%95%E3%83%A5%E3%83%BC%E3%83%A0%EF%BC%89KKBOX_2014-02-22.jpg/330px-Perfume%EF%BC%88%E3%83%91%E3%83%95%E3%83%A5%E3%83%BC%E3%83%A0%EF%BC%89KKBOX_2014-02-22.jpg",
+      "source_url": "https://www.sundayfolk.com/liveinfo/52ac3yq",
+      "last_updated": "2026-08-05",
+      "last_researched_by": "ja-researcher"
+    },
+    {
       "release_time": "19:00",
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
@@ -85,6 +108,29 @@
       "image_url": null,
       "source_url": "https://www.chevon.biz/live/2025/zepp-one-man-2025.html",
       "last_updated": "2026-08-03",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-mei-this-is-mei-nagano-20250726",
+      "name": "2025 ME:I 1ST ARENA LIVE TOUR THIS IS ME:I 長野公演",
+      "release_date": "2025-07-26",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "長野ビッグハット"
+      ],
+      "developer": "ME:I",
+      "publisher": null,
+      "description": "オーディション番組「PRODUCE 101 JAPAN THE GIRLS」から誕生した11人組ME:Iが、初のアリーナ・ツアー〈2025 ME:I 1ST ARENA LIVE TOUR THIS IS ME:I〉の開幕地として長野ビッグハットで行った公演。7月26日は開場17:00・開演18:00、翌27日は開場15:00・開演16:00の2days で実施された。ここから北海道・愛知・神奈川・兵庫・広島を巡る全6都市のツアーがスタートし、デビューから約1年半でアリーナ規模の舞台に立った。",
+      "genres": [
+        "J-POP",
+        "アリーナツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://me-i.jp/news/detail/803",
+      "last_updated": "2026-08-05",
       "last_researched_by": "ja-researcher"
     },
     {
@@ -354,6 +400,29 @@
         "京セラドーム大阪"
       ],
       "description": "SEVENTEENのワールドツアー〈[NEW_]〉日本公演のうち大阪公演が、2025年12月4日・6日・7日に京セラドーム大阪で行われた。いずれも開場16時・開演18時で、日本国内では4大ドームを回る全10公演が組まれた。全メンバーのソロ曲を初めて収録した最新作を軸に、30曲以上・約3時間半に及ぶセットが披露された。スタンド指定席は1万7000円で、公演直前には機材開放席の追加販売も行われた。"
+    },
+    {
+      "id": "ja-ck-jimotoka-final-osaka-20251219",
+      "name": "C&K〈改 日本全国地元化計画〜歌って踊って喋る喋る!!演出なしのシンプルLIVE!!〜〉ツアーファイナル",
+      "release_date": "2025-12-19",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "オリックス劇場"
+      ],
+      "developer": "C&K",
+      "publisher": "キョードー大阪",
+      "description": "C&Kが2025年6月から半年にわたって全国23カ所26公演を回った〈改 日本全国地元化計画〜歌って踊って喋る喋る!!演出なしのシンプルLIVE!!〜〉のファイナルとして、12月19日・20日の2日間、大阪のオリックス劇場で開催された。両日とも異なるセットリストが組まれ、定番曲から久しぶりのレア曲、未音源化の新曲まで2日間で全42曲が披露された。最終日の本編ラストでは初の大阪城ホール公演の開催が発表され、大きな歓声に包まれた。",
+      "genres": [
+        "J-POP",
+        "ホールツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://barks.jp/news/1036928/",
+      "last_updated": "2026-08-05",
+      "last_researched_by": "ja-researcher"
     },
     {
       "id": "ja-ling-tosite-sigure-budokan-20251227",
@@ -659,6 +728,29 @@
       "last_researched_by": "ja-researcher"
     },
     {
+      "id": "ja-yama-mountain-20260811",
+      "name": "yama「mountain」",
+      "release_date": "2026-08-11",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [
+        "配信"
+      ],
+      "developer": "yama",
+      "publisher": null,
+      "description": "yamaが“山の日”にあたる8月11日の24時に配信リリースする新曲。人生で初めて登山をした日に撮影した写真から着想を得て制作された楽曲で、壮大なストリングスで幕を開け、デジタルなビートからクライマックスにかけて生楽器へと移り変わる構成を持つ。山頂から広がる景色を眺めて「自分はもともと自由だったんだ」と気付いたという実体験が下敷きにあり、ファン向け企画から始まった登山が今では一番の趣味になったと本人は語っている。",
+      "genres": [
+        "J-POP",
+        "配信シングル"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/yama/128542",
+      "last_updated": "2026-08-05",
+      "last_researched_by": "ja-researcher"
+    },
+    {
       "id": "ja-kimura-takuya-checkpoint-20260812",
       "name": "木村拓哉『Checkpoint』",
       "release_date": "2026-08-12",
@@ -889,6 +981,29 @@
       "last_researched_by": "ja-researcher"
     },
     {
+      "id": "ja-boynextdoor-boom-boom-boom-20260818",
+      "name": "BOYNEXTDOOR「Boom Boom Boom」",
+      "release_date": "2026-08-18",
+      "release_time": "00:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [
+        "配信"
+      ],
+      "developer": "BOYNEXTDOOR",
+      "publisher": null,
+      "description": "BOYNEXTDOORが8月18日0時に配信する日本オリジナルの2ndデジタル・シングル。2025年11月の「SAY CHEESE!」以来となる日本語書き下ろし曲で、繰り返されるフレーズとアップテンポなビートが弾けるようなエネルギーを生む一曲に仕上がっている。8月21日に開幕する日本アリーナ・ツアー〈KNOCK ON Vol.2〉の直前という投下タイミングで、ツアー会場でのパフォーマンスにも期待が集まっている。",
+      "genres": [
+        "K-POP",
+        "デジタルシングル"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/BoyNextDoor_at_Music_Bank%2C_2024_%2820240426%29.jpg/330px-BoyNextDoor_at_Music_Bank%2C_2024_%2820240426%29.jpg",
+      "source_url": "https://www.billboard-japan.com/d_news/detail/164151",
+      "last_updated": "2026-08-05",
+      "last_researched_by": "ja-researcher"
+    },
+    {
       "id": "ja-abc-z-connection-vol2-20260819",
       "name": "A.B.C-Z CONNECTION Vol.2",
       "release_date": "2026-08-19",
@@ -977,6 +1092,33 @@
       "presale_datetime": "2026-06-01T17:00:00+09:00",
       "presale_end_datetime": "2026-06-08T23:59:00+09:00",
       "presale_url": "https://superjunior-jp.net/en/news/detail.php?id=1133791"
+    },
+    {
+      "id": "ja-boynextdoor-knock-on-vol2-japan-20260821",
+      "name": "BOYNEXTDOOR TOUR 'KNOCK ON Vol.2' IN JAPAN",
+      "release_date": "2026-08-21",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "Kアリーナ横浜（神奈川ほか全国6都市13公演）"
+      ],
+      "developer": "BOYNEXTDOOR",
+      "publisher": "HYBE JAPAN",
+      "description": "KOZ ENTERTAINMENT所属の5人組、BOYNEXTDOORが自身初のアリーナ・ツアーとして日本6都市を回る。8月21日から23日までのKアリーナ横浜3daysで幕を開け、佐賀・大阪・宮城・長野を経て10月10日・11日の千葉LaLa arena TOKYO-BAYまで全13公演を行う。初日は開場16:30・開演18:00。チケットは7月25日13:00から一般発売が始まっており、8月29日の佐賀公演はアジア各地域と米国の映画館でライブビューイングも実施される。",
+      "genres": [
+        "K-POP",
+        "アリーナツアー"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/BoyNextDoor_at_Music_Bank%2C_2024_%2820240426%29.jpg/330px-BoyNextDoor_at_Music_Bank%2C_2024_%2820240426%29.jpg",
+      "source_url": "https://www.hybejapan-concert.com/statics/bnd_knock_on_vol2_in_japan",
+      "last_updated": "2026-08-05",
+      "last_researched_by": "ja-researcher",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-25T13:00:00+09:00",
+      "general_sale_url": "https://l-tike.com/boynextdoor/"
     },
     {
       "id": "ja-ko1keyz-1st-fanmeeting-20260821",
@@ -1137,6 +1279,29 @@
         "クラシック",
         "打楽器"
       ]
+    },
+    {
+      "id": "ja-seikima-ii-great-black-mass-tokyo-20260905",
+      "name": "聖飢魔II GREAT BLACK MASS TOUR「SEASON II」東京ガーデンシアター公演",
+      "release_date": "2026-09-05",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ガーデンシアター"
+      ],
+      "developer": "聖飢魔II",
+      "publisher": null,
+      "description": "魔暦27（2025）年に地球デビュー40周年を迎えて期間限定で再集結した聖飢魔IIが、大教典『Season II』を引っ提げて5月から続けてきた〈GREAT BLACK MASS TOUR「SEASON II」〉のセミファイナルとして東京ガーデンシアターに立つ。新譜収録曲を軸にしながら旧曲でも見せ場を作る構成で全国の信奉者を沸かせてきたツアーで、この日の模様はWOWOWプライムが独占生中継し、WOWOWオンデマンドでも同時配信されることが決まっている。",
+      "genres": [
+        "ヘヴィメタル",
+        "ハードロック"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/seikimatsu/128558",
+      "last_updated": "2026-08-05",
+      "last_researched_by": "ja-researcher"
     },
     {
       "id": "ja-treasure-the-stage-20260905",
@@ -1809,14 +1974,16 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/By_Liri_Agami.jpg/330px-By_Liri_Agami.jpg",
       "source_url": "https://www.cdjournal.com/news/shai-maestro/128336",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-08-01T12:00:00+09:00",
       "presale_end_datetime": null,
       "presale_url": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5722/#5722",
       "general_sale": true,
       "general_sale_datetime": "2026-08-03T12:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "last_updated": "2026-08-05",
+      "last_researched_by": "ja-researcher"
     },
     {
       "id": "ja-yoasobi-chowakusei-2026-20261024",
@@ -1841,6 +2008,32 @@
       "source_url": "https://tvfan.kyodo.co.jp/music/news-music/1520554",
       "last_updated": "2026-08-02",
       "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-kobayashi-watashi-tobutame-20261025",
+      "name": "小林私 単独公演『飛ぶための荷物』",
+      "release_date": "2026-10-25",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "Music Club JANUS（大阪ほか東京の全2公演）"
+      ],
+      "developer": "小林私",
+      "publisher": null,
+      "description": "シンガー・ソングライター小林私が約2年ぶりに行うワンマン形式の公演。10月25日の大阪Music Club JANUSと11月8日の東京I'M A SHOWの2会場で開催され、いずれも開場17:30・開演18:00。これまでのワンマンではゲストを迎えることが多かったが、今回はゲストを招かない完全なソロ・ステージとして構成される。「ワンマンライブ」ではなく「単独公演」と銘打たれ、音楽を軸により自由な形で表現を提示する内容になるという。",
+      "genres": [
+        "シンガーソングライター",
+        "J-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/kobayashi-watashi/128553",
+      "last_updated": "2026-08-05",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "presale_datetime": "2026-08-03T00:00:00+09:00",
+      "presale_url": "https://l-tike.com/kobayashiwatashi/"
     },
     {
       "release_time": null,
@@ -2268,7 +2461,7 @@
       ],
       "image_url": null,
       "source_url": "https://www.cdjournal.com/news/sumika/128348",
-      "presale": true,
+      "presale": false,
       "presale_datetime": null,
       "presale_end_datetime": "2026-08-03T23:59:00+09:00",
       "presale_url": null,
@@ -2276,7 +2469,7 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-08-05",
       "last_researched_by": "ja-researcher"
     },
     {
