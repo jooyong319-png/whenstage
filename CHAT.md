@@ -1,3 +1,33 @@
+## [2026-08-05 09:45] [EN 리서처]
+리서치 완료 (영어권/글로벌 시장 공연)
+- 콘서트/투어 9→7, 발매 2→1, 페스티벌 2→0, 팬미팅 0→0 (후보→통과)
+- 뉴스 인계 처리 6건 중 5건 등재 (leads.en.jsonl 46줄 중 미등재 6건 = Wynonna 투어·Wynonna 앨범·ScHoolboy Q 투어·Megadeth 유럽 레그·Kylie Cantrall 투어·Kylie Cantrall EP. EP는 투어 항목과 중복도가 높아 보류)
+- 신규 13개 / 갱신 0개 (삭제 없음·전량 보존)
+- 과거 백필 5개 → **공연장 색인전환 5개**(Douglass Park / Baby's All Right / Northern Quest Resort & Casino / Acrisure Amphitheater / Channel 24 — 전부 1건→2건) / 기존 공연장 보강 0개
+- 티켓팅 진행중 (신규분 기준) 선예매 5개 · 일반예매 8개
+- description 보강 0개
+- 총 등록 113개 (공연장 색인 대상 34→40개, 1건짜리 공연장 11→9개)
+
+신규 등재 상세
+- 뉴스 인계 트랙: Wynonna Judd 'The Hard Truth Tour' 뉴욕 Bowery Ballroom 개막(10/8) / Wynonna Judd 앨범 The Hard Truth(10/2, ANTI-) / ScHoolboy Q '10 Years of Blank Face LP' 애틀랜타 Tabernacle 개막(10/1) / Megadeth 'Breakout: Hibernation Of The Nations' 런던 OVO Arena Wembley(2027-03-11) / Kylie Cantrall 'Valley Girl Problems' 미니애폴리스 The Fillmore 개막(9/25, 19:00)
+- 자체 후보 수집 트랙: Eagles Sphere 레지던시 2027 추가분(1/15~23, 4회 증설·통산 72회) / Bryan Adams 'Bare Bones' Wynn Las Vegas Encore Theater 5회(10/28~11/1) / The Band CAMINO, 멤피스 Satellite Music Hall 개관 공연(9/4~5)
+- 백필 트랙(전부 과거 날짜 확인 완료): Riot Fest 2025(2025-09-19~21, Douglass Park, festival_days 3일 라인업 등재) / Lorde 'Virgin' 심야 팝업(2025-06-23, Baby's All Right) / Queensryche(2025-04-10, Northern Quest Pend Oreille Pavilion) / Lionel Richie, Acrisure Amphitheater 개관 공연(2026-05-15) / Djo 'Another Bite' 새크라멘토(2025-10-17, Channel 24)
+
+판단 메모
+- Megadeth는 투어 개막지(벨파스트 The O2)가 아니라 **런던 OVO Arena Wembley**로 등재했다. 벨파스트는 신규 1건짜리 공연장이 되지만 웸블리는 기존 2건이라 3건으로 두꺼워지고, "11년 만의 영국 헤드라인" 수요도 런던이 가장 크다고 판단.
+- Northern Quest는 부속 홀을 괄호 표기(`Northern Quest Resort & Casino(Pend Oreille Pavilion), Airway Heights, WA`)해 기존 Godsmack 항목과 같은 공연장 페이지로 묶었다.
+- image_url은 Megadeth 1건만 채웠다(megadeth.com 공식 1080×1080 JPEG, HTTP 200·2.1MB 실제 확인). 나머지 12건은 공식 정사각 이미지를 확인하지 못해 null.
+- publisher는 프로모터가 공지에 명시된 6건(Live Nation 5건, ANTI- Records 1건)만 기입.
+- 백필 항목은 전부 `release_date_approx:false` + 티켓팅 필드 false/생략 + 과거 시제 description.
+
+[검증 탈락]
+- Kylie Cantrall - Valley Girl Problems (EP, 7/24 발매완료): 사실 자체는 확인되나 같은 아티스트 투어 항목과 정보가 중복되고 이미 발매가 끝나 예매 액션이 없어 이번 사이클 보류
+- Hinterland Music Festival 2027(7/30~8/1 아이오와 St. Charles): 2026 회차가 7/30~8/2 4일제였는데 2027 발표 날짜가 7/30~8/1로 거의 동일해 연도·회차 혼동 위험. 공식 사이트에서 2027 표기를 확정하지 못해 제외
+- William Shatner & The *uckers Coachella 2027 출연: 본인이 CNN 인터뷰에서 언급했을 뿐 주최측 미발표 — 확정 출처 없음
+- Yours Always Music Festival 2026(솔트레이크시티): 8/3 취소 확정. concerts.en.json에 애초 미등재라 `[Cancelled]` 표기 대상도 없음 — 등재하지 않음
+- The Regency Live(스프링필드 MO) 백필 후보: 1건짜리 공연장이라 색인 전환 가치가 있으나 과거 공연을 독립 출처 2개로 확정하지 못함(opendate·bandsintown 목록만 확인) — 다음 사이클로 이월
+- Tame Impala 'Deadbeat' 북미 레그: 리드에 있으나 이미 필라델피아·퍼스 2건 등재돼 있어 추가 도시 등재는 1건짜리 공연장만 늘려 보류
+
 ## [2026-08-05 09:30] [KO 리서처]
 리서치 완료 (한국 국내 공연)
 - 콘서트/내한 10→8, 음원발매 0→0, 페스티벌 2→1, 팬미팅 1→1 (후보→통과)
