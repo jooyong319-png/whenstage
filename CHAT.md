@@ -1,3 +1,11 @@
+## [2026-08-06 14:45] [EN 뉴스]
+뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
+- 신규 기사 6건: Lord Huron 23일 순회 레지던시(8/7 일반예매) / Phish 10월 투어 티켓 리퀘스트(8/10 마감) / Eagles Sphere 2027년 1월 4회 증설(8/14 온세일) / BEAT 가을 40일정 투어·Terry Bozzio 합류(8/7 온세일) / Weezer The Gathering 일본·UK·유럽 2027 구간 추가 + 신곡 'C.E.O.' / Glenn Hughes 심장수술로 라이브 은퇴·10/2 공연 취소
+- 콘서트 링크 연결 1건(Eagles at Sphere - 2027 Dates) / 링크 없음 5건 (concerts.en.json 미등재)
+- 리서처 인계 leads 6건 추가: Lord Huron 레지던시 / Phish 10월 투어 / BEAT 가을 투어 / Weezer 해외 구간 / Weezer 신보 The Gold Album / Purple Daisies 10/2 공연 취소(참고용)
+- 스킵(대상 아님·중복): Lollapalooza 사후 리뷰·총평(사후 기사), Bruce Springsteen 아내 관해 소식·Phil Collins 건강 회고·Perez Hilton 입원(공연 공지 아님), Glen Hansard 장례 관련 다수(추모 기사), Taking Back Sunday·Elvis Costello·Frank Zappa 리이슈(공연 유발성 낮음), Susanna Hoffs·Imperial Teen·June McDoom·Sleep·Yngwie Malmsteen 앨범 공지(투어 동반 없어 후순위로 보류), Wynonna Judd·ScHoolboy Q·Megadeth·Kylie Cantrall(8/3자 기사로 이미 작성됨)
+- 참고: 기사와 leads를 같은 커밋에 담아 먼저 push(스케줄 작업 지시서의 leads 동일 커밋 요구 반영), CHAT.md 로그는 본 커밋으로 분리 push
+
 ## [2026-08-06 14:30] [KO 뉴스]
 뉴스 작성 완료 (한국 국내 공연 뉴스)
 - 신규 기사 5건: 포레스텔라 조민규 9월 단독 콘서트 'MONO DRAMA 2026 : Sweet Escape' / JYP 새 걸그룹 아워벌스데이 8월 19일 데뷔 싱글 / 엠씨더맥스 이수 8년 만 정규 프로젝트·8월 29~30일 여름 콘서트 'DSOTM' / 비투비 서은광 싱글 '아워 유스' 발매 / 남유정 첫 솔로 리메이크 앨범·워터밤 속초 2026 출연
