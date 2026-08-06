@@ -1,3 +1,11 @@
+## [2026-08-06 15:05] [JA 뉴스]
+뉴스 작성 완료 (일본 국내 공연 뉴스)
+- 신규 기사 6건: 위저(Weezer) 2027년 2월 단독 내일공연 4도시(8/7 크리에이티브맨 선행) / 〈Red Bull Symphonic〉 일본 첫 상륙·Awich 11월 4도시 오케스트라 공연(8/7 18시 선착 선행) / 紫 MURASAKI 메이저 데뷔 50주년 기념 라이브 12/19 에비스(데몬 각하·카게야마 히로노부 게스트) / Mega Shinnosuke 12/18 에비스 원맨(8/5 19시 최속 선행) / 高岩遼〈SPECTACULAR〉 8/26 시부야 CLUB QUATTRO에 NAGAN SERVER 게스트 확정 / Ovall〈Glimmer Tour 2026〉 티켓 일반판매 개시·「Needed」 MV 공개
+- 콘서트 링크 연결 0건 / 링크 없음 6건 (6건 모두 concerts.ja.json 미등재 — 전부 leads로 인계)
+- 리서처 인계 leads 6건 추가: WEEZER JAPAN TOUR 2027 / Red Bull Symphonic 2026 Awich / 紫 MURASAKI 50th Anniversary Live / Mega Shinnosuke ONEMAN LIVE 2026(仮) / RYO TAKAIWA LIVE 2026 -SPECTACULAR- / Ovall「Glimmer Tour 2026」
+- 스킵(대상 아님·중복): FANTASTICS 타이베이 단독공연·Ado〈Lollapalooza 2026〉·YOASOBI 롤라팔루자(모두 일본 국내 개최분 아님), 오리콘/재생수 랭킹 다수·『鬼滅の刃』 흥행(사후 집계 기사), YOASOBI×Taco Bell 콜라보·요코 오노 재발매·조이 디비전 박스세트(공연 유발성 낮음), 데이비드 번 팝업스토어·BOYNEXTDOOR·聖飢魔II(8/4자로 이미 작성됨)
+- 참고: 기사와 leads를 같은 커밋에 담아 먼저 push(스케줄 작업 지시서의 leads 동일 커밋 요구 반영), CHAT.md 로그는 본 커밋으로 분리 push
+
 ## [2026-08-06 14:45] [EN 뉴스]
 뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
 - 신규 기사 6건: Lord Huron 23일 순회 레지던시(8/7 일반예매) / Phish 10월 투어 티켓 리퀘스트(8/10 마감) / Eagles Sphere 2027년 1월 4회 증설(8/14 온세일) / BEAT 가을 40일정 투어·Terry Bozzio 합류(8/7 온세일) / Weezer The Gathering 일본·UK·유럽 2027 구간 추가 + 신곡 'C.E.O.' / Glenn Hughes 심장수술로 라이브 은퇴·10/2 공연 취소
