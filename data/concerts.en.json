@@ -961,9 +961,10 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Glasto2023.jpg/330px-Glasto2023.jpg",
       "source_url": "https://www.ticketmaster.com/foo-fighters-tickets/artist/776005",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": "https://www.ticketmaster.com/foo-fighters-tickets/artist/776005"
+      "general_sale_url": "https://www.ticketmaster.com/foo-fighters-tickets/artist/776005",
+      "last_updated": "2026-08-07"
     },
     {
       "id": "en-mcr-black-parade-2026-new-york-20260809",
@@ -3112,6 +3113,367 @@
       "presale": false,
       "general_sale": false,
       "last_updated": "2026-08-05",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-lord-huron-broken-bottle-nashville-20261201",
+      "name": "Lord Huron: 23 Nights at the Broken Bottle - Nashville",
+      "release_date": "2026-12-01",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Chicago",
+      "category": "concert_tour",
+      "platforms": [
+        "Ryman Auditorium, Nashville, TN"
+      ],
+      "developer": "Lord Huron",
+      "publisher": null,
+      "description": "Lord Huron opens the 23-date traveling residency 23 Nights at the Broken Bottle at the Ryman Auditorium in Nashville on December 1, 2026. The residency stages each show inside the \"Broken Bottle,\" a desert honky-tonk drawn from Lord Huron's fictional universe, and is billed as \"An Evening With Lord Huron\" with no opening act. The band draws on its full catalog, from radio hits to rarely played deep cuts, in theaters far smaller than the amphitheaters of its 2026 summer run behind The Cosmic Selector Vol. 1. The 2,362-capacity Ryman sets the intimate tone for the run.",
+      "genres": [
+        "Indie Folk",
+        "Indie Rock",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/08/lord-huron-announce-23-nights-at-the-broken-bottle-traveling-residency-tour/",
+      "presale": false,
+      "general_sale": true,
+      "last_updated": "2026-08-07",
+      "last_researched_by": "en-researcher",
+      "general_sale_datetime": "2026-08-07T10:00:00-05:00",
+      "general_sale_url": "https://www.ticketmaster.com/lord-huron-tickets/artist/1486841"
+    },
+    {
+      "id": "en-lord-huron-broken-bottle-brooklyn-20261218",
+      "name": "Lord Huron: 23 Nights at the Broken Bottle - Brooklyn (Night 1)",
+      "release_date": "2026-12-18",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Kings Theatre, Brooklyn, NY"
+      ],
+      "developer": "Lord Huron",
+      "publisher": null,
+      "description": "Lord Huron plays the first of two nights at Kings Theatre in Brooklyn on December 18, 2026 as part of 23 Nights at the Broken Bottle. The residency stages each show inside the \"Broken Bottle,\" a desert honky-tonk drawn from Lord Huron's fictional universe, and is billed as \"An Evening With Lord Huron\" with no opening act. The band draws on its full catalog, from radio hits to rarely played deep cuts, in theaters far smaller than the amphitheaters of its 2026 summer run behind The Cosmic Selector Vol. 1. A second Brooklyn date follows on December 19.",
+      "genres": [
+        "Indie Folk",
+        "Indie Rock",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/08/lord-huron-announce-23-nights-at-the-broken-bottle-traveling-residency-tour/",
+      "presale": false,
+      "general_sale": true,
+      "last_updated": "2026-08-07",
+      "last_researched_by": "en-researcher",
+      "general_sale_datetime": "2026-08-07T10:00:00-04:00",
+      "general_sale_url": "https://www.ticketmaster.com/lord-huron-tickets/artist/1486841"
+    },
+    {
+      "id": "en-lord-huron-broken-bottle-sacramento-20270101",
+      "name": "Lord Huron: 23 Nights at the Broken Bottle - Sacramento",
+      "release_date": "2027-01-01",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Channel 24, Sacramento, CA"
+      ],
+      "developer": "Lord Huron",
+      "publisher": null,
+      "description": "Lord Huron restarts 23 Nights at the Broken Bottle on New Year's Day 2027 at Channel 24 in Sacramento, the first West Coast stop after the December leg. The residency stages each show inside the \"Broken Bottle,\" a desert honky-tonk drawn from Lord Huron's fictional universe, and is billed as \"An Evening With Lord Huron\" with no opening act. The band draws on its full catalog, from radio hits to rarely played deep cuts, in theaters far smaller than the amphitheaters of its 2026 summer run behind The Cosmic Selector Vol. 1.",
+      "genres": [
+        "Indie Folk",
+        "Indie Rock",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/08/lord-huron-announce-23-nights-at-the-broken-bottle-traveling-residency-tour/",
+      "presale": false,
+      "general_sale": true,
+      "last_updated": "2026-08-07",
+      "last_researched_by": "en-researcher",
+      "general_sale_datetime": "2026-08-07T10:00:00-07:00",
+      "general_sale_url": "https://www.ticketmaster.com/lord-huron-tickets/artist/1486841"
+    },
+    {
+      "id": "en-lord-huron-broken-bottle-los-angeles-20270111",
+      "name": "Lord Huron: 23 Nights at the Broken Bottle - Los Angeles (Finale)",
+      "release_date": "2027-01-11",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "The Wiltern, Los Angeles, CA"
+      ],
+      "developer": "Lord Huron",
+      "publisher": null,
+      "description": "The 23-date residency closes on January 11, 2027 with the second of two nights at The Wiltern in Los Angeles, the band's home city. The residency stages each show inside the \"Broken Bottle,\" a desert honky-tonk drawn from Lord Huron's fictional universe, and is billed as \"An Evening With Lord Huron\" with no opening act. The band draws on its full catalog, from radio hits to rarely played deep cuts, in theaters far smaller than the amphitheaters of its 2026 summer run behind The Cosmic Selector Vol. 1.",
+      "genres": [
+        "Indie Folk",
+        "Indie Rock",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/08/lord-huron-announce-23-nights-at-the-broken-bottle-traveling-residency-tour/",
+      "presale": false,
+      "general_sale": true,
+      "last_updated": "2026-08-07",
+      "last_researched_by": "en-researcher",
+      "general_sale_datetime": "2026-08-07T10:00:00-07:00",
+      "general_sale_url": "https://www.ticketmaster.com/lord-huron-tickets/artist/1486841"
+    },
+    {
+      "id": "en-phish-fall-tour-atlantic-city-20261002",
+      "name": "Phish: October 2026 Tour - Atlantic City (Night 1)",
+      "release_date": "2026-10-02",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Jim Whelan Boardwalk Hall, Atlantic City, NJ"
+      ],
+      "developer": "Phish",
+      "publisher": null,
+      "description": "Phish opens its October 2026 tour with the first of three consecutive nights at Jim Whelan Boardwalk Hall in Atlantic City on October 2. The eight-show October run covers Atlantic City, Richmond, Jacksonville and Huntsville, with Jacksonville marking the band's first Florida date since 2016. A ticket request period through the band's own ticketing site runs until noon ET on August 10, and remaining tickets reach the general public on August 14 at 10 a.m. ET.",
+      "genres": [
+        "Jam Band",
+        "Rock",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://phish.com/news/october-tourdates-announced/",
+      "presale": true,
+      "general_sale": true,
+      "last_updated": "2026-08-07",
+      "last_researched_by": "en-researcher",
+      "presale_end_datetime": "2026-08-10T12:00:00-04:00",
+      "presale_url": "https://tickets.phish.com",
+      "general_sale_datetime": "2026-08-14T10:00:00-04:00",
+      "general_sale_url": "https://phish.com/tours/"
+    },
+    {
+      "id": "en-phish-fall-tour-richmond-20261006",
+      "name": "Phish: October 2026 Tour - Richmond (Night 1)",
+      "release_date": "2026-10-06",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Allianz Amphitheater at Riverfront, Richmond, VA"
+      ],
+      "developer": "Phish",
+      "publisher": null,
+      "description": "Phish plays the first of two nights at Allianz Amphitheater at Riverfront in Richmond on October 6, 2026, following the three-night Atlantic City opening. The eight-show October run covers Atlantic City, Richmond, Jacksonville and Huntsville, with Jacksonville marking the band's first Florida date since 2016. A ticket request period through the band's own ticketing site runs until noon ET on August 10, and remaining tickets reach the general public on August 14 at 10 a.m. ET.",
+      "genres": [
+        "Jam Band",
+        "Rock",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://phish.com/news/october-tourdates-announced/",
+      "presale": true,
+      "general_sale": true,
+      "last_updated": "2026-08-07",
+      "last_researched_by": "en-researcher",
+      "presale_end_datetime": "2026-08-10T12:00:00-04:00",
+      "presale_url": "https://tickets.phish.com",
+      "general_sale_datetime": "2026-08-14T10:00:00-04:00",
+      "general_sale_url": "https://phish.com/tours/"
+    },
+    {
+      "id": "en-beat-fall-tour-santa-cruz-20261009",
+      "name": "BEAT (Belew, Levin, Vai, Bozzio): Fall 2026 Tour - Santa Cruz",
+      "release_date": "2026-10-09",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Quarry Amphitheater, Santa Cruz, CA"
+      ],
+      "developer": "BEAT, Adrian Belew, Tony Levin, Steve Vai, Terry Bozzio",
+      "publisher": null,
+      "description": "BEAT launches its Fall 2026 North American tour at the Quarry Amphitheater in Santa Cruz on October 9. BEAT pairs former King Crimson members Adrian Belew and Tony Levin with guitarist Steve Vai and drummer Terry Bozzio, who replaces Danny Carey for this run because of Tool commitments. The 40-date North American tour runs from October 9 to December 3 and widens the repertoire beyond the 1980s Crimson albums to material from the band's 1990s output.",
+      "genres": [
+        "Progressive Rock",
+        "Art Rock",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/08/beat-king-crimson-fall-2026-tour/",
+      "presale": false,
+      "general_sale": true,
+      "last_updated": "2026-08-07",
+      "last_researched_by": "en-researcher",
+      "general_sale_datetime": "2026-08-07T10:00:00-07:00",
+      "general_sale_url": "https://www.ticketmaster.com/beat-tickets/artist/1860703"
+    },
+    {
+      "id": "en-beat-fall-tour-inglewood-20261202",
+      "name": "BEAT (Belew, Levin, Vai, Bozzio): Fall 2026 Tour - Inglewood",
+      "release_date": "2026-12-02",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "YouTube Theater, Inglewood, CA"
+      ],
+      "developer": "BEAT, Adrian Belew, Tony Levin, Steve Vai, Terry Bozzio",
+      "publisher": null,
+      "description": "BEAT reaches the Los Angeles area on December 2, 2026 with a show at YouTube Theater in Inglewood, the penultimate date of the tour before the December 3 finale in Riverside. BEAT pairs former King Crimson members Adrian Belew and Tony Levin with guitarist Steve Vai and drummer Terry Bozzio, who replaces Danny Carey for this run because of Tool commitments. The 40-date North American tour runs from October 9 to December 3 and widens the repertoire beyond the 1980s Crimson albums to material from the band's 1990s output.",
+      "genres": [
+        "Progressive Rock",
+        "Art Rock",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/08/beat-king-crimson-fall-2026-tour/",
+      "presale": false,
+      "general_sale": true,
+      "last_updated": "2026-08-07",
+      "last_researched_by": "en-researcher",
+      "general_sale_datetime": "2026-08-07T10:00:00-07:00",
+      "general_sale_url": "https://www.ticketmaster.com/beat-tickets/artist/1860703"
+    },
+    {
+      "id": "en-pentatonix-christmas-in-the-city-tacoma-20261105",
+      "name": "Pentatonix: Christmas in the City Tour 2026 - Tacoma",
+      "release_date": "2026-11-05",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Tacoma Dome, Tacoma, WA"
+      ],
+      "developer": "Pentatonix",
+      "publisher": null,
+      "description": "Pentatonix opens the 2026 leg of its Christmas in the City Tour at the Tacoma Dome on November 5. The new leg covers 28 North American arena dates across November and December and supports the deluxe edition of the a cappella group's 2025 holiday album Christmas in the City, a New York-inspired record that leaned on jazz arrangements of standards alongside original songs.",
+      "genres": [
+        "A Cappella",
+        "Pop",
+        "Holiday",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.jambase.com/article/pentatonix-tour-dates-2026-fall",
+      "presale": true,
+      "general_sale": true,
+      "last_updated": "2026-08-07",
+      "last_researched_by": "en-researcher",
+      "general_sale_datetime": "2026-08-14T10:00:00-07:00",
+      "general_sale_url": "https://www.ticketmaster.com/pentatonix-tickets/artist/1747243"
+    },
+    {
+      "id": "en-phish-sphere-las-vegas-20240418",
+      "name": "Phish at Sphere - Las Vegas (Night 1)",
+      "release_date": "2024-04-18",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Sphere, Las Vegas, NV"
+      ],
+      "developer": "Phish",
+      "publisher": null,
+      "description": "Phish opened a four-night run at Sphere in Las Vegas on April 18, 2024, playing April 18, 19, 20 and 21. The band was only the second act to perform at the venue after U2, and it built a completely different setlist and a purpose-made visual program for each of the four nights across the wraparound LED screen. Critics treated the run as a benchmark for what improvised music could do with the room.",
+      "genres": [
+        "Jam Band",
+        "Rock",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.billboard.com/music/rock/phish-sphere-residency-review-1235665883/",
+      "presale": false,
+      "general_sale": false,
+      "last_updated": "2026-08-07",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-marina-princess-of-power-minneapolis-20250915",
+      "name": "MARINA: The Princess of Power Tour - Minneapolis",
+      "release_date": "2025-09-15",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Chicago",
+      "category": "concert_tour",
+      "platforms": [
+        "The Fillmore Minneapolis, Minneapolis, MN"
+      ],
+      "developer": "MARINA, Mallrat",
+      "publisher": "Live Nation",
+      "description": "MARINA played The Fillmore Minneapolis on September 15, 2025 on the North American Princess of Power Tour, with Australian artist Mallrat opening. The set began with the title track and moved through career-spanning material including \"Bubblegum Bitch,\" \"Primadonna,\" \"How to Be a Heartbreaker\" and \"Froot,\" mixing the new album with the Electra Heart and Froot eras.",
+      "genres": [
+        "Pop",
+        "Alternative Pop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.broadwayworld.com/minneapolis/article/Review-MARINA-at-The-Fillmore-Minneapolis-20250917",
+      "presale": false,
+      "general_sale": false,
+      "last_updated": "2026-08-07",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-ryan-bingham-all-night-long-atlanta-20251013",
+      "name": "Ryan Bingham & The Texas Gentlemen: The All Night Long Tour - Atlanta",
+      "release_date": "2025-10-13",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Tabernacle, Atlanta, GA"
+      ],
+      "developer": "Ryan Bingham & The Texas Gentlemen",
+      "publisher": "Live Nation",
+      "description": "Ryan Bingham and The Texas Gentlemen played the Tabernacle in Atlanta on October 13, 2025 with an eight o'clock start on The All Night Long Tour. The format carried no opening act: the band performed two sets split by an intermission, and the night drew on \"The Weary Kind,\" \"Southside of Heaven,\" \"Mescalito\" and \"Wolves\" alongside newer material.",
+      "genres": [
+        "Americana",
+        "Country Rock",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.livenation.com/event/vvG1zZbmXjMeNa/ryan-bingham-and-the-texas-gentlemen-the-all-night-long-tour",
+      "presale": false,
+      "general_sale": false,
+      "last_updated": "2026-08-07",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-new-edition-las-vegas-residency-20250212",
+      "name": "New Edition: Las Vegas Residency - Encore Theater (2025 Leg Opener)",
+      "release_date": "2025-02-12",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Encore Theater at Wynn Las Vegas, Las Vegas, NV"
+      ],
+      "developer": "New Edition",
+      "publisher": null,
+      "description": "New Edition opened the 2025 extension of its Las Vegas residency at the Encore Theater at Wynn Las Vegas on February 12, 2025. The leg ran six nights in total, on February 12, 14, 15, 19, 21 and 22, and included Valentine's Day weekend. The 1,480-seat Encore Theater put the R&B group's catalog and choreography in a far more intimate room than its arena touring.",
+      "genres": [
+        "R&B",
+        "Pop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.billboard.com/music/rb-hip-hop/new-edition-las-vegas-residency-2025-dates-1235831808/",
+      "presale": false,
+      "general_sale": false,
+      "last_updated": "2026-08-07",
       "last_researched_by": "en-researcher"
     }
   ]
