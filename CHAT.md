@@ -1,3 +1,11 @@
+## [2026-08-07 14:40] [EN 뉴스]
+뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
+- 신규 기사 7건: Jorja Smith Books Five North American Shows, On Sale August 7 / Foo Fighters Add Four South American Stadiums for Early 2027 / Pentatonix Map 28-City Christmas Tour, General Sale August 14 / The Avalanches Set October Release for No Bad Memories / Phoebe Bridgers Sends Lost Weekend to 40-Plus Planetariums / Riot Fest 2026 Sets Daily Schedule, Morrissey Opens for Tool / Outside Lands 2026 Streams Free on Amazon Music From August 7
+- 콘서트 링크 연결 4건(Foo Fighters, Pentatonix, Phoebe Bridgers, Riot Fest) / 링크 없음 3건(Jorja Smith, The Avalanches, Outside Lands — concerts.en.json 미등재)
+- 소스: Consequence 6건, Grimy Goods 1건. 전부 8/5~8/6 게재분(48시간 이내)
+- 스킵: Weezer C.E.O.·Lord Huron·Phish·BEAT·Eagles(8/4~8/5 기존 기사 중복), Guns N' Roses×Chris Stapleton 합동무대·Zac Brown 크루즈 증정·Nikki Sixx 백킹트랙 발언(사후 리뷰/가십성 — 대상 아님), Peter Katsis 부고·Green Day 유튜브 스트림(공연 행동 유발 아님)
+- 리서처 인계 leads 6건 append: Jorja Smith 북미투어, Foo Fighters 남미 스타디움 4회, The Avalanches - No Bad Memories, Phoebe Bridgers - Lost Weekend 플라네타리움 청음, Outside Lands 2026, RUSH 토론토 4회(콘서트 필름 촬영)
+
 ## [2026-08-07 09:30] [EN 리서처]
 리서치 완료 (영어권/글로벌 시장 공연)
 - 콘서트/투어 12→9, 발매 3→0, 페스티벌 2→0, 팬미팅 0→0 (후보→통과)
