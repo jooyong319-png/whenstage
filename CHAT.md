@@ -1,3 +1,36 @@
+## [2026-08-07 09:30] [EN 리서처]
+리서치 완료 (영어권/글로벌 시장 공연)
+- 콘서트/투어 12→9, 발매 3→0, 페스티벌 2→0, 팬미팅 0→0 (후보→통과)
+- 뉴스 인계 처리 52건 중 3건 등재 (Lord Huron·Phish·BEAT — 나머지는 기등재이거나 미검증·대상외)
+- 신규 13개(예정 9 + 백필 4) / 갱신 1개 (삭제 없음·전량 보존)
+- 과거 백필 4개 → **공연장 색인전환 4개**(Sphere, Las Vegas / The Fillmore Minneapolis / Tabernacle, Atlanta / Encore Theater at Wynn Las Vegas — 모두 1건→2건) / 기존 공연장 보강 0개
+- 티켓팅 진행중 +9 / 해제 -1 (Foo Fighters 디트로이트 8/6 공연 종료로 general_sale 해제)
+- description 보강 0개 (전 항목 40단어 이상 유지 확인)
+- 총 등록 126개
+
+신규 등재 상세
+- Lord Huron 「23 Nights at the Broken Bottle」 4건 — 12/1 내슈빌 Ryman Auditorium(개막), 12/18 브루클린 Kings Theatre, 1/1 새크라멘토 Channel 24, 1/11 LA The Wiltern(폐막). 오프닝액트 없는 "An Evening With" 포맷의 23일정 순회 레지던시. 일반예매 8/7 10시 현지시각(Ticketmaster). 출처: Consequence + JamBase + Pollstar
+- Phish 2026년 10월 투어 2건 — 10/2 애틀랜틱시티 Jim Whelan Boardwalk Hall(3연야 첫날), 10/6 리치먼드 Allianz Amphitheater(2연야 첫날). 총 8공연(잭슨빌은 2016년 이후 첫 플로리다 공연). 밴드 자체 티켓 리퀘스트 8/10 정오 ET 마감 → 8/14 10시 ET 일반예매. 출처: phish.com 공식 공지 + JamBase/Glide
+- BEAT (Belew·Levin·Vai·Bozzio) 2건 — 10/9 산타크루즈 Quarry Amphitheater(개막), 12/2 잉글우드 YouTube Theater. Danny Carey(Tool 일정)를 대신해 Terry Bozzio 합류, 40일정. 일반예매 8/7 10시 현지. 출처: Consequence + Ticketmaster 아티스트 페이지
+- Pentatonix 「Christmas in the City Tour 2026」 1건 — 11/5 타코마 Tacoma Dome 개막, 북미 아레나 28일정. 일반예매 8/14 10시 현지. 출처: JamBase + TicketNews + 지역방송(FOX Baltimore·KCBD·1011now) 다수 일치
+
+과거 백필 4건 (전부 release_date 오늘 이전 확인 / release_date_approx:false / 예매 필드 비움 / 과거시제 영어 서술)
+- Phish @ Sphere, Las Vegas 2024-04-18 — 4연야 첫날, U2에 이은 두 번째 출연 아티스트. Sphere 1건→2건. 출처: Billboard 리뷰 + Rolling Stone + Consequence
+- MARINA @ The Fillmore Minneapolis 2025-09-15 — Princess of Power Tour, Mallrat 서포트. 1건→2건. 출처: BroadwayWorld 리뷰 + setlist.fm + Live Nation 이벤트 페이지
+- Ryan Bingham & The Texas Gentlemen @ Tabernacle, Atlanta 2025-10-13 20:00 — The All Night Long Tour. 1건→2건. 출처: Ticketmaster 판매 페이지 + Live Nation + setlist.fm
+- New Edition @ Encore Theater at Wynn Las Vegas 2025-02-12 — 2025년 레지던시 6일정 개막. 1건→2건. 출처: Billboard + setlist.fm + Las Vegas Weekly
+
+[검증 탈락]
+- William Shatner & The *uckers (Coachella 2027): 본인 발언만 있고 주최측 미발표 — 독립 출처 부족으로 보류
+- Yours Always Music Festival 2026 (Salt Lake City): 8/3 취소 확정. 기존 등록 항목이 없어 [Cancelled] 표기 대상도 아니므로 미등재
+- Purple Daisies (Glenn Hughes & The Dead Daisies) 10/2 공연: 취소 + 공연장 미확인으로 등재 근거 부족
+- Foo Fighters 2027 남미 스타디움 투어: 개최지가 영어권 시장이 아님 — EN 대상 아님
+- Ministry / Jodeci / The Faint / EsDeeKid / Godsmack / Orville Peck / Quadeca / Ride / ScHoolboy Q / Megadeth / Wynonna Judd / Kylie Cantrall / Weezer / Tony Iommi / ADÉLA 등 리드 다수: 이미 concerts.en.json에 등재되어 있어 스킵
+
+[이미지] 이번 사이클 신규 13건 모두 image_url null — Ticketmaster/AXS는 봇 차단이고 위키미디어 커먼즈에서 정사각형에 맞는 자유 라이선스 사진을 확인하지 못함. 억지로 채우지 않고 다음 사이클 재시도
+
+[크로스 로케일] 이번 사이클 해당 없음 — KO/JA 리서처께 요청드릴 사항 없음
+
 ## [2026-08-06 15:05] [JA 뉴스]
 뉴스 작성 완료 (일본 국내 공연 뉴스)
 - 신규 기사 6건: 위저(Weezer) 2027년 2월 단독 내일공연 4도시(8/7 크리에이티브맨 선행) / 〈Red Bull Symphonic〉 일본 첫 상륙·Awich 11월 4도시 오케스트라 공연(8/7 18시 선착 선행) / 紫 MURASAKI 메이저 데뷔 50주년 기념 라이브 12/19 에비스(데몬 각하·카게야마 히로노부 게스트) / Mega Shinnosuke 12/18 에비스 원맨(8/5 19시 최속 선행) / 高岩遼〈SPECTACULAR〉 8/26 시부야 CLUB QUATTRO에 NAGAN SERVER 게스트 확정 / Ovall〈Glimmer Tour 2026〉 티켓 일반판매 개시·「Needed」 MV 공개
