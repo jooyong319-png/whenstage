@@ -1,3 +1,44 @@
+## [2026-08-08 09:45] [JA 리서처]
+리서치 완료 (일본 국내 공연)
+- 콘서트/来日 9→6, 발매 0→0, 페스티벌 0→0, 팬미팅 0→0 (후보→통과)
+- 뉴스 인계 처리 8건 중 5건 등재 (leads.ja.jsonl 44건 중 미등재 후보만 재검증 — WEEZER·Red Bull Symphonic·紫 MURASAKI·Mega Shinnosuke·高岩遼)
+- 신규 12개(예정 7 + 백필 5) / 갱신 0개 (삭제 없음·전량 보존)
+- 과거 백필 5개 → **공연장 색인전환 4개**(コットンクラブ 1→3 / フェスティバルホール 1→2 / サンドーム福井 1→2 / 大阪国際会議場 1→2) / 기존 공연장 보강 0개
+  · 신규 등재로 恵比寿 The Garden Hall도 곧바로 2건이 되어 색인 대상 진입(예정 공연 2건으로 확보)
+  · 공연장 색인 대상 27개 → 32개 (전체 공연장 44→49)
+- 티켓팅 진행중 +6 (추가만, 해제 0 — 기존 항목 재확인 결과 종료·공연완료로 해제할 건 없었음)
+- description 보강 0개 (전 항목 120자 이상 유지 확인)
+- 총 등록 111개
+
+신규 등재 상세 — 예정 공연 7건
+- WEEZER JAPAN TOUR 2027 (2027-02-12 東京ガーデンシアター 외 4도시 5공연) — 5년 만의 신보 『Weezer(ゴールド・アルバム)』 동반 단독 내일. 크리에이티브만 회원선행 8/7~, 오피셜 선행 8/12~, 일반발매 9/5. 출처: CDJournal + Billboard/NME/Pollstar + Real Sound
+- Red Bull Symphonic 2026 Awich & Tokyo Secret Orchestra (2026-11-17 ザ・シンフォニーホール 외 후쿠오카·센다이·요코하마 4공연) — 일본 첫 상륙. 선착선행 8/7 18시. 출처: CDJournal + Real Sound + 音楽ナタリー/Spincoaster
+- Mega Shinnosuke ONEMAN LIVE 2026 (2026-12-18 恵比寿 The Garden Hall) — 선행 8/5 19시~8/16(eplus). 출처: CDJournal + 공식 사이트
+- 紫 MURASAKI Major Debut 50th Anniversary Live (2026-12-19 恵比寿 The Garden Hall) — 게스트 デーモン閣下·影山ヒロノブ. 출처: CDJournal + 聖飢魔II 공식 X + 산케이스포츠
+- RYO TAKAIWA LIVE 2026 -SPECTACULAR- (2026-08-26 SHIBUYA CLUB QUATTRO) — 약 8년 만의 쿠아트로 단독. 출처: CDJournal + Skream! + ぴあ音楽편집부
+- 新国立劇場オペラ『ピーター・グライムズ』新制作 (2026-11-23 新国立劇場 오페라팔레스, 전 5회) — 브리튼 서거 50년, 카슨 연출/오노 카즈시 지휘. 출처: 新国立劇場 공식 + Mikiki + SPICE
+- チェ・ユリ Concert in JAPAN (2026-08-30 浜離宮朝日ホール) — 두 번째 내일, 일반발매 8/3 12시. 출처: atpress 공식 릴리스 + anemo + korepo
+
+신규 등재 상세 — 과거 백필 5건 (전부 release_date_approx:false / 티켓팅 필드 비움 / 과거 시제 서술)
+- 高岩遼 Live at COTTON CLUB "JAZZLIFE" (2025-12-18 コットンクラブ) — 출처: COTTON CLUB 공식 공연 페이지
+- Nijiz Live at COTTON CLUB 〜「Indigo Blue」 (2026-01-27 コットンクラブ) — 출처: COTTON CLUB 공식 공연 페이지
+- aiko Live Tour「Love Like Pop vol.25」ファイナル (2026-06-30 フェスティバルホール) — 출처: aiko 공식 + Real Sound
+- B'z LIVE-GYM 2026 -FYOP＋- 福井公演 (2026-04-11 サンドーム福井, 투어 개막) — 출처: B'z 공식 사이트 + BARKS/音楽ナタリー/Billboard JAPAN
+- 2025 WINNER CONCERT [IN OUR CIRCLE] JAPAN FINAL IN OSAKA (2025-12-13 大阪国際会議場) — 출처: BARKS 라이브리포트 + 音楽ナタリー
+※ 백필 선정은 「이미 등록된 1건짜리 会場에서 열린 다른 아티스트 공연」 기준. 全国ツアー의 다른 회차는 의도적으로 배제(1건짜리 공연장 양산 방지). B'z 福井는 サンドーム福井가 기존 乃木坂46 1건뿐이던 공연장이라 선택.
+
+[검증 탈락]
+- Number_i LIVE TOUR No.III（Chapter 1 : Japan）: 5대 돔 개최만 발표되고 개별 일정·회장 미발표. 시기 placeholder도 「2026년 10월~」로만 나와 특정일 확정 불가 — 다음 사이클 재확인
+- AKASAKI 1st World Tour "ONIGIRI": 일본 공연 일정 자체가 미발표
+- やまもとはると 全国弾き語りツアー: 회장을 공개 모집 중이라 일정·장소 모두 미확정
+- Ovall「Glimmer Tour 2026」: CDJournal 기사에 일정·회장 기재가 없고, 공식 플레이가이드 외 독립 출처를 확보하지 못함
+- L'Arc-en-Ciel「総天然色」: 라디오 초해금만 되고 정식 릴리스일 미발표 — 날짜 확정 불가
+- Finally Live Tour 2026「TAKE to GIVE」: 「2026년 10~12월 동명핵 3주」로만 나오고 개별 공연일·회장을 확인할 독립 출처 2개를 채우지 못함
+- 踊る！ディスコ室町「すいか」リリース・パーティー: 회장(京都西院ネガポジ/名古屋stiff slack)이 모두 신규 1건짜리가 되어 색인 손실 우려 + 독립 출처 1개(CDJournal)뿐
+- Tommy The Screening Japan Tour / 映画『叛逆のサウンドトラック』トークイベント: 영화 상영 이벤트로 4개 카테고리(concert_tour·music_release·festival·fanmeeting) 어디에도 해당하지 않아 대상 외로 판단
+- めぐろパーシモンホール 過去公演(原田慶太楼×東京交響楽団 2026-03-15 등): 집계 사이트 외 독립 출처 2개를 확보하지 못해 백필 보류
+- グランキューブ大阪 その他過去公演(セカイシンフォニー 2026-06-07 / FF公式吹奏楽コンサート 2026-06-28): 같은 사유로 보류(WINNER 1건만 등재)
+
 ## [2026-08-07 14:40] [EN 뉴스]
 뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
 - 신규 기사 7건: Jorja Smith Books Five North American Shows, On Sale August 7 / Foo Fighters Add Four South American Stadiums for Early 2027 / Pentatonix Map 28-City Christmas Tour, General Sale August 14 / The Avalanches Set October Release for No Bad Memories / Phoebe Bridgers Sends Lost Weekend to 40-Plus Planetariums / Riot Fest 2026 Sets Daily Schedule, Morrissey Opens for Tool / Outside Lands 2026 Streams Free on Amazon Music From August 7
