@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-04",
+  "last_updated": "2026-08-08",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -2517,6 +2517,307 @@
       "presale": true,
       "presale_datetime": null,
       "presale_url": "https://www.yoshiikazuya.com/feature/tour2027"
+    },
+    {
+      "id": "ja-weezer-japan-tour-2027-20270212",
+      "name": "WEEZER JAPAN TOUR 2027",
+      "release_date": "2027-02-12",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ガーデンシアター（東京ほか京都・大阪・愛知の全4都市5公演）"
+      ],
+      "developer": "ウィーザー（WEEZER）",
+      "publisher": "CREATIVEMAN PRODUCTIONS",
+      "description": "米オルタナティヴ・ロック・バンドのウィーザーが、約5年ぶりのオリジナル・アルバム『Weezer（ゴールド・アルバム）』を携えて単独来日ツアーを行う。2027年2月12日・13日の東京ガーデンシアターを皮切りに、2月15日にロームシアター京都メインホール、2月16日にZepp Osaka Bayside、2月18日に愛知のCOMTEC PORTBASEを回る4都市5公演。東京公演はS指定席18,000円・A指定席16,000円。クリエイティブマン会員先行が8月7日から、オフィシャル先行が8月12日から受け付けられ、一般発売は9月5日に始まる。",
+      "genres": [
+        "オルタナティヴ・ロック",
+        "パワー・ポップ",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/weezer/128651",
+      "last_updated": "2026-08-08",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "presale_url": "https://www.cmp-members.com/tickets/weezer-3/",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-05T00:00:00+09:00"
+    },
+    {
+      "id": "ja-red-bull-symphonic-awich-20261117",
+      "name": "Red Bull Symphonic 2026 Awich & Tokyo Secret Orchestra",
+      "release_date": "2026-11-17",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "ザ・シンフォニーホール（大阪ほか福岡・仙台・横浜の全4公演）"
+      ],
+      "developer": "Awich",
+      "publisher": "レッドブル・ジャパン",
+      "description": "世界22カ国で39公演を重ねてきたシンフォニック・ライヴ・シリーズ〈Red Bull Symphonic〉が日本に初上陸し、沖縄出身のラッパーAwichが出演する。Tokyo Secret Orchestraと組み、指揮のMika Takayamaのもとで代表曲をオーケストラ用にゼロから作り直した一夜限りのアレンジを披露する。11月17日の大阪・ザ・シンフォニーホールを皮切りに、19日に福岡シンフォニーホール、25日に仙台銀行ホール イズミティ21、27日に横浜みなとみらいホールの全4公演。いずれも開場17時30分・開演19時で、S席9,000円／A席7,500円。",
+      "genres": [
+        "ヒップホップ",
+        "オーケストラ",
+        "シンフォニックライブ"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/awich/128596",
+      "last_updated": "2026-08-08",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "presale_datetime": "2026-08-07T18:00:00+09:00",
+      "general_sale": false
+    },
+    {
+      "id": "ja-mega-shinnosuke-oneman-2026-20261218",
+      "name": "Mega Shinnosuke ONEMAN LIVE 2026",
+      "release_date": "2026-12-18",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "恵比寿 The Garden Hall（東京）"
+      ],
+      "developer": "Mega Shinnosuke",
+      "publisher": null,
+      "description": "福岡出身のシンガー・ソングライター、Mega Shinnosukeが2026年を締めくくるワンマン・ライヴを東京・恵比寿 The Garden Hallで開催する。12月18日の金曜日、開場18時・開演19時という進行で、前方指定席・後方スタンディングともに6,900円（ドリンク代別）の均一料金となっている。公式アプリ「MEGA CLUB」プレミアム会員先行とオフィシャル最速先行は8月5日19時から8月16日23時59分まで受け付けられ、受付窓口はイープラス。年明けからの全国ワンマン・ツアーに先立つ東京単独公演にあたる。",
+      "genres": [
+        "J-POP",
+        "オルタナティヴ"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/mega-shinnosuke/128629",
+      "last_updated": "2026-08-08",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "presale_datetime": "2026-08-05T19:00:00+09:00",
+      "presale_end_datetime": "2026-08-16T23:59:00+09:00",
+      "presale_url": "https://eplus.jp/megashinnosuke/",
+      "general_sale": false
+    },
+    {
+      "id": "ja-murasaki-50th-anniversary-20261219",
+      "name": "紫 MURASAKI Major Debut 50th Anniversary Live",
+      "release_date": "2026-12-19",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "恵比寿 The Garden Hall（東京）"
+      ],
+      "developer": "紫（MURASAKI）",
+      "publisher": "HOT STUFF PROMOTION",
+      "description": "沖縄が生んだ伝説的ハード・ロック・バンド、紫がメジャー・デビュー50周年を記念する単独公演を東京・恵比寿 The Garden Hallで行う。12月19日の土曜日、開場16時・開演17時という進行。ゲストには聖飢魔IIのデーモン閣下と、元LAZYで数々のアニメ主題歌を歌ってきた影山ヒロノブが名を連ねる。プレミアムシートやVIP指定席も用意され、オフィシャル先着先行は8月5日12時から8月30日23時59分まで受け付けられる。バンドを追ったドキュメンタリー映画の公開も控えている。",
+      "genres": [
+        "ハードロック",
+        "沖縄",
+        "アニバーサリー公演"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/murasaki/128598",
+      "last_updated": "2026-08-08",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "presale_datetime": "2026-08-05T12:00:00+09:00",
+      "presale_end_datetime": "2026-08-30T23:59:00+09:00",
+      "general_sale": false
+    },
+    {
+      "id": "ja-ryo-takaiwa-spectacular-20260826",
+      "name": "RYO TAKAIWA LIVE 2026 -SPECTACULAR-",
+      "release_date": "2026-08-26",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "SHIBUYA CLUB QUATTRO（東京）"
+      ],
+      "developer": "高岩遼（RYO TAKAIWA）",
+      "publisher": null,
+      "description": "SANABAGUN.やTHE THROTTLEのフロントマンとしても知られる高岩遼が、約8年ぶりとなる渋谷CLUB QUATTROでの単独公演を行う。8月26日の水曜日、開場18時45分・開演19時30分。ゲストには盟友NAGAN SERVERの出演が決まり、かつて高岩が営んでいたミュージック・バー「Brother」も一夜限りで復活する。前売5,800円（別途ドリンク代）。終演後の22時からは渋谷MUSIC BAR LIONで誕生日前夜を祝うアフター・パーティーが開かれ、ドア2,000円で入場できる。",
+      "genres": [
+        "ジャズ",
+        "ソウル",
+        "ワンマンライブ"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/takaiwa-ryo/128628",
+      "last_updated": "2026-08-08",
+      "last_researched_by": "ja-researcher",
+      "general_sale": true
+    },
+    {
+      "id": "ja-nntt-peter-grimes-20261123",
+      "name": "新国立劇場オペラ『ピーター・グライムズ』（新制作）",
+      "release_date": "2026-11-23",
+      "release_time": "14:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "新国立劇場（オペラパレス）"
+      ],
+      "developer": "大野和士（指揮）",
+      "publisher": "新国立劇場",
+      "description": "ベンジャミン・ブリテン没後50年にあたり、新国立劇場が代表作『ピーター・グライムズ』を14年ぶりに、しかも新制作で上演する。演出・照明はロバート・カーセンで、2023年にミラノ・スカラ座で初演され話題を呼んだプロダクションを持ち込む。指揮はオペラ芸術監督の大野和士。タイトル・ロールにはスカラ座で同役を歌ったブランドン・ジョヴァノヴィッチ、エレンには英国のソプラノ、サリー・マシューズが立つ。公演は11月23日・26日・29日、12月2日・5日の全5回で、開場13時15分・開演14時。",
+      "genres": [
+        "オペラ",
+        "クラシック"
+      ],
+      "image_url": null,
+      "source_url": "https://www.nntt.jac.go.jp/opera/petergrimes/",
+      "last_updated": "2026-08-08",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-choi-yuree-concert-in-japan-20260830",
+      "name": "チェ・ユリ Concert in JAPAN",
+      "release_date": "2026-08-30",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "浜離宮朝日ホール（東京）"
+      ],
+      "developer": "チェ・ユリ（최유리）",
+      "publisher": null,
+      "description": "韓国のシンガー・ソングライター、チェ・ユリが二度目となる来日公演を東京・浜離宮朝日ホールで行う。8月30日の日曜日、開場17時・開演18時。『涙の女王』『海街チャチャチャ』『未知のソウル』など人気韓国ドラマのOSTに参加してきた歌手で、日本でも急速に聴かれるようになった。会場は世界最高峰とも称される音響で知られるホールで、全席指定のSS席18,000円・S席14,000円・A席11,000円。一般発売は8月3日12時に始まり、チケットぴあ・ローソンチケット・イープラスなどで扱われている。",
+      "genres": [
+        "K-POP",
+        "シンガーソングライター",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://www.anemo.co.jp/topics/lifestyle/stage-lifestyle/432626-20260717/",
+      "last_updated": "2026-08-08",
+      "last_researched_by": "ja-researcher",
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-03T12:00:00+09:00"
+    },
+    {
+      "id": "ja-ryo-takaiwa-cottonclub-jazzlife-20251218",
+      "name": "高岩遼 Live at COTTON CLUB \"JAZZLIFE\"〜「TAKAIWA」Release Live",
+      "release_date": "2025-12-18",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "コットンクラブ（東京・丸の内）"
+      ],
+      "developer": "高岩遼（RYO TAKAIWA）",
+      "publisher": "コットンクラブ",
+      "description": "高岩遼が7年ぶりのジャズ・アルバム『TAKAIWA』のリリース・ライヴとして、東京・丸の内のコットンクラブに初登場した公演。ピアノの井上ジン、ギターの都丸翔、ベースの田代貴之、ドラムの橋詰大智に加えサックス2本とトランペットを従えた大所帯編成で、1stショウが開場17時・開演18時、2ndショウが開場19時45分・開演20時30分の2回制で行われた。料金はテーブル席6,500円ほか。「JAZZLIFE」を座右の銘に掲げる高岩が、ジャズ・ヴォーカリストとしての出自に立ち返った一夜となった。",
+      "genres": [
+        "ジャズ",
+        "ヴォーカル"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/ryo-takaiwa/",
+      "last_updated": "2026-08-08",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-nijiz-cottonclub-indigo-blue-20260127",
+      "name": "Nijiz Live at COTTON CLUB 〜「Indigo Blue」 Release Live",
+      "release_date": "2026-01-27",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "コットンクラブ（東京・丸の内）"
+      ],
+      "developer": "Nijiz（ニジーズ）",
+      "publisher": "コットンクラブ",
+      "description": "千葉雄喜がヴォーカル、高岩遼がピアノを務めるユニットNijizが、配信アルバム『インディゴブルー』のリリースを記念して初のワンマン・ライヴを東京・丸の内のコットンクラブで開催した。ヴァイオリンの大島理紗子、ドラムの橋詰大智を加えた4人編成で、1stショウが開場17時・開演18時、2ndショウが開場19時45分・開演20時30分の2回制。料金はテーブル席9,000円ほか。ブルースを土台にした即興性の高い音楽性が特徴で、両者のキャリアが交差する編成が注目を集めた。",
+      "genres": [
+        "ブルース",
+        "ヒップホップ",
+        "ジャズ"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cottonclubjapan.co.jp/jp/sp/artists/nijiz/",
+      "last_updated": "2026-08-08",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-aiko-love-like-pop-25-final-20260630",
+      "name": "aiko Live Tour「Love Like Pop vol.25」ファイナル 大阪公演",
+      "release_date": "2026-06-30",
+      "release_time": "18:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "フェスティバルホール（大阪）"
+      ],
+      "developer": "aiko",
+      "publisher": null,
+      "description": "aikoが2026年1月15日の東京・J:COMホール八王子から始めた全国ホール・ツアー「Love Like Pop vol.25」の最終公演として、大阪・フェスティバルホールで開催された。19都市21会場・全37公演という自身でも屈指の長丁場を締めくくる一夜で、開場17時30分・開演18時30分という進行。ツアーは4月19日の公演を境に前半と後半でセットリストを組み替えており、ファイナルではトリプル・アンコールを含む全30曲、3時間を超える内容が披露された。地元・大阪での大団円となった。",
+      "genres": [
+        "J-POP",
+        "ホールツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://www.aiko.com/topics/?id=7871",
+      "last_updated": "2026-08-08",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-bz-live-gym-2026-fyop-fukui-20260411",
+      "name": "B'z LIVE-GYM 2026 -FYOP＋- 福井公演",
+      "release_date": "2026-04-11",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "サンドーム福井"
+      ],
+      "developer": "B'z",
+      "publisher": null,
+      "description": "B'zが2026年4月から6月にかけて全国10会場20公演で回ったアリーナ・ツアー「B'z LIVE-GYM 2026 -FYOP＋-」の開幕公演として、福井県越前市のサンドーム福井で4月11日・12日の2日間にわたって開催された。開場15時30分・開演17時という進行。前年に行われたドーム・ツアー「FYOP」の続編にあたり、23枚目のアルバム『FYOP』を軸にしながらセットリストとステージ・セットを組み替えた構成で臨んだ。福井を皮切りに広島・香川・沖縄・福岡・北海道・大阪・神奈川・千葉・愛知を巡った。",
+      "genres": [
+        "ロック",
+        "アリーナツアー"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/B%27Z_Best_Buy_Theater_montage.jpg/500px-B%27Z_Best_Buy_Theater_montage.jpg",
+      "source_url": "https://bz-vermillion.com/livegym2026/",
+      "last_updated": "2026-08-08",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-winner-in-our-circle-osaka-20251213",
+      "name": "2025 WINNER CONCERT [IN OUR CIRCLE] JAPAN FINAL IN OSAKA",
+      "release_date": "2025-12-13",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "大阪国際会議場（グランキューブ大阪）"
+      ],
+      "developer": "WINNER",
+      "publisher": null,
+      "description": "韓国の4人組グループWINNERが、約6年ぶりとなる日本公演の追加ファイナルとして大阪・グランキューブ大阪で開催した単独公演。2025年9月に兵庫と東京で行った〈2025 WINNER CONCERT [IN OUR CIRCLE] IN JAPAN〉を受けた締めくくりの一夜で、「REALLY REALLY」「LOVE ME LOVE ME」「I LOVE U」から「EVERYDAY」「ISLAND」「MILLIONS」、定番の「MOVIE STAR」まで全21曲が披露された。ダブル・アンコールではデビューのきっかけとなった「GO UP」がサプライズで演奏された。",
+      "genres": [
+        "K-POP",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://barks.jp/news/1036030",
+      "last_updated": "2026-08-08",
+      "last_researched_by": "ja-researcher"
     }
   ]
 }
