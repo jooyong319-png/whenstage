@@ -1131,6 +1131,42 @@
         "agency": null,
         "members": null,
         "debut": null
+      },
+      "BEAT, Adrian Belew, Tony Levin, Steve Vai, Terry Bozzio": {
+        "text": "BEAT is a supergroup dedicated to the music King Crimson made in the early 1980s, pairing that era's own Adrian Belew on guitar and vocals and Tony Levin on bass and Chapman Stick with guitarist Steve Vai and drummer Terry Bozzio. The quartet came together in 2024 and built its sets around the Discipline, Beat and Three of a Perfect Pair albums. Its touring has continued into 2026 with further North American dates.",
+        "agency": null,
+        "members": "4-piece",
+        "debut": "2024"
+      },
+      "Lord Huron": {
+        "text": "Lord Huron is an American indie folk band built around songwriter Ben Schneider, who started the project in Los Angeles in 2010 after growing up in Michigan. The debut album Lonesome Dreams arrived on Iamsound in 2012, and the band's cinematic, narrative songwriting later reached a much wider audience through \"The Night We Met.\" Their records tend to be framed as self-contained stories, with recurring characters and invented settings carried across albums.",
+        "agency": null,
+        "members": "4-piece",
+        "debut": "2012"
+      },
+      "MARINA, Mallrat": {
+        "text": "MARINA is a Welsh singer-songwriter who recorded as Marina and the Diamonds before releasing music under her own name. Across albums including The Family Jewels, Electra Heart and Froot she has paired theatrical pop with writing about identity and femininity, and her recent work underpins The Princess of Power Tour. Opening is Mallrat, the Brisbane-born Australian artist Grace Shaw, whose songs blend soft-spoken pop with dance and hip-hop production.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "New Edition": {
+        "text": "New Edition is an American R&B group that formed in the Roxbury neighborhood of Boston in 1978 and broke through with the 1983 album Candy Girl. The lineup of Ricky Bell, Michael Bivins, Ronnie DeVoe, Ralph Tresvant, Bobby Brown and Johnny Gill helped set the template for the boy groups that followed, and its members went on to Bell Biv DeVoe and successful solo careers. The group continues to tour and has staged multi-night residencies in Las Vegas.",
+        "agency": null,
+        "members": "6-piece",
+        "debut": "1983"
+      },
+      "Pentatonix": {
+        "text": "Pentatonix is an American a cappella group formed in Arlington, Texas in 2011 and named for the five-note pentatonic scale. The group won the third season of NBC's The Sing-Off that year and has since built a career on intricate arrangements sung without instruments, with its Christmas albums becoming an annual fixture. The current lineup is Scott Hoying, Kirstin Maldonado, Mitch Grassi, Kevin Olusola and Matt Sallee.",
+        "agency": null,
+        "members": "5-piece",
+        "debut": "2011"
+      },
+      "Phish": {
+        "text": "Phish is an American rock band formed in Burlington, Vermont in 1983 by students at the University of Vermont. The quartet of Trey Anastasio, Page McConnell, Mike Gordon and Jon Fishman built its reputation on long-form improvisation and sets that change substantially from night to night, which is why fans follow multi-night runs rather than single shows. The band has toured almost continuously outside two extended hiatuses.",
+        "agency": null,
+        "members": "4-piece",
+        "debut": "1983"
       }
     },
     "ja": {
@@ -1751,6 +1787,66 @@
         "agency": null,
         "members": "バンド",
         "debut": "1985"
+      },
+      "Awich": {
+        "text": "Awichは沖縄県那覇市出身のラッパー。10代からラップを始め、渡米を経て帰国後の2017年にヒップホップ・クルーYENTOWNに加入し本格的に活動を再開した。2020年にユニバーサル ミュージックからメジャーデビューし、日本語ラップの女性アーティストとして国内外で高い評価を得ている。",
+        "agency": "YENTOWN",
+        "members": "ソロ",
+        "debut": "2020 (メジャーデビュー)"
+      },
+      "Mega Shinnosuke": {
+        "text": "Mega Shinnosukeは東京都出身・福岡県育ちのシンガーソングライター。作詞・作曲・編曲に加えアートワークや映像制作まで自ら手がけるセルフプロデュース型のクリエイターで、宅録的な質感とポップな旋律を併せ持つ楽曲で知られる。2024年に発表した「愛とU」がSNSを起点に大きく広がった。",
+        "agency": "A-Sketch",
+        "members": "ソロ",
+        "debut": null
+      },
+      "Nijiz": {
+        "text": "Nijiz（ニジーズ）は千葉雄喜と高岩遼による2人組ユニット。高岩が営んでいたミュージック・バーで出会った同い年の二人が、その場での即興ブルース・セッションをきっかけに結成した。千葉がヴォーカル、高岩がピアノを担当し、ブルースを土台にした即興性の高い演奏が特徴で、2025年9月に配信アルバム『インディゴブルー』を発表した。",
+        "agency": null,
+        "members": "2人組",
+        "debut": "2025"
+      },
+      "WINNER": {
+        "text": "WINNERは韓国のYGエンターテインメント所属の4人組グループ。2013年のサバイバル番組『WIN: Who is Next』を経て、2014年8月にアルバム『2014 S/S』でデビューした。カン・スンユン、キム・ジヌ、ソン・ミノ、イ・スンフンの4人がメンバーで、自作曲を軸にした叙情的なポップ・サウンドを持ち味とする。",
+        "agency": "YGエンターテインメント",
+        "members": "4人組",
+        "debut": "2014.08.12"
+      },
+      "aiko": {
+        "text": "aikoは大阪府吹田市出身のシンガーソングライター。1998年7月にシングル「あした」でメジャーデビューし、恋愛の機微を細やかに描く歌詞と独特の転調を含むメロディで長く支持されてきた。ホール規模の全国ツアー「Love Like Pop」を長年続けていることでも知られる。",
+        "agency": "ポニーキャニオン",
+        "members": "ソロ",
+        "debut": "1998.07.17"
+      },
+      "ウィーザー": {
+        "text": "ウィーザー（Weezer）は1992年にロサンゼルスで結成されたアメリカのオルタナティヴ・ロック・バンド。リヴァース・クオモを中心に、1994年のデビュー作『Weezer』（通称ブルー・アルバム）と1996年の『Pinkerton』で90年代オルタナティヴの重要バンドとなった。パワーポップ的な旋律とギター・リフを軸にしながら、作品ごとに大きく作風を変えることでも知られる。",
+        "agency": null,
+        "members": "4人組",
+        "debut": "1994"
+      },
+      "チェ・ユリ": {
+        "text": "チェ・ユリ（최유리）は韓国のシンガーソングライター。2018年の第29回ユ・ジェハ音楽コンクールで自作曲「푸념」が大賞を受賞し、2020年2月にミニアルバム『동그라미』でデビューした。ドラマ『海街チャチャチャ』のOST「바람」や2022年のシングル「숲」が多くのアーティストにカバーされ、静かな歌声と余白のあるアレンジで知られる。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": "2020.02.24"
+      },
+      "大野和士": {
+        "text": "大野和士は1960年生まれの日本の指揮者。1987年のトスカニーニ国際指揮者コンクール優勝を機に国際的なキャリアを築き、ザグレブ・フィル、バーデン州立歌劇場、ベルギー王立モネ劇場、リヨン国立歌劇場などで要職を歴任した。現在は新国立劇場オペラ芸術監督および東京都交響楽団の音楽監督を務め、オペラと管弦楽の双方で活動している。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": null
+      },
+      "紫": {
+        "text": "紫（MURASAKI）は1970年に沖縄で結成されたハード・ロック・バンド。ジョージ紫を中心に、米軍基地のクラブを主戦場としながら演奏力を磨き、1976年にアルバム『MURASAKI』でメジャーデビューした。ディープ・パープルの影響を感じさせる重厚なサウンドで沖縄ロックを全国に知らしめた存在として、現在も活動を続けている。",
+        "agency": null,
+        "members": "バンド",
+        "debut": "1976"
+      },
+      "高岩遼": {
+        "text": "高岩遼は1990年生まれのヴォーカリスト。ヒップホップ・バンドSANABAGUN.とロックンロール・バンドTHE THROTTLEのフロントマンとして知られ、ジャズ・ヴォーカリストとしての下地を持つ。2018年10月にソロ・アルバム『10』を発表してソロでもメジャーデビューし、歌謡曲からジャズ、ロックまでを横断する芸風で活動している。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": "2018.10.17 (ソロ)"
       }
     }
   }
