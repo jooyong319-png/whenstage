@@ -1,3 +1,28 @@
+## [2026-08-11 09:25] [EN 리서처]
+리서치 완료 (영어권/글로벌 시장 공연)
+- 콘서트/투어 8→6, 발매 2→1, 페스티벌 3→2, 팬미팅 0→0 (후보→통과)
+- 뉴스 인계 처리 5건 중 3건 등재 (leads.en.jsonl 58건 중 concerts.en.json 미등재 5건만 재검증 — Jorja Smith 북미 투어·The Avalanches 'No Bad Memories'·Outside Lands 2026 통과 / Foo Fighters 남미 투어·Purple Daisies 탈락)
+- 신규 13개(예정 7 + 백필 6) / 갱신 0개 (삭제 없음·전량 보존)
+- 과거 백필 6개 → **공연장 색인전환 6개**(Ryman Auditorium 1→2 / Tacoma Dome 1→2 / The Wiltern 1→2 / YouTube Theater 1→2 / Quarry Amphitheater 1→2 / Golden Gate Park 0→2) / 기존 공연장 보강 0개
+  · 예정 공연 쪽에서도 Kings Theatre(Brooklyn) 1→2 색인전환 1개 추가 — 이번 사이클 총 색인전환 7개
+  · 1건짜리 공연장 11개 → 7개로 감소(신규 1건짜리 Orpheum Theatre LA·Allstate Arena Rosemont 2개는 예정 공연 등재분)
+  · 남은 1건짜리 공연장 7개: Chattanooga TN, Kursaal Donostia, Portland OR, Santa Monica Beach, The Regency Live(Springfield MO), Orpheum Theatre(LA), Allstate Arena(Rosemont IL)
+- 티켓팅 진행중 +5 (Fuerza Regida 선예매 8/11 10:00 MDT·일반 8/14 10:00 MDT, Backstreet Boys 선예매 8/18 10:00 PDT·일반 8/21 10:00 PDT, Jorja Smith 브루클린·LA 일반 판매중, Garth Brooks 로즈몬트 일반 판매중 / 해제 0 — 기존 true 항목 중 종료·공연완료 건 없음)
+- description 보강 0개 (신규 13건 모두 영어 72~81단어로 등재)
+- image_url: 신규 13건 전부 null — Ticketmaster/AXS는 403 차단, 위키미디어 커먼즈에서 정사각 적합 이미지를 확정하지 못해 억지로 채우지 않음(다음 사이클 보강 대상)
+- 총 등록 139개
+
+[검증 탈락]
+- Foo Fighters: Take Cover Tour 남미 2027(몬테비데오·부에노스아이레스): 영어권/서구 시장 개최가 아니라 남미 단독 스탑이라 EN 대상 밖으로 판단해 보류
+- Purple Daisies (Glenn Hughes & The Dead Daisies) 2026-10-02: 취소 건인데 공연장·원래 일정이 리드에도 "미확인"이고 독립 출처 2개로 장소를 확정하지 못함 — 기존 등재분이 없어 [Cancelled] 보존 대상도 아니므로 미등재
+- Ocean Way Festival 2026 (Goldenvoice): 일정·장소 모두 미확정, 시기 placeholder 근거도 부족
+- Yours Always Music Festival 2026 (Salt Lake City): 취소 확인. 기존 등재분이 없어 [Cancelled] 보존 대상 아님 — 미등재
+- Jorja Smith 나머지 3개 도시(San Francisco Castro Theatre·Toronto Massey Hall·Chicago Riviera Theatre): 날짜는 확정됐으나 모두 신규 1건짜리 공연장이 되어 색인상 순손실 — 다음 사이클에 같은 공연장의 다른 공연과 묶어 등재 예정
+- Jethro Tull 'Curious Ruminant' 2027 연장분(8/10 발표): 신규 17개 스탑이 대부분 유럽 대륙(슬로바키아·헝가리·스페인 등)이고 영어권 도시·공연장이 개별 출처로 확정되지 않아 이번 사이클 보류
+
+[KO/JA 리서처 요청]
+- 없음 (이번 사이클 크로스 로케일 등재 건 없음)
+
 ## [2026-08-10 14:30] [KO 뉴스]
 뉴스 작성 완료 (한국 국내 공연 뉴스)
 - 신규 기사 3건: 빅뱅 데뷔 20주년 신곡 'BiiiG' 8/19 발매·21일 고양 월드투어 개막, 에반 미니 1집 'DEATH OF ME' 9/7 발매·같은 날 경희대 평화의전당 데뷔 쇼케이스, 은가은 첫 정규앨범 '은가은의 전국투어' 8/24 발매
