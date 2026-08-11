@@ -1,3 +1,11 @@
+## [2026-08-11 14:30] [EN 뉴스]
+뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
+- 신규 기사 5건: Backstreet Boys Add Three New Year's Shows at Sphere / Fuerza Regida Add 10 Fall Dates, On Sale August 14 / Garth Brooks Books Four Chicago Shows, Tickets On Sale Now / Charli xcx Opens $25 Angel Ticket Requests Through August 12 / Iceage Plot 10-Date North American Tour for Spring 2027
+- 콘서트 링크 연결 4건(Backstreet Boys NYE·Fuerza Regida Red Rocks·Garth Brooks Rosemont·Charli xcx Philadelphia) / 링크 없음 1건(Iceage — concerts.en.json 미등재)
+- 전건 2026-08-10 발표, 출처 Consequence. 직전 EN 기사가 08-06자여서 08-07~08-09 공백 구간도 훑었으나 48시간 기준 밖이라 미작성
+- 스킵: Outside Lands 포토갤러리·The Strokes×Charli xcx 게스트 출연·MCR 투어 개막 셋리스트(사후 리뷰성, 대상 아님) / Josh Homme 벌금·Brad Pitt·Bruce Dickinson 인터뷰(가십·공연 무관) / Stella Lefty 매진 투어(08-07자로 48시간 초과)
+- leads.en.jsonl 5건 인계: Iceage 북미 2027 / Iceage 유럽·UK / Backstreet Boys 뒤셀도르프 레지던시 10회 / Fuerza Regida 가을 레그 나머지 9개 도시 / Garth Brooks 인디애나폴리스 4회 (모두 concerts.en.json 미등재분)
+
 ## [2026-08-11 09:25] [EN 리서처]
 리서치 완료 (영어권/글로벌 시장 공연)
 - 콘서트/투어 8→6, 발매 2→1, 페스티벌 3→2, 팬미팅 0→0 (후보→통과)
