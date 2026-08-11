@@ -3475,6 +3475,409 @@
       "general_sale": false,
       "last_updated": "2026-08-07",
       "last_researched_by": "en-researcher"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": null,
+      "presale": false,
+      "general_sale": true,
+      "last_updated": "2026-08-11",
+      "last_researched_by": "en-researcher",
+      "id": "en-jorja-smith-what-are-the-odds-brooklyn-20261121",
+      "name": "Jorja Smith: What Are The Odds North American Tour - Brooklyn",
+      "release_date": "2026-11-21",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Kings Theatre, Brooklyn, NY"
+      ],
+      "developer": "Jorja Smith",
+      "description": "Jorja Smith plays Kings Theatre in Brooklyn on November 21, 2026, the fourth of five North American theater dates the English singer announced in early August. The short run supports What Are The Odds, her album due August 21 via FAMM, a record largely produced by P2J that leans into UK garage, grime, two-step and house rather than the soul balladry of her earlier work. Tickets went on general sale August 7.",
+      "genres": [
+        "R&B",
+        "Soul",
+        "Concert"
+      ],
+      "source_url": "https://news.pollstar.com/2026/08/07/jorja-smith-announces-north-american-fall-run/"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": null,
+      "presale": false,
+      "general_sale": true,
+      "last_updated": "2026-08-11",
+      "last_researched_by": "en-researcher",
+      "id": "en-jorja-smith-what-are-the-odds-los-angeles-20261114",
+      "name": "Jorja Smith: What Are The Odds North American Tour - Los Angeles (Opening Night)",
+      "release_date": "2026-11-14",
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Orpheum Theatre, Los Angeles, CA"
+      ],
+      "developer": "Jorja Smith",
+      "description": "Jorja Smith opens her five-date North American run at the Orpheum Theatre in Los Angeles on November 14, 2026, ahead of shows in San Francisco, Toronto, Brooklyn and Chicago. The dates cap a heavy touring year that included three nights supporting Harry Styles in Mexico City and festival slots across Europe and South America, and they follow the August 21 release of her album What Are The Odds on FAMM. General sale opened August 7 through Ticketmaster and AXS.",
+      "genres": [
+        "R&B",
+        "Soul",
+        "Concert"
+      ],
+      "source_url": "https://news.pollstar.com/2026/08/07/jorja-smith-announces-north-american-fall-run/"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": null,
+      "presale": false,
+      "general_sale": false,
+      "last_updated": "2026-08-11",
+      "last_researched_by": "en-researcher",
+      "id": "en-the-avalanches-no-bad-memories-20261016",
+      "name": "The Avalanches - No Bad Memories",
+      "release_date": "2026-10-16",
+      "timezone": "Australia/Melbourne",
+      "category": "music_release",
+      "platforms": [
+        "Streaming",
+        "Digital",
+        "CD",
+        "Vinyl"
+      ],
+      "developer": "The Avalanches",
+      "description": "The Avalanches release No Bad Memories on October 16, 2026, their fourth studio album and the first since 2020's We Will Always Love You. The Melbourne duo announced the record in early August alongside the single 'Can't Get Over Losing You,' featuring Louisiana producer and multi-instrumentalist Portraits of Tracy. Three earlier tracks from the album drew on collaborations with Karen O, Jamie xx, Nikki Nair, Jessy Lanza and Prentiss. Vinyl and CD editions are on preorder through the band's own store.",
+      "genres": [
+        "Electronic",
+        "Plunderphonics",
+        "Album"
+      ],
+      "source_url": "https://www.billboard.com/music/music-news/the-avalances-new-album-no-bad-memories-october-1236310978/"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "Live Nation",
+      "image_url": null,
+      "presale": true,
+      "general_sale": true,
+      "last_updated": "2026-08-11",
+      "last_researched_by": "en-researcher",
+      "id": "en-fuerza-regida-this-is-our-dream-morrison-20261102",
+      "name": "Fuerza Regida: This Is Our Dream Tour - Red Rocks (Finale)",
+      "release_date": "2026-11-02",
+      "timezone": "America/Denver",
+      "category": "concert_tour",
+      "platforms": [
+        "Red Rocks Amphitheatre, Morrison, CO"
+      ],
+      "developer": "Fuerza Regida",
+      "description": "Fuerza Regida close the second leg of their This Is Our Dream Tour at Red Rocks Amphitheatre in Morrison, Colorado on November 2, 2026. The ten-date amphitheater and arena run opens October 3 in Tinley Park, Illinois and passes through Charlotte, Atlanta, Birmingham, Albuquerque, Wheatland, Bakersfield, Fresno and West Valley City. The Musica Mexicana group announced the leg on August 10, following a sold-out stadium run earlier in the year that took in Dodger Stadium and Citi Field.",
+      "genres": [
+        "Regional Mexican",
+        "Latin",
+        "Concert"
+      ],
+      "source_url": "https://consequence.net/2026/08/fuerza-regida-2026-us-tour-dates/",
+      "presale_datetime": "2026-08-11T10:00:00-06:00",
+      "general_sale_datetime": "2026-08-14T10:00:00-06:00",
+      "general_sale_url": "https://www.ticketmaster.com/fuerza-regida-tickets/artist/2499958"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": null,
+      "presale": true,
+      "general_sale": true,
+      "last_updated": "2026-08-11",
+      "last_researched_by": "en-researcher",
+      "id": "en-backstreet-boys-into-the-millennium-nye-las-vegas-20261231",
+      "name": "Backstreet Boys: Into The Millennium - New Year's Eve at Sphere",
+      "release_date": "2026-12-31",
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Sphere, Las Vegas, NV"
+      ],
+      "developer": "Backstreet Boys",
+      "description": "Backstreet Boys see in 2027 with a New Year's Eve show at Sphere in Las Vegas on December 31, 2026, followed by performances on January 1 and 2. The three dates extend the group's Into The Millennium residency, which opened in July 2025 and has drawn more than 750,000 people across 47 sold-out nights. The show is built around the 1999 album Millennium plus a rotating selection of hits. Fan club presale begins August 18 and general sale August 21.",
+      "genres": [
+        "Pop",
+        "Residency",
+        "Concert"
+      ],
+      "source_url": "https://www.jambase.com/article/backstreet-boys-new-years-eve-2026-sphere-las-vegas",
+      "presale_datetime": "2026-08-18T10:00:00-07:00",
+      "general_sale_datetime": "2026-08-21T10:00:00-07:00",
+      "general_sale_url": "https://www.ticketmaster.com/backstreet-boys-tickets/artist/781254"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": null,
+      "presale": false,
+      "general_sale": true,
+      "last_updated": "2026-08-11",
+      "last_researched_by": "en-researcher",
+      "id": "en-garth-brooks-blame-it-all-on-my-roots-rosemont-20260911",
+      "name": "Garth Brooks: Blame It All On My Roots Tour - Chicago (Rosemont)",
+      "release_date": "2026-09-11",
+      "timezone": "America/Chicago",
+      "category": "concert_tour",
+      "platforms": [
+        "Allstate Arena, Rosemont, IL"
+      ],
+      "developer": "Garth Brooks",
+      "description": "Garth Brooks brings the Blame It All On My Roots Tour to Allstate Arena in suburban Rosemont on September 11, 2026, the first of two consecutive Chicago-area nights. The arena run revives the rotating drum pod staging Brooks used through the 1990s, and he has said the 2026 shows are being recorded for a live album in the vein of 1998's Double Live. Tickets went on sale August 7 at a single flat price for every seat in the building.",
+      "genres": [
+        "Country",
+        "Concert"
+      ],
+      "source_url": "https://www.nbcchicago.com/news/local/garth-brooks-bringing-blame-it-all-on-my-roots-tour-to-chicago-area/3970397/"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "Another Planet Entertainment",
+      "image_url": null,
+      "presale": false,
+      "general_sale": false,
+      "last_updated": "2026-08-11",
+      "last_researched_by": "en-researcher",
+      "id": "en-outside-lands-2026-20260807",
+      "name": "Outside Lands 2026",
+      "release_date": "2026-08-07",
+      "timezone": "America/Los_Angeles",
+      "category": "festival",
+      "platforms": [
+        "Golden Gate Park, San Francisco, CA"
+      ],
+      "developer": null,
+      "description": "Outside Lands returned to Golden Gate Park for three days from August 7 to 9, 2026, with Charli xcx, The Strokes and Rufus Du Sol closing the main stage on successive nights. The sold-out edition spread more than seventy acts across seven stages, among them The xx, Baby Keem, Turnstile, Death Cab for Cutie, Clipse, Wet Leg, GloRilla, Lucy Dacus, Geese, Djo, Labrinth, Ethel Cain and Tinashe. The Strokes brought out Charli xcx during their Saturday headline set.",
+      "genres": [
+        "Festival",
+        "Rock",
+        "Pop"
+      ],
+      "source_url": "https://www.brooklynvegan.com/outside-lands-2026-lineup-charli-xcx-the-strokes-turnstile-the-xx-geese-ethel-cain-death-cab-more/",
+      "festival_days": [
+        {
+          "date": "2026-08-07",
+          "lineup": [
+            "Charli xcx",
+            "The xx",
+            "Ethel Cain",
+            "Wet Leg"
+          ]
+        },
+        {
+          "date": "2026-08-08",
+          "lineup": [
+            "The Strokes",
+            "Turnstile",
+            "Geese",
+            "Lucy Dacus"
+          ]
+        },
+        {
+          "date": "2026-08-09",
+          "lineup": [
+            "Rufus Du Sol",
+            "Baby Keem",
+            "Djo",
+            "Death Cab for Cutie"
+          ]
+        }
+      ]
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "Another Planet Entertainment",
+      "image_url": null,
+      "presale": false,
+      "general_sale": false,
+      "last_updated": "2026-08-11",
+      "last_researched_by": "en-researcher",
+      "id": "en-outside-lands-2025-20250808",
+      "name": "Outside Lands 2025",
+      "release_date": "2025-08-08",
+      "timezone": "America/Los_Angeles",
+      "category": "festival",
+      "platforms": [
+        "Golden Gate Park, San Francisco, CA"
+      ],
+      "developer": null,
+      "description": "The 2025 edition of Outside Lands ran August 8 to 10 in San Francisco's Golden Gate Park. Doja Cat headlined the opening Friday, Tyler, the Creator took Saturday and Hozier closed the festival on Sunday. The bill also carried John Summit, Vampire Weekend, Gracie Abrams, Doechii, Glass Animals, Jamie xx, Anderson .Paak & The Free Nationals, Bleachers, Jorja Smith, Thundercat, Marina and Ludacris. Three-day general admission passes were priced at 499 dollars with fees included.",
+      "genres": [
+        "Festival",
+        "Rock",
+        "Pop"
+      ],
+      "source_url": "https://www.billboard.com/music/music-news/outside-lands-lineup-2025-1235931079/",
+      "festival_days": [
+        {
+          "date": "2025-08-08",
+          "lineup": [
+            "Doja Cat",
+            "Vampire Weekend",
+            "Glass Animals",
+            "Jorja Smith"
+          ]
+        },
+        {
+          "date": "2025-08-09",
+          "lineup": [
+            "Tyler, the Creator",
+            "Doechii",
+            "Jamie xx",
+            "Thundercat"
+          ]
+        },
+        {
+          "date": "2025-08-10",
+          "lineup": [
+            "Hozier",
+            "Gracie Abrams",
+            "John Summit",
+            "Bleachers"
+          ]
+        }
+      ]
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": null,
+      "presale": false,
+      "general_sale": false,
+      "last_updated": "2026-08-11",
+      "last_researched_by": "en-researcher",
+      "id": "en-jason-isbell-400-unit-ryman-residency-20251016",
+      "name": "Jason Isbell & The 400 Unit: 10th Anniversary Ryman Residency (Opening Night)",
+      "release_date": "2025-10-16",
+      "timezone": "America/Chicago",
+      "category": "concert_tour",
+      "platforms": [
+        "Ryman Auditorium, Nashville, TN"
+      ],
+      "developer": "Jason Isbell & The 400 Unit",
+      "description": "Jason Isbell & The 400 Unit opened their tenth-anniversary Ryman Auditorium residency in Nashville on October 16, 2025. The run covered six nights across October 16, 17, 18, 23, 24 and 25, with a different set each evening. Rather than book conventional support, the band handed the opening slots to student and community music programs from around the Southeast, beginning with the Nuci's Space Camp Amped Women in STEM ensemble on the first night.",
+      "genres": [
+        "Americana",
+        "Country Rock",
+        "Concert"
+      ],
+      "source_url": "https://www.rollingstone.com/music/music-country/jason-isbell-2025-ryman-residency-dates-1235366544/"
+    },
+    {
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": null,
+      "presale": false,
+      "general_sale": false,
+      "last_updated": "2026-08-11",
+      "last_researched_by": "en-researcher",
+      "id": "en-sleep-token-even-in-arcadia-tacoma-20251007",
+      "name": "Sleep Token: Even In Arcadia Tour - Tacoma",
+      "release_date": "2025-10-07",
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Tacoma Dome, Tacoma, WA"
+      ],
+      "developer": "Sleep Token, Thornhill",
+      "description": "Sleep Token played the Tacoma Dome on October 7, 2025 as part of the Even In Arcadia Tour, the masked British band's first headline arena run in North America. Thornhill opened the show, which started at 8 p.m. and sold out along with every other date on the trek. The tour supported the group's fourth album Even In Arcadia, released in May 2025, and ran from September 16 in Duluth, Georgia through October 11 in Los Angeles.",
+      "genres": [
+        "Alternative Metal",
+        "Progressive Metal",
+        "Concert"
+      ],
+      "source_url": "https://www.tacomadome.org/events/detail/sleep-token-2025"
+    },
+    {
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": null,
+      "presale": false,
+      "general_sale": false,
+      "last_updated": "2026-08-11",
+      "last_researched_by": "en-researcher",
+      "id": "en-steven-wilson-the-overview-los-angeles-20250910",
+      "name": "Steven Wilson: The Overview Tour - Los Angeles",
+      "release_date": "2025-09-10",
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "The Wiltern, Los Angeles, CA"
+      ],
+      "developer": "Steven Wilson",
+      "description": "Steven Wilson brought The Overview Tour to The Wiltern in Los Angeles on September 10, 2025, the second night of a North American leg that had opened the previous evening at The Masonic in San Francisco. It was the English musician's first full-band solo headline run in the United States and Canada in more than seven years. The audio-visual production was built around The Overview, a space-themed album of two long-form pieces issued by Fiction Records in March 2025.",
+      "genres": [
+        "Progressive Rock",
+        "Concert"
+      ],
+      "source_url": "https://blabbermouth.net/news/steven-wilson-announces-north-american-leg-of-the-overview-tour"
+    },
+    {
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": null,
+      "presale": false,
+      "general_sale": false,
+      "last_updated": "2026-08-11",
+      "last_researched_by": "en-researcher",
+      "id": "en-kenshi-yonezu-junk-world-tour-inglewood-20250406",
+      "name": "Kenshi Yonezu 2025 World Tour / JUNK - Los Angeles",
+      "release_date": "2025-04-06",
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "YouTube Theater, Inglewood, CA"
+      ],
+      "developer": "Kenshi Yonezu",
+      "description": "Kenshi Yonezu performed at YouTube Theater in Inglewood on April 6, 2025, one of the American stops on JUNK, the Japanese singer-songwriter's first global tour. The roughly two-hour set drew heavily on the anime and film songs that carried his work outside Japan, among them 'KICK BACK' from Chainsaw Man, 'Peace Sign' from My Hero Academia and 'Spinning Globe' from The Boy and the Heron. The tour had already sold out arenas in Shanghai, Taipei, Seoul, London and Paris.",
+      "genres": [
+        "J-Pop",
+        "Rock",
+        "Concert"
+      ],
+      "source_url": "https://www.livenation.com/event/vvG1IZb8TAmemj/kenshi-yonezu-2025-world-tour-junk"
+    },
+    {
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "publisher": "Blue Note Entertainment Group",
+      "image_url": null,
+      "presale": false,
+      "general_sale": false,
+      "last_updated": "2026-08-11",
+      "last_researched_by": "en-researcher",
+      "id": "en-primus-onward-upward-santa-cruz-20250803",
+      "name": "Primus: Onward & Upward Summer Tour - Santa Cruz",
+      "release_date": "2025-08-03",
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Quarry Amphitheater, Santa Cruz, CA"
+      ],
+      "developer": "Primus",
+      "description": "Primus played the Quarry Amphitheater on the UC Santa Cruz campus on August 3, 2025 during the Onward & Upward Summer Tour. The date put the Bay Area trio back near its home turf in a 2,600-capacity former limestone quarry that reopened as a concert venue after a 2017 renovation and is often billed as the Red Rocks of the Redwoods. Blue Note Entertainment Group promoted the show as part of its programming at the amphitheater.",
+      "genres": [
+        "Alternative Rock",
+        "Funk Metal",
+        "Concert"
+      ],
+      "source_url": "https://www.bluenotejazz.com/quarry-amphitheater/tm-event/primus-onward-upward-summer-tour-2025/"
     }
   ]
 }
