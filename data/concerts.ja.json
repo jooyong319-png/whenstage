@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-08",
+  "last_updated": "2026-08-12",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -2817,6 +2817,321 @@
       "image_url": null,
       "source_url": "https://barks.jp/news/1036030",
       "last_updated": "2026-08-08",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-number-i-no3-sapporo-20261024",
+      "name": "Number_i LIVE TOUR No.III（札幌ドーム公演）",
+      "release_date": "2026-10-24",
+      "release_time": "16:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "大和ハウス プレミストドーム（札幌ドーム）"
+      ],
+      "developer": "Number_i",
+      "publisher": null,
+      "description": "Number_iが初めて挑むワールド・ツアーの日本パート。8月6日に全公演の日程が解禁され、10月24日の北海道・大和ハウス プレミストドーム（札幌ドーム）を皮切りに、12月2日の京セラドーム大阪、12月9日・10日の東京ドーム、2027年1月のバンテリンドーム ナゴヤ3公演、みずほPayPayドーム福岡2公演と、全国5都市・5大ドームで計9公演が組まれた。グループにとって初のドーム公演となる。札幌公演は開場14:00・開演16:00。ファンクラブ先行受付は8月10日16時から8月16日23時59分まで実施された。",
+      "genres": [
+        "J-POP",
+        "ヒップホップ",
+        "ドームツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://realsound.jp/2026/08/post-2484181.html",
+      "last_updated": "2026-08-12",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "presale_datetime": "2026-08-10T16:00:00+09:00",
+      "presale_end_datetime": "2026-08-16T23:59:00+09:00",
+      "presale_url": "https://tobe-official.jp/artists/number_i/concert/364"
+    },
+    {
+      "id": "ja-jon-spencer-ss-extra-20260818",
+      "name": "JON SPENCER 単独来日公演＜SUMMER SONIC EXTRA＞",
+      "release_date": "2026-08-18",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "SHIBUYA CLUB QUATTRO（東京・渋谷）"
+      ],
+      "developer": "Jon Spencer（ジョン・スペンサー）",
+      "publisher": "CREATIVEMAN PRODUCTIONS",
+      "description": "ジョン・スペンサー・ブルース・エクスプロージョンのフロントマンとして知られるジョン・スペンサーが、サマーソニック出演に合わせた〈SUMMER SONIC EXTRA〉として単独公演を行う。8月18日の渋谷CLUB QUATTROは開場18:30・開演19:30、オールスタンディング前売8,800円（別途ドリンク代600円）。オープニング・アクトにはテレビ大陸音頭が決まった。前日17日には名古屋CLUB QUATTROでKING BROTHERSを迎えた公演も組まれている。一般発売は7月11日10時に始まっている。",
+      "genres": [
+        "ロック",
+        "ガレージロック",
+        "来日"
+      ],
+      "image_url": null,
+      "source_url": "https://www.club-quattro.com/shibuya/schedule/detail/?cd=018506",
+      "last_updated": "2026-08-12",
+      "last_researched_by": "ja-researcher",
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-11T10:00:00+09:00",
+      "general_sale_url": "https://l-tike.com/concert/mevent/?mid=396724"
+    },
+    {
+      "id": "ja-suzuki-masayuki-martini-tokyo-20260922",
+      "name": "masayuki suzuki taste of martini tour 2026 Step123 season2「70 / 40th anniversary」（東京国際フォーラム公演）",
+      "release_date": "2026-09-22",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京国際フォーラム（ホールA）"
+      ],
+      "developer": "鈴木雅之",
+      "publisher": "SOGO TOKYO",
+      "description": "2026年に70歳＝古希を迎え、あわせて1986年のソロ・デビューから40周年となる鈴木雅之のダブル・アニバーサリー・ツアー。9月22日はその誕生日当日にあたり、東京国際フォーラム ホールAで開場17:00・開演18:00で行われる。ゲストには実姉の鈴木聖美が立ち、この東京公演はWOWOWが独占生中継する。中継では3月のアルバム『MARTINI DUET DELUXE』で共演した伊原六花、篠原涼子、渋谷凪咲、鈴木愛理、野宮真貴も登場する。全席指定11,000円で、チケットはすでに完売している。",
+      "genres": [
+        "J-POP",
+        "ソウル"
+      ],
+      "image_url": null,
+      "source_url": "https://sogotokyo.com/live_information/detail/2654",
+      "last_updated": "2026-08-12",
+      "last_researched_by": "ja-researcher",
+      "general_sale": false
+    },
+    {
+      "id": "ja-kohmi-expo-2026-20260903",
+      "name": "Kohmi EXPO 2026",
+      "release_date": "2026-09-03",
+      "release_time": "18:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "festival",
+      "platforms": [
+        "LINE CUBE SHIBUYA"
+      ],
+      "developer": "広瀬香美",
+      "publisher": null,
+      "description": "広瀬香美が完全プロデュースするジャンルレスな音楽祭で、9月3日にLINE CUBE SHIBUYAで一夜かぎり開かれる。開場17:30・開演18:30。出演は広瀬香美のほか、Juice=Juice、ハラミちゃん、WHITE JAM、韓国のポール・キム、REIKOという編成で、アイドル、ピアニスト、ヒップホップ、K-POPと出自の異なる顔ぶれが並ぶ。チケットは全席指定で、VIPシート50,000円、SSシート25,000円、Sシート10,000円、Aシート7,000円のほか学生向けの席種も用意された。",
+      "genres": [
+        "フェスティバル",
+        "複数アーティスト",
+        "J-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://hirose-kohmi.com/news/kohmiexpo2026_artistslineup",
+      "last_updated": "2026-08-12",
+      "last_researched_by": "ja-researcher",
+      "festival_days": [
+        {
+          "date": "2026-09-03",
+          "lineup": [
+            "広瀬香美",
+            "Juice=Juice",
+            "ハラミちゃん",
+            "WHITE JAM",
+            "ポール・キム",
+            "REIKO"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-hinatazaka46-hinata-fes-2026-20260905",
+      "name": "日向坂46「ひなたフェス2026」",
+      "release_date": "2026-09-05",
+      "release_time": "16:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "ひなた宮崎県総合運動公園（ひなたサンマリンスタジアム宮崎）"
+      ],
+      "developer": "日向坂46",
+      "publisher": null,
+      "description": "日向坂46が宮崎県で開く2回目の大型野外イベントで、9月5日・6日の2日間にわたって行われる。会場全体はひなた宮崎県総合運動公園、ライブはその中のひなたサンマリンスタジアム宮崎。公園への入園は無料で、ライブ観覧のみチケットが必要になる。公園は10:00開園・19:30閉園、ライブは開場14:30・開演16:30。チケットは2日通し指定22,000円、各日指定12,000円のほか、駐車場セット券やJTBが扱う宿泊・交通込みのツアープランも設定された。",
+      "genres": [
+        "アイドル",
+        "J-POP",
+        "野外イベント"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Hinatazaka46_members_at_Yokohama_Stadium.jpg/330px-Hinatazaka46_members_at_Yokohama_Stadium.jpg",
+      "source_url": "https://www.hinatazaka46.com/s/official/news/detail/E00800?ima=0000",
+      "last_updated": "2026-08-12",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-hinatazaka46-ichaicha-mushi-20260930",
+      "name": "日向坂46『イチャイチャ虫』",
+      "release_date": "2026-09-30",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [
+        "CD／配信"
+      ],
+      "developer": "日向坂46",
+      "publisher": null,
+      "description": "日向坂46の18枚目のシングルで、2026年に入って3枚目のリリースとなる。発売は9月30日。表題曲の選抜メンバーを決めるフォーメーション発表は8月20日の生配信で行われ、それに先立って8月9日放送の『日向坂で会いましょう』でも情報が明かされた。発売に合わせて「forTUNE meets オンラインミート＆グリート」の開催も決まっている。同じ9月にはグループが宮崎で開く「ひなたフェス2026」も控えており、秋に向けた活動の軸となる作品となる。",
+      "genres": [
+        "アイドル",
+        "J-POP"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Hinatazaka46_members_at_Yokohama_Stadium.jpg/330px-Hinatazaka46_members_at_Yokohama_Stadium.jpg",
+      "source_url": "https://www.cdjournal.com/news/hinatazaka-46/128707",
+      "last_updated": "2026-08-12",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-tamaki-aska-otoginga-20260916",
+      "name": "玉置浩二 × ASKA「音銀河」",
+      "release_date": "2026-09-16",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [
+        "CD／配信"
+      ],
+      "developer": "玉置浩二 × ASKA",
+      "publisher": null,
+      "description": "同じ時代を歩んできた玉置浩二とASKAによる初のコラボレーション・シングルで、9月16日に発売される。玉置が持ち込んだカセットの音源にASKAが手を加え、やり取りを重ねて仕上げた完全な合作で、十数年のあいだ発表の機会がなかった曲だという。2026年3月にNHK BS『玉置浩二ショー』で初披露され、大きな反響を受けて音源化が決まった。カップリングには新曲「命の宿り」と表題曲のインストゥルメンタルを収録。品番はMHCL-3167、税込2,200円で、初回仕様限定盤はスペシャルスリーブケース仕様となる。",
+      "genres": [
+        "J-POP",
+        "シングル"
+      ],
+      "image_url": null,
+      "source_url": "https://tower.jp/article/feature_item/2026/08/07/0706",
+      "last_updated": "2026-08-12",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-festival-de-frue-2025-20251101",
+      "name": "FESTIVAL de FRUE 2025",
+      "release_date": "2025-11-01",
+      "release_time": "11:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "festival",
+      "platforms": [
+        "つま恋リゾート彩の郷（静岡・掛川）"
+      ],
+      "developer": null,
+      "publisher": "FRUE",
+      "description": "静岡・掛川のつま恋リゾート彩の郷で2025年11月1日・2日に開催された半野外の音楽フェスティバル。屋根に覆われたザ・ホールと、キャンプサイト近くのグラス・ステージの2会場が使われた。初日はウガンダのナキベンベ・エンベール・グループ、GEZAN、Herbert（DJセット）らが、2日目はレス・クレイプールズ・バスタード・ジャズ、Rubel、君島大空の独奏などが登場し、ジャズ、ワールド、エレクトロニックを横断する編成となった。初日は11時開演で深夜まで、2日目は9時開演で20時40分に終演した。",
+      "genres": [
+        "フェスティバル",
+        "ワールド",
+        "ジャズ",
+        "エレクトロニック"
+      ],
+      "image_url": null,
+      "source_url": "https://lmusic.tokyo/news/289700",
+      "last_updated": "2026-08-12",
+      "last_researched_by": "ja-researcher",
+      "festival_days": [
+        {
+          "date": "2025-11-01",
+          "lineup": [
+            "Nakibembe Embaire Group",
+            "GEZAN",
+            "Herbert (DJ set) feat. Momoko",
+            "anaiis & Grupo Cosmo",
+            "Enji",
+            "DOGO",
+            "Solar",
+            "DJ Sotofett",
+            "AKIRAM EN",
+            "E.O.U",
+            "7e",
+            "鏡民"
+          ]
+        },
+        {
+          "date": "2025-11-02",
+          "lineup": [
+            "Les Claypool's Bastard Jazz",
+            "CHO CO PA CO CHO CO QUIN QUIN",
+            "Joana Queiroz & 角銅真実",
+            "君島大空（独奏）",
+            "Rubel",
+            "Powder",
+            "Hugo Capablanca",
+            "MASCARAS",
+            "ffan",
+            "Yamarchy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ja-nntt-la-boheme-20251001",
+      "name": "新国立劇場オペラ『ラ・ボエーム』（2025/2026シーズン開幕公演）",
+      "release_date": "2025-10-01",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "新国立劇場（オペラパレス）"
+      ],
+      "developer": "パオロ・オルミ（指揮）",
+      "publisher": "新国立劇場",
+      "description": "新国立劇場の2025/2026シーズン開幕公演として、プッチーニ『ラ・ボエーム』が上演された。10月1日から11日にかけてオペラパレスで全5回。指揮は1999年に同劇場デビューしたパオロ・オルミ、演出はパリの街を俯瞰する美術で知られる粟國淳が手がけた舞台が再演された。ミミにマリーナ・コスタ＝ジャクソン、ロドルフォにルチアーノ・ガンチ、マルチェッロにマッシモ・カヴァレッティが並び、管弦楽は東京フィルハーモニー交響楽団が務めた。令和7年度文化庁芸術祭のオープニング・オペラにも位置づけられた。",
+      "genres": [
+        "オペラ",
+        "クラシック"
+      ],
+      "image_url": null,
+      "source_url": "https://www.nntt.jac.go.jp/opera/laboheme/",
+      "last_updated": "2026-08-12",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-zilqy-from-zero-to-one-20260711",
+      "name": "Zilqy ワンマンライヴ「From Zero To One」",
+      "release_date": "2026-07-11",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "Veats Shibuya（東京・渋谷）"
+      ],
+      "developer": "Zilqy",
+      "publisher": null,
+      "description": "2025年12月にデビューした4人組ラウドロック・バンドZilqyが、2026年7月11日に東京・Veats Shibuyaで行ったワンマンライヴ。開場17:00・開演18:00、スタンディング6,500円で、初披露となる「Caught in the Web」「CAVEAT」を含む全10曲と、アンコール2曲が演奏された。アンコールではベースのMihoから、1stフル・アルバム『Birth of Riot』を10月7日に発売することと、同名の全国ツアーを10月から回りファイナルをZepp Shinjuku（TOKYO）で迎えることが発表された。",
+      "genres": [
+        "ロック",
+        "ラウドロック",
+        "ワンマンライブ"
+      ],
+      "image_url": null,
+      "source_url": "https://www.billboard-japan.com/d_news/detail/164273/2",
+      "last_updated": "2026-08-12",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-sada-masashi-tour-2026-tokyo-20260610",
+      "name": "さだまさし コンサートツアー2026（東京国際フォーラム公演）",
+      "release_date": "2026-06-10",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京国際フォーラム（ホールA）"
+      ],
+      "developer": "さだまさし",
+      "publisher": null,
+      "description": "ソロ・コンサートの通算回数が4,500回を超えるさだまさしの2026年全国ツアーから、6月10日に東京国際フォーラム ホールAで行われた東京公演。開場17:00・開演18:00で、料金は全席11,000円だった。チケットはファンクラブ「まさしんぐWORLD」先行が2月24日から、一般発売が4月24日から取り扱われ、ローソンチケット、チケットぴあ、イープラスの各プレイガイドで販売された。歌と長いトークを行き来する構成で長年支持を集めてきた、代表的なホール公演のひとつである。",
+      "genres": [
+        "J-POP",
+        "フォーク"
+      ],
+      "image_url": null,
+      "source_url": "https://masasingtown.com/concert/12922/",
+      "last_updated": "2026-08-12",
       "last_researched_by": "ja-researcher"
     }
   ]
