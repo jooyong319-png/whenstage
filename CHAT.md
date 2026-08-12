@@ -1,3 +1,47 @@
+## [2026-08-12 09:45] [JA 리서처]
+리서치 완료 (일본 국내 공연)
+- 콘서트/来日 6→4, 발매 3→2, 페스티벌 2→1, 팬미팅 0→0 (후보→통과)
+- 뉴스 인계 처리 11건 중 7건 등재 (leads.ja.jsonl 52건 중 concerts.ja.json 미등재 11건만 재검증 — Number_i No.III·ジョン・スペンサー·鈴木雅之 東京国際フォーラム·Kohmi EXPO 2026·ひなたフェス2026·日向坂46 18th·玉置浩二×ASKA 통과 / 踊る！ディスコ室町·Finally·Ovall·やまもとはると 탈락)
+- 신규 11개(예정 7 + 백필 4) / 갱신 0개 (삭제 없음·전량 보존)
+- 과거 백필 4개 → **공연장 색인전환 4개**(つま恋リゾート彩の郷 1→2 / 新国立劇場 1→2 / Veats Shibuya 1→2 / 東京国際フォーラム 0→2*) / 기존 공연장 보강 0개
+  · *東京国際フォーラム은 예정 공연(鈴木雅之 9/22)과 백필(さだまさし 6/10)이 합쳐져 한 사이클에 0→2건으로 색인 진입
+  · 예정 공연 쪽에서도 SHIBUYA CLUB QUATTRO 1→2 색인전환 1개 추가(ジョン・スペンサー) — 이번 사이클 총 색인전환 5개
+  · 공연장 색인 대상 39개 → 44개 (전체 공연장 73→76)
+  · 신규 1건짜리 공연장 2개 발생(大和ハウス プレミストドーム / ひなた宮崎県総合運動公園) — 둘 다 예정 공연 등재분이라 시의성 우선으로 판단해 등재
+- 티켓팅 진행중 +2 (Number_i FC선행 8/10 16:00~8/16 23:59, ジョン・スペンサー 일반발매 7/11 10:00 판매중 / 해제 0 — 기존 true 항목 재확인 결과 종료·공연완료 건 없음. 鈴木雅之는 완매 확인돼 general_sale:false로 등재)
+- description 보강 0개 (신규 11건 모두 일본어 223~274자로 등재, 기존 항목 120자 미만 0건)
+- image_url: 日向坂46 2건은 기존 등재분(위키미디어 커먼즈)을 재사용, 나머지 9건은 null — 会場·프로모터 공식 페이지의 og:image가 전부 공연명 워드마크·배너 형태이거나 바이너리 검증이 불가해 억지로 채우지 않음(다음 사이클 보강 대상)
+- 총 등록 122개
+
+신규 등재 상세 — 예정 공연 7건
+- Number_i LIVE TOUR No.III 札幌ドーム公演 (2026-10-24 大和ハウス プレミストドーム, 국내 5대 돔 9공연) — 지난 사이클 「일정 미발표」로 탈락시켰던 건이 8/6 전 일정 해금되어 등재. 출처: Real Sound + Billboard JAPAN/音楽ナタリー + Number_i 공식 X
+- JON SPENCER 単独来日公演＜SUMMER SONIC EXTRA＞ (2026-08-18 SHIBUYA CLUB QUATTRO) — 主催 CREATIVEMAN PRODUCTIONS, 일반발매 7/11 10시. 출처: 渋谷CLUB QUATTRO 공식 공연 페이지 + CDJournal/音楽ナタリー/OTOTOY
+- masayuki suzuki taste of martini tour 2026 東京国際フォーラム公演 (2026-09-22 東京国際フォーラム ホールA) — 古希+솔로 40주년, WOWOW 독점 생중계. 完売 확인. 출처: SOGO TOKYO 공식 공연 페이지 + CDJournal/音楽ナタリー/WOWOW 릴리스
+- Kohmi EXPO 2026 (2026-09-03 LINE CUBE SHIBUYA) — 広瀬香美 완전 프로듀스, 라인업 6팀 festival_days 등재. 출처: 広瀬香美 공식 사이트 + CDJournal/音楽ナタリー
+- 日向坂46「ひなたフェス2026」 (2026-09-05~06 ひなた宮崎県総合運動公園) — 출연이 日向坂46 단독이라 festival이 아닌 concert_tour로 분류. 출처: 日向坂46 공식 공연상세 + TOWER RECORDS/Bezzy
+- 日向坂46『イチャイチャ虫』 (2026-09-30) — 18th 싱글. 출처: 日向坂46 공식 + CDJournal
+- 玉置浩二 × ASKA「音銀河」 (2026-09-16) — 십수 년 묵힌 합작. 출처: TOWER RECORDS + BARKS/音楽ナタリー/OTOTOY
+
+신규 등재 상세 — 과거 백필 4건 (전부 release_date_approx:false / 티켓팅 필드 비움 / 과거 시제 서술)
+- FESTIVAL de FRUE 2025 (2025-11-01~02 つま恋リゾート彩の郷) — 이미 등재된 2026년판과 같은 회장. 양일 라인업 festival_days 등재. 출처: LMusic + shop.frue.jp 공식 티켓 페이지
+- 新国立劇場オペラ『ラ・ボエーム』 (2025-10-01~11 新国立劇場 오페라팔레스, 전 5회) — 2025/2026시즌 개막공연. 출처: 新国立劇場 공식 공연 페이지 + イープラス/enjoytokyo
+- Zilqy ワンマンライヴ「From Zero To One」 (2026-07-11 Veats Shibuya) — 출처: Billboard JAPAN 공식 라이브리포트 + zilqy.com 공식 + BARKS
+- さだまさし コンサートツアー2026 東京公演 (2026-06-10 東京国際フォーラム ホールA) — 출처: さだまさし 공식 사이트 + イープラス 회장 스케줄
+※ 백필 선정은 「이미 등록된 1건짜리(또는 예정 공연과 짝이 되는) 会場」 기준. 全国ツアー의 다른 회차는 이번에도 의도적으로 배제.
+
+[검증 탈락]
+- 踊る！ディスコ室町「すいか」リリース・パーティー: 지난 사이클과 동일 사유 — 京都西院ネガポジ·名古屋stiff slack 모두 신규 1건짜리 공연장이 되고 독립 출처가 CDJournal 1개뿐
+- Finally Live Tour 2026「TAKE to GIVE」: 「2026년 10~12월 東名阪 3주」로만 나오고 개별 공연일·회장 확정 출처 2개를 채우지 못함(지난 사이클 재확인)
+- Ovall「Glimmer Tour 2026」: CDJournal 기사에 일정·회장 기재가 없고 공식 플레이가이드 외 독립 출처 미확보(지난 사이클 재확인)
+- やまもとはると 全国弾き語りツアー: 회장을 공개 모집 중이라 일정·장소 모두 미확정(지난 사이클 재확인)
+- AKASAKI 1st World Tour "ONIGIRI" / L'Arc-en-Ciel「総天然色」: 각각 일본 공연 일정·정식 릴리스일이 여전히 미발표
+- Tommy The Screening Japan Tour / 映画『叛逆のサウンドトラック』トークイベント: 영화 상영 이벤트로 4개 카테고리 어디에도 해당하지 않아 대상 외
+- GREENROOM FESTIVAL '26 (2026-05-23~24): 백필 후보로 검토했으나 공식 회장 표기가 「横浜赤レンガ倉庫」로 기존 등재분 「横浜赤レンガパーク」와 다른 키가 되어 색인 이득이 없다고 판단해 보류(표기를 임의로 맞추지 않음)
+- 玉置浩二 全国ツアー(8/23~ 20도시 30공연) / ASKA 全国ツアー(9/19~ 44도시 52공연): 대형 투어라 등재 가치가 크지만 개별 공연일·회장을 이번 사이클에 확정하지 못함 — 다음 사이클 최우선 후보
+
+[KO/EN 리서처 요청]
+- 없음 (이번 사이클 크로스 로케일 등재 건 없음)
+
 ## [2026-08-11 14:30] [EN 뉴스]
 뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
 - 신규 기사 5건: Backstreet Boys Add Three New Year's Shows at Sphere / Fuerza Regida Add 10 Fall Dates, On Sale August 14 / Garth Brooks Books Four Chicago Shows, Tickets On Sale Now / Charli xcx Opens $25 Angel Ticket Requests Through August 12 / Iceage Plot 10-Date North American Tour for Spring 2027
