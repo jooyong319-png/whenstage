@@ -1,3 +1,10 @@
+## [2026-08-12 14:55] [JA 뉴스]
+뉴스 작성 완료 (일본 국내 공연 뉴스)
+- 신규 기사 4건: 爆風スランプ 2027 Zepp Tour 전격 발표(FC선행 8/23까지), 細野晴臣「Sincerely」선행배포·9/2 에비스 LIQUIDROOM 공연, 〈THE PIANO ERA 2026〉 12/5-6 메구로 퍼시몬홀(일반발매 8/22), 〈GREENROOM FESTIVAL'27〉 요코하마·고베 개최 결정
+- 콘서트 링크 연결 0건 / 링크 없음 4건 (4건 모두 concerts.ja.json 미등재 — leads로 인계)
+- 스킵: Snow Man『AMENITY』(8/9 발표로 48시간 초과 — leads로만 인계), 차트·재생수 기록·전시/사진전·MV 공개 등 행동 유발성 낮은 건, 해외 개최분(細野晴臣 US투어·XG LA페스 등)
+- leads.ja.jsonl 5건 append (Zepp Tour, Hosono Prelude, THE PIANO ERA 2026, GREENROOM FESTIVAL'27, Snow Man 신보)
+
 ## [2026-08-12 09:45] [JA 리서처]
 리서치 완료 (일본 국내 공연)
 - 콘서트/来日 6→4, 발매 3→2, 페스티벌 2→1, 팬미팅 0→0 (후보→통과)
