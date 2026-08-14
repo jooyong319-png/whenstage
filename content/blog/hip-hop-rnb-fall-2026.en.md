@@ -1,0 +1,38 @@
+---
+title: Hip-Hop and R&B Split the Fall in Two: Catalog Nights and First Big Rooms
+description: JAY-Z, ScHoolboy Q and Jodeci spend fall 2026 replaying old records, while EsDeeKid, Jorja Smith and Quadeca use the same months to move up a venue tier.
+date: 2026-08-14
+tags: [thematic, hip-hop, r&b, fall 2026]
+---
+
+Look at the hip-hop and R&B dates filling the calendar between September 2026 and the first week of December and the season sorts itself into two piles almost without help. In one, established acts are touring records they made ten, thirty and thirty-five years ago, selling the anniversary itself as the ticket. In the other, artists with one or two albums to their name are playing the biggest rooms of their careers, usually within weeks of putting a record out. The two groups barely overlap in age, sound or venue size, but they are competing for the same fall weekends — and the contrast says something about how the genre's touring economy works right now.
+
+## The anniversary is the tour
+
+The clearest example is also the largest. [JAY-Z plays SoFi Stadium in Los Angeles on October 23 and 24](/en/concert/en-jay-z-30th-anniversary-los-angeles-20261023), part of a run marking three decades since *Reasonable Doubt*. The framing matters: there is no new album attached, no tour name beyond the anniversary itself. The Los Angeles dates were announced on July 27 alongside stadium shows at Tottenham Hotspur Stadium in London on September 4 and 5 and Stade de France in Paris on September 10, and they follow three hometown nights at Yankee Stadium in July. Announcing a European stadium leg and a Los Angeles stadium leg on the same day, with the on-sale a matter of days later, is a level of confidence very few catalogs support.
+
+A few weeks earlier and several thousand seats smaller, [ScHoolboy Q opens the 10 Years of Blank Face LP Tour at the Tabernacle in Atlanta on October 1](/en/concert/en-schoolboy-q-blank-face-10-years-atlanta-20261001). *Blank Face LP* reached number two on the Billboard 200 and picked up a Best Rap Album Grammy nomination, and the run built around its tenth birthday is a deliberate ten cities — Brooklyn Paramount, Washington DC, two Los Angeles nights, a Las Vegas finale on October 17. That is a tour scaled to the people who actually care about the record rather than to the largest room a name can fill, and it is a very different bet than the stadium version.
+
+Older still: [Jodeci mark the 35th anniversary of *Forever My Lady* with a 36-date US run opening at The Masonic in San Francisco on October 24](/en/concert/en-jodeci-forever-my-lady-35th-san-francisco-20261024). Thirty-six dates is a real tour, not a victory lap — Inglewood, Phoenix, St. Louis, Detroit, Chicago, Houston, New Orleans, closing December 19 in the group's hometown of Charlotte. Nineties R&B has spent a decade proving it can sell theaters on nostalgia alone, and a route this long is the clearest evidence yet.
+
+The nostalgia impulse shows up in a fourth form on the Back To Basics Tour, where Lupe Fiasco and Gym Class Heroes co-headline 19 dates with B.o.B as special guest on most stops, [opening September 10 at Cleveland's Jacobs Pavilion](/en/concert/en-lupe-fiasco-back-to-basics-cleveland-20260910) and running through late October via Pittsburgh, Denver, Minneapolis, Detroit, San Antonio and Boston. The title is doing the work here too. Nobody is pretending this is about new material; it is about a specific late-2000s radio moment, packaged for people who were there.
+
+## The other half: first big rooms
+
+Set against all that catalog, the newer end of the fall calendar looks almost impatient.
+
+[EsDeeKid plays OVO Arena Wembley on December 3](/en/concert/en-esdeekid-council-house-rat-london-20261203), the largest headline show of the Liverpool rapper's career so far, and it is the back end of a genuinely enormous 48-date Council House Rat Tour — 28 North American dates from September, then Europe in November, then UK and Ireland stops in Dublin, Glasgow and two homecoming nights in Liverpool. An artist at this stage booking a Wembley arena show at all is notable; getting there via a month in North America first is the part worth watching.
+
+[Quadeca brings The Life 1 Tour to The Showbox in Seattle on November 6](/en/concert/en-quadeca-life-1-tour-seattle-20261106), one of 23 North American dates behind his fifth album *Life 1*. The run opens October 10 at The Nile Theater in Mesa, Arizona and closes November 10 at The Fonda in his native Los Angeles, with Derby and Oleka opening throughout, and a portion of proceeds goes to the cancer research nonprofit City of Hope. Five albums in and still playing rooms this size is its own kind of career shape — built slowly, in public, without a radio moment.
+
+[Jorja Smith opens a five-date North American run at the Orpheum Theatre in Los Angeles on November 14](/en/concert/en-jorja-smith-what-are-the-odds-los-angeles-20261114), followed by San Francisco, Toronto, [Brooklyn's Kings Theatre on November 21](/en/concert/en-jorja-smith-what-are-the-odds-brooklyn-20261121) and Chicago. Five theater dates is a small footprint for an artist who spent the year supporting Harry Styles across three Mexico City nights and playing festivals in Europe and South America, and the restraint looks intentional given what the record is. *What Are The Odds*, out August 21 on FAMM and largely produced by P2J, leans into UK garage, grime, two-step and house rather than the soul balladry that made her name. Small rooms are where you test that.
+
+Two more sit slightly outside the touring frame but land in the same window. [Victoria Monét releases *Frequency of Love* on October 2](/en/concert/en-victoria-monet-frequency-of-love-20261002), a 22-track sophomore album on Lovett Music and RCA led by the KAYTRANADA- and D'Mile-produced single *Reach Out*, with Camper as executive producer — her first full-length since the 2024 Best New Artist Grammy. And [Tyla plays O2 Academy Brixton on October 15](/en/concert/en-tyla-apop-world-tour-london-20261015), one of 34 A*POP World Tour dates announced July 27 behind an album released July 24. Her route is the most globally ambitious of anyone here: Paris on October 12, then Amsterdam, Glasgow, Manchester, Brussels, Berlin and Stockholm, a North American leg from November 12 in Wheatland, California, and closing dates in Lagos, Cape Town and Johannesburg.
+
+## The outlier that explains the rest
+
+[Fuerza Regida close the second leg of their This Is Our Dream Tour at Red Rocks on November 2](/en/concert/en-fuerza-regida-this-is-our-dream-morrison-20261102), after a ten-date amphitheater and arena run opening October 3 in Tinley Park, Illinois and passing through Charlotte, Atlanta, Birmingham, Albuquerque, Wheatland, Bakersfield, Fresno and West Valley City. The leg was announced August 10 — less than two months out — and it follows a sold-out stadium run earlier in the year that took in Dodger Stadium and Citi Field.
+
+That sequence is the interesting bit. A group that has already played Dodger Stadium is choosing to spend the fall in amphitheaters, announcing on eight weeks' notice, because the demand is proven and the routing does not need a year of lead time. Compare that to the stadium anniversary run booked and announced months ahead, or the theater tour built to protect a sonic left turn, and the pattern is the same one running under the whole season: everyone is picking a room size that matches what they are actually selling — a memory, a risk, or a certainty.
+
+If you want to keep track of how these land, the full [calendar](/en) and the [artist index](/en/artist) both update as dates get added.
