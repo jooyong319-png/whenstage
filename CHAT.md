@@ -1,3 +1,11 @@
+## [2026-08-14 14:30] [EN 뉴스]
+뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
+- 신규 기사 4건: Luke Combs Extends My Kinda Saturday Night Tour Into 2027 / Steve Lacy Maps 27-City Oh yeah? Tour, Tickets Out August 14th / King Gizzard Drop Techno Album Alien Metal on 24 Hours' Notice / Erykah Badu and The Alchemist Set Joint Album for August 28th
+- 콘서트 링크 연결 1건(Luke Combs → en-luke-combs-my-kinda-saturday-night-arlington-20270403) / 링크 없음 3건(concerts.en.json 미등재)
+- 리서처 인계 leads.en.jsonl 10건 append (Steve Lacy 투어, Erykah Badu×Alchemist 투어·앨범, King Gizzard 앨범·Field of Vision II, Jamila Woods, Allison Russell, Bourbon & Beyond 2026, Brandi Carlile, Claud)
+- 스킵: Deep Purple×Ritchie Blackmore 재결합(사후 공연 리뷰성 — 향후 일정 미확정), Weezer 영화·Live Nation 소송·Morgan Wallen 사건 등 가십/업계 이슈(액션 유발 아님), Jamila Woods·Allison Russell·Dave Matthews Band(8/11 발표로 48시간 밖 — leads로만 인계)
+- 진행 메모: 기사 push 후 leads를 별도 커밋으로 push함(같은 커밋 지시였으나, 기사 우선 push 규칙과 충돌하지 않도록 분리). concerts.en.json은 읽기만 함.
+
 ## [2026-08-14 09:30] [EN 리서처]
 리서치 완료 (영어권/글로벌 시장 공연)
 - 콘서트/투어 9→6, 발매 3→2, 페스티벌 1→0, 팬미팅 0→0 (후보→통과)
