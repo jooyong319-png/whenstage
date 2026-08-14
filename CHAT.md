@@ -1,3 +1,33 @@
+## [2026-08-14 09:30] [EN 리서처]
+리서치 완료 (영어권/글로벌 시장 공연)
+- 콘서트/투어 9→6, 발매 3→2, 페스티벌 1→0, 팬미팅 0→0 (후보→통과)
+- 신규 10개 / 갱신 2개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리 8건 중 5건 등재 (Garth Brooks 인디애나폴리스, Weezer 'The Gold Album', Weezer 'The Gathering' 런던, Iceage 2027 북미투어 뉴욕, Phoebe Bridgers 'Lost Weekend')
+- 과거 백필 2개 → **공연장 색인전환 2개**(Allstate Arena(Rosemont, IL), Orpheum Theatre(Los Angeles, CA) — 둘 다 1건→2건) / 기존 공연장 보강 0개
+- 티켓팅 진행중 6개 (추가 +6 / 해제 -0)
+- description 보강 0개 (신규 10건 전부 영어 60단어 이상)
+- 총 등록 149개 (공연장 60개 중 색인 대상 53개, 1건짜리 7개)
+
+[신규 등재]
+- 예정(8): Garth Brooks 인디애나폴리스 개막(8/20 Gainbridge Fieldhouse), Weezer 'The Gold Album'(8/21), Phoebe Bridgers 'Lost Weekend'(8/14), Sugarland 'The Ride Or Die Tour' 개막(10/1 St. Augustine Amphitheatre), Dave Matthews Band 가을투어 뉴욕(11/12 Madison Square Garden), Luke Combs 2027 스타디움투어 개막(2027-04-03 AT&T Stadium), Iceage 북미투어 뉴욕(2027-04-12 Bowery Ballroom), Weezer 'The Gathering' 런던(2027-05-22 Alexandra Palace)
+- 백필(2): Bryan Adams 'Roll With The Punches' 로즈몬트(2025-11-03 Allstate Arena), Sigur Ros × Wordless Music Orchestra LA(2025-11-19 Orpheum Theatre)
+
+[공연장 표기 수정] (삭제 아님 — 도시명 placeholder를 실제 공연장명으로 교정)
+- Silvana Estrada 포틀랜드: "Portland, OR (tour opener)" → "Wonder Ballroom, Portland, OR" (+publisher: Monqui Presents)
+- Trombone Shorty 채터누가: "Chattanooga, TN (fall leg opener)" → "Soldiers and Sailors Memorial Auditorium(Walker Theatre), Chattanooga, TN" (+release_time 19:30)
+
+[검증 탈락]
+- Big Ocean 가을 미국 투어(9/13~10/11): Pollstar 발표문에 도시명만 있고 공연장명이 전혀 없음. platforms[0]이 공연장 페이지 키라 도시명만으로 등재하면 잘못된 공연장 페이지가 생김 → 공연장 확정 후 다음 사이클 재검토
+- William Shatner & The *uckers (Riot Fest 2026 / Coachella 2027): Coachella 2027 출연은 리드 자체가 "미확정" 표기. Riot Fest 2026은 이미 en-riot-fest-2026-20260918로 등재돼 있어 개별 등재 불필요
+- Yours Always Music Festival 2026 (Salt Lake City): 취소된 페스티벌이며 concerts.en.json 미등재 상태. 보존 규칙은 "이미 등재된 항목"에 적용되므로 미등재 취소건은 신규 등재하지 않음
+- Purple Daisies (Glenn Hughes & The Dead Daisies) 10/2 공연: 취소된 단일 공연, 미등재 상태라 동일 사유로 보류
+- Kylie Cantrall 'Valley Girl Problems' (EP, 2026-07-24 발매완료): music_release 과거 발매건은 공연장 색인 이득이 없어 백필 우선순위에서 제외
+- Iceage 2026-2027 유럽/UK 레그: 개최지가 덴마크·독일·체코·벨기에 등 비영어권 소규모 클럽 위주 → EN 파일 대상 판단 보류(북미 레그만 등재)
+- Backstreet Boys 뒤셀도르프 레지던시(9/25~10/7): 독일 개최이며 이미 등재된 en-backstreet-boys-into-the-millennium-nye-las-vegas-20261231과 별개 이벤트. 영어권 시장 관련성 판단 보류 → 다음 사이클 재검토
+
+[다른 리서처께]
+- 이번 사이클에는 크로스 로케일 등재 대상 없음(related_locale_ids 신규 없음)
+
 ## [2026-08-13 14:30] [KO 뉴스]
 뉴스 작성 완료 (한국 국내 공연 뉴스)
 - 신규 기사 3건: 이창섭 10월 단독 콘서트 'Unknown' 개최·티켓 일정, 하이브 신인 튜이드 데뷔 앨범 'WE PLAY' 필름 공개, 김기태 신곡 '나무가방' 8월 26일 발매
