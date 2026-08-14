@@ -1251,10 +1251,10 @@
       "timezone": "America/Los_Angeles",
       "category": "concert_tour",
       "platforms": [
-        "Portland, OR (tour opener)"
+        "Wonder Ballroom, Portland, OR"
       ],
       "developer": "Silvana Estrada",
-      "publisher": null,
+      "publisher": "Monqui Presents",
       "description": "Mexican singer-songwriter and Latin Grammy winner Silvana Estrada brings her Vendran Suaves Lluvias tour to North America in 2026. After select US festival appearances and Mon Laferte support dates in August, her headlining run opens September 3 in Portland, Oregon, crosses into Canada at Vancouver's Chan Centre for the Performing Arts on September 6, and continues through Los Angeles, Miami, Nashville and other cities. Presales began July 22 in select cities, with general on-sale opening July 24.",
       "genres": [
         "Latin",
@@ -1270,7 +1270,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-07-24T10:00:00-07:00",
       "general_sale_url": null,
-      "last_updated": "2026-08-04",
+      "last_updated": "2026-08-14",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1960,12 +1960,12 @@
       "id": "en-trombone-shorty-orleans-avenue-fall-chattanooga-20261008",
       "name": "Trombone Shorty & Orleans Avenue: Fall 2026 Tour",
       "release_date": "2026-10-08",
-      "release_time": null,
+      "release_time": "19:30",
       "release_date_approx": false,
       "timezone": "America/New_York",
       "category": "concert_tour",
       "platforms": [
-        "Chattanooga, TN (fall leg opener)"
+        "Soldiers and Sailors Memorial Auditorium(Walker Theatre), Chattanooga, TN"
       ],
       "developer": "Trombone Shorty & Orleans Avenue",
       "publisher": null,
@@ -1984,7 +1984,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-07-24T10:00:00-04:00",
       "general_sale_url": null,
-      "last_updated": "2026-08-04",
+      "last_updated": "2026-08-14",
       "last_researched_by": "en-researcher"
     },
     {
@@ -3878,6 +3878,270 @@
         "Concert"
       ],
       "source_url": "https://www.bluenotejazz.com/quarry-amphitheater/tm-event/primus-onward-upward-summer-tour-2025/"
+    },
+    {
+      "id": "en-garth-brooks-blame-it-all-on-my-roots-indianapolis-20260820",
+      "name": "Garth Brooks: Blame It All On My Roots Tour - Indianapolis (Opening Night)",
+      "release_date": "2026-08-20",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "America/Indiana/Indianapolis",
+      "category": "concert_tour",
+      "platforms": [
+        "Gainbridge Fieldhouse, Indianapolis, IN"
+      ],
+      "developer": "Garth Brooks",
+      "publisher": null,
+      "description": "Garth Brooks opens the Blame It All On My Roots Tour with four nights at Gainbridge Fieldhouse in Indianapolis, August 20 through 23, 2026. The first show starts at 7:30 PM, the Friday and Saturday dates at 8:00 PM, and the run finishes with a Sunday matinee at 2:00 PM. The arena tour revives the rotating drum pod staging Brooks used through the 1990s, and the shows form the basis of a live recording project. Every seat was sold at a flat $154 when tickets went up on July 17.",
+      "genres": [
+        "Country",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Garth_Brooks_KCHD_2022.jpg/250px-Garth_Brooks_KCHD_2022.jpg",
+      "source_url": "https://www.gainbridgefieldhouse.com/events/detail/garth-brooks",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-17T10:00:00-04:00",
+      "general_sale_url": "https://www.ticketmaster.com/garth-brooks-tickets/artist/732705?venueId=41417",
+      "last_updated": "2026-08-14",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-weezer-the-gold-album-20260821",
+      "name": "Weezer - Weezer (The Gold Album)",
+      "release_date": "2026-08-21",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "music_release",
+      "platforms": [
+        "Streaming",
+        "Digital",
+        "CD",
+        "Vinyl"
+      ],
+      "developer": "Weezer",
+      "publisher": "Reprise Records / Warner Records",
+      "description": "Weezer release their twentieth studio album, self-titled and widely known as The Gold Album, on August 21, 2026, issued physically through Reprise and digitally through Warner Records. It is the Los Angeles band's first full-length since Van Weezer in 2021 and the first of their colour-coded self-titled records without a photograph of the group on the sleeve. Kenneth Blume and Klas Ahlund produced, and the singles Shine Again, We Might as Well Be Strangers and C.E.O. arrived ahead of it.",
+      "genres": [
+        "Rock",
+        "Alternative",
+        "Album"
+      ],
+      "image_url": null,
+      "source_url": "https://en.wikipedia.org/wiki/Weezer_(Gold_Album)",
+      "last_updated": "2026-08-14",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-weezer-the-gathering-london-20270522",
+      "name": "Weezer: The Gathering World Tour - London",
+      "release_date": "2027-05-22",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Alexandra Palace, London"
+      ],
+      "developer": "Weezer, Taking Back Sunday",
+      "publisher": null,
+      "description": "Weezer play Alexandra Palace in London on May 22, 2027, the penultimate British date of The Gathering world tour behind their twentieth album. Taking Back Sunday support throughout the UK and European leg, which opens May 12 at Dublin's 3Arena and takes in Newcastle, Manchester, Leeds, Glasgow, Birmingham and Cardiff before moving on to Paris, Amsterdam, Oslo, Stockholm and Helsinki. General sale for UK and European dates opened August 14, 2026 at 10am BST, three days after an album pre-order presale.",
+      "genres": [
+        "Rock",
+        "Alternative",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.nme.com/news/music/weezer-announce-the-gathering-2026-27-world-tour-with-dates-in-uk-europe-north-america-and-japan-3960997",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-14T10:00:00+01:00",
+      "general_sale_url": "https://www.ticketmaster.co.uk/weezer-tickets/artist/766591",
+      "last_updated": "2026-08-14",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-iceage-north-american-tour-new-york-20270412",
+      "name": "Iceage: 2027 North American Tour - New York",
+      "release_date": "2027-04-12",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Bowery Ballroom, New York, NY"
+      ],
+      "developer": "Iceage",
+      "publisher": null,
+      "description": "Danish punk band Iceage bring their spring 2027 North American tour to the Bowery Ballroom in New York on April 12, one of ten shows behind For Love of Grace & the Hereafter, the album they put out in May 2026. The run opens April 2 at Neumos in Seattle, works down the West Coast through Portland, San Francisco and Los Angeles, crosses the Midwest and finishes April 15 at the Black Cat in Washington, DC. Tickets went on sale August 14, 2026 at 10 a.m. local time.",
+      "genres": [
+        "Punk",
+        "Post-Punk",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/08/iceage-announce-2027-north-american-tour/",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-14T10:00:00-04:00",
+      "general_sale_url": "https://www.ticketmaster.com/iceage-tickets/artist/1611202",
+      "last_updated": "2026-08-14",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-phoebe-bridgers-lost-weekend-20260814",
+      "name": "Phoebe Bridgers - Lost Weekend",
+      "release_date": "2026-08-14",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "music_release",
+      "platforms": [
+        "Streaming",
+        "Digital",
+        "CD",
+        "Vinyl"
+      ],
+      "developer": "Phoebe Bridgers",
+      "publisher": "Dead Oceans",
+      "description": "Phoebe Bridgers releases Lost Weekend, her third solo studio album, on August 14, 2026 through Dead Oceans. It is her first solo full-length since Punisher in 2020, arriving after a stretch of work with boygenius and outside production. The record underpins The Lost Tour, a completely phone-free North American arena run beginning in September that continues into the UK and Europe in November, with Alex G opening the American dates.",
+      "genres": [
+        "Indie",
+        "Rock",
+        "Album"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Phoebe_Bridgers_%2841599189180%29_%28cropped%29.jpg/250px-Phoebe_Bridgers_%2841599189180%29_%28cropped%29.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Lost_Weekend_(Phoebe_Bridgers_album)",
+      "last_updated": "2026-08-14",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-luke-combs-my-kinda-saturday-night-arlington-20270403",
+      "name": "Luke Combs: My Kinda Saturday Night Tour 2027 - Arlington (Opening Night)",
+      "release_date": "2027-04-03",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Chicago",
+      "category": "concert_tour",
+      "platforms": [
+        "AT&T Stadium, Arlington, TX"
+      ],
+      "developer": "Luke Combs, Treaty Oak Revival, Avery Anna, Shenandoah, Wyatt McCubbin",
+      "publisher": null,
+      "description": "Luke Combs opens the 2027 leg of his My Kinda Saturday Night Tour on April 3 at AT&T Stadium in Arlington, Texas. The twelve-date stadium run is staged in the round and travels through Minneapolis, Detroit, Philadelphia, Foxborough, Pittsburgh, Kansas City, Edmonton, Vancouver, Boise and Denver before closing June 26 at Petco Park in San Diego. Treaty Oak Revival, Avery Anna, Shenandoah and Wyatt McCubbin support. Presales start August 19, 2026 and the general on-sale follows August 21 at 10 a.m. local time.",
+      "genres": [
+        "Country",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://news.pollstar.com/2026/08/13/luke-combs-extends-my-kinda-saturday-night-tour-adds-2027-stadium-shows/",
+      "presale": true,
+      "presale_datetime": "2026-08-19T10:00:00-05:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-21T10:00:00-05:00",
+      "last_updated": "2026-08-14",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-dave-matthews-band-fall-tour-new-york-20261112",
+      "name": "Dave Matthews Band: Fall 2026 Tour - New York (Night 1)",
+      "release_date": "2026-11-12",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Madison Square Garden, New York, NY"
+      ],
+      "developer": "Dave Matthews Band",
+      "publisher": null,
+      "description": "Dave Matthews Band close their fall 2026 arena tour with two nights at Madison Square Garden on November 12 and 13, both starting at 7:30 PM. The six-city run opens November 4 at the Kohl Center in Madison, Wisconsin and passes through Nashville, Chicago, Providence and Baltimore on the way to New York. A presale for members of the band's Warehouse Fan Association is already under way, and general tickets go on sale August 21, 2026 at 10 a.m. local time.",
+      "genres": [
+        "Rock",
+        "Jam",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://news.pollstar.com/2026/08/11/dave-matthews-band-announces-2026-fall-tour/",
+      "presale": true,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-21T10:00:00-04:00",
+      "last_updated": "2026-08-14",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-sugarland-ride-or-die-st-augustine-20261001",
+      "name": "Sugarland: The Ride Or Die Tour - St. Augustine (Opening Night)",
+      "release_date": "2026-10-01",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "St. Augustine Amphitheatre, St. Augustine, FL"
+      ],
+      "developer": "Sugarland",
+      "publisher": null,
+      "description": "Sugarland open The Ride Or Die Tour on October 1, 2026 at the St. Augustine Amphitheatre in Florida. The 26-city American run marks the twentieth anniversary of Enjoy the Ride, the album that carried Settlin' and Want To and established Jennifer Nettles and Kristian Bush as country's leading duo. The routing crosses the Southeast, the upper Midwest and the Northeast before finishing November 21 in Grand Prairie, Texas. An artist presale opened August 12, 2026.",
+      "genres": [
+        "Country",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://news.pollstar.com/2026/08/13/sugarland-announces-the-ride-or-die-tour-this-fall/",
+      "presale": true,
+      "presale_datetime": "2026-08-12T10:00:00-04:00",
+      "general_sale": false,
+      "last_updated": "2026-08-14",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-bryan-adams-roll-with-the-punches-rosemont-20251103",
+      "name": "Bryan Adams: Roll With The Punches Tour - Chicago (Rosemont)",
+      "release_date": "2025-11-03",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "America/Chicago",
+      "category": "concert_tour",
+      "platforms": [
+        "Allstate Arena, Rosemont, IL"
+      ],
+      "developer": "Bryan Adams, Pat Benatar & Neil Giraldo",
+      "publisher": null,
+      "description": "Bryan Adams played Allstate Arena in Rosemont on November 3, 2025, the Chicago-area stop on the North American leg of his Roll With The Punches tour. Pat Benatar and Neil Giraldo opened the evening at 7:30 PM and Adams followed at around nine. The set paired newer Roll With The Punches material with the Reckless and Waking Up the Neighbours songs that have anchored his live show for four decades.",
+      "genres": [
+        "Rock",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/BryAdamsMargate130624_%2839_of_43%29_%2853789411882%29_Cropped.jpg/250px-BryAdamsMargate130624_%2839_of_43%29_%2853789411882%29_Cropped.jpg",
+      "source_url": "https://www.setlist.fm/setlist/bryan-adams/2025/allstate-arena-rosemont-il-5b469390.html",
+      "last_updated": "2026-08-14",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-sigur-ros-orchestral-tour-los-angeles-20251119",
+      "name": "Sigur Ros with Wordless Music Orchestra - Los Angeles",
+      "release_date": "2025-11-19",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Orpheum Theatre, Los Angeles, CA"
+      ],
+      "developer": "Sigur Ros, Wordless Music Orchestra",
+      "publisher": null,
+      "description": "Sigur Ros played the Orpheum Theatre in Los Angeles on November 19, 2025 alongside the Wordless Music Orchestra, the first of two nights that closed out the final leg of their orchestral world tour. Robert Ames conducted the ensemble through material from ATTA together with older pieces including Blodberg, Ekki mukk, Fljotavik and Andvari. Doors opened at seven and the performance started at eight.",
+      "genres": [
+        "Post-Rock",
+        "Ambient",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://sigurros.com/tour/2025/20251119_losangeles/",
+      "last_updated": "2026-08-14",
+      "last_researched_by": "en-researcher"
     }
   ]
 }
