@@ -1,3 +1,28 @@
+## [2026-08-15 09:41] [JA 리서처]
+리서치 완료 (일본 국내 공연)
+- 콘서트/来日 8→5, 발매 3→2, 페스티벌 3→2, 팬미팅 0→0 (후보→통과)
+- 신규 10개 / 갱신 0개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리 12건 중 5건 등재 (Snow Man『AMENITY』, GREENROOM FESTIVAL'27 横浜, THE PIANO ERA 2026, 細野晴臣 Prelude, 爆風スランプ 2027 Zepp Tour)
+- 과거 백필 1개 → **공연장 색인전환 0개** / 기존 공연장 보강 1개(日本武道館 3건→4건). 예정 공연 검증에 시간을 썼고, 예정분 추가만으로 색인전환 4개를 확보해 백필은 1건으로 최소화
+- **예정 공연 추가로 공연장 색인전환 4개**: めぐろパーシモンホール(1→2), 大和ハウス プレミストドーム(1→2), 横浜BAY HALL(1→2), 浜離宮朝日ホール(1→2). LIQUIDROOM도 2→3으로 보강
+- 티켓팅 진행중 2개 (추가 +2 / 해제 -0) — THE PIANO ERA 2026 一般発売(8/22 10:00, e+), 爆風スランプ ファンクラブ先行(8/11 22:00〜8/23 23:59)
+- description 보강 0개 (신규 10건 전부 일본어 120자 이상)
+- 총 등록 132개 (공연장 54개 중 1건짜리 13개)
+
+[신규 등재]
+- 예정(9): Snow Man『AMENITY』(10/7 발매), Snow Man DOME TOUR 2026-2027 ALL SUITE 札幌 개막(10/30 大和ハウス プレミストドーム), GREENROOM FESTIVAL'27 横浜(2027-05-22 横浜赤レンガ倉庫), THE PIANO ERA 2026(12/5 めぐろパーシモンホール), 細野晴臣 The Yours Sincerely Tour – Prelude(9/2 LIQUIDROOM), 細野晴臣『Yours Sincerely』(9/11 발매), 爆風スランプ 2027 Zepp Tour 개막(2027-09-09 Zepp Nagoya), lynch. TOUR'26「IGNITE THE CLIMAX」横浜(9/4 横浜BAY HALL), ベンジャミン・グローヴナー ピアノ・リサイタル(9/24 浜離宮朝日ホール)
+- 백필(1): 爆風スランプ 2026 LIVE at 日本武道館 〜歌え、大きな玉ねぎの下で〜(2026-08-11, 過去日 확인 완료)
+
+[검증 탈락]
+- "MOUNTAIN HIGH" BAREBONES 후지 達也&阿部芳久 還暦祭(11/7 新代田FEVER): 독립 출처가 CDJournal 1건뿐 — 공식 페이지·티켓 플랫폼 확인 실패
+- AKASAKI 1st World Tour "ONIGIRI": 일정·회장 모두 미발표. 시기 placeholder조차 근거 없음
+- 踊る！ディスコ室町「すいか」リリース・パーティー / Finally Live Tour 2026 / Ovall「Glimmer Tour 2026」/ やまもとはると 全国弾き語りツアー: 독립 출처 2개 확보 실패 또는 일정 미확정
+- L'Arc-en-Ciel「総天然色」: 라디오 초해금만 확인, 정식 릴리스일 미발표
+- Tommy The Screening Japan Tour / 映画『叛逆のサウンドトラック』トークイベント: 상영 이벤트로 4개 카테고리(concert_tour/music_release/festival/fanmeeting) 밖
+
+[메모]
+- `platforms` 표기 확인 필요: 기존 `横浜赤レンガパーク`(上白石萌音 bouquet)와 이번 `横浜赤レンガ倉庫`(GREENROOM'27)는 인접한 같은 워터프론트 구역이지만 공식 발표 표기가 서로 달라 별도 공연장으로 잡힌다. 임의 통합은 하지 않았음 — 다음 사이클에 공식 표기 재확인 후 정리 검토
+- image_url은 10건 전부 null. ぴあ/イープラス의 og:image 미제공 문제는 프롬프트 기재와 동일했고, 위키피디아 커먼즈에서 자유 라이선스 인물 사진을 확정하지 못해 억지로 채우지 않음
 ## [2026-08-14 14:30] [EN 뉴스]
 뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
 - 신규 기사 4건: Luke Combs Extends My Kinda Saturday Night Tour Into 2027 / Steve Lacy Maps 27-City Oh yeah? Tour, Tickets Out August 14th / King Gizzard Drop Techno Album Alien Metal on 24 Hours' Notice / Erykah Badu and The Alchemist Set Joint Album for August 28th
