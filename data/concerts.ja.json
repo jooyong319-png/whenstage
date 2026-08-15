@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-12",
+  "last_updated": "2026-08-15",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -3132,6 +3132,269 @@
       "image_url": null,
       "source_url": "https://masasingtown.com/concert/12922/",
       "last_updated": "2026-08-12",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-snowman-amenity-20261007",
+      "name": "Snow Man『AMENITY』（6thアルバム）",
+      "release_date": "2026-10-07",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "Snow Man",
+      "publisher": "MENT RECORDING",
+      "description": "Snow Manの6枚目のオリジナルアルバム『AMENITY』が2026年10月7日に発売される。メンバーがホテルのスタッフとなり、音楽をもてなしとして届けるというコンセプトが掲げられ、リード曲は「グッタイム」。アートワークは吉田ユニが手がけた。初回盤A・Bは新曲を含む9曲、通常盤は14曲を収録し、初回盤には「グッタイム」ほかのミュージックビデオやメイキング、新規撮り下ろしのバラエティ映像を収めたBlu-ray／DVDが付属する。価格は初回盤A・Bが各4,620円、通常盤が3,520円（いずれも税込）。",
+      "genres": [
+        "J-POP",
+        "アイドル",
+        "アルバム"
+      ],
+      "image_url": null,
+      "source_url": "https://avexnet.jp/news/1035995",
+      "last_updated": "2026-08-15",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-snowman-dome-tour-all-suite-sapporo-20261030",
+      "name": "Snow Man DOME TOUR 2026-2027 ALL SUITE（大和ハウス プレミストドーム公演）",
+      "release_date": "2026-10-30",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "大和ハウス プレミストドーム（札幌ドーム）"
+      ],
+      "developer": "Snow Man",
+      "publisher": "MENT RECORDING",
+      "description": "Snow Manが2026年10月30日から2027年1月7日にかけて、全国5大ドームをめぐる〈Snow Man DOME TOUR 2026-2027 ALL SUITE〉を開催する。ツアーは北海道・大和ハウス プレミストドーム（札幌ドーム）の3日間から幕を開け、10月30日は開演17:00、31日も17:00、11月1日は15:00開演となっている。その後は愛知・バンテリンドーム ナゴヤ4公演、福岡・みずほPayPayドーム福岡3公演、東京ドーム4公演を経て、京セラドーム大阪4公演で締めくくる全18公演。タイトルは10月7日発売の6thアルバム『AMENITY』のホテルというコンセプトを引き継いだものになっている。",
+      "genres": [
+        "J-POP",
+        "アイドル",
+        "ドームツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://mentrecording.jp/snowman/live/tour.php?id=1003062",
+      "last_updated": "2026-08-15",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-greenroom-festival-27-yokohama-20270522",
+      "name": "GREENROOM FESTIVAL'27（横浜）",
+      "release_date": "2027-05-22",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "festival",
+      "platforms": [
+        "横浜赤レンガ倉庫"
+      ],
+      "developer": null,
+      "publisher": "GREENROOM",
+      "description": "海とビーチのライフスタイル・カルチャーを音楽とアートで伝えるフェスティバル〈GREENROOM FESTIVAL〉が、2027年5月22日・23日に横浜赤レンガ倉庫で開催される。2005年の初開催から数えて22回目となる今回は、5月29日・30日に兵庫・神戸メリケンパークでも初開催され、2都市開催に拡大した。「Save The Ocean」をテーマに、ライブのほか海をモチーフにしたアート展示、サーフブランドやフードトラックが並ぶサーフマーケットも展開される。出演アーティストなどの詳細は後日発表される予定。",
+      "genres": [
+        "フェスティバル",
+        "サーフカルチャー",
+        "野外"
+      ],
+      "image_url": null,
+      "source_url": "https://natalie.mu/music/news/684548",
+      "last_updated": "2026-08-15",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-the-piano-era-2026-20261205",
+      "name": "THE PIANO ERA 2026",
+      "release_date": "2026-12-05",
+      "release_time": "16:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "festival",
+      "platforms": [
+        "めぐろパーシモンホール(大ホール)"
+      ],
+      "developer": null,
+      "publisher": "ザ・ピアノエラ・アソシエーション／スキヤキ・オフィス",
+      "description": "ジャンルにとらわれず「いま」のピアノ音楽を集めるフェスティバル〈THE PIANO ERA〉が、7回目となる2026年12月5日・6日にめぐろパーシモンホール 大ホールで開催される。両日とも15:00開場・16:00開演で、ブラジル、アルゼンチン、ポーランド、イギリス、日本から6組が出演する。初日はアントニオ・ロウレイロ・ニュートリオ、アンドレス・ベエウサエルト、中村佳穂が、2日目はスワヴェク・ヤスクウケ、The Vernon Spring、橋本秀幸が登場する。チケットは2日通し券18,000円、単日券9,500円などで、一般発売は8月22日10:00から。",
+      "genres": [
+        "ピアノ",
+        "フェスティバル",
+        "ジャズ"
+      ],
+      "image_url": null,
+      "source_url": "https://www.musictribunetokyo.com/2026/08/the-piano-era-20261256the-vernon-spring.html",
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-22T10:00:00+09:00",
+      "general_sale_url": "https://eplus.jp/pianoera2026",
+      "festival_days": [
+        {
+          "date": "2026-12-05",
+          "lineup": [
+            "アントニオ・ロウレイロ・ニュートリオ",
+            "アンドレス・ベエウサエルト",
+            "中村佳穂"
+          ]
+        },
+        {
+          "date": "2026-12-06",
+          "lineup": [
+            "スワヴェク・ヤスクウケ",
+            "The Vernon Spring",
+            "橋本秀幸"
+          ]
+        }
+      ],
+      "last_updated": "2026-08-15",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-hosono-haruomi-prelude-20260902",
+      "name": "細野晴臣 LIQUIDROOM 22nd Anniversary Haruomi Hosono The Yours Sincerely Tour – Prelude",
+      "release_date": "2026-09-02",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "LIQUIDROOM（東京・恵比寿）"
+      ],
+      "developer": "細野晴臣",
+      "publisher": "ハンズオン・エンタテインメント",
+      "description": "細野晴臣が2026年9月2日、東京・恵比寿LIQUIDROOMでワンマン公演〈Haruomi Hosono The Yours Sincerely Tour – Prelude〉を行う。9月11日に全世界リリースされる通算23枚目のアルバム『Yours Sincerely』の発売と、ニューヨーク・Radio City Music Hall、ロサンゼルス・Greek Theatreを回るUSツアー開幕を目前に控えた一夜限りの公演で、LIQUIDROOMの22周年企画としても位置づけられている。開場18:30・開演19:30、チケットは一般7,500円、23歳以下対象のU-23が6,500円（いずれも税込・ドリンク代別）。同日は新作をテーマにしたアパレルグッズを世界最速で扱う1日限定POP-UPも同会場で開かれ、チケットがなくても入場できる。",
+      "genres": [
+        "ロック",
+        "アンビエント",
+        "ワンマン"
+      ],
+      "image_url": null,
+      "source_url": "https://www.liquidroom.net/schedule/haruomihosoino_20260902",
+      "presale": false,
+      "presale_datetime": "2026-08-03T19:00:00+09:00",
+      "presale_end_datetime": "2026-08-11T23:59:00+09:00",
+      "last_updated": "2026-08-15",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-hosono-yours-sincerely-20260911",
+      "name": "細野晴臣『Yours Sincerely』",
+      "release_date": "2026-09-11",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "細野晴臣",
+      "publisher": "ソニー・ミュージックレーベルズ（Echoes）",
+      "description": "細野晴臣の通算23枚目となるオリジナルアルバム『Yours Sincerely』が2026年9月11日に全世界リリースされる。全10曲を収録した本作は、母性や慈悲といった人間の深層意識をテーマに、孤独や混乱の時代の先にある調和を静かに描いた作品だと説明されている。国内はソニー・ミュージックのレーベル「Echoes」から配信に加え、ボックス仕様のLP、CD、カセットテープを含む全6形態で発売される。先行曲として、79歳の誕生日にあたる7月9日に「Note of Mothership」が配信された。",
+      "genres": [
+        "J-POP",
+        "アンビエント",
+        "アルバム"
+      ],
+      "image_url": null,
+      "source_url": "https://www.sonymusic.co.jp/artist/HaruomiHosono/info/584953",
+      "last_updated": "2026-08-15",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-bakufu-slump-zepp-tour-2027-20270909",
+      "name": "爆風スランプ 2027 Zepp Tour（仮）",
+      "release_date": "2027-09-09",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "Zepp Nagoya"
+      ],
+      "developer": "爆風スランプ",
+      "publisher": "アミューズ",
+      "description": "爆風スランプが2027年9月から10月にかけて、全国5都市のZeppをめぐるツアーを開催する。2026年8月11日に行われた35年ぶりの日本武道館単独公演の終盤でサプライズ発表されたもので、9月9日のZepp Nagoyaを皮切りに、9月10日Zepp Namba、9月17日Zepp Sapporo、10月1日Zepp Fukuoka、10月14日Zepp DiverCity（TOKYO）と回る全5公演となる。チケットは全会場共通で指定席10,000円、18歳以下対象の指定席が4,500円（いずれも税込）。ファンクラブ最速先行の抽選受付は2026年8月11日22時から23日23時59分まで行われた。",
+      "genres": [
+        "ロック",
+        "J-POP",
+        "ツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://natalie.mu/music/news/684750",
+      "presale": true,
+      "presale_datetime": "2026-08-11T22:00:00+09:00",
+      "presale_end_datetime": "2026-08-23T23:59:00+09:00",
+      "last_updated": "2026-08-15",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-lynch-ignite-the-climax-yokohama-20260904",
+      "name": "lynch. TOUR'26「IGNITE THE CLIMAX」（横浜BAY HALL公演）",
+      "release_date": "2026-09-04",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "横浜BAY HALL"
+      ],
+      "developer": "lynch.",
+      "publisher": "ディスクガレージ",
+      "description": "名古屋を拠点に活動するlynch.のツアー〈TOUR'26「IGNITE THE CLIMAX」〉の横浜公演が、2026年9月4日に横浜BAY HALLで行われる。開場18:15・開演19:00で、チケットはスタンディング7,700円（税込、入場時に別途ドリンク代600円が必要）。未就学児童は入場できない。会場の公演情報の問い合わせ先はディスクガレージが務めている。",
+      "genres": [
+        "ラウドロック",
+        "ヴィジュアル系",
+        "ツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://bayhall.jp/schedule/2026/09/9418/",
+      "last_updated": "2026-08-15",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-benjamin-grosvenor-recital-20260924",
+      "name": "ベンジャミン・グローヴナー ピアノ・リサイタル",
+      "release_date": "2026-09-24",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "浜離宮朝日ホール(音楽ホール)"
+      ],
+      "developer": "ベンジャミン・グローヴナー",
+      "publisher": "朝日新聞社／浜離宮朝日ホール",
+      "description": "イギリス出身のピアニスト、ベンジャミン・グローヴナーのピアノ・リサイタルが2026年9月24日19時から浜離宮朝日ホールで開かれる。朝日新聞社と浜離宮朝日ホールが主催する2026年度主催公演ラインナップの一つで、同ホールは1992年に開場した全552席のシューボックス型室内楽専用ホール。ピアノや繊細なアンサンブルの響きを際立たせる音響設計で知られ、2026年度は世界的な名手から新鋭までが登場する。",
+      "genres": [
+        "クラシック",
+        "ピアノ",
+        "リサイタル"
+      ],
+      "image_url": null,
+      "source_url": "https://www.asahi-hall.jp/hamarikyu/ticket/lineup.html",
+      "last_updated": "2026-08-15",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-bakufu-slump-budokan-20260811",
+      "name": "爆風スランプ 2026 LIVE at 日本武道館 〜歌え、大きな玉ねぎの下で〜",
+      "release_date": "2026-08-11",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "日本武道館"
+      ],
+      "developer": "爆風スランプ",
+      "publisher": "アミューズ",
+      "description": "2024年のデビュー40周年を機に再集結した爆風スランプが、2026年8月11日に35年ぶりとなる日本武道館単独公演を開催した。約8,000人を集めたステージは小泉今日子によるオープニングナレーションで幕を開け、武道館を歌った代表曲「大きな玉ねぎの下で」から約2時間30分にわたって展開された。後半には1991年にオリジナルの振付を担当したラッキィ池田率いるセニョリータ・ダンサーズが「東京ラテン系セニョリータ」で登場したほか、小島よしおと日本盆踊り協会の踊り手を迎えた盆踊りの特別演目も披露された。アンコールでは2027年秋の全国5都市Zeppツアー開催が発表された。",
+      "genres": [
+        "ロック",
+        "J-POP",
+        "単独公演"
+      ],
+      "image_url": null,
+      "source_url": "https://natalie.mu/music/news/684750",
+      "last_updated": "2026-08-15",
       "last_researched_by": "ja-researcher"
     }
   ]
