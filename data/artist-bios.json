@@ -457,6 +457,126 @@
         "agency": null,
         "members": null,
         "debut": null
+      },
+      "몬스타엑스": {
+        "text": "몬스타엑스는 셔누, 민혁, 기현, 형원, 주헌, 아이엠 6인으로 활동하는 스타쉽엔터테인먼트 소속 보이그룹이다. Mnet 서바이벌 '노머시'를 통해 결성돼 2015년 데뷔했으며, 강한 비트와 랩을 앞세운 퍼포먼스 중심의 곡으로 국내외에서 팬층을 넓혀왔다. 멤버들이 작사·작곡에 직접 참여하며 앨범 제작에 관여하는 팀으로도 알려져 있다.",
+        "agency": "스타쉽엔터테인먼트",
+        "members": "6인조",
+        "debut": "2015.05.14"
+      },
+      "보이넥스트도어": {
+        "text": "보이넥스트도어는 성호, 리우, 명재현, 태산, 이한, 운학 6인조로 구성된 KOZ엔터테인먼트 소속 보이그룹이다. 지코가 이끄는 레이블의 첫 보이그룹으로 2023년 데뷔했으며, 또래의 일상과 연애 감정을 솔직한 화법으로 풀어낸 가사와 힙합 기반 사운드가 특징이다. 멤버들이 직접 작사·작곡에 참여하는 자체 제작형 그룹이다.",
+        "agency": "KOZ엔터테인먼트",
+        "members": "6인조",
+        "debut": "2023.05.30"
+      },
+      "최예나": {
+        "text": "최예나는 아이즈원 활동을 마친 뒤 2022년 솔로로 데뷔한 YH엔터테인먼트 소속 가수다. 밝고 통통 튀는 캐릭터를 살린 팝 사운드를 주로 선보이며, 예능과 라이브 무대를 오가는 활동으로 팬층을 넓혔다. 자체 세계관을 이어가는 콘서트 시리즈를 꾸준히 열어 아시아 투어로 무대를 확장했다.",
+        "agency": "YH엔터테인먼트",
+        "members": "솔로",
+        "debut": "2022.01.17"
+      },
+      "이준호": {
+        "text": "이준호는 그룹 2PM의 멤버이자 배우로 활동하는 JYP엔터테인먼트 소속 아티스트다. 2008년 2PM으로 데뷔해 팀의 보컬 겸 퍼포머로 자리 잡았고, 이후 드라마와 영화에서 주연을 맡으며 배우로서도 입지를 다졌다. 솔로 음반과 아시아 투어, 팬미팅을 병행하며 가수 활동도 이어가고 있다.",
+        "agency": "JYP엔터테인먼트",
+        "members": "솔로",
+        "debut": "2008.09.04"
+      },
+      "영탁": {
+        "text": "영탁은 TV조선 '미스터트롯' 출연을 계기로 폭넓은 대중적 인지도를 얻은 트로트 가수다. 현재 어비스컴퍼니 소속으로, '니가 왜 거기서 나와' 등의 히트곡과 브랜드 콘서트 'TAK SHOW' 시리즈로 알려져 있다. 정규 앨범 작업과 전국 투어를 병행하며 활동한다.",
+        "agency": "어비스컴퍼니",
+        "members": "솔로",
+        "debut": null
+      },
+      "박서진": {
+        "text": "박서진은 경남 사천 출신의 트로트 가수로, 장구 연주를 곁들인 무대 덕에 '장구의 신'이라는 별명을 얻었다. 2013년 데뷔한 뒤 오랜 무명 시기를 거쳐 방송 출연을 계기로 인지도를 넓혔고, 이후 전국투어 콘서트를 이어가고 있다.",
+        "agency": null,
+        "members": "솔로",
+        "debut": "2013"
+      },
+      "마룬5": {
+        "text": "마룬5는 애덤 리바인이 이끄는 미국의 팝 록 밴드다. 2002년 데뷔 앨범 'Songs About Jane'으로 이름을 알린 뒤 'Moves like Jagger', 'Sugar' 등 세계적인 히트곡을 내며 팝 시장의 중심에 자리 잡았다. 록 밴드 편성에서 출발해 점차 팝·R&B 색채를 강화해온 것이 특징이다.",
+        "agency": null,
+        "members": "밴드",
+        "debut": "2002"
+      },
+      "이수": {
+        "text": "이수는 그룹 엠씨더맥스의 보컬로, 폭발적인 고음과 절제된 감정 표현을 함께 갖춘 발라드 보컬리스트로 꼽힌다. 2000년 밴드 문차일드로 데뷔한 뒤 2002년부터 엠씨더맥스로 활동을 이어왔으며, 솔로 명의로도 앨범과 단독 콘서트를 꾸준히 열고 있다.",
+        "agency": null,
+        "members": "솔로",
+        "debut": "2000"
+      },
+      "서은광": {
+        "text": "서은광은 그룹 비투비의 리더이자 메인 보컬로, 큐브엔터테인먼트 소속 가수다. 2012년 비투비로 데뷔해 팀의 보컬 라인을 이끌었고, 뮤지컬 무대에서도 꾸준히 주역을 맡아 활동 폭을 넓혔다. 솔로 명의의 싱글과 미니앨범도 발표하고 있다.",
+        "agency": "큐브엔터테인먼트",
+        "members": "솔로",
+        "debut": "2012.03.21"
+      },
+      "은가은": {
+        "text": "은가은은 트로트 경연 프로그램 출연을 계기로 이름을 알린 가수로, MM엔터테인먼트 소속이다. 힘 있는 가창과 무대 장악력이 강점으로 꼽히며, 방송 활동과 병행해 음반 작업을 이어가고 있다.",
+        "agency": "MM엔터테인먼트",
+        "members": "솔로",
+        "debut": null
+      },
+      "나카지마 켄토": {
+        "text": "나카지마 켄토는 2011년 그룹 섹시존으로 데뷔한 일본의 가수 겸 배우다. 2024년 3월 팀을 졸업한 뒤 스타토 엔터테인먼트 소속으로 솔로 활동을 시작해 같은 해 12월 첫 솔로 앨범 'N/bias'를 발표했다. 드라마·영화 출연과 음악 활동을 병행하며 아시아로 무대를 넓히고 있다.",
+        "agency": "스타토 엔터테인먼트",
+        "members": "솔로",
+        "debut": "2011.11.16"
+      },
+      "카나분": {
+        "text": "카나분은 2013년 메이저 데뷔한 일본의 록 밴드로, 보컬 겸 기타 타니구치 마구로를 중심으로 한 4인 편성이다. 애니메이션 주제가로 쓰인 '실루엣' 등이 널리 알려지며 이름을 알렸고, 질주감 있는 기타 리프와 직설적인 가사가 특징이다.",
+        "agency": null,
+        "members": "4인조",
+        "debut": "2013"
+      },
+      "앳하트": {
+        "text": "앳하트는 타이탄콘텐츠가 선보인 첫 걸그룹으로, 2025년 8월 데뷔한 7인조 다국적 팀이다. 한국·일본·필리핀 등 여러 국적의 멤버로 구성됐으며, 과거의 명곡을 지금의 감각으로 다시 부르는 '타임 트래블 프로젝트'를 통해 리메이크 싱글을 연달아 선보이고 있다.",
+        "agency": "타이탄콘텐츠",
+        "members": "7인조",
+        "debut": "2025.08.13"
+      },
+      "아워벌스데이": {
+        "text": "아워벌스데이는 JYP엔터테인먼트가 선보인 7인조 다국적 걸그룹이다. 조혜진, 베이비, 아치라야, 유, 국초록, 키라라, 신혜원으로 구성됐으며 2026년 8월 데뷔 싱글 'Our Birthday'로 정식 데뷔했다. 일곱 멤버의 자유로운 개성을 뜻하는 'WHIPPED'와 힙합을 결합한 'WHIP-HOP'을 팀의 독자 장르로 내세운다.",
+        "agency": "JYP엔터테인먼트",
+        "members": "7인조",
+        "debut": "2026.08.19"
+      },
+      "튜넥스": {
+        "text": "튜넥스는 IST엔터테인먼트가 선보인 7인조 다국적 보이그룹으로, 2026년 3월 첫 미니앨범으로 데뷔했다. 박동규, 김시환, 아틱, 김인후, 타이라, 문성준, 제온으로 구성됐으며 일부 멤버는 서바이벌 프로그램 '보이즈2플래닛' 출신이다.",
+        "agency": "IST엔터테인먼트",
+        "members": "7인조",
+        "debut": "2026.03.03"
+      },
+      "에반": {
+        "text": "에반은 빌리프랩 소속 솔로 아티스트로, 2026년 6월 싱글 'RIDE OR DIE'로 데뷔했다. 데뷔작부터 앨범 프로듀싱에 직접 참여해 자신의 색깔을 드러냈고, 같은 해 9월 첫 미니앨범 'DEATH OF ME'를 내놓으며 빠르게 활동을 이어갔다.",
+        "agency": "빌리프랩",
+        "members": "솔로",
+        "debut": "2026.06"
+      },
+      "조민규": {
+        "text": "조민규는 크로스오버 그룹 포레스텔라의 멤버로, 팀에서 테너 파트를 맡고 있다. 성악을 기반으로 대중음악까지 아우르는 무대를 선보이며, 기획부터 제작까지 직접 참여하는 브랜드 콘서트 'MONO DRAMA'를 2024년부터 해마다 이어오고 있다.",
+        "agency": null,
+        "members": "솔로",
+        "debut": null
+      },
+      "남유정": {
+        "text": "남유정은 그룹 브브걸 출신 가수로, 현재 알앤디컴퍼니 소속으로 솔로 활동을 이어가고 있다. 팀에서 보컬을 맡아 활동했고, 데뷔 10년 만에 직접 고른 곡들로 채운 첫 솔로 리메이크 앨범을 준비했다.",
+        "agency": "알앤디컴퍼니",
+        "members": "솔로",
+        "debut": null
+      },
+      "MJ": {
+        "text": "MJ는 그룹 아스트로의 멤버로 팀의 메인 보컬을 맡고 있다. 2016년 아스트로로 데뷔한 뒤 그룹 활동과 뮤지컬 무대를 병행해 왔고, 데뷔 10년 만인 2026년 첫 솔로 싱글 'Right..?'를 내며 솔로 활동을 시작했다.",
+        "agency": null,
+        "members": "솔로",
+        "debut": "2016.02.23"
+      },
+      "Midnight Til Morning": {
+        "text": "미드나잇 틸 모닝은 넷플릭스 리얼리티 프로그램 '빌딩 더 밴드'를 통해 결성된 4인조 팝 록 밴드다. 호주 출신 코너 스미스와 메이슨 와츠, 미국 출신 셰인 아펠과 잭 뉴볼드로 구성됐으며, 2026년 2월 서울에서 첫 내한공연을 열었다.",
+        "agency": null,
+        "members": "4인조",
+        "debut": null
       }
     },
     "en": {
@@ -1167,6 +1287,78 @@
         "agency": null,
         "members": "4-piece",
         "debut": "1983"
+      },
+      "Backstreet Boys": {
+        "text": "Backstreet Boys are an American vocal group formed in Orlando in 1993, made up of Nick Carter, Howie Dorough, AJ McLean, Brian Littrell and Kevin Richardson. Their late-1990s albums Backstreet's Back and Millennium made them one of the best-selling pop acts of all time, built on tight five-part harmony and large-scale choreography. The group has continued to tour and record together, including an extended Las Vegas residency.",
+        "agency": null,
+        "members": "5 members",
+        "debut": "1993"
+      },
+      "Weezer": {
+        "text": "Weezer are an American rock band formed in Los Angeles in 1992 and led by singer-guitarist Rivers Cuomo. Their 1994 self-titled debut, widely known as the Blue Album, paired crunchy power-pop guitars with deliberately awkward, confessional lyrics and became a touchstone for the genre. The band has since released a long run of albums that swing between polished radio rock and deliberately eccentric side projects.",
+        "agency": null,
+        "members": "4 members",
+        "debut": "1992"
+      },
+      "Primus": {
+        "text": "Primus are an American rock band formed in the San Francisco Bay Area in 1984 around bassist and vocalist Les Claypool. Built on Claypool's percussive slap bass, angular guitar work and cartoonish storytelling, their sound sits between funk, metal and progressive rock. Albums such as Sailing the Seas of Cheese and Pork Soda made them one of the more idiosyncratic acts to reach a mainstream audience in the 1990s.",
+        "agency": null,
+        "members": "Trio",
+        "debut": "1984"
+      },
+      "Steven Wilson": {
+        "text": "Steven Wilson is an English musician, songwriter and producer best known as the founder and frontman of Porcupine Tree. He launched a solo career in the late 2000s, moving between progressive rock, electronic textures and pop songwriting across a series of albums. He is also widely respected as a mixing engineer, having produced surround and stereo remixes of classic progressive rock catalogues.",
+        "agency": null,
+        "members": "Solo",
+        "debut": "2008"
+      },
+      "Dave Matthews Band": {
+        "text": "Dave Matthews Band are an American rock band formed in Charlottesville, Virginia in 1991. Their sound blends rock songwriting with jazz, folk and worldbeat elements, and features saxophone and violin alongside the standard rock lineup. Long known for extended live improvisation, the band has built one of the most durable touring followings in American music.",
+        "agency": null,
+        "members": "Band",
+        "debut": "1991"
+      },
+      "The Avalanches": {
+        "text": "The Avalanches are an Australian electronic group best known for building entire records out of dense collages of sampled sound. Their 2000 debut Since I Left You, assembled from thousands of samples, became a landmark of plunderphonics and remains their most celebrated work. After a long hiatus they returned with Wildflower and We Will Always Love You, expanding the approach with guest vocalists.",
+        "agency": null,
+        "members": "Duo",
+        "debut": "2000"
+      },
+      "Sugarland": {
+        "text": "Sugarland are an American country duo made up of Jennifer Nettles and Kristian Bush, formed in Atlanta in 2002. Their 2004 debut Twice the Speed of Life established a radio-friendly country sound driven by Nettles' distinctive vocal delivery. The pair went on a hiatus in the 2010s to pursue separate projects before reuniting to record and tour again.",
+        "agency": null,
+        "members": "Duo",
+        "debut": "2002"
+      },
+      "Jorja Smith": {
+        "text": "Jorja Smith is an English singer-songwriter from Walsall whose music draws on soul, R&B and UK garage. She built early attention through self-released tracks and collaborations before her 2018 debut album Lost & Found won wide critical praise. Her writing tends toward restrained, conversational lyrics delivered with a warm, unhurried vocal tone.",
+        "agency": null,
+        "members": "Solo",
+        "debut": "2018"
+      },
+      "Kenshi Yonezu": {
+        "text": "Kenshi Yonezu is a Japanese singer-songwriter, producer and illustrator who first drew attention posting Vocaloid music online under the name Hachi. Recording under his own name since the early 2010s, he has become one of Japan's most commercially dominant artists, with songs such as Lemon and KICK BACK topping domestic charts. He writes, arranges and often illustrates his own releases.",
+        "agency": null,
+        "members": "Solo",
+        "debut": "2012"
+      },
+      "Iceage": {
+        "text": "Iceage are a Danish rock band formed in Copenhagen in 2008. Their early records were terse and abrasive post-punk, but later albums broadened into a looser, more theatrical sound drawing on country, gospel and chamber arrangements. Singer Elias Bender Ronnenfelt's literary, unsettled lyrics have been central to the band's identity throughout.",
+        "agency": null,
+        "members": "4 members",
+        "debut": "2008"
+      },
+      "Fuerza Regida": {
+        "text": "Fuerza Regida are a regional Mexican group formed in San Bernardino, California and fronted by Jesus Ortiz Paz. They are among the leading acts in corridos tumbados, a style that pairs traditional corrido instrumentation with hip-hop attitude and contemporary production. Their releases have made them one of the most-streamed Spanish-language acts in the United States.",
+        "agency": null,
+        "members": "Band",
+        "debut": "2015"
+      },
+      "Jason Isbell & The 400 Unit": {
+        "text": "Jason Isbell & The 400 Unit are an American rock band led by singer-songwriter Jason Isbell, formed after his departure from Drive-By Truckers. Isbell's writing is known for narrative detail and unsparing self-examination, set against a band sound rooted in Southern rock and country. Albums including Southeastern and Reunions have earned multiple Grammy Awards.",
+        "agency": null,
+        "members": "Band",
+        "debut": "2007"
       }
     },
     "ja": {
@@ -1847,6 +2039,60 @@
         "agency": null,
         "members": "ソロ",
         "debut": "2018.10.17 (ソロ)"
+      },
+      "Snow Man": {
+        "text": "Snow Manは、STARTO ENTERTAINMENTに所属する9人組のダンス&ボーカルグループ。2020年1月にシングル「D.D./Imitation Rain」でCDデビューし、以降リリースするシングルが軒並みヒットを記録している。アクロバットを取り入れた激しいパフォーマンスと、メンバー個々の俳優・バラエティでの活躍が特徴。",
+        "agency": "STARTO ENTERTAINMENT",
+        "members": "9人組",
+        "debut": "2020.01.22"
+      },
+      "lynch.": {
+        "text": "lynch.は2004年に名古屋で結成されたロックバンド。ヘヴィなギターリフとダークな世界観を軸に、ヴィジュアル系シーンの中でもとりわけラウドな音像で知られる。結成以来コンスタントに作品を発表し、国内外でのライブ活動を続けている。",
+        "agency": null,
+        "members": "バンド",
+        "debut": null
+      },
+      "さだまさし": {
+        "text": "さだまさしは日本を代表するシンガーソングライターの一人。1972年にフォークデュオ「グレープ」としてデビューし、「精霊流し」などのヒットを経て1976年からソロ活動に転じた。物語性の強い歌詞と、コンサートでの長いトークでも広く知られ、小説家としても作品を発表している。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": "1972"
+      },
+      "広瀬香美": {
+        "text": "広瀬香美はシンガーソングライター・音楽プロデューサーとして活動する日本のアーティスト。1992年のデビュー以降、「ロマンスの神様」「ゲレンデがとけるほど恋したい」などウィンターソングのヒットを重ね、冬の定番アーティストとして定着した。近年は音楽塾の主宰や配信を通じた発信にも力を入れている。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": "1992"
+      },
+      "爆風スランプ": {
+        "text": "爆風スランプは1982年に結成された日本のロックバンド。1984年のメジャーデビュー以降、「Runner」「大きな玉ねぎの下で」などのヒット曲で広く知られるようになった。コミカルな要素とストレートなロックサウンドを併せ持つ作風が特徴で、活動休止を挟みながらもライブ活動を続けている。",
+        "agency": null,
+        "members": "バンド",
+        "debut": "1984"
+      },
+      "細野晴臣": {
+        "text": "細野晴臣は日本のポピュラー音楽史を語るうえで欠かせないミュージシャン・プロデューサー。はっぴいえんど、YMOでの活動を通じて日本のロックとエレクトロニック・ミュージックの礎を築き、以降もエキゾチカ、アンビエント、ブギなど多彩な領域を横断してきた。国内外のアーティストへの影響も大きく、現在もソロ名義での制作とライブを続けている。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": "1969"
+      },
+      "鈴木雅之": {
+        "text": "鈴木雅之はシャネルズ/ラッツ&スターのボーカルとして知られる日本の歌手。ドゥーワップやソウルを土台にした歌唱で人気を集め、1986年からはソロとしても活動を本格化させた。「違う、そうじゃない」などのヒットを持ち、「ラブソングの王様」とも称される。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": "1986"
+      },
+      "Jon Spencer": {
+        "text": "ジョン・スペンサーはアメリカのシンガー・ギタリストで、Pussy Galoreを経てThe Jon Spencer Blues Explosionを率いたことで知られる。ブルースやガレージロック、ロカビリーを乱暴に解体して再構築するようなサウンドと、熱量の高いライブパフォーマンスが持ち味。近年もソロ名義やバンド編成で精力的に活動している。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": null
+      },
+      "ベンジャミン・グローヴナー": {
+        "text": "ベンジャミン・グローヴナーはイギリス出身のピアニスト。10代でBBCヤング・ミュージシャン・オブ・ザ・イヤーの鍵盤部門に優勝し、早くから国際的な注目を集めた。デッカと専属契約を結んだ最初の英国人ピアニストとして知られ、ロマン派を中心に幅広いレパートリーで世界の主要ホールに出演している。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": null
       }
     }
   }
