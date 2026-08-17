@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-13",
+  "last_updated": "2026-08-17",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -54,6 +54,30 @@
       "image_url": null,
       "source_url": "https://festivallife.kr/festival/?bmode=view&idx=134719395",
       "last_updated": "2026-08-02",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-theblackskirts-last-chance-seoul-20250502",
+      "name": "2025 검정치마 단독 공연 \"LAST CHANCE TO COME BACK HOME\"",
+      "release_date": "2025-05-02",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "장충체육관"
+      ],
+      "developer": "검정치마",
+      "publisher": null,
+      "description": "검정치마가 2025년 5월 2일부터 11일까지 서울 장충체육관에서 단독 공연 \"LAST CHANCE TO COME BACK HOME\"을 열었다. 5월 2·3·4일과 9·10·11일 총 엿새 6회차로 진행됐고, 금요일은 오후 8시, 토요일은 오후 7시, 일요일은 오후 6시에 시작했다. 공연 제목은 돌아옴과 작별의 경계를 넘나드는 정서를 담았다. 티켓은 인터파크 티켓 단독으로 판매됐으며 스탠딩과 지정석 13만2000원, 시야제한석 11만원으로 책정됐다. 관람 등급은 만 14세 이상이었다.",
+      "genres": [
+        "인디",
+        "록",
+        "단독공연"
+      ],
+      "image_url": null,
+      "source_url": "https://kopis.or.kr/por/db/pblprfr/pblprfrView.do?menuId=MNU_00020&mt20Id=PF262418",
+      "last_updated": "2026-08-17",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -187,6 +211,30 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-choiyuree-stay-seoul-20251101",
+      "name": "최유리 콘서트 2025 : 머무름 - 서울",
+      "release_date": "2025-11-01",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "경희대학교(평화의전당)"
+      ],
+      "developer": "최유리",
+      "publisher": null,
+      "description": "싱어송라이터 최유리가 2025년 11월 1일과 2일 서울 경희대학교 평화의전당에서 단독 콘서트 '머무름'을 열었다. 1일은 오후 6시, 2일은 오후 5시에 시작했고 관람 시간은 약 120분, 초등학생 이상 관람가로 진행됐다. 9월 18일 티켓링크에서 예매가 열린 뒤 5분 만에 전석이 매진됐고 공연도 만석으로 성료했다. 서울 공연에 이어 11월 15일 부산시민회관 대극장에서 부산 공연이 열렸다.",
+      "genres": [
+        "발라드",
+        "인디",
+        "단독공연"
+      ],
+      "image_url": null,
+      "source_url": "https://www.starnewskorea.com/music/2025/09/18/2025091808414667807",
+      "last_updated": "2026-08-17",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-color-in-music-festival-2025-20251101",
       "name": "2025 컬러 인 뮤직 페스티벌 (Color in Music Festival 2025)",
       "release_date": "2025-11-01",
@@ -245,6 +293,29 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-jeonyujin-twenty-seoul-20251122",
+      "name": "전유진 1st Fan Concert 'TWENTY' 서울",
+      "release_date": "2025-11-22",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "경희대학교(평화의전당)"
+      ],
+      "developer": "전유진",
+      "publisher": null,
+      "description": "전유진이 2025년 11월 22일과 23일 서울 경희대학교 평화의전당에서 첫 단독 팬 콘서트 'TWENTY'를 열었다. 22일은 오후 6시, 23일은 오후 5시에 시작했으며 관람 시간은 약 120분, 8세 이상 관람가로 진행됐다. 스무 살이 된 것을 기념해 마련한 무대로 티켓은 티켓링크에서 단독 판매됐고 R석 14만3000원, S석 12만1000원, A석 11만원으로 책정됐다. 서울에 이어 12월 전주 공연으로 이어졌다.",
+      "genres": [
+        "트로트",
+        "팬미팅"
+      ],
+      "image_url": null,
+      "source_url": "https://www.ticketlink.co.kr/help/notice/63002",
+      "last_updated": "2026-08-17",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-limyoungwoong-imhero-seoul-20260116",
       "name": "2026 임영웅 전국투어 콘서트 'IM HERO' 서울",
       "release_date": "2026-01-16",
@@ -288,6 +359,29 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Giveon_at_2026_Montreux_Jazz_Festival_-_Upright.png/330px-Giveon_at_2026_Montreux_Jazz_Festival_-_Upright.png",
       "source_url": "https://www.livenation.kr/event/giv%C4%93on-dear-beloved-the-tour-seoul-tickets-edp1638152",
       "last_updated": "2026-08-01",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-dynamicduo-once-in-a-while-seoul-20260123",
+      "name": "2025 다이나믹 듀오 단독 콘서트 \"가끔씩 오래 보자\" - 서울",
+      "release_date": "2026-01-23",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "장충체육관"
+      ],
+      "developer": "다이나믹 듀오",
+      "publisher": null,
+      "description": "다이나믹 듀오가 2026년 1월 23일부터 25일까지 서울 장충체육관에서 단독 콘서트 \"가끔씩 오래 보자\" 서울 공연을 사흘간 열었다. 23일 오후 8시, 24일 오후 6시, 25일 오후 5시에 각각 진행됐다. 서울 회차는 티켓 오픈 3분 만에 전석이 매진되며 세대를 아우르는 팬층을 확인시켰다. 이 투어는 서울에 이어 부산·대구·광주로 이어지는 전국 규모로 꾸려졌고, 예매는 NOL 티켓에서 진행됐다.",
+      "genres": [
+        "힙합",
+        "단독공연"
+      ],
+      "image_url": null,
+      "source_url": "https://tickets.interpark.com/contents/notice/detail/11534",
+      "last_updated": "2026-08-17",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -1645,6 +1739,29 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-janghaneum-i-and-i-seoul-20260822",
+      "name": "2026 JANG HANEUM FAN MEETING in SEOUL <i&i : From I to We>",
+      "release_date": "2026-08-22",
+      "release_time": "13:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "공감센터(공감홀)"
+      ],
+      "developer": "장한음",
+      "publisher": null,
+      "description": "가수 장한음이 8월 22일 서울 공감센터 공감홀에서 단독 팬미팅 <i&i : From I to We>를 연다. 낮 1시 30분과 오후 6시 30분 두 차례 진행되며, 지난해 12월 이후 약 8개월 만에 국내 팬들과 만나는 공식 행사다. 라이브 무대와 함께 팬들과 소통하는 여러 코너가 준비된다. 공연 일정과 회차는 장한음 공식 SNS 공지로 확정 공개됐다.",
+      "genres": [
+        "발라드",
+        "팬미팅"
+      ],
+      "image_url": null,
+      "source_url": "https://news.nate.com/view/20260806n18097?mid=e0600",
+      "last_updated": "2026-08-17",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-nflying-into-rem-gwangju-20260822",
       "name": "2026 N.Flying LIVE '&CON5 : into REM' - 광주",
       "release_date": "2026-08-22",
@@ -1735,6 +1852,49 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/NCT127_-_Fact_Check_press_conference_Oct_6_2023.jpg/330px-NCT127_-_Fact_Check_press_conference_Oct_6_2023.jpg",
       "source_url": "https://kpopofficial.com/album/nct-127-comeback-2026/"
+    },
+    {
+      "id": "ko-tuide-tune-and-play-20260824",
+      "name": "튜이드(TUIDE) 미니 1집 [TUNE & PLAY]",
+      "release_date": "2026-08-24",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "튜이드(TUIDE)",
+      "publisher": "ABD(하이브 산하 레이블)",
+      "description": "하이브 신설 레이블 ABD의 첫 걸그룹 튜이드가 8월 24일 오후 6시 데뷔 미니 1집 [TUNE & PLAY]를 발매한다. 앨범명은 서로 다른 음악적 언어를 하나의 리듬으로 맞추고(TUNE) 그 안에서 발견한 즐거움을 확장한다(PLAY)는 뜻을 담았다. 서희·서연·엘레나·지아·사키·바다·이하늘 7인으로 구성됐으며 한국·미국·영국·일본 출신 멤버가 섞인 다국적 팀이다. 정식 데뷔에 앞서 8월 1~2일 서울 마포구 레이어 스튜디오에서 프리뷰 행사 'PLAYGROUND'를 열었다.",
+      "genres": [
+        "K-POP",
+        "데뷔",
+        "걸그룹"
+      ],
+      "image_url": null,
+      "source_url": "https://www.starnewskorea.com/music/2026/08/03/2026080308332112096",
+      "last_updated": "2026-08-17",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-kimkitae-namu-gabang-20260826",
+      "name": "김기태 신곡 '나무가방'",
+      "release_date": "2026-08-26",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "김기태",
+      "publisher": null,
+      "description": "트로트 가수 김기태가 8월 26일 오후 6시 신곡 '나무가방'을 각종 음원 사이트에 발매한다. 6월 발매한 '광안리에서' 이후 약 두 달 만의 신보다. 김기태는 20년 가까운 무명 시절을 돌아보며 이 곡을 작업했고, 고난과 역경을 이겨낸 이연복 셰프의 삶에서 자신의 지난 시간과 겹치는 정서를 발견해 노랫말에 담았다고 밝혔다. 8월 13일 MBC 표준FM '여성시대'에 출연해 곡을 처음 공개했다.",
+      "genres": [
+        "트로트",
+        "신곡"
+      ],
+      "image_url": null,
+      "source_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=06120486645546992",
+      "last_updated": "2026-08-17",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-infinite-mudaejiphoe-v-incheon-20260829",
@@ -1986,6 +2146,38 @@
       "image_url": null,
       "source_url": "http://www.osen.co.kr/article/G1112853420",
       "last_updated": "2026-08-10",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-kimyoona-coffee-and-cigarette-20260905",
+      "name": "2026 김윤아 단독 콘서트 'Coffee and Cigarette'",
+      "release_date": "2026-09-05",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "성신여자대학교(운정그린캠퍼스 대강당)"
+      ],
+      "developer": "김윤아",
+      "publisher": null,
+      "description": "자우림 보컬 김윤아가 9월 5일과 6일, 12일과 13일 네 차례에 걸쳐 서울 성신여자대학교 운정그린캠퍼스 대강당에서 단독 콘서트 'Coffee and Cigarette'을 연다. 공연장은 김윤아의 모교다. 재즈 스탠더드 '블랙 커피'의 가사에서 제목을 따온 가을 살롱 콘서트로, 재즈 넘버와 가을에 어울리는 서정적인 선곡을 중심으로 꾸며진다. 2025년 4월 이후 약 1년 5개월 만의 단독 공연이며 티켓은 8월 5일 오후 2시 NOL 티켓에서 단독 오픈됐다. 전석 지정석 14만3000원.",
+      "genres": [
+        "록",
+        "재즈",
+        "단독공연"
+      ],
+      "image_url": null,
+      "source_url": "https://sports.khan.co.kr/article/202608041346003/",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-05T14:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-17",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -2397,6 +2589,37 @@
       "general_sale_url": "https://tickets.interpark.com/goods/26010264"
     },
     {
+      "id": "ko-kimyongbin-serenade-seoul-20260919",
+      "name": "2026 김용빈 콘서트 '세레나데'",
+      "release_date": "2026-09-19",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "올림픽공원(티켓링크 라이브 아레나)"
+      ],
+      "developer": "김용빈",
+      "publisher": null,
+      "description": "트로트 가수 김용빈이 9월 19일과 20일 서울 송파구 올림픽공원 티켓링크 라이브 아레나에서 데뷔 후 첫 단독 콘서트 '세레나데'를 연다. 공연은 오후 5시 시작해 약 120분간 진행된다. 티켓은 당초 8월 6일 오픈 예정이었으나 아티스트 행사 일정과 겹쳐 10일로 변경됐고, 오픈 직후 양일 전석이 매진됐다. 김용빈 본인도 예매에 실패했다며 좋은 무대로 보답하겠다는 글을 남겼다. 좌석 가격은 SR석 16만5000원, R석 14만3000원, S석 13만2000원이었다.",
+      "genres": [
+        "트로트",
+        "단독공연"
+      ],
+      "image_url": null,
+      "source_url": "https://www.starnewskorea.com/music/2026/08/11/2026081114285997044",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": "2026-08-10T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-17",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-vaundy-horo-seoul-20260919",
       "name": "Vaundy ASIA ARENA TOUR 2026 \"HORO\" IN SEOUL",
       "release_date": "2026-09-19",
@@ -2459,6 +2682,27 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/BoyNextDoor_at_the_2024_Melon_Music_Awards.png",
       "source_url": "https://www.osen.co.kr/article/G1112851492",
       "last_updated": "2026-08-13",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-closeyoureyes-comeback-20260930",
+      "name": "클로즈 유어 아이즈 새 앨범 (9월 말 컴백)",
+      "release_date": "2026-09-30",
+      "release_time": null,
+      "release_date_approx": true,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "클로즈 유어 아이즈",
+      "publisher": "언코어",
+      "description": "보이그룹 클로즈 유어 아이즈가 9월 말 새 앨범으로 돌아온다. 소속사 언코어는 8월 10일 컴백 사실을 공식화했으며, 4월 발매한 디지털 싱글 '포즈' 이후 약 5개월 만의 초고속 컴백이다. 현재까지 공개된 일정은 '9월 말'뿐이고 정확한 발매일과 앨범명은 미공개 상태여서 등록된 날짜는 9월 말 기준 임시값이다. 공식 발표가 나오는 대로 정확한 일자로 갱신할 예정이다.",
+      "genres": [
+        "K-POP",
+        "컴백"
+      ],
+      "image_url": null,
+      "source_url": "https://isplus.com/article/view/isp202608100020",
+      "last_updated": "2026-08-17",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -2801,6 +3045,38 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-leechangsub-unknown-seoul-20261009",
+      "name": "2026 이창섭 단독 콘서트 'Unknown'",
+      "release_date": "2026-10-09",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "올림픽공원(티켓링크 라이브 아레나)"
+      ],
+      "developer": "이창섭",
+      "publisher": null,
+      "description": "비투비 이창섭이 10월 9일부터 11일까지 사흘간 서울 올림픽공원 티켓링크 라이브 아레나(핸드볼경기장)에서 단독 콘서트 'Unknown'을 연다. 9일과 10일은 오후 6시, 11일은 오후 5시에 시작한다. 2024-2025년 'The Wayfarer', 2025-2026년 'EndAnd'에 이은 3년 연속 단독 공연으로, 사랑이 떠난 뒤 남겨진 사계절의 기억을 서사시 형태의 무대 구성으로 풀어낸다. 티켓은 티켓링크에서 단독 판매되며 8월 26일 오후 8시 팬클럽 선예매, 27일 오후 8시 일반 예매가 열린다.",
+      "genres": [
+        "발라드",
+        "K-POP",
+        "단독공연"
+      ],
+      "image_url": null,
+      "source_url": "https://www.munhwa.com/article/11609098",
+      "presale": true,
+      "presale_datetime": "2026-08-26T20:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-27T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-17",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-charlieputh-whatevers-clever-goyang-20261011",
       "name": "Charlie Puth - Whatever's Clever! World Tour in Seoul",
       "release_date": "2026-10-11",
@@ -3042,6 +3318,37 @@
       "general_sale": true,
       "general_sale_datetime": "2026-08-10T20:00:00+09:00",
       "last_updated": "2026-08-10",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-mumyeongjeonseol-busan-encore-20261231",
+      "name": "2026 무명전설 전국투어 콘서트 - 부산 앵콜",
+      "release_date": "2026-12-31",
+      "release_time": "13:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "부산 벡스코(오디토리움)"
+      ],
+      "developer": "무명전설 TOP7",
+      "publisher": null,
+      "description": "MBN '무명전설' TOP7이 12월 31일 부산 벡스코 오디토리움에서 전국투어 앵콜 공연을 열며 한 해를 마무리한다. 공연은 오후 1시와 오후 6시 두 차례 진행된다. 6월 27~28일 서울을 시작으로 수원·고양·부산·대구를 돌며 매진 행렬을 이어온 전국투어의 피날레 무대로, 방송에서 선보인 곡과 함께 콘서트에서만 볼 수 있는 세트리스트와 특별 무대가 준비된다. 티켓은 8월 10일 오후 1시 NOL 티켓에서 오픈됐다.",
+      "genres": [
+        "트로트",
+        "전국투어"
+      ],
+      "image_url": null,
+      "source_url": "https://www.slist.kr/news/articleView.html?idxno=757852",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-10T13:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-17",
       "last_researched_by": "ko-researcher"
     },
     {
