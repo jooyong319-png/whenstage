@@ -987,9 +987,12 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/MCR820_%28cropped%29.jpg/330px-MCR820_%28cropped%29.jpg",
       "source_url": "https://variety.com/2025/music/news/my-chemical-romance-black-parade-2026-tour-dates-1236526059/",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2025-09-26T12:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/my-chemical-romance-tickets/artist/859324"
+      "general_sale_url": "https://www.ticketmaster.com/my-chemical-romance-tickets/artist/859324",
+      "presale": false,
+      "last_updated": "2026-08-18",
+      "last_researched_by": "en-researcher"
     },
     {
       "id": "en-avenged-sevenfold-good-charlotte-belmont-park-20260810",
@@ -1012,9 +1015,12 @@
       ],
       "image_url": null,
       "source_url": "https://loudwire.com/avenged-sevenfold-good-charlotte-2026-north-american-tour-dates/",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2025-12-12T10:00:00-05:00",
-      "general_sale_url": null
+      "general_sale_url": null,
+      "presale": false,
+      "last_updated": "2026-08-18",
+      "last_researched_by": "en-researcher"
     },
     {
       "id": "en-mamamoo-2026-us-reunion-tour-belmont-park-20260812",
@@ -1042,9 +1048,10 @@
       ],
       "image_url": null,
       "source_url": "https://www.billboard.com/music/pop/mamamoo-dates-2026-us-reunion-tour-1236236788/",
-      "general_sale": true,
-      "last_updated": "2026-08-03",
-      "last_researched_by": "en-researcher"
+      "general_sale": false,
+      "last_updated": "2026-08-18",
+      "last_researched_by": "en-researcher",
+      "presale": false
     },
     {
       "id": "en-peace-test-repercussion-20260814",
@@ -4141,6 +4148,549 @@
       "image_url": null,
       "source_url": "https://sigurros.com/tour/2025/20251119_losangeles/",
       "last_updated": "2026-08-14",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-steve-lacy-oh-yeah-new-york-20261010",
+      "name": "Steve Lacy: Oh yeah? Tour - New York",
+      "release_date": "2026-10-10",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Radio City Music Hall, New York, NY"
+      ],
+      "developer": "Steve Lacy",
+      "publisher": null,
+      "description": "Steve Lacy brings the Oh yeah? Tour to Radio City Music Hall on October 10, 2026, his first headline performance at the New York landmark. The 27-city North American run is his first since 2022 and supports his third album Oh yeah?, released on RCA in July with guest turns from SZA, Tyler, the Creator, Erykah Badu, Fousheé and Cecile Believe. Tickets are on sale through Ticketmaster.",
+      "genres": [
+        "R&B",
+        "Alternative",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/08/steve-lacy-2026-oh-yeah-north-american-tour/",
+      "last_updated": "2026-08-18",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.com/steve-lacy-tickets/artist/2330907"
+    },
+    {
+      "id": "en-steve-lacy-oh-yeah-morrison-20261111",
+      "name": "Steve Lacy: Oh yeah? Tour - Morrison",
+      "release_date": "2026-11-11",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Denver",
+      "category": "concert_tour",
+      "platforms": [
+        "Red Rocks Amphitheatre, Morrison, CO"
+      ],
+      "developer": "Steve Lacy",
+      "publisher": null,
+      "description": "Steve Lacy plays Red Rocks Amphitheatre outside Denver on November 11, 2026 as part of the Oh yeah? Tour. The show sits in the western stretch of a 27-date North American itinerary that opens September 27 in Minneapolis and closes November 30 in Vancouver. The tour supports Oh yeah?, the guitarist and singer's third solo album, issued by RCA Records in July 2026.",
+      "genres": [
+        "R&B",
+        "Alternative",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/08/steve-lacy-2026-oh-yeah-north-american-tour/",
+      "last_updated": "2026-08-18",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.com/steve-lacy-tickets/artist/2330907"
+    },
+    {
+      "id": "en-steve-lacy-oh-yeah-los-angeles-20261121",
+      "name": "Steve Lacy: Oh yeah? Tour - Los Angeles",
+      "release_date": "2026-11-21",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Hollywood Bowl, Los Angeles, CA"
+      ],
+      "developer": "Steve Lacy",
+      "publisher": null,
+      "description": "Steve Lacy makes his Hollywood Bowl headline debut on November 21, 2026, the hometown highlight of the Oh yeah? Tour. The Compton-raised musician, once of The Internet, returns to Los Angeles behind Oh yeah?, his third solo album for RCA Records. The 27-city North American run began September 27 in Minneapolis and wraps November 30 in Vancouver. Tickets are available through Ticketmaster.",
+      "genres": [
+        "R&B",
+        "Alternative",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/08/steve-lacy-2026-oh-yeah-north-american-tour/",
+      "last_updated": "2026-08-18",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.com/steve-lacy-tickets/artist/2330907"
+    },
+    {
+      "id": "en-erykah-badu-alchemist-cleveland-20260915",
+      "name": "Erykah Badu & The Alchemist - Cleveland",
+      "release_date": "2026-09-15",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Jacobs Pavilion, Cleveland, OH"
+      ],
+      "developer": "Erykah Badu, The Alchemist, De La Soul",
+      "publisher": null,
+      "description": "Erykah Badu and producer The Alchemist play Jacobs Pavilion on the Cleveland riverfront on September 15, 2026, with De La Soul on the bill. The fall co-headline run is tied to the pair's long-teased collaborative album, recorded over roughly eighteen months in Dallas and Los Angeles. The tour opened September 10 at Ravinia Festival in Illinois and finishes September 29 at the Hollywood Bowl.",
+      "genres": [
+        "R&B",
+        "Hip-Hop",
+        "Soul"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/06/erykah-badu-2026-tour-dates/",
+      "last_updated": "2026-08-18",
+      "last_researched_by": "en-researcher",
+      "general_sale": true
+    },
+    {
+      "id": "en-erykah-badu-alchemist-queens-20260918",
+      "name": "Erykah Badu & The Alchemist - Queens",
+      "release_date": "2026-09-18",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Forest Hills Stadium, Queens, NY"
+      ],
+      "developer": "Erykah Badu, The Alchemist, De La Soul",
+      "publisher": null,
+      "description": "Erykah Badu and The Alchemist headline Forest Hills Stadium at the West Side Tennis Club in Queens on September 18, 2026, the New York stop of their fall co-headline tour. De La Soul appear in support. The run previews the duo's joint album, which arrives August 28 via Control FREAQ Records and Young Recordings after roughly eighteen months of sessions in Dallas and Los Angeles.",
+      "genres": [
+        "R&B",
+        "Hip-Hop",
+        "Soul"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/06/erykah-badu-2026-tour-dates/",
+      "last_updated": "2026-08-18",
+      "last_researched_by": "en-researcher",
+      "general_sale": true
+    },
+    {
+      "id": "en-erykah-badu-alchemist-los-angeles-20260929",
+      "name": "Erykah Badu & The Alchemist - Los Angeles",
+      "release_date": "2026-09-29",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Hollywood Bowl, Los Angeles, CA"
+      ],
+      "developer": "Erykah Badu, The Alchemist, De La Soul, Smino",
+      "publisher": null,
+      "description": "Erykah Badu and The Alchemist close their 2026 North American tour at the Hollywood Bowl on September 29, with De La Soul and Smino joining the bill. The Los Angeles finale caps a September run that began at Ravinia Festival and passed through Detroit, Toronto, Cleveland, New York, Denver and Berkeley, spotlighting the duo's newly released collaborative album.",
+      "genres": [
+        "R&B",
+        "Hip-Hop",
+        "Soul"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/06/erykah-badu-2026-tour-dates/",
+      "last_updated": "2026-08-18",
+      "last_researched_by": "en-researcher",
+      "general_sale": true
+    },
+    {
+      "id": "en-jamila-woods-10-years-of-heavn-portland-20261119",
+      "name": "Jamila Woods: 10 Years of HEAVN - Portland",
+      "release_date": "2026-11-19",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Wonder Ballroom, Portland, OR"
+      ],
+      "developer": "Jamila Woods",
+      "publisher": null,
+      "description": "Jamila Woods brings her 10 Years of HEAVN tour to Wonder Ballroom in Portland on November 19, 2026. The short six-city run marks a decade since the Chicago poet and singer released her debut album HEAVN, and travels from Los Angeles through San Francisco, Portland, Seattle and Brooklyn before a hometown finale at Thalia Hall on December 6.",
+      "genres": [
+        "R&B",
+        "Soul",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/08/jamila-woods-2026-tour-dates-heavn-10th-anniversary/",
+      "last_updated": "2026-08-18",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.com/jamila-woods-tickets/artist/1684724"
+    },
+    {
+      "id": "en-allison-russell-hour-of-chaos-boston-20261018",
+      "name": "Allison Russell: In the Hour of Chaos Tour - Boston",
+      "release_date": "2026-10-18",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Royale, Boston, MA"
+      ],
+      "developer": "Allison Russell",
+      "publisher": null,
+      "description": "Allison Russell plays Royale in Boston on October 18, 2026 on her fall North American headline tour. The 20-date run supports In the Hour of Chaos, her third solo album, released in July 2026 with contributions from Norah Jones, Brittney Spencer, Joy Oladokun and Kara Jackson. Elisapie and AHI join as special guests on selected dates.",
+      "genres": [
+        "Folk",
+        "Americana",
+        "Singer-Songwriter"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/08/allison-russell-2026-north-american-tour/",
+      "last_updated": "2026-08-18",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.com/allison-russell-tickets/artist/2788777"
+    },
+    {
+      "id": "en-allison-russell-hour-of-chaos-seattle-20261111",
+      "name": "Allison Russell: In the Hour of Chaos Tour - Seattle",
+      "release_date": "2026-11-11",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "The Showbox, Seattle, WA"
+      ],
+      "developer": "Allison Russell",
+      "publisher": null,
+      "description": "Allison Russell performs at The Showbox in Seattle on November 11, 2026, near the end of her fall North American headline tour. The 20-date itinerary opened October 15 in Asheville and closes November 15 in Berkeley, California. It supports In the Hour of Chaos, the Montreal-born singer-songwriter's heavily collaborative third solo album released in July 2026.",
+      "genres": [
+        "Folk",
+        "Americana",
+        "Singer-Songwriter"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/08/allison-russell-2026-north-american-tour/",
+      "last_updated": "2026-08-18",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.com/allison-russell-tickets/artist/2788777"
+    },
+    {
+      "id": "en-bourbon-and-beyond-2026-20260924",
+      "name": "Bourbon & Beyond 2026",
+      "release_date": "2026-09-24",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "festival",
+      "platforms": [
+        "Highland Festival Grounds at Kentucky Exposition Center, Louisville, KY"
+      ],
+      "developer": "Foo Fighters, Queens of the Stone Age, Mumford & Sons, Kacey Musgraves, Chris Stapleton, Dave Matthews Band",
+      "publisher": "Danny Wimmer Presents",
+      "description": "Bourbon & Beyond returns to the Highland Festival Grounds at the Kentucky Exposition Center in Louisville from September 24 to 27, 2026 for its eighth edition. Danny Wimmer Presents has assembled the largest lineup in festival history, with more than 100 artists across five stages alongside bourbon tastings and chef demonstrations. Day-by-day set times were published in August ahead of the four-day run.",
+      "genres": [
+        "Rock",
+        "Country",
+        "Festival"
+      ],
+      "image_url": null,
+      "source_url": "https://bourbonandbeyond.com/lineup/",
+      "last_updated": "2026-08-18",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://bourbonandbeyond.com/",
+      "festival_days": [
+        {
+          "date": "2026-09-24",
+          "lineup": [
+            "Foo Fighters",
+            "Queens of the Stone Age",
+            "Father John Misty",
+            "The Flaming Lips"
+          ]
+        },
+        {
+          "date": "2026-09-25",
+          "lineup": [
+            "Mumford & Sons",
+            "Kacey Musgraves",
+            "Portugal. The Man",
+            "The War on Drugs"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "lineup": [
+            "Chris Stapleton",
+            "The Red Clay Strays",
+            "Charley Crockett",
+            "Joan Jett & The Blackhearts"
+          ]
+        },
+        {
+          "date": "2026-09-27",
+          "lineup": [
+            "Dave Matthews Band",
+            "Hootie & the Blowfish",
+            "Violent Femmes",
+            "Durand Jones & The Indications"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-rock-the-bells-festival-2026-20261129",
+      "name": "Rock The Bells Festival 2026",
+      "release_date": "2026-11-29",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "festival",
+      "platforms": [
+        "Prudential Center, Newark, NJ"
+      ],
+      "developer": "LL Cool J, SWV, Method Man & Redman, Lil' Kim, D-Nice, The LOX, LeToya Luckett, David Banner",
+      "publisher": "Rock The Bells / Black Promoters Collective",
+      "description": "Rock The Bells Festival returns to the Prudential Center in Newark on Sunday, November 29, 2026, closing Hip-Hop History Month over Thanksgiving weekend. Founder LL Cool J headlines alongside SWV, Method Man & Redman and Lil' Kim, plus a D-Nice-curated set featuring LeToya Luckett, David Banner and The LOX. Further additions are promised in the weeks ahead.",
+      "genres": [
+        "Hip-Hop",
+        "R&B",
+        "Festival"
+      ],
+      "image_url": null,
+      "source_url": "https://www.iconvsicon.com/2026/08/17/rock-the-bells-festival-2026-ll-cool-j-lil-kim-newark/",
+      "last_updated": "2026-08-18",
+      "last_researched_by": "en-researcher",
+      "presale": true,
+      "presale_datetime": "2026-08-18T10:00:00-04:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-21T10:00:00-04:00",
+      "general_sale_url": "https://www.rockthebellsfestival.com/",
+      "festival_days": [
+        {
+          "date": "2026-11-29",
+          "lineup": [
+            "LL Cool J",
+            "SWV",
+            "Method Man & Redman",
+            "Lil' Kim",
+            "D-Nice",
+            "The LOX",
+            "LeToya Luckett",
+            "David Banner"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-king-gizzard-alien-metal-20260814",
+      "name": "King Gizzard & The Lizard Wizard - Alien Metal",
+      "release_date": "2026-08-14",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Australia/Melbourne",
+      "category": "music_release",
+      "platforms": [
+        "p(doom) Records",
+        "Streaming",
+        "Digital",
+        "Vinyl"
+      ],
+      "developer": "King Gizzard & The Lizard Wizard",
+      "publisher": "p(doom) Records",
+      "description": "Alien Metal is the twenty-eighth studio album by Australian band King Gizzard & The Lizard Wizard, surprise released on August 14, 2026 through the group's own p(doom) Records a day after it was confirmed. Announced in July alongside lead single Level 5, the record pushes the rave and techno direction the band had been developing live with their modular synth rig, following the singles Alien Metal and Kill for the Steel.",
+      "genres": [
+        "Psychedelic Rock",
+        "Electronic",
+        "Album"
+      ],
+      "image_url": null,
+      "source_url": "https://en.wikipedia.org/wiki/Alien_Metal",
+      "last_updated": "2026-08-18",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-erykah-badu-alchemist-album-20260828",
+      "name": "Erykah Badu & The Alchemist - Collaborative Album",
+      "release_date": "2026-08-28",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Chicago",
+      "category": "music_release",
+      "platforms": [
+        "Control FREAQ Records",
+        "Young Recordings",
+        "Streaming",
+        "Digital"
+      ],
+      "developer": "Erykah Badu, The Alchemist",
+      "publisher": "Control FREAQ Records / Young Recordings",
+      "description": "Erykah Badu and producer The Alchemist release their long-delayed joint album digitally on August 28, 2026 via Control FREAQ Records and Young Recordings. The pair recorded it over roughly eighteen months in Dallas and Los Angeles, and the announcement arrived with the single Witch Doctor, following earlier previews Next to You and Echos 19. A formal title and cover art had not been revealed at announcement, with the Bandcamp listing left deliberately untitled.",
+      "genres": [
+        "R&B",
+        "Hip-Hop",
+        "Album"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/08/erykah-badu-the-alchemist-new-album-witch-doctor/",
+      "last_updated": "2026-08-18",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-brandi-carlile-returning-to-myself-sad-gay-version-20260925",
+      "name": "Brandi Carlile - Returning To Myself (Sad Gay Version)",
+      "release_date": "2026-09-25",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "music_release",
+      "platforms": [
+        "Interscope Records",
+        "Lost Highway",
+        "Streaming",
+        "Digital"
+      ],
+      "developer": "Brandi Carlile",
+      "publisher": "Interscope Records / Lost Highway",
+      "description": "Brandi Carlile releases Returning To Myself (Sad Gay Version) on September 25, 2026 through Interscope Records and Lost Highway. The 21-track expanded edition reworks all ten songs from the original album in a quieter register, with four tracks co-produced at Long Pond Studio in upstate New York alongside Aaron Dessner of The National. A new reading of Human featuring Jon Hopkins was shared as a first preview.",
+      "genres": [
+        "Americana",
+        "Folk",
+        "Album"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/08/brandi-carlile-announces-returning-to-myself-sad-gay-version/",
+      "last_updated": "2026-08-18",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-claud-me-and-the-music-20261023",
+      "name": "Claud - Me and the Music",
+      "release_date": "2026-10-23",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "music_release",
+      "platforms": [
+        "Dead Oceans",
+        "Streaming",
+        "Digital",
+        "Vinyl"
+      ],
+      "developer": "Claud",
+      "publisher": "Dead Oceans",
+      "description": "Me and the Music is the third studio album from Brooklyn singer-songwriter Claud, due October 23, 2026 on Dead Oceans. It is their first full-length since 2023's Supermodels, and was announced in August alongside the lead single She Doesn't Love Me and an accompanying music video. Pre-orders opened at announcement through the label and independent record shops.",
+      "genres": [
+        "Indie Pop",
+        "Bedroom Pop",
+        "Album"
+      ],
+      "image_url": null,
+      "source_url": "https://deadoceans.com/news/claud-announces-new-album-me-and-the-music-out-october-23-2026-new-single-she-doesnt-love-me-out-now/",
+      "last_updated": "2026-08-18",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-lorna-shore-everblack-london-20260208",
+      "name": "Lorna Shore: I Feel The Everblack Festering Within Me - London",
+      "release_date": "2026-02-08",
+      "release_time": "18:30",
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Alexandra Palace, London"
+      ],
+      "developer": "Lorna Shore, Whitechapel, Shadow of Intent, Humanity's Last Breath",
+      "publisher": null,
+      "description": "Lorna Shore headlined a sold-out Alexandra Palace in north London on February 8, 2026, the biggest UK date of their I Feel The Everblack Festering Within Me tour. Humanity's Last Breath, Shadow of Intent and Whitechapel filled out the bill from 6:30pm, and the New Jersey deathcore band took the stage at 9:20pm. The set drew on the new album alongside the Pain Remains trilogy and closed with To the Hellfire.",
+      "genres": [
+        "Deathcore",
+        "Metal",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.setlist.fm/setlist/lorna-shore/2026/alexandra-palace-london-england-7b42aee4.html",
+      "last_updated": "2026-08-18",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-pinkpantheress-an-evening-london-20260529",
+      "name": "An Evening With PinkPantheress - London",
+      "release_date": "2026-05-29",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Alexandra Palace, London"
+      ],
+      "developer": "PinkPantheress, iKeda",
+      "publisher": null,
+      "description": "PinkPantheress played a sold-out Alexandra Palace on May 29, 2026 on the UK and European leg of her An Evening With PinkPantheress tour, with iKeda opening. The London show followed her Producer of the Year win at the 2026 BRIT Awards and drew reviews praising a theatrical production of choreography, costume changes and intricate lighting that scaled her bedroom-pop songs up to an arena-sized room.",
+      "genres": [
+        "Pop",
+        "Electronic",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.setlist.fm/setlist/pinkpantheress/2026/alexandra-palace-london-england-3b48cc80.html",
+      "last_updated": "2026-08-18",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-lord-huron-cosmic-selector-st-augustine-20260727",
+      "name": "Lord Huron: The Cosmic Selector Tour - St. Augustine",
+      "release_date": "2026-07-27",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "St. Augustine Amphitheatre, St. Augustine, FL"
+      ],
+      "developer": "Lord Huron",
+      "publisher": null,
+      "description": "Lord Huron played the St. Augustine Amphitheatre in northern Florida on July 27, 2026 as part of The Cosmic Selector Tour. Doors opened at six and the show began at seven, running close to two hours. The Los Angeles indie folk band drew on the album that gave the tour its name alongside older material such as The Night We Met and Ends of the Earth.",
+      "genres": [
+        "Indie Folk",
+        "Indie Rock",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.theamp.com/events/detail/lord-huron",
+      "last_updated": "2026-08-18",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-the-black-keys-peaches-n-kream-st-augustine-20260729",
+      "name": "The Black Keys: Peaches 'n Kream World Tour - St. Augustine",
+      "release_date": "2026-07-29",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "St. Augustine Amphitheatre, St. Augustine, FL"
+      ],
+      "developer": "The Black Keys, Eddie 9V",
+      "publisher": null,
+      "description": "The Black Keys performed at the St. Augustine Amphitheatre on July 29, 2026 on their Peaches 'n Kream World Tour '26, with Atlanta blues guitarist Eddie 9V opening. Doors opened at 5:30pm and the Akron duo of Dan Auerbach and Patrick Carney started at seven, working through catalogue staples including Lonely Boy, Gold on the Ceiling and Tighten Up.",
+      "genres": [
+        "Rock",
+        "Blues Rock",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.theamp.com/events/detail/the-black-keys-2026",
+      "last_updated": "2026-08-18",
       "last_researched_by": "en-researcher"
     }
   ]
