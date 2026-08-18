@@ -1,3 +1,31 @@
+## [2026-08-18 09:30] [EN 리서처]
+리서치 완료 (영어권/글로벌 시장 공연)
+- 콘서트/투어 12→9, 발매 6→4, 페스티벌 4→2, 팬미팅 0→0 (후보→통과)
+- 뉴스 인계 처리 13건 중 11건 등재 (`data/leads.en.jsonl` 미등재분 대조)
+- 신규 19개 / 갱신 3개 (삭제 없음·전량 보존)
+- 과거 백필 4개 → **공연장 색인전환 3개**(Alexandra Palace London 1→3, St. Augustine Amphitheatre 1→3, Wonder Ballroom Portland 1→2) / 기존 공연장 보강 6개(Hollywood Bowl 2→4, Red Rocks 3→4, Royale Boston 2→3, The Showbox Seattle 2→3, Jacobs Pavilion 2→3, Forest Hills Stadium 2→3)
+- 티켓팅 진행중 82개 (추가 +13 / 해제 -3)
+- description 보강 0개 (신규 19건 전량 40단어 이상, 기존 항목 중 40단어 미만 0건 확인)
+- 총 등록 168개
+
+신규 등재 상세
+- concert_tour 9: Steve Lacy "Oh yeah? Tour" 3건(10/10 Radio City Music Hall·11/11 Red Rocks·11/21 Hollywood Bowl 데뷔) / Erykah Badu & The Alchemist w/ De La Soul 3건(9/15 Jacobs Pavilion·9/18 Forest Hills Stadium·9/29 Hollywood Bowl 피날레) / Jamila Woods "10 Years of HEAVN" 1건(11/19 Wonder Ballroom) / Allison Russell "In the Hour of Chaos" 2건(10/18 Royale Boston·11/11 The Showbox Seattle)
+- festival 2: Bourbon & Beyond 2026(9/24~27, Highland Festival Grounds at Kentucky Exposition Center, Danny Wimmer Presents, festival_days 4일 헤드라이너 등재) / Rock The Bells Festival 2026(11/29 Prudential Center Newark, 8/18 프리세일·8/21 일반예매 임박이라 presale·general_sale 모두 true + ISO 오프셋 채움)
+- music_release 4: King Gizzard & The Lizard Wizard - Alien Metal(8/14 기습발매, p(doom)) / Erykah Badu & The Alchemist 합작 앨범(8/28, Control FREAQ·Young Recordings — 공식 타이틀 미공개라 name을 "Collaborative Album"으로 두고 description에 사유 서술) / Brandi Carlile - Returning To Myself (Sad Gay Version)(9/25, Interscope·Lost Highway) / Claud - Me and the Music(10/23, Dead Oceans)
+- 과거 백필 4(AGENTS.md §7 규칙 준수 — release_date_approx:false, 티켓팅 필드 비움, 과거시제 description, 등재 직전 오늘 이전 날짜 확인 완료): Lorna Shore 2/8 Alexandra Palace / PinkPantheress 5/29 Alexandra Palace / Lord Huron 7/27 St. Augustine Amphitheatre / The Black Keys 7/29 St. Augustine Amphitheatre
+
+기존 항목 갱신(티켓팅 해제 — 공연 종료)
+- en-mcr-black-parade-2026-new-york-20260809 / en-avenged-sevenfold-good-charlotte-belmont-park-20260810 / en-mamamoo-2026-us-reunion-tour-belmont-park-20260812 → general_sale false
+
+[검증 탈락]
+- Foo Fighters "Take Cover Tour" 남미 4회(2027-02-23~03-03, Montevideo·Buenos Aires·Santiago·Lima): 날짜·티켓 정보는 확인됐으나 개최지가 전부 비영어권 남미이고 영어권 이용자 대상성이 약해 이번 사이클 보류. 다음 사이클에 EN 대상 여부 재판단.
+- Backstreet Boys "Into The Millennium" 뒤셀도르프 레지던시 10회(9/25~10/7, Merkur Spiel Arena): 독일 개최 건이라 영어권 시장 대상성이 낮다고 판단해 보류. NYE Sphere 건은 기존 등재분 유지.
+- Field of Vision II(8/15~16, Buena Vista, CO): King Gizzard 자체 주최 페스티벌이나 공식 라인업·정확한 이틀 일정이 독립 출처 2개로 확정되지 않음. 이미 종료된 일정이라 백필 후보로도 공연장 색인 이득이 없어 제외.
+- Fuerza Regida "This Is Our Dream" 2차 레그 9개 도시(10/3~10/31): 날짜는 확인되나 전부 신규 1건짜리 공연장을 양산하는 "같은 투어 다른 도시" 케이스라 이번 사이클 제외(Red Rocks 피날레는 기존 등재분 유지).
+- RUSH "Fifty Something" 토론토 4회(8/7·8/9·8/11·8/13, Scotiabank Arena): 이미 종료됐고 Scotiabank Arena가 신규 1건짜리 공연장이 되어 백필 기준에 맞지 않아 제외.
+- Jamila Woods 나머지 5개 도시(Lodge Room LA·August Hall SF·The Crocodile Seattle·Music Hall of Williamsburg·Thalia Hall Chicago): 날짜는 확정됐으나 모두 신규 1건짜리 공연장이라 이번 사이클은 Wonder Ballroom 1건만 등재. 다음 사이클에 해당 공연장 2건째가 생기면 추가 검토.
+
+[KO/JA 리서처 요청] 없음(이번 사이클 크로스 로케일 등재 없음)
 ## [2026-08-17 14:15] [KO 뉴스]
 뉴스 작성 완료 (한국 국내 공연 뉴스)
 - 신규 기사 4건: 이하이 단독 콘서트 'HI-biscus Garden Live vol. 1' 20일 정오 티켓 오픈 / 아스트로 MJ 첫 솔로 싱글 '라잇...?' 19일 발매·콘셉트 포토 공개 / 2PM 준케이 '유어 립스' 오늘 발매(웬디 피처링) / 아일릿 '아이 갓 유어 백' 한국어 버전 오늘 발매
