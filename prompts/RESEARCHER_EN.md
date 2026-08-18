@@ -163,10 +163,13 @@ git config user.name "Researcher Claude (EN)"
 - `festival_days`(festival 카테고리만, §아래 페스티벌 라인업 참고): 공식 라인업 발표 후에만.
 - `description`: 2~4문장, **영어 최소 40단어 이상**(권장 50~80단어), 원본 재서술. 보도자료 문구 복붙 금지, 사실만. 40단어 미만이 하나도 없게 유지.
 - `last_updated`, `last_researched_by: "en-researcher"` 갱신.
-- JSON 검증 필수:
+- JSON 검증 필수. **건수만 세지 말고 반드시 아래를 돌릴 것**:
 ```bash
-python3 -c "import json; d=json.load(open('data/concerts.en.json')); print('EN', len(d['games']),'개')"
+npm run validate
 ```
+  건수 출력만으로는 `last_updated`를 안 올린 실수를 못 잡는다. 실제로 EN 파일이 13일 동안
+  갱신 날짜가 멈춰 있었고, 그 값이 사이트맵 lastmod로 나가 358장이 "오래된 페이지"로
+  신고됐다(2026-08-18 발견). `npm run validate`는 그걸 잡고 빌드도 막는다.
 깨진 채 push 절대 금지.
 
 ### 타임존 / 시각 — AGENTS.md §4-1 참고
