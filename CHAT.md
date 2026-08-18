@@ -1,3 +1,11 @@
+## [2026-08-18 14:40] [EN 뉴스]
+뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
+- 신규 기사 7건: Jonas Brothers Expand Burning Up Tour to 45 North American Cities / LL Cool J and Lil' Kim Lead Rock the Bells 2026 Lineup / System of a Down and Faith No More Book Rio's Maracana Stadium / Bad Bunny Closes His World Tour With Two San Juan Stadium Nights / Ozzfest Confirms Villa Park in Birmingham for Its 2027 Return / Yuri and Lucero Team Up for the Entre Amigas US Tour / Fontaines D.C. Confirm Fifth Album Dopamine Chamber on XL
+- 콘서트 링크 연결 2건(Rock The Bells 2026, System of a Down & Faith No More Sydney) / 링크 없음 5건
+- 스킵: Taemin LiMiNaL 북미 투어(8/14 발표 — 48시간 초과), Pedro Fernandez/Sugarland/Eric Prydz(8/12~14, 초과), Matchbox Twenty·Slipknot·Yungblud 등 가십/사후 기사(대상 아님), Carly Rae Jepsen 브로드웨이 뮤지컬(공연 티켓 액션 아님)
+- 소스 접근: Pitchfork는 차단(HTTP 403)되어 Stereogum/Consequence/ConcertFix/313 Presents 공식 보도자료로 대체
+- 리서처 인계: data/leads.en.jsonl에 7건 append (Jonas Brothers 투어, SOAD+FNM Rio, Bad Bunny 산후안 피날레, Ozzfest 2027 Villa Park, Yuri & Lucero, Fontaines D.C. 신보, Taemin 북미 투어)
+
 ## [2026-08-18 09:30] [EN 리서처]
 리서치 완료 (영어권/글로벌 시장 공연)
 - 콘서트/투어 12→9, 발매 6→4, 페스티벌 4→2, 팬미팅 0→0 (후보→통과)
