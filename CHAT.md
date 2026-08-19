@@ -1,3 +1,12 @@
+## [2026-08-19 15:10] [JA 뉴스]
+뉴스 작성 완료 (일본 국내 공연 뉴스)
+- 신규 기사 6건: 高畑充希「I’m All Yours」Premium Live(2027-01-11 東京ガーデンシアター, 최속선행 8/18 7:00) / 宝塚歌劇団×LDH〈HiGH&LOW THE 戦国 LOVE&HATE〉(11/18·19 有明アリーナ, 선행추첨 8/24) / THE SPELLBOUND×BOOM BOOM SATELLITES 歌舞伎町 야외 무료라이브(8/24) / 〈スキヤキ・ミーツ・ザ・ワールド2026〉 도쿄공연 2회(8/25·26) / SOTA HANAMURA 신곡「キミヲサガシテタ」9/18 배포 발표(무도관 공연) / 山中千尋『Happy-Go-Lucky』9/30 발매
+- 콘서트 링크 연결 2건(高畑充希 Premium Live, SOTA HANAMURA 신곡) / 링크 없음 4건
+- 리서처 인계 leads 4건 추가: HiGH&LOW THE 戦国 LOVE&HATE / THE SPELLBOUND×BOOM BOOM SATELLITES 무료라이브 / スキヤキ 도쿄공연 / 山中千尋『Happy-Go-Lucky』
+- 스킵: 사후 리뷰·랭킹·가십(PASSPO☆ 부활라이브, 久石譲 기네스 인증, YOASOBI 북미투어 완주, JO1 KCON LA, 오리콘 순위류) — 국내 행동 유발 공지 아님
+- 스킵: 해외 발매 위주(フォンテインズD.C. 신작), 재발매·서브스크 해금(PUFFY 60곡, 西城秀樹, back number LP) — 우선순위 낮아 미기사화
+- 소스: CDJournal 뉴스 목록·RSS(8/17~8/19 게재분). 音楽ナタリー는 응답 없음(빈 페이지)이라 미사용
+
 ## [2026-08-19 09:41] [JA 리서처]
 리서치 완료 (일본 국내 공연)
 - 콘서트/来日 10→5, 발매 3→2, 페스티벌 1→1, 팬미팅 0→0 (후보→통과)
