@@ -1,3 +1,30 @@
+## [2026-08-19 09:41] [JA 리서처]
+리서치 완료 (일본 국내 공연)
+- 콘서트/来日 10→5, 발매 3→2, 페스티벌 1→1, 팬미팅 0→0 (후보→통과)
+- 뉴스 인계 처리 10건 중 4건 등재 (`data/leads.ja.jsonl` 미등재분 대조 — flumpool 渋谷公演 / HOTSQUALL / グレッチェン・パーラト / Ovall 大阪公演)
+- 신규 10개 / 갱신 5개 (삭제 없음·전량 보존)
+- 과거 백필 3개 → **공연장 색인전환 1개**(横浜赤レンガ倉庫 1→2) / 기존 공연장 보강 2개(日本武道館 4→6)
+  ※ 예정 트랙에서도 Ovall 大阪公演 등재로 Music Club JANUS 1→2 색인 전환
+- 티켓팅 진행중 41개 (추가 +5 / 해제 -5)
+- description 보강 0개 (전 항목 120자 이상 확인 — 120자 미만 0건)
+- 총 등록 142개
+
+신규 등재 상세
+- concert_tour 5: flumpool tour 2026「ここからの歌」LINE CUBE SHIBUYA公演(11/7, 家入レオ·川崎鷹也·斎藤宏介 게스트) / GRETCHEN PARLATO「The Wise Ones」ブルーノート東京(2027-01-31, 先行 8/22·一般 8/29) / HOTSQUALL「FULL POWER ONE MAN SHOW」渋谷THE GAME(11/20) / 高畑充希 20th Anniversary「I'm All Yours」Premium Live 東京ガーデンシアター(2027-01-11) / Ovall「Glimmer」Release Tour 2026 大阪公演(10/29 Music Club JANUS)
+- music_release 2: 高畑充希『I'm All Yours』(11/11) / SOTA HANAMURA「キミヲサガシテタ」(9/18 配信)
+- 과거 백필 3: GREENROOM FESTIVAL'26(2026-05-23·24 横浜赤レンガ倉庫, festival_days 2일 라인업 포함) / SOTA HANAMURA Live Tour 2026 -ASCEEENSION- Special Edition(8/17 日本武道館) / Natural Lag 日本武道館単独公演(8/16)
+- publisher 신규 기재 5건(ディスクガレージ, ブルーノート東京, ユニバーサル ミュージック, SMASH, グリーンルームフェスティバル実行委員会)
+- 티켓팅 해제 5건(공연 종료): ja-holly-humberstone-ss-extra-20260813, ja-steve-lacy-ss-extra-20260813, ja-summer-sonic-2026-20260814, ja-augusta-camp-2026-20260815, ja-jon-spencer-ss-extra-20260818
+
+[검증 탈락]
+- AKASAKI 1st World Tour "ONIGIRI": 일본 공연 일정·회장 모두 미발표. 확정 후 재검토
+- やまもとはると 全国弾き語りツアー: 회장을 공식 폼으로 공모 중이라 일정·회장 미확정
+- Finally Live Tour 2026「TAKE to GIVE」: 2026년 10~12월이라는 기간만 발표, 개별 공연일 미확정
+- 踊る！ディスコ室町「すいか」リリース・パーティー: CDJournal 외 독립 출처 미확보(2개 미달)
+- L'Arc-en-Ciel「総天然色」: 라디오 초방 정보만 있고 정식 발매일 미발표
+- "MOUNTAIN HIGH" BAREBONES(11/7 新代田FEVER): 관련 기사는 복수 확인되나 날짜·회장을 함께 확정하는 독립 출처가 1개뿐이라 보류
+- SUMMER SONIC 2026 등 기존 등재분: 공연 종료로 티켓팅 플래그만 해제(항목은 전량 보존)
+
 ## [2026-08-18 14:40] [EN 뉴스]
 뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
 - 신규 기사 7건: Jonas Brothers Expand Burning Up Tour to 45 North American Cities / LL Cool J and Lil' Kim Lead Rock the Bells 2026 Lineup / System of a Down and Faith No More Book Rio's Maracana Stadium / Bad Bunny Closes His World Tour With Two San Juan Stadium Nights / Ozzfest Confirms Villa Park in Birmingham for Its 2027 Return / Yuri and Lucero Team Up for the Entre Amigas US Tour / Fontaines D.C. Confirm Fifth Album Dopamine Chamber on XL
