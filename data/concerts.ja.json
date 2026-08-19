@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-15",
+  "last_updated": "2026-08-19",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -803,7 +803,7 @@
       "publisher": "クリエイティブマンプロダクション",
       "image_url": null,
       "source_url": "https://www.creativeman.co.jp/event/holly-humberstone-ssextra/",
-      "last_updated": "2026-08-04",
+      "last_updated": "2026-08-19",
       "last_researched_by": "ja-researcher",
       "id": "ja-holly-humberstone-ss-extra-20260813",
       "name": "HOLLY HUMBERSTONE 来日公演＜SUMMER SONIC EXTRA＞",
@@ -820,7 +820,7 @@
         "来日"
       ],
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-07-11T10:00:00+09:00",
       "general_sale_url": "https://eplus.jp/hollyhumberstone/"
     },
@@ -831,7 +831,7 @@
       "publisher": "クリエイティブマンプロダクション",
       "image_url": null,
       "source_url": "https://www.sonymusic.co.jp/artist/stevelacy/info/584363",
-      "last_updated": "2026-08-04",
+      "last_updated": "2026-08-19",
       "last_researched_by": "ja-researcher",
       "id": "ja-steve-lacy-ss-extra-20260813",
       "name": "STEVE LACY 単独来日公演＜SUMMER SONIC EXTRA＞",
@@ -848,7 +848,7 @@
         "SUMMER SONIC EXTRA"
       ],
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-07-04T10:00:00+09:00"
     },
     {
@@ -897,7 +897,7 @@
       ],
       "image_url": "https://cdn.l-tike.com/concert/summersonic/img2026/ogp01.jpg",
       "source_url": "https://www.summersonic.com/news/2026-03-13-19870/",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-05-30T10:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://l-tike.com/concert/summersonic/",
@@ -932,7 +932,9 @@
             "mgk"
           ]
         }
-      ]
+      ],
+      "last_updated": "2026-08-19",
+      "last_researched_by": "ja-researcher"
     },
     {
       "id": "ja-augusta-camp-2026-20260815",
@@ -955,7 +957,7 @@
       ],
       "image_url": "https://image.pia.jp/images/202605/202605140010_ex.png",
       "source_url": "https://www.office-augusta.com/ac2026/",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_end_datetime": "2026-08-06T23:59:00+09:00",
       "general_sale_url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2611197&rlsCd=001",
       "festival_days": [
@@ -977,7 +979,7 @@
           ]
         }
       ],
-      "last_updated": "2026-08-03",
+      "last_updated": "2026-08-19",
       "last_researched_by": "ja-researcher"
     },
     {
@@ -2868,9 +2870,9 @@
       ],
       "image_url": null,
       "source_url": "https://www.club-quattro.com/shibuya/schedule/detail/?cd=018506",
-      "last_updated": "2026-08-12",
+      "last_updated": "2026-08-19",
       "last_researched_by": "ja-researcher",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-07-11T10:00:00+09:00",
       "general_sale_url": "https://l-tike.com/concert/mevent/?mid=396724"
     },
@@ -3395,6 +3397,290 @@
       "image_url": null,
       "source_url": "https://natalie.mu/music/news/684750",
       "last_updated": "2026-08-15",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-flumpool-kokokaranouta-shibuya-20261107",
+      "name": "flumpool tour 2026「ここからの歌」LINE CUBE SHIBUYA公演",
+      "release_date": "2026-11-07",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "LINE CUBE SHIBUYA"
+      ],
+      "developer": "flumpool",
+      "publisher": "ディスクガレージ",
+      "description": "flumpoolが2026年9月から11月にかけて回るホール・ツアー『flumpool tour 2026「ここからの歌」』の東京公演。全国8会場11公演の終盤にあたる11月7日のLINE CUBE SHIBUYA公演には、家入レオ、川崎鷹也、斎藤宏介（UNISON SQUARE GARDEN／TenTwenty）がゲストとして出演する。当初は対バン形式として発表されていたが、flumpoolがホストバンドを務めて3人のヴォーカリストを迎える特別編成に変更された。ドラムスの小倉誠司がライブ活動を休止しているため、本ツアーはレミオロメンの神宮司治がサポート・ドラマーを務める。開場17:00／開演18:00、指定席8,200円（税込）。",
+      "genres": [
+        "J-POP",
+        "ロック",
+        "ホールツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://www.flumpool.jp/live/",
+      "general_sale": true,
+      "general_sale_url": "https://w.pia.jp/t/flumpool2026/",
+      "last_updated": "2026-08-19",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-gretchen-parlato-bluenote-20270131",
+      "name": "GRETCHEN PARLATO「The Wise Ones」来日公演",
+      "release_date": "2027-01-31",
+      "release_time": "16:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "ブルーノート東京"
+      ],
+      "developer": "グレッチェン・パーラト",
+      "publisher": "ブルーノート東京",
+      "description": "現代ジャズを代表するヴォーカリスト、グレッチェン・パーラトが5年ぶりのソロ名義アルバム『The Wise Ones』を携えて行う来日公演。2027年1月31日から2月2日までの3日間、ブルーノート東京で各日2ステージ制で開催される。バンドにはテイラー・アイグスティ（p, key）、アラン・ハンプトン（b, g）、マーク・ジュリアナ（ds）が帯同。初日は1stが開場15:30／開演16:30、2ndが開場18:30／開演19:30。ミュージック・チャージは9,500円（税込）で、予約はJam Session会員先行が8月22日12時、一般が8月29日12時からウェブのみで受け付ける。",
+      "genres": [
+        "ジャズ",
+        "ヴォーカル",
+        "来日公演"
+      ],
+      "image_url": "https://www.bluenote.co.jp/jp/artists/fb/20270131fb.jpg",
+      "source_url": "https://www.bluenote.co.jp/jp/artists/gretchen-parlato/",
+      "presale": true,
+      "presale_datetime": "2026-08-22T12:00:00+09:00",
+      "presale_url": "https://reserve.bluenote.co.jp/reserve/schedule/show_event_info/4006/",
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-29T12:00:00+09:00",
+      "general_sale_url": "https://reserve.bluenote.co.jp/reserve/schedule/show_event_info/4006/",
+      "last_updated": "2026-08-19",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-hotsquall-full-power-oneman-20261120",
+      "name": "HOTSQUALL「FULL POWER ONE MAN SHOW」〜DRIVE AGAIN Release Celebration〜",
+      "release_date": "2026-11-20",
+      "release_time": "19:15",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "渋谷THE GAME"
+      ],
+      "developer": "HOTSQUALL",
+      "publisher": null,
+      "description": "パンク・バンドHOTSQUALLが、11月11日発売の新作EP『DRIVE AGAIN』を記念して開催するワンマン公演。会場は東京・渋谷THE GAMEで、開場18:30／開演19:15。チケットは前売4,000円、当日4,700円（いずれもドリンク代別）で、イープラスでの先行販売が8月16日12時から始まっている。新作を引っさげてのワンマンとして、バンド自身が「FULL POWER」を掲げる一夜となる。",
+      "genres": [
+        "パンク",
+        "ロック",
+        "ワンマン公演"
+      ],
+      "image_url": null,
+      "source_url": "http://www.hotsquall.com/2026-11-20/",
+      "presale": true,
+      "presale_datetime": "2026-08-16T12:00:00+09:00",
+      "presale_url": "https://eplus.jp/sf/detail/4582570001-P0030001",
+      "last_updated": "2026-08-19",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-takahata-mitsuki-premium-live-20270111",
+      "name": "高畑充希 20th Anniversary Project「I'm All Yours」Premium Live",
+      "release_date": "2027-01-11",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ガーデンシアター"
+      ],
+      "developer": "高畑充希",
+      "publisher": null,
+      "description": "俳優・高畑充希が芸能生活20周年を記念した音楽プロジェクトの締めくくりとして開催する、一夜限りのスペシャル・ライブ。会場は東京ガーデンシアターで開場17:00／開演18:00、指定席は12,000円（税込）。高畑のワンマン公演は2015年に東京・大阪のビルボードライブで行われた10周年記念ライブ以来12年ぶりとなる。2026年11月11日発売のアルバム『I'm All Yours』を携えたステージで、公演後には抽選で150名を招待するお見送り会も予定されている。チケットの最速先行は8月18日7時から受け付ける。",
+      "genres": [
+        "J-POP",
+        "ワンマン公演",
+        "アニバーサリー"
+      ],
+      "image_url": null,
+      "source_url": "https://takahatamitsuki-live.com/",
+      "presale": true,
+      "presale_datetime": "2026-08-18T07:00:00+09:00",
+      "presale_url": "https://w.pia.jp/t/takahatamitsuki2027/",
+      "last_updated": "2026-08-19",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-takahata-mitsuki-im-all-yours-20261111",
+      "name": "高畑充希『I'm All Yours』",
+      "release_date": "2026-11-11",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [
+        "CD／配信"
+      ],
+      "developer": "高畑充希",
+      "publisher": "ユニバーサル ミュージック",
+      "description": "俳優・高畑充希が12年ぶりに発表するアルバムで、ユニバーサル ミュージック移籍後の第1弾となる。石崎ひゅーい、尾崎世界観（クリープハイプ）、清竜人、くじら、日食なつこ、Bialystocksらが書き下ろした楽曲を中心に全9曲を収録予定。2023年の主演舞台『宝飾時計』のために椎名林檎が作詞作編曲を手がけた「青春の続き」や、土岐麻子作詞・Night Tempo作曲の「Over You」も収められる。先行配信曲「令和Lady恋愛賛歌」はPenthouseの浪岡真太郎が作曲・編曲、大原拓真が作詞を担当し、8月21日に配信される。",
+      "genres": [
+        "J-POP",
+        "アルバム"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/takahata-mitsuki/128899",
+      "last_updated": "2026-08-19",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-sota-hanamura-kimiwosagashiteta-20260918",
+      "name": "SOTA HANAMURA「キミヲサガシテタ」",
+      "release_date": "2026-09-18",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [
+        "配信"
+      ],
+      "developer": "SOTA HANAMURA",
+      "publisher": null,
+      "description": "Da-iCEの花村想太によるソロ・プロジェクト“SOTA HANAMURA”が配信リリースする新曲シングル。2026年8月17日の日本武道館単独公演のMCでサプライズ発表された楽曲で、初のソロ・ツアーを完走した直後の新作となる。同公演のアンコールでは鈴木愛理を迎えた「Dejavu (feat. AIRI SUZUKI)」も初披露されており、プレ・デビュー・アルバム『ASCEEENSION』以降の歩みをさらに進める一曲として発表された。",
+      "genres": [
+        "J-POP",
+        "デジタルシングル"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/hanamura-sota/128898",
+      "last_updated": "2026-08-19",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-ovall-glimmer-tour-osaka-20261029",
+      "name": "Ovall「Glimmer」Release Tour 2026（大阪公演）",
+      "release_date": "2026-10-29",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "Music Club JANUS（大阪ほか全国5都市5公演）"
+      ],
+      "developer": "Ovall",
+      "publisher": "SMASH",
+      "description": "Shingo Suzuki、mabanua、関口シンゴによるバンドOvallが、約2年ぶりの5thアルバム『Glimmer』を携えて行う全国ツアーの大阪公演。ツアーは10月3日の札幌近松を皮切りに福岡・大阪・名古屋を巡り、11月27日の渋谷Spotify O-EASTで締めくくられる全5公演。大阪公演の会場はMusic Club JANUSで、開場18:30／開演19:00。前売スタンディングは6,000円（ドリンク代別）、22歳以下対象のU-22チケットは3,000円。一般前売は9月5日10時からチケットぴあ、イープラス、ローソンチケットで発売される。",
+      "genres": [
+        "ネオソウル",
+        "ジャズ",
+        "ツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://smash-jpn.com/live/?id=4708",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-05T10:00:00+09:00",
+      "general_sale_url": "https://w.pia.jp/t/ovall",
+      "last_updated": "2026-08-19",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-greenroom-festival-26-20260523",
+      "name": "GREENROOM FESTIVAL'26",
+      "release_date": "2026-05-23",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "festival",
+      "platforms": [
+        "横浜赤レンガ倉庫"
+      ],
+      "developer": "エラ・メイ／ジョン・バティステ ほか",
+      "publisher": "グリーンルームフェスティバル実行委員会",
+      "description": "「Save The Ocean」をコンセプトに音楽とアート、海のカルチャーを結ぶ野外フェスティバルが、2026年5月23日・24日の2日間、横浜赤レンガ倉庫で開催された。メインステージGOOD WAVEには初日にエラ・メイ、2日目にジョン・バティステがヘッドライナーとして立ち、ジャネール・モネイやKREVA、Dragon Ash、平井大、東京スカパラダイスオーケストラ、ORANGE RANGE、AIらが出演。BLUE SKY、RED BRICK、PORT LOUNGEの各ステージでもKID FRESINO、LEISURE、KIRINJI、iri、Kroi、GEZAN、SPECIAL OTHERSらがパフォーマンスを繰り広げた。",
+      "genres": [
+        "フェスティバル",
+        "ソウル",
+        "ロック"
+      ],
+      "image_url": null,
+      "source_url": "https://spice.eplus.jp/articles/345354",
+      "festival_days": [
+        {
+          "date": "2026-05-23",
+          "lineup": [
+            "エラ・メイ",
+            "KREVA",
+            "Dragon Ash",
+            "平井大",
+            "KID FRESINO",
+            "LEISURE",
+            "おとぼけビ〜バ〜",
+            "長岡亮介"
+          ]
+        },
+        {
+          "date": "2026-05-24",
+          "lineup": [
+            "ジョン・バティステ",
+            "ジャネール・モネイ",
+            "東京スカパラダイスオーケストラ",
+            "ORANGE RANGE",
+            "AI",
+            "KIRINJI",
+            "iri",
+            "Kroi",
+            "GEZAN",
+            "SPECIAL OTHERS"
+          ]
+        }
+      ],
+      "last_updated": "2026-08-19",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-sota-hanamura-budokan-20260817",
+      "name": "SOTA HANAMURA Live Tour 2026 -ASCEEENSION- Special Edition",
+      "release_date": "2026-08-17",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "日本武道館"
+      ],
+      "developer": "SOTA HANAMURA",
+      "publisher": null,
+      "description": "Da-iCEの花村想太によるソロ・プロジェクト“SOTA HANAMURA”が、自身初のソロ・ツアーのファイナルとして2026年8月17日に日本武道館で開催した単独公演。フライング演出での登場から「Me.exe」で幕を開け、プレ・デビュー・アルバム『ASCEEENSION』の楽曲を中心に全22曲を披露した。中盤にはDa-iCEの和田颯がサプライズ登場し、二人の共作曲「OLD meets NEW」を披露。アンコールでは鈴木愛理をゲストに迎え、新曲「Dejavu (feat. AIRI SUZUKI)」を初めて聴かせた。MCでは9月18日の新曲配信も発表され、前日のNatural Lag公演と合わせて2日間で計2万人を動員した。",
+      "genres": [
+        "J-POP",
+        "単独公演"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/hanamura-sota/128898",
+      "last_updated": "2026-08-19",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-natural-lag-budokan-20260816",
+      "name": "Natural Lag 日本武道館単独公演（Live Tour 2026 ツアーファイナル）",
+      "release_date": "2026-08-16",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "日本武道館"
+      ],
+      "developer": "Natural Lag",
+      "publisher": null,
+      "description": "Da-iCEの花村想太がヴォーカルを務める4人組バンド、Natural Lagが2026年8月16日に日本武道館で開催した単独公演。ソロ・プロジェクトのSOTA HANAMURAとNatural Lagがそれぞれ全国4都市を並行して巡ったホール・ツアーのファイナルにあたる公演で、翌8月17日のSOTA HANAMURA公演と合わせ、2日間で計2万人を動員した。同じ会場で名義を変えて連日単独公演を行うという異例の形でツアーを締めくくった。",
+      "genres": [
+        "ロック",
+        "J-POP",
+        "単独公演"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/hanamura-sota/128898",
+      "last_updated": "2026-08-19",
       "last_researched_by": "ja-researcher"
     }
   ]
