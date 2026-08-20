@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-17",
+  "last_updated": "2026-08-20",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -104,6 +104,29 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-kimtaeyeon-seolleim-that-summer-20250802",
+      "name": "김태연 단독 콘서트 - 설레임, 그 여름",
+      "release_date": "2025-08-02",
+      "release_time": "14:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "성신여자대학교(운정그린캠퍼스 대강당)"
+      ],
+      "developer": "김태연",
+      "publisher": "라이브플랜",
+      "description": "트로트 가수 김태연이 2025년 8월 2일 서울 성신여자대학교 운정그린캠퍼스 대강당에서 단독 콘서트 '설레임, 그 여름'을 열었다. 오후 2시와 오후 6시 두 차례 공연으로 진행됐고 각 회차는 인터미션 없이 120분간 이어졌다. 800석 규모의 대강당에서 관객과 가까운 거리로 만나는 구성이었으며, 7세 이상 관람가로 운영됐다. 주최·기획은 라이브플랜이 맡았고 예매는 예스24 티켓에서 단독으로 진행됐다.",
+      "genres": [
+        "트로트",
+        "콘서트"
+      ],
+      "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202506/20250620/20250620-54358.jpg",
+      "source_url": "https://ticket.yes24.com/Perf/54358",
+      "last_updated": "2026-08-20",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-psy-heumppuck-show-2025-suwon-20250802",
       "name": "싸이 흠뻑쇼 SUMMER SWAG 2025 - 수원",
       "release_date": "2025-08-02",
@@ -165,6 +188,30 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-letsrock-festival-2025-20250906",
+      "name": "2025 렛츠락페스티벌 (LET'S ROCK FESTIVAL 2025)",
+      "release_date": "2025-09-06",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "festival",
+      "platforms": [
+        "난지한강공원"
+      ],
+      "developer": null,
+      "publisher": null,
+      "description": "2025 렛츠락페스티벌은 2025년 9월 6일과 7일 이틀간 서울 난지한강공원에서 열렸다. 'LEGEND OF LETSROCK'을 시작으로 'WE ARE ROCKSTARS', 'BROKEN THE STAGE', 'KEEP ON BURNING'까지 네 차례에 걸쳐 라인업이 공개됐다. 자우림과 국카스텐이 무대에 올랐고, 일본 밴드 래드윔프스(RADWIMPS)가 이 페스티벌 사상 첫 해외 라인업으로 합류해 화제를 모았다. 육중완 밴드, 크랙샷, 더 픽스, 데카당 등도 이틀간 무대를 채웠다.",
+      "genres": [
+        "페스티벌",
+        "록",
+        "밴드"
+      ],
+      "image_url": null,
+      "source_url": "https://www.starnewskorea.com/music/2025/05/15/2025051519072954530",
+      "last_updated": "2026-08-20",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-busan-rock-festival-2025-20250926",
       "name": "2025 부산국제록페스티벌",
       "release_date": "2025-09-26",
@@ -208,6 +255,29 @@
       "image_url": null,
       "source_url": "https://www.newswire.co.kr/newsRead.php?no=1020670",
       "last_updated": "2026-08-01",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-jarasum-jazz-festival-2025-20251017",
+      "name": "2025 자라섬 국제재즈페스티벌 (제22회)",
+      "release_date": "2025-10-17",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "festival",
+      "platforms": [
+        "가평 자라섬"
+      ],
+      "developer": null,
+      "publisher": "자라섬청소년재즈센터",
+      "description": "제22회 자라섬 국제재즈페스티벌이 2025년 10월 17일부터 19일까지 사흘간 경기 가평 자라섬과 가평읍 일대에서 열렸다. 전 세계 17개국 41개 팀이 참여해 자라섬 특유의 야외 재즈 무대를 채웠다. 기타리스트 빌 프리셀, 트럼페터 이브라힘 말루프, 베이시스트 스탠리 클라크 등 세계적인 연주자들이 헤드라이너로 무대에 올랐고, 국내에서는 수진, 김유진, 박기훈 등 신예 아티스트가 함께했다. 가평 읍내 곳곳에서도 부대 공연이 진행됐다.",
+      "genres": [
+        "페스티벌",
+        "재즈"
+      ],
+      "image_url": null,
+      "source_url": "https://www.soundnect.com/news/429936",
+      "last_updated": "2026-08-20",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -967,11 +1037,12 @@
       "presale_datetime": "2026-06-24T20:00:00+09:00",
       "presale_end_datetime": null,
       "presale_url": "https://ticket.melon.com/performance/index.htm?prodId=213414",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-06-30T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.melon.com/performance/index.htm?prodId=213414",
-      "last_updated": "2026-08-03"
+      "last_updated": "2026-08-20",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-artms-hyper-ego-20260807",
@@ -1054,10 +1125,10 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/09%EC%9B%94_26%EC%9D%BC_%EB%AE%A4%EC%BD%98_%EC%87%BC%EC%BC%80%EC%9D%B4%EC%8A%A4_MUCON_Showcase_%2833%29.jpg/330px-09%EC%9B%94_26%EC%9D%BC_%EB%AE%A4%EC%BD%98_%EC%87%BC%EC%BC%80%EC%9D%B4%EC%8A%A4_MUCON_Showcase_%2833%29.jpg",
       "source_url": "https://www.tenasia.co.kr/article/2026070342144",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-08-04",
+      "last_updated": "2026-08-20",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -1085,10 +1156,12 @@
       "presale_datetime": "2026-03-31T12:00:00+09:00",
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-04-16T19:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/contents/notice/detail/13341"
+      "general_sale_url": "https://tickets.interpark.com/contents/notice/detail/13341",
+      "last_updated": "2026-08-20",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-itzy-all-in-midzy-seoul-20260808",
@@ -1162,9 +1235,9 @@
       "image_url": null,
       "source_url": "https://www.tenasia.co.kr/article/2026080307084",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_url": "https://www.ticketlink.co.kr/product/63748",
-      "last_updated": "2026-08-05",
+      "last_updated": "2026-08-20",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -1271,9 +1344,9 @@
       "image_url": "https://www.ksponco.or.kr/olympicpark/attachFiles/eventInfo/202603300838092091.gif",
       "source_url": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=5101&mid=a20301010200",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_url": "https://tickets.interpark.com/goods/26004589",
-      "last_updated": "2026-08-05",
+      "last_updated": "2026-08-20",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -1296,11 +1369,12 @@
       ],
       "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26007869_p.gif",
       "source_url": "https://sports.khan.co.kr/article/202605272130003",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-06-02T19:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/25013284",
-      "last_updated": "2026-08-03"
+      "last_updated": "2026-08-20",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-nflying-into-rem-busan-20260815",
@@ -1324,9 +1398,9 @@
       "image_url": null,
       "source_url": "https://www.tenasia.co.kr/article/2026080307084",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_url": "https://www.ticketlink.co.kr/product/63748",
-      "last_updated": "2026-08-05",
+      "last_updated": "2026-08-20",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -1351,9 +1425,9 @@
       "image_url": "https://www.ksponco.or.kr/olympicpark/attachFiles/eventInfo/202607131217418551.jpg",
       "source_url": "https://tickets.interpark.com/goods/26008537",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_url": "https://tickets.interpark.com/goods/26008537",
-      "last_updated": "2026-08-05",
+      "last_updated": "2026-08-20",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -1380,10 +1454,12 @@
       "presale_datetime": "2026-05-14T12:00:00+09:00",
       "presale_end_datetime": null,
       "presale_url": "https://ticket.yes24.com/Perf/58375",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-05-15T12:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://ticket.yes24.com/Perf/58375"
+      "general_sale_url": "https://ticket.yes24.com/Perf/58375",
+      "last_updated": "2026-08-20",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-live-icon9-onewe-dragonpony-20260817",
@@ -1407,9 +1483,9 @@
       "image_url": "https://www.ksponco.or.kr/olympicpark/attachFiles/eventInfo/202607131253586901.jpg",
       "source_url": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=5135&mid=a20301010200",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_url": "https://tickets.interpark.com/goods/26009778",
-      "last_updated": "2026-08-05",
+      "last_updated": "2026-08-20",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -1433,11 +1509,11 @@
       "image_url": "https://image.toast.com/aaaaab/ticketlink/TKL_2/se_main_0622.jpg",
       "source_url": "https://www.ticketlink.co.kr/product/64028",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-06-23T12:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://www.ticketlink.co.kr/product/64028",
-      "last_updated": "2026-08-04",
+      "last_updated": "2026-08-20",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -1502,10 +1578,10 @@
       ],
       "image_url": null,
       "source_url": "https://www.starnewskorea.com/music/2026/07/22/2026072215142522460",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-07-28T19:00:00+09:00",
       "general_sale_url": null,
-      "last_updated": "2026-07-25",
+      "last_updated": "2026-08-20",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -1572,9 +1648,9 @@
       "image_url": "https://www.ksponco.or.kr/olympicpark/attachFiles/eventInfo/202607131316023331.jpg",
       "source_url": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=5133&mid=a20301010200",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_url": "https://tickets.interpark.com/goods/26009146",
-      "last_updated": "2026-08-05",
+      "last_updated": "2026-08-20",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -2075,6 +2151,48 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-82major-heat-20260901",
+      "name": "82메이저(82MAJOR) 싱글 2집 'HEAT'",
+      "release_date": "2026-09-01",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "82메이저(82MAJOR)",
+      "publisher": "GF엔터테인먼트",
+      "description": "82메이저가 9월 1일 오후 6시 두 번째 싱글 'HEAT'를 발매한다. 4월 미니 5집 'FEELM' 이후 약 5개월 만의 신보로, 8월 6일 비주얼 필름 공개와 함께 컴백 날짜가 공식화됐고 11일에는 프로모션 스케줄러가 열렸다. 음반은 세 가지 버전으로 제작되며 8월 19일 오전 11시부터 예약 판매가 시작됐다. 제목 그대로 여름의 열기를 이어가는 강렬한 콘셉트를 예고했다.",
+      "genres": [
+        "K-POP",
+        "컴백"
+      ],
+      "image_url": null,
+      "source_url": "https://www.tenasia.co.kr/article/2026080676814",
+      "last_updated": "2026-08-20",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-unchild-tingting-20260902",
+      "name": "언차일드(UNCHILD) 디지털 싱글 'TiNG TiNG'",
+      "release_date": "2026-09-02",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "언차일드(UNCHILD)",
+      "publisher": null,
+      "description": "언차일드가 9월 2일 두 번째 디지털 싱글 'TiNG TiNG'을 발매한다. 4월 데뷔 싱글 'We Are UNCHILD' 이후 약 5개월 만의 신보이자 데뷔 100일을 기점으로 예고한 첫 컴백이다. 8월 19일 공식 SNS에 세계관을 담은 로고 영상을 공개하며 본격적인 활동을 알렸고, 발매일까지 다양한 티저 콘텐츠를 순차 공개할 예정이다. 아역 출신 댄서 나하은이 속한 팀으로 데뷔 때부터 주목받았다.",
+      "genres": [
+        "K-POP",
+        "컴백"
+      ],
+      "image_url": null,
+      "source_url": "https://sports.khan.co.kr/article/202608192100003/",
+      "last_updated": "2026-08-20",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-fromis9-tomorrow-glow-seoul-20260904",
       "name": "2026 fromis_9 ASIA TOUR 'TOMORROW GLOW.' IN SEOUL",
       "release_date": "2026-09-04",
@@ -2094,14 +2212,16 @@
       ],
       "image_url": null,
       "source_url": "https://www.tenasia.co.kr/article/2026073055314",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-08-04T20:00:00+09:00",
       "presale_end_datetime": null,
       "presale_url": null,
       "general_sale": true,
       "general_sale_datetime": "2026-08-06T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "last_updated": "2026-08-20",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-limyoungwoong-imhero-stadium2-20260904",
@@ -2301,6 +2421,70 @@
       "source_url": "https://www.soompi.com/article/1852382wpp/watch-team-announces-1st-ever-korean-comeback-with-trailer-for-mark-on-me",
       "presale": false,
       "general_sale": false
+    },
+    {
+      "id": "ko-inaminute-midnight-20260909",
+      "name": "인어미닛(In A Minute) 정규 1집 'When the sun goes down : Midnight'",
+      "release_date": "2026-09-09",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "인어미닛(In A Minute)",
+      "publisher": "마운드미디어",
+      "description": "3인조 그룹 인어미닛이 9월 9일 오후 6시 데뷔 후 첫 정규앨범 'When the sun goes down : Midnight'을 발매한다. 8월 13일 선셋 버전 무드 필름을 공개하며 컴백 콘텐츠를 시작했고, 해질녘의 레트로 감성을 앨범 콘셉트로 내세웠다. 소속사는 이번 정규앨범을 통해 그동안 쌓아온 음악적 스펙트럼을 한층 넓혀 보여주겠다고 밝혔다. 앨범 프리뷰도 순차 공개되고 있다.",
+      "genres": [
+        "K-POP",
+        "컴백"
+      ],
+      "image_url": null,
+      "source_url": "https://www.tenasia.co.kr/article/2026081421724",
+      "last_updated": "2026-08-20",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-allhours-unbound-20260910",
+      "name": "올아워즈(ALL(H)OURS) 미니 6집 'UNBOUND'",
+      "release_date": "2026-09-10",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "올아워즈(ALL(H)OURS)",
+      "publisher": "이든엔터테인먼트",
+      "description": "올아워즈가 9월 10일 오후 6시 미니 6집 'UNBOUND'를 발매한다. 8월 14일 공식 SNS에 프로모션 스케줄러가 공개되며 컴백이 확정됐고, 이번 앨범은 더블 타이틀곡 체제로 운영된다. 그중 한 곡인 'HOP'은 8월 25일 오후 6시 음원과 뮤직비디오로 선공개된다. 서울 성수동의 여러 장소를 하나의 코스로 잇는 지도형 프로모션 '더 H?? 맵'을 함께 진행해 팬 참여형 홍보를 시도한다.",
+      "genres": [
+        "K-POP",
+        "컴백"
+      ],
+      "image_url": null,
+      "source_url": "https://sports.khan.co.kr/article/202608151010003",
+      "last_updated": "2026-08-20",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-soyeon-solo-comeback-20260910",
+      "name": "소연((여자)아이들) 솔로 신보 (9월 초 컴백)",
+      "release_date": "2026-09-10",
+      "release_time": null,
+      "release_date_approx": true,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "소연((여자)아이들)",
+      "publisher": "큐브엔터테인먼트",
+      "description": "(여자)아이들 리더 소연이 9월 초 솔로 신보를 발매한다. 소속사 큐브엔터테인먼트가 8월 19일 컴백 사실을 공식화했으며, 2021년 7월 첫 솔로 미니앨범 'Windy' 이후 5년 2개월 만의 솔로 활동이다. 소연은 'TOMBOY', 'Nxde', '퀸카(Queencard)' 등 팀의 대표곡 작업을 주도해 온 프로듀서형 아티스트다. 구체적인 발매일과 앨범명은 아직 공개되지 않아 9월 10일을 임시 날짜로 표기했다.",
+      "genres": [
+        "K-POP",
+        "컴백",
+        "솔로"
+      ],
+      "image_url": null,
+      "source_url": "https://www.tenasia.co.kr/article/2026081993244",
+      "last_updated": "2026-08-20",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-johnpark-break-seoul-20260911",
@@ -2555,9 +2739,9 @@
       ],
       "image_url": null,
       "source_url": "https://www.starnewskorea.com/music/2026/08/05/2026080511031277233",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-08-13T19:00:00+09:00",
-      "last_updated": "2026-08-10",
+      "last_updated": "2026-08-20",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -2810,6 +2994,62 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-leehi-hibiscus-garden-live-20261003",
+      "name": "이하이 단독 콘서트 [HI-biscus Garden Live vol. 1]",
+      "release_date": "2026-10-03",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "NOL 씨어터 합정(동양생명홀)"
+      ],
+      "developer": "이하이(LEE HI)",
+      "publisher": null,
+      "description": "이하이가 10월 3일 오후 6시 서울 마포구 NOL 씨어터 합정 동양생명홀에서 단독 콘서트 'HI-biscus Garden Live vol. 1'을 연다. 8월 14일 공식 SNS를 통해 개최가 공지됐으며, 정원을 콘셉트로 한 소극장 규모의 공연으로 기획됐다. 티켓은 8월 20일 정오 예매를 시작하고, VIP석 17만 6000원과 일반석 13만 2000원 두 등급으로 나뉜다. VIP석은 100장 한정으로 우선 입장과 밋앤그릿, 사인, 1대1 셀피 혜택이 함께 제공된다.",
+      "genres": [
+        "K-POP",
+        "콘서트",
+        "솔로"
+      ],
+      "image_url": null,
+      "source_url": "https://www.tenasia.co.kr/article/2026081530164",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-20T12:00:00+09:00",
+      "general_sale_url": null,
+      "last_updated": "2026-08-20",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-letsrock-festival-2026-20261003",
+      "name": "2026 렛츠락페스티벌 (LET'S ROCK FESTIVAL 2026)",
+      "release_date": "2026-10-03",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "festival",
+      "platforms": [
+        "난지한강공원"
+      ],
+      "developer": null,
+      "publisher": null,
+      "description": "국내 대표 록 페스티벌 렛츠락페스티벌이 10월 3일과 4일 이틀간 서울 난지한강공원에서 열린다. 자우림, 넬, 국카스텐, 크라잉넛, 노브레인, 갤럭시 익스프레스 등 한국 록을 대표하는 밴드들이 이름을 올렸고, 8월 19일 공개된 최종 라인업 'KEEP ON BURNING'에 남우현, PITTA(강형호), 윤지영, 스키조, 앨리스신드롬이 합류했다. 앞선 3차 라인업에는 쏜애플, 크랙샷, 지소쿠리클럽, 초록불꽃소년단 등이 포함됐다. 티켓은 NOL 티켓에서 판매된다.",
+      "genres": [
+        "페스티벌",
+        "록",
+        "밴드"
+      ],
+      "image_url": null,
+      "source_url": "https://sports.khan.co.kr/article/202608192010003/",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-20",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-nakajimakento-idol1st-kenty-seoul-20261003",
       "name": "나카지마 켄토 첫 내한공연 (IDOL1ST KENTY ASIA TOUR 2026 in SEOUL)",
       "release_date": "2026-10-03",
@@ -2955,11 +3195,11 @@
       ],
       "image_url": null,
       "source_url": "https://www.osen.co.kr/article/G1112852986",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-08-12T20:00:00+09:00",
       "general_sale": true,
       "general_sale_datetime": "2026-08-14T20:00:00+09:00",
-      "last_updated": "2026-08-10",
+      "last_updated": "2026-08-20",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -3077,6 +3317,32 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-allhours-rise-up-seoul-20261010",
+      "name": "ALL(H)OURS 1st WORLD TOUR 'RISE UP' IN SEOUL",
+      "release_date": "2026-10-10",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [],
+      "developer": "올아워즈(ALL(H)OURS)",
+      "publisher": "이든엔터테인먼트",
+      "description": "올아워즈가 10월 10일 서울에서 데뷔 후 첫 월드투어 'RISE UP'의 문을 연다. 8월 14일 공식 SNS에 티징 포스터가 공개되며 투어 개최가 알려졌고, 서울 공연을 시작으로 11월 유럽, 2027년 1월 북미로 무대를 넓힌다. 투어에 앞서 9월 10일 미니 6집 'UNBOUND'를 발매하고 첫 공식 응원봉도 선보인다. 서울 공연장과 예매 일정은 아직 공개되지 않아 추가 공지를 기다려야 한다.",
+      "genres": [
+        "K-POP",
+        "콘서트",
+        "월드투어"
+      ],
+      "image_url": null,
+      "source_url": "https://sports.khan.co.kr/article/202608151010003",
+      "presale": false,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-20",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-charlieputh-whatevers-clever-goyang-20261011",
       "name": "Charlie Puth - Whatever's Clever! World Tour in Seoul",
       "release_date": "2026-10-11",
@@ -3144,6 +3410,34 @@
       ],
       "general_sale": true,
       "general_sale_url": "https://tickets.interpark.com/goods/26010721"
+    },
+    {
+      "id": "ko-lucy-island-encore-seoul-20261023",
+      "name": "2026 LUCY 9TH CONCERT 'ISLAND' 앙코르 - 서울",
+      "release_date": "2026-10-23",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "고려대학교 화정체육관"
+      ],
+      "developer": "루시(LUCY)",
+      "publisher": "미스틱스토리",
+      "description": "밴드 루시가 10월 23일부터 25일까지 사흘간 서울 고려대학교 화정체육관에서 아홉 번째 단독 콘서트 'ISLAND'의 앙코르 공연을 연다. 소속사 미스틱스토리가 8월 10일 개최를 공식화했다. 공연명은 팀의 출발점인 'LUCY ISLAND' 서사에서 따왔으며, 흩어졌던 꽃잎이 다시 섬으로 모인다는 메시지를 담았다. 서울 공연 이후 11월 3일 홍콩, 14일 싱가포르, 28일 방콕으로 이어지는 아시아 4개 도시 투어로 확대된다. 예매 일정은 추후 공지된다.",
+      "genres": [
+        "밴드",
+        "콘서트",
+        "앙코르"
+      ],
+      "image_url": null,
+      "source_url": "https://www.tenasia.co.kr/article/2026081039244",
+      "presale": false,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-20",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-oneus-full-moon-seoul-20261024",
@@ -3372,7 +3666,7 @@
       ],
       "image_url": null,
       "source_url": "https://www.newspim.com/news/view/20260804001300",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-08-12T12:00:00+09:00",
       "presale_end_datetime": null,
       "presale_url": null,
@@ -3380,7 +3674,7 @@
       "general_sale_datetime": "2026-08-14T12:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-08-13",
+      "last_updated": "2026-08-20",
       "last_researched_by": "ko-researcher"
     }
   ]
