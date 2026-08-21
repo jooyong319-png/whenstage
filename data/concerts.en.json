@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-21",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -3907,10 +3907,10 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Garth_Brooks_KCHD_2022.jpg/250px-Garth_Brooks_KCHD_2022.jpg",
       "source_url": "https://www.gainbridgefieldhouse.com/events/detail/garth-brooks",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-07-17T10:00:00-04:00",
       "general_sale_url": "https://www.ticketmaster.com/garth-brooks-tickets/artist/732705?venueId=41417",
-      "last_updated": "2026-08-14",
+      "last_updated": "2026-08-21",
       "last_researched_by": "en-researcher"
     },
     {
@@ -4692,6 +4692,434 @@
       "source_url": "https://www.theamp.com/events/detail/the-black-keys-2026",
       "last_updated": "2026-08-18",
       "last_researched_by": "en-researcher"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "Live Nation",
+      "image_url": null,
+      "last_updated": "2026-08-21",
+      "last_researched_by": "en-researcher",
+      "id": "en-jonas-brothers-burning-up-all-over-again-philadelphia-20261002",
+      "name": "Jonas Brothers: The Burning Up Tour All Over Again - Philadelphia",
+      "release_date": "2026-10-02",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Xfinity Mobile Arena, Philadelphia, PA"
+      ],
+      "developer": "Jonas Brothers, Magnus Ferrell, Deleasa",
+      "description": "The Jonas Brothers bring The Burning Up Tour All Over Again to Xfinity Mobile Arena in Philadelphia on October 2, 2026, one of 45 North American arena stops on the Live Nation run that grew out of their sold-out Madison Square Garden celebrations in August 2026. The show revisits the 2008 Burning Up Tour that broke Kevin, Joe and Nick Jonas nationally, rebuilt for arenas nearly two decades later. Magnus Ferrell and Deleasa joins as support.",
+      "genres": [
+        "Pop",
+        "Pop Rock",
+        "Concert"
+      ],
+      "source_url": "https://www.xfinitymobilearena.com/news/detail/jonas-brothers-bring-the-burning-up-tour-all-over-again-to-45-cities-across-north-america-this-fall",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-21T10:00:00-04:00",
+      "general_sale_url": "https://www.ticketmaster.com/event/3000650DC6AE59EC"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "Live Nation",
+      "image_url": null,
+      "last_updated": "2026-08-21",
+      "last_researched_by": "en-researcher",
+      "id": "en-jonas-brothers-burning-up-all-over-again-indianapolis-20261015",
+      "name": "Jonas Brothers: The Burning Up Tour All Over Again - Indianapolis",
+      "release_date": "2026-10-15",
+      "timezone": "America/Indiana/Indianapolis",
+      "category": "concert_tour",
+      "platforms": [
+        "Gainbridge Fieldhouse, Indianapolis, IN"
+      ],
+      "developer": "Jonas Brothers, Magnus Ferrell, Deleasa",
+      "description": "The Jonas Brothers bring The Burning Up Tour All Over Again to Gainbridge Fieldhouse in Indianapolis on October 15, 2026, one of 45 North American arena stops on the Live Nation run that grew out of their sold-out Madison Square Garden celebrations in August 2026. The show revisits the 2008 Burning Up Tour that broke Kevin, Joe and Nick Jonas nationally, rebuilt for arenas nearly two decades later. Magnus Ferrell and Deleasa joins as support.",
+      "genres": [
+        "Pop",
+        "Pop Rock",
+        "Concert"
+      ],
+      "source_url": "https://www.xfinitymobilearena.com/news/detail/jonas-brothers-bring-the-burning-up-tour-all-over-again-to-45-cities-across-north-america-this-fall",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-21T10:00:00-04:00",
+      "general_sale_url": "https://www.ticketmaster.com/jonas-brothers-tickets/artist/1052712"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "Live Nation",
+      "image_url": null,
+      "last_updated": "2026-08-21",
+      "last_researched_by": "en-researcher",
+      "id": "en-jonas-brothers-burning-up-all-over-again-rosemont-20261022",
+      "name": "Jonas Brothers: The Burning Up Tour All Over Again - Rosemont",
+      "release_date": "2026-10-22",
+      "timezone": "America/Chicago",
+      "category": "concert_tour",
+      "platforms": [
+        "Allstate Arena, Rosemont, IL"
+      ],
+      "developer": "Jonas Brothers, Magnus Ferrell, Deleasa",
+      "description": "The Jonas Brothers bring The Burning Up Tour All Over Again to Allstate Arena in Rosemont on October 22, 2026, one of 45 North American arena stops on the Live Nation run that grew out of their sold-out Madison Square Garden celebrations in August 2026. The show revisits the 2008 Burning Up Tour that broke Kevin, Joe and Nick Jonas nationally, rebuilt for arenas nearly two decades later. Magnus Ferrell and Deleasa joins as support.",
+      "genres": [
+        "Pop",
+        "Pop Rock",
+        "Concert"
+      ],
+      "source_url": "https://www.xfinitymobilearena.com/news/detail/jonas-brothers-bring-the-burning-up-tour-all-over-again-to-45-cities-across-north-america-this-fall",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-21T10:00:00-05:00",
+      "general_sale_url": "https://www.ticketmaster.com/jonas-brothers-tickets/artist/1052712"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "Live Nation",
+      "image_url": null,
+      "last_updated": "2026-08-21",
+      "last_researched_by": "en-researcher",
+      "id": "en-jonas-brothers-burning-up-all-over-again-los-angeles-20261118",
+      "name": "Jonas Brothers: The Burning Up Tour All Over Again - Los Angeles",
+      "release_date": "2026-11-18",
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Hollywood Bowl, Los Angeles, CA"
+      ],
+      "developer": "Jonas Brothers, All Time Low, Magnus Ferrell, Deleasa",
+      "description": "The Jonas Brothers bring The Burning Up Tour All Over Again to Hollywood Bowl in Los Angeles on November 18, 2026, one of 45 North American arena stops on the Live Nation run that grew out of their sold-out Madison Square Garden celebrations in August 2026. The show revisits the 2008 Burning Up Tour that broke Kevin, Joe and Nick Jonas nationally, rebuilt for arenas nearly two decades later. All Time Low, Magnus Ferrell and Deleasa joins as support.",
+      "genres": [
+        "Pop",
+        "Pop Rock",
+        "Concert"
+      ],
+      "source_url": "https://www.xfinitymobilearena.com/news/detail/jonas-brothers-bring-the-burning-up-tour-all-over-again-to-45-cities-across-north-america-this-fall",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-21T10:00:00-07:00",
+      "general_sale_url": "https://www.ticketmaster.com/jonas-brothers-tickets/artist/1052712"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "Live Nation",
+      "image_url": null,
+      "last_updated": "2026-08-21",
+      "last_researched_by": "en-researcher",
+      "id": "en-jonas-brothers-burning-up-all-over-again-denver-20261209",
+      "name": "Jonas Brothers: The Burning Up Tour All Over Again - Denver",
+      "release_date": "2026-12-09",
+      "timezone": "America/Denver",
+      "category": "concert_tour",
+      "platforms": [
+        "Ball Arena, Denver, CO"
+      ],
+      "developer": "Jonas Brothers, Magnus Ferrell, Deleasa",
+      "description": "The Jonas Brothers bring The Burning Up Tour All Over Again to Ball Arena in Denver on December 9, 2026, one of 45 North American arena stops on the Live Nation run that grew out of their sold-out Madison Square Garden celebrations in August 2026. The show revisits the 2008 Burning Up Tour that broke Kevin, Joe and Nick Jonas nationally, rebuilt for arenas nearly two decades later. Magnus Ferrell and Deleasa joins as support.",
+      "genres": [
+        "Pop",
+        "Pop Rock",
+        "Concert"
+      ],
+      "source_url": "https://www.xfinitymobilearena.com/news/detail/jonas-brothers-bring-the-burning-up-tour-all-over-again-to-45-cities-across-north-america-this-fall",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-21T10:00:00-06:00",
+      "general_sale_url": "https://www.ticketmaster.com/jonas-brothers-tickets/artist/1052712"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "Live Nation",
+      "image_url": null,
+      "last_updated": "2026-08-21",
+      "last_researched_by": "en-researcher",
+      "id": "en-jonas-brothers-burning-up-all-over-again-belmont-park-20261219",
+      "name": "Jonas Brothers: The Burning Up Tour All Over Again - Belmont Park",
+      "release_date": "2026-12-19",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "UBS Arena, Belmont Park, NY"
+      ],
+      "developer": "Jonas Brothers, Magnus Ferrell, Deleasa",
+      "description": "The Jonas Brothers bring The Burning Up Tour All Over Again to UBS Arena in Belmont Park on December 19, 2026, one of 45 North American arena stops on the Live Nation run that grew out of their sold-out Madison Square Garden celebrations in August 2026. The show revisits the 2008 Burning Up Tour that broke Kevin, Joe and Nick Jonas nationally, rebuilt for arenas nearly two decades later. Magnus Ferrell and Deleasa joins as support.",
+      "genres": [
+        "Pop",
+        "Pop Rock",
+        "Concert"
+      ],
+      "source_url": "https://www.xfinitymobilearena.com/news/detail/jonas-brothers-bring-the-burning-up-tour-all-over-again-to-45-cities-across-north-america-this-fall",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-21T10:00:00-04:00",
+      "general_sale_url": "https://www.ticketmaster.com/jonas-brothers-tickets/artist/1052712"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "Live Nation",
+      "image_url": null,
+      "last_updated": "2026-08-21",
+      "last_researched_by": "en-researcher",
+      "id": "en-jonas-brothers-burning-up-all-over-again-newark-20261221",
+      "name": "Jonas Brothers: The Burning Up Tour All Over Again - Newark",
+      "release_date": "2026-12-21",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Prudential Center, Newark, NJ"
+      ],
+      "developer": "Jonas Brothers, Magnus Ferrell, Deleasa",
+      "description": "The Jonas Brothers bring The Burning Up Tour All Over Again to Prudential Center in Newark on December 21, 2026, one of 45 North American arena stops on the Live Nation run that grew out of their sold-out Madison Square Garden celebrations in August 2026. The show revisits the 2008 Burning Up Tour that broke Kevin, Joe and Nick Jonas nationally, rebuilt for arenas nearly two decades later. Magnus Ferrell and Deleasa joins as support. The Newark date closes the tour.",
+      "genres": [
+        "Pop",
+        "Pop Rock",
+        "Concert"
+      ],
+      "source_url": "https://www.xfinitymobilearena.com/news/detail/jonas-brothers-bring-the-burning-up-tour-all-over-again-to-45-cities-across-north-america-this-fall",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-21T10:00:00-04:00",
+      "general_sale_url": "https://www.ticketmaster.com/jonas-brothers-tickets/artist/1052712"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "AEG Presents",
+      "image_url": null,
+      "last_updated": "2026-08-21",
+      "last_researched_by": "en-researcher",
+      "id": "en-taemin-liminal-world-tour-los-angeles-20261015",
+      "name": "TAEMIN World Tour <LiMiNaL> - Los Angeles",
+      "release_date": "2026-10-15",
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Crypto.com Arena, Los Angeles, CA"
+      ],
+      "developer": "TAEMIN",
+      "description": "SHINee member and solo artist TAEMIN plays Crypto.com Arena in Los Angeles on October 15, 2026 as part of the 2026-27 LiMiNaL World Tour, his first run routed with a major Western promoter after partnering with AEG. The tour follows his Coachella debut in April 2026 and the album Phase 1 : SOFT VIOLENCE, and moves him from theatre-sized rooms into full arenas. The leg opens October 12 at SAP Center in San Jose.",
+      "genres": [
+        "K-Pop",
+        "Pop",
+        "Concert"
+      ],
+      "source_url": "https://www.forbes.com/sites/jeffbenjamin/2026/08/14/taemin-reveals-us-leg-of-liminal-world-tour-in-partnership-with-aeg/",
+      "presale": false,
+      "general_sale": false
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "AEG Presents",
+      "image_url": null,
+      "last_updated": "2026-08-21",
+      "last_researched_by": "en-researcher",
+      "id": "en-taemin-liminal-world-tour-newark-20261023",
+      "name": "TAEMIN World Tour <LiMiNaL> - Newark",
+      "release_date": "2026-10-23",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Prudential Center, Newark, NJ"
+      ],
+      "developer": "TAEMIN",
+      "description": "SHINee member and solo artist TAEMIN plays Prudential Center in Newark on October 23, 2026 as part of the 2026-27 LiMiNaL World Tour, his first run routed with a major Western promoter after partnering with AEG. The tour follows his Coachella debut in April 2026 and the album Phase 1 : SOFT VIOLENCE, and moves him from theatre-sized rooms into full arenas. The Newark show closes the six-city North American leg.",
+      "genres": [
+        "K-Pop",
+        "Pop",
+        "Concert"
+      ],
+      "source_url": "https://www.forbes.com/sites/jeffbenjamin/2026/08/14/taemin-reveals-us-leg-of-liminal-world-tour-in-partnership-with-aeg/",
+      "presale": false,
+      "general_sale": false
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": null,
+      "last_updated": "2026-08-21",
+      "last_researched_by": "en-researcher",
+      "id": "en-bad-bunny-cerramos-en-casa-san-juan-20260822",
+      "name": "Bad Bunny: Debi Tirar Mas Fotos - Cerramos en Casa (Night 1)",
+      "release_date": "2026-08-22",
+      "timezone": "America/Puerto_Rico",
+      "category": "concert_tour",
+      "platforms": [
+        "Hiram Bithorn Stadium, San Juan, Puerto Rico"
+      ],
+      "developer": "Bad Bunny",
+      "description": "Bad Bunny closes the Debi Tirar Mas Fotos World Tour with two hometown nights at Hiram Bithorn Stadium in San Juan, and this is the first of them. The billing, Cerramos en Casa, translates as we close at home, bringing the global run back to the Puerto Rico residency that started the album cycle in 2025. Tickets went on sale August 19 through PR Ticket.",
+      "genres": [
+        "Reggaeton",
+        "Latin",
+        "Concert"
+      ],
+      "source_url": "https://news.pollstar.com/2026/08/18/cerrando-en-casa-bad-bunny-returning-to-puerto-rico-for-final-shows-of-debi-tirar-mas-fotos-tour/",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-19T10:00:00-04:00"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": null,
+      "last_updated": "2026-08-21",
+      "last_researched_by": "en-researcher",
+      "id": "en-bad-bunny-cerramos-en-casa-san-juan-20260823",
+      "name": "Bad Bunny: Debi Tirar Mas Fotos - Cerramos en Casa (Night 2)",
+      "release_date": "2026-08-23",
+      "timezone": "America/Puerto_Rico",
+      "category": "concert_tour",
+      "platforms": [
+        "Hiram Bithorn Stadium, San Juan, Puerto Rico"
+      ],
+      "developer": "Bad Bunny",
+      "description": "Bad Bunny closes the Debi Tirar Mas Fotos World Tour with two hometown nights at Hiram Bithorn Stadium in San Juan, and this is the second and final of them. The billing, Cerramos en Casa, translates as we close at home, bringing the global run back to the Puerto Rico residency that started the album cycle in 2025. Tickets went on sale August 19 through PR Ticket.",
+      "genres": [
+        "Reggaeton",
+        "Latin",
+        "Concert"
+      ],
+      "source_url": "https://news.pollstar.com/2026/08/18/cerrando-en-casa-bad-bunny-returning-to-puerto-rico-for-final-shows-of-debi-tirar-mas-fotos-tour/",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-19T10:00:00-04:00"
+    },
+    {
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": null,
+      "last_updated": "2026-08-21",
+      "last_researched_by": "en-researcher",
+      "id": "en-yuri-lucero-entre-amigas-newark-20270509",
+      "name": "Yuri & Lucero: Entre Amigas Tour - Newark",
+      "release_date": "2027-05-09",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Prudential Center, Newark, NJ"
+      ],
+      "developer": "Yuri, Lucero",
+      "description": "Mexican pop veterans Yuri and Lucero share a stage for the first time on the Entre Amigas Tour, and the Newark date at Prudential Center on May 9, 2027 closes the US itinerary. The run opens November 27, 2026 in Sugar Land, Texas, pauses, then resumes in April 2027 through San Jose, Los Angeles, Chicago and Fairfax. General tickets went on sale August 21, 2026.",
+      "genres": [
+        "Latin Pop",
+        "Pop",
+        "Concert"
+      ],
+      "source_url": "https://www.prucenter.com/events/yuri-lucero",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-21T10:00:00-04:00",
+      "general_sale_url": "https://www.prucenter.com/events/yuri-lucero"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "Galaxy Corporation",
+      "image_url": null,
+      "last_updated": "2026-08-21",
+      "last_researched_by": "en-researcher",
+      "id": "en-taemin-phase-1-soft-violence-20260831",
+      "name": "TAEMIN - PHASE 1 : SOFT VIOLENCE",
+      "release_date": "2026-08-31",
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [
+        "Streaming",
+        "Digital",
+        "CD"
+      ],
+      "developer": "TAEMIN",
+      "description": "TAEMIN releases PHASE 1 : SOFT VIOLENCE worldwide on August 31, 2026, his first full-length body of work in roughly two years and his first under Galaxy Corporation. The eleven-track set includes FLOAT, Gooey, PERMISSION, 1004, SKIN, PARASITE, Frankenstein and This is the End, moving between atmospheric pop and moodier experimental production. It lands ahead of the LiMiNaL World Tour opening in Seoul on September 18.",
+      "genres": [
+        "K-Pop",
+        "Pop",
+        "Album"
+      ],
+      "source_url": "https://www.forbes.com/sites/jeffbenjamin/2026/08/14/taemin-reveals-us-leg-of-liminal-world-tour-in-partnership-with-aeg/"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "Danny Wimmer Presents",
+      "image_url": null,
+      "last_updated": "2026-08-21",
+      "last_researched_by": "en-researcher",
+      "id": "en-louder-than-life-2025-20250918",
+      "name": "Louder Than Life 2025",
+      "release_date": "2025-09-18",
+      "timezone": "America/Kentucky/Louisville",
+      "category": "festival",
+      "platforms": [
+        "Highland Festival Grounds at Kentucky Exposition Center, Louisville, KY"
+      ],
+      "developer": "Slayer, Rob Zombie, Avenged Sevenfold, Deftones, Bring Me the Horizon, Sleep Token",
+      "description": "Louder Than Life ran September 18-21, 2025 at the Highland Festival Grounds at the Kentucky Exposition Center in Louisville. Danny Wimmer Presents billed it as the largest lineup in the promoter's history, with more than 175 bands across seven stages. Slayer, Rob Zombie, Avenged Sevenfold, Deftones and Bring Me the Horizon took the headline slots, with Sleep Token, Bad Omens and $uicideboy$ also billed high.",
+      "genres": [
+        "Rock",
+        "Metal",
+        "Festival"
+      ],
+      "source_url": "https://www.billboard.com/music/concerts/2025-louder-than-life-festival-lineup-1235910604/"
+    },
+    {
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": null,
+      "last_updated": "2026-08-21",
+      "last_researched_by": "en-researcher",
+      "id": "en-alex-g-headlights-tour-new-york-20251008",
+      "name": "Alex G: Headlights Tour - New York",
+      "release_date": "2025-10-08",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Radio City Music Hall, New York, NY"
+      ],
+      "developer": "Alex G, Nilufer Yanya",
+      "description": "Alex G played Radio City Music Hall on October 8, 2025, an added New York date on the tour behind Headlights, the Philadelphia songwriter's major-label debut released that July on RCA. Nilufer Yanya opened. The booking was a sharp jump in room size for an artist who had spent a decade in clubs and mid-size theatres, and the set drew across the new record and the older catalogue.",
+      "genres": [
+        "Indie Rock",
+        "Alternative",
+        "Concert"
+      ],
+      "source_url": "https://www.setlist.fm/setlist/alex-g/2025/radio-city-music-hall-new-york-ny-b47c51e.html"
+    },
+    {
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": null,
+      "last_updated": "2026-08-21",
+      "last_researched_by": "en-researcher",
+      "id": "en-laufey-a-matter-of-time-los-angeles-20250926",
+      "name": "Laufey: A Matter of Time Tour - Los Angeles",
+      "release_date": "2025-09-26",
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Crypto.com Arena, Los Angeles, CA"
+      ],
+      "developer": "Laufey, Suki Waterhouse",
+      "description": "Laufey opened a two-night stand at Crypto.com Arena on September 26, 2025 on the A Matter of Time Tour, her first headline arena dates. Suki Waterhouse supported. The Icelandic-Chinese singer built the show around jazz-rooted material staged with pop production values, and brought out Hozier for a duet during the opening night. She returned to the same building the following evening.",
+      "genres": [
+        "Jazz Pop",
+        "Pop",
+        "Concert"
+      ],
+      "source_url": "https://www.billboard.com/lists/laufey-los-angeles-concert-crypto-com-arena-best-moments/"
     }
   ]
 }
