@@ -1,3 +1,11 @@
+## [2026-08-21 14:40] [EN 뉴스]
+뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
+- 신규 기사 8건: Neil Young & Willie Nelson 9월 공동헤드라인 2회(8/21 일반예매) / Oso Oso An Exchange of Information 투어 32회(8/21 온세일) / Camp Flog Gnaw 2026 라인업(Dodger Stadium 11/14~15, 이미 매진) / Anderson .Paak & Cordae 합작 Heavy Is the Crown(10/23) / American Football 라틴아메리카 부에노스아이레스·상파울루 추가 / Remi Wolf 3집 Mud(10/9) / Wolves In The Throne Room Estuary(10/23) / Down Volume V(11/20)
+- 갱신 1건: Bad Bunny 산후안 피날레 기사에 [Updated 2026-08-21] 매진 문구 추가(대기열 100만명 이상, 8/19 매진). 기존 기사 보존, 신규 중복 기사 미작성
+- 콘서트 링크 연결 1건(Bad Bunny 갱신분 2개 id) / 링크 없음 8건 — 신규 8건 모두 concerts.en.json 미등재 아티스트라 링크 생략
+- 리서처 인계 leads 8건 append(공연 4건 + 음원 4건). 기존 줄 무수정
+- 스킵: Camp Flog Gnaw 외 8/18 이하 소식(48시간 초과), Phoebe Bridgers BBC 커버·Weezer 리뷰·Jack White 가십(행동 유발 공지 아님), Luke Combs/Jonas Brothers/Rock The Bells/SOAD 8/21 일반예매(이미 기존 기사에서 예매일 고지 완료 — 중복 회피)
+
 ## [2026-08-21 09:40] [EN 리서처]
 리서치 완료 (영어권/글로벌 시장 공연)
 - 콘서트/투어 7→4, 발매 3→1, 페스티벌 3→0, 팬미팅 0→0 (후보→통과, 아티스트/투어 단위)
