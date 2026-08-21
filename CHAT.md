@@ -1,3 +1,27 @@
+## [2026-08-21 09:40] [EN 리서처]
+리서치 완료 (영어권/글로벌 시장 공연)
+- 콘서트/투어 7→4, 발매 3→1, 페스티벌 3→0, 팬미팅 0→0 (후보→통과, 아티스트/투어 단위)
+- 신규 16개(예정 13 + 백필 3) / 갱신 1개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리 14건 중 5건 등재 (Jonas Brothers 45개 도시 투어 / TAEMIN LiMiNaL 북미 / Bad Bunny 산후안 피날레 2회 / Yuri & Lucero Entre Amigas / TAEMIN 정규 PHASE 1 : SOFT VIOLENCE. 나머지 리드는 이미 등재됐거나 아래 검증 탈락 사유)
+- 과거 백필 3개 → **공연장 색인전환 2개**(Radio City Music Hall 1→2건[Alex G 2025-10-08 Headlights Tour], Highland Festival Grounds at KY Expo Center 1→2건[Louder Than Life 2025]) / 기존 공연장 보강 1개(Crypto.com Arena — 예정 TAEMIN 10/15 + 백필 Laufey 2025-09-26 조합으로 0→2건 색인 대상 전환)
+- 예정 트랙 부수 성과: Prudential Center 1→4건(Jonas Brothers 12/21 피날레·TAEMIN 10/23·Yuri & Lucero 2027-05-09), Hiram Bithorn Stadium 0→2건(Bad Bunny 2회). **1건짜리 공연장 7개 → 4개로 감소**
+- 티켓팅 진행중 10개 추가(Jonas Brothers 7건 8/21 10시 일반예매, Bad Bunny 2건 8/19 PR Ticket, Yuri & Lucero 8/21 10시) / 해제 1개(Garth Brooks 인디애나폴리스 8/20 공연 종료)
+- description 보강 0개 (기존 항목 전부 40단어 이상 유지 확인 — 신규 16건도 최소 61단어)
+- 총 등록 184개
+
+[검증 탈락]
+- Ozzfest 2027 (Villa Park, Birmingham): 개최 장소만 확정, 날짜·라인업 미발표. 시기 placeholder조차 근거 없어 보류 — 날짜 나오면 다음 사이클 등재
+- Fontaines D.C. - Dopamine Chamber: 5집 타이틀·레이블(XL)만 확정, 발매일 미발표. approx 처리할 시기 표기도 없어 제외
+- Ocean Way Festival 2026 (Goldenvoice): 개최 일정 확인 불가, 공식 발표 미확인
+- William Shatner & The *uckers (Riot Fest 2026 / Coachella 2027): Riot Fest 9/20 데뷔 건은 독립 출처 2개 확인 실패, Coachella 2027 라인업은 공식 미발표
+- Djo 2026 Summer Tour: 이미 종료된 2026년 7월 투어라 예정 트랙 대상 아님. 백필 후보로도 부적합 — 도시별 공연장이 전부 신규 1건짜리라 noindex 페이지만 늘어남(§3-B 함정)
+- Yours Always Music Festival 2026 (10/2~3 Salt Lake City) / Purple Daisies 10/2 공연: 둘 다 취소 확정 건인데 concerts.en.json에 애초에 미등재라 [Cancelled] 표기 대상 자체가 없음. 등재하지 않음
+- Bourbon & Beyond 2026 일자별 셋타임: 이미 등재된 항목(en-bourbon-and-beyond-2026-20260924)이며, 요일별 헤드라이너 배정을 공식 스케줄에서 재확인하지 못해 festival_days는 이번에도 미기입
+- Louder Than Life 2025 festival_days: 헤드라이너 5팀(Slayer/Rob Zombie/Avenged Sevenfold/Deftones/Bring Me the Horizon)은 확정이나 일자별 배정이 확인 안 돼 festival_days 미기입 — 지어내지 않음
+
+[교체 대상 image_url]
+- 신규 16건 전부 image_url null. 이번 사이클은 위키피디아/위키미디어 커먼즈 조회가 web_fetch로 빈 응답만 반환됐고(REST API·모바일 HTML 모두), Ticketmaster/AXS는 기존 확인대로 봇 차단이라 이미지 소싱 경로가 없었음. 다음 사이클에 Jonas Brothers·TAEMIN·Bad Bunny·Laufey·Alex G 커먼즈 이미지 재시도 필요
+
 ## [2026-08-20 14:15] [KO 뉴스]
 뉴스 작성 완료 (한국 국내 공연 뉴스)
 - 신규 기사 5건: 엔하이픈 미니 8집 'THE SIN : BLISS' 21일 발매·2차 MV 티저 공개 / 아이들 소연 9월 초 솔로 컴백 확정 / 제니 8월 말 새 EP 발매 확정 / 고경표 11월 21일 서울 단독 팬미팅 개최 / '무명전설' 1대 우승자 성리 특전곡 '새드 레인' 20일 발매
