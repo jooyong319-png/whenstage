@@ -1,3 +1,23 @@
+## [2026-08-22 09:41] [JA 리서처]
+리서치 완료 (일본 국내 공연)
+- 콘서트/来日 12→11, 발매 3→2, 페스티벌 2→0, 팬미팅 0→0 (후보→통과)
+- 신규 18개(예정 15 + 과거 백필 3) / 갱신 7개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리 8건 중 6건 등재 (Number_i LIVE TOUR No.III 도쿄·오사카 3공연 / MAN WITH A MISSION Firestarter Tour 4공연 + 싱글 / HiGH&LOW THE 戦国 LOVE&HATE 2공연 / THE SPELLBOUND×BOOM BOOM SATELLITES 무료공연 / 스키야키 도쿄공연 8/25 / 山中千尋『Happy-Go-Lucky』). 나머지 리드는 이미 등재됐거나 아래 보류 사유
+- 예정 트랙 신규: Number_i 5대돔 투어 오사카(12/02)·도쿄돔(12/09·12/10), MWAM Firestarter Tour 도쿄 SGC HALL ARIAKE(12/09·12/10)·Zepp Osaka Bayside(12/21·12/22), MWAM『Firestarter』싱글(10/28), 宝塚歌劇団×LDH「HiGH&LOW THE 戦国 LOVE&HATE」有明アリーナ(11/18·11/19), THE SPELLBOUND×BOOM BOOM SATELLITES 신주쿠 시네시티광장 무료공연(08/24), 스키야키 도쿄공연 青山月見ル君想フ(08/25), 山中千尋『Happy-Go-Lucky』(09/30), 佐野元春 IN & OUT TOUR 2026 오사카 페스티벌홀(09/22)·도쿄 SGC HALL ARIAKE(11/05)
+- 과거 백필 3개 → **공연장 색인전환 3개**(ブルーノート東京 1→2건[BRIAN JACKSON & YASIIN BEY 2026-05-22], Zepp Nagoya 1→2건[Kroi JUNGLE 2026-08-21], ザ・シンフォニーホール 1→2건[ストラディヴァリウス・スーパー・プレミアム・コンサート 2026 오사카 2026-05-29]) / 기존 공연장 보강 0개
+- 예정 트랙 부수 성과: 青山月見ル君想フ 1→2건 색인전환(스키야키 도쿄공연), Zepp Osaka Bayside 신규 공연장이지만 2건 동시 등재로 처음부터 색인 대상. **1건짜리 공연장 13개 → 10개로 감소**(신규 シネシティ広場 1건 포함)
+- 티켓팅 진행중 4개 추가(MWAM 4공연 FC선행 8/14 21:30~, HiGH&LOW 2공연 선행추첨 8/24 15:00~, 佐野元春 도쿄 FC선행 8/28까지, 佐野元春 오사카 일반발매 8/22 10:00 개시) / 해제 7개(Number_i 삿포로·BABYMONSTER·Mega Shinnosuke·Peter Gallway 선행 종료 8/16, A.B.C-Z·SUPER JUNIOR RYEOWOOK·BOYNEXTDOOR 공연 종료)
+- description 보강 0개 (전 항목 일본어 120자 이상 유지 확인)
+- 총 등록 160개
+- `npm run validate` 통과 (ko 146 / en 184 / ja 160, 이상 없음)
+
+[검증 탈락·보류]
+- "MOUNTAIN HIGH" BAREBONES〈後藤達也 & 阿部芳久 還暦祭ライブ〉(11/07 新代田FEVER): 1차 출처가 CDJournal 1건뿐이고 공식 고지·티켓 페이지에서 일시 재확인 실패. 독립 출처 2개 기준 미달로 다음 사이클 재확인
+- 〈스키야키〉 8/26 代官山 晴れたら空に豆まいて 공연: 날짜·출연자는 CDJournal로 확인되나 회장 공식 스케줄에서 재확인하지 못했고, 등재 시 1건짜리 공연장만 늘어나므로 보류
+- Number_i No.III 名古屋(2027-01-09~11)·福岡(2027-01-16~17): 일정은 공식 확인됐으나 일일 신규 15건 한도로 다음 사이클 이월
+- 佐野元春 IN & OUT TOUR 나머지 19공연: 동일 사유로 이월(東京ガーデンシアター 2027-03-20 우선 등재 예정)
+- ひなたフェス2026·THE PIANO ERA 2026·GREENROOM FESTIVAL'27 등 나머지 리드: 이미 concerts.ja.json에 등재되어 있어 스킵
+
 ## [2026-08-21 14:40] [EN 뉴스]
 뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
 - 신규 기사 8건: Neil Young & Willie Nelson 9월 공동헤드라인 2회(8/21 일반예매) / Oso Oso An Exchange of Information 투어 32회(8/21 온세일) / Camp Flog Gnaw 2026 라인업(Dodger Stadium 11/14~15, 이미 매진) / Anderson .Paak & Cordae 합작 Heavy Is the Crown(10/23) / American Football 라틴아메리카 부에노스아이레스·상파울루 추가 / Remi Wolf 3집 Mud(10/9) / Wolves In The Throne Room Estuary(10/23) / Down Volume V(11/20)
