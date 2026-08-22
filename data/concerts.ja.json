@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-19",
+  "last_updated": "2026-08-22",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -1027,8 +1027,10 @@
       "image_url": null,
       "source_url": "https://www.musicvoice.jp/news/310961/",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-01T12:00:00+09:00"
+      "general_sale": false,
+      "general_sale_datetime": "2026-08-01T12:00:00+09:00",
+      "last_updated": "2026-08-22",
+      "last_researched_by": "ja-researcher"
     },
     {
       "id": "ja-milet-made-of-glass-20260819",
@@ -1086,14 +1088,16 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/190709_%EC%8A%88%ED%8D%BC%EC%A3%BC%EB%8B%88%EC%96%B4_%EB%A0%A4%EC%9A%B1_%282%29.jpg/250px-190709_%EC%8A%88%ED%8D%BC%EC%A3%BC%EB%8B%88%EC%96%B4_%EB%A0%A4%EC%9A%B1_%282%29.jpg",
       "source_url": "https://superjunior-jp.net/en/news/detail.php?id=1133791",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-07-18T10:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://eplus.jp/sf/word/0000075063",
       "presale": false,
       "presale_datetime": "2026-06-01T17:00:00+09:00",
       "presale_end_datetime": "2026-06-08T23:59:00+09:00",
-      "presale_url": "https://superjunior-jp.net/en/news/detail.php?id=1133791"
+      "presale_url": "https://superjunior-jp.net/en/news/detail.php?id=1133791",
+      "last_updated": "2026-08-22",
+      "last_researched_by": "ja-researcher"
     },
     {
       "id": "ja-boynextdoor-knock-on-vol2-japan-20260821",
@@ -1115,10 +1119,10 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/BoyNextDoor_at_Music_Bank%2C_2024_%2820240426%29.jpg/330px-BoyNextDoor_at_Music_Bank%2C_2024_%2820240426%29.jpg",
       "source_url": "https://www.hybejapan-concert.com/statics/bnd_knock_on_vol2_in_japan",
-      "last_updated": "2026-08-05",
+      "last_updated": "2026-08-22",
       "last_researched_by": "ja-researcher",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-07-25T13:00:00+09:00",
       "general_sale_url": "https://l-tike.com/boynextdoor/"
     },
@@ -1633,9 +1637,9 @@
       ],
       "image_url": null,
       "source_url": "https://yg-babymonster-official.jp/live/2026-2027_worldtour_in_japan/",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-08-22",
       "last_researched_by": "ja-researcher",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-07-28T18:00:00+09:00",
       "presale_end_datetime": "2026-08-16T23:59:00+09:00",
       "presale_url": "https://eplus.jp/babymonster/"
@@ -1899,14 +1903,16 @@
         "金沢 もっきりや（石川ほか全国11都市12公演）"
       ],
       "description": "ザ・フィフス・アヴェニュー・バンドで知られるシンガー・ソングライターのピーター・ゴールウェイと、ギタリスト／プロデューサーの佐橋佳幸が、コラボ・アルバム『EN』を携えて全国を回る。10月10日の石川・金沢もっきりやを皮切りに福井・京都・愛知・大分・福岡・広島・大阪・香川・愛媛を巡り、10月28日・29日の東京・BLUES ALLEY JAPAN 2デイズでフィナーレを迎える。チケットは前売8000円・当日9000円（ドリンク／フード代別）。",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-07-29T00:00:00+09:00",
       "presale_end_datetime": "2026-08-16T23:59:00+09:00",
       "presale_url": "https://t.pia.jp/pia/event/event.do?eventCd=2625547",
       "general_sale": true,
       "general_sale_datetime": "2026-08-22T10:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://t.pia.jp/pia/event/event.do?eventCd=2625547"
+      "general_sale_url": "https://t.pia.jp/pia/event/event.do?eventCd=2625547",
+      "last_updated": "2026-08-22",
+      "last_researched_by": "ja-researcher"
     },
     {
       "id": "ja-abc-z-way-of-love-tour-20261014",
@@ -2595,9 +2601,9 @@
       ],
       "image_url": null,
       "source_url": "https://www.cdjournal.com/news/mega-shinnosuke/128629",
-      "last_updated": "2026-08-08",
+      "last_updated": "2026-08-22",
       "last_researched_by": "ja-researcher",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-08-05T19:00:00+09:00",
       "presale_end_datetime": "2026-08-16T23:59:00+09:00",
       "presale_url": "https://eplus.jp/megashinnosuke/",
@@ -2842,9 +2848,9 @@
       ],
       "image_url": null,
       "source_url": "https://realsound.jp/2026/08/post-2484181.html",
-      "last_updated": "2026-08-12",
+      "last_updated": "2026-08-22",
       "last_researched_by": "ja-researcher",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-08-10T16:00:00+09:00",
       "presale_end_datetime": "2026-08-16T23:59:00+09:00",
       "presale_url": "https://tobe-official.jp/artists/number_i/concert/364"
@@ -3681,6 +3687,462 @@
       "image_url": null,
       "source_url": "https://www.cdjournal.com/news/hanamura-sota/128898",
       "last_updated": "2026-08-19",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-number-i-no3-osaka-20261202",
+      "name": "Number_i LIVE TOUR No.III（京セラドーム大阪公演）",
+      "release_date": "2026-12-02",
+      "release_time": "18:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "京セラドーム大阪"
+      ],
+      "developer": "Number_i",
+      "publisher": null,
+      "description": "Number_iが2026年10月から2027年1月にかけて行うワールド・ツアーの日本公演「Number_i LIVE TOUR No.III」の京セラドーム大阪公演。グループにとって初のドーム・ツアーとなる本公演は全国5都市・5大ドームで全9公演が組まれており、大阪は札幌に続く2都市目にあたる。開場16:30／開演18:30。ファンクラブ先行受付は2026年8月10日から16日にかけて実施された。",
+      "genres": [
+        "J-POP",
+        "ドーム公演",
+        "ワールドツアー"
+      ],
+      "image_url": "https://prod-v2-assets.wmg.jp/uploads/Admat_1080x1350_On_Sale_ver1_a2b92ff228.png",
+      "source_url": "https://wmg.jp/number-i/news/92727",
+      "presale": false,
+      "presale_datetime": "2026-08-10T16:00:00+09:00",
+      "presale_end_datetime": "2026-08-16T23:59:00+09:00",
+      "last_updated": "2026-08-22",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-number-i-no3-tokyo-20261209",
+      "name": "Number_i LIVE TOUR No.III（東京ドーム公演1日目）",
+      "release_date": "2026-12-09",
+      "release_time": "18:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ドーム"
+      ],
+      "developer": "Number_i",
+      "publisher": null,
+      "description": "Number_iのワールド・ツアー日本公演「Number_i LIVE TOUR No.III」の東京ドーム公演1日目。全国5都市・5大ドームを巡る全9公演のうち東京は2日間が設定されており、グループにとって初の東京ドーム単独公演となる。開場16:30／開演18:30。ファンクラブ先行受付は2026年8月10日16:00から16日23:59まで行われた。",
+      "genres": [
+        "J-POP",
+        "ドーム公演",
+        "ワールドツアー"
+      ],
+      "image_url": "https://prod-v2-assets.wmg.jp/uploads/Admat_1080x1350_On_Sale_ver1_a2b92ff228.png",
+      "source_url": "https://wmg.jp/number-i/news/92727",
+      "presale": false,
+      "presale_datetime": "2026-08-10T16:00:00+09:00",
+      "presale_end_datetime": "2026-08-16T23:59:00+09:00",
+      "last_updated": "2026-08-22",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-number-i-no3-tokyo-20261210",
+      "name": "Number_i LIVE TOUR No.III（東京ドーム公演2日目）",
+      "release_date": "2026-12-10",
+      "release_time": "18:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ドーム"
+      ],
+      "developer": "Number_i",
+      "publisher": null,
+      "description": "Number_iのワールド・ツアー日本公演「Number_i LIVE TOUR No.III」の東京ドーム公演2日目。全国5都市・5大ドームを巡る全9公演のうち東京は2日間が設定されており、グループにとって初の東京ドーム単独公演となる。開場16:30／開演18:30。ファンクラブ先行受付は2026年8月10日16:00から16日23:59まで行われた。",
+      "genres": [
+        "J-POP",
+        "ドーム公演",
+        "ワールドツアー"
+      ],
+      "image_url": "https://prod-v2-assets.wmg.jp/uploads/Admat_1080x1350_On_Sale_ver1_a2b92ff228.png",
+      "source_url": "https://wmg.jp/number-i/news/92727",
+      "presale": false,
+      "presale_datetime": "2026-08-10T16:00:00+09:00",
+      "presale_end_datetime": "2026-08-16T23:59:00+09:00",
+      "last_updated": "2026-08-22",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-mwam-firestarter-tour-tokyo-20261209",
+      "name": "MAN WITH A MISSION Presents Firestarter Tour 2026（東京公演1日目）",
+      "release_date": "2026-12-09",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "SGC HALL ARIAKE（東京・有明）"
+      ],
+      "developer": "MAN WITH A MISSION",
+      "publisher": null,
+      "description": "MAN WITH A MISSIONが約5年ぶりのフィジカル・シングル『Firestarter』（2026年10月28日発売）を掲げて開催するワンマン・ツアーの東京公演1日目。東京・大阪の2都市で各2公演、計4公演のみという限定規模で、サマーソニック東京初日のステージ上で電撃的に発表された。ファンクラブ「FUN WITH A MISSION」先行は2026年8月14日21:30に受付を開始し、シングルの最速先行予約特典としてもシリアルが配布される。",
+      "genres": [
+        "ロック",
+        "ワンマン公演"
+      ],
+      "image_url": null,
+      "source_url": "https://prtimes.jp/main/html/rd/p/000004965.000013546.html",
+      "presale": true,
+      "presale_datetime": "2026-08-14T21:30:00+09:00",
+      "presale_url": "https://eplus.jp/mwam2026",
+      "last_updated": "2026-08-22",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-mwam-firestarter-tour-tokyo-20261210",
+      "name": "MAN WITH A MISSION Presents Firestarter Tour 2026（東京公演2日目）",
+      "release_date": "2026-12-10",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "SGC HALL ARIAKE（東京・有明）"
+      ],
+      "developer": "MAN WITH A MISSION",
+      "publisher": null,
+      "description": "MAN WITH A MISSIONが約5年ぶりのフィジカル・シングル『Firestarter』（2026年10月28日発売）を掲げて開催するワンマン・ツアーの東京公演2日目。東京・大阪の2都市で各2公演、計4公演のみという限定規模で、サマーソニック東京初日のステージ上で電撃的に発表された。ファンクラブ「FUN WITH A MISSION」先行は2026年8月14日21:30に受付を開始し、シングルの最速先行予約特典としてもシリアルが配布される。",
+      "genres": [
+        "ロック",
+        "ワンマン公演"
+      ],
+      "image_url": null,
+      "source_url": "https://prtimes.jp/main/html/rd/p/000004965.000013546.html",
+      "presale": true,
+      "presale_datetime": "2026-08-14T21:30:00+09:00",
+      "presale_url": "https://eplus.jp/mwam2026",
+      "last_updated": "2026-08-22",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-mwam-firestarter-tour-osaka-20261221",
+      "name": "MAN WITH A MISSION Presents Firestarter Tour 2026（大阪公演1日目）",
+      "release_date": "2026-12-21",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "Zepp Osaka Bayside（大阪）"
+      ],
+      "developer": "MAN WITH A MISSION",
+      "publisher": null,
+      "description": "MAN WITH A MISSIONが約5年ぶりのフィジカル・シングル『Firestarter』（2026年10月28日発売）を掲げて開催するワンマン・ツアーの大阪公演1日目。東京・大阪の2都市で各2公演、計4公演のみという限定規模で、サマーソニック東京初日のステージ上で電撃的に発表された。ファンクラブ「FUN WITH A MISSION」先行は2026年8月14日21:30に受付を開始し、シングルの最速先行予約特典としてもシリアルが配布される。",
+      "genres": [
+        "ロック",
+        "ワンマン公演"
+      ],
+      "image_url": null,
+      "source_url": "https://prtimes.jp/main/html/rd/p/000004965.000013546.html",
+      "presale": true,
+      "presale_datetime": "2026-08-14T21:30:00+09:00",
+      "presale_url": "https://eplus.jp/mwam2026",
+      "last_updated": "2026-08-22",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-mwam-firestarter-tour-osaka-20261222",
+      "name": "MAN WITH A MISSION Presents Firestarter Tour 2026（大阪公演2日目）",
+      "release_date": "2026-12-22",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "Zepp Osaka Bayside（大阪）"
+      ],
+      "developer": "MAN WITH A MISSION",
+      "publisher": null,
+      "description": "MAN WITH A MISSIONが約5年ぶりのフィジカル・シングル『Firestarter』（2026年10月28日発売）を掲げて開催するワンマン・ツアーの大阪公演2日目。東京・大阪の2都市で各2公演、計4公演のみという限定規模で、サマーソニック東京初日のステージ上で電撃的に発表された。ファンクラブ「FUN WITH A MISSION」先行は2026年8月14日21:30に受付を開始し、シングルの最速先行予約特典としてもシリアルが配布される。",
+      "genres": [
+        "ロック",
+        "ワンマン公演"
+      ],
+      "image_url": null,
+      "source_url": "https://prtimes.jp/main/html/rd/p/000004965.000013546.html",
+      "presale": true,
+      "presale_datetime": "2026-08-14T21:30:00+09:00",
+      "presale_url": "https://eplus.jp/mwam2026",
+      "last_updated": "2026-08-22",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-mwam-firestarter-single-20261028",
+      "name": "MAN WITH A MISSION『Firestarter』",
+      "release_date": "2026-10-28",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "MAN WITH A MISSION",
+      "publisher": null,
+      "description": "MAN WITH A MISSIONが約5年ぶりにリリースするフィジカル・シングル『Firestarter』。収録される新曲「ONE」は8月29日に先行配信され、Jリーグ・セレッソ大阪の新テーマソングに起用されている。同作の最速先行予約特典として12月の東阪ワンマン・ツアーのチケット先行シリアルが封入されるなど、ツアーと一体で展開される作品となっている。",
+      "genres": [
+        "ロック",
+        "シングル"
+      ],
+      "image_url": null,
+      "source_url": "https://prtimes.jp/main/html/rd/p/000004965.000013546.html",
+      "last_updated": "2026-08-22",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-highlow-sengoku-lovehate-20261118",
+      "name": "HiGH&LOW THE 戦国 LOVE&HATE（有明アリーナ公演初日）",
+      "release_date": "2026-11-18",
+      "release_time": "14:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "有明アリーナ"
+      ],
+      "developer": "宝塚歌劇団×LDH JAPAN",
+      "publisher": null,
+      "description": "宝塚歌劇団とLDH JAPANのコラボレーション第5弾となるライブイベント「HiGH&LOW THE 戦国 LOVE&HATE」の有明アリーナ公演初日。2024年の「HiGH&LOW THE 戦国」の続編にあたり、演劇と音楽を融合させた構成で上演される。宙組の水美舞斗ら宝塚歌劇団10名に加え、藤原樹・浦川翔平（THE RAMPAGE）、中島颯太・堀夏喜（FANTASTICS）らが出演。各日14:00開演と19:00開演の2回公演で、先行抽選予約は8月24日15:00に受付を開始し、一般発売は10月24日を予定している。",
+      "genres": [
+        "J-POP",
+        "舞台",
+        "LDH"
+      ],
+      "image_url": null,
+      "source_url": "https://natalie.mu/music/news/679223",
+      "presale": true,
+      "presale_datetime": "2026-08-24T15:00:00+09:00",
+      "presale_url": "https://e-ticketbook.com/",
+      "general_sale": false,
+      "last_updated": "2026-08-22",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-highlow-sengoku-lovehate-20261119",
+      "name": "HiGH&LOW THE 戦国 LOVE&HATE（有明アリーナ公演2日目）",
+      "release_date": "2026-11-19",
+      "release_time": "14:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "有明アリーナ"
+      ],
+      "developer": "宝塚歌劇団×LDH JAPAN",
+      "publisher": null,
+      "description": "宝塚歌劇団とLDH JAPANのコラボレーション第5弾となるライブイベント「HiGH&LOW THE 戦国 LOVE&HATE」の有明アリーナ公演2日目。2024年の「HiGH&LOW THE 戦国」の続編にあたり、演劇と音楽を融合させた構成で上演される。宙組の水美舞斗ら宝塚歌劇団10名に加え、藤原樹・浦川翔平（THE RAMPAGE）、中島颯太・堀夏喜（FANTASTICS）らが出演。各日14:00開演と19:00開演の2回公演で、先行抽選予約は8月24日15:00に受付を開始し、一般発売は10月24日を予定している。",
+      "genres": [
+        "J-POP",
+        "舞台",
+        "LDH"
+      ],
+      "image_url": null,
+      "source_url": "https://natalie.mu/music/news/679223",
+      "presale": true,
+      "presale_datetime": "2026-08-24T15:00:00+09:00",
+      "presale_url": "https://e-ticketbook.com/",
+      "general_sale": false,
+      "last_updated": "2026-08-22",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-spellbound-bbs-kabukicho-20260824",
+      "name": "THE SPELLBOUND × BOOM BOOM SATELLITES“川島道行生誕祭”野外フリーライブ",
+      "release_date": "2026-08-24",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "シネシティ広場（新宿・東急歌舞伎町タワー前）"
+      ],
+      "developer": "THE SPELLBOUND×BOOM BOOM SATELLITES",
+      "publisher": null,
+      "description": "BOOM BOOM SATELLITESの川島道行の誕生日にあたる8月24日、新宿・歌舞伎町のシネシティ広場で開催される入場無料の野外ライブ。川島の十周忌にあたる2026年に中野雅之と小林祐介（THE NOVEMBERS）がBOOM BOOM SATELLITES名義を復活させたプロジェクトの一環で、9月2日に配信される約10年ぶりの新曲「Brand New Drive」が初披露される予定。開場18:00／開演19:00、待機エリアの開放は17:00から。",
+      "genres": [
+        "ロック",
+        "エレクトロニック",
+        "フリーライブ"
+      ],
+      "image_url": null,
+      "source_url": "https://www.sonymusic.co.jp/artist/BoomBoomSatellites/info/586021",
+      "last_updated": "2026-08-22",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-sukiyaki-tokyo-lindigo-20260825",
+      "name": "〈スキヤキ・ミーツ・ザ・ワールド2026〉東京公演「modern voices from open sea and vast plains」",
+      "release_date": "2026-08-25",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "青山月見ル君想フ（東京・南青山）"
+      ],
+      "developer": "LINDIGO FAMILY",
+      "publisher": null,
+      "description": "富山・南砺で開かれるワールドミュージックの祭典〈スキヤキ・ミーツ・ザ・ワールド2026〉の出演者による東京公演。レユニオン島のマロヤを鳴らすランディゴファミリーが奄美の唄者・里アンナを迎えるほか、トゥバ共和国の喉歌グループ、オドゥチュが出演する。ランディゴファミリーの本祭出演は2018年以来7年ぶり。会場は青山の月見ル君想フ。",
+      "genres": [
+        "ワールドミュージック",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/-/128949",
+      "last_updated": "2026-08-22",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-yamanaka-chihiro-happy-go-lucky-20260930",
+      "name": "山中千尋『Happy-Go-Lucky』",
+      "release_date": "2026-09-30",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "山中千尋",
+      "publisher": "ユニバーサル ミュージック",
+      "description": "ジャズ・ピアニスト山中千尋が音楽キャリア25周年を迎えて発表するニュー・アルバム。これまでライヴで演奏を重ねてきた楽曲を中心に、キース・ジャレット「Memories of Tomorrow」、カーラ・ブレイ「Lawns」、ビル・エヴァンス／マイルス・デイヴィス「Blue in Green」などの名曲に自作「Beverly」を加えて構成される。通常盤はSHM-CD、初回限定盤はUHQCD＋DVDの2形態で、DVDには2023年のいわきアリオス公演の映像を収録。",
+      "genres": [
+        "ジャズ",
+        "アルバム"
+      ],
+      "image_url": null,
+      "source_url": "https://www.universal-music.co.jp/chihiro-yamanaka/news/2026-08-19/",
+      "last_updated": "2026-08-22",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-motoharu-sano-in-and-out-osaka-20260922",
+      "name": "MOTOHARU SANO & THE COYOTE BAND “IN & OUT TOUR 2026”（大阪公演）",
+      "release_date": "2026-09-22",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "フェスティバルホール（大阪）"
+      ],
+      "developer": "佐野元春",
+      "publisher": "ディスクガレージ",
+      "description": "デビュー45周年アニバーサリー・ツアーを全公演ソールドアウトで終えた佐野元春が、ザ・コヨーテ・バンドを従えて行う全国18都市21公演のホールツアー「IN & OUT TOUR 2026」の大阪公演。ツアー2本目にあたり、会場は大阪・フェスティバルホール。バンドは深沼元昭、藤田顕、渡辺シュンスケ、小松シゲル、高桑圭の5人。9月・10月公演の一般発売は2026年8月22日10:00に開始される。",
+      "genres": [
+        "ロック",
+        "J-POP",
+        "ホールツアー"
+      ],
+      "image_url": "https://diskgarage.com/digaonline/wordpress/wp-content/uploads/1780626761.webp",
+      "source_url": "https://diskgarage.com/digaonline/news/233331",
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-22T10:00:00+09:00",
+      "last_updated": "2026-08-22",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-motoharu-sano-in-and-out-tokyo-20261105",
+      "name": "MOTOHARU SANO & THE COYOTE BAND “IN & OUT TOUR 2026”（東京・有明公演）",
+      "release_date": "2026-11-05",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "SGC HALL ARIAKE（東京・有明）"
+      ],
+      "developer": "佐野元春",
+      "publisher": "ディスクガレージ",
+      "description": "佐野元春 & THE COYOTE BANDによる全国18都市21公演のホールツアー「IN & OUT TOUR 2026」の東京公演。ツアータイトルは「時代の中にいる、しかし時代に飲み込まれない」という佐野自身のロック的な立ち位置を示したもの。会場はSGCホール有明で、11月・12月公演のファンクラブ先行は7月31日15:00から8月28日23:59まで受付、一般発売は10月3日10:00開始。",
+      "genres": [
+        "ロック",
+        "J-POP",
+        "ホールツアー"
+      ],
+      "image_url": "https://diskgarage.com/digaonline/wordpress/wp-content/uploads/1780626761.webp",
+      "source_url": "https://diskgarage.com/digaonline/news/233331",
+      "presale": true,
+      "presale_datetime": "2026-07-31T15:00:00+09:00",
+      "presale_end_datetime": "2026-08-28T23:59:00+09:00",
+      "general_sale": false,
+      "general_sale_datetime": "2026-10-03T10:00:00+09:00",
+      "last_updated": "2026-08-22",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-brian-jackson-yasiin-bey-bluenote-20260522",
+      "name": "GIL SCOTT-HERON by BRIAN JACKSON & YASIIN BEY（ブルーノート東京公演）",
+      "release_date": "2026-05-22",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "ブルーノート東京"
+      ],
+      "developer": "BRIAN JACKSON & YASIIN BEY",
+      "publisher": "ブルーノート東京",
+      "description": "ギル・スコット・ヘロンの右腕として数々の名盤を生み出したブライアン・ジャクソンと、ヒップホップ・アイコンのヤシーン・ベイが組み、ギル・スコット・ヘロンに捧げるトリビュート・ライヴとして2026年5月22日にブルーノート東京で行われた世界初演の公演。レックス・キャメロン、サラ・マダルーニ、ディーン・マーク、クリス・モリスらを含む編成で、1stショウ18:00開演、2ndショウ20:30開演の2回公演として開催された。",
+      "genres": [
+        "ジャズ",
+        "ソウル",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://www.bluenote.co.jp/jp/artists/brian-jackson-yasiin-bey/",
+      "last_updated": "2026-08-22",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-kroi-jungle-nagoya-20260821",
+      "name": "Kroi Live Tour 2026 “JUNGLE”（Zepp Nagoyaワンマン公演）",
+      "release_date": "2026-08-21",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "Zepp Nagoya"
+      ],
+      "developer": "Kroi",
+      "publisher": "サンデーフォークプロモーション",
+      "description": "Kroiが全国6都市10公演で回ったツアー「Kroi Live Tour 2026 “JUNGLE”」の名古屋ワンマン公演として、2026年8月21日にZepp Nagoyaで開催された。前日20日には同じ会場でレキシを迎えた対バン公演が行われており、2日続けて性格の異なる公演が組まれた形となった。チケットは1Fスタンディング7,000円、2F指定席8,000円（税込・ドリンク代別）で、開場18:00／開演19:00。",
+      "genres": [
+        "ロック",
+        "ミクスチャー",
+        "ワンマン公演"
+      ],
+      "image_url": null,
+      "source_url": "https://www.sundayfolk.com/liveinfo/51ysblm",
+      "last_updated": "2026-08-22",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-stradivarius-premium-concert-osaka-20260529",
+      "name": "ストラディヴァリウス・スーパー・プレミアム・コンサート 2026（大阪公演）",
+      "release_date": "2026-05-29",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "ザ・シンフォニーホール（大阪）"
+      ],
+      "developer": "ベルリン・フィルハーモニー・ストラディヴァリウス・ソロイスツ",
+      "publisher": "パシフィック・コンサート・マネジメント",
+      "description": "ベルリン・フィルハーモニー管弦楽団の名手たちがストラディヴァリウス11挺（ヴァイオリン7挺、ヴィオラ2挺、チェロ2挺）を携えて臨んだ特別公演の大阪公演として、2026年5月29日19:00にザ・シンフォニーホールで開催された。プログラムはモーツァルトのディヴェルティメント K.136、J.S.バッハの2つのヴァイオリンのための協奏曲 BWV1043、ヴィヴァルディの2つのチェロのための協奏曲 RV531と「四季」。チケットはS席15,000円ほか3種が用意された。",
+      "genres": [
+        "クラシック",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://www.symphonyhall.jp/event/2024129415/",
+      "last_updated": "2026-08-22",
       "last_researched_by": "ja-researcher"
     }
   ]
