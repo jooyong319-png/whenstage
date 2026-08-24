@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-20",
+  "last_updated": "2026-08-24",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -1739,10 +1739,12 @@
       "presale_datetime": "2026-06-24T19:00:00+09:00",
       "presale_end_datetime": null,
       "presale_url": "https://www.coupangplay.com/promotion/BIGBANG-2026-WORLD-TOUR",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-06-25T19:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://www.coupangplay.com/promotion/BIGBANG-2026-WORLD-TOUR"
+      "general_sale_url": "https://www.coupangplay.com/promotion/BIGBANG-2026-WORLD-TOUR",
+      "last_updated": "2026-08-24",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-enhypen-the-sin-bliss-20260821",
@@ -1809,9 +1811,9 @@
       "image_url": "https://www.ksponco.or.kr/olympicpark/attachFiles/eventInfo/202607131327423211.jpg",
       "source_url": "https://sports.khan.co.kr/article/202607100833003/",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_url": "https://tickets.interpark.com/goods/26009620",
-      "last_updated": "2026-08-05",
+      "last_updated": "2026-08-24",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -1859,9 +1861,9 @@
       "image_url": null,
       "source_url": "https://www.tenasia.co.kr/article/2026080307084",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_url": "https://www.ticketlink.co.kr/product/63748",
-      "last_updated": "2026-08-05",
+      "last_updated": "2026-08-24",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -1885,9 +1887,10 @@
       ],
       "image_url": null,
       "source_url": "https://www.mt.co.kr/culture/2026/03/17/2026031709290517239",
-      "general_sale": true,
-      "last_updated": "2026-08-10",
-      "last_researched_by": "ko-researcher"
+      "general_sale": false,
+      "last_updated": "2026-08-24",
+      "last_researched_by": "ko-researcher",
+      "presale": false
     },
     {
       "id": "ko-eungaeun-jeonguk-paldo-20260824",
@@ -2108,6 +2111,49 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-hyorisu-skibidi-20260831",
+      "name": "효리수 디지털 싱글 'Skibidi'",
+      "release_date": "2026-08-31",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "효리수",
+      "publisher": null,
+      "description": "소녀시대 효연·유리·최수영이 뭉친 유닛 효리수가 2026년 8월 31일 첫 디지털 싱글 'Skibidi(스키비디)'를 발매하며 정식 데뷔한다. 효연의 개인 유튜브 채널 '효연의 레벨업'에서 시작된 프로젝트가 실제 유닛 결성으로 이어진 사례다. 타이틀곡 '스키비디'는 하우스로 출발해 힙합으로 전개되는 구성으로 '우리만의 새 길을 만들어'라는 메시지를 담았고, 수록곡 'Lowkey In Love'까지 두 곡이 실린다.",
+      "genres": [
+        "K-POP",
+        "컴백",
+        "데뷔"
+      ],
+      "image_url": null,
+      "source_url": "https://isplus.com/article/view/isp202608220011",
+      "last_updated": "2026-08-24",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-jennie-new-ep-20260831",
+      "name": "제니 새 EP (2026년 8월 말 발매)",
+      "release_date": "2026-08-31",
+      "release_time": null,
+      "release_date_approx": true,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "제니(JENNIE)",
+      "publisher": "OA엔터테인먼트",
+      "description": "제니가 2026년 8월 말 새 EP를 발매한다. 소속사 OA엔터테인먼트가 8월 19일 컴백을 공식화했으나 정확한 발매일과 트랙리스트는 공개하지 않아 등재된 날짜는 '8월 말' 기준 임시값이다. 올해 해외 페스티벌 무대에서 미리 선보인 'FALLEN ANGEL', 'lockitdown' 등 미공개곡이 수록될 가능성이 거론된다. 2025년 첫 정규앨범 'Ruby' 이후 이어지는 솔로 활동이다.",
+      "genres": [
+        "K-POP",
+        "컴백"
+      ],
+      "image_url": null,
+      "source_url": "https://www.tenasia.co.kr/article/2026081985354",
+      "last_updated": "2026-08-24",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-namyoojung-remake-album-20260831",
       "name": "남유정 첫 솔로 리메이크 앨범",
       "release_date": "2026-08-31",
@@ -2266,6 +2312,33 @@
       "image_url": null,
       "source_url": "http://www.osen.co.kr/article/G1112853420",
       "last_updated": "2026-08-10",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-honggyeongmin-medalist-september-seoul-20260905",
+      "name": "홍경민 콘서트 - 9월의 매달리스트 콘서트",
+      "release_date": "2026-09-05",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "구름아래소극장"
+      ],
+      "developer": "홍경민",
+      "publisher": null,
+      "description": "가수 홍경민이 2026년 9월 5일 서울 마포구 구름아래소극장에서 '9월의 매달리스트 콘서트'를 연다. 매달 같은 공연장에서 한 회차씩 이어가는 월간 단독 콘서트 시리즈로, 8월 회차에 이어지는 무대다. 200석 규모 소극장에서 관객과 가까이 호흡하는 형식이며 데뷔 이후의 히트곡을 중심으로 구성된다. 티켓은 NOL 티켓(인터파크)에서 예매할 수 있다.",
+      "genres": [
+        "콘서트",
+        "발라드"
+      ],
+      "image_url": null,
+      "source_url": "http://gurumare.co.kr/show",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26011393",
+      "last_updated": "2026-08-24",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -2647,6 +2720,60 @@
       "general_sale_datetime": "2026-07-31T19:00:00+09:00"
     },
     {
+      "id": "ko-haha-fan-concert-seoul-20260913",
+      "name": "2026 HAHA FAN CONCERT - 서울",
+      "release_date": "2026-09-13",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "연세대학교(대강당)"
+      ],
+      "developer": "하하",
+      "publisher": null,
+      "description": "방송인 겸 가수 하하가 2026년 9월 13일 오후 5시 서울 연세대학교 대강당에서 '2026 HAHA FAN CONCERT'를 연다. 데뷔 30년 만에 처음으로 자신의 이름을 내건 단독 팬 콘서트로, 8월 부산 공연에 이어지는 서울 무대다. 러닝타임은 약 100분이며 만 8세 이상 관람할 수 있고 좌석은 R석 11만원·S석 9만9000원으로 책정됐다. 티켓은 NOL 티켓(인터파크)과 멜론티켓에서 판매된다.",
+      "genres": [
+        "팬콘서트",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://tickets.interpark.com/contents/notice/detail/14375",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-24",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-wax-3579-autumn-seoul-20260913",
+      "name": "왁스 콘서트 3579 : 가을의 문턱",
+      "release_date": "2026-09-13",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "구름아래소극장"
+      ],
+      "developer": "왁스",
+      "publisher": null,
+      "description": "가수 왁스가 2026년 9월 13일 서울 마포구 구름아래소극장에서 소극장 시리즈 콘서트 '3579 : 가을의 문턱'을 연다. '3579'는 3월·5월·7월·9월 계절이 바뀌는 길목마다 관객과 가까운 거리에서 만나는 콘셉트로 기획된 연작 공연으로, 이번이 올해 시리즈의 마지막 회차다. 200석 규모 공연장에서 진행돼 밀도 높은 라이브를 들려줄 예정이며 티켓은 멜론티켓에서 판매된다.",
+      "genres": [
+        "콘서트",
+        "발라드"
+      ],
+      "image_url": null,
+      "source_url": "http://gurumare.co.kr/show",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_url": "https://ticket.melon.com/performance/index.htm?prodId=213744",
+      "last_updated": "2026-08-24",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-youngtak-gogo-20260914",
       "name": "영탁 정규 3집 'GOGO'",
       "release_date": "2026-09-14",
@@ -2848,6 +2975,34 @@
       "source_url": "https://www.etnews.com/20260623000157"
     },
     {
+      "id": "ko-takuyakimura-checkpoint-seoul-20260926",
+      "name": "TAKUYA KIMURA Live Tour 2026 Checkpoint in Seoul",
+      "release_date": "2026-09-26",
+      "release_time": "16:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "인스파이어 아레나"
+      ],
+      "developer": "기무라 타쿠야(Takuya Kimura)",
+      "publisher": null,
+      "description": "일본 배우 겸 가수 기무라 타쿠야가 2026년 9월 26일 오후 4시 인천 인스파이어 아레나에서 'TAKUYA KIMURA Live Tour 2026 Checkpoint in Seoul'을 연다. 데뷔 이후 처음 도는 아시아 투어의 한 축으로, 고베·후쿠오카·타이베이·지바와 함께 서울·인천 공연이 편성됐다. 러닝타임은 약 140분이고 만 8세 이상 관람할 수 있으며, 티켓은 NOL 티켓(인터파크)에서 단독 판매된다.",
+      "genres": [
+        "J-POP",
+        "콘서트",
+        "내한"
+      ],
+      "image_url": null,
+      "source_url": "https://tickets.interpark.com/contents/notice/detail/14058",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-24",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-boynextdoor-home-repackage-20260928",
       "name": "보이넥스트도어(BOYNEXTDOOR) 정규 1집 리패키지",
       "release_date": "2026-09-28",
@@ -2965,6 +3120,34 @@
       "general_sale_datetime": "2026-04-07T12:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26004944"
+    },
+    {
+      "id": "ko-andteam-blaze-the-way-encore-seoul-20261003",
+      "name": "2026 앤팀 콘서트 투어 'BLAZE THE WAY' ENCORE in KSPO DOME",
+      "release_date": "2026-10-03",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KSPO DOME(올림픽체조경기장)"
+      ],
+      "developer": "앤팀(&TEAM)",
+      "publisher": "YX LABELS",
+      "description": "앤팀이 2026년 10월 3일과 4일 이틀간 서울 올림픽공원 KSPO DOME에서 콘서트 투어 'BLAZE THE WAY'의 앙코르 공연을 연다. 3일은 오후 6시, 4일은 오후 5시에 시작하며 만 9세 이상 관람할 수 있다. 7월 인천 공연으로 막을 올린 투어의 마무리 무대로, 티켓은 8월 10일 오후 8시 멤버십 선예매를 거쳐 8월 11일 오후 8시 일반 예매가 열렸다. 좌석은 M&G석 25만3000원, 사운드체크석 22만원, 일반석 16만5000원으로 구성됐다.",
+      "genres": [
+        "K-POP",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://tickets.interpark.com/contents/notice/detail/14782",
+      "presale": false,
+      "presale_datetime": "2026-08-10T20:00:00+09:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-11T20:00:00+09:00",
+      "general_sale_url": null,
+      "last_updated": "2026-08-24",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-edc-korea-2026-20261003",
@@ -3520,6 +3703,33 @@
       "general_sale_url": null
     },
     {
+      "id": "ko-kokyungpyo-kyungpyo-night-seoul-20261121",
+      "name": "2026 KO KYUNGPYO FANMEETING: NOW 'KYUNGPYO NIGHT'",
+      "release_date": "2026-11-21",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "성암아트홀"
+      ],
+      "developer": "고경표",
+      "publisher": "유니온픽처스",
+      "description": "배우 고경표가 2026년 11월 21일 서울 성암아트홀에서 단독 팬미팅 '2026 KO KYUNGPYO FANMEETING: NOW 〈KYUNGPYO NIGHT〉'를 연다. 소속사 유니온픽처스가 8월 19일 개최를 공식 발표했으며, 토크와 게임, 스페셜 스테이지 등으로 구성된다. 오랜 시간 응원해 온 팬들과 직접 소통하며 작품이나 예능에서 보여준 모습과는 또 다른 무대 위 매력을 선보일 예정이다. 티켓 오픈 일정은 공식 SNS를 통해 추후 공지된다.",
+      "genres": [
+        "팬미팅",
+        "배우"
+      ],
+      "image_url": null,
+      "source_url": "https://www.tenasia.co.kr/article/2026081987224",
+      "presale": false,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-24",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-mumyeongjeonseol-daegu-encore-20261121",
       "name": "2026 무명전설 전국투어 콘서트 - 대구 앵콜",
       "release_date": "2026-11-21",
@@ -3612,6 +3822,34 @@
       "general_sale": true,
       "general_sale_datetime": "2026-08-10T20:00:00+09:00",
       "last_updated": "2026-08-10",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-domi-jdbeck-who-asked-seoul-20261212",
+      "name": "WHO ASKED? TOUR DOMi & JD BECK LIVE IN SEOUL",
+      "release_date": "2026-12-12",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "공감센터(공감홀)"
+      ],
+      "developer": "도미 앤 제이디 벡(DOMi & JD BECK)",
+      "publisher": "엠피엠지·민트페이퍼",
+      "description": "그래미 후보에 오른 재즈 듀오 도미 앤 제이디 벡이 2026년 12월 12일 오후 7시 서울 중구 공감홀에서 첫 단독 내한공연 'WHO ASKED? TOUR DOMi & JD BECK LIVE IN SEOUL'을 연다. 프랑스 출신 키보디스트 도미와 미국 드러머 제이디 벡으로 구성된 팀으로, 2022년 데뷔작 'NOT TiGHT'으로 그래미 2개 부문 후보에 올랐고 방탄소년단 RM의 솔로 앨범에도 참여했다. 약 4년 만의 두 번째 정규 'WHO ASKED?' 발매 이후 도는 월드투어의 일환이며, 티켓은 8월 25일 오후 7시 NOL티켓에서 열린다.",
+      "genres": [
+        "재즈",
+        "콘서트",
+        "내한"
+      ],
+      "image_url": null,
+      "source_url": "https://www.etnews.com/20260812000409",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-25T19:00:00+09:00",
+      "general_sale_url": null,
+      "last_updated": "2026-08-24",
       "last_researched_by": "ko-researcher"
     },
     {
