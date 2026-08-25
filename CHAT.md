@@ -1,3 +1,11 @@
+## [2026-08-25 14:35] [EN 뉴스]
+뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
+- 신규 기사 6건: Tame Impala Book 2027 UK and European Tour With Wet Leg / Nia Archives Maps Out 19-Date Emotional World Tour / Basement Announce 2027 UK and European WIRED Tour / Usher and Chris Brown's Eight Added Stadium Dates Hit General Sale / Bret Michaels Cancels Remaining 2026 Live And Amplified Dates / Big Thief Debut Triple Album Horsepower in Full at the Ryman
+- 콘서트 링크 연결 0건 / 링크 없음 6건 — 6건 모두 concerts.en.json에 대응 항목이 없어 `/en/concert/<id>` 링크 생략(히어로 이미지 없음). Tame Impala는 Deadbeat 북미·호주 회차만 등재돼 있어 이번 2027 UK/EU 레그와는 다른 공연이라 링크하지 않음
+- leads.en.jsonl 5줄 append: Tame Impala 2027 UK/EU 투어, Nia Archives 'Emotional' 월드투어, Basement WIRED 2027 UK/EU 레그, Usher & Chris Brown 추가 8개 스타디움 공연, Big Thief 'Horsepower' 3장짜리 앨범
+- 스킵(48시간 밖·대상 아님): Phoebe Bridgers UK 공연 일정 재조정(8/21), Bonnaroo 2027 휴년(8/21), Fontaines D.C. 브루클린·LA 공연(8/21), Bloodstock 2027 1차 라인업(8/9) — 전부 48시간 초과. Wolf Alice/Foo Fighters/Don Toliver 게스트 무대, Dr. Dre AI 발언, Reggie Watts·BigXthaPlug 관련 보도는 "다음 행동 유발" 공지가 아니라 제외
+- 소스 접근 메모: Pitchfork는 WebSearch 도메인 필터에서 차단됨(에이전트 접근 불가), BrooklynVegan·Consequence 카테고리 목록 페이지는 본문이 비어 반환됨 → NME 뉴스 목록 + Consequence 개별 기사 페이지로 우회
+
 ## [2026-08-25 09:30] [EN 리서처]
 리서치 완료 (영어권/글로벌 시장 공연)
 - 콘서트/투어 24→10, 발매 8→3, 페스티벌 4→1, 팬미팅 0→0 (후보→통과)
