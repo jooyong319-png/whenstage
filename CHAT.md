@@ -1,3 +1,32 @@
+## [2026-08-25 09:30] [EN 리서처]
+리서치 완료 (영어권/글로벌 시장 공연)
+- 콘서트/투어 24→10, 발매 8→3, 페스티벌 4→1, 팬미팅 0→0 (후보→통과)
+- 신규 16개 / 갱신 2개 (삭제 없음·전량 보존) — 총 등록 184→200개
+- 뉴스 인계 처리 42건 중 14건 등재 (leads.en.jsonl 88줄 중 concerts.en.json 미등재 42건을 후보로 삼아, 날짜·연도 검증 + 독립 출처 2개 이상 일치 절차 적용)
+- 예정 트랙 신규 14건: Jonas Brothers 'Burning Up Tour All Over Again' Hollywood Bowl(11/18, All Time Low 합류)·Prudential Center 피날레(12/21) / Camp Flog Gnaw Carnival 2026 Dodger Stadium(11/14~15) / TAEMIN 'LiMiNaL' Crypto.com Arena(10/15) / Steve Lacy 'Oh yeah?' Radio City(10/10)·Hollywood Bowl(11/21) / Erykah Badu & The Alchemist Forest Hills Stadium(09/18)·Hollywood Bowl 피날레(09/29) / Yo La Tengo 하누카 레지던시 Bowery Ballroom 8일(12/04~11) / Jorja Smith Kings Theatre(11/21) / Amon Amarth 'The Allfather Awakens' O2 Apollo Manchester 개막(10/09) / 발매 3건 — Remi Wolf 'Mud'(10/09), Anderson .Paak & Cordae 'Heavy Is the Crown'(10/23), Wolves in the Throne Room 'Estuary'(10/23)
+- 과거 백필 2개 → **공연장 색인전환 2개**: Soldiers and Sailors Memorial Auditorium, Chattanooga 1→2건(Wilco w/ Waxahatchee 2025-05-11 추가), The Regency Live, Springfield 1→2건(Eli Young Band 'Strange Hours Tour' 2025-12-11 추가). 기존 공연장 보강 0개
+- **1건짜리 공연장 4개 → 3개**: Chattanooga·Springfield 2개 해소, 신규 1건 발생(Dodger Stadium — Camp Flog Gnaw 2026). 남은 3개는 Santa Monica Beach(Ocean Way 2026이 1회차라 붙일 과거 공연이 없음), Kursaal Donostia(setlist.fm의 'Teatro Kursaal'가 동일 회장인지 확정 못 함 — 오등재 위험으로 보류), Dodger Stadium(2027 회차 발표 시 자동 해소)
+- 예정 트랙 부수 성과 — 기존 공연장 보강 8곳: Hollywood Bowl 5→8, Prudential Center 4→5, Bowery Ballroom 4→5, Forest Hills Stadium 3→4, Radio City Music Hall 2→3, Kings Theatre 2→3, O2 Apollo Manchester 2→3, Crypto.com Arena 2→3 (Northern Quest는 Godsmack 10/09 건이 이미 등재돼 있어 중복 스킵)
+- 티켓팅 진행중 +9 / 해제 -2 (Bad Bunny 'Cerramos en Casa' San Juan 8/22·8/23 — 공연 종료로 general_sale 해제)
+- image_url 16건 전부 채움 — 전량 Wikimedia Commons(자유 라이선스) 인포박스 사진, HTTP 200 + 120KB~1.8MB 실측 검증 완료. 기존 EN 파일은 image_url이 전 항목 null이었으므로 이번이 첫 이미지 등재분이다
+- publisher 6건 채움 (Goldenvoice, AEG Presents, Island Records, Relapse Records, APESHIT/Mass Appeal/EMPIRE, Live Nation)
+- description 보강 0개 (전 항목 영어 40단어 이상 유지 확인)
+- `npm run validate` 통과 (ko 155 / en 200 / ja 160, 이상 없음)
+
+[검증 탈락]
+- Ocean Way Festival 2026 (leads 8/01분): 탈락 아님 — 이미 `en-ocean-way-festival-2026-20260926`으로 등재돼 있고 publisher·festival_days·티켓 URL까지 채워져 있어 스킵
+- Yours Always Music Festival 2026 (Salt Lake City): 취소된 페스티벌. 미등재 상태라 `[Cancelled]` 보존 대상이 아니어서 신규 등재하지 않음
+- Purple Daisies 2026-10-02 공연: 취소 + leads의 `where`가 "미확인"이라 공연장 확정 불가. 등재 보류
+- William Shatner & The *uckers Coachella 2027: leads에 "2027-04, 미확정"으로 명시. 공식 라인업 발표 전이라 보류
+- Ozzfest 2027 (Villa Park, Birmingham): 구체 날짜 미발표. approx placeholder를 쓰기엔 연도만 확정돼 근거가 얇아 다음 사이클로 이월
+- Fontaines D.C. 'Dopamine Chamber': 정확한 발매일 미발표. 등재 보류
+- Jamila Woods HEAVN 10주년 투어 / Allison Russell 북미 투어 / American Football 중남미: leads 자체가 "날짜 확인 필요" 상태. 2차 검색으로도 확정 못 해 보류
+- Iceage 2027 북미/유럽 투어, Ride 2027 UK 투어, Weezer 2027 유럽 레그, John Mulaney 2027 뉴욕 레지던시: 전부 2027년 건. 검증은 됐으나 온세일 임박 건을 우선하느라 이번 사이클 한도(15건/일)에서 제외 — 다음 사이클 우선 후보
+- 한도 초과로 이월(검증 통과했으나 15건/일 상한): Down 'Volume V'(11/20), BEAT(Belew/Levin/Vai/Bozzio) Quarry Amphitheater 개막(10/09), Steve Lacy Red Rocks(11/11), Jorja Smith Orpheum LA(11/14), TAEMIN Prudential Center(10/23)
+- 자동 스킵: Bad Bunny San Juan 피날레(8/22~23), Djo 여름 투어, Tame Impala 'Deadbeat' 북미 레그, Garth Brooks Ball Arena, Silvana Estrada, Fcukers, Slothrust, Oso Oso, Audrey Hobert, Neil Young & Willie Nelson, Yuri & Lucero, King Gizzard 'Alien Metal', Field of Vision II, ADELA 'PRIMA', Godsmack Airway Heights 등 — 이미 concerts.en.json에 등재됐거나 공연일이 지난 건
+
+[KO/JA 리서처께] 이번 사이클은 크로스 로케일 등재 건이 없습니다. `related_locale_ids` 요청 사항 없음.
+
 ## [2026-08-24 09:05] [KO 리서처]
 리서치 완료 (한국 국내 공연)
 - 콘서트/내한 8→6, 음원발매 3→2, 페스티벌 1→0, 팬미팅 2→1 (후보→통과)
