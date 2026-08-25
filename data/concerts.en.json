@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-21",
+  "last_updated": "2026-08-25",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -4946,7 +4946,7 @@
       "release_date_approx": false,
       "publisher": null,
       "image_url": null,
-      "last_updated": "2026-08-21",
+      "last_updated": "2026-08-25",
       "last_researched_by": "en-researcher",
       "id": "en-bad-bunny-cerramos-en-casa-san-juan-20260822",
       "name": "Bad Bunny: Debi Tirar Mas Fotos - Cerramos en Casa (Night 1)",
@@ -4965,7 +4965,7 @@
       ],
       "source_url": "https://news.pollstar.com/2026/08/18/cerrando-en-casa-bad-bunny-returning-to-puerto-rico-for-final-shows-of-debi-tirar-mas-fotos-tour/",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-08-19T10:00:00-04:00"
     },
     {
@@ -4973,7 +4973,7 @@
       "release_date_approx": false,
       "publisher": null,
       "image_url": null,
-      "last_updated": "2026-08-21",
+      "last_updated": "2026-08-25",
       "last_researched_by": "en-researcher",
       "id": "en-bad-bunny-cerramos-en-casa-san-juan-20260823",
       "name": "Bad Bunny: Debi Tirar Mas Fotos - Cerramos en Casa (Night 2)",
@@ -4992,7 +4992,7 @@
       ],
       "source_url": "https://news.pollstar.com/2026/08/18/cerrando-en-casa-bad-bunny-returning-to-puerto-rico-for-final-shows-of-debi-tirar-mas-fotos-tour/",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-08-19T10:00:00-04:00"
     },
     {
@@ -5120,6 +5120,416 @@
         "Concert"
       ],
       "source_url": "https://www.billboard.com/lists/laufey-los-angeles-concert-crypto-com-arena-best-moments/"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Jonas_Brothers_4th_of_July_Show_Taping_in_Cleveland_%2851277060141%29.jpg/960px-Jonas_Brothers_4th_of_July_Show_Taping_in_Cleveland_%2851277060141%29.jpg",
+      "last_updated": "2026-08-25",
+      "last_researched_by": "en-researcher",
+      "id": "en-jonas-brothers-hollywood-bowl-20261118",
+      "name": "Jonas Brothers: The Burning Up Tour All Over Again - Los Angeles",
+      "release_date": "2026-11-18",
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Hollywood Bowl, Los Angeles, CA"
+      ],
+      "developer": "Jonas Brothers, All Time Low, Magnus Ferrell, Deleasa",
+      "description": "The Jonas Brothers bring The Burning Up Tour All Over Again to the Hollywood Bowl on November 18, 2026. The trek revives their 2008-09 Burning Up Tour, rebuilding that set list and staging alongside later catalogue hits across 47 North American dates. All Time Low join Magnus Ferrell and Deleasa as openers for this Los Angeles date only, making it one of the few stops with a third support act.",
+      "genres": [
+        "Pop Rock",
+        "Tour"
+      ],
+      "source_url": "https://variety.com/2026/music/news/jonas-brothers-2026-burning-up-north-american-tour-dates-1236836312/",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.com/jonas-brothers-tickets/artist/1225870"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Jonas_Brothers_4th_of_July_Show_Taping_in_Cleveland_%2851277060141%29.jpg/960px-Jonas_Brothers_4th_of_July_Show_Taping_in_Cleveland_%2851277060141%29.jpg",
+      "last_updated": "2026-08-25",
+      "last_researched_by": "en-researcher",
+      "id": "en-jonas-brothers-prudential-center-20261221",
+      "name": "Jonas Brothers: The Burning Up Tour All Over Again - Newark (Finale)",
+      "release_date": "2026-12-21",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Prudential Center, Newark, NJ"
+      ],
+      "developer": "Jonas Brothers, Magnus Ferrell, Deleasa",
+      "description": "The Burning Up Tour All Over Again closes on December 21, 2026 at Prudential Center in Newark, a short drive from the brothers' native Wyckoff, New Jersey. The 47-date run opened with three nights at Madison Square Garden in August before a September restart in Boston. Magnus Ferrell and Deleasa support the finale, which follows the previous night's stop at UBS Arena.",
+      "genres": [
+        "Pop Rock",
+        "Tour"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/The_Burning_Up_Tour_All_Over_Again",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.com/jonas-brothers-tickets/artist/1225870"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "Goldenvoice",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Tyler_the_Creator_%2852163761341%29_%28cropped%29.jpg/960px-Tyler_the_Creator_%2852163761341%29_%28cropped%29.jpg",
+      "last_updated": "2026-08-25",
+      "last_researched_by": "en-researcher",
+      "id": "en-camp-flog-gnaw-carnival-2026-20261114",
+      "name": "Camp Flog Gnaw Carnival 2026",
+      "release_date": "2026-11-14",
+      "timezone": "America/Los_Angeles",
+      "category": "festival",
+      "platforms": [
+        "Dodger Stadium, Los Angeles, CA"
+      ],
+      "developer": "Tyler, the Creator, Turnstile, Steve Lacy, Future, Don Toliver",
+      "description": "Tyler, the Creator's Camp Flog Gnaw Carnival returns to the Dodger Stadium lot on November 14 and 15, 2026. Tyler headlines alongside Turnstile, Steve Lacy, Future and Don Toliver, with Vince Staples, Earl Sweatshirt, J.I.D, Lupe Fiasco, Isaiah Rashad, Wallows, Magdalena Bay, Lola Young and Syd also billed. Goldenvoice revealed the lineup as a set of word scrambles; passes sold out weeks earlier and only a waitlist remains.",
+      "genres": [
+        "Hip-Hop",
+        "Festival",
+        "R&B"
+      ],
+      "source_url": "https://www.rollingstone.com/music/music-news/camp-flog-gnaw-2026-tyler-the-creator-steve-lacy-turnstile-1235611575/",
+      "general_sale": false,
+      "general_sale_url": "https://www.axs.com/events/1475989/camp-flog-gnaw-2026-tickets"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "AEG Presents",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/2025-12-08_Taemin_at_AHC_event_04_%28cropped%29.jpg/960px-2025-12-08_Taemin_at_AHC_event_04_%28cropped%29.jpg",
+      "last_updated": "2026-08-25",
+      "last_researched_by": "en-researcher",
+      "id": "en-taemin-liminal-crypto-com-arena-20261015",
+      "name": "TAEMIN: LiMiNaL World Tour - Los Angeles",
+      "release_date": "2026-10-15",
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Crypto.com Arena, Los Angeles, CA"
+      ],
+      "developer": "TAEMIN",
+      "description": "SHINee's Taemin plays Crypto.com Arena on October 15, 2026 as part of the North American leg of his 2026-27 LiMiNaL World Tour. The six-city run opens October 12 at SAP Center in San Jose and finishes October 23 at Prudential Center in Newark, taking in Las Vegas, Grand Prairie and Chicago along the way. AEG is promoting the United States dates.",
+      "genres": [
+        "K-POP",
+        "Tour"
+      ],
+      "source_url": "https://www.allkpop.com/article/2026/08/taemin-announces-official-dates-and-cities-for-the-north-america-leg-of-his-2026-world-tour-liminal"
+    },
+    {
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Steve_Lacy_%40_Rialto_Theatre.jpg",
+      "last_updated": "2026-08-25",
+      "last_researched_by": "en-researcher",
+      "id": "en-steve-lacy-radio-city-20261010",
+      "name": "Steve Lacy: Oh yeah? Tour - New York",
+      "release_date": "2026-10-10",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Radio City Music Hall, New York, NY"
+      ],
+      "developer": "Steve Lacy",
+      "description": "Steve Lacy makes his Radio City Music Hall debut on October 10, 2026 on the Oh yeah? Tour, his first headline run since 2022. The 27-city outing supports his third album Oh yeah?, released July 17 on RCA with guests including SZA, Erykah Badu and Tyler, the Creator. The tour opened September 27 in Minneapolis and runs through November 30 in Vancouver.",
+      "genres": [
+        "R&B",
+        "Alternative",
+        "Tour"
+      ],
+      "source_url": "https://consequence.net/2026/08/steve-lacy-2026-oh-yeah-north-american-tour/",
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-14T10:00:00-04:00",
+      "general_sale_url": "https://www.ticketmaster.com/steve-lacy-tickets/artist/2330907"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Steve_Lacy_%40_Rialto_Theatre.jpg",
+      "last_updated": "2026-08-25",
+      "last_researched_by": "en-researcher",
+      "id": "en-steve-lacy-hollywood-bowl-20261121",
+      "name": "Steve Lacy: Oh yeah? Tour - Los Angeles",
+      "release_date": "2026-11-21",
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Hollywood Bowl, Los Angeles, CA"
+      ],
+      "developer": "Steve Lacy",
+      "description": "Steve Lacy headlines the Hollywood Bowl for the first time on November 21, 2026, one of three milestone venue debuts on his Oh yeah? Tour alongside Radio City Music Hall and Red Rocks. The Compton-raised singer and guitarist, once of The Internet, returns to a Los Angeles stage roughly a week after his billed appearance at Camp Flog Gnaw Carnival at Dodger Stadium.",
+      "genres": [
+        "R&B",
+        "Alternative",
+        "Tour"
+      ],
+      "source_url": "https://www.rollingstone.com/music/music-news/steve-lacy-oh-yeah-north-american-tour-dates-1235607338/",
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-14T10:00:00-07:00",
+      "general_sale_url": "https://www.ticketmaster.com/steve-lacy-tickets/artist/2330907"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Erykah_Badu_in_Nation19_Magazine.jpg/960px-Erykah_Badu_in_Nation19_Magazine.jpg",
+      "last_updated": "2026-08-25",
+      "last_researched_by": "en-researcher",
+      "id": "en-erykah-badu-alchemist-forest-hills-20260918",
+      "name": "Erykah Badu & The Alchemist: LIVE - A September Tour - Queens",
+      "release_date": "2026-09-18",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Forest Hills Stadium, Queens, NY"
+      ],
+      "developer": "Erykah Badu, The Alchemist, De La Soul",
+      "description": "Erykah Badu and producer The Alchemist play Forest Hills Stadium on September 18, 2026 with De La Soul opening. The short run, billed as LIVE: A September Tour, follows their joint album released August 28 through Control FREAQ and Young Recordings. The pair began working together on Badu's recent studio sessions, and the tour opened September 10 at Ravinia Festival outside Chicago.",
+      "genres": [
+        "R&B",
+        "Hip-Hop",
+        "Tour"
+      ],
+      "source_url": "https://consequence.net/2026/06/erykah-badu-2026-tour-dates/",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.com/erykah-badu-tickets/artist/781503"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Erykah_Badu_in_Nation19_Magazine.jpg/960px-Erykah_Badu_in_Nation19_Magazine.jpg",
+      "last_updated": "2026-08-25",
+      "last_researched_by": "en-researcher",
+      "id": "en-erykah-badu-alchemist-hollywood-bowl-20260929",
+      "name": "Erykah Badu & The Alchemist: LIVE - A September Tour - Los Angeles (Finale)",
+      "release_date": "2026-09-29",
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Hollywood Bowl, Los Angeles, CA"
+      ],
+      "developer": "Erykah Badu, The Alchemist, Smino",
+      "description": "Erykah Badu and The Alchemist close their LIVE: A September Tour at the Hollywood Bowl on September 29, 2026. Smino supports the Los Angeles date rather than De La Soul, who accompany most of the run. The tour marks the first extended live outing behind the duo's collaborative album, which arrived August 28 via Control FREAQ and Young Recordings.",
+      "genres": [
+        "R&B",
+        "Hip-Hop",
+        "Tour"
+      ],
+      "source_url": "https://consequence.net/2026/06/erykah-badu-2026-tour-dates/",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.com/erykah-badu-tickets/artist/781503"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Yo_La_Tengo_-_Sala_Apolo_2010.jpg/960px-Yo_La_Tengo_-_Sala_Apolo_2010.jpg",
+      "last_updated": "2026-08-25",
+      "last_researched_by": "en-researcher",
+      "id": "en-yo-la-tengo-hanukkah-bowery-ballroom-20261204",
+      "name": "The 8 Nights of Hanukkah with Yo La Tengo 2026",
+      "release_date": "2026-12-04",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Bowery Ballroom, New York, NY"
+      ],
+      "developer": "Yo La Tengo",
+      "description": "Yo La Tengo revive their Hanukkah residency at the Bowery Ballroom for eight consecutive nights from December 4 through December 11, 2026. Each evening pairs a surprise comedian with a surprise musical opener, and the Hoboken trio play a different set every night with no song repeated across the run, closing with an all-covers encore. Proceeds traditionally go to charities chosen by the band.",
+      "genres": [
+        "Indie Rock",
+        "Residency"
+      ],
+      "source_url": "https://www.brooklynvegan.com/yo-la-tengo-announce-2026-hanukkah-run-at-bowery-ballroom/",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-24T10:00:00-04:00",
+      "general_sale_url": "https://www.livenation.com/event/k7vGF_267rcdp/the-8-nights-of-hanukkah-with-yo-la-tengo"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Jorja_Smith_11_26_2018_-5_%2845772599074%29.jpg/960px-Jorja_Smith_11_26_2018_-5_%2845772599074%29.jpg",
+      "last_updated": "2026-08-25",
+      "last_researched_by": "en-researcher",
+      "id": "en-jorja-smith-kings-theatre-20261121",
+      "name": "Jorja Smith: 2026 North American Tour - Brooklyn",
+      "release_date": "2026-11-21",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Kings Theatre, Brooklyn, NY"
+      ],
+      "developer": "Jorja Smith",
+      "description": "Jorja Smith plays Kings Theatre in Brooklyn on November 21, 2026 as part of a five-date North American run behind her third album, What Are The Odds. The short tour opens November 14 at the Orpheum Theatre in Los Angeles and also visits San Francisco's Castro Theatre, Massey Hall in Toronto and the Riviera Theatre in Chicago before closing November 23.",
+      "genres": [
+        "R&B",
+        "Soul",
+        "Tour"
+      ],
+      "source_url": "http://news.pollstar.com/2026/08/07/jorja-smith-announces-north-american-fall-run/",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-07T10:00:00-04:00",
+      "general_sale_url": "https://www.axs.com/artists/1104051/jorja-smith-tickets"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Amon_Amarth_Full_Rewind_2024_25.jpg/960px-Amon_Amarth_Full_Rewind_2024_25.jpg",
+      "last_updated": "2026-08-25",
+      "last_researched_by": "en-researcher",
+      "id": "en-amon-amarth-o2-apollo-manchester-20261009",
+      "name": "Amon Amarth: The Allfather Awakens - Manchester",
+      "release_date": "2026-10-09",
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "O2 Apollo, Manchester, England"
+      ],
+      "developer": "Amon Amarth, Orbit Culture, Soilwork",
+      "description": "Amon Amarth launch The Allfather Awakens tour at the O2 Apollo in Manchester on October 9, 2026. Fellow Swedes Orbit Culture and Soilwork support the all-Swedish bill, which moves to London's Eventim Apollo and Wolverhampton Civic Hall before crossing to mainland Europe and ending November 15 in Lisbon. The band promise a new theatrical stage production and an extended headline set.",
+      "genres": [
+        "Metal",
+        "Tour"
+      ],
+      "source_url": "https://www.metalblade.com/us/news/amon-amarth-announce-uk-eu-2026-tour-dates-tease-new-album/",
+      "general_sale": true,
+      "general_sale_datetime": "2025-11-28T09:00:00+00:00",
+      "general_sale_url": "https://www.amonamarth.com/tour"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "Island Records",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Remi_Wolf_in_2024.png/960px-Remi_Wolf_in_2024.png",
+      "last_updated": "2026-08-25",
+      "last_researched_by": "en-researcher",
+      "id": "en-remi-wolf-mud-20261009",
+      "name": "Remi Wolf - Mud",
+      "release_date": "2026-10-09",
+      "timezone": "America/Los_Angeles",
+      "category": "music_release",
+      "platforms": [
+        "Streaming",
+        "Digital",
+        "CD",
+        "Vinyl"
+      ],
+      "developer": "Remi Wolf",
+      "description": "Remi Wolf releases her third studio album, Mud, on October 9, 2026 through Island Records. The eleven-track record follows 2024's Big Ideas and was pieced together across sessions in Nashville, Big Bear, New York and Joshua Tree with longtime collaborator Jared Solomon. Singles 'Bottle' and 'Twiggy' preceded the announcement, and the tracklist closes with 'Yellow Rose'.",
+      "genres": [
+        "Pop",
+        "Album"
+      ],
+      "source_url": "https://www.udiscovermusic.com/news/remi-wolf-mud/"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "APESHIT / Mass Appeal / EMPIRE",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/%27K-Pops%21%27_director_Anderson_.Paak_at_the_2024_Toronto_International_Film_Festival_5_%28Cropped%29.jpg/960px-%27K-Pops%21%27_director_Anderson_.Paak_at_the_2024_Toronto_International_Film_Festival_5_%28Cropped%29.jpg",
+      "last_updated": "2026-08-25",
+      "last_researched_by": "en-researcher",
+      "id": "en-anderson-paak-cordae-heavy-is-the-crown-20261023",
+      "name": "Anderson .Paak & Cordae - Heavy Is the Crown",
+      "release_date": "2026-10-23",
+      "timezone": "America/Los_Angeles",
+      "category": "music_release",
+      "platforms": [
+        "Streaming",
+        "Digital",
+        "CD",
+        "Vinyl"
+      ],
+      "developer": "Anderson .Paak, Cordae",
+      "description": "Anderson .Paak and Cordae release their joint album Heavy Is the Crown on October 23, 2026 via APESHIT, Mass Appeal and EMPIRE. The record extends a partnership that began with Cordae's 'RNP' and continued on 'Two Tens' and 'Summer Drop', and credits J. Cole, 9th Wonder, Conductor Williams and Swizz Beatz. Physical editions include six retailer-exclusive vinyl variants and a lenticular CD cover.",
+      "genres": [
+        "Hip-Hop",
+        "Album"
+      ],
+      "source_url": "https://www.rollingstone.com/music/music-news/anderson-paak-cordae-heavy-is-the-crown-collaboration-album-1235611749/"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "Relapse Records",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/WOLVES_IN_THE_THRONE_ROOM.jpg/960px-WOLVES_IN_THE_THRONE_ROOM.jpg",
+      "last_updated": "2026-08-25",
+      "last_researched_by": "en-researcher",
+      "id": "en-wolves-in-the-throne-room-estuary-20261023",
+      "name": "Wolves in the Throne Room - Estuary",
+      "release_date": "2026-10-23",
+      "timezone": "America/Los_Angeles",
+      "category": "music_release",
+      "platforms": [
+        "Streaming",
+        "Digital",
+        "CD",
+        "Vinyl"
+      ],
+      "developer": "Wolves in the Throne Room",
+      "description": "Wolves in the Throne Room release Estuary, their tenth album, on October 23, 2026 through Relapse Records in North America. The Olympia black metal band recorded most of it at their own Owl Lodge studio, tracking drums at The Unknown, a converted church in Anacortes, Washington, and self-produced with touring bassist Galen Baudhuin. Lead single 'Ghosts Among the Obelisks' arrived with a video.",
+      "genres": [
+        "Black Metal",
+        "Album"
+      ],
+      "source_url": "https://blabbermouth.net/news/wolves-in-the-throne-room-announce-new-album-estuary"
+    },
+    {
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "publisher": "Live Nation",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Wilco_MassMoca_AustinNelson.jpg/960px-Wilco_MassMoca_AustinNelson.jpg",
+      "last_updated": "2026-08-25",
+      "last_researched_by": "en-researcher",
+      "id": "en-wilco-chattanooga-20250511",
+      "name": "Wilco with Waxahatchee at Soldiers and Sailors Memorial Auditorium - Chattanooga",
+      "release_date": "2025-05-11",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Soldiers and Sailors Memorial Auditorium, Chattanooga, TN"
+      ],
+      "developer": "Wilco, Waxahatchee",
+      "description": "Wilco played Soldiers and Sailors Memorial Auditorium in Chattanooga on May 11, 2025, with Waxahatchee opening. Katie Crutchfield's set drew mostly on her 2024 album Tigers Blood before Wilco delivered a career-spanning headline performance in the 1924 hall. The show was part of the Chicago band's spring run through the American South and was promoted by Live Nation.",
+      "genres": [
+        "Indie Rock",
+        "Concert"
+      ],
+      "source_url": "https://beatsperminute.com/live-review-wilco-with-waxahatchee-at-soldiers-and-sailors-memorial-auditorium-chattanooga-tn-may-11-2025/"
+    },
+    {
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Eli_Young_Band_-_12-11-25_-_The_Regency_Live.jpg/960px-Eli_Young_Band_-_12-11-25_-_The_Regency_Live.jpg",
+      "last_updated": "2026-08-25",
+      "last_researched_by": "en-researcher",
+      "id": "en-eli-young-band-springfield-20251211",
+      "name": "Eli Young Band: The Strange Hours Tour at The Regency Live - Springfield",
+      "release_date": "2025-12-11",
+      "timezone": "America/Chicago",
+      "category": "concert_tour",
+      "platforms": [
+        "The Regency Live, Springfield, MO"
+      ],
+      "developer": "Eli Young Band, Bray, Joey Holt",
+      "description": "Eli Young Band brought The Strange Hours Tour to The Regency Live in downtown Springfield, Missouri on December 11, 2025. Doors opened at 7pm for the all-ages show, which started at 8pm with local acts Bray and Joey Holt opening. The Texas quartet drew on their album Strange Hours, released that August, alongside earlier number ones such as 'Crazy Girl' and 'Drunk Last Night'.",
+      "genres": [
+        "Country",
+        "Concert"
+      ],
+      "source_url": "https://app.opendate.io/e/eli-young-band-the-strange-hours-tour-december-11-2025-607369"
     }
   ]
 }
