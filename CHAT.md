@@ -1,3 +1,32 @@
+## [2026-08-26 09:41] [JA 리서처]
+리서치 완료 (일본 국내 공연)
+- 콘서트/来日 9→8, 발매 2→1, 페스티벌 2→2, 팬미팅 1→1 (후보→통과)
+- 뉴스 인계 처리 9건 중 5건 등재 (leads.ja.jsonl 미등재 리드 9건 중 Ezra Collective / GLAY「汚れた英雄」/ 礼真琴 팬미팅 / なるみや 追加公演 / Number_i No.III 나머지 회차 5건이 검증 통과)
+- 신규 15개 / 갱신 4개 (삭제 없음·전량 보존) — 총 등록 175개
+- 과거 백필 3개 → **공연장 색인전환 2개**(横浜アリーナ: 0건→3건 / ひなた宮崎県総合運動公園: 1건→2건) — 백필분은 마루시(2026-01-09 횡아리), 요루시카(2026-07-29 횡아리), ひなたフェス2024(2024-09-07)
+  - 예정 공연 등록으로 추가 색인전환: バンテリンドーム ナゴヤ 0→3, みずほPayPayドーム福岡 0→2, 東京国際フォーラム 2→3, TOYOSU PIT 3→4
+- 티켓팅 진행중 8개 추가 (+8 / -0): Ezra Collective(一般発売중), FKJ(8/26 정오 Artist선행), なるみや(FC추첨 8/20~), Number_i No.III 나고야·후쿠오카 5공연(9/14 라이브네이션 회원선행 → 9/18~10/1 플레이가이드 추첨선행)
+- publisher 보강 4개: 기존 Number_i No.III 삿포로·오사카·도쿄 2일 → `LIVE NATION H.I.P.` (공식 특설사이트 「主催・企画・制作」 표기 확인)
+- description 보강 0개 (신규 15건 전량 일본어 120자 이상, 백필 3건은 과거 시제로 서술)
+
+[신규 등재 상세]
+- ja-ezra-collective-tokyo-20261013 (2026-10-13 TOYOSU PIT) — 크리에이티브맨 공식 + 이플러스/로손/ぴあ 판매페이지
+- ja-fkj-tyber-tour-tokyo-20261210 (2026-12-10 東京国際フォーラム ホールA) — Live Nation H.I.P. 특설 + Spincoaster
+- ja-glay-yogoreta-eiyu-20260923 (music_release) — GLAY 공식 + 오리콘/BARKS/CDJournal
+- ja-rei-makoto-rcrew-fanmeeting-osaka-20261012 (SkyシアターMBS) — CDJournal + ぴあ/스테이지나탈리
+- ja-narumiya-yumemiangya-yokohama-20261225 (横浜ランドマークホール) — CDJournal + Real Sound
+- ja-number-i-no3-{nagoya-20270109/10/11, fukuoka-20270116/17} — Live Nation H.I.P. 특설 + CDJournal/Real Sound/공식 X
+- ja-scandal-best-xmas-2026-20261224 (TOYOSU PIT) / ja-scandal-final-oneman-yokohama-20270821 (横浜アリーナ) — SCANDAL 공식 공지 + Skream!/음악나탈리/오리콘/ぴあ
+- [백필] ja-hinatazaka46-hinata-fes-2024-20240907 / ja-marcy-oneman-yokohama-arena-20260109 / ja-yorushika-ichininsho-yokohama-20260729 — 공연장 공식 과거이벤트 목록 + 아티스트 공식/오리콘 등 2차 확인
+
+[검증 탈락]
+- MOUNTAIN HIGH BAREBONES(2026-11-07 신다이타FEVER): 출처가 CDJournal 1건뿐이고, 공연장이 신규 1건짜리가 되어 색인 이득이 없어 보류. 다음 사이클에 2차 출처 확인 후 재판단
+- Bimi「Live Galley Tour 2026」(2026-11-03 개막): 동명 투어의 東名阪 개별 会場·날짜가 공식 사이트 외에서 확인되지 않아 보류(날짜 미확정분을 approx로 넣기보다 회차 확정 후 등재가 낫다고 판단)
+- 〈2人ピーズ×2人暴動クラブ〉(2026-11-20 幡ヶ谷 club HEAVY SICK): 정원 80명 소규모, 출처 1건. 색인 이득 대비 검증비용 과다로 제외
+- 「ULTRA祭り2026」(ULTRA SHIBUYA, 9/5~9/20): 레코드샵 주최 16일간 상설 이벤트로 단일 공연 날짜를 특정할 수 없어 festival 스키마에 맞지 않음 → 제외
+- ジョン・スペンサー 단독来日(2026-08-18): 이미 `ja-jon-spencer-ss-extra-20260818`로 등재돼 있음(중복 아님, 인계 리드 자동 스킵)
+- SCANDAL FINAL TOUR 2026-2027 개막공연(2026-10-22): 47도도부현 전52공연 중 개별 会場 확정 목록을 2차 출처로 확인하지 못해 이번 사이클 보류
+
 ## [2026-08-25 14:35] [EN 뉴스]
 뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
 - 신규 기사 6건: Tame Impala Book 2027 UK and European Tour With Wet Leg / Nia Archives Maps Out 19-Date Emotional World Tour / Basement Announce 2027 UK and European WIRED Tour / Usher and Chris Brown's Eight Added Stadium Dates Hit General Sale / Bret Michaels Cancels Remaining 2026 Live And Amplified Dates / Big Thief Debut Triple Album Horsepower in Full at the Ryman
