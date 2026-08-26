@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-22",
+  "last_updated": "2026-08-26",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -2839,7 +2839,7 @@
         "大和ハウス プレミストドーム（札幌ドーム）"
       ],
       "developer": "Number_i",
-      "publisher": null,
+      "publisher": "LIVE NATION H.I.P.",
       "description": "Number_iが初めて挑むワールド・ツアーの日本パート。8月6日に全公演の日程が解禁され、10月24日の北海道・大和ハウス プレミストドーム（札幌ドーム）を皮切りに、12月2日の京セラドーム大阪、12月9日・10日の東京ドーム、2027年1月のバンテリンドーム ナゴヤ3公演、みずほPayPayドーム福岡2公演と、全国5都市・5大ドームで計9公演が組まれた。グループにとって初のドーム公演となる。札幌公演は開場14:00・開演16:00。ファンクラブ先行受付は8月10日16時から8月16日23時59分まで実施された。",
       "genres": [
         "J-POP",
@@ -2848,7 +2848,7 @@
       ],
       "image_url": null,
       "source_url": "https://realsound.jp/2026/08/post-2484181.html",
-      "last_updated": "2026-08-22",
+      "last_updated": "2026-08-26",
       "last_researched_by": "ja-researcher",
       "presale": false,
       "presale_datetime": "2026-08-10T16:00:00+09:00",
@@ -3701,7 +3701,7 @@
         "京セラドーム大阪"
       ],
       "developer": "Number_i",
-      "publisher": null,
+      "publisher": "LIVE NATION H.I.P.",
       "description": "Number_iが2026年10月から2027年1月にかけて行うワールド・ツアーの日本公演「Number_i LIVE TOUR No.III」の京セラドーム大阪公演。グループにとって初のドーム・ツアーとなる本公演は全国5都市・5大ドームで全9公演が組まれており、大阪は札幌に続く2都市目にあたる。開場16:30／開演18:30。ファンクラブ先行受付は2026年8月10日から16日にかけて実施された。",
       "genres": [
         "J-POP",
@@ -3713,7 +3713,7 @@
       "presale": false,
       "presale_datetime": "2026-08-10T16:00:00+09:00",
       "presale_end_datetime": "2026-08-16T23:59:00+09:00",
-      "last_updated": "2026-08-22",
+      "last_updated": "2026-08-26",
       "last_researched_by": "ja-researcher"
     },
     {
@@ -3728,7 +3728,7 @@
         "東京ドーム"
       ],
       "developer": "Number_i",
-      "publisher": null,
+      "publisher": "LIVE NATION H.I.P.",
       "description": "Number_iのワールド・ツアー日本公演「Number_i LIVE TOUR No.III」の東京ドーム公演1日目。全国5都市・5大ドームを巡る全9公演のうち東京は2日間が設定されており、グループにとって初の東京ドーム単独公演となる。開場16:30／開演18:30。ファンクラブ先行受付は2026年8月10日16:00から16日23:59まで行われた。",
       "genres": [
         "J-POP",
@@ -3740,7 +3740,7 @@
       "presale": false,
       "presale_datetime": "2026-08-10T16:00:00+09:00",
       "presale_end_datetime": "2026-08-16T23:59:00+09:00",
-      "last_updated": "2026-08-22",
+      "last_updated": "2026-08-26",
       "last_researched_by": "ja-researcher"
     },
     {
@@ -3755,7 +3755,7 @@
         "東京ドーム"
       ],
       "developer": "Number_i",
-      "publisher": null,
+      "publisher": "LIVE NATION H.I.P.",
       "description": "Number_iのワールド・ツアー日本公演「Number_i LIVE TOUR No.III」の東京ドーム公演2日目。全国5都市・5大ドームを巡る全9公演のうち東京は2日間が設定されており、グループにとって初の東京ドーム単独公演となる。開場16:30／開演18:30。ファンクラブ先行受付は2026年8月10日16:00から16日23:59まで行われた。",
       "genres": [
         "J-POP",
@@ -3767,7 +3767,7 @@
       "presale": false,
       "presale_datetime": "2026-08-10T16:00:00+09:00",
       "presale_end_datetime": "2026-08-16T23:59:00+09:00",
-      "last_updated": "2026-08-22",
+      "last_updated": "2026-08-26",
       "last_researched_by": "ja-researcher"
     },
     {
@@ -4143,6 +4143,395 @@
       "image_url": null,
       "source_url": "https://www.symphonyhall.jp/event/2024129415/",
       "last_updated": "2026-08-22",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-ezra-collective-tokyo-20261013",
+      "name": "EZRA COLLECTIVE 来日公演 2026",
+      "release_date": "2026-10-13",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "TOYOSU PIT（東京・豊洲）"
+      ],
+      "developer": "Ezra Collective",
+      "publisher": "クリエイティブマンプロダクション",
+      "description": "現行UKジャズ・シーンを代表するロンドンの5人組、Ezra Collectiveによる一夜限りの単独来日公演。2026年10月13日に東京・豊洲PITで行われ、開場18:00／開演19:00。チケットはオールスタンディング9,000円（税込・別途1ドリンク）で、6月13日10時から一般発売が始まっている。マーキュリー・プライズ受賞後も勢いを増す彼らが、9月18日発表の4thアルバム『Here Because of Hope』の楽曲を携えて登場する。企画・制作・招聘はクリエイティブマンプロダクション。",
+      "genres": [
+        "ジャズ",
+        "UKジャズ",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://www.creativeman.co.jp/event/ezra-collective26/",
+      "last_updated": "2026-08-26",
+      "last_researched_by": "ja-researcher",
+      "general_sale": true,
+      "general_sale_datetime": "2026-06-13T10:00:00+09:00",
+      "general_sale_url": "https://eplus.jp/ezracollective/",
+      "presale": false
+    },
+    {
+      "id": "ja-glay-yogoreta-eiyu-20260923",
+      "name": "GLAY「汚れた英雄」（64thシングル）",
+      "release_date": "2026-09-23",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [
+        "CD／配信"
+      ],
+      "developer": "GLAY",
+      "publisher": null,
+      "description": "GLAYの通算64枚目となるシングル。表題曲「汚れた英雄」はHISASHIが作詞作曲を手がけ、2026年1月27日のKアリーナ横浜公演で初披露された楽曲で、TERUによる速いラップ・パートを取り入れた点が新しい。あわせて、2026年10月放送のTVアニメ『ダイヤのA actII -Second Season-』第2クール・オープニング・テーマ「NEVER SAY NEVER AGAIN」と、春の全国ホール・ツアーで披露されたミディアム曲「RADIO STAR」の新曲3曲を収録。さらに2026年のライヴから厳選した音源5曲も加えられる。",
+      "genres": [
+        "J-POP",
+        "ロック"
+      ],
+      "image_url": null,
+      "source_url": "https://www.glay.co.jp/news/detail/10279",
+      "last_updated": "2026-08-26",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-rei-makoto-rcrew-fanmeeting-osaka-20261012",
+      "name": "礼真琴「Rcrew First Fan Meeting ～ここで、また…～」（大阪公演）",
+      "release_date": "2026-10-12",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "fanmeeting",
+      "platforms": [
+        "SkyシアターMBS（大阪）"
+      ],
+      "developer": "礼真琴",
+      "publisher": null,
+      "description": "宝塚歌劇団を退団した礼真琴にとって初となるファンミーティング。2026年10月12日・13日の2日間、大阪・SkyシアターMBSで開催される。オフィシャル・ファンクラブ「Rcrew」の会員限定イベントで、全席指定10,500円（税込）。退団後にファンと直接顔を合わせる最初の機会となり、大阪を皮切りに2027年春には東京公演も予定されていることが発表されている。",
+      "genres": [
+        "ファンミーティング",
+        "ミュージカル"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/rei-makoto/129026",
+      "last_updated": "2026-08-26",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-number-i-no3-nagoya-20270109",
+      "name": "Number_i LIVE TOUR No.III（バンテリンドーム ナゴヤ公演1日目）",
+      "release_date": "2027-01-09",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "バンテリンドーム ナゴヤ"
+      ],
+      "developer": "Number_i",
+      "publisher": "LIVE NATION H.I.P.",
+      "description": "Number_iのワールド・ツアー日本公演「Number_i LIVE TOUR No.III」の愛知・バンテリンドーム ナゴヤ公演初日。2027年1月9日に開催され、開場15:00／開演17:00。名古屋は3日間4公演が組まれた最多日程の会場となる。全国5都市・5大ドームを巡る全9公演で構成され、グループ初のドーム・ツアーにあたる。主催・企画・制作はLIVE NATION H.I.P.。ファンクラブ先行は8月に締め切られ、Live Nation H.I.P.会員などを対象とした抽選先行が9月14日18時から、誰でも申し込めるプレイガイド抽選先行が9月18日正午から10月1日23時59分まで受け付けられる。",
+      "genres": [
+        "J-POP",
+        "ヒップホップ",
+        "ドームツアー"
+      ],
+      "image_url": "https://prod-v2-assets.wmg.jp/uploads/Admat_1080x1350_On_Sale_ver1_a2b92ff228.png",
+      "source_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
+      "last_updated": "2026-08-26",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "presale_datetime": "2026-09-14T18:00:00+09:00",
+      "presale_end_datetime": "2026-10-01T23:59:00+09:00",
+      "presale_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
+      "general_sale": false
+    },
+    {
+      "id": "ja-number-i-no3-nagoya-20270110",
+      "name": "Number_i LIVE TOUR No.III（バンテリンドーム ナゴヤ公演2日目）",
+      "release_date": "2027-01-10",
+      "release_time": "12:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "バンテリンドーム ナゴヤ"
+      ],
+      "developer": "Number_i",
+      "publisher": "LIVE NATION H.I.P.",
+      "description": "Number_iのワールド・ツアー日本公演「Number_i LIVE TOUR No.III」の愛知・バンテリンドーム ナゴヤ公演2日目。2027年1月10日は昼夜2回公演で、第1部が開場10:30／開演12:30、第2部が開場17:00／開演19:00という日程が組まれている。全国5都市・5大ドームを巡る全9公演で構成され、グループ初のドーム・ツアーにあたる。主催・企画・制作はLIVE NATION H.I.P.。ファンクラブ先行は8月に締め切られ、Live Nation H.I.P.会員などを対象とした抽選先行が9月14日18時から、誰でも申し込めるプレイガイド抽選先行が9月18日正午から10月1日23時59分まで受け付けられる。",
+      "genres": [
+        "J-POP",
+        "ヒップホップ",
+        "ドームツアー"
+      ],
+      "image_url": "https://prod-v2-assets.wmg.jp/uploads/Admat_1080x1350_On_Sale_ver1_a2b92ff228.png",
+      "source_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
+      "last_updated": "2026-08-26",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "presale_datetime": "2026-09-14T18:00:00+09:00",
+      "presale_end_datetime": "2026-10-01T23:59:00+09:00",
+      "presale_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
+      "general_sale": false
+    },
+    {
+      "id": "ja-number-i-no3-nagoya-20270111",
+      "name": "Number_i LIVE TOUR No.III（バンテリンドーム ナゴヤ公演3日目）",
+      "release_date": "2027-01-11",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "バンテリンドーム ナゴヤ"
+      ],
+      "developer": "Number_i",
+      "publisher": "LIVE NATION H.I.P.",
+      "description": "Number_iのワールド・ツアー日本公演「Number_i LIVE TOUR No.III」の愛知・バンテリンドーム ナゴヤ公演最終日。2027年1月11日の祝日に行われ、開場15:00／開演17:00。名古屋3日間の締めくくりとなる回である。全国5都市・5大ドームを巡る全9公演で構成され、グループ初のドーム・ツアーにあたる。主催・企画・制作はLIVE NATION H.I.P.。ファンクラブ先行は8月に締め切られ、Live Nation H.I.P.会員などを対象とした抽選先行が9月14日18時から、誰でも申し込めるプレイガイド抽選先行が9月18日正午から10月1日23時59分まで受け付けられる。",
+      "genres": [
+        "J-POP",
+        "ヒップホップ",
+        "ドームツアー"
+      ],
+      "image_url": "https://prod-v2-assets.wmg.jp/uploads/Admat_1080x1350_On_Sale_ver1_a2b92ff228.png",
+      "source_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
+      "last_updated": "2026-08-26",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "presale_datetime": "2026-09-14T18:00:00+09:00",
+      "presale_end_datetime": "2026-10-01T23:59:00+09:00",
+      "presale_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
+      "general_sale": false
+    },
+    {
+      "id": "ja-number-i-no3-fukuoka-20270116",
+      "name": "Number_i LIVE TOUR No.III（みずほPayPayドーム福岡公演1日目）",
+      "release_date": "2027-01-16",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "みずほPayPayドーム福岡"
+      ],
+      "developer": "Number_i",
+      "publisher": "LIVE NATION H.I.P.",
+      "description": "Number_iのワールド・ツアー日本公演「Number_i LIVE TOUR No.III」の福岡・みずほPayPayドーム福岡公演初日。2027年1月16日に開催され、開場15:00／開演17:00。福岡は日本パートの最終地にあたる。全国5都市・5大ドームを巡る全9公演で構成され、グループ初のドーム・ツアーにあたる。主催・企画・制作はLIVE NATION H.I.P.。ファンクラブ先行は8月に締め切られ、Live Nation H.I.P.会員などを対象とした抽選先行が9月14日18時から、誰でも申し込めるプレイガイド抽選先行が9月18日正午から10月1日23時59分まで受け付けられる。",
+      "genres": [
+        "J-POP",
+        "ヒップホップ",
+        "ドームツアー"
+      ],
+      "image_url": "https://prod-v2-assets.wmg.jp/uploads/Admat_1080x1350_On_Sale_ver1_a2b92ff228.png",
+      "source_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
+      "last_updated": "2026-08-26",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "presale_datetime": "2026-09-14T18:00:00+09:00",
+      "presale_end_datetime": "2026-10-01T23:59:00+09:00",
+      "presale_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
+      "general_sale": false
+    },
+    {
+      "id": "ja-number-i-no3-fukuoka-20270117",
+      "name": "Number_i LIVE TOUR No.III（みずほPayPayドーム福岡公演2日目）",
+      "release_date": "2027-01-17",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "みずほPayPayドーム福岡"
+      ],
+      "developer": "Number_i",
+      "publisher": "LIVE NATION H.I.P.",
+      "description": "Number_iのワールド・ツアー日本公演「Number_i LIVE TOUR No.III」の福岡・みずほPayPayドーム福岡公演2日目。2027年1月17日に行われ、開場15:00／開演17:00。日本公演「Chapter 1 : Japan」を締めくくる公演で、この後は海外公演「Chapter 2 : Asia & North America」へ続く。全国5都市・5大ドームを巡る全9公演で構成され、グループ初のドーム・ツアーにあたる。主催・企画・制作はLIVE NATION H.I.P.。ファンクラブ先行は8月に締め切られ、Live Nation H.I.P.会員などを対象とした抽選先行が9月14日18時から、誰でも申し込めるプレイガイド抽選先行が9月18日正午から10月1日23時59分まで受け付けられる。",
+      "genres": [
+        "J-POP",
+        "ヒップホップ",
+        "ドームツアー"
+      ],
+      "image_url": "https://prod-v2-assets.wmg.jp/uploads/Admat_1080x1350_On_Sale_ver1_a2b92ff228.png",
+      "source_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
+      "last_updated": "2026-08-26",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "presale_datetime": "2026-09-14T18:00:00+09:00",
+      "presale_end_datetime": "2026-10-01T23:59:00+09:00",
+      "presale_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
+      "general_sale": false
+    },
+    {
+      "id": "ja-narumiya-yumemiangya-yokohama-20261225",
+      "name": "なるみや Live Tour 2026「夢見行脚」追加公演",
+      "release_date": "2026-12-25",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "横浜ランドマークホール"
+      ],
+      "developer": "なるみや",
+      "publisher": null,
+      "description": "TikTok発のシンガー・ソングライター、なるみやが初の全国ツアー「夢見行脚」の全公演ソールドアウトを受けて発表した追加公演。2026年12月25日に神奈川・横浜ランドマークホールで行われ、開場17:15／開演18:00。ファンクラブ抽選受付は8月20日21時から始まっている。全国7都市を巡った初ツアーの締めくくりとして、クリスマス当日に横浜で開催される点も注目される。",
+      "genres": [
+        "J-POP",
+        "シンガーソングライター"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/-/129015",
+      "last_updated": "2026-08-26",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "presale_datetime": "2026-08-20T21:00:00+09:00",
+      "presale_url": "https://narumiya-official.jp/yumemiangya/"
+    },
+    {
+      "id": "ja-fkj-tyber-tour-tokyo-20261210",
+      "name": "FKJ: Tyber Tour 東京公演",
+      "release_date": "2026-12-10",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京国際フォーラム（ホールA）"
+      ],
+      "developer": "FKJ",
+      "publisher": "LIVE NATION H.I.P.",
+      "description": "フランス出身のマルチ奏者／シンガー／プロデューサー、FKJによるおよそ2年ぶりの来日公演。2026年12月10日に東京国際フォーラム ホールAで開催され、開場18:00／開演19:00。9月11日発売の最新アルバム『Tyber』を携えたヨーロッパ・北米を巡るワールド・ツアーの一環で、日本では一夜限りの単独公演となる。料金はSS席15,800円／S席11,800円（税込）。主催・招聘・企画・制作はLIVE NATION H.I.P.で、一般発売は未定。",
+      "genres": [
+        "エレクトロニック",
+        "ジャズ",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://www.livenationhip.co.jp/all-events/fkj-tickets-ae1212035",
+      "last_updated": "2026-08-26",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "presale_datetime": "2026-08-26T12:00:00+09:00",
+      "presale_url": "https://www.livenationhip.co.jp/all-events/fkj-tickets-ae1212035",
+      "general_sale": false
+    },
+    {
+      "id": "ja-scandal-best-xmas-2026-20261224",
+      "name": "SCANDAL「BEST★Xmas 2026」",
+      "release_date": "2026-12-24",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "TOYOSU PIT（東京・豊洲）"
+      ],
+      "developer": "SCANDAL",
+      "publisher": null,
+      "description": "SCANDALが毎年恒例としてきたクリスマス・ライヴの2026年版。2026年12月24日に東京・豊洲PITで開催される。バンドは2026年8月24日に、2027年8月21日をもって活動を終了することを発表しており、本公演は活動終了までの1年間に組まれた一連のライヴのひとつにあたる。開催日と会場のみが先行して告知され、公演の詳細は後日発表とされている。",
+      "genres": [
+        "ロック",
+        "ガールズバンド",
+        "クリスマスライブ"
+      ],
+      "image_url": null,
+      "source_url": "https://skream.jp/news/2026/08/scandal_final_tour_last_oneman.php",
+      "last_updated": "2026-08-26",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-scandal-final-oneman-yokohama-20270821",
+      "name": "SCANDAL 活動終了ラスト・ワンマン（横浜アリーナ）",
+      "release_date": "2027-08-21",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "横浜アリーナ"
+      ],
+      "developer": "SCANDAL",
+      "publisher": null,
+      "description": "2026年8月21日に結成20周年を迎えたSCANDALが、2027年8月21日をもって活動を終了することを発表し、その最終日に神奈川・横浜アリーナで開催するワンマン・ライヴ。結成21周年の記念日にあたる日付が選ばれている。同時に、2026年10月22日から2027年5月1日まで日本全国47都道府県を回る全52公演のツアー「SCANDAL FINAL TOUR 2026-2027」の開催も告知された。公演タイトルや詳細は後日発表とされている。",
+      "genres": [
+        "ロック",
+        "ガールズバンド"
+      ],
+      "image_url": null,
+      "source_url": "http://www.scandal-4.com/media/web/20260824/",
+      "last_updated": "2026-08-26",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-hinatazaka46-hinata-fes-2024-20240907",
+      "name": "日向坂46「ひなたフェス 2024」",
+      "release_date": "2024-09-07",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "festival",
+      "platforms": [
+        "ひなた宮崎県総合運動公園（ひなたサンマリンスタジアム宮崎）"
+      ],
+      "developer": "日向坂46",
+      "publisher": null,
+      "description": "日向坂46が宮崎県で開催した初の大型野外イベント。2024年9月7日・8日の2日間、ひなた宮崎県総合運動公園 ひなたサンマリンスタジアム宮崎で行われ、2日間で約4万人を集めた。初日は開場15:00・開演17:00。同スタジアムでスポーツ以外の催しが開かれたのはこのときが初めてだった。公演中には全国ツアーの開催と、そのファイナルとなる東京ドーム2デイズがサプライズで発表されている。",
+      "genres": [
+        "アイドル",
+        "野外フェス"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Hinatazaka46_members_at_Yokohama_Stadium.jpg/330px-Hinatazaka46_members_at_Yokohama_Stadium.jpg",
+      "source_url": "https://www.hinatazaka46.com/s/official/page/hinata_fes2024",
+      "last_updated": "2026-08-26",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-marcy-oneman-yokohama-arena-20260109",
+      "name": "マルシィ one man live 2026「Because of you」in 横浜アリーナ",
+      "release_date": "2026-01-09",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "横浜アリーナ"
+      ],
+      "developer": "マルシィ",
+      "publisher": null,
+      "description": "3人組バンド、マルシィにとってバンド史上最大規模となった横浜アリーナでのワンマン・ライヴ。2026年1月9日・10日の2日間開催され、初日は開場18:00・開演19:00、2日目は開場16:00・開演17:00という時間で行われた。初日は「白雪」「君中心に揺れる世界は」「Romance」などを含む全22曲が演奏されている。2025年の日本武道館公演に続く挑戦として位置づけられ、公演の模様はWOWOWで独占放送・配信された。",
+      "genres": [
+        "J-POP",
+        "バンド"
+      ],
+      "image_url": null,
+      "source_url": "https://www.yokohama-arena.co.jp/event/detail/%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A3-one-man-live-2026-%E6%A8%AA%E6%B5%9C%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%8A",
+      "last_updated": "2026-08-26",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-yorushika-ichininsho-yokohama-20260729",
+      "name": "ヨルシカ LIVE TOUR 2026「一人称」横浜アリーナ公演",
+      "release_date": "2026-07-29",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "横浜アリーナ"
+      ],
+      "developer": "ヨルシカ",
+      "publisher": null,
+      "description": "ヨルシカが書簡型小説＆デジタル・アルバム『二人称』を携えて全国5都市で行ったライヴ・ツアー「一人称」の横浜アリーナ公演。2026年7月29日・30日の2日間開催され、開場18:00・開演19:00という時間で行われた。横浜アリーナ公演は追加公演として発表されたもので、オフィシャル先行およびインバウンド先行の受付が3月31日まで実施された。チケットの取り扱いはローソンチケットとヨルシカ公式アプリだった。",
+      "genres": [
+        "J-POP",
+        "ロック"
+      ],
+      "image_url": null,
+      "source_url": "https://yorushika.com/feature/livetour2026_ichininsho",
+      "last_updated": "2026-08-26",
       "last_researched_by": "ja-researcher"
     }
   ]
