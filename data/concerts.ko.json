@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-24",
+  "last_updated": "2026-08-27",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -550,6 +550,30 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-takanori-iwata-space-cowboy-seoul-20260314",
+      "name": "Takanori Iwata ASIA TOUR 2025-2026 'SPACE COWBOY' in SEOUL",
+      "release_date": "2026-03-14",
+      "release_time": "16:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "연세대학교(대강당)"
+      ],
+      "developer": "이와타 타카노리(Takanori Iwata)",
+      "publisher": null,
+      "description": "일본 그룹 산다이메 J SOUL BROTHERS의 멤버이자 배우로 활동해 온 이와타 타카노리가 2026년 3월 14일 서울 연세대학교 대강당에서 첫 한국 단독 라이브를 열었다. 아시아 투어 'SPACE COWBOY'의 마지막 지역으로 편성돼 투어의 대미를 장식한 무대였다. 오후 3시 입장, 오후 4시 시작으로 진행됐으며 티켓은 티켓링크에서 판매됐고 공식 사이트 회원 선예매가 별도로 운영됐다.",
+      "genres": [
+        "J-POP",
+        "내한공연",
+        "솔로"
+      ],
+      "image_url": null,
+      "source_url": "https://www.ldh.co.jp/eng/news/detail.php?lang=eng&site=TRIBE&newsid=0000053619",
+      "last_updated": "2026-08-27",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-zutomayo-intense-ii-seoul-20260314",
       "name": "ZUTOMAYO INTENSE II 「坐・ZOMBIE CRAB LABO」 in Seoul",
       "release_date": "2026-03-14",
@@ -662,6 +686,30 @@
       "image_url": null,
       "source_url": "https://www.heraldmuse.com/article/10709913",
       "last_updated": "2026-08-03",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-seoulphil-riverside-concert-2026-20260613",
+      "name": "2026 서울시향 강변음악회",
+      "release_date": "2026-06-13",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "서울 여의도 한강공원 물빛무대"
+      ],
+      "developer": "서울시립교향악단",
+      "publisher": "서울시립교향악단",
+      "description": "서울시립교향악단이 창립 65주년을 기념해 2026년 6월 13일 오후 7시 30분 여의도 한강공원 물빛무대 앞 광장에서 강변음악회를 열었다. 김선욱이 지휘를 맡고 피아니스트 선우예권, 바이올리니스트 김서현이 협연했으며 바그너 '뉘른베르크의 명가수' 전주곡, 코른골트 바이올린 협주곡, 라흐마니노프 파가니니 주제에 의한 랩소디 등이 연주됐다. 한국경제인협회 후원으로 전석 무료 선착순 입장으로 진행됐고 약 1만5000명이 한강변에서 공연과 불꽃놀이를 함께 즐겼다.",
+      "genres": [
+        "클래식",
+        "오케스트라",
+        "야외공연"
+      ],
+      "image_url": null,
+      "source_url": "https://hangang.seoul.go.kr/www/eventMng/detail.do?evntSn=423&mid=538&srchType=list",
+      "last_updated": "2026-08-27",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -1462,6 +1510,28 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-junk-your-lips-20260817",
+      "name": "준케이(JUN. K) 디지털 싱글 'Your Lips'",
+      "release_date": "2026-08-17",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "준케이(JUN. K)",
+      "publisher": "JYP엔터테인먼트",
+      "description": "2PM 준케이가 2026년 8월 17일 오후 6시 디지털 싱글 'Your Lips(유어 립스)'를 발매했다. 지난 6월 '미드나잇 티켓' 이후 약 두 달 만에 내놓은 솔로 신곡으로, 레드벨벳 웬디가 피처링에 참여해 듀엣 호흡을 맞췄다. 동명의 타이틀곡은 감미로운 피아노 선율과 몽환적인 신스 사운드, 부드러운 그루브가 어우러진 미디엄 템포의 팝 R&B 곡으로 서로의 마음을 확인하며 가까워지는 연인의 설렘을 담았다. 준케이는 이번 곡의 작사에도 직접 참여했다.",
+      "genres": [
+        "K-POP",
+        "R&B",
+        "솔로"
+      ],
+      "image_url": null,
+      "source_url": "https://isplus.com/article/view/isp202608170012",
+      "last_updated": "2026-08-27",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-live-icon9-onewe-dragonpony-20260817",
       "name": "live ICON 9 : ONEWE X Dragon Pony",
       "release_date": "2026-08-17",
@@ -1606,6 +1676,28 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-mashiro-2411-20260819",
+      "name": "마시로(MASHIRO) 첫 EP '24/11'",
+      "release_date": "2026-08-19",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "마시로(MASHIRO)",
+      "publisher": null,
+      "description": "걸그룹 메이딘의 마시로가 2026년 8월 19일 오후 6시 첫 번째 EP '24/11'을 발매하며 솔로 데뷔했다. 타이틀곡 'HOTLINE'에는 같은 소속사 선배인 아이콘 바비가 피처링으로 참여했다. 앨범에는 타이틀곡을 포함해 'MAKE UP', 'Bubble Trouble', 'Toothbrush'와 인스트루멘털 트랙까지 여섯 곡이 실렸고, 마시로가 전곡 작사에 이름을 올렸다. 앨범명 '24/11'은 하루 24시간이라는 상징적 틀을 넘어서는 몰입을 뜻한다.",
+      "genres": [
+        "K-POP",
+        "솔로",
+        "데뷔"
+      ],
+      "image_url": null,
+      "source_url": "https://www.starnewskorea.com/music/2026/08/19/2026081910592398525",
+      "last_updated": "2026-08-27",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-ourbirthday-debut-single-20260819",
       "name": "아워벌스데이(OURBIRTHDAY) 데뷔 싱글 'Our Birthday'",
       "release_date": "2026-08-19",
@@ -1693,6 +1785,27 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Oh_My_Girl_at_Golden_Hourglass_showcase_on_250723_%281%29.png",
       "source_url": "https://www.heraldmuse.com/article/10827730",
       "last_updated": "2026-08-02",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-seongri-sad-rain-20260820",
+      "name": "성리 싱글 '새드 레인(Sad Rain)'",
+      "release_date": "2026-08-20",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "성리",
+      "publisher": null,
+      "description": "MBN '무명전설' 초대 우승자 성리가 2026년 8월 20일 오후 6시 우승 특전곡 '새드 레인(Sad Rain)'을 발매했다. 김진룡이 작사·작곡·편곡을 모두 맡았으며, 한국적인 소울이 가미된 얼터너티브 록 사운드가 특징이다. 가사는 헤어진 연인을 비에 의인화해 이별의 아쉬움과 그리움을 담아냈다. 무대는 음원 공개 하루 전인 8월 19일 MBN '전설의 사내'를 통해 처음 공개됐다. 성리는 여섯 번의 오디션 도전 끝에 '무명전설' 우승을 거뒀다.",
+      "genres": [
+        "트로트",
+        "록"
+      ],
+      "image_url": null,
+      "source_url": "https://isplus.com/article/view/isp202608200113",
+      "last_updated": "2026-08-27",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -1791,6 +1904,31 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-haha-fan-concert-busan-20260822",
+      "name": "2026 HAHA FAN CONCERT - 부산",
+      "release_date": "2026-08-22",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "부산 소향씨어터(우리은행홀)"
+      ],
+      "developer": "하하",
+      "publisher": null,
+      "description": "방송인 겸 가수 하하가 2026년 8월 22일 오후 6시 부산 소향씨어터 우리은행홀에서 '2026 HAHA FAN CONCERT' 부산 공연을 열었다. 데뷔 30년 만에 처음으로 자신의 이름을 내건 단독 팬 콘서트로, 9월 13일 서울 연세대학교 대강당 공연으로 이어지는 투어의 첫 무대였다. 좌석은 R석 11만원·S석 9만9000원으로 책정됐고 만 8세 이상 관람할 수 있었으며, 개그맨 박영진과 양상국이 진행을 맡았다.",
+      "genres": [
+        "팬콘서트",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://tickets.interpark.com/contents/notice/detail/14327",
+      "last_updated": "2026-08-27",
+      "last_researched_by": "ko-researcher",
+      "presale": false,
+      "general_sale": false
+    },
+    {
       "id": "ko-hyeonyeokgawang-family-festival-seoul-20260822",
       "name": "〈현역가왕3〉 with 현역가왕 패밀리 페스티벌 - 서울",
       "release_date": "2026-08-22",
@@ -1865,6 +2003,31 @@
       "general_sale_url": "https://www.ticketlink.co.kr/product/63748",
       "last_updated": "2026-08-24",
       "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-stayc-stay-closer-seoul-20260822",
+      "name": "2026 STAYC FAN CONCERT TOUR [STAY CLOSER] IN SEOUL",
+      "release_date": "2026-08-22",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "블루스퀘어(우리WON뱅킹홀)"
+      ],
+      "developer": "스테이씨(STAYC)",
+      "publisher": "하이업엔터테인먼트",
+      "description": "그룹 스테이씨가 2026년 8월 22일과 23일 이틀간 서울 블루스퀘어 우리WON뱅킹홀에서 팬 콘서트 투어 'STAY CLOSER'의 첫 무대인 서울 공연을 열었다. 첫날은 오후 6시, 둘째 날은 오후 5시에 시작했다. 서울을 시작으로 마닐라(9월 20일), 마카오(9월 26일), 타이베이(10월 11일), 퍼스(10월 14일), 멜버른(10월 16일), 시드니(10월 18일)까지 7개 도시로 이어지는 투어다. 티켓은 7월 7일 멤버십 선예매, 7월 9일 일반 예매 순으로 열렸다.",
+      "genres": [
+        "팬콘서트",
+        "K-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://www.soompi.com/article/1842484wpp/stayc-announces-dates-and-cities-for-2026-fan-concert-tour-stay-closer",
+      "last_updated": "2026-08-27",
+      "last_researched_by": "ko-researcher",
+      "presale": false,
+      "general_sale": false
     },
     {
       "id": "ko-waterbomb-sokcho-2026-20260822",
@@ -2609,6 +2772,49 @@
       "general_sale_datetime": "2026-04-22T19:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.yes24.com/Perf/58079"
+    },
+    {
+      "id": "ko-isul-live-festival-2026-20260912",
+      "name": "테라와 함께하는 2026 이슬라이브 페스티벌",
+      "release_date": "2026-09-12",
+      "release_time": "14:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "festival",
+      "platforms": [
+        "송도달빛축제공원"
+      ],
+      "developer": null,
+      "publisher": "하이트진로",
+      "description": "하이트진로가 2년 만에 여는 이슬라이브 페스티벌이 2026년 9월 12일 인천 송도달빛축제공원에서 열린다. 오전 10시 30분 입장, 오후 2시 공연 시작이며 인터미션 35분을 포함해 약 450분간 진행된다. 올해는 장소를 송도달빛축제공원으로 옮기고 수용 인원을 기존보다 약 1만 명 늘렸으며, 부산·대구·대전·광주 등 주요 지역에서 출발하는 셔틀버스도 운영한다. 전석 4만원 단일 가격이고 만 19세 이상만 입장할 수 있다.",
+      "genres": [
+        "페스티벌",
+        "힙합",
+        "K-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://www.ngonews.kr/news/articleView.html?idxno=234860",
+      "last_updated": "2026-08-27",
+      "last_researched_by": "ko-researcher",
+      "festival_days": [
+        {
+          "date": "2026-09-12",
+          "lineup": [
+            "다이나믹 듀오",
+            "이영지",
+            "멜로망스",
+            "WOODZ",
+            "터치드",
+            "윤마치",
+            "딘딘",
+            "마이티 마우스",
+            "조째즈",
+            "싸이버거"
+          ]
+        }
+      ],
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-10T12:00:00+09:00"
     },
     {
       "id": "ko-jeongeunji-summer-i-concert-20260912",
@@ -3823,6 +4029,33 @@
       "general_sale_datetime": "2026-08-10T20:00:00+09:00",
       "last_updated": "2026-08-10",
       "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-yuuri-live-2026-seoul-20261205",
+      "name": "YUURI LIVE 2026 IN SEOUL",
+      "release_date": "2026-12-05",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "인스파이어 아레나"
+      ],
+      "developer": "유우리(YUURI)",
+      "publisher": "애플우드(APPLEWOOD)",
+      "description": "일본 싱어송라이터 유우리가 2026년 12월 5일과 6일 이틀간 인천 인스파이어 아레나에서 단독 내한공연 'YUURI LIVE 2026 IN SEOUL'을 연다. 첫날은 오후 6시, 둘째 날은 오후 5시에 시작하며 공연 시간은 약 90분이다. 좌석은 R석 16만5000원, S석 15만4000원, A석 14만3000원으로 책정됐고 만 7세 이상 관람할 수 있다. 티켓은 7월 31일 오후 8시 NOL 티켓에서 단독으로 오픈됐다.",
+      "genres": [
+        "J-POP",
+        "내한공연",
+        "싱어송라이터"
+      ],
+      "image_url": null,
+      "source_url": "https://tickets.interpark.com/goods/26010352",
+      "last_updated": "2026-08-27",
+      "last_researched_by": "ko-researcher",
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-31T20:00:00+09:00",
+      "general_sale_url": "https://tickets.interpark.com/goods/26010352"
     },
     {
       "id": "ko-domi-jdbeck-who-asked-seoul-20261212",
