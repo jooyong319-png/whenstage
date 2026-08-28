@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-08-28",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -5530,6 +5530,351 @@
         "Concert"
       ],
       "source_url": "https://app.opendate.io/e/eli-young-band-the-strange-hours-tour-december-11-2025-607369"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "Live Nation",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Usher_Milan_2026.jpg",
+      "last_updated": "2026-08-28",
+      "last_researched_by": "en-researcher",
+      "id": "en-usher-chris-brown-rb-tour-east-rutherford-20261015",
+      "name": "The R&B Tour: Usher & Chris Brown - East Rutherford",
+      "release_date": "2026-10-15",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "MetLife Stadium, East Rutherford, NJ"
+      ],
+      "developer": "Usher, Chris Brown, Mario, Eric Bellinger, Tank",
+      "description": "Usher and Chris Brown bring The R&B Tour to MetLife Stadium in East Rutherford on October 15, 2026, one of eight stadium dates added in August after the co-headline run sold out its opening stretch. Instead of separate headline sets, the two singers alternate across nine cinematic acts in a nearly three-hour production, joined onstage by Mario, Eric Bellinger and Tank. Live Nation produces the 59-date trek.",
+      "genres": [
+        "R&B",
+        "Hip-Hop",
+        "Concert"
+      ],
+      "source_url": "https://www.sofistadium.com/news/detail/chris-brown-usher-add-eight-new-stadium-dates-to-the-rb-tour-following-incredible-fan-demand",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-24T10:00:00-04:00",
+      "general_sale_url": "https://www.ticketmaster.com/usher-raymond-chris-brown-tickets/artist/4314089"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "Live Nation",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Usher_Milan_2026.jpg",
+      "last_updated": "2026-08-28",
+      "last_researched_by": "en-researcher",
+      "id": "en-usher-chris-brown-rb-tour-los-angeles-20261116",
+      "name": "The R&B Tour: Usher & Chris Brown - Los Angeles",
+      "release_date": "2026-11-16",
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "SoFi Stadium, Los Angeles, CA"
+      ],
+      "developer": "Usher, Chris Brown, Mario, Eric Bellinger, Tank",
+      "description": "Usher and Chris Brown close their Los Angeles run with a fourth SoFi Stadium show on November 16, 2026, added after the first three dates sold quickly. The Live Nation production runs close to three hours and trades the two catalogues back and forth across nine staged acts, with Mario, Eric Bellinger and Tank performing alongside them and segments paying tribute to Prince, Michael Jackson and Marvin Gaye.",
+      "genres": [
+        "R&B",
+        "Hip-Hop",
+        "Concert"
+      ],
+      "source_url": "https://www.sofistadium.com/news/detail/chris-brown-usher-add-eight-new-stadium-dates-to-the-rb-tour-following-incredible-fan-demand",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-24T10:00:00-07:00",
+      "general_sale_url": "https://www.ticketmaster.com/usher-raymond-chris-brown-tickets/artist/4314089"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "Live Nation",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Usher_Milan_2026.jpg",
+      "last_updated": "2026-08-28",
+      "last_researched_by": "en-researcher",
+      "id": "en-usher-chris-brown-rb-tour-atlanta-20261105",
+      "name": "The R&B Tour: Usher & Chris Brown - Atlanta",
+      "release_date": "2026-11-05",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Mercedes-Benz Stadium, Atlanta, GA"
+      ],
+      "developer": "Usher, Chris Brown, Mario, Eric Bellinger, Tank",
+      "description": "Usher and Chris Brown open a five-night Atlanta stand at Mercedes-Benz Stadium on November 5, 2026, the newly added first date of a run that continues on November 6, 8, 10 and 11. The co-headline format alternates the pair across nine acts rather than back-to-back sets, with Mario, Eric Bellinger and Tank joining them. Live Nation produces the 59-show tour, which reaches Tampa in December.",
+      "genres": [
+        "R&B",
+        "Hip-Hop",
+        "Concert"
+      ],
+      "source_url": "https://www.sofistadium.com/news/detail/chris-brown-usher-add-eight-new-stadium-dates-to-the-rb-tour-following-incredible-fan-demand",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-24T10:00:00-04:00",
+      "general_sale_url": "https://www.ticketmaster.com/usher-raymond-chris-brown-tickets/artist/4314089"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "Live Nation",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Usher_Milan_2026.jpg",
+      "last_updated": "2026-08-28",
+      "last_researched_by": "en-researcher",
+      "id": "en-usher-chris-brown-rb-tour-indianapolis-20261031",
+      "name": "The R&B Tour: Usher & Chris Brown - Indianapolis",
+      "release_date": "2026-10-31",
+      "timezone": "America/Indiana/Indianapolis",
+      "category": "concert_tour",
+      "platforms": [
+        "Lucas Oil Stadium, Indianapolis, IN"
+      ],
+      "developer": "Usher, Chris Brown, Mario, Eric Bellinger, Tank",
+      "description": "The R&B Tour makes its first Indianapolis stop at Lucas Oil Stadium on October 31, 2026, one of four brand-new cities added when Usher and Chris Brown extended the run to 59 dates. The nearly three-hour show moves between their catalogues across nine cinematic acts, backed by Mario, Eric Bellinger and Tank. Earlier legs set attendance and multi-night records in Detroit, Washington and Birmingham.",
+      "genres": [
+        "R&B",
+        "Hip-Hop",
+        "Concert"
+      ],
+      "source_url": "https://www.sofistadium.com/news/detail/chris-brown-usher-add-eight-new-stadium-dates-to-the-rb-tour-following-incredible-fan-demand",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-24T10:00:00-04:00",
+      "general_sale_url": "https://www.ticketmaster.com/usher-raymond-chris-brown-tickets/artist/4314089"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "AEG Presents",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Nia_Archives_2024-11-16_Amsterdam.jpg",
+      "last_updated": "2026-08-28",
+      "last_researched_by": "en-researcher",
+      "id": "en-nia-archives-emotional-world-tour-london-20261126",
+      "name": "Nia Archives: Emotional World Tour - London",
+      "release_date": "2026-11-26",
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Alexandra Palace, London"
+      ],
+      "developer": "Nia Archives, Cannelle, NEW YORK, Trickpony",
+      "description": "Nia Archives plays Alexandra Palace on November 26, 2026, the London stop of the 19-date Emotional World Tour behind her Mercury Prize-shortlisted album Emotional Junglist. Cannelle, NEW YORK and Trickpony support. The run opens in Japan in September before crossing North America and Europe, and follows a summer of festival sets including a West Stage headline slot at All Points East. AEG Presents promotes the UK leg.",
+      "genres": [
+        "Jungle",
+        "Electronic",
+        "Concert"
+      ],
+      "source_url": "https://www.aegpresents.co.uk/event/nia-archives/",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-27T10:00:00+01:00",
+      "general_sale_url": "https://www.axs.com/uk/events/1562167/nia-archives-tickets"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Neil_Young_for_Fairy_Creek.jpg",
+      "last_updated": "2026-08-28",
+      "last_researched_by": "en-researcher",
+      "id": "en-neil-young-willie-nelson-bridgeport-20260922",
+      "name": "Neil Young & The Chrome Hearts and Willie Nelson & Family - Bridgeport",
+      "release_date": "2026-09-22",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Hartford HealthCare Amphitheater, Bridgeport, CT"
+      ],
+      "developer": "Neil Young & The Chrome Hearts, Willie Nelson & Family, Ty Myers",
+      "description": "Neil Young and Willie Nelson share a bill at the Hartford HealthCare Amphitheater in Bridgeport on September 22, 2026, the first of two co-headline dates announced in August. Young performs with The Chrome Hearts, the band he began touring with in late 2024, and Ty Myers opens. The pairing arrives as Nelson's Outlaw Music Festival run winds down and ahead of both artists' Farm Aid appearances.",
+      "genres": [
+        "Rock",
+        "Country",
+        "Concert"
+      ],
+      "source_url": "https://news.pollstar.com/2026/08/20/willie-nelson-neil-young-to-co-headline-shows-in-bridgeport-and-philadelphia/",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-21T10:00:00-04:00",
+      "general_sale_url": "https://willienelson.com/pages/tour"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Neil_Young_for_Fairy_Creek.jpg",
+      "last_updated": "2026-08-28",
+      "last_researched_by": "en-researcher",
+      "id": "en-neil-young-willie-nelson-philadelphia-20260924",
+      "name": "Neil Young & The Chrome Hearts and Willie Nelson & Family - Philadelphia",
+      "release_date": "2026-09-24",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Highmark Mann Center for the Performing Arts, Philadelphia, PA"
+      ],
+      "developer": "Neil Young & The Chrome Hearts, Willie Nelson & Family, Ty Myers",
+      "description": "The second of two Neil Young and Willie Nelson co-headline concerts lands at the Highmark Mann Center for the Performing Arts in Philadelphia on September 24, 2026. Young is backed by The Chrome Hearts and Nelson by Family, with Ty Myers supporting both nights. Young scrapped his 2026 European dates earlier in the year, making this short East Coast pair his main run of the autumn.",
+      "genres": [
+        "Rock",
+        "Country",
+        "Concert"
+      ],
+      "source_url": "https://news.pollstar.com/2026/08/20/willie-nelson-neil-young-to-co-headline-shows-in-bridgeport-and-philadelphia/",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-21T10:00:00-04:00",
+      "general_sale_url": "https://willienelson.com/pages/tour"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Oso_Oso_2023.jpg",
+      "last_updated": "2026-08-28",
+      "last_researched_by": "en-researcher",
+      "id": "en-oso-oso-exchange-of-information-allston-20261007",
+      "name": "Oso Oso: An Exchange of Information Tour - Allston",
+      "release_date": "2026-10-07",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Brighton Music Hall, Allston, MA"
+      ],
+      "developer": "Oso Oso, Leisure Hour, Bad Luck",
+      "description": "Jade Lilitri's Oso Oso opens a 32-date North American headline run at Brighton Music Hall in Allston on October 7, 2026. Leisure Hour and Bad Luck support the eastern leg, which works down the coast and through the Midwest before wrapping in Washington on October 25. A second leg with Liquid Mike and Bugsy picks up in Columbus in November and ends in St. Louis.",
+      "genres": [
+        "Emo",
+        "Indie Rock",
+        "Concert"
+      ],
+      "source_url": "https://www.scenepointblank.com/news/tours/2026/08/20/oso-oso-us-tour-dates/"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Oso_Oso_2023.jpg",
+      "last_updated": "2026-08-28",
+      "last_researched_by": "en-researcher",
+      "id": "en-oso-oso-exchange-of-information-los-angeles-20261115",
+      "name": "Oso Oso: An Exchange of Information Tour - Los Angeles",
+      "release_date": "2026-11-15",
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Teragram Ballroom, Los Angeles, CA"
+      ],
+      "developer": "Oso Oso, Liquid Mike, Bugsy",
+      "description": "Oso Oso reach the Teragram Ballroom in Los Angeles on November 15, 2026, part of the western leg of a 32-date North American tour. Liquid Mike and Bugsy open every show on this stretch, which runs from Columbus in early November through Denver, Seattle and Portland before turning south. The band's earlier October dates were supported by Leisure Hour and Bad Luck.",
+      "genres": [
+        "Emo",
+        "Indie Rock",
+        "Concert"
+      ],
+      "source_url": "https://www.scenepointblank.com/news/tours/2026/08/20/oso-oso-us-tour-dates/"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Basement_playing_in_Sao_Paulo%2C_2017.jpg",
+      "last_updated": "2026-08-28",
+      "last_researched_by": "en-researcher",
+      "id": "en-basement-wired-tour-london-20270218",
+      "name": "Basement: WIRED Tour 2027 - London",
+      "release_date": "2027-02-18",
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Roundhouse, London"
+      ],
+      "developer": "Basement, Fleshwater, Beton Arme",
+      "description": "Basement headline the Roundhouse in Camden on February 18, 2027, the biggest London date of a 15-show UK and European run behind WIRED, the band's first album in more than eight years. Fleshwater and Beton Arme open throughout. The tour starts in Amsterdam on February 2 and takes in Brussels, Berlin, Cologne, Birmingham, Glasgow and Manchester before finishing in Dublin.",
+      "genres": [
+        "Alternative Rock",
+        "Punk",
+        "Concert"
+      ],
+      "source_url": "https://www.nme.com/news/music/basement-announce-2027-uk-and-european-tour-3964375",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-28T10:00:00+01:00"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "XL Recordings",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Fontaines_D.C._%2849135254267%29.jpg",
+      "last_updated": "2026-08-28",
+      "last_researched_by": "en-researcher",
+      "id": "en-fontaines-dc-dopamine-chamber-20261016",
+      "name": "Fontaines D.C. - Dopamine Chamber",
+      "release_date": "2026-10-16",
+      "timezone": "Europe/Dublin",
+      "category": "music_release",
+      "platforms": [
+        "Streaming",
+        "Digital",
+        "CD",
+        "Vinyl"
+      ],
+      "developer": "Fontaines D.C.",
+      "description": "Fontaines D.C. release their fifth studio album, Dopamine Chamber, on October 16, 2026 through XL Recordings. James Ford returns as producer after working on 2024's Romance, and the record was announced alongside the expansive lead single 'Marianne'. It follows the Dublin band's breakout run of arena shows and festival headline slots, and pre-orders include coloured vinyl pressings through the label and independent shops.",
+      "genres": [
+        "Post-Punk",
+        "Alternative Rock",
+        "Album"
+      ],
+      "source_url": "https://www.nme.com/news/music/fontaines-d-c-announce-details-of-new-album-dopamine-chamber-with-epic-single-marianne-pre-order-tour-3963277"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "Goldenvoice",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Tyler_the_Creator_%2852163761341%29_%28cropped%29.jpg/960px-Tyler_the_Creator_%2852163761341%29_%28cropped%29.jpg",
+      "last_updated": "2026-08-28",
+      "last_researched_by": "en-researcher",
+      "id": "en-camp-flog-gnaw-carnival-2025-20251122",
+      "name": "Camp Flog Gnaw Carnival 2025",
+      "release_date": "2025-11-22",
+      "timezone": "America/Los_Angeles",
+      "category": "festival",
+      "platforms": [
+        "Dodger Stadium, Los Angeles, CA"
+      ],
+      "developer": "Tyler, the Creator, Childish Gambino, A$AP Rocky, Doechii, Kali Uchis",
+      "description": "Tyler, the Creator's eleventh Camp Flog Gnaw Carnival took over the Dodger Stadium lot on November 22 and 23, 2025, a week later than planned after heavy rain forced a postponement. Clairo, Don Toliver, Men I Trust, Sombr, Tems and The Alchemist dropped off the rescheduled bill, and Kali Uchis, Blood Orange, Geese and Fakemink were added. Tyler headlined alongside Childish Gambino, A$AP Rocky, Clipse and Doechii.",
+      "genres": [
+        "Hip-Hop",
+        "Festival",
+        "R&B"
+      ],
+      "source_url": "https://variety.com/2025/music/news/tyler-the-creator-camp-flog-gnaw-pushed-back-heavy-rains-1236582267/"
+    },
+    {
+      "release_time": null,
+      "release_date_approx": false,
+      "publisher": "Donostia Kultura",
+      "image_url": null,
+      "last_updated": "2026-08-28",
+      "last_researched_by": "en-researcher",
+      "id": "en-jazzaldia-2026-san-sebastian-20260722",
+      "name": "61st Jazzaldia - San Sebastian Jazz Festival 2026",
+      "release_date": "2026-07-22",
+      "timezone": "Europe/Madrid",
+      "category": "festival",
+      "platforms": [
+        "Kursaal Donostia, San Sebastian, Spain"
+      ],
+      "developer": "Diana Krall, Pat Metheny, Marcus Miller, Samara Joy, Nils Petter Molvaer",
+      "description": "The 61st Jazzaldia ran from July 22 to 26, 2026 in San Sebastian, staging 77 concerts across twelve sites for a combined audience of 179,483. Diana Krall, Pat Metheny, Marcus Miller and Samara Joy each sold out the Kutxabank Kursaal Auditorium, where Nils Petter Molvaer also drew strong reviews. Organisers sold 16,272 tickets to buyers from 37 countries, and fifteen concerts sold out entirely.",
+      "genres": [
+        "Jazz",
+        "Festival"
+      ],
+      "source_url": "https://www.jazzaldia.eus/en/news-alerts/9-balance-2026-en?idn=42722"
     }
   ]
 }
