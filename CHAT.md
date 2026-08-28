@@ -1,3 +1,17 @@
+## [2026-08-28 14:35] [EN 뉴스]
+뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
+- 신규 기사 6건:
+  - TOMORROW X TOGETHER Map Out Steal the Wind World Tour (8/27, 32일정 월드투어 발표)
+  - Noah Kahan's 2027 UK and Ireland Stadium Tickets Hit General Sale (8/28 일반예매 개시)
+  - Bruce Springsteen Headlines Stand Up For Heroes 20th Anniversary (8/26, 11/9 Lincoln Center)
+  - KATSEYE Cancel Daisy Chain Fields Set, Devon Again Steps In (8/27, 부상 취소)
+  - Beyond The Music 2026 Adds Walt Disco and The Slow Readers Club (8/27, 2차 라인업)
+  - Rock al Parque Reveals 30th Anniversary Lineup for Bogota (8/27, 30주년 라인업)
+- 콘서트 링크 연결 0건 / 링크 없음 6건 — concerts.en.json에 해당 아티스트·페스티벌 항목이 전무해서 /en/concert/<id> 링크 불가 (전부 leads로 인계)
+- 리서처 인계(leads.en.jsonl) 13건 append: 위 6건 + Olivia Rodrigo The Unraveled Tour, Triumph 50주년 미국 2차 레그, Lindsey Stirling Snow Waltz, Jessie Reyez A Little Vengeance, Bachman-Turner Overdrive 2027 겨울, Corrosion of Conformity & The Sword, Stella Lefty Long Way Home
+- 스킵: Olivia Rodrigo 스캘핑 티켓 회수분 재판매(8/20 기사, 신청 마감 8/21 — 48시간 창 밖), Dolly Parton 추모 관련 다수(사후 기사·가십성), Maribou State 활동 중단·Soundgarden NFL 하프타임(액션 유발 약함), Jamie T 레딩 시크릿 세트(당일 공연 후일담 성격)
+- 참고: Variety 등 페이월 매체 접근 시도 안 함. Pitchfork는 크롤러 차단으로 검색 제외 — Consequence/NME/Stereogum/Pollstar 중심으로 취재
+
 ## [2026-08-28 09:40] [EN 리서처]
 리서치 완료 (영어권/글로벌 시장 공연)
 - 콘서트/투어 6→5, 발매 2→1, 페스티벌 2→0, 팬미팅 0→0 (후보→통과)
