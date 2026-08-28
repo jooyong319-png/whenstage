@@ -1,3 +1,46 @@
+## [2026-08-28 09:40] [EN 리서처]
+리서치 완료 (영어권/글로벌 시장 공연)
+- 콘서트/투어 6→5, 발매 2→1, 페스티벌 2→0, 팬미팅 0→0 (후보→통과)
+- 신규 11개 / 갱신 0개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리 10건 중 6건 등재 (Usher & Chris Brown 스타디움 추가분, Nia Archives, Neil Young & Willie Nelson, Oso Oso, Basement, Fontaines D.C.)
+- 과거 백필 2개 → **공연장 색인전환 2개**(Dodger Stadium 1→2, Kursaal Donostia 1→2) / 기존 공연장 보강 0개
+- 티켓팅 진행중 8개 (추가 +8 / 해제 -0) — 신규 등재분 중 일반예매 개시 확인된 8건
+- description 보강 0개 (신규 13건 전부 영어 60~68단어)
+- 총 등록 213개
+
+신규 등재 목록 (예정 공연 11건)
+- en-usher-chris-brown-rb-tour-east-rutherford-20261015 (MetLife Stadium, 기존 색인 공연장 보강)
+- en-usher-chris-brown-rb-tour-indianapolis-20261031 (Lucas Oil Stadium, 신규 도시)
+- en-usher-chris-brown-rb-tour-atlanta-20261105 (Mercedes-Benz Stadium, 5연속 공연 첫날)
+- en-usher-chris-brown-rb-tour-los-angeles-20261116 (SoFi Stadium 4회차, 기존 색인 공연장 보강)
+- en-nia-archives-emotional-world-tour-london-20261126 (Alexandra Palace, 기존 색인 공연장 보강)
+- en-neil-young-willie-nelson-bridgeport-20260922
+- en-neil-young-willie-nelson-philadelphia-20260924
+- en-oso-oso-exchange-of-information-allston-20261007
+- en-oso-oso-exchange-of-information-los-angeles-20261115
+- en-basement-wired-tour-london-20270218
+- en-fontaines-dc-dopamine-chamber-20261016 [music_release]
+
+과거 백필 2건
+- en-camp-flog-gnaw-carnival-2025-20251122 (Dodger Stadium, 2025-11-22~23 — 폭우로 1주 연기된 실제 개최일 확인)
+- en-jazzaldia-2026-san-sebastian-20260722 (Kursaal Donostia, 2026-07-22~26 제61회)
+
+[검증 탈락]
+- Ozzfest 2027 (Villa Park, Birmingham): 2027년이라는 연도만 공개되고 월·시기조차 미발표 — 시기말 placeholder도 특정 불가해 보류
+- Big Thief 'Horsepower' (3장 구성 앨범): 8/22 Ryman 전곡 라이브 선공개는 확인되나 발매일 자체가 미발표 — release_date 확정 불가
+- Field of Vision II (Buena Vista, CO / King Gizzard 헤드라이닝): 예정 공연 검증을 우선하느라 이번 사이클 개별 2차 검증 미실시 — 다음 사이클 재검토
+- American Football 라틴아메리카 2026 (Buenos Aires/Sao Paulo 등): 개별 날짜 미확정 + 남미 단독 일정이라 영어권/서구 시장 대상성 낮음 — 보류
+
+[운영 참고 — 다음 사이클 처리 요망]
+- `concerts.en.json`에 사실상 같은 공연이 서로 다른 id로 중복 등재된 건이 확인됨(삭제 금지 규칙상 이번 사이클에서 손대지 않음).
+  예: `en-jonas-brothers-burning-up-all-over-again-los-angeles-20261118` ↔ `en-jonas-brothers-hollywood-bowl-20261118`,
+  `en-steve-lacy-oh-yeah-los-angeles-20261121` ↔ `en-steve-lacy-hollywood-bowl-20261121`,
+  `en-erykah-badu-alchemist-los-angeles-20260929` ↔ `en-erykah-badu-alchemist-hollywood-bowl-20260929`,
+  `en-taemin-liminal-world-tour-los-angeles-20261015` ↔ `en-taemin-liminal-crypto-com-arena-20261015`.
+  중복분이 공연장 이벤트 수를 부풀려 색인 판정을 왜곡할 수 있으니 운영자 확인 후 병합 여부 결정 필요.
+- 1건짜리 공연장은 이제 `Santa Monica Beach, Santa Monica, CA` 하나만 남음. 다만 이 공연장의 유일한 항목인 Ocean Way Festival은
+  2026년이 초회(inaugural)라 과거 회차가 존재하지 않아 백필로는 색인 전환이 불가능하다. 향후 2027년 회차 발표 시 자연 해소 예상.
+
 ## [2026-08-27 14:15] [KO 뉴스]
 뉴스 작성 완료 (한국 국내 공연 뉴스)
 - 신규 기사 4건: 'GMF 2026' 3차 라인업 공개(이소라 12년 만 합류) / 조관우 10월 4일 부천 단독 콘서트 '가을의 기적' / 플레이브 9월 3일 디지털 싱글 '플레임 (feat. milet)' / 김동률 10월 단독 콘서트 '오래된 노래'
