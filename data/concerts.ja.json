@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-26",
+  "last_updated": "2026-08-29",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -2658,9 +2658,9 @@
       ],
       "image_url": null,
       "source_url": "https://www.cdjournal.com/news/takaiwa-ryo/128628",
-      "last_updated": "2026-08-08",
+      "last_updated": "2026-08-29",
       "last_researched_by": "ja-researcher",
-      "general_sale": true
+      "general_sale": false
     },
     {
       "id": "ja-nntt-peter-grimes-20261123",
@@ -3327,10 +3327,10 @@
       ],
       "image_url": null,
       "source_url": "https://natalie.mu/music/news/684750",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-08-11T22:00:00+09:00",
       "presale_end_datetime": "2026-08-23T23:59:00+09:00",
-      "last_updated": "2026-08-15",
+      "last_updated": "2026-08-29",
       "last_researched_by": "ja-researcher"
     },
     {
@@ -4066,12 +4066,12 @@
       ],
       "image_url": "https://diskgarage.com/digaonline/wordpress/wp-content/uploads/1780626761.webp",
       "source_url": "https://diskgarage.com/digaonline/news/233331",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-07-31T15:00:00+09:00",
       "presale_end_datetime": "2026-08-28T23:59:00+09:00",
       "general_sale": false,
       "general_sale_datetime": "2026-10-03T10:00:00+09:00",
-      "last_updated": "2026-08-22",
+      "last_updated": "2026-08-29",
       "last_researched_by": "ja-researcher"
     },
     {
@@ -4532,6 +4532,268 @@
       "image_url": null,
       "source_url": "https://yorushika.com/feature/livetour2026_ichininsho",
       "last_updated": "2026-08-26",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-moonriders-winter-super-moon-20261201",
+      "name": "ムーンライダーズ〈The Winter Super Moon〉",
+      "release_date": "2026-12-01",
+      "release_time": "18:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京国際フォーラム（ホールC）"
+      ],
+      "developer": "ムーンライダーズ",
+      "publisher": null,
+      "description": "デビュー50周年を迎えたムーンライダーズが、記念アルバム『e.d morrison /』のリリースを受けて開く冬のスペシャル公演。開場17:45・開演18:30で、ゲストに大貫妙子、清水ミチコ、野宮真貴らを迎え、コーラスには7月7日のドントラ40周年公演で結成されたCrescent Lits（岡田紫苑、konore、山口美和子）も参加する。チケットは8月26日から先行抽選受付が始まっている。9月には梅田・名古屋・渋谷・大分をまわるレコ発ツアーも予定されており、その締めくくりとなる大箱公演にあたる。",
+      "genres": [
+        "ロック",
+        "日本のロック"
+      ],
+      "image_url": "https://www.cdjournal.com/image/jacket/large/Z3/Z351006780.jpg",
+      "source_url": "https://www.cdjournal.com/news/moonriders/129112",
+      "last_updated": "2026-08-29",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "presale_url": "https://ticket.tickebo.jp/sn/moonriders-live2026-add_hp",
+      "general_sale": false
+    },
+    {
+      "id": "ja-moonriders-ed-morrison-20260826",
+      "name": "ムーンライダーズ『e.d morrison /』（デビュー50周年記念アルバム）",
+      "release_date": "2026-08-26",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [
+        "CD／配信"
+      ],
+      "developer": "ムーンライダーズ",
+      "publisher": null,
+      "description": "ムーンライダーズのデビュー50周年を記念するオリジナル・アルバムで、『It’s the moooonriders』以来4年ぶりの新作。タイトルの「e.d morrison」はmoonridersのアナグラムになっている。前作で「老齢ロック」を掲げた彼らが、今作では反骨と達観、そして文学性のにじむ歌詞とジャンルを横断するサウンドを提示した。メンバー全員が1曲ずつ楽曲を提供し、故・岡田徹と故・かしぶち哲郎のデモ音源を用いた楽曲も収録されている。",
+      "genres": [
+        "ロック",
+        "日本のロック"
+      ],
+      "image_url": "https://www.cdjournal.com/image/jacket/large/Z3/Z351006780.jpg",
+      "source_url": "https://www.cdjournal.com/news/moonriders/129112",
+      "last_updated": "2026-08-29",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-koji-yamamoto-50th-tokyo-20261031",
+      "name": "KOJI YAMAMOTO 50th Anniversary Concert 東京公演",
+      "release_date": "2026-10-31",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "LINE CUBE SHIBUYA"
+      ],
+      "developer": "山本耕史",
+      "publisher": "Team YAMAMOTO（制作協力：キョードー東京）",
+      "description": "子役時代から数えて芸歴50年を迎えた山本耕史のアニバーサリー・コンサート、その東京公演。開場16:00・開演17:00でLINE CUBE SHIBUYA（渋谷公会堂）にて行われる。舞台・映像・音楽と多彩な表現を続けてきた50年の軌跡をたどる構成で、幼少期から現在までの楽曲を歌い上げる一夜限りのステージとなる。全席指定11,000円（税込）。10月24日にはZEPP NAMBA（OSAKA）での大阪公演も組まれており、2都市2公演のみの開催。",
+      "genres": [
+        "J-POP",
+        "アニバーサリー公演"
+      ],
+      "image_url": null,
+      "source_url": "https://koji50live.jp/",
+      "last_updated": "2026-08-29",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "presale_datetime": "2026-08-25T12:00:00+09:00",
+      "presale_end_datetime": "2026-09-09T23:59:00+09:00",
+      "presale_url": "https://tickets.kyodotokyo.com/koji50/",
+      "general_sale": false,
+      "general_sale_datetime": "2026-09-26T10:00:00+09:00"
+    },
+    {
+      "id": "ja-xaosx-888-the-real-clap-20261109",
+      "name": "XAOSX『888 -THE REAL CLAP-』",
+      "release_date": "2026-11-09",
+      "release_time": "15:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "KT Zepp Yokohama"
+      ],
+      "developer": "XAOSX",
+      "publisher": "XAOSX Project（制作：クリエイティブマンプロダクション）",
+      "description": "福澤侑、spi、YUKI、Daiki、AKIRA TAKANO、阿部顕嵐、皇希、青海伶の8人からなるアーティスト集団XAOSXの初ライブ。「日常にバグを。世界にリアルなノイズを」をテーマに既成概念にとらわれない活動を掲げる彼らが、KT Zepp Yokohamaで昼夜2回公演を行う。1回目は開場14:30・開演15:30、2回目は開場18:00・開演19:00。1Fスタンディング11,500円、2F指定席12,500円（いずれも税込・特典付き・ドリンク代別）で、一般発売は10月17日10時から。",
+      "genres": [
+        "J-POP",
+        "ダンス"
+      ],
+      "image_url": null,
+      "source_url": "https://www.creativeman.co.jp/event/xaosx888/",
+      "last_updated": "2026-08-29",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "general_sale": false,
+      "general_sale_datetime": "2026-10-17T10:00:00+09:00"
+    },
+    {
+      "id": "ja-belle-and-sebastian-tigermilk-tokyo-20260924",
+      "name": "ベル・アンド・セバスチャン 来日公演 -performing “Tigermilk”- 東京",
+      "release_date": "2026-09-24",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "Kanadevia Hall"
+      ],
+      "developer": "BELLE & SEBASTIAN",
+      "publisher": "クリエイティブマンプロダクション",
+      "description": "グラスゴー出身のベル・アンド・セバスチャンが、1996年発表のデビュー作『Tigermilk』のリリース30周年を記念して行う来日公演。この日はアルバムの完全再現に充てられ、公演は2部構成で前半に『Tigermilk』全曲、後半にベスト・ヒットを演奏する内容となる。会場は豊洲のKanadevia Hallで開場18:00・開演19:00。S指定席12,000円、A指定席9,800円（税込・ドリンク代別）。翌25日には同じ会場で『天使のため息』再現公演も組まれている。",
+      "genres": [
+        "インディー・ポップ",
+        "ネオアコ"
+      ],
+      "image_url": null,
+      "source_url": "https://www.creativeman.co.jp/event/belle-sebastian_2026/",
+      "last_updated": "2026-08-29",
+      "last_researched_by": "ja-researcher",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-02-21T10:00:00+09:00",
+      "general_sale_url": "https://eplus.jp/belleandsebastian/"
+    },
+    {
+      "id": "ja-belle-and-sebastian-sinister-tokyo-20260925",
+      "name": "ベル・アンド・セバスチャン 来日公演 -performing “If You’re Feeling Sinister”- 東京",
+      "release_date": "2026-09-25",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "Kanadevia Hall"
+      ],
+      "developer": "BELLE & SEBASTIAN",
+      "publisher": "クリエイティブマンプロダクション",
+      "description": "ベル・アンド・セバスチャンの来日公演のうち、2作目『If You’re Feeling Sinister』（邦題『天使のため息』）の30周年を記念した完全再現公演。前半でアルバムを頭から通して演奏し、後半にキャリアを通じた代表曲を並べる2部構成となる。豊洲のKanadevia Hallで開場18:00・開演19:00、S指定席12,000円／A指定席9,800円（税込・ドリンク代別）。同内容の公演は9月22日に大阪BIGCATでも行われたが、そちらはソールドアウトとなっている。",
+      "genres": [
+        "インディー・ポップ",
+        "ネオアコ"
+      ],
+      "image_url": null,
+      "source_url": "https://www.creativeman.co.jp/event/belle-sebastian_2026/",
+      "last_updated": "2026-08-29",
+      "last_researched_by": "ja-researcher",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-02-21T10:00:00+09:00",
+      "general_sale_url": "https://eplus.jp/belleandsebastian/"
+    },
+    {
+      "id": "ja-art-garfunkel-tokyo-20261201",
+      "name": "アート・ガーファンクル “SHINIER” What a Wonderful World Concerts 東京公演",
+      "release_date": "2026-12-01",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ガーデンシアター"
+      ],
+      "developer": "Art Garfunkel",
+      "publisher": "クリエイティブマンプロダクション",
+      "description": "グラミー賞を8度受賞し「Voice of Generations」と称されるアート・ガーファンクルが、本格的なライブ復帰を果たした2026年に行う日本ツアーの東京公演。サイモン＆ガーファンクル時代の「明日に架ける橋」「サウンド・オブ・サイレンス」「ボクサー」やソロ期の「ブライト・アイズ」「ワンダフル・ワールド」などを軸にした構成が予告されている。開場18:00・開演19:00、S指定席17,500円／A指定席15,000円（税込）。全5公演の日本ツアーの4本目にあたる。",
+      "genres": [
+        "フォーク",
+        "ポップス"
+      ],
+      "image_url": null,
+      "source_url": "https://www.creativeman.co.jp/artist/2026/11artgarfunkel/",
+      "last_updated": "2026-08-29",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "presale_datetime": "2026-08-24T12:00:00+09:00",
+      "presale_end_datetime": "2026-08-31T23:59:00+09:00",
+      "presale_url": "https://l-tike.com/artgarfunkel/",
+      "general_sale": false,
+      "general_sale_datetime": "2026-10-03T10:00:00+09:00"
+    },
+    {
+      "id": "ja-art-garfunkel-osaka-20261204",
+      "name": "アート・ガーファンクル “SHINIER” What a Wonderful World Concerts 大阪公演",
+      "release_date": "2026-12-04",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "オリックス劇場"
+      ],
+      "developer": "Art Garfunkel",
+      "publisher": "クリエイティブマンプロダクション",
+      "description": "アート・ガーファンクルの2026年日本ツアーを締めくくる大阪公演。会場はオリックス劇場で開場18:00・開演19:00、S指定席17,500円／A指定席15,000円（税込）。2025年にテルアビブで5万人規模のステージに立ったことをきっかけに歌い続ける決意を語った彼が、伝説的なバンドを従えたワールドツアーの一環として来日する。京都・三重・群馬・東京に続く5公演目で、問い合わせはキョードーインフォメーションが担当する。",
+      "genres": [
+        "フォーク",
+        "ポップス"
+      ],
+      "image_url": null,
+      "source_url": "https://www.creativeman.co.jp/artist/2026/11artgarfunkel/",
+      "last_updated": "2026-08-29",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "presale_datetime": "2026-08-24T12:00:00+09:00",
+      "presale_end_datetime": "2026-08-31T23:59:00+09:00",
+      "presale_url": "https://l-tike.com/artgarfunkel/",
+      "general_sale": false,
+      "general_sale_datetime": "2026-10-03T10:00:00+09:00"
+    },
+    {
+      "id": "ja-ikoma-rina-15th-fanmeeting-20260823",
+      "name": "生駒ちゃんデビュー15周年記念ファンミーティング",
+      "release_date": "2026-08-23",
+      "release_time": "13:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "fanmeeting",
+      "platforms": [
+        "横浜ランドマークホール"
+      ],
+      "developer": "生駒里奈",
+      "publisher": null,
+      "description": "乃木坂46の1期生としてデビューしてから15年を迎えた生駒里奈の記念ファンミーティングとして、横浜ランドマークホールで昼夜2部制で開催された。昼公演は開場12:00・開演13:00、夜公演は開場17:00・開演18:00という進行で、MCは俳優・演出家の松本寛也が務めた。ゲストは1部に演出家の田邊俊喜、2部に藍染カレンと平川結月が登場している。チケットはイベント・プラットフォームのTIGETで販売された。",
+      "genres": [
+        "ファンミーティング",
+        "アイドル"
+      ],
+      "image_url": null,
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000323.000036931.html",
+      "last_updated": "2026-08-29",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-kubo-yurika-dear-deer-yokohama-20260412",
+      "name": "久保ユリカ ラストライブツアー〈dear deer〉横浜公演",
+      "release_date": "2026-04-12",
+      "release_time": "15:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "横浜ランドマークホール"
+      ],
+      "developer": "久保ユリカ",
+      "publisher": null,
+      "description": "声優アーティストとしての活動に区切りをつける久保ユリカのラストライブツアー〈dear deer〉、その横浜公演として横浜ランドマークホールで開催された。第一部のライブは開場14:30・開演15:00で、久保ユリカとdeer bandが出演。第二部は開場18:30・開演19:00のトーク・パートで、ちゃんこがゲストとして加わった。チケットは特典付き12,650円・通常9,350円、第二部は6,600円（いずれも税込）。ツアーはこのあと奈良・大阪・東京と続いた。",
+      "genres": [
+        "声優アーティスト",
+        "J-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://shikaco.jp/live/20260412_dear-deer/",
+      "last_updated": "2026-08-29",
       "last_researched_by": "ja-researcher"
     }
   ]
