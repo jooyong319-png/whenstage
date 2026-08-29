@@ -1,3 +1,38 @@
+## [2026-08-29 09:41] [JA 리서처]
+리서치 완료 (일본 국내 공연)
+- 콘서트/来日 9→7, 발매 1→1, 페스티벌 2→0, 팬미팅 1→1 (후보→통과)
+- 신규 10개 / 갱신 3개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리 9건 중 3건 등재 (leads.ja.jsonl 미등재분 9건 검토 → ムーンライダーズ 공연·앨범, 山本耕史 50주년 등재)
+- 과거 백필 2개 → **공연장 색인전환 1개**(横浜ランドマークホール 1건→3건) / 기존 공연장 보강 0개
+  - 추가로 예정 공연 트랙에서 Kanadevia Hall이 0→2건이 되어 색인 대상으로 신규 전환됨(ベル・アンド・セバスチャン 2공연)
+- 티켓팅 진행중 57개 (추가 +5 / 해제 -3)
+  - 해제: ja-ryo-takaiwa-spectacular-20260826(8/26 공연 종료), ja-bakufu-slump-zepp-tour-2027-20270909(先行 8/23 마감), ja-motoharu-sano-in-and-out-tokyo-20261105(先行 8/28 마감)
+- description 보강 0개
+- 총 등록 185개
+
+[신규 등재]
+- ムーンライダーズ〈The Winter Super Moon〉 12/1 東京国際フォーラム(ホールC) — CDJournal + konore.com(게스트 본인) 일치
+- ムーンライダーズ『e.d morrison /』 8/26 발매(50주년 기념 앨범)
+- KOJI YAMAMOTO 50th Anniversary Concert 東京 10/31 LINE CUBE SHIBUYA — 공식 사이트 koji50live.jp + ステージナタリー/CDJournal 일치, 主催 Team YAMAMOTO 확인해 publisher 채움
+- XAOSX『888 -THE REAL CLAP-』 11/9 KT Zepp Yokohama — 클리에이티브맨 공식 공연 페이지(1차 소스)
+- ベル・アンド・セバスチャン 来日 9/24·9/25 Kanadevia Hall — 클리에이티브맨 공식 페이지에 일시·요금·플레이가이드 전부 명기
+- アート・ガーファンクル 来日 12/1 東京ガーデンシアター / 12/4 オリックス劇場 — 공식 투어 사이트, 先行 8/24~8/31 진행중·一般発売 10/3 확정
+
+[과거 백필]
+- 生駒ちゃんデビュー15周年記念ファンミーティング 2026-08-23 横浜ランドマークホール — PR TIMES(grabss) + TIGET + eventernote
+- 久保ユリカ ラストライブツアー〈dear deer〉横浜 2026-04-12 横浜ランドマークホール — 공식 사이트 shikaco.jp + lisani.jp
+- ※ 둘 다 이미 등록돼 있던 なるみや 공연(12/25)과 같은 회장이라 1건→3건으로 색인 전환
+
+[검증 탈락]
+- Peter Barakan's Music Film Festival 2026: 음악 영화 상영 이벤트로 라이브 공연이 아님 — 4개 카테고리 어디에도 부합하지 않아 제외
+- Bimi「Bimi Live Galley Tour 2026」: 会場 미발표(동명 지역만 공개) — platforms[0]를 확정할 수 없어 보류
+- THE& STARTOURS～Earth～: 전국 9도시 10공연이나 개별 회차의 날짜·회장 대응표를 공식 소스에서 확정하지 못함 — 다음 사이클 재확인
+- 〈2人ピーズ×2人暴動クラブ〉 11/20 幡ヶ谷 club HEAVY SICK: 정원 80명 소규모, 독립 2차 출처 미확보
+- 「ULTRA祭り2026」(ULTRA SHIBUYA): 16일간 레코드숍 기획 이벤트로 개최일이 분산되어 있고 festival 스키마의 단일 개최일·라인업으로 정리하기 어려움 — 보류
+- "MOUNTAIN HIGH" BAREBONES 11/7 新代田FEVER: CDJournal 외 독립 출처 미확보
+- 山本耕史 大阪公演(10/24 ZEPP NAMBA): 데이터는 확정됐으나 1건짜리 공연장 페이지 신설을 피하기 위해 이번 사이클은 東京公演 description에 병기하는 것으로 대체
+- ベル・アンド・セバスチャン 大阪(9/22 BIGCAT): 동일 사유(BIGCAT은 platforms[0]로 쓰인 전례 없음) + SOLD OUT — description에 병기
+
 ## [2026-08-28 14:35] [EN 뉴스]
 뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
 - 신규 기사 6건:
