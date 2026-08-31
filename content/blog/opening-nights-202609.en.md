@@ -3,6 +3,7 @@ title: "Opening Night, Over and Over: The First Three Weeks of September 2026"
 description: Nine tours, one new venue and a farewell all play their first date between September 1 and 18 — Charli xcx, BIGBANG, Ministry, Erykah Badu and more.
 date: 2026-08-28
 tags: [release picks, september, opening night, tours]
+keyword: tour
 ---
 
 Most concert calendars are read as a list of nights out. Read the first eighteen days of September 2026 instead as a list of *first* nights and something odd shows up: almost nothing in this stretch is a tour passing through. Nearly everything is a tour starting. A dance-punk trio opens a North American leg, a Memphis band opens an entire building, an industrial metal band opens the last run it will ever play, and a K-pop group that had not toured together since 2017 opens two stadium dates on a continent it mostly skipped. Here is what lands, in order, and why the openers are the interesting part.

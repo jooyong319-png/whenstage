@@ -3,6 +3,7 @@ title: "Reading Los Angeles by the Room: A Fall 2026 Venue Guide"
 description: The Hollywood Bowl, SoFi, Dodger Stadium, the Orpheum and the Wiltern each get a very different kind of night between September 2026 and January 2027.
 date: 2026-08-25
 tags: [thematic, los angeles, venues, fall 2026]
+keyword: stadium
 ---
 
 Most cities have a concert season. Los Angeles has something closer to a rotation. There is no single festival weekend that defines the fall here and no one arena that everything routes through — instead, between the end of September 2026 and the second week of January 2027, roughly a dozen significant shows land, and the fastest way to make sense of them is not by genre or by month but by the room each one chose.
