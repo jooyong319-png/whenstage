@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-27",
+  "last_updated": "2026-08-31",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -2381,6 +2381,36 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-shinwonho-super-star-20260902",
+      "name": "신원호(크로스진) 싱글 'Super Star'",
+      "release_date": "2026-09-02",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "신원호(크로스진)",
+      "publisher": "아뮤즈엔터테인먼트",
+      "description": "크로스진 신원호가 9월 2일 오후 6시 새 싱글 'Super Star'를 발매한다. 지난 3월 미니 1집 'ONE' 이후 약 6개월 만의 솔로 컴백이다. 소속사 아뮤즈엔터테인먼트는 바가지 머리와 트레이닝 셋업 등 복고풍 스타일링을 앞세운 콘셉트 포토를 공개하며 기존과는 다른 변신을 예고했다. 한층 가볍고 유쾌한 분위기의 곡으로, 위트 있는 콘셉트가 함께 준비됐다.",
+      "genres": [
+        "K-POP",
+        "컴백",
+        "솔로"
+      ],
+      "image_url": null,
+      "source_url": "https://www.tenasia.co.kr/article/2026082519204",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-31",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-unchild-tingting-20260902",
       "name": "언차일드(UNCHILD) 디지털 싱글 'TiNG TiNG'",
       "release_date": "2026-09-02",
@@ -2399,6 +2429,35 @@
       "image_url": null,
       "source_url": "https://sports.khan.co.kr/article/202608192100003/",
       "last_updated": "2026-08-20",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-plave-flame-milet-20260903",
+      "name": "플레이브 디지털 싱글 '플레임 (feat. milet)'",
+      "release_date": "2026-09-03",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "플레이브(PLAVE)",
+      "publisher": null,
+      "description": "플레이브가 9월 3일 오후 6시 디지털 싱글 '플레임(Flame) (feat. milet)'을 공개한다. 일본 싱어송라이터 미레이가 작사에, 플레이브가 작곡에 참여한 협업곡으로 플레이브가 일본 아티스트와 처음 호흡을 맞춘 음원이다. 지난해 6월 일본 데뷔 싱글 '카쿠렌보(かくれんぼ)' 이후 약 1년 2개월 만에 선보이는 일본 오리지널 곡이기도 하다. 월드투어 개막 직후 공개되는 신곡이라 관심이 모인다.",
+      "genres": [
+        "K-POP",
+        "컴백"
+      ],
+      "image_url": null,
+      "source_url": "https://isplus.com/article/view/isp202608270013",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-31",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -2636,6 +2695,28 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-soyeon-solo-comeback-20260910",
+      "name": "소연((여자)아이들) 첫 솔로 정규 1집 '끝내주는 인생'",
+      "release_date": "2026-09-07",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "소연((여자)아이들)",
+      "publisher": "큐브엔터테인먼트",
+      "description": "(여자)아이들 소연이 9월 7일 오후 6시 첫 솔로 정규 1집 '끝내주는 인생'을 발매한다. 2021년 7월 첫 솔로 미니앨범 'Windy' 이후 5년 2개월 만의 솔로 컴백이자 데뷔 후 첫 정규앨범이다. 타이틀곡은 '퇴사할게여'로 방송인 기안84가 내레이션에 참여했다. 앨범에는 'icebluerabbit', 'STAR', '야채 싫어 송', 'Amigo', '뱅크롤', '낭만 보내기' 등 다양한 장르의 곡이 수록됐다.",
+      "genres": [
+        "K-POP",
+        "컴백",
+        "솔로"
+      ],
+      "image_url": null,
+      "source_url": "https://isplus.com/article/view/isp202608260023",
+      "last_updated": "2026-08-31",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-and-team-mark-on-me-20260908",
       "name": "앤팀(&TEAM) 한국 미니 2집 'Mark on Me'",
       "release_date": "2026-09-08",
@@ -2697,28 +2778,6 @@
       ],
       "image_url": null,
       "source_url": "https://sports.khan.co.kr/article/202608151010003",
-      "last_updated": "2026-08-20",
-      "last_researched_by": "ko-researcher"
-    },
-    {
-      "id": "ko-soyeon-solo-comeback-20260910",
-      "name": "소연((여자)아이들) 솔로 신보 (9월 초 컴백)",
-      "release_date": "2026-09-10",
-      "release_time": null,
-      "release_date_approx": true,
-      "timezone": "Asia/Seoul",
-      "category": "music_release",
-      "platforms": [],
-      "developer": "소연((여자)아이들)",
-      "publisher": "큐브엔터테인먼트",
-      "description": "(여자)아이들 리더 소연이 9월 초 솔로 신보를 발매한다. 소속사 큐브엔터테인먼트가 8월 19일 컴백 사실을 공식화했으며, 2021년 7월 첫 솔로 미니앨범 'Windy' 이후 5년 2개월 만의 솔로 활동이다. 소연은 'TOMBOY', 'Nxde', '퀸카(Queencard)' 등 팀의 대표곡 작업을 주도해 온 프로듀서형 아티스트다. 구체적인 발매일과 앨범명은 아직 공개되지 않아 9월 10일을 임시 날짜로 표기했다.",
-      "genres": [
-        "K-POP",
-        "컴백",
-        "솔로"
-      ],
-      "image_url": null,
-      "source_url": "https://www.tenasia.co.kr/article/2026081993244",
       "last_updated": "2026-08-20",
       "last_researched_by": "ko-researcher"
     },
@@ -2866,6 +2925,38 @@
       "presale": false,
       "general_sale": false,
       "last_updated": "2026-08-13",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-plave-keep-it-manic-incheon-20260912",
+      "name": "2026 PLAVE World Tour [KEEP IT MANIC] in Incheon",
+      "release_date": "2026-09-12",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "인천문학경기장(주경기장)"
+      ],
+      "developer": "플레이브(PLAVE)",
+      "publisher": null,
+      "description": "버추얼 아이돌 그룹 플레이브가 첫 월드투어 'KEEP IT MANIC'의 막을 인천에서 연다. 9월 12일과 13일 이틀간 인천문학경기장 주경기장에서 공연이 열리며, 버추얼 아이돌로는 처음으로 이 경기장에 입성하게 됐다. 티켓은 VIP석 19만8000원, R석 15만4000원, S석 13만2000원이고 만 12세 이상 관람가다. 예매는 NOL 티켓에서 6월 17일 팬클럽 선예매, 6월 19일 일반 예매로 진행됐다. 인천에 이어 가나가와, 방콕 등 해외 도시로 투어가 이어진다.",
+      "genres": [
+        "K-POP",
+        "콘서트",
+        "월드투어"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26008189_p.gif",
+      "source_url": "https://www.starnewskorea.com/music/2026/06/15/2026061514220927038",
+      "presale": false,
+      "presale_datetime": "2026-06-17T20:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": "2026-06-19T19:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://nol.yanolja.com/ticket/products/26008189",
+      "last_updated": "2026-08-31",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -3230,6 +3321,36 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-minzy-new-single-20260928",
+      "name": "공민지 신곡 (9월 28일 발매)",
+      "release_date": "2026-09-28",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "공민지",
+      "publisher": null,
+      "description": "투애니원 출신 공민지가 9월 28일 새 곡과 뮤직비디오를 공개한다. 진한 감성의 소울풀 R&B 장르로, 공민지가 프로듀싱은 물론 작사·작곡까지 제작 전반을 직접 주도했다. 8월 25일 공식 홈페이지를 개편하고 새 로고와 프로필 이미지를 공개하며 컴백 카운트다운에 들어갔다. 소속사는 이번 신곡이 이전과 확연히 달라진 모습을 담은 새로운 챕터가 될 것이라고 예고했다. 곡명과 상세 트랙 정보는 아직 공개되지 않았다.",
+      "genres": [
+        "K-POP",
+        "R&B",
+        "솔로"
+      ],
+      "image_url": null,
+      "source_url": "https://isplus.com/article/view/isp202608250037",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-31",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-closeyoureyes-comeback-20260930",
       "name": "클로즈 유어 아이즈 새 앨범 (9월 말 컴백)",
       "release_date": "2026-09-30",
@@ -3353,6 +3474,38 @@
       "general_sale_datetime": "2026-08-11T20:00:00+09:00",
       "general_sale_url": null,
       "last_updated": "2026-08-24",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-choiyuree-stay-seoul-20261003",
+      "name": "［서울］ 최유리 콘서트 2026 : 머무름",
+      "release_date": "2026-10-03",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "장충체육관"
+      ],
+      "developer": "최유리",
+      "publisher": "딜라잇컴퍼니",
+      "description": "싱어송라이터 최유리가 2026년 전국투어 '머무름'의 서울 공연을 연다. 10월 3일과 4일 이틀 모두 오후 6시에 서울 장충체육관에서 열리며 초등학생 이상 관람가다. 서울에 이어 11월 7일과 8일 부산 벡스코 오디토리움, 11월 14일 대구 엑스코 오디토리움으로 투어가 이어진다. 주최·제작은 Nave와 딜라잇컴퍼니가 맡았고, 티켓은 9월 1일 오후 6시 NOL 티켓에서 단독으로 열리며 회차당 1인 2매로 제한된다.",
+      "genres": [
+        "발라드",
+        "인디",
+        "단독공연"
+      ],
+      "image_url": null,
+      "source_url": "https://tickets.interpark.com/contents/notice/detail/15018",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-01T18:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-31",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -3483,6 +3636,38 @@
       "image_url": null,
       "source_url": "https://x.com/Atlus_korea/status/2079038893941239912",
       "last_updated": "2026-07-25",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-sandeul-baramgyeol-seoul-20261003",
+      "name": "2026 산들 단독 콘서트 〈바람결〉",
+      "release_date": "2026-10-03",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "블루스퀘어(우리WON뱅킹홀)"
+      ],
+      "developer": "산들(비원에이포)",
+      "publisher": null,
+      "description": "비원에이포 산들이 단독 콘서트 〈바람결〉을 연다. 10월 3일 오후 6시와 4일 오후 5시 이틀간 두 차례 서울 블루스퀘어 우리WON뱅킹홀에서 열리며, 인터미션 없이 약 120분간 진행되고 만 7세 이상 관람가다. 티켓은 전석 15만4000원이다. 팬클럽 선예매는 공식 팬클럽 '바나(BANA) 9기' 멤버십 인증을 마친 팬을 대상으로 9월 3일 오후 8시에 열리며, 일반 예매는 9월 8일 오후 8시 NOL 티켓에서 시작된다.",
+      "genres": [
+        "K-POP",
+        "발라드",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://tickets.interpark.com/contents/notice/detail/15070",
+      "presale": true,
+      "presale_datetime": "2026-09-03T20:00:00+09:00",
+      "presale_end_datetime": "2026-09-07T23:59:00+09:00",
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-08T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-31",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -3674,6 +3859,37 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-jx-core-incheon-20261009",
+      "name": "JX 2026 TOUR CONCERT 〈CORE〉 in INCHEON",
+      "release_date": "2026-10-09",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "인스파이어 아레나"
+      ],
+      "developer": "JX",
+      "publisher": null,
+      "description": "JX가 2026 투어 콘서트 〈CORE〉의 인천 공연을 연다. 10월 9일 오후 6시, 10일과 11일 오후 5시 총 세 차례 인천 인스파이어 아레나에서 전석 지정좌석제로 열리며 8세 이상 관람가다. 티켓은 VIP석 19만8000원, R석 16만5000원이고 VIP석 관객은 본 공연에 앞서 진행되는 사운드체크 이벤트에 참석할 수 있다. NOL 티켓 단독 판매로 멤버십 선예매는 9월 10일 오후 8시, 일반 예매는 9월 11일 오후 8시에 시작된다.",
+      "genres": [
+        "K-POP",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://tickets.interpark.com/contents/notice/detail/15045",
+      "presale": true,
+      "presale_datetime": "2026-09-10T20:00:00+09:00",
+      "presale_end_datetime": "2026-09-10T23:59:00+09:00",
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-11T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-31",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-leechangsub-unknown-seoul-20261009",
       "name": "2026 이창섭 단독 콘서트 'Unknown'",
       "release_date": "2026-10-09",
@@ -3703,6 +3919,69 @@
       "general_sale_end_datetime": null,
       "general_sale_url": null,
       "last_updated": "2026-08-17",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-pentagon-101010-seoul-20261009",
+      "name": "PENTAGON 10th Anniversary Tour 〈101010〉 in Seoul",
+      "release_date": "2026-10-09",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "블루스퀘어(우리WON뱅킹홀)"
+      ],
+      "developer": "펜타곤(PENTAGON)",
+      "publisher": null,
+      "description": "펜타곤이 데뷔 10주년을 기념하는 투어 〈101010〉의 서울 공연을 연다. 10월 9일 오후 7시와 10일 오후 6시 30분 두 차례 서울 블루스퀘어 우리WON뱅킹홀에서 열리며, 관람 시간은 약 100분, 만 8세 이상 관람가로 진행된다. 티켓은 VIP석 18만7000원, 일반석 14만3000원으로 책정됐다. NOL 티켓 단독 판매이며 일반 예매는 9월 8일 오후 8시에 시작된다.",
+      "genres": [
+        "K-POP",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://tickets.interpark.com/contents/notice/detail/14868",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-08T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-31",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-yosea-asia-tour-seoul-20261009",
+      "name": "요우시 내한공연 (Yo-Sea Asia Tour 2026 - Minimum Band Set)",
+      "release_date": "2026-10-09",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KT&G 상상마당 홍대(라이브홀)"
+      ],
+      "developer": "요우시(Yo-Sea)",
+      "publisher": null,
+      "description": "오키나와 출신 싱어송라이터 요우시(Yo-Sea)가 첫 아시아 투어의 서울 공연을 연다. 10월 9일 오후 7시 서울 KT&G 상상마당 홍대 라이브홀에서 미니멈 밴드 세트로 약 90분간 진행되며, 전석 스탠딩 8만8000원에 미취학 아동은 입장할 수 없다. 2018년 데뷔한 그는 일본 최대 규모 힙합 페스티벌 'POP YOURS'에 2023년부터 3년 연속 출연했고 올해는 후지 록 페스티벌 무대에도 올랐다. 일반 예매는 9월 3일 오후 6시 NOL 티켓에서 시작된다.",
+      "genres": [
+        "R&B",
+        "힙합",
+        "내한공연"
+      ],
+      "image_url": null,
+      "source_url": "https://tickets.interpark.com/contents/notice/detail/15064",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-03T18:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-31",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -3761,6 +4040,37 @@
       "general_sale_url": "https://tickets.interpark.com/goods/26005759"
     },
     {
+      "id": "ko-hwangminhyun-dowongyeong-seoul-20261016",
+      "name": "2026 황민현 팬미팅 [도원경] - 서울",
+      "release_date": "2026-10-16",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "코엑스아티움(우리은행홀)"
+      ],
+      "developer": "황민현",
+      "publisher": "플레디스엔터테인먼트",
+      "description": "황민현이 서울에서 2026 팬미팅 [도원경]을 연다. 10월 16일 오후 8시, 17일 오후 6시, 18일 오후 5시 총 세 차례 서울 코엑스아티움 우리은행홀에서 진행되며 만 9세 이상 관람가다. 티켓은 전석 11만원으로 NOL 티켓에서 단독 판매되고, 선예매는 9월 9일 오후 8시, 일반 예매는 9월 11일 오후 7시에 열린다. 주최·주관은 플레디스엔터테인먼트, 제작·운영은 치타컴퍼니가 맡는다.",
+      "genres": [
+        "K-POP",
+        "팬미팅"
+      ],
+      "image_url": null,
+      "source_url": "https://tickets.interpark.com/contents/notice/detail/15002",
+      "presale": true,
+      "presale_datetime": "2026-09-09T20:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-11T19:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-31",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-gmf-2026-20261017",
       "name": "그랜드 민트 페스티벌 2026 (GMF 2026)",
       "release_date": "2026-10-17",
@@ -3799,6 +4109,37 @@
       ],
       "general_sale": true,
       "general_sale_url": "https://tickets.interpark.com/goods/26010721"
+    },
+    {
+      "id": "ko-kimdongryul-old-song-seoul-20261017",
+      "name": "2026 김동률 콘서트 '오래된 노래'",
+      "release_date": "2026-10-17",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "세종문화회관(대극장)"
+      ],
+      "developer": "김동률",
+      "publisher": null,
+      "description": "김동률이 7년 만에 서울 세종문화회관 대극장 무대로 돌아온다. '2026 김동률 콘서트 오래된 노래'는 10월 17일부터 19일까지, 그리고 22일부터 25일까지 총 일곱 차례 열린다. 김동률이 8월 25일 직접 개최를 알렸으며, 전람회 시절을 포함해 데뷔 이후 처음으로 오케스트라 없이 꾸리는 공연이라는 점에서 주목받고 있다. 티켓은 9월 4일 오후 5시 NOL 티켓과 세종문화회관에서 동시에 열린다.",
+      "genres": [
+        "발라드",
+        "단독공연"
+      ],
+      "image_url": null,
+      "source_url": "https://tickets.interpark.com/contents/notice/detail/15075",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-04T17:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-31",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-lucy-island-encore-seoul-20261023",
@@ -3877,6 +4218,69 @@
       "general_sale_datetime": "2026-07-21T12:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": null
+    },
+    {
+      "id": "ko-kimjaehwan-yeoback-seoul-20261031",
+      "name": "2026 김재환 콘서트 [여백:餘白]",
+      "release_date": "2026-10-31",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "블루스퀘어(우리WON뱅킹홀)"
+      ],
+      "developer": "김재환",
+      "publisher": null,
+      "description": "김재환이 단독 콘서트 [여백:餘白]을 연다. 10월 31일 오후 6시와 11월 1일 오후 5시 이틀에 걸쳐 두 차례 서울 블루스퀘어 우리WON뱅킹홀에서 열리며 7세 이상 관람가다. 티켓은 전석 15만4000원으로 NOL 티켓에서 단독 판매되고, 회차당 1인 4매까지 구매할 수 있다. 팬클럽 선예매는 9월 8일 오후 8시, 일반 예매는 9월 9일 오후 8시에 열린다.",
+      "genres": [
+        "K-POP",
+        "발라드",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://tickets.interpark.com/contents/notice/detail/15060",
+      "presale": true,
+      "presale_datetime": "2026-09-08T20:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-09T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-31",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-ko1keyz-1st-fanmeeting-seoul-20261107",
+      "name": "2026 KO1KEYZ 1ST FAN MEETING IN SEOUL",
+      "release_date": "2026-11-07",
+      "release_time": "14:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "블루스퀘어(우리WON뱅킹홀)"
+      ],
+      "developer": "KO1KEYZ",
+      "publisher": null,
+      "description": "KO1KEYZ가 첫 서울 팬미팅을 연다. 11월 7일 오후 2시와 오후 7시, 8일 오후 2시 총 세 차례 서울 블루스퀘어 우리WON뱅킹홀에서 진행되며 만 7세 이상 관람가다. 티켓은 전석 11만8000원으로 NOL 티켓에서 단독 판매되고, 팬클럽 선예매는 회차당 1인 2매, 일반 예매는 회차당 1인 4매로 제한된다. 팬클럽 선예매는 9월 2일 오후 8시, 일반 예매는 9월 3일 오후 8시에 열린다.",
+      "genres": [
+        "K-POP",
+        "팬미팅"
+      ],
+      "image_url": null,
+      "source_url": "https://tickets.interpark.com/contents/notice/detail/14922",
+      "presale": true,
+      "presale_datetime": "2026-09-02T20:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-03T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-31",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-5sos-everyones-a-star-seoul-20261119",
@@ -4086,6 +4490,38 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-wavetoearth-seoul-20261219",
+      "name": "웨이브투어스(wave to earth) 서울 단독 콘서트",
+      "release_date": "2026-12-19",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "고려대학교 화정체육관"
+      ],
+      "developer": "웨이브투어스(wave to earth)",
+      "publisher": "웨이비인터내셔널",
+      "description": "웨이브투어스(wave to earth)가 연말 서울 단독 콘서트를 연다. 12월 19일 오후 6시와 20일 오후 5시 이틀간 서울 고려대학교 화정체육관에서 열리며, 관람 시간은 약 120분, 만 11세 이상 관람가다. 티켓은 스탠딩석 13만2000원, 지정석 14만3000원으로 책정됐다. 주최·주관은 웨이비인터내셔널과 놀유니버스가 맡고, 일반 예매는 9월 1일 낮 12시 NOL 티켓에서 시작된다.",
+      "genres": [
+        "인디",
+        "밴드",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://tickets.interpark.com/contents/notice/detail/15078",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-01T12:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-31",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-mumyeongjeonseol-busan-encore-20261231",
       "name": "2026 무명전설 전국투어 콘서트 - 부산 앵콜",
       "release_date": "2026-12-31",
@@ -4146,6 +4582,38 @@
       "general_sale_end_datetime": null,
       "general_sale_url": null,
       "last_updated": "2026-08-20",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-bruno-mars-the-romantic-goyang-20270521",
+      "name": "브루노 마스 내한공연 (Bruno Mars - The Romantic Tour)",
+      "release_date": "2027-05-21",
+      "release_time": "19:45",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "고양종합운동장(주경기장)"
+      ],
+      "developer": "브루노 마스(Bruno Mars)",
+      "publisher": "라이브네이션코리아",
+      "description": "브루노 마스가 2027년 5월 경기 고양종합운동장 주경기장에서 단독 내한공연을 연다. 네 번째 정규 앨범 [The Romantic]과 함께 도는 'The Romantic Tour'의 한국 일정으로, 5월 21일과 22일, 25일과 26일 총 네 차례 오후 7시 45분에 무대에 오른다. 2023년 잠실종합운동장 주경기장 공연 이후 약 4년 만의 내한이며, 실크 소닉으로 호흡을 맞춰 온 앤더슨 팩이 DJ 피위라는 이름으로 스페셜 게스트로 함께한다. 주최·주관은 라이브네이션코리아이고, 아티스트·라이브네이션 선예매는 9월 11일 낮 12시, 일반 예매는 9월 14일 낮 12시에 열린다.",
+      "genres": [
+        "팝",
+        "내한",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://tickets.interpark.com/contents/notice/detail/15051",
+      "presale": true,
+      "presale_datetime": "2026-09-11T12:00:00+09:00",
+      "presale_end_datetime": "2026-09-11T14:59:00+09:00",
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-14T12:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-08-31",
       "last_researched_by": "ko-researcher"
     }
   ]
