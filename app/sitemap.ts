@@ -24,6 +24,8 @@ type LastmodSource = 'games' | 'news' | 'blog' | 'none';
 const STATIC_PAGES: { path: (lang: Locale) => string; changeFrequency: 'daily' | 'monthly' | 'yearly'; priority: number; source: LastmodSource }[] = [
   { path: lang => `/${lang}`, changeFrequency: 'daily', priority: 0.9, source: 'games' },
   { path: lang => `/${lang}/news`, changeFrequency: 'daily', priority: 0.7, source: 'news' },
+  // 공연 목록 — 상세 페이지로 가는 크롤 경로이자 "9월 콘서트" 같은 검색을 받는다
+  { path: lang => `/${lang}/concert`, changeFrequency: 'daily', priority: 0.7, source: 'games' },
   { path: lang => `/${lang}/artist`, changeFrequency: 'daily', priority: 0.65, source: 'games' },
   { path: lang => `/${lang}/venue`, changeFrequency: 'daily', priority: 0.6, source: 'games' },
   { path: lang => `/${lang}/blog`, changeFrequency: 'daily', priority: 0.65, source: 'blog' },

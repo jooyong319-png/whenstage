@@ -98,6 +98,9 @@
 .cellOther { opacity: 0.55; }  /* 인접월 날짜 — 너무 흐리면 WCAG 대비 미달(0.3→0.55) */
 /* 인접월은 주말 색(빨강/파랑) 대신 중립색 — dim과 겹치면 빨강이 대비 미달이라 */
 .cellOther .cellDate.sun, .cellOther .cellDate.sat { color: var(--text); }
+/* "+3" 표시도 같은 이유로 본문 색을 쓴다. faint 색에 opacity 0.55가 겹치면 대비가
+   3.02까지 떨어지는데, 9.3px 작은 글씨는 4.5:1이 필요하다(2026-09-01 axe). */
+.cellOther .cellDotMore { color: var(--text); }
 .cellSelected { background: var(--bg-elev); }
 
 .cellDate {

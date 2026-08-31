@@ -1,0 +1,55 @@
+/* 공연 일정 목록 — 달력처럼 훑다가 자기 달에서 멈추는 읽기 방식을 전제로 짰다. */
+
+.month { margin-top: 2rem; }
+.past { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--rule, rgba(255,255,255,.12)); }
+
+.monthTitle {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--rule, rgba(255,255,255,.12));
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+.monthCount {
+  font-size: 0.78rem;
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+.list { list-style: none; padding: 0; margin: 0; }
+
+.row + .row { border-top: 1px solid var(--rule, rgba(255,255,255,.08)); }
+
+.link {
+  display: grid;
+  grid-template-columns: 3.2rem 1fr auto;
+  align-items: baseline;
+  gap: 0.2rem 0.8rem;
+  padding: 0.7rem 0.4rem;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 6px;
+}
+.link:hover { background: rgba(127, 127, 127, 0.08); }
+.link:focus-visible { outline: 2px solid currentColor; outline-offset: -2px; }
+
+.date { font-size: 0.86rem; opacity: 0.7; white-space: nowrap; }
+
+.body { display: flex; flex-direction: column; gap: 0.1rem; min-width: 0; }
+.name { font-weight: 600; line-height: 1.45; }
+.artist { font-size: 0.82rem; opacity: 0.65; }
+
+.cat {
+  font-size: 0.74rem;
+  opacity: 0.6;
+  white-space: nowrap;
+}
+
+/* 좁은 화면에서는 분류를 접는다 — 날짜와 이름이 먼저다 */
+@media (max-width: 30rem) {
+  .link { grid-template-columns: 2.9rem 1fr; }
+  .cat { grid-column: 2; opacity: 0.5; }
+}

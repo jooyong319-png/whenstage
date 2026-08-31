@@ -46,6 +46,15 @@ interface UiStrings {
   news: string;
   blog: string;
   artist: string;
+  concertListTitle: string;
+  concertListSubtitle: string;
+  concertListMetaTitle: string;
+  concertListMetaDescription: string;
+  concertListPast: string;
+  concertListEmpty: string;
+  /** 월 제목 — "2026년 9월" 처럼 로케일 어순으로 만든다 */
+  monthLabel: (year: number, month: number) => string;
+
   artistListTitle: string;
   artistListSubtitle: string;
   /** 검색 결과용 제목·설명. 화면 제목("아티스트")은 짧아야 읽히지만 그대로 검색에
@@ -103,6 +112,14 @@ export const UI: Record<Locale, UiStrings> = {
     news: '뉴스',
     blog: '모아보기',
     artist: '아티스트',
+    concertListTitle: '공연 일정',
+    concertListSubtitle: '다가오는 콘서트·페스티벌·팬미팅을 달별로 모았어요.',
+    concertListMetaTitle: '이번 달 콘서트·페스티벌 일정',
+    concertListMetaDescription:
+      '다가오는 콘서트, 페스티벌, 팬미팅, 컴백 일정을 달별로 정리했습니다. 공연일과 티켓 오픈 시각을 한눈에 확인하세요.',
+    concertListPast: '지난 일정',
+    concertListEmpty: '예정된 일정이 없어요.',
+    monthLabel: (y, m) => `${y}년 ${m}월`,
     artistListTitle: '아티스트',
     artistListSubtitle: '아티스트별로 발매·투어·팬미팅 일정을 모아봤어요.',
     artistListMetaTitle: '아티스트별 컴백·투어 일정',
@@ -158,6 +175,15 @@ export const UI: Record<Locale, UiStrings> = {
     news: 'News',
     blog: 'Roundups',
     artist: 'Artists',
+    concertListTitle: 'Schedule',
+    concertListSubtitle: 'Upcoming concerts, festivals and fan meetings, month by month.',
+    concertListMetaTitle: 'Concert & Festival Schedule by Month',
+    concertListMetaDescription:
+      'Upcoming concerts, festivals, fan meetings and album releases, organized by month. See show dates and ticket on-sale times in one place.',
+    concertListPast: 'Past events',
+    concertListEmpty: 'No upcoming events.',
+    monthLabel: (y, m) => new Date(Date.UTC(y, m - 1, 1))
+      .toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' }),
     artistListTitle: 'Artists',
     artistListSubtitle: 'Releases, tours, and fan meetings, grouped by artist.',
     artistListMetaTitle: 'Artist Tour & Comeback Schedules',
@@ -213,6 +239,14 @@ export const UI: Record<Locale, UiStrings> = {
     news: 'ニュース',
     blog: 'まとめ記事',
     artist: 'アーティスト',
+    concertListTitle: '公演スケジュール',
+    concertListSubtitle: '今後のコンサート・フェス・ファンミーティングを月ごとにまとめました。',
+    concertListMetaTitle: '月別 コンサート・フェス日程',
+    concertListMetaDescription:
+      '今後のコンサート、フェス、ファンミーティング、カムバックの日程を月ごとに整理しました。公演日とチケット販売開始時刻を一目で確認できます。',
+    concertListPast: '過去の公演',
+    concertListEmpty: '予定されている公演はありません。',
+    monthLabel: (y, m) => `${y}年${m}月`,
     artistListTitle: 'アーティスト',
     artistListSubtitle: 'アーティストごとに発売・ツアー・ファンミーティング情報をまとめました。',
     artistListMetaTitle: 'アーティスト別 カムバック・ツアー日程',
