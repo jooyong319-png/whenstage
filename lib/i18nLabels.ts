@@ -48,6 +48,10 @@ interface UiStrings {
   artist: string;
   artistListTitle: string;
   artistListSubtitle: string;
+  /** 검색 결과용 제목·설명. 화면 제목("아티스트")은 짧아야 읽히지만 그대로 검색에
+   *  내보내면 아무도 그렇게 검색하지 않는다. 그래서 둘을 나눈다. */
+  artistListMetaTitle: string;
+  artistListMetaDescription: string;
   artistUpcomingCount: string;
   artistNoEvents: string;
   bioAgency: string;
@@ -57,6 +61,8 @@ interface UiStrings {
   venue: string;
   venueListTitle: string;
   venueListSubtitle: string;
+  venueListMetaTitle: string;
+  venueListMetaDescription: string;
   releaseDate: string;
   platforms: string;
   genres: string;
@@ -99,6 +105,9 @@ export const UI: Record<Locale, UiStrings> = {
     artist: '아티스트',
     artistListTitle: '아티스트',
     artistListSubtitle: '아티스트별로 발매·투어·팬미팅 일정을 모아봤어요.',
+    artistListMetaTitle: '아티스트별 컴백·투어 일정',
+    artistListMetaDescription:
+      '아이돌·밴드·솔로 아티스트의 컴백, 콘서트, 팬미팅 일정을 한 곳에 모았습니다. 아티스트 이름으로 찾아 날짜와 티켓 오픈 시각을 확인하세요.',
     artistUpcomingCount: '개 예정',
     artistNoEvents: '등록된 일정이 없어요.',
     bioAgency: '소속사',
@@ -108,6 +117,9 @@ export const UI: Record<Locale, UiStrings> = {
     venue: '공연장',
     venueListTitle: '공연장',
     venueListSubtitle: '공연장별로 열리는 콘서트·페스티벌·팬미팅 일정을 모아봤어요.',
+    venueListMetaTitle: '공연장별 콘서트·페스티벌 일정',
+    venueListMetaDescription:
+      '고척돔·올림픽공원·블루스퀘어 등 공연장별로 열리는 콘서트와 페스티벌 일정입니다. 가려는 공연장을 골라 날짜와 라인업을 확인하세요.',
     releaseDate: '일정',
     platforms: '공연장',
     genres: '태그',
@@ -148,6 +160,9 @@ export const UI: Record<Locale, UiStrings> = {
     artist: 'Artists',
     artistListTitle: 'Artists',
     artistListSubtitle: 'Releases, tours, and fan meetings, grouped by artist.',
+    artistListMetaTitle: 'Artist Tour & Comeback Schedules',
+    artistListMetaDescription:
+      'Tour dates, album releases and fan meetings for K-pop groups, bands and solo artists. Find an artist to see show dates and ticket on-sale times.',
     artistUpcomingCount: ' upcoming',
     artistNoEvents: 'No scheduled events.',
     bioAgency: 'Agency',
@@ -157,6 +172,9 @@ export const UI: Record<Locale, UiStrings> = {
     venue: 'Venues',
     venueListTitle: 'Venues',
     venueListSubtitle: 'Concerts, festivals, and fan meetings, grouped by venue.',
+    venueListMetaTitle: 'Concert & Festival Schedules by Venue',
+    venueListMetaDescription:
+      'Upcoming concerts and festivals at arenas, theaters and clubs. Pick a venue to see its full lineup with dates and ticket on-sale times.',
     releaseDate: 'Date',
     platforms: 'Venue',
     genres: 'Tags',
@@ -197,6 +215,9 @@ export const UI: Record<Locale, UiStrings> = {
     artist: 'アーティスト',
     artistListTitle: 'アーティスト',
     artistListSubtitle: 'アーティストごとに発売・ツアー・ファンミーティング情報をまとめました。',
+    artistListMetaTitle: 'アーティスト別 カムバック・ツアー日程',
+    artistListMetaDescription:
+      'アイドル・バンド・ソロアーティストのカムバック、コンサート、ファンミーティングの日程をまとめました。アーティスト名から公演日とチケット販売開始時刻を確認できます。',
     artistUpcomingCount: '件予定',
     artistNoEvents: '登録された日程はありません。',
     bioAgency: '所属',
@@ -206,6 +227,9 @@ export const UI: Record<Locale, UiStrings> = {
     venue: '会場',
     venueListTitle: '会場',
     venueListSubtitle: '会場ごとにコンサート・フェス・ファンミーティング情報をまとめました。',
+    venueListMetaTitle: '会場別 コンサート・フェス日程',
+    venueListMetaDescription:
+      'アリーナ・ホール・ライブハウスなど会場ごとの公演日程です。行きたい会場を選んで、日程とラインナップを確認できます。',
     releaseDate: '日程',
     platforms: '会場',
     genres: 'タグ',

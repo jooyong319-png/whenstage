@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getAllVenues, getVenueBySlug, isVenueIndexable } from '@/lib/venues';
+import { getAllVenues, getVenueBySlug, isVenueIndexable, venueDescription } from '@/lib/venues';
 import { PageShell } from '@/components/PageShell';
 import { EventList } from '@/components/EventList';
 import { UI, LOCALES, OG_LOCALE, DEFAULT_OG_IMAGE, type Locale } from '@/lib/i18nLabels';
@@ -27,7 +27,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const venue = await getVenueBySlug(params.slug, params.lang);
   if (!venue) return { title: UI[params.lang].notFound };
   const url = `https://whenstage.com/${params.lang}/venue/${encodeURIComponent(venue.slug)}`;
-  const desc = `${venue.name} · ${venue.events.length}${params.lang === 'ko' ? '개 일정' : params.lang === 'ja' ? '件' : ' events'}`;
+  // 23자짜리 "이름 · N개 일정"이던 것을 실제 정보로 바꿨다(→ lib/venues.ts)
+  const desc = venueDescription(venue, params.lang);
   return {
     title: venue.name,
     description: desc,

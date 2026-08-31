@@ -85,3 +85,53 @@ export async function getVenueBySlug(slug: string, locale: GameLocale = 'ko'): P
   const candidates = new Set([slug, safeDecode(slug)].map(s => s.normalize('NFC')));
   return all.find(v => candidates.has(v.slug)) ?? null;
 }
+
+/**
+ * 공연장 페이지의 메타 설명.
+ *
+ * 원래는 `"블루스퀘어 · 13개 일정"` 한 줄이었다 — **23자**. 검색 결과에 뜨는 스니펫인데
+ * 그 공연장에 대해 아무것도 말하지 않아서, 검색엔진이 알아서 본문을 잘라 쓰거나 그냥
+ * 잘린 채로 나갔다. 본문은 3,600자로 두툼한데 팔리지 않던 셈이다(2026-09-01 발견).
+ *
+ * 데이터에 이미 있는 것만 쓴다 — 공연 수, 가장 가까운 일정, 아티스트 이름. 지어내지 않는다.
+ */
+export function venueDescription(v: VenueSummary, lang: 'ko' | 'en' | 'ja'): string {
+  const total = v.events.length;
+  const today = new Date().toISOString().slice(0, 10);
+  const upcoming = v.events.filter(e => e.release_date >= today);
+  const next = upcoming[0];
+
+  // 아티스트 이름이 있으면 그게 가장 검색에 가까운 말이다
+  const who = next?.developer?.trim() || next?.name?.trim() || '';
+  // "09월 11일"이 아니라 "9월 11일" — 앞의 0을 떼야 사람이 읽는 표기가 된다
+  const md = (iso: string) => {
+    const [, m, d] = iso.split('-').map(Number);
+    return { m, d };
+  };
+
+  if (lang === 'ko') {
+    const head = `${v.name}에서 열리는 공연 ${total}개를 모았습니다.`;
+    if (next && who) {
+      const { m, d } = md(next.release_date);
+      return `${head} 가장 가까운 일정은 ${m}월 ${d}일 ${who}이며, 날짜·시작 시각·티켓 오픈까지 한눈에 확인할 수 있습니다.`;
+    }
+    return `${head} 날짜·시작 시각·티켓 오픈 일정을 한눈에 확인하세요.`;
+  }
+
+  if (lang === 'ja') {
+    const head = `${v.name}で開催される公演${total}件をまとめました。`;
+    if (next && who) {
+      const { m, d } = md(next.release_date);
+      return `${head} 直近の予定は${m}月${d}日の${who}で、日程・開演時刻・チケット販売開始まで一目で確認できます。`;
+    }
+    return `${head} 日程・開演時刻・チケット販売開始をまとめて確認できます。`;
+  }
+
+  const head = `${total} event${total === 1 ? '' : 's'} at ${v.name}.`;
+  if (next && who) {
+    const enWhen = new Date(next.release_date + 'T00:00:00Z')
+      .toLocaleDateString('en-US', { month: 'long', day: 'numeric', timeZone: 'UTC' });
+    return `${head} Next up is ${who} on ${enWhen} — see dates, start times and ticket on-sale info in one place.`;
+  }
+  return `${head} See dates, start times and ticket on-sale info in one place.`;
+}

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllVenues } from '@/lib/venues';
 import { UI, LOCALES, OG_LOCALE, DEFAULT_OG_IMAGE, type Locale } from '@/lib/i18nLabels';
-import { localeAlternates } from '@/lib/seo';
+import { localeAlternates, breadcrumbLd, jsonLd } from '@/lib/seo';
 import { PageShell } from '@/components/PageShell';
 import { PageHeader } from '@/components/PageHeader';
 import { RevealGroup, RevealItem } from '@/components/motion/Reveal';
@@ -21,10 +21,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const ui = UI[params.lang];
   const url = `https://whenstage.com/${params.lang}/venue`;
   return {
-    title: ui.venueListTitle,
-    description: ui.venueListSubtitle,
+    // 화면 제목은 짧아야 읽히지만, 검색 결과에는 사람이 실제로 치는 말이 나가야 한다
+    title: ui.venueListMetaTitle,
+    description: ui.venueListMetaDescription,
     alternates: localeAlternates('/venue', params.lang),
-    openGraph: { title: ui.venueListTitle, description: ui.venueListSubtitle, url, locale: OG_LOCALE[params.lang], images: [DEFAULT_OG_IMAGE] },
+    openGraph: { title: ui.venueListMetaTitle, description: ui.venueListMetaDescription, url, locale: OG_LOCALE[params.lang], images: [DEFAULT_OG_IMAGE] },
   };
 }
 
@@ -34,8 +35,16 @@ export default async function VenueListPage({ params }: Props) {
   const ui = UI[lang];
   const venues = await getAllVenues(lang);
 
+  // 목록 페이지에도 경로를 알려 준다 — 상세에는 있는데 여기만 빠져 있었다
+  const crumbLd = breadcrumbLd([
+    { name: ui.home, url: `https://whenstage.com/${lang}` },
+    { name: ui.venueListTitle, url: `https://whenstage.com/${lang}/venue` },
+  ]);
+
   return (
     <PageShell lang={lang}>
+      <script type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLd(crumbLd) }} />
       <section className={styles.indexSection}>
         <PageHeader
           icon="ic-pin"
