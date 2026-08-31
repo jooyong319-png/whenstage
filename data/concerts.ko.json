@@ -2184,11 +2184,11 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Jay_Park_in_September_2024.jpg",
       "source_url": "https://sports.khan.co.kr/article/202607281715003",
-      "last_updated": "2026-08-02",
+      "last_updated": "2026-08-31",
       "last_researched_by": "ko-researcher",
       "presale": false,
       "presale_datetime": "2026-07-29T20:00:00+09:00",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-08-03T20:00:00+09:00"
     },
     {
@@ -2211,9 +2211,11 @@
       ],
       "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26010675_p.gif",
       "source_url": "https://www.gukjenews.com/news/articleView.html?idxno=3643427",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-07-23T19:00:00+09:00",
-      "general_sale_url": "https://tickets.interpark.com/goods/26010675"
+      "general_sale_url": "https://tickets.interpark.com/goods/26010675",
+      "last_updated": "2026-08-31",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-kimjaejoong-the-wave-seoul-20260829",
@@ -2239,11 +2241,11 @@
       "presale_datetime": "2026-07-21T20:00:00+09:00",
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-08-04",
+      "last_updated": "2026-08-31",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -2268,9 +2270,9 @@
       "image_url": null,
       "source_url": "https://www.news1.kr/entertain/music/6206648",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-06-26T19:00:00+09:00",
-      "last_updated": "2026-08-10",
+      "last_updated": "2026-08-31",
       "last_researched_by": "ko-researcher"
     },
     {
