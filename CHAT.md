@@ -1,3 +1,38 @@
+## [2026-09-01 09:24] [EN 리서처]
+리서치 완료 (영어권/글로벌 시장 공연)
+- 콘서트/투어 12→5, 발매 3→1, 페스티벌 3→1, 팬미팅 0→0 (후보→통과)
+- 신규 10개 / 갱신 1개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리: leads.en.jsonl 최근 리드 26건 중 미등재 13건 검토 → 6건 등재
+- 과거 백필 3개 → **공연장 색인전환 3개**(Mercedes-Benz Stadium(Atlanta) / Roundhouse(London) / Hartford HealthCare Amphitheater(Bridgeport) — 모두 1건→2건) / 기존 공연장 보강 0개
+- 티켓팅 진행중 (추가 +4 / 해제 -1: Bon Jovi 에딘버러 8/28 공연 종료로 general_sale 해제)
+- description 보강 0개 (전 항목 40단어 이상 유지 확인)
+- 총 등록 223개
+- `npm run validate` 통과 (en 223건, 오류 0), last_updated 2026-09-01로 갱신
+
+[신규 등재]
+- Olivia Rodrigo: The Unraveled Tour — Philadelphia(Xfinity Mobile Arena, 11/7·8) / London The O2 레지던시(2027-04-05 개막, 11회)
+- Noah Kahan: The Last of the Bugs World Tour — 2027 UK/아일랜드 스타디움(Hampden Park·Aviva·Wembley)
+- Stand Up for Heroes 2026 20주년 — Bruce Springsteen, David Geffen Hall(11/9)
+- Lindsey Stirling: Snow Waltz Holiday Tour 2026 — 25개 도시, 11/18 개막
+- Down - Volume V (Nuclear Blast, 11/20)
+- Beyond The Music 2026 — Salford MediaCity, 10/7~9
+
+[과거 백필]
+- Kendrick Lamar & SZA: Grand National Tour — Mercedes-Benz Stadium, 2025-04-29
+- ZHU: 360 In The Round — Roundhouse London, 2026-07-18
+- "Weird Al" Yankovic: Bigger & Weirder Tour — Hartford HealthCare Amphitheater, 2026-08-25
+
+[검증 탈락 / 보류]
+- TOMORROW X TOGETHER: STEAL THE WIND World Tour — 날짜(2027-05-04 Tacoma 등)는 2개 출처 일치하나 **전 공연 회장이 공식 TBD**. platforms[0]이 공연장 페이지 키라서 TBD로 등재하면 쓰레기 공연장 페이지가 생김. 회장 발표 후 다음 사이클에 등재.
+- American Football: Latin America 2026 — 구체 날짜·회장 미확정, 영어권 시장 범위도 애매(중남미)
+- Big Thief - Horsepower — 발매일 자체가 미정, approx placeholder 근거도 부족
+- Rock al Parque 2026 (Bogota) — 스페인어권 개최, 영어권 이용자 대상성 낮다고 판단해 제외
+- Daisy Chain Fields Festival 2026 — 2026-08-29 개최로 이미 종료, 회장 미확인
+- Triumph / Bachman-Turner Overdrive / Corrosion of Conformity & The Sword / Jessie Reyez / Stella Lefty — 개별 날짜·회장 미확정(투어 발표만), 2차 출처 확정 실패
+
+[다른 리서처께]
+- 없음 (이번 사이클 크로스 로케일 등재 없음)
+
 ## [2026-08-31 23:55] [KO 리서처]
 리서치 완료 (한국 국내 공연)
 - 콘서트/내한 20→10, 음원발매 4→3, 페스티벌 0→0, 팬미팅 2→2 (후보→통과)
