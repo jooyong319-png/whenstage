@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-28",
+  "last_updated": "2026-09-01",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -1191,9 +1191,9 @@
       ],
       "image_url": null,
       "source_url": "https://consequence.net/2025/10/bon-jovi-2026-tour-dates/",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_url": "https://www.livenation.co.uk/event/bon-jovi-forever-tour-edinburgh-tickets-edp1629000",
-      "last_updated": "2026-08-03",
+      "last_updated": "2026-09-01",
       "last_researched_by": "en-researcher"
     },
     {
@@ -5875,6 +5875,261 @@
         "Festival"
       ],
       "source_url": "https://www.jazzaldia.eus/en/news-alerts/9-balance-2026-en?idn=42722"
+    },
+    {
+      "id": "en-olivia-rodrigo-unraveled-tour-philadelphia-20261107",
+      "name": "Olivia Rodrigo: The Unraveled Tour - Philadelphia",
+      "release_date": "2026-11-07",
+      "release_time": "19:00",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Xfinity Mobile Arena, Philadelphia, PA"
+      ],
+      "developer": "Olivia Rodrigo, Devon Again",
+      "publisher": "Live Nation",
+      "description": "Olivia Rodrigo brings The Unraveled Tour to Philadelphia for two nights at Xfinity Mobile Arena on November 7 and 8, 2026, with doors at 6:00 PM and both shows starting at 7:00 PM. The run supports her third album, You Seem Pretty Sad for a Girl So in Love, released in June 2026. Devon Again opens the Philadelphia dates. The wider tour covers 86 shows across North America and Europe.",
+      "genres": [
+        "Pop",
+        "Tour"
+      ],
+      "source_url": "https://www.xfinitymobilearena.com/events/detail/olivia-rodrigo-2026",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.com/event/3000649DC07F7DF5",
+      "presale": false,
+      "release_date_approx": false,
+      "image_url": null,
+      "last_updated": "2026-09-01",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-olivia-rodrigo-unraveled-tour-london-20270405",
+      "name": "Olivia Rodrigo: The Unraveled Tour - London Residency",
+      "release_date": "2027-04-05",
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "The O2 Arena, London"
+      ],
+      "developer": "Olivia Rodrigo, Grace Ives",
+      "publisher": "AEG Presents",
+      "description": "Olivia Rodrigo opens a UK-exclusive residency at The O2 in London on April 5, 2027, the only British stop on The Unraveled Tour. Demand pushed the booking to eleven nights, running through April and closing the entire world tour on May 10, 2027. Grace Ives supports the London shows. Tickets first went on sale through an O2 priority presale in May 2026 before the general on-sale.",
+      "genres": [
+        "Pop",
+        "Tour"
+      ],
+      "source_url": "https://aegeurope.com/press-centre/olivia-rodrigo-announces-uk-exclusive-2027-residency-at-the-o2-for-the-unraveled-tour/",
+      "general_sale": true,
+      "general_sale_url": "https://www.axs.com/events/1431273/olivia-rodrigo-the-unraveled-tour-tickets",
+      "presale": false,
+      "release_time": null,
+      "release_date_approx": false,
+      "image_url": null,
+      "last_updated": "2026-09-01",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-noah-kahan-last-of-the-bugs-glasgow-20270713",
+      "name": "Noah Kahan: The Last of the Bugs World Tour - UK & Ireland Stadiums",
+      "release_date": "2027-07-13",
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Hampden Park, Glasgow",
+        "Aviva Stadium, Dublin",
+        "Wembley Stadium, London"
+      ],
+      "developer": "Noah Kahan",
+      "description": "Noah Kahan steps up to stadiums in the UK and Ireland during July 2027, opening at Hampden Park in Glasgow on July 13 and playing Dublin's Aviva Stadium on July 17. He closes at Wembley Stadium in London on July 23, the biggest headline show of his career, with a second Wembley night added on July 24 after demand. The shows follow his second UK number one album, The Great Divide.",
+      "genres": [
+        "Folk",
+        "Rock",
+        "Tour"
+      ],
+      "source_url": "https://www.officialcharts.com/chart-news/noah-kahan-2027-uk-tour-wembley-stadium-dates-tickets-ireland-scotland/",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-28T10:00:00+01:00",
+      "general_sale_url": "https://noahkahan.com/pages/tour",
+      "release_time": null,
+      "release_date_approx": false,
+      "image_url": null,
+      "publisher": null,
+      "last_updated": "2026-09-01",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-stand-up-for-heroes-2026-new-york-20261109",
+      "name": "Stand Up for Heroes 2026: 20th Anniversary",
+      "release_date": "2026-11-09",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "David Geffen Hall, New York, NY"
+      ],
+      "developer": "Bruce Springsteen, Jon Stewart, Hasan Minhaj, Josh Johnson, Alex Warren, The Resilient",
+      "publisher": "Bob Woodruff Foundation",
+      "description": "The Bob Woodruff Foundation marks twenty years of Stand Up for Heroes on November 9, 2026 at David Geffen Hall in New York's Lincoln Center. Bruce Springsteen headlines the music and comedy benefit, which he has played at nearly every edition since 2007. Jon Stewart, Hasan Minhaj and Josh Johnson handle the comedy, with additional performances from Alex Warren and veteran group The Resilient. The series has raised more than 117 million dollars for injured veterans.",
+      "genres": [
+        "Rock",
+        "Benefit",
+        "Comedy"
+      ],
+      "source_url": "https://www.rollingstone.com/music/music-news/bruce-springsteen-jon-stewart-stand-up-for-heroes-20-1235614776/",
+      "release_time": null,
+      "release_date_approx": false,
+      "image_url": null,
+      "last_updated": "2026-09-01",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-lindsey-stirling-snow-waltz-hollywood-20261118",
+      "name": "Lindsey Stirling: Snow Waltz Holiday Tour 2026",
+      "release_date": "2026-11-18",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Hard Rock Live, Hollywood, FL"
+      ],
+      "developer": "Lindsey Stirling, ARKAI",
+      "description": "Lindsey Stirling launches her 25-city Snow Waltz Holiday Tour on November 18, 2026 at Hard Rock Live in Hollywood, Florida. The theatrical production pairs her violin playing with dance and staging built around holiday material, then works north and west through Syracuse, Philadelphia, St. Louis and Tucson, including a three-night stand in Las Vegas, before finishing in Texas on December 23. Electroacoustic duo ARKAI supports every date.",
+      "genres": [
+        "Classical Crossover",
+        "Holiday",
+        "Tour"
+      ],
+      "source_url": "https://consequence.net/2026/08/lindsey-stirling-2026-snow-waltz-holiday-tour-dates/",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-28T10:00:00-04:00",
+      "release_time": null,
+      "release_date_approx": false,
+      "image_url": null,
+      "publisher": null,
+      "last_updated": "2026-09-01",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-down-volume-v-20261120",
+      "name": "Down - Volume V",
+      "release_date": "2026-11-20",
+      "timezone": "America/Chicago",
+      "category": "music_release",
+      "platforms": [
+        "Streaming",
+        "Digital",
+        "CD",
+        "Vinyl"
+      ],
+      "developer": "Down",
+      "publisher": "Nuclear Blast Records",
+      "description": "New Orleans metal group Down release Volume V on November 20, 2026 through Nuclear Blast Records, their first full-length album in twelve years. The ten-track record is led by the single Blood Oath, on which Phil Anselmo trades vocals with King Diamond. Other titles include The Myth, Merciful Fate, Causeway Grief and Twice-Told Tales. Nuclear Blast issues the album on CD, digital and double vinyl, with seven vinyl variants including retailer exclusives.",
+      "genres": [
+        "Metal",
+        "Album"
+      ],
+      "source_url": "https://www.nuclearblast.com/blogs/news/down-announce-volume-v-for-november-20th-single-video-blood-oath-now-playing",
+      "release_time": null,
+      "release_date_approx": false,
+      "image_url": null,
+      "last_updated": "2026-09-01",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-beyond-the-music-2026-salford-20261007",
+      "name": "Beyond The Music 2026",
+      "release_date": "2026-10-07",
+      "timezone": "Europe/London",
+      "category": "festival",
+      "platforms": [
+        "MediaCity, Salford, England"
+      ],
+      "developer": "Kofi Stone, Lady Ice, Bawo, OneDa, Mouth Ulcers, ALT BLK ERA",
+      "description": "Beyond The Music returns for a third edition from October 7 to 9, 2026, moving from central Manchester to MediaCity in Salford. The combined festival and industry conference spreads across the MediaCity campus and wider Salford, using outdoor stages, dock10 studios, disused shop units and established local venues. Birmingham rapper Kofi Stone leads the first announced wave alongside Lady Ice, Bawo and OneDa, part of a showcase covering more than one hundred emerging artists.",
+      "genres": [
+        "Festival",
+        "Hip-Hop",
+        "Indie"
+      ],
+      "source_url": "https://www.billboard.com/music/music-news/beyond-the-music-2026-location-dates-tickets-1236209395/",
+      "release_time": null,
+      "release_date_approx": false,
+      "image_url": null,
+      "publisher": null,
+      "last_updated": "2026-09-01",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-kendrick-lamar-sza-grand-national-atlanta-20250429",
+      "name": "Kendrick Lamar & SZA: Grand National Tour - Atlanta",
+      "release_date": "2025-04-29",
+      "release_time": "19:00",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Mercedes-Benz Stadium, Atlanta, GA"
+      ],
+      "developer": "Kendrick Lamar, SZA",
+      "description": "Kendrick Lamar and SZA played Mercedes-Benz Stadium in Atlanta on April 29, 2025, an early stop on their co-headlining Grand National Tour. The pair alternated solo segments and combined for their joint recordings, drawing on Lamar's GNX material and SZA's SOS catalogue. The stadium run was one of the highest grossing tours of that year and marked the largest Atlanta headline appearance either artist had staged.",
+      "genres": [
+        "Hip-Hop",
+        "R&B",
+        "Tour"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/Grand_National_Tour",
+      "release_date_approx": false,
+      "image_url": null,
+      "publisher": null,
+      "last_updated": "2026-09-01",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-zhu-360-in-the-round-london-20260718",
+      "name": "ZHU: 360 In The Round - London",
+      "release_date": "2026-07-18",
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Roundhouse, London"
+      ],
+      "developer": "ZHU",
+      "publisher": "Live Nation",
+      "description": "ZHU performed at the Roundhouse in Camden on July 18, 2026, billed as a rare 360 In The Round staging inside the Grade II listed Victorian building. The Roundhouse later confirmed the layout had reverted to a traditional stage configuration while keeping the bespoke production. The producer, who first surfaced anonymously in 2014 before the Grammy-nominated Faded, had sold out each of his previous London appearances.",
+      "genres": [
+        "Electronic",
+        "Dance",
+        "Tour"
+      ],
+      "source_url": "https://www.roundhouse.org.uk/whats-on/zhu-in-the-round/",
+      "release_time": null,
+      "release_date_approx": false,
+      "image_url": null,
+      "last_updated": "2026-09-01",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-weird-al-yankovic-bigger-and-weirder-bridgeport-20260825",
+      "name": "\"Weird Al\" Yankovic: Bigger & Weirder Tour - Bridgeport",
+      "release_date": "2026-08-25",
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Hartford HealthCare Amphitheater, Bridgeport, CT"
+      ],
+      "developer": "\"Weird Al\" Yankovic",
+      "description": "\"Weird Al\" Yankovic played the Hartford HealthCare Amphitheater in Bridgeport, Connecticut on August 25, 2026 as part of the Bigger & Weirder Tour. The show landed in a busy late-August stretch at the waterfront venue, which also hosted The Fray with Dashboard Confessional on August 23 and Brad Paisley on August 27. Yankovic's touring production leans on costume changes and full-band arrangements of his parody catalogue.",
+      "genres": [
+        "Comedy",
+        "Rock",
+        "Tour"
+      ],
+      "source_url": "https://www.setlist.fm/setlist/weird-al-yankovic/2026/hartford-healthcare-amphitheater-bridgeport-ct-7370dea5.html",
+      "release_time": null,
+      "release_date_approx": false,
+      "image_url": null,
+      "publisher": null,
+      "last_updated": "2026-09-01",
+      "last_researched_by": "en-researcher"
     }
   ]
 }
