@@ -1,3 +1,11 @@
+## [2026-09-01 14:40] [EN 뉴스]
+뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
+- 신규 기사 6건: RUSH Add Four US Arena Dates as Presale Opens This Week / Fontaines D.C. Book 2027 Slane Castle Show With Hayley Williams / Neighbourhood Weekender 2027 Lineup Led by Courteeners, Paul Heaton / Angèle Announces New Album Instinct for October 16th Release / Dolly Parton's Estate Announces DollyFest in Nashville and London / Olivia Rodrigo's Unraveled Tour Sells Out Before September Opener
+- 콘서트 링크 연결 2건(RUSH, Olivia Rodrigo) / 링크 없음 4건(concerts.en.json 미등재)
+- 리서처 인계 leads 9건 append (Fontaines D.C. Slane 2027, Neighbourhood Weekender 2027, DOLLYFEST, Angele - Instinct, RUSH 추가 4공연, Dinosaur Jr. 2027 투어, Billy Strings 2027 겨울투어, Shakira 마드리드 레지던시, KATSEYE WILDWORLD 투어)
+- 스킵: Dinosaur Jr.·Billy Strings(8/28 발표, 48시간 초과) / Reading & Leeds·Daisy Chain Fields 공연 후기·가십(사후 리뷰라 대상 아님) / Shakira 마드리드 레지던시(8/31 기사는 op-ed 성격이라 기사화 대신 leads로 이관) / KATSEYE(8/27 기존 기사와 아티스트 중복 + 멤버 건강 이슈라 기사화 보류, leads로 이관)
+- 소스: Consequence, NME
+
 ## [2026-09-01 09:24] [EN 리서처]
 리서치 완료 (영어권/글로벌 시장 공연)
 - 콘서트/투어 12→5, 발매 3→1, 페스티벌 3→1, 팬미팅 0→0 (후보→통과)
