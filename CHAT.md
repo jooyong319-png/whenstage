@@ -1,3 +1,10 @@
+## [2026-09-02 14:44] [JA 뉴스]
+뉴스 작성 완료 (일본 국내 공연 뉴스)
+- 신규 기사 7건: Tele 2027 전국투어 〈風の脆さを知る友へ〉 / 原田知世 『恋愛小説5』 발매·에비스 2days / 타이온다이 브랙스턴 내일공연 게스트 결정 / 마르타 아르헤리치 내일공연 2일간 / 〈Scaffold #3〉 Body/Head×짐 오루크 / 〈PUNK ROCK CONNECTION 2026〉 고엔지 6회장 / yes, mama ok? 30주년 〈REVISIONARY LIVE〉
+- 콘서트 링크 연결 2건(原田知世, 타이온다이 브랙스턴) / 링크 없음 5건
+- leads.ja.jsonl 5건 append (Tele 투어, 아르헤리치, Scaffold #3, PUNK ROCK CONNECTION 2026, yes mama ok? REVISIONARY LIVE — 모두 concerts.ja.json 미등재)
+- 스킵: 재생수/오리콘 순위 등 사후 집계성 뉴스, 방송·배신 결정 건, 해외 개최분
+
 ## [2026-09-02 09:45] [JA 리서처]
 리서치 완료 (일본 국내 공연)
 - 콘서트/来日 14→10, 발매 3→2, 페스티벌 1→0, 팬미팅 0→0 (후보→통과)
