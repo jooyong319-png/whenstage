@@ -1,3 +1,40 @@
+## [2026-09-02 09:45] [JA 리서처]
+리서치 완료 (일본 국내 공연)
+- 콘서트/来日 14→10, 발매 3→2, 페스티벌 1→0, 팬미팅 0→0 (후보→통과)
+- 신규 13개 / 갱신 7개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리 4건 중 1건 등재 (leads.ja.jsonl 82건 중 미등재 4건 검토 → THE& 전국투어만 통과, 2공연 등재)
+- 과거 백필 0개 (사유: 예정 공연 트랙에서 1건짜리 공연장 2곳을 신규 색인 전환시키는 성과를 확보해 백필 없이 목표 달성. 草月ホール 후보를 훑던 중 12/4·12/5 예정 공연 2건을 발견해 백필 대신 예정 공연으로 등재하는 편이 이득이라 판단)
+- **공연장 색인전환 2개**: 原宿RUIDO(0→2건), 草月ホール(0→3건) — 신규 1건짜리 공연장은 0개 추가, 1건짜리 공연장 총계 10개 유지
+- 기존 공연장 보강 5개: SGC HALL ARIAKE(6→7), 恵比寿 The Garden Hall(2→4), 東京国際フォーラム(4→5), KT Zepp Yokohama(3→4), Zepp Haneda(3→4)
+- 티켓팅 진행중 (추가 +5 / 해제 -7)
+  - 해제: FLO(8/31 공연 종료), JOURNEY(9/1 공연 종료), チェ・ユリ(8/30 공연 종료), セカンドバッカー・紫 MURASAKI(先行 8/30 마감), アート・ガーファンクル 東京/大阪(先行 8/31 마감)
+- description 보강 0개 (전 항목 일본어 120자 이상 유지 확인)
+- 총 등록 198개
+- `npm run validate` 통과 (ja 198건, 오류 0), last_updated 2026-09-02로 갱신
+
+[신규 등재]
+- THE& STARTOURS～Earth～ 東京公演 10/17·10/18 (原宿RUIDO) — CDJournal 투어 일정표 + eplus 티켓 페이지
+- Tyondai Braxton JAPAN TOUR 2026 11/24 (草月ホール) — CDJournal + BEATINK 공식 + LMusic, 11년 만의 来日
+- ROTH BART BARON「TOUR 26-27 "GISHIKI"」東京公演 12/4 (草月ホール) — DISK GARAGE 공식 + 음악나탈리 + LiveFans
+- 持田香織 #HIMK TOKYO TOUR TRILOGY Part 3 "PRESENCE" 12/5 (草月ホール) — Forko 공식 보도자료(PR TIMES) + LiveFans
+- AVENGED SEVENFOLD「ASIA TOUR 2026 JAPAN」東京公演 9/30 (SGC HALL ARIAKE) — 크리에이티브맨 공식 + WOWOW 방송 발표, 12년 만의 来日·완売
+- 原田知世『恋愛小説5～my white days』 11/4 발매 — 유니버설 뮤직 스토어 + CDJournal + 음악나탈리
+- 原田知世〈L'ULTIMO Anno 26〉 12/11·12/12 (恵比寿 The Garden Hall) — 主催者先行 9/13 마감
+- 徳永英明 40th Anniversary Concert Tour 2026「COVERS & BEST」東京公演 11/14 (東京国際フォーラム ホールA) — 일본 콜롬비아 공식 + 공식 사이트 투어 일정 + WOWOW 보도자료
+- 甲斐よしひろ『ホームカミング - Complete Edition -』 9/30 발매 — CDJournal + HMV
+- KAI YOSHIHIRO ホームカミングツアー 2026 10/3(KT Zepp Yokohama)·11/8(Zepp Haneda) — 공식 사이트 kaisurf.com 일정표
+
+[검증 탈락]
+- やまもとはると 全国弾き語りツアー(leads): 일정·회장 모두 미정(회장 공모 중)이라 날짜 확정 불가. 시기 placeholder조차 근거 없음
+- 映画『叛逆のサウンドトラック』菊地成孔 토크 이벤트(leads): 상영 이벤트로 4개 카테고리 대상 아님 + 이미 8/7 종료
+- 〈2人ピーズ×2人暴動クラブ〉11/20 club HEAVY SICK(leads): 독립 출처 2개 확보 실패(CDJournal 단독), 규칙 3에 따라 보류
+- THE& STARTOURS 지방 8공연(名古屋·大阪·広島·福岡·熊本·岩見沢·札幌·鹿児島): 사실 자체는 확정이나 전부 1건짜리 공연장을 새로 만드는 全国ツアー 회차라 색인상 순손실. 도쿄 2데이즈만 등재
+- 徳永英明 지방 회차·甲斐よしひろ 지방 회차: 동일 사유로 보류(기존 등재 공연장 있는 도쿄/요코하마분만 등재)
+
+[이미지 메모]
+- 교체 대상 없음. Avenged Sevenfold·Tyondai Braxton은 위키미디어 커먼즈 이미지 사용(각각 1280x960 / 1364x1366 실사, 라이선스 확인)
+- 原田知世·徳永英明·甲斐よしひろ·THE&·ROTH BART BARON·持田香織: 일본어/영어 위키백과에 커먼즈 이미지 없음, ぴあ·이플러스 og:image도 사이트 아이콘만 잡혀 image_url은 null 유지(정상 결과)
+
 ## [2026-09-01 14:40] [EN 뉴스]
 뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
 - 신규 기사 6건: RUSH Add Four US Arena Dates as Presale Opens This Week / Fontaines D.C. Book 2027 Slane Castle Show With Hayley Williams / Neighbourhood Weekender 2027 Lineup Led by Courteeners, Paul Heaton / Angèle Announces New Album Instinct for October 16th Release / Dolly Parton's Estate Announces DollyFest in Nashville and London / Olivia Rodrigo's Unraveled Tour Sells Out Before September Opener
