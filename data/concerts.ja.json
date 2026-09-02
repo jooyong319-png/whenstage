@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-29",
+  "last_updated": "2026-09-02",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -1228,10 +1228,12 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/FLO_at_the_FLO_Live_Tour_in_Manchester.jpg/250px-FLO_at_the_FLO_Live_Tour_in_Manchester.jpg",
       "source_url": "https://www.universal-music.co.jp/flo/news/2026-06-24/",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-07-18T10:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://eplus.jp/flo/"
+      "general_sale_url": "https://eplus.jp/flo/",
+      "last_updated": "2026-09-02",
+      "last_researched_by": "ja-researcher"
     },
     {
       "id": "ja-journey-2026-20260901",
@@ -1253,14 +1255,16 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Journey_publicity_photo_2013.jpg/250px-Journey_publicity_photo_2013.jpg",
       "source_url": "https://www.udo.jp/shows/Journey26",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-07-25T10:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://www.udo.jp/shows/Journey26",
       "presale": false,
       "presale_datetime": "2026-07-06T12:00:00+09:00",
       "presale_end_datetime": "2026-07-24T18:00:00+09:00",
-      "presale_url": "https://www.udo.jp/shows/Journey26"
+      "presale_url": "https://www.udo.jp/shows/Journey26",
+      "last_updated": "2026-09-02",
+      "last_researched_by": "ja-researcher"
     },
     {
       "release_time": "15:00",
@@ -2263,7 +2267,7 @@
       "publisher": null,
       "image_url": null,
       "source_url": "https://secondbacker.fanpla.jp/news/detail/65632",
-      "last_updated": "2026-08-04",
+      "last_updated": "2026-09-02",
       "last_researched_by": "ja-researcher",
       "id": "ja-second-backer-final-sendai-20261122",
       "name": "セカンドバッカー 全国ツアー2026〈あの時こうしておけばよかった〉ファイナル・シリーズ 仙台公演",
@@ -2278,7 +2282,7 @@
         "J-ROCK",
         "全国ツアー"
       ],
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-08-02T20:00:00+09:00",
       "presale_end_datetime": "2026-08-30T23:59:00+09:00"
     },
@@ -2630,9 +2634,9 @@
       ],
       "image_url": null,
       "source_url": "https://www.cdjournal.com/news/murasaki/128598",
-      "last_updated": "2026-08-08",
+      "last_updated": "2026-09-02",
       "last_researched_by": "ja-researcher",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-08-05T12:00:00+09:00",
       "presale_end_datetime": "2026-08-30T23:59:00+09:00",
       "general_sale": false
@@ -2706,9 +2710,9 @@
       ],
       "image_url": null,
       "source_url": "https://www.anemo.co.jp/topics/lifestyle/stage-lifestyle/432626-20260717/",
-      "last_updated": "2026-08-08",
+      "last_updated": "2026-09-02",
       "last_researched_by": "ja-researcher",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-08-03T12:00:00+09:00"
     },
     {
@@ -4712,9 +4716,9 @@
       ],
       "image_url": null,
       "source_url": "https://www.creativeman.co.jp/artist/2026/11artgarfunkel/",
-      "last_updated": "2026-08-29",
+      "last_updated": "2026-09-02",
       "last_researched_by": "ja-researcher",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-08-24T12:00:00+09:00",
       "presale_end_datetime": "2026-08-31T23:59:00+09:00",
       "presale_url": "https://l-tike.com/artgarfunkel/",
@@ -4741,9 +4745,9 @@
       ],
       "image_url": null,
       "source_url": "https://www.creativeman.co.jp/artist/2026/11artgarfunkel/",
-      "last_updated": "2026-08-29",
+      "last_updated": "2026-09-02",
       "last_researched_by": "ja-researcher",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-08-24T12:00:00+09:00",
       "presale_end_datetime": "2026-08-31T23:59:00+09:00",
       "presale_url": "https://l-tike.com/artgarfunkel/",
@@ -4795,6 +4799,328 @@
       "source_url": "https://shikaco.jp/live/20260412_dear-deer/",
       "last_updated": "2026-08-29",
       "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-the-and-startours-earth-harajuku-20261017",
+      "name": "THE& STARTOURS～Earth～ 東京公演（10月17日）",
+      "release_date": "2026-10-17",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "原宿RUIDO（東京）"
+      ],
+      "developer": "THE&",
+      "publisher": null,
+      "description": "FUZZY CONTROLで長年コンビを組んできたJUON（ギター・ヴォーカル）とSATOKO（ドラム・コーラス）によるバンドTHE&が、8月26日に配信された2ndアルバム『THE&II』を携えて行う全国ツアー〈STARTOURS～Earth～〉の東京2デイズ初日。9月12日の名古屋ell.FITS ALLから始まった全国9都市10公演のクライマックスにあたる公演で、会場は原宿RUIDO。開場17:30／開演18:00、オールスタンディングで前売6,000円・当日6,500円（ドリンク代別）。",
+      "genres": [
+        "ロック",
+        "J-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/the/129138",
+      "last_updated": "2026-09-02",
+      "last_researched_by": "ja-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://eplus.jp/sf/word/0000165641"
+    },
+    {
+      "id": "ja-the-and-startours-earth-harajuku-20261018",
+      "name": "THE& STARTOURS～Earth～ 東京公演（10月18日・ツアーファイナル）",
+      "release_date": "2026-10-18",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "原宿RUIDO（東京）"
+      ],
+      "developer": "THE&",
+      "publisher": null,
+      "description": "THE&の2ndアルバム『THE&II』に連動した全国ツアー〈STARTOURS～Earth～〉を締めくくる東京2デイズ2日目にして、全10公演のツアーファイナル。名古屋・大阪・広島・福岡・熊本・岩見沢・札幌・鹿児島を巡ったツアーの最終地として原宿RUIDOに戻る一夜となる。開場16:30／開演17:00、オールスタンディングで前売6,000円・当日6,500円（ドリンク代別）。",
+      "genres": [
+        "ロック",
+        "J-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/the/129138",
+      "last_updated": "2026-09-02",
+      "last_researched_by": "ja-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://eplus.jp/sf/word/0000165641"
+    },
+    {
+      "id": "ja-tyondai-braxton-japan-tour-20261124",
+      "name": "Tyondai Braxton JAPAN TOUR 2026",
+      "release_date": "2026-11-24",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "草月ホール（東京・赤坂）"
+      ],
+      "developer": "Tyondai Braxton",
+      "publisher": "BEATINK",
+      "description": "バトルスの共同創設者として知られる作曲家／プロデューサーのタイヨンダイ・ブラクストンが、最新アルバム『Splayed Werks』を携えて11年ぶりに来日する一夜限りの公演。電子音楽からポストクラシカルまでを横断してきたソロ20年の集大成にあたる作品を、東京・草月ホールのステージで披露する。スペシャルゲストとしてジム・オルーク＋石橋英子の出演も決定した。開場18:00／開演19:00、前売9,000円（税込・全席指定）で未就学児童は入場不可。",
+      "genres": [
+        "エクスペリメンタル",
+        "エレクトロニック",
+        "現代音楽"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/TB_PublicRecordsBrooklyn_2022.png",
+      "source_url": "https://www.cdjournal.com/news/tyondai-braxton/129281",
+      "last_updated": "2026-09-02",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-roth-bart-baron-gishiki-tokyo-20261204",
+      "name": "ROTH BART BARON「TOUR 26-27 “GISHIKI”」東京公演",
+      "release_date": "2026-12-04",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "草月ホール（東京・赤坂）"
+      ],
+      "developer": "ROTH BART BARON",
+      "publisher": "ディスクガレージ",
+      "description": "三船雅也を中心とするROTH BART BARONが2026年11月から展開する全国ツアー〈TOUR 26-27 “GISHIKI”〉の東京公演。草月ホールで行われるこの日はストリングス編成での特別なアレンジが予告されており、バンドの持ち味である重層的なアンサンブルをホールの響きで聴かせる構成となる。開場18:15／開演19:00、チケットは一般8,000円・学生3,300円。",
+      "genres": [
+        "インディーロック",
+        "フォーク",
+        "オルタナティヴ"
+      ],
+      "image_url": null,
+      "source_url": "https://diskgarage.com/digaonline/news/235950",
+      "last_updated": "2026-09-02",
+      "last_researched_by": "ja-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://eplus.jp/rothbartbaron/"
+    },
+    {
+      "id": "ja-mochida-kaori-presence-tokyo-20261205",
+      "name": "持田香織 #HIMK TOKYO TOUR TRILOGY Part 3 “PRESENCE”",
+      "release_date": "2026-12-05",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "草月ホール（東京・赤坂）"
+      ],
+      "developer": "持田香織",
+      "publisher": "Forko／J-WAVE",
+      "description": "Every Little Thingのヴォーカルとしても知られる持田香織が、東京の会場だけを巡るライブ・プロジェクト〈TOKYO TOUR TRILOGY〉の完結編として開催する公演。Part 1 “FUTURE”、Part 2 “PAST”に続く第三部のテーマは“PRESENCE”で、会場は赤坂の草月ホール。バンドにはハタヤテツヤ、伊賀航、栗原務、MEGが参加する。開場16:00／開演17:00、主催はForkoとJ-WAVE。",
+      "genres": [
+        "J-POP",
+        "ポップス"
+      ],
+      "image_url": null,
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000006.000163063.html",
+      "last_updated": "2026-09-02",
+      "last_researched_by": "ja-researcher",
+      "general_sale_url": "https://l-tike.com/concert/mevent/?mid=369515"
+    },
+    {
+      "id": "ja-avenged-sevenfold-tokyo-20260930",
+      "name": "AVENGED SEVENFOLD「ASIA TOUR 2026 JAPAN」東京公演",
+      "release_date": "2026-09-30",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "SGC HALL ARIAKE（東京・有明）"
+      ],
+      "developer": "Avenged Sevenfold",
+      "publisher": "クリエイティブマンプロダクション",
+      "description": "2014年のサマーソニック出演以来、12年ぶりとなるアヴェンジド・セヴンフォールドの来日公演。アジア・ツアーの日本公演として東京・SGC HALL ARIAKEで一夜限り行われる。開場18:00／開演19:00、アリーナスタンディング・スタンド指定席ともに17,500円（税込）で、チケットはすでに完売している。公演の模様は10月3日にWOWOWプライムおよびWOWOWオンデマンドで独占放送・配信されることも決まった。",
+      "genres": [
+        "ヘヴィメタル",
+        "ハードロック"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Avenged_Sevenfold.JPG",
+      "source_url": "https://www.creativeman.co.jp/artist/2026/11a7x/",
+      "last_updated": "2026-09-02",
+      "last_researched_by": "ja-researcher",
+      "presale": false,
+      "general_sale": false,
+      "general_sale_datetime": "2026-05-16T10:00:00+09:00",
+      "general_sale_url": "https://eplus.jp/avengedsevenfold/"
+    },
+    {
+      "id": "ja-harada-tomoyo-renai-shosetsu-5-20261104",
+      "name": "原田知世『恋愛小説5～my white days』",
+      "release_date": "2026-11-04",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [
+        "CD／配信"
+      ],
+      "developer": "原田知世",
+      "publisher": "ユニバーサル ミュージック",
+      "description": "1982年のデビュー以来、俳優と歌手の両輪で活動を続ける原田知世によるラヴ・ソング・カヴァー・シリーズの第5弾。今回はシリーズ初のホリデー・ソング編で、ウィンター・シーズンを彩る邦楽・洋楽の名曲10曲を収録する。プロデュースと編曲は約20年来の音楽パートナーであるギタリスト／作曲家の伊藤ゴローが担当。初回限定盤には高橋久美子による書き下ろし短編小説やエッセイ、村尾泰郎による長編ライナーノーツ、丸尾和穂の撮り下ろしカットを収めた特別ブックレットが付属する。",
+      "genres": [
+        "J-POP",
+        "カヴァー"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/harada-tomoyo/129260",
+      "last_updated": "2026-09-02",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-harada-tomoyo-lultimo-anno-26-20261211",
+      "name": "原田知世〈L'ULTIMO Anno 26 『恋愛小説5』リリース記念 Special Live〉（12月11日公演）",
+      "release_date": "2026-12-11",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "恵比寿 The Garden Hall（東京）"
+      ],
+      "developer": "原田知世",
+      "publisher": null,
+      "description": "11月4日に発売されるカヴァー・アルバム『恋愛小説5～my white days』のリリースを記念して、原田知世が恵比寿The Garden Hallで開催する2デイズ公演の初日。ホリデー・ソング編となる新作の収録曲を中心に、歴代の恋愛小説シリーズの人気曲も交えた冬らしいステージが期待される。8月31日にサントリーホールでキャリア初のオーケストラ編成公演を成功させたばかりの原田が、年末に届ける特別な一夜。主催者先行予約は9月13日23:59まで受付。",
+      "genres": [
+        "J-POP",
+        "カヴァー"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/harada-tomoyo/129260",
+      "last_updated": "2026-09-02",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "presale_end_datetime": "2026-09-13T23:59:00+09:00"
+    },
+    {
+      "id": "ja-harada-tomoyo-lultimo-anno-26-20261212",
+      "name": "原田知世〈L'ULTIMO Anno 26 『恋愛小説5』リリース記念 Special Live〉（12月12日公演）",
+      "release_date": "2026-12-12",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "恵比寿 The Garden Hall（東京）"
+      ],
+      "developer": "原田知世",
+      "publisher": null,
+      "description": "11月4日に発売されるカヴァー・アルバム『恋愛小説5～my white days』のリリースを記念して、原田知世が恵比寿The Garden Hallで開催する2デイズ公演の2日目。ホリデー・ソング編となる新作の収録曲を中心に、歴代の恋愛小説シリーズの人気曲も交えた冬らしいステージが期待される。8月31日にサントリーホールでキャリア初のオーケストラ編成公演を成功させたばかりの原田が、年末に届ける特別な一夜。主催者先行予約は9月13日23:59まで受付。",
+      "genres": [
+        "J-POP",
+        "カヴァー"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/harada-tomoyo/129260",
+      "last_updated": "2026-09-02",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "presale_end_datetime": "2026-09-13T23:59:00+09:00"
+    },
+    {
+      "id": "ja-tokunaga-hideaki-covers-and-best-tokyo-20261114",
+      "name": "Hideaki Tokunaga 40th Anniversary Concert Tour 2026「COVERS & BEST」東京公演",
+      "release_date": "2026-11-14",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京国際フォーラム（ホールA）"
+      ],
+      "developer": "徳永英明",
+      "publisher": "ディスクガレージ",
+      "description": "2026年1月21日にデビュー40周年を迎えた徳永英明の記念ツアー〈COVERS & BEST〉東京公演。同日に発売された新作カヴァー・アルバム『COVERS』の楽曲と、「レイニーブルー」をはじめとする代表曲を織り交ぜた構成で、会場は東京国際フォーラム ホールA。開場16:00／開演17:00、チケットはSSシート12,500円（ファンクラブ会員のみ購入可）と指定席11,000円の2種、一般発売は9月26日から。この日の模様は2027年1月にWOWOWで放送・配信される。",
+      "genres": [
+        "J-POP",
+        "バラード"
+      ],
+      "image_url": null,
+      "source_url": "https://columbia.jp/artist-info/tokunagahideaki/live/93193.html",
+      "last_updated": "2026-09-02",
+      "last_researched_by": "ja-researcher",
+      "general_sale": false,
+      "general_sale_datetime": "2026-09-26T00:00:00+09:00"
+    },
+    {
+      "id": "ja-kai-yoshihiro-homecoming-complete-edition-20260930",
+      "name": "甲斐よしひろ『ホームカミング - Complete Edition -』",
+      "release_date": "2026-09-30",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [
+        "CD／配信"
+      ],
+      "developer": "甲斐よしひろ",
+      "publisher": "エイベックス",
+      "description": "甲斐バンドのヴォーカル・甲斐よしひろによる約15年ぶりのソロ・アルバム。TOKIO、中島みゆき、松田聖子、研ナオコ、明石家さんま、時任三郎らへ提供してきた楽曲を自ら厳選しリテイクしたセルフカヴァー音源集で、1987年の『ストレート・ライフ』から数えてソロ40周年イヤーの幕開けを飾る一枚となる。83年に松田聖子へ提供した「ハートをRock」のニュー・ミックスを初収録し、マスタリングはSterling SoundのTed Jensenが手がけた。",
+      "genres": [
+        "ロック",
+        "J-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/kai-yoshihiro/129178",
+      "last_updated": "2026-09-02",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-kai-yoshihiro-homecoming-tour-yokohama-20261003",
+      "name": "KAI YOSHIHIRO ホームカミングツアー 2026（横浜公演）",
+      "release_date": "2026-10-03",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "KT Zepp Yokohama"
+      ],
+      "developer": "甲斐よしひろ",
+      "publisher": null,
+      "description": "甲斐よしひろが4年ぶりに行うソロ・ツアー〈ホームカミングツアー 2026〉の初日公演。9月30日発売のセルフカヴァー・アルバム『ホームカミング - Complete Edition -』と連動した全国5公演のうち、神奈川・KT Zepp Yokohamaで幕を開ける。バンドには土屋公平（ギター）、TOKIE（ベース）、河村“カースケ”智康（ドラム）が参加。開場16:00／開演17:00、VIP席18,000円・指定席11,000円（税込・ドリンク代別）。",
+      "genres": [
+        "ロック",
+        "J-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://kaisurf.com/live",
+      "last_updated": "2026-09-02",
+      "last_researched_by": "ja-researcher",
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-01T00:00:00+09:00"
+    },
+    {
+      "id": "ja-kai-yoshihiro-homecoming-tour-haneda-20261108",
+      "name": "KAI YOSHIHIRO ホームカミングツアー 2026（東京公演・ツアーファイナル）",
+      "release_date": "2026-11-08",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "Zepp Haneda（TOKYO）"
+      ],
+      "developer": "甲斐よしひろ",
+      "publisher": null,
+      "description": "甲斐よしひろのソロ・ツアー〈ホームカミングツアー 2026〉を締めくくる東京公演。横浜・大阪・福岡・名古屋を巡ったツアーの最終地としてZepp Haneda（TOKYO）に立つ。約15年ぶりのソロ・アルバム『ホームカミング - Complete Edition -』の収録曲を軸に、土屋公平（ギター）、TOKIE（ベース）、河村“カースケ”智康（ドラム）とのバンド編成で聴かせる。開場16:00／開演17:00、VIP席18,000円・指定席11,000円（税込・ドリンク代別）。",
+      "genres": [
+        "ロック",
+        "J-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://kaisurf.com/live",
+      "last_updated": "2026-09-02",
+      "last_researched_by": "ja-researcher",
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-01T00:00:00+09:00"
     }
   ]
 }
