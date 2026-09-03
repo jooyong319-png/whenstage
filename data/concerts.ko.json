@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-09-03",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -9,6 +9,84 @@
     "fanmeeting": "팬미팅"
   },
   "games": [
+    {
+      "id": "ko-ink-concert-2024-incheon-20240907",
+      "name": "제15회 INK 콘서트 (2024 Incheon K-POP Concert)",
+      "release_date": "2024-09-07",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "festival",
+      "platforms": [
+        "인천문학경기장(주경기장)"
+      ],
+      "developer": null,
+      "publisher": "인천관광공사",
+      "description": "제15회 INK 콘서트가 2024년 9월 7일 인천 미추홀구 문학경기장 주경기장에서 열렸다. 인천시가 주최하고 인천관광공사가 주관한 이 행사에는 라이즈(RIIZE), 잇지(ITZY), 트리플에스(tripleS)를 비롯해 에잇턴, 티아이오티, 유니스, 이브, 파우, 비비업 등 아홉 팀이 무대에 올랐고 이브와 파우의 현빈이 진행을 맡았다. 부대행사로 K-POP 랜덤 플레이 댄스와 팝업 스토어가 함께 운영됐으며, 공연은 유튜브로 생중계됐다.",
+      "genres": [
+        "K-POP",
+        "페스티벌"
+      ],
+      "image_url": null,
+      "source_url": "https://www.kyeonggi.com/article/20240815580209",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-09-03",
+      "last_researched_by": "ko-researcher",
+      "festival_days": [
+        {
+          "date": "2024-09-07",
+          "lineup": [
+            "라이즈(RIIZE)",
+            "잇지(ITZY)",
+            "트리플에스(tripleS)",
+            "에잇턴(8TURN)",
+            "티아이오티(TIOT)",
+            "유니스(UNIS)",
+            "이브(Yves)",
+            "파우(POW)",
+            "비비업(VVUP)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ko-huhgak-gongyeongak-busan-20250111",
+      "name": "2024-25 허각 전국투어 콘서트 '공연각' - 부산",
+      "release_date": "2025-01-11",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "부산 소향씨어터(신한카드홀)"
+      ],
+      "developer": "허각",
+      "publisher": null,
+      "description": "허각이 2025년 1월 11일과 12일 이틀간 부산 동서대학교 소향씨어터 신한카드홀에서 전국투어 콘서트 '공연각'의 부산 공연을 열었다. 첫날은 오후 6시, 둘째 날은 오후 5시에 시작해 인터미션 없이 약 120분간 진행됐다. 2024년 말 서울에서 출발한 투어의 지역 일정 가운데 하나로, 허각의 대표 발라드와 신곡을 함께 배치한 구성이었다. 이후 2026-27 시즌에도 같은 공연장에서 후속 투어가 이어진다.",
+      "genres": [
+        "발라드",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://nol.yanolja.com/ticket/meta/performance/2024-25-%ED%97%88%EA%B0%81-%EC%A0%84%EA%B5%AD%ED%88%AC%EC%96%B4-%EC%BD%98-friwBiD0oZf5ZEvx",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-09-03",
+      "last_researched_by": "ko-researcher"
+    },
     {
       "id": "ko-awesome-stage-nflying-busan-20250302",
       "name": "2025 어썸스테이지 [N.Flying] - 부산",
@@ -2139,6 +2217,36 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-sosubin-neulgeuraewaetdeon-album-20260827",
+      "name": "소수빈 정규 1집 '늘 그래왔던 것처럼'",
+      "release_date": "2026-08-27",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "소수빈",
+      "publisher": null,
+      "description": "소수빈이 데뷔 10주년에 맞춰 8월 27일 첫 정규앨범 '늘 그래왔던 것처럼'을 주요 음원 플랫폼에 공개했다. 스물한 살에 상경한 시기부터 현재까지의 삶과 감정 변화를 11개 트랙에 시간 순서로 배치했고, 전곡의 작사와 작곡을 소수빈이 직접 맡았다. 더블 타이틀곡은 관계의 끝에서 전하지 못한 마음을 담은 발라드 '괜찮다고 말해줄 걸 그랬어'와 지나간 인연을 회상하는 '가지 말라고'다. 타이틀곡 뮤직비디오에는 배우 남윤수가 출연했다.",
+      "genres": [
+        "발라드",
+        "정규앨범",
+        "싱어송라이터"
+      ],
+      "image_url": null,
+      "source_url": "https://www.tenasia.co.kr/article/2026082889244",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-09-03",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-infinite-mudaejiphoe-v-incheon-20260829",
       "name": "2026 인피니트 팬미팅 '무한대집회V (INFINITE CONCERT V)' 인천",
       "release_date": "2026-08-29",
@@ -2697,6 +2805,35 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-kimheejae-reverb-20260907",
+      "name": "김희재 정규 3집 'REVERB'",
+      "release_date": "2026-09-07",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "김희재",
+      "publisher": null,
+      "description": "김희재가 9월 7일 오후 6시 정규 3집 'REVERB'를 발매한다. 2024년 3월 정규 2집 '희로애락' 이후 약 2년 6개월 만의 정규 신보로, 타이틀곡 '안녕은 정말 싫어'를 포함해 모두 11곡이 실린다. 앨범명은 잔향과 울림을 뜻하며 QR 플랫폼 버전은 푸른색의 ON과 주황색의 OFF 두 가지 테마로 나뉘어 제작됐다. 발매에 앞서 수록곡 하이라이트 메들리와 프리뷰 클립이 순차적으로 공개됐다.",
+      "genres": [
+        "트로트",
+        "정규앨범"
+      ],
+      "image_url": null,
+      "source_url": "https://segye.com/newsView/20260810512157",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-09-03",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-soyeon-solo-comeback-20260910",
       "name": "소연((여자)아이들) 첫 솔로 정규 1집 '끝내주는 인생'",
       "release_date": "2026-09-07",
@@ -2740,6 +2877,36 @@
       "source_url": "https://www.soompi.com/article/1852382wpp/watch-team-announces-1st-ever-korean-comeback-with-trailer-for-mark-on-me",
       "presale": false,
       "general_sale": false
+    },
+    {
+      "id": "ko-limyoungwoong-imhero10-20260908",
+      "name": "임영웅 스페셜 디지털 앨범 'IM HERO 10'",
+      "release_date": "2026-09-08",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "임영웅",
+      "publisher": null,
+      "description": "임영웅이 9월 8일 오후 6시 스페셜 디지털 앨범 'IM HERO 10'을 공개한다. 8월 8일 데뷔 10주년을 맞은 뒤 내놓는 첫 신보로, 팬덤 영웅시대와 함께해 온 시간을 기념하고 감사를 전하기 위해 기획됐다. 공개된 티저 영상에는 국악 장단과 전통 의상, 각시탈 등 한국적 소재를 활용한 콘셉트가 담겼다. 발매에 앞서 9월 4일부터 6일까지 사흘간 고양종합운동장 주경기장에서 콘서트 'IM HERO - THE STADIUM 2'가 열린다.",
+      "genres": [
+        "트로트",
+        "발라드",
+        "디지털 앨범"
+      ],
+      "image_url": null,
+      "source_url": "https://www.starnewskorea.com/music/2026/08/18/2026081808002114254",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-09-03",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-inaminute-midnight-20260909",
@@ -2833,6 +3000,68 @@
       "general_sale_datetime": "2026-04-22T19:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.yes24.com/Perf/58079"
+    },
+    {
+      "id": "ko-crush-zzinbombting-crush-farm-seoul-20260912",
+      "name": "2026 크러쉬 팬미팅 〈ZZINBOMBTING : CRUSH FARM〉",
+      "release_date": "2026-09-12",
+      "release_time": "18:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "명화라이브홀"
+      ],
+      "developer": "크러쉬(Crush)",
+      "publisher": null,
+      "description": "크러쉬가 9월 12일 오후 6시 30분 서울 명화라이브홀에서 팬미팅 〈ZZINBOMBTING : CRUSH FARM〉을 연다. 약 100분 동안 진행되며 전석 단일 가격으로 운영되고 전 연령이 관람할 수 있다. 팬들과 가까운 거리에서 소통하는 구성으로 마련됐으며 티켓은 NOL에서 단독 판매됐다. 크러쉬는 2014년 정규 1집 이후 R&B를 기반으로 꾸준히 활동해 온 싱어송라이터다.",
+      "genres": [
+        "R&B",
+        "팬미팅"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26011974_p.gif",
+      "source_url": "https://tickets.interpark.com/goods/26011974",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26011974",
+      "last_updated": "2026-09-03",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-hyunjae-the-present-for-you-seoul-20260912",
+      "name": "2026 HYUNJAE 1st FANMEETING ［The Present for you］",
+      "release_date": "2026-09-12",
+      "release_time": "14:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "코엑스아티움(우리은행홀)"
+      ],
+      "developer": "현재(HYUNJAE)",
+      "publisher": null,
+      "description": "더보이즈 현재가 9월 12일과 13일 서울 코엑스아티움 우리은행홀에서 첫 단독 팬미팅 ［The Present for you］를 연다. 12일은 오후 2시와 오후 7시, 13일은 오후 1시와 오후 6시 등 총 네 차례로 진행되며 13일 회차는 수요에 따라 추가로 편성됐다. 공연 시간은 약 100분이고 8세 이상 관람할 수 있으며 전석 단일 가격으로 운영된다.",
+      "genres": [
+        "K-POP",
+        "팬미팅"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26011954_p.gif",
+      "source_url": "https://tickets.interpark.com/goods/26011954",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26011954",
+      "last_updated": "2026-09-03",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-isul-live-festival-2026-20260912",
@@ -3274,6 +3503,38 @@
       "source_url": "https://www.etnews.com/20260623000157"
     },
     {
+      "id": "ko-silicagel-syn-the-size-seoul-20260926",
+      "name": "Silica Gel Asia Tour 〈Syn.THE.Size: Ballad of You〉 in Seoul",
+      "release_date": "2026-09-26",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KSPO DOME(올림픽체조경기장)"
+      ],
+      "developer": "실리카겔(Silica Gel)",
+      "publisher": null,
+      "description": "밴드 실리카겔이 9월 26일과 27일 서울 올림픽공원 KSPO DOME에서 데뷔 첫 아시아 투어의 서울 공연을 연다. 2014년 데뷔 이후 11년 만에 처음으로 KSPO DOME 무대에 오르는 것으로, 지난해 일산 킨텍스에서 열었던 'Syn.THE.Size X'보다 규모를 키운 최대 규모 단독 공연이다. 첫날은 오후 6시, 둘째 날은 오후 5시에 시작하며 스탠딩과 지정석으로 나뉘어 운영된다. 관람 연령은 12세 이상이다.",
+      "genres": [
+        "밴드",
+        "록",
+        "콘서트"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26007703_p.gif",
+      "source_url": "https://sports.khan.co.kr/article/202605221839003",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26007703",
+      "last_updated": "2026-09-03",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-takuyakimura-checkpoint-seoul-20260926",
       "name": "TAKUYA KIMURA Live Tour 2026 Checkpoint in Seoul",
       "release_date": "2026-09-26",
@@ -3566,6 +3827,37 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-leo-muse-fanmeeting-seoul-20261003",
+      "name": "2026 LEO MUSE FANMEETING ［TAKE 운－PLAY LEO］",
+      "release_date": "2026-10-03",
+      "release_time": "14:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "성신여자대학교(운정그린캠퍼스 대강당)"
+      ],
+      "developer": "레오(VIXX)",
+      "publisher": null,
+      "description": "빅스 레오(정택운)가 10월 3일 서울 성북구 성신여자대학교 운정그린캠퍼스 대강당에서 팬미팅 ［TAKE 운－PLAY LEO］를 연다. 오후 2시와 오후 7시 두 차례로 나뉘어 진행되며, 뮤지컬 활동을 마친 뒤 팬들과 만나는 자리다. 공연명은 본명 '택운'을 활용한 말놀이로, 팬덤과의 소통을 앞세운 구성으로 준비됐다. 팬클럽 선예매는 9월 7일 오후 7시에 시작된다.",
+      "genres": [
+        "K-POP",
+        "팬미팅"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26012326_p.gif",
+      "source_url": "https://www.topstarnews.net/news/articleView.html?idxno=16173363",
+      "presale": true,
+      "presale_datetime": "2026-09-07T19:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": "https://tickets.interpark.com/goods/26012326",
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26012326",
+      "last_updated": "2026-09-03",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-letsrock-festival-2026-20261003",
       "name": "2026 렛츠락페스티벌 (LET'S ROCK FESTIVAL 2026)",
       "release_date": "2026-10-03",
@@ -3779,6 +4071,37 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-jogwanwoo-autumn-miracle-bucheon-20261004",
+      "name": "2026 조관우 MUSIC 콘서트 - 가을의 기적(부천)",
+      "release_date": "2026-10-04",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "부천시민회관(대공연장)"
+      ],
+      "developer": "조관우",
+      "publisher": null,
+      "description": "조관우가 10월 4일 오후 5시 경기 부천시민회관 대공연장에서 단독 콘서트 '가을의 기적'을 연다. '그가 노래하는 순간, 당신의 가을이 기적이 됩니다'라는 문구를 앞세워 관객의 사연을 음악으로 위로하는 구성으로 꾸며진다. 동명의 EP 수록곡과 함께 '늪', '길', '꽃밭에서', '영원' 등 대표곡을 들려주며, 드라마 마이걸 OST '상어를 사랑한 인어'와 비지스의 'Love You Inside Out'도 선곡에 포함됐다.",
+      "genres": [
+        "발라드",
+        "콘서트"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26012555_p.gif",
+      "source_url": "https://www.tenasia.co.kr/article/2026081145874",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26012555",
+      "last_updated": "2026-09-03",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-zaralarsson-midnight-sun-seoul-20261004",
       "name": "자라 라슨(Zara Larsson) 첫 단독 내한공연 - Midnight Sun Tour",
       "release_date": "2026-10-04",
@@ -3836,6 +4159,38 @@
       "general_sale_datetime": "2026-05-21T12:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26006903"
+    },
+    {
+      "id": "ko-10cm-the-missing-tracks-seoul-20261009",
+      "name": "2026 10CM FAN CONCERT 〈THE MISSING TRACKS〉 사라진 곡들의 행방",
+      "release_date": "2026-10-09",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "올림픽공원(올림픽홀)"
+      ],
+      "developer": "10CM",
+      "publisher": null,
+      "description": "10CM가 10월 9일부터 11일까지 사흘간 서울 올림픽공원 올림픽홀에서 팬 콘서트 〈THE MISSING TRACKS〉를 연다. '사라진 곡들의 행방'이라는 부제 아래 회차마다 CASE No.1009·1010·1011로 번호를 붙여 서로 다른 구성을 예고했다. 첫 회차인 10월 9일 공연은 오후 6시에 시작하며 전석 지정석으로 운영되고 8세 이상 관람할 수 있다. 티켓은 NOL에서 단독 판매된다.",
+      "genres": [
+        "인디",
+        "팬콘서트",
+        "싱어송라이터"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26011325_p.gif",
+      "source_url": "https://tickets.interpark.com/goods/26011325",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26011325",
+      "last_updated": "2026-09-03",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-jarasum-jazz-2026-20261009",
@@ -4172,6 +4527,37 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-leeseunggi-gisungjeon-rak-seoul-20261024",
+      "name": "2026 이승기 콘서트 〈기승전 : 樂〉",
+      "release_date": "2026-10-24",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "블루스퀘어(우리WON뱅킹홀)"
+      ],
+      "developer": "이승기",
+      "publisher": null,
+      "description": "이승기가 10월 24일과 25일 서울 블루스퀘어 우리WON뱅킹홀에서 단독 콘서트 〈기승전 : 樂〉을 연다. 팬미팅 형식이 아닌 정식 단독 콘서트로는 2013년 이후 약 13년 만이다. 공연명은 이야기의 흐름을 뜻하는 '기승전'과 음악을 뜻하는 '락(樂)'을 합친 표현이다. 첫날은 오후 6시, 둘째 날은 오후 4시에 시작한다. 티켓은 6월 4일 오후 6시 NOL 티켓에서 열려 3분 만에 전 회차 전석이 매진됐다.",
+      "genres": [
+        "발라드",
+        "콘서트"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26008033_p.gif",
+      "source_url": "https://www.newsis.com/view/NISX20260604_0003655622",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": "2026-06-04T18:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26008033",
+      "last_updated": "2026-09-03",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-oneus-full-moon-seoul-20261024",
       "name": "2026 ONEUS WORLD TOUR 'FULL MOON' IN SEOUL",
       "release_date": "2026-10-24",
@@ -4190,6 +4576,38 @@
       "image_url": null,
       "source_url": "https://www.tenasia.co.kr/article/2026073174404",
       "last_updated": "2026-08-03",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-sosubin-neulgeuraewaetdeon-seoul-20261024",
+      "name": "2026 소수빈 단독공연 〈늘 그래왔던 것처럼 앞으로도〉",
+      "release_date": "2026-10-24",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "올림픽공원(올림픽홀)"
+      ],
+      "developer": "소수빈",
+      "publisher": null,
+      "description": "싱어송라이터 소수빈이 10월 24일과 25일 이틀간 서울 올림픽공원 올림픽홀에서 단독 공연 〈늘 그래왔던 것처럼 앞으로도〉를 연다. 8월 27일 발매한 데뷔 10주년 기념 정규 1집 수록곡 전곡을 무대에 올리는 구성이다. 첫날은 오후 6시, 둘째 날은 오후 5시에 시작하며 전석 지정석으로 운영된다. 티켓은 8월 31일 오후 8시 NOL(인터파크)에서 일반 예매가 열렸다. JTBC 싱어게인3 준우승 이후 이어온 활동을 정리하는 자리다.",
+      "genres": [
+        "발라드",
+        "콘서트",
+        "싱어송라이터"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26012327_p.gif",
+      "source_url": "https://www.tenasia.co.kr/article/2026082889244",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-31T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26012327",
+      "last_updated": "2026-09-03",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -4251,6 +4669,38 @@
       "general_sale_end_datetime": null,
       "general_sale_url": null,
       "last_updated": "2026-08-31",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-nujabes-metaphorical-ensemble-seoul-20261031",
+      "name": "Nujabes Metaphorical Ensemble Live in Seoul",
+      "release_date": "2026-10-31",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "NOL 씨어터 합정(동양생명홀)"
+      ],
+      "developer": "누자베스 메타포리컬 앙상블(Nujabes Metaphorical Ensemble)",
+      "publisher": null,
+      "description": "일본 프로듀서 누자베스의 미완성 구상을 잇는 프로젝트 그룹 누자베스 메타포리컬 앙상블이 10월 31일 오후 6시 서울 NOL 씨어터 합정 동양생명홀에서 첫 서울 공연을 연다. 약 100분간 진행되며 Chika a.k.a. Inherit(DJ), 패트릭 발리(색소폰), BIGYUKI(키보드), Pase Rock(MC)이 무대에 오르고 오프닝 액트는 DJ SHOTA가 맡는다. 좌석은 VVIP·VIP·스탠딩 일반·지정 일반으로 구분된다.",
+      "genres": [
+        "힙합",
+        "재즈",
+        "내한공연"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26012781_p.gif",
+      "source_url": "https://tickets.interpark.com/goods/26012781",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26012781",
+      "last_updated": "2026-09-03",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -4437,6 +4887,38 @@
       "last_researched_by": "ko-researcher"
     },
     {
+      "id": "ko-khalid-always-summer-somewhere-goyang-20261205",
+      "name": "칼리드 내한공연 (Khalid: It’s Always Summer Somewhere Tour in Seoul)",
+      "release_date": "2026-12-05",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "킨텍스(제2전시장 10홀)"
+      ],
+      "developer": "칼리드(Khalid)",
+      "publisher": "라이브네이션코리아",
+      "description": "미국 R&B 싱어송라이터 칼리드가 12월 5일 오후 7시 경기 고양 킨텍스 제2전시장 10홀에서 단독 내한 공연을 연다. 2018년 첫 내한 이후 8년 만의 단독 공연으로, 지난 5월 라스베이거스에서 출발한 월드투어 'It’s Always Summer Somewhere'의 서울 일정이다. 주최는 라이브네이션코리아이며 밋앤그릿이 포함된 패키지와 VIP 등급이 별도로 운영된다. 관람 연령은 만 12세 이상이다.",
+      "genres": [
+        "R&B",
+        "팝",
+        "내한공연"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26009919_p.gif",
+      "source_url": "https://www.hankyung.com/article/202607071121H",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26009919",
+      "last_updated": "2026-09-03",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-yuuri-live-2026-seoul-20261205",
       "name": "YUURI LIVE 2026 IN SEOUL",
       "release_date": "2026-12-05",
@@ -4464,6 +4946,38 @@
       "general_sale_url": "https://tickets.interpark.com/goods/26010352"
     },
     {
+      "id": "ko-slowdive-live-2026-seoul-20261208",
+      "name": "SLOWDIVE Live 2026 in Seoul (슬로우다이브 내한공연)",
+      "release_date": "2026-12-08",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KBS아레나"
+      ],
+      "developer": "슬로우다이브(Slowdive)",
+      "publisher": null,
+      "description": "영국 슈게이징 밴드 슬로우다이브가 12월 8일 오후 8시 서울 KBS아레나에서 내한 공연을 연다. 스탠딩과 지정석 P·R석으로 좌석이 나뉘며 관람 연령은 만 12세 이상이다. 1989년 결성된 슬로우다이브는 마이 블러디 발렌타인과 함께 슈게이징을 대표하는 밴드로 꼽히며, 2017년 재결합 이후 꾸준히 신보와 투어를 이어오고 있다. 티켓은 NOL 티켓에서 판매된다.",
+      "genres": [
+        "밴드",
+        "록",
+        "내한공연"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26012276_p.gif",
+      "source_url": "https://tickets.interpark.com/goods/26012276",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26012276",
+      "last_updated": "2026-09-03",
+      "last_researched_by": "ko-researcher"
+    },
+    {
       "id": "ko-domi-jdbeck-who-asked-seoul-20261212",
       "name": "WHO ASKED? TOUR DOMi & JD BECK LIVE IN SEOUL",
       "release_date": "2026-12-12",
@@ -4489,6 +5003,38 @@
       "general_sale_datetime": "2026-08-25T19:00:00+09:00",
       "general_sale_url": null,
       "last_updated": "2026-08-24",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-leeseungchul-the-voice-incheon-20261212",
+      "name": "2026 이승철 40주년 콘서트 ［THE VOICE: LEE SEUNG CHUL］ - 인천",
+      "release_date": "2026-12-12",
+      "release_time": "16:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "인스파이어 아레나"
+      ],
+      "developer": "이승철",
+      "publisher": null,
+      "description": "이승철이 12월 12일 오후 4시 인천 인스파이어 아레나에서 데뷔 40주년 콘서트 ［THE VOICE: LEE SEUNG CHUL］ 인천 공연을 연다. 20분의 인터미션을 포함해 약 120분 동안 진행되며 8세 이상 관람할 수 있다. 좌석은 FS석과 VIP석 등으로 나뉘어 운영된다. 1986년 부활 보컬로 데뷔한 이승철이 40년간 쌓아온 대표곡들을 아레나 규모 무대에서 선보이는 자리다.",
+      "genres": [
+        "발라드",
+        "콘서트",
+        "40주년"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26011556_p.gif",
+      "source_url": "https://tickets.interpark.com/goods/26011556",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26011556",
+      "last_updated": "2026-09-03",
       "last_researched_by": "ko-researcher"
     },
     {
