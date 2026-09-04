@@ -1,3 +1,36 @@
+## [2026-09-04 09:30] [EN 리서처]
+리서치 완료 (영어권/글로벌 시장 공연)
+- 콘서트/투어 18→13, 발매 3→1, 페스티벌 3→1, 팬미팅 0→0 (후보→통과)
+- 신규 21개(예정 15 + 백필 6) / 갱신 2개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리 12건(2026-09-01 배치) 중 6건 등재 — Shakira 마드리드, KATSEYE, Fontaines D.C. Slane, Neighbourhood Weekender 2027, Angèle 'Instinct', RUSH 추가일정 (등재 항목 수로는 12건). 나머지 6건은 아래 탈락·보류 참고
+- 과거 백필 6개 → **공연장 색인전환 6개**(Hampden Park Glasgow / Highmark Mann Center Philadelphia / Hard Rock Live Hollywood FL / Teragram Ballroom Los Angeles / Lucas Oil Stadium Indianapolis / Brighton Music Hall Allston) / 기존 공연장 보강 0개
+  → 1건짜리 공연장 9개 → 6개로 감소, 색인 대상 공연장 68개 → 76개
+- 티켓팅 진행중 (추가 +13 / 해제 -2)
+  - 해제: en-fcukers-fall-tour-grand-rapids-20260901, en-silvana-estrada-suaves-lluvias-portland-20260903 (공연일 경과)
+- description 보강 0개
+- 총 등록 244개
+
+[신규 예정 공연 15건]
+- Shakira 마드리드 레지던시 개막(9/18)·폐막(10/11) — Iberdrola Music 공식 사이트로 12일 전 일정 확정, 신규 공연장이 즉시 2건 확보
+- KATSEYE THE WILDWORLD TOUR 4건 — London The O2(9/4, 공식 O2 페이지에서 추가 공연 확인), UBS Arena(10/24), Oakland Arena(11/19), Crypto.com Arena(11/21). 모두 기존 등록 공연장
+- Rush Fifty Something 추가 2건 — Houston Toyota Center(10/1), Pittsburgh PPG Paints Arena(11/15). 일반예매 9/4 10am 현지시각
+- Fontaines D.C. Slane Castle 2건(2027-06-26·27) — 9/2 둘째 날 추가 발표 확인, 아일랜드 아티스트 역대 3번째 슬레인 헤드라이너
+- Neighbourhood Weekender 2027(5/29~30) — 공식 라인업 발표분으로 festival_days 채움
+- Melanie Martinez / The Pussycat Dolls / aespa — 모두 The O2 공식 이벤트 페이지 + 독립 매체 교차 확인
+- Angèle 'Instinct'(10/16) — 3집, Justice·Soulwax·Caroline Polachek 참여
+
+[검증 탈락]
+- TOMORROW X TOGETHER: STEAL THE WIND World Tour (북미 7공연): 날짜는 확정(5/4 Tacoma ~ 5/25 Chicago)이나 **전 공연장이 TBD** 상태. platforms를 채울 수 없어 등재 보류 — 공연장 발표 후 다음 사이클 재검토
+- DOLLYFEST: The Celebration of a Lifetime: 2027년 개최만 발표, 날짜·장소·라인업 전부 미발표. approx placeholder를 넣기에도 근거 부족
+- Shania Twain @ David Geffen Hall (2025-11-14): 백필 후보였으나 Baron Fund 컨퍼런스 사내 행사(비공개 공연)로 확인돼 제외. David Geffen Hall은 여전히 1건짜리 공연장으로 남음
+- Rock al Parque 2026 / Bad Bunny 산후안 등 라틴 리드 일부: 이번 사이클 시간 배분상 미착수(탈락 아님, 다음 사이클 후보)
+
+[데이터 품질 메모 — 다음 사이클 처리 필요]
+- 동일 공연 중복 등재 의심 2쌍 발견(삭제 금지 규칙상 이번엔 손대지 않음, 처리 방침 확인 필요):
+  1. en-taemin-liminal-world-tour-los-angeles-20261015 / en-taemin-liminal-crypto-com-arena-20261015 — 같은 날짜·같은 공연장(Crypto.com Arena)
+  2. en-jonas-brothers-burning-up-all-over-again-los-angeles-20261118 / en-jonas-brothers-hollywood-bowl-20261118 — 같은 날짜·같은 아티스트
+- image_url 채워진 항목 60/244. Wikimedia Commons 경로가 가장 안정적으로 확인됨(Fontaines D.C. 이미지 신규 2건에 재사용)
+
 ## [2026-09-03 14:30] [KO 뉴스]
 뉴스 작성 완료 (한국 국내 공연 뉴스)
 - 신규 기사 4건:
