@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-01",
+  "last_updated": "2026-09-04",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -1243,10 +1243,10 @@
       "presale": false,
       "presale_datetime": "2026-07-28T10:00:00-04:00",
       "presale_url": null,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-07-29T10:00:00-04:00",
       "general_sale_url": null,
-      "last_updated": "2026-08-04",
+      "last_updated": "2026-09-04",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1274,10 +1274,10 @@
       "presale": false,
       "presale_datetime": "2026-07-22T10:00:00-07:00",
       "presale_url": null,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-07-24T10:00:00-07:00",
       "general_sale_url": null,
-      "last_updated": "2026-08-14",
+      "last_updated": "2026-09-04",
       "last_researched_by": "en-researcher"
     },
     {
@@ -6129,6 +6129,575 @@
       "image_url": null,
       "publisher": null,
       "last_updated": "2026-09-01",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-shakira-las-mujeres-ya-no-lloran-madrid-20260918",
+      "name": "Shakira: Las Mujeres Ya No Lloran World Tour - Madrid Residency Opening Night",
+      "release_date": "2026-09-18",
+      "release_time": "20:30",
+      "release_date_approx": false,
+      "timezone": "Europe/Madrid",
+      "category": "concert_tour",
+      "platforms": [
+        "Iberdrola Music(Shakira Stadium), Madrid, Spain"
+      ],
+      "developer": "Shakira",
+      "publisher": "Live Nation",
+      "description": "Shakira opens a twelve-night European residency at Iberdrola Music in the Villaverde district of Madrid on September 18, 2026, her first Spanish concert in eight years. The promoter has built a temporary arena billed as Shakira Stadium for the run, holding more than 50,000 people a night. The residency closes out her Las Mujeres Ya No Lloran World Tour and runs alongside a Latin culture programme called Es Latina.",
+      "genres": [
+        "Latin",
+        "Pop",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://iberdrolamusic.com/en/eventos/shakira/",
+      "last_updated": "2026-09-04",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_url": "https://www.livenation.es/shakira-tickets-adp41381",
+      "presale": false
+    },
+    {
+      "id": "en-shakira-las-mujeres-ya-no-lloran-madrid-20261011",
+      "name": "Shakira: Las Mujeres Ya No Lloran World Tour - Madrid Residency Final Night",
+      "release_date": "2026-10-11",
+      "release_time": "20:30",
+      "release_date_approx": false,
+      "timezone": "Europe/Madrid",
+      "category": "concert_tour",
+      "platforms": [
+        "Iberdrola Music(Shakira Stadium), Madrid, Spain"
+      ],
+      "developer": "Shakira",
+      "publisher": "Live Nation",
+      "description": "The twelfth and final night of Shakira's Madrid residency falls on October 11, 2026 at Iberdrola Music, bringing the Las Mujeres Ya No Lloran World Tour to a close. The residency is spread across four weekends in September and October, with shows on the 18th, 19th, 20th, 25th, 26th and 27th of September and the 2nd, 3rd, 4th, 9th, 10th and 11th of October. Each night uses a purpose-built 50,000-capacity temporary stadium.",
+      "genres": [
+        "Latin",
+        "Pop",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://iberdrolamusic.com/en/eventos/shakira/",
+      "last_updated": "2026-09-04",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://www.livenation.es/shakira-tickets-adp41381",
+      "presale": false
+    },
+    {
+      "id": "en-katseye-wildworld-tour-london-20260904",
+      "name": "KATSEYE: THE WILDWORLD TOUR - London",
+      "release_date": "2026-09-04",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "The O2 Arena, London"
+      ],
+      "developer": "KATSEYE",
+      "publisher": "Live Nation",
+      "description": "KATSEYE play the second of two nights at The O2 arena in London on September 4, 2026, part of the group's first headline arena run. The Wildworld Tour opened September 1 in Dublin and supports the HYBE x Geffen EP 'WILD'. The London shows were added after the original single date sold out, with doors at 6:30pm and a 16-plus restriction on floor tickets.",
+      "genres": [
+        "Pop",
+        "K-pop",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.theo2.co.uk/events/detail/katseye",
+      "last_updated": "2026-09-04",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://www.axs.com/uk/series/32970/katseye-at-the-o2-tickets?skin=theo2",
+      "presale": false
+    },
+    {
+      "id": "en-katseye-wildworld-tour-belmont-park-20261024",
+      "name": "KATSEYE: THE WILDWORLD TOUR - Belmont Park",
+      "release_date": "2026-10-24",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "UBS Arena, Belmont Park, NY"
+      ],
+      "developer": "KATSEYE",
+      "publisher": "Live Nation",
+      "description": "KATSEYE bring The Wildworld Tour to UBS Arena in Belmont Park, New York on October 24, 2026, the first of two consecutive nights at the Long Island venue. The North American leg opens October 13 in Miami and runs through late November, ending in Mexico City. Tickets went on general sale in May 2026 and several dates sold out quickly.",
+      "genres": [
+        "Pop",
+        "K-pop",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/05/katseye-2026-wildworld-tour-how-to-get-tickets/",
+      "last_updated": "2026-09-04",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "presale": false
+    },
+    {
+      "id": "en-katseye-wildworld-tour-oakland-20261119",
+      "name": "KATSEYE: THE WILDWORLD TOUR - Oakland",
+      "release_date": "2026-11-19",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Oakland Arena, Oakland, CA"
+      ],
+      "developer": "KATSEYE",
+      "publisher": "Live Nation",
+      "description": "KATSEYE play Oakland Arena on November 19, 2026 as the Wildworld Tour reaches Northern California. The date sits between stops in Seattle and Los Angeles on a West Coast run that closes the group's first North American arena tour. The show supports 'WILD', the third EP from the Los Angeles-based group formed through HYBE and Geffen's Dream Academy programme.",
+      "genres": [
+        "Pop",
+        "K-pop",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/05/katseye-2026-wildworld-tour-how-to-get-tickets/",
+      "last_updated": "2026-09-04",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "presale": false
+    },
+    {
+      "id": "en-katseye-wildworld-tour-los-angeles-20261121",
+      "name": "KATSEYE: THE WILDWORLD TOUR - Los Angeles",
+      "release_date": "2026-11-21",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Crypto.com Arena, Los Angeles, CA"
+      ],
+      "developer": "KATSEYE",
+      "publisher": "Live Nation",
+      "description": "KATSEYE headline Crypto.com Arena on November 21, 2026, the first of two hometown nights in Los Angeles near the end of the Wildworld Tour. The group is based in Los Angeles, making the pair of arena shows the largest headline dates they have played in the city. Two further shows in Mexico City close the tour the following week.",
+      "genres": [
+        "Pop",
+        "K-pop",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/05/katseye-2026-wildworld-tour-how-to-get-tickets/",
+      "last_updated": "2026-09-04",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "presale": false
+    },
+    {
+      "id": "en-rush-fifty-something-houston-20261001",
+      "name": "Rush: Fifty Something Tour - Houston",
+      "release_date": "2026-10-01",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Chicago",
+      "category": "concert_tour",
+      "platforms": [
+        "Toyota Center, Houston, TX"
+      ],
+      "developer": "Rush",
+      "publisher": null,
+      "description": "Rush added Houston's Toyota Center on October 1, 2026 as one of four new single-night stops on the Fifty Something Tour, announced in late August. The reunion run marks the band's return to the road with Anika Nilles on drums. General tickets and VIP packages for the four added shows go on sale September 4, 2026 at 10am local time through Ticketmaster.",
+      "genres": [
+        "Rock",
+        "Progressive Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.rush.com/4-new-rush-2026-tour-dates-added/",
+      "last_updated": "2026-09-04",
+      "last_researched_by": "en-researcher",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-04T10:00:00-05:00"
+    },
+    {
+      "id": "en-rush-fifty-something-pittsburgh-20261115",
+      "name": "Rush: Fifty Something Tour - Pittsburgh",
+      "release_date": "2026-11-15",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "PPG Paints Arena, Pittsburgh, PA"
+      ],
+      "developer": "Rush",
+      "publisher": null,
+      "description": "Rush play PPG Paints Arena in Pittsburgh on November 15, 2026, the latest of four cities added to the Fifty Something Tour in August 2026. The other additions are Houston on October 1, St. Louis on October 21 and Cincinnati on October 23. The tour was already routed into April 2027 before the band found room for the extra fall dates.",
+      "genres": [
+        "Rock",
+        "Progressive Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.rush.com/4-new-rush-2026-tour-dates-added/",
+      "last_updated": "2026-09-04",
+      "last_researched_by": "en-researcher",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-04T10:00:00-04:00"
+    },
+    {
+      "id": "en-fontaines-dc-slane-castle-20270626",
+      "name": "Fontaines D.C. at Slane Castle 2027",
+      "release_date": "2027-06-26",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/Dublin",
+      "category": "concert_tour",
+      "platforms": [
+        "Slane Castle, County Meath, Ireland"
+      ],
+      "developer": "Fontaines D.C., Hayley Williams, Damien Dempsey, Madra Salach",
+      "publisher": null,
+      "description": "Fontaines D.C. headline Slane Castle in County Meath on June 26, 2027, the largest show of the Dublin band's career at a site with capacity for around 80,000. Hayley Williams, Damien Dempsey and Madra Salach are among the announced support acts. The band become only the third Irish act to headline Slane, after U2 and Thin Lizzy. General sale opened September 3, 2026.",
+      "genres": [
+        "Rock",
+        "Post-punk",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Fontaines_D.C._%2849135254267%29.jpg",
+      "source_url": "https://www.slanecastle.ie/2026/08/31/slane-concert-announcement-2027-fontaines-d-c/",
+      "last_updated": "2026-09-04",
+      "last_researched_by": "en-researcher",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-03T10:00:00+01:00"
+    },
+    {
+      "id": "en-fontaines-dc-slane-castle-20270627",
+      "name": "Fontaines D.C. at Slane Castle 2027 - Second Night",
+      "release_date": "2027-06-27",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/Dublin",
+      "category": "concert_tour",
+      "platforms": [
+        "Slane Castle, County Meath, Ireland"
+      ],
+      "developer": "Fontaines D.C., Hayley Williams, Damien Dempsey, Madra Salach",
+      "publisher": null,
+      "description": "A second Slane Castle date was added on September 2, 2026 after demand for the original show, putting Fontaines D.C. on the County Meath hillside on Sunday June 27, 2027 as well as the Saturday. Back-to-back nights at Slane are rare; the venue normally hosts a single concert per year. The same bill of guests is expected across both days.",
+      "genres": [
+        "Rock",
+        "Post-punk",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Fontaines_D.C._%2849135254267%29.jpg",
+      "source_url": "https://www.rte.ie/entertainment/2026/0902/1590055-fontaines-d-c-add-second-date-at-slane-castle-next-june/",
+      "last_updated": "2026-09-04",
+      "last_researched_by": "en-researcher",
+      "presale": false,
+      "general_sale": true
+    },
+    {
+      "id": "en-neighbourhood-weekender-2027-20270529",
+      "name": "Neighbourhood Weekender 2027",
+      "release_date": "2027-05-29",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "festival",
+      "platforms": [
+        "Victoria Park, Warrington, England"
+      ],
+      "developer": null,
+      "publisher": null,
+      "description": "Neighbourhood Weekender returns to Victoria Park in Warrington on May 29 and 30, 2027, with the line-up revealed unusually early in September 2026. Paul Heaton, joined by guest vocalist Rianne Downey, and The Reytons co-headline the Saturday, and Courteeners close the festival on the Sunday. Rick Astley plays a hometown set, and the Sunday hosts the festival's first Hacienda Presents takeover with Graeme Park and K-Klass.",
+      "genres": [
+        "Festival",
+        "Rock",
+        "Indie"
+      ],
+      "image_url": null,
+      "source_url": "https://www.nme.com/news/music/neighbourhood-weekender-2027-line-up-paul-heaton-courteeners-reytons-more-3965822",
+      "last_updated": "2026-09-04",
+      "last_researched_by": "en-researcher",
+      "festival_days": [
+        {
+          "date": "2027-05-29",
+          "lineup": [
+            "Paul Heaton",
+            "The Reytons",
+            "The Vaccines",
+            "Kingfishr",
+            "Rick Astley"
+          ]
+        },
+        {
+          "date": "2027-05-30",
+          "lineup": [
+            "Courteeners",
+            "The Fratellis",
+            "The Coral",
+            "Gabrielle",
+            "Badly Drawn Boy"
+          ]
+        }
+      ],
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-04T09:30:00+01:00"
+    },
+    {
+      "id": "en-melanie-martinez-hades-the-sacrifice-london-20260911",
+      "name": "Melanie Martinez: HADES - THE SACRIFICE - London",
+      "release_date": "2026-09-11",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "The O2 Arena, London"
+      ],
+      "developer": "Melanie Martinez",
+      "publisher": "Live Nation",
+      "description": "Melanie Martinez brings the HADES: THE SACRIFICE tour to The O2 arena in London on September 11, 2026. The run supports her fourth album 'Hades', released in March 2026, and introduces a new alter ego named Circle. Martinez has described the staging as cinematic, leaning on practical effects and camera illusions rather than the puppetry of earlier tours. Doors open at 6:30pm.",
+      "genres": [
+        "Pop",
+        "Alternative",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.theo2.co.uk/events/detail/melanie-martinez-2026",
+      "last_updated": "2026-09-04",
+      "last_researched_by": "en-researcher",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_url": "https://www.axs.com/events/1414870/melanie-martinez-tickets"
+    },
+    {
+      "id": "en-pussycat-dolls-pcd-forever-london-20261013",
+      "name": "The Pussycat Dolls: PCD Forever Tour - London",
+      "release_date": "2026-10-13",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "The O2 Arena, London"
+      ],
+      "developer": "The Pussycat Dolls, Lil' Kim, Deja Vu",
+      "publisher": null,
+      "description": "The Pussycat Dolls close the European leg of their PCD Forever reunion tour at The O2 arena in London on October 13, 2026, with Lil' Kim and Deja Vu as special guests. The group reformed in 2026 as a trio of Nicole Scherzinger, Ashley Roberts and Kimberly Wyatt, releasing the single 'Club Song'. The wider tour spans 53 dates across the UK, Europe and North America.",
+      "genres": [
+        "Pop",
+        "R&B",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.theo2.co.uk/events/detail/the-pussycat-dolls-2026",
+      "last_updated": "2026-09-04",
+      "last_researched_by": "en-researcher",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_url": "https://www.axs.com/uk/events/1370388/the-pussycat-dolls-tickets"
+    },
+    {
+      "id": "en-aespa-synk-complaexity-london-20270116",
+      "name": "aespa LIVE TOUR - SYNK : Complaexity - London",
+      "release_date": "2027-01-16",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "The O2 Arena, London"
+      ],
+      "developer": "aespa",
+      "publisher": "Live Nation",
+      "description": "aespa play The O2 arena in London on January 16, 2027 on the 2026-27 SYNK : Complaexity world tour. The group precede the London date with a stop at Manchester's AO Arena on January 14 before the European leg continues to Amsterdam, Stockholm, Copenhagen, Berlin, Milan, Barcelona and Paris. The production is billed as a full rebuild rather than a revival of the earlier SYNK : aeXIS LINE staging.",
+      "genres": [
+        "K-pop",
+        "Pop",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.theo2.co.uk/events/detail/aespa-2027",
+      "last_updated": "2026-09-04",
+      "last_researched_by": "en-researcher",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_url": "https://www.axs.com/events/1425626/aespa-tickets"
+    },
+    {
+      "id": "en-angele-instinct-20261016",
+      "name": "Angèle - Instinct",
+      "release_date": "2026-10-16",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/Brussels",
+      "category": "music_release",
+      "platforms": [
+        "Streaming",
+        "Digital",
+        "CD",
+        "Vinyl"
+      ],
+      "developer": "Angèle",
+      "publisher": "Angèle VL Records / Sony Music",
+      "description": "Belgian singer Angèle releases her third studio album 'Instinct' on October 16, 2026 through Angèle VL Records and Sony Music. The thirteen-track record is her first full-length since 'Nonante-Cinq' in 2021 and features contributions from Justice, Soulwax, Caroline Polachek and SebastiAn. The lead single 'Une seule vie' arrived ahead of the announcement, and the album is framed around movement and letting go.",
+      "genres": [
+        "Pop",
+        "Electronic",
+        "Album"
+      ],
+      "image_url": null,
+      "source_url": "https://www.nme.com/news/music/angele-announces-new-album-instinct-featuring-justice-soulwax-caroline-polachek-and-more-3966093",
+      "last_updated": "2026-09-04",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-lana-del-rey-uk-ireland-tour-glasgow-20250626",
+      "name": "Lana Del Rey: 2025 UK and Ireland Tour - Glasgow",
+      "release_date": "2025-06-26",
+      "release_time": "21:20",
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Hampden Park, Glasgow"
+      ],
+      "developer": "Lana Del Rey, BANKS",
+      "publisher": null,
+      "description": "Lana Del Rey played a sold-out Hampden Park in Glasgow on June 26, 2025 during her first all-stadium tour. BANKS opened at 7:30pm and Del Rey took the stage at 9:20pm at the 50,000-capacity Scottish national stadium. The UK and Ireland run started in Cardiff on June 23 and finished in London on July 4, and reviewers described the Glasgow set as theatrical but restrained.",
+      "genres": [
+        "Pop",
+        "Alternative",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.setlist.fm/setlist/lana-del-rey/2025/hampden-park-glasgow-scotland-4b5e531a.html",
+      "last_updated": "2026-09-04",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-turnstile-never-enough-philadelphia-20250919",
+      "name": "Turnstile: The Never Enough Tour - Philadelphia",
+      "release_date": "2025-09-19",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Highmark Mann Center for the Performing Arts(Highmark Skyline Stage), Philadelphia, PA"
+      ],
+      "developer": "Turnstile, Mannequin Pussy, Speed, Jane Remover",
+      "publisher": null,
+      "description": "Turnstile headlined the Highmark Skyline Stage at the Mann Center in Philadelphia on September 19, 2025 on The Never Enough Tour. Mannequin Pussy, Speed and Jane Remover filled out the bill. The Baltimore band opened with the title track from 'Never Enough' and worked through Seein' Stars, Blackout, Holiday and T.L.C., with local reviewers noting how the newer material widened the group's hardcore foundation.",
+      "genres": [
+        "Hardcore",
+        "Punk",
+        "Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://highmarkmann.org/events/2025-09-19/turnstile",
+      "last_updated": "2026-09-04",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-blink-182-missionary-impossible-hollywood-20250828",
+      "name": "blink-182: Missionary Impossible Tour - Hollywood, FL",
+      "release_date": "2025-08-28",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Hard Rock Live, Hollywood, FL"
+      ],
+      "developer": "blink-182, Alkaline Trio, Beauty School Dropout",
+      "publisher": null,
+      "description": "blink-182 opened the Missionary Impossible tour at Hard Rock Live inside the Seminole Hard Rock Hotel and Casino in Hollywood, Florida on August 28, 2025. Alkaline Trio and Beauty School Dropout supported. The band played a 24-song set that reached back through the catalogue and closed with What's My Age Again, All the Small Things and Dammit. The tour ran until October 19 in Las Vegas.",
+      "genres": [
+        "Punk",
+        "Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://casino.hardrock.com/hollywood/newsroom/2025/04/blink-182-is-coming-to-hard-rock-live-at-seminole-hard-rock-hotel-and-casino-in-hollywood-fla-thursday-aug-28-at-7-pm",
+      "last_updated": "2026-09-04",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-ty-segall-possession-los-angeles-20251006",
+      "name": "Ty Segall: Possession Tour - Los Angeles",
+      "release_date": "2025-10-06",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Teragram Ballroom, Los Angeles, CA"
+      ],
+      "developer": "Ty Segall",
+      "publisher": null,
+      "description": "Ty Segall played the Teragram Ballroom in Los Angeles on October 6, 2025 in support of his album 'Possession'. The show was a rescheduled version of a date originally set for The Bellwether on October 10, and existing tickets were honoured. The set drew across his catalogue, opening with Possession and taking in Love Fuzz, Hello Hi, Harmonizer, Melted and The Bell.",
+      "genres": [
+        "Rock",
+        "Garage Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.setlist.fm/setlist/ty-segall/2025/teragram-ballroom-los-angeles-ca-334eb871.html",
+      "last_updated": "2026-09-04",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-billy-joel-sting-two-icons-indianapolis-20250208",
+      "name": "Billy Joel & Sting: Two Icons - One Night - Indianapolis",
+      "release_date": "2025-02-08",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "America/Indiana/Indianapolis",
+      "category": "concert_tour",
+      "platforms": [
+        "Lucas Oil Stadium, Indianapolis, IN"
+      ],
+      "developer": "Billy Joel, Sting",
+      "publisher": null,
+      "description": "Billy Joel and Sting co-headlined Lucas Oil Stadium in Indianapolis on February 8, 2025 as part of the Two Icons - One Night stadium run. Sting opened the evening with a set that included If I Ever Lose My Faith in You, Englishman in New York, Fragile and Every Breath You Take before Joel closed the night. The show was one of the last Joel played before postponing his 2025 dates.",
+      "genres": [
+        "Rock",
+        "Pop",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.setlist.fm/setlist/billy-joel/2025/lucas-oil-stadium-indianapolis-in-7b530e7c.html",
+      "last_updated": "2026-09-04",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-all-time-low-boston-calling-after-party-allston-20250523",
+      "name": "All Time Low: Boston Calling After Party - Allston",
+      "release_date": "2025-05-23",
+      "release_time": "20:30",
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Brighton Music Hall, Allston, MA"
+      ],
+      "developer": "All Time Low",
+      "publisher": null,
+      "description": "All Time Low played an 18-plus Boston Calling after party at Brighton Music Hall in Allston on May 23, 2025, a club show far smaller than the festival stage they had worked earlier the same day. The set ran roughly ninety minutes at the 500-capacity Allston room, which has operated as a Crossroads Presents venue since opening in 2010.",
+      "genres": [
+        "Pop Punk",
+        "Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.jambase.com/show/all-time-low-brighton-music-hall-20250523",
+      "last_updated": "2026-09-04",
       "last_researched_by": "en-researcher"
     }
   ]
