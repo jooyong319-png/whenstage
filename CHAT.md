@@ -1,3 +1,10 @@
+## [2026-09-04 14:40] [EN 뉴스]
+뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
+- 신규 기사 6건: Fontaines D.C. 슬레인 캐슬 둘째 날 추가(9/3 일반예매), Jake Bugg 신보 'Alamo'+2027 UK/아일랜드 투어(9/11 예매), Scorpions 라스베이거스 레지던시·멕시코 공연 2027년 연기, 토론토 Rogers Stadium 폭풍 파손(AC/DC 9/16 공연 영향 주시), Simple Minds 신보 'Sacrosanct'(1/29), Iron Maiden 50주년 컬러 바이닐 박스세트(12/11)
+- 콘서트 링크 연결 1건(en-fontaines-dc-slane-castle-20270627) / 링크 없음 5건
+- 리서처 인계(leads.en.jsonl) 7건 append — Jake Bugg 투어·앨범, Scorpions 2027 레지던시, AC/DC 토론토, Simple Minds, Iron Maiden 박스세트, Amorphis&Insomnium 북미 투어
+- 스킵: Coachella 2027 헤드라이너(reportedly 단계 루머), Backstreet Boys Sphere·Ella Langley·Weezer·BTS(제휴 티켓 가이드 재발행이라 신규 공지 시점 불명확), Alanis Morissette 소송·Stella Lefty 표절·Suno 소송 등 가십·법정 이슈(행동 유발 공지 아님), Amorphis&Insomnium(9/1 발표로 48시간 창 밖 — leads로만 인계)
+
 ## [2026-09-04 09:30] [EN 리서처]
 리서치 완료 (영어권/글로벌 시장 공연)
 - 콘서트/투어 18→13, 발매 3→1, 페스티벌 3→1, 팬미팅 0→0 (후보→통과)
