@@ -440,6 +440,59 @@
       "source_url": "https://tobe-official.jp/artists/number_i/news/1333"
     },
     {
+      "id": "ja-local-green-festival-25-20251108",
+      "name": "ローカルグリーンフェスティバル'25",
+      "release_date": "2025-11-08",
+      "release_time": "12:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "festival",
+      "platforms": [
+        "横浜赤レンガ倉庫"
+      ],
+      "developer": null,
+      "publisher": null,
+      "description": "「Life with Green」をコンセプトに2018年から続く緑と音楽のカルチャーフェスが、2025年11月8日・9日の2日間、横浜赤レンガ倉庫で開催された。両日とも開場11:00・開演12:00で行われ、初日はウルフルズ、iri、SIRUP、JP THE WAVY、eill、Jeremy Quartus(Nulbarich)らが、2日目はASIAN KUNG-FU GENERATION、PUNPEE & BIM、MONKEY MAJIK、SHISHAMO、水曜日のカンパネラ、TENDREらが出演した。ライブに加えヴィンテージマーケットやグリーンマーケット、フードエリアも並び、海沿いのロケーションで音楽と買い物を同時に楽しめる構成だった。1日券12,000円・2日通し券20,000円で、チケットは2025年9月8日12時から発売された。",
+      "genres": [
+        "フェスティバル",
+        "J-POP",
+        "野外"
+      ],
+      "image_url": null,
+      "source_url": "https://www.fashion-press.net/news/136696",
+      "last_updated": "2026-09-05",
+      "last_researched_by": "ja-researcher",
+      "festival_days": [
+        {
+          "date": "2025-11-08",
+          "lineup": [
+            "ウルフルズ",
+            "Jeremy Quartus (Nulbarich)",
+            "iri",
+            "SIRUP",
+            "JP THE WAVY",
+            "スカート",
+            "eill",
+            "DJ KOCO aka SHIMOKITA",
+            "DJ Mitsu the Beats"
+          ]
+        },
+        {
+          "date": "2025-11-09",
+          "lineup": [
+            "ASIAN KUNG-FU GENERATION",
+            "PUNPEE & BIM",
+            "MONKEY MAJIK",
+            "SHISHAMO",
+            "水曜日のカンパネラ",
+            "TENDRE",
+            "grooveman Spot",
+            "YonYon"
+          ]
+        }
+      ]
+    },
+    {
       "id": "ja-chevon-yoshinani-zenkoku-final-20251115",
       "name": "Chevon pre. よしなに 〜全国編〜 ツアーファイナル（Zepp Haneda）",
       "release_date": "2025-11-15",
@@ -1114,6 +1167,52 @@
       ],
       "image_url": null,
       "source_url": "https://www.billboard-japan.com/d_news/detail/163940"
+    },
+    {
+      "id": "ja-super-beaver-dome-tour-osaka-20260801",
+      "name": "SUPER BEAVER「都会のラクダ DOME TOUR 2026」京セラドーム大阪公演(1日目)",
+      "release_date": "2026-08-01",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "京セラドーム大阪"
+      ],
+      "developer": "SUPER BEAVER",
+      "publisher": "ディスクガレージ",
+      "description": "結成21年目のSUPER BEAVERが初めて挑んだドーム・ツアーの開幕公演。2026年8月1日に京セラドーム大阪で行われ、翌2日と合わせた大阪2days でツアーの幕が開いた。2025年の20周年に立ち上げた「都会のラクダ」シリーズの到達点として企画されたもので、2018年の初の日本武道館公演からアリーナ、スタジアムと規模を広げてきた歩みの先にある、バンド最大規模のツアーとなった。会場ではガチャブースや友の会ブース、会場限定CD特典の販売も行われた。",
+      "genres": [
+        "J-ROCK",
+        "ドームツアー"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/SUPER_BEAVER.jpg/500px-SUPER_BEAVER.jpg",
+      "source_url": "https://sp.super-beaver.com/feature/dometour2026",
+      "last_updated": "2026-09-05",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-super-beaver-dome-tour-osaka-20260802",
+      "name": "SUPER BEAVER「都会のラクダ DOME TOUR 2026」京セラドーム大阪公演(2日目)",
+      "release_date": "2026-08-02",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "京セラドーム大阪"
+      ],
+      "developer": "SUPER BEAVER",
+      "publisher": "ディスクガレージ",
+      "description": "SUPER BEAVER「都会のラクダ DOME TOUR 2026」の京セラドーム大阪2日目公演。2026年8月2日に開催され、大阪2days を締めくくった。ツアーはこのあと9月22日・23日の東京ドーム2公演へと続き、全4公演すべてが完売している。当日は会場ブースが10:00からオープンし、友の会モバイルくじや会場限定のCD特典なども用意された。",
+      "genres": [
+        "J-ROCK",
+        "ドームツアー"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/SUPER_BEAVER.jpg/500px-SUPER_BEAVER.jpg",
+      "source_url": "https://sp.super-beaver.com/feature/dometour2026",
+      "last_updated": "2026-09-05",
+      "last_researched_by": "ja-researcher"
     },
     {
       "id": "ja-fukuyama-masaharu-dome-2026-20260805",
