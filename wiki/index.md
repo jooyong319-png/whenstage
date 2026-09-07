@@ -8,6 +8,9 @@ WhenStage = 콘서트/음원 발매 캘린더. gcalen(게임 출시 캘린더, `
 브랜드명 "WhenStage" 확정(2026-07-22).
 
 - 저장소: https://github.com/jooyong319-png/whenstage · 도메인: whenstage.com · 배포: Vercel
+- **사이트맵 1,654 URL · 공연 ko 208·en 244·ja 216 · 뉴스 271편 · 블로그 56편** (2026-09-08)
+  - 읽을거리(news·blog·guide)가 전체의 20% — 이게 딱칼크와 갈린 지점이다(→ [[decisions]])
+  - 검사: `npm run validate`(데이터) · `validate:blog`(글) · `axe`(접근성, 모션 끄고)
 
 ## 코어
 - [[SCHEMA]] — 위키 사용법 + 2단 구조(프로젝트/통합) + 3동작(ingest/query/lint) (먼저 읽기)
