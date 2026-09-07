@@ -4,6 +4,10 @@
   "buildCommand": "next build",
   "installCommand": "npm install",
   "crons": [
-    { "path": "/api/cron/notify", "schedule": "0 0 * * *" }
-  ]
+    {
+      "path": "/api/cron/notify",
+      "schedule": "0 0 * * *"
+    }
+  ],
+  "ignoreCommand": "node scripts/should-build.mjs"
 }
