@@ -67,7 +67,20 @@ function gameToCard(game: Game, isPreReg: boolean, lang: Locale | null, now: Dat
 
 function FeaturedCard({ data }: { data: CardData }) {
   return (
-    <Link href={data.href} className={styles.card}>
+    /*
+     * prefetch={false} — 이 카드는 PageShell의 기본 사이드바라 **모든 페이지에** 4개가
+     * 붙는다. 기본값이면 페이지가 열릴 때마다 4개를 미리 당겨오므로, 요청 1건이
+     * ISR 읽기 5건(자기 자신 + 4)이 된다.
+     *
+     * 실제로 그렇게 되고 있었다(2026-09-07). Vercel 사용량이 이랬다:
+     *   Edge Requests  219K
+     *   ISR Reads      901K   ← 4.1배
+     * 라이브에서 재보니 /ko/concert·/ko/venue 모두 페이지당 RSC prefetch가 정확히 4건이었다.
+     *
+     * App Router에서 false는 "뷰포트 진입 시 안 함"이지 "절대 안 함"이 아니다 —
+     * 마우스를 올리면 그때 당겨온다. 그래서 눌렀을 때의 체감은 거의 그대로다.
+     */
+    <Link href={data.href} className={styles.card} prefetch={false}>
       <div className={styles.main}>
         <span className={styles.badge} style={{ background: data.badgeColor, color: data.badgeTextColor }}>{data.badge}</span>
         <span className={styles.name}>{data.name}</span>
