@@ -5444,6 +5444,107 @@
       "general_sale_url": "https://tickets.interpark.com/goods/26013013",
       "last_updated": "2026-09-07",
       "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-9muses-muse-on-seoul-20250831",
+      "name": "2025 나인뮤지스 팬미팅 [MUSE : on]",
+      "release_date": "2025-08-31",
+      "release_time": "14:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "성암아트홀"
+      ],
+      "developer": "나인뮤지스(9MUSES)",
+      "publisher": "유니온픽처스",
+      "description": "해체 7년 만에 다시 뭉친 나인뮤지스가 2025년 8월 31일 서울 성암아트홀에서 데뷔 15주년 기념 팬미팅 [MUSE : on]을 열었다. 오후 2시와 6시 두 차례 진행됐고 문현아, 이유애린, 성아, 경리, 혜미, 민하, 소진, 금조 등 여덟 명이 무대에 올랐다. 완전체 재결합이 무산된 뒤 마련된 자리였던 만큼 히트곡 무대와 함께 활동 시절을 돌아보는 토크 코너로 채워졌고, 8월 11일에는 추가 티켓 오픈이 진행될 정도로 반응이 뜨거웠다.",
+      "genres": [
+        "K-POP",
+        "팬미팅"
+      ],
+      "image_url": null,
+      "source_url": "https://plus.hankyung.com/apps/newsinside.view?aid=2025072993194",
+      "presale": false,
+      "general_sale": false,
+      "last_updated": "2026-09-07",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-johangjo-saenggak-bucheon-20260809",
+      "name": "조항조 전국투어 콘서트 : 생각 - 부천",
+      "release_date": "2026-08-09",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "부천시민회관(대공연장)"
+      ],
+      "developer": "조항조",
+      "publisher": "굿초이스",
+      "description": "조항조가 2026년 8월 9일 오후 6시 경기 부천시민회관 대공연장에서 전국투어 콘서트 '생각'의 부천 공연을 열었다. 목포, 김해, 의정부 등을 거쳐 전국을 돌던 투어의 한 회차로, 1,041석 규모의 대공연장에서 진행됐다. '남자라는 이유로', '거짓말', '만약에'를 비롯한 대표곡과 함께 무대 사이사이 관객과 주고받는 이야기로 채워졌다. 티켓은 NOL 티켓에서 판매됐고 VIP석 12만1000원, R석 11만원, S석 9만9000원이었다.",
+      "genres": [
+        "트로트",
+        "전국투어"
+      ],
+      "image_url": null,
+      "source_url": "https://tickets.interpark.com/contents/notice/detail/14171",
+      "presale": false,
+      "general_sale": false,
+      "last_updated": "2026-09-07",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-changmo-the-emperor-seoul-20260509",
+      "name": "〈CHANGMO : THE EMPEROR〉",
+      "release_date": "2026-05-09",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "세종문화회관(대극장)"
+      ],
+      "developer": "창모(CHANGMO)",
+      "publisher": "세종문화회관",
+      "description": "래퍼 창모가 2026년 5월 9일과 10일 서울 세종문화회관 대극장에서 첫 단독 콘서트 〈CHANGMO : THE EMPEROR〉를 열었다. 힙합 아티스트가 세종문화회관 대극장에서 단독 공연을 연 첫 사례로, 9일은 오후 7시 30분, 10일은 오후 5시에 시작해 약 120분간 이어졌다. 창모는 대표곡들을 풀 오케스트라 편성으로 재해석했고 직접 피아노를 연주하는 무대도 선보였다. 티켓은 EMPEROR석 14만3000원부터 S석 8만8000원까지로 책정됐다.",
+      "genres": [
+        "힙합",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://www.khan.co.kr/article/202603041738011",
+      "presale": false,
+      "general_sale": false,
+      "last_updated": "2026-09-07",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-hitorie-hitori-escape-seoul-20260823",
+      "name": "HITORIE HITORI-ESCAPE ASIA TOUR 2026 in Seoul",
+      "release_date": "2026-08-23",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KT&G 상상마당 홍대(라이브홀)"
+      ],
+      "developer": "히토리에(HITORIE)",
+      "publisher": "하이징크스(HIGHJINKX)",
+      "description": "일본 3인조 록 밴드 히토리에가 2026년 8월 23일 오후 5시 서울 KT&G 상상마당 홍대 라이브홀에서 'HITORI-ESCAPE ASIA TOUR 2026' 서울 공연을 열었다. 아시아 투어의 한국 일정으로 약 90분간 전체관람가로 진행됐으며 티켓은 1인 2매로 제한됐다. 보컬로이드 프로듀서 wowaka가 결성한 밴드로 국내에도 두꺼운 팬층을 갖고 있어 예매는 일찌감치 마감됐다. 주최·주관은 하이징크스가 맡았고 티켓은 예스24 티켓에서 판매됐다.",
+      "genres": [
+        "록",
+        "내한",
+        "J-ROCK"
+      ],
+      "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202606/20260623/20260623-59024.jpg",
+      "source_url": "https://ticket.yes24.com/Perf/59024",
+      "presale": false,
+      "general_sale": false,
+      "last_updated": "2026-09-07",
+      "last_researched_by": "ko-researcher"
     }
   ]
 }
