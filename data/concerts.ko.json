@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-07",
+  "last_updated": "2026-09-08",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -354,8 +354,8 @@
         "재즈"
       ],
       "image_url": null,
-      "source_url": "https://www.soundnect.com/news/429936",
-      "last_updated": "2026-08-20",
+      "source_url": "https://www.newswire.co.kr/newsRead.php?no=1020670",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -505,8 +505,8 @@
         "내한"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Giveon_at_2026_Montreux_Jazz_Festival_-_Upright.png/330px-Giveon_at_2026_Montreux_Jazz_Festival_-_Upright.png",
-      "source_url": "https://www.livenation.kr/event/giv%C4%93on-dear-beloved-the-tour-seoul-tickets-edp1638152",
-      "last_updated": "2026-08-01",
+      "source_url": "https://www.koreajoongangdaily.com/lifestyle/rb-artist-giveon-to-kick-off-first-asia-tour-with-korea-shows/12104370",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -528,8 +528,8 @@
         "단독공연"
       ],
       "image_url": null,
-      "source_url": "https://tickets.interpark.com/contents/notice/detail/11534",
-      "last_updated": "2026-08-17",
+      "source_url": "https://www.goodkyung.com/news/articleView.html?idxno=248168",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -599,8 +599,8 @@
         "내한"
       ],
       "image_url": null,
-      "source_url": "https://tickets.interpark.com/contents/notice/detail/11831",
-      "last_updated": "2026-08-02",
+      "source_url": "https://news.nate.com/view/20251118n32406",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -647,8 +647,8 @@
         "솔로"
       ],
       "image_url": null,
-      "source_url": "https://www.ldh.co.jp/eng/news/detail.php?lang=eng&site=TRIBE&newsid=0000053619",
-      "last_updated": "2026-08-27",
+      "source_url": "https://www.ticketlink.co.kr/product/61121",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -1285,8 +1285,8 @@
       "general_sale": false,
       "general_sale_datetime": "2026-04-16T19:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/contents/notice/detail/13341",
-      "last_updated": "2026-08-20",
+      "general_sale_url": "https://tickets.interpark.com/goods/26005670",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -1336,8 +1336,9 @@
         "콘서트"
       ],
       "image_url": null,
-      "source_url": "https://tickets.interpark.com/contents/notice/detail/13718",
-      "last_updated": "2026-08-03"
+      "source_url": "https://tickets.interpark.com/goods/26006578",
+      "last_updated": "2026-09-08",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-nflying-into-rem-daegu-20260808",
@@ -1575,7 +1576,7 @@
         "내한"
       ],
       "image_url": "https://dynamicmedia.livenationinternational.com/x/e/r/5dc71eb3-4447-442d-8447-7fc4f2744b60.jpg",
-      "source_url": "https://www.livenation.kr/event/jack-white-live-2026-in-seoul-seoul-tickets-edp1672337",
+      "source_url": "https://ticket.yes24.com/Perf/58375",
       "presale": false,
       "presale_datetime": "2026-05-14T12:00:00+09:00",
       "presale_end_datetime": null,
@@ -1584,7 +1585,7 @@
       "general_sale_datetime": "2026-05-15T12:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.yes24.com/Perf/58375",
-      "last_updated": "2026-08-20",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -2000,8 +2001,8 @@
         "콘서트"
       ],
       "image_url": null,
-      "source_url": "https://tickets.interpark.com/contents/notice/detail/14327",
-      "last_updated": "2026-08-27",
+      "source_url": "https://tickets.interpark.com/goods/26009186",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher",
       "presale": false,
       "general_sale": false
@@ -2620,10 +2621,12 @@
         "콘서트"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Temp_1662384481565.-511956263.jpg",
-      "source_url": "https://tickets.interpark.com/contents/notice/detail/14497",
+      "source_url": "https://tickets.interpark.com/goods/26009868",
       "general_sale": true,
       "general_sale_datetime": "2026-07-16T20:00:00+09:00",
-      "general_sale_url": "https://tickets.interpark.com/goods/26009868"
+      "general_sale_url": "https://tickets.interpark.com/goods/26009868",
+      "last_updated": "2026-09-08",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-monstax-the-phase-20260904",
@@ -3266,12 +3269,12 @@
         "콘서트"
       ],
       "image_url": null,
-      "source_url": "https://tickets.interpark.com/contents/notice/detail/14375",
+      "source_url": "https://tickets.interpark.com/goods/26009236",
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-08-24",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -3417,7 +3420,7 @@
         "K-POP"
       ],
       "image_url": null,
-      "source_url": "https://tickets.interpark.com/contents/notice/detail/14554",
+      "source_url": "https://tickets.interpark.com/goods/26010264",
       "presale": false,
       "presale_datetime": "2026-07-22T20:00:00+09:00",
       "presale_end_datetime": "2026-07-22T23:59:59+09:00",
@@ -3425,7 +3428,9 @@
       "general_sale": true,
       "general_sale_datetime": "2026-07-23T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26010264"
+      "general_sale_url": "https://tickets.interpark.com/goods/26010264",
+      "last_updated": "2026-09-08",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-kimyongbin-serenade-seoul-20260919",
@@ -3455,7 +3460,7 @@
       "general_sale_datetime": "2026-08-10T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-09-07",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -3554,12 +3559,12 @@
         "내한"
       ],
       "image_url": null,
-      "source_url": "https://tickets.interpark.com/contents/notice/detail/14058",
+      "source_url": "https://tickets.interpark.com/goods/26008115",
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-24",
+      "general_sale_url": "https://tickets.interpark.com/goods/26008115",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -3730,13 +3735,13 @@
         "콘서트"
       ],
       "image_url": null,
-      "source_url": "https://tickets.interpark.com/contents/notice/detail/14782",
+      "source_url": "https://tickets.interpark.com/goods/26011092",
       "presale": false,
       "presale_datetime": "2026-08-10T20:00:00+09:00",
       "general_sale": true,
       "general_sale_datetime": "2026-08-11T20:00:00+09:00",
-      "general_sale_url": null,
-      "last_updated": "2026-08-24",
+      "general_sale_url": "https://tickets.interpark.com/goods/26011092",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -3759,7 +3764,7 @@
         "단독공연"
       ],
       "image_url": null,
-      "source_url": "https://tickets.interpark.com/contents/notice/detail/15018",
+      "source_url": "https://tickets.interpark.com/goods/26012515",
       "presale": false,
       "presale_datetime": null,
       "presale_end_datetime": null,
@@ -3767,8 +3772,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-01T18:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-31",
+      "general_sale_url": "https://tickets.interpark.com/goods/26012515",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -3952,7 +3957,7 @@
         "콘서트"
       ],
       "image_url": null,
-      "source_url": "https://tickets.interpark.com/contents/notice/detail/15070",
+      "source_url": "https://tickets.interpark.com/goods/26012383",
       "presale": true,
       "presale_datetime": "2026-09-03T20:00:00+09:00",
       "presale_end_datetime": "2026-09-07T23:59:00+09:00",
@@ -3960,8 +3965,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-08T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-31",
+      "general_sale_url": "https://tickets.interpark.com/goods/26012383",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -4120,7 +4125,7 @@
         "내한"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Zara_Larsson_Midnight_Sun_European_Tour_%28cropped%29_%28cropped%29.jpg/330px-Zara_Larsson_Midnight_Sun_European_Tour_%28cropped%29_%28cropped%29.jpg",
-      "source_url": "https://tickets.interpark.com/contents/notice/detail/14009",
+      "source_url": "https://www.livenation.kr/event/zara-larsson-midnight-sun-tour-seoul-tickets-edp1680726",
       "presale": false,
       "presale_datetime": "2026-06-08T12:00:00+09:00",
       "presale_end_datetime": "2026-06-08T15:00:00+09:00",
@@ -4128,7 +4133,9 @@
       "general_sale": true,
       "general_sale_datetime": "2026-06-11T12:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://www.livenation.kr/event/zara-larsson-midnight-sun-tour-seoul-tickets-edp1680726"
+      "general_sale_url": "https://www.livenation.kr/event/zara-larsson-midnight-sun-tour-seoul-tickets-edp1680726",
+      "last_updated": "2026-09-08",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-theweeknd-after-hours-til-dawn-goyang-20261007",
@@ -4234,7 +4241,7 @@
         "콘서트"
       ],
       "image_url": null,
-      "source_url": "https://tickets.interpark.com/contents/notice/detail/15045",
+      "source_url": "https://tickets.interpark.com/goods/26012479",
       "presale": true,
       "presale_datetime": "2026-09-10T20:00:00+09:00",
       "presale_end_datetime": "2026-09-10T23:59:00+09:00",
@@ -4242,8 +4249,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-11T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-31",
+      "general_sale_url": "https://tickets.interpark.com/goods/26012479",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -4297,7 +4304,7 @@
         "콘서트"
       ],
       "image_url": null,
-      "source_url": "https://tickets.interpark.com/contents/notice/detail/14868",
+      "source_url": "https://tickets.interpark.com/goods/26011526",
       "presale": false,
       "presale_datetime": null,
       "presale_end_datetime": null,
@@ -4305,8 +4312,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-08T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-31",
+      "general_sale_url": "https://tickets.interpark.com/goods/26011526",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -4329,7 +4336,7 @@
         "내한공연"
       ],
       "image_url": null,
-      "source_url": "https://tickets.interpark.com/contents/notice/detail/15064",
+      "source_url": "https://tickets.interpark.com/goods/26012710",
       "presale": false,
       "presale_datetime": null,
       "presale_end_datetime": null,
@@ -4337,8 +4344,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-03T18:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-31",
+      "general_sale_url": "https://tickets.interpark.com/goods/26012710",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -4415,7 +4422,7 @@
         "팬미팅"
       ],
       "image_url": null,
-      "source_url": "https://tickets.interpark.com/contents/notice/detail/15002",
+      "source_url": "https://tickets.interpark.com/goods/26012215",
       "presale": true,
       "presale_datetime": "2026-09-09T20:00:00+09:00",
       "presale_end_datetime": null,
@@ -4423,8 +4430,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-11T19:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-31",
+      "general_sale_url": "https://tickets.interpark.com/goods/26012215",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -4486,7 +4493,7 @@
         "단독공연"
       ],
       "image_url": null,
-      "source_url": "https://tickets.interpark.com/contents/notice/detail/15075",
+      "source_url": "https://tickets.interpark.com/goods/26012694",
       "presale": false,
       "presale_datetime": null,
       "presale_end_datetime": null,
@@ -4494,8 +4501,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-04T17:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-31",
+      "general_sale_url": "https://tickets.interpark.com/goods/26012694",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -4659,7 +4666,7 @@
         "콘서트"
       ],
       "image_url": null,
-      "source_url": "https://tickets.interpark.com/contents/notice/detail/15060",
+      "source_url": "https://tickets.interpark.com/goods/26012668",
       "presale": true,
       "presale_datetime": "2026-09-08T20:00:00+09:00",
       "presale_end_datetime": null,
@@ -4667,8 +4674,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-09T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-31",
+      "general_sale_url": "https://tickets.interpark.com/goods/26012668",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -4722,7 +4729,7 @@
         "팬미팅"
       ],
       "image_url": null,
-      "source_url": "https://tickets.interpark.com/contents/notice/detail/14922",
+      "source_url": "https://tickets.interpark.com/goods/26012046",
       "presale": true,
       "presale_datetime": "2026-09-02T20:00:00+09:00",
       "presale_end_datetime": null,
@@ -4730,8 +4737,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-03T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-31",
+      "general_sale_url": "https://tickets.interpark.com/goods/26012046",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -5057,7 +5064,7 @@
         "콘서트"
       ],
       "image_url": null,
-      "source_url": "https://tickets.interpark.com/contents/notice/detail/15078",
+      "source_url": "https://tickets.interpark.com/goods/26012666",
       "presale": false,
       "presale_datetime": null,
       "presale_end_datetime": null,
@@ -5065,8 +5072,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-01T12:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-31",
+      "general_sale_url": "https://tickets.interpark.com/goods/26012666",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -5152,7 +5159,7 @@
         "콘서트"
       ],
       "image_url": null,
-      "source_url": "https://tickets.interpark.com/contents/notice/detail/15051",
+      "source_url": "https://tickets.interpark.com/goods/26012591",
       "presale": true,
       "presale_datetime": "2026-09-11T12:00:00+09:00",
       "presale_end_datetime": "2026-09-11T14:59:00+09:00",
@@ -5160,8 +5167,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-14T12:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-31",
+      "general_sale_url": "https://tickets.interpark.com/goods/26012591",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -5192,7 +5199,7 @@
       "general_sale_datetime": "2026-09-16T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-09-07",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -5217,7 +5224,7 @@
       "source_url": "https://isplus.com/article/view/isp202609020205",
       "presale": false,
       "general_sale": false,
-      "last_updated": "2026-09-07",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -5242,7 +5249,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-09-07",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -5316,7 +5323,7 @@
       "general_sale_datetime": "2026-09-01T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.yes24.com/Perf/59840",
-      "last_updated": "2026-09-07",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -5348,7 +5355,7 @@
       "general_sale_datetime": "2026-09-01T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26012514",
-      "last_updated": "2026-09-07",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -5380,7 +5387,7 @@
       "general_sale_datetime": "2026-09-01T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26012762",
-      "last_updated": "2026-09-07",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -5411,7 +5418,7 @@
       "general_sale_datetime": "2026-09-07T17:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26012920",
-      "last_updated": "2026-09-07",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -5442,7 +5449,7 @@
       "general_sale_datetime": "2026-09-11T12:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26013013",
-      "last_updated": "2026-09-07",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -5467,7 +5474,7 @@
       "source_url": "https://plus.hankyung.com/apps/newsinside.view?aid=2025072993194",
       "presale": false,
       "general_sale": false,
-      "last_updated": "2026-09-07",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -5489,10 +5496,10 @@
         "전국투어"
       ],
       "image_url": null,
-      "source_url": "https://tickets.interpark.com/contents/notice/detail/14171",
+      "source_url": "https://tickets.interpark.com/goods/26008597",
       "presale": false,
       "general_sale": false,
-      "last_updated": "2026-09-07",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -5517,7 +5524,7 @@
       "source_url": "https://www.khan.co.kr/article/202603041738011",
       "presale": false,
       "general_sale": false,
-      "last_updated": "2026-09-07",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -5543,7 +5550,7 @@
       "source_url": "https://ticket.yes24.com/Perf/59024",
       "presale": false,
       "general_sale": false,
-      "last_updated": "2026-09-07",
+      "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     }
   ]
