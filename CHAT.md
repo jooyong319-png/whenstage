@@ -1,3 +1,10 @@
+## [2026-09-08 14:35] [EN 뉴스]
+뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
+- 신규 기사 3건: Radiohead Confirm 21 Residency Shows in Australia and Japan for 2027 / 70,000 Tons of Metal 2027 Cabins on Sale, 30 Bands Confirmed / The Darkness Book 300-Capacity Moth Club Show for Best-Of Launch
+- 콘서트 링크 연결 0건 / 링크 없음 3건 (concerts.en.json에 해당 공연 미등재 — Radiohead는 2025 런던 공연만 있어 매칭 불가)
+- 스킵: Supergrass 2027 UK 추가공연(9/4 발표·일반예매 개시로 48시간 창 밖), Oasis 2027 투어(공식 확정 아닌 발언 수준), Chainsmokers 관객 이송·Burning Man 사망·Macklemore 논란 등은 액션 유발 공지가 아니라 대상 아님
+- leads.en.jsonl 6건 인계: Radiohead 2027 호주/일본, 70,000 Tons Of Metal 2027, The Darkness Moth Club 9/17, The Darkness 12월 UK/아일랜드 아레나 투어, The Darkness 'Crock Of Hits'(11/27), Supergrass 2027 UK 투어
+
 ## [2026-09-08 11:20] [KO 리서처]
 링크 전수 점검 (concerts.ko.json URL 306개 · source_url/image_url/presale_url/general_sale_url 전부)
 
