@@ -7,6 +7,7 @@ import { calcDayDiff } from '@/lib/utils';
 import { ShareButton } from './ShareButton';
 import { TicketingPhase } from './TicketingPhase';
 import { useSaleWindowEnded } from '@/hooks/useSaleWindowEnded';
+import { useEventEnded } from '@/hooks/useEventEnded';
 import { effectivePresaleEnd } from '@/lib/types';
 import { useLocale } from '@/hooks/useLocale';
 import { UI, CAL, CATEGORY_LABELS } from '@/lib/i18nLabels';
@@ -22,8 +23,10 @@ export function GameModal({ game, onClose, wishlist }: Props) {
   const lang = useLocale();
   const ui = UI[lang];
   const t = CAL[lang];
-  const presaleEnded = useSaleWindowEnded(effectivePresaleEnd(game));
-  const generalSaleEnded = useSaleWindowEnded(game.general_sale_end_datetime);
+  // 공연이 끝났으면 예매 마감일이 안 적혀 있어도 예매는 끝난 것이다(lib/types.ts hasEventEnded)
+  const eventEnded = useEventEnded(game);
+  const presaleEnded = useSaleWindowEnded(effectivePresaleEnd(game)) || eventEnded;
+  const generalSaleEnded = useSaleWindowEnded(game.general_sale_end_datetime) || eventEnded;
   const [imgError, setImgError] = useState(false);
   const imgRef = useRef<HTMLImageElement>(null);
   // 하이드레이션 전에 이미 로드 실패한 이미지는 onError가 안 잡히므로 마운트 시 직접 확인.

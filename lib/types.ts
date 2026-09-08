@@ -68,6 +68,41 @@ export function hasActiveTicketing(g: Pick<Game, 'presale' | 'general_sale'>): b
   return g.presale === true || g.general_sale === true;
 }
 
+// 공연이 실제로 끝나는 날 — 다일 공연(festival_days)은 마지막 날이 기준이다.
+// release_date는 첫날이라, 2일권 페스티벌을 첫날 밤에 "끝났다"고 보면 안 된다.
+export function eventEndDate(g: Pick<Game, 'release_date' | 'festival_days'>): string {
+  const days = g.festival_days;
+  if (!days || days.length === 0) return g.release_date;
+  return days.reduce((last, d) => (d.date > last ? d.date : last), g.release_date);
+}
+
+// 그 공연이 열리는 지역 기준의 오늘 날짜(YYYY-MM-DD). 서울 공연을 로스앤젤레스에서 보는
+// 방문자에게도 "현지에서 아직 안 지난 공연"이 지난 것으로 보이면 안 된다.
+function todayInZone(now: Date, timeZone: string): string {
+  try {
+    return new Intl.DateTimeFormat('en-CA', {
+      timeZone, year: 'numeric', month: '2-digit', day: '2-digit',
+    }).format(now);
+  } catch {
+    return now.toISOString().slice(0, 10);   // 타임존 문자열이 잘못됐으면(RangeError) UTC로 폴백
+  }
+}
+
+// 공연이 이미 끝났는지 — 예매 CTA를 내리는 기준.
+//
+// 왜 필요한가(2026-09-08) — 티켓팅 마감(`*_end_datetime`)은 매진 시까지 파는 관행상 대부분
+// 비어 있고, hasSaleWindowEnded()는 마감이 없으면 "안 끝남"으로 본다(그게 맞다 — 판매 중인
+// 공연의 버튼을 함부로 내리면 안 되니까). 문제는 공연이 끝난 뒤다. 마감일이 영영 안 채워지므로
+// **예매 버튼이 영원히 남아** 방문자를 이미 내려간 예매 페이지로 보낸다.
+// 실측: ko 22건 / en 9건 / ja 9건이 이 상태였다(끝난 공연 상세에 "일반예매 하러 가기" 노출).
+// 공연이 끝났으면 마감일이 적혀 있든 아니든 예매는 끝난 것이다.
+export function hasEventEnded(
+  g: Pick<Game, 'release_date' | 'festival_days' | 'timezone'>,
+  now: Date,
+): boolean {
+  return eventEndDate(g) < todayInZone(now, g.timezone);
+}
+
 // 선예매/일반예매 각각의 마감(end_datetime)이 지났는지 — 마감 정보가 없으면(매진 시까지
 // 판매) 절대 "마감"으로 취급하지 않는다. 예매 CTA 버튼을 마감 후엔 링크 대신 마감 문구로
 // 바꿀 때 씀(presale/general_sale 따로 판단 — isTicketingLiveNow는 둘을 합쳐서만 본다).
@@ -118,9 +153,11 @@ function saleOpenNow(startIso: string | null | undefined, endIso: string | null 
   return true;                                             // 시작일 없음(상시) 또는 시작 후 & 안 끝남
 }
 export function availableTicketingUrl(
-  g: Pick<Game, 'presale_url' | 'presale_datetime' | 'presale_end_datetime' | 'general_sale_datetime' | 'general_sale_url' | 'general_sale_end_datetime'>,
+  g: Pick<Game, 'presale_url' | 'presale_datetime' | 'presale_end_datetime' | 'general_sale_datetime' | 'general_sale_url' | 'general_sale_end_datetime'
+       | 'release_date' | 'festival_days' | 'timezone'>,
   now: Date,
 ): { url: string; kind: 'presale' | 'general' } | null {
+  if (hasEventEnded(g, now)) return null;   // 끝난 공연에는 예매 버튼을 띄우지 않는다
   if (g.general_sale_url && saleOpenNow(g.general_sale_datetime, g.general_sale_end_datetime, now)) {
     return { url: g.general_sale_url, kind: 'general' };
   }

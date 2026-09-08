@@ -109,7 +109,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const dataUpdated = dataUpdatedByLocale[lang];
     for (const g of gamesByLocale[lang]) {
       const upcoming = g.release_date_approx || g.release_date >= todayStr;
-      const ticketing = hasActiveTicketing(g);
+      // 티켓팅 가산점은 **아직 안 지난 공연에만** 준다. 끝난 공연에 presale/general_sale
+      // 플래그가 켜진 채 남아 있는 경우가 많은데(공연이 끝나면 리서처가 내리지 않는다),
+      // 그대로 두면 끝난 공연이 0.85로 진짜 예정 공연(0.75)보다 높게 나간다.
+      const ticketing = upcoming && hasActiveTicketing(g);
       const priority = ticketing ? 0.85 : upcoming ? 0.75 : 0.6;
 
       let alternates: { languages: Record<string, string> } | undefined;

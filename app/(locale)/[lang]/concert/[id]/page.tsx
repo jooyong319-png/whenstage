@@ -7,7 +7,7 @@ import { getVenueBySlug, normalizeVenueKey, VENUE_CATEGORIES } from '@/lib/venue
 import { formatShortDate, calcDayDiff } from '@/lib/utils';
 import { CATEGORY_LABELS, UI, CAL, LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
 import type { Game } from '@/lib/types';
-import { effectivePresaleEnd } from '@/lib/types';
+import { effectivePresaleEnd, hasEventEnded } from '@/lib/types';
 import { PageShell } from '@/components/PageShell';
 import { WishlistButton } from '@/components/WishlistButton';
 import { DdayBadge } from '@/components/DdayBadge';
@@ -124,7 +124,13 @@ export default async function LocaleGamePage({ params }: Props) {
   ) : undefined;
 
   const isVenueEvent = VENUE_CATEGORIES.has(game.category);
-  const ticketUrl = game.general_sale_url || game.presale_url || null;
+  // 끝난 공연은 offers를 내보내지 않는다 — 이미 내려간 예매 페이지를 "InStock"으로 알리는
+  // 꼴이라 검색결과에 죽은 링크가 그대로 나간다(§4-6). 여기는 서버(SSG)라 빌드 시각 기준이지만
+  // 리서처 push로 하루 2회 재빌드되므로 지연은 최대 반나절이고, 화면 CTA는 클라이언트에서
+  // 따로 판정한다(useEventEnded).
+  const ticketUrl = hasEventEnded(game, new Date())
+    ? null
+    : game.general_sale_url || game.presale_url || null;
   const eventUrl = `https://whenstage.com/${lang}/concert/${params.id}`;
   const ogImg = game.image_url || 'https://whenstage.com/og-image.png';
   const startDate = eventStartDate(game.release_date, game.release_time, game.timezone);
@@ -282,6 +288,7 @@ export default async function LocaleGamePage({ params }: Props) {
             <TicketingCtaButton
               url={game.presale_url}
               endDateTime={effectivePresaleEnd(game)}
+              event={game}
               openLabel={t.goToPresale}
               closedLabel={t.presaleClosedLabel}
             />
@@ -290,6 +297,7 @@ export default async function LocaleGamePage({ params }: Props) {
             <TicketingCtaButton
               url={game.general_sale_url}
               endDateTime={game.general_sale_end_datetime}
+              event={game}
               openLabel={t.goToGeneralSale}
               closedLabel={t.generalSaleClosedLabel}
             />
