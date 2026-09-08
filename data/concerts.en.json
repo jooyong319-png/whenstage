@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-04",
+  "last_updated": "2026-09-08",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -1329,10 +1329,10 @@
       "presale": false,
       "presale_datetime": null,
       "presale_url": null,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-07-31T10:00:00-06:00",
       "general_sale_url": null,
-      "last_updated": "2026-07-24",
+      "last_updated": "2026-09-08",
       "last_researched_by": "en-researcher"
     },
     {
@@ -2959,11 +2959,11 @@
       "image_url": null,
       "source_url": "https://newsroom.livenation.com/news/satellite-music-hall-unveils-first-shows-for-grand-opening-lineup/",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": "https://www.satellitemusichall.com/",
-      "last_updated": "2026-08-05",
+      "last_updated": "2026-09-08",
       "last_researched_by": "en-researcher"
     },
     {
@@ -6207,9 +6207,9 @@
       ],
       "image_url": null,
       "source_url": "https://www.theo2.co.uk/events/detail/katseye",
-      "last_updated": "2026-09-04",
+      "last_updated": "2026-09-08",
       "last_researched_by": "en-researcher",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_url": "https://www.axs.com/uk/series/32970/katseye-at-the-o2-tickets?skin=theo2",
       "presale": false
     },
@@ -6698,6 +6698,414 @@
       "image_url": null,
       "source_url": "https://www.jambase.com/show/all-time-low-brighton-music-hall-20250523",
       "last_updated": "2026-09-04",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-tame-impala-deadbeat-london-20270601",
+      "name": "Tame Impala: Deadbeat Tour - London",
+      "release_date": "2027-06-01",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "The O2 Arena, London"
+      ],
+      "developer": "Tame Impala",
+      "publisher": null,
+      "description": "Tame Impala open a three-night stand at The O2 arena in London on June 1, 2027, the centrepiece of Kevin Parker's newly announced European run behind the 2025 album Deadbeat. Wet Leg support every headline date on the leg. Doors are listed at 6:30pm and tickets are on sale through AXS, the arena's official ticketing partner.",
+      "genres": [
+        "Psychedelic Rock",
+        "Electronic",
+        "Tour"
+      ],
+      "image_url": "https://www.theo2.co.uk/assets/img/Tame-Impala_O2_Digital-Assets_x9.-v2_1080-x-1080-9cec4df1d9.jpg",
+      "source_url": "https://www.theo2.co.uk/events/detail/tame-impala-2027",
+      "last_updated": "2026-09-08",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://www.axs.com/uk/series/34264/tame-impala-at-the-o2-tickets?skin=theo2"
+    },
+    {
+      "id": "en-tame-impala-deadbeat-manchester-20270528",
+      "name": "Tame Impala: Deadbeat Tour - Manchester",
+      "release_date": "2027-05-28",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Co-op Live, Manchester, England"
+      ],
+      "developer": "Tame Impala",
+      "publisher": null,
+      "description": "Tame Impala launch their 2027 UK and European tour at Co-op Live in Manchester on May 28, 2027 before heading to London and mainland Europe. Wet Leg join as special guests across the headline dates. The run follows sold-out touring through 2025 and 2026 behind Deadbeat, the Columbia Records album that produced the singles Loser and Dracula.",
+      "genres": [
+        "Psychedelic Rock",
+        "Electronic",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://discover.ticketmaster.co.uk/news/tame-impala-announces-manchester-and-london-dates-for-2027-european-tour-79580/",
+      "last_updated": "2026-09-08",
+      "last_researched_by": "en-researcher",
+      "general_sale": true
+    },
+    {
+      "id": "en-jake-bugg-alamo-20261113",
+      "name": "Jake Bugg - Alamo",
+      "release_date": "2026-11-13",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "music_release",
+      "platforms": [
+        "Streaming",
+        "Digital",
+        "CD",
+        "Vinyl"
+      ],
+      "developer": "Jake Bugg",
+      "publisher": "Thirty Tigers",
+      "description": "Jake Bugg releases his seventh studio album Alamo on November 13, 2026 through Thirty Tigers. Produced by Jimmy Hogarth and Steve McKewan, the record steers the Nottingham songwriter back toward the folk and country roots of his early work. The lead single Never Can Tell arrived on September 2, 2026 ahead of the announcement, and a solo UK and Ireland tour follows in February 2027.",
+      "genres": [
+        "Folk",
+        "Indie Rock",
+        "Album"
+      ],
+      "image_url": null,
+      "source_url": "https://www.nme.com/news/music/jake-bugg-announces-album-alamo-single-never-can-tell-2027-uk-ireland-tour-tickets-3966578",
+      "last_updated": "2026-09-08",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-jake-bugg-alamo-tour-london-20270226",
+      "name": "Jake Bugg: Alamo Solo Tour - London",
+      "release_date": "2027-02-26",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Union Chapel, London"
+      ],
+      "developer": "Jake Bugg",
+      "publisher": null,
+      "description": "Jake Bugg closes his stripped-back 2027 UK and Ireland run at Union Chapel in London on February 26, 2027. The ten-date solo tour opens at Albert Hall in Manchester on February 6 and passes through Dublin, Edinburgh, Glasgow, Gateshead, Sheffield, Liverpool, Bristol and Nottingham. It supports his seventh album Alamo, due in November 2026.",
+      "genres": [
+        "Folk",
+        "Indie Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.nme.com/news/music/jake-bugg-announces-album-alamo-single-never-can-tell-2027-uk-ireland-tour-tickets-3966578",
+      "last_updated": "2026-09-08",
+      "last_researched_by": "en-researcher",
+      "presale": true,
+      "presale_datetime": "2026-09-04T10:00:00+01:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-11T10:00:00+01:00"
+    },
+    {
+      "id": "en-simple-minds-sacrosanct-20270129",
+      "name": "Simple Minds - Sacrosanct",
+      "release_date": "2027-01-29",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "music_release",
+      "platforms": [
+        "Streaming",
+        "Digital",
+        "CD",
+        "Vinyl"
+      ],
+      "developer": "Simple Minds",
+      "publisher": "BMG",
+      "description": "Simple Minds release their new studio album Sacrosanct on January 29, 2027 through BMG. The Glasgow band announced the record on September 3, 2026 alongside the lead single Beginner Boys. Eight tracks make up the album, among them Elysium, King Of The Underworld, Jerusalem (State Of Mind) and closer The Next Right Thing. It follows 2022's Direction Of The Heart.",
+      "genres": [
+        "New Wave",
+        "Rock",
+        "Album"
+      ],
+      "image_url": null,
+      "source_url": "https://www.simpleminds.com/2026/09/03/new-album-sacrosanct/",
+      "last_updated": "2026-09-08",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-iron-maiden-50th-anniversary-box-set-20261211",
+      "name": "Iron Maiden - 50th Anniversary Studio Album Collection, Part One: 1980-1992",
+      "release_date": "2026-12-11",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "music_release",
+      "platforms": [
+        "Vinyl"
+      ],
+      "developer": "Iron Maiden",
+      "publisher": null,
+      "description": "Iron Maiden mark their fiftieth anniversary with a coloured-vinyl box set collecting their first nine studio albums, from the 1980 self-titled debut through 1992's Fear Of The Dark. Each record is pressed on its own colour, including red and gold for Iron Maiden, silver for The Number Of The Beast and oxblood for Somewhere In Time, and all use the 2015 remasters. It arrives December 11, 2026.",
+      "genres": [
+        "Heavy Metal",
+        "Rock",
+        "Box Set"
+      ],
+      "image_url": null,
+      "source_url": "https://www.ironmaiden.com/two-special-anniversary-releases-announced/",
+      "last_updated": "2026-09-08",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-amorphis-insomnium-boston-20261117",
+      "name": "Amorphis & Insomnium: North American Co-Headline Tour - Boston",
+      "release_date": "2026-11-17",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Paradise Rock Club, Boston, MA"
+      ],
+      "developer": "Amorphis, Insomnium",
+      "publisher": null,
+      "description": "Amorphis and Insomnium open their 23-date North American co-headline tour at Paradise Rock Club in Boston on November 17, 2026. The two Finnish metal bands split headline duties across the run, drawing on Insomnium's new album Netherworlds and Amorphis's 2025 record Borderland alongside older material. Texas melodic death metal band Hinayana support the whole tour, which runs from November 17 to December 19.",
+      "genres": [
+        "Melodic Death Metal",
+        "Metal",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.insomnium.net/?view=article&id=58%3Anetherworlds-2&catid=9",
+      "last_updated": "2026-09-08",
+      "last_researched_by": "en-researcher",
+      "general_sale": true
+    },
+    {
+      "id": "en-amorphis-insomnium-seattle-20261202",
+      "name": "Amorphis & Insomnium: North American Co-Headline Tour - Seattle",
+      "release_date": "2026-12-02",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "The Showbox, Seattle, WA"
+      ],
+      "developer": "Amorphis, Insomnium",
+      "publisher": null,
+      "description": "Amorphis and Insomnium bring their North American co-headline tour to The Showbox in Seattle on December 2, 2026. The two Finnish metal bands split headline duties across the run, drawing on Insomnium's new album Netherworlds and Amorphis's 2025 record Borderland alongside older material. Texas melodic death metal band Hinayana support the whole tour, which runs from November 17 to December 19.",
+      "genres": [
+        "Melodic Death Metal",
+        "Metal",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.insomnium.net/?view=article&id=58%3Anetherworlds-2&catid=9",
+      "last_updated": "2026-09-08",
+      "last_researched_by": "en-researcher",
+      "general_sale": true
+    },
+    {
+      "id": "en-amorphis-insomnium-new-york-20261219",
+      "name": "Amorphis & Insomnium: North American Co-Headline Tour - New York",
+      "release_date": "2026-12-19",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Irving Plaza, New York, NY"
+      ],
+      "developer": "Amorphis, Insomnium",
+      "publisher": null,
+      "description": "Amorphis and Insomnium wrap their North American co-headline tour at Irving Plaza in New York on December 19, 2026. The two Finnish metal bands split headline duties across the run, drawing on Insomnium's new album Netherworlds and Amorphis's 2025 record Borderland alongside older material. Texas melodic death metal band Hinayana support the whole tour, which runs from November 17 to December 19.",
+      "genres": [
+        "Melodic Death Metal",
+        "Metal",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.insomnium.net/?view=article&id=58%3Anetherworlds-2&catid=9",
+      "last_updated": "2026-09-08",
+      "last_researched_by": "en-researcher",
+      "general_sale": true
+    },
+    {
+      "id": "en-insomnium-netherworlds-20261016",
+      "name": "Insomnium - Netherworlds",
+      "release_date": "2026-10-16",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/Helsinki",
+      "category": "music_release",
+      "platforms": [
+        "Streaming",
+        "Digital",
+        "CD",
+        "Vinyl"
+      ],
+      "developer": "Insomnium",
+      "publisher": "Century Media Records",
+      "description": "Insomnium release their tenth studio album Netherworlds on October 16, 2026 via Century Media Records. The Joensuu melodic death metal band follow 2023's Anno 1696 with ten tracks mixed by Jens Bogren and mastered by Tony Lindgren, with Miiro Varjus taking a central production role. Gleam In The Black arrived as the lead single, and a North American co-headline tour with Amorphis follows in November.",
+      "genres": [
+        "Melodic Death Metal",
+        "Metal",
+        "Album"
+      ],
+      "image_url": null,
+      "source_url": "https://www.insomnium.net/",
+      "last_updated": "2026-09-08",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-dinosaur-jr-there-near-20260828",
+      "name": "Dinosaur Jr. - There Near",
+      "release_date": "2026-08-28",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "music_release",
+      "platforms": [
+        "Streaming",
+        "Digital",
+        "CD",
+        "Vinyl"
+      ],
+      "developer": "Dinosaur Jr.",
+      "publisher": null,
+      "description": "Dinosaur Jr. released There Near on August 28, 2026, their thirteenth album and first since 2021's Sweep It Into Space. J Mascis, Lou Barlow and Murph recorded the eleven-track set over roughly a year at Bisquiteen Studio in Amherst, Massachusetts, with Mascis playing most of it through a 1970s Mesa Boogie MK 1 amplifier. Several Got Away led the record.",
+      "genres": [
+        "Alternative Rock",
+        "Indie Rock",
+        "Album"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/08/dinosaur-jr-2027-north-american-tour-there-near-stream/",
+      "last_updated": "2026-09-08",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-dinosaur-jr-there-near-brooklyn-20270211",
+      "name": "Dinosaur Jr.: There Near Tour - Brooklyn",
+      "release_date": "2027-02-11",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Brooklyn Steel, Brooklyn, NY"
+      ],
+      "developer": "Dinosaur Jr.",
+      "publisher": null,
+      "description": "Dinosaur Jr. begin the 2027 leg of their There Near tour with the first of two nights at Brooklyn Steel on February 11, 2027. The extended North American run reaches Philadelphia, Silver Spring, Carrboro, Florida, Nashville, Chicago, Detroit, Toronto and Boston through March 13. Starcrawler support most of the dates, including the second Brooklyn show.",
+      "genres": [
+        "Alternative Rock",
+        "Indie Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://consequence.net/2026/08/dinosaur-jr-2027-north-american-tour-there-near-stream/",
+      "last_updated": "2026-09-08",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.com/dinosaur-jr-tickets/artist/966351"
+    },
+    {
+      "id": "en-scorpions-coming-home-las-vegas-20270909",
+      "name": "Scorpions: Coming Home To Las Vegas Residency",
+      "release_date": "2027-09-09",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "PH Live at Planet Hollywood Resort & Casino, Las Vegas, NV"
+      ],
+      "developer": "Scorpions",
+      "publisher": null,
+      "description": "Scorpions open their Coming Home To Las Vegas residency at PH Live inside Planet Hollywood Resort & Casino on September 9, 2027, with further nights on September 11, 14, 16, 18, 21, 23 and 25. The eight-show run was originally scheduled for September and October 2026 and was pushed back a year in September 2026 for what the band called unforeseen circumstances. Buckcherry open.",
+      "genres": [
+        "Hard Rock",
+        "Metal",
+        "Residency"
+      ],
+      "image_url": null,
+      "source_url": "https://blabbermouth.net/news/scorpions-postpone-2026-las-vegas-residency-due-to-unforeseen-circumstances",
+      "last_updated": "2026-09-08",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-ghost-skeletour-houston-20250816",
+      "name": "Ghost: Skeletour World Tour 2025 - Houston",
+      "release_date": "2025-08-16",
+      "release_time": "20:15",
+      "release_date_approx": false,
+      "timezone": "America/Chicago",
+      "category": "concert_tour",
+      "platforms": [
+        "Toyota Center, Houston, TX"
+      ],
+      "developer": "Ghost",
+      "publisher": "Live Nation",
+      "description": "Ghost played Toyota Center in Houston on August 16, 2025 on the Skeletour World Tour, the arena run behind their album Skeletá. Doors opened at 6:30pm and the set started around 8:15pm, closing near 10:15pm with Monstrance Clock. The Swedish band ran the night as a phone-free show, with devices locked in Yondr pouches on entry.",
+      "genres": [
+        "Hard Rock",
+        "Metal",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.toyotacenter.com/events/detail/ghost",
+      "last_updated": "2026-09-08",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-paul-mccartney-got-back-pittsburgh-20251111",
+      "name": "Paul McCartney: Got Back Tour - Pittsburgh",
+      "release_date": "2025-11-11",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "PPG Paints Arena, Pittsburgh, PA"
+      ],
+      "developer": "Paul McCartney",
+      "publisher": null,
+      "description": "Paul McCartney sold out PPG Paints Arena in Pittsburgh on November 11, 2025, the fifteenth show of the 2025 North American leg of his Got Back tour. It was his first Pittsburgh appearance in more than eleven years and his fourth in the city overall. Backed by Wix Wickens, Brian Ray, Rusty Anderson and Abe Laboriel Jr., he worked through a set of roughly thirty-five Beatles, Wings and solo songs.",
+      "genres": [
+        "Rock",
+        "Pop Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.beatlesbible.com/2025/11/11/paul-mccartney-live-ppg-paints-arena-pittsburgh/",
+      "last_updated": "2026-09-08",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-st-vincent-new-york-philharmonic-new-york-20260702",
+      "name": "St. Vincent with the New York Philharmonic - New York",
+      "release_date": "2026-07-02",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "David Geffen Hall, New York, NY"
+      ],
+      "developer": "St. Vincent, New York Philharmonic",
+      "publisher": null,
+      "description": "St. Vincent performed with the New York Philharmonic at David Geffen Hall in Lincoln Center on July 2, 2026 as part of her Live With Orchestra tour. The concert was billed for 8pm and the music began closer to 8:50pm, with Annie Clark reworking material from across her catalogue for full orchestra. Ruby Plume opened the evening.",
+      "genres": [
+        "Art Rock",
+        "Indie Rock",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.setlist.fm/setlist/st-vincent/2026/lincoln-center-for-the-performing-arts-david-geffen-hall-new-york-ny-6349da63.html",
+      "last_updated": "2026-09-08",
       "last_researched_by": "en-researcher"
     }
   ]
