@@ -1,3 +1,30 @@
+## [2026-09-08 09:30] [EN 리서처]
+리서치 완료 (영어권/글로벌 시장 공연)
+- 콘서트/투어 12→8, 발매 6→5, 페스티벌 2→0, 팬미팅 0→0 (후보→통과)
+- 신규 16개 / 갱신 3개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리 22건 중 10건 등재 (Tame Impala 2027 UK 2건, Jake Bugg 앨범+런던, Simple Minds, Iron Maiden 박스세트, Amorphis & Insomnium 3건, Dinosaur Jr. 브루클린, Scorpions 라스베이거스 레지던시)
+- 과거 백필 3개 → **공연장 색인전환 3개**(Toyota Center(휴스턴)·PPG Paints Arena(피츠버그)·David Geffen Hall(뉴욕) — 모두 1건→2건) / 기존 공연장 보강 0개
+- 티켓팅 진행중 +8 / 해제 -3 (9/4자로 공연이 끝난 Garth Brooks 덴버, The Band CAMINO 멤피스, KATSEYE 런던 general_sale 해제)
+- description 보강 0개
+- 총 등록 260개 (1건짜리 공연장 6곳 → 4곳, 색인대상 76/82 → 79/85)
+
+[공연장 색인 현황]
+- 2026-07-30 실측(32곳 중 1곳만 색인)에서 크게 개선됨. 현재 EN 공연장 82곳 중 76곳이 이미 2건 이상.
+- 남은 1건짜리 4곳(Santa Monica Beach, MediaCity Salford, Victoria Park Warrington, Co-op Live Manchester)은 페스티벌 전용 부지이거나 이번 사이클 신규 등재분이라 다음 사이클 백필 후보로 넘김.
+
+[검증 탈락]
+- TOMORROW X TOGETHER 'STEAL THE WIND' 북미 7개 도시(2027-05-04~05-25): 날짜는 Consequence·Soompi 등 복수 출처 일치하나 BIGHIT MUSIC이 전 회차 공연장을 TBD로 발표. platforms[0]이 공연장 페이지 키라 도시명만으로 등재하면 가짜 공연장 페이지가 생김 — 공연장 발표 후 등재
+- Daisy Chain Fields Festival 2026(8/29, Olivia Rodrigo 큐레이션): 개최일이 이미 지났고 구체 베뉴를 특정할 독립 출처 2개를 확보하지 못함
+- Rock al Parque 2026(10/10~12, 보고타): 콜롬비아 국내 무료 페스티벌로 영어권 이용자 대상성이 약해 제외
+- Big Thief 'Horsepower': 8/22 Ryman 라이브 선공개만 있고 발매일 미발표 — approx placeholder를 붙일 시기 단서조차 없어 보류
+- Triumph / Bachman-Turner Overdrive / Corrosion of Conformity & The Sword / Stella Lefty / Jessie Reyez / Billy Strings 2027: 투어 발표만 있고 개별 공연장·날짜를 확정할 2차 출처를 찾지 못함
+- American Football 라틴아메리카 2026: 영어권 개최분이 아니고 날짜 미확정
+- DOLLYFEST(2027, 내슈빌/런던): 연도만 발표되고 월·주말이 미정 — 시기말 placeholder를 쓸 근거도 없어 보류
+- AC/DC Power Up 토론토(9/16 Rogers Stadium): 캐나다 개최분이나 리드 외 독립 2차 출처 확인을 이번 사이클에 마치지 못함 — 다음 사이클 재검토
+
+[KO/JA 리서처 요청]
+- 없음 (이번 사이클 크로스 로케일 등재 없음)
+
 ## [2026-09-07 09:30] [KO 리서처]
 리서치 완료 (한국 국내 공연)
 - 콘서트/내한 9→6, 음원발매 3→1, 페스티벌 1→1, 팬미팅 3→1 (후보→통과)
