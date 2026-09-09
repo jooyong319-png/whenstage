@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-09",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -3368,7 +3368,7 @@
       "image_url": null,
       "source_url": "https://amass.jp/191565/",
       "release_time": "19:00",
-      "last_updated": "2026-09-05",
+      "last_updated": "2026-09-09",
       "last_researched_by": "ja-researcher",
       "id": "ja-scaffold-3-tokyo-20261013",
       "name": "Scaffold #3（Body/Head × Jim O'Rourke）東京公演",
@@ -3384,7 +3384,7 @@
         "ノイズ",
         "来日公演"
       ],
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-09-01T18:00:00+09:00",
       "presale_end_datetime": "2026-09-07T18:00:00+09:00",
       "presale_url": "https://eplus.jp/scaffold-3/",
@@ -3425,7 +3425,7 @@
       "image_url": null,
       "source_url": "https://amass.jp/191565/",
       "release_time": "19:00",
-      "last_updated": "2026-09-05",
+      "last_updated": "2026-09-09",
       "last_researched_by": "ja-researcher",
       "id": "ja-scaffold-3-osaka-20261015",
       "name": "Scaffold #3（Body/Head × Jim O'Rourke）大阪公演",
@@ -3441,7 +3441,7 @@
         "ノイズ",
         "来日公演"
       ],
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-09-01T18:00:00+09:00",
       "presale_end_datetime": "2026-09-07T18:00:00+09:00",
       "presale_url": "https://eplus.jp/scaffold-3/",
@@ -4311,7 +4311,7 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Martha_argerich_photo_%28cropped%29.jpg",
       "source_url": "https://www.kajimotomusic.com/concerts/2026-martha-argerich/",
       "release_time": "19:00",
-      "last_updated": "2026-09-05",
+      "last_updated": "2026-09-09",
       "last_researched_by": "ja-researcher",
       "id": "ja-martha-argerich-akikos-piano-20261125",
       "name": "アルゲリッチが奏で継ぐ2日間 Day1「AKIKO'S PIANO」",
@@ -4327,7 +4327,7 @@
         "ピアノ",
         "来日公演"
       ],
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-09-03T12:00:00+09:00",
       "presale_end_datetime": "2026-09-06T18:00:00+09:00",
       "presale_url": "https://w1.onlineticket.jp/sf/kajimoto/detail/4593790001-P0030001?P1=0019&P6=060&P10=10",
@@ -4425,7 +4425,7 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Martha_argerich_photo_%28cropped%29.jpg",
       "source_url": "https://www.kajimotomusic.com/concerts/2026-martha-argerich/",
       "release_time": "14:00",
-      "last_updated": "2026-09-05",
+      "last_updated": "2026-09-09",
       "last_researched_by": "ja-researcher",
       "id": "ja-martha-argerich-chopin-and-his-asia-20261201",
       "name": "アルゲリッチが奏で継ぐ2日間 Day2「CHOPIN AND HIS ASIA」",
@@ -4441,7 +4441,7 @@
         "ピアノ",
         "来日公演"
       ],
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-09-03T12:00:00+09:00",
       "presale_end_datetime": "2026-09-06T18:00:00+09:00",
       "presale_url": "https://w1.onlineticket.jp/sf/kajimoto/detail/4593790001-P0030002?P1=0019&P6=060&P10=10",
@@ -5637,6 +5637,562 @@
       "presale_datetime": "2026-08-11T22:00:00+09:00",
       "presale_end_datetime": "2026-08-23T23:59:00+09:00",
       "last_updated": "2026-08-29",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-radiohead-japan-2027-20270608",
+      "name": "レディオヘッド〈RADIOHEAD TOKYO 2027〉GMOアリーナさいたま公演（6月8日）",
+      "release_date": "2027-06-08",
+      "category": "concert_tour",
+      "platforms": [
+        "GMOアリーナさいたま"
+      ],
+      "developer": "レディオヘッド",
+      "publisher": "クリエイティブマン",
+      "description": "2008年以来19年ぶりとなるレディオヘッドの単独来日公演の初日。2027年6月8日にGMOアリーナさいたまで幕を開け、同会場で6月9日・11日・12日・13日と計5公演が組まれている。チケットはアリーナスタンディング26,000円、SS指定席30,000円、S指定席25,000円、A指定席18,000円、B指定席15,000円。SS指定席に特別グッズと物販先行入場を付けた「ファスト・トラック・ステータス」パッケージ59,800円も用意される。企画・制作・招聘はクリエイティブマン。",
+      "genres": [
+        "ロック",
+        "オルタナティヴ",
+        "来日公演"
+      ],
+      "image_url": "https://www.radiohead2027.jp/wp-content/themes/rh2027/images/favicon_ogp/ogp.jpg",
+      "source_url": "https://www.radiohead2027.jp/",
+      "presale": true,
+      "presale_datetime": "2026-09-07T16:00:00+09:00",
+      "presale_end_datetime": "2026-09-27T23:59:00+09:00",
+      "presale_url": "https://eplus.jp/radiohead/",
+      "general_sale": false,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "release_time": null,
+      "last_updated": "2026-09-09",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-radiohead-japan-2027-20270609",
+      "name": "レディオヘッド〈RADIOHEAD TOKYO 2027〉GMOアリーナさいたま公演（6月9日）",
+      "release_date": "2027-06-09",
+      "category": "concert_tour",
+      "platforms": [
+        "GMOアリーナさいたま"
+      ],
+      "developer": "レディオヘッド",
+      "publisher": "クリエイティブマン",
+      "description": "19年ぶりのレディオヘッド単独来日公演、GMOアリーナさいたま5公演の2日目。会場はさいたま1都市に集約され、6月8日・9日・11日・12日・13日の日程で行われる。申込みはすべて抽選制で、イープラスのスマチケ限定受付。予定枚数に達し次第受付を終了し、その場合は一般発売を行わない方式が採られている。チケット1枚につき200円が森林保全団体「more trees」へ寄付され、バンド側も同額を上乗せして寄付する。",
+      "genres": [
+        "ロック",
+        "オルタナティヴ",
+        "来日公演"
+      ],
+      "image_url": "https://www.radiohead2027.jp/wp-content/themes/rh2027/images/favicon_ogp/ogp.jpg",
+      "source_url": "https://www.radiohead2027.jp/",
+      "presale": true,
+      "presale_datetime": "2026-09-07T16:00:00+09:00",
+      "presale_end_datetime": "2026-09-27T23:59:00+09:00",
+      "presale_url": "https://eplus.jp/radiohead/",
+      "general_sale": false,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "release_time": null,
+      "last_updated": "2026-09-09",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-radiohead-japan-2027-20270611",
+      "name": "レディオヘッド〈RADIOHEAD TOKYO 2027〉GMOアリーナさいたま公演（6月11日）",
+      "release_date": "2027-06-11",
+      "category": "concert_tour",
+      "platforms": [
+        "GMOアリーナさいたま"
+      ],
+      "developer": "レディオヘッド",
+      "publisher": "クリエイティブマン",
+      "description": "19年ぶりのレディオヘッド単独来日公演、GMOアリーナさいたま5公演の3日目にあたる金曜公演。席種はアリーナスタンディングとSS・S・A・Bの指定席に加え、SS指定席と特別グッズ、物販先行入場をまとめた「ファスト・トラック・ステータス」パッケージが設定されている。特典グッズはスタンリー・ドンウッドとドクター・チョックによるデザイン。本公演のチケットは特定興行入場券にあたり、転売・譲渡は禁止されている。",
+      "genres": [
+        "ロック",
+        "オルタナティヴ",
+        "来日公演"
+      ],
+      "image_url": "https://www.radiohead2027.jp/wp-content/themes/rh2027/images/favicon_ogp/ogp.jpg",
+      "source_url": "https://www.radiohead2027.jp/",
+      "presale": true,
+      "presale_datetime": "2026-09-07T16:00:00+09:00",
+      "presale_end_datetime": "2026-09-27T23:59:00+09:00",
+      "presale_url": "https://eplus.jp/radiohead/",
+      "general_sale": false,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "release_time": null,
+      "last_updated": "2026-09-09",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-radiohead-japan-2027-20270612",
+      "name": "レディオヘッド〈RADIOHEAD TOKYO 2027〉GMOアリーナさいたま公演（6月12日）",
+      "release_date": "2027-06-12",
+      "category": "concert_tour",
+      "platforms": [
+        "GMOアリーナさいたま"
+      ],
+      "developer": "レディオヘッド",
+      "publisher": "クリエイティブマン",
+      "description": "19年ぶりのレディオヘッド単独来日公演、GMOアリーナさいたま5公演の4日目となる土曜公演。オフィシャル一次先行は2026年9月7日16時から9月27日23時59分まで、イープラスで抽選受付が行われる。1人1公演につき1申込み・最大4枚までで、同一公演への重複申込みはできない。入場時には購入者名義の写真付き身分証明書による本人確認が実施される。企画・制作・招聘はクリエイティブマン、協力はビートインク。",
+      "genres": [
+        "ロック",
+        "オルタナティヴ",
+        "来日公演"
+      ],
+      "image_url": "https://www.radiohead2027.jp/wp-content/themes/rh2027/images/favicon_ogp/ogp.jpg",
+      "source_url": "https://www.radiohead2027.jp/",
+      "presale": true,
+      "presale_datetime": "2026-09-07T16:00:00+09:00",
+      "presale_end_datetime": "2026-09-27T23:59:00+09:00",
+      "presale_url": "https://eplus.jp/radiohead/",
+      "general_sale": false,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "release_time": null,
+      "last_updated": "2026-09-09",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-radiohead-japan-2027-20270613",
+      "name": "レディオヘッド〈RADIOHEAD TOKYO 2027〉GMOアリーナさいたま公演（6月13日）",
+      "release_date": "2027-06-13",
+      "category": "concert_tour",
+      "platforms": [
+        "GMOアリーナさいたま"
+      ],
+      "developer": "レディオヘッド",
+      "publisher": "クリエイティブマン",
+      "description": "19年ぶりのレディオヘッド単独来日公演、GMOアリーナさいたま5公演の最終日。2027年6月8日に始まった日本公演はこの日曜公演で全日程を終える。会場を1か所に固定し5日間を通して行う構成で、2008年の前回来日以来となる単独公演の締めくくりとなる。チケットはスマートフォン必須のスマチケ限定受付で、申込みはすべて抽選制。未就学児は入場できず、6歳以上はチケットが必要となる。",
+      "genres": [
+        "ロック",
+        "オルタナティヴ",
+        "来日公演"
+      ],
+      "image_url": "https://www.radiohead2027.jp/wp-content/themes/rh2027/images/favicon_ogp/ogp.jpg",
+      "source_url": "https://www.radiohead2027.jp/",
+      "presale": true,
+      "presale_datetime": "2026-09-07T16:00:00+09:00",
+      "presale_end_datetime": "2026-09-27T23:59:00+09:00",
+      "presale_url": "https://eplus.jp/radiohead/",
+      "general_sale": false,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "release_time": null,
+      "last_updated": "2026-09-09",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-wiener-philharmoniker-week-japan-2026-20261107",
+      "name": "ウィーン・フィルハーモニー ウィーク イン ジャパン 2026 リッカルド・ムーティ指揮（11月7日）",
+      "release_date": "2026-11-07",
+      "release_time": "16:00",
+      "category": "concert_tour",
+      "platforms": [
+        "サントリーホール(大ホール)"
+      ],
+      "developer": "ウィーン・フィルハーモニー管弦楽団(指揮:リッカルド・ムーティ)",
+      "publisher": "サントリーホール",
+      "description": "ウィーン・フィルハーモニー管弦楽団の来日70周年、41回目のツアーとなる東京公演の初日。指揮は同楽団と55年にわたり共演を重ねてきたリッカルド・ムーティ。ベートーヴェンの交響曲第2番ニ長調 作品36とブラームスの交響曲第2番ニ長調 作品73を組み合わせたニ長調プログラム。会場はサントリーホール大ホールで、料金はS席48,000円からD席28,000円まで。主催はサントリーホール、特別協賛は大和証券グループ。期間中は青少年プログラムや公開マスタークラスも組まれている。",
+      "genres": [
+        "クラシック",
+        "オーケストラ",
+        "来日公演"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Riccardo_Muti.jpg/500px-Riccardo_Muti.jpg",
+      "source_url": "https://www.suntory.co.jp/suntoryhall/feature/wphweek2026/",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-05-23T10:00:00+09:00",
+      "general_sale_url": "https://suntoryhall.pia.jp/",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "last_updated": "2026-09-09",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-wiener-philharmoniker-week-japan-2026-20261108",
+      "name": "ウィーン・フィルハーモニー ウィーク イン ジャパン 2026 リッカルド・ムーティ指揮（11月8日）",
+      "release_date": "2026-11-08",
+      "release_time": "16:00",
+      "category": "concert_tour",
+      "platforms": [
+        "サントリーホール(大ホール)"
+      ],
+      "developer": "ウィーン・フィルハーモニー管弦楽団(指揮:リッカルド・ムーティ)",
+      "publisher": "サントリーホール",
+      "description": "ウィーン・フィルハーモニー管弦楽団の来日70周年、41回目のツアーとなる東京公演の2日目。指揮は同楽団と55年にわたり共演を重ねてきたリッカルド・ムーティ。モーツァルトの交響曲第40番ト短調 K.550とチャイコフスキーの交響曲第4番ヘ短調 作品36を並べた短調プログラム。この日のみ中学1年生から25歳以下を対象としたユース席90枚（4,800円）が抽選で用意され、同日には無料公開リハーサルも実施される。会場はサントリーホール大ホールで、料金はS席48,000円からD席28,000円まで。主催はサントリーホール、特別協賛は大和証券グループ。期間中は青少年プログラムや公開マスタークラスも組まれている。",
+      "genres": [
+        "クラシック",
+        "オーケストラ",
+        "来日公演"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Riccardo_Muti.jpg/500px-Riccardo_Muti.jpg",
+      "source_url": "https://www.suntory.co.jp/suntoryhall/feature/wphweek2026/",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-05-23T10:00:00+09:00",
+      "general_sale_url": "https://suntoryhall.pia.jp/",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "last_updated": "2026-09-09",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-wiener-philharmoniker-week-japan-2026-20261109",
+      "name": "ウィーン・フィルハーモニー ウィーク イン ジャパン 2026 リッカルド・ムーティ指揮（11月9日）",
+      "release_date": "2026-11-09",
+      "release_time": "19:00",
+      "category": "concert_tour",
+      "platforms": [
+        "サントリーホール(大ホール)"
+      ],
+      "developer": "ウィーン・フィルハーモニー管弦楽団(指揮:リッカルド・ムーティ)",
+      "publisher": "サントリーホール",
+      "description": "ウィーン・フィルハーモニー管弦楽団の来日70周年、41回目のツアーとなる東京公演の3日目。指揮は同楽団と55年にわたり共演を重ねてきたリッカルド・ムーティ。ブルックナーの交響曲第8番ハ短調 WAB108（ハース版）1曲のみを演奏する大曲プログラム。会場はサントリーホール大ホールで、料金はS席48,000円からD席28,000円まで。主催はサントリーホール、特別協賛は大和証券グループ。期間中は青少年プログラムや公開マスタークラスも組まれている。",
+      "genres": [
+        "クラシック",
+        "オーケストラ",
+        "来日公演"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Riccardo_Muti.jpg/500px-Riccardo_Muti.jpg",
+      "source_url": "https://www.suntory.co.jp/suntoryhall/feature/wphweek2026/",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-05-23T10:00:00+09:00",
+      "general_sale_url": "https://suntoryhall.pia.jp/",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "last_updated": "2026-09-09",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-wiener-philharmoniker-week-japan-2026-20261112",
+      "name": "ウィーン・フィルハーモニー ウィーク イン ジャパン 2026 リッカルド・ムーティ指揮（11月12日）",
+      "release_date": "2026-11-12",
+      "release_time": "19:00",
+      "category": "concert_tour",
+      "platforms": [
+        "サントリーホール(大ホール)"
+      ],
+      "developer": "ウィーン・フィルハーモニー管弦楽団(指揮:リッカルド・ムーティ)",
+      "publisher": "サントリーホール",
+      "description": "ウィーン・フィルハーモニー管弦楽団の来日70周年、41回目のツアーとなる東京公演の最終日。指揮は同楽団と55年にわたり共演を重ねてきたリッカルド・ムーティ。3日目と同じくブルックナーの交響曲第8番ハ短調 WAB108（ハース版）を演奏し、東京公演の全日程を締めくくる。会場はサントリーホール大ホールで、料金はS席48,000円からD席28,000円まで。主催はサントリーホール、特別協賛は大和証券グループ。期間中は青少年プログラムや公開マスタークラスも組まれている。",
+      "genres": [
+        "クラシック",
+        "オーケストラ",
+        "来日公演"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Riccardo_Muti.jpg/500px-Riccardo_Muti.jpg",
+      "source_url": "https://www.suntory.co.jp/suntoryhall/feature/wphweek2026/",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-05-23T10:00:00+09:00",
+      "general_sale_url": "https://suntoryhall.pia.jp/",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "last_updated": "2026-09-09",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-yonezu-kenshi-ghost-osakajo-hall-20261118",
+      "name": "米津玄師 2026 TOUR / GHOST（大阪城ホール公演・初日）",
+      "release_date": "2026-11-18",
+      "release_time": "18:30",
+      "category": "concert_tour",
+      "platforms": [
+        "大阪城ホール"
+      ],
+      "developer": "米津玄師",
+      "description": "米津玄師が全国6都市・計14公演で行うアリーナツアー〈2026 TOUR / GHOST〉の大阪城ホール公演初日。開場17:00・開演18:30。長野ビッグハット、Kアリーナ横浜に続く3会場目で、大阪公演は2日間にわたって行われる。チケットは指定席・注釈付指定席・立見いずれも9,900円（税込）で、一般販売の抽選受付は7月7日18時から7月26日23時59分まで行われ、8月12日正午に当選が発表された。大阪公演の問い合わせ窓口はキョードーインフォメーション。",
+      "genres": [
+        "J-POP",
+        "アリーナツアー"
+      ],
+      "image_url": "https://s3-reissue.s3.ap-northeast-1.amazonaws.com/rr/wp-content/uploads/tourGHOST_Visual-1024x819.jpg",
+      "source_url": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
+      "presale": false,
+      "general_sale": false,
+      "general_sale_datetime": "2026-07-07T18:00:00+09:00",
+      "general_sale_end_datetime": "2026-07-26T23:59:00+09:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "last_updated": "2026-09-09",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-yonezu-kenshi-ghost-osakajo-hall-20261119",
+      "name": "米津玄師 2026 TOUR / GHOST（大阪城ホール公演・2日目）",
+      "release_date": "2026-11-19",
+      "release_time": "18:30",
+      "category": "concert_tour",
+      "platforms": [
+        "大阪城ホール"
+      ],
+      "developer": "米津玄師",
+      "description": "米津玄師が全国6都市・計14公演で行うアリーナツアー〈2026 TOUR / GHOST〉の大阪城ホール公演2日目。開場17:00・開演18:30。大阪2日目にあたり、この後ツアーはマリンメッセ福岡A館、セキスイハイムスーパーアリーナ、ポートメッセなごや第1展示館を経て12月16日・17日のKアリーナ横浜で全日程を終える。チケットは指定席・注釈付指定席・立見いずれも9,900円（税込）で、一般販売の抽選受付は7月7日18時から7月26日23時59分まで行われ、8月12日正午に当選が発表された。大阪公演の問い合わせ窓口はキョードーインフォメーション。",
+      "genres": [
+        "J-POP",
+        "アリーナツアー"
+      ],
+      "image_url": "https://s3-reissue.s3.ap-northeast-1.amazonaws.com/rr/wp-content/uploads/tourGHOST_Visual-1024x819.jpg",
+      "source_url": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
+      "presale": false,
+      "general_sale": false,
+      "general_sale_datetime": "2026-07-07T18:00:00+09:00",
+      "general_sale_end_datetime": "2026-07-26T23:59:00+09:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "last_updated": "2026-09-09",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-squeeze-japan-2027-osaka-20270409",
+      "name": "スクイーズ〈Tried, Tested and Trixies Tour〉大阪公演",
+      "release_date": "2027-04-09",
+      "release_time": "19:00",
+      "category": "concert_tour",
+      "platforms": [
+        "UMEDA CLUB QUATTRO（大阪・梅田）"
+      ],
+      "developer": "スクイーズ(Squeeze)",
+      "publisher": "クリエイティブマン",
+      "description": "グレン・ティルブルックとクリス・ディフォードを中心とする英国のポップ・バンド、スクイーズの来日公演。大阪公演は2027年4月9日にUMEDA CLUB QUATTROで開場18:00・開演19:00、オールスタンディング9,900円（税込・ドリンク代別）。前日の4月8日には東京・EX THEATER ROPPONGI公演が組まれている。1978年から1996年にかけて全英シングル・チャートで11曲をトップ40に送り込んだバンドで、企画・制作・招聘はクリエイティブマン。",
+      "genres": [
+        "ロック",
+        "来日公演",
+        "UKポップ"
+      ],
+      "image_url": "https://www.creativeman.co.jp/wp-content/uploads/2026/07/squeeze261300.jpg",
+      "source_url": "https://www.creativeman.co.jp/event/squeeze26/",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-08T10:00:00+09:00",
+      "general_sale_url": "https://eplus.jp/squeeze/",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "last_updated": "2026-09-09",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-jeff-parker-eta-ivtet-bluenote-20270111",
+      "name": "JEFF PARKER ETA IVtet 初来日公演（ブルーノート東京）",
+      "release_date": "2027-01-11",
+      "release_time": "16:30",
+      "category": "concert_tour",
+      "platforms": [
+        "ブルーノート東京"
+      ],
+      "developer": "ジェフ・パーカー・ETAカルテット",
+      "publisher": "ブルーノート東京",
+      "description": "トータスのギタリストとしても知られるジェフ・パーカー率いるETA IVtetの初来日公演。2027年1月11日から13日までブルーノート東京で各日2回公演が行われ、初日は1stが開場15:30・開演16:30、2ndが開場18:30・開演19:30。12日と13日は1stが開演18:00、2ndが開演20:30となる。メンバーはジョシュ・ジョンソン（sax）、アンナ・バターズ（b）、ジェイ・ベラローズ（ds）。最新作『Happy Today』を携えた公演で、ミュージック・チャージは9,900円（税込）。",
+      "genres": [
+        "ジャズ",
+        "来日公演"
+      ],
+      "image_url": "https://www.bluenote.co.jp/jp/artists/fb/20270111fb.jpg",
+      "source_url": "https://www.bluenote.co.jp/jp/artists/jeff-parker/",
+      "presale": true,
+      "presale_datetime": "2026-09-09T12:00:00+09:00",
+      "presale_url": "https://www.bluenote.co.jp/jp/artists/jeff-parker/",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-15T12:00:00+09:00",
+      "general_sale_url": "https://reserve.bluenote.co.jp/reserve/schedule/",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "last_updated": "2026-09-09",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-ano-nyanoesai-20270228",
+      "name": "ano 主催イベント〈猫吐祭〉",
+      "release_date": "2027-02-28",
+      "release_time": "17:00",
+      "category": "concert_tour",
+      "platforms": [
+        "TOYOSU PIT（豊洲PIT）"
+      ],
+      "developer": "ano",
+      "description": "anoにとって初となる主催イベント。2027年2月28日に東京・豊洲PITで開場16:00・開演17:00で行われる。2026年9月4日の東京ガーデンシアター公演の場で発表されたもので、出演は現時点で「ano and more...」と告知されており、共演者は後日発表となる。チケットは9,900円（税込・ドリンク代別）。同時に書き下ろし新曲「ラブにダイブ」の配信リリースも発表され、ファンクラブ「CLUB DENTAL MOUSE」先行の受付が9月4日から始まっている。",
+      "genres": [
+        "J-POP",
+        "主催イベント"
+      ],
+      "source_url": "https://lp.p.pia.jp/article/news/512637/index.html",
+      "presale": true,
+      "general_sale": false,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "image_url": null,
+      "publisher": null,
+      "last_updated": "2026-09-09",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-psychic-fes-2026-20261128",
+      "name": "PSYCHIC FES 2026",
+      "release_date": "2026-11-28",
+      "release_time": "13:00",
+      "category": "festival",
+      "platforms": [
+        "心斎橋BIGCAT（ほか大阪・心斎橋／アメリカ村エリア計6会場）"
+      ],
+      "developer": "PK shampoo",
+      "description": "PK shampoo（ヤマトパンクス）が主催する大阪・心斎橋のサーキット・フェスで、通算4回目。2026年11月28日にBIGCAT、SUNHALL、FANJ twice、ANIMA、Pangea、HOKAGEの6会場で行われる。今回初めてDAYとNIGHTの二部構成をとり、DAYは開場12:00・開演13:00、NIGHTは21:30開場で翌朝まで続くオールナイト開催となる。出演はキュウソネコカミ、ネクライトーキー、Wienners、挫・人間、小林私、ナードマグネットら29組。チケットはDAY／NIGHT／ALL／DAY(U18)の4種。",
+      "genres": [
+        "ロック",
+        "サーキットフェス"
+      ],
+      "source_url": "https://skream.jp/news/2026/08/psychic_fes_2026_2nd_lineup.php",
+      "festival_days": [
+        {
+          "date": "2026-11-28",
+          "lineup": [
+            "PK shampoo",
+            "171",
+            "Wienners",
+            "おとぎ話",
+            "キュウソネコカミ",
+            "KING BROTHERS",
+            "クリトリック・リス",
+            "DJ後藤まりこ",
+            "挫・人間",
+            "SuiseiNoboAz",
+            "空きっ腹に酒",
+            "流田Project",
+            "ネクライトーキー",
+            "the bercedes menz",
+            "よさこいマン",
+            "アフターソウル",
+            "8otto",
+            "CRAZY BLUES",
+            "小林私",
+            "sidenerds",
+            "自爆",
+            "SuU",
+            "超☆社会的サンダル",
+            "トップシークレットマン",
+            "ナードマグネット",
+            "ハダカエフダ",
+            "Hue's",
+            "フリージアン",
+            "ルサンチマン"
+          ]
+        }
+      ],
+      "presale": false,
+      "general_sale": true,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "image_url": null,
+      "publisher": null,
+      "last_updated": "2026-09-09",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-acees-arena-tour-2026-v-osaka-20260829",
+      "name": "ACEes Arena Tour 2026 \"V\"（Asueアリーナ大阪・大阪公演初日）",
+      "release_date": "2026-08-29",
+      "release_time": "17:30",
+      "category": "concert_tour",
+      "platforms": [
+        "Asueアリーナ大阪(大阪市中央体育館)"
+      ],
+      "developer": "ACEes",
+      "description": "浮所飛貴、那須雄登、作間龍斗、深田竜生、佐藤龍我の5人からなるACEesが行ったアリーナツアーの大阪公演（大阪公演初日）。マリンメッセ福岡A館、日本ガイシホール、エコパアリーナ、有明アリーナを経て、8月29日・30日のAsueアリーナ大阪で締めくくられた。ツアータイトルの\"V\"にはVENTURE、VERSUS、VIRAL、VEIN、VANGUARD、VORTEXという6つのテーマが込められ、5都市で計23万2000人を動員した。この日の17:30公演は一部がYouTubeで生配信され、アーカイブ配信は行われなかった。",
+      "genres": [
+        "J-POP",
+        "アイドル",
+        "アリーナツアー"
+      ],
+      "source_url": "https://relief-ticket.jp/events/artist/15/148",
+      "presale": false,
+      "general_sale": false,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "image_url": null,
+      "publisher": null,
+      "last_updated": "2026-09-09",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-acees-arena-tour-2026-v-osaka-20260830",
+      "name": "ACEes Arena Tour 2026 \"V\"（Asueアリーナ大阪・ツアーファイナル）",
+      "release_date": "2026-08-30",
+      "release_time": "12:30",
+      "category": "concert_tour",
+      "platforms": [
+        "Asueアリーナ大阪(大阪市中央体育館)"
+      ],
+      "developer": "ACEes",
+      "description": "浮所飛貴、那須雄登、作間龍斗、深田竜生、佐藤龍我の5人からなるACEesが行ったアリーナツアーの大阪公演（ツアーファイナル）。マリンメッセ福岡A館、日本ガイシホール、エコパアリーナ、有明アリーナを経て、8月29日・30日のAsueアリーナ大阪で締めくくられた。ツアータイトルの\"V\"にはVENTURE、VERSUS、VIRAL、VEIN、VANGUARD、VORTEXという6つのテーマが込められ、5都市で計23万2000人を動員した。この日は12:30と17:30の2公演が組まれ、5都市を巡ったツアーの全日程がここで終了した。",
+      "genres": [
+        "J-POP",
+        "アイドル",
+        "アリーナツアー"
+      ],
+      "source_url": "https://relief-ticket.jp/events/artist/15/148",
+      "presale": false,
+      "general_sale": false,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "image_url": null,
+      "publisher": null,
+      "last_updated": "2026-09-09",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-bts-arirang-in-japan-tokyo-dome-20260417",
+      "name": "BTS WORLD TOUR 'ARIRANG' IN JAPAN 東京ドーム公演（初日）",
+      "release_date": "2026-04-17",
+      "release_time": "18:30",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ドーム"
+      ],
+      "developer": "BTS",
+      "description": "BTSが約7年ぶりに日本で行った来日公演の初日。2026年4月17日・18日の2日間、東京ドームで開催され、初日日は開場16:30・開演18:30だった。2022年にラスベガスで終えた〈PERMISSION TO DANCE ON STAGE〉以来となる大規模ツアーで、世界34地域・79公演が組まれたワールドツアーの日本パートにあたる。チケットはVIP席45,000円、SS席35,000円、S席25,000円。両日とも全国の映画館でライブビューイングの生中継も実施された。",
+      "genres": [
+        "K-POP",
+        "ドームツアー"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/BTS_during_a_White_House_press_conference_May_31%2C_2022_%28cropped%29.jpg/500px-BTS_during_a_White_House_press_conference_May_31%2C_2022_%28cropped%29.jpg",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000636.000045862.html",
+      "presale": false,
+      "general_sale": false,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "last_updated": "2026-09-09",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-bts-arirang-in-japan-tokyo-dome-20260418",
+      "name": "BTS WORLD TOUR 'ARIRANG' IN JAPAN 東京ドーム公演（2日目）",
+      "release_date": "2026-04-18",
+      "release_time": "15:00",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ドーム"
+      ],
+      "developer": "BTS",
+      "description": "BTSが約7年ぶりに日本で行った来日公演の2日目。2026年4月17日・18日の2日間、東京ドームで開催され、2日目日は開場13:00・開演15:00だった。2022年にラスベガスで終えた〈PERMISSION TO DANCE ON STAGE〉以来となる大規模ツアーで、世界34地域・79公演が組まれたワールドツアーの日本パートにあたる。チケットはVIP席45,000円、SS席35,000円、S席25,000円。両日とも全国の映画館でライブビューイングの生中継も実施された。",
+      "genres": [
+        "K-POP",
+        "ドームツアー"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/BTS_during_a_White_House_press_conference_May_31%2C_2022_%28cropped%29.jpg/500px-BTS_during_a_White_House_press_conference_May_31%2C_2022_%28cropped%29.jpg",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000636.000045862.html",
+      "presale": false,
+      "general_sale": false,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "last_updated": "2026-09-09",
       "last_researched_by": "ja-researcher"
     }
   ]
