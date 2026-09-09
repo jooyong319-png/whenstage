@@ -1,3 +1,41 @@
+## [2026-09-09 09:50] [JA 리서처]
+리서치 완료 (일본 국내 공연)
+- 콘서트/来日 12→12, 발매 0→0, 페스티벌 2→1, 팬미팅 0→0 (후보→통과)
+- 신규 19개(예정 15 + 백필 4) / 갱신 4개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리 11건 중 3건 등재 (Jeff Parker ETA IVtet / ano〈猫吐祭〉/ PSYCHIC FES 2026)
+- 과거 백필 4개 → **공연장 색인전환 1개**(Asueアリーナ大阪 1→3건) / 기존 공연장 보강 1개(東京ドーム 7→9건)
+  ※ 예정 공연 등재로 추가 색인전환 3개 발생: 大阪城ホール 1→3, サントリーホール 1→5, UMEDA CLUB QUATTRO 1→2
+  ※ ja 공연장 색인 대상 57/72 → 62/74, 1건짜리 15개 → 12개
+- 티켓팅 진행중: 추가 +5(Radiohead 5공연 先行受付中) / 해제 -4(Scaffold #3 도쿄·오사카, 아르헤리치 Day1·Day2 — 先行予約 기간 종료, 一般発売은 유지)
+- description 보강 0개 (120자 미만 항목 0개 유지)
+- 총 등록 235개
+
+[신규 등재 — 예정 15건]
+- レディオヘッド〈RADIOHEAD TOKYO 2027〉GMOアリーナさいたま 5공연(2027-06-08/09/11/12/13) — 19년만의 단독 来日. 공식 사이트 radiohead2027.jp + クリエイティブマン + 오리콘/마이나비 일치
+- ウィーン・フィル ウィーク イン ジャパン 2026(ムーティ指揮) サントリーホール 4공연(11/07·08·09·12) — 来日70주년. 산토리홀 공식 특설페이지
+- 米津玄師 2026 TOUR / GHOST 大阪城ホール 2공연(11/18·19) — 공식 REISSUE RECORDS 투어 일정표
+- スクイーズ 大阪公演(2027-04-09, UMEDA CLUB QUATTRO) — クリエイティブマン 공식
+- JEFF PARKER ETA IVtet 초来日(2027-01-11, ブルーノート東京) — 블루노트 공식 + CDJournal + NME Japan
+- ano〈猫吐祭〉(2027-02-28, 豊洲PIT) — ぴあ·오리콘·Billboard JAPAN·음악나탈리 일치
+- PSYCHIC FES 2026(11/28, 心斎橋 6회장) — ぴあ + Skream! + 일본콜롬비아 PR TIMES, 라인업 29팀 확정분 festival_days 등재
+
+[신규 등재 — 과거 백필 4건]
+- ACEes Arena Tour 2026 "V" Asueアリーナ大阪 2공연(2026-08-29·30) — 공식 X 일정 고지 + RELIEF Ticket + LiveFans. **1건짜리였던 Asueアリーナ大阪를 3건으로 전환**
+- BTS WORLD TOUR 'ARIRANG' IN JAPAN 東京ドーム 2공연(2026-04-17·18) — HYBE JAPAN PR TIMES + BTS JAPAN 공식 + 음악나탈리. 이미 색인된 東京ドーム 보강
+
+[검증 탈락 / 이번 사이클 보류]
+- PUNK ROCK CONNECTION 2026(11/07 高円寺): 출처 2개 일치했으나 일일 신규 한도(15건) 소진으로 다음 사이클 이월
+- mei ehara〈DOMINO!〉(12/11 恵比寿LIQUIDROOM): 동일 사유로 이월(CDJournal+음악나탈리 검증 완료)
+- アンと私 ONEMAN TOUR / Bimi Live Galley Tour / yes, mama ok? 30주년 / 〈2人ピーズ×2人暴動クラブ〉: 리드의 개별 일정·회장이 공식 1차 소스에서 재확인되지 않아 보류
+- ULTRA祭り2026(9/5〜9/20 ULTRA SHIBUYA): 레코드숍 기획 기간 이벤트로 단일 공연 일자 특정 불가 — 등재 보류
+- Peter Barakan's Music Film Festival 2026: 영화 상영 이벤트로 공연 카테고리 4종에 해당하지 않음 — 대상 외
+- BTS 2027년 재来日: "2027년에도 来日 결정" 언급만 있고 날짜·회장 미발표 — 추측 등재 금지 원칙에 따라 제외
+- SQUEEZE 도쿄공연(2027-04-08 EX THEATER ROPPONGI): 검증은 완료됐으나 1건짜리 공연장 신설이 되어 이번엔 오사카분만 등재
+
+[다음 사이클 메모]
+- 남은 1건짜리 공연장 12개: SkyシアターMBS / WALL&WALL / すみだトリフォニーホール / せたがやイーグレットホール / シネシティ広場 / 三郷市文化会館 / 仙台MACANA / 心斎橋BIGCAT / 横浜赤レンガパーク / 渋谷THE GAME / 町田市民ホール / 金沢 もっきりや
+- すみだトリフォニーホール(新日本フィル 본거지)는 과거 공연 소스가 풍부할 것으로 보이나 이번 사이클엔 검색으로 확정 못함 — 다음 사이클 우선 표적
+
 ## [2026-09-08 14:35] [EN 뉴스]
 뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
 - 신규 기사 3건: Radiohead Confirm 21 Residency Shows in Australia and Japan for 2027 / 70,000 Tons of Metal 2027 Cabins on Sale, 30 Bands Confirmed / The Darkness Book 300-Capacity Moth Club Show for Best-Of Launch
