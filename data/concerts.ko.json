@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-09",
+  "last_updated": "2026-09-10",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -2600,11 +2600,11 @@
       "presale_datetime": "2026-08-04T20:00:00+09:00",
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-08-06T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-08-20",
+      "last_updated": "2026-09-10",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -2627,10 +2627,10 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Temp_1662384481565.-511956263.jpg",
       "source_url": "https://tickets.interpark.com/goods/26009868",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-07-16T20:00:00+09:00",
       "general_sale_url": "https://tickets.interpark.com/goods/26009868",
-      "last_updated": "2026-09-08",
+      "last_updated": "2026-09-10",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -2675,10 +2675,10 @@
       "image_url": null,
       "source_url": "http://gurumare.co.kr/show",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26011393",
-      "last_updated": "2026-08-24",
+      "last_updated": "2026-09-10",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -2706,11 +2706,11 @@
       "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-08-05T14:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-08-17",
+      "last_updated": "2026-09-10",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -2737,10 +2737,12 @@
       "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-08-03T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "last_updated": "2026-09-10",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-sungsikyung-with-friends-20260905",
@@ -2762,9 +2764,11 @@
       ],
       "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26010248_p.gif",
       "source_url": "https://sports.khan.co.kr/article/202607211450003/",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-07-24T20:00:00+09:00",
-      "general_sale_url": "https://tickets.interpark.com/goods/26010248"
+      "general_sale_url": "https://tickets.interpark.com/goods/26010248",
+      "last_updated": "2026-09-10",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-evan-death-of-me-20260907",
@@ -5165,7 +5169,7 @@
         "내한",
         "콘서트"
       ],
-      "image_url": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Bruno_Mars_b%26w_%28cropped%29.jpg",
       "source_url": "https://tickets.interpark.com/goods/26012591",
       "presale": true,
       "presale_datetime": "2026-09-11T12:00:00+09:00",
@@ -5175,7 +5179,7 @@
       "general_sale_datetime": "2026-09-14T12:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26012591",
-      "last_updated": "2026-09-08",
+      "last_updated": "2026-09-10",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -5558,6 +5562,432 @@
       "presale": false,
       "general_sale": false,
       "last_updated": "2026-09-08",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-illit-i-got-your-back-kr-20260817",
+      "name": "아일릿(ILLIT) '아이 갓 유어 백' 한국어 버전",
+      "release_date": "2026-08-17",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "아일릿(ILLIT)",
+      "publisher": "빌리프랩",
+      "description": "아일릿이 2026년 8월 17일 일본 싱글 2집 타이틀곡 '아이 갓 유어 백(I Got Your Back)'의 한국어 버전을 각 음원 사이트에 공개했다. 원곡은 7월 26일 일본에서 발매돼 일본 OTT 아베마 오리지널 드라마 주제가로 쓰였고 빌보드 재팬 종합 송차트 '핫 100' 2위에 올랐다. 세련된 기타 리프와 역동적인 드럼·베이스가 어우러진 록 기반 곡으로, 일본 걸그룹 하나의 멤버 지수와 모모카가 원곡에 이어 한국어 버전에도 피처링으로 참여했다.",
+      "genres": [
+        "K-POP",
+        "발매"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Illit_in_January_2026.png/500px-Illit_in_January_2026.png",
+      "source_url": "https://isplus.com/article/view/isp202608170014",
+      "last_updated": "2026-09-10",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-hyorisoo-skibidi-20260831",
+      "name": "효리수 첫 디지털 싱글 'Skibidi'",
+      "release_date": "2026-08-31",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "효리수(소녀시대)",
+      "publisher": "SM엔터테인먼트",
+      "description": "소녀시대 효연·유리·수영으로 구성된 새 유닛 효리수가 2026년 8월 31일 오후 6시 첫 디지털 싱글 '스키비디(Skibidi)'를 발표했다. 싱글에는 동명 타이틀곡과 수록곡 '로키 인 러브' 두 곡이 담겼으며, 타이틀곡은 하우스로 시작해 힙합으로 이어지는 다채로운 구성이 특징이다. 유닛은 효연의 개인 유튜브 채널 콘텐츠에서 출발한 프로젝트로, 첫 무대는 발매에 앞서 8월 22일 서울랜드에서 열린 카스 쿨 페스티벌에서 공개됐다.",
+      "genres": [
+        "K-POP",
+        "발매",
+        "유닛"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/250807_%ED%9A%A8%EC%97%B0_%27%EC%95%85%EB%A7%88%EA%B0%80_%EC%9D%B4%EC%82%AC%EC%99%94%EB%8B%A4%27_VIP_Premiere_02_%28cropped%29.jpg/500px-250807_%ED%9A%A8%EC%97%B0_%27%EC%95%85%EB%A7%88%EA%B0%80_%EC%9D%B4%EC%82%AC%EC%99%94%EB%8B%A4%27_VIP_Premiere_02_%28cropped%29.jpg",
+      "source_url": "https://www.khan.co.kr/article/202608311124001",
+      "last_updated": "2026-09-10",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-kik-road-20260831",
+      "name": "밴드 킥(KIK) 디지털 싱글 '로드(ROAD)'",
+      "release_date": "2026-08-31",
+      "release_time": "12:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "킥(KIK)",
+      "publisher": "엠피엠지뮤직(MPMG)",
+      "description": "밴드 킥(KIK)이 2026년 8월 31일 정오 디지털 싱글 '로드(ROAD)'를 공개했다. 호주 싱어송라이터 윌 하이드(will hyde)가 협업자로 참여해 달콤하고 섬세한 보컬을 얹었고, 킥 특유의 역동적인 밴드 사운드와 맞물리며 두 아티스트의 시너지를 만들어 냈다. 물리적 거리와 시간의 제약을 넘어 다시 이어지는 관계를 그린 곡으로, 결성 1주년을 맞은 킥은 이에 앞서 '2026 뮤직 플로우 페스티벌' 무대에서 신곡을 처음 선보였다.",
+      "genres": [
+        "밴드",
+        "록",
+        "발매"
+      ],
+      "image_url": null,
+      "source_url": "https://isplus.com/article/view/isp202608310134",
+      "last_updated": "2026-09-10",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-iu-i-byeollobuteo-20260910",
+      "name": "아이유 디지털 싱글 '이 별로부터'",
+      "release_date": "2026-09-10",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "아이유",
+      "publisher": "EDAM엔터테인먼트",
+      "description": "아이유가 2026년 9월 10일 오후 6시 새 디지털 싱글 '이 별로부터'를 발매한다. 지난해 9월 10일 '바이, 썸머' 이후 정확히 1년 만의 신보로, '이 별로부터'와 'Dear my crazy soulmate' 두 곡이 모두 타이틀곡으로 실린다. 두 곡 다 아이유가 직접 작사했으며, 발매가 미뤄진 정규 6집에 수록될 곡을 먼저 공개하는 성격이다. 'Dear my crazy soulmate' 뮤직비디오는 발매 당일, '이 별로부터' 뮤직비디오는 9월 16일 공개된다.",
+      "genres": [
+        "발라드",
+        "K-POP",
+        "발매"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/IU_at_Blue_Dragon_Series_Awards_on_18072025_%2810%29.png/500px-IU_at_Blue_Dragon_Series_Awards_on_18072025_%2810%29.png",
+      "source_url": "https://www.tenasia.co.kr/article/2026090434584",
+      "last_updated": "2026-09-10",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-lesserafim-made-my-night-20260911",
+      "name": "르세라핌 싱글 2집 'Made My Night'",
+      "release_date": "2026-09-11",
+      "release_time": "13:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "르세라핌(LE SSERAFIM)",
+      "publisher": "쏘스뮤직",
+      "description": "르세라핌이 2026년 9월 11일 싱글 2집 '메이드 마이 나이트(Made My Night)'로 돌아온다. 뮤직비디오는 이날 0시, 음반은 오후 1시에 공개되며 동명의 타이틀곡과 수록곡 'AEIOU' 두 곡이 실린다. 타이틀곡은 서로의 케미스트리로 특별해진 밤을 노래한 곡이다. 정규 2집 'PUREFLOW pt.1' 이후 약 4개월 만의 초고속 컴백으로, 북미 투어를 도는 중에 팬들에게 직접 컴백 소식을 전한 뒤 준비한 신보다.",
+      "genres": [
+        "K-POP",
+        "발매",
+        "컴백"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Le_Sserafim_at_2026_Golden_Disc_awards.png/500px-Le_Sserafim_at_2026_Golden_Disc_awards.png",
+      "source_url": "https://enews.imbc.com/News/RetrieveNewsInfo/516163",
+      "last_updated": "2026-09-10",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-jisoo-click-20260904",
+      "name": "지수(BLACKPINK) 선공개 싱글 'CLICK'",
+      "release_date": "2026-09-04",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "지수(JISOO)",
+      "publisher": "블리스코(BLISSOO)",
+      "description": "블랙핑크 지수가 2026년 9월 4일 신곡 'CLICK'을 공개했다. 지난해 10월 'Eyes Closed' 이후 약 11개월 만의 신곡이자 준비 중인 첫 솔로 정규 앨범의 선공개곡이다. 절제된 신시사이저 사운드와 탄력적인 베이스 라인이 중심을 잡는 댄스 팝으로, 끌리면 안 된다는 걸 알면서도 본능적으로 맞아떨어지는 감정을 '클릭'이라는 단어로 포착했다. 뮤직비디오는 그래미 수상 경력의 한국계 감독 조셉 칸이 연출했다.",
+      "genres": [
+        "K-POP",
+        "댄스",
+        "발매"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Jisoo_at_Boyfriend_on_Demand_press_conference_on_26022026_%2812%29.png/500px-Jisoo_at_Boyfriend_on_Demand_press_conference_on_26022026_%2812%29.png",
+      "source_url": "https://www.hankyung.com/article/202608251517H",
+      "last_updated": "2026-09-10",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-lisa-press-play-20261023",
+      "name": "리사(BLACKPINK) 첫 EP 'PRESS PLAY'",
+      "release_date": "2026-10-23",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "리사(LISA)",
+      "publisher": null,
+      "description": "블랙핑크 리사가 2026년 10월 23일 첫 미니앨범 'PRESS PLAY'를 발매한다. 앞서 9월 4일 선공개 싱글 '사와디카(SaWaDiKa)'를 먼저 내놓으며 앨범 활동의 문을 열었는데, 곡 제목인 '사와디카'는 태국어로 여성이 건네는 정중한 인사말이다. 리사는 신보 발매 이후 11월 13~14일과 27~28일 미국 라스베이거스 시저스 팰리스 더 콜로세움에서 K팝 아티스트 최초로 단독 레지던시 공연 'VIVA LA LISA'를 이어 갈 예정이다.",
+      "genres": [
+        "K-POP",
+        "팝",
+        "발매"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/20240314_Lisa_Manoban_07.jpg/500px-20240314_Lisa_Manoban_07.jpg",
+      "source_url": "https://www.segye.com/newsView/20260904506288",
+      "last_updated": "2026-09-10",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-dohkyungsoo-dopamine-20260908",
+      "name": "도경수(EXO) 미니 4집 'DOPAMINE'",
+      "release_date": "2026-09-08",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "도경수(D.O.)",
+      "publisher": "컴퍼니수수",
+      "description": "엑소 도경수가 2026년 9월 8일 오후 6시 네 번째 미니앨범 'DOPAMINE'을 발매했다. 지난해 9월 디지털 싱글 '덤(DUMB)' 이후 약 1년 만의 신보로 총 5개 트랙이 실렸다. 타이틀곡 '기타리스트(Guitarist)'는 R&B·솔을 기반으로 악기 연주에 빗대어 사랑의 교감을 표현한 곡이며 페노메코가 노랫말을 썼다. 피지컬 앨범은 'FIZZ'와 'POP' 두 가지 버전으로 나왔고, 도경수는 10월부터 콘서트 투어 '데이 오프(DAY OFF)'에 돌입한다.",
+      "genres": [
+        "R&B",
+        "K-POP",
+        "발매"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/D.O._at_the_press_conference_of_the_film_Underdog_in_January_2019.png/500px-D.O._at_the_press_conference_of_the_film_Underdog_in_January_2019.png",
+      "source_url": "https://www.munhwa.com/article/11611967",
+      "last_updated": "2026-09-10",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-pentagon-geopjaengi-20260911",
+      "name": "펜타곤 데뷔 10주년 싱글 '겁쟁이'",
+      "release_date": "2026-09-11",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "펜타곤(PENTAGON)",
+      "publisher": "큐브엔터테인먼트",
+      "description": "펜타곤이 2026년 9월 11일 오후 6시 데뷔 10주년 기념 싱글 '겁쟁이'를 발매한다. 2023년 디지털 싱글 '약속' 이후 약 3년 만에 선보이는 완전체 신곡으로, 데뷔 10주년 프로젝트의 시작을 알리는 음반이다. 펜타곤은 신곡 발매에 맞춰 10월 1일 오사카, 3일 도쿄, 9~10일 서울, 11월 1일 홍콩으로 이어지는 투어 일정도 함께 공개했다.",
+      "genres": [
+        "K-POP",
+        "발매",
+        "10주년"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pentagon_190327.png/500px-Pentagon_190327.png",
+      "source_url": "https://www.heraldmuse.com/article/10853699",
+      "last_updated": "2026-09-10",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-oneus-first-light-20260923",
+      "name": "원어스 미니 12집 'FIRST LIGHT : 井'",
+      "release_date": "2026-09-23",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "원어스(ONEUS)",
+      "publisher": "알비더블유(RBW)",
+      "description": "원어스가 2026년 9월 23일 오후 6시 열두 번째 미니앨범 'FIRST LIGHT : 井'을 발매한다. 멤버 서호가 군 복무를 마치고 합류해 완전체로 돌아오는 첫 음반으로, 그룹은 역대 앨범 로고를 모두 담은 모션 영상을 공개하며 새로운 챕터의 시작을 예고했다. 신보 발매 뒤에는 10월 24~25일 서울 공연을 시작으로 중남미·유럽·북미·아시아를 도는 '2026 ONEUS WORLD TOUR FULL MOON'에 나선다.",
+      "genres": [
+        "K-POP",
+        "발매",
+        "컴백"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/%EC%9B%90%EC%96%B4%EC%8A%A4_%28ONEUS%29_%40_190115_tbs_%ED%8C%A9%ED%8A%B8%EC%9D%B8%EC%8A%A4%ED%83%80_%ED%8C%A9%ED%84%B0%EB%B7%B0_%ED%8F%AC%ED%86%A0%ED%83%80%EC%9E%84_%281%29.png",
+      "source_url": "https://www.tenasia.co.kr/article/2026090449384",
+      "last_updated": "2026-09-10",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-onew-chakgak-20261020",
+      "name": "온유(SHINee) 싱글 1집 '착각'",
+      "release_date": "2026-10-20",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "온유(ONEW)",
+      "publisher": "SM엔터테인먼트",
+      "description": "샤이니 온유가 2026년 10월 20일 첫 번째 싱글 '착각'을 발매한다. 지난 3월 미니 5집 '터프 러브' 이후 약 7개월 만의 국내 신보다. 이번 싱글은 트리플 타이틀 체제로 꾸려져 첫 번째 타이틀곡과 두 번째 타이틀곡을 각각 9월 29일과 10월 7일 먼저 공개하고, 발매일에 세 번째 타이틀곡까지 더한 완전한 싱글을 내놓는 순차 공개 방식을 택했다.",
+      "genres": [
+        "K-POP",
+        "발라드",
+        "발매"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Onew_Percent_Showcase_2025_2.jpg/500px-Onew_Percent_Showcase_2025_2.jpg",
+      "source_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02906086645576840",
+      "last_updated": "2026-09-10",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-sunghanbin-solo-debut-20261012",
+      "name": "성한빈(제로베이스원) 솔로 데뷔 앨범",
+      "release_date": "2026-10-12",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "성한빈",
+      "publisher": "더라이브레이블(THE L1VE LABEL)",
+      "description": "제로베이스원 성한빈이 2026년 10월 12일 솔로 데뷔 앨범을 발매한다. 2023년 7월 그룹 데뷔 이후 약 3년 만이자 제로베이스원 멤버 중 첫 솔로 활동으로, 소속사는 데뷔일을 먼저 확정해 공개했다. 앨범명과 트랙리스트, 발매 형식은 아직 공개되지 않았으며 순차적으로 프로모션 일정이 안내될 예정이다. 그룹의 리더이자 메인 댄서로 활약해 온 그가 올라운더로 발돋움할 수 있을지 관심이 쏠린다.",
+      "genres": [
+        "K-POP",
+        "발매",
+        "솔로 데뷔"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Sung_Han_Bin_June_10_2025.png/500px-Sung_Han_Bin_June_10_2025.png",
+      "source_url": "https://www.news1.kr/entertain/music/6281629",
+      "last_updated": "2026-09-10",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-triples-love-and-pop-pt2-20261020",
+      "name": "tripleS 'LOVE&POP pt.2'",
+      "release_date": "2026-10-20",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "트리플에스(tripleS)",
+      "publisher": "모드하우스",
+      "description": "트리플에스가 2026년 10월 20일 완전체 앨범 'LOVE&POP pt.2'를 발매한다. 6월 1일 발매된 'LOVE&POP pt.1'에 이은 두 번째 파트로, 'ASSEMBLE26: LOVE&POP'이라는 이름 아래 2026년 6월부터 2027년 1월까지 이어지는 3부작 프로젝트의 중간 지점에 해당한다. 24인 규모의 그룹이 파트를 나눠 순차적으로 세계관을 확장하는 구성이며, 마지막 3부는 2027년 1월 공개될 예정이다.",
+      "genres": [
+        "K-POP",
+        "발매",
+        "컴백"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/TripleS_250512.jpg/500px-TripleS_250512.jpg",
+      "source_url": "https://triples.fandom.com/wiki/ASSEMBLE26:_LOVE%26POP",
+      "last_updated": "2026-09-10",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-hyeonyeokgawang3-tour-incheon-20260404",
+      "name": "2026 〈현역가왕3〉 전국투어 콘서트 - 인천",
+      "release_date": "2026-04-04",
+      "release_time": "13:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "인천남동체육관"
+      ],
+      "developer": "현역가왕3",
+      "publisher": null,
+      "description": "MBN 트로트 경연 프로그램 '현역가왕3'의 전국투어 콘서트 인천 공연이 2026년 4월 4일 인천남동체육관에서 열렸다. 이날 오후 1시와 6시 두 차례로 나뉘어 진행됐고 홍지윤·차지연·이수연·구수경·강혜연·김태연·솔지·빈예서가 무대에 올랐다. 서울 공연을 시작으로 인천·청주·울산·창원으로 이어진 투어의 두 번째 도시 일정이었으며, 8세 이상 관람가에 러닝타임은 120분이었다. 티켓은 NOL 티켓에서 판매됐다.",
+      "genres": [
+        "트로트",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://nol.yanolja.com/ticket/products/26001900",
+      "last_updated": "2026-09-10",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-choyongpil-great-birth-incheon-20251227",
+      "name": "2025-26년 조용필＆위대한탄생 전국투어 콘서트 - 인천",
+      "release_date": "2025-12-27",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "인천남동체육관"
+      ],
+      "developer": "조용필＆위대한탄생",
+      "publisher": null,
+      "description": "조용필과 밴드 위대한탄생이 2025년 12월 27일 오후 6시 인천남동체육관에서 전국투어 콘서트 인천 공연을 열었다. 예매 시작과 함께 좌석이 빠르게 소진되면서 이튿날인 12월 28일 일요일 회차가 추가로 편성돼 이틀에 걸쳐 진행됐다. 티켓은 VIP석 17만6000원부터 A석 11만원까지로 책정됐고 8세 이상 관람가, 러닝타임 120분이었다. 예매는 NOL 티켓에서 이뤄졌다.",
+      "genres": [
+        "가요",
+        "콘서트"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Cho_Yong-pil_from_acrofan.jpg",
+      "source_url": "https://nol.yanolja.com/ticket/places/25001275/products/25014360",
+      "last_updated": "2026-09-10",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-nell-christmas-in-nells-room-2025-20251225",
+      "name": "CHRISTMAS IN NELL'S ROOM 2025",
+      "release_date": "2025-12-25",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "잠실학생체육관"
+      ],
+      "developer": "넬(NELL)",
+      "publisher": "라이브커넥션",
+      "description": "밴드 넬이 2025년 12월 25일부터 27일까지 사흘간 서울 잠실학생체육관에서 연말 단독 콘서트 'CHRISTMAS IN NELL'S ROOM 2025'를 열었다. 2003년 처음 시작해 20년 넘게 이어져 온 넬의 대표 브랜드 공연으로, 서정적인 사운드와 세밀한 감정선에 조명·영상 연출을 더해 한 해를 마무리하는 무대를 꾸몄다. 티켓은 11월 4일 오후 8시 NOL 티켓에서 판매를 시작했고 주최·주관은 라이브커넥션이 맡았다.",
+      "genres": [
+        "록",
+        "밴드",
+        "콘서트"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Nell.jpg/500px-Nell.jpg",
+      "source_url": "https://kopis.or.kr/por/db/prfplc/prfplcView.do?menuId=MNU_00021&mt10Id=FC002049",
+      "last_updated": "2026-09-10",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-novelbright-live-tour-seoul-20251011",
+      "name": "Novelbright LIVE TOUR 2025 in SEOUL",
+      "release_date": "2025-10-11",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "잠실학생체육관"
+      ],
+      "developer": "노벨브라이트(Novelbright)",
+      "publisher": "루이이엔엠",
+      "description": "일본 4인조 록 밴드 노벨브라이트가 2025년 10월 11일 오후 6시 서울 잠실학생체육관에서 내한 공연 Novelbright LIVE TOUR 2025 in SEOUL을 열었다. 14세 이상 관람가로 약 90분간 진행됐으며 티켓은 스탠딩 13만2000원, 지정석 12만7000원에 예스24 티켓에서 판매됐다. 오사카 길거리 공연에서 출발해 일본 대형 페스티벌 무대까지 오른 밴드로, 국내 팬들과 만나는 자리였다. 주최·주관은 루이이엔엠이 맡았다.",
+      "genres": [
+        "록",
+        "내한",
+        "J-ROCK"
+      ],
+      "image_url": null,
+      "source_url": "https://ticket.yes24.com/Perf/54803",
+      "last_updated": "2026-09-10",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-btob-be-alright-seoul-20241227",
+      "name": "2024 BTOB CONCERT [Be Alright]",
+      "release_date": "2024-12-27",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "잠실학생체육관"
+      ],
+      "developer": "비투비(BTOB)",
+      "publisher": "비투비컴퍼니",
+      "description": "비투비가 2024년 12월 27일부터 29일까지 사흘간 서울 잠실학생체육관에서 단독 콘서트 'Be Alright'을 열었다. 비투비컴퍼니 소속으로 활동하는 서은광·이민혁·임현식·프니엘 네 멤버가 함께한 첫 단독 공연으로, 매달 신곡을 내놓은 '비커밍 프로젝트'의 결과물을 무대에서 선보였다. 공연 제목과 같은 곡 '비올라잇'을 비롯한 대표곡들을 라이브로 들려주며 연말 무대를 채웠다.",
+      "genres": [
+        "K-POP",
+        "콘서트"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BTOB_in_Marie_Claire_Korea_2017.jpg/500px-BTOB_in_Marie_Claire_Korea_2017.jpg",
+      "source_url": "https://www.etnews.com/20241218000357",
+      "last_updated": "2026-09-10",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-lovelyz-winterland4-seoul-20241116",
+      "name": "2024 러블리즈 10주년 콘서트 〈겨울나라의 러블리즈4〉",
+      "release_date": "2024-11-16",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "잠실학생체육관"
+      ],
+      "developer": "러블리즈(Lovelyz)",
+      "publisher": "울림엔터테인먼트",
+      "description": "러블리즈가 데뷔 10주년을 맞아 2024년 11월 16일과 17일 서울 잠실학생체육관에서 완전체 콘서트 '겨울나라의 러블리즈4'를 열었다. 16일은 오후 6시, 17일은 오후 4시에 시작했으며 2020년 온라인 단독 공연 이후 약 4년 만에 여덟 멤버가 한 무대에 섰다. 2017년 처음 열린 '겨울나라의 러블리즈'는 올 라이브 밴드 연주로 진행되는 겨울 시즌 콘서트로, 이번 공연도 티켓 오픈과 동시에 양일 전석이 매진됐다.",
+      "genres": [
+        "K-POP",
+        "콘서트",
+        "10주년"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/180412_%ED%8F%AC%ED%95%AD%EC%8B%9C%EB%AF%BC%EC%BD%98%EC%84%9C%ED%8A%B8_%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88_%281%29.jpg/500px-180412_%ED%8F%AC%ED%95%AD%EC%8B%9C%EB%AF%BC%EC%BD%98%EC%84%9C%ED%8A%B8_%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88_%281%29.jpg",
+      "source_url": "https://www.ticketlink.co.kr/help/notice/60246",
+      "last_updated": "2026-09-10",
       "last_researched_by": "ko-researcher"
     }
   ]
