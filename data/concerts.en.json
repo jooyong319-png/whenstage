@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-11",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -7107,6 +7107,396 @@
       "source_url": "https://www.setlist.fm/setlist/st-vincent/2026/lincoln-center-for-the-performing-arts-david-geffen-hall-new-york-ny-6349da63.html",
       "last_updated": "2026-09-08",
       "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-the-darkness-glasgow-20261208",
+      "name": "The Darkness: The Best Of The Darkness - Glasgow",
+      "release_date": "2026-12-08",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "OVO Hydro, Glasgow"
+      ],
+      "developer": "The Darkness",
+      "publisher": "AEG Presents",
+      "description": "The Darkness open their Best Of The Darkness arena tour at the OVO Hydro in Glasgow on December 8, 2026, the first night of their largest headline run in twenty years. The set is built around a career-spanning selection drawn from all eight studio albums, from 2003's Permission To Land through 2025's Dreams On Toast. Brothers Osborne and A support on every date.",
+      "genres": [
+        "Rock",
+        "Glam Rock",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/HollywoodVampsSSe200618-69_(42513700740).jpg/960px-HollywoodVampsSSe200618-69_(42513700740).jpg",
+      "source_url": "https://www.aegpresents.co.uk/event/the-darkness-3/",
+      "last_updated": "2026-09-11",
+      "last_researched_by": "en-researcher",
+      "general_sale": true
+    },
+    {
+      "id": "en-the-darkness-leeds-20261209",
+      "name": "The Darkness: The Best Of The Darkness - Leeds",
+      "release_date": "2026-12-09",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "First Direct Arena, Leeds, England"
+      ],
+      "developer": "The Darkness",
+      "publisher": "AEG Presents",
+      "description": "The Darkness bring their Best Of The Darkness tour to the First Direct Arena in Leeds on December 9, 2026. Promoted by AEG Presents, the show pairs the band's greatest hits with deeper fan favourites picked from eight albums recorded over more than two decades. Grammy-winning American country rock duo Brothers Osborne and British rock band A open the evening.",
+      "genres": [
+        "Rock",
+        "Glam Rock",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/HollywoodVampsSSe200618-69_(42513700740).jpg/960px-HollywoodVampsSSe200618-69_(42513700740).jpg",
+      "source_url": "https://www.aegpresents.co.uk/event/the-darkness-3/",
+      "last_updated": "2026-09-11",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.co.uk/the-darkness-leeds-09-12-2026/event/1F006372D3AB8347"
+    },
+    {
+      "id": "en-the-darkness-manchester-20261211",
+      "name": "The Darkness: The Best Of The Darkness - Manchester",
+      "release_date": "2026-12-11",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "AO Arena, Manchester, England"
+      ],
+      "developer": "The Darkness",
+      "publisher": "AEG Presents",
+      "description": "The Darkness play the AO Arena in Manchester on December 11, 2026 as part of the Best Of The Darkness arena tour. The band promise a hits-led set spanning their whole catalogue, staged at the largest indoor venues they have headlined since the mid-2000s. Brothers Osborne and A appear as special guests, with tickets sold through AXS, Ticketmaster and See Tickets.",
+      "genres": [
+        "Rock",
+        "Glam Rock",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/HollywoodVampsSSe200618-69_(42513700740).jpg/960px-HollywoodVampsSSe200618-69_(42513700740).jpg",
+      "source_url": "https://www.aegpresents.co.uk/event/the-darkness-3/",
+      "last_updated": "2026-09-11",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.co.uk/the-darkness-bands-of-brothers-arena-manchester-11-12-2026/event/1F0064C889672E02"
+    },
+    {
+      "id": "en-the-darkness-birmingham-20261212",
+      "name": "The Darkness: The Best Of The Darkness - Birmingham",
+      "release_date": "2026-12-12",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Utilita Arena Birmingham, Birmingham, England"
+      ],
+      "developer": "The Darkness",
+      "publisher": "AEG Presents",
+      "description": "The Darkness headline Utilita Arena Birmingham on December 12, 2026 on their Best Of The Darkness tour. The run follows Crock Of Hits, the band's first self-curated greatest hits collection, and gathers material from Permission To Land onwards. AEG Presents promotes the tour, and Brothers Osborne and A are billed as support across all seven arena shows.",
+      "genres": [
+        "Rock",
+        "Glam Rock",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/HollywoodVampsSSe200618-69_(42513700740).jpg/960px-HollywoodVampsSSe200618-69_(42513700740).jpg",
+      "source_url": "https://www.aegpresents.co.uk/event/the-darkness-3/",
+      "last_updated": "2026-09-11",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.co.uk/the-darkness-birmingham-12-12-2026/event/23006372DA441A82"
+    },
+    {
+      "id": "en-the-darkness-cardiff-20261213",
+      "name": "The Darkness: The Best Of The Darkness - Cardiff",
+      "release_date": "2026-12-13",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Utilita Arena Cardiff, Cardiff, Wales"
+      ],
+      "developer": "The Darkness",
+      "publisher": "AEG Presents",
+      "description": "The Darkness perform at Utilita Arena Cardiff on December 13, 2026, the Welsh stop on their Best Of The Darkness arena tour. Justin Hawkins and the band draw the setlist from eight studio albums, including 2025's Dreams On Toast, which reached number two on the UK Official Albums Chart. Brothers Osborne and A support, with tickets on general sale now.",
+      "genres": [
+        "Rock",
+        "Glam Rock",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/HollywoodVampsSSe200618-69_(42513700740).jpg/960px-HollywoodVampsSSe200618-69_(42513700740).jpg",
+      "source_url": "https://www.aegpresents.co.uk/event/the-darkness-3/",
+      "last_updated": "2026-09-11",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.co.uk/event/3600636ECB369692"
+    },
+    {
+      "id": "en-the-darkness-brighton-20261215",
+      "name": "The Darkness: The Best Of The Darkness - Brighton",
+      "release_date": "2026-12-15",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Brighton Centre, Brighton, England"
+      ],
+      "developer": "The Darkness",
+      "publisher": "AEG Presents",
+      "description": "The Darkness play the Brighton Centre on December 15, 2026, the penultimate night of their Best Of The Darkness tour. The show is part of a seven-date December arena run promoted by AEG Presents that celebrates more than twenty years of the band's catalogue. Brothers Osborne and A support, and tickets are available through AXS, Ticketmaster and See Tickets.",
+      "genres": [
+        "Rock",
+        "Glam Rock",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/HollywoodVampsSSe200618-69_(42513700740).jpg/960px-HollywoodVampsSSe200618-69_(42513700740).jpg",
+      "source_url": "https://www.aegpresents.co.uk/event/the-darkness-3/",
+      "last_updated": "2026-09-11",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.co.uk/the-darkness-brighton-15-12-2026/event/3E006373B0A36C74"
+    },
+    {
+      "id": "en-the-darkness-london-20261216",
+      "name": "The Darkness: The Best Of The Darkness - London",
+      "release_date": "2026-12-16",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "The O2 Arena, London"
+      ],
+      "developer": "The Darkness",
+      "publisher": "AEG Presents",
+      "description": "The Darkness close their Best Of The Darkness arena tour at The O2 in London on December 16, 2026, the band's first headline performance at the venue. The finale caps a seven-city December run promoted by AEG Presents and follows the November release of their greatest hits album Crock Of Hits. Brothers Osborne and A support.",
+      "genres": [
+        "Rock",
+        "Glam Rock",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/HollywoodVampsSSe200618-69_(42513700740).jpg/960px-HollywoodVampsSSe200618-69_(42513700740).jpg",
+      "source_url": "https://www.aegpresents.co.uk/event/the-darkness-3/",
+      "last_updated": "2026-09-11",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.co.uk/the-darkness-london-16-12-2026/event/35006372BA9F663E"
+    },
+    {
+      "id": "en-the-darkness-crock-of-hits-20261127",
+      "name": "The Darkness - Crock Of Hits",
+      "release_date": "2026-11-27",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "music_release",
+      "platforms": [
+        "Streaming",
+        "Digital",
+        "CD",
+        "Vinyl"
+      ],
+      "developer": "The Darkness",
+      "publisher": "Warner Music",
+      "description": "The Darkness release Crock Of Hits, their first personally curated greatest hits collection, on November 27, 2026 through Warner Music. The set draws on eight studio albums recorded since 2003 and is issued on single LP, double LP, CD and a three-disc edition. It includes a newly recorded version of Masters Of The Universe featuring Queen guitarist Brian May, and precedes the band's December UK arena tour.",
+      "genres": [
+        "Rock",
+        "Glam Rock",
+        "Compilation"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/HollywoodVampsSSe200618-69_(42513700740).jpg/960px-HollywoodVampsSSe200618-69_(42513700740).jpg",
+      "source_url": "https://www.thedarknesslive.com/the-darkness-announce-greatest-hits-album-crock-of-hits-plus-intimate-london-album-launch-show/",
+      "last_updated": "2026-09-11",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-supergrass-glasgow-20270427",
+      "name": "Supergrass: 2027 UK Tour - Glasgow",
+      "release_date": "2027-04-27",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Barrowland Ballroom, Glasgow"
+      ],
+      "developer": "Supergrass",
+      "publisher": null,
+      "description": "Supergrass open the Scottish leg of their 2027 UK headline tour at Glasgow's Barrowland Ballroom on April 27, 2027. Gaz Coombes has said the band will move on from the I Should Coco anniversary shows of the previous year and instead pull hits and deep cuts from across their whole catalogue. Demand was strong enough that a second Barrowland night was added.",
+      "genres": [
+        "Rock",
+        "Britpop",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Supergrass.jpg",
+      "source_url": "https://readdork.com/news/supergrass-expand-2027-uk-tour-extra-dates",
+      "last_updated": "2026-09-11",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.co.uk/supergrass-tickets/artist/773872"
+    },
+    {
+      "id": "en-supergrass-glasgow-20270428",
+      "name": "Supergrass: 2027 UK Tour - Glasgow",
+      "release_date": "2027-04-28",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Barrowland Ballroom, Glasgow"
+      ],
+      "developer": "Supergrass",
+      "publisher": null,
+      "description": "Supergrass play a second consecutive night at Glasgow's Barrowland Ballroom on April 28, 2027, one of three extra shows added to their spring UK tour after the original dates sold quickly. The thirteen-date run stretches from Newcastle on April 26 to Portsmouth on May 12 and features a setlist spanning the band's albums rather than a single record.",
+      "genres": [
+        "Rock",
+        "Britpop",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Supergrass.jpg",
+      "source_url": "https://readdork.com/news/supergrass-expand-2027-uk-tour-extra-dates",
+      "last_updated": "2026-09-11",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.co.uk/supergrass-tickets/artist/773872"
+    },
+    {
+      "id": "en-supergrass-manchester-20270501",
+      "name": "Supergrass: 2027 UK Tour - Manchester",
+      "release_date": "2027-05-01",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Manchester Academy, Manchester, England"
+      ],
+      "developer": "Supergrass",
+      "publisher": null,
+      "description": "Supergrass headline Manchester Academy on May 1, 2027 as part of their thirteen-date UK spring tour. The Oxford band return to full-catalogue sets after touring the thirtieth anniversary of debut album I Should Coco, with Gaz Coombes promising both singles and lesser-played tracks. Tickets for the whole run went on general sale in September 2026 and a second Manchester night followed.",
+      "genres": [
+        "Rock",
+        "Britpop",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Supergrass.jpg",
+      "source_url": "https://readdork.com/news/supergrass-expand-2027-uk-tour-extra-dates",
+      "last_updated": "2026-09-11",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.co.uk/supergrass-tickets/artist/773872"
+    },
+    {
+      "id": "en-supergrass-manchester-20270502",
+      "name": "Supergrass: 2027 UK Tour - Manchester",
+      "release_date": "2027-05-02",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Manchester Academy, Manchester, England"
+      ],
+      "developer": "Supergrass",
+      "publisher": null,
+      "description": "Supergrass add a second Manchester Academy show on May 2, 2027 following heavy demand for the first night. It is one of three dates the band bolted onto their 2027 UK tour alongside extra shows in Glasgow and London. The spring itinerary also takes in Newcastle, Leeds, Nottingham, Birmingham, Bristol and Portsmouth before closing on May 12.",
+      "genres": [
+        "Rock",
+        "Britpop",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Supergrass.jpg",
+      "source_url": "https://readdork.com/news/supergrass-expand-2027-uk-tour-extra-dates",
+      "last_updated": "2026-09-11",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.co.uk/supergrass-tickets/artist/773872"
+    },
+    {
+      "id": "en-supergrass-london-20270507",
+      "name": "Supergrass: 2027 UK Tour - London",
+      "release_date": "2027-05-07",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "O2 Forum Kentish Town, London"
+      ],
+      "developer": "Supergrass",
+      "publisher": null,
+      "description": "Supergrass begin a three-night London residency at the O2 Forum Kentish Town on May 7, 2027. The run is the centrepiece of a thirteen-date UK tour on which the band revisit material from across their catalogue rather than focusing on one album. Tickets went on general sale at 10am BST on September 4, 2026 and remain available through Ticketmaster UK.",
+      "genres": [
+        "Rock",
+        "Britpop",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Supergrass.jpg",
+      "source_url": "https://readdork.com/news/supergrass-expand-2027-uk-tour-extra-dates",
+      "last_updated": "2026-09-11",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.co.uk/supergrass-tickets/artist/773872"
+    },
+    {
+      "id": "en-supergrass-london-20270508",
+      "name": "Supergrass: 2027 UK Tour - London",
+      "release_date": "2027-05-08",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "O2 Forum Kentish Town, London"
+      ],
+      "developer": "Supergrass",
+      "publisher": null,
+      "description": "Supergrass play the second of three consecutive nights at the O2 Forum Kentish Town on May 8, 2027. The London stand follows shows in Glasgow, Leeds, Manchester, Nottingham and Birmingham on a spring tour that Gaz Coombes has framed as a trawl through hits and deep cuts from the band's six studio albums.",
+      "genres": [
+        "Rock",
+        "Britpop",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Supergrass.jpg",
+      "source_url": "https://readdork.com/news/supergrass-expand-2027-uk-tour-extra-dates",
+      "last_updated": "2026-09-11",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.co.uk/supergrass-tickets/artist/773872"
+    },
+    {
+      "id": "en-supergrass-london-20270509",
+      "name": "Supergrass: 2027 UK Tour - London",
+      "release_date": "2027-05-09",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "O2 Forum Kentish Town, London"
+      ],
+      "developer": "Supergrass",
+      "publisher": null,
+      "description": "Supergrass close their London residency with a third night at the O2 Forum Kentish Town on May 9, 2027, a date added after the first two sold out. The band then travel to Bristol Beacon and Portsmouth Guildhall to finish the thirteen-date UK tour, their most extensive headline run since the I Should Coco anniversary shows.",
+      "genres": [
+        "Rock",
+        "Britpop",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Supergrass.jpg",
+      "source_url": "https://readdork.com/news/supergrass-expand-2027-uk-tour-extra-dates",
+      "last_updated": "2026-09-11",
+      "last_researched_by": "en-researcher",
+      "general_sale": true,
+      "general_sale_url": "https://www.ticketmaster.co.uk/supergrass-tickets/artist/773872"
     }
   ]
 }
