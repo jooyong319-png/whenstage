@@ -779,9 +779,9 @@
       "source_url": "https://www.theoaklandarena.com/events/detail/enhypen-1",
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": "https://www.axs.com/events/1380740/enhypen-tickets",
+      "general_sale_url": null,
       "presale": false,
-      "last_updated": "2026-08-01",
+      "last_updated": "2026-09-11",
       "last_researched_by": "en-researcher"
     },
     {
@@ -806,7 +806,7 @@
       "source_url": "https://www.lollapalooza.com/lineup",
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": "https://www.lollapalooza.com/",
+      "general_sale_url": null,
       "festival_days": [
         {
           "date": "2026-07-30",
@@ -836,7 +836,8 @@
             "The xx"
           ]
         }
-      ]
+      ],
+      "last_updated": "2026-09-11"
     },
     {
       "id": "en-djo-summer-tour-richmond-20260731",
@@ -860,10 +861,10 @@
       "image_url": null,
       "source_url": "https://www.jambase.com/article/djo-headline-tour-dates-summer-2026",
       "general_sale": false,
-      "general_sale_datetime": "2026-03-20T10:00:00-04:00",
+      "general_sale_datetime": null,
       "general_sale_url": null,
       "presale": false,
-      "last_updated": "2026-08-01",
+      "last_updated": "2026-09-11",
       "last_researched_by": "en-researcher"
     },
     {
@@ -937,8 +938,8 @@
       "image_url": null,
       "source_url": "https://www.rush.com/show/fifty-something-2026-08-01/",
       "general_sale": false,
-      "general_sale_url": "https://www.ticketmaster.com/event/3B00634413F131FB",
-      "last_updated": "2026-07-31",
+      "general_sale_url": null,
+      "last_updated": "2026-09-11",
       "last_researched_by": "en-researcher"
     },
     {
@@ -963,8 +964,8 @@
       "source_url": "https://www.ticketmaster.com/foo-fighters-tickets/artist/776005",
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": "https://www.ticketmaster.com/foo-fighters-tickets/artist/776005",
-      "last_updated": "2026-08-07"
+      "general_sale_url": null,
+      "last_updated": "2026-09-11"
     },
     {
       "id": "en-mcr-black-parade-2026-new-york-20260809",
@@ -988,10 +989,10 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/MCR820_%28cropped%29.jpg/330px-MCR820_%28cropped%29.jpg",
       "source_url": "https://variety.com/2025/music/news/my-chemical-romance-black-parade-2026-tour-dates-1236526059/",
       "general_sale": false,
-      "general_sale_datetime": "2025-09-26T12:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/my-chemical-romance-tickets/artist/859324",
+      "general_sale_datetime": null,
+      "general_sale_url": null,
       "presale": false,
-      "last_updated": "2026-08-18",
+      "last_updated": "2026-09-11",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1016,10 +1017,10 @@
       "image_url": null,
       "source_url": "https://loudwire.com/avenged-sevenfold-good-charlotte-2026-north-american-tour-dates/",
       "general_sale": false,
-      "general_sale_datetime": "2025-12-12T10:00:00-05:00",
+      "general_sale_datetime": null,
       "general_sale_url": null,
       "presale": false,
-      "last_updated": "2026-08-18",
+      "last_updated": "2026-09-11",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1192,8 +1193,8 @@
       "image_url": null,
       "source_url": "https://consequence.net/2025/10/bon-jovi-2026-tour-dates/",
       "general_sale": false,
-      "general_sale_url": "https://www.livenation.co.uk/event/bon-jovi-forever-tour-edinburgh-tickets-edp1629000",
-      "last_updated": "2026-09-01",
+      "general_sale_url": null,
+      "last_updated": "2026-09-11",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1241,12 +1242,12 @@
       "image_url": null,
       "source_url": "https://themusicuniverse.com/fcukers-announce-fall-2026-north-american-tour-dates/",
       "presale": false,
-      "presale_datetime": "2026-07-28T10:00:00-04:00",
+      "presale_datetime": null,
       "presale_url": null,
       "general_sale": false,
-      "general_sale_datetime": "2026-07-29T10:00:00-04:00",
+      "general_sale_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-09-04",
+      "last_updated": "2026-09-11",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1272,12 +1273,12 @@
       "image_url": null,
       "source_url": "https://news.pollstar.com/2026/07/21/latin-grammy-winner-silvana-estrada-embarking-on-north-american-tour/",
       "presale": false,
-      "presale_datetime": "2026-07-22T10:00:00-07:00",
+      "presale_datetime": null,
       "presale_url": null,
       "general_sale": false,
-      "general_sale_datetime": "2026-07-24T10:00:00-07:00",
+      "general_sale_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-09-04",
+      "last_updated": "2026-09-11",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1330,9 +1331,9 @@
       "presale_datetime": null,
       "presale_url": null,
       "general_sale": false,
-      "general_sale_datetime": "2026-07-31T10:00:00-06:00",
+      "general_sale_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-09-08",
+      "last_updated": "2026-09-11",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1380,9 +1381,10 @@
       ],
       "image_url": null,
       "source_url": "https://consequence.net/2026/07/lupe-fiasco-gymclassheroes-2026-us-tour/",
-      "general_sale": true,
-      "general_sale_datetime": "2026-07-17T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/lupe-fiasco-tickets/artist/1036994"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-09-11"
     },
     {
       "id": "en-bigbang-2026-world-tour-east-rutherford-20260911",
@@ -1407,7 +1409,7 @@
       "source_url": "https://www.metlifestadium.com/events/detail/bigbang",
       "general_sale": true,
       "general_sale_url": "https://www.ticketmaster.com/bigbang-2026-world-tour-east-rutherford-new-jersey-09-11-2026/event/000064CFBC9CE038",
-      "last_updated": "2026-08-03",
+      "last_updated": "2026-09-11",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1436,7 +1438,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-06-12T13:00:00-04:00",
       "general_sale_url": "https://www.ticketmaster.com/event/300064C5A4647126",
-      "last_updated": "2026-08-04",
+      "last_updated": "2026-09-11",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1459,7 +1461,7 @@
       ],
       "image_url": null,
       "source_url": "https://stereogum.com/2507037/chrome-sparks-sleeper-feat-khalid-jonsi/music",
-      "last_updated": "2026-08-03",
+      "last_updated": "2026-09-11",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1485,7 +1487,8 @@
       "source_url": "https://www.gainbridgefieldhouse.com/events/detail/phoebe-bridgers",
       "general_sale": true,
       "general_sale_datetime": "2026-06-12T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/phoebe-bridgers-tickets/artist/2133305?venueId=41417&brand=fieldhouse&camefrom=CFC_FIELDHOUSE_SITE_EVENT"
+      "general_sale_url": "https://www.ticketmaster.com/phoebe-bridgers-tickets/artist/2133305?venueId=41417&brand=fieldhouse&camefrom=CFC_FIELDHOUSE_SITE_EVENT",
+      "last_updated": "2026-09-11"
     },
     {
       "id": "en-ministry-hate-to-go-farewell-red-rocks-20260915",
@@ -1508,7 +1511,7 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Hellfest2017Ministry_14.jpg/330px-Hellfest2017Ministry_14.jpg",
       "source_url": "https://consequence.net/2026/07/ministry-final-album-farewell-tour-single-burned-out/",
-      "last_updated": "2026-07-25",
+      "last_updated": "2026-09-11",
       "last_researched_by": "en-researcher"
     },
     {
@@ -2962,8 +2965,8 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://www.satellitemusichall.com/",
-      "last_updated": "2026-09-08",
+      "general_sale_url": null,
+      "last_updated": "2026-09-11",
       "last_researched_by": "en-researcher"
     },
     {
@@ -3629,7 +3632,7 @@
       "image_url": null,
       "presale": false,
       "general_sale": true,
-      "last_updated": "2026-08-11",
+      "last_updated": "2026-09-11",
       "last_researched_by": "en-researcher",
       "id": "en-garth-brooks-blame-it-all-on-my-roots-rosemont-20260911",
       "name": "Garth Brooks: Blame It All On My Roots Tour - Chicago (Rosemont)",
@@ -3908,9 +3911,9 @@
       "source_url": "https://www.gainbridgefieldhouse.com/events/detail/garth-brooks",
       "presale": false,
       "general_sale": false,
-      "general_sale_datetime": "2026-07-17T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/garth-brooks-tickets/artist/732705?venueId=41417",
-      "last_updated": "2026-08-21",
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-09-11",
       "last_researched_by": "en-researcher"
     },
     {
@@ -4232,7 +4235,7 @@
       "id": "en-erykah-badu-alchemist-cleveland-20260915",
       "name": "Erykah Badu & The Alchemist - Cleveland",
       "release_date": "2026-09-15",
-      "release_time": null,
+      "release_time": "20:00",
       "release_date_approx": false,
       "timezone": "America/New_York",
       "category": "concert_tour",
@@ -4249,7 +4252,7 @@
       ],
       "image_url": null,
       "source_url": "https://consequence.net/2026/06/erykah-badu-2026-tour-dates/",
-      "last_updated": "2026-08-18",
+      "last_updated": "2026-09-11",
       "last_researched_by": "en-researcher",
       "general_sale": true
     },
@@ -4946,7 +4949,7 @@
       "release_date_approx": false,
       "publisher": null,
       "image_url": null,
-      "last_updated": "2026-08-25",
+      "last_updated": "2026-09-11",
       "last_researched_by": "en-researcher",
       "id": "en-bad-bunny-cerramos-en-casa-san-juan-20260822",
       "name": "Bad Bunny: Debi Tirar Mas Fotos - Cerramos en Casa (Night 1)",
@@ -4966,14 +4969,14 @@
       "source_url": "https://news.pollstar.com/2026/08/18/cerrando-en-casa-bad-bunny-returning-to-puerto-rico-for-final-shows-of-debi-tirar-mas-fotos-tour/",
       "presale": false,
       "general_sale": false,
-      "general_sale_datetime": "2026-08-19T10:00:00-04:00"
+      "general_sale_datetime": null
     },
     {
       "release_time": null,
       "release_date_approx": false,
       "publisher": null,
       "image_url": null,
-      "last_updated": "2026-08-25",
+      "last_updated": "2026-09-11",
       "last_researched_by": "en-researcher",
       "id": "en-bad-bunny-cerramos-en-casa-san-juan-20260823",
       "name": "Bad Bunny: Debi Tirar Mas Fotos - Cerramos en Casa (Night 2)",
@@ -4993,7 +4996,7 @@
       "source_url": "https://news.pollstar.com/2026/08/18/cerrando-en-casa-bad-bunny-returning-to-puerto-rico-for-final-shows-of-debi-tirar-mas-fotos-tour/",
       "presale": false,
       "general_sale": false,
-      "general_sale_datetime": "2026-08-19T10:00:00-04:00"
+      "general_sale_datetime": null
     },
     {
       "release_time": "20:00",
@@ -6207,10 +6210,10 @@
       ],
       "image_url": null,
       "source_url": "https://www.theo2.co.uk/events/detail/katseye",
-      "last_updated": "2026-09-08",
+      "last_updated": "2026-09-11",
       "last_researched_by": "en-researcher",
       "general_sale": false,
-      "general_sale_url": "https://www.axs.com/uk/series/32970/katseye-at-the-o2-tickets?skin=theo2",
+      "general_sale_url": null,
       "presale": false
     },
     {
@@ -6451,7 +6454,7 @@
       "id": "en-melanie-martinez-hades-the-sacrifice-london-20260911",
       "name": "Melanie Martinez: HADES - THE SACRIFICE - London",
       "release_date": "2026-09-11",
-      "release_time": null,
+      "release_time": "18:30",
       "release_date_approx": false,
       "timezone": "Europe/London",
       "category": "concert_tour",
@@ -6468,7 +6471,7 @@
       ],
       "image_url": null,
       "source_url": "https://www.theo2.co.uk/events/detail/melanie-martinez-2026",
-      "last_updated": "2026-09-04",
+      "last_updated": "2026-09-11",
       "last_researched_by": "en-researcher",
       "presale": false,
       "general_sale": true,
