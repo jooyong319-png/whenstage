@@ -3,8 +3,48 @@
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
 | ko | 2026-09-09 | |
-| en | — | ← |
-| ja | — | |
+| en | 2026-09-11 | |
+| ja | — | ← |
+
+---
+
+## 2026-09-11 · en
+
+en 첫 회차. 대상 창: 2026-07-13 ~ 2026-11-10 (오늘 ±60일). 창 안 항목 133건(끝난 것 43 / 예정 90).
+로테이션상 en이 미점검(가장 오래됨)이라 선택. 코드는 손대지 않았고 `data/concerts.en.json`만 수정.
+
+**트랙 A (졸업 처리) — 17건** (상한 20건 이내, A-3·A-4 해당 없음)
+- 끝난 공연에 남은 예매 필드 정리(A-1·A-2) 17건 — `general_sale_url`/`presale_datetime`/`general_sale_datetime` 등 "아직 판매 중" 모양으로 남은 값을 null 처리. `isTicketingLiveNow()`가 마감일 없는 과거 `*_datetime`을 "예매중"으로 띄우던 항목 다수 포함(코드 CTA는 `hasEventEnded`로 이미 막혀 있으나 목록/캘린더 "예매중" 배지는 이 함수를 씀 → 데이터를 사실과 맞춤):
+  en-enhypen-blood-saga-oakland-20260728, en-lollapalooza-2026-20260730, en-djo-summer-tour-richmond-20260731,
+  en-rush-fifty-something-new-york-20260801, en-foo-fighters-take-cover-detroit-20260806, en-mcr-black-parade-2026-new-york-20260809,
+  en-avenged-sevenfold-good-charlotte-belmont-park-20260810, en-bon-jovi-forever-tour-edinburgh-20260828,
+  en-fcukers-fall-tour-grand-rapids-20260901, en-silvana-estrada-suaves-lluvias-portland-20260903,
+  en-garth-brooks-blame-it-all-roots-denver-20260904, en-lupe-fiasco-back-to-basics-cleveland-20260910(general_sale=true→false 포함),
+  en-the-band-camino-satellite-music-hall-memphis-20260904, en-garth-brooks-blame-it-all-on-my-roots-indianapolis-20260820,
+  en-bad-bunny-cerramos-en-casa-san-juan-20260822, en-bad-bunny-cerramos-en-casa-san-juan-20260823, en-katseye-wildworld-tour-london-20260904
+- A-3(release_date_approx 미해제): 끝난 항목 중 approx=true 없음 — 처리 없음
+- A-4(description 시제): 끝난 항목 description은 이미 과거형. 오탐 2건 확인 후 미수정 —
+  en-morgan-wallen-been-by-now-20260724("will-they-won't-they" 관용구), en-lil-uzi-vert-maverick-almost-forever-20260731("scheduled ... was scrapped" 과거 서술)
+
+**트랙 B (임박 점검) — 8건 확인** (공연일 가까운 순, last_updated 오래된 순)
+- 취소·연기 없음. 8건 모두 공식·예매처 소스로 정상 진행 확인, last_updated 오늘로 갱신:
+  en-bigbang-2026-world-tour-east-rutherford-20260911(MetLife 9/11 20:00 정상, Ticketmaster 판매중),
+  en-charli-xcx-music-fashion-film-philadelphia-20260911(Xfinity Mobile Arena 투어 개막 9/11 20:00 정상),
+  en-garth-brooks-blame-it-all-on-my-roots-rosemont-20260911(Allstate Arena 9/11 20:00 정상),
+  en-melanie-martinez-hades-the-sacrifice-london-20260911(The O2 9/11 정상),
+  en-chrome-sparks-ball-of-light-20260911(앨범 9/11 발매 확정, music_release),
+  en-phoebe-bridgers-lost-tour-indianapolis-20260914(Gainbridge Fieldhouse 9/14 19:30 정상, last_updated 없던 항목),
+  en-ministry-hate-to-go-farewell-red-rocks-20260915(Red Rocks 9/15 정상),
+  en-erykah-badu-alchemist-cleveland-20260915(Jacobs Pavilion 9/15 20:00 정상, De La Soul 동반)
+- B-2(approx 임박): 해당 없음(8건 모두 approx=false)
+- B-4(빈 필드 보강): release_time 2건 채움(출처 2건 일치) —
+  en-melanie-martinez-...-20260911 → 18:30(Live Nation·AXS), en-erykah-badu-alchemist-cleveland-20260915 → 20:00(Jacobs Pavilion·SeatGeek)
+- 링크: bigbang·charli·melanie·phoebe의 general_sale_url(Ticketmaster/AXS)은 provenance 제한으로 직접 열지 못했으나 검색으로 판매 진행 확인 → §B-3 재확인 원칙대로 죽은 링크로 단정하지 않고 유지
+
+**남은 것**: 트랙 A 상한 여유 있었고 A-1/A-2 해당 항목 전부 처리(17건). 추가 대기 없음.
+**리서처 참고(추가·수정 안 함)**:
+- en-bigbang-2026-world-tour-east-rutherford-20260911: `platforms`에 East Rutherford(MetLife)와 Oakland Coliseum 두 도시 공연장이 함께 들어 있음 — 날짜별 항목 분리 여부는 리서처 판단
+- 공연장 표기 다수가 "Venue, City, ST" 형식이라 §4-5 괄호 규칙과 어긋남(예: "Gainbridge Fieldhouse, Indianapolis, IN") — 공연장 모아보기 색인에 영향 가능, 표기 통일은 리서처/운영 몫
 
 ---
 
