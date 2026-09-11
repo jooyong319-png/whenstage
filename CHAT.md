@@ -1,3 +1,59 @@
+## [2026-09-11 09:30] [EN 리서처]
+리서치 완료 (영어권/글로벌 시장 공연)
+- 콘서트/투어 5→2(아티스트 기준), 발매 2→1, 페스티벌 1→0, 팬미팅 0→0 (후보→통과)
+- 신규 21개(예정 15 + 백필 6) / 갱신 0개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리 6건 중 3건 등재 (The Darkness 아레나 투어·Crock Of Hits 앨범·Supergrass 2027 UK 투어)
+- 과거 백필 6개 → **공연장 색인전환 5개**(Co-op Live Manchester 1→3건, Union Chapel London 1→2건,
+  Irving Plaza New York 1→2건, Paradise Rock Club Boston 1→2건, Brooklyn Steel Brooklyn 1→2건)
+  / 기존 공연장 보강 0개
+- 티켓팅 진행중 +15 (The Darkness 7·Supergrass 7 일반예매 진행 중, Crock Of Hits는 발매 항목이라 해당 없음 / 해제 0)
+- description 보강 0개 (신규분 전부 영어 52단어 이상)
+- publisher 신규 채움 15개 중 9개 (AEG Presents 7, Warner Music 1, Live Nation·Rough Trade·Bowery Presents 등 백필 5)
+- 총 등록 281개
+
+[신규 — 예정 공연 15건]
+- The Darkness: The Best Of The Darkness UK 아레나 투어 7회 (12/8 Glasgow OVO Hydro, 12/9 Leeds First Direct Arena,
+  12/11 Manchester AO Arena, 12/12 Birmingham, 12/13 Cardiff, 12/15 Brighton Centre, 12/16 London The O2)
+  — 출처: AEG Presents 공식 이벤트 페이지(일자별 Ticketmaster/AXS/See Tickets 링크 포함) + rocknews.co.uk + Absolute Radio.
+  Ticketmaster 개별 이벤트 URL을 general_sale_url에 그대로 채움. London The O2는 기존 색인 공연장(9→10건)
+- The Darkness - Crock Of Hits (2026-11-27, Warner Music) — 밴드 공식 사이트 + rocknews 일치
+- Supergrass: 2027 UK Tour 7회 (4/27·4/28 Glasgow Barrowland Ballroom, 5/1·5/2 Manchester Academy,
+  5/7·5/8·5/9 London O2 Forum Kentish Town) — 출처: Dork(9/7) + NME + Radio X.
+  13회 전체 중 **같은 공연장 2회 이상인 3개 회장만 골라 등재** — 1회짜리 공연장을 새로 만들지 않기 위함이며,
+  이 선택으로 신규 색인 공연장 3개가 한 번에 생긴다(Barrowland 2건, Manchester Academy 2건, O2 Forum 3건)
+
+[신규 — 과거 백필 6건] (AGENTS.md §7 기준: approx=false, 티켓팅 필드 비움, 과거시제 description)
+- Lady Gaga: The Mayhem Ball - Manchester 2025-10-07 / 10-08 (Co-op Live) — setlist.fm + ladygaga.com 공식 일정
+- Laufey: A Matter of Time Outstore - London 2025-06-30 (Union Chapel) — setlist.fm + Union Chapel 공식 What's On + Rough Trade 공지
+- Thrice: Fall Tour 2025 - New York 2025-11-01 (Irving Plaza) — setlist.fm + Live Nation 이벤트 페이지
+- Deafheaven: Lonely People With Power Tour - Boston 2025-05-13 (Paradise Rock Club) — setlist.fm + Live Nation
+- MJ Lenderman & The Wind - Brooklyn 2025-04-28 (Brooklyn Steel) — setlist.fm + Ticketmaster + DoNYC
+→ 이번 사이클로 en 1건짜리 공연장이 9개에서 10개가 됐다(백필로 5개 해소, 예정 공연 신규 등재로 6개 발생).
+  다음 사이클 백필 우선 후보: PH Live at Planet Hollywood(Las Vegas), Utilita Arena Birmingham,
+  Utilita Arena Cardiff, Brighton Centre, First Direct Arena(Leeds), AO Arena(Manchester), OVO Hydro(Glasgow)
+  — 모두 상시 공연이 많은 대형 회장이라 과거 공연 후보가 풍부하다.
+
+[이미지]
+- The Darkness / Lady Gaga / Thrice / Deafheaven / MJ Lenderman / Supergrass: 위키미디어 커먼즈 이미지 사용,
+  전부 실제 HTTP 200 + JPEG 헤더까지 확인(폭 960px). `wikipedia/en/...` 비자유 이미지는 사용하지 않음.
+  ※ 커먼즈 썸네일은 800px 요청이 400을 반환하고 960px는 정상이었다 — 다음 사이클도 960px로 요청할 것.
+- Laufey: 위키백과 문서에 인포박스 이미지가 없어 null 유지(기존 Laufey 항목도 null)
+
+[검증 탈락]
+- TOMORROW X TOGETHER: STEAL THE WIND World Tour (북미 7회, 2027-05) — 날짜·도시는 Consequence·JamBase·
+  Korea JoongAng Daily가 일치하지만 **공연장이 전부 TBD**이고 티켓 판매 정보도 미공개. platforms[0]이
+  공연장 페이지 키라서 도시명만으로 등재하면 잘못된 공연장 페이지가 생긴다. 회장 발표 후 재검토
+- The Darkness: Moth Club London (2026-09-17) — 사실 자체는 AEG 공식 페이지로 확정이나 티켓이 전량 소진돼
+  대기자 명단만 운영 중(300석 앨범 발매 기념 공연). 이용자 행동으로 이어지지 않아 이번 사이클 보류
+- 70,000 Tons Of Metal 2027 (2027-01-14~18) — 크루즈 페스티벌이라 개최지가 선박(Freedom Of The Seas)이고
+  마이애미 출항·도미니카공화국 기항이라 `platforms`/`timezone`을 어느 기준으로 잡을지 선례가 없다.
+  임의 판단보다 보류가 맞다고 보고 스킵
+- Supergrass 나머지 6회(Newcastle NX, Leeds O2 Academy, Nottingham Rock City, Birmingham O2 Academy,
+  Bristol Beacon, Portsmouth Guildhall) — 사실 검증은 통과했으나 1건짜리 공연장을 6개 새로 만들게 되어
+  이번 사이클에서는 제외. 해당 공연장에 다른 공연이 등재되면 함께 채울 것
+- The Darkness: Belfast/Cork/Limerick 아일랜드 공연 — leads.en.jsonl에 10회로 적혀 있었으나 AEG 공식
+  페이지·공식 보도자료 모두 "seven arenas"로 UK 7회만 명시. 아일랜드 공연은 확인되지 않아 미등재
+
 ## [2026-09-10 14:20] [KO 뉴스]
 뉴스 작성 완료 (한국 국내 공연 뉴스)
 - 신규 기사 6건: 하이라이트 10월 장충 팬 콘서트 3회차 선예매 전석 매진 / 아이유 '이 별로부터' 발매 / 류수정 미니 4집 콘셉트 포토 공개 / 마크 '마이 프렌드' 발매 / 로제 '뉴 트릭' 18일 공개 확정 / '2026 라라라온' 첫 무대 개막
