@@ -7497,6 +7497,150 @@
       "last_researched_by": "en-researcher",
       "general_sale": true,
       "general_sale_url": "https://www.ticketmaster.co.uk/supergrass-tickets/artist/773872"
+    },
+    {
+      "id": "en-lady-gaga-manchester-20251007",
+      "name": "Lady Gaga: The Mayhem Ball - Manchester (Night 1)",
+      "release_date": "2025-10-07",
+      "release_time": "18:30",
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Co-op Live, Manchester, England"
+      ],
+      "developer": "Lady Gaga",
+      "publisher": "Live Nation",
+      "description": "Lady Gaga played the first of two nights at Co-op Live in Manchester on October 7, 2025, the UK leg of The Mayhem Ball tour supporting her 2025 album Mayhem. The arena show was staged as a multi-act theatrical production, mixing new material with career-spanning hits. Doors and the performance ran to a 6:30pm start time advertised by the venue.",
+      "genres": [
+        "Pop",
+        "Dance-Pop",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Lady_Gaga_at_Joe_Biden%27s_inauguration_%28cropped_5%29.jpg/960px-Lady_Gaga_at_Joe_Biden%27s_inauguration_%28cropped_5%29.jpg",
+      "source_url": "https://www.setlist.fm/setlist/lady-gaga/2025/co-op-live-manchester-england-6b587aa6.html",
+      "last_updated": "2026-09-11",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-lady-gaga-manchester-20251008",
+      "name": "Lady Gaga: The Mayhem Ball - Manchester (Night 2)",
+      "release_date": "2025-10-08",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Co-op Live, Manchester, England"
+      ],
+      "developer": "Lady Gaga",
+      "publisher": "Live Nation",
+      "description": "Lady Gaga closed her two-night Manchester run at Co-op Live on October 8, 2025 as part of The Mayhem Ball. The tour was built around Mayhem, the album she released earlier that year, and carried a narrative staging split into several acts. It was her first Manchester arena appearance since the Chromatica Ball stadium run of 2022.",
+      "genres": [
+        "Pop",
+        "Dance-Pop",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Lady_Gaga_at_Joe_Biden%27s_inauguration_%28cropped_5%29.jpg/960px-Lady_Gaga_at_Joe_Biden%27s_inauguration_%28cropped_5%29.jpg",
+      "source_url": "https://www.setlist.fm/setlist/lady-gaga/2025/co-op-live-manchester-england-3b59b828.html",
+      "last_updated": "2026-09-11",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-laufey-london-20250630",
+      "name": "Laufey: A Matter of Time Outstore - London",
+      "release_date": "2025-06-30",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Union Chapel, London"
+      ],
+      "developer": "Laufey",
+      "publisher": "Rough Trade",
+      "description": "Laufey performed a pair of intimate solo shows at Union Chapel in London on June 30, 2025, presented by Rough Trade to mark the release of her third album A Matter of Time. She played a matinee and an evening set in the church's pews, opening with Silver Lining before moving through Valentine, Falling Behind and other older material.",
+      "genres": [
+        "Jazz",
+        "Pop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.setlist.fm/setlist/laufey/2025/union-chapel-london-england-7345fabd.html",
+      "last_updated": "2026-09-11",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-thrice-new-york-20251101",
+      "name": "Thrice: Fall Tour 2025 - New York",
+      "release_date": "2025-11-01",
+      "release_time": "18:30",
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Irving Plaza, New York, NY"
+      ],
+      "developer": "Thrice",
+      "publisher": "Live Nation",
+      "description": "Thrice headlined Irving Plaza in New York on November 1, 2025 during their Fall Tour 2025, with Modern Color and Downward opening. The California post-hardcore band drew the set from across a catalogue stretching back to the early 2000s. The show was billed for a 6:30pm start at the Union Square venue.",
+      "genres": [
+        "Rock",
+        "Post-Hardcore",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Teppei_and_Dustin_of_Thrice.jpg/960px-Teppei_and_Dustin_of_Thrice.jpg",
+      "source_url": "https://www.setlist.fm/setlist/thrice/2025/irving-plaza-new-york-ny-6b459ace.html",
+      "last_updated": "2026-09-11",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-deafheaven-boston-20250513",
+      "name": "Deafheaven: Lonely People With Power Tour - Boston",
+      "release_date": "2025-05-13",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Paradise Rock Club, Boston, MA"
+      ],
+      "developer": "Deafheaven",
+      "publisher": "Live Nation",
+      "description": "Deafheaven played Paradise Rock Club in Boston on May 13, 2025 on the North American run behind Lonely People With Power, the album they released that March. Gatecreeper and Trauma Ray supported on the tour. The set paired new songs such as Doberman and Magnolia with older staples including Dream House and Sunbather, starting at 7pm.",
+      "genres": [
+        "Metal",
+        "Blackgaze",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Deafheaven_%40_A_Colossal_Weekend_2017_42.jpg/960px-Deafheaven_%40_A_Colossal_Weekend_2017_42.jpg",
+      "source_url": "https://www.setlist.fm/setlist/deafheaven/2025/paradise-rock-club-boston-ma-35a9dbf.html",
+      "last_updated": "2026-09-11",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-mj-lenderman-brooklyn-20250428",
+      "name": "MJ Lenderman & The Wind: Manning Fireworks Tour - Brooklyn",
+      "release_date": "2025-04-28",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Brooklyn Steel, Brooklyn, NY"
+      ],
+      "developer": "MJ Lenderman",
+      "publisher": "Bowery Presents",
+      "description": "MJ Lenderman and his band The Wind opened a three-night stand at Brooklyn Steel on April 28, 2025, added after the originally scheduled April 29 and 30 dates sold out. The run followed his 2024 album Manning Fireworks, and Joanna Sternberg opened. The headline set began around 9:20pm and leaned heavily on that record.",
+      "genres": [
+        "Indie Rock",
+        "Alt-Country",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/MJ_Lenderman_Roundhouse_2025-08-15_14.jpg/960px-MJ_Lenderman_Roundhouse_2025-08-15_14.jpg",
+      "source_url": "https://www.setlist.fm/setlist/mj-lenderman/2025/brooklyn-steel-brooklyn-ny-53501745.html",
+      "last_updated": "2026-09-11",
+      "last_researched_by": "en-researcher"
     }
   ]
 }
