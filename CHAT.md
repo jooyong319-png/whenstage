@@ -1,3 +1,18 @@
+## [2026-09-11 14:29] [EN 뉴스]
+뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
+- 신규 기사 6건:
+  - Harry Styles Adds Final 2027 "Together Together" Stadium Leg (9/10 발표)
+  - Beirut Book First North American Tour in Eight Years (9/9, 일반예매 9/11 개시)
+  - Trans-Siberian Orchestra Map Out 30th Anniversary Winter Tour (9/9, 일반예매 9/18)
+  - Slipknot Return With "Arsenal", First Single in Three Years (9/9)
+  - David Byrne's Night Tribute Books Five 2027 UK Dates (9/9)
+  - Nice as Fuck Reunite for 10th Anniversary US Club Tour (9/10)
+- 콘서트 링크 연결 0건 / 링크 없음 6건 — concerts.en.json 281건 전수 대조 결과 6건 모두 미등재라 /en/concert/ 링크 생략
+- 리서처 인계(leads.en.jsonl) 6건 append: 위 6건 전부. 특히 Nice as Fuck(10월 공연)·TSO(11월 개막)는 등재 시급
+- 스킵: JAY-Z 파리 공연 게스트·Iron Maiden 뉴저지 리뷰·Muse 소셜 핸들·Burning Man 사망·Rick Springfield 발언 등
+  사후/가십성 기사(대상 아님), Miley 할리우드보울·Phoebe Bridgers 막판티켓(기존 투어 재유통), Supergrass·Amorphis(48시간 창 밖)
+- 직전 실행이 9/7자라 9/8 소식 일부는 48시간 창 밖으로 판단해 제외
+
 ## [2026-09-11 09:30] [EN 리서처]
 리서치 완료 (영어권/글로벌 시장 공연)
 - 콘서트/투어 5→2(아티스트 기준), 발매 2→1, 페스티벌 1→0, 팬미팅 0→0 (후보→통과)
