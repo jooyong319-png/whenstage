@@ -148,18 +148,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
   }
 
-  // 뉴스 — 콘서트와 동일하게 로케일별로 완전히 독립된 콘텐츠(번역 아님) → hreflang alternate 없음
+  // 뉴스 상세는 2026-09-12부터 사이트맵에서 뺀다 — 상세 페이지가 noindex가 됐기 때문이다.
+  // noindex인 URL을 사이트맵에 올리면 크롤러에 모순 신호라 서치 콘솔에 오류로 쌓인다
+  // (아티스트·공연장에서 이미 같은 원칙을 쓰고 있다 — 위 isArtistIndexable 주석 참고).
+  // 이유는 news/[slug]/page.tsx의 robots 주석에 있다. 목록 페이지 `/[lang]/news`는 남긴다 —
+  // 그건 재작성 콘텐츠가 아니라 허브이고, 기사로 가는 크롤 경로도 유지해야 한다.
+  // 되돌리려면 이 상수를 지우고 newsByLocale을 순회해 `/[lang]/news/<slug>`를 도로 넣으면 된다
+  // (직전 구현은 커밋 이력에 있다).
   const newsUrls: MetadataRoute.Sitemap = [];
-  for (const lang of LOCALES) {
-    for (const it of newsByLocale[lang]) {
-      newsUrls.push({
-        url: `${BASE}/${lang}/news/${it.slug}`,
-        lastModified: new Date(it.date),
-        changeFrequency: 'weekly',
-        priority: lang === 'ko' ? 0.7 : 0.6,
-      });
-    }
-  }
 
   // 아티스트 상세 — 콘서트와 마찬가지로 로케일별 독립 그룹핑(번역 아님) → hreflang alternate 없음
   // isArtistIndexable로 거른다: 상세 페이지가 noindex인데 사이트맵엔 올리는 건 크롤러에 모순된

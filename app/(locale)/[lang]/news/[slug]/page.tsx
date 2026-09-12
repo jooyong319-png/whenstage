@@ -40,6 +40,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: item.title,
     description: item.description.slice(0, 158),
+    // 색인하지 않는다 (2026-09-12). 이 기사들은 타 매체 보도를 우리 말로 다시 쓴 것이라
+    // 원문에 없는 값이 없다 — 293편을 쌓는 동안 GSC 상위 25개에서 벌어온 클릭은 20일간 6개,
+    // 같은 기간 공연 상세는 104개였다. 검색에서 원문을 이길 수도 없고(백링크 0·도메인 2개월),
+    // "독창성 없는 콘텐츠를 대량으로"는 구글 스팸 정책이 정확히 겨냥하는 형태다.
+    // 사이트 안에서는 계속 쓸모가 있으므로(공연 상세로 보내는 내부 링크·독자용 소식) 지우지 않고
+    // follow는 남긴다. 되돌리려면 이 줄과 app/sitemap.ts의 newsUrls만 되살리면 된다.
+    robots: { index: false, follow: true },
     alternates: { canonical: url },
     openGraph: {
       title: item.title,
