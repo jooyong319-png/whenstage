@@ -41,6 +41,12 @@ const META: Record<Locale, Metadata> = Object.fromEntries(
     return [lang, {
       title,
       description,
+      // 뉴스 섹션은 2026-09-12부터 **사이트 안에서만** 제공한다 — 검색 대상이 아니다
+      // (사장님 결정). 기사 상세가 전부 noindex라 이 목록만 색인해 봐야 아무 데도 못 가고,
+      // 실제로 검색 클릭도 0이었다. 구글이 이 섹션을 크롤할 이유를 없애 ISR Read도 아낀다
+      // (한 달 한도의 90%까지 찼던 항목 — decisions.md "Vercel 청구서").
+      // follow는 남긴다 — 기사 안의 공연 상세 링크 93개는 계속 타고 가라는 뜻이다.
+      robots: { index: false, follow: true },
       alternates: localeAlternates('/news', lang),
       openGraph: { title, description, url, locale: OG_LOCALE[lang], images: [DEFAULT_OG_IMAGE] },
     }];

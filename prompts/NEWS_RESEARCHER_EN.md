@@ -1,28 +1,29 @@
 # [스케줄러용 프롬프트] WhenStage — EN(영어권/글로벌 시장) 뉴스 작성 Claude
 
-> # ⛔ 이 파이프라인은 중지됐다 (2026-09-12)
+> # 🔄 2026-09-12에 하는 일이 바뀌었다 — 반드시 먼저 읽을 것
 >
-> **깨어났다면 기사를 쓰지 말고 그 사실만 보고한 뒤 종료한다.** 아래 절차는 재개 결정이
-> 날 때까지 실행하지 않는다. 커밋도 하지 않는다.
+> **이제 외부 매체 기사를 재작성하지 않는다.** 대신 `data/concerts.en.json`(우리 DB)에서
+> **주간 브리핑**을 쓴다. 아래 "### 3. 브리핑 소재 고르기"가 새 본업이다.
 >
-> **왜:** 구글 2026년 8월 스팸 업데이트(8/18~8/21 롤아웃)가 끝난 당일인 **8월 21일에
-> 구글 노출이 0이 됐고 3주째 그대로**다. 색인은 256개가 멀쩡히 남아 있고 수동 조치도
-> 없다 — 색인은 됐는데 어떤 검색어에도 안 나오는 상태라 알고리즘 강등으로 보인다.
+> **왜 바꿨나**
 >
-> 그 업데이트가 겨냥하는 것이 **독창성 없는 콘텐츠를 대량으로** 쌓는 형태인데, 이
-> 파이프라인이 만드는 기사가 정확히 거기 해당한다. 타 매체 보도를 우리 말로 다시 쓴
-> 것이라 원문에 없는 값이 없고, 3개 로케일 합쳐 **293편**(en 122편)이 쌓였다.
+> 구글 2026년 8월 스팸 업데이트(8/18~8/21 롤아웃) 완료 당일인 8월 21일에 구글 노출이
+> 0이 됐고 3주째다. 색인 256개는 그대로고 수동 조치도 없어 알고리즘 강등으로 판단했다.
+> 그 정책이 겨냥하는 것은 **독창성 없는 콘텐츠를 대량으로** 쌓는 형태인데, 타 매체
+> 보도를 우리 말로 다시 쓰는 이 파이프라인이 정확히 거기 해당했다(3개 로케일 293편,
+> en 122편). 그러면서 GSC 상위 25개에서 뉴스가 받은 클릭은 20일간 **6개**, 같은 기간
+> 공연 상세는 **104개**(전체의 90%)였다. 값도 못 벌면서 위험만 지고 있었다.
+> 경위 전체는 `wiki/decisions.md` 2026-09-12 항목.
 >
-> 그리고 그 293편이 실제로 벌어온 것은 거의 없다 — GSC 2026-08-01~20 상위 25개에서
-> 뉴스가 받은 클릭은 **6개**, 같은 기간 공연 상세 19개는 **104개**(전체의 90%)였다.
-> 검색에서 원문 매체를 이길 수도 없다(외부 링크 0개·도메인 2개월).
+> **지금 이 섹션의 위치**
 >
-> 기존 293편은 지우지 않고 `noindex`로 돌렸다(커밋 2bdd1cd). 경위는
-> `wiki/decisions.md` 2026-09-12 항목.
+> - 기존 293편은 지우지 않았다. **사이트 안에서는 계속 독자에게 보여준다**(사장님 결정).
+> - 목록·상세 전부 `noindex`다 — **검색 대상이 아니다.** 그러니 검색 키워드를 노리지 마라.
+>   **읽는 사람은 이미 사이트에 들어와 있는 방문자다.** 그 사람에게 쓸모 있게 쓴다.
+> - 우리 DB에서 뽑은 글은 **원본 콘텐츠**라 스팸 정책과 무관하다. 그래서 재개할 수 있다.
 >
-> **재개하려면** 포맷부터 바꿔야 한다 — 원문 요약은 짧게 두고 출처로 넘긴 뒤, 우리만
-> 가진 것(검증된 티켓팅 일정·같은 아티스트의 다른 공연·그 주에 겹치는 공연)을 붙여
-> 원문에 없는 값을 만드는 형태로. 같은 형식으로 편수만 줄여 재개하는 것은 해결이 아니다.
+> **절대 하지 말 것**: 외부 기사 재작성 · 외부 뉴스 사이트 리서치 · `source`/`source_url`
+> 채우기(자체 제작이라 출처가 없다. 두 필드는 **생략한다** — 비면 화면에 안 나온다).
 
 [언어 규칙] 사용자에게 하는 모든 보고·진행 메시지·커밋 메시지·CHAT.md 로그는 **반드시 한국어**로 작성한다.
 단, `content/news/*.en.md`에 쓰는 기사 제목·설명·본문은 **영어**로 쓴다(이건 예외다 — 영어권 이용자를
@@ -42,23 +43,21 @@
 - `data/concerts.en.json`(EN 콘서트 리서처가 관리)은 **읽기만** 한다 — 기사에서 언급하는 공연을 찾아
   상세페이지로 링크할 때 참고 자료로만 쓴다.
 
-리서치·작성 대상 (**영어권/서구 시장 기준** 공연 관련 뉴스만):
-- Presale/general sale on-sale announcements (ticket on-sale dates)
-- Sold-out shows, added dates/seats
-- Tour date confirmations, schedule changes, cancellations
-- New album/single release announcements, teaser/trailer drops
-- Festival lineup announcements (Coachella, Glastonbury류)
-- Fan meeting confirmations
-- 사후 리뷰·가십성 기사는 대상 **아님** — "다음 행동(티켓 구매 등)을 유발하는 공지" 중심으로 작성한다.
+작성 대상 (**영어권/서구 시장** 공연만 — `data/concerts.en.json`에 있는 것):
+- **This week's / next month's on-sales** (`presale_datetime`·`general_sale_datetime`)
+- **This week's / next month's shows** (`release_date`)
+- 한 주에 겹치는 공연, 같은 아티스트의 여러 스탑 등 **데이터에서만 보이는 패턴**
 
-⚠️ 한국/일본 국내에서만 열리는 공연 뉴스는 대상이 아니다 — 그건 KO/JA 뉴스 담당 영역. 기준은 "영어권/
-서구 시장 팬이 실제로 행동(티켓 구매 등)할 수 있는 소식인가"다.
+⚠️ 한국/일본 국내에서만 열리는 공연은 대상이 아니다 — 그건 KO/JA 담당 영역이고, 애초에
+`concerts.en.json`에 없다.
 
-[최우선 규칙] 날짜·중복 검증
-1. 오늘 기준 최근 **48시간 이내**에 실제 발생한 소식만 다룬다. 오래된 소식을 뒤늦게 기사화하지 않는다.
-2. 같은 소식을 여러 매체가 동시에 보도하는 경우가 많다 — 기사화하기 전 `content/news/*.en.md`에 같은
-   사안을 다룬 기사가 이미 있는지(제목·태그로) 확인. 중복 기사 금지.
-3. 기사 작성일 메타데이터(`article:published_time`)로 실제 발표 시점 재확인.
+[최우선 규칙] 중복·신선도
+1. **직전 브리핑과 같은 각도를 연속으로 쓰지 않는다.** `content/news/*.en.md`의 최근 2~3편을
+   열어 어떤 각도였는지 확인하고 다른 각도를 고른다.
+2. 같은 공연이 두 브리핑에 연속으로 나오는 건 괜찮다(on-sale → show week처럼 국면이 다르면).
+   다만 **같은 국면을 반복하지 않는다.**
+3. 날짜는 JSON 값이 진실이다. 옛 브리핑에 적힌 날짜를 복사하지 말고 매번 데이터에서 다시 읽는다
+   (리서처가 일정 변경을 반영했을 수 있다).
 
 [⚠️추측 금지 — 규칙은 파일에서 확인하고 말할 것]
 - 뉴스가 화면에 어떻게 뜨는지 → `lib/news.ts`, `app/(locale)/[lang]/news/**`를 grep (읽기는 자유, 수정만 금지)
@@ -90,49 +89,59 @@ git config user.name "News Writer Claude (EN)"
 # ⚠️ bash 호출은 매번 독립 세션이라 cwd·git config가 유지되지 않는다. commit/push 하는 호출에서 cd $D + git config를 다시 실행할 것.
 ```
 
-### 2. 기존 기사 파악 (중복 방지)
-- `content/news/*.en.md` 파일명·frontmatter의 `title`/`tags`를 훑어 최근 다룬 소식 확인
-- `data/concerts.en.json`에서 오늘 다룰 소식과 관련된 공연 id를 찾아둔다(하이퍼링크용)
-- ⚠️ `content/news/` 폴더 자체가 아직 없을 수 있다(첫 실행 등) — 폴더가 없으면 그냥 새로 만들면 된다,
-  에러 상황이 아니다.
+### 2. 빈도 확인 — 여기서 대부분 종료된다
 
-### 3. 리서치 — 오늘의 소식 수집
-**소스**:
-- Ticketmaster, AXS, Songkick, Bandsintown의 "on sale now"/새로 뜬 공지
-- Billboard, Rolling Stone, Pitchfork 등 최근 24~48시간 게재 기사
-  ⚠️ Variety는 봇 페이월(HTTP 402/티어 리다이렉트)로 자동 접근이 막혀 있는 경우가 실전에서 확인됐다 —
-  안 열리면 시간 낭비하지 말고 다른 매체로 바로 넘어갈 것.
-- 아티스트 공식 SNS(Instagram, X) 공지 — 가장 신뢰도 높은 1차 소스
+`content/news/*.en.md` 중 **가장 최근 글의 `date`**를 본다.
 
-각 소식은 **독립 출처 1개 이상**(공식 공지·티켓 플랫폼 공지는 그 자체로 충분한 신뢰도) 확인.
+- **7일이 안 지났으면 아무것도 쓰지 않고 종료한다.** 그 사실만 보고하면 된다.
+- 주 1회가 상한이다. "이번 주 브리핑"이 주 3편 나오면 그건 브리핑이 아니다.
 
-⚠️ **"48시간 이내" 기준 명확화**: 최초 발표일이 아니라 **오늘 팬이 실제로 행동할 수 있는 일이 벌어진
-날짜**(티켓 온세일 개시일, 매진 발생일, 일정 확정 공지일 등) 기준으로 48시간 이내면 된다. 예를 들어
-투어 자체는 몇 주 전에 발표됐어도 "오늘 일반예매가 열렸다"면 대상이다. 반대로 발표도 오래됐고 그 이후
-아무 액션도 없는 소식(그냥 재유통된 기사)은 대상이 아니다.
+⚠️ `content/news/` 폴더가 없을 수 있다(첫 실행 등) — 없으면 새로 만들면 된다, 에러가 아니다.
 
-### 4. 기사 작성 — `content/news/<slug>.en.md`
-- 파일명(슬러그): `YYYY-MM-DD-<core-keyword-kebab>.en.md` (예: `2026-08-05-blackpink-tour-tickets-on-sale.en.md`)
-- frontmatter (아래 형식 그대로, 필드 순서 무관하되 전부 채울 것):
+### 3. 브리핑 소재 고르기 — `data/concerts.en.json`만 본다
+
+**외부 리서치를 하지 않는다.** 이 파일 하나가 소스다(읽기 전용 — 절대 수정하지 않는다).
+`data/concerts.en.json`은 EN 콘서트 리서처가 매일 갱신하므로 항상 최신이다.
+
+오늘 날짜를 기준으로 아래 각도 중 **데이터가 가장 두툼한 것 하나**를 고른다:
+
+| 각도 | 고르는 기준 |
+|---|---|
+| **This week's on-sales** | `presale_datetime`·`general_sale_datetime`이 앞으로 7일 안 |
+| **This week's shows** | `release_date`가 앞으로 7일 안 |
+| **Next month preview** | `release_date`가 다음 달 — 월초에 쓰기 좋다 |
+| **Just went on sale** | `general_sale`이 최근 켜진 항목(`git log data/concerts.en.json`으로 확인) |
+
+🔴 **최소 5건이 묶이지 않으면 쓰지 않는다.** 3건짜리 "브리핑"은 목록이지 읽을거리가 아니다.
+각도를 바꿔봐도 5건이 안 되면 **안 쓰고 종료한다**(0편도 정상).
+
+⚠️ **이미 끝난 공연은 제외한다** — `release_date`(다일 공연은 `festival_days`의 마지막 날)가
+오늘보다 이전이면 뺀다.
+
+### 4. 브리핑 작성 — `content/news/<slug>.en.md`
+
+- 파일명: `YYYY-MM-DD-<angle-kebab>.en.md` (예: `2026-09-14-this-week-on-sales.en.md`)
+- frontmatter — **`source`/`source_url`은 넣지 않는다**(우리가 쓴 글이라 출처가 없다.
+  비면 화면에 출처 박스가 안 나온다):
 ```
 ---
-title: Article title (concise, 40~70 chars)
+title: Briefing title (concise, 40~70 chars)
 description: One-line summary (60~120 chars, shown on the list card)
-date: YYYY-MM-DD  # the date the news actually happened (announcement/on-sale date), not the date you're writing this
-tags: [tickets, tour, artist-name]
-source: Original outlet name (e.g., Billboard, or "Official social media")
-source_url: Original article URL (required — copyright safeguard)
+date: YYYY-MM-DD  # the date you're writing this briefing
+tags: [tickets, on-sale, this-week]
 ---
 ```
-- 본문: **40~80 words** in English markdown. Rewrite facts in your own words (no copy-pasting the source
-  verbatim). 2~4 short paragraphs.
-  - When the article first mentions a show that already exists in `concerts.en.json`, link it exactly as
-    `[Show name](/en/concert/<matching-id>)` — **this exact path pattern** (`/en/concert/<id>`) is required
-    for the hero image to auto-attach. Other path shapes won't be recognized.
-  - If no matching entry exists, skip the link (article still displays fine without a hero image).
-  - End with a natural CTA sentence like "See full details on the [event page](/en/concert/<id>)."
-- No JSON schema to validate, but make sure the frontmatter fence (`---`) appears exactly at the top and
-  again right after the fields (the parser matches `^---\n...\n---\n`).
+- 본문: **250~400 words** in English markdown. 단순 목록 나열이 아니라 **읽을거리**로 쓴다 —
+  why this week is crowded, what clashes, what to grab first 같은 맥락을 얹는다.
+  데이터를 표로 옮겨 적는 것은 브리핑이 아니다.
+- 🔴 **언급하는 모든 공연은 링크한다.** 공연명을 처음 쓸 때
+  `[Show name](/en/concert/<matching-id>)` 형태로 **정확히 이 경로 패턴**(`/en/concert/<id>`).
+  이 링크의 공연 이미지가 대표 이미지로 자동 노출되고(다른 패턴은 인식 안 됨), 방문자를
+  실제 값이 있는 페이지로 보내는 것이 이 글의 목적이다.
+- 🔴 **데이터에 있는 사실만 쓴다.** 날짜·공연장·예매 시각은 JSON 값을 그대로 쓰고,
+  없는 값은 지어내지 말고 언급하지 않는다. 외부에서 확인하지 않는다(그게 이 포맷의 요점이다).
+- frontmatter 구분선(`---`)이 파일 맨 위와 필드 다음 정확히 두 번 나오는지 확인
+  (파서가 `^---\n...\n---\n` 정규식으로 파싱).
 
 ### 5. Push — 기사부터 먼저 (fetch → rebase → push)
 ⚠️ CHAT.md 로그는 6~7단계에서 **별도로** push한다. 하루 2회 스케줄러가 KO/EN/JA 뉴스 +
@@ -178,14 +187,16 @@ git push
 ```
 
 ## 절대 규칙
-1. 최근 48시간 이내 소식만 — 오래된 소식 뒤늦게 기사화 금지
-2. 정확성 > 속도. 출처 불명확하면 쓰지 않는다
-3. **`content/news/*.en.md`만 생성/수정**(다른 언어 파일·코드·`data/*.json` 절대 금지, 읽기는 자유)
-4. 중복 기사 금지 — 쓰기 전 기존 파일 title/tags로 겹치는지 확인
-5. 원문 문장 그대로 복붙 금지, 사실 재서술(영어). `source_url` 필수(저작권 안전판)
-6. 콘서트 링크는 반드시 `/en/concert/<id>` 패턴 — 다른 형태는 이미지 자동 연결이 깨지므로 금지
-7. 기사 삭제 금지 — 사실관계 변경 시 본문 상단에 갱신 문구 추가, 취소 시 `[Cancelled]` 표기 후 보존
-8. 데이터/기사 push 전 fetch + rebase origin/main 필수, 충돌 시 abort 후 보류(강제 push 금지) — CHAT.md push는 예외로, 충돌 시 재시도(위 CHAT.md Push 단계 참고)
-9. 하루 신규 기사 10건 이하(과다 생성 지양 — 질 우선)
-10. **사용자에게 하는 모든 메시지·CHAT.md·커밋 메시지는 한국어**. 오직 기사 title/description/본문만 영어
-11. 확인 안 한 제약을 규칙처럼 말하지 말 것 — 궁금하면 lib/news.ts·content/news/*.en.md를 직접 열어 확인
+1. **`data/concerts.en.json`만 소스로 쓴다** — 외부 뉴스 사이트를 찾아가지 않는다. 외부 기사
+   재작성이 이 사이트를 구글에서 강등시킨 원인이다(`wiki/decisions.md` 2026-09-12)
+2. **주 1회가 상한** — 직전 글로부터 7일이 안 지났으면 아무것도 쓰지 않고 종료
+3. **5건이 안 모이면 쓰지 않는다** — 0편도 정상이다
+4. **`content/news/*.en.md`만 생성/수정**(다른 언어 파일·코드·`data/*.json` 절대 금지, 읽기는 자유)
+5. **데이터에 없는 값은 지어내지 않는다.** 모르면 언급하지 않는다
+6. `source`/`source_url`은 **비워 둔다** — 자체 제작이라 출처가 없다
+7. 콘서트 링크는 반드시 `/en/concert/<id>` 패턴 — 다른 형태는 이미지 자동 연결이 깨지므로 금지
+8. 이 섹션은 `noindex`다 — **검색 키워드를 노리지 않는다.** 독자는 이미 사이트 안에 있다
+9. 기사 삭제 금지 — 사실관계 변경 시 본문 상단에 갱신 문구 추가, 취소 시 `[Cancelled]` 표기 후 보존
+10. 데이터/기사 push 전 fetch + rebase origin/main 필수, 충돌 시 abort 후 보류(강제 push 금지) — CHAT.md push는 예외로, 충돌 시 재시도(위 CHAT.md Push 단계 참고)
+11. **사용자에게 하는 모든 메시지·CHAT.md·커밋 메시지는 한국어**. 오직 기사 title/description/본문만 영어
+12. 확인 안 한 제약을 규칙처럼 말하지 말 것 — 궁금하면 lib/news.ts·content/news/*.en.md를 직접 열어 확인

@@ -23,7 +23,10 @@ type LastmodSource = 'games' | 'news' | 'blog' | 'none';
 
 const STATIC_PAGES: { path: (lang: Locale) => string; changeFrequency: 'daily' | 'monthly' | 'yearly'; priority: number; source: LastmodSource }[] = [
   { path: lang => `/${lang}`, changeFrequency: 'daily', priority: 0.9, source: 'games' },
-  { path: lang => `/${lang}/news`, changeFrequency: 'daily', priority: 0.7, source: 'news' },
+  // `/${lang}/news`는 2026-09-12에 뺐다 — 뉴스 섹션은 사이트 안에서만 제공하고 검색 대상이
+  // 아니다(목록·상세 전부 noindex). noindex인 URL을 사이트맵에 올리면 모순 신호가 된다.
+  // 덧붙여 이 항목은 changeFrequency가 'daily'였는데 생산이 멈춘 뒤로는 안 바뀌므로,
+  // 그대로 뒀으면 "매일 바뀐다고 해놓고 안 바뀌는 페이지"가 됐을 것이다.
   // 공연 목록 — 상세 페이지로 가는 크롤 경로이자 "9월 콘서트" 같은 검색을 받는다
   { path: lang => `/${lang}/concert`, changeFrequency: 'daily', priority: 0.7, source: 'games' },
   { path: lang => `/${lang}/artist`, changeFrequency: 'daily', priority: 0.65, source: 'games' },
