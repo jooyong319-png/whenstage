@@ -9,7 +9,7 @@
 | 프롬프트 | 대상 | 실행 방식 |
 |---|---|---|
 | `prompts/RESEARCHER_KO.md` / `_EN.md` / `_JA.md` | `data/concerts.<locale>.json` | 자동 스케줄러(하루 2회) |
-| `prompts/NEWS_RESEARCHER_KO.md` / `_EN.md` / `_JA.md` | `content/news/*.<locale>.md` | 🔄 **주간 브리핑으로 전환(2026-09-12)** — 외부 기사 재작성을 그만두고 `data/concerts.*.json`에서 쓴다. **로케일당 주 1회 상한**(프롬프트가 자체 확인). 이 섹션은 `noindex`로 사이트 안 전용이다(`wiki/decisions.md`) |
+| `prompts/NEWS_RESEARCHER_KO.md` / `_EN.md` / `_JA.md` | `content/news/*.<locale>.md` | 🔄 **주간 브리핑으로 전환(2026-09-12)** — 외부 기사 재작성을 그만두고 `data/concerts.*.json`에서 쓴다. 자동 스케줄러 **KO 월 / EN 수 / JA 금 14:00**(주 1회, 프롬프트에 6일 가드). 이 섹션은 `noindex`로 사이트 안 전용이다(`wiki/decisions.md`) |
 | `prompts/ARTIST_PROFILE.md` | `data/artist-images.json`, `data/artist-bios.json` | 수동/비정기 + `PLANNER`가 신호 있을 때 직접 실행 |
 | `prompts/BLOG_RESEARCHER_KO.md` / `_EN.md` / `_JA.md` | `content/blog/*.<locale>.md`(모아보기, 로케일별 완전 독립) | 수동/비정기 + `PLANNER`가 신호 있을 때 직접 실행. **로케일당 3일에 1편이 상한**(2026-09-12 — 프롬프트가 직전 글 날짜를 스스로 확인해 거른다) |
 | `prompts/PLANNER.md` | 콘텐츠 실행 판단(위 2개 트리거) + 코드 관련 관찰은 제안만 | 자동 스케줄러(주 1회) — 코드는 절대 직접 안 함 |
