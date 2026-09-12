@@ -9,9 +9,9 @@
 | 프롬프트 | 대상 | 실행 방식 |
 |---|---|---|
 | `prompts/RESEARCHER_KO.md` / `_EN.md` / `_JA.md` | `data/concerts.<locale>.json` | 자동 스케줄러(하루 2회) |
-| `prompts/NEWS_RESEARCHER_KO.md` / `_EN.md` / `_JA.md` | `content/news/*.<locale>.md` | 자동 스케줄러(하루 2회) |
+| `prompts/NEWS_RESEARCHER_KO.md` / `_EN.md` / `_JA.md` | `content/news/*.<locale>.md` | ⛔ **중지(2026-09-12)** — 프롬프트 첫머리에 정지 블록. 재개하려면 포맷부터 바꿔야 한다(`wiki/decisions.md`) |
 | `prompts/ARTIST_PROFILE.md` | `data/artist-images.json`, `data/artist-bios.json` | 수동/비정기 + `PLANNER`가 신호 있을 때 직접 실행 |
-| `prompts/BLOG_RESEARCHER_KO.md` / `_EN.md` / `_JA.md` | `content/blog/*.<locale>.md`(모아보기, 로케일별 완전 독립) | 수동/비정기 + `PLANNER`가 신호 있을 때 직접 실행 |
+| `prompts/BLOG_RESEARCHER_KO.md` / `_EN.md` / `_JA.md` | `content/blog/*.<locale>.md`(모아보기, 로케일별 완전 독립) | 수동/비정기 + `PLANNER`가 신호 있을 때 직접 실행. **로케일당 3일에 1편이 상한**(2026-09-12 — 프롬프트가 직전 글 날짜를 스스로 확인해 거른다) |
 | `prompts/PLANNER.md` | 콘텐츠 실행 판단(위 2개 트리거) + 코드 관련 관찰은 제안만 | 자동 스케줄러(주 1회) — 코드는 절대 직접 안 함 |
 | `prompts/PRODUCT_PLANNER.md` | `BACKLOG.md`에 코드/기능 백로그 항목 등록(위키 필독) | 자동 스케줄러(권장 주 1회) — 코드는 절대 직접 안 함 |
 | `prompts/PRODUCT_DEVELOPER.md` | `BACKLOG.md`의 `대기` 항목 1개 구현 + 자체 검증(타입체크·빌드) 후 push | 자동 스케줄러(권장 더 잦게, 예: 2~3일 1회) |
