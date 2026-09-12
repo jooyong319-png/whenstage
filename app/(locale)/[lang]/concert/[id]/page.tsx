@@ -19,7 +19,7 @@ import { TicketingCtaButton } from '@/components/TicketingCtaButton';
 import { ReportForm } from '@/components/ReportForm';
 import { SidebarSection } from '@/components/SidebarSection';
 import { RelatedEventCard } from '@/components/RelatedEventCard';
-import { breadcrumbLd, jsonLd, eventStartDate } from '@/lib/seo';
+import { breadcrumbLd, jsonLd, eventStartDate, concertMetaTitle, concertMetaDescription } from '@/lib/seo';
 
 interface Props {
   params: { lang: string; id: string };
@@ -49,10 +49,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const url = `https://whenstage.com/${params.lang}/concert/${params.id}`;
   const ogImage = game.image_url || 'https://whenstage.com/og-image.png';
-  // 상세 페이지 제목은 공연명만 — 레이아웃 title 템플릿('%s | WhenStage')이 브랜드를 붙인다.
-  // (og/twitter title은 템플릿 미적용이라 공연명 그대로 쓰되 브랜드는 도메인으로 노출)
-  const title = game.name;
-  const desc = (game.description ?? '').slice(0, 158);
+  // 제목·설명에 공연일(과 자리가 되면 공연장)을 넣는다 — 공연명만으로는 검색 결과에서
+  // "언제·어디서"에 답을 못 해 노출이 클릭으로 안 이어졌다(근거는 lib/seo.ts 주석).
+  // 레이아웃 title 템플릿('%s | WhenStage')이 브랜드를 뒤에 붙인다.
+  // (og/twitter title은 템플릿 미적용이라 그대로 쓰되 브랜드는 도메인으로 노출)
+  const venue = game.platforms?.[0] ?? null;
+  const title = concertMetaTitle(game.name, game.release_date, venue, params.lang);
+  const desc = concertMetaDescription({
+    release_date: game.release_date,
+    venue,
+    artist: game.developer,
+    description: game.description,
+    categoryLabel: CATEGORY_LABELS[params.lang][game.category],
+  });
 
   return {
     title,
