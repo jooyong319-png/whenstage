@@ -1,3 +1,74 @@
+## [2026-09-12 09:45] [JA 리서처]
+리서치 완료 (일본 국내 공연)
+- 콘서트/来日 8→5(아티스트 기준), 발매 1→1, 페스티벌 2→2, 팬미팅 0→0 (후보→통과)
+- 신규 22개(예정 15 + 백필 7) / 갱신 2개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리 8건 중 5건 등재(藤井風 피아노 리사이틀 / .ENDRECHERI. 빌보드라이브 투어 / KIRARA 초내일 / 天高まつり2026 / EGO-WRAPPIN' 신보) + 1건은 기존 항목 갱신(あいみょん)
+- 과거 백필 7개 → **공연장 색인전환 2개**(すみだトリフォニーホール 1→3건, SkyシアターMBS 1→2건) / 기존·신규 공연장 보강 5개
+  ※ 이번 사이클은 **백필과 예정 공연을 같은 공연장에 맞춰서 넣는 방식**을 썼다. 새로 생긴 공연장 4곳
+    (代官山UNIT / ビルボードライブ東京・大阪・横浜)에 예정 공연과 과거 공연을 함께 등재해,
+    1건짜리 noindex 페이지를 만들지 않고 처음부터 색인 대상으로 띄웠다. 다음 사이클도 이 방식을 권장한다.
+  ※ ja 공연장 색인 대상 62/74 → **68/80**, 1건짜리 12개 → 12개(해소 2 / 신규 2)
+- 티켓팅 진행중 +13 (藤井風 2·マルーン5 3·.ENDRECHERI. 5·KIRARA 1 先行, PUNK ROCK CONNECTION 1 一般発売, あいみょん 1 先行)
+  / 해제 -1 (緑黄色社会 9/19 LaLa arena TOKYO-BAY — 先行予約 전 구간 종료)
+- description 보강 0개 (일본어 120자 미만 항목 0건 유지)
+- publisher 신규 채움 22개 중 8개 (藤井風 ピアノリサイタル実行委員会 2 / LIVE NATION H.I.P. 3 / SMASH 1 / 新日本フィルハーモニー交響楽団 2) + ICE GRILL$ 1
+- 총 등록 257개
+
+[신규 — 예정 공연 15건]
+- 藤井風 ピアノリサイタル 東京ドーム 2공연(11/20 19:00, 11/21 18:00) — 공식 사이트 fujiikaze.com + 音楽ナタリー + CDJournal + Rolling Stone Japan 일치.
+  主催・企画・制作「藤井風 ピアノリサイタル実行委員会」 확인, 최속선행 9/9 12:00〜9/23 23:59(추첨), 이플러스 응모 URL 등재
+- マルーン5【Maroon 5 Asia 2027】東京ドーム 3공연(2027-01-30 18:00 / 01-31 17:00 / 02-02 19:00)
+  — 유니버설 뮤직 재팬 공식 + Billboard JAPAN + CDJournal + NME Japan. 主催 LIVE NATION H.I.P.
+- .ENDRECHERI.（堂本剛）【Billboard Live Tour 2026】5공연(10/13·14 横浜, 11/16·17 大阪, 11/30 東京)
+  — Billboard JAPAN(9/8) + THE FIRST TIMES + WWS채널. 각 일 2부제(1st 17:30 / 2nd 20:30),
+  Club BBL 선행 9/28 12:00 · 一般発売 10/1 12:00
+- 【KIRARA JAPAN 2026】代官山UNIT(11/12) — Billboard JAPAN + SPICE(eplus). 초 단독 来日, 招聘 SMASH, 一般発売 9/26 10:00
+- EGO-WRAPPIN'『Phantom of Love』(11/25) — Billboard JAPAN + 音楽ナタリー + OTOTOY + Real Sound. 결성 30주년 10th 앨범
+- mei ehara Concert 2026 Winter「DOMINO!」東京(12/11 LIQUIDROOM) — CDJournal + 音楽ナタリー. LIQUIDROOM 첫 원맨
+- PUNK ROCK CONNECTION 2026(11/07 高円寺 6회장) — CDJournal + 공식 사이트 punkrockconnection.com + Festival Life.
+  펑크 50주년 서킷 이벤트, 47組 + DJ 12組
+- 「天高まつり2026」in ムーンアートナイト(9/19 下北線路街 空き地) — 音楽ナタリー + Billboard JAPAN + Skream!. 입장 무료, 昼13:00/夜18:00 2스테이지
+
+[신규 — 과거 백필 7건] (AGENTS.md §7 기준: approx=false, 티켓팅 필드 비움, 과거시제 description)
+- 新日本フィル 第670回 定期演奏会(2026-05-09, すみだトリフォニーホール大ホール) — njp.or.jp 공식 공연 페이지 전문 확인
+  (지휘 ミシェル・タバシュニク / チェロ アンドレイ・イオニーツァ / ラヴェル・ショスタコーヴィチ・ブラームス) + qun.jp
+- 新日本フィル 第671回 定期演奏会(2026-06-13, 동) — njp.or.jp 공식 + 佐渡裕 공식 팬사이트 + 추가판매 공지.
+  佐渡裕 지휘 マーラー 交響曲第3番, メゾソプラノ 藤村実穂子
+  → **1건짜리였던 すみだトリフォニーホール를 3건으로 전환**(지난 사이클 "다음 사이클 우선 표적"으로 남겨둔 건 해소)
+- SLIDE AWAY & ICE GRILL$ presents WHIRR & NOTHING LIVE IN TOKYO(2026-02-08, 代官山UNIT, w/envy)
+  — ICE GRILL$ 공식 + PUNX SAVE THE EARTH + Ticket Bird. 招聘 ICE GRILL$
+- 2026 idntt FAN-CON TOUR＜20＞in JAPAN 大阪(2026-08-25, SkyシアターMBS) — Real Sound + PR TIMES(The Orchard Japan) + Kstyle + 공식 X
+  → **1건짜리였던 SkyシアターMBS를 2건으로 전환**
+- CTA（Danny Seraphine California Transit Authority）ビルボードライブ 3공연(9/07 東京, 9/08 大阪, 9/10 横浜)
+  — 빌보드라이브 공식 이벤트 페이지 3건(ev-21521/21522/21523) + Billboard JAPAN 来日공연 특집.
+  8년만의 来日, 시카고 황금기 레퍼토리. 이 3건 덕분에 .ENDRECHERI. 등재로 새로 생기는 빌보드라이브 3개 공연장이 전부 처음부터 색인 대상이 됐다
+
+[갱신 2건]
+- ja-aimyon-tour-2027-20270206: 정식 타이틀【AIMYON TOUR 2027 - cosmic % -】확정, 全国18会場 36公演·2027-07-11 沖縄 千秋楽까지 반영,
+  FC「AIM」선행 10/3 12:00 + 베스트앨범 CD封入선행 10/21 12:00 정보 추가, presale=true, source_url을 Billboard JAPAN 최신 기사로 교체
+- ja-ryokushaka-arena-tour-2026-20260919: 先行予約 전 구간 종료로 presale 해제
+
+[검증 탈락 / 이번 사이클 보류]
+- HANA 1st TOUR "Born to Bloom" ライヴビューイング(10/31): 영화관 생중계라 공연 카테고리 4종에 해당하지 않음 — 대상 외
+- ビッケブランカ B.LEAGUE アルバルク東京戦 하프타임쇼(10/19 TOYOTA ARENA TOKYO): 농구 경기 중 기획 출연으로 음악 단독 공연이 아님 — 등재 보류
+- mei ehara 大阪・Shangri-La(11/29): 사실 검증은 통과했으나 1건짜리 공연장을 새로 만들게 되어 도쿄분만 등재
+- idntt 東京(8/23 川口リリア・フカガワみらいホール): 백필 후보였으나 같은 이유로 제외(大阪분만 등재)
+- .ENDRECHERI. 東京(11/30)는 단독으로는 1건짜리 공연장 신설이지만, CTA 백필(9/7)과 묶어 2건으로 만들었기에 등재함
+- 心斎橋BIGCAT / 横浜赤レンガパーク / 仙台MACANA / WALL&WALL / 渋谷THE GAME 백필: 회장 스케줄 목록은 찾았으나
+  개별 공연의 날짜·출연자를 독립 출처 2개로 확정하지 못함 — 다음 사이클 이월
+- 天高まつり·PUNK ROCK CONNECTION은 각각 1건짜리 공연장(下北線路街 空き地 / 高円寺HIGH)을 새로 만들지만,
+  예정 공연 트랙이라 등재했다. 다음 사이클 백필 시 이 두 회장을 우선 표적으로 삼을 것
+
+[다음 사이클 메모]
+- 남은 1건짜리 공연장 12개: WALL&WALL / せたがやイーグレットホール / シネシティ広場 / 三郷市文化会館 /
+  下北線路街 空き地 / 仙台MACANA / 心斎橋BIGCAT / 横浜赤レンガパーク / 渋谷THE GAME / 町田市民ホール /
+  金沢 もっきりや / 高円寺HIGH
+- 心斎橋BIGCAT는 공식 스케줄 아카이브(bigcat-live.com/schedule)에 과거 공연이 남아 있어 후보가 풍부하다 — 다음 사이클 1순위
+- 横浜赤レンガパーク는 데이터에 「横浜赤レンガ倉庫」(3건)와 표기가 갈려 있다. 물리적으로 같은 지구이므로
+  표기 통합 여부를 판단해야 한다(표기 수정은 삭제가 아님). 이번엔 임의 판단을 피해 그대로 뒀다
+- 藤井風·マルーン5·.ENDRECHERI.·mei ehara·EGO-WRAPPIN'·KIRARA·新日本フィル·CTA는 위키미디어 커먼즈에
+  재사용 가능한 인물 이미지를 확인하지 못해 image_url=null. ws-artist-profile 쪽에서 보강 여지 있음
+
 ## [2026-09-11 14:29] [EN 뉴스]
 뉴스 작성 완료 (영어권/글로벌 시장 공연 뉴스)
 - 신규 기사 6건:
