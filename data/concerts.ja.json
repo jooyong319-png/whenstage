@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-09",
+  "last_updated": "2026-09-12",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -2591,14 +2591,16 @@
         "LaLa arena TOKYO-BAY（千葉ほか全国5都市10公演）"
       ],
       "description": "緑黄色社会が約1年7か月ぶりのアルバム『あたまご』を携え、全5都市10公演のアリーナツアーを行う。9月19日・20日の千葉・LaLa arena TOKYO-BAYを皮切りに、福岡のマリンメッセ福岡A館、大阪城ホール、愛知のIGアリーナと巡り、12月5日・6日の横浜アリーナで締めくくる。チケットは指定席1万1000円のほか学割9000円、親子席も設定され、IGアリーナ公演にはプレミアムラウンジ付きの限定シートが用意される。",
-      "presale": true,
+      "presale": false,
       "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2667589",
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher"
     },
     {
       "id": "ja-the-weeknd-2026-20260919",
@@ -5384,24 +5386,29 @@
     },
     {
       "id": "ja-aimyon-tour-2027-20270206",
-      "name": "AIMYON TOUR 2027（あいみょん 全国アリーナツアー）",
+      "name": "【AIMYON TOUR 2027 - cosmic % -】（あいみょん 全国アリーナツアー）",
       "release_date": "2027-02-06",
       "release_time": null,
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "category": "concert_tour",
       "platforms": [
-        "ぴあアリーナMM（神奈川ほか全国14都市）"
+        "ぴあアリーナMM（神奈川ほか全国18会場）"
       ],
       "developer": "あいみょん",
       "publisher": null,
-      "description": "あいみょんが、メジャーデビュー10周年を記念して2027年2月6日の神奈川・ぴあアリーナMMを皮切りに、全国14都市36公演の大規模アリーナツアー「AIMYON TOUR 2027」を開催する。7月11日の沖縄・沖縄サントリーアリーナまで続く自身最大規模のツアーで、バンド編成で臨む。これに先立ち、デビュー記念日の2026年11月30日・12月1日には日本武道館公演も行われる。チケットは9月9日発売のベストアルバム封入の10周年記念カードのQRコードから先行予約を受け付ける。",
+      "description": "あいみょんがメジャーデビュー10周年を記念して行う自身最大規模の全国アリーナツアーで、正式タイトルが【AIMYON TOUR 2027 - cosmic % -】に決定した。2027年2月6日の神奈川・ぴあアリーナMMで開幕し、Kアリーナ横浜、大阪城ホール、国立代々木競技場第一体育館などを含む全国18会場・36公演を重ね、2027年7月11日の沖縄サントリーアリーナで千秋楽を迎える。チケットはファンクラブ「AIM」先行が前半公演10月3日12:00〜10月19日、後半公演1月8日12:00〜1月18日、9月9日発売のベストアルバム『AIMYON BEST ALBUM - 唇を追え！ -』封入のCD先行が前半10月21日12:00〜11月2日、後半1月21日12:00〜1月29日に受け付けられる。",
       "genres": [
         "J-POP",
         "アリーナツアー"
       ],
       "image_url": null,
-      "source_url": "https://natalie.mu/music/news/681003"
+      "source_url": "https://www.billboard-japan.com/d_news/detail/165305",
+      "presale": true,
+      "general_sale": false,
+      "presale_datetime": "2026-10-03T12:00:00+09:00",
+      "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher"
     },
     {
       "id": "ja-yoshii-kazuya-tour-2027-20270209",
@@ -6193,6 +6200,555 @@
       "timezone": "Asia/Tokyo",
       "publisher": null,
       "last_updated": "2026-09-09",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-fujii-kaze-piano-recital-20261120",
+      "name": "藤井風 ピアノリサイタル 東京ドーム公演（1日目）",
+      "release_date": "2026-11-20",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ドーム"
+      ],
+      "developer": "藤井風",
+      "publisher": "藤井風 ピアノリサイタル実行委員会",
+      "description": "藤井風が2026年11月20日・21日の2日間、東京ドームで開催する特別公演の初日。バンド編成の大規模ツアーとは趣を変え、自身の音楽活動の原点であるピアノの弾き語りと独奏を軸に据えた構成で、デビュー作『HELP EVER HURT NEVER』から最新作までの楽曲に加え、新旧のカバー曲やその場でのリクエストコーナーも予定されている。初日は開場17:00・開演19:00、終演は20時半頃を見込む。チケットは特設サイトでの最速先行（抽選）が9月9日12:00から9月23日23:59まで受け付けられた。",
+      "genres": [
+        "J-POP",
+        "ピアノ弾き語り"
+      ],
+      "image_url": null,
+      "source_url": "https://fujiikaze.com/news-article/news260909/",
+      "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "general_sale": false,
+      "presale_datetime": "2026-09-09T12:00:00+09:00",
+      "presale_end_datetime": "2026-09-23T23:59:00+09:00",
+      "presale_url": "https://eplus.jp/sf/detail/2901490006"
+    },
+    {
+      "id": "ja-fujii-kaze-piano-recital-20261121",
+      "name": "藤井風 ピアノリサイタル 東京ドーム公演（2日目）",
+      "release_date": "2026-11-21",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ドーム"
+      ],
+      "developer": "藤井風",
+      "publisher": "藤井風 ピアノリサイタル実行委員会",
+      "description": "藤井風が東京ドームで行う2日間限定のピアノリサイタル、その2日目公演。開場16:00・開演18:00と初日より1時間早い進行で、終演は19時半頃を見込む。ピアノ1台による弾き語りと独奏を中心に、デビュー以来の代表曲やカバー曲、観客からのリクエストに応える時間も設けられる。主催・企画・制作は藤井風 ピアノリサイタル実行委員会。チケットは特設サイトでの最速先行（抽選）が9月9日12:00に受付を開始した。",
+      "genres": [
+        "J-POP",
+        "ピアノ弾き語り"
+      ],
+      "image_url": null,
+      "source_url": "https://fujiikaze.com/news-article/news260909/",
+      "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "general_sale": false,
+      "presale_datetime": "2026-09-09T12:00:00+09:00",
+      "presale_end_datetime": "2026-09-23T23:59:00+09:00",
+      "presale_url": "https://eplus.jp/sf/detail/2901490006"
+    },
+    {
+      "id": "ja-maroon-5-tokyo-dome-20270130",
+      "name": "マルーン5【Maroon 5 Asia 2027】東京ドーム公演（1日目）",
+      "release_date": "2027-01-30",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ドーム"
+      ],
+      "developer": "マルーン5",
+      "publisher": "LIVE NATION H.I.P.",
+      "description": "マルーン5が2027年1月にスタートするアジアツアーの一環として行う来日公演で、2025年以来2年ぶりの日本公演となる。東京ドームでの3days開催で、公演名は【Maroon 5 Asia 2027】。主催はLIVE NATION H.I.P.。チケットはVIP GOLD席128,000円、VIP SILVER席38,800円、SS指定席15,800円ほか複数の席種が用意され、ファンクラブ「S.I.N. Club」先行が2026年8月11日から始まっている。本公演は1日目で、開演は18:00を予定している。",
+      "genres": [
+        "ポップ・ロック",
+        "ドーム公演"
+      ],
+      "image_url": null,
+      "source_url": "https://www.universal-music.co.jp/maroon5/news/2026-08-20/",
+      "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "general_sale": false
+    },
+    {
+      "id": "ja-maroon-5-tokyo-dome-20270131",
+      "name": "マルーン5【Maroon 5 Asia 2027】東京ドーム公演（2日目）",
+      "release_date": "2027-01-31",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ドーム"
+      ],
+      "developer": "マルーン5",
+      "publisher": "LIVE NATION H.I.P.",
+      "description": "マルーン5が2027年1月にスタートするアジアツアーの一環として行う来日公演で、2025年以来2年ぶりの日本公演となる。東京ドームでの3days開催で、公演名は【Maroon 5 Asia 2027】。主催はLIVE NATION H.I.P.。チケットはVIP GOLD席128,000円、VIP SILVER席38,800円、SS指定席15,800円ほか複数の席種が用意され、ファンクラブ「S.I.N. Club」先行が2026年8月11日から始まっている。本公演は2日目で、開演は17:00を予定している。",
+      "genres": [
+        "ポップ・ロック",
+        "ドーム公演"
+      ],
+      "image_url": null,
+      "source_url": "https://www.universal-music.co.jp/maroon5/news/2026-08-20/",
+      "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "general_sale": false
+    },
+    {
+      "id": "ja-maroon-5-tokyo-dome-20270202",
+      "name": "マルーン5【Maroon 5 Asia 2027】東京ドーム公演（3日目）",
+      "release_date": "2027-02-02",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ドーム"
+      ],
+      "developer": "マルーン5",
+      "publisher": "LIVE NATION H.I.P.",
+      "description": "マルーン5が2027年1月にスタートするアジアツアーの一環として行う来日公演で、2025年以来2年ぶりの日本公演となる。東京ドームでの3days開催で、公演名は【Maroon 5 Asia 2027】。主催はLIVE NATION H.I.P.。チケットはVIP GOLD席128,000円、VIP SILVER席38,800円、SS指定席15,800円ほか複数の席種が用意され、ファンクラブ「S.I.N. Club」先行が2026年8月11日から始まっている。本公演は3日目で、開演は19:00を予定している。",
+      "genres": [
+        "ポップ・ロック",
+        "ドーム公演"
+      ],
+      "image_url": null,
+      "source_url": "https://www.universal-music.co.jp/maroon5/news/2026-08-20/",
+      "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "general_sale": false
+    },
+    {
+      "id": "ja-endrecheri-billboard-live-tour-2026-yokohama-20261013",
+      "name": ".ENDRECHERI.【Billboard Live Tour 2026】横浜公演（2026-10-13）",
+      "release_date": "2026-10-13",
+      "release_time": "17:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "ビルボードライブ横浜"
+      ],
+      "developer": ".ENDRECHERI.（堂本剛）",
+      "publisher": null,
+      "description": "堂本剛によるクリエイティブ・プロジェクト.ENDRECHERI.が、ビルボードライブに初登場する3都市ツアー。ジョージ・クリントンらのPファンクに影響を受けたファンクミュージックを軸に、ジャンルを横断する楽曲をクラブサイズの空間で聴かせる。各日1stステージ・2ndステージの2部制で、1stは開場16:30／開演17:30、2ndは開場19:30／開演20:30。チケットはClub BBL会員および法人会員先行が9月28日12:00、一般発売が10月1日12:00に受付を開始する。本公演は2026-10-13のビルボードライブ横浜で行われる。",
+      "genres": [
+        "ファンク",
+        "J-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://www.billboard-japan.com/d_news/detail/165300",
+      "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "general_sale": false,
+      "presale_datetime": "2026-09-28T12:00:00+09:00",
+      "general_sale_datetime": "2026-10-01T12:00:00+09:00"
+    },
+    {
+      "id": "ja-endrecheri-billboard-live-tour-2026-yokohama-20261014",
+      "name": ".ENDRECHERI.【Billboard Live Tour 2026】横浜公演（2026-10-14）",
+      "release_date": "2026-10-14",
+      "release_time": "17:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "ビルボードライブ横浜"
+      ],
+      "developer": ".ENDRECHERI.（堂本剛）",
+      "publisher": null,
+      "description": "堂本剛によるクリエイティブ・プロジェクト.ENDRECHERI.が、ビルボードライブに初登場する3都市ツアー。ジョージ・クリントンらのPファンクに影響を受けたファンクミュージックを軸に、ジャンルを横断する楽曲をクラブサイズの空間で聴かせる。各日1stステージ・2ndステージの2部制で、1stは開場16:30／開演17:30、2ndは開場19:30／開演20:30。チケットはClub BBL会員および法人会員先行が9月28日12:00、一般発売が10月1日12:00に受付を開始する。本公演は2026-10-14のビルボードライブ横浜で行われる。",
+      "genres": [
+        "ファンク",
+        "J-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://www.billboard-japan.com/d_news/detail/165300",
+      "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "general_sale": false,
+      "presale_datetime": "2026-09-28T12:00:00+09:00",
+      "general_sale_datetime": "2026-10-01T12:00:00+09:00"
+    },
+    {
+      "id": "ja-endrecheri-billboard-live-tour-2026-osaka-20261116",
+      "name": ".ENDRECHERI.【Billboard Live Tour 2026】大阪公演（2026-11-16）",
+      "release_date": "2026-11-16",
+      "release_time": "17:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "ビルボードライブ大阪"
+      ],
+      "developer": ".ENDRECHERI.（堂本剛）",
+      "publisher": null,
+      "description": "堂本剛によるクリエイティブ・プロジェクト.ENDRECHERI.が、ビルボードライブに初登場する3都市ツアー。ジョージ・クリントンらのPファンクに影響を受けたファンクミュージックを軸に、ジャンルを横断する楽曲をクラブサイズの空間で聴かせる。各日1stステージ・2ndステージの2部制で、1stは開場16:30／開演17:30、2ndは開場19:30／開演20:30。チケットはClub BBL会員および法人会員先行が9月28日12:00、一般発売が10月1日12:00に受付を開始する。本公演は2026-11-16のビルボードライブ大阪で行われる。",
+      "genres": [
+        "ファンク",
+        "J-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://www.billboard-japan.com/d_news/detail/165300",
+      "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "general_sale": false,
+      "presale_datetime": "2026-09-28T12:00:00+09:00",
+      "general_sale_datetime": "2026-10-01T12:00:00+09:00"
+    },
+    {
+      "id": "ja-endrecheri-billboard-live-tour-2026-osaka-20261117",
+      "name": ".ENDRECHERI.【Billboard Live Tour 2026】大阪公演（2026-11-17）",
+      "release_date": "2026-11-17",
+      "release_time": "17:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "ビルボードライブ大阪"
+      ],
+      "developer": ".ENDRECHERI.（堂本剛）",
+      "publisher": null,
+      "description": "堂本剛によるクリエイティブ・プロジェクト.ENDRECHERI.が、ビルボードライブに初登場する3都市ツアー。ジョージ・クリントンらのPファンクに影響を受けたファンクミュージックを軸に、ジャンルを横断する楽曲をクラブサイズの空間で聴かせる。各日1stステージ・2ndステージの2部制で、1stは開場16:30／開演17:30、2ndは開場19:30／開演20:30。チケットはClub BBL会員および法人会員先行が9月28日12:00、一般発売が10月1日12:00に受付を開始する。本公演は2026-11-17のビルボードライブ大阪で行われる。",
+      "genres": [
+        "ファンク",
+        "J-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://www.billboard-japan.com/d_news/detail/165300",
+      "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "general_sale": false,
+      "presale_datetime": "2026-09-28T12:00:00+09:00",
+      "general_sale_datetime": "2026-10-01T12:00:00+09:00"
+    },
+    {
+      "id": "ja-endrecheri-billboard-live-tour-2026-tokyo-20261130",
+      "name": ".ENDRECHERI.【Billboard Live Tour 2026】東京公演（2026-11-30）",
+      "release_date": "2026-11-30",
+      "release_time": "17:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "ビルボードライブ東京"
+      ],
+      "developer": ".ENDRECHERI.（堂本剛）",
+      "publisher": null,
+      "description": "堂本剛によるクリエイティブ・プロジェクト.ENDRECHERI.が、ビルボードライブに初登場する3都市ツアー。ジョージ・クリントンらのPファンクに影響を受けたファンクミュージックを軸に、ジャンルを横断する楽曲をクラブサイズの空間で聴かせる。各日1stステージ・2ndステージの2部制で、1stは開場16:30／開演17:30、2ndは開場19:30／開演20:30。チケットはClub BBL会員および法人会員先行が9月28日12:00、一般発売が10月1日12:00に受付を開始する。本公演は2026-11-30のビルボードライブ東京で行われる。",
+      "genres": [
+        "ファンク",
+        "J-POP"
+      ],
+      "image_url": null,
+      "source_url": "https://www.billboard-japan.com/d_news/detail/165300",
+      "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "general_sale": false,
+      "presale_datetime": "2026-09-28T12:00:00+09:00",
+      "general_sale_datetime": "2026-10-01T12:00:00+09:00"
+    },
+    {
+      "id": "ja-kirara-japan-2026-20261112",
+      "name": "【KIRARA JAPAN 2026】KIRARA 初の単独来日公演",
+      "release_date": "2026-11-12",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "代官山UNIT"
+      ],
+      "developer": "KIRARA",
+      "publisher": "SMASH",
+      "description": "【FUJI ROCK FESTIVAL '26】への出演で日本の聴衆に強い印象を残した韓国のエレクトロニック・ミュージシャン、KIRARAが、自身初となる単独来日公演を東京・代官山UNITで行う。開場18:30・開演19:30、チケットはスタンディング6,800円（ドリンク代別）。イープラスでのオフィシャル先着先行が9月8日から9月23日まで、一般発売は9月26日10:00に開始される。招聘はSMASH。",
+      "genres": [
+        "エレクトロニック",
+        "K-インディー"
+      ],
+      "image_url": null,
+      "source_url": "https://www.billboard-japan.com/d_news/detail/165301",
+      "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher",
+      "presale": true,
+      "general_sale": false,
+      "presale_datetime": "2026-09-08T00:00:00+09:00",
+      "presale_end_datetime": "2026-09-23T23:59:00+09:00",
+      "general_sale_datetime": "2026-09-26T10:00:00+09:00"
+    },
+    {
+      "id": "ja-ego-wrappin-phantom-of-love-20261125",
+      "name": "EGO-WRAPPIN'『Phantom of Love』",
+      "release_date": "2026-11-25",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "music_release",
+      "platforms": [
+        "CD／配信"
+      ],
+      "developer": "EGO-WRAPPIN'",
+      "publisher": null,
+      "description": "中納良恵と森雅樹によるEGO-WRAPPIN'が、結成30周年を記念して発表する通算10枚目のオリジナルフルアルバム。「Treasures High」「AQUA ROBE」「phosphorus」「Right on Shower」「RIVIERA」といった既発曲に新曲6曲を加えた全11曲を収録する。CD、ピクチャーレコード、12インチレコード、TOY'S STORE限定の「初回ラッピング」盤の4形態でリリースされ、限定盤にはペーパークラフト作家・石井希による立体的な「からくりBOX」が付属。早期予約特典として30周年ロゴのトートバッグが用意される。",
+      "genres": [
+        "J-POP",
+        "アルバム"
+      ],
+      "image_url": null,
+      "source_url": "https://www.billboard-japan.com/d_news/detail/165289",
+      "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-mei-ehara-domino-tokyo-20261211",
+      "name": "mei ehara Concert 2026 Winter「DOMINO!」東京公演",
+      "release_date": "2026-12-11",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "LIQUIDROOM"
+      ],
+      "developer": "mei ehara",
+      "publisher": null,
+      "description": "シンガーソングライターのmei eharaが2026年を締めくくるワンマンライブ。東京公演は12月11日に恵比寿LIQUIDROOMで行われ、同会場でのワンマンは自身初となる。開場18:30・開演19:30、チケットはオールスタンディング5,500円、学割5,500円より安い4,500円の学生券も用意される。11月29日の大阪・Shangri-La公演と合わせた2都市開催で、年内最後のバンドセットによる公演となる。",
+      "genres": [
+        "シンガーソングライター",
+        "インディーポップ"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/mei-ehara/129211",
+      "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-punk-rock-connection-2026-20261107",
+      "name": "PUNK ROCK CONNECTION 2026",
+      "release_date": "2026-11-07",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "festival",
+      "platforms": [
+        "高円寺HIGH（ほか東京・高円寺エリア計6会場）"
+      ],
+      "developer": null,
+      "publisher": null,
+      "description": "パンク誕生50周年にあたる2026年に、東京・高円寺の街を舞台として開かれるサーキット・イベント。高円寺HIGH、ShowBoat、CLUB ROOTS!、氣楽ミュージックウェアハウス、スタジオベイド高円寺、KATA_BARの6会場を使い、総勢47組のアーティストと12組のDJが出演する。DONT TURN AWAY、THE PRISONER、JUNIOR、SHACHI、BOMB FACTORY、柳家睦＆THE RATBONESらに加え、タイのJIMMY REVOLT、台湾のTHE BROKEN FLOWERSら海外勢も名を連ねる。チケットは9月1日よりイープラスで発売中。",
+      "genres": [
+        "パンク",
+        "サーキットフェス"
+      ],
+      "image_url": null,
+      "source_url": "https://www.cdjournal.com/news/-/129272",
+      "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher",
+      "presale": false,
+      "general_sale": true
+    },
+    {
+      "id": "ja-tentaka-matsuri-2026-20260919",
+      "name": "「天高まつり2026」in ムーンアートナイト",
+      "release_date": "2026-09-19",
+      "release_time": "13:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "festival",
+      "platforms": [
+        "下北線路街 空き地（東京・下北沢）"
+      ],
+      "developer": "天々高々",
+      "publisher": null,
+      "description": "MOROHAのアフロとヒグチアイによる2人組アーティスト・天々高々が、東京・下北線路街 空き地で開催する入場無料の野外イベント。13:00からの昼の部と18:00からの夜の部の2ステージで天々高々のライブが行われるほか、輪投げ大会、モールアートの展示・販売、空き地キッチンの出店、フリーマーケットなど祭りらしい催しが並ぶ。9月18日から10月4日まで下北沢の街全体で開かれるアートフェスティバル「ムーンアートナイト下北沢2026」の一環として実施される。",
+      "genres": [
+        "フォーク",
+        "野外フリーイベント"
+      ],
+      "image_url": null,
+      "source_url": "https://www.billboard-japan.com/d_news/detail/165284",
+      "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-njp-670-triphony-20260509",
+      "name": "新日本フィルハーモニー交響楽団 第670回 定期演奏会〈トリフォニーホール・シリーズ〉",
+      "release_date": "2026-05-09",
+      "release_time": "14:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "すみだトリフォニーホール(大ホール)"
+      ],
+      "developer": "新日本フィルハーモニー交響楽団",
+      "publisher": "新日本フィルハーモニー交響楽団",
+      "description": "新日本フィルハーモニー交響楽団が本拠地すみだトリフォニーホールの大ホールで開催した定期演奏会。指揮はスイスの名匠ミシェル・タバシュニクで、得意とするフランス音楽からラヴェル「ラ・ヴァルス」で幕を開けた。続くショスタコーヴィチのチェロ協奏曲第1番では、2015年チャイコフスキー国際コンクール優勝者のアンドレイ・イオニーツァが独奏を務め、後半はブラームスの交響曲第2番が演奏された。開場13:15・開演14:00。前日5月8日にはサントリーホールで同一プログラムの公演が行われた。",
+      "genres": [
+        "クラシック",
+        "オーケストラ"
+      ],
+      "image_url": null,
+      "source_url": "https://www.njp.or.jp/concerts/260509",
+      "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-njp-671-triphony-20260613",
+      "name": "新日本フィルハーモニー交響楽団 第671回 定期演奏会〈トリフォニーホール・シリーズ〉",
+      "release_date": "2026-06-13",
+      "release_time": "14:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "すみだトリフォニーホール(大ホール)"
+      ],
+      "developer": "新日本フィルハーモニー交響楽団",
+      "publisher": "新日本フィルハーモニー交響楽団",
+      "description": "音楽監督の佐渡裕が指揮台に立ち、マーラーの交響曲第3番ニ短調1曲のみを据えた定期演奏会。全6楽章・約100分におよぶ大作で、メゾソプラノ独唱に藤村実穂子、合唱に栗友会合唱団、児童合唱に東京少年少女合唱隊を迎えた大編成となった。会場は本拠地すみだトリフォニーホールの大ホールで、開場13:15・開演14:00。前日6月12日にはサントリーホールで同一プログラムが演奏され、両日とも追加席が販売されるほどの反響を呼んだ。",
+      "genres": [
+        "クラシック",
+        "オーケストラ"
+      ],
+      "image_url": null,
+      "source_url": "https://www.njp.or.jp/concerts/260613",
+      "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-whirr-nothing-tokyo-20260208",
+      "name": "SLIDE AWAY & ICE GRILL$ presents WHIRR & NOTHING LIVE IN TOKYO",
+      "release_date": "2026-02-08",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "代官山UNIT"
+      ],
+      "developer": "WHIRR & NOTHING",
+      "publisher": "ICE GRILL$",
+      "description": "アメリカのヘヴィ・シューゲイズを代表するWHIRRとNOTHINGが2夜限りで来日した、その初日公演。SLIDE AWAYとICE GRILL$の共同企画として代官山UNITで開催され、ゲストに日本のenvyを迎えた。開場17:00・開演18:00、チケットは9,000円で、公演前にソールドアウトとなった。翌2月9日には新代田FEVERで揺らぎを迎えた2日目が行われ、轟音と旋律が交差する両バンドのサウンドを日本の観客に届けた。",
+      "genres": [
+        "シューゲイズ",
+        "オルタナティヴ"
+      ],
+      "image_url": null,
+      "source_url": "https://icegrills.jp/whirr-nothing-japan-2026/",
+      "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-idntt-fancon-osaka-20260825",
+      "name": "2026 idntt FAN-CON TOUR＜20＞in JAPAN 大阪公演",
+      "release_date": "2026-08-25",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "fanmeeting",
+      "platforms": [
+        "SkyシアターMBS"
+      ],
+      "developer": "idntt",
+      "publisher": null,
+      "description": "韓国MODHAUS所属の24人組グローバルボーイズグループidnttが、デビュー後初のアジアファンコンサートツアーの一環として行った大阪公演。グループ単独としては初の大阪開催となり、SkyシアターMBSで開場17:00・開演18:00で実施された。チケットはVVIP22,000円、VIP18,000円、一般11,000円の3種。ツアーはソウル、東京（川口リリア）、大阪、マカオを巡る構成で、日本公演は8月23日の東京に続く2都市目だった。",
+      "genres": [
+        "K-POP",
+        "ファンミーティング"
+      ],
+      "image_url": null,
+      "source_url": "https://realsound.jp/2026/07/post-2453106.html",
+      "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-cta-billboard-live-tokyo-20260907",
+      "name": "CTA（Danny Seraphine California Transit Authority）ビルボードライブ東京公演",
+      "release_date": "2026-09-07",
+      "release_time": "17:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "ビルボードライブ東京"
+      ],
+      "developer": "California Transit Authority",
+      "publisher": null,
+      "description": "シカゴの創設メンバーで初代ドラマーのダニー・セラフィンが率いるCalifornia Transit Authority（CTA）が、8年ぶりの来日として行った公演。公演名は【Danny Seraphine California Transit Authority plays Chicago】で、シカゴ黄金期のレパートリーをホーンセクションを擁するバンド編成で再構築し、ジャズロックの原点というべきアンサンブルを聴かせた。ビルボードライブ3都市を巡るツアーの一公演として開催された。東京公演は2026-09-07にビルボードライブ東京で、1stステージ・2ndステージの2部制で行われた。",
+      "genres": [
+        "ジャズロック",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://www.billboard-live.com/tokyo/show?event_id=ev-21521",
+      "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-cta-billboard-live-osaka-20260908",
+      "name": "CTA（Danny Seraphine California Transit Authority）ビルボードライブ大阪公演",
+      "release_date": "2026-09-08",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "ビルボードライブ大阪"
+      ],
+      "developer": "California Transit Authority",
+      "publisher": null,
+      "description": "シカゴの創設メンバーで初代ドラマーのダニー・セラフィンが率いるCalifornia Transit Authority（CTA）が、8年ぶりの来日として行った公演。公演名は【Danny Seraphine California Transit Authority plays Chicago】で、シカゴ黄金期のレパートリーをホーンセクションを擁するバンド編成で再構築し、ジャズロックの原点というべきアンサンブルを聴かせた。ビルボードライブ3都市を巡るツアーの一公演として開催された。大阪公演は2026-09-08にビルボードライブ大阪で、1stステージ・2ndステージの2部制で行われた。",
+      "genres": [
+        "ジャズロック",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://www.billboard-live.com/osaka/show?event_id=ev-21522",
+      "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-cta-billboard-live-yokohama-20260910",
+      "name": "CTA（Danny Seraphine California Transit Authority）ビルボードライブ横浜公演",
+      "release_date": "2026-09-10",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "ビルボードライブ横浜"
+      ],
+      "developer": "California Transit Authority",
+      "publisher": null,
+      "description": "シカゴの創設メンバーで初代ドラマーのダニー・セラフィンが率いるCalifornia Transit Authority（CTA）が、8年ぶりの来日として行った公演。公演名は【Danny Seraphine California Transit Authority plays Chicago】で、シカゴ黄金期のレパートリーをホーンセクションを擁するバンド編成で再構築し、ジャズロックの原点というべきアンサンブルを聴かせた。ビルボードライブ3都市を巡るツアーの一公演として開催された。横浜公演は2026-09-10にビルボードライブ横浜で、1stステージ・2ndステージの2部制で行われた。",
+      "genres": [
+        "ジャズロック",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://www.billboard-live.com/yokohama/show?event_id=ev-21523",
+      "last_updated": "2026-09-12",
       "last_researched_by": "ja-researcher"
     }
   ]
