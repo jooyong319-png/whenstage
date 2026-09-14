@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-14",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -2982,9 +2982,9 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/John_Park_at_the_Samsung%27s_Galaxy_Tab_on_Jan_6%2C_2011_from_acrofan.jpg",
       "source_url": "https://sports.khan.co.kr/article/202607271333003/",
-      "last_updated": "2026-09-09",
+      "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-07-31T18:00:00+09:00"
     },
     {
@@ -3008,11 +3008,12 @@
       ],
       "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202604/20260416/20260416-58079.jpg",
       "source_url": "https://www.slist.kr/news/articleView.html?idxno=731524",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-04-22T19:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.yes24.com/Perf/58079",
-      "last_updated": "2026-09-09"
+      "last_updated": "2026-09-14",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-crush-zzinbombting-crush-farm-seoul-20260912",
@@ -3038,11 +3039,11 @@
       "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26011974",
-      "last_updated": "2026-09-03",
+      "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -3069,11 +3070,11 @@
       "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26011954",
-      "last_updated": "2026-09-03",
+      "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -3097,7 +3098,7 @@
       ],
       "image_url": null,
       "source_url": "https://www.ngonews.kr/news/articleView.html?idxno=234860",
-      "last_updated": "2026-08-27",
+      "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher",
       "festival_days": [
         {
@@ -3116,7 +3117,7 @@
           ]
         }
       ],
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-08-10T12:00:00+09:00"
     },
     {
@@ -3228,11 +3229,12 @@
       "presale_datetime": "2026-07-27T20:00:00+09:00",
       "presale_end_datetime": null,
       "presale_url": "https://tickets.interpark.com/goods/26010045",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-07-29T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26010045",
-      "last_updated": "2026-09-09"
+      "last_updated": "2026-09-14",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-wayv-born-this-way-seoul-20260912",
@@ -3254,11 +3256,11 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/WayV_241128_SBS_Radio.png",
       "source_url": "https://www.tenasia.co.kr/article/2026073169884",
-      "last_updated": "2026-09-09",
+      "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher",
       "presale": false,
       "presale_datetime": "2026-07-30T20:00:00+09:00",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-07-31T19:00:00+09:00"
     },
     {
@@ -3282,10 +3284,10 @@
       "image_url": null,
       "source_url": "https://tickets.interpark.com/goods/26009236",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-09-08",
+      "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -3309,10 +3311,10 @@
       "image_url": null,
       "source_url": "http://gurumare.co.kr/show",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_url": "https://ticket.melon.com/performance/index.htm?prodId=213744",
-      "last_updated": "2026-08-24",
+      "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -3569,13 +3571,13 @@
         "콘서트",
         "내한"
       ],
-      "image_url": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Takuya_Kimura_January_2023.jpg/500px-Takuya_Kimura_January_2023.jpg",
       "source_url": "https://tickets.interpark.com/goods/26008115",
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26008115",
-      "last_updated": "2026-09-08",
+      "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -3616,7 +3618,7 @@
         "R&B",
         "솔로"
       ],
-      "image_url": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Minzy_2020.jpg/500px-Minzy_2020.jpg",
       "source_url": "https://isplus.com/article/view/isp202608250037",
       "presale": false,
       "presale_datetime": null,
@@ -3626,7 +3628,7 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-08-31",
+      "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -3833,13 +3835,13 @@
         "콘서트",
         "솔로"
       ],
-      "image_url": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/LeeHi_2021_%28derived%29.jpg/500px-LeeHi_2021_%28derived%29.jpg",
       "source_url": "https://www.tenasia.co.kr/article/2026081530164",
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": "2026-08-20T12:00:00+09:00",
       "general_sale_url": null,
-      "last_updated": "2026-08-20",
+      "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -3919,10 +3921,10 @@
         "J-POP",
         "내한공연"
       ],
-      "image_url": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/BuzzFeed_MUSIC_AWARDS_JAPAN_2026_-_%E4%B8%AD%E5%B3%B6%E5%81%A5%E4%BA%BA.png/500px-BuzzFeed_MUSIC_AWARDS_JAPAN_2026_-_%E4%B8%AD%E5%B3%B6%E5%81%A5%E4%BA%BA.png",
       "source_url": "https://www.starnewskorea.com/music/2026/04/16/2026041609223131103",
       "general_sale": true,
-      "last_updated": "2026-08-10",
+      "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -4283,7 +4285,7 @@
         "K-POP",
         "단독공연"
       ],
-      "image_url": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Lee_Chang-sub_at_an_fansign_in_November_2016_01.jpg/500px-Lee_Chang-sub_at_an_fansign_in_November_2016_01.jpg",
       "source_url": "https://www.munhwa.com/article/11609098",
       "presale": true,
       "presale_datetime": "2026-08-26T20:00:00+09:00",
@@ -4293,7 +4295,7 @@
       "general_sale_datetime": "2026-08-27T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-08-17",
+      "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -4432,7 +4434,7 @@
         "K-POP",
         "팬미팅"
       ],
-      "image_url": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Hwang_Minhyun_%ED%99%A9%EB%AF%BC%ED%98%84_2023_03.jpg",
       "source_url": "https://tickets.interpark.com/goods/26012215",
       "presale": true,
       "presale_datetime": "2026-09-09T20:00:00+09:00",
@@ -4442,7 +4444,7 @@
       "general_sale_datetime": "2026-09-11T19:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26012215",
-      "last_updated": "2026-09-08",
+      "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -4535,13 +4537,13 @@
         "콘서트",
         "앙코르"
       ],
-      "image_url": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/LUCY_in_2026.png/500px-LUCY_in_2026.png",
       "source_url": "https://www.tenasia.co.kr/article/2026081039244",
       "presale": false,
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-08-20",
+      "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -4646,7 +4648,7 @@
         "팝",
         "내한"
       ],
-      "image_url": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Benson_Boone_Press_Copy_Warner_Records_%28cropped%29.png",
       "source_url": "https://www.livenation.kr/event/benson-boone-wanted-man-tour-seoul-tickets-edp1686561",
       "presale": false,
       "presale_datetime": "2026-07-20T12:00:00+09:00",
@@ -4655,7 +4657,9 @@
       "general_sale": true,
       "general_sale_datetime": "2026-07-21T12:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "last_updated": "2026-09-14",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-kimjaehwan-yeoback-seoul-20261031",
@@ -4676,7 +4680,7 @@
         "발라드",
         "콘서트"
       ],
-      "image_url": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/171022_%EB%B6%80%EC%82%B0%EC%9B%90%EC%95%84%EC%8B%9C%EC%95%84%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C_%EC%9C%A4%EC%A7%80%EC%84%B1_%26_%EA%B9%80%EC%9E%AC%ED%99%98_02.jpg/500px-171022_%EB%B6%80%EC%82%B0%EC%9B%90%EC%95%84%EC%8B%9C%EC%95%84%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C_%EC%9C%A4%EC%A7%80%EC%84%B1_%26_%EA%B9%80%EC%9E%AC%ED%99%98_02.jpg",
       "source_url": "https://tickets.interpark.com/goods/26012668",
       "presale": true,
       "presale_datetime": "2026-09-08T20:00:00+09:00",
@@ -4686,7 +4690,7 @@
       "general_sale_datetime": "2026-09-09T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26012668",
-      "last_updated": "2026-09-08",
+      "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -5137,7 +5141,7 @@
         "록",
         "내한공연"
       ],
-      "image_url": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Maroon_5_Current_Lineup_Collage.jpg/500px-Maroon_5_Current_Lineup_Collage.jpg",
       "source_url": "https://www.newspim.com/news/view/20260804001300",
       "presale": false,
       "presale_datetime": "2026-08-12T12:00:00+09:00",
@@ -5147,7 +5151,7 @@
       "general_sale_datetime": "2026-08-14T12:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-08-20",
+      "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -5200,7 +5204,7 @@
         "팬미팅",
         "배우"
       ],
-      "image_url": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Kim_Ji-won_in_May_2026.png/500px-Kim_Ji-won_in_May_2026.png",
       "source_url": "https://www.tenasia.co.kr/article/2026090158014",
       "presale": false,
       "presale_datetime": null,
@@ -5210,7 +5214,7 @@
       "general_sale_datetime": "2026-09-16T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-09-08",
+      "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -5231,11 +5235,11 @@
         "발라드",
         "컴백"
       ],
-      "image_url": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Kim_Feel_210107.png/500px-Kim_Feel_210107.png",
       "source_url": "https://isplus.com/article/view/isp202609020205",
       "presale": false,
       "general_sale": false,
-      "last_updated": "2026-09-08",
+      "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -5254,13 +5258,13 @@
         "발라드",
         "콘서트"
       ],
-      "image_url": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Kim_Feel_210107.png/500px-Kim_Feel_210107.png",
       "source_url": "https://sports.khan.co.kr/article/202609021127003",
       "presale": false,
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-09-08",
+      "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -5988,6 +5992,155 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/180412_%ED%8F%AC%ED%95%AD%EC%8B%9C%EB%AF%BC%EC%BD%98%EC%84%9C%ED%8A%B8_%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88_%281%29.jpg/500px-180412_%ED%8F%AC%ED%95%AD%EC%8B%9C%EB%AF%BC%EC%BD%98%EC%84%9C%ED%8A%B8_%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88_%281%29.jpg",
       "source_url": "https://www.ticketlink.co.kr/help/notice/60246",
       "last_updated": "2026-09-10",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-highlight-fancon-seoul-20261016",
+      "name": "2026 HIGHLIGHT FAN CON [18년차 아이돌인 내가 이세계에선 데뷔조 연습생?!]",
+      "release_date": "2026-10-16",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "장충체육관"
+      ],
+      "developer": "하이라이트(HIGHLIGHT)",
+      "publisher": "위켄드라이브",
+      "description": "그룹 하이라이트가 10월 16일부터 18일까지 사흘간 서울 중구 장충체육관에서 단독 팬 콘서트 '18년차 아이돌인 내가 이세계에선 데뷔조 연습생?!'을 연다. 데뷔 17주년을 맞아 올해 처음 여는 단독 공연으로, 이세계로 소환돼 다시 데뷔조 연습생이 된다는 설정을 무대 구성 전반에 녹였다. 회차별 시작 시각은 16일 오후 7시 30분, 17일 오후 5시, 18일 오후 4시이고 공연 시간은 약 150분이다. 예스24 티켓에서 9월 7일 팬클럽 선예매, 10일 일반 예매가 차례로 열렸고 세 회차 전석이 매진됐다.",
+      "genres": [
+        "K-POP",
+        "팬콘서트"
+      ],
+      "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202609/20260901/20260901-59891.jpg",
+      "source_url": "https://sports.khan.co.kr/article/202609081124003",
+      "presale": false,
+      "presale_datetime": "2026-09-07T20:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": "https://ticket.yes24.com/Perf/59891",
+      "general_sale": false,
+      "general_sale_datetime": "2026-09-10T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.yes24.com/Perf/59891",
+      "last_updated": "2026-09-14",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-kennyg-live-in-seoul-20261020",
+      "name": "케니 지 내한공연 (Kenny G Live in Seoul)",
+      "release_date": "2026-10-20",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "광운대학교 동해문화예술관(대극장)"
+      ],
+      "developer": "케니 지(Kenny G)",
+      "publisher": null,
+      "description": "색소폰 연주자 케니 지가 10월 20일과 21일 서울 노원구 광운대학교 동해문화예술관 대극장에서 단독 내한 공연을 연다. 2024년 4월 서울·부산 공연 이후 약 2년 6개월 만의 내한으로, 두 회차 모두 오후 8시에 시작해 약 90분간 이어진다. 전 세계 음반 판매량 7500만 장을 넘긴 그는 '고잉 홈(Going Home)'을 비롯한 연주곡으로 국내에서도 오랜 사랑을 받아 왔다. 티켓은 9월 10일 낮 12시부터 티켓링크에서 단독 판매됐고 가격은 P석 15만7000원, R석 13만5000원이다.",
+      "genres": [
+        "재즈",
+        "내한"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/KennyGHWOFMay2013.jpg/500px-KennyGHWOFMay2013.jpg",
+      "source_url": "https://www.nocutnews.co.kr/news/6572842",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-10T12:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-09-14",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-kgma-2026-20261107",
+      "name": "제3회 코리아 그랜드 뮤직 어워즈 (2026 KGMA)",
+      "release_date": "2026-11-07",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "festival",
+      "platforms": [
+        "고척스카이돔"
+      ],
+      "developer": null,
+      "publisher": "일간스포츠(이데일리M)",
+      "description": "일간스포츠가 제정한 대중음악 시상식 '코리아 그랜드 뮤직 어워즈(KGMA)'가 11월 7일과 8일 이틀간 서울 구로구 고척스카이돔에서 세 번째 행사를 연다. 9월 4일 공개된 1차 라인업에는 라이즈, 아홉, 앤더블, 에이티즈, 올데이 프로젝트, 크래비티, 클로즈 유어 아이즈, 키키, 트레저, 하츠투하츠 등 열 팀이 이름을 올렸다. 첫날 진행은 리센느 원이와 배우 남지현, 둘째 날은 아이브 리즈와 배우 김재원이 맡는다. 주최는 일간스포츠(이데일리M), 주관은 KGMA 조직위원회와 크리에이터링이며 조직위는 2·3·4차 라인업을 순차 공개할 예정이다.",
+      "genres": [
+        "K-POP",
+        "시상식"
+      ],
+      "image_url": null,
+      "source_url": "https://www.munhwa.com/article/11614524",
+      "last_updated": "2026-09-14",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-rose-new-trick-20260918",
+      "name": "로제(BLACKPINK) 싱글 'new trick'",
+      "release_date": "2026-09-18",
+      "release_time": "08:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "로제(ROSÉ)",
+      "publisher": null,
+      "description": "블랙핑크 로제가 9월 18일 오전 8시 새 싱글 'new trick'을 공개한다. 2024년 12월 첫 솔로 정규 앨범 '로지(rosie)' 이후 약 1년 9개월 만에 내놓는 온전한 솔로 신곡으로, 정규 앨범을 함께 만든 작곡가 에이미 앨런과 다시 손을 잡았다. 뮤직비디오는 애플의 '숏 온 아이폰' 캠페인 일환으로 아이폰만 써서 촬영했고, 테일러 스위프트·켄드릭 라마 등과 작업해 온 데이브 마이어스 감독이 연출을 맡았다.",
+      "genres": [
+        "K-POP",
+        "팝",
+        "발매"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Blackpink_Ros%C3%A9_Rimowa_1.jpg/500px-Blackpink_Ros%C3%A9_Rimowa_1.jpg",
+      "source_url": "https://www.munhwa.com/article/11616071",
+      "last_updated": "2026-09-14",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-ryusujeong-all-the-colors-i-am-20260911",
+      "name": "류수정 미니 4집 'ALL THE COLORS I AM'",
+      "release_date": "2026-09-11",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "류수정",
+      "publisher": null,
+      "description": "러블리즈 출신 류수정이 9월 11일 오후 6시 네 번째 미니앨범 'ALL THE COLORS I AM'을 발매했다. 새 소속사 올마이애닉도츠로 옮긴 뒤 처음 내놓는 앨범으로, 이해인이 총괄 프로듀서를 맡고 류수정도 작사에 참여해 자신의 이야기를 담았다. 타이틀곡 'Diamond'는 얼터너티브 힙합을 바탕으로 내면의 빛을 찾아가는 과정을 그렸고 'Crying to', 'Lucky Charms', 'shoulda woulda coulda', 'Birthday Cake', 'Friendly Fire'까지 여섯 곡이 실렸다. 수록곡 전곡 뮤직비디오를 차례로 공개하는 작업도 함께 진행된다.",
+      "genres": [
+        "K-POP",
+        "발매"
+      ],
+      "image_url": null,
+      "source_url": "https://www.swtvnews.com/news/newsview.php?ncode=1065568924260753",
+      "last_updated": "2026-09-14",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-mark-my-friend-20260910",
+      "name": "마크(Mark Lee) 싱글 'My Friend'",
+      "release_date": "2026-09-10",
+      "release_time": "13:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "마크(Mark Lee)",
+      "publisher": null,
+      "description": "마크가 9월 10일 오후 1시 싱글 '마이 프렌드(My Friend)'를 공개했다. SM엔터테인먼트와 NCT를 떠난 뒤 처음 발표하는 신곡이자, 직접 세운 크리에이티브 컴퍼니 어퍼룸(Upper Room)에서 내놓는 첫 음악이다. 아련한 기타 루프를 중심에 둔 미디엄 템포 팝 곡으로, 사랑의 의미를 되짚으면서 한 시기를 지나 새로운 시작으로 향하는 순간을 담았다. 마크가 작사·작곡·편곡에 모두 참여했고 뮤직비디오는 거스 블랙 감독이 CG를 최소화하고 실제 공간과 인물에 집중해 연출했다.",
+      "genres": [
+        "K-POP",
+        "발매"
+      ],
+      "image_url": null,
+      "source_url": "https://www.tenasia.co.kr/article/2026091052644",
+      "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher"
     }
   ]
