@@ -2,9 +2,46 @@
 
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
-| ko | 2026-09-09 | |
+| ko | 2026-09-09 | ← |
 | en | 2026-09-11 | |
-| ja | — | ← |
+| ja | 2026-09-14 | |
+
+---
+
+## 2026-09-14 · ja
+
+ja 첫 회차. 로테이션상 ja가 미점검(가장 오래됨)이라 선택. 대상 창: 2026-07-16 ~ 2026-11-13(오늘 ±60일), 창 안 항목 133건(끝난 것 60 / 예정 73). 코드는 손대지 않았고 `data/concerts.ja.json`만 수정. push 전 `validate-data.mjs` 통과.
+
+**트랙 A (졸업 처리) — 17건** (상한 20 이내)
+- A-1 끝난 공연에 남은 예매 필드 정리 9건 — `general_sale_url`/`presale_url`/`*_datetime` 등 "아직 판매 중" 모양으로 남은 값을 `presale`/`general_sale=false` + 관련 URL·datetime을 null 처리(§7 표대로). `music_release`는 제외:
+  ja-fukuyama-masaharu-dome-2026-20260805, ja-david-byrne-ss-extra-20260813, ja-holly-humberstone-ss-extra-20260813,
+  ja-summer-sonic-2026-20260814, ja-jon-spencer-ss-extra-20260818, ja-super-junior-ryeowook-konpeki-20260819,
+  ja-boynextdoor-knock-on-vol2-japan-20260821, ja-flo-japan-tour-2026-20260831, ja-journey-2026-20260901
+- A-2 예매 플래그 잔존: 위 9건에 포함(개별 추가 없음)
+- A-3 (release_date_approx 미해제): 끝난 항목 중 approx=true 없음 — 처리 없음
+- A-4 description 시제 교정 12건(있는 문장의 시제만 과거형으로, 새 사실 추가 없음) — 위 A-1과 겹치는 4건(fukuyama·summer-sonic·super-junior-ryeowook·journey) + 신규 8건:
+  ja-augusta-camp-2026-20260815, ja-jaurim-life-tokyo-2026-20260829, ja-treasure-the-stage-20260905,
+  ja-number-i-numbers-ur26-20260825, ja-ko1keyz-1st-fanmeeting-20260821, ja-abc-z-connection-vol2-20260819,
+  ja-spellbound-bbs-kabukicho-20260824, ja-sakanaction-toumei-osakajo-hall-20260912
+  (개최/출연/발매/예매 개시 등 "開催される·行われる·出演する·スタートする·期待が高まっている" → 과거형·상태 정리)
+- 트랙 A 손댄 실 항목 수: 17건(A-1 9 + A-4 신규 8). 오탐으로 판단해 미수정: ja-creator-dream-fes-2026-20260730(이미 과거형), CTA 3건(이미 "行った/行われた" 과거 서술)
+
+**트랙 B (임박 점검) — 8건 확인** (공연일 가까운 순, last_updated 없는 항목 우선). 8건 모두 공식·예매처·언론 소스로 정상 진행 확인, 취소·연기·approx 임박 없음. 전부 last_updated=2026-09-14로 갱신:
+- ja-epica-japan-tour-2026-20260914 — LIQUIDROOM 공식 페이지 "〈振替公演〉"로 9/14 개최 확인(2025-12 공연이 건강상 이유로 이 날짜로 연기된 것, 추가 취소 아님)
+- ja-crazy-ken-band-nani-20260916 — 앨범 『何？』 9/16 발매 진행(유니버설/HMV)
+- ja-jisung-our-scene-20260918 — 9/18 東京 せたがやイーグレットホール 정상(チケプラ/ぴあ)
+- ja-the-weeknd-2026-20260919 — ベルーナドーム 9/19·20 정상, 9/20 SOLD OUT(유니버설/ライブネーション)
+- ja-ultra-japan-2026-20260919 — お台場 9/19·20 개최, 일자별 라인업 발표 확인(공식/L-tike)
+- ja-freckles-japan-tour-2026-20260923 — 青山月見ル君想フ 9/23 정상(Peatix/BIG ROMANTIC)
+- ja-number-i-rebon-20260923 — 싱글 9/23 발매 진행(타워/HMV/Mikiki)
+- ja-abc-z-the-way-of-love-20260930 — 앨범 9/30 발매 진행(CDJournal/음악나탈리), 선행 배급 「三茶のシスター」 9/23
+- B-2(approx 임박): 해당 없음(8건 모두 approx=false)
+- B-3 링크: 예매·공식 링크는 provenance/로봇 차단으로 일부 직접 열지 못했으나 검색으로 판매·개최 진행 확인 → 재확인 원칙대로 죽은 링크로 단정하지 않고 유지
+
+**남은 것**: 트랙 A 상한 여유 있었음(17/20). A-4 music_release 시제(ja-befirst-bruce-wayne·ja-boynextdoor-boom-boom-boom·ja-ikimonogakari-sayonara-lara·ja-ryokushaka-atamago 등 "リリースする"류)는 우선순위가 낮아 다음 회차로 이월.
+**리서처 참고(추가·수정 안 함)**:
+- ja-rock-in-japan-2026-20260912: 실제 5일 개최(9/12·13·19·20·21, 총 115組)인데 `festival_days`가 비어 있어 코드가 release_date(9/12) 기준으로 **이미 종료**로 판단 → 9/19~21 잔여 일정이 "예정"에서 빠지고 offers/sitemap도 종료 처리됨. 일자별 라인업 채우기는 리서처 몫이라 손대지 않음(감사자가 라인업을 지어내는 건 금지). **시급한 데이터 정합성 이슈로 플래그**.
+- ja-ultra-japan-2026-20260919: 2일 개최(9/19·20)인데 `festival_days: null`. 아직 예정이라 종료 오판은 없으나 9/20 이후 같은 문제 발생 소지 — 라인업 등록 권장.
 
 ---
 
