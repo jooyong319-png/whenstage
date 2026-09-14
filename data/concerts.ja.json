@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-12",
+  "last_updated": "2026-09-14",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -1228,7 +1228,7 @@
       ],
       "developer": "福山雅治",
       "publisher": "アミューズ",
-      "description": "福山雅治が新作アルバム『超新星』を携えて開催するドームツアー『NISSAY PRESENTS WE'RE BROS. TOUR 2026 DOME LIVE 龍、涼風至』。2026年8月5日・6日に東京ドーム、8月22日・23日に京セラドーム大阪で計4公演が行われる。全席指定・スマートフォンでの電子チケット発券のみで、ファンクラブ「BROS.」「BROS.+」向け先行受付を経て、現在も一部会場で先行受付が続いている。",
+      "description": "福山雅治が新作アルバム『超新星』を携えて開催するドームツアー『NISSAY PRESENTS WE'RE BROS. TOUR 2026 DOME LIVE 龍、涼風至』。2026年8月5日・6日に東京ドーム、8月22日・23日に京セラドーム大阪で計4公演が行われた。全席指定・スマートフォンでの電子チケット発券のみで、ファンクラブ「BROS.」「BROS.+」向け先行受付を経てチケットが販売された。",
       "genres": [
         "J-POP",
         "ドームツアー"
@@ -1236,9 +1236,9 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Fukuyama_Masaharu_in_Taipei%2C_2013_cropped.jpg/250px-Fukuyama_Masaharu_in_Taipei%2C_2013_cropped.jpg",
       "source_url": "https://fmsp.amob.jp/mob/news/news_show.php?site=F&ima=1201&aff=ROBO004&cd=12938",
       "presale": false,
-      "presale_datetime": "2026-04-09T12:00:00+09:00",
+      "presale_datetime": null,
       "presale_end_datetime": null,
-      "presale_url": "https://eplus.jp/sf/detail/0018730001"
+      "presale_url": null
     },
     {
       "id": "ja-spitz-mishiranu-ito-20260807",
@@ -1354,8 +1354,8 @@
       ],
       "presale": false,
       "general_sale": false,
-      "general_sale_datetime": "2026-07-04T10:00:00+09:00",
-      "general_sale_url": "https://eplus.jp/davidbyrne/"
+      "general_sale_datetime": null,
+      "general_sale_url": null
     },
     {
       "release_time": "19:00",
@@ -1382,8 +1382,8 @@
       ],
       "presale": false,
       "general_sale": false,
-      "general_sale_datetime": "2026-07-11T10:00:00+09:00",
-      "general_sale_url": "https://eplus.jp/hollyhumberstone/"
+      "general_sale_datetime": null,
+      "general_sale_url": null
     },
     {
       "release_time": "19:00",
@@ -1449,7 +1449,7 @@
       ],
       "developer": null,
       "publisher": "クリエイティブマンプロダクション",
-      "description": "2000年に始まった都市型音楽フェスティバルの25周年エディション。2026年は東京(ZOZOマリンスタジアム＆幕張メッセ)と大阪(万博記念公園)で8月14日から16日までの3日間開催される。東京会場にはTHE STROKES、DAVID BYRNE、L'Arc-en-Ciel、JAMIROQUAI、BABYMETALら国内外の豪華アーティストが日替わりで登場。3日間通し券はすでに完売しており、各日券の一般発売が進行中となっている。",
+      "description": "2000年に始まった都市型音楽フェスティバルの25周年エディション。2026年は東京(ZOZOマリンスタジアム＆幕張メッセ)と大阪(万博記念公園)で8月14日から16日までの3日間開催された。東京会場にはTHE STROKES、DAVID BYRNE、L'Arc-en-Ciel、JAMIROQUAI、BABYMETALら国内外の豪華アーティストが日替わりで登場。3日間通し券は完売し、各日券の一般発売も行われた。",
       "genres": [
         "フェスティバル",
         "複数アーティスト",
@@ -1459,9 +1459,9 @@
       "image_url": "https://cdn.l-tike.com/concert/summersonic/img2026/ogp01.jpg",
       "source_url": "https://www.summersonic.com/news/2026-03-13-19870/",
       "general_sale": false,
-      "general_sale_datetime": "2026-05-30T10:00:00+09:00",
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://l-tike.com/concert/summersonic/",
+      "general_sale_url": null,
       "festival_days": [
         {
           "date": "2026-08-14",
@@ -1510,7 +1510,7 @@
       ],
       "developer": null,
       "publisher": "オフィスオーガスタ",
-      "description": "オフィスオーガスタが主催する夏の恒例ライブイベント〈Augusta Camp〉が、2026年8月15日に神奈川・ぴあアリーナMMで開催される。今年のテーマは「秦 基博＆長澤知之デビュー20周年」で、両者に加えて杏子、山崎まさよし、岡本定義（COIL）、あらきゆうこ、元ちとせ、スキマスイッチ、さかいゆう、松室政哉、ルイ、大東まみの計12組が出演する。前日8月14日には同会場で前夜祭も行われ、本編は8月29日にU-NEXTで独占ライブ配信される。",
+      "description": "オフィスオーガスタが主催する夏の恒例ライブイベント〈Augusta Camp〉が、2026年8月15日に神奈川・ぴあアリーナMMで開催された。今年のテーマは「秦 基博＆長澤知之デビュー20周年」で、両者に加えて杏子、山崎まさよし、岡本定義（COIL）、あらきゆうこ、元ちとせ、スキマスイッチ、さかいゆう、松室政哉、ルイ、大東まみの計12組が出演した。前日8月14日には同会場で前夜祭も行われ、本編は8月29日にU-NEXTで独占ライブ配信された。",
       "genres": [
         "フェスティバル",
         "J-POP",
@@ -1637,8 +1637,8 @@
       "last_updated": "2026-08-19",
       "last_researched_by": "ja-researcher",
       "general_sale": false,
-      "general_sale_datetime": "2026-07-11T10:00:00+09:00",
-      "general_sale_url": "https://l-tike.com/concert/mevent/?mid=396724"
+      "general_sale_datetime": null,
+      "general_sale_url": null
     },
     {
       "id": "ja-abc-z-connection-vol2-20260819",
@@ -1654,7 +1654,7 @@
       ],
       "developer": "A.B.C-Z",
       "publisher": null,
-      "description": "A.B.C-Zが自ら企画するツーマン・ライヴ・フェスの第2弾。8月19日の大阪国際会議場 グランキューブ大阪、8月29日・30日のパシフィコ横浜 国立大ホールの計3公演で、日替わりゲストを迎えて共演する。ゲストは大阪公演がZiDol、横浜初日が新浜レオン、最終日が大黒摩季。秋から始まるワンマン・ツアーに先立つ夏の自主企画で、先着一般販売は8月1日12時にスタートする。",
+      "description": "A.B.C-Zが自ら企画するツーマン・ライヴ・フェスの第2弾。8月19日の大阪国際会議場 グランキューブ大阪、8月29日・30日のパシフィコ横浜 国立大ホールの計3公演で、日替わりゲストを迎えて共演する。ゲストは大阪公演がZiDol、横浜初日が新浜レオン、最終日が大黒摩季。秋から始まるワンマン・ツアーに先立つ夏の自主企画で、先着一般販売は8月1日12時にスタートした。",
       "genres": [
         "J-POP",
         "アイドル"
@@ -1716,7 +1716,7 @@
       ],
       "developer": "SUPER JUNIOR-RYEOWOOK",
       "publisher": "SMTOWN OFFICIAL JAPAN",
-      "description": "SUPER JUNIORのメインボーカルであるRYEOWOOKによる、4年ぶりとなる単独来日公演。「SUPER JUNIOR-RYEOWOOK Special Live 2026 〜紺碧〜」として、2026年8月19日・20日の2日間、東京・LINE CUBE SHIBUYAで全3公演が行われる。これまで春・秋・冬をテーマに開催してきたスペシャルライブシリーズの完結編として「夏」を描くステージとなる。ファンクラブ先行を経て、7月18日から一般発売が行われている。",
+      "description": "SUPER JUNIORのメインボーカルであるRYEOWOOKによる、4年ぶりとなる単独来日公演。「SUPER JUNIOR-RYEOWOOK Special Live 2026 〜紺碧〜」として、2026年8月19日・20日の2日間、東京・LINE CUBE SHIBUYAで全3公演が行われた。これまで春・秋・冬をテーマに開催してきたスペシャルライブシリーズの完結編として「夏」を描くステージとなった。ファンクラブ先行を経て、7月18日から一般発売が行われた。",
       "genres": [
         "来日",
         "K-POP"
@@ -1724,13 +1724,13 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/190709_%EC%8A%88%ED%8D%BC%EC%A3%BC%EB%8B%88%EC%96%B4_%EB%A0%A4%EC%9A%B1_%282%29.jpg/250px-190709_%EC%8A%88%ED%8D%BC%EC%A3%BC%EB%8B%88%EC%96%B4_%EB%A0%A4%EC%9A%B1_%282%29.jpg",
       "source_url": "https://superjunior-jp.net/en/news/detail.php?id=1133791",
       "general_sale": false,
-      "general_sale_datetime": "2026-07-18T10:00:00+09:00",
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://eplus.jp/sf/word/0000075063",
+      "general_sale_url": null,
       "presale": false,
-      "presale_datetime": "2026-06-01T17:00:00+09:00",
-      "presale_end_datetime": "2026-06-08T23:59:00+09:00",
-      "presale_url": "https://superjunior-jp.net/en/news/detail.php?id=1133791",
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
       "last_updated": "2026-08-22",
       "last_researched_by": "ja-researcher"
     },
@@ -1758,8 +1758,8 @@
       "last_researched_by": "ja-researcher",
       "presale": false,
       "general_sale": false,
-      "general_sale_datetime": "2026-07-25T13:00:00+09:00",
-      "general_sale_url": "https://l-tike.com/boynextdoor/"
+      "general_sale_datetime": null,
+      "general_sale_url": null
     },
     {
       "id": "ja-ko1keyz-1st-fanmeeting-20260821",
@@ -1774,7 +1774,7 @@
       ],
       "developer": "KO1KEYZ",
       "publisher": null,
-      "description": "オーディション番組「PRODUCE 101 JAPAN 新世界」から誕生したグローバルボーイズグループKO1KEYZ初のファンミーティング。2026年8月21日から23日にかけて東京・TOYOTA ARENA TOKYOで、9月9日・10日には兵庫・神戸ワールド記念ホールで開催される。応募多数を受けて追加公演が決定し、複数の日程が昼夜2部制で行われる。デビュー間もないグループがファンと初めて対面する記念すべき機会となる。",
+      "description": "オーディション番組「PRODUCE 101 JAPAN 新世界」から誕生したグローバルボーイズグループKO1KEYZ初のファンミーティング。2026年8月21日から23日にかけて東京・TOYOTA ARENA TOKYOで、9月9日・10日には兵庫・神戸ワールド記念ホールで開催された。応募多数を受けて追加公演が決定し、複数の日程が昼夜2部制で行われた。デビュー間もないグループがファンと初めて対面する記念すべき機会となった。",
       "genres": [
         "ファンミーティング",
         "K-POP"
@@ -1842,7 +1842,7 @@
       ],
       "developer": "THE SPELLBOUND×BOOM BOOM SATELLITES",
       "publisher": null,
-      "description": "BOOM BOOM SATELLITESの川島道行の誕生日にあたる8月24日、新宿・歌舞伎町のシネシティ広場で開催される入場無料の野外ライブ。川島の十周忌にあたる2026年に中野雅之と小林祐介（THE NOVEMBERS）がBOOM BOOM SATELLITES名義を復活させたプロジェクトの一環で、9月2日に配信される約10年ぶりの新曲「Brand New Drive」が初披露される予定。開場18:00／開演19:00、待機エリアの開放は17:00から。",
+      "description": "BOOM BOOM SATELLITESの川島道行の誕生日にあたる8月24日、新宿・歌舞伎町のシネシティ広場で開催される入場無料の野外ライブ。川島の十周忌にあたる2026年に中野雅之と小林祐介（THE NOVEMBERS）がBOOM BOOM SATELLITES名義を復活させたプロジェクトの一環で、9月2日に配信された約10年ぶりの新曲「Brand New Drive」が初披露された。開場18:00／開演19:00、待機エリアの開放は17:00から。",
       "genres": [
         "ロック",
         "エレクトロニック",
@@ -1866,7 +1866,7 @@
       ],
       "developer": "Number_i",
       "publisher": null,
-      "description": "Number_iが、グループ初のファンミーティング「Numbers Ur'26」の東京公演を、東京・TOYOTA ARENA TOKYOで開催する。東京公演は8月25日・26日・27日の3日間で計5回。7月21日・22日の大阪城ホール公演に続く日程で、ファンクラブ「iLYs」会員限定、顔認証入場のため来場者全員の事前の顔写真登録が必要となる。移籍第1弾シングルのリリースを控えた夏の重要イベントとして注目を集めている。",
+      "description": "Number_iが、グループ初のファンミーティング「Numbers Ur'26」の東京公演を、東京・TOYOTA ARENA TOKYOで開催した。東京公演は8月25日・26日・27日の3日間で計5回。7月21日・22日の大阪城ホール公演に続く日程で、ファンクラブ「iLYs」会員限定、顔認証入場のため来場者全員の事前の顔写真登録が必要となる。移籍第1弾シングルのリリースを控えた夏の重要イベントとして注目を集めた。",
       "genres": [
         "J-POP",
         "ファンミーティング"
@@ -1976,7 +1976,7 @@
       ],
       "developer": "JAURIM（紫雨林）",
       "publisher": null,
-      "description": "韓国を代表するロックバンドJAURIM（紫雨林）が、2年連続となる日本単独公演『JAURIM CONCERT in JAPAN 2026 〜LIFE! X TOKYO〜』を2026年8月29日、東京・Veats Shibuyaで開催する。昼夜2回公演で、これまでの代表曲に加えて最新作からの楽曲も日本で初めて披露する予定。チケットはぴあ最速先行(抽選)などの先行受付を経て販売されている。",
+      "description": "韓国を代表するロックバンドJAURIM（紫雨林）が、2年連続となる日本単独公演『JAURIM CONCERT in JAPAN 2026 〜LIFE! X TOKYO〜』を2026年8月29日、東京・Veats Shibuyaで開催した。昼夜2回公演で、これまでの代表曲に加えて最新作からの楽曲も日本で初めて披露した。チケットはぴあ最速先行(抽選)などの先行受付を経て販売されている。",
       "genres": [
         "来日",
         "ロック"
@@ -2032,9 +2032,9 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/FLO_at_the_FLO_Live_Tour_in_Manchester.jpg/250px-FLO_at_the_FLO_Live_Tour_in_Manchester.jpg",
       "source_url": "https://www.universal-music.co.jp/flo/news/2026-06-24/",
       "general_sale": false,
-      "general_sale_datetime": "2026-07-18T10:00:00+09:00",
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://eplus.jp/flo/",
+      "general_sale_url": null,
       "last_updated": "2026-09-02",
       "last_researched_by": "ja-researcher"
     },
@@ -2051,7 +2051,7 @@
       ],
       "developer": "JOURNEY",
       "publisher": "ウドー音楽事務所",
-      "description": "「Don't Stop Believin'」などで知られるアメリカのロックバンドJOURNEYの単独来日公演。「FINAL FRONTIER TOUR」の日本公演として、2026年9月1日に東京・有明アリーナで開催される。今回は東京公演のみの予定で、バンドの日本での歩みの集大成となるフル・コンサートが期待される。チケットは7月25日10時から一般発売が始まる。",
+      "description": "「Don't Stop Believin'」などで知られるアメリカのロックバンドJOURNEYの単独来日公演。「FINAL FRONTIER TOUR」の日本公演として、2026年9月1日に東京・有明アリーナで開催された。今回は東京公演のみで、バンドの日本での歩みの集大成となるフル・コンサートとなった。チケットは7月25日10時から一般発売が行われた。",
       "genres": [
         "来日",
         "ロック"
@@ -2059,13 +2059,13 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Journey_publicity_photo_2013.jpg/250px-Journey_publicity_photo_2013.jpg",
       "source_url": "https://www.udo.jp/shows/Journey26",
       "general_sale": false,
-      "general_sale_datetime": "2026-07-25T10:00:00+09:00",
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://www.udo.jp/shows/Journey26",
+      "general_sale_url": null,
       "presale": false,
-      "presale_datetime": "2026-07-06T12:00:00+09:00",
-      "presale_end_datetime": "2026-07-24T18:00:00+09:00",
-      "presale_url": "https://www.udo.jp/shows/Journey26",
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
       "last_updated": "2026-09-02",
       "last_researched_by": "ja-researcher"
     },
@@ -2241,7 +2241,7 @@
       ],
       "developer": "TREASURE",
       "publisher": "YGEX",
-      "description": "YGエンターテインメント所属のボーイズグループTREASUREによる来日公演。2026年9月5日・6日の2日間、東京・有明アリーナで開催される。ファンクラブ先行やオフィシャル先行など各種チケット販売はすでに終了しており、当日は電子チケットアプリ「AnyPASS」を通じて入場する方式が採られる。日本のファンと直接向き合う大規模なアリーナ公演として期待が高まっている。",
+      "description": "YGエンターテインメント所属のボーイズグループTREASUREによる来日公演。2026年9月5日・6日の2日間、東京・有明アリーナで開催された。ファンクラブ先行やオフィシャル先行など各種チケット販売はすでに終了しており、当日は電子チケットアプリ「AnyPASS」を通じて入場する方式が採られる。日本のファンと直接向き合う大規模なアリーナ公演となった。",
       "genres": [
         "来日",
         "K-POP"
@@ -2373,7 +2373,7 @@
         "大阪城ホール"
       ],
       "developer": "サカナクション",
-      "description": "アリーナ・ツアー〈SAKANAQUARIUM 2026-2027 “透明”〉の大阪公演初日。9月12日に大阪城ホールで開場17:00・開演18:00、翌13日は開場16:00・開演17:00の2days で行われる。日本武道館に続く2会場目で、大阪公演の企画制作はグリーンズが担当する。バンド独自の音響システムを発展させた「speaker+C」により、会場のどの席でも音の輪郭が届く設計が図られている。2026年公演分のチケットはすでに完売している。",
+      "description": "アリーナ・ツアー〈SAKANAQUARIUM 2026-2027 “透明”〉の大阪公演初日。9月12日に大阪城ホールで開場17:00・開演18:00、翌13日は開場16:00・開演17:00の2days で行われた。日本武道館に続く2会場目で、大阪公演の企画制作はグリーンズが担当する。バンド独自の音響システムを発展させた「speaker+C」により、会場のどの席でも音の輪郭が届く設計が図られている。2026年公演分のチケットはすでに完売している。",
       "genres": [
         "J-ROCK",
         "アリーナツアー"
@@ -2399,6 +2399,7 @@
         "シンフォニックメタル"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Epica%2C_3-Maj%C3%B3wka_2022_96.jpg/330px-Epica%2C_3-Maj%C3%B3wka_2022_96.jpg",
+      "last_updated": "2026-09-14",
       "source_url": "https://www.epica.nl/tour/",
       "general_sale": true,
       "general_sale_datetime": "2025-12-06T10:00:00+09:00",
@@ -2424,6 +2425,7 @@
         "アルバム"
       ],
       "image_url": null,
+      "last_updated": "2026-09-14",
       "source_url": "https://www.universal-music.co.jp/ckb/news/2026-07-01/"
     },
     {
@@ -2514,6 +2516,7 @@
         "韓国"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/180212_%EC%A7%80%EC%84%B1.png/250px-180212_%EC%A7%80%EC%84%B1.png",
+      "last_updated": "2026-09-14",
       "source_url": "https://ticketplus.co.jp/news/detail/968",
       "presale": false,
       "presale_datetime": "2026-07-13T10:00:00+09:00",
@@ -2622,6 +2625,7 @@
         "ポップ"
       ],
       "image_url": "https://img.hmv.co.jp/hybridimage/eventpage/394438/main.webp?20260626104229",
+      "last_updated": "2026-09-14",
       "source_url": "https://www.universal-music.co.jp/the-weeknd/news/2026-05-13/",
       "general_sale": true,
       "general_sale_datetime": null,
@@ -2648,6 +2652,7 @@
         "ダンスミュージック"
       ],
       "image_url": null,
+      "last_updated": "2026-09-14",
       "source_url": "https://ultrajapan.com/",
       "festival_days": null
     },
@@ -2761,6 +2766,7 @@
       "developer": "雀斑 Freckles",
       "publisher": "BIG ROMANTIC ENTERTAINMENT",
       "image_url": null,
+      "last_updated": "2026-09-14",
       "source_url": "https://www.cdjournal.com/news/-/128465",
       "genres": [
         "インディーポップ",
@@ -2818,6 +2824,7 @@
         "J-POP"
       ],
       "image_url": null,
+      "last_updated": "2026-09-14",
       "source_url": "https://mikiki.tokyo.jp/articles/-/45580"
     },
     {
@@ -3015,6 +3022,7 @@
         "アルバム"
       ],
       "image_url": null,
+      "last_updated": "2026-09-14",
       "source_url": "https://www.cdjournal.com/news/abc-z/128426"
     },
     {
