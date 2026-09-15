@@ -1,3 +1,79 @@
+## [2026-09-15 09:30] [EN 리서처]
+리서치 완료 (영어권/글로벌 시장 공연)
+- 콘서트/투어 9→8, 발매 3→1, 페스티벌 3→0, 팬미팅 0→0 (후보→통과)
+- 신규 20개(예정 12 + 백필 8) / 갱신 5개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리: `data/leads.en.jsonl` 134건 전수 대조 → 미등재 리드 20건 중 5건 등재(Harry Styles 2027 / Beirut 2027 북미 / Radiohead 2027 호주 / Trans-Siberian Orchestra 겨울 2026 / Slipknot 'Arsenal'). 나머지 15건은 아래 검증 탈락·보류 참고. leads 파일은 append-only이므로 수정·삭제하지 않음
+- 과거 백필 8개 → **공연장 색인전환 6개**(AO Arena Manchester 1→3, OVO Hydro Glasgow 1→3, First Direct Arena Leeds 1→2, Utilita Arena Birmingham 1→2, Utilita Arena Cardiff 1→2, Brighton Centre 1→2) / 기존 공연장 보강 0개
+- 티켓팅 진행중 +7 (Harry Styles 2027 3건: 선예매 9/15·일반 9/16 / TSO 3건: 일반 9/18 / Beirut 1건: 일반 9/11 진행 중) / 해제 -5 (BIGBANG·Charli xcx·Garth Brooks·Melanie Martinez·Phoebe Bridgers — 공연일 경과)
+- description 보강 0개 (영어 40단어 미만 항목 0건 유지)
+- 총 등록 301개 (`npm run validate` 3파일 전체 통과)
+
+[백필 설계 — EN 공연장 noindex 구조를 정면으로 겨냥]
+직전 사이클에 The Darkness 12월 UK 아레나 투어를 도시별로 등재하면서 **1건짜리 공연장 6곳**(AO Arena,
+OVO Hydro, First Direct Arena, Utilita Birmingham, Utilita Cardiff, Brighton Centre)이 한꺼번에 생겼다.
+AGENTS.md §7이 경고한 "같은 투어의 다른 도시" 함정이 실제로 발생한 상태였다. 이번 백필은 그 6곳에
+**다른 아티스트의 과거 공연**을 붙이는 것만으로 설계했다.
+- Ghost `Skeletour` 유럽 첫 레그 3건 (2025-04-15 Manchester / 04-16 Glasgow / 04-20 Birmingham)
+  — 출처: 영문 위키백과 Skeletour 투어 일정 표 + 기존 등재분 `en-ghost-skeletour-houston-20250816`과 동일 투어
+- Bryan Adams `Roll With The Punches` UK 5건 (2025-05-09 Manchester / 05-10 Leeds / 05-13 Glasgow /
+  2025-12-09 Cardiff / 12-10 Brighton) — 공식 사이트 투어 페이지 + Official Charts + setlist.fm/현지 리뷰 교차 확인
+- 결과: **en 공연장 noindex 10곳 → 7곳**, 색인 대상 87→93곳. 백필 8건 전부 기존 1건짜리 공연장에 들어가
+  새 1건짜리 공연장을 하나도 만들지 않았다.
+
+[신규 — 예정 공연 12건]
+- Harry Styles MSG 30일 레지던시(2026-08-26~10-31) — MSG Entertainment 공식 + Ticketmaster Blog + TimeOut 일치.
+  미국 내 유일 스톱, Jamie xx 서포트. 초회 판매 전석 매진이라 티켓팅 플래그 false. **Madison Square Garden 4→5건.**
+- Harry Styles `Together, Together` 2027 스타디움 3건 — Arlington AT&T Stadium(4/9, CA7RIEL & Paco Amoroso),
+  Pasadena Rose Bowl(4/23, Kylie Minogue), Atlanta Mercedes-Benz(5/21). Ticketmaster Blog(9/10 게시) + Billboard +
+  Variety + AT&T Stadium 공식 일치. **일반예매 9/16 09:00 현지시각**(도시별 오프셋 각각 적용), 선예매 9/15 09:00.
+  프로모터 Live Nation 확인(livenation.com 전용 페이지·아티스트 선예매 등록처) → `publisher` 채움.
+  AT&T Stadium 3→4, Mercedes-Benz 2→3.
+- Beirut 2027 북미 투어 Brooklyn Steel(4/2) — Consequence + Readdork + JamBase + Oh My Rockness 일치.
+  2019년 이후 첫 북미 투어. 일반예매 9/11 개시(진행 중). **Brooklyn Steel 2→3.**
+- Radiohead 호주 2027 3건 — Perth RAC Arena(5/3, 4회), Melbourne Rod Laver(5/13, 6회), Sydney Afterpay Arena(5/25, 6회).
+  Billboard + NME + The Note + Rod Laver Arena 공식 일치. 15년 만의 호주 투어. 공식 사이트 등록 추첨제라
+  일반 티켓 오픈이 없어 티켓팅 플래그 전부 false. **RAC Arena 2→3.**
+  ⚠️ 같은 발표에 포함된 **일본 사이타마 GMO 아레나 5회(2027-06)는 JA 리서처 영역**이라 등재하지 않았다.
+- Trans-Siberian Orchestra `The Ghosts of Christmas Eve` 30주년 3건 — Denver Ball Arena(11/21),
+  Pittsburgh PPG Paints(12/19), Philadelphia Xfinity Mobile(12/20). TicketNews 전체 일정표 +
+  UltimateClassicRock + Consequence 일치. 동/서부 2개 troupe 동시 운영, 1일 2회 공연이라
+  `release_time`은 마티네 기준. 일반예매 9/18 10:00 현지시각. Ball Arena 3→4, PPG Paints 2→3, Xfinity Mobile 4→5.
+- Slipknot 싱글 'Arsenal'(9/9) — Rolling Stone + Blabbermouth + Kerrang! + Revolver 일치.
+  3년 만의 신곡, Sid Wilson·Craig Jones 이탈 후 첫 결과물이자 자체 레이블 (sic)est Records 첫 발매 →
+  `publisher`에 반영. 앨범 발매일은 미발표라 등재하지 않음.
+
+[갱신 5건]
+- 공연일이 지났는데 `general_sale: true`로 남아 캘린더 "예정"에 잘못 노출될 수 있던 5건 일괄 false 처리:
+  BIGBANG(9/11) · Charli xcx(9/11) · Garth Brooks(9/11) · Melanie Martinez(9/11) · Phoebe Bridgers(9/14)
+
+[검증 탈락 / 보류]
+- TOMORROW X TOGETHER `STEAL THE WIND` 북미 7개 도시(2027-05): 도시만 공지되고 **공연장이 전부 TBD**다
+  (TicketNews·JamBase·Consequence 모두 동일). Tacoma는 Tacoma Dome, Belmont Park는 UBS Arena로 추정되지만
+  추정으로 `platforms[0]`(공연장 페이지 키)을 채우면 안 되므로 미등재. 공연장 발표 시 두 곳 모두
+  기존 등재 공연장(Tacoma Dome 2건 / UBS Arena 5건)이라 등재 가치가 크다 — **다음 사이클 최우선 재확인 대상.**
+- Tame Impala 2027 UK·유럽 투어(Wet Leg 동행): London O2·Manchester Co-op Live는 이미 등재돼 있고,
+  이번 리드의 새 정보는 서포트 아티스트뿐이다. `developer` 병기 갱신은 서포트 라인업 독립 출처 2개를
+  확보하지 못해 이번 사이클 보류.
+- DOLLYFEST(2027) / Big Thief 'Horsepower' / Billy Strings 겨울 2027 / Jessie Reyez / Bachman-Turner Overdrive /
+  Corrosion of Conformity & The Sword / Stella Lefty / Triumph: 전부 **날짜·공연장이 "2027년 겨울" 수준으로만**
+  공지돼 approx placeholder 외에는 쓸 정보가 없다. 특정일 지어내기 금지 원칙에 따라 미등재 — 일정 확정 후 재검토.
+- 70,000 Tons Of Metal 2027(1/14~18): Royal Caribbean 선상 페스티벌이라 물리적 `platforms` 공연장이 없고
+  마이애미 출항→도미니카 기항 형태다. 현재 스키마로 등재 형태 판단이 어려워 보류.
+- Rock al Parque 2026(보고타, 10/10~12): 콜롬비아 개최 스페인어권 무료 페스티벌로 영어권 시장 적합성이 낮다고 판단 — 미등재.
+- AC/DC Toronto Rogers Stadium(9/16): 리드 원문이 **경기장 폭풍 피해** 기사라 개최 여부 자체가 확정되지
+  않았다. 내일 공연이라 시의성은 높지만 "열린다/취소됐다" 어느 쪽도 독립 출처 2개로 확정하지 못해 미등재.
+- Daisy Chain Fields Festival(2026-08-29, Olivia Rodrigo 큐레이션): 이미 끝난 1회성 행사이고 등재 시
+  1건짜리 공연장이 새로 생겨 순 손실이라 백필 대상에서 제외.
+
+[다음 사이클 메모]
+- TXT 북미 공연장 발표 확인(위 참고). Tacoma Dome·UBS Arena 보강 기회.
+- 남은 1건짜리 공연장 7곳: Afterpay Arena Sydney · Rod Laver Arena Melbourne · Rose Bowl Pasadena(이번에 신규 생성,
+  예정 공연 트랙이라 불가피) / MediaCity Salford · PH Live Las Vegas · Santa Monica Beach · Victoria Park Warrington.
+  Rose Bowl·Rod Laver·Afterpay는 상시 공연이 많은 대형 회장이라 다음 백필에서 쉽게 2건으로 만들 수 있다.
+- 위키미디어 커먼즈 썸네일이 **임의 픽셀 폭을 거부**하도록 바뀌었다(400 "Use thumbnail sizes listed on w.wiki/GHai").
+  600px·640px·320px는 거부되고 **250 / 500 / 960px는 통과**했다. 이번 이미지 5건은 전부 실제 로드해 바이트 확인.
+- `publisher`는 여전히 대부분 비어 있다. 이번엔 Live Nation 3건 + (sic)est Records 1건만 확인해 채웠다.
+
 ## [2026-09-14 14:10] [KO 브리핑]
 주간 브리핑 미작성 (한국 국내)
 - 각도: 없음 — 소재 선정 단계에 진입하지 않음
