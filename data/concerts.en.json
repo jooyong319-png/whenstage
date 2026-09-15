@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-11",
+  "last_updated": "2026-09-15",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -1407,9 +1407,9 @@
       ],
       "image_url": null,
       "source_url": "https://www.metlifestadium.com/events/detail/bigbang",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_url": "https://www.ticketmaster.com/bigbang-2026-world-tour-east-rutherford-new-jersey-09-11-2026/event/000064CFBC9CE038",
-      "last_updated": "2026-09-11",
+      "last_updated": "2026-09-15",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1435,10 +1435,10 @@
       "presale": false,
       "presale_datetime": "2026-06-12T09:00:00-04:00",
       "presale_url": "https://www.ticketmaster.com/event/300064C5A4647126",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-06-12T13:00:00-04:00",
       "general_sale_url": "https://www.ticketmaster.com/event/300064C5A4647126",
-      "last_updated": "2026-09-11",
+      "last_updated": "2026-09-15",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1485,10 +1485,11 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Phoebe_Bridgers_%2841599189180%29_%28cropped%29.jpg/250px-Phoebe_Bridgers_%2841599189180%29_%28cropped%29.jpg",
       "source_url": "https://www.gainbridgefieldhouse.com/events/detail/phoebe-bridgers",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-06-12T10:00:00-04:00",
       "general_sale_url": "https://www.ticketmaster.com/phoebe-bridgers-tickets/artist/2133305?venueId=41417&brand=fieldhouse&camefrom=CFC_FIELDHOUSE_SITE_EVENT",
-      "last_updated": "2026-09-11"
+      "last_updated": "2026-09-15",
+      "last_researched_by": "en-researcher"
     },
     {
       "id": "en-ministry-hate-to-go-farewell-red-rocks-20260915",
@@ -3631,8 +3632,8 @@
       "publisher": null,
       "image_url": null,
       "presale": false,
-      "general_sale": true,
-      "last_updated": "2026-09-11",
+      "general_sale": false,
+      "last_updated": "2026-09-15",
       "last_researched_by": "en-researcher",
       "id": "en-garth-brooks-blame-it-all-on-my-roots-rosemont-20260911",
       "name": "Garth Brooks: Blame It All On My Roots Tour - Chicago (Rosemont)",
@@ -6471,10 +6472,10 @@
       ],
       "image_url": null,
       "source_url": "https://www.theo2.co.uk/events/detail/melanie-martinez-2026",
-      "last_updated": "2026-09-11",
+      "last_updated": "2026-09-15",
       "last_researched_by": "en-researcher",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_url": "https://www.axs.com/events/1414870/melanie-martinez-tickets"
     },
     {
@@ -7643,6 +7644,526 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/MJ_Lenderman_Roundhouse_2025-08-15_14.jpg/960px-MJ_Lenderman_Roundhouse_2025-08-15_14.jpg",
       "source_url": "https://www.setlist.fm/setlist/mj-lenderman/2025/brooklyn-steel-brooklyn-ny-53501745.html",
       "last_updated": "2026-09-11",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-harry-styles-msg-residency-20260826",
+      "name": "Harry Styles: Together, Together - Madison Square Garden Residency",
+      "release_date": "2026-08-26",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Madison Square Garden, New York, NY"
+      ],
+      "developer": "Harry Styles, Jamie xx",
+      "publisher": null,
+      "description": "Harry Styles opened a 30-night residency at Madison Square Garden on August 26, 2026, playing every Wednesday, Friday and Saturday through October 31. The run is the only United States stop on his Together, Together tour and supports his fourth album, Kiss All the Time. Disco, Occasionally., which entered the Billboard 200 at number one. Jamie xx opens the shows, and the original on-sale sold out.",
+      "genres": [
+        "Pop",
+        "Rock",
+        "Residency"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg/960px-HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg",
+      "source_url": "https://www.msgentertainment.com/madison-square-garden-harry-styles-together-together-30-shows-between-august-26-october-31/",
+      "last_updated": "2026-09-15",
+      "last_researched_by": "en-researcher",
+      "presale": false,
+      "general_sale": false
+    },
+    {
+      "id": "en-harry-styles-together-together-arlington-20270409",
+      "name": "Harry Styles: Together, Together 2027 - Arlington",
+      "release_date": "2027-04-09",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Chicago",
+      "category": "concert_tour",
+      "platforms": [
+        "AT&T Stadium, Arlington, TX"
+      ],
+      "developer": "Harry Styles, CA7RIEL & Paco Amoroso",
+      "publisher": "Live Nation",
+      "description": "Harry Styles brings the stadium leg of his Together, Together tour to AT&T Stadium on 2027-04-09, one of two nights in Arlington. The 2027 run was announced on September 10, 2026 and follows his 30-night Madison Square Garden residency and Australian dates in late 2026. CA7RIEL & Paco Amoroso open the Arlington shows. General sale opens September 16, 2026 at 9am local time, with presales starting the previous day.",
+      "genres": [
+        "Pop",
+        "Rock",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg/960px-HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg",
+      "source_url": "https://blog.ticketmaster.com/harry-styles-2027-tour-dates/",
+      "last_updated": "2026-09-15",
+      "last_researched_by": "en-researcher",
+      "presale": true,
+      "presale_datetime": "2026-09-15T09:00:00-05:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-16T09:00:00-05:00",
+      "general_sale_url": "https://www.ticketmaster.com/harry-styles-tickets/artist/2366444"
+    },
+    {
+      "id": "en-harry-styles-together-together-pasadena-20270423",
+      "name": "Harry Styles: Together, Together 2027 - Pasadena",
+      "release_date": "2027-04-23",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Rose Bowl, Pasadena, CA"
+      ],
+      "developer": "Harry Styles, Kylie Minogue",
+      "publisher": "Live Nation",
+      "description": "Harry Styles brings the stadium leg of his Together, Together tour to Rose Bowl on 2027-04-23, one of two nights in Pasadena. The 2027 run was announced on September 10, 2026 and follows his 30-night Madison Square Garden residency and Australian dates in late 2026. Kylie Minogue open the Pasadena shows. General sale opens September 16, 2026 at 9am local time, with presales starting the previous day.",
+      "genres": [
+        "Pop",
+        "Rock",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg/960px-HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg",
+      "source_url": "https://blog.ticketmaster.com/harry-styles-2027-tour-dates/",
+      "last_updated": "2026-09-15",
+      "last_researched_by": "en-researcher",
+      "presale": true,
+      "presale_datetime": "2026-09-15T09:00:00-07:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-16T09:00:00-07:00",
+      "general_sale_url": "https://www.ticketmaster.com/harry-styles-tickets/artist/2366444"
+    },
+    {
+      "id": "en-harry-styles-together-together-atlanta-20270521",
+      "name": "Harry Styles: Together, Together 2027 - Atlanta",
+      "release_date": "2027-05-21",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Mercedes-Benz Stadium, Atlanta, GA"
+      ],
+      "developer": "Harry Styles",
+      "publisher": "Live Nation",
+      "description": "Harry Styles brings the stadium leg of his Together, Together tour to Mercedes-Benz Stadium on 2027-05-21, one of two nights in Atlanta. The 2027 run was announced on September 10, 2026 and follows his 30-night Madison Square Garden residency and Australian dates in late 2026. General sale opens September 16, 2026 at 9am local time, with presales starting the previous day.",
+      "genres": [
+        "Pop",
+        "Rock",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg/960px-HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg",
+      "source_url": "https://blog.ticketmaster.com/harry-styles-2027-tour-dates/",
+      "last_updated": "2026-09-15",
+      "last_researched_by": "en-researcher",
+      "presale": true,
+      "presale_datetime": "2026-09-15T09:00:00-04:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-16T09:00:00-04:00",
+      "general_sale_url": "https://www.ticketmaster.com/harry-styles-tickets/artist/2366444"
+    },
+    {
+      "id": "en-beirut-north-american-tour-brooklyn-20270402",
+      "name": "Beirut: 2027 North American Tour - Brooklyn",
+      "release_date": "2027-04-02",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Brooklyn Steel, Brooklyn, NY"
+      ],
+      "developer": "Beirut",
+      "publisher": null,
+      "description": "Zach Condon's Beirut opens his first North American tour since 2019 with two nights at Brooklyn Steel on April 2 and 3, 2027. The six-date run supports A Study of Losses, the band's seventh album, and continues to Boston, Washington DC, Chicago and Toronto. General tickets went on sale September 11, 2026 following a fan presale the day before.",
+      "genres": [
+        "Indie Folk",
+        "Indie Rock",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Beirut_2019.jpg/960px-Beirut_2019.jpg",
+      "source_url": "https://consequence.net/2026/09/beirut-2027-east-coast-tour/",
+      "last_updated": "2026-09-15",
+      "last_researched_by": "en-researcher",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-11T10:00:00-04:00",
+      "general_sale_url": "https://www.ticketmaster.com/beirut-tickets/artist/1044949"
+    },
+    {
+      "id": "en-radiohead-australia-perth-20270503",
+      "name": "Radiohead: Australia 2027 - Perth",
+      "release_date": "2027-05-03",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Australia/Perth",
+      "category": "concert_tour",
+      "platforms": [
+        "RAC Arena, Perth"
+      ],
+      "developer": "Radiohead",
+      "publisher": null,
+      "description": "Radiohead open a four-night stand at RAC Arena in Perth on 2027-05-03, part of their first Australian tour in fifteen years. The 2027 run covers Perth, Melbourne and Sydney before residencies in Japan, and follows the band's European residency shows of late 2025. Tickets were sold only through a registration ballot on the band's own site, capped at four per fan, to limit bots and resale.",
+      "genres": [
+        "Alternative Rock",
+        "Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.nme.com/news/music/radiohead-announce-long-run-of-2027-residency-shows-in-australia-and-japan-buy-tickets-3967312",
+      "last_updated": "2026-09-15",
+      "last_researched_by": "en-researcher",
+      "presale": false,
+      "general_sale": false
+    },
+    {
+      "id": "en-radiohead-australia-melbourne-20270513",
+      "name": "Radiohead: Australia 2027 - Melbourne",
+      "release_date": "2027-05-13",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Australia/Melbourne",
+      "category": "concert_tour",
+      "platforms": [
+        "Rod Laver Arena, Melbourne"
+      ],
+      "developer": "Radiohead",
+      "publisher": null,
+      "description": "Radiohead open a six-night stand at Rod Laver Arena in Melbourne on 2027-05-13, part of their first Australian tour in fifteen years. The 2027 run covers Perth, Melbourne and Sydney before residencies in Japan, and follows the band's European residency shows of late 2025. Tickets were sold only through a registration ballot on the band's own site, capped at four per fan, to limit bots and resale.",
+      "genres": [
+        "Alternative Rock",
+        "Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.nme.com/news/music/radiohead-announce-long-run-of-2027-residency-shows-in-australia-and-japan-buy-tickets-3967312",
+      "last_updated": "2026-09-15",
+      "last_researched_by": "en-researcher",
+      "presale": false,
+      "general_sale": false
+    },
+    {
+      "id": "en-radiohead-australia-sydney-20270525",
+      "name": "Radiohead: Australia 2027 - Sydney",
+      "release_date": "2027-05-25",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Australia/Sydney",
+      "category": "concert_tour",
+      "platforms": [
+        "Afterpay Arena, Sydney"
+      ],
+      "developer": "Radiohead",
+      "publisher": null,
+      "description": "Radiohead open a six-night stand at Afterpay Arena in Sydney on 2027-05-25, part of their first Australian tour in fifteen years. The 2027 run covers Perth, Melbourne and Sydney before residencies in Japan, and follows the band's European residency shows of late 2025. Tickets were sold only through a registration ballot on the band's own site, capped at four per fan, to limit bots and resale.",
+      "genres": [
+        "Alternative Rock",
+        "Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.nme.com/news/music/radiohead-announce-long-run-of-2027-residency-shows-in-australia-and-japan-buy-tickets-3967312",
+      "last_updated": "2026-09-15",
+      "last_researched_by": "en-researcher",
+      "presale": false,
+      "general_sale": false
+    },
+    {
+      "id": "en-trans-siberian-orchestra-denver-20261121",
+      "name": "Trans-Siberian Orchestra: The Ghosts of Christmas Eve - Denver",
+      "release_date": "2026-11-21",
+      "release_time": "15:00",
+      "release_date_approx": false,
+      "timezone": "America/Denver",
+      "category": "concert_tour",
+      "platforms": [
+        "Ball Arena, Denver, CO"
+      ],
+      "developer": "Trans-Siberian Orchestra",
+      "publisher": null,
+      "description": "Trans-Siberian Orchestra play two shows at Ball Arena on 2026-11-21 as part of a 30th anniversary winter run built around a restaged version of The Ghosts of Christmas Eve, followed by a second set of holiday material with lasers and pyrotechnics. The tour again splits into eastern and western casts to cover roughly fifty cities between November 19 and December 30. General sale opens September 18, 2026 at 10am local time.",
+      "genres": [
+        "Symphonic Rock",
+        "Holiday",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Trans-Siberian_Orchestra_4.jpg/960px-Trans-Siberian_Orchestra_4.jpg",
+      "source_url": "https://www.ticketnews.com/2026/09/trans-siberian-orchestra-unveils-30th-anniversary-the-ghosts-of-christmas-eve-winter-tour/",
+      "last_updated": "2026-09-15",
+      "last_researched_by": "en-researcher",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-18T10:00:00-07:00",
+      "general_sale_url": "https://www.ticketmaster.com/transsiberian-orchestra-tickets/artist/780815"
+    },
+    {
+      "id": "en-trans-siberian-orchestra-pittsburgh-20261219",
+      "name": "Trans-Siberian Orchestra: The Ghosts of Christmas Eve - Pittsburgh",
+      "release_date": "2026-12-19",
+      "release_time": "14:30",
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "PPG Paints Arena, Pittsburgh, PA"
+      ],
+      "developer": "Trans-Siberian Orchestra",
+      "publisher": null,
+      "description": "Trans-Siberian Orchestra play two shows at PPG Paints Arena on 2026-12-19 as part of a 30th anniversary winter run built around a restaged version of The Ghosts of Christmas Eve, followed by a second set of holiday material with lasers and pyrotechnics. The tour again splits into eastern and western casts to cover roughly fifty cities between November 19 and December 30. General sale opens September 18, 2026 at 10am local time.",
+      "genres": [
+        "Symphonic Rock",
+        "Holiday",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Trans-Siberian_Orchestra_4.jpg/960px-Trans-Siberian_Orchestra_4.jpg",
+      "source_url": "https://www.ticketnews.com/2026/09/trans-siberian-orchestra-unveils-30th-anniversary-the-ghosts-of-christmas-eve-winter-tour/",
+      "last_updated": "2026-09-15",
+      "last_researched_by": "en-researcher",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-18T10:00:00-04:00",
+      "general_sale_url": "https://www.ticketmaster.com/transsiberian-orchestra-tickets/artist/780815"
+    },
+    {
+      "id": "en-trans-siberian-orchestra-philadelphia-20261220",
+      "name": "Trans-Siberian Orchestra: The Ghosts of Christmas Eve - Philadelphia",
+      "release_date": "2026-12-20",
+      "release_time": "15:00",
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Xfinity Mobile Arena, Philadelphia, PA"
+      ],
+      "developer": "Trans-Siberian Orchestra",
+      "publisher": null,
+      "description": "Trans-Siberian Orchestra play two shows at Xfinity Mobile Arena on 2026-12-20 as part of a 30th anniversary winter run built around a restaged version of The Ghosts of Christmas Eve, followed by a second set of holiday material with lasers and pyrotechnics. The tour again splits into eastern and western casts to cover roughly fifty cities between November 19 and December 30. General sale opens September 18, 2026 at 10am local time.",
+      "genres": [
+        "Symphonic Rock",
+        "Holiday",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Trans-Siberian_Orchestra_4.jpg/960px-Trans-Siberian_Orchestra_4.jpg",
+      "source_url": "https://www.ticketnews.com/2026/09/trans-siberian-orchestra-unveils-30th-anniversary-the-ghosts-of-christmas-eve-winter-tour/",
+      "last_updated": "2026-09-15",
+      "last_researched_by": "en-researcher",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-18T10:00:00-04:00",
+      "general_sale_url": "https://www.ticketmaster.com/transsiberian-orchestra-tickets/artist/780815"
+    },
+    {
+      "id": "en-slipknot-arsenal-20260909",
+      "name": "Slipknot - Arsenal",
+      "release_date": "2026-09-09",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Chicago",
+      "category": "music_release",
+      "platforms": [
+        "Streaming",
+        "Digital"
+      ],
+      "developer": "Slipknot",
+      "publisher": "(sic)est Records",
+      "description": "Slipknot surprise-released the single Arsenal on September 9, 2026, their first new music in more than three years and the first since the departures of Sid Wilson and Craig Jones. It premiered on BBC Radio 1 and arrived with a video directed by M. Shawn Crahan. The track is also the band's first release on their own (sic)est Records imprint after the end of their Roadrunner deal. No album date has been announced.",
+      "genres": [
+        "Metal",
+        "Nu Metal",
+        "Single"
+      ],
+      "image_url": null,
+      "source_url": "https://www.rollingstone.com/music/music-news/slipknot-new-song-arsenal-1235623937/",
+      "last_updated": "2026-09-15",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-ghost-skeletour-manchester-20250415",
+      "name": "Ghost: Skeletour 2025 - Manchester",
+      "release_date": "2025-04-15",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "AO Arena, Manchester, England"
+      ],
+      "developer": "Ghost",
+      "publisher": null,
+      "description": "Ghost played AO Arena in Manchester on 2025-04-15 during the European opening leg of Skeletour, the tour behind their sixth album Skeletá. The Manchester date was the tour's opening night. The band enforced a phone-free policy, with audiences locking devices into Yondr pouches for the duration. The run later crossed North America and closed in Inglewood, California in February 2026 after 73 shows.",
+      "genres": [
+        "Metal",
+        "Hard Rock",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/2023_Sweden_Rock_-_4309_%2853048871172%29.jpg/500px-2023_Sweden_Rock_-_4309_%2853048871172%29.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Skeletour",
+      "last_updated": "2026-09-15",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-ghost-skeletour-glasgow-20250416",
+      "name": "Ghost: Skeletour 2025 - Glasgow",
+      "release_date": "2025-04-16",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "OVO Hydro, Glasgow"
+      ],
+      "developer": "Ghost",
+      "publisher": null,
+      "description": "Ghost played OVO Hydro in Glasgow on 2025-04-16 during the European opening leg of Skeletour, the tour behind their sixth album Skeletá. The band enforced a phone-free policy, with audiences locking devices into Yondr pouches for the duration. The run later crossed North America and closed in Inglewood, California in February 2026 after 73 shows.",
+      "genres": [
+        "Metal",
+        "Hard Rock",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/2023_Sweden_Rock_-_4309_%2853048871172%29.jpg/500px-2023_Sweden_Rock_-_4309_%2853048871172%29.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Skeletour",
+      "last_updated": "2026-09-15",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-ghost-skeletour-birmingham-20250420",
+      "name": "Ghost: Skeletour 2025 - Birmingham",
+      "release_date": "2025-04-20",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Utilita Arena Birmingham, Birmingham, England"
+      ],
+      "developer": "Ghost",
+      "publisher": null,
+      "description": "Ghost played Utilita Arena Birmingham in Birmingham on 2025-04-20 during the European opening leg of Skeletour, the tour behind their sixth album Skeletá. The band enforced a phone-free policy, with audiences locking devices into Yondr pouches for the duration. The run later crossed North America and closed in Inglewood, California in February 2026 after 73 shows.",
+      "genres": [
+        "Metal",
+        "Hard Rock",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/2023_Sweden_Rock_-_4309_%2853048871172%29.jpg/500px-2023_Sweden_Rock_-_4309_%2853048871172%29.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Skeletour",
+      "last_updated": "2026-09-15",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-bryan-adams-roll-with-the-punches-manchester-20250509",
+      "name": "Bryan Adams: Roll With The Punches - Manchester",
+      "release_date": "2025-05-09",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "AO Arena, Manchester, England"
+      ],
+      "developer": "Bryan Adams",
+      "publisher": null,
+      "description": "Bryan Adams played AO Arena in Manchester on 2025-05-09, part of the twelve-date UK and Ireland leg of his Roll With The Punches tour that ran from Newcastle on May 8 to Dublin on May 23, 2025. Sets drew on three decades of material alongside songs from the album that gave the tour its name, which arrived later that year.",
+      "genres": [
+        "Rock",
+        "Classic Rock",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/BryAdamsMargate130624_%2839_of_43%29_%2853789411882%29_Cropped.jpg/250px-BryAdamsMargate130624_%2839_of_43%29_%2853789411882%29_Cropped.jpg",
+      "source_url": "https://www.bryanadams.com/tours/uk-ireland-2025-roll-with-the-punches-tour",
+      "last_updated": "2026-09-15",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-bryan-adams-roll-with-the-punches-leeds-20250510",
+      "name": "Bryan Adams: Roll With The Punches - Leeds",
+      "release_date": "2025-05-10",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "First Direct Arena, Leeds, England"
+      ],
+      "developer": "Bryan Adams",
+      "publisher": null,
+      "description": "Bryan Adams played First Direct Arena in Leeds on 2025-05-10, part of the twelve-date UK and Ireland leg of his Roll With The Punches tour that ran from Newcastle on May 8 to Dublin on May 23, 2025. Sets drew on three decades of material alongside songs from the album that gave the tour its name, which arrived later that year.",
+      "genres": [
+        "Rock",
+        "Classic Rock",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/BryAdamsMargate130624_%2839_of_43%29_%2853789411882%29_Cropped.jpg/250px-BryAdamsMargate130624_%2839_of_43%29_%2853789411882%29_Cropped.jpg",
+      "source_url": "https://www.bryanadams.com/tours/uk-ireland-2025-roll-with-the-punches-tour",
+      "last_updated": "2026-09-15",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-bryan-adams-roll-with-the-punches-glasgow-20250513",
+      "name": "Bryan Adams: Roll With The Punches - Glasgow",
+      "release_date": "2025-05-13",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "OVO Hydro, Glasgow"
+      ],
+      "developer": "Bryan Adams",
+      "publisher": null,
+      "description": "Bryan Adams played OVO Hydro in Glasgow on 2025-05-13, part of the twelve-date UK and Ireland leg of his Roll With The Punches tour that ran from Newcastle on May 8 to Dublin on May 23, 2025. Sets drew on three decades of material alongside songs from the album that gave the tour its name, which arrived later that year.",
+      "genres": [
+        "Rock",
+        "Classic Rock",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/BryAdamsMargate130624_%2839_of_43%29_%2853789411882%29_Cropped.jpg/250px-BryAdamsMargate130624_%2839_of_43%29_%2853789411882%29_Cropped.jpg",
+      "source_url": "https://www.bryanadams.com/tours/uk-ireland-2025-roll-with-the-punches-tour",
+      "last_updated": "2026-09-15",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-bryan-adams-roll-with-the-punches-cardiff-20251209",
+      "name": "Bryan Adams: Roll With The Punches - Cardiff",
+      "release_date": "2025-12-09",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Utilita Arena Cardiff, Cardiff, Wales"
+      ],
+      "developer": "Bryan Adams",
+      "publisher": null,
+      "description": "Bryan Adams played Utilita Arena Cardiff in Cardiff on 2025-12-09, one of three extra UK arena dates added after his sixteenth studio album Roll With The Punches entered the Official UK Albums Chart at number three. The short run also took in Hull and Cardiff, and the sets opened acoustically on a small B-stage before moving through his back catalogue.",
+      "genres": [
+        "Rock",
+        "Classic Rock",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/BryAdamsMargate130624_%2839_of_43%29_%2853789411882%29_Cropped.jpg/250px-BryAdamsMargate130624_%2839_of_43%29_%2853789411882%29_Cropped.jpg",
+      "source_url": "https://www.totalntertainment.com/music/bryan-adams-announces-dec-2025-uk-arena-shows/",
+      "last_updated": "2026-09-15",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-bryan-adams-roll-with-the-punches-brighton-20251210",
+      "name": "Bryan Adams: Roll With The Punches - Brighton",
+      "release_date": "2025-12-10",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Brighton Centre, Brighton, England"
+      ],
+      "developer": "Bryan Adams",
+      "publisher": null,
+      "description": "Bryan Adams played Brighton Centre in Brighton on 2025-12-10, one of three extra UK arena dates added after his sixteenth studio album Roll With The Punches entered the Official UK Albums Chart at number three. The short run also took in Hull and Cardiff, and the sets opened acoustically on a small B-stage before moving through his back catalogue.",
+      "genres": [
+        "Rock",
+        "Classic Rock",
+        "Tour"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/BryAdamsMargate130624_%2839_of_43%29_%2853789411882%29_Cropped.jpg/250px-BryAdamsMargate130624_%2839_of_43%29_%2853789411882%29_Cropped.jpg",
+      "source_url": "https://www.totalntertainment.com/music/bryan-adams-announces-dec-2025-uk-arena-shows/",
+      "last_updated": "2026-09-15",
       "last_researched_by": "en-researcher"
     }
   ]
