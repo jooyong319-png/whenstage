@@ -1,3 +1,58 @@
+## [2026-09-18 09:30] [EN 리서처]
+리서치 완료 (영어권/글로벌 시장 공연)
+- 콘서트/투어 11→11, 발매 1→0, 페스티벌 3→1, 팬미팅 0→0 (후보→통과)
+- 신규 19개(예정 13 + 백필 6) / 갱신 2개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리 6건 중 4건 등재 — `data/leads.en.jsonl` 134건 전수 대조 결과 최근 리드(9/01~9/11) 중 미등재는 6건이었고, David Byrne's Night 2027 UK 투어(2건)·Nice as Fuck 10주년 투어(2건)·Billy Strings Winter 2027(2건)·70000 Tons of Metal 2027(1건)을 검증 후 등재. Angèle 'Instinct'와 Slipknot 'Arsenal'은 이미 등재돼 있었고(악센트·표기 차이로 초기 대조에서 미등재로 잡혔던 건), DOLLYFEST는 탈락. leads 파일은 append-only이므로 수정·삭제하지 않음
+- 과거 백필 6개 → **공연장 색인전환 4개**(Victoria Park, Warrington 1→3 / Rose Bowl, Pasadena 1→3 / Rod Laver Arena, Melbourne 1→2 / Afterpay Arena, Sydney 1→2) / 기존 공연장 보강 0개
+- 티켓팅 진행중 +13 (Metallica M72 2027 3건: 선예매 9/21·일반 9/25 / Syd Beard Tour 3건: 선예매 9/16·일반 9/18 / Billy Strings 2건: 일반 9/11 진행 중 / David Byrne's Night 2건 / Nice as Fuck 2건 / 70000 Tons 1건) / 해제 -2 (Jon Pardi Richmond 9/17·Erykah Badu Cleveland 9/15 — 공연일 경과)
+- description 보강 0개 (영어 40단어 미만 항목 0건 유지)
+- 총 등록 320개 (`npm run validate` 3파일 전체 통과)
+
+[이번 사이클 핵심 — EN 공연장 noindex가 사실상 해소됐다]
+백필 착수 전 `concerts.en.json`을 훑어 1건짜리 공연장을 뽑은 결과 **100곳 중 7곳**뿐이었다.
+AGENTS.md §7의 기준 수치(2026-07-30 시점 32곳 중 31곳 noindex)와 비교하면 최근 사이클들의
+"이미 등록된 공연장에 몰아넣기" 전략이 실제로 먹혔다는 뜻이다. 그래서 이번엔 남은 7곳을 직접
+표적으로 삼았고, 그중 4곳을 색인 대상으로 전환했다.
+- Victoria Park(Warrington): Neighbourhood Weekender **2025·2026년 회차**를 채움. 매년 같은 장소에서
+  열리는 페스티벌이라 프롬프트 §3-B 우선순위 2번에 정확히 해당 — 1건으로 3건을 만든 가장 효율 좋은 선택
+- Rose Bowl(Pasadena): Guns N' Roses(2026-09-05, 1992년 이후 34년 만의 Rose Bowl 복귀)와
+  Oasis Live '25(2025-09-06) 2건 추가. 둘 다 기존 등록 아티스트가 아닌 **다른 아티스트**의 과거 공연
+- Rod Laver Arena(Melbourne)·Afterpay Arena(Sydney): Laufey 'A Matter of Time' 호주 레그 각 1건.
+  Laufey는 이미 등록된 아티스트라 아티스트 페이지도 같이 두꺼워진다
+- 남은 1건짜리 3곳(MediaCity Salford / PH Live at Planet Hollywood / Santa Monica Beach)은 이번엔 실패.
+  **PH Live는 setlist.fm 쪽 공연장 레코드가 2012~13년치(구 명칭 시기)로 끊겨 있고**, 최근 공연은
+  Zappos Theater·Bakkt Theater 등 과거 명칭 레코드로 흩어져 있어 "과거 2년 이내" 조건을 만족하는
+  후보를 뽑는 비용이 컸다. 다음 사이클에 Ticketmaster 공연장 페이지(venue/467893) 쪽으로 다시 시도할 것
+
+[예정 공연 — 이번 사이클 최대 건]
+Metallica M72 World Tour 2027 북미 스타디움 12회차가 9/16 공식 발표됐다(선예매 9/21, 일반 9/25).
+공식 사이트(metallica.com)의 날짜 표와 JamBase 기사가 **Fayetteville·Kansas City 날짜에서 하루씩
+어긋나 있었고**(공식 5/26·5/29 vs 기사 5/27·5/30), 공식 표를 채택했다. 12회 전부를 등재하면
+1건짜리 스타디움을 10곳 가까이 양산하게 되므로 **개막(Vancouver BC Place)·폐막(Rice-Eccles)과
+이미 색인된 Lucas Oil Stadium(2→3건) 3건만** 등재했다. 나머지 9개 도시는 다음 사이클에 해당
+공연장에 다른 공연이 붙을 여지가 생기면 추가 검토한다.
+`publisher`는 공식 공지에 "produced by Live Nation"이 명시돼 있어 3건 모두 채웠다.
+Syd 'Beard Tour'도 Pollstar 공지에 프로모터가 Live Nation으로 적혀 있어 채웠고, 23회차 중
+**이미 색인된 공연장 3곳**(Tabernacle Atlanta·Brooklyn Paramount·The Wiltern)만 골라 등재했다.
+
+[검증 탈락]
+- DOLLYFEST: The Celebration of a Lifetime (2027, Nashville/London): Variety·Rolling Stone·공식
+  dollyparton.com 모두 "2027년 두 주말, 날짜·공연장·라인업 추후 발표"로만 보도. 시기 특정이
+  "2027년" 수준이라 approx placeholder를 잡아도 12-31이 되고 `platforms`(공연장)를 채울 근거가 전혀
+  없어 보류. 날짜·회장 발표 시 재검토
+- Metallica M72 2027 — Fayetteville / Kansas City 외 9개 도시: 날짜 자체는 공식 확정이나, 등재 시
+  전원 1건짜리 공연장이 되어 §3-B의 "1건짜리 공연장 양산 금지" 취지와 충돌. 탈락이 아니라 **보류**
+- Nice as Fuck 중간 6개 도시(August Hall SF·Nectar Lounge Seattle·Wonder Ballroom Portland·Outset
+  Chicago·Black Cat DC·TLA Philadelphia): Rolling Stone·mxdwn이 개막(10/16 Pasadena)과 폐막
+  (10/29 Brooklyn)만 날짜를 명시했고 중간 날짜는 도시 목록만 나열. Songkick 아티스트 페이지는
+  동명이인(The Song Men)으로 리다이렉트돼 확인 실패. 개별 날짜 확정 전까지 보류
+- Massive Attack Rod Laver Arena(2026-08-11) / Alex Warren Afterpay Arena(2026-08-28): 백필 후보로
+  잡았으나 setlist.fm 단일 출처였고, 해당 공연장이 이미 이번 사이클에 2건으로 전환돼 색인 이득이
+  사라져 독립 출처 2개 확보 비용을 들이지 않고 보류
+
+[KO/JA 리서처께]
+이번 사이클에 크로스 로케일 등재(`related_locale_ids`) 건은 없습니다. 요청사항 없음.
+
 ## [2026-09-15 09:30] [EN 리서처]
 리서치 완료 (영어권/글로벌 시장 공연)
 - 콘서트/투어 9→8, 발매 3→1, 페스티벌 3→0, 팬미팅 0→0 (후보→통과)
