@@ -2,9 +2,42 @@
 
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
-| ko | 2026-09-09 | ← |
-| en | 2026-09-11 | |
+| ko | 2026-09-18 | |
+| en | 2026-09-11 | ← |
 | ja | 2026-09-14 | |
+
+---
+
+## 2026-09-18 · ko
+
+로테이션상 ko가 가장 오래된 점검일(2026-09-09)이라 선택. 대상 창: 2026-07-20 ~ 2026-11-17(오늘 ±60일), 창 안 항목 171건(끝난 것 108 / 예정 63). 코드는 손대지 않았고 `data/concerts.ko.json`만 수정. push 전 `validate-data.mjs` 통과.
+
+**트랙 A (졸업 처리) — 16건** (상한 20 이내)
+- A-1 끝난 공연에 남은 예매 필드 정리 16건 — `general_sale_url`/`presale_url`/`*_datetime`가 "아직 판매 중" 모양(마감일 없이)으로 남은 값을 `presale`/`general_sale=false` + 관련 URL·datetime null 처리(§7 표대로). 전부 concert_tour/fanmeeting이라 `music_release` 예외 해당 없음:
+  ko-psy-heumppuck-show-2026-20260801, ko-aespa-synk-complaexity-seoul-20260807, ko-higedandism-asiatour-seoul-20260808,
+  ko-kodaline-farewell-tour-seoul-20260812, ko-hyeonyeokgawang-family-festival-seoul-20260822, ko-nflying-into-rem-gwangju-20260822,
+  ko-jeonyujin-twenty-one-20260829, ko-limyoungwoong-imhero-stadium2-20260904, ko-honggyeongmin-medalist-september-seoul-20260905,
+  ko-sungsikyung-with-friends-20260905, ko-backnumber-grateful-yesterdays-seoul-20260912, ko-crush-zzinbombting-crush-farm-seoul-20260912,
+  ko-hyunjae-the-present-for-you-seoul-20260912, ko-plave-keep-it-manic-incheon-20260912, ko-riize-ch-riize-on-air-20260912,
+  ko-wax-3579-autumn-seoul-20260913
+- A-2 예매 플래그 잔존: 위 16건에 포함(개별 추가 없음). 창 안 끝난 항목 중 별도 플래그 잔존 0건
+- A-3 (release_date_approx 미해제): 끝난 항목 중 approx=true 없음 — 처리 없음
+- A-4 description 시제 교정: 위 16건과 동일 레코드에서 함께 처리(별도 항목 카운트 없음). 끝난 공연인데 "연다/열린다/돌아온다/진행한다/시작된다/이어진다" 등 미래·현재 표현으로 남은 문장의 **시제만** 과거형으로 교정. 새 사실 추가 없음. backnumber의 "현재도 판매가 진행 중이다"처럼 사실과 어긋난 현재 상태 서술은 제거
+- 이번 회차는 A-1(웹 확인 불필요·객관적)에 집중. 순수 A-4 후보(끝난 항목 중 미래시제만 남은 레코드)가 다수 남아 있으나 상한·정확도 관리를 위해 다음 회차로 이월(조건이 자기서술적이라 다시 잡힘)
+
+**트랙 B (임박 점검) — 8건 확인** (공연일 가까운 순, last_updated 오래된/미기록 우선). 8건 모두 공식·언론·예매처 소스로 정상 진행 확인, 취소·연기 없음. 전부 last_updated=2026-09-18로 갱신:
+- ko-nct127-neocity-redline-seoul-20260918 — 9/18~20 KSPO DOME 3회차 전석 매진, 정상 개최(스포츠월드/멜론티켓/kpop.fandom)
+- ko-vaundy-horo-seoul-20260919 — 9/19~20 인스파이어 아레나 첫 내한 정상(YTN/텐아시아)
+- ko-axmxp-x-verse-seoul-20260919 — 9/19~20 NOL 씨어터 합정 데뷔 첫 단독 정상(스타뉴스/톱스타뉴스)
+- ko-chomingyu-mono-drama-sweet-escape-seoul-20260919 — 9/19~20 블루스퀘어 전석 매진 정상(스타뉴스/스포츠경향)
+- ko-okf2026-orjet-kpop-festa-20260926 — 9/26~27 킨텍스 개최, 1차 라인업 확인(전자신문/스타뉴스/예스24)
+- ko-boynextdoor-home-repackage-20260928 — 9/28 18시 리패키지 발매 확정. **B-4 보강**: 미공개였던 앨범명·타이틀곡 확정(HOME: DELUXE / 타이틀 'ANIMAL', 지코 참여, 총 14곡) → name·description·release_time 갱신(MK스포츠/스포츠경향/뉴스핌)
+- ko-tunexx-comeback-20260930 — **B-2 확인 실패**: "9월 컴백" 발표만 있고 정확한 발매일·앨범 정보 여전히 미공개(파이낸셜뉴스/스타뉴스/뉴스1) → release_date_approx=true 그대로 유지, 임시값 9/30 보존. 다음 회차 재확인
+- ko-closeyoureyes-comeback-20260930 — **B-2 해제**: 미니 4집 '256th Note' 9/30 18시 발매 확정(스타뉴스 9/8·9/10·9/14 등 복수 출처) → release_date_approx=false, release_time=18:00, name·description 갱신. 같은 날 20시 온·오프라인 컴백 라이브
+- B-3 링크: 예매처(인터파크/NOL 등)는 로봇 차단·매진 표시가 잦아 직접 열지 않고 언론·공식 소스로 판매·개최 진행을 교차 확인 → 재확인 원칙대로 죽은 링크로 단정하지 않고 유지
+
+**남은 것**: 트랙 A 순수 A-4 후보 다수 이월(상한 여유는 있었으나 A-1 우선 처리). ko-tunexx 발매일 다음 회차 재확인 필요
+**리서처 참고(추가·수정 안 함)**: 점검 범위(±60일)에서 신규 미등록 공연 발견 사항 없음
 
 ---
 
