@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-09-18",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -1537,9 +1537,10 @@
       "source_url": "https://news.pollstar.com/2026/07/20/jon-pardis-gamblin-man-tour-rolls-out-this-fall/",
       "presale": false,
       "presale_datetime": "2026-07-21T10:00:00-04:00",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-07-24T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-richmond-virginia-09-17-2026/event/010064EAC17D6E90"
+      "general_sale_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-richmond-virginia-09-17-2026/event/010064EAC17D6E90",
+      "last_updated": "2026-09-18"
     },
     {
       "id": "en-gayle-observing-chaos-20260918",
@@ -4253,9 +4254,9 @@
       ],
       "image_url": null,
       "source_url": "https://consequence.net/2026/06/erykah-badu-2026-tour-dates/",
-      "last_updated": "2026-09-11",
+      "last_updated": "2026-09-18",
       "last_researched_by": "en-researcher",
-      "general_sale": true
+      "general_sale": false
     },
     {
       "id": "en-erykah-badu-alchemist-queens-20260918",
@@ -8164,6 +8165,554 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/BryAdamsMargate130624_%2839_of_43%29_%2853789411882%29_Cropped.jpg/250px-BryAdamsMargate130624_%2839_of_43%29_%2853789411882%29_Cropped.jpg",
       "source_url": "https://www.totalntertainment.com/music/bryan-adams-announces-dec-2025-uk-arena-shows/",
       "last_updated": "2026-09-15",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-metallica-m72-2027-vancouver-20270508",
+      "name": "Metallica: M72 World Tour 2027 - Vancouver",
+      "release_date": "2027-05-08",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Vancouver",
+      "category": "concert_tour",
+      "platforms": [
+        "BC Place, Vancouver, BC"
+      ],
+      "developer": "Metallica, Limp Bizkit, Avatar",
+      "publisher": "Live Nation",
+      "description": "Metallica open the 2027 North American leg of the M72 World Tour at BC Place in Vancouver on May 8, 2027. The band confirmed twelve stadium dates on September 16, 2026, with Limp Bizkit and Avatar supporting every show. Unlike earlier M72 stops, each 2027 date is a standalone concert rather than a two-night No Repeat Weekend, and the in-the-round stage sits at the 50-yard line with the Snake Pit at its center.",
+      "genres": [
+        "Metal",
+        "Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.metallica.com/news/2026-09-16-m72-rolls-on-into-2027.html",
+      "last_updated": "2026-09-18",
+      "last_researched_by": "en-researcher",
+      "presale": true,
+      "presale_datetime": "2026-09-21T10:00:00-07:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-25T10:00:00-07:00",
+      "general_sale_url": "https://www.metallica.com/tour/"
+    },
+    {
+      "id": "en-metallica-m72-2027-indianapolis-20270605",
+      "name": "Metallica: M72 World Tour 2027 - Indianapolis",
+      "release_date": "2027-06-05",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Indiana/Indianapolis",
+      "category": "concert_tour",
+      "platforms": [
+        "Lucas Oil Stadium, Indianapolis, IN"
+      ],
+      "developer": "Metallica, Limp Bizkit, Avatar",
+      "publisher": "Live Nation",
+      "description": "Metallica bring the M72 World Tour to Lucas Oil Stadium in Indianapolis on June 5, 2027, one of twelve North American stadium dates announced on September 16, 2026. Limp Bizkit and Avatar support. The show uses the tour's in-the-round production with the stage at the 50-yard line and the circular Snake Pit at its center, giving the crowd a full 360-degree view. Live Nation produces the leg.",
+      "genres": [
+        "Metal",
+        "Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.metallica.com/news/2026-09-16-m72-rolls-on-into-2027.html",
+      "last_updated": "2026-09-18",
+      "last_researched_by": "en-researcher",
+      "presale": true,
+      "presale_datetime": "2026-09-21T10:00:00-04:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-25T10:00:00-04:00",
+      "general_sale_url": "https://www.metallica.com/tour/"
+    },
+    {
+      "id": "en-metallica-m72-2027-salt-lake-city-20270619",
+      "name": "Metallica: M72 World Tour 2027 - Salt Lake City",
+      "release_date": "2027-06-19",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Denver",
+      "category": "concert_tour",
+      "platforms": [
+        "Rice-Eccles Stadium, Salt Lake City, UT"
+      ],
+      "developer": "Metallica, Limp Bizkit, Avatar",
+      "publisher": "Live Nation",
+      "description": "Metallica close the 2027 North American leg of the M72 World Tour at Rice-Eccles Stadium in Salt Lake City on June 19, 2027. It is the final of twelve stadium dates announced on September 16, 2026, all of them standalone shows rather than the tour's usual two-night format. Limp Bizkit and Avatar open, and a portion of every ticket sold goes to local charities through the band's All Within My Hands foundation.",
+      "genres": [
+        "Metal",
+        "Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.metallica.com/news/2026-09-16-m72-rolls-on-into-2027.html",
+      "last_updated": "2026-09-18",
+      "last_researched_by": "en-researcher",
+      "presale": true,
+      "presale_datetime": "2026-09-21T10:00:00-06:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-25T10:00:00-06:00",
+      "general_sale_url": "https://www.metallica.com/tour/"
+    },
+    {
+      "id": "en-david-byrnes-night-manchester-20270115",
+      "name": "David Byrne's Night 2027 - Manchester",
+      "release_date": "2027-01-15",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "New Century Hall, Manchester, England"
+      ],
+      "developer": "David Byrne's Night",
+      "publisher": null,
+      "description": "David Byrne's Night, a rotating tribute collective founded by Dundee native Lola Stephen, opens its 2027 UK tour at New Century Hall in Manchester on January 15, 2027. The show pairs Talking Heads and David Byrne solo material with recitals of Robert Burns poetry, performed by a supergroup drawn from the British indie, punk and experimental scenes. The tour was announced on September 9, 2026 and coincides with the fiftieth anniversary of the first Talking Heads album.",
+      "genres": [
+        "Rock",
+        "Indie",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.nme.com/news/music/david-byrnes-night-tribute-featuring-members-of-english-teacher-the-pogues-and-more-announce-2027-uk-tour-3967974",
+      "last_updated": "2026-09-18",
+      "last_researched_by": "en-researcher",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_url": "https://www.universe.com/events/byrnes-night-tickets-KQSX1Y"
+    },
+    {
+      "id": "en-david-byrnes-night-london-20270123",
+      "name": "David Byrne's Night 2027 - London",
+      "release_date": "2027-01-23",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "concert_tour",
+      "platforms": [
+        "Troxy, London"
+      ],
+      "developer": "David Byrne's Night",
+      "publisher": null,
+      "description": "David Byrne's Night plays Troxy in east London on January 23, 2027, the largest headline show the tribute collective has staged. Announced on September 9, 2026, the London bill draws players from English Teacher, The Pogues, The Horrors, Man/Woman/Chainsaw, Goat Girl and others for a set of Talking Heads and David Byrne songs interspersed with Robert Burns recitations. The project began as a one-off at Hackney's MOTH Club in 2023.",
+      "genres": [
+        "Rock",
+        "Indie",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.nme.com/news/music/david-byrnes-night-tribute-featuring-members-of-english-teacher-the-pogues-and-more-announce-2027-uk-tour-3967974",
+      "last_updated": "2026-09-18",
+      "last_researched_by": "en-researcher",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_url": "https://www.universe.com/events/byrnes-night-tickets-KQSX1Y"
+    },
+    {
+      "id": "en-nice-as-fuck-10th-anniversary-pasadena-20261016",
+      "name": "Nice as Fuck: 10th Anniversary Tour - Pasadena",
+      "release_date": "2026-10-16",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Sid the Cat, Pasadena, CA"
+      ],
+      "developer": "Nice as Fuck, Alix Brown",
+      "publisher": null,
+      "description": "Nice as Fuck, the trio of Jenny Lewis, Erika Spring of Au Revoir Simone and Tennessee Thomas of The Like, open an eight-date reunion run at Sid the Cat in Pasadena on October 16, 2026. The tour marks ten years since their self-titled 2016 debut, which the band is reissuing alongside the shows. DJ Alix Brown opens every date. The trek was announced in early September 2026.",
+      "genres": [
+        "Indie",
+        "Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.rollingstone.com/music/music-news/nice-as-fuck-10-anniversary-reunion-tour-1235624710/",
+      "last_updated": "2026-09-18",
+      "last_researched_by": "en-researcher",
+      "presale": false,
+      "general_sale": true
+    },
+    {
+      "id": "en-nice-as-fuck-10th-anniversary-brooklyn-20261029",
+      "name": "Nice as Fuck: 10th Anniversary Tour - Brooklyn",
+      "release_date": "2026-10-29",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Xanadu Roller Arts, Brooklyn, NY"
+      ],
+      "developer": "Nice as Fuck, Alix Brown",
+      "publisher": null,
+      "description": "Nice as Fuck close their tenth anniversary reunion tour at Xanadu Roller Arts in Brooklyn on October 29, 2026, two days before Halloween. The band, made up of Jenny Lewis, Erika Spring and Tennessee Thomas, reunited for eight shows running from Pasadena eastward through Chicago. Alix Brown DJs the whole run, and the group is reissuing their 2016 self-titled album to mark the anniversary.",
+      "genres": [
+        "Indie",
+        "Rock",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.rollingstone.com/music/music-news/nice-as-fuck-10-anniversary-reunion-tour-1235624710/",
+      "last_updated": "2026-09-18",
+      "last_researched_by": "en-researcher",
+      "presale": false,
+      "general_sale": true
+    },
+    {
+      "id": "en-billy-strings-winter-2027-nashville-20270219",
+      "name": "Billy Strings: Winter Tour 2027 - Nashville",
+      "release_date": "2027-02-19",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Chicago",
+      "category": "concert_tour",
+      "platforms": [
+        "Bridgestone Arena, Nashville, TN"
+      ],
+      "developer": "Billy Strings",
+      "publisher": null,
+      "description": "Billy Strings plays the first of two nights at Bridgestone Arena in Nashville on February 19, 2027, part of a ten-show Winter Tour supporting his album So Much For Goodbyes. The run opens with five nights in Asheville and passes through Duluth, Georgia before reaching the guitarist's adopted hometown. Tickets went on sale September 11, 2026, and a Bridgestone purchase was required to enter the draw for the tour's Ryman finale.",
+      "genres": [
+        "Bluegrass",
+        "Americana",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.jambase.com/article/billy-strings-tour-dates-2027-winter",
+      "last_updated": "2026-09-18",
+      "last_researched_by": "en-researcher",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-11T10:00:00-05:00"
+    },
+    {
+      "id": "en-billy-strings-winter-2027-ryman-20270221",
+      "name": "Billy Strings: Winter Tour 2027 - Ryman Auditorium",
+      "release_date": "2027-02-21",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Chicago",
+      "category": "concert_tour",
+      "platforms": [
+        "Ryman Auditorium, Nashville, TN"
+      ],
+      "developer": "Billy Strings",
+      "publisher": null,
+      "description": "Billy Strings wraps his 2027 Winter Tour with an intimate show at Nashville's Ryman Auditorium on February 21, 2027. It follows two arena nights at Bridgestone, and access to the Ryman date was restricted to fans who first bought a Bridgestone ticket. Strings made his Ryman debut in June 2018 and has returned repeatedly since, most recently for two nights alongside Bryan Sutton in September 2025.",
+      "genres": [
+        "Bluegrass",
+        "Americana",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.jambase.com/article/billy-strings-tour-dates-2027-winter",
+      "last_updated": "2026-09-18",
+      "last_researched_by": "en-researcher",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-11T10:00:00-05:00"
+    },
+    {
+      "id": "en-70000-tons-of-metal-2027-20270114",
+      "name": "70000 Tons of Metal 2027",
+      "release_date": "2027-01-14",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "festival",
+      "platforms": [
+        "Royal Caribbean Freedom of the Seas, Miami, FL"
+      ],
+      "developer": null,
+      "publisher": null,
+      "description": "70000 Tons of Metal, billed as the original heavy metal cruise, sails from Miami to Puerto Plata in the Dominican Republic and back from January 14 to 18, 2027 aboard Royal Caribbean's Freedom of the Seas. Roughly sixty bands play across four days, and the first half of the 2027 line-up, announced in mid-2026, includes Arch Enemy, Evergrey, Moonspell, Obscura and Warbringer. Only 3,000 tickets are sold.",
+      "genres": [
+        "Festival",
+        "Metal"
+      ],
+      "image_url": null,
+      "source_url": "https://blabbermouth.net/news/70000-tons-of-metal-cruise-announces-public-sales-and-first-half-of-2027-lineup",
+      "last_updated": "2026-09-18",
+      "last_researched_by": "en-researcher",
+      "presale": false,
+      "general_sale": true
+    },
+    {
+      "id": "en-syd-beard-tour-atlanta-20261124",
+      "name": "Syd: Beard Tour - Atlanta",
+      "release_date": "2026-11-24",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Tabernacle, Atlanta, GA"
+      ],
+      "developer": "Syd",
+      "publisher": "Live Nation",
+      "description": "Syd brings the Beard Tour to the Tabernacle in Atlanta on November 24, 2026, supporting her album Beard. The 23-date North American run, promoted by Live Nation, opens in Vancouver on November 7 and works its way east through Texas and the Southeast. A Citi cardmember presale ran from September 16, 2026, with general tickets released on September 18. VIP packages include a pre-show soundcheck with Syd.",
+      "genres": [
+        "R&B",
+        "Soul",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://news.pollstar.com/2026/09/15/syd-announces-north-american-2026-beard-tour/",
+      "last_updated": "2026-09-18",
+      "last_researched_by": "en-researcher",
+      "presale": true,
+      "presale_datetime": "2026-09-16T10:00:00-05:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-18T10:00:00-05:00"
+    },
+    {
+      "id": "en-syd-beard-tour-brooklyn-20261201",
+      "name": "Syd: Beard Tour - Brooklyn",
+      "release_date": "2026-12-01",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/New_York",
+      "category": "concert_tour",
+      "platforms": [
+        "Brooklyn Paramount, Brooklyn, NY"
+      ],
+      "developer": "Syd",
+      "publisher": "Live Nation",
+      "description": "Syd plays Brooklyn Paramount on December 1, 2026 as the Beard Tour reaches the Northeast. The 23-date North American headline run supports her Beard album and is promoted by Live Nation, with stops in Washington, Philadelphia, Boston and Toronto following the Brooklyn date. Tickets opened with a Citi presale on September 16, 2026 ahead of the general onsale on September 18 at 10 a.m. local time.",
+      "genres": [
+        "R&B",
+        "Soul",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://news.pollstar.com/2026/09/15/syd-announces-north-american-2026-beard-tour/",
+      "last_updated": "2026-09-18",
+      "last_researched_by": "en-researcher",
+      "presale": true,
+      "presale_datetime": "2026-09-16T10:00:00-05:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-18T10:00:00-05:00"
+    },
+    {
+      "id": "en-syd-beard-tour-los-angeles-20261216",
+      "name": "Syd: Beard Tour - Los Angeles",
+      "release_date": "2026-12-16",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "The Wiltern, Los Angeles, CA"
+      ],
+      "developer": "Syd",
+      "publisher": "Live Nation",
+      "description": "Syd closes the Beard Tour at The Wiltern in Los Angeles on December 16, 2026. The 23-show North American run began in Vancouver on November 7 and covered the West Coast, Texas, the Southeast, the Northeast and the Midwest before returning to her hometown. Live Nation promotes the tour, and VIP packages on offer include premium seating, early entry and access to an exclusive pre-show soundcheck.",
+      "genres": [
+        "R&B",
+        "Soul",
+        "Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://news.pollstar.com/2026/09/15/syd-announces-north-american-2026-beard-tour/",
+      "last_updated": "2026-09-18",
+      "last_researched_by": "en-researcher",
+      "presale": true,
+      "presale_datetime": "2026-09-16T10:00:00-08:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-18T10:00:00-08:00"
+    },
+    {
+      "id": "en-neighbourhood-weekender-2026-20260523",
+      "name": "Neighbourhood Weekender 2026",
+      "release_date": "2026-05-23",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "festival",
+      "platforms": [
+        "Victoria Park, Warrington, England"
+      ],
+      "developer": "Richard Ashcroft, Blossoms, Kaiser Chiefs, DMA's",
+      "publisher": null,
+      "description": "Neighbourhood Weekender returned to Victoria Park in Warrington across the May bank holiday weekend of 2026, running on Saturday 23 and Sunday 24 May. Richard Ashcroft headlined the Saturday above Kaiser Chiefs, The K's, Example, Sophie Ellis-Bextor and Cast, while Blossoms closed the Sunday following DMA's, Jamie Webster, Shed Seven, Razorlight and The Royston Club. The non-camping festival ran three stages with a 22:30 curfew each day.",
+      "genres": [
+        "Festival",
+        "Rock",
+        "Indie"
+      ],
+      "image_url": null,
+      "source_url": "https://en.wikipedia.org/wiki/Neighbourhood_Weekender",
+      "last_updated": "2026-09-18",
+      "last_researched_by": "en-researcher",
+      "festival_days": [
+        {
+          "date": "2026-05-23",
+          "lineup": [
+            "Richard Ashcroft",
+            "Kaiser Chiefs",
+            "The K's",
+            "Example",
+            "Sophie Ellis-Bextor",
+            "Cast"
+          ]
+        },
+        {
+          "date": "2026-05-24",
+          "lineup": [
+            "Blossoms",
+            "DMA's",
+            "Jamie Webster",
+            "Shed Seven",
+            "Razorlight",
+            "The Royston Club"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-neighbourhood-weekender-2025-20250524",
+      "name": "Neighbourhood Weekender 2025",
+      "release_date": "2025-05-24",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Europe/London",
+      "category": "festival",
+      "platforms": [
+        "Victoria Park, Warrington, England"
+      ],
+      "developer": "James, Stereophonics, The Wombats, The Lathums",
+      "publisher": null,
+      "description": "Neighbourhood Weekender came back to Victoria Park in Warrington on Saturday 24 and Sunday 25 May 2025 after skipping 2024 entirely. James headlined the Saturday ahead of The Wombats, The Reytons, Ocean Colour Scene, The Snuts and Amy Macdonald. Stereophonics closed the Sunday, with The Lathums, Inhaler, Dizzee Rascal, Sigrid and CMAT playing beneath them across the festival's three stages.",
+      "genres": [
+        "Festival",
+        "Rock",
+        "Indie"
+      ],
+      "image_url": null,
+      "source_url": "https://en.wikipedia.org/wiki/Neighbourhood_Weekender",
+      "last_updated": "2026-09-18",
+      "last_researched_by": "en-researcher",
+      "festival_days": [
+        {
+          "date": "2025-05-24",
+          "lineup": [
+            "James",
+            "The Wombats",
+            "The Reytons",
+            "Ocean Colour Scene",
+            "The Snuts",
+            "Amy Macdonald"
+          ]
+        },
+        {
+          "date": "2025-05-25",
+          "lineup": [
+            "Stereophonics",
+            "The Lathums",
+            "Inhaler",
+            "Dizzee Rascal",
+            "Sigrid",
+            "CMAT"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-guns-n-roses-rose-bowl-20260905",
+      "name": "Guns N' Roses at Rose Bowl - Pasadena",
+      "release_date": "2026-09-05",
+      "release_time": "19:50",
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Rose Bowl, Pasadena, CA"
+      ],
+      "developer": "Guns N' Roses, Ice Cube",
+      "publisher": null,
+      "description": "Guns N' Roses returned to the Rose Bowl in Pasadena on September 5, 2026, their first show at the stadium since October 1992. Ice Cube opened at 6:25 p.m. and the band took the stage at 7:50 p.m., an unusual pairing of hard rock and West Coast hip-hop on a single stadium bill. The date fell on the 2026 North American leg, which also carried The Black Crowes, Pierce The Veil and Public Enemy as openers elsewhere.",
+      "genres": [
+        "Rock",
+        "Hard Rock",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.setlist.fm/setlist/guns-n-roses/2026/rose-bowl-pasadena-ca-334c94fd.html",
+      "last_updated": "2026-09-18",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-oasis-live-25-rose-bowl-20250906",
+      "name": "Oasis Live '25 at Rose Bowl - Pasadena",
+      "release_date": "2025-09-06",
+      "release_time": "20:45",
+      "release_date_approx": false,
+      "timezone": "America/Los_Angeles",
+      "category": "concert_tour",
+      "platforms": [
+        "Rose Bowl, Pasadena, CA"
+      ],
+      "developer": "Oasis, Cage the Elephant, Cast",
+      "publisher": "Live Nation",
+      "description": "Oasis played the first of two sold-out nights at the Rose Bowl in Pasadena on September 6, 2025, part of the reunion tour Live '25. Cast and Cage the Elephant opened, with the headline set starting around 8:45 p.m. The Pasadena pair closed the North American leg of the run and drew heavy coverage for turning the stadium into what one review called a weekend of transplanted Britannia.",
+      "genres": [
+        "Rock",
+        "Britpop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://variety.com/2025/music/news/oasis-rose-bowl-stadium-concert-tour-britannia-1236512226/",
+      "last_updated": "2026-09-18",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-laufey-a-matter-of-time-melbourne-20260730",
+      "name": "Laufey: A Matter of Time Tour - Melbourne",
+      "release_date": "2026-07-30",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Australia/Melbourne",
+      "category": "concert_tour",
+      "platforms": [
+        "Rod Laver Arena, Melbourne"
+      ],
+      "developer": "Laufey, Leonie Biney",
+      "publisher": null,
+      "description": "Laufey played the first of two nights at Rod Laver Arena in Melbourne on July 30, 2026 on the Australian leg of her A Matter of Time tour. The production was staged as an orchestrated theatre piece in five acts set in a castle ballroom, with the singer moving between guitar, piano and cello alongside dancers, strings and a full band. Leonie Biney supported the Australian and New Zealand dates.",
+      "genres": [
+        "Jazz",
+        "Pop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.setlist.fm/setlist/laufey/2026/rod-laver-arena-melbourne-australia-33480c79.html",
+      "last_updated": "2026-09-18",
+      "last_researched_by": "en-researcher"
+    },
+    {
+      "id": "en-laufey-a-matter-of-time-sydney-20260807",
+      "name": "Laufey: A Matter of Time Tour - Sydney",
+      "release_date": "2026-08-07",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Australia/Sydney",
+      "category": "concert_tour",
+      "platforms": [
+        "Afterpay Arena, Sydney"
+      ],
+      "developer": "Laufey, Leonie Biney",
+      "publisher": null,
+      "description": "Laufey opened a two-night Sydney stand at Afterpay Arena on August 7, 2026, one of the first major concerts held at the Sydney Olympic Park venue after it was rebranded from Qudos Bank Arena in July 2026. The A Matter of Time show carried the same five-act orchestrated staging used across the tour, with Leonie Biney opening the Australian and New Zealand dates.",
+      "genres": [
+        "Jazz",
+        "Pop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.setlist.fm/setlist/laufey/2026/afterpay-arena-sydney-australia-33480c7d.html",
+      "last_updated": "2026-09-18",
       "last_researched_by": "en-researcher"
     }
   ]
