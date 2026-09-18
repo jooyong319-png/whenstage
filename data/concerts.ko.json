@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-14",
+  "last_updated": "2026-09-18",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -1043,7 +1043,7 @@
       ],
       "developer": "싸이(PSY)",
       "publisher": "피네이션(P NATION)",
-      "description": "싸이의 대표 여름 콘서트 '흠뻑쇼'가 2026년에도 전국 투어로 돌아온다. 6월 27일 의정부를 시작으로 대구·인천·서울을 거쳐 이어지며, 현재 기준 남은 일정은 원주(7/25), 수원(8/1~2), 광주(8/8), 부산(8/15~16), 대전(8/22~23)이다. 총 9개 도시 14회 규모로, 무대 위로 물을 뿌리는 특유의 연출과 대규모 라이브가 특징이다. 선예매와 일반예매는 6월 4일 NOL 티켓(인터파크)에서 시작됐다.",
+      "description": "싸이의 대표 여름 콘서트 '흠뻑쇼'가 2026년에도 전국 투어로 돌아왔다. 6월 27일 의정부를 시작으로 대구·인천·서울을 거쳐 이어졌으며, 원주(7/25), 수원(8/1~2), 광주(8/8), 부산(8/15~16), 대전(8/22~23) 일정으로 진행됐다. 총 9개 도시 14회 규모로, 무대 위로 물을 뿌리는 특유의 연출과 대규모 라이브가 특징이다. 선예매와 일반예매는 6월 4일 NOL 티켓(인터파크)에서 시작됐다.",
       "genres": [
         "K-POP",
         "콘서트",
@@ -1052,13 +1052,13 @@
       "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26007849_p.gif",
       "source_url": "https://www.wikitree.co.kr/articles/1138931",
       "presale": false,
-      "presale_datetime": "2026-06-04T12:00:00+09:00",
+      "presale_datetime": null,
       "presale_end_datetime": null,
-      "presale_url": "https://tickets.interpark.com/",
+      "presale_url": null,
       "general_sale": false,
-      "general_sale_datetime": "2026-06-04T20:00:00+09:00",
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/",
+      "general_sale_url": null,
       "last_updated": "2026-08-03",
       "last_researched_by": "ko-researcher"
     },
@@ -1155,7 +1155,7 @@
       ],
       "developer": "에스파(aespa)",
       "publisher": "SM엔터테인먼트",
-      "description": "에스파(aespa)가 2026-27 월드투어 'SYNK : COMPLaeXITY'의 출발점으로 서울 고척스카이돔에 입성한다. 8월 7일과 8일 이틀간 열리는 이번 공연은 그룹의 첫 돔 규모 단독 콘서트로, 'CRACK'을 핵심 키워드로 한 새로운 무대 연출을 예고했다. 6월 팬클럽 선예매와 일반예매가 모두 마무리됐으며, 이후 전 세계 25개 지역을 도는 대규모 투어로 이어진다.",
+      "description": "에스파(aespa)가 2026-27 월드투어 'SYNK : COMPLaeXITY'의 출발점으로 서울 고척스카이돔에 입성했다. 8월 7일과 8일 이틀간 열린 이번 공연은 그룹의 첫 돔 규모 단독 콘서트로, 'CRACK'을 핵심 키워드로 한 새로운 무대 연출을 예고했다. 6월 팬클럽 선예매와 일반예매가 모두 마무리됐으며, 이후 전 세계 25개 지역을 도는 대규모 투어로 이어졌다.",
       "genres": [
         "K-POP",
         "콘서트"
@@ -1163,13 +1163,13 @@
       "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/product/2026/06/202606112111474b29f4a6-276a-45a5-9d96-0af16312c9fd.jpg",
       "source_url": "https://www.jnilbo.com/news/articleView.html?idxno=90000042555",
       "presale": false,
-      "presale_datetime": "2026-06-24T20:00:00+09:00",
+      "presale_datetime": null,
       "presale_end_datetime": null,
-      "presale_url": "https://ticket.melon.com/performance/index.htm?prodId=213414",
+      "presale_url": null,
       "general_sale": false,
-      "general_sale_datetime": "2026-06-30T20:00:00+09:00",
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://ticket.melon.com/performance/index.htm?prodId=213414",
+      "general_sale_url": null,
       "last_updated": "2026-08-20",
       "last_researched_by": "ko-researcher"
     },
@@ -1273,7 +1273,7 @@
       ],
       "developer": "Official髭男dism(오피셜히게단디즘)",
       "publisher": "AEG Presents·엑세스엑스",
-      "description": "일본 대표 밴드 오피셜히게단디즘(히게단)이 2년 만에 내한해 서울 공연을 연다. 8월 8일과 9일 이틀간 오후 7시 올림픽공원 KSPO DOME(체조경기장)에서 아시아 투어 서울 스탑을 진행한다. 'Pretender', 'Subtitle' 등으로 국내에서도 두꺼운 팬층을 확보한 팀으로, 2024년 내한에 이은 두 번째 대규모 단독 공연이다. 팬클럽 선예매는 3월 31일부터, 일반예매는 4월 16일 오후 7시 NOL 티켓에서 열렸다.",
+      "description": "일본 대표 밴드 오피셜히게단디즘(히게단)이 2년 만에 내한해 서울 공연을 열었다. 8월 8일과 9일 이틀간 오후 7시 올림픽공원 KSPO DOME(체조경기장)에서 아시아 투어 서울 스탑을 진행했다. 'Pretender', 'Subtitle' 등으로 국내에서도 두꺼운 팬층을 확보한 팀으로, 2024년 내한에 이은 두 번째 대규모 단독 공연이다. 팬클럽 선예매는 3월 31일부터, 일반예매는 4월 16일 오후 7시 NOL 티켓에서 열렸다.",
       "genres": [
         "J-POP",
         "밴드",
@@ -1282,13 +1282,13 @@
       "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26005670_p.gif",
       "source_url": "https://www.newsis.com/view/NISX20260331_0003570696",
       "presale": false,
-      "presale_datetime": "2026-03-31T12:00:00+09:00",
+      "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
       "general_sale": false,
-      "general_sale_datetime": "2026-04-16T19:00:00+09:00",
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26005670",
+      "general_sale_url": null,
       "last_updated": "2026-09-08",
       "last_researched_by": "ko-researcher"
     },
@@ -1465,7 +1465,7 @@
       ],
       "developer": "코다라인(Kodaline)",
       "publisher": "(주)라이브네이션코리아",
-      "description": "아일랜드 4인조 밴드 코다라인이 해체를 앞두고 진행하는 마지막 월드투어의 일환으로 8월 12일 오후 8시 서울 올림픽공원 올림픽홀에서 내한공연을 연다. 밴드는 지난 3월 고별 투어와 마지막 정규 앨범 계획을 함께 발표했으며, 이번 투어는 아시아와 호주, 유럽, 영국을 순회한다. 'All I Want', 'High Hopes', 'Brother' 등으로 국내에도 두꺼운 팬층을 확보한 팀이다. 티켓은 사운드체크 VIP 패키지를 포함해 NOL 티켓에서 단독 판매되며 만 7세 이상 관람할 수 있다.",
+      "description": "아일랜드 4인조 밴드 코다라인이 해체를 앞두고 진행하는 마지막 월드투어의 일환으로 8월 12일 오후 8시 서울 올림픽공원 올림픽홀에서 내한공연을 열었다. 밴드는 지난 3월 고별 투어와 마지막 정규 앨범 계획을 함께 발표했으며, 이번 투어는 아시아와 호주, 유럽, 영국을 순회했다. 'All I Want', 'High Hopes', 'Brother' 등으로 국내에도 두꺼운 팬층을 확보한 팀이다. 티켓은 사운드체크 VIP 패키지를 포함해 NOL 티켓에서 단독 판매됐으며 만 7세 이상 관람할 수 있었다.",
       "genres": [
         "록",
         "내한",
@@ -1475,7 +1475,7 @@
       "source_url": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=5101&mid=a20301010200",
       "presale": false,
       "general_sale": false,
-      "general_sale_url": "https://tickets.interpark.com/goods/26004589",
+      "general_sale_url": null,
       "last_updated": "2026-08-20",
       "last_researched_by": "ko-researcher"
     },
@@ -2025,7 +2025,7 @@
       ],
       "developer": "현역가왕",
       "publisher": "주식회사 로드쇼엔터테인먼트",
-      "description": "MBN '현역가왕' 시리즈의 역대 시즌 출연진이 한자리에 모이는 첫 패밀리 콘서트의 서울 공연이다. 8월 22일과 23일 이틀간 각각 오후 1시와 오후 6시 두 차례씩, 서울 올림픽공원 올림픽홀에서 열린다. '현역가왕3' 우승자 홍지윤을 비롯해 이수연·구수경·강혜연·김태연·솔지·빈예서가 무대에 오르고, 1대 현역가왕 전유진과 2대 박서진의 합류도 확정됐다. 공연 시간은 약 150분이며 8세 이상 관람할 수 있다.",
+      "description": "MBN '현역가왕' 시리즈의 역대 시즌 출연진이 한자리에 모이는 첫 패밀리 콘서트의 서울 공연이다. 8월 22일과 23일 이틀간 각각 오후 1시와 오후 6시 두 차례씩, 서울 올림픽공원 올림픽홀에서 열렸다. '현역가왕3' 우승자 홍지윤을 비롯해 이수연·구수경·강혜연·김태연·솔지·빈예서가 무대에 올랐고, 1대 현역가왕 전유진과 2대 박서진도 합류했다. 공연 시간은 약 150분이며 8세 이상 관람할 수 있었다.",
       "genres": [
         "트로트",
         "콘서트"
@@ -2034,7 +2034,7 @@
       "source_url": "https://sports.khan.co.kr/article/202607100833003/",
       "presale": false,
       "general_sale": false,
-      "general_sale_url": "https://tickets.interpark.com/goods/26009620",
+      "general_sale_url": null,
       "last_updated": "2026-08-24",
       "last_researched_by": "ko-researcher"
     },
@@ -2074,7 +2074,7 @@
       ],
       "developer": "엔플라잉(N.Flying)",
       "publisher": "FNC엔터테인먼트",
-      "description": "엔플라잉 데뷔 첫 전국투어 '&CON5 : into REM'의 마지막 국내 도시인 광주 공연이 8월 22일과 23일 이틀간 광주여자대학교 유니버시아드체육관에서 열린다. 서울과 대구, 부산을 차례로 거친 뒤 마무리되는 일정으로 총 4개 도시 규모의 투어다. 서울 공연을 마친 멤버들은 전국의 팬들을 위해 달려 나가겠다는 소감을 남겼다. 국내 투어를 마친 뒤에는 타이베이·나고야·오사카·도쿄 등 아시아 지역 공연이 이어질 예정이다.",
+      "description": "엔플라잉 데뷔 첫 전국투어 '&CON5 : into REM'의 마지막 국내 도시인 광주 공연이 8월 22일과 23일 이틀간 광주여자대학교 유니버시아드체육관에서 열렸다. 서울과 대구, 부산을 차례로 거친 뒤 마무리되는 일정으로 총 4개 도시 규모의 투어다. 서울 공연을 마친 멤버들은 전국의 팬들을 위해 달려 나가겠다는 소감을 남겼다. 국내 투어를 마친 뒤에는 타이베이·나고야·오사카·도쿄 등 아시아 지역 공연으로 이어졌다.",
       "genres": [
         "밴드",
         "록",
@@ -2084,7 +2084,7 @@
       "source_url": "https://www.tenasia.co.kr/article/2026080307084",
       "presale": false,
       "general_sale": false,
-      "general_sale_url": "https://www.ticketlink.co.kr/product/63748",
+      "general_sale_url": null,
       "last_updated": "2026-08-24",
       "last_researched_by": "ko-researcher"
     },
@@ -2318,7 +2318,7 @@
       ],
       "developer": "전유진",
       "publisher": "제이레이블",
-      "description": "현역가왕 우승으로 차세대 트롯 여제로 떠오른 전유진의 두 번째 단독 팬 콘서트다. 스물한 살을 맞은 전유진이 한층 성장한 음악과 무대를 선보이며, 라이브 무대와 함께 토크·이벤트 등 팬들과 가까이 호흡하는 코너로 꾸며진다. 8월 29일 오후 6시와 30일 오후 5시 두 차례 서울 올림픽공원 우리금융아트홀에서 열리며, 티켓은 7월 23일 오후 7시 NOL 티켓을 통해 예매가 시작된다.",
+      "description": "현역가왕 우승으로 차세대 트롯 여제로 떠오른 전유진의 두 번째 단독 팬 콘서트다. 스물한 살을 맞은 전유진이 한층 성장한 음악과 무대를 선보였으며, 라이브 무대와 함께 토크·이벤트 등 팬들과 가까이 호흡하는 코너로 꾸며졌다. 8월 29일 오후 6시와 30일 오후 5시 두 차례 서울 올림픽공원 우리금융아트홀에서 열렸으며, 티켓은 7월 23일 오후 7시 NOL 티켓을 통해 예매가 시작됐다.",
       "genres": [
         "트로트",
         "팬콘서트"
@@ -2326,8 +2326,8 @@
       "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26010675_p.gif",
       "source_url": "https://www.gukjenews.com/news/articleView.html?idxno=3643427",
       "general_sale": false,
-      "general_sale_datetime": "2026-07-23T19:00:00+09:00",
-      "general_sale_url": "https://tickets.interpark.com/goods/26010675",
+      "general_sale_datetime": null,
+      "general_sale_url": null,
       "last_updated": "2026-08-31",
       "last_researched_by": "ko-researcher"
     },
@@ -2620,7 +2620,7 @@
       ],
       "developer": "임영웅",
       "publisher": null,
-      "description": "트로트 대세 임영웅이 여는 초대형 스타디움 콘서트로, 9월 4일부터 6일까지 사흘간 고양종합운동장 주경기장에서 매일 오후 6시 30분에 열린다. 2024년 첫 스타디움 공연 'IM HERO - THE STADIUM'에 이은 두 번째 스타디움 시리즈로, 대규모 무대 연출과 밴드 라이브를 앞세운 것이 특징이다. 티켓은 7월 16일 오후 8시 NOL 티켓 단독으로 예매가 시작됐으며 전 좌석 지정석으로 운영되고 1인 2매까지 구매할 수 있다.",
+      "description": "트로트 대세 임영웅이 여는 초대형 스타디움 콘서트로, 9월 4일부터 6일까지 사흘간 고양종합운동장 주경기장에서 매일 오후 6시 30분에 열렸다. 2024년 첫 스타디움 공연 'IM HERO - THE STADIUM'에 이은 두 번째 스타디움 시리즈로, 대규모 무대 연출과 밴드 라이브를 앞세운 것이 특징이다. 티켓은 7월 16일 오후 8시 NOL 티켓 단독으로 예매가 시작됐으며 전 좌석 지정석으로 운영되고 1인 2매까지 구매할 수 있었다.",
       "genres": [
         "트로트",
         "콘서트"
@@ -2628,8 +2628,8 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Temp_1662384481565.-511956263.jpg",
       "source_url": "https://tickets.interpark.com/goods/26009868",
       "general_sale": false,
-      "general_sale_datetime": "2026-07-16T20:00:00+09:00",
-      "general_sale_url": "https://tickets.interpark.com/goods/26009868",
+      "general_sale_datetime": null,
+      "general_sale_url": null,
       "last_updated": "2026-09-10",
       "last_researched_by": "ko-researcher"
     },
@@ -2667,7 +2667,7 @@
       ],
       "developer": "홍경민",
       "publisher": null,
-      "description": "가수 홍경민이 2026년 9월 5일 서울 마포구 구름아래소극장에서 '9월의 매달리스트 콘서트'를 연다. 매달 같은 공연장에서 한 회차씩 이어가는 월간 단독 콘서트 시리즈로, 8월 회차에 이어지는 무대다. 200석 규모 소극장에서 관객과 가까이 호흡하는 형식이며 데뷔 이후의 히트곡을 중심으로 구성된다. 티켓은 NOL 티켓(인터파크)에서 예매할 수 있다.",
+      "description": "가수 홍경민이 2026년 9월 5일 서울 마포구 구름아래소극장에서 '9월의 매달리스트 콘서트'를 열었다. 매달 같은 공연장에서 한 회차씩 이어가는 월간 단독 콘서트 시리즈로, 8월 회차에 이어진 무대였다. 200석 규모 소극장에서 관객과 가까이 호흡하는 형식이며 데뷔 이후의 히트곡을 중심으로 구성됐다. 티켓은 NOL 티켓(인터파크)에서 예매할 수 있었다.",
       "genres": [
         "콘서트",
         "발라드"
@@ -2677,7 +2677,7 @@
       "presale": false,
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26011393",
+      "general_sale_url": null,
       "last_updated": "2026-09-10",
       "last_researched_by": "ko-researcher"
     },
@@ -2757,7 +2757,7 @@
       ],
       "developer": "성시경",
       "publisher": "에스케이재원·에스이십칠",
-      "description": "'고막 남친'으로 불리는 성시경이 약 2년 만에 여는 야외 콘서트로, 가을 하늘과 노을을 배경으로 한 피크닉형 공연이다. 성시경을 중심으로 양희은, 이재훈, 원미연, 김장훈, 거미, 권진아, 김광진 등 실력파 보컬리스트가 총출동하고 인도네시아 슈퍼스타 라이사(Raisa)도 합류한다. 9월 5일과 6일 이틀간 서울 올림픽공원 88잔디마당에서 열리며, 티켓은 7월 24일 오후 8시 NOL 티켓에서 예매가 시작된다.",
+      "description": "'고막 남친'으로 불리는 성시경이 약 2년 만에 여는 야외 콘서트로, 가을 하늘과 노을을 배경으로 한 피크닉형 공연이다. 성시경을 중심으로 양희은, 이재훈, 원미연, 김장훈, 거미, 권진아, 김광진 등 실력파 보컬리스트가 총출동했고 인도네시아 슈퍼스타 라이사(Raisa)도 합류했다. 9월 5일과 6일 이틀간 서울 올림픽공원 88잔디마당에서 열렸으며, 티켓은 7월 24일 오후 8시 NOL 티켓에서 예매가 시작됐다.",
       "genres": [
         "발라드",
         "콘서트"
@@ -2765,8 +2765,8 @@
       "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26010248_p.gif",
       "source_url": "https://sports.khan.co.kr/article/202607211450003/",
       "general_sale": false,
-      "general_sale_datetime": "2026-07-24T20:00:00+09:00",
-      "general_sale_url": "https://tickets.interpark.com/goods/26010248",
+      "general_sale_datetime": null,
+      "general_sale_url": null,
       "last_updated": "2026-09-10",
       "last_researched_by": "ko-researcher"
     },
@@ -3000,7 +3000,7 @@
       ],
       "developer": "back number(백넘버)",
       "publisher": null,
-      "description": "일본 국민밴드로 불리는 back number(백넘버)가 첫 아시아 투어 'Grateful Yesterdays Tour 2026'의 일환으로 데뷔 이래 첫 내한공연을 갖는다. 서울 공연은 9월 12일과 13일 이틀간 고양 킨텍스 제9홀에서 열리며, 서정적인 멜로디와 진솔한 노랫말의 발라드로 사랑받아온 밴드의 대표곡들을 라이브로 만날 수 있다. 티켓은 4월 22일 예스24 티켓 일반예매로 오픈됐으며 현재도 판매가 진행 중이다.",
+      "description": "일본 국민밴드로 불리는 back number(백넘버)가 첫 아시아 투어 'Grateful Yesterdays Tour 2026'의 일환으로 데뷔 이래 첫 내한공연을 가졌다. 서울 공연은 9월 12일과 13일 이틀간 고양 킨텍스 제9홀에서 열렸으며, 서정적인 멜로디와 진솔한 노랫말의 발라드로 사랑받아온 밴드의 대표곡들을 라이브로 선보였다. 티켓은 4월 22일 예스24 티켓 일반예매로 오픈됐다.",
       "genres": [
         "J-POP",
         "밴드",
@@ -3009,9 +3009,9 @@
       "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202604/20260416/20260416-58079.jpg",
       "source_url": "https://www.slist.kr/news/articleView.html?idxno=731524",
       "general_sale": false,
-      "general_sale_datetime": "2026-04-22T19:00:00+09:00",
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://ticket.yes24.com/Perf/58079",
+      "general_sale_url": null,
       "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher"
     },
@@ -3028,7 +3028,7 @@
       ],
       "developer": "크러쉬(Crush)",
       "publisher": null,
-      "description": "크러쉬가 9월 12일 오후 6시 30분 서울 명화라이브홀에서 팬미팅 〈ZZINBOMBTING : CRUSH FARM〉을 연다. 약 100분 동안 진행되며 전석 단일 가격으로 운영되고 전 연령이 관람할 수 있다. 팬들과 가까운 거리에서 소통하는 구성으로 마련됐으며 티켓은 NOL에서 단독 판매됐다. 크러쉬는 2014년 정규 1집 이후 R&B를 기반으로 꾸준히 활동해 온 싱어송라이터다.",
+      "description": "크러쉬가 9월 12일 오후 6시 30분 서울 명화라이브홀에서 팬미팅 〈ZZINBOMBTING : CRUSH FARM〉을 열었다. 약 100분 동안 진행됐으며 전석 단일 가격으로 운영되고 전 연령이 관람할 수 있었다. 팬들과 가까운 거리에서 소통하는 구성으로 마련됐으며 티켓은 NOL에서 단독 판매됐다. 크러쉬는 2014년 정규 1집 이후 R&B를 기반으로 꾸준히 활동해 온 싱어송라이터다.",
       "genres": [
         "R&B",
         "팬미팅"
@@ -3042,7 +3042,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26011974",
+      "general_sale_url": null,
       "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher"
     },
@@ -3059,7 +3059,7 @@
       ],
       "developer": "현재(HYUNJAE)",
       "publisher": null,
-      "description": "더보이즈 현재가 9월 12일과 13일 서울 코엑스아티움 우리은행홀에서 첫 단독 팬미팅 ［The Present for you］를 연다. 12일은 오후 2시와 오후 7시, 13일은 오후 1시와 오후 6시 등 총 네 차례로 진행되며 13일 회차는 수요에 따라 추가로 편성됐다. 공연 시간은 약 100분이고 8세 이상 관람할 수 있으며 전석 단일 가격으로 운영된다.",
+      "description": "더보이즈 현재가 9월 12일과 13일 서울 코엑스아티움 우리은행홀에서 첫 단독 팬미팅 ［The Present for you］를 열었다. 12일은 오후 2시와 오후 7시, 13일은 오후 1시와 오후 6시 등 총 네 차례로 진행됐으며 13일 회차는 수요에 따라 추가로 편성됐다. 공연 시간은 약 100분이고 8세 이상 관람할 수 있었으며 전석 단일 가격으로 운영됐다.",
       "genres": [
         "K-POP",
         "팬미팅"
@@ -3073,7 +3073,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26011954",
+      "general_sale_url": null,
       "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher"
     },
@@ -3186,7 +3186,7 @@
       ],
       "developer": "플레이브(PLAVE)",
       "publisher": null,
-      "description": "버추얼 아이돌 그룹 플레이브가 첫 월드투어 'KEEP IT MANIC'의 막을 인천에서 연다. 9월 12일과 13일 이틀간 인천문학경기장 주경기장에서 공연이 열리며, 버추얼 아이돌로는 처음으로 이 경기장에 입성하게 됐다. 티켓은 VIP석 19만8000원, R석 15만4000원, S석 13만2000원이고 만 12세 이상 관람가다. 예매는 NOL 티켓에서 6월 17일 팬클럽 선예매, 6월 19일 일반 예매로 진행됐다. 인천에 이어 가나가와, 방콕 등 해외 도시로 투어가 이어진다.",
+      "description": "버추얼 아이돌 그룹 플레이브가 첫 월드투어 'KEEP IT MANIC'의 막을 인천에서 열었다. 9월 12일과 13일 이틀간 인천문학경기장 주경기장에서 공연이 열렸으며, 버추얼 아이돌로는 처음으로 이 경기장에 입성했다. 티켓은 VIP석 19만8000원, R석 15만4000원, S석 13만2000원이고 만 12세 이상 관람가다. 예매는 NOL 티켓에서 6월 17일 팬클럽 선예매, 6월 19일 일반 예매로 진행됐다. 인천에 이어 가나가와, 방콕 등 해외 도시로 투어가 이어졌다.",
       "genres": [
         "K-POP",
         "콘서트",
@@ -3195,13 +3195,13 @@
       "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26008189_p.gif",
       "source_url": "https://www.starnewskorea.com/music/2026/06/15/2026061514220927038",
       "presale": false,
-      "presale_datetime": "2026-06-17T20:00:00+09:00",
+      "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
       "general_sale": false,
-      "general_sale_datetime": "2026-06-19T19:00:00+09:00",
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://nol.yanolja.com/ticket/products/26008189",
+      "general_sale_url": null,
       "last_updated": "2026-08-31",
       "last_researched_by": "ko-researcher"
     },
@@ -3218,7 +3218,7 @@
       ],
       "developer": "라이즈(RIIZE)",
       "publisher": "SM엔터테인먼트",
-      "description": "라이즈(RIIZE)가 데뷔 3주년을 맞아 9월 12일과 13일 인천 인스파이어 아레나에서 팬미팅 '채널 라이즈 : 온 에어(Ch. RIIZE : ON AIR)'를 연다. 공식 팬클럽 브리즈(BRIIZE)를 위한 방송 채널 콘셉트로 꾸며지며 360도 개방형 무대로 진행돼 현장감을 극대화한다. 비욘드 라이브와 위버스를 통한 온라인 생중계도 함께 이뤄지며, 국내 선예매는 7월 27일, 일반예매는 7월 29일부터 시작된다.",
+      "description": "라이즈(RIIZE)가 데뷔 3주년을 맞아 9월 12일과 13일 인천 인스파이어 아레나에서 팬미팅 '채널 라이즈 : 온 에어(Ch. RIIZE : ON AIR)'를 열었다. 공식 팬클럽 브리즈(BRIIZE)를 위한 방송 채널 콘셉트로 꾸며지며 360도 개방형 무대로 진행돼 현장감을 극대화했다. 비욘드 라이브와 위버스를 통한 온라인 생중계도 함께 이뤄졌으며, 국내 선예매는 7월 27일, 일반예매는 7월 29일부터 시작됐다.",
       "genres": [
         "K-POP",
         "팬미팅"
@@ -3226,13 +3226,13 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Riize_at_the_2024_Melon_Music_Awards-2.png/330px-Riize_at_the_2024_Melon_Music_Awards-2.png",
       "source_url": "https://www.etoday.co.kr/news/view/2605229",
       "presale": false,
-      "presale_datetime": "2026-07-27T20:00:00+09:00",
+      "presale_datetime": null,
       "presale_end_datetime": null,
-      "presale_url": "https://tickets.interpark.com/goods/26010045",
+      "presale_url": null,
       "general_sale": false,
-      "general_sale_datetime": "2026-07-29T20:00:00+09:00",
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26010045",
+      "general_sale_url": null,
       "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher"
     },
@@ -3303,7 +3303,7 @@
       ],
       "developer": "왁스",
       "publisher": null,
-      "description": "가수 왁스가 2026년 9월 13일 서울 마포구 구름아래소극장에서 소극장 시리즈 콘서트 '3579 : 가을의 문턱'을 연다. '3579'는 3월·5월·7월·9월 계절이 바뀌는 길목마다 관객과 가까운 거리에서 만나는 콘셉트로 기획된 연작 공연으로, 이번이 올해 시리즈의 마지막 회차다. 200석 규모 공연장에서 진행돼 밀도 높은 라이브를 들려줄 예정이며 티켓은 멜론티켓에서 판매된다.",
+      "description": "가수 왁스가 2026년 9월 13일 서울 마포구 구름아래소극장에서 소극장 시리즈 콘서트 '3579 : 가을의 문턱'을 열었다. '3579'는 3월·5월·7월·9월 계절이 바뀌는 길목마다 관객과 가까운 거리에서 만나는 콘셉트로 기획된 연작 공연으로, 이번이 올해 시리즈의 마지막 회차다. 200석 규모 공연장에서 진행돼 밀도 높은 라이브를 들려줬으며 티켓은 멜론티켓에서 판매됐다.",
       "genres": [
         "콘서트",
         "발라드"
@@ -3313,7 +3313,7 @@
       "presale": false,
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": "https://ticket.melon.com/performance/index.htm?prodId=213744",
+      "general_sale_url": null,
       "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher"
     },
@@ -3358,7 +3358,7 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/NCT127_-_Fact_Check_press_conference_Oct_6_2023.jpg/330px-NCT127_-_Fact_Check_press_conference_Oct_6_2023.jpg",
       "source_url": "https://www.tenasia.co.kr/article/2026073059144",
-      "last_updated": "2026-08-01",
+      "last_updated": "2026-09-18",
       "last_researched_by": "ko-researcher",
       "presale": false,
       "general_sale": false
@@ -3387,7 +3387,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-08-04",
+      "last_updated": "2026-09-18",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -3412,7 +3412,7 @@
       "source_url": "https://www.starnewskorea.com/music/2026/08/05/2026080511031277233",
       "presale": false,
       "presale_datetime": "2026-08-13T19:00:00+09:00",
-      "last_updated": "2026-08-20",
+      "last_updated": "2026-09-18",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -3497,7 +3497,8 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Vaundy_2025.jpg",
       "source_url": "https://sports.khan.co.kr/en/article/202603111454007",
       "general_sale": true,
-      "general_sale_url": "https://tickets.interpark.com/goods/26003199"
+      "general_sale_url": "https://tickets.interpark.com/goods/26003199",
+      "last_updated": "2026-09-18"
     },
     {
       "id": "ko-okf2026-orjet-kpop-festa-20260926",
@@ -3518,7 +3519,8 @@
         "K-POP"
       ],
       "image_url": null,
-      "source_url": "https://www.etnews.com/20260623000157"
+      "source_url": "https://www.etnews.com/20260623000157",
+      "last_updated": "2026-09-18"
     },
     {
       "id": "ko-silicagel-syn-the-size-seoul-20260926",
@@ -3582,23 +3584,23 @@
     },
     {
       "id": "ko-boynextdoor-home-repackage-20260928",
-      "name": "보이넥스트도어(BOYNEXTDOOR) 정규 1집 리패키지",
+      "name": "보이넥스트도어(BOYNEXTDOOR) 정규 1집 리패키지 'HOME: DELUXE'",
       "release_date": "2026-09-28",
-      "release_time": null,
+      "release_time": "18:00",
       "release_date_approx": false,
       "timezone": "Asia/Seoul",
       "category": "music_release",
       "platforms": [],
       "developer": "보이넥스트도어(BOYNEXTDOOR)",
       "publisher": "KOZ엔터테인먼트",
-      "description": "보이넥스트도어가 9월 28일 첫 정규앨범 'HOME'의 리패키지 앨범으로 국내 컴백한다. 6월 8일 발매한 'HOME'이 초동 108만여 장을 기록하며 네 번째 밀리언셀러가 된 지 112일 만이다. 그룹은 8월 18일 두 번째 일본 디지털 싱글을 먼저 내놓고 이어 국내 활동에 들어가며 한일 양국에서 공백 없이 움직인다. 앨범명과 타이틀곡은 아직 공개되지 않았다.",
+      "description": "보이넥스트도어가 9월 28일 오후 6시 첫 정규앨범 'HOME'의 리패키지 'HOME: DELUXE'로 국내 컴백한다. 6월 8일 발매한 'HOME'이 초동 108만여 장을 기록하며 네 번째 밀리언셀러가 된 지 112일 만이다. 그룹은 8월 18일 두 번째 일본 디지털 싱글을 먼저 내놓고 이어 국내 활동에 들어가며 한일 양국에서 공백 없이 움직인다. 타이틀곡은 지코가 프로듀싱에 참여한 'ANIMAL'로, 신곡 두 곡을 포함해 총 14곡이 실렸다.",
       "genres": [
         "K-POP",
         "컴백"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/BoyNextDoor_at_the_2024_Melon_Music_Awards.png",
       "source_url": "https://www.osen.co.kr/article/G1112851492",
-      "last_updated": "2026-08-13",
+      "last_updated": "2026-09-18",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -3633,23 +3635,23 @@
     },
     {
       "id": "ko-closeyoureyes-comeback-20260930",
-      "name": "클로즈 유어 아이즈 새 앨범 (9월 말 컴백)",
+      "name": "클로즈 유어 아이즈(Close Your Eyes) 미니 4집 '256th Note'",
       "release_date": "2026-09-30",
-      "release_time": null,
-      "release_date_approx": true,
+      "release_time": "18:00",
+      "release_date_approx": false,
       "timezone": "Asia/Seoul",
       "category": "music_release",
       "platforms": [],
       "developer": "클로즈 유어 아이즈",
       "publisher": "언코어",
-      "description": "보이그룹 클로즈 유어 아이즈가 9월 말 새 앨범으로 돌아온다. 소속사 언코어는 8월 10일 컴백 사실을 공식화했으며, 4월 발매한 디지털 싱글 '포즈' 이후 약 5개월 만의 초고속 컴백이다. 현재까지 공개된 일정은 '9월 말'뿐이고 정확한 발매일과 앨범명은 미공개 상태여서 등록된 날짜는 9월 말 기준 임시값이다. 공식 발표가 나오는 대로 정확한 일자로 갱신할 예정이다.",
+      "description": "보이그룹 클로즈 유어 아이즈가 9월 30일 오후 6시 네 번째 미니앨범 '256th Note'를 발매한다. 소속사 언코어는 8월 10일 컴백 사실을 공식화했고, 4월 발매한 디지털 싱글 '포즈' 이후 약 5개월 만의 초고속 컴백이다. 가장 짧은 음표 중 하나인 '256분음표'에서 영감을 받은 앨범으로 재즈·힙합·R&B·팝·보사노바·발라드 등 다양한 장르의 일곱 곡을 담았다. 발매 당일 오후 8시에는 온·오프라인 컴백 라이브도 진행한다.",
       "genres": [
         "K-POP",
         "컴백"
       ],
       "image_url": null,
       "source_url": "https://isplus.com/article/view/isp202608100020",
-      "last_updated": "2026-08-17",
+      "last_updated": "2026-09-18",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -3670,7 +3672,7 @@
       ],
       "image_url": null,
       "source_url": "https://www.tenasia.co.kr/article/2026080553014",
-      "last_updated": "2026-08-10",
+      "last_updated": "2026-09-18",
       "last_researched_by": "ko-researcher"
     },
     {
