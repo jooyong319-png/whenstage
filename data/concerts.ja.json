@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-14",
+  "last_updated": "2026-09-19",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -6757,6 +6757,285 @@
       "image_url": null,
       "source_url": "https://www.billboard-live.com/yokohama/show?event_id=ev-21523",
       "last_updated": "2026-09-12",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-equal-love-tokyo-dome-20270119",
+      "name": "＝LOVE in TOKYO DOME（1日目）",
+      "release_date": "2027-01-19",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ドーム"
+      ],
+      "developer": "＝LOVE",
+      "description": "指原莉乃プロデュースのアイドルグループ＝LOVEが、グループ初となる東京ドーム公演【＝LOVE in TOKYO DOME】を2027年1月19日・20日の2日間にわたって行う、その1日目。2026年の国立競技場2デイズで約13万2000人を動員した9周年コンサートに続く、キャリア最大規模の単独公演となる。チケットはオフィシャルファンクラブ最速先行が2026年10月13日17時から10月18日23時59分まで、FC先行が10月26日18時から11月1日23時59分まで受け付けられ、FC先行の終了後に一般先行の実施も予定されている。席種や価格などの詳細は追って発表される。",
+      "genres": [
+        "J-POP",
+        "アイドル"
+      ],
+      "source_url": "https://equal-love.jp/news/detail/11613",
+      "presale": true,
+      "general_sale": false,
+      "presale_datetime": "2026-10-13T17:00:00+09:00",
+      "presale_end_datetime": "2026-10-18T23:59:00+09:00",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": null,
+      "last_updated": "2026-09-19",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-equal-love-tokyo-dome-20270120",
+      "name": "＝LOVE in TOKYO DOME（2日目）",
+      "release_date": "2027-01-20",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ドーム"
+      ],
+      "developer": "＝LOVE",
+      "description": "指原莉乃プロデュースのアイドルグループ＝LOVEが、グループ初となる東京ドーム公演【＝LOVE in TOKYO DOME】を2027年1月19日・20日の2日間にわたって行う、その2日目。2026年の国立競技場2デイズで約13万2000人を動員した9周年コンサートに続く、キャリア最大規模の単独公演となる。チケットはオフィシャルファンクラブ最速先行が2026年10月13日17時から10月18日23時59分まで、FC先行が10月26日18時から11月1日23時59分まで受け付けられ、FC先行の終了後に一般先行の実施も予定されている。席種や価格などの詳細は追って発表される。",
+      "genres": [
+        "J-POP",
+        "アイドル"
+      ],
+      "source_url": "https://equal-love.jp/news/detail/11613",
+      "presale": true,
+      "general_sale": false,
+      "presale_datetime": "2026-10-13T17:00:00+09:00",
+      "presale_end_datetime": "2026-10-18T23:59:00+09:00",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": null,
+      "last_updated": "2026-09-19",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-xg-the-core-final-tokyo-20270210",
+      "name": "XG WORLD TOUR: THE CORE FINAL \"1\"（東京ドーム）",
+      "release_date": "2027-02-10",
+      "release_time": "18:30",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ドーム"
+      ],
+      "developer": "XG",
+      "description": "7人組グループXGの2度目のワールドツアー【XG WORLD TOUR: THE CORE】のファイナル公演で、東京ドームで行われる2日間のうち「1（ワン）」と題された一日。ファイナルは各会場とも1日目と2日目で異なるコンセプトのステージを組む構成で、東京ドームが2027年2月10日・11日、京セラドーム大阪が2月27日・28日の計4公演となる。ツアーは2026年2月のKアリーナ横浜公演で開幕し、アジア・ヨーロッパ・オーストラリア・北米を巡って計35公演を予定。この日の開演は18:30。チケットはオフィシャルファンクラブ「ALPHAZ」の最速先行が2026年8月7日から受け付けられた。",
+      "genres": [
+        "J-POP",
+        "ドームツアー"
+      ],
+      "source_url": "https://rollingstonejapan.com/articles/detail/45105",
+      "presale": true,
+      "general_sale": false,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": null,
+      "last_updated": "2026-09-19",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-xg-the-core-final-tokyo-20270211",
+      "name": "XG WORLD TOUR: THE CORE FINAL \"7\"（東京ドーム）",
+      "release_date": "2027-02-11",
+      "release_time": "17:00",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ドーム"
+      ],
+      "developer": "XG",
+      "description": "7人組グループXGの2度目のワールドツアー【XG WORLD TOUR: THE CORE】のファイナル公演で、東京ドームで行われる2日間のうち「7（セブン）」と題された一日。ファイナルは各会場とも1日目と2日目で異なるコンセプトのステージを組む構成で、東京ドームが2027年2月10日・11日、京セラドーム大阪が2月27日・28日の計4公演となる。ツアーは2026年2月のKアリーナ横浜公演で開幕し、アジア・ヨーロッパ・オーストラリア・北米を巡って計35公演を予定。この日の開演は17:00。チケットはオフィシャルファンクラブ「ALPHAZ」の最速先行が2026年8月7日から受け付けられた。",
+      "genres": [
+        "J-POP",
+        "ドームツアー"
+      ],
+      "source_url": "https://rollingstonejapan.com/articles/detail/45105",
+      "presale": true,
+      "general_sale": false,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": null,
+      "last_updated": "2026-09-19",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-xg-the-core-final-osaka-20270227",
+      "name": "XG WORLD TOUR: THE CORE FINAL \"1\"（京セラドーム大阪）",
+      "release_date": "2027-02-27",
+      "release_time": "17:00",
+      "category": "concert_tour",
+      "platforms": [
+        "京セラドーム大阪"
+      ],
+      "developer": "XG",
+      "description": "7人組グループXGの2度目のワールドツアー【XG WORLD TOUR: THE CORE】のファイナル公演で、京セラドーム大阪で行われる2日間のうち「1（ワン）」と題された一日。ファイナルは各会場とも1日目と2日目で異なるコンセプトのステージを組む構成で、東京ドームが2027年2月10日・11日、京セラドーム大阪が2月27日・28日の計4公演となる。ツアーは2026年2月のKアリーナ横浜公演で開幕し、アジア・ヨーロッパ・オーストラリア・北米を巡って計35公演を予定。この日の開演は17:00。チケットはオフィシャルファンクラブ「ALPHAZ」の最速先行が2026年8月7日から受け付けられた。",
+      "genres": [
+        "J-POP",
+        "ドームツアー"
+      ],
+      "source_url": "https://rollingstonejapan.com/articles/detail/45105",
+      "presale": true,
+      "general_sale": false,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": null,
+      "last_updated": "2026-09-19",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-xg-the-core-final-osaka-20270228",
+      "name": "XG WORLD TOUR: THE CORE FINAL \"7\"（京セラドーム大阪）",
+      "release_date": "2027-02-28",
+      "release_time": "17:00",
+      "category": "concert_tour",
+      "platforms": [
+        "京セラドーム大阪"
+      ],
+      "developer": "XG",
+      "description": "7人組グループXGの2度目のワールドツアー【XG WORLD TOUR: THE CORE】のファイナル公演で、京セラドーム大阪で行われる2日間のうち「7（セブン）」と題された一日。ファイナルは各会場とも1日目と2日目で異なるコンセプトのステージを組む構成で、東京ドームが2027年2月10日・11日、京セラドーム大阪が2月27日・28日の計4公演となる。ツアーは2026年2月のKアリーナ横浜公演で開幕し、アジア・ヨーロッパ・オーストラリア・北米を巡って計35公演を予定。この日の開演は17:00。チケットはオフィシャルファンクラブ「ALPHAZ」の最速先行が2026年8月7日から受け付けられた。",
+      "genres": [
+        "J-POP",
+        "ドームツアー"
+      ],
+      "source_url": "https://rollingstonejapan.com/articles/detail/45105",
+      "presale": true,
+      "general_sale": false,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": null,
+      "last_updated": "2026-09-19",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-sekai-no-owari-arena-tour-2027-20270417",
+      "name": "SEKAI NO OWARI ARENA TOUR 2027（全国11会場23公演）",
+      "release_date": "2027-04-17",
+      "release_time": "18:00",
+      "category": "concert_tour",
+      "platforms": [
+        "北海道立総合体育センター 北海きたえーる（ほか全国11会場23公演）"
+      ],
+      "developer": "SEKAI NO OWARI",
+      "description": "SEKAI NO OWARIが全国11会場23公演で行うアリーナツアー。2027年4月17日・18日の北海道立総合体育センター 北海きたえーるで開幕し、広島グリーンアリーナ、サンドーム福井、ぴあアリーナMM、ポートメッセなごや、朱鷺メッセ、国立代々木競技場第一体育館、静岡エコパアリーナ、マリンメッセ福岡A館、大阪城ホールを経て、7月23日から25日のKアリーナ横浜3デイズで千秋楽を迎える。チケットは指定席・着席指定席とも12,000円（税込）で、着席指定席はファンクラブ会員限定。オフィシャル先行は2026年9月17日で受付を終え、9月18日18時からオフィシャル2次先行が10月4日23時59分まで受け付けられている。",
+      "genres": [
+        "J-POP",
+        "アリーナツアー"
+      ],
+      "source_url": "https://sekainoowari.jp/info/2026/09/18/7918/",
+      "presale": true,
+      "general_sale": false,
+      "presale_datetime": "2026-09-18T18:00:00+09:00",
+      "presale_end_datetime": "2026-10-04T23:59:00+09:00",
+      "presale_url": "https://w.pia.jp/t/sekainoowari2027/",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": null,
+      "last_updated": "2026-09-19",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-tatsuro-yamashita-performance-2026-20261204",
+      "name": "山下達郎 PERFORMANCE 2026 supported by Rakuten Card 大阪公演（ツアーファイナル）",
+      "release_date": "2026-12-04",
+      "category": "concert_tour",
+      "platforms": [
+        "フェスティバルホール（大阪ほか全国11都市20公演）"
+      ],
+      "developer": "山下達郎",
+      "description": "山下達郎が2026年に行う全国ホールツアー【山下達郎 PERFORMANCE 2026 supported by Rakuten Card】のツアーファイナルにあたる大阪公演の初日。ツアーは9月18日の神奈川・よこすか芸術劇場で幕を開け、大阪フェスティバルホール、福岡サンパレス、NHKホール、ロームシアター京都、SGC HALL ARIAKE、新潟県民会館、札幌文化芸術劇場hitaru、高崎芸術劇場、愛知県芸術劇場、パシフィコ横浜と全国11都市を巡り、12月4日・5日のフェスティバルホールで全20公演を締めくくる。ホール規模にこだわり続ける山下のライブは長尺のセットリストと生演奏の密度で知られる。",
+      "genres": [
+        "J-POP",
+        "シティポップ",
+        "ホールツアー"
+      ],
+      "source_url": "https://www.sonymusic.co.jp/artist/tatsuro/info/584859",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": null,
+      "last_updated": "2026-09-19",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-wasuta-zepp-shinjuku-20261004",
+      "name": "わーすた WORLD TOUR 2026「WASUTA is my life!!!!」東京公演",
+      "release_date": "2026-10-04",
+      "release_time": "13:30",
+      "category": "concert_tour",
+      "platforms": [
+        "Zepp Shinjuku（TOKYO）"
+      ],
+      "developer": "わーすた",
+      "publisher": "キョードー東京",
+      "description": "2027年2月の解散を発表したわーすたが行うラストツアー【WORLD TOUR 2026「WASUTA is my life!!!!」】の東京公演。9月18日の福岡DRUM LOGOSを皮切りに広島LIVE VANQUISH、GORILLA HALL OSAKA、北海道cube gardenを回り、この日はZepp Shinjukuで13時30分開演の1部と17時開演の2部の2回公演を行う。1部は「観て聴いて元気になる」、2部は「満開のわーすたBEST」と題され、両部で内容が異なる。その後は愛知DIAMOND HALLに加え、タイ・韓国・台湾での追加公演も控える。チケットは2026年8月22日10時から先着で一般発売された。",
+      "genres": [
+        "J-POP",
+        "アイドル"
+      ],
+      "source_url": "https://wa-suta.world/en/schedule/tour.php?id=1003050",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-22T10:00:00+09:00",
+      "general_sale_url": "https://w.pia.jp/t/wa-suta2026/",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "image_url": null,
+      "last_updated": "2026-09-19",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-wasuta-last-live-20270214",
+      "name": "わーすた ラストライブ（SGC HALL ARIAKE）",
+      "release_date": "2027-02-14",
+      "category": "concert_tour",
+      "platforms": [
+        "SGC HALL ARIAKE（東京・有明）"
+      ],
+      "developer": "わーすた",
+      "description": "廣川奈々聖・松田美里・小玉梨々華・三品瑠香の4人からなるわーすたが、2027年2月14日に東京・SGC HALL ARIAKEで行う解散ライブ。「The World Standard」を略したグループ名のとおり海外志向を掲げ、2015年の結成以来デジタルネイティブ世代のアイドルとして活動してきた11年の歴史にこの日で幕を下ろす。ラストライブに先立ち、2026年9月から10月にかけて国内6都市を回るラストツアーと、タイ・韓国・台湾での海外公演が組まれている。チケットの受付方法など詳細は追って発表される。",
+      "genres": [
+        "J-POP",
+        "アイドル"
+      ],
+      "source_url": "https://avexnet.jp/news/1034301",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": null,
+      "last_updated": "2026-09-19",
+      "last_researched_by": "ja-researcher"
+    },
+    {
+      "id": "ja-wallwall-year-end-party-20251230",
+      "name": "『YEAR END PARTY』（表参道 WALL&WALL）",
+      "release_date": "2025-12-30",
+      "release_time": "16:00",
+      "category": "festival",
+      "platforms": [
+        "WALL&WALL（東京・表参道）"
+      ],
+      "developer": "Dungeoneering",
+      "publisher": "WALL&WALL",
+      "description": "東京・表参道のイベントスペースWALL&WALLが主催したイヤーエンドパーティで、2025年12月30日に開催された。ライブアクトにはAlbino SoundとDaigos（D.A.N.）によるエレクトロニックデュオのDungeoneering、どんぐりず、ZOMBIE-CHANGの3組が出演。DJには『岩壁音楽祭』クルーのPIXEL、『解体新書』のRomy Mats、シンガーソングライター北村蕗のDJ名義asak、Shimpei Watanabeが名を連ね、フードにはくいしんぼうシスターズが参加した。16時開場・開演で、前売4,000円・当日5,000円（各1ドリンク別）という設定だった。翌2026年に10周年を迎える会場が、節目の年の締めくくりとして開いた一夜となった。",
+      "genres": [
+        "エレクトロニック",
+        "オルタナティブ"
+      ],
+      "source_url": "https://spincoaster.com/news/wallwall-year-end-party",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "image_url": null,
+      "last_updated": "2026-09-19",
       "last_researched_by": "ja-researcher"
     }
   ]
