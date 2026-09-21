@@ -3,8 +3,42 @@
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
 | ko | 2026-09-18 | |
-| en | 2026-09-11 | ← |
-| ja | 2026-09-14 | |
+| en | 2026-09-21 | |
+| ja | 2026-09-14 | ← |
+
+---
+
+## 2026-09-21 · en
+
+로테이션상 en이 가장 오래된 점검일(2026-09-11)이라 선택. 대상 창: 2026-07-23 ~ 2026-11-20(오늘 ±60일), 창 안 항목 154건(끝난 것 60 / 예정 94). 코드는 손대지 않았고 `data/concerts.en.json`만 수정. push 전 `validate-data.mjs` 통과(파일 상단 `last_updated`도 오늘로 갱신).
+
+**트랙 A (졸업 처리) — 9건** (상한 20 이내)
+- A-1/A-2 끝난 공연에 남은 예매 필드·플래그 정리(§7 표대로 `presale`/`general_sale=false` + 관련 URL·datetime null). 전부 concert_tour/festival이라 `music_release` 예외 해당 없음:
+  - en-bigbang-2026-world-tour-east-rutherford-20260911 (general_sale_url null)
+  - en-charli-xcx-music-fashion-film-philadelphia-20260911 (presale/general_sale URL·datetime null)
+  - en-phoebe-bridgers-lost-tour-indianapolis-20260914 (general_sale_url·datetime null)
+  - en-jon-pardi-gamblin-man-richmond-20260917 (presale_datetime·general_sale URL·datetime null)
+  - en-riot-fest-2026-20260918 (general_sale=false, riotfest.org URL null)
+  - en-erykah-badu-alchemist-queens-20260918 (general_sale=false)
+  - en-erykah-badu-alchemist-forest-hills-20260918 (general_sale=false, ticketmaster URL null)
+  - en-melanie-martinez-hades-the-sacrifice-london-20260911 (general_sale_url null)
+- A-3 (release_date_approx 미해제): 창 안 끝난 항목 중 approx=true 없음 — 처리 없음
+- A-4 description 시제 교정: 위 8건 + festival 1건(en-lollapalooza-2026-20260730)에서 끝난 공연인데 남은 현재·미래 표현("brings/opens/launches/returns/headline/play/are waitlisted…")의 **시제만** 과거형으로 교정. 새 사실 추가 없음. 락페스티벌 라인업 동사(lead/headline/close→led/headlined/closed) 포함
+- ⚠️ en-shakira-...-madrid-20260918은 general_sale=true·URL 있으나 **12일 residency(9/18 개막, 진행 중)**라 판단해 졸업 처리 제외 — 지난 공연으로 오판하면 살아 있는 예매를 죽이는 셈. 다음 회차 창 안에서 재판정
+
+**트랙 B (임박 점검) — 8건 확인** (공연일 가까운 순, last_updated 오래된/미기록 우선). 8건 모두 공식·언론·예매처 소스로 정상 개최/발매 확인, 취소·연기 없음. 전부 last_updated=2026-09-21 갱신:
+- en-neil-young-willie-nelson-bridgeport-20260922 — 9/22 19:00 Hartford HealthCare Amphitheater 정상, Ty Myers 서포트(Consequence/TicketNews/Spotify). **B-4 보강**: release_time 미기입 → 19:00 확정
+- en-rebecca-black-exhibitionism-tour-boston-20260923 — 9/23 20:00 Royale 투어 개막 정상(AXS/BrooklynVegan/Pollstar). **B-4 보강**: release_time 미기입 → 20:00 확정
+- en-lucinda-williams-worlds-gone-wrong-atlanta-20260924 — 9/24~25 Variety Playhouse 2일 정상(Pollstar/Glide/Consequence)
+- en-slothrust-dystopian-theatre-tour-boston-20260924 — 9/24 20:00 Royale 정상, 신보 발매 확인(AXS/SLR Magazine). general_sale_url(axs) 유효
+- en-neil-young-willie-nelson-philadelphia-20260924 — 9/24 Highmark Mann Center, Bridgeport과 함께 발표된 2회차 중 하나로 정상(Consequence/TicketNews)
+- en-icona-pop-ritual-tour-brooklyn-20260925 — 9/25 Baby's All Right 정상, Ritual 발매 후 투어(mxdwn/Pollstar/DoNYC)
+- en-kylie-cantrall-valley-girl-problems-minneapolis-20260925 — 9/25 The Fillmore 투어 개막 정상(Ticketmaster/Consequence/Pollstar), 기존 release_time 19:00 유지
+- en-brandi-carlile-returning-to-myself-sad-gay-version-20260925 — 9/25 Interscope/Lost Highway 디럭스 발매 확정(Universal Music/JamBase/Consequence)
+- B-3 링크: 예매처(Ticketmaster/AXS/Live Nation 등)는 로봇 차단·매진 표시가 잦아 직접 열지 않고 언론·공식 소스로 개최·판매 진행을 교차 확인 → 재확인 원칙대로 죽은 링크로 단정하지 않고 유지
+
+**남은 것**: 순수 A-4 후보(끝난 항목 중 미래시제만 남은 레코드)가 창 안에 더 있을 수 있으나 상한·정확도 관리를 위해 다음 회차로 이월(조건 자기서술적). en-shakira residency 종료 여부 다음 회차 재판정
+**리서처 참고(추가·수정 안 함)**: 점검 범위(±60일)에서 신규 미등록 공연 발견 사항 없음
 
 ---
 
