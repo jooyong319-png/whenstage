@@ -43,7 +43,18 @@ export function middleware(req: NextRequest) {
 
   const url = req.nextUrl.clone();
   url.pathname = `/${locale}`;
-  return NextResponse.redirect(url, 307);
+
+  // 307(임시)을 쓰는 이유 — **목적지가 고정이 아니다.** 같은 `/`가 요청자에 따라
+  // `/ko`·`/en`·`/ja`로 갈린다. 308(영구)은 "이 주소는 영원히 저기"라는 선언이라
+  // 브라우저·크롤러가 캐시해버리고, 그러면 한 언어로 굳어 나머지가 영영 못 간다.
+  // (2026-09-21 외부 점검에서 308 전환을 제안받았으나 이 이유로 유지하기로 했다.)
+  const res = NextResponse.redirect(url, 307);
+
+  // 🔴 분기 리다이렉트에는 Vary가 필수다. 이게 없으면 CDN·프록시 같은 공유 캐시가
+  // `/ → /ko` 한 번의 응답을 모든 사용자에게 돌려줘 영어 사용자가 한국어로 끌려간다.
+  // 응답이 무엇에 따라 달라지는지를 그대로 적는다 — 위에서 쿠키와 Accept-Language를 본다.
+  res.headers.set('Vary', 'Accept-Language, Cookie');
+  return res;
 }
 
 // 루트(/)에서만 실행 — 다른 모든 경로(/ko/*, /en/*, /ja/*, API, 정적 파일 등)는 미들웨어 자체가 돌지 않는다.

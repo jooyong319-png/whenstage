@@ -24,7 +24,7 @@ export function RelatedEventCard({ game, lang, dateText }: Props) {
         {showImg ? (
           <>
             <img src={game.image_url!} alt="" aria-hidden="true" className={styles.thumbBg} loading="lazy" />
-            <img ref={imgRef} src={game.image_url!} alt="" className={styles.thumbFg} loading="lazy" onError={() => setImgError(true)} />
+            <img ref={imgRef} src={game.image_url!} alt="" aria-hidden="true" className={styles.thumbFg} loading="lazy" onError={() => setImgError(true)} />
           </>
         ) : (
           <div className={styles.thumbPh} style={{ background: cat.color }} aria-hidden="true" />

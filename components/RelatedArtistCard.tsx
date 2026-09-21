@@ -18,7 +18,7 @@ export function RelatedArtistCard({ href, name, image, metaText }: Props) {
     <a href={href} className={styles.card}>
       <div className={styles.avatar}>
         {showImg ? (
-          <img ref={imgRef} src={image!} alt="" className={styles.img} loading="lazy" onError={() => setImgError(true)} />
+          <img ref={imgRef} src={image!} alt="" aria-hidden="true" className={styles.img} loading="lazy" onError={() => setImgError(true)} />
         ) : (
           <div className={styles.placeholder} aria-hidden="true">{name.slice(0, 1)}</div>
         )}
