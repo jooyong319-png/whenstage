@@ -13,3 +13,9 @@ tsconfig.tsbuildinfo
 # 빌드가 자동 생성 — 커밋해두면 rebase 때마다 충돌한다
 next-env.d.ts
 .claude/
+# Vercel CLI 연결 정보 (vercel link가 생성)
+.vercel
+# 위쪽 .env.local / .env*.local 에 더해, 확장자 없는 .env 도 막는다.
+# .env.example 은 "뭐가 필요한지" 알려주는 문서라 예외 (2026-09-08에 세 저장소에 추가했다)
+.env*
+!.env.example
