@@ -109,7 +109,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const gameUrls: MetadataRoute.Sitemap = [];
   for (const lang of LOCALES) {
-    const dataUpdated = dataUpdatedByLocale[lang];
     for (const g of gamesByLocale[lang]) {
       const upcoming = g.release_date_approx || g.release_date >= todayStr;
       // 티켓팅 가산점은 **아직 안 지난 공연에만** 준다. 끝난 공연에 presale/general_sale
@@ -128,9 +127,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         if (Object.keys(languages).length > 1) alternates = { languages };
       }
 
+      // lastmod는 **그 항목이 실제로 바뀐 날**만 쓴다. 예전엔 로케일 데이터 갱신일
+      // (dataUpdated)을 전부에 붙였는데, ko 파일이 갱신되면 안 바뀐 601장까지 "방금
+      // 수정됨"으로 신고하는 꼴이라 구글이 lastmod를 통째로 무시하게 되는 패턴이었다
+      // (통합 위키 seo.md). 값이 없으면 **생략한다** — 틀린 날짜보다 없는 편이 낫다.
       gameUrls.push({
         url: `${BASE}/${lang}/concert/${g.id}`,
-        lastModified: dataUpdated,
+        ...(g.updated_at ? { lastModified: new Date(g.updated_at) } : {}),
         changeFrequency: ticketing || upcoming ? 'daily' : 'weekly',
         priority,
         ...(alternates ? { alternates } : {}),

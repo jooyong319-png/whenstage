@@ -112,6 +112,15 @@ for (const file of files) {
     if (seen.has(g?.id)) problems.push(`${file} / ${id}: id 중복`);
     seen.add(g?.id);
 
+    // updated_at은 선택 필드지만, 있으면 형식이 맞아야 한다 — 사이트맵 lastmod로 나가기 때문에
+    // 잘못된 값이 Invalid Date가 되어 조용히 깨진 날짜를 내보낸다.
+    if (g?.updated_at != null) {
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(g.updated_at)) {
+        problems.push(`${file} / ${id}: updated_at 형식이 YYYY-MM-DD가 아니다 (${g.updated_at})`);
+      } else if (g.updated_at > new Date().toISOString().slice(0, 10)) {
+        problems.push(`${file} / ${id}: updated_at이 미래 날짜다 (${g.updated_at})`);
+      }
+    }
     if (g?.release_date && !/^\d{4}-\d{2}-\d{2}$/.test(g.release_date)) {
       problems.push(`${file} / ${id}: release_date 형식이 YYYY-MM-DD가 아니다 (${g.release_date})`);
     }
