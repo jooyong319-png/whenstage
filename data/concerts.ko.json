@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-18",
+  "last_updated": "2026-09-21",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -3438,11 +3438,11 @@
       "presale_datetime": "2026-07-22T20:00:00+09:00",
       "presale_end_datetime": "2026-07-22T23:59:59+09:00",
       "presale_url": "https://tickets.interpark.com/goods/26010264",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-07-23T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26010264",
-      "last_updated": "2026-09-08",
+      "last_updated": "2026-09-21",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -3496,9 +3496,10 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Vaundy_2025.jpg",
       "source_url": "https://sports.khan.co.kr/en/article/202603111454007",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_url": "https://tickets.interpark.com/goods/26003199",
-      "last_updated": "2026-09-18"
+      "last_updated": "2026-09-21",
+      "last_researched_by": "ko-researcher"
     },
     {
       "id": "ko-okf2026-orjet-kpop-festa-20260926",
@@ -4853,14 +4854,14 @@
       ],
       "developer": "로이킴",
       "publisher": null,
-      "description": "로이킴이 11월 21일과 22일 이틀간 서울 올림픽공원 KSPO DOME에서 연말 단독 콘서트를 연다. 데뷔 이후 처음으로 이 규모의 공연장에 서는 무대로, 로이킴은 최근 4년 연속 연말 단독 공연을 전석 매진시키며 대표적인 공연형 싱어송라이터로 자리 잡았다. 공연 제목과 티켓 예매 일정은 아직 공개되지 않았으며, 소속사 공식 채널을 통해 순차적으로 안내될 예정이다.",
+      "description": "로이킴이 11월 21일과 22일 이틀간 서울 올림픽공원 KSPO DOME에서 연말 단독 콘서트를 연다. 데뷔 이후 처음으로 이 규모의 공연장에 서는 무대로, 로이킴은 최근 4년 연속 연말 단독 공연을 전석 매진시키며 대표적인 공연형 싱어송라이터로 자리 잡았다. 공연에 앞서 10월 6일에는 3년 연속 10월 발매가 되는 새 싱글 '크게 울어라'를 내놓는다. 구체적인 공연 제목과 티켓 예매 일정은 소속사 공식 채널을 통해 순차적으로 안내될 예정이다.",
       "genres": [
         "발라드",
         "콘서트"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/180531_%EB%A1%9C%EC%9D%B4%ED%82%B4.jpg/330px-180531_%EB%A1%9C%EC%9D%B4%ED%82%B4.jpg",
       "source_url": "https://sports.khan.co.kr/article/202607160757003/",
-      "last_updated": "2026-08-01",
+      "last_updated": "2026-09-21",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -5064,8 +5065,8 @@
     {
       "id": "ko-wavetoearth-seoul-20261219",
       "name": "웨이브투어스(wave to earth) 서울 단독 콘서트",
-      "release_date": "2026-12-19",
-      "release_time": "18:00",
+      "release_date": "2026-12-18",
+      "release_time": null,
       "release_date_approx": false,
       "timezone": "Asia/Seoul",
       "category": "concert_tour",
@@ -5074,7 +5075,7 @@
       ],
       "developer": "웨이브투어스(wave to earth)",
       "publisher": "웨이비인터내셔널",
-      "description": "웨이브투어스(wave to earth)가 연말 서울 단독 콘서트를 연다. 12월 19일 오후 6시와 20일 오후 5시 이틀간 서울 고려대학교 화정체육관에서 열리며, 관람 시간은 약 120분, 만 11세 이상 관람가다. 티켓은 스탠딩석 13만2000원, 지정석 14만3000원으로 책정됐다. 주최·주관은 웨이비인터내셔널과 놀유니버스가 맡고, 일반 예매는 9월 1일 낮 12시 NOL 티켓에서 시작된다.",
+      "description": "웨이브투어스(wave to earth)가 월드투어 'the pieces tour'의 대미를 서울에서 장식한다. 당초 12월 19일과 20일 이틀로 예정됐으나 전석이 매진되면서 18일 공연이 추가돼 총 세 차례로 늘었고, 장소는 서울 고려대학교 화정체육관이다. 추가 회차 역시 9월 8일 선예매 오픈과 동시에 매진됐다. 정규 2집 'bad pieces'를 들고 도는 이번 투어는 9월부터 북미 21개 도시와 아시아 8개 도시 등 30개 도시를 돈다. 주최·주관은 웨이비인터내셔널과 놀유니버스다.",
       "genres": [
         "인디",
         "밴드",
@@ -5086,11 +5087,11 @@
       "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-09-01T12:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26012666",
-      "last_updated": "2026-09-08",
+      "last_updated": "2026-09-21",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -5169,7 +5170,7 @@
       ],
       "developer": "브루노 마스(Bruno Mars)",
       "publisher": "라이브네이션코리아",
-      "description": "브루노 마스가 2027년 5월 경기 고양종합운동장 주경기장에서 단독 내한공연을 연다. 네 번째 정규 앨범 [The Romantic]과 함께 도는 'The Romantic Tour'의 한국 일정으로, 5월 21일과 22일, 25일과 26일 총 네 차례 오후 7시 45분에 무대에 오른다. 2023년 잠실종합운동장 주경기장 공연 이후 약 4년 만의 내한이며, 실크 소닉으로 호흡을 맞춰 온 앤더슨 팩이 DJ 피위라는 이름으로 스페셜 게스트로 함께한다. 주최·주관은 라이브네이션코리아이고, 아티스트·라이브네이션 선예매는 9월 11일 낮 12시, 일반 예매는 9월 14일 낮 12시에 열린다.",
+      "description": "브루노 마스가 2027년 5월 경기 고양종합운동장 주경기장에서 단독 내한공연을 연다. 네 번째 정규 앨범 [The Romantic]과 함께 도는 'The Romantic Tour'의 한국 일정으로, 당초 5월 21·22·25·26일 네 차례로 예정됐으나 선예매와 일반 예매에서 티켓이 빠르게 팔리면서 29일과 30일 공연이 차례로 추가돼 총 여섯 차례로 늘었다. 모든 회차는 오후 7시 45분에 시작한다. 2023년 잠실종합운동장 주경기장 공연 이후 약 4년 만의 내한이며, 실크 소닉으로 호흡을 맞춰 온 앤더슨 팩이 스페셜 게스트로 함께한다. 주최·주관은 라이브네이션코리아다.",
       "genres": [
         "팝",
         "내한",
@@ -5185,7 +5186,7 @@
       "general_sale_datetime": "2026-09-14T12:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26012591",
-      "last_updated": "2026-09-10",
+      "last_updated": "2026-09-21",
       "last_researched_by": "ko-researcher"
     },
     {
@@ -6144,6 +6145,502 @@
       "source_url": "https://www.tenasia.co.kr/article/2026091052644",
       "last_updated": "2026-09-14",
       "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-txt-steal-the-wind-seoul-20261113",
+      "name": "TOMORROW X TOGETHER WORLD TOUR 〈STEAL THE WIND〉 IN SEOUL",
+      "release_date": "2026-11-13",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KSPO DOME(올림픽체조경기장)"
+      ],
+      "developer": "투모로우바이투게더(TOMORROW X TOGETHER)",
+      "publisher": "빅히트뮤직·하이브",
+      "description": "투모로우바이투게더가 새 월드투어 〈STEAL THE WIND〉의 서울 공연을 연다. 11월 13일 오후 7시, 14일 오후 6시, 15일 오후 5시 사흘간 서울 올림픽공원 KSPO DOME에서 세 차례 무대에 오르며, 주최·주관은 빅히트뮤직과 하이브가 맡는다. 관람 등급은 만 9세 이상이다. 공연은 온·오프라인 동시 진행으로 예고됐고, 온라인 라이브 스트리밍 예매 안내는 추후 공지된다. 국내 페이지 멤버십 선예매는 10월 1일 오후 8시, 글로벌 페이지 선예매는 10월 2일 오후 8시에 열린다.",
+      "genres": [
+        "K-POP",
+        "콘서트",
+        "월드투어"
+      ],
+      "image_url": "https://ticketimage.interpark.com/TicketImage/notice_poster/20/2026091110015991.jpg",
+      "source_url": "https://tickets.interpark.com/goods/26013161",
+      "presale": true,
+      "presale_datetime": "2026-10-01T20:00:00+09:00",
+      "presale_end_datetime": "2026-10-01T23:59:00+09:00",
+      "presale_url": "https://tickets.interpark.com/goods/26013161",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-06T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26013161",
+      "last_updated": "2026-09-21",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-day6-5th-fanmeeting-incheon-20261023",
+      "name": "DAY6 5TH FANMEETING 〈EVERY DAY6, EVERY My Day〉",
+      "release_date": "2026-10-23",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "인스파이어 아레나"
+      ],
+      "developer": "데이식스(DAY6)",
+      "publisher": null,
+      "description": "데이식스가 다섯 번째 공식 팬미팅 〈EVERY DAY6, EVERY My Day〉를 10월 23일부터 25일까지 사흘간 인천 인스파이어 아레나에서 세 차례 연다. 마지막 날인 25일 공연은 비욘드 라이브(Beyond LIVE) 플랫폼을 통해 유료 온라인 생중계로도 동시에 진행돼 현장을 찾지 못한 팬들도 함께할 수 있다. 관람 연령은 만 7세 이상이며, 팬클럽 마이데이 6기 선예매는 9월 18일 오후 8시, 일반 예매는 9월 21일 오후 8시 NOL 티켓 단독으로 열린다.",
+      "genres": [
+        "K-POP",
+        "밴드",
+        "팬미팅"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26012624_p.gif",
+      "source_url": "https://tickets.interpark.com/goods/26012624",
+      "presale": true,
+      "presale_datetime": "2026-09-18T20:00:00+09:00",
+      "presale_end_datetime": "2026-09-18T23:59:00+09:00",
+      "presale_url": "https://tickets.interpark.com/goods/26012624",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-21T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26012624",
+      "last_updated": "2026-09-21",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-rain-the-smoke-seoul-20261205",
+      "name": "2026 RAIN CONCERT : THE SMOKE – SEOUL",
+      "release_date": "2026-12-05",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "올림픽공원(올림픽홀)"
+      ],
+      "developer": "비(RAIN)",
+      "publisher": null,
+      "description": "가수 비가 12월 5일과 6일 이틀간 서울 올림픽공원 올림픽홀에서 단독 콘서트 '2026 RAIN CONCERT : THE SMOKE – SEOUL'을 연다. 한 해를 마무리하는 연말 공연으로, 그동안 쌓아 온 히트곡과 퍼포먼스를 묶어 선보일 예정이다. 비는 자신의 SNS를 통해 콘서트 상세 페이지 오픈 소식을 직접 알리며 관심을 요청했다. 팬클럽 선예매는 9월 29일 오후 8시, 일반 예매는 10월 1일 오후 8시부터 진행된다.",
+      "genres": [
+        "K-POP",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://www.jnilbo.com/news/articleView.html?idxno=90000066278",
+      "presale": true,
+      "presale_datetime": "2026-09-29T20:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-01T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-09-21",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-kwonjinah-save-me-seoul-20261106",
+      "name": "2026 권진아 단독 콘서트 'SAVE ME' - 서울",
+      "release_date": "2026-11-06",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "명화라이브홀"
+      ],
+      "developer": "권진아",
+      "publisher": null,
+      "description": "권진아가 데뷔 10주년을 맞아 첫 전국 투어의 문을 서울에서 연다. 11월 6일 오후 8시, 7일 오후 6시, 8일 오후 5시 세 차례 서울 명화라이브홀에서 'SAVE ME'라는 이름으로 무대에 오르며, 데뷔 이후 처음 시도하는 스탠딩 콘서트다. 잔잔한 발라드로 알려진 그가 밴드 사운드를 앞세운 새로운 구성을 예고했다. 서울 공연에 이어 12월에는 대구와 부산에서 연말 브랜드 공연 'THIS WINTER'가 이어진다.",
+      "genres": [
+        "발라드",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://www.joongangenews.com/news/articleView.html?idxno=546610",
+      "last_updated": "2026-09-21",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-kwonjinah-this-winter-daegu-20261212",
+      "name": "2026 KWON JIN AH LIVE TOUR 'THIS WINTER' IN DAEGU",
+      "release_date": "2026-12-12",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "대구 엑스코(오디토리움)"
+      ],
+      "developer": "권진아",
+      "publisher": null,
+      "description": "권진아의 연말 브랜드 공연 'THIS WINTER'가 12월 12일과 13일 이틀간 대구 엑스코 오디토리움에서 열린다. 데뷔 10주년 기념 첫 전국 투어의 한 축으로, 11월 서울 스탠딩 공연과는 다른 세트리스트를 짜 겨울 정서에 맞춘 무대를 꾸민다고 예고했다. 관람 연령은 만 8세 이상이다. 팬클럽 선예매는 9월 21일 오후 5시, 일반 예매는 9월 23일 오후 5시 NOL 티켓 단독으로 진행된다.",
+      "genres": [
+        "발라드",
+        "콘서트"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26013115_p.gif",
+      "source_url": "https://tickets.interpark.com/goods/26013115",
+      "presale": true,
+      "presale_datetime": "2026-09-21T17:00:00+09:00",
+      "presale_end_datetime": "2026-09-22T23:59:00+09:00",
+      "presale_url": "https://tickets.interpark.com/goods/26013115",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-23T17:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26013115",
+      "last_updated": "2026-09-21",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-kwonjinah-this-winter-busan-20261225",
+      "name": "2026 KWON JIN AH LIVE TOUR 'THIS WINTER' IN BUSAN",
+      "release_date": "2026-12-25",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KBS부산홀"
+      ],
+      "developer": "권진아",
+      "publisher": null,
+      "description": "권진아가 성탄절인 12월 25일과 26일 이틀간 부산 KBS부산홀에서 연말 공연 'THIS WINTER'를 연다. 데뷔 10주년 기념 첫 전국 투어의 마지막 지역 일정으로, 서울 스탠딩 공연과는 다른 세트리스트로 차분한 겨울 무대를 준비한다. 관람 연령은 만 8세 이상이다. 팬클럽 선예매는 9월 21일 오후 6시, 일반 예매는 9월 23일 오후 6시에 NOL 티켓에서 단독으로 열린다.",
+      "genres": [
+        "발라드",
+        "콘서트"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26013067_p.gif",
+      "source_url": "https://tickets.interpark.com/goods/26013067",
+      "presale": true,
+      "presale_datetime": "2026-09-21T18:00:00+09:00",
+      "presale_end_datetime": "2026-09-22T23:59:00+09:00",
+      "presale_url": "https://tickets.interpark.com/goods/26013067",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-23T18:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26013067",
+      "last_updated": "2026-09-21",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-malcolmtodd-do-that-again-seoul-20261202",
+      "name": "말콤 토드 첫 내한공연 (Malcolm Todd: Do That Again Tour in Seoul)",
+      "release_date": "2026-12-02",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "명화라이브홀"
+      ],
+      "developer": "말콤 토드(Malcolm Todd)",
+      "publisher": null,
+      "description": "미국 싱어송라이터 말콤 토드가 12월 2일 오후 8시 서울 영등포 명화라이브홀에서 첫 단독 내한공연을 연다. 'Do That Again Tour'의 서울 일정으로, 스탠딩과 지정석이 각각 12만1000원에 책정됐고 얼티밋·어쿠스틱·얼리 엔트리 VIP 등 패키지 상품도 별도로 판매된다. 관람 연령은 만 15세 이상이다. 아티스트 선예매는 9월 21일 낮 12시, 일반 예매는 9월 22일 낮 12시 NOL 티켓 단독으로 열린다.",
+      "genres": [
+        "팝",
+        "내한공연"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26013394_p.gif",
+      "source_url": "https://tickets.interpark.com/goods/26013394",
+      "presale": true,
+      "presale_datetime": "2026-09-21T12:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": "https://tickets.interpark.com/goods/26013394",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-22T12:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26013394",
+      "last_updated": "2026-09-21",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-redoor-memory-seoul-20260926",
+      "name": "2026 Redoor 단독콘서트 〈Memory〉",
+      "release_date": "2026-09-26",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "올림픽공원(올림픽홀)"
+      ],
+      "developer": "리도어(Redoor)",
+      "publisher": "노머스",
+      "description": "밴드 리도어가 9월 26일 오후 6시와 27일 오후 5시 이틀간 서울 올림픽공원 올림픽홀에서 단독 콘서트 〈Memory〉를 연다. 같은 달 발매한 미니 4집 'Memory'를 앞세운 공연으로, 올림픽홀 입성은 팀의 성장세를 보여주는 무대로 꼽힌다. 두 회차 모두 예매 시작과 함께 전석이 매진됐다. 9월 28일 멤버 박세웅의 군 입대를 앞두고 있어 당분간 완전체로 서는 마지막 공연이기도 하다.",
+      "genres": [
+        "밴드",
+        "인디",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://www.xportsnews.com/article/2196330",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-09-21",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-redoor-memory-ep-20260916",
+      "name": "리도어(Redoor) 미니 4집 'Memory'",
+      "release_date": "2026-09-16",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "리도어(Redoor)",
+      "publisher": "노머스",
+      "description": "밴드 리도어가 9월 16일 오후 6시 각종 음원 사이트를 통해 미니 4집 'Memory'를 발매했다. 타이틀곡 '아게하'를 비롯해 '버릇', '추락메이트', 'Feathers', '흉터', '작은세계'까지 기억을 주제로 엮은 여섯 곡이 담겼다. 타이틀곡은 서서히 침식돼 가는 관계의 잔상을 그려 사랑이 남긴 흉터를 꺼내 보이는 곡으로 소개됐다. 신보 발매 열흘 뒤인 26~27일에는 올림픽홀 단독 콘서트가 이어진다.",
+      "genres": [
+        "밴드",
+        "인디",
+        "발매"
+      ],
+      "image_url": null,
+      "source_url": "https://www.xportsnews.com/article/2196330",
+      "last_updated": "2026-09-21",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-kickflip-kick-off-the-wall-pt1-20261006",
+      "name": "킥플립(KickFlip) 미니 5집 'KICK OFF THE WALL Pt. 1'",
+      "release_date": "2026-10-06",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "킥플립(KickFlip)",
+      "publisher": "JYP엔터테인먼트",
+      "description": "킥플립이 10월 6일 오후 6시 미니 5집 'KICK OFF THE WALL Pt. 1'을 발매한다. 데뷔 후 처음으로 더블 타이틀곡 체제를 택해 '미완성'과 미국 아티스트 이안 디올이 피처링한 'Kick Off The Wall'을 함께 내세웠다. 두 곡은 각각 팀이 스스로에게 던진 질문과 그에 대해 찾아낸 답을 담아 하나의 이야기로 이어진다. 멤버 전원이 앨범 전곡 크레디트에 이름을 올렸고, 발매 당일 오후 7시 엠넷 M2에서 컴백 스테이지가 진행된다.",
+      "genres": [
+        "K-POP",
+        "컴백",
+        "발매"
+      ],
+      "image_url": null,
+      "source_url": "https://www.tenasia.co.kr/article/2026090800614",
+      "last_updated": "2026-09-21",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-nctwish-i-spy-20261012",
+      "name": "엔시티 위시(NCT WISH) 미니 4집 'I SPY'",
+      "release_date": "2026-10-12",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "엔시티 위시(NCT WISH)",
+      "publisher": "SM엔터테인먼트",
+      "description": "엔시티 위시가 10월 12일 오후 6시 네 번째 미니앨범 'I SPY'를 발매한다. 4월 정규 1집 'Ode to Love' 이후 약 6개월 만의 국내 컴백으로, 동명의 타이틀곡을 포함해 총 여섯 곡이 담긴다. 여러 감정을 새롭게 마주하며 성장해 가는 팀의 이야기를 콘셉트로 잡았다. 앞서 정규 1집으로 3연속 밀리언셀러를 기록하고 음반·음원 모두 자체 최고 기록을 새로 쓴 만큼 이번 신보의 성적에도 관심이 모인다. 실물 음반 예약 판매는 9월 14일 시작됐다.",
+      "genres": [
+        "K-POP",
+        "컴백",
+        "발매"
+      ],
+      "image_url": null,
+      "source_url": "https://www.starnewskorea.com/music/2026/09/14/2026091410045383155",
+      "last_updated": "2026-09-21",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-riize-prologue-single-20261026",
+      "name": "라이즈(RIIZE) 정규 2집 프롤로그 싱글",
+      "release_date": "2026-10-26",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "라이즈(RIIZE)",
+      "publisher": "SM엔터테인먼트",
+      "description": "라이즈가 10월 26일 정규 2집으로 가는 길목에서 프롤로그 싱글을 공개한다. 정규 2집 자체는 2027년 봄 발매로 예고됐고, 이번 싱글은 그 서막에 해당한다. 활동 계획은 9월 12~13일 인천 인스파이어 아레나에서 열린 데뷔 3주년 팬미팅 'Ch. RIIZE : ON AIR' 종료 직후 상영된 영상을 통해 공개됐으며, 이틀간 2만3000여 명이 현장을 찾았다. 라이즈는 이 싱글을 시작으로 연말까지 활동을 이어갈 예정이다.",
+      "genres": [
+        "K-POP",
+        "발매"
+      ],
+      "image_url": null,
+      "source_url": "https://www.starnewskorea.com/music/2026/09/14/2026091411013690861",
+      "last_updated": "2026-09-21",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-illit-break-even-20261026",
+      "name": "아일릿(ILLIT) 미니 5집 'BREAK EVEN'",
+      "release_date": "2026-10-26",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "아일릿(ILLIT)",
+      "publisher": "빌리프랩",
+      "description": "아일릿이 10월 26일 미니 5집 'BREAK EVEN'으로 돌아온다. 앨범명은 손실도 이익도 없는 상태를 뜻하는 경제 용어 손익분기점에서 따왔고, 애쓴 만큼 돌아오지 않는 관계에 더는 마음과 시간을 쏟지 않겠다는 선언을 담았다. 그동안 상대를 향해 직진하던 화법에서 벗어나 미지근한 태도에 당찬 경고를 건네는 쪽으로 방향을 틀었다. 전작 미니 4집 타이틀곡 '잇츠 미'가 음원 차트 상위권을 오래 지킨 만큼 연타석 흥행 여부에 관심이 쏠린다.",
+      "genres": [
+        "K-POP",
+        "컴백",
+        "발매"
+      ],
+      "image_url": null,
+      "source_url": "https://isplus.com/article/view/isp202609140168",
+      "last_updated": "2026-09-21",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-roykim-cry-out-loud-20261006",
+      "name": "로이킴 싱글 '크게 울어라'",
+      "release_date": "2026-10-06",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "로이킴",
+      "publisher": null,
+      "description": "로이킴이 10월 6일 오후 6시 새 싱글 '크게 울어라'를 발매한다. 2024년 10월 '내게 사랑이 뭐냐고 물어본다면', 2025년 10월 '달리 표현할 수 없어요'에 이어 3년 연속 10월에 내놓는 신보로, 가을 음원 시장에서의 강세를 이어가려는 행보다. 감정을 에두르지 않고 그대로 드러내는 문장형 제목을 택했다. 로이킴은 신곡 발매에 이어 11월 21일과 22일 서울 KSPO DOME에서 연말 단독 콘서트를 연다.",
+      "genres": [
+        "발라드",
+        "발매"
+      ],
+      "image_url": null,
+      "source_url": "https://www.joynews24.com/view/2005602",
+      "last_updated": "2026-09-21",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-oneus-us-island-fancon-seoul-20260321",
+      "name": "2026 ONEUS FANCON : Welcome to 〈US's ISLAND〉",
+      "release_date": "2026-03-21",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "광운대학교 동해문화예술관(대극장)"
+      ],
+      "developer": "원어스(ONEUS)",
+      "publisher": null,
+      "description": "원어스가 데뷔 7주년을 기념해 2026년 3월 21일과 22일 이틀간 서울 광운대학교 동해문화예술관 대극장에서 팬콘서트 '2026 ONEUS FANCON : Welcome to 〈US's ISLAND〉'를 열었다. 공연은 'STOP & MOVE'와 'Now'로 문을 열었고, 무대 사이사이 게임과 미션 코너를 배치해 팬들과 직접 호흡하는 구성을 택했다. 팀은 이번 팬콘을 7년간 쌓아 온 음악적 경험을 압축해 다음 장을 여는 자리로 소개했고, 티켓 예매는 2월 23일 시작됐다.",
+      "genres": [
+        "K-POP",
+        "팬미팅"
+      ],
+      "image_url": null,
+      "source_url": "https://www.gukjenews.com/news/articleView.html?idxno=3509670",
+      "last_updated": "2026-09-21",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-youngtak-youngone-park-seoul-20250510",
+      "name": "2025 영탁 팬콘 'YOUNGONE PARK'",
+      "release_date": "2025-05-10",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "광운대학교 동해문화예술관(대극장)"
+      ],
+      "developer": "영탁",
+      "publisher": null,
+      "description": "영탁이 2025년 5월 10일과 11일 이틀간 서울 광운대학교 동해문화예술관에서 첫 팬콘서트 'YOUNGONE PARK'를 열었다. 공연명은 영탁의 이름과 팬덤명 영블스에서 딴 'YOUNG'에 하나가 되자는 뜻의 'ONE'을 붙여 만든 것으로, 놀이동산을 콘셉트로 무대를 꾸몄다. 러닝타임은 120분이었고 티켓은 2층 14만3000원, 3층 13만2000원으로 책정됐으며 예매 시작과 함께 전석이 매진됐다. 공연이 끝난 뒤에는 모든 관객이 참여하는 아티스트 배웅회가 이어졌다.",
+      "genres": [
+        "트로트",
+        "팬미팅"
+      ],
+      "image_url": null,
+      "source_url": "https://www.starnewskorea.com/music/2025/05/09/2025050910193870765",
+      "last_updated": "2026-09-21",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-kimheejae-heeyeol-seoul-20251101",
+      "name": "2025 김희재 전국 투어 콘서트 '희열(熙熱)' - 서울",
+      "release_date": "2025-11-01",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "광운대학교 동해문화예술관(대극장)"
+      ],
+      "developer": "김희재",
+      "publisher": null,
+      "description": "김희재가 2025년 11월 1일과 2일 서울 광운대학교 동해문화예술관 대극장에서 전국 투어 콘서트 '희열(熙熱)'의 첫 무대를 열었다. 1일 오후 5시 1회, 2일 오후 1시와 6시 2회 등 사흘에 걸쳐 총 세 차례 공연했고 러닝타임은 120분이었다. 같은 해 9월 발매한 발라드 앨범 'HEE'story'를 기념해 마련된 자리로, 서울을 시작으로 대전·부산·울산·대구 등으로 투어가 이어졌다. 티켓은 예스24 티켓에서 9월 25일 오후 8시에 오픈됐다.",
+      "genres": [
+        "트로트",
+        "발라드",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://sports.khan.co.kr/article/202511040119003",
+      "last_updated": "2026-09-21",
+      "last_researched_by": "ko-researcher"
+    },
+    {
+      "id": "ko-kb-joyolpark-festival-2026-20260919",
+      "name": "KB 조이올팍 페스티벌 2026",
+      "release_date": "2026-09-19",
+      "release_time": "12:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "festival",
+      "platforms": [
+        "올림픽공원(88잔디마당)"
+      ],
+      "developer": null,
+      "publisher": "국민체육진흥공단·한국체육산업개발·KB국민은행",
+      "description": "가을밤 이틀간 열린 야외 음악 축제 'KB 조이올팍 페스티벌 2026'이 2026년 9월 19일과 20일 서울 올림픽공원 88잔디마당에서 개최됐다. 국민체육진흥공단이 주최하고 한국체육산업개발과 KB국민은행이 공동 주관했으며, 두 날 모두 낮 12시 30분에 공연이 시작됐다. 힙합과 인디, 발라드를 아우르는 라인업이 무대에 올랐고 플리마켓과 푸드존, 체험 부스, 포토존, 신인 아티스트 무대 등 부대 프로그램도 지난해보다 확대 운영됐다.",
+      "genres": [
+        "페스티벌",
+        "K-POP",
+        "힙합"
+      ],
+      "image_url": null,
+      "source_url": "http://www.dailycnc.com/news/articleView.html?idxno=244271",
+      "last_updated": "2026-09-21",
+      "last_researched_by": "ko-researcher",
+      "festival_days": [
+        {
+          "date": "2026-09-19",
+          "lineup": [
+            "하이어뮤직(pH-1, 릴보이, 우디고차일드)",
+            "사이먼 도미닉",
+            "지코",
+            "고니(g0nny)",
+            "소수빈",
+            "정승환",
+            "청하",
+            "홍이삭"
+          ]
+        },
+        {
+          "date": "2026-09-20",
+          "lineup": [
+            "10CM",
+            "볼빨간사춘기",
+            "모요(조지, 타마, 솔flower)",
+            "극동아시아타이거즈",
+            "김남길",
+            "로이킴",
+            "소란",
+            "스텔라장",
+            "에픽하이"
+          ]
+        }
+      ]
     }
   ]
 }
