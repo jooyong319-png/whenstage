@@ -67,6 +67,10 @@ interface UiStrings {
   bioMembers: string;
   bioDebut: string;
   artistImageSourceNote: string;
+  /** 공연 상세 커버 이미지의 출처 표기. 위키미디어면 커먼즈 파일 페이지 링크를 함께 건다. */
+  eventImageSourceNote: string;
+  /** 위 표기에서 링크로 감쌀 텍스트 — 저작자·라이선스는 그 파일 페이지에 있다. */
+  eventImageWikimediaLink: string;
   venue: string;
   venueListTitle: string;
   venueListSubtitle: string;
@@ -131,6 +135,8 @@ export const UI: Record<Locale, UiStrings> = {
     bioMembers: '구성',
     bioDebut: '데뷔',
     artistImageSourceNote: '사진 출처: 소속사 공식 프로필·보도자료 또는 위키미디어 커먼즈. 권리자 요청 시 삭제됩니다.',
+    eventImageSourceNote: '사진 출처: 예매처 공식 포스터 또는 위키미디어 커먼즈. 권리자 요청 시 삭제됩니다.',
+    eventImageWikimediaLink: '저작자·라이선스 보기 (Wikimedia Commons)',
     venue: '공연장',
     venueListTitle: '공연장',
     venueListSubtitle: '공연장별로 열리는 콘서트·페스티벌·팬미팅 일정을 모아봤어요.',
@@ -195,6 +201,8 @@ export const UI: Record<Locale, UiStrings> = {
     bioMembers: 'Members',
     bioDebut: 'Debut',
     artistImageSourceNote: 'Image source: official agency profile/press materials or Wikimedia Commons. Removed promptly upon a rights holder’s request.',
+    eventImageSourceNote: 'Image source: official ticketing poster or Wikimedia Commons. Removed promptly upon a rights holder’s request.',
+    eventImageWikimediaLink: 'Author & licence (Wikimedia Commons)',
     venue: 'Venues',
     venueListTitle: 'Venues',
     venueListSubtitle: 'Concerts, festivals, and fan meetings, grouped by venue.',
@@ -258,6 +266,8 @@ export const UI: Record<Locale, UiStrings> = {
     bioMembers: '構成',
     bioDebut: 'デビュー',
     artistImageSourceNote: '画像出典: 所属事務所の公式プロフィール・報道資料またはWikimedia Commons。権利者の要請があれば速やかに削除します。',
+    eventImageSourceNote: '画像出典: 公式チケットポスターまたはWikimedia Commons。権利者の要請があれば速やかに削除します。',
+    eventImageWikimediaLink: '作者・ライセンスを見る (Wikimedia Commons)',
     venue: '会場',
     venueListTitle: '会場',
     venueListSubtitle: '会場ごとにコンサート・フェス・ファンミーティング情報をまとめました。',

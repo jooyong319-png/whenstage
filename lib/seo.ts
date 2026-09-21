@@ -98,6 +98,39 @@ export function countryFromTimezone(timeZone: string): string | null {
   return null;
 }
 
+/**
+ * 위키미디어 커먼즈 이미지 URL → 그 파일의 **파일 페이지** URL.
+ *
+ * 왜 필요한가 (2026-09-21): 이 사이트 이미지의 절대다수가 커먼즈다(공연 211건 +
+ * 아티스트 213건). 커먼즈는 대부분 CC 라이선스라 **저작자·라이선스 표시가 의무**인데,
+ * 데이터에 그 정보가 없어 아무 표기도 못 하고 있었다.
+ *
+ * 저작자명을 새로 수집하려면 데이터 필드와 리서처 작업이 붙어야 하지만, **파일 페이지
+ * 링크는 지금 있는 URL만으로 유도된다** — 그 페이지에 저작자와 라이선스가 명시돼 있다.
+ * 완전한 표기는 아니지만 아무것도 없는 상태보다 훨씬 낫고, 비용이 0이다.
+ *
+ * 두 형태를 모두 처리한다:
+ *   .../commons/8/84/Foo.jpg                  → File:Foo.jpg
+ *   .../commons/thumb/5/53/Bar.png/330px-Bar.png → File:Bar.png  (썸네일은 앞 세그먼트가 원본명)
+ */
+export function wikimediaFilePage(imageUrl: string): string | null {
+  try {
+    const u = new URL(imageUrl);
+    if (u.hostname !== 'upload.wikimedia.org') return null;
+    const parts = u.pathname.split('/').filter(Boolean);
+    const ci = parts.indexOf('commons');
+    if (ci < 0) return null;
+    const rest = parts.slice(ci + 1);
+    const isThumb = rest[0] === 'thumb';
+    // 일반: [x, xy, Filename] / 썸네일: [thumb, x, xy, Filename, 330px-Filename]
+    const name = isThumb ? rest[rest.length - 2] : rest[rest.length - 1];
+    if (!name) return null;
+    return `https://commons.wikimedia.org/wiki/File:${name}`;
+  } catch {
+    return null;
+  }
+}
+
 // 여러 JSON-LD를 한 <script>에 안전하게 넣기 위한 직렬화(</script> 이스케이프).
 export function jsonLd(data: unknown): string {
   return JSON.stringify(data).replace(/</g, '\\u003c');

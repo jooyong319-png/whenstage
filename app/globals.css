@@ -923,3 +923,17 @@ textarea:focus-visible,
   fill: currentColor;
   stroke: none;
 }
+
+
+/* 공연 상세 커버 이미지 출처 표기 (2026-09-21) — 아티스트 페이지의 .imageSourceNote와 같은 톤.
+   위키미디어 CC 이미지의 저작자·라이선스 표시 의무 때문에 필요하다. */
+.concert-detail .detail-image-credit {
+  margin: -0.35rem 0 1rem;
+  color: var(--text-faint);
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+.concert-detail .detail-image-credit a {
+  color: inherit;
+  text-decoration: underline;
+}

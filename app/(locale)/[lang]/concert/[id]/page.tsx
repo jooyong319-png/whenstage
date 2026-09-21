@@ -19,7 +19,7 @@ import { TicketingCtaButton } from '@/components/TicketingCtaButton';
 import { ReportForm } from '@/components/ReportForm';
 import { SidebarSection } from '@/components/SidebarSection';
 import { RelatedEventCard } from '@/components/RelatedEventCard';
-import { breadcrumbLd, jsonLd, eventStartDate, concertMetaTitle, concertMetaDescription, countryFromTimezone } from '@/lib/seo';
+import { breadcrumbLd, jsonLd, eventStartDate, concertMetaTitle, concertMetaDescription, countryFromTimezone, wikimediaFilePage } from '@/lib/seo';
 
 interface Props {
   params: { lang: string; id: string };
@@ -238,7 +238,24 @@ export default async function LocaleGamePage({ params }: Props) {
         </div>
         <h1>{game.name}</h1>
         {game.image_url && (
-          <DetailCover imageUrl={game.image_url} alt={game.name} category={game.category} />
+          <>
+            <DetailCover imageUrl={game.image_url} alt={game.name} category={game.category} />
+            {/* 이미지 출처 표기 — 이 사이트 이미지의 절대다수가 위키미디어 커먼즈이고 대부분
+                CC 라이선스라 저작자·라이선스 표시가 의무다. 저작자명은 데이터에 없지만 커먼즈
+                파일 페이지 링크는 이미지 URL에서 유도되고, 그 페이지에 둘 다 적혀 있다.
+                아티스트 페이지엔 이미 같은 표기가 있었는데 공연 상세만 빠져 있었다. */}
+            <p className="detail-image-credit">
+              {ui.eventImageSourceNote}
+              {wikimediaFilePage(game.image_url) && (
+                <>
+                  {' '}
+                  <a href={wikimediaFilePage(game.image_url)!} target="_blank" rel="noopener nofollow">
+                    {ui.eventImageWikimediaLink}
+                  </a>
+                </>
+              )}
+            </p>
+          </>
         )}
         <p className="release-date">
           <strong>{ui.releaseDate}:</strong> {dateStr}
