@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-18",
+  "last_updated": "2026-09-21",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -797,7 +797,7 @@
       ],
       "developer": null,
       "publisher": "C3 Presents",
-      "description": "Lollapalooza returns to Grant Park in Chicago for four days, July 30 to August 2, 2026, with more than 150 acts across seven stages under a 10-year city contract extension. Daily headliners are Lorde and John Summit on Thursday, Charli xcx and The Smashing Pumpkins on Friday, Olivia Dean and Jennie of Blackpink on Saturday, and Tate McRae and The xx on Sunday. The bill also features Turnstile, Aespa, Clipse, YOASOBI and Yungblud. Four-day passes are waitlisted, but single-day tickets remain on sale.",
+      "description": "Lollapalooza returned to Grant Park in Chicago for four days, July 30 to August 2, 2026, with more than 150 acts across seven stages under a 10-year city contract extension. Daily headliners were Lorde and John Summit on Thursday, Charli xcx and The Smashing Pumpkins on Friday, Olivia Dean and Jennie of Blackpink on Saturday, and Tate McRae and The xx on Sunday. The bill also featured Turnstile, Aespa, Clipse, YOASOBI and Yungblud. Four-day passes were waitlisted, and single-day tickets remained on sale.",
       "genres": [
         "Festival",
         "Multi-artist"
@@ -837,7 +837,7 @@
           ]
         }
       ],
-      "last_updated": "2026-09-11"
+      "last_updated": "2026-09-21"
     },
     {
       "id": "en-djo-summer-tour-richmond-20260731",
@@ -1400,7 +1400,7 @@
       ],
       "developer": "BIGBANG",
       "publisher": null,
-      "description": "BIGBANG bring their 20th anniversary stadium tour to MetLife Stadium on September 11, one of only two North American stops on a 31-show run that opened August 21 at Goyang Stadium in South Korea. G-DRAGON, TAEYANG and DAESUNG reunited for the trek, their first since 2017, which also visits Oakland Coliseum on September 5 before continuing through Europe and Australia into February 2027.",
+      "description": "BIGBANG brought their 20th anniversary stadium tour to MetLife Stadium on September 11, one of only two North American stops on a 31-show run that opened August 21 at Goyang Stadium in South Korea. G-DRAGON, TAEYANG and DAESUNG reunited for the trek, their first since 2017, which also visited Oakland Coliseum on September 5 before continuing through Europe and Australia into February 2027.",
       "genres": [
         "K-pop",
         "World Tour"
@@ -1408,8 +1408,8 @@
       "image_url": null,
       "source_url": "https://www.metlifestadium.com/events/detail/bigbang",
       "general_sale": false,
-      "general_sale_url": "https://www.ticketmaster.com/bigbang-2026-world-tour-east-rutherford-new-jersey-09-11-2026/event/000064CFBC9CE038",
-      "last_updated": "2026-09-15",
+      "general_sale_url": null,
+      "last_updated": "2026-09-21",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1425,7 +1425,7 @@
       ],
       "developer": "Charli xcx",
       "publisher": "Live Nation",
-      "description": "Charli xcx opens her Music, Fashion, Film Tour at Xfinity Mobile Arena in Philadelphia on September 11, 2026, at 8:00 PM, in support of her seventh studio album of the same name. The arena run continues across North America into late October, including two-night stands in Brooklyn and Los Angeles, with underscores as support on every date. An artist presale ran June 12 at 9:00 AM, followed by general on-sale the same day at 1:00 PM through Ticketmaster, including $20 'Angel Tickets.'",
+      "description": "Charli xcx opened her Music, Fashion, Film Tour at Xfinity Mobile Arena in Philadelphia on September 11, 2026, at 8:00 PM, in support of her seventh studio album of the same name. The arena run continues across North America into late October, including two-night stands in Brooklyn and Los Angeles, with underscores as support on every date. An artist presale ran June 12 at 9:00 AM, followed by general on-sale the same day at 1:00 PM through Ticketmaster, including $20 'Angel Tickets.'",
       "genres": [
         "Pop",
         "Tour"
@@ -1433,12 +1433,12 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Charli_xcx_at_Berlinale_2026-1.jpg/250px-Charli_xcx_at_Berlinale_2026-1.jpg",
       "source_url": "https://www.xfinitymobilearena.com/news/detail/charli-xcx-announces-the-music-fashion-film-tour",
       "presale": false,
-      "presale_datetime": "2026-06-12T09:00:00-04:00",
-      "presale_url": "https://www.ticketmaster.com/event/300064C5A4647126",
+      "presale_datetime": null,
+      "presale_url": null,
       "general_sale": false,
-      "general_sale_datetime": "2026-06-12T13:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/event/300064C5A4647126",
-      "last_updated": "2026-09-15",
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-09-21",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1477,7 +1477,7 @@
       ],
       "developer": "Phoebe Bridgers",
       "publisher": "Live Nation",
-      "description": "Phoebe Bridgers brings The Lost Tour to Indianapolis for two nights, September 14 and 15, 2026, at Gainbridge Fieldhouse, with both shows starting at 7:30 PM. The completely phone-free arena tour supports her third studio album, Lost Weekend, and runs through North America before continuing to the UK and Europe in November. Alex G opens the North American dates, and all phones and smartwatches are secured in Yondr pouches for the duration of each show. Tickets went on sale June 12 at 10:00 AM ET.",
+      "description": "Phoebe Bridgers brought The Lost Tour to Indianapolis for two nights, September 14 and 15, 2026, at Gainbridge Fieldhouse, with both shows starting at 7:30 PM. The completely phone-free arena tour supports her third studio album, Lost Weekend, and runs through North America before continuing to the UK and Europe in November. Alex G opens the North American dates, and all phones and smartwatches are secured in Yondr pouches for the duration of each show. Tickets went on sale June 12 at 10:00 AM ET.",
       "genres": [
         "Indie",
         "Rock",
@@ -1486,9 +1486,9 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Phoebe_Bridgers_%2841599189180%29_%28cropped%29.jpg/250px-Phoebe_Bridgers_%2841599189180%29_%28cropped%29.jpg",
       "source_url": "https://www.gainbridgefieldhouse.com/events/detail/phoebe-bridgers",
       "general_sale": false,
-      "general_sale_datetime": "2026-06-12T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/phoebe-bridgers-tickets/artist/2133305?venueId=41417&brand=fieldhouse&camefrom=CFC_FIELDHOUSE_SITE_EVENT",
-      "last_updated": "2026-09-15",
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-09-21",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1528,7 +1528,7 @@
       ],
       "developer": "Jon Pardi",
       "publisher": null,
-      "description": "Country hitmaker Jon Pardi launches his 19-date Gamblin' Man Tour, named after a track from his 2025 album Honkytonk Hollywood, at Richmond's Allianz Amphitheater at Riverfront on September 17, 2026. The neo-traditional run visits arenas and amphitheaters across the South, Midwest and West before wrapping November 14 in Independence, Missouri. Alexandra Kay and Sadie Bass open on the tour.",
+      "description": "Country hitmaker Jon Pardi launched his 19-date Gamblin' Man Tour, named after a track from his 2025 album Honkytonk Hollywood, at Richmond's Allianz Amphitheater at Riverfront on September 17, 2026. The neo-traditional run visits arenas and amphitheaters across the South, Midwest and West before wrapping November 14 in Independence, Missouri. Alexandra Kay and Sadie Bass open on the tour.",
       "genres": [
         "Country",
         "Tour"
@@ -1536,11 +1536,11 @@
       "image_url": null,
       "source_url": "https://news.pollstar.com/2026/07/20/jon-pardis-gamblin-man-tour-rolls-out-this-fall/",
       "presale": false,
-      "presale_datetime": "2026-07-21T10:00:00-04:00",
+      "presale_datetime": null,
       "general_sale": false,
-      "general_sale_datetime": "2026-07-24T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-richmond-virginia-09-17-2026/event/010064EAC17D6E90",
-      "last_updated": "2026-09-18"
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "last_updated": "2026-09-21"
     },
     {
       "id": "en-gayle-observing-chaos-20260918",
@@ -1598,7 +1598,7 @@
         "Douglass Park, Chicago, IL"
       ],
       "developer": "Tool, Twenty One Pilots, Alanis Morissette, Pierce the Veil, Iggy Pop, Morrissey",
-      "description": "Riot Fest returns to Douglass Park in Chicago's North Lawndale neighborhood for three days from September 18 to 20, 2026, with more than one hundred artists booked across its stages. Twenty One Pilots and Iggy Pop lead the Friday bill, Tool and Morrissey headline Saturday, and Pierce The Veil and Alanis Morissette close the festival on Sunday. That final day also brings the live debut of The *uckers, the heavy metal band fronted by ninety-five-year-old William Shatner.",
+      "description": "Riot Fest returned to Douglass Park in Chicago's North Lawndale neighborhood for three days from September 18 to 20, 2026, with more than one hundred artists booked across its stages. Twenty One Pilots and Iggy Pop led the Friday bill, Tool and Morrissey headlined Saturday, and Pierce The Veil and Alanis Morissette closed the festival on Sunday. That final day also brought the live debut of The *uckers, the heavy metal band fronted by ninety-five-year-old William Shatner.",
       "genres": [
         "Punk",
         "Festival"
@@ -1650,22 +1650,22 @@
         }
       ],
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": "https://riotfest.org/",
+      "general_sale_url": null,
       "source_url": "https://riotfest.org/2026/07/16/riot-fest-2026-now-with-100-more-william-shatner/",
       "release_time": null,
       "release_date_approx": false,
       "publisher": null,
       "image_url": null,
-      "last_updated": "2026-08-04",
+      "last_updated": "2026-09-21",
       "last_researched_by": "en-researcher"
     },
     {
       "id": "en-rebecca-black-exhibitionism-tour-boston-20260923",
       "name": "Rebecca Black: Exhibitionism on Tour - Boston",
       "release_date": "2026-09-23",
-      "release_time": null,
+      "release_time": "20:00",
       "release_date_approx": false,
       "timezone": "America/New_York",
       "category": "concert_tour",
@@ -1688,7 +1688,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-07-24T10:00:00-04:00",
       "general_sale_url": "https://www.livenation.com/artist/K8vZ9178Z_7/rebecca-black-events",
-      "last_updated": "2026-08-04",
+      "last_updated": "2026-09-21",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1716,7 +1716,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-07-17T10:00:00-04:00",
       "general_sale_url": null,
-      "last_updated": "2026-07-23",
+      "last_updated": "2026-09-21",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1743,7 +1743,7 @@
       "source_url": "https://equalvision.com/blogs/news/slothrust-signs-to-equal-vision-records-announces-new-tour-and-upcoming-new-single",
       "general_sale": true,
       "general_sale_url": "https://www.axs.com/events/1491810/slothrust-the-dystopian-theatre-tour-tickets",
-      "last_updated": "2026-08-03",
+      "last_updated": "2026-09-21",
       "last_researched_by": "en-researcher"
     },
     {
@@ -1772,7 +1772,7 @@
       "release_date_approx": false,
       "publisher": null,
       "image_url": null,
-      "last_updated": "2026-08-04",
+      "last_updated": "2026-09-21",
       "last_researched_by": "en-researcher"
     },
     {
@@ -2878,7 +2878,7 @@
       "general_sale_datetime": "2026-08-07T10:00:00-05:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://www.ticketmaster.com/kylie-cantrall-tickets/artist/4577704",
-      "last_updated": "2026-08-05",
+      "last_updated": "2026-09-21",
       "last_researched_by": "en-researcher"
     },
     {
@@ -4271,7 +4271,7 @@
       ],
       "developer": "Erykah Badu, The Alchemist, De La Soul",
       "publisher": null,
-      "description": "Erykah Badu and The Alchemist headline Forest Hills Stadium at the West Side Tennis Club in Queens on September 18, 2026, the New York stop of their fall co-headline tour. De La Soul appear in support. The run previews the duo's joint album, which arrives August 28 via Control FREAQ Records and Young Recordings after roughly eighteen months of sessions in Dallas and Los Angeles.",
+      "description": "Erykah Badu and The Alchemist headlined Forest Hills Stadium at the West Side Tennis Club in Queens on September 18, 2026, the New York stop of their fall co-headline tour. De La Soul appeared in support. The run previewed the duo's joint album, which arrived August 28 via Control FREAQ Records and Young Recordings after roughly eighteen months of sessions in Dallas and Los Angeles.",
       "genres": [
         "R&B",
         "Hip-Hop",
@@ -4279,9 +4279,9 @@
       ],
       "image_url": null,
       "source_url": "https://consequence.net/2026/06/erykah-badu-2026-tour-dates/",
-      "last_updated": "2026-08-18",
+      "last_updated": "2026-09-21",
       "last_researched_by": "en-researcher",
-      "general_sale": true
+      "general_sale": false
     },
     {
       "id": "en-erykah-badu-alchemist-los-angeles-20260929",
@@ -4572,7 +4572,7 @@
       ],
       "image_url": null,
       "source_url": "https://consequence.net/2026/08/brandi-carlile-announces-returning-to-myself-sad-gay-version/",
-      "last_updated": "2026-08-18",
+      "last_updated": "2026-09-21",
       "last_researched_by": "en-researcher"
     },
     {
@@ -5284,7 +5284,7 @@
       "release_date_approx": false,
       "publisher": null,
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Erykah_Badu_in_Nation19_Magazine.jpg/960px-Erykah_Badu_in_Nation19_Magazine.jpg",
-      "last_updated": "2026-08-25",
+      "last_updated": "2026-09-21",
       "last_researched_by": "en-researcher",
       "id": "en-erykah-badu-alchemist-forest-hills-20260918",
       "name": "Erykah Badu & The Alchemist: LIVE - A September Tour - Queens",
@@ -5295,15 +5295,15 @@
         "Forest Hills Stadium, Queens, NY"
       ],
       "developer": "Erykah Badu, The Alchemist, De La Soul",
-      "description": "Erykah Badu and producer The Alchemist play Forest Hills Stadium on September 18, 2026 with De La Soul opening. The short run, billed as LIVE: A September Tour, follows their joint album released August 28 through Control FREAQ and Young Recordings. The pair began working together on Badu's recent studio sessions, and the tour opened September 10 at Ravinia Festival outside Chicago.",
+      "description": "Erykah Badu and producer The Alchemist played Forest Hills Stadium on September 18, 2026 with De La Soul opening. The short run, billed as LIVE: A September Tour, followed their joint album released August 28 through Control FREAQ and Young Recordings. The pair began working together on Badu's recent studio sessions, and the tour opened September 10 at Ravinia Festival outside Chicago.",
       "genres": [
         "R&B",
         "Hip-Hop",
         "Tour"
       ],
       "source_url": "https://consequence.net/2026/06/erykah-badu-2026-tour-dates/",
-      "general_sale": true,
-      "general_sale_url": "https://www.ticketmaster.com/erykah-badu-tickets/artist/781503"
+      "general_sale": false,
+      "general_sale_url": null
     },
     {
       "release_time": null,
@@ -5677,11 +5677,11 @@
       "general_sale_url": "https://www.axs.com/uk/events/1562167/nia-archives-tickets"
     },
     {
-      "release_time": null,
+      "release_time": "19:00",
       "release_date_approx": false,
       "publisher": null,
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Neil_Young_for_Fairy_Creek.jpg",
-      "last_updated": "2026-08-28",
+      "last_updated": "2026-09-21",
       "last_researched_by": "en-researcher",
       "id": "en-neil-young-willie-nelson-bridgeport-20260922",
       "name": "Neil Young & The Chrome Hearts and Willie Nelson & Family - Bridgeport",
@@ -5709,7 +5709,7 @@
       "release_date_approx": false,
       "publisher": null,
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Neil_Young_for_Fairy_Creek.jpg",
-      "last_updated": "2026-08-28",
+      "last_updated": "2026-09-21",
       "last_researched_by": "en-researcher",
       "id": "en-neil-young-willie-nelson-philadelphia-20260924",
       "name": "Neil Young & The Chrome Hearts and Willie Nelson & Family - Philadelphia",
@@ -6465,7 +6465,7 @@
       ],
       "developer": "Melanie Martinez",
       "publisher": "Live Nation",
-      "description": "Melanie Martinez brings the HADES: THE SACRIFICE tour to The O2 arena in London on September 11, 2026. The run supports her fourth album 'Hades', released in March 2026, and introduces a new alter ego named Circle. Martinez has described the staging as cinematic, leaning on practical effects and camera illusions rather than the puppetry of earlier tours. Doors open at 6:30pm.",
+      "description": "Melanie Martinez brought the HADES: THE SACRIFICE tour to The O2 arena in London on September 11, 2026. The run supports her fourth album 'Hades', released in March 2026, and introduces a new alter ego named Circle. Martinez has described the staging as cinematic, leaning on practical effects and camera illusions rather than the puppetry of earlier tours. Doors open at 6:30pm.",
       "genres": [
         "Pop",
         "Alternative",
@@ -6473,11 +6473,11 @@
       ],
       "image_url": null,
       "source_url": "https://www.theo2.co.uk/events/detail/melanie-martinez-2026",
-      "last_updated": "2026-09-15",
+      "last_updated": "2026-09-21",
       "last_researched_by": "en-researcher",
       "presale": false,
       "general_sale": false,
-      "general_sale_url": "https://www.axs.com/events/1414870/melanie-martinez-tickets"
+      "general_sale_url": null
     },
     {
       "id": "en-pussycat-dolls-pcd-forever-london-20261013",
