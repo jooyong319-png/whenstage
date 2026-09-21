@@ -19,7 +19,7 @@ import { TicketingCtaButton } from '@/components/TicketingCtaButton';
 import { ReportForm } from '@/components/ReportForm';
 import { SidebarSection } from '@/components/SidebarSection';
 import { RelatedEventCard } from '@/components/RelatedEventCard';
-import { breadcrumbLd, jsonLd, eventStartDate, concertMetaTitle, concertMetaDescription } from '@/lib/seo';
+import { breadcrumbLd, jsonLd, eventStartDate, concertMetaTitle, concertMetaDescription, countryFromTimezone } from '@/lib/seo';
 
 interface Props {
   params: { lang: string; id: string };
@@ -161,6 +161,14 @@ export default async function LocaleGamePage({ params }: Props) {
     ...(game.festival_days?.flatMap(d => d.lineup) ?? []),
   ]));
   const venueName = game.platforms[0] || game.name; // location은 필수 — 없으면 공연명으로 폴백
+  // address는 PostalAddress로 낸다. 예전엔 `address: venueName`처럼 **공연장 이름을 주소 자리에**
+  // 그대로 넣었는데, 그건 주소가 아니라서 사실과 다르다(2026-09-21 외부 점검 지적).
+  // 번지·도시는 데이터에 없으므로 지어내지 않고, timezone에서 확실히 유도되는 국가만 채운다
+  // ("아는 만큼만" — wiki/seo.md). 타임존을 모르는 지역이면 기존 문자열 방식으로 물러난다.
+  const countryCode = countryFromTimezone(game.timezone);
+  const placeAddress = countryCode
+    ? { '@type': 'PostalAddress', addressCountry: countryCode }
+    : venueName;
 
   // 실제 공연(콘서트/페스티벌/팬미팅) = MusicEvent(location 필수 항상 채움).
   // 음원 발매 = MusicAlbum(물리적 장소가 없어 Event의 location 필수 요건에서 자유 → soft 에러 방지).
@@ -174,7 +182,7 @@ export default async function LocaleGamePage({ params }: Props) {
         ...(endDate ? { endDate } : {}),
         eventStatus: 'https://schema.org/EventScheduled',
         eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
-        location: { '@type': 'Place', name: venueName, address: venueName },
+        location: { '@type': 'Place', name: venueName, address: placeAddress },
         ...(performerNames.length > 0
           ? { performer: performerNames.map(n => ({ '@type': 'MusicGroup', name: n })) }
           : {}),

@@ -58,6 +58,46 @@ export function breadcrumbLd(items: { name: string; url: string }[]) {
   };
 }
 
+/**
+ * IANA 타임존 → ISO 3166-1 국가 코드.
+ *
+ * 공연장 주소가 데이터에 없어서 `location.address`에 **공연장 이름 문자열**을 그대로
+ * 넣고 있었다(2026-09-21 외부 점검에서 지적). 그건 주소가 아니라서 사실과 다르다.
+ * 그렇다고 주소를 지어낼 수는 없으니, **데이터에 실제로 있는 것에서 유도할 수 있는
+ * 만큼만** 채운다 — `timezone`은 모든 항목이 갖고 있고 국가를 정확히 함의한다.
+ *
+ * 이 위키 규칙 그대로다: "구조화 데이터는 아는 만큼만 — 경고를 없애려고 사실을
+ * 만들지 않는다"(`wiki/seo.md`). 도시·번지를 추측해 넣는 쪽이 경고는 줄겠지만
+ * 틀린 정보가 나간다. `organizer.url`을 뺀 것과 같은 판단이다.
+ *
+ * ⚠️ 여기 없는 타임존이 데이터에 들어오면 null을 돌려주고, 호출부가 기존 문자열
+ * 방식으로 물러난다. 새 지역이 생기면 여기 한 줄 추가하면 그때부터 구조화된다.
+ */
+const TZ_COUNTRY: Record<string, string> = {
+  'Asia/Seoul': 'KR',
+  'Asia/Tokyo': 'JP',
+  'Europe/London': 'GB',
+  'Europe/Dublin': 'IE',
+  'Europe/Madrid': 'ES',
+  'Europe/Brussels': 'BE',
+  'Europe/Helsinki': 'FI',
+  'America/Vancouver': 'CA',
+  'America/Toronto': 'CA',
+  'America/Montreal': 'CA',
+  'America/Puerto_Rico': 'PR',
+  'America/Mexico_City': 'MX',
+};
+
+export function countryFromTimezone(timeZone: string): string | null {
+  const direct = TZ_COUNTRY[timeZone];
+  if (direct) return direct;
+  // 미국은 타임존이 많고(주·카운티 단위까지) 계속 늘어난다 — 위 표에 캐나다·멕시코 등
+  // America/ 예외를 먼저 적어두고, 남는 America/* 는 US로 본다.
+  if (timeZone.startsWith('America/')) return 'US';
+  if (timeZone.startsWith('Australia/')) return 'AU';
+  return null;
+}
+
 // 여러 JSON-LD를 한 <script>에 안전하게 넣기 위한 직렬화(</script> 이스케이프).
 export function jsonLd(data: unknown): string {
   return JSON.stringify(data).replace(/</g, '\\u003c');
