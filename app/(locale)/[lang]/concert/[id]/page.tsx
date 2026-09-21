@@ -231,7 +231,7 @@ export default async function LocaleGamePage({ params }: Props) {
     <PageShell lang={lang} sidebar={sidebar}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(eventLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(crumbLd) }} />
-      <article className="game-detail">
+      <article className="concert-detail">
         <div className="detail-head">
           <span className={`category-tag cat-bg-${game.category}`}>{CATEGORY_LABELS[lang][game.category]}</span>
           <DdayBadge releaseDate={game.release_date} approx={game.release_date_approx} />
