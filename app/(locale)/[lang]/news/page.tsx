@@ -92,7 +92,7 @@ export default async function Page({ params }: Props) {
                   {it.heroImage && <BlogImg src={it.heroImage} containerClassName={styles.thumb} />}
                   <div className={styles.postCardBody}>
                     <time className={styles.postDate}>
-                      {formatPostDate(it.date)}
+                      {formatPostDate(it.date, lang)}
                       {it.source && <span className={n.sourceBadge}>{it.source}</span>}
                     </time>
                     <h2 className={styles.postTitle}>{it.title}</h2>

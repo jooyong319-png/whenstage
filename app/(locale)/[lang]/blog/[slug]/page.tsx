@@ -84,7 +84,7 @@ export default async function LocaleBlogPage({ params }: Props) {
   const seeAllBlog = lang === 'ko' ? '모아보기 전체 글' : lang === 'ja' ? 'まとめ記事一覧' : 'See all roundups';
   const sidebar = related.length > 0 ? (
     <SidebarSection title={relatedLabel} moreHref={`/${lang}/blog`} moreLabel={seeAllBlog}>
-      {related.map(r => <RelatedArticleCard key={r.slug} href={`/${lang}/blog/${r.slug}`} title={r.title} dateText={formatPostDate(r.date)} />)}
+      {related.map(r => <RelatedArticleCard key={r.slug} href={`/${lang}/blog/${r.slug}`} title={r.title} dateText={formatPostDate(r.date, lang)} />)}
     </SidebarSection>
   ) : undefined;
 
@@ -102,7 +102,7 @@ export default async function LocaleBlogPage({ params }: Props) {
         <a href={`/${lang}/blog`} className={styles.backLink}>{ui.backToList}</a>
         {post.heroImage && <BlogHero src={post.heroImage} alt={post.title} />}
         <header className={styles.postHeader}>
-          <time className={styles.postDate}>{formatPostDate(post.date)}</time>
+          <time className={styles.postDate}>{formatPostDate(post.date, lang)}</time>
           <h1 className={styles.postH1}>{post.title}</h1>
           {post.description && <p className={styles.postLead}>{post.description}</p>}
         </header>

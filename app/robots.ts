@@ -43,7 +43,16 @@ const SEO_TOOLS = [
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
-      { userAgent: '*', allow: '/', disallow: ['/_next/'] },
+      // ⚠️ `/_next/` 를 막지 않는다 (2026-09-21).
+      //
+      // 예전엔 `disallow: ['/_next/']` 였는데, 그러면 구글봇이 **JS·CSS 청크를 못 가져온다.**
+      // 구글은 페이지를 렌더링해서 평가하므로 스타일과 스크립트가 빠진 화면을 보게 되고,
+      // 그 상태로 품질·모바일 친화성이 매겨진다. 구글 문서가 명시적으로 "렌더링에 필요한
+      // 리소스를 막지 말라"고 하는 이유다.
+      //
+      // 크롤 비용도 거의 안 는다 — `/_next/static/` 은 CDN 캐시에서 나가고, 이 프로젝트는
+      // `next/image` 를 **한 곳도 쓰지 않아** `/_next/image` 변환 요청이 아예 없다(2026-09-21 실측).
+      { userAgent: '*', allow: '/' },
       { userAgent: AI_CRAWLERS, disallow: '/' },
       { userAgent: SEO_TOOLS, disallow: '/' },
     ],

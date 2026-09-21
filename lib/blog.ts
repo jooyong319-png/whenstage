@@ -166,8 +166,23 @@ function escape(s: string): string {
   return s.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!));
 }
 
-// 표시용 날짜
-export function formatPostDate(iso: string): string {
-  const d = new Date(iso);
-  return `${d.getFullYear()}년 ${d.getMonth() + 1}월 ${d.getDate()}일`;
+/**
+ * 표시용 날짜 — **로케일을 반드시 받는다.**
+ *
+ * 🔴 2026-09-21까지 이 함수는 로케일 인자가 없어 `2026년 9월 10일`을 하드코딩으로
+ * 돌려줬다. 그런데 호출부가 블로그·뉴스의 ko/en/ja 전부(10곳)였기 때문에,
+ * **영어·일본어 페이지에 한국어 날짜가 그대로 찍히고 있었다.** 라이브 실측으로 확인:
+ * `/en/news`·`/ja/news`·`/en/blog` 모두 "2026년 9월 10일".
+ *
+ * 이 저장소가 반복해서 밟아온 "하드코딩 한국어가 EN/JA로 새는" 버그(카테고리 배지·토스트·
+ * 조회수 등, PROJECT_STATUS 참고)와 같은 종류다. 다른 곳은 다 잡혔는데 여기만 남아 있었다.
+ *
+ * 타임존을 Asia/Seoul로 고정하는 이유: `date`는 시각 없는 `YYYY-MM-DD`라 UTC 자정으로
+ * 읽히는데, 뷰어가 UTC보다 뒤인 지역이면 **하루 전 날짜**가 표시된다.
+ */
+export function formatPostDate(iso: string, locale: Locale = 'ko'): string {
+  const intlLocale = locale === 'en' ? 'en-US' : locale === 'ja' ? 'ja-JP' : 'ko-KR';
+  return new Intl.DateTimeFormat(intlLocale, {
+    year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Seoul',
+  }).format(new Date(iso));
 }

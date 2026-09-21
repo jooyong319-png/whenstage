@@ -84,7 +84,7 @@ export default async function Page({ params }: Props) {
                 <a href={`/${lang}/blog/${p.slug}`} className={styles.postLink}>
                   {p.heroImage && <BlogImg src={p.heroImage} containerClassName={styles.thumb} />}
                   <div className={styles.postCardBody}>
-                    <time className={styles.postDate}>{formatPostDate(p.date)}</time>
+                    <time className={styles.postDate}>{formatPostDate(p.date, lang)}</time>
                     <h2 className={styles.postTitle}>{p.title}</h2>
                     {p.description && <p className={styles.postDesc}>{p.description}</p>}
                   </div>

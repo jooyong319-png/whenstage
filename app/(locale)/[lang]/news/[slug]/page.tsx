@@ -92,7 +92,7 @@ export default async function LocaleNewsPage({ params }: Props) {
   const seeAllNews = lang === 'ko' ? '뉴스 전체 보기' : lang === 'ja' ? 'ニュース一覧' : 'See all news';
   const sidebar = related.length > 0 ? (
     <SidebarSection title={relatedLabel} moreHref={`/${lang}/news`} moreLabel={seeAllNews}>
-      {related.map(r => <RelatedArticleCard key={r.slug} href={`/${lang}/news/${r.slug}`} title={r.title} dateText={formatPostDate(r.date)} />)}
+      {related.map(r => <RelatedArticleCard key={r.slug} href={`/${lang}/news/${r.slug}`} title={r.title} dateText={formatPostDate(r.date, lang)} />)}
     </SidebarSection>
   ) : undefined;
 
@@ -111,7 +111,7 @@ export default async function LocaleNewsPage({ params }: Props) {
         {item.heroImage && <BlogHero src={item.heroImage} alt={item.title} />}
         <header className={styles.postHeader}>
           <time className={styles.postDate}>
-            {formatPostDate(item.date)}
+            {formatPostDate(item.date, lang)}
             {item.source && <span className={n.sourceBadge}>{item.source}</span>}
           </time>
           <h1 className={styles.postH1}>{item.title}</h1>
