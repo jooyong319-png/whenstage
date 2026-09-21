@@ -17,7 +17,24 @@
 // **화면에 아무것도 바꾸지 않는 파일만** 뺀다. 아래 목록 밖의 것이 하나라도 바뀌면 빌드한다.
 // 특히 `content/`(블로그·뉴스 글)와 `data/`(공연 데이터)는 화면에 그대로 나가므로
 // 절대 제외 목록에 넣지 않는다.
+// ## 🔴 비교 기준은 `HEAD^`가 아니라 **마지막으로 빌드한 커밋**이다 (2026-09-21 수정)
+//
+// 처음엔 `HEAD^..HEAD`, 즉 **맨 끝 커밋 하나만** 봤다. 그래서 한 번에 여러 커밋을
+// 푸시하고 그 마지막이 문서 변경이면, **앞의 진짜 변경까지 통째로 묻혔다.**
+//
+// 실제로 당했다 — `next.config.js`(엣지 캐시 설정)와 `.gitignore`를 함께 푸시했는데
+// 맨 끝이 `.gitignore`라 "문서만 바뀌었다"로 판정돼 배포가 건너뛰어졌다. 헤더가 왜 안 바뀌나
+// 한참 찾았다. **조용히 배포가 안 되는 게 이 장치의 최악의 실패 모드다.**
+//
+// 그래서 마지막으로 **실제 빌드한 커밋 SHA**를 Vercel 빌드 캐시에 남기고 거기서부터
+// 비교한다(Vercel은 이 스크립트가 돌기 **전에** 캐시를 복원한다 — 빌드 로그로 확인).
+// 마커가 없거나 그 커밋이 클론 히스토리에 없으면 **안전하게 빌드한다.**
 import { execFileSync } from 'node:child_process';
+import { existsSync, readFileSync, mkdirSync, writeFileSync } from 'node:fs';
+import { dirname } from 'node:path';
+
+/** 마지막으로 빌드한 커밋 SHA. Vercel이 배포 간에 이 캐시를 복원해 준다. */
+const MARKER = '.next/cache/last-built-sha';
 
 /** 바뀌어도 사이트 출력이 그대로인 것들 */
 const IGNORED = [
@@ -43,9 +60,25 @@ try {
   process.exit(1);
 }
 
+/** 비교 기준 커밋 — 마지막으로 빌드한 것, 없으면 HEAD^ */
+function baseRef() {
+  if (!existsSync(MARKER)) return 'HEAD^';
+  const sha = readFileSync(MARKER, 'utf-8').trim();
+  if (!/^[0-9a-f]{7,40}$/.test(sha)) return 'HEAD^';
+  try {
+    git(['cat-file', '-e', sha + '^{commit}']);   // 얕은 클론이면 없을 수 있다
+    return sha;
+  } catch {
+    console.log('마지막 빌드 커밋이 클론에 없다 — HEAD^로 비교한다');
+    return 'HEAD^';
+  }
+}
+
+const base = baseRef();
+console.log('비교 기준: ' + base + (base === 'HEAD^' ? ' (마커 없음)' : ' (마지막 빌드 커밋)'));
 let changed;
 try {
-  changed = git(['diff', '--name-only', 'HEAD^', 'HEAD', '--', '.', ...IGNORED]).trim();
+  changed = git(['diff', '--name-only', base, 'HEAD', '--', '.', ...IGNORED]).trim();
 } catch (e) {
   console.log('diff 실패 — 안전하게 빌드한다:', e.message.slice(0, 80));
   process.exit(1);
@@ -53,6 +86,12 @@ try {
 
 if (changed) {
   console.log('사이트에 영향 있는 변경:\n  ' + changed.split('\n').slice(0, 10).join('\n  '));
+  try {
+    mkdirSync(dirname(MARKER), { recursive: true });
+    writeFileSync(MARKER, git(['rev-parse', 'HEAD']).trim());
+  } catch (e) {
+    console.log('마커 기록 실패(무해):', e.message.slice(0, 60));
+  }
   process.exit(1);
 }
 
