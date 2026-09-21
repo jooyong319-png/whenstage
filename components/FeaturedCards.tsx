@@ -1,14 +1,14 @@
 'use client';
 import { useEffect, useMemo, useState, type CSSProperties } from 'react';
 import Link from 'next/link';
-import type { Game, Category } from '@/lib/types';
+import type { CardGame, Category } from '@/lib/types';
 import { CATEGORY_META } from '@/lib/types';
 import { calcDayDiff } from '@/lib/utils';
 import { useLocale } from '@/hooks/useLocale';
 import { CAL, UI, CATEGORY_LABELS, type Locale } from '@/lib/i18nLabels';
 import styles from './FeaturedCards.module.css';
 
-interface Props { games: Game[]; now: Date; }
+interface Props { games: CardGame[]; now: Date; }
 
 // 카드 표시용 정규화 데이터 — "티켓 스텁" 카드(본문 + D-day 스텁)에 필요한 것만.
 interface CardData {
@@ -30,7 +30,7 @@ function ymd(d: Date): string {
 }
 
 // 선예매·일반예매 중 하나라도 "지금" 진행 중인지(시작함·아직 안 끝남) — 오늘 날짜 문자열과 비교.
-function isActiveTicketing(g: Game, today: string): boolean {
+function isActiveTicketing(g: CardGame, today: string): boolean {
   const phases: Array<[boolean | undefined, string | null | undefined, string | null | undefined]> = [
     [g.presale, g.presale_datetime, g.presale_end_datetime],
     [g.general_sale, g.general_sale_datetime, g.general_sale_end_datetime],
@@ -47,7 +47,7 @@ function isActiveTicketing(g: Game, today: string): boolean {
 
 // PageShell은 정적 생성이라 now가 빌드 시각(KST) 기준 — D-day는 그 시점 기준으로 계산되고
 // 데이터 갱신 시 재배포로 신선도를 유지한다(GameRow 등 다른 카드와 동일한 전제).
-function gameToCard(game: Game, isPreReg: boolean, lang: Locale | null, now: Date): CardData {
+function gameToCard(game: CardGame, isPreReg: boolean, lang: Locale | null, now: Date): CardData {
   const cat = CATEGORY_META[game.category];
   const tba = lang ? UI[lang].tba : '미정';
   const t = lang ? CAL[lang] : null;
@@ -99,7 +99,7 @@ function FeaturedCard({ data }: { data: CardData }) {
 export function FeaturedCards({ games, now }: Props) {
   const lang = useLocale();
   const today = ymd(now);
-  const notReleased = (g: Game) => g.release_date_approx || g.release_date >= today;
+  const notReleased = (g: CardGame) => g.release_date_approx || g.release_date >= today;
 
   // 티켓팅(선예매/일반예매) 진행 중인 게임 목록 → 진입 시 이 중 '랜덤 1개' 노출(고정 최신 아님)
   const preRegList = useMemo(() => games
@@ -120,7 +120,7 @@ export function FeaturedCards({ games, now }: Props) {
     .map(c => games
       .filter(g => notReleased(g) && g.category === c && g.id !== preReg?.id)
       .sort((a, b) => a.release_date.localeCompare(b.release_date))[0])
-    .filter((g): g is Game => Boolean(g))
+    .filter((g): g is CardGame => Boolean(g))
     .map(g => gameToCard(g, false, lang, now)),
     [games, preReg?.id, today, lang, now]);
 

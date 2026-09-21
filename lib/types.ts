@@ -80,6 +80,44 @@ export interface Game {
   related_locale_ids?: Partial<Record<LocaleCode, string>> | null;
 }
 
+/**
+ * 클라이언트 컴포넌트로 넘기는 **최소 필드 묶음**.
+ *
+ * 왜 (2026-09-21 실측): `FeaturedCards`가 `'use client'`인데 `Game[]` 전체를 받고 있었고,
+ * 그게 `PageShell`을 통해 **모든 서브페이지 사이드바**에 붙는다. 결과적으로 페이지마다
+ * 251개(ko) 항목의 **모든 필드**가 RSC 페이로드로 직렬화됐다 — `description`·`source_url`·
+ * `genres`는 물론 파일 메타인 `last_updated`·`last_researched_by`까지 항목마다.
+ *
+ * 실측: `/ko/concert` HTML 657KB 중 RSC 페이로드가 **524KB(79%)**, 홈은 452KB 중 367KB(81%).
+ * 실제 렌더된 마크업은 127KB·76KB뿐이었다.
+ *
+ * 🔴 **클라이언트 컴포넌트에 서버 객체를 통째로 넘기지 않는다.** 화면이 쓰는 필드만
+ * 골라 넘긴다 — 안 쓰는 필드도 전부 네트워크로 나간다.
+ */
+export type CardGame = Pick<
+  Game,
+  'id' | 'name' | 'category' | 'release_date' | 'release_date_approx'
+  | 'presale' | 'presale_datetime' | 'presale_end_datetime'
+  | 'general_sale' | 'general_sale_datetime' | 'general_sale_end_datetime'
+>;
+
+/** Game(또는 그 상위 타입)에서 카드용 필드만 추린다. */
+export function toCardGame(g: Game): CardGame {
+  return {
+    id: g.id,
+    name: g.name,
+    category: g.category,
+    release_date: g.release_date,
+    release_date_approx: g.release_date_approx,
+    presale: g.presale,
+    presale_datetime: g.presale_datetime,
+    presale_end_datetime: g.presale_end_datetime,
+    general_sale: g.general_sale,
+    general_sale_datetime: g.general_sale_datetime,
+    general_sale_end_datetime: g.general_sale_end_datetime,
+  };
+}
+
 // 선예매·일반예매 중 하나라도 진행/예정이면 true — 배너·사이드바 등에서 "티켓팅 있음" 판단에 사용.
 export function hasActiveTicketing(g: Pick<Game, 'presale' | 'general_sale'>): boolean {
   return g.presale === true || g.general_sale === true;
