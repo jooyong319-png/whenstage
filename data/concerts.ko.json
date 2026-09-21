@@ -37,8 +37,6 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-09-03",
-      "last_researched_by": "ko-researcher",
       "festival_days": [
         {
           "date": "2024-09-07",
@@ -83,9 +81,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-03",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-awesome-stage-nflying-busan-20250302",
@@ -107,9 +103,7 @@
         "콘서트"
       ],
       "image_url": null,
-      "source_url": "https://www.ticketlink.co.kr/help/notice/61282",
-      "last_updated": "2026-08-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.ticketlink.co.kr/help/notice/61282"
     },
     {
       "id": "ko-edc-korea-2025-20250425",
@@ -130,9 +124,7 @@
         "EDM"
       ],
       "image_url": null,
-      "source_url": "https://festivallife.kr/festival/?bmode=view&idx=134719395",
-      "last_updated": "2026-08-02",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://festivallife.kr/festival/?bmode=view&idx=134719395"
     },
     {
       "id": "ko-theblackskirts-last-chance-seoul-20250502",
@@ -154,9 +146,7 @@
         "단독공연"
       ],
       "image_url": null,
-      "source_url": "https://kopis.or.kr/por/db/pblprfr/pblprfrView.do?menuId=MNU_00020&mt20Id=PF262418",
-      "last_updated": "2026-08-17",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://kopis.or.kr/por/db/pblprfr/pblprfrView.do?menuId=MNU_00020&mt20Id=PF262418"
     },
     {
       "id": "ko-pentaport-rock-festival-20250801",
@@ -177,9 +167,7 @@
         "록"
       ],
       "image_url": null,
-      "source_url": "https://sports.khan.co.kr/article/202503312319003",
-      "last_updated": "2026-08-01",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://sports.khan.co.kr/article/202503312319003"
     },
     {
       "id": "ko-kimtaeyeon-seolleim-that-summer-20250802",
@@ -200,9 +188,7 @@
         "콘서트"
       ],
       "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202506/20250620/20250620-54358.jpg",
-      "source_url": "https://ticket.yes24.com/Perf/54358",
-      "last_updated": "2026-08-20",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://ticket.yes24.com/Perf/54358"
     },
     {
       "id": "ko-psy-heumppuck-show-2025-suwon-20250802",
@@ -224,9 +210,7 @@
         "여름"
       ],
       "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26007849_p.gif",
-      "source_url": "https://suwonworldcup.gg.go.kr/archives/61927",
-      "last_updated": "2026-08-02",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://suwonworldcup.gg.go.kr/archives/61927"
     },
     {
       "id": "ko-waterbomb-sokcho-2025-20250823",
@@ -261,9 +245,7 @@
             "애쉬 아일랜드"
           ]
         }
-      ],
-      "last_updated": "2026-08-13",
-      "last_researched_by": "ko-researcher"
+      ]
     },
     {
       "id": "ko-letsrock-festival-2025-20250906",
@@ -285,9 +267,7 @@
         "밴드"
       ],
       "image_url": null,
-      "source_url": "https://www.starnewskorea.com/music/2025/05/15/2025051519072954530",
-      "last_updated": "2026-08-20",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.starnewskorea.com/music/2025/05/15/2025051519072954530"
     },
     {
       "id": "ko-busan-rock-festival-2025-20250926",
@@ -308,9 +288,7 @@
         "록"
       ],
       "image_url": null,
-      "source_url": "https://www.fnnews.com/news/202509261925182963",
-      "last_updated": "2026-08-02",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.fnnews.com/news/202509261925182963"
     },
     {
       "id": "ko-jarasum-jazz-2025-20251017",
@@ -331,9 +309,7 @@
         "재즈"
       ],
       "image_url": null,
-      "source_url": "https://www.newswire.co.kr/newsRead.php?no=1020670",
-      "last_updated": "2026-08-01",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.newswire.co.kr/newsRead.php?no=1020670"
     },
     {
       "id": "ko-jarasum-jazz-festival-2025-20251017",
@@ -354,9 +330,7 @@
         "재즈"
       ],
       "image_url": null,
-      "source_url": "https://www.newswire.co.kr/newsRead.php?no=1020670",
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.newswire.co.kr/newsRead.php?no=1020670"
     },
     {
       "id": "ko-choiyuree-stay-seoul-20251101",
@@ -378,9 +352,7 @@
         "단독공연"
       ],
       "image_url": null,
-      "source_url": "https://www.starnewskorea.com/music/2025/09/18/2025091808414667807",
-      "last_updated": "2026-08-17",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.starnewskorea.com/music/2025/09/18/2025091808414667807"
     },
     {
       "id": "ko-color-in-music-festival-2025-20251101",
@@ -436,9 +408,7 @@
             "ifeye"
           ]
         }
-      ],
-      "last_updated": "2026-08-10",
-      "last_researched_by": "ko-researcher"
+      ]
     },
     {
       "id": "ko-jeonyujin-twenty-seoul-20251122",
@@ -459,9 +429,7 @@
         "팬미팅"
       ],
       "image_url": null,
-      "source_url": "https://www.ticketlink.co.kr/help/notice/63002",
-      "last_updated": "2026-08-17",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.ticketlink.co.kr/help/notice/63002"
     },
     {
       "id": "ko-limyoungwoong-imhero-seoul-20260116",
@@ -482,9 +450,7 @@
         "콘서트"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Temp_1662384481565.-511956263.jpg",
-      "source_url": "https://www.raonnews.com/news/article.html?no=55132",
-      "last_updated": "2026-08-01",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.raonnews.com/news/article.html?no=55132"
     },
     {
       "id": "ko-giveon-dear-beloved-tour-seoul-20260118",
@@ -505,9 +471,7 @@
         "내한"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Giveon_at_2026_Montreux_Jazz_Festival_-_Upright.png/330px-Giveon_at_2026_Montreux_Jazz_Festival_-_Upright.png",
-      "source_url": "https://www.koreajoongangdaily.com/lifestyle/rb-artist-giveon-to-kick-off-first-asia-tour-with-korea-shows/12104370",
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.koreajoongangdaily.com/lifestyle/rb-artist-giveon-to-kick-off-first-asia-tour-with-korea-shows/12104370"
     },
     {
       "id": "ko-dynamicduo-once-in-a-while-seoul-20260123",
@@ -528,9 +492,7 @@
         "단독공연"
       ],
       "image_url": null,
-      "source_url": "https://www.goodkyung.com/news/articleView.html?idxno=248168",
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.goodkyung.com/news/articleView.html?idxno=248168"
     },
     {
       "id": "ko-menitrust-equus-tour-seoul-20260124",
@@ -551,9 +513,7 @@
         "내한"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Men_I_Trust_%40_The_Belasco_10_16_2021_%2851784136254%29.jpg/330px-Men_I_Trust_%40_The_Belasco_10_16_2021_%2851784136254%29.jpg",
-      "source_url": "https://www.songkick.com/concerts/42844620-men-i-trust-at-kbs-arena",
-      "last_updated": "2026-08-01",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.songkick.com/concerts/42844620-men-i-trust-at-kbs-arena"
     },
     {
       "id": "ko-midnight-til-morning-world-tour-seoul-20260215",
@@ -575,9 +535,7 @@
         "내한공연"
       ],
       "image_url": null,
-      "source_url": "https://www.edaily.co.kr/News/Read?newsId=03378406642396880&mediaCodeNo=257",
-      "last_updated": "2026-08-13",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.edaily.co.kr/News/Read?newsId=03378406642396880&mediaCodeNo=257"
     },
     {
       "id": "ko-onerepublic-from-asia-with-love-seoul-20260223",
@@ -599,9 +557,7 @@
         "내한"
       ],
       "image_url": null,
-      "source_url": "https://news.nate.com/view/20251118n32406",
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://news.nate.com/view/20251118n32406"
     },
     {
       "id": "ko-oneokrock-detox-asia-tour-seoul-20260227",
@@ -623,9 +579,7 @@
         "내한"
       ],
       "image_url": null,
-      "source_url": "https://www.setlist.fm/setlist/one-ok-rock/2026/jamsil-arena-seoul-south-korea-7341d2a5.html",
-      "last_updated": "2026-08-02",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.setlist.fm/setlist/one-ok-rock/2026/jamsil-arena-seoul-south-korea-7341d2a5.html"
     },
     {
       "id": "ko-takanori-iwata-space-cowboy-seoul-20260314",
@@ -647,9 +601,7 @@
         "솔로"
       ],
       "image_url": null,
-      "source_url": "https://www.ticketlink.co.kr/product/61121",
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.ticketlink.co.kr/product/61121"
     },
     {
       "id": "ko-zutomayo-intense-ii-seoul-20260314",
@@ -670,9 +622,7 @@
         "내한"
       ],
       "image_url": null,
-      "source_url": "https://sports.khan.co.kr/en/article/202603170204007",
-      "last_updated": "2026-08-01",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://sports.khan.co.kr/en/article/202603170204007"
     },
     {
       "id": "ko-bbc-symphony-seongnam-20260328",
@@ -693,9 +643,7 @@
         "내한"
       ],
       "image_url": null,
-      "source_url": "https://www.snart.or.kr/main/prex/prefer/view.do?prfr_exhb_sn=100042",
-      "last_updated": "2026-08-03",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.snart.or.kr/main/prex/prefer/view.do?prfr_exhb_sn=100042"
     },
     {
       "id": "ko-opn-tranquilizer-seoul-20260329",
@@ -716,9 +664,7 @@
         "내한"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/ONEOHTRIX_POINT_NEVER_%28cropped%29.jpg/330px-ONEOHTRIX_POINT_NEVER_%28cropped%29.jpg",
-      "source_url": "https://korean-vibe.com/news/newsview.php?ncode=179564704746522",
-      "last_updated": "2026-08-01",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://korean-vibe.com/news/newsview.php?ncode=179564704746522"
     },
     {
       "id": "ko-parkseojin-my-name-is-seojin-gwangju-20260509",
@@ -739,9 +685,7 @@
         "콘서트"
       ],
       "image_url": null,
-      "source_url": "https://www.topstarnews.net/news/articleView.html?idxno=16055106",
-      "last_updated": "2026-08-13",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.topstarnews.net/news/articleView.html?idxno=16055106"
     },
     {
       "id": "ko-kimjunsu-gravity-seoul-20260612",
@@ -762,9 +706,7 @@
         "아시아투어"
       ],
       "image_url": null,
-      "source_url": "https://www.heraldmuse.com/article/10709913",
-      "last_updated": "2026-08-03",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.heraldmuse.com/article/10709913"
     },
     {
       "id": "ko-seoulphil-riverside-concert-2026-20260613",
@@ -786,9 +728,7 @@
         "야외공연"
       ],
       "image_url": null,
-      "source_url": "https://hangang.seoul.go.kr/www/eventMng/detail.do?evntSn=423&mid=538&srchType=list",
-      "last_updated": "2026-08-27",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://hangang.seoul.go.kr/www/eventMng/detail.do?evntSn=423&mid=538&srchType=list"
     },
     {
       "id": "ko-mamamoo-4ward-seoul-20260619",
@@ -809,9 +749,7 @@
         "월드투어"
       ],
       "image_url": null,
-      "source_url": "https://www.allkpop.com/article/2026/06/mamamoo-launch-their-4ward-world-tour-with-three-sold-out-nights-in-seoul",
-      "last_updated": "2026-08-03",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.allkpop.com/article/2026/06/mamamoo-launch-their-4ward-world-tour-with-three-sold-out-nights-in-seoul"
     },
     {
       "id": "ko-treasure-the-stage-newwav-seoul-20260619",
@@ -832,9 +770,7 @@
         "콘서트"
       ],
       "image_url": null,
-      "source_url": "https://yg-life.com/archives/196920?lang=en",
-      "last_updated": "2026-08-03",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://yg-life.com/archives/196920?lang=en"
     },
     {
       "id": "ko-seoul-park-music-festival-2026-20260620",
@@ -855,9 +791,7 @@
         "인디"
       ],
       "image_url": null,
-      "source_url": "https://www.thetrippick.com/news/articleView.html?idxno=2722",
-      "last_updated": "2026-08-02",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.thetrippick.com/news/articleView.html?idxno=2722"
     },
     {
       "id": "ko-babymonster-choom-seoul-20260626",
@@ -878,9 +812,7 @@
         "월드투어"
       ],
       "image_url": null,
-      "source_url": "https://ygfamily.com/ko/artists/babymonster/notice/211",
-      "last_updated": "2026-08-03",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://ygfamily.com/ko/artists/babymonster/notice/211"
     },
     {
       "id": "ko-day6-the-decade-finale-seoul-20260703",
@@ -902,9 +834,7 @@
         "콘서트"
       ],
       "image_url": null,
-      "source_url": "https://tickets.interpark.com/goods/26007498",
-      "last_updated": "2026-08-03",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://tickets.interpark.com/goods/26007498"
     },
     {
       "id": "ko-mumyeongjeonseol-daegu-20260718",
@@ -925,9 +855,7 @@
         "콘서트"
       ],
       "image_url": null,
-      "source_url": "https://www.stagepick.co.kr/performances/detail/214777",
-      "last_updated": "2026-08-02",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.stagepick.co.kr/performances/detail/214777"
     },
     {
       "id": "ko-waterbomb-seoul-2026-20260724",
@@ -949,9 +877,7 @@
         "K-POP"
       ],
       "image_url": null,
-      "source_url": "https://www.waterbombfestival.com/en/2026-seoul-lineup",
-      "last_updated": "2026-08-03",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.waterbombfestival.com/en/2026-seoul-lineup"
     },
     {
       "id": "ko-straykids-worldtour-seoul-20260725",
@@ -975,8 +901,6 @@
       "source_url": "https://kpopofficial.com/event/stray-kids-concert-seoul-2026/",
       "general_sale": false,
       "general_sale_url": null,
-      "last_updated": "2026-09-09",
-      "last_researched_by": "ko-researcher",
       "presale": false
     },
     {
@@ -1003,8 +927,6 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-09-09",
-      "last_researched_by": "ko-researcher",
       "presale": false
     },
     {
@@ -1026,9 +948,7 @@
         "K-POP"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/%EB%A0%88%EB%93%9C%EB%B2%A8%EB%B2%B3%28Red_Velvet%29_%EC%BC%80%EC%9D%B4%EC%BD%98_%EC%9E%AC%ED%8C%AC_2024_%EB%A0%88%EB%93%9C%EC%B9%B4%ED%8E%AB_KCON_JAPAN_2024_%281%29.jpg/330px-%EB%A0%88%EB%93%9C%EB%B2%A8%EB%B2%B3%28Red_Velvet%29_%EC%BC%80%EC%9D%B4%EC%BD%98_%EC%9E%AC%ED%8C%AC_2024_%EB%A0%88%EB%93%9C%EC%B9%B4%ED%8E%AB_KCON_JAPAN_2024_%281%29.jpg",
-      "source_url": "https://www.tenasia.co.kr/article/2026071684304",
-      "last_updated": "2026-08-04",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.tenasia.co.kr/article/2026071684304"
     },
     {
       "id": "ko-psy-heumppuck-show-2026-20260801",
@@ -1058,9 +978,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-03",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-redvelvet-velvet-summer-20260803",
@@ -1079,8 +997,7 @@
         "컴백"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/%EB%A0%88%EB%93%9C%EB%B2%A8%EB%B2%B3%28Red_Velvet%29_%EC%BC%80%EC%9D%B4%EC%BD%98_%EC%9E%AC%ED%8C%AC_2024_%EB%A0%88%EB%93%9C%EC%B9%B4%ED%8E%AB_KCON_JAPAN_2024_%281%29.jpg/330px-%EB%A0%88%EB%93%9C%EB%B2%A8%EB%B2%B3%28Red_Velvet%29_%EC%BC%80%EC%9D%B4%EC%BD%98_%EC%9E%AC%ED%8C%AC_2024_%EB%A0%88%EB%93%9C%EC%B9%B4%ED%8E%AB_KCON_JAPAN_2024_%281%29.jpg",
-      "source_url": "https://kpopofficial.com/album/red-velvet-velvet-summer/",
-      "last_updated": "2026-09-09"
+      "source_url": "https://kpopofficial.com/album/red-velvet-velvet-summer/"
     },
     {
       "id": "ko-kissoflife-sweat-20260804",
@@ -1138,9 +1055,7 @@
         "솔로"
       ],
       "image_url": null,
-      "source_url": "https://sports.khan.co.kr/article/202608061905003/",
-      "last_updated": "2026-08-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://sports.khan.co.kr/article/202608061905003/"
     },
     {
       "id": "ko-aespa-synk-complaexity-seoul-20260807",
@@ -1169,9 +1084,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-20",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-artms-hyper-ego-20260807",
@@ -1210,9 +1123,7 @@
         "컴백"
       ],
       "image_url": null,
-      "source_url": "https://www.tenasia.co.kr/article/2026073171714",
-      "last_updated": "2026-08-03",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.tenasia.co.kr/article/2026073171714"
     },
     {
       "id": "ko-straykids-this-and-that-20260807",
@@ -1256,9 +1167,7 @@
       "presale": false,
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-20",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-higedandism-asiatour-seoul-20260808",
@@ -1288,9 +1197,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-itzy-all-in-midzy-seoul-20260808",
@@ -1316,9 +1223,7 @@
       "presale_datetime": null,
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-09",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-leeseungchul-thevoice-seongnam-20260808",
@@ -1339,9 +1244,7 @@
         "콘서트"
       ],
       "image_url": null,
-      "source_url": "https://tickets.interpark.com/goods/26006578",
-      "last_updated": "2026-09-09",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://tickets.interpark.com/goods/26006578"
     },
     {
       "id": "ko-nflying-into-rem-daegu-20260808",
@@ -1366,9 +1269,7 @@
       "source_url": "https://www.tenasia.co.kr/article/2026080307084",
       "presale": false,
       "general_sale": false,
-      "general_sale_url": null,
-      "last_updated": "2026-09-09",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-kiiikiii-whykiiikiii-20260810",
@@ -1406,9 +1307,7 @@
         "컴백"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/WayV_241128_SBS_Radio.png",
-      "source_url": "https://www.tenasia.co.kr/article/2026073169884",
-      "last_updated": "2026-09-09",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.tenasia.co.kr/article/2026073169884"
     },
     {
       "id": "ko-jeongeunji-summer-i-20260811",
@@ -1427,9 +1326,7 @@
         "컴백"
       ],
       "image_url": null,
-      "source_url": "https://www.munhwa.com/article/11604169",
-      "last_updated": "2026-09-09",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.munhwa.com/article/11604169"
     },
     {
       "id": "ko-axmxp-hello-axmxp-20260812",
@@ -1448,9 +1345,7 @@
         "컴백"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/AxMxP%2C_2026.jpg/330px-AxMxP%2C_2026.jpg",
-      "source_url": "https://www.heraldmuse.com/article/10829183",
-      "last_updated": "2026-08-04",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.heraldmuse.com/article/10829183"
     },
     {
       "id": "ko-kodaline-farewell-tour-seoul-20260812",
@@ -1475,9 +1370,7 @@
       "source_url": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=5101&mid=a20301010200",
       "presale": false,
       "general_sale": false,
-      "general_sale_url": null,
-      "last_updated": "2026-08-20",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-kimjongkook-theoriginals-seoul-encore-20260815",
@@ -1503,8 +1396,6 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "last_updated": "2026-09-09",
-      "last_researched_by": "ko-researcher",
       "presale": false
     },
     {
@@ -1530,9 +1421,7 @@
       "source_url": "https://www.tenasia.co.kr/article/2026080307084",
       "presale": false,
       "general_sale": false,
-      "general_sale_url": null,
-      "last_updated": "2026-09-09",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-thornapple-my-century-seoul-20260815",
@@ -1557,9 +1446,7 @@
       "source_url": "https://tickets.interpark.com/goods/26008537",
       "presale": false,
       "general_sale": false,
-      "general_sale_url": null,
-      "last_updated": "2026-09-09",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-jackwhite-live-seoul-20260817",
@@ -1588,9 +1475,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-09",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-junk-your-lips-20260817",
@@ -1610,9 +1495,7 @@
         "솔로"
       ],
       "image_url": null,
-      "source_url": "https://isplus.com/article/view/isp202608170012",
-      "last_updated": "2026-08-27",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://isplus.com/article/view/isp202608170012"
     },
     {
       "id": "ko-live-icon9-onewe-dragonpony-20260817",
@@ -1637,9 +1520,7 @@
       "source_url": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=5135&mid=a20301010200",
       "presale": false,
       "general_sale": false,
-      "general_sale_url": null,
-      "last_updated": "2026-09-09",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-sekou-live-in-seoul-20260818",
@@ -1665,9 +1546,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-09",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-astro-mj-right-20260819",
@@ -1686,9 +1565,7 @@
         "솔로"
       ],
       "image_url": null,
-      "source_url": "https://www.tenasia.co.kr/article/2026072897204",
-      "last_updated": "2026-08-13",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.tenasia.co.kr/article/2026072897204"
     },
     {
       "id": "ko-atheart-3-4-20260819",
@@ -1707,9 +1584,7 @@
         "리메이크"
       ],
       "image_url": null,
-      "source_url": "https://www.tenasia.co.kr/article/2026080702984",
-      "last_updated": "2026-08-13",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.tenasia.co.kr/article/2026080702984"
     },
     {
       "id": "ko-bigbang-20th-hangang-20260819",
@@ -1733,9 +1608,7 @@
       "source_url": "https://www.starnewskorea.com/music/2026/07/22/2026072215142522460",
       "general_sale": false,
       "general_sale_datetime": "2026-07-28T19:00:00+09:00",
-      "general_sale_url": null,
-      "last_updated": "2026-09-09",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-bigbang-biiig-20260819",
@@ -1754,9 +1627,7 @@
         "컴백"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/BIGBANG_2011_%28current_members_since_2023%29.jpg/500px-BIGBANG_2011_%28current_members_since_2023%29.jpg",
-      "source_url": "https://www.heraldmuse.com/article/10835536",
-      "last_updated": "2026-09-09",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.heraldmuse.com/article/10835536"
     },
     {
       "id": "ko-mashiro-2411-20260819",
@@ -1776,9 +1647,7 @@
         "데뷔"
       ],
       "image_url": null,
-      "source_url": "https://www.starnewskorea.com/music/2026/08/19/2026081910592398525",
-      "last_updated": "2026-08-27",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.starnewskorea.com/music/2026/08/19/2026081910592398525"
     },
     {
       "id": "ko-ourbirthday-debut-single-20260819",
@@ -1797,9 +1666,7 @@
         "데뷔"
       ],
       "image_url": null,
-      "source_url": "https://www.starnewskorea.com/music/2026/08/09/2026080908304630337",
-      "last_updated": "2026-08-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.starnewskorea.com/music/2026/08/09/2026080908304630337"
     },
     {
       "id": "ko-stevelacy-oh-yeah-asia-tour-seoul-20260819",
@@ -1824,9 +1691,7 @@
       "source_url": "https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoView.es?evtSeq=5133&mid=a20301010200",
       "presale": false,
       "general_sale": false,
-      "general_sale_url": null,
-      "last_updated": "2026-09-09",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-kimjaejoong-the-wave-single-20260820",
@@ -1845,9 +1710,7 @@
         "컴백"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Kim_Jae-joong_at_Bvlgari_event_in_March_2025_02.jpg/330px-Kim_Jae-joong_at_Bvlgari_event_in_March_2025_02.jpg",
-      "source_url": "https://www.heraldmuse.com/article/10829407",
-      "last_updated": "2026-08-04",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.heraldmuse.com/article/10829407"
     },
     {
       "id": "ko-mimi-first-solo-single-20260820",
@@ -1866,9 +1729,7 @@
         "솔로"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Oh_My_Girl_at_Golden_Hourglass_showcase_on_250723_%281%29.png",
-      "source_url": "https://www.heraldmuse.com/article/10827730",
-      "last_updated": "2026-09-09",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.heraldmuse.com/article/10827730"
     },
     {
       "id": "ko-seongri-sad-rain-20260820",
@@ -1887,9 +1748,7 @@
         "록"
       ],
       "image_url": null,
-      "source_url": "https://isplus.com/article/view/isp202608200113",
-      "last_updated": "2026-08-27",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://isplus.com/article/view/isp202608200113"
     },
     {
       "id": "ko-tiffanyyoung-edge-of-calm-20260820",
@@ -1938,9 +1797,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-09",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-enhypen-the-sin-bliss-20260821",
@@ -1959,8 +1816,7 @@
         "컴백"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Enhypen_at_Golden_disc_awards.png/330px-Enhypen_at_Golden_disc_awards.png",
-      "source_url": "https://kpopofficial.com/album/enhypen-the-sin-bliss/",
-      "last_updated": "2026-09-09"
+      "source_url": "https://kpopofficial.com/album/enhypen-the-sin-bliss/"
     },
     {
       "id": "ko-choiyena-isegye-movie-seoul-20260822",
@@ -1983,9 +1839,7 @@
       "image_url": null,
       "source_url": "https://www.starnewskorea.com/music/2026/06/16/2026061615014254811",
       "presale": false,
-      "general_sale": false,
-      "last_updated": "2026-08-13",
-      "last_researched_by": "ko-researcher"
+      "general_sale": false
     },
     {
       "id": "ko-haha-fan-concert-busan-20260822",
@@ -2007,8 +1861,6 @@
       ],
       "image_url": null,
       "source_url": "https://tickets.interpark.com/goods/26009186",
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher",
       "presale": false,
       "general_sale": false
     },
@@ -2034,9 +1886,7 @@
       "source_url": "https://sports.khan.co.kr/article/202607100833003/",
       "presale": false,
       "general_sale": false,
-      "general_sale_url": null,
-      "last_updated": "2026-08-24",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-janghaneum-i-and-i-seoul-20260822",
@@ -2057,9 +1907,7 @@
         "팬미팅"
       ],
       "image_url": null,
-      "source_url": "https://news.nate.com/view/20260806n18097?mid=e0600",
-      "last_updated": "2026-08-17",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://news.nate.com/view/20260806n18097?mid=e0600"
     },
     {
       "id": "ko-nflying-into-rem-gwangju-20260822",
@@ -2084,9 +1932,7 @@
       "source_url": "https://www.tenasia.co.kr/article/2026080307084",
       "presale": false,
       "general_sale": false,
-      "general_sale_url": null,
-      "last_updated": "2026-08-24",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-stayc-stay-closer-seoul-20260822",
@@ -2108,8 +1954,6 @@
       ],
       "image_url": null,
       "source_url": "https://www.soompi.com/article/1842484wpp/stayc-announces-dates-and-cities-for-2026-fan-concert-tour-stay-closer",
-      "last_updated": "2026-08-27",
-      "last_researched_by": "ko-researcher",
       "presale": false,
       "general_sale": false
     },
@@ -2135,8 +1979,6 @@
       "image_url": null,
       "source_url": "https://www.mt.co.kr/culture/2026/03/17/2026031709290517239",
       "general_sale": false,
-      "last_updated": "2026-08-24",
-      "last_researched_by": "ko-researcher",
       "presale": false
     },
     {
@@ -2156,9 +1998,7 @@
         "컴백"
       ],
       "image_url": null,
-      "source_url": "https://www.starnewskorea.com/music/2026/08/10/2026081013390562093",
-      "last_updated": "2026-08-13",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.starnewskorea.com/music/2026/08/10/2026081013390562093"
     },
     {
       "id": "ko-nct127-7th-album-20260824",
@@ -2197,9 +2037,7 @@
         "걸그룹"
       ],
       "image_url": null,
-      "source_url": "https://www.starnewskorea.com/music/2026/08/03/2026080308332112096",
-      "last_updated": "2026-08-17",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.starnewskorea.com/music/2026/08/03/2026080308332112096"
     },
     {
       "id": "ko-kimkitae-namu-gabang-20260826",
@@ -2218,9 +2056,7 @@
         "신곡"
       ],
       "image_url": null,
-      "source_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=06120486645546992",
-      "last_updated": "2026-08-17",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=06120486645546992"
     },
     {
       "id": "ko-sosubin-neulgeuraewaetdeon-album-20260827",
@@ -2248,9 +2084,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-03",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-infinite-mudaejiphoe-v-incheon-20260829",
@@ -2272,8 +2106,6 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/20230801_INFINITE_%28%EC%9D%B8%ED%94%BC%EB%8B%88%ED%8A%B8%29.jpg/330px-20230801_INFINITE_%28%EC%9D%B8%ED%94%BC%EB%8B%88%ED%8A%B8%29.jpg",
       "source_url": "https://enews.imbc.com/News/RetrieveNewsInfo/513169",
-      "last_updated": "2026-08-01",
-      "last_researched_by": "ko-researcher",
       "presale": false,
       "general_sale": false
     },
@@ -2298,8 +2130,6 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Jay_Park_in_September_2024.jpg",
       "source_url": "https://sports.khan.co.kr/article/202607281715003",
-      "last_updated": "2026-08-31",
-      "last_researched_by": "ko-researcher",
       "presale": false,
       "presale_datetime": "2026-07-29T20:00:00+09:00",
       "general_sale": false,
@@ -2327,9 +2157,7 @@
       "source_url": "https://www.gukjenews.com/news/articleView.html?idxno=3643427",
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-31",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-kimjaejoong-the-wave-seoul-20260829",
@@ -2358,9 +2186,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-31",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-leesu-dsotm-seoul-20260829",
@@ -2385,9 +2211,7 @@
       "source_url": "https://www.news1.kr/entertain/music/6206648",
       "presale": false,
       "general_sale": false,
-      "general_sale_datetime": "2026-06-26T19:00:00+09:00",
-      "last_updated": "2026-08-31",
-      "last_researched_by": "ko-researcher"
+      "general_sale_datetime": "2026-06-26T19:00:00+09:00"
     },
     {
       "id": "ko-hyorisu-skibidi-20260831",
@@ -2407,9 +2231,7 @@
         "데뷔"
       ],
       "image_url": null,
-      "source_url": "https://isplus.com/article/view/isp202608220011",
-      "last_updated": "2026-08-24",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://isplus.com/article/view/isp202608220011"
     },
     {
       "id": "ko-jennie-new-ep-20260831",
@@ -2428,9 +2250,7 @@
         "컴백"
       ],
       "image_url": null,
-      "source_url": "https://www.tenasia.co.kr/article/2026081985354",
-      "last_updated": "2026-09-09",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.tenasia.co.kr/article/2026081985354"
     },
     {
       "id": "ko-namyoojung-remake-album-20260831",
@@ -2450,9 +2270,7 @@
         "솔로"
       ],
       "image_url": null,
-      "source_url": "https://www.tenasia.co.kr/article/2026080675254",
-      "last_updated": "2026-09-09",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.tenasia.co.kr/article/2026080675254"
     },
     {
       "id": "ko-taemin-phase1-soft-violence-20260831",
@@ -2471,9 +2289,7 @@
         "솔로"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/2025-12-08_Taemin_at_AHC_event_04_%28cropped%29.jpg",
-      "source_url": "https://www.heraldmuse.com/article/10822616",
-      "last_updated": "2026-08-02",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.heraldmuse.com/article/10822616"
     },
     {
       "id": "ko-82major-heat-20260901",
@@ -2492,9 +2308,7 @@
         "컴백"
       ],
       "image_url": null,
-      "source_url": "https://www.tenasia.co.kr/article/2026080676814",
-      "last_updated": "2026-08-20",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.tenasia.co.kr/article/2026080676814"
     },
     {
       "id": "ko-shinwonho-super-star-20260902",
@@ -2522,9 +2336,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-31",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-unchild-tingting-20260902",
@@ -2543,9 +2355,7 @@
         "컴백"
       ],
       "image_url": null,
-      "source_url": "https://sports.khan.co.kr/article/202608192100003/",
-      "last_updated": "2026-08-20",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://sports.khan.co.kr/article/202608192100003/"
     },
     {
       "id": "ko-plave-flame-milet-20260903",
@@ -2572,9 +2382,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-31",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-fromis9-tomorrow-glow-seoul-20260904",
@@ -2603,9 +2411,7 @@
       "general_sale": false,
       "general_sale_datetime": "2026-08-06T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-limyoungwoong-imhero-stadium2-20260904",
@@ -2629,9 +2435,7 @@
       "source_url": "https://tickets.interpark.com/goods/26009868",
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-monstax-the-phase-20260904",
@@ -2650,9 +2454,7 @@
         "컴백"
       ],
       "image_url": null,
-      "source_url": "http://www.osen.co.kr/article/G1112853420",
-      "last_updated": "2026-08-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "http://www.osen.co.kr/article/G1112853420"
     },
     {
       "id": "ko-honggyeongmin-medalist-september-seoul-20260905",
@@ -2677,9 +2479,7 @@
       "presale": false,
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-kimyoona-coffee-and-cigarette-20260905",
@@ -2709,9 +2509,7 @@
       "general_sale": false,
       "general_sale_datetime": "2026-08-05T14:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-parkeunbin-eun-iverse-20260905",
@@ -2740,9 +2538,7 @@
       "general_sale": false,
       "general_sale_datetime": "2026-08-03T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-sungsikyung-with-friends-20260905",
@@ -2766,9 +2562,7 @@
       "source_url": "https://sports.khan.co.kr/article/202607211450003/",
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-evan-death-of-me-20260907",
@@ -2787,9 +2581,7 @@
         "솔로"
       ],
       "image_url": null,
-      "source_url": "https://www.tenasia.co.kr/article/2026081032384",
-      "last_updated": "2026-08-13",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.tenasia.co.kr/article/2026081032384"
     },
     {
       "id": "ko-evan-debut-showcase-seoul-20260907",
@@ -2812,9 +2604,7 @@
       "image_url": null,
       "source_url": "https://www.munhwa.com/article/11608363",
       "presale": false,
-      "general_sale": false,
-      "last_updated": "2026-08-13",
-      "last_researched_by": "ko-researcher"
+      "general_sale": false
     },
     {
       "id": "ko-kimheejae-reverb-20260907",
@@ -2841,9 +2631,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-03",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-soyeon-solo-comeback-20260910",
@@ -2863,9 +2651,7 @@
         "솔로"
       ],
       "image_url": null,
-      "source_url": "https://isplus.com/article/view/isp202608260023",
-      "last_updated": "2026-08-31",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://isplus.com/article/view/isp202608260023"
     },
     {
       "id": "ko-and-team-mark-on-me-20260908",
@@ -2916,9 +2702,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-03",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-inaminute-midnight-20260909",
@@ -2937,9 +2721,7 @@
         "컴백"
       ],
       "image_url": null,
-      "source_url": "https://www.tenasia.co.kr/article/2026081421724",
-      "last_updated": "2026-09-09",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.tenasia.co.kr/article/2026081421724"
     },
     {
       "id": "ko-allhours-unbound-20260910",
@@ -2958,9 +2740,7 @@
         "컴백"
       ],
       "image_url": null,
-      "source_url": "https://sports.khan.co.kr/article/202608151010003",
-      "last_updated": "2026-09-09",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://sports.khan.co.kr/article/202608151010003"
     },
     {
       "id": "ko-johnpark-break-seoul-20260911",
@@ -2982,8 +2762,6 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/John_Park_at_the_Samsung%27s_Galaxy_Tab_on_Jan_6%2C_2011_from_acrofan.jpg",
       "source_url": "https://sports.khan.co.kr/article/202607271333003/",
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher",
       "general_sale": false,
       "general_sale_datetime": "2026-07-31T18:00:00+09:00"
     },
@@ -3011,9 +2789,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-crush-zzinbombting-crush-farm-seoul-20260912",
@@ -3042,9 +2818,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-hyunjae-the-present-for-you-seoul-20260912",
@@ -3073,9 +2847,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-isul-live-festival-2026-20260912",
@@ -3098,8 +2870,6 @@
       ],
       "image_url": null,
       "source_url": "https://www.ngonews.kr/news/articleView.html?idxno=234860",
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher",
       "festival_days": [
         {
           "date": "2026-09-12",
@@ -3147,8 +2917,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-09"
+      "general_sale_url": null
     },
     {
       "id": "ko-leejunho-autumn-note-seoul-20260912",
@@ -3169,9 +2938,7 @@
       "image_url": null,
       "source_url": "https://www.sonymusic.co.jp/artist/2pm/info/584994",
       "presale": false,
-      "general_sale": false,
-      "last_updated": "2026-09-09",
-      "last_researched_by": "ko-researcher"
+      "general_sale": false
     },
     {
       "id": "ko-plave-keep-it-manic-incheon-20260912",
@@ -3201,9 +2968,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-31",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-riize-ch-riize-on-air-20260912",
@@ -3232,9 +2997,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-wayv-born-this-way-seoul-20260912",
@@ -3256,8 +3019,6 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/WayV_241128_SBS_Radio.png",
       "source_url": "https://www.tenasia.co.kr/article/2026073169884",
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher",
       "presale": false,
       "presale_datetime": "2026-07-30T20:00:00+09:00",
       "general_sale": false,
@@ -3286,9 +3047,7 @@
       "presale": false,
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-wax-3579-autumn-seoul-20260913",
@@ -3313,9 +3072,7 @@
       "presale": false,
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-youngtak-gogo-20260914",
@@ -3334,9 +3091,7 @@
         "컴백"
       ],
       "image_url": null,
-      "source_url": "https://www.tenasia.co.kr/article/2026080441694",
-      "last_updated": "2026-08-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.tenasia.co.kr/article/2026080441694"
     },
     {
       "id": "ko-nct127-neocity-redline-seoul-20260918",
@@ -3358,8 +3113,6 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/NCT127_-_Fact_Check_press_conference_Oct_6_2023.jpg/330px-NCT127_-_Fact_Check_press_conference_Oct_6_2023.jpg",
       "source_url": "https://www.tenasia.co.kr/article/2026073059144",
-      "last_updated": "2026-09-18",
-      "last_researched_by": "ko-researcher",
       "presale": false,
       "general_sale": false
     },
@@ -3386,9 +3139,7 @@
       "presale": false,
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-18",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-chomingyu-mono-drama-sweet-escape-seoul-20260919",
@@ -3411,9 +3162,7 @@
       "image_url": null,
       "source_url": "https://www.starnewskorea.com/music/2026/08/05/2026080511031277233",
       "presale": false,
-      "presale_datetime": "2026-08-13T19:00:00+09:00",
-      "last_updated": "2026-09-18",
-      "last_researched_by": "ko-researcher"
+      "presale_datetime": "2026-08-13T19:00:00+09:00"
     },
     {
       "id": "ko-izna-who-dat-girl-seoul-20260919",
@@ -3441,9 +3190,7 @@
       "general_sale": false,
       "general_sale_datetime": "2026-07-23T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26010264",
-      "last_updated": "2026-09-21",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26010264"
     },
     {
       "id": "ko-kimyongbin-serenade-seoul-20260919",
@@ -3472,9 +3219,7 @@
       "general_sale": false,
       "general_sale_datetime": "2026-08-10T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-vaundy-horo-seoul-20260919",
@@ -3497,9 +3242,7 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Vaundy_2025.jpg",
       "source_url": "https://sports.khan.co.kr/en/article/202603111454007",
       "general_sale": false,
-      "general_sale_url": "https://tickets.interpark.com/goods/26003199",
-      "last_updated": "2026-09-21",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26003199"
     },
     {
       "id": "ko-okf2026-orjet-kpop-festa-20260926",
@@ -3520,8 +3263,7 @@
         "K-POP"
       ],
       "image_url": null,
-      "source_url": "https://www.etnews.com/20260623000157",
-      "last_updated": "2026-09-18"
+      "source_url": "https://www.etnews.com/20260623000157"
     },
     {
       "id": "ko-silicagel-syn-the-size-seoul-20260926",
@@ -3551,9 +3293,7 @@
       "general_sale": true,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26007703",
-      "last_updated": "2026-09-03",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26007703"
     },
     {
       "id": "ko-takuyakimura-checkpoint-seoul-20260926",
@@ -3579,9 +3319,7 @@
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26008115",
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26008115"
     },
     {
       "id": "ko-boynextdoor-home-repackage-20260928",
@@ -3600,9 +3338,7 @@
         "컴백"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/BoyNextDoor_at_the_2024_Melon_Music_Awards.png",
-      "source_url": "https://www.osen.co.kr/article/G1112851492",
-      "last_updated": "2026-09-18",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.osen.co.kr/article/G1112851492"
     },
     {
       "id": "ko-minzy-new-single-20260928",
@@ -3630,9 +3366,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-closeyoureyes-comeback-20260930",
@@ -3651,9 +3385,7 @@
         "컴백"
       ],
       "image_url": null,
-      "source_url": "https://isplus.com/article/view/isp202608100020",
-      "last_updated": "2026-09-18",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://isplus.com/article/view/isp202608100020"
     },
     {
       "id": "ko-tunexx-comeback-20260930",
@@ -3672,9 +3404,7 @@
         "컴백"
       ],
       "image_url": null,
-      "source_url": "https://www.tenasia.co.kr/article/2026080553014",
-      "last_updated": "2026-09-18",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.tenasia.co.kr/article/2026080553014"
     },
     {
       "id": "ko-busan-rock-festival-20261002",
@@ -3698,9 +3428,7 @@
       "source_url": "https://www.mhns.co.kr/news/articleView.html?idxno=753761",
       "general_sale": true,
       "general_sale_datetime": "2026-07-21T14:00:00+09:00",
-      "general_sale_url": null,
-      "last_updated": "2026-07-25",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-postmalone-big-stadium-tour-seoul-20261002",
@@ -3756,9 +3484,7 @@
       "presale_datetime": "2026-08-10T20:00:00+09:00",
       "general_sale": true,
       "general_sale_datetime": "2026-08-11T20:00:00+09:00",
-      "general_sale_url": "https://tickets.interpark.com/goods/26011092",
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26011092"
     },
     {
       "id": "ko-choiyuree-stay-seoul-20261003",
@@ -3788,9 +3514,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-01T18:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012515",
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012515"
     },
     {
       "id": "ko-edc-korea-2026-20261003",
@@ -3815,9 +3539,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-06-18T10:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://www.ticketlink.co.kr/product/61609",
-      "last_updated": "2026-07-24",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://www.ticketlink.co.kr/product/61609"
     },
     {
       "id": "ko-leehi-hibiscus-garden-live-20261003",
@@ -3843,9 +3565,7 @@
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": "2026-08-20T12:00:00+09:00",
-      "general_sale_url": null,
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-leo-muse-fanmeeting-seoul-20261003",
@@ -3874,9 +3594,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012326",
-      "last_updated": "2026-09-03",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012326"
     },
     {
       "id": "ko-letsrock-festival-2026-20261003",
@@ -3902,9 +3620,7 @@
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-20",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-nakajimakento-idol1st-kenty-seoul-20261003",
@@ -3926,9 +3642,7 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/BuzzFeed_MUSIC_AWARDS_JAPAN_2026_-_%E4%B8%AD%E5%B3%B6%E5%81%A5%E4%BA%BA.png/500px-BuzzFeed_MUSIC_AWARDS_JAPAN_2026_-_%E4%B8%AD%E5%B3%B6%E5%81%A5%E4%BA%BA.png",
       "source_url": "https://www.starnewskorea.com/music/2026/04/16/2026041609223131103",
-      "general_sale": true,
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "general_sale": true
     },
     {
       "id": "ko-persona-live-tour-resonance-seoul-20261003",
@@ -3949,9 +3663,7 @@
         "라이브"
       ],
       "image_url": null,
-      "source_url": "https://x.com/Atlus_korea/status/2079038893941239912",
-      "last_updated": "2026-07-25",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://x.com/Atlus_korea/status/2079038893941239912"
     },
     {
       "id": "ko-sandeul-baramgyeol-seoul-20261003",
@@ -3981,9 +3693,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-08T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012383",
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012383"
     },
     {
       "id": "ko-verivery-give-me-five-seoul-20261003",
@@ -4004,9 +3714,7 @@
         "콘서트"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/190506_%EB%B2%A0%EB%A6%AC%EB%B2%A0%EB%A6%AC_%EC%8B%A0%EC%B4%8C_%EB%B2%84%EC%8A%A4%ED%82%B9.jpg",
-      "source_url": "http://www.osen.co.kr/article/G1112848840",
-      "last_updated": "2026-08-02",
-      "last_researched_by": "ko-researcher"
+      "source_url": "http://www.osen.co.kr/article/G1112848840"
     },
     {
       "id": "ko-xmf-2026-20261003",
@@ -4060,9 +3768,7 @@
       "source_url": "https://biz.heraldcorp.com/article/10829202",
       "presale": false,
       "general_sale": true,
-      "general_sale_datetime": "2026-08-03T14:00:00+09:00",
-      "last_updated": "2026-08-05",
-      "last_researched_by": "ko-researcher"
+      "general_sale_datetime": "2026-08-03T14:00:00+09:00"
     },
     {
       "id": "ko-youngtak-tak-show5-seoul-20261003",
@@ -4087,9 +3793,7 @@
       "presale": false,
       "presale_datetime": "2026-08-12T20:00:00+09:00",
       "general_sale": true,
-      "general_sale_datetime": "2026-08-14T20:00:00+09:00",
-      "last_updated": "2026-08-20",
-      "last_researched_by": "ko-researcher"
+      "general_sale_datetime": "2026-08-14T20:00:00+09:00"
     },
     {
       "id": "ko-jogwanwoo-autumn-miracle-bucheon-20261004",
@@ -4118,9 +3822,7 @@
       "general_sale": true,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012555",
-      "last_updated": "2026-09-03",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012555"
     },
     {
       "id": "ko-zaralarsson-midnight-sun-seoul-20261004",
@@ -4149,9 +3851,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-06-11T12:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://www.livenation.kr/event/zara-larsson-midnight-sun-tour-seoul-tickets-edp1680726",
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://www.livenation.kr/event/zara-larsson-midnight-sun-tour-seoul-tickets-edp1680726"
     },
     {
       "id": "ko-theweeknd-after-hours-til-dawn-goyang-20261007",
@@ -4211,9 +3911,7 @@
       "general_sale": true,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26011325",
-      "last_updated": "2026-09-03",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26011325"
     },
     {
       "id": "ko-jarasum-jazz-2026-20261009",
@@ -4234,9 +3932,7 @@
         "재즈"
       ],
       "image_url": null,
-      "source_url": "https://kr.ambafrance-culture.org/ko/evenement/%EC%9E%90%EB%9D%BC%EC%84%AC%EC%9E%AC%EC%A6%88%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C-2026-%ED%8F%AC%EC%BB%A4%EC%8A%A4-%ED%94%84%EB%9E%91%EC%8A%A4/",
-      "last_updated": "2026-07-24",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://kr.ambafrance-culture.org/ko/evenement/%EC%9E%90%EB%9D%BC%EC%84%AC%EC%9E%AC%EC%A6%88%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C-2026-%ED%8F%AC%EC%BB%A4%EC%8A%A4-%ED%94%84%EB%9E%91%EC%8A%A4/"
     },
     {
       "id": "ko-jx-core-incheon-20261009",
@@ -4265,9 +3961,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-11T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012479",
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012479"
     },
     {
       "id": "ko-leechangsub-unknown-seoul-20261009",
@@ -4297,9 +3991,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-08-27T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-pentagon-101010-seoul-20261009",
@@ -4328,9 +4020,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-08T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26011526",
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26011526"
     },
     {
       "id": "ko-yosea-asia-tour-seoul-20261009",
@@ -4360,9 +4050,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-03T18:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012710",
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012710"
     },
     {
       "id": "ko-allhours-rise-up-seoul-20261010",
@@ -4386,9 +4074,7 @@
       "presale": false,
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-20",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-charlieputh-whatevers-clever-goyang-20261011",
@@ -4446,9 +4132,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-11T19:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012215",
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012215"
     },
     {
       "id": "ko-gmf-2026-20261017",
@@ -4517,9 +4201,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-04T17:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012694",
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012694"
     },
     {
       "id": "ko-lucy-island-encore-seoul-20261023",
@@ -4545,9 +4227,7 @@
       "presale": false,
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-leeseunggi-gisungjeon-rak-seoul-20261024",
@@ -4576,9 +4256,7 @@
       "general_sale": false,
       "general_sale_datetime": "2026-06-04T18:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26008033",
-      "last_updated": "2026-09-03",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26008033"
     },
     {
       "id": "ko-oneus-full-moon-seoul-20261024",
@@ -4597,9 +4275,7 @@
         "월드투어"
       ],
       "image_url": null,
-      "source_url": "https://www.tenasia.co.kr/article/2026073174404",
-      "last_updated": "2026-08-03",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.tenasia.co.kr/article/2026073174404"
     },
     {
       "id": "ko-sosubin-neulgeuraewaetdeon-seoul-20261024",
@@ -4629,9 +4305,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-08-31T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012327",
-      "last_updated": "2026-09-03",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012327"
     },
     {
       "id": "ko-bensonboone-wanted-man-tour-seoul-20261026",
@@ -4660,9 +4334,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-07-21T12:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-kimjaehwan-yeoback-seoul-20261031",
@@ -4692,9 +4364,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-09T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012668",
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012668"
     },
     {
       "id": "ko-nujabes-metaphorical-ensemble-seoul-20261031",
@@ -4724,9 +4394,7 @@
       "general_sale": true,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012781",
-      "last_updated": "2026-09-03",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012781"
     },
     {
       "id": "ko-ko1keyz-1st-fanmeeting-seoul-20261107",
@@ -4755,9 +4423,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-03T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012046",
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012046"
     },
     {
       "id": "ko-5sos-everyones-a-star-seoul-20261119",
@@ -4812,9 +4478,7 @@
       "presale": false,
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-24",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-mumyeongjeonseol-daegu-encore-20261121",
@@ -4836,8 +4500,6 @@
       ],
       "image_url": null,
       "source_url": "https://sports.khan.co.kr/article/202607310950003/",
-      "last_updated": "2026-08-02",
-      "last_researched_by": "ko-researcher",
       "general_sale": true,
       "general_sale_datetime": "2026-07-31T13:00:00+09:00"
     },
@@ -4860,9 +4522,7 @@
         "콘서트"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/180531_%EB%A1%9C%EC%9D%B4%ED%82%B4.jpg/330px-180531_%EB%A1%9C%EC%9D%B4%ED%82%B4.jpg",
-      "source_url": "https://sports.khan.co.kr/article/202607160757003/",
-      "last_updated": "2026-09-21",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://sports.khan.co.kr/article/202607160757003/"
     },
     {
       "id": "ko-gongyoo-the-long-take-seoul-20261128",
@@ -4881,9 +4541,7 @@
         "배우"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Gong_Yoo_in_2021_-_3.png",
-      "source_url": "https://www.tenasia.co.kr/article/2026073177024",
-      "last_updated": "2026-08-02",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.tenasia.co.kr/article/2026073177024"
     },
     {
       "id": "ko-kanaboon-critical-hit-parade-seoul-20261205",
@@ -4907,9 +4565,7 @@
       "image_url": null,
       "source_url": "https://www.starnewskorea.com/music/2026/08/04/2026080410042952283",
       "general_sale": true,
-      "general_sale_datetime": "2026-08-10T20:00:00+09:00",
-      "last_updated": "2026-08-10",
-      "last_researched_by": "ko-researcher"
+      "general_sale_datetime": "2026-08-10T20:00:00+09:00"
     },
     {
       "id": "ko-khalid-always-summer-somewhere-goyang-20261205",
@@ -4939,9 +4595,7 @@
       "general_sale": true,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26009919",
-      "last_updated": "2026-09-03",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26009919"
     },
     {
       "id": "ko-yuuri-live-2026-seoul-20261205",
@@ -4964,8 +4618,6 @@
       ],
       "image_url": null,
       "source_url": "https://tickets.interpark.com/goods/26010352",
-      "last_updated": "2026-08-27",
-      "last_researched_by": "ko-researcher",
       "general_sale": true,
       "general_sale_datetime": "2026-07-31T20:00:00+09:00",
       "general_sale_url": "https://tickets.interpark.com/goods/26010352"
@@ -4998,9 +4650,7 @@
       "general_sale": true,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012276",
-      "last_updated": "2026-09-03",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012276"
     },
     {
       "id": "ko-domi-jdbeck-who-asked-seoul-20261212",
@@ -5026,9 +4676,7 @@
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": "2026-08-25T19:00:00+09:00",
-      "general_sale_url": null,
-      "last_updated": "2026-08-24",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-leeseungchul-the-voice-incheon-20261212",
@@ -5058,9 +4706,7 @@
       "general_sale": true,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26011556",
-      "last_updated": "2026-09-03",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26011556"
     },
     {
       "id": "ko-wavetoearth-seoul-20261219",
@@ -5090,9 +4736,7 @@
       "general_sale": false,
       "general_sale_datetime": "2026-09-01T12:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012666",
-      "last_updated": "2026-09-21",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012666"
     },
     {
       "id": "ko-mumyeongjeonseol-busan-encore-20261231",
@@ -5121,9 +4765,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-08-10T13:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-08-17",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-maroon5-live-in-korea-goyang-20270127",
@@ -5153,9 +4795,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-08-14T12:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-bruno-mars-the-romantic-goyang-20270521",
@@ -5185,9 +4825,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-14T12:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012591",
-      "last_updated": "2026-09-21",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012591"
     },
     {
       "id": "ko-kimjiwon-wonederland-seoul-20261024",
@@ -5216,9 +4854,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-16T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-kimfeel-journey-20261029",
@@ -5241,9 +4877,7 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Kim_Feel_210107.png/500px-Kim_Feel_210107.png",
       "source_url": "https://isplus.com/article/view/isp202609020205",
       "presale": false,
-      "general_sale": false,
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "general_sale": false
     },
     {
       "id": "ko-kimfeel-journey-concert-seoul-20261114",
@@ -5266,9 +4900,7 @@
       "presale": false,
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-wonderlivet-2026-20261120",
@@ -5340,9 +4972,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-01T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://ticket.yes24.com/Perf/59840",
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://ticket.yes24.com/Perf/59840"
     },
     {
       "id": "ko-choiyuree-stay-busan-20261107",
@@ -5372,9 +5002,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-01T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012514",
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012514"
     },
     {
       "id": "ko-choiyuree-stay-daegu-20261114",
@@ -5404,9 +5032,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-01T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012762",
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012762"
     },
     {
       "id": "ko-mumyeongjeonseol-incheon-20261205",
@@ -5435,9 +5061,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-07T17:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012920",
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012920"
     },
     {
       "id": "ko-kimjanghoon-dasinalda-seoul-20261205",
@@ -5466,9 +5090,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-11T12:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26013013",
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26013013"
     },
     {
       "id": "ko-9muses-muse-on-seoul-20250831",
@@ -5491,9 +5113,7 @@
       "image_url": null,
       "source_url": "https://plus.hankyung.com/apps/newsinside.view?aid=2025072993194",
       "presale": false,
-      "general_sale": false,
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "general_sale": false
     },
     {
       "id": "ko-johangjo-saenggak-bucheon-20260809",
@@ -5516,9 +5136,7 @@
       "image_url": null,
       "source_url": "https://tickets.interpark.com/goods/26008597",
       "presale": false,
-      "general_sale": false,
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "general_sale": false
     },
     {
       "id": "ko-changmo-the-emperor-seoul-20260509",
@@ -5541,9 +5159,7 @@
       "image_url": null,
       "source_url": "https://www.khan.co.kr/article/202603041738011",
       "presale": false,
-      "general_sale": false,
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "general_sale": false
     },
     {
       "id": "ko-hitorie-hitori-escape-seoul-20260823",
@@ -5567,9 +5183,7 @@
       "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202606/20260623/20260623-59024.jpg",
       "source_url": "https://ticket.yes24.com/Perf/59024",
       "presale": false,
-      "general_sale": false,
-      "last_updated": "2026-09-08",
-      "last_researched_by": "ko-researcher"
+      "general_sale": false
     },
     {
       "id": "ko-illit-i-got-your-back-kr-20260817",
@@ -5588,9 +5202,7 @@
         "발매"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Illit_in_January_2026.png/500px-Illit_in_January_2026.png",
-      "source_url": "https://isplus.com/article/view/isp202608170014",
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://isplus.com/article/view/isp202608170014"
     },
     {
       "id": "ko-hyorisoo-skibidi-20260831",
@@ -5610,9 +5222,7 @@
         "유닛"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/250807_%ED%9A%A8%EC%97%B0_%27%EC%95%85%EB%A7%88%EA%B0%80_%EC%9D%B4%EC%82%AC%EC%99%94%EB%8B%A4%27_VIP_Premiere_02_%28cropped%29.jpg/500px-250807_%ED%9A%A8%EC%97%B0_%27%EC%95%85%EB%A7%88%EA%B0%80_%EC%9D%B4%EC%82%AC%EC%99%94%EB%8B%A4%27_VIP_Premiere_02_%28cropped%29.jpg",
-      "source_url": "https://www.khan.co.kr/article/202608311124001",
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.khan.co.kr/article/202608311124001"
     },
     {
       "id": "ko-kik-road-20260831",
@@ -5632,9 +5242,7 @@
         "발매"
       ],
       "image_url": null,
-      "source_url": "https://isplus.com/article/view/isp202608310134",
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://isplus.com/article/view/isp202608310134"
     },
     {
       "id": "ko-iu-i-byeollobuteo-20260910",
@@ -5654,9 +5262,7 @@
         "발매"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/IU_at_Blue_Dragon_Series_Awards_on_18072025_%2810%29.png/500px-IU_at_Blue_Dragon_Series_Awards_on_18072025_%2810%29.png",
-      "source_url": "https://www.tenasia.co.kr/article/2026090434584",
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.tenasia.co.kr/article/2026090434584"
     },
     {
       "id": "ko-lesserafim-made-my-night-20260911",
@@ -5676,9 +5282,7 @@
         "컴백"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Le_Sserafim_at_2026_Golden_Disc_awards.png/500px-Le_Sserafim_at_2026_Golden_Disc_awards.png",
-      "source_url": "https://enews.imbc.com/News/RetrieveNewsInfo/516163",
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://enews.imbc.com/News/RetrieveNewsInfo/516163"
     },
     {
       "id": "ko-jisoo-click-20260904",
@@ -5698,9 +5302,7 @@
         "발매"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Jisoo_at_Boyfriend_on_Demand_press_conference_on_26022026_%2812%29.png/500px-Jisoo_at_Boyfriend_on_Demand_press_conference_on_26022026_%2812%29.png",
-      "source_url": "https://www.hankyung.com/article/202608251517H",
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.hankyung.com/article/202608251517H"
     },
     {
       "id": "ko-lisa-press-play-20261023",
@@ -5720,9 +5322,7 @@
         "발매"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/20240314_Lisa_Manoban_07.jpg/500px-20240314_Lisa_Manoban_07.jpg",
-      "source_url": "https://www.segye.com/newsView/20260904506288",
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.segye.com/newsView/20260904506288"
     },
     {
       "id": "ko-dohkyungsoo-dopamine-20260908",
@@ -5742,9 +5342,7 @@
         "발매"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/D.O._at_the_press_conference_of_the_film_Underdog_in_January_2019.png/500px-D.O._at_the_press_conference_of_the_film_Underdog_in_January_2019.png",
-      "source_url": "https://www.munhwa.com/article/11611967",
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.munhwa.com/article/11611967"
     },
     {
       "id": "ko-pentagon-geopjaengi-20260911",
@@ -5764,9 +5362,7 @@
         "10주년"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pentagon_190327.png/500px-Pentagon_190327.png",
-      "source_url": "https://www.heraldmuse.com/article/10853699",
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.heraldmuse.com/article/10853699"
     },
     {
       "id": "ko-oneus-first-light-20260923",
@@ -5786,9 +5382,7 @@
         "컴백"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/%EC%9B%90%EC%96%B4%EC%8A%A4_%28ONEUS%29_%40_190115_tbs_%ED%8C%A9%ED%8A%B8%EC%9D%B8%EC%8A%A4%ED%83%80_%ED%8C%A9%ED%84%B0%EB%B7%B0_%ED%8F%AC%ED%86%A0%ED%83%80%EC%9E%84_%281%29.png",
-      "source_url": "https://www.tenasia.co.kr/article/2026090449384",
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.tenasia.co.kr/article/2026090449384"
     },
     {
       "id": "ko-onew-chakgak-20261020",
@@ -5808,9 +5402,7 @@
         "발매"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Onew_Percent_Showcase_2025_2.jpg/500px-Onew_Percent_Showcase_2025_2.jpg",
-      "source_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02906086645576840",
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02906086645576840"
     },
     {
       "id": "ko-sunghanbin-solo-debut-20261012",
@@ -5830,9 +5422,7 @@
         "솔로 데뷔"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Sung_Han_Bin_June_10_2025.png/500px-Sung_Han_Bin_June_10_2025.png",
-      "source_url": "https://www.news1.kr/entertain/music/6281629",
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.news1.kr/entertain/music/6281629"
     },
     {
       "id": "ko-triples-love-and-pop-pt2-20261020",
@@ -5852,9 +5442,7 @@
         "컴백"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/TripleS_250512.jpg/500px-TripleS_250512.jpg",
-      "source_url": "https://triples.fandom.com/wiki/ASSEMBLE26:_LOVE%26POP",
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://triples.fandom.com/wiki/ASSEMBLE26:_LOVE%26POP"
     },
     {
       "id": "ko-hyeonyeokgawang3-tour-incheon-20260404",
@@ -5875,9 +5463,7 @@
         "콘서트"
       ],
       "image_url": null,
-      "source_url": "https://nol.yanolja.com/ticket/products/26001900",
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://nol.yanolja.com/ticket/products/26001900"
     },
     {
       "id": "ko-choyongpil-great-birth-incheon-20251227",
@@ -5898,9 +5484,7 @@
         "콘서트"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Cho_Yong-pil_from_acrofan.jpg",
-      "source_url": "https://nol.yanolja.com/ticket/places/25001275/products/25014360",
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://nol.yanolja.com/ticket/places/25001275/products/25014360"
     },
     {
       "id": "ko-nell-christmas-in-nells-room-2025-20251225",
@@ -5922,9 +5506,7 @@
         "콘서트"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Nell.jpg/500px-Nell.jpg",
-      "source_url": "https://kopis.or.kr/por/db/prfplc/prfplcView.do?menuId=MNU_00021&mt10Id=FC002049",
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://kopis.or.kr/por/db/prfplc/prfplcView.do?menuId=MNU_00021&mt10Id=FC002049"
     },
     {
       "id": "ko-novelbright-live-tour-seoul-20251011",
@@ -5946,9 +5528,7 @@
         "J-ROCK"
       ],
       "image_url": null,
-      "source_url": "https://ticket.yes24.com/Perf/54803",
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://ticket.yes24.com/Perf/54803"
     },
     {
       "id": "ko-btob-be-alright-seoul-20241227",
@@ -5969,9 +5549,7 @@
         "콘서트"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BTOB_in_Marie_Claire_Korea_2017.jpg/500px-BTOB_in_Marie_Claire_Korea_2017.jpg",
-      "source_url": "https://www.etnews.com/20241218000357",
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.etnews.com/20241218000357"
     },
     {
       "id": "ko-lovelyz-winterland4-seoul-20241116",
@@ -5993,9 +5571,7 @@
         "10주년"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/180412_%ED%8F%AC%ED%95%AD%EC%8B%9C%EB%AF%BC%EC%BD%98%EC%84%9C%ED%8A%B8_%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88_%281%29.jpg/500px-180412_%ED%8F%AC%ED%95%AD%EC%8B%9C%EB%AF%BC%EC%BD%98%EC%84%9C%ED%8A%B8_%EB%9F%AC%EB%B8%94%EB%A6%AC%EC%A6%88_%281%29.jpg",
-      "source_url": "https://www.ticketlink.co.kr/help/notice/60246",
-      "last_updated": "2026-09-10",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.ticketlink.co.kr/help/notice/60246"
     },
     {
       "id": "ko-highlight-fancon-seoul-20261016",
@@ -6024,9 +5600,7 @@
       "general_sale": false,
       "general_sale_datetime": "2026-09-10T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://ticket.yes24.com/Perf/59891",
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://ticket.yes24.com/Perf/59891"
     },
     {
       "id": "ko-kennyg-live-in-seoul-20261020",
@@ -6055,9 +5629,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-10T12:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-kgma-2026-20261107",
@@ -6078,9 +5650,7 @@
         "시상식"
       ],
       "image_url": null,
-      "source_url": "https://www.munhwa.com/article/11614524",
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.munhwa.com/article/11614524"
     },
     {
       "id": "ko-rose-new-trick-20260918",
@@ -6100,9 +5670,7 @@
         "발매"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Blackpink_Ros%C3%A9_Rimowa_1.jpg/500px-Blackpink_Ros%C3%A9_Rimowa_1.jpg",
-      "source_url": "https://www.munhwa.com/article/11616071",
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.munhwa.com/article/11616071"
     },
     {
       "id": "ko-ryusujeong-all-the-colors-i-am-20260911",
@@ -6121,9 +5689,7 @@
         "발매"
       ],
       "image_url": null,
-      "source_url": "https://www.swtvnews.com/news/newsview.php?ncode=1065568924260753",
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.swtvnews.com/news/newsview.php?ncode=1065568924260753"
     },
     {
       "id": "ko-mark-my-friend-20260910",
@@ -6142,9 +5708,7 @@
         "발매"
       ],
       "image_url": null,
-      "source_url": "https://www.tenasia.co.kr/article/2026091052644",
-      "last_updated": "2026-09-14",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.tenasia.co.kr/article/2026091052644"
     },
     {
       "id": "ko-txt-steal-the-wind-seoul-20261113",
@@ -6174,9 +5738,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-10-06T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26013161",
-      "last_updated": "2026-09-21",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26013161"
     },
     {
       "id": "ko-day6-5th-fanmeeting-incheon-20261023",
@@ -6206,9 +5768,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-21T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012624",
-      "last_updated": "2026-09-21",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012624"
     },
     {
       "id": "ko-rain-the-smoke-seoul-20261205",
@@ -6237,9 +5797,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-10-01T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-21",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-kwonjinah-save-me-seoul-20261106",
@@ -6260,9 +5818,7 @@
         "콘서트"
       ],
       "image_url": null,
-      "source_url": "https://www.joongangenews.com/news/articleView.html?idxno=546610",
-      "last_updated": "2026-09-21",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.joongangenews.com/news/articleView.html?idxno=546610"
     },
     {
       "id": "ko-kwonjinah-this-winter-daegu-20261212",
@@ -6291,9 +5847,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-23T17:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26013115",
-      "last_updated": "2026-09-21",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26013115"
     },
     {
       "id": "ko-kwonjinah-this-winter-busan-20261225",
@@ -6322,9 +5876,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-23T18:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26013067",
-      "last_updated": "2026-09-21",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26013067"
     },
     {
       "id": "ko-malcolmtodd-do-that-again-seoul-20261202",
@@ -6353,9 +5905,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-22T12:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26013394",
-      "last_updated": "2026-09-21",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": "https://tickets.interpark.com/goods/26013394"
     },
     {
       "id": "ko-redoor-memory-seoul-20260926",
@@ -6385,9 +5935,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "last_updated": "2026-09-21",
-      "last_researched_by": "ko-researcher"
+      "general_sale_url": null
     },
     {
       "id": "ko-redoor-memory-ep-20260916",
@@ -6407,9 +5955,7 @@
         "발매"
       ],
       "image_url": null,
-      "source_url": "https://www.xportsnews.com/article/2196330",
-      "last_updated": "2026-09-21",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.xportsnews.com/article/2196330"
     },
     {
       "id": "ko-kickflip-kick-off-the-wall-pt1-20261006",
@@ -6429,9 +5975,7 @@
         "발매"
       ],
       "image_url": null,
-      "source_url": "https://www.tenasia.co.kr/article/2026090800614",
-      "last_updated": "2026-09-21",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.tenasia.co.kr/article/2026090800614"
     },
     {
       "id": "ko-nctwish-i-spy-20261012",
@@ -6451,9 +5995,7 @@
         "발매"
       ],
       "image_url": null,
-      "source_url": "https://www.starnewskorea.com/music/2026/09/14/2026091410045383155",
-      "last_updated": "2026-09-21",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.starnewskorea.com/music/2026/09/14/2026091410045383155"
     },
     {
       "id": "ko-riize-prologue-single-20261026",
@@ -6472,9 +6014,7 @@
         "발매"
       ],
       "image_url": null,
-      "source_url": "https://www.starnewskorea.com/music/2026/09/14/2026091411013690861",
-      "last_updated": "2026-09-21",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.starnewskorea.com/music/2026/09/14/2026091411013690861"
     },
     {
       "id": "ko-illit-break-even-20261026",
@@ -6494,9 +6034,7 @@
         "발매"
       ],
       "image_url": null,
-      "source_url": "https://isplus.com/article/view/isp202609140168",
-      "last_updated": "2026-09-21",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://isplus.com/article/view/isp202609140168"
     },
     {
       "id": "ko-roykim-cry-out-loud-20261006",
@@ -6515,9 +6053,7 @@
         "발매"
       ],
       "image_url": null,
-      "source_url": "https://www.joynews24.com/view/2005602",
-      "last_updated": "2026-09-21",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.joynews24.com/view/2005602"
     },
     {
       "id": "ko-oneus-us-island-fancon-seoul-20260321",
@@ -6538,9 +6074,7 @@
         "팬미팅"
       ],
       "image_url": null,
-      "source_url": "https://www.gukjenews.com/news/articleView.html?idxno=3509670",
-      "last_updated": "2026-09-21",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.gukjenews.com/news/articleView.html?idxno=3509670"
     },
     {
       "id": "ko-youngtak-youngone-park-seoul-20250510",
@@ -6561,9 +6095,7 @@
         "팬미팅"
       ],
       "image_url": null,
-      "source_url": "https://www.starnewskorea.com/music/2025/05/09/2025050910193870765",
-      "last_updated": "2026-09-21",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://www.starnewskorea.com/music/2025/05/09/2025050910193870765"
     },
     {
       "id": "ko-kimheejae-heeyeol-seoul-20251101",
@@ -6585,9 +6117,7 @@
         "콘서트"
       ],
       "image_url": null,
-      "source_url": "https://sports.khan.co.kr/article/202511040119003",
-      "last_updated": "2026-09-21",
-      "last_researched_by": "ko-researcher"
+      "source_url": "https://sports.khan.co.kr/article/202511040119003"
     },
     {
       "id": "ko-kb-joyolpark-festival-2026-20260919",
@@ -6610,8 +6140,6 @@
       ],
       "image_url": null,
       "source_url": "http://www.dailycnc.com/news/articleView.html?idxno=244271",
-      "last_updated": "2026-09-21",
-      "last_researched_by": "ko-researcher",
       "festival_days": [
         {
           "date": "2026-09-19",
