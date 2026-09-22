@@ -1,3 +1,58 @@
+## [2026-09-22 09:40] [EN 리서처]
+리서치 완료 (해외 팬 대상 한국 공연)
+- 콘서트/투어 15→10, 발매 6→2, 페스티벌 4→1, 팬미팅 3→1 (후보→통과)
+- 신규 15개 / 갱신 0개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리 1건 중 1건 등재 — `data/leads.en.jsonl` 134건 전수 대조 결과 **한국 개최분은 TOMORROW X TOGETHER 〈STEAL THE WIND〉 1건뿐**이었고, 영어 소스 2개(코리아중앙데일리·TXT 공식 공지) 일치로 등재 완료(`en-txt-steal-the-wind-seoul-20261113`). 나머지 133건은 전부 북미·유럽 단독 개최라 2026-09-21 방향 전환 이후 대상 외 — 검증 없이 제외했고 leads 파일은 append-only라 미변경
+- 과거 백필 0개(사유: 방향 전환 후 첫 대량 등재 사이클이라 예정 공연 트랙에 여력을 전부 투입. 이번에 한국 공연장 4곳이 새로 생겼으므로 다음 사이클부터 그쪽을 두껍게 하는 백필이 훨씬 효율적임)
+- 티켓팅 진행중 13개 (추가 +13 / 해제 0) — 선예매 1건(TXT 글로벌 티켓팅 10/1~10/2), 일반예매 13건. TXT는 글로벌 페이지 멤버십 사전인증 9/28~10/2 → 선예매 10/2 → 일반 10/6 일정을 description에 명시
+- description 보강 0개
+- 총 등록 335개 (기존 320 + 신규 15)
+
+**🎯 공연장 색인 전환 4곳** (EN 최대 약점이던 `noindex` 공연장 문제를 한국 공연으로 정면 해결)
+- `Goyang Stadium, Goyang` 0→4건 (포스트 말론 10/2 · 위켄드 10/7 · 찰리 푸스 10/11 · 브루노 마스 2027-05-21)
+- `KINTEX, Goyang` 0→4건 (벤슨 분 10/26 · 5SOS 11/19 · 칼리드 12/5 · 마룬5 2027-01-27) — 부속 홀 표기는 전부 괄호 안에 넣어 한 페이지로 묶음
+- `KSPO Dome, Seoul` 0→2건 (&TEAM 10/3 · TXT 11/13)
+- `Inspire Arena, Incheon` 0→2건 (EDC 코리아 10/3 · DAY6 팬미팅 10/23)
+- ⚠️ `Paradise City, Incheon`은 마이 케미컬 로맨스 1건뿐이라 현재 `noindex`. 같은 장소의 XMF 2026(10/3)이 ko에 있어 다음 사이클 최우선 등재 후보
+
+**📌 KO 리서처에게 요청 — `related_locale_ids.en` 역방향 링크**
+아래 14쌍을 크로스 등재했습니다. hreflang이 정상 동작하려면 `data/concerts.ko.json` 쪽에도 `related_locale_ids.en`을 채워주세요(EN 리서처는 ko 파일을 수정할 수 없습니다).
+
+| concerts.ko.json id | 채워야 할 `related_locale_ids.en` |
+|---|---|
+| ko-postmalone-big-stadium-tour-seoul-20261002 | en-post-malone-big-stadium-seoul-20261002 |
+| ko-theweeknd-after-hours-til-dawn-goyang-20261007 | en-the-weeknd-after-hours-til-dawn-seoul-20261007 |
+| ko-charlieputh-whatevers-clever-goyang-20261011 | en-charlie-puth-whatevers-clever-seoul-20261011 |
+| ko-bruno-mars-the-romantic-goyang-20270521 | en-bruno-mars-the-romantic-seoul-20270521 |
+| ko-bensonboone-wanted-man-tour-seoul-20261026 | en-benson-boone-wanted-man-seoul-20261026 |
+| ko-khalid-always-summer-somewhere-goyang-20261205 | en-khalid-always-summer-somewhere-seoul-20261205 |
+| ko-5sos-everyones-a-star-seoul-20261119 | en-5sos-everyones-a-star-seoul-20261119 |
+| ko-maroon5-live-in-korea-goyang-20270127 | en-maroon-5-asia-2027-seoul-20270127 |
+| ko-txt-steal-the-wind-seoul-20261113 | en-txt-steal-the-wind-seoul-20261113 |
+| ko-andteam-blaze-the-way-encore-seoul-20261003 | en-andteam-blaze-the-way-encore-seoul-20261003 |
+| ko-edc-korea-2026-20261003 | en-edc-korea-2026-20261003 |
+| ko-day6-5th-fanmeeting-incheon-20261023 | en-day6-5th-fanmeeting-incheon-20261023 |
+| ko-lisa-press-play-20261023 | en-lisa-press-play-20261023 |
+| ko-nctwish-i-spy-20261012 | en-nct-wish-i-spy-20261012 |
+
+**🧹 부수 정리 — 항목 내 `last_updated`/`last_researched_by` 제거**
+프롬프트 지시대로 파일을 다시 쓰면서 항목마다 복사돼 있던 두 필드 **590개**를 삭제했습니다(파일 최상위 값만 코드가 읽으므로 동작 변화 없음, RSC 페이로드만 가벼워짐). ko는 2026-09-21에 이미 정리됨 — 남은 건 ja뿐입니다. 이번에 추가·수정한 15건에만 `updated_at: "2026-09-22"`를 넣었고, 손대지 않은 320건은 값 없이 그대로 두었습니다(사이트맵이 `lastmod`를 생략).
+
+**🖼 이미지 — 교체 대상 10건**
+위키미디어 커먼즈에서 확보한 5건(포스트 말론·위켄드·찰리 푸스·칼리드·마이 케미컬 로맨스)은 `data/artist-images.json`에 이미 큐레이션돼 있던 커먼즈 URL을 재사용했습니다. 나머지 10건(벤슨 분·5SOS·마룬5·브루노 마스·TXT·&TEAM·EDC 코리아·DAY6·LISA·NCT WISH)은 위키백과 API 응답을 받지 못했고, 커먼즈 자유 라이선스 이미지를 확정하지 못해 **`null`로 두었습니다**. 억지로 채우지 않았으니 다음 사이클에 커먼즈 인포박스 이미지를 직접 열어 확인 후 보강 예정.
+
+[검증 탈락]
+- Silica Gel 〈Syn.THE.Size〉 서울 (9/26): 영어 2차 출처를 못 찾음 — 한국어 예매처 공지만 확인돼 보류
+- Takuya Kimura Checkpoint in Seoul (9/26): 상동. 일본 아티스트 내한이라 JA 리서처 영역과 겹칠 소지도 있어 보류
+- ILLIT 'BREAK EVEN' (10/26): 영어 출처 3개(스포츠경향 EN·allkpop·KpopStarz) 일치로 **검증은 통과**했으나 신규 추가 15건/일 한도에 걸려 이번 사이클 미등재 — 다음 사이클 1순위
+- RIIZE 정규 2집 프롤로그 싱글 (10/26): 앨범명·트랙 정보가 아직 공개되지 않아 등재 보류
+- 자라섬 국제재즈페스티벌 (10/9) / 부산국제록페스티벌 (10/2) / GMF 2026 (10/17): 개최 사실은 확인했으나 영어권 팬이 실제로 쓸 데이별 라인업(`festival_days`)을 영어 소스로 확정하지 못해 다음 사이클로 이월
+- 성한빈 솔로 데뷔 앨범 (10/12): 발매일 외 정보가 영어 소스에 거의 없어 40단어 이상 서술이 불가능해 보류
+
+[남은 확인거리]
+- EDC 코리아 2026은 라인업 전체는 확보했으나 **데이별 분할**을 공식 페이지에서 확정하지 못해 `festival_days`를 비워 두었습니다. 다음 사이클에 korea.edc.com 라인업 페이지를 직접 열어 채울 것
+- 마이 케미컬 로맨스 인천 공연 시작 시각이 출처마다 갈립니다(19:00 vs 20:00). 지어내지 않고 `release_time: null`로 두었습니다
+
 ## [2026-09-21 14:15] [KO 브리핑]
 주간 브리핑 작성 완료 (한국 국내)
 - 각도: 다음 달 미리보기(10월)
