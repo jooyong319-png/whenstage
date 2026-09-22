@@ -2,7 +2,7 @@
 import { useMemo, type CSSProperties } from 'react';
 import type { Game } from '@/lib/types';
 import { CATEGORY_META } from '@/lib/types';
-import { calcDayDiff } from '@/lib/utils';
+import { calcDayDiff, parseDateOnly } from '@/lib/utils';
 import { useWishlist } from '@/hooks/useWishlist';
 import { useLocale } from '@/hooks/useLocale';
 import { UI, CAL, CATEGORY_LABELS } from '@/lib/i18nLabels';
@@ -52,7 +52,7 @@ export function WishlistView({ games }: { games: Game[] }) {
             const intlLocale = lang === 'en' ? 'en-US' : lang === 'ja' ? 'ja-JP' : 'ko-KR';
             const date = g.release_date_approx
               ? (t ? t.releaseDateTba : '출시일 미정')
-              : `${new Intl.DateTimeFormat(intlLocale, { year: 'numeric', month: 'long', day: 'numeric' }).format(new Date(g.release_date))} (${t!.weekdays[new Date(g.release_date).getDay()]})`;
+              : `${new Intl.DateTimeFormat(intlLocale, { year: 'numeric', month: 'long', day: 'numeric' }).format(parseDateOnly(g.release_date))} (${t!.weekdays[parseDateOnly(g.release_date).getDay()]})`;
             return (
               <li key={g.id} className={styles.row} style={{ '--cat': cat.color } as CSSProperties}>
                 <a className={styles.rowMain} href={`/${lang}/concert/${g.id}`}>

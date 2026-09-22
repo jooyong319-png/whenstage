@@ -45,18 +45,14 @@ export function LatestNews({ items }: Props) {
             viewport={{ once: true, margin: '-30px' }}
             transition={{ duration: 0.35, ease: 'easeOut', delay: Math.min(i * 0.05, 0.3) }}
           >
-            <div className={styles.thumb}>
-              {n.heroImage ? (
-                <>
-                  <img src={n.heroImage} alt="" aria-hidden="true" className={styles.thumbBg} loading="lazy" />
-                  <img src={n.heroImage} alt={n.title} className={styles.thumbFg} loading="lazy" />
-                </>
-              ) : (
-                <div className={styles.thumbPh} aria-hidden="true">
-                  <svg className="ic"><use href="#ic-flame" /></svg>
-                </div>
-              )}
-            </div>
+            {/* 이미지 없는 글에 16:9 빈 자리를 두면 모바일에서 카드 하나가 화면 절반을 먹는다
+                (주간 브리핑은 전부 이미지 없음) — 없으면 자리 자체를 안 만든다 */}
+            {n.heroImage && (
+              <div className={styles.thumb}>
+                <img src={n.heroImage} alt="" aria-hidden="true" className={styles.thumbBg} loading="lazy" />
+                <img src={n.heroImage} alt={n.title} className={styles.thumbFg} loading="lazy" />
+              </div>
+            )}
             <div className={styles.body}>
               <span className={styles.date}>{formatShortDate(n.date)}</span>
               <span className={styles.cardTitle}>{n.title}</span>

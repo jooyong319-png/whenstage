@@ -99,6 +99,18 @@ export function CalendarView({ cursor, onCursorChange, games, wishlist: _wishlis
   // 직전 커서 연-월 — 실제 월 이동에만 선택을 그 달 1일로 리셋
   const prevYMRef = useRef<string | null>(null);
 
+  // '오늘'이 바뀌면(첫 렌더는 빌드 시각 기준 → mount 후 실제 오늘) 선택도 따라간다.
+  // 이게 없으면 같은 달 안에서는 빌드한 날이 계속 선택돼 있어, 방문자가 어제 일정을 본다.
+  // 사용자가 직접 다른 날을 골라 뒀다면 건드리지 않는다.
+  const prevNowISORef = useRef(toISO(now));
+  useEffect(() => {
+    const prev = prevNowISORef.current;
+    const next = toISO(now);
+    if (prev === next) return;
+    prevNowISORef.current = next;
+    setSelectedISO(sel => (sel === prev ? next : sel));
+  }, [now]);
+
   // 달이 바뀌면 선택 해제 — 단 첫 실행과 '같은 월' 재갱신(Home mount의 이번 달 교체)은 유지
   useEffect(() => {
     const ym = `${cursor.getFullYear()}-${cursor.getMonth()}`;

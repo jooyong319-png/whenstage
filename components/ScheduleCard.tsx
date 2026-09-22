@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 import type { Game } from '@/lib/types';
 import { CATEGORY_META, effectivePresaleEnd, availableTicketingUrl } from '@/lib/types';
 import { trackEvent } from '@/lib/analytics';
-import { formatShortDate, formatEventDateTime } from '@/lib/utils';
+import { formatDateShort, formatEventDateTimeShort } from '@/lib/utils';
 import { useLocale } from '@/hooks/useLocale';
 import { CAL, CATEGORY_LABELS } from '@/lib/i18nLabels';
 import { useSaleWindowEnded } from '@/hooks/useSaleWindowEnded';
@@ -33,18 +33,21 @@ export function ScheduleCard({ game, kind, onPick, now }: Props) {
   }, [game.image_url]);
   const showImg = !!game.image_url && !imgError;
 
+  // 공연일·예매일 카드가 같은 모양('9월 23일 (수) 17:00')이 되게. 올해가 아니면 연도를 붙인다.
   const dateLabel = (() => {
     if (kind === 'release') {
-      const weekday = t.weekdays[new Date(game.release_date).getDay()];
+      const withYear = game.release_date.slice(0, 4) !== String(now.getFullYear());
       const time = game.release_time ? ` ${game.release_time}` : '';
-      return `${formatShortDate(game.release_date)} (${weekday})${time}`;
+      return `${formatDateShort(game.release_date, lang, withYear)}${time}`;
     }
     const iso =
       kind === 'presale' ? game.presale_datetime :
       kind === 'presale_end' ? game.presale_end_datetime :
       kind === 'general_sale' ? game.general_sale_datetime :
       game.general_sale_end_datetime;
-    return iso ? formatEventDateTime(iso, game.timezone, lang) : '';
+    if (!iso) return '';
+    const withYear = iso.slice(0, 4) !== String(now.getFullYear());
+    return formatEventDateTimeShort(iso, game.timezone, lang, withYear);
   })();
 
   const kindTag =
@@ -105,13 +108,21 @@ export function ScheduleCard({ game, kind, onPick, now }: Props) {
         </div>
       </div>
       <div className={styles.meta}>
-        {kindTag && <span className={styles.kindTag} style={{ background: cat.color }}>{kindTag}</span>}
+        {kindTag && <span className={styles.kindTag}>{kindTag}</span>}
         {dateLabel}
       </div>
       {game.developer && (
         <div className={styles.artist}>
           <span className={styles.artistBadge} style={{ background: cat.color }}>{lang ? CATEGORY_LABELS[lang][game.category] : cat.short}</span>
-          {game.developer}
+          <span className={styles.artistName}>{game.developer}</span>
+        </div>
+      )}
+      {/* 공연장 — 같은 아티스트·같은 날 예매가 여러 도시에서 열리면 제목이 잘려 카드가 똑같아
+          보인다(권진아 대구/부산). 제목과 따로 한 줄로 둬서 항상 구분되게 */}
+      {game.platforms?.[0] && (
+        <div className={styles.venue}>
+          <svg className="ic" aria-hidden="true"><use href="#ic-pin" /></svg>
+          <span>{game.platforms[0]}</span>
         </div>
       )}
       </a>

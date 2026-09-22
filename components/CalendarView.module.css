@@ -9,7 +9,7 @@
 /* ─── 본문: 캘린더(좌) + 오늘의 일정 패널(우) ─── */
 .body {
   display: grid;
-  grid-template-columns: 1.35fr 1fr;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
   gap: 1.4rem;
   align-items: start;
 }
@@ -218,7 +218,7 @@
 }
 .scheduleGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.8rem;
 }
 @media (max-width: 560px) {

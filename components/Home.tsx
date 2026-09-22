@@ -3,7 +3,7 @@ import { useState, useMemo, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import type { Game, FilterState } from '@/lib/types';
 import { normalizeArtistKey } from '@/lib/types';
-import { formatShortDate, kstDateOnly } from '@/lib/utils';
+import { formatShortDate, kstDateOnly, parseDateOnly } from '@/lib/utils';
 import { CalendarView } from './CalendarView';
 import { ListView } from './ListView';
 import { UpcomingStrip } from './UpcomingStrip';
@@ -137,7 +137,7 @@ export function Home({ initialGames, lastUpdated, serverNow, artistAliases, card
 
       // 기간 필터: 과거 게임은 항상 통과, days > 0이면 미래 상한만 적용
       if (filters.days > 0) {
-        const r = new Date(g.release_date);
+        const r = parseDateOnly(g.release_date);
         if (r > future) return false;
       }
 
@@ -151,7 +151,7 @@ export function Home({ initialGames, lastUpdated, serverNow, artistAliases, card
     if (filters.days === -1) return filteredGames;
     const today = new Date(now);
     today.setHours(0, 0, 0, 0);
-    return filteredGames.filter(g => new Date(g.release_date) >= today);
+    return filteredGames.filter(g => parseDateOnly(g.release_date) >= today);
   }, [filteredGames, filters.days, now]);
 
 
@@ -164,7 +164,7 @@ export function Home({ initialGames, lastUpdated, serverNow, artistAliases, card
     const today = new Date(now);
     today.setHours(0, 0, 0, 0);
     return initialGames
-      .filter(g => !g.release_date_approx && new Date(g.release_date) >= today)
+      .filter(g => !g.release_date_approx && parseDateOnly(g.release_date) >= today)
       .sort((a, b) => a.release_date.localeCompare(b.release_date))
       .slice(0, 10);
   }, [initialGames, now]);
@@ -175,7 +175,7 @@ export function Home({ initialGames, lastUpdated, serverNow, artistAliases, card
     const today = new Date(now);
     today.setHours(0, 0, 0, 0);
     return filteredGames
-      .filter(g => g.release_date_approx || new Date(g.release_date) >= today)
+      .filter(g => g.release_date_approx || parseDateOnly(g.release_date) >= today)
       .sort((a, b) => a.release_date.localeCompare(b.release_date))
       .slice(0, 12);
   }, [filteredGames, now]);
@@ -187,7 +187,7 @@ export function Home({ initialGames, lastUpdated, serverNow, artistAliases, card
     const today = new Date(now);
     today.setHours(0, 0, 0, 0);
     const withImg = initialGames
-      .filter(g => !g.release_date_approx && new Date(g.release_date) >= today && cardImages[g.id])
+      .filter(g => !g.release_date_approx && parseDateOnly(g.release_date) >= today && cardImages[g.id])
       .sort((a, b) => a.release_date.localeCompare(b.release_date));
     const headline = withImg.filter(g => g.category === 'concert_tour' || g.category === 'festival');
     const rest = withImg.filter(g => g.category !== 'concert_tour' && g.category !== 'festival');

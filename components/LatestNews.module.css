@@ -73,13 +73,6 @@
   width: 100%; height: 100%;
   object-fit: cover;
 }
-.thumbPh {
-  position: absolute; inset: 0;
-  display: flex; align-items: center; justify-content: center;
-  background: linear-gradient(135deg, color-mix(in srgb, var(--accent) 18%, var(--bg-sunken)), var(--bg-sunken));
-  color: var(--accent);
-}
-.thumbPh .ic { width: 34px; height: 34px; opacity: 0.8; }
 
 .body {
   display: flex;
