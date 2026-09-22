@@ -17,7 +17,8 @@ const REQUIRED = ['id', 'name', 'release_date', 'category'];
 const files = ['data/concerts.ko.json', 'data/concerts.en.json', 'data/concerts.ja.json'];
 const problems = [];
 
-const today = new Date().toISOString().slice(0, 10);
+// 사이트의 '오늘'은 KST다. UTC로 재면 한국 자정~오전 9시에 고친 파일이 '미래 날짜'로 걸린다.
+const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
 
 /**
  * `last_updated`가 실제 갱신 상태와 맞는지 본다.
@@ -136,7 +137,7 @@ for (const file of files) {
     if (g?.updated_at != null) {
       if (!/^\d{4}-\d{2}-\d{2}$/.test(g.updated_at)) {
         problems.push(`${file} / ${id}: updated_at 형식이 YYYY-MM-DD가 아니다 (${g.updated_at})`);
-      } else if (g.updated_at > new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10)) {
+      } else if (g.updated_at > today) {
         problems.push(`${file} / ${id}: updated_at이 미래 날짜다 (${g.updated_at})`);
       }
     }

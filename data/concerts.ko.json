@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-09-23",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -3315,12 +3315,13 @@
         "콘서트",
         "내한"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Takuya_Kimura_January_2023.jpg/500px-Takuya_Kimura_January_2023.jpg",
+      "image_url": null,
       "source_url": "https://tickets.interpark.com/goods/26008115",
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26008115"
+      "general_sale_url": "https://tickets.interpark.com/goods/26008115",
+      "updated_at": "2026-09-23"
     },
     {
       "id": "ko-boynextdoor-home-repackage-20260928",
