@@ -1,0 +1,41 @@
+{
+  "_comment": "병합으로 사라진 공연 id -> 남긴 id. next.config.js redirects()가 읽어 308로 보낸다. 지우지 말 것 — 검색엔진과 외부 링크가 옛 URL을 갖고 있다.",
+  "redirects": [
+    {
+      "from": "/ko/concert/ko-hyorisoo-skibidi-20260831",
+      "to": "/ko/concert/ko-hyorisu-skibidi-20260831"
+    },
+    {
+      "from": "/en/concert/en-yo-la-tengo-hanukkah-bowery-ballroom-20261204",
+      "to": "/en/concert/en-yo-la-tengo-hanukkah-new-york-20261204"
+    },
+    {
+      "from": "/en/concert/en-jorja-smith-what-are-the-odds-brooklyn-20261121",
+      "to": "/en/concert/en-jorja-smith-kings-theatre-20261121"
+    },
+    {
+      "from": "/en/concert/en-steve-lacy-oh-yeah-new-york-20261010",
+      "to": "/en/concert/en-steve-lacy-radio-city-20261010"
+    },
+    {
+      "from": "/en/concert/en-steve-lacy-oh-yeah-los-angeles-20261121",
+      "to": "/en/concert/en-steve-lacy-hollywood-bowl-20261121"
+    },
+    {
+      "from": "/en/concert/en-erykah-badu-alchemist-queens-20260918",
+      "to": "/en/concert/en-erykah-badu-alchemist-forest-hills-20260918"
+    },
+    {
+      "from": "/en/concert/en-jonas-brothers-burning-up-all-over-again-los-angeles-20261118",
+      "to": "/en/concert/en-jonas-brothers-hollywood-bowl-20261118"
+    },
+    {
+      "from": "/en/concert/en-jonas-brothers-burning-up-all-over-again-newark-20261221",
+      "to": "/en/concert/en-jonas-brothers-prudential-center-20261221"
+    },
+    {
+      "from": "/en/concert/en-taemin-liminal-world-tour-los-angeles-20261015",
+      "to": "/en/concert/en-taemin-liminal-crypto-com-arena-20261015"
+    }
+  ]
+}

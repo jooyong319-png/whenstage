@@ -2409,11 +2409,13 @@
         "Indie Rock",
         "Residency"
       ],
-      "image_url": null,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Yo_La_Tengo_-_Sala_Apolo_2010.jpg/960px-Yo_La_Tengo_-_Sala_Apolo_2010.jpg",
       "source_url": "https://matadorrecords.com/blogs/news/yo-la-tengo-hanukkah-2026",
       "general_sale": true,
       "general_sale_datetime": "2026-07-24T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/event/000064F0DFF524D2"
+      "general_sale_url": "https://www.ticketmaster.com/event/000064F0DFF524D2",
+      "presale": false,
+      "updated_at": "2026-09-22"
     },
     {
       "id": "en-goose-goosemas-atlantic-city-20261211",
@@ -3293,30 +3295,6 @@
       "image_url": null,
       "presale": false,
       "general_sale": true,
-      "id": "en-jorja-smith-what-are-the-odds-brooklyn-20261121",
-      "name": "Jorja Smith: What Are The Odds North American Tour - Brooklyn",
-      "release_date": "2026-11-21",
-      "timezone": "America/New_York",
-      "category": "concert_tour",
-      "platforms": [
-        "Kings Theatre, Brooklyn, NY"
-      ],
-      "developer": "Jorja Smith",
-      "description": "Jorja Smith plays Kings Theatre in Brooklyn on November 21, 2026, the fourth of five North American theater dates the English singer announced in early August. The short run supports What Are The Odds, her album due August 21 via FAMM, a record largely produced by P2J that leans into UK garage, grime, two-step and house rather than the soul balladry of her earlier work. Tickets went on general sale August 7.",
-      "genres": [
-        "R&B",
-        "Soul",
-        "Concert"
-      ],
-      "source_url": "https://news.pollstar.com/2026/08/07/jorja-smith-announces-north-american-fall-run/"
-    },
-    {
-      "release_time": null,
-      "release_date_approx": false,
-      "publisher": null,
-      "image_url": null,
-      "presale": false,
-      "general_sale": true,
       "id": "en-jorja-smith-what-are-the-odds-los-angeles-20261114",
       "name": "Jorja Smith: What Are The Odds North American Tour - Los Angeles (Opening Night)",
       "release_date": "2026-11-14",
@@ -3908,30 +3886,6 @@
       "source_url": "https://sigurros.com/tour/2025/20251119_losangeles/"
     },
     {
-      "id": "en-steve-lacy-oh-yeah-new-york-20261010",
-      "name": "Steve Lacy: Oh yeah? Tour - New York",
-      "release_date": "2026-10-10",
-      "release_time": null,
-      "release_date_approx": false,
-      "timezone": "America/New_York",
-      "category": "concert_tour",
-      "platforms": [
-        "Radio City Music Hall, New York, NY"
-      ],
-      "developer": "Steve Lacy",
-      "publisher": null,
-      "description": "Steve Lacy brings the Oh yeah? Tour to Radio City Music Hall on October 10, 2026, his first headline performance at the New York landmark. The 27-city North American run is his first since 2022 and supports his third album Oh yeah?, released on RCA in July with guest turns from SZA, Tyler, the Creator, Erykah Badu, Fousheé and Cecile Believe. Tickets are on sale through Ticketmaster.",
-      "genres": [
-        "R&B",
-        "Alternative",
-        "Concert"
-      ],
-      "image_url": null,
-      "source_url": "https://consequence.net/2026/08/steve-lacy-2026-oh-yeah-north-american-tour/",
-      "general_sale": true,
-      "general_sale_url": "https://www.ticketmaster.com/steve-lacy-tickets/artist/2330907"
-    },
-    {
       "id": "en-steve-lacy-oh-yeah-morrison-20261111",
       "name": "Steve Lacy: Oh yeah? Tour - Morrison",
       "release_date": "2026-11-11",
@@ -3956,30 +3910,6 @@
       "general_sale_url": "https://www.ticketmaster.com/steve-lacy-tickets/artist/2330907"
     },
     {
-      "id": "en-steve-lacy-oh-yeah-los-angeles-20261121",
-      "name": "Steve Lacy: Oh yeah? Tour - Los Angeles",
-      "release_date": "2026-11-21",
-      "release_time": null,
-      "release_date_approx": false,
-      "timezone": "America/Los_Angeles",
-      "category": "concert_tour",
-      "platforms": [
-        "Hollywood Bowl, Los Angeles, CA"
-      ],
-      "developer": "Steve Lacy",
-      "publisher": null,
-      "description": "Steve Lacy makes his Hollywood Bowl headline debut on November 21, 2026, the hometown highlight of the Oh yeah? Tour. The Compton-raised musician, once of The Internet, returns to Los Angeles behind Oh yeah?, his third solo album for RCA Records. The 27-city North American run began September 27 in Minneapolis and wraps November 30 in Vancouver. Tickets are available through Ticketmaster.",
-      "genres": [
-        "R&B",
-        "Alternative",
-        "Concert"
-      ],
-      "image_url": null,
-      "source_url": "https://consequence.net/2026/08/steve-lacy-2026-oh-yeah-north-american-tour/",
-      "general_sale": true,
-      "general_sale_url": "https://www.ticketmaster.com/steve-lacy-tickets/artist/2330907"
-    },
-    {
       "id": "en-erykah-badu-alchemist-cleveland-20260915",
       "name": "Erykah Badu & The Alchemist - Cleveland",
       "release_date": "2026-09-15",
@@ -3993,29 +3923,6 @@
       "developer": "Erykah Badu, The Alchemist, De La Soul",
       "publisher": null,
       "description": "Erykah Badu and producer The Alchemist play Jacobs Pavilion on the Cleveland riverfront on September 15, 2026, with De La Soul on the bill. The fall co-headline run is tied to the pair's long-teased collaborative album, recorded over roughly eighteen months in Dallas and Los Angeles. The tour opened September 10 at Ravinia Festival in Illinois and finishes September 29 at the Hollywood Bowl.",
-      "genres": [
-        "R&B",
-        "Hip-Hop",
-        "Soul"
-      ],
-      "image_url": null,
-      "source_url": "https://consequence.net/2026/06/erykah-badu-2026-tour-dates/",
-      "general_sale": false
-    },
-    {
-      "id": "en-erykah-badu-alchemist-queens-20260918",
-      "name": "Erykah Badu & The Alchemist - Queens",
-      "release_date": "2026-09-18",
-      "release_time": null,
-      "release_date_approx": false,
-      "timezone": "America/New_York",
-      "category": "concert_tour",
-      "platforms": [
-        "Forest Hills Stadium, Queens, NY"
-      ],
-      "developer": "Erykah Badu, The Alchemist, De La Soul",
-      "publisher": null,
-      "description": "Erykah Badu and The Alchemist headlined Forest Hills Stadium at the West Side Tennis Club in Queens on September 18, 2026, the New York stop of their fall co-headline tour. De La Soul appeared in support. The run previewed the duo's joint album, which arrived August 28 via Control FREAQ Records and Young Recordings after roughly eighteen months of sessions in Dallas and Los Angeles.",
       "genres": [
         "R&B",
         "Hip-Hop",
@@ -4495,32 +4402,6 @@
       "release_date_approx": false,
       "publisher": "Live Nation",
       "image_url": null,
-      "id": "en-jonas-brothers-burning-up-all-over-again-los-angeles-20261118",
-      "name": "Jonas Brothers: The Burning Up Tour All Over Again - Los Angeles",
-      "release_date": "2026-11-18",
-      "timezone": "America/Los_Angeles",
-      "category": "concert_tour",
-      "platforms": [
-        "Hollywood Bowl, Los Angeles, CA"
-      ],
-      "developer": "Jonas Brothers, All Time Low, Magnus Ferrell, Deleasa",
-      "description": "The Jonas Brothers bring The Burning Up Tour All Over Again to Hollywood Bowl in Los Angeles on November 18, 2026, one of 45 North American arena stops on the Live Nation run that grew out of their sold-out Madison Square Garden celebrations in August 2026. The show revisits the 2008 Burning Up Tour that broke Kevin, Joe and Nick Jonas nationally, rebuilt for arenas nearly two decades later. All Time Low, Magnus Ferrell and Deleasa joins as support.",
-      "genres": [
-        "Pop",
-        "Pop Rock",
-        "Concert"
-      ],
-      "source_url": "https://www.xfinitymobilearena.com/news/detail/jonas-brothers-bring-the-burning-up-tour-all-over-again-to-45-cities-across-north-america-this-fall",
-      "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-21T10:00:00-07:00",
-      "general_sale_url": "https://www.ticketmaster.com/jonas-brothers-tickets/artist/1052712"
-    },
-    {
-      "release_time": null,
-      "release_date_approx": false,
-      "publisher": "Live Nation",
-      "image_url": null,
       "id": "en-jonas-brothers-burning-up-all-over-again-denver-20261209",
       "name": "Jonas Brothers: The Burning Up Tour All Over Again - Denver",
       "release_date": "2026-12-09",
@@ -4567,56 +4448,6 @@
       "general_sale": true,
       "general_sale_datetime": "2026-08-21T10:00:00-04:00",
       "general_sale_url": "https://www.ticketmaster.com/jonas-brothers-tickets/artist/1052712"
-    },
-    {
-      "release_time": null,
-      "release_date_approx": false,
-      "publisher": "Live Nation",
-      "image_url": null,
-      "id": "en-jonas-brothers-burning-up-all-over-again-newark-20261221",
-      "name": "Jonas Brothers: The Burning Up Tour All Over Again - Newark",
-      "release_date": "2026-12-21",
-      "timezone": "America/New_York",
-      "category": "concert_tour",
-      "platforms": [
-        "Prudential Center, Newark, NJ"
-      ],
-      "developer": "Jonas Brothers, Magnus Ferrell, Deleasa",
-      "description": "The Jonas Brothers bring The Burning Up Tour All Over Again to Prudential Center in Newark on December 21, 2026, one of 45 North American arena stops on the Live Nation run that grew out of their sold-out Madison Square Garden celebrations in August 2026. The show revisits the 2008 Burning Up Tour that broke Kevin, Joe and Nick Jonas nationally, rebuilt for arenas nearly two decades later. Magnus Ferrell and Deleasa joins as support. The Newark date closes the tour.",
-      "genres": [
-        "Pop",
-        "Pop Rock",
-        "Concert"
-      ],
-      "source_url": "https://www.xfinitymobilearena.com/news/detail/jonas-brothers-bring-the-burning-up-tour-all-over-again-to-45-cities-across-north-america-this-fall",
-      "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-21T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/jonas-brothers-tickets/artist/1052712"
-    },
-    {
-      "release_time": null,
-      "release_date_approx": false,
-      "publisher": "AEG Presents",
-      "image_url": null,
-      "id": "en-taemin-liminal-world-tour-los-angeles-20261015",
-      "name": "TAEMIN World Tour <LiMiNaL> - Los Angeles",
-      "release_date": "2026-10-15",
-      "timezone": "America/Los_Angeles",
-      "category": "concert_tour",
-      "platforms": [
-        "Crypto.com Arena, Los Angeles, CA"
-      ],
-      "developer": "TAEMIN",
-      "description": "SHINee member and solo artist TAEMIN plays Crypto.com Arena in Los Angeles on October 15, 2026 as part of the 2026-27 LiMiNaL World Tour, his first run routed with a major Western promoter after partnering with AEG. The tour follows his Coachella debut in April 2026 and the album Phase 1 : SOFT VIOLENCE, and moves him from theatre-sized rooms into full arenas. The leg opens October 12 at SAP Center in San Jose.",
-      "genres": [
-        "K-Pop",
-        "Pop",
-        "Concert"
-      ],
-      "source_url": "https://www.forbes.com/sites/jeffbenjamin/2026/08/14/taemin-reveals-us-leg-of-liminal-world-tour-in-partnership-with-aeg/",
-      "presale": false,
-      "general_sale": false
     },
     {
       "release_time": null,
@@ -4811,7 +4642,7 @@
     {
       "release_time": null,
       "release_date_approx": false,
-      "publisher": null,
+      "publisher": "Live Nation",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Jonas_Brothers_4th_of_July_Show_Taping_in_Cleveland_%2851277060141%29.jpg/960px-Jonas_Brothers_4th_of_July_Show_Taping_in_Cleveland_%2851277060141%29.jpg",
       "id": "en-jonas-brothers-hollywood-bowl-20261118",
       "name": "Jonas Brothers: The Burning Up Tour All Over Again - Los Angeles",
@@ -4822,19 +4653,22 @@
         "Hollywood Bowl, Los Angeles, CA"
       ],
       "developer": "Jonas Brothers, All Time Low, Magnus Ferrell, Deleasa",
-      "description": "The Jonas Brothers bring The Burning Up Tour All Over Again to the Hollywood Bowl on November 18, 2026. The trek revives their 2008-09 Burning Up Tour, rebuilding that set list and staging alongside later catalogue hits across 47 North American dates. All Time Low join Magnus Ferrell and Deleasa as openers for this Los Angeles date only, making it one of the few stops with a third support act.",
+      "description": "The Jonas Brothers bring The Burning Up Tour All Over Again to Hollywood Bowl in Los Angeles on November 18, 2026, one of 45 North American arena stops on the Live Nation run that grew out of their sold-out Madison Square Garden celebrations in August 2026. The show revisits the 2008 Burning Up Tour that broke Kevin, Joe and Nick Jonas nationally, rebuilt for arenas nearly two decades later. All Time Low, Magnus Ferrell and Deleasa joins as support.",
       "genres": [
         "Pop Rock",
         "Tour"
       ],
       "source_url": "https://variety.com/2026/music/news/jonas-brothers-2026-burning-up-north-american-tour-dates-1236836312/",
       "general_sale": true,
-      "general_sale_url": "https://www.ticketmaster.com/jonas-brothers-tickets/artist/1225870"
+      "general_sale_url": "https://www.ticketmaster.com/jonas-brothers-tickets/artist/1225870",
+      "presale": false,
+      "general_sale_datetime": "2026-08-21T10:00:00-07:00",
+      "updated_at": "2026-09-22"
     },
     {
       "release_time": null,
       "release_date_approx": false,
-      "publisher": null,
+      "publisher": "Live Nation",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Jonas_Brothers_4th_of_July_Show_Taping_in_Cleveland_%2851277060141%29.jpg/960px-Jonas_Brothers_4th_of_July_Show_Taping_in_Cleveland_%2851277060141%29.jpg",
       "id": "en-jonas-brothers-prudential-center-20261221",
       "name": "Jonas Brothers: The Burning Up Tour All Over Again - Newark (Finale)",
@@ -4845,14 +4679,17 @@
         "Prudential Center, Newark, NJ"
       ],
       "developer": "Jonas Brothers, Magnus Ferrell, Deleasa",
-      "description": "The Burning Up Tour All Over Again closes on December 21, 2026 at Prudential Center in Newark, a short drive from the brothers' native Wyckoff, New Jersey. The 47-date run opened with three nights at Madison Square Garden in August before a September restart in Boston. Magnus Ferrell and Deleasa support the finale, which follows the previous night's stop at UBS Arena.",
+      "description": "The Jonas Brothers bring The Burning Up Tour All Over Again to Prudential Center in Newark on December 21, 2026, one of 45 North American arena stops on the Live Nation run that grew out of their sold-out Madison Square Garden celebrations in August 2026. The show revisits the 2008 Burning Up Tour that broke Kevin, Joe and Nick Jonas nationally, rebuilt for arenas nearly two decades later. Magnus Ferrell and Deleasa joins as support. The Newark date closes the tour.",
       "genres": [
         "Pop Rock",
         "Tour"
       ],
       "source_url": "https://en.wikipedia.org/wiki/The_Burning_Up_Tour_All_Over_Again",
       "general_sale": true,
-      "general_sale_url": "https://www.ticketmaster.com/jonas-brothers-tickets/artist/1225870"
+      "general_sale_url": "https://www.ticketmaster.com/jonas-brothers-tickets/artist/1225870",
+      "presale": false,
+      "general_sale_datetime": "2026-08-21T10:00:00-04:00",
+      "updated_at": "2026-09-22"
     },
     {
       "release_time": null,
@@ -4892,12 +4729,15 @@
         "Crypto.com Arena, Los Angeles, CA"
       ],
       "developer": "TAEMIN",
-      "description": "SHINee's Taemin plays Crypto.com Arena on October 15, 2026 as part of the North American leg of his 2026-27 LiMiNaL World Tour. The six-city run opens October 12 at SAP Center in San Jose and finishes October 23 at Prudential Center in Newark, taking in Las Vegas, Grand Prairie and Chicago along the way. AEG is promoting the United States dates.",
+      "description": "SHINee member and solo artist TAEMIN plays Crypto.com Arena in Los Angeles on October 15, 2026 as part of the 2026-27 LiMiNaL World Tour, his first run routed with a major Western promoter after partnering with AEG. The tour follows his Coachella debut in April 2026 and the album Phase 1 : SOFT VIOLENCE, and moves him from theatre-sized rooms into full arenas. The leg opens October 12 at SAP Center in San Jose.",
       "genres": [
         "K-POP",
         "Tour"
       ],
-      "source_url": "https://www.allkpop.com/article/2026/08/taemin-announces-official-dates-and-cities-for-the-north-america-leg-of-his-2026-world-tour-liminal"
+      "source_url": "https://www.allkpop.com/article/2026/08/taemin-announces-official-dates-and-cities-for-the-north-america-leg-of-his-2026-world-tour-liminal",
+      "presale": false,
+      "general_sale": false,
+      "updated_at": "2026-09-22"
     },
     {
       "release_time": "20:00",
@@ -4913,7 +4753,7 @@
         "Radio City Music Hall, New York, NY"
       ],
       "developer": "Steve Lacy",
-      "description": "Steve Lacy makes his Radio City Music Hall debut on October 10, 2026 on the Oh yeah? Tour, his first headline run since 2022. The 27-city outing supports his third album Oh yeah?, released July 17 on RCA with guests including SZA, Erykah Badu and Tyler, the Creator. The tour opened September 27 in Minneapolis and runs through November 30 in Vancouver.",
+      "description": "Steve Lacy brings the Oh yeah? Tour to Radio City Music Hall on October 10, 2026, his first headline performance at the New York landmark. The 27-city North American run is his first since 2022 and supports his third album Oh yeah?, released on RCA in July with guest turns from SZA, Tyler, the Creator, Erykah Badu, Fousheé and Cecile Believe. Tickets are on sale through Ticketmaster.",
       "genres": [
         "R&B",
         "Alternative",
@@ -4922,7 +4762,8 @@
       "source_url": "https://consequence.net/2026/08/steve-lacy-2026-oh-yeah-north-american-tour/",
       "general_sale": true,
       "general_sale_datetime": "2026-08-14T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/steve-lacy-tickets/artist/2330907"
+      "general_sale_url": "https://www.ticketmaster.com/steve-lacy-tickets/artist/2330907",
+      "updated_at": "2026-09-22"
     },
     {
       "release_time": null,
@@ -4938,7 +4779,7 @@
         "Hollywood Bowl, Los Angeles, CA"
       ],
       "developer": "Steve Lacy",
-      "description": "Steve Lacy headlines the Hollywood Bowl for the first time on November 21, 2026, one of three milestone venue debuts on his Oh yeah? Tour alongside Radio City Music Hall and Red Rocks. The Compton-raised singer and guitarist, once of The Internet, returns to a Los Angeles stage roughly a week after his billed appearance at Camp Flog Gnaw Carnival at Dodger Stadium.",
+      "description": "Steve Lacy makes his Hollywood Bowl headline debut on November 21, 2026, the hometown highlight of the Oh yeah? Tour. The Compton-raised musician, once of The Internet, returns to Los Angeles behind Oh yeah?, his third solo album for RCA Records. The 27-city North American run began September 27 in Minneapolis and wraps November 30 in Vancouver. Tickets are available through Ticketmaster.",
       "genres": [
         "R&B",
         "Alternative",
@@ -4947,7 +4788,8 @@
       "source_url": "https://www.rollingstone.com/music/music-news/steve-lacy-oh-yeah-north-american-tour-dates-1235607338/",
       "general_sale": true,
       "general_sale_datetime": "2026-08-14T10:00:00-07:00",
-      "general_sale_url": "https://www.ticketmaster.com/steve-lacy-tickets/artist/2330907"
+      "general_sale_url": "https://www.ticketmaster.com/steve-lacy-tickets/artist/2330907",
+      "updated_at": "2026-09-22"
     },
     {
       "release_time": null,
@@ -4971,7 +4813,8 @@
       ],
       "source_url": "https://consequence.net/2026/06/erykah-badu-2026-tour-dates/",
       "general_sale": false,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "updated_at": "2026-09-22"
     },
     {
       "release_time": null,
@@ -5001,31 +4844,6 @@
       "release_time": null,
       "release_date_approx": false,
       "publisher": null,
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Yo_La_Tengo_-_Sala_Apolo_2010.jpg/960px-Yo_La_Tengo_-_Sala_Apolo_2010.jpg",
-      "id": "en-yo-la-tengo-hanukkah-bowery-ballroom-20261204",
-      "name": "The 8 Nights of Hanukkah with Yo La Tengo 2026",
-      "release_date": "2026-12-04",
-      "timezone": "America/New_York",
-      "category": "concert_tour",
-      "platforms": [
-        "Bowery Ballroom, New York, NY"
-      ],
-      "developer": "Yo La Tengo",
-      "description": "Yo La Tengo revive their Hanukkah residency at the Bowery Ballroom for eight consecutive nights from December 4 through December 11, 2026. Each evening pairs a surprise comedian with a surprise musical opener, and the Hoboken trio play a different set every night with no song repeated across the run, closing with an all-covers encore. Proceeds traditionally go to charities chosen by the band.",
-      "genres": [
-        "Indie Rock",
-        "Residency"
-      ],
-      "source_url": "https://www.brooklynvegan.com/yo-la-tengo-announce-2026-hanukkah-run-at-bowery-ballroom/",
-      "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-07-24T10:00:00-04:00",
-      "general_sale_url": "https://www.livenation.com/event/k7vGF_267rcdp/the-8-nights-of-hanukkah-with-yo-la-tengo"
-    },
-    {
-      "release_time": null,
-      "release_date_approx": false,
-      "publisher": null,
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Jorja_Smith_11_26_2018_-5_%2845772599074%29.jpg/960px-Jorja_Smith_11_26_2018_-5_%2845772599074%29.jpg",
       "id": "en-jorja-smith-kings-theatre-20261121",
       "name": "Jorja Smith: 2026 North American Tour - Brooklyn",
@@ -5036,7 +4854,7 @@
         "Kings Theatre, Brooklyn, NY"
       ],
       "developer": "Jorja Smith",
-      "description": "Jorja Smith plays Kings Theatre in Brooklyn on November 21, 2026 as part of a five-date North American run behind her third album, What Are The Odds. The short tour opens November 14 at the Orpheum Theatre in Los Angeles and also visits San Francisco's Castro Theatre, Massey Hall in Toronto and the Riviera Theatre in Chicago before closing November 23.",
+      "description": "Jorja Smith plays Kings Theatre in Brooklyn on November 21, 2026, the fourth of five North American theater dates the English singer announced in early August. The short run supports What Are The Odds, her album due August 21 via FAMM, a record largely produced by P2J that leans into UK garage, grime, two-step and house rather than the soul balladry of her earlier work. Tickets went on general sale August 7.",
       "genres": [
         "R&B",
         "Soul",
@@ -5046,7 +4864,8 @@
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": "2026-08-07T10:00:00-04:00",
-      "general_sale_url": "https://www.axs.com/artists/1104051/jorja-smith-tickets"
+      "general_sale_url": "https://www.axs.com/artists/1104051/jorja-smith-tickets",
+      "updated_at": "2026-09-22"
     },
     {
       "release_time": null,

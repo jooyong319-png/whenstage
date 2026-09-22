@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
+
+// 병합으로 사라진 공연 id -> 남긴 id (2026-09-22~). 리서처가 같은 공연을 slug만 다르게
+// 두 번 등록한 것을 합치면서 한쪽 URL이 없어진다. 이미 색인·공유된 URL이 404가 되지 않게
+// 영구 리다이렉트로 보낸다. 목록은 data/concert-redirects.json 하나에서만 관리한다.
+const CONCERT_REDIRECTS = require('./data/concert-redirects.json').redirects;
+
 const nextConfig = {
   reactStrictMode: true,
   // 백업/문서/스크립트는 빌드 대상에서 제외
@@ -35,6 +41,10 @@ const nextConfig = {
    *
    * ⚠️ 되돌리려면 이 headers() 블록만 지우면 된다.
    */
+  async redirects() {
+    return CONCERT_REDIRECTS.map(r => ({ source: r.from, destination: r.to, permanent: true }));
+  },
+
   async headers() {
     return [
       {

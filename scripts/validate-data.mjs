@@ -95,6 +95,7 @@ for (const file of files) {
   checkLastUpdated(file, data.last_updated);
 
   const seen = new Set();
+  const contentSeen = new Map();
   for (const g of games) {
     const id = g?.id ?? '(id 없음)';
     for (const key of REQUIRED) {
@@ -112,12 +113,30 @@ for (const file of files) {
     if (seen.has(g?.id)) problems.push(`${file} / ${id}: id 중복`);
     seen.add(g?.id);
 
+    // 🔴 내용 기준 중복 (2026-09-22). id가 달라도 **같은 날·같은 공연장·같은 아티스트·같은
+    // 종류**면 같은 공연이다. 리서처가 slug를 한 번은 도시명(`-new-york-`), 한 번은 공연장명
+    // (`-bowery-ballroom-`)으로 만들어 같은 공연이 두 번 올라간 일이 실제로 9건 있었다
+    // (en 8·ko 1). id 검사만으로는 절대 못 잡는다.
+    // 같은 날 두 번 공연(낮·밤)은 시각이 둘 다 있고 서로 다르면 허용한다.
+    {
+      const norm = (x) => String(x ?? '').replace(/[（(][^）)]*[）)]/g, '').replace(/[\s·,.\-]+/g, '').toLowerCase();
+      const k = [g?.release_date, g?.category, norm(g?.platforms?.[0]), norm(g?.developer || g?.name)].join('|');
+      const prev = contentSeen.get(k);
+      const bothTimed = prev?.release_time && g?.release_time && prev.release_time !== g.release_time;
+      if (prev && !bothTimed) {
+        problems.push(`${file} / ${id}: 같은 공연이 이미 있다 — ${prev.id} (날짜·공연장·아티스트·종류가 같다). `
+          + `새로 만들지 말고 기존 항목을 고칠 것`);
+      } else if (!prev) {
+        contentSeen.set(k, g);
+      }
+    }
+
     // updated_at은 선택 필드지만, 있으면 형식이 맞아야 한다 — 사이트맵 lastmod로 나가기 때문에
     // 잘못된 값이 Invalid Date가 되어 조용히 깨진 날짜를 내보낸다.
     if (g?.updated_at != null) {
       if (!/^\d{4}-\d{2}-\d{2}$/.test(g.updated_at)) {
         problems.push(`${file} / ${id}: updated_at 형식이 YYYY-MM-DD가 아니다 (${g.updated_at})`);
-      } else if (g.updated_at > new Date().toISOString().slice(0, 10)) {
+      } else if (g.updated_at > new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10)) {
         problems.push(`${file} / ${id}: updated_at이 미래 날짜다 (${g.updated_at})`);
       }
     }

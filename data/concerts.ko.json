@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-21",
+  "last_updated": "2026-09-22",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -2217,21 +2217,22 @@
       "id": "ko-hyorisu-skibidi-20260831",
       "name": "효리수 디지털 싱글 'Skibidi'",
       "release_date": "2026-08-31",
-      "release_time": null,
+      "release_time": "18:00",
       "release_date_approx": false,
       "timezone": "Asia/Seoul",
       "category": "music_release",
       "platforms": [],
       "developer": "효리수",
-      "publisher": null,
-      "description": "소녀시대 효연·유리·최수영이 뭉친 유닛 효리수가 2026년 8월 31일 첫 디지털 싱글 'Skibidi(스키비디)'를 발매하며 정식 데뷔한다. 효연의 개인 유튜브 채널 '효연의 레벨업'에서 시작된 프로젝트가 실제 유닛 결성으로 이어진 사례다. 타이틀곡 '스키비디'는 하우스로 출발해 힙합으로 전개되는 구성으로 '우리만의 새 길을 만들어'라는 메시지를 담았고, 수록곡 'Lowkey In Love'까지 두 곡이 실린다.",
+      "publisher": "SM엔터테인먼트",
+      "description": "소녀시대 효연·유리·수영으로 구성된 새 유닛 효리수가 2026년 8월 31일 오후 6시 첫 디지털 싱글 '스키비디(Skibidi)'를 발표했다. 싱글에는 동명 타이틀곡과 수록곡 '로키 인 러브' 두 곡이 담겼으며, 타이틀곡은 하우스로 시작해 힙합으로 이어지는 다채로운 구성이 특징이다. 유닛은 효연의 개인 유튜브 채널 콘텐츠에서 출발한 프로젝트로, 첫 무대는 발매에 앞서 8월 22일 서울랜드에서 열린 카스 쿨 페스티벌에서 공개됐다.",
       "genres": [
         "K-POP",
         "컴백",
         "데뷔"
       ],
-      "image_url": null,
-      "source_url": "https://isplus.com/article/view/isp202608220011"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/250807_%ED%9A%A8%EC%97%B0_%27%EC%95%85%EB%A7%88%EA%B0%80_%EC%9D%B4%EC%82%AC%EC%99%94%EB%8B%A4%27_VIP_Premiere_02_%28cropped%29.jpg/500px-250807_%ED%9A%A8%EC%97%B0_%27%EC%95%85%EB%A7%88%EA%B0%80_%EC%9D%B4%EC%82%AC%EC%99%94%EB%8B%A4%27_VIP_Premiere_02_%28cropped%29.jpg",
+      "source_url": "https://isplus.com/article/view/isp202608220011",
+      "updated_at": "2026-09-22"
     },
     {
       "id": "ko-jennie-new-ep-20260831",
@@ -5203,26 +5204,6 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Illit_in_January_2026.png/500px-Illit_in_January_2026.png",
       "source_url": "https://isplus.com/article/view/isp202608170014"
-    },
-    {
-      "id": "ko-hyorisoo-skibidi-20260831",
-      "name": "효리수 첫 디지털 싱글 'Skibidi'",
-      "release_date": "2026-08-31",
-      "release_time": "18:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Seoul",
-      "category": "music_release",
-      "platforms": [],
-      "developer": "효리수(소녀시대)",
-      "publisher": "SM엔터테인먼트",
-      "description": "소녀시대 효연·유리·수영으로 구성된 새 유닛 효리수가 2026년 8월 31일 오후 6시 첫 디지털 싱글 '스키비디(Skibidi)'를 발표했다. 싱글에는 동명 타이틀곡과 수록곡 '로키 인 러브' 두 곡이 담겼으며, 타이틀곡은 하우스로 시작해 힙합으로 이어지는 다채로운 구성이 특징이다. 유닛은 효연의 개인 유튜브 채널 콘텐츠에서 출발한 프로젝트로, 첫 무대는 발매에 앞서 8월 22일 서울랜드에서 열린 카스 쿨 페스티벌에서 공개됐다.",
-      "genres": [
-        "K-POP",
-        "발매",
-        "유닛"
-      ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/250807_%ED%9A%A8%EC%97%B0_%27%EC%95%85%EB%A7%88%EA%B0%80_%EC%9D%B4%EC%82%AC%EC%99%94%EB%8B%A4%27_VIP_Premiere_02_%28cropped%29.jpg/500px-250807_%ED%9A%A8%EC%97%B0_%27%EC%95%85%EB%A7%88%EA%B0%80_%EC%9D%B4%EC%82%AC%EC%99%94%EB%8B%A4%27_VIP_Premiere_02_%28cropped%29.jpg",
-      "source_url": "https://www.khan.co.kr/article/202608311124001"
     },
     {
       "id": "ko-kik-road-20260831",
