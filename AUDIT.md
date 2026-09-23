@@ -2,9 +2,45 @@
 
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
-| ko | 2026-09-18 | |
+| ko | 2026-09-18 | ← |
 | en | 2026-09-21 | |
-| ja | 2026-09-14 | ← |
+| ja | 2026-09-23 | |
+
+---
+
+## 2026-09-23 · ja
+
+로테이션상 ja가 가장 오래된 점검일(2026-09-14)이라 선택. 대상 창: 2026-07-25 ~ 2026-11-22(오늘 ±60일), 창 안 항목 150건(끝난 것 74 / 예정 76). 코드는 손대지 않았고 `data/concerts.ja.json`만 수정. push 전 `validate-data.mjs` 통과(파일 상단 `last_updated` 오늘로 갱신).
+
+⚠️ 운영 메모: AUDITOR.md는 "확인한 항목의 `last_updated`를 오늘로" 하라지만, AGENTS.md(3517bed 이후)는 **항목 단위 `last_updated` 금지**, §4-5는 **실제로 고친 항목에만 `updated_at`**이다. 오늘 JA 리서처도 항목 내 `last_updated`를 제거했다. 그래서 이번 회차는 AGENTS.md를 따라 **고친 20건에만 `updated_at=2026-09-23`**을 넣었고, 트랙 B에서 확인만 한 항목엔 아무 필드도 넣지 않았다. 트랙 B 중복 방지는 이 로그의 확인 목록으로 대신함 → **AUDITOR.md 14번 규칙 정리 필요(운영자 참고)**.
+
+**트랙 A (졸업 처리) — 20건** (상한 20 도달)
+- A-1/A-2 끝난 공연에 남은 예매 필드·플래그 정리 4건(§7 표대로 `presale`/`general_sale=false` + URL·datetime null, 전부 concert_tour):
+  ja-epica-japan-tour-2026-20260914(9/15 대阪 포함 종료), ja-the-weeknd-2026-20260919(9/20 종료), ja-motoharu-sano-in-and-out-osaka-20260922, ja-super-beaver-dome-tour-tokyo-20260922(9/23 공연은 별도 항목 존재)
+- A-3: 창 안 끝난 항목 중 approx=true 없음
+- A-4 description 시제 교정 20건(위 4건 포함, 있는 문장의 시제만 과거형으로 — 새 사실 추가 없음):
+  위 4건 + ja-lynch-ignite-the-climax-yokohama-20260904, ja-hinatazaka46-hinata-fes-2026-20260905, ja-kato-kuniko-reich90-meguro-20260905, ja-seikima-ii-great-black-mass-tokyo-20260905, ja-hosono-haruomi-prelude-20260902, ja-choi-yuree-concert-in-japan-20260830, ja-sukiyaki-tokyo-lindigo-20260825, ja-steve-lacy-ss-extra-20260813, ja-flo-japan-tour-2026-20260831, ja-spellbound-bbs-kabukicho-20260824, ja-jisung-our-scene-20260918, ja-suzuki-masayuki-martini-tokyo-20260922, ja-tentaka-matsuri-2026-20260919, ja-ultra-japan-2026-20260919, ja-rock-in-japan-2026-20260912, ja-fukuyama-masaharu-dome-2026-20260805
+- 의도적 제외(투어 전체를 다루는 항목이라 예매 링크가 남은 일정에 아직 유효):
+  - ja-nightmare-tour-2026-20260919(11/22까지 투어, eplus 투어 URL), ja-ryokushaka-arena-tour-2026-20260919(12/6까지, ぴあ 번들 URL) — 코드상 release_date 기준 "종료"지만 URL을 지우면 살아 있는 예매를 없애는 셈. 운영 판단 필요
+  - ja-babymonster-choom-japan-kyocera-20260922 — 9/22·23 2days, **오늘(9/23) 공연 진행일**이라 제외. 다음 회차에 시제 교정
+  - ja-boynextdoor-knock-on-vol2-japan-20260821 — 10/11까지 투어 서술, 제외
+
+**트랙 B (임박 점검) — 8건 확인** (공연일 가까운 순, 9/14 회차에 이미 본 freckles·number-i 제외). 8건 모두 공식·예매처·언론 소스로 정상 개최/발매 확인, 취소·연기 없음, approx 임박 항목 없음:
+- ja-glay-yogoreta-eiyu-20260923 — 64th 싱글 9/23 발매 확인(GLAY 공식/타워레코드/新潟日報)
+- ja-super-beaver-dome-tour-tokyo-20260923 — 도쿄돔 9/23 18:00 정상, 전 공연 매진·WOWOW 11월 방송(WOWOW/ぴあ)
+- ja-belle-and-sebastian-tigermilk-tokyo-20260924 / ja-belle-and-sebastian-sinister-tokyo-20260925 — Kanadevia Hall 9/24·25 개장18:00/개연19:00 정상(クリエイティブマン/e+/Rolling Stone Japan). 참고: 일부 매체는 요금을 "税別"로 표기, 데이터는 "税込" — 공식 확인 못 해 수정 안 함
+- ja-benjamin-grosvenor-recital-20260924 — 浜離宮朝日ホール 9/24 19:00 정상(홀 공식 이벤트 페이지/ぴあ)
+- ja-jowee-omicil-japan-2026-20260924 — WALL&WALL 9/24 정상(CDJournal/MUSIC TRIBUNE). release_time은 확인 못 해 null 유지
+- ja-ringo-ongakusai-2026-20260926 — 9/26·27 アルプス公園 정상, 개장9:00/개연10:00/폐연20:30(공식/松本市)
+- ja-sakanaction-toumei-glion-arena-kobe-20260929 — 9/29·30 정상(TOTTEI 공식/e+/サカナクション 공식)
+- B-3 링크: 샌드박스 fetch가 예매처 URL(eplus 등)을 직접 열지 못함 → 검색 결과로 해당 페이지·판매 진행 교차 확인, 재확인 원칙대로 죽은 링크로 단정하지 않고 유지
+- B-4: 확인 가능한 신규 값 없음(지어내지 않음)
+
+**남은 것**: A-4 music_release 시제("リリースする/される"류) 약 15건 — ja-ballistik-boyz-saku, ja-befirst-bruce-wayne, ja-spitz-mishiranu-ito, ja-yama-mountain, ja-kimura-takuya-checkpoint, ja-motfd-iwaou, ja-boynextdoor-boom-boom-boom, ja-milet-made-of-glass, ja-nakajima-kento-onigoto, ja-ikimonogakari-sayonara-lara, ja-ryokushaka-atamago, ja-hosono-yours-sincerely, ja-crazy-ken-band-nani, ja-ini-anthem, ja-tamaki-aska-otoginga, ja-befirst-watch-me, ja-sota-hanamura-kimiwosagashiteta — 다음 회차 이월. babymonster 0922 시제도 다음 회차.
+**리서처 참고(추가·수정 안 함)**:
+- ja-rock-in-japan-2026-20260912: 9/14 회차 플래그 그대로 `festival_days` 비어 있음(5일 개최 9/12~21). 이제 전 일정 종료라 화면 피해는 없어졌으나 일자별 라인업은 여전히 미등록
+- ja-ultra-japan-2026-20260919: `festival_days: null` 그대로(2일 개최, 종료)
+- 투어 전체를 한 항목에 담은 경우(nightmare·ryokushaka·boynextdoor) 첫날 기준으로 "종료" 처리되어 남은 공연이 예정 목록에서 빠짐 — 공연별 분리 또는 festival_days식 처리 검토 권장
 
 ---
 
