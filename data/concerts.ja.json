@@ -1164,7 +1164,7 @@
       ],
       "developer": "福山雅治",
       "publisher": "アミューズ",
-      "description": "福山雅治が新作アルバム『超新星』を携えて開催するドームツアー『NISSAY PRESENTS WE'RE BROS. TOUR 2026 DOME LIVE 龍、涼風至』。2026年8月5日・6日に東京ドーム、8月22日・23日に京セラドーム大阪で計4公演が行われた。全席指定・スマートフォンでの電子チケット発券のみで、ファンクラブ「BROS.」「BROS.+」向け先行受付を経てチケットが販売された。",
+      "description": "福山雅治が新作アルバム『超新星』を携えて開催したドームツアー『NISSAY PRESENTS WE'RE BROS. TOUR 2026 DOME LIVE 龍、涼風至』。2026年8月5日・6日に東京ドーム、8月22日・23日に京セラドーム大阪で計4公演が行われた。全席指定・スマートフォンでの電子チケット発券のみで、ファンクラブ「BROS.」「BROS.+」向け先行受付を経てチケットが販売された。",
       "genres": [
         "J-POP",
         "ドームツアー"
@@ -1174,7 +1174,8 @@
       "presale": false,
       "presale_datetime": null,
       "presale_end_datetime": null,
-      "presale_url": null
+      "presale_url": null,
+      "updated_at": "2026-09-23"
     },
     {
       "id": "ja-spitz-mishiranu-ito-20260807",
@@ -1327,7 +1328,7 @@
         "TOYOSU PIT（東京・豊洲）"
       ],
       "developer": "Steve Lacy",
-      "description": "グラミー賞受賞アーティストのスティーヴ・レイシーが、〈SUMMER SONIC 2026〉出演に合わせた単独公演を東京・豊洲PITで開催する。単独公演としては初来日を果たした2024年以来2年ぶりとなる。約4年ぶり通算3作目のアルバム『Oh Yeah?（オー・イェー？）』の国内盤が来日直前の8月7日に発売されるタイミングでの公演で、開場18時・開演19時。チケットはオールスタンディング12,000円（税込・ドリンク代別）で、7月4日に一般発売された。",
+      "description": "グラミー賞受賞アーティストのスティーヴ・レイシーが、〈SUMMER SONIC 2026〉出演に合わせた単独公演を東京・豊洲PITで開催した。単独公演としては初来日を果たした2024年以来2年ぶりとなった。約4年ぶり通算3作目のアルバム『Oh Yeah?（オー・イェー？）』の国内盤が来日直前の8月7日に発売されるタイミングでの公演で、開場18時・開演19時だった。チケットはオールスタンディング12,000円（税込・ドリンク代別）で、7月4日に一般発売された。",
       "genres": [
         "R&B",
         "来日",
@@ -1335,7 +1336,8 @@
       ],
       "presale": false,
       "general_sale": false,
-      "general_sale_datetime": "2026-07-04T10:00:00+09:00"
+      "general_sale_datetime": "2026-07-04T10:00:00+09:00",
+      "updated_at": "2026-09-23"
     },
     {
       "id": "ja-motfd-iwaou-20260814",
@@ -1743,14 +1745,15 @@
       ],
       "developer": "THE SPELLBOUND×BOOM BOOM SATELLITES",
       "publisher": null,
-      "description": "BOOM BOOM SATELLITESの川島道行の誕生日にあたる8月24日、新宿・歌舞伎町のシネシティ広場で開催される入場無料の野外ライブ。川島の十周忌にあたる2026年に中野雅之と小林祐介（THE NOVEMBERS）がBOOM BOOM SATELLITES名義を復活させたプロジェクトの一環で、9月2日に配信された約10年ぶりの新曲「Brand New Drive」が初披露された。開場18:00／開演19:00、待機エリアの開放は17:00から。",
+      "description": "BOOM BOOM SATELLITESの川島道行の誕生日にあたる8月24日、新宿・歌舞伎町のシネシティ広場で開催された入場無料の野外ライブ。川島の十周忌にあたる2026年に中野雅之と小林祐介（THE NOVEMBERS）がBOOM BOOM SATELLITES名義を復活させたプロジェクトの一環で、9月2日に配信された約10年ぶりの新曲「Brand New Drive」が初披露された。開場18:00／開演19:00、待機エリアの開放は17:00からだった。",
       "genres": [
         "ロック",
         "エレクトロニック",
         "フリーライブ"
       ],
       "image_url": null,
-      "source_url": "https://www.sonymusic.co.jp/artist/BoomBoomSatellites/info/586021"
+      "source_url": "https://www.sonymusic.co.jp/artist/BoomBoomSatellites/info/586021",
+      "updated_at": "2026-09-23"
     },
     {
       "id": "ja-number-i-numbers-ur26-20260825",
@@ -1786,13 +1789,14 @@
       ],
       "developer": "LINDIGO FAMILY",
       "publisher": null,
-      "description": "富山・南砺で開かれるワールドミュージックの祭典〈スキヤキ・ミーツ・ザ・ワールド2026〉の出演者による東京公演。レユニオン島のマロヤを鳴らすランディゴファミリーが奄美の唄者・里アンナを迎えるほか、トゥバ共和国の喉歌グループ、オドゥチュが出演する。ランディゴファミリーの本祭出演は2018年以来7年ぶり。会場は青山の月見ル君想フ。",
+      "description": "富山・南砺で開かれるワールドミュージックの祭典〈スキヤキ・ミーツ・ザ・ワールド2026〉の出演者による東京公演。レユニオン島のマロヤを鳴らすランディゴファミリーが奄美の唄者・里アンナを迎えるほか、トゥバ共和国の喉歌グループ、オドゥチュが出演した。ランディゴファミリーの本祭出演は2018年以来7年ぶり。会場は青山の月見ル君想フだった。",
       "genres": [
         "ワールドミュージック",
         "来日公演"
       ],
       "image_url": null,
-      "source_url": "https://www.cdjournal.com/news/-/128949"
+      "source_url": "https://www.cdjournal.com/news/-/128949",
+      "updated_at": "2026-09-23"
     },
     {
       "id": "ja-ikimonogakari-sayonara-lara-20260826",
@@ -1890,7 +1894,7 @@
       ],
       "developer": "チェ・ユリ（최유리）",
       "publisher": null,
-      "description": "韓国のシンガー・ソングライター、チェ・ユリが二度目となる来日公演を東京・浜離宮朝日ホールで行う。8月30日の日曜日、開場17時・開演18時。『涙の女王』『海街チャチャチャ』『未知のソウル』など人気韓国ドラマのOSTに参加してきた歌手で、日本でも急速に聴かれるようになった。会場は世界最高峰とも称される音響で知られるホールで、全席指定のSS席18,000円・S席14,000円・A席11,000円。一般発売は8月3日12時に始まり、チケットぴあ・ローソンチケット・イープラスなどで扱われている。",
+      "description": "韓国のシンガー・ソングライター、チェ・ユリが二度目となる来日公演を東京・浜離宮朝日ホールで行った。8月30日の日曜日、開場17時・開演18時だった。『涙の女王』『海街チャチャチャ』『未知のソウル』など人気韓国ドラマのOSTに参加してきた歌手で、日本でも急速に聴かれるようになった。会場は世界最高峰とも称される音響で知られるホールで、全席指定のSS席18,000円・S席14,000円・A席11,000円。一般発売は8月3日12時に始まり、チケットぴあ・ローソンチケット・イープラスなどで扱われた。",
       "genres": [
         "K-POP",
         "シンガーソングライター",
@@ -1899,7 +1903,8 @@
       "image_url": null,
       "source_url": "https://www.anemo.co.jp/topics/lifestyle/stage-lifestyle/432626-20260717/",
       "general_sale": false,
-      "general_sale_datetime": "2026-08-03T12:00:00+09:00"
+      "general_sale_datetime": "2026-08-03T12:00:00+09:00",
+      "updated_at": "2026-09-23"
     },
     {
       "id": "ja-flo-japan-tour-2026-20260831",
@@ -1915,7 +1920,7 @@
       ],
       "developer": "FLO",
       "publisher": "CREATIVEMAN PRODUCTIONS",
-      "description": "英国発のR&Bガールグループ・FLOが、新作アルバム『THERAPY AT THE CLUB』を携えた初の単独来日ツアーを開催する。2026年8月31日に東京・TOYOSU PIT、9月2日に大阪・Zepp Nambaの2公演。抽選オフィシャル先行・先着先行を経て、7月18日から一般発売が行われている。透明感あるハーモニーと洗練されたR&Bサウンドで人気を集めるグループの単独公演として注目される。",
+      "description": "英国発のR&Bガールグループ・FLOが、新作アルバム『THERAPY AT THE CLUB』を携えた初の単独来日ツアーを開催した。2026年8月31日に東京・TOYOSU PIT、9月2日に大阪・Zepp Nambaの2公演。抽選オフィシャル先行・先着先行を経て、7月18日から一般発売が行われた。透明感あるハーモニーと洗練されたR&Bサウンドで人気を集めるグループの単独公演として注目を集めた。",
       "genres": [
         "来日",
         "R&B"
@@ -1925,7 +1930,8 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "updated_at": "2026-09-23"
     },
     {
       "id": "ja-journey-2026-20260901",
@@ -1969,7 +1975,7 @@
       ],
       "developer": "細野晴臣",
       "publisher": "ハンズオン・エンタテインメント",
-      "description": "細野晴臣が2026年9月2日、東京・恵比寿LIQUIDROOMでワンマン公演〈Haruomi Hosono The Yours Sincerely Tour – Prelude〉を行う。9月11日に全世界リリースされる通算23枚目のアルバム『Yours Sincerely』の発売と、ニューヨーク・Radio City Music Hall、ロサンゼルス・Greek Theatreを回るUSツアー開幕を目前に控えた一夜限りの公演で、LIQUIDROOMの22周年企画としても位置づけられている。開場18:30・開演19:30、チケットは一般7,500円、23歳以下対象のU-23が6,500円（いずれも税込・ドリンク代別）。同日は新作をテーマにしたアパレルグッズを世界最速で扱う1日限定POP-UPも同会場で開かれ、チケットがなくても入場できる。",
+      "description": "細野晴臣が2026年9月2日、東京・恵比寿LIQUIDROOMでワンマン公演〈Haruomi Hosono The Yours Sincerely Tour – Prelude〉を行った。9月11日に全世界リリースされた通算23枚目のアルバム『Yours Sincerely』の発売と、ニューヨーク・Radio City Music Hall、ロサンゼルス・Greek Theatreを回るUSツアー開幕を目前に控えた一夜限りの公演で、LIQUIDROOMの22周年企画としても位置づけられた。開場18:30・開演19:30、チケットは一般7,500円、23歳以下対象のU-23が6,500円（いずれも税込・ドリンク代別）だった。同日は新作をテーマにしたアパレルグッズを世界最速で扱う1日限定POP-UPも同会場で開かれ、チケットがなくても入場できた。",
       "genres": [
         "ロック",
         "アンビエント",
@@ -1979,7 +1985,8 @@
       "source_url": "https://www.liquidroom.net/schedule/haruomihosoino_20260902",
       "presale": false,
       "presale_datetime": "2026-08-03T19:00:00+09:00",
-      "presale_end_datetime": "2026-08-11T23:59:00+09:00"
+      "presale_end_datetime": "2026-08-11T23:59:00+09:00",
+      "updated_at": "2026-09-23"
     },
     {
       "id": "ja-kohmi-expo-2026-20260903",
@@ -2029,14 +2036,15 @@
       ],
       "developer": "lynch.",
       "publisher": "ディスクガレージ",
-      "description": "名古屋を拠点に活動するlynch.のツアー〈TOUR'26「IGNITE THE CLIMAX」〉の横浜公演が、2026年9月4日に横浜BAY HALLで行われる。開場18:15・開演19:00で、チケットはスタンディング7,700円（税込、入場時に別途ドリンク代600円が必要）。未就学児童は入場できない。会場の公演情報の問い合わせ先はディスクガレージが務めている。",
+      "description": "名古屋を拠点に活動するlynch.のツアー〈TOUR'26「IGNITE THE CLIMAX」〉の横浜公演が、2026年9月4日に横浜BAY HALLで行われた。開場18:15・開演19:00で、チケットはスタンディング7,700円（税込、入場時に別途ドリンク代600円が必要）。未就学児童は入場できなかった。会場の公演情報の問い合わせ先はディスクガレージが務めた。",
       "genres": [
         "ラウドロック",
         "ヴィジュアル系",
         "ツアー"
       ],
       "image_url": null,
-      "source_url": "https://bayhall.jp/schedule/2026/09/9418/"
+      "source_url": "https://bayhall.jp/schedule/2026/09/9418/",
+      "updated_at": "2026-09-23"
     },
     {
       "id": "ja-hinatazaka46-hinata-fes-2026-20260905",
@@ -2051,14 +2059,15 @@
       ],
       "developer": "日向坂46",
       "publisher": null,
-      "description": "日向坂46が宮崎県で開く2回目の大型野外イベントで、9月5日・6日の2日間にわたって行われる。会場全体はひなた宮崎県総合運動公園、ライブはその中のひなたサンマリンスタジアム宮崎。公園への入園は無料で、ライブ観覧のみチケットが必要になる。公園は10:00開園・19:30閉園、ライブは開場14:30・開演16:30。チケットは2日通し指定22,000円、各日指定12,000円のほか、駐車場セット券やJTBが扱う宿泊・交通込みのツアープランも設定された。",
+      "description": "日向坂46が宮崎県で開いた2回目の大型野外イベントで、9月5日・6日の2日間にわたって行われた。会場全体はひなた宮崎県総合運動公園、ライブはその中のひなたサンマリンスタジアム宮崎。公園への入園は無料で、ライブ観覧のみチケットが必要だった。公園は10:00開園・19:30閉園、ライブは開場14:30・開演16:30だった。チケットは2日通し指定22,000円、各日指定12,000円のほか、駐車場セット券やJTBが扱う宿泊・交通込みのツアープランも設定された。",
       "genres": [
         "アイドル",
         "J-POP",
         "野外イベント"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Hinatazaka46_members_at_Yokohama_Stadium.jpg/330px-Hinatazaka46_members_at_Yokohama_Stadium.jpg",
-      "source_url": "https://www.hinatazaka46.com/s/official/news/detail/E00800?ima=0000"
+      "source_url": "https://www.hinatazaka46.com/s/official/news/detail/E00800?ima=0000",
+      "updated_at": "2026-09-23"
     },
     {
       "release_time": "15:00",
@@ -2075,12 +2084,13 @@
         "めぐろパーシモンホール(大ホール)"
       ],
       "developer": "加藤訓子",
-      "description": "打楽器奏者・加藤訓子が企画・プロデュースする〈STEVE REICH PROJECT「REICH90」〉の東京公演。作曲家スティーヴ・ライヒの90歳を記念した特別プログラムで、2026年6月20日の彩の国さいたま芸術劇場での開幕を経て、9月5日のめぐろパーシモンホール大ホール公演から本格的な全国ツアーが始まる。《Drumming Part I》《Nagoya Marimbas》《Mallet Quartet》《Four Organs》などの代表作を中心に構成され、開演は15時。ツアーは2027年3月まで全9公演が予定されている。",
+      "description": "打楽器奏者・加藤訓子が企画・プロデュースする〈STEVE REICH PROJECT「REICH90」〉の東京公演。作曲家スティーヴ・ライヒの90歳を記念した特別プログラムで、2026年6月20日の彩の国さいたま芸術劇場での開幕を経て、9月5日のめぐろパーシモンホール大ホール公演から本格的な全国ツアーが始まった。《Drumming Part I》《Nagoya Marimbas》《Mallet Quartet》《Four Organs》などの代表作を中心に構成され、開演は15時だった。ツアーは2027年3月まで全9公演が予定されている。",
       "genres": [
         "現代音楽",
         "クラシック",
         "打楽器"
-      ]
+      ],
+      "updated_at": "2026-09-23"
     },
     {
       "id": "ja-seikima-ii-great-black-mass-tokyo-20260905",
@@ -2095,13 +2105,14 @@
       ],
       "developer": "聖飢魔II",
       "publisher": null,
-      "description": "魔暦27（2025）年に地球デビュー40周年を迎えて期間限定で再集結した聖飢魔IIが、大教典『Season II』を引っ提げて5月から続けてきた〈GREAT BLACK MASS TOUR「SEASON II」〉のセミファイナルとして東京ガーデンシアターに立つ。新譜収録曲を軸にしながら旧曲でも見せ場を作る構成で全国の信奉者を沸かせてきたツアーで、この日の模様はWOWOWプライムが独占生中継し、WOWOWオンデマンドでも同時配信されることが決まっている。",
+      "description": "魔暦27（2025）年に地球デビュー40周年を迎えて期間限定で再集結した聖飢魔IIが、大教典『Season II』を引っ提げて5月から続けてきた〈GREAT BLACK MASS TOUR「SEASON II」〉のセミファイナルとして東京ガーデンシアターに立った。新譜収録曲を軸にしながら旧曲でも見せ場を作る構成で全国の信奉者を沸かせてきたツアーで、この日の模様はWOWOWプライムが独占生中継し、WOWOWオンデマンドでも同時配信された。",
       "genres": [
         "ヘヴィメタル",
         "ハードロック"
       ],
       "image_url": null,
-      "source_url": "https://www.cdjournal.com/news/seikimatsu/128558"
+      "source_url": "https://www.cdjournal.com/news/seikimatsu/128558",
+      "updated_at": "2026-09-23"
     },
     {
       "id": "ja-treasure-the-stage-20260905",
@@ -2217,7 +2228,7 @@
       ],
       "developer": null,
       "publisher": "ロッキング・オン",
-      "description": "ロッキング・オンが主催する日本最大級の邦楽ロックフェスティバル。2026年は千葉市の蘇我スポーツ公園を舞台に、9月12日・13日・19日・20日・21日の5日間で計115組が出演する。BUMP OF CHICKEN、Vaundy、Ado、Number_i、Creepy Nuts、UVERworldら人気アーティストが集結する大型フェス。一部の日程はすでにソールドアウトとなっている。",
+      "description": "ロッキング・オンが主催する日本最大級の邦楽ロックフェスティバル。2026年は千葉市の蘇我スポーツ公園を舞台に、9月12日・13日・19日・20日・21日の5日間で計115組が出演した。BUMP OF CHICKEN、Vaundy、Ado、Number_i、Creepy Nuts、UVERworldら人気アーティストが集結した大型フェス。一部の日程はすでにソールドアウトとなった。",
       "genres": [
         "フェスティバル",
         "邦ロック",
@@ -2225,7 +2236,8 @@
       ],
       "image_url": null,
       "source_url": "https://rijfes.jp/2026/artist/",
-      "festival_days": null
+      "festival_days": null,
+      "updated_at": "2026-09-23"
     },
     {
       "release_date_approx": false,
@@ -2262,17 +2274,18 @@
       ],
       "developer": "EPICA",
       "publisher": "SMASH",
-      "description": "オランダのシンフォニック・メタルバンドEPICAによる来日公演。2026年9月14日に東京・LIQUIDROOM、15日に大阪・BIGCATの2公演が行われる。シモーネ・シモンズの圧倒的な歌声とオーケストラサウンドを融合させた壮大なライブで世界的な人気を誇るバンドで、2025年12月の来日公演に続く新たなジャパンツアーとなる。チケットは各プレイガイドで先着一般発売中。",
+      "description": "オランダのシンフォニック・メタルバンドEPICAによる来日公演。2026年9月14日に東京・LIQUIDROOM、15日に大阪・BIGCATの2公演が行われた。シモーネ・シモンズの圧倒的な歌声とオーケストラサウンドを融合させた壮大なライブで世界的な人気を誇るバンドで、2025年12月の来日公演に続く新たなジャパンツアーとなった。チケットは各プレイガイドで先着一般発売された。",
       "genres": [
         "来日",
         "シンフォニックメタル"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Epica%2C_3-Maj%C3%B3wka_2022_96.jpg/330px-Epica%2C_3-Maj%C3%B3wka_2022_96.jpg",
       "source_url": "https://www.epica.nl/tour/",
-      "general_sale": true,
-      "general_sale_datetime": "2025-12-06T10:00:00+09:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://eplus.jp/sf/detail/2058110001"
+      "general_sale_url": null,
+      "updated_at": "2026-09-23"
     },
     {
       "id": "ja-crazy-ken-band-nani-20260916",
@@ -2371,7 +2384,7 @@
       ],
       "developer": "チソン",
       "publisher": null,
-      "description": "韓国の俳優チソンによる約1年ぶりの来日ファンミーティング。2026年9月18日に東京・せたがやイーグレットホール、9月19日に大阪・寝屋川市立市民会館大ホールで開催される。同じ事務所の俳優ファンヒがゲストとして出演することも発表された。ファンクラブ限定の1次先行が7月13日から7月26日まで受け付けられており、来場者にはオリジナルペンライトが用意される。",
+      "description": "韓国の俳優チソンによる約1年ぶりの来日ファンミーティング。2026年9月18日に東京・せたがやイーグレットホール、9月19日に大阪・寝屋川市立市民会館大ホールで開催された。同じ事務所の俳優ファンヒがゲストとして出演することも発表された。ファンクラブ限定の1次先行が7月13日から7月26日まで受け付けられ、来場者にはオリジナルペンライトが用意された。",
       "genres": [
         "ファンミーティング",
         "韓国"
@@ -2381,7 +2394,8 @@
       "presale": false,
       "presale_datetime": "2026-07-13T10:00:00+09:00",
       "presale_end_datetime": "2026-07-26T23:59:00+09:00",
-      "presale_url": null
+      "presale_url": null,
+      "updated_at": "2026-09-23"
     },
     {
       "id": "ja-sota-hanamura-kimiwosagashiteta-20260918",
@@ -2472,7 +2486,7 @@
       ],
       "developer": "The Weeknd",
       "publisher": "ライブネーション・ジャパン",
-      "description": "世界的R&B/ポップ・スターThe Weekndによる久々の来日公演。スタジアム・ツアー「After Hours Til Dawn Tour」の一環として、2026年9月19日・20日に埼玉のベルーナドームで行われる。スペシャルゲストにCreepy Nutsと¥ØU$UK€ ¥UK1MAT$Uが出演。9月20日公演は完売し、追加された9月19日公演のチケットが一般発売中となっている。",
+      "description": "世界的R&B/ポップ・スターThe Weekndによる久々の来日公演。スタジアム・ツアー「After Hours Til Dawn Tour」の一環として、2026年9月19日・20日に埼玉のベルーナドームで行われた。スペシャルゲストにCreepy Nutsと¥ØU$UK€ ¥UK1MAT$Uが出演した。9月20日公演は完売し、追加された9月19日公演のチケットも一般発売された。",
       "genres": [
         "来日",
         "R&B",
@@ -2480,10 +2494,11 @@
       ],
       "image_url": "https://img.hmv.co.jp/hybridimage/eventpage/394438/main.webp?20260626104229",
       "source_url": "https://www.universal-music.co.jp/the-weeknd/news/2026-05-13/",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://l-tike.com/the-weeknd"
+      "general_sale_url": null,
+      "updated_at": "2026-09-23"
     },
     {
       "id": "ja-ultra-japan-2026-20260919",
@@ -2498,7 +2513,7 @@
       ],
       "developer": null,
       "publisher": null,
-      "description": "世界的ダンスミュージックフェス「ULTRA」の日本版。2026年は9月19日・20日の2日間、東京・お台場の特設会場ULTRA PARKで開催される。第1弾ラインナップにはZedd B2B Knock2、Alesso、Peggy Gou、The Martinez Brothersら国内外のトップDJ・アーティストが名を連ねる。ULTRA MAIN STAGEやRESISTANCEなど複数ステージで一日中パフォーマンスが繰り広げられる。",
+      "description": "世界的ダンスミュージックフェス「ULTRA」の日本版。2026年は9月19日・20日の2日間、東京・お台場の特設会場ULTRA PARKで開催された。第1弾ラインナップにはZedd B2B Knock2、Alesso、Peggy Gou、The Martinez Brothersら国内外のトップDJ・アーティストが名を連ねた。ULTRA MAIN STAGEやRESISTANCEなど複数ステージで一日中パフォーマンスが繰り広げられた。",
       "genres": [
         "フェスティバル",
         "EDM",
@@ -2506,7 +2521,8 @@
       ],
       "image_url": null,
       "source_url": "https://ultrajapan.com/",
-      "festival_days": null
+      "festival_days": null,
+      "updated_at": "2026-09-23"
     },
     {
       "id": "ja-babymonster-choom-japan-kyocera-20260922",
@@ -2547,7 +2563,7 @@
       ],
       "developer": "佐野元春",
       "publisher": "ディスクガレージ",
-      "description": "デビュー45周年アニバーサリー・ツアーを全公演ソールドアウトで終えた佐野元春が、ザ・コヨーテ・バンドを従えて行う全国18都市21公演のホールツアー「IN & OUT TOUR 2026」の大阪公演。ツアー2本目にあたり、会場は大阪・フェスティバルホール。バンドは深沼元昭、藤田顕、渡辺シュンスケ、小松シゲル、高桑圭の5人。9月・10月公演の一般発売は2026年8月22日10:00に開始される。",
+      "description": "デビュー45周年アニバーサリー・ツアーを全公演ソールドアウトで終えた佐野元春が、ザ・コヨーテ・バンドを従えて行う全国18都市21公演のホールツアー「IN & OUT TOUR 2026」の大阪公演。ツアー2本目にあたり、会場は大阪・フェスティバルホール。バンドは深沼元昭、藤田顕、渡辺シュンスケ、小松シゲル、高桑圭の5人。9月・10月公演の一般発売は2026年8月22日10:00に開始された。",
       "genres": [
         "ロック",
         "J-POP",
@@ -2555,8 +2571,9 @@
       ],
       "image_url": "https://diskgarage.com/digaonline/wordpress/wp-content/uploads/1780626761.webp",
       "source_url": "https://diskgarage.com/digaonline/news/233331",
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-22T10:00:00+09:00"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "updated_at": "2026-09-23"
     },
     {
       "id": "ja-super-beaver-dome-tour-tokyo-20260922",
@@ -2571,7 +2588,7 @@
       ],
       "developer": "SUPER BEAVER",
       "publisher": "ディスクガレージ",
-      "description": "結成21年目のSUPER BEAVERが初めて挑むドーム・ツアーの東京公演。2025年から続く「都会のラクダ」シリーズの到達点として企画され、8月1日・2日の京セラドーム大阪に続き、9月22日・23日に東京ドームで2days を行う。開場16:00・開演18:00。チケットは各先行と3月20日の一般発売で売り切れており、9月23日公演の模様はWOWOWで放送・配信されることが決まっている。",
+      "description": "結成21年目のSUPER BEAVERが初めて挑むドーム・ツアーの東京公演。2025年から続く「都会のラクダ」シリーズの到達点として企画され、8月1日・2日の京セラドーム大阪に続き、9月22日・23日に東京ドームで2days を行った。開場16:00・開演18:00。チケットは各先行と3月20日の一般発売で売り切れ、9月23日公演の模様はWOWOWで放送・配信されることが決まった。",
       "genres": [
         "J-ROCK",
         "ドームツアー"
@@ -2579,7 +2596,8 @@
       "image_url": null,
       "source_url": "https://sp.super-beaver.com/feature/dometour2026",
       "general_sale": false,
-      "general_sale_url": "https://eplus.jp/sb26-dome/"
+      "general_sale_url": null,
+      "updated_at": "2026-09-23"
     },
     {
       "id": "ja-suzuki-masayuki-martini-tokyo-20260922",
@@ -2594,14 +2612,15 @@
       ],
       "developer": "鈴木雅之",
       "publisher": "SOGO TOKYO",
-      "description": "2026年に70歳＝古希を迎え、あわせて1986年のソロ・デビューから40周年となる鈴木雅之のダブル・アニバーサリー・ツアー。9月22日はその誕生日当日にあたり、東京国際フォーラム ホールAで開場17:00・開演18:00で行われる。ゲストには実姉の鈴木聖美が立ち、この東京公演はWOWOWが独占生中継する。中継では3月のアルバム『MARTINI DUET DELUXE』で共演した伊原六花、篠原涼子、渋谷凪咲、鈴木愛理、野宮真貴も登場する。全席指定11,000円で、チケットはすでに完売している。",
+      "description": "2026年に70歳＝古希を迎え、あわせて1986年のソロ・デビューから40周年となる鈴木雅之のダブル・アニバーサリー・ツアー。9月22日はその誕生日当日にあたり、東京国際フォーラム ホールAで開場17:00・開演18:00で行われた。ゲストには実姉の鈴木聖美が立ち、この東京公演はWOWOWが独占生中継した。中継では3月のアルバム『MARTINI DUET DELUXE』で共演した伊原六花、篠原涼子、渋谷凪咲、鈴木愛理、野宮真貴も登場した。全席指定11,000円で、チケットは完売していた。",
       "genres": [
         "J-POP",
         "ソウル"
       ],
       "image_url": null,
       "source_url": "https://sogotokyo.com/live_information/detail/2654",
-      "general_sale": false
+      "general_sale": false,
+      "updated_at": "2026-09-23"
     },
     {
       "release_time": "19:30",
@@ -6183,13 +6202,14 @@
       ],
       "developer": "天々高々",
       "publisher": null,
-      "description": "MOROHAのアフロとヒグチアイによる2人組アーティスト・天々高々が、東京・下北線路街 空き地で開催する入場無料の野外イベント。13:00からの昼の部と18:00からの夜の部の2ステージで天々高々のライブが行われるほか、輪投げ大会、モールアートの展示・販売、空き地キッチンの出店、フリーマーケットなど祭りらしい催しが並ぶ。9月18日から10月4日まで下北沢の街全体で開かれるアートフェスティバル「ムーンアートナイト下北沢2026」の一環として実施される。",
+      "description": "MOROHAのアフロとヒグチアイによる2人組アーティスト・天々高々が、東京・下北線路街 空き地で開催した入場無料の野外イベント。13:00からの昼の部と18:00からの夜の部の2ステージで天々高々のライブが行われたほか、輪投げ大会、モールアートの展示・販売、空き地キッチンの出店、フリーマーケットなど祭りらしい催しが並んだ。9月18日から10月4日まで下北沢の街全体で開かれたアートフェスティバル「ムーンアートナイト下北沢2026」の一環として実施された。",
       "genres": [
         "フォーク",
         "野外フリーイベント"
       ],
       "image_url": null,
-      "source_url": "https://www.billboard-japan.com/d_news/detail/165284"
+      "source_url": "https://www.billboard-japan.com/d_news/detail/165284",
+      "updated_at": "2026-09-23"
     },
     {
       "id": "ja-njp-670-triphony-20260509",
