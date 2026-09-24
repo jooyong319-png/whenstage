@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-23",
+  "last_updated": "2026-09-24",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -4883,26 +4883,30 @@
     },
     {
       "id": "ko-kimfeel-journey-concert-seoul-20261114",
-      "name": "김필 단독 콘서트 (2026)",
+      "name": "2026 김필 콘서트 '저니(JOURNEY)'",
       "release_date": "2026-11-14",
       "release_time": null,
       "release_date_approx": false,
       "timezone": "Asia/Seoul",
       "category": "concert_tour",
-      "platforms": [],
+      "platforms": [
+        "블루스퀘어(우리WON뱅킹홀)"
+      ],
       "developer": "김필",
-      "publisher": null,
-      "description": "김필이 11월 14일과 15일 이틀간 단독 콘서트를 연다. 9월 2일 공개된 정규 2집 'JOURNEY' 프로모션 일정에 함께 담긴 공연으로, 10월 29일 앨범 발매 이후 신곡 무대를 처음 선보이는 자리가 될 전망이다. 데뷔 15주년을 맞은 해에 여는 공연이라는 점에서 의미가 더해진다. 공연장과 티켓 오픈 일정은 아직 공개되지 않아 소속사의 추가 공지를 기다려야 한다.",
+      "publisher": "웨이크원",
+      "description": "김필이 11월 14일과 15일 이틀간 서울 용산구 블루스퀘어 우리WON뱅킹홀에서 단독 콘서트 '저니(JOURNEY)'를 연다. 10월 29일 발매하는 정규 2집과 같은 이름을 단 공연으로, 그간의 대표곡과 신곡 무대를 함께 묶어낸다. 소속사 웨이크원은 9월 10일 공연 개최를 알리며 같은 날 오후 7시 NOL 티켓 팬클럽 선예매를, 11일 일반 예매를 차례로 열었다. 2019년 정규 1집 이후 약 7년 만의 정규 신보와 맞물린 일정이라 신곡 비중이 높은 세트리스트가 예상된다.",
       "genres": [
         "발라드",
         "콘서트"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Kim_Feel_210107.png/500px-Kim_Feel_210107.png",
-      "source_url": "https://sports.khan.co.kr/article/202609021127003",
+      "source_url": "https://www.newspim.com/news/view/20260910000071",
       "presale": false,
-      "general_sale": false,
-      "general_sale_datetime": null,
-      "general_sale_url": null
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-11T19:00:00+09:00",
+      "general_sale_url": null,
+      "presale_datetime": "2026-09-10T19:00:00+09:00",
+      "updated_at": "2026-09-24"
     },
     {
       "id": "ko-wonderlivet-2026-20261120",
@@ -6151,6 +6155,186 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ko-dynamicduo-once-in-a-while-seoul-20261127",
+      "name": "2026 다이나믹 듀오 단독 콘서트 '가끔씩 오래 보자' - 서울",
+      "release_date": "2026-11-27",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "올림픽공원(올림픽홀)"
+      ],
+      "developer": "다이나믹 듀오(Dynamic Duo)",
+      "publisher": null,
+      "description": "다이나믹 듀오가 11월 27일부터 29일까지 사흘간 서울 올림픽공원 올림픽홀에서 단독 콘서트 '가끔씩 오래 보자'를 연다. 정규 7집 수록곡 제목에서 출발해 2023년부터 해마다 이어온 브랜드 공연으로, 서울 공연은 3년 연속 전 회차 전석 매진을 기록했다. 올해는 서울에 이어 12월 부산과 대전까지 3개 도시를 도는 구성으로 규모를 키웠다. 일반 예매는 9월 29일 오후 8시 NOL 티켓에서 단독으로 열린다.",
+      "genres": [
+        "힙합",
+        "콘서트"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26013810_p.gif",
+      "source_url": "https://www.starnewskorea.com/music/2026/09/22/2026092217212224826",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-29T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26013810",
+      "updated_at": "2026-09-24"
+    },
+    {
+      "id": "ko-dynamicduo-once-in-a-while-busan-20261212",
+      "name": "2026 다이나믹 듀오 단독 콘서트 '가끔씩 오래 보자' - 부산",
+      "release_date": "2026-12-12",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KBS부산홀"
+      ],
+      "developer": "다이나믹 듀오(Dynamic Duo)",
+      "publisher": null,
+      "description": "다이나믹 듀오가 12월 12일 부산 KBS부산홀에서 단독 콘서트 '가끔씩 오래 보자' 부산 공연을 연다. 11월 27~29일 서울 올림픽홀 공연에 이어지는 전국 투어 일정으로, 개코와 최자가 데뷔 이후 쌓아온 히트곡과 최근 작업물을 함께 풀어낼 무대다. 부산 공연 일반 예매는 9월 30일 오후 7시 NOL 티켓에서 단독으로 진행된다. 세대를 아우르는 관객층을 모아온 브랜드 공연이라는 점에서 지역 공연에도 관심이 쏠린다.",
+      "genres": [
+        "힙합",
+        "콘서트"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26013663_p.gif",
+      "source_url": "https://www.starnewskorea.com/music/2026/09/22/2026092217212224826",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-30T19:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26013663",
+      "updated_at": "2026-09-24"
+    },
+    {
+      "id": "ko-dynamicduo-once-in-a-while-daejeon-20261219",
+      "name": "2026 다이나믹 듀오 단독 콘서트 '가끔씩 오래 보자' - 대전",
+      "release_date": "2026-12-19",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "충남대학교(정심화홀)"
+      ],
+      "developer": "다이나믹 듀오(Dynamic Duo)",
+      "publisher": null,
+      "description": "다이나믹 듀오가 12월 19일 대전 충남대학교 정심화홀에서 단독 콘서트 '가끔씩 오래 보자' 대전 공연을 연다. 11월 서울, 12월 부산에 이어 투어를 마무리하는 자리로, 연말 분위기에 맞춘 세트리스트가 예고됐다. 만 7세 이상 관람 가능하며 일반 예매는 9월 30일 오후 8시 NOL 티켓에서 단독으로 열린다. 다이나믹 듀오가 대전을 포함한 3개 도시 투어로 이 브랜드 공연을 확장한 것은 올해가 처음이다.",
+      "genres": [
+        "힙합",
+        "콘서트"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26013730_p.gif",
+      "source_url": "https://www.starnewskorea.com/music/2026/09/22/2026092217212224826",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-30T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26013730",
+      "updated_at": "2026-09-24"
+    },
+    {
+      "id": "ko-monstax-the-x-nexus-encore-incheon-20261121",
+      "name": "2026 MONSTA X WORLD TOUR [THE X : NEXUS] - ENCORE",
+      "release_date": "2026-11-21",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "인스파이어 아레나"
+      ],
+      "developer": "몬스타엑스(MONSTA X)",
+      "publisher": "스타쉽엔터테인먼트",
+      "description": "몬스타엑스가 11월 21일과 22일 인천 인스파이어 아레나에서 월드투어 '더 엑스: 넥서스(THE X : NEXUS)' 앙코르 공연을 연다. 서울에서 출발해 일본 아레나 투어를 포함한 아시아 6개 도시와 멕시코·브라질 등 남미를 돈 투어를 한국에서 마무리하는 자리다. 10월 북미 10개 도시 일정을 소화한 뒤 이어지는 공연으로, 회차별 시작 시각은 21일 오후 6시, 22일 오후 4시다. 팬클럽 선예매는 9월 28일, 글로벌 선예매는 29일, 일반 예매는 30일 오후 8시에 차례로 열린다.",
+      "genres": [
+        "K-POP",
+        "콘서트"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26013132_p.gif",
+      "source_url": "https://www.newspim.com/news/view/20260908000196",
+      "presale": true,
+      "presale_datetime": "2026-09-28T20:00:00+09:00",
+      "presale_end_datetime": "2026-09-28T23:59:00+09:00",
+      "presale_url": "https://tickets.interpark.com/goods/26013132",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-30T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26013132",
+      "updated_at": "2026-09-24"
+    },
+    {
+      "id": "ko-yuchaehoon-home-seoul-20261024",
+      "name": "2026 유채훈 단독 콘서트 〈HOME〉",
+      "release_date": "2026-10-24",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "코엑스아티움(우리은행홀)"
+      ],
+      "developer": "유채훈",
+      "publisher": null,
+      "description": "라포엠 멤버 유채훈이 10월 24일과 25일 이틀간 서울 코엑스아티움 우리은행홀에서 단독 콘서트 'HOME'을 연다. 2년 만에 내놓는 새 앨범 발매를 기념해 마련한 공연으로, 신곡 무대를 처음 공개하는 자리이기도 하다. 스트링과 브라스를 포함한 12인조 라이브 밴드가 함께해 폭넓은 세트리스트를 채운다. 두 회차 모두 오후 6시에 시작하며 공연 시간은 약 120분, 팬클럽 선예매는 9월 28일 오후 7시, 일반 예매는 10월 1일 오후 7시에 열린다.",
+      "genres": [
+        "크로스오버",
+        "콘서트"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26013882_p.gif",
+      "source_url": "https://www.topstarnews.net/news/articleView.html?idxno=16208947",
+      "presale": true,
+      "presale_datetime": "2026-09-28T19:00:00+09:00",
+      "presale_end_datetime": "2026-09-30T23:59:00+09:00",
+      "presale_url": "https://tickets.interpark.com/goods/26013882",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-01T19:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26013882",
+      "updated_at": "2026-09-24"
+    },
+    {
+      "id": "ko-freyaskye-stars-align-seoul-20270220",
+      "name": "프레야 스카이 첫 내한공연 (Freya Skye - Stars Align Tour in Seoul)",
+      "release_date": "2027-02-20",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "명화라이브홀"
+      ],
+      "developer": "프레야 스카이(Freya Skye)",
+      "publisher": null,
+      "description": "영국 출신 팝 싱어송라이터 프레야 스카이가 2027년 2월 20일 서울 명화라이브홀에서 첫 내한공연을 연다. 월드투어 'Stars Align Tour'의 서울 공연으로, 누적 스트리밍 28억 회와 소셜미디어 팔로워 500만 명을 넘긴 신예가 한국 팬을 처음 만나는 자리다. 대표곡 '사일런트 트리트먼트(Silent Treatment)'는 미국 미디어베이스 톱40 라디오 차트 10위권에 올랐다. 공연은 오후 7시 시작이며 아티스트 선예매는 9월 29일 정오, 일반 예매는 9월 30일 정오에 열린다.",
+      "genres": [
+        "팝",
+        "내한공연"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26013626_p.gif",
+      "source_url": "https://www.mhns.co.kr/news/articleView.html?idxno=761210",
+      "presale": true,
+      "presale_datetime": "2026-09-29T12:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": "https://tickets.interpark.com/goods/26013626",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-30T12:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26013626",
+      "updated_at": "2026-09-24"
     }
   ]
 }
