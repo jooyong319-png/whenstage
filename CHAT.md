@@ -1,3 +1,62 @@
+## [2026-09-24 09:20] [KO 리서처]
+리서치 완료 (한국 국내 공연)
+- 콘서트/내한 9→6, 음원발매 4→0, 페스티벌 0→0, 팬미팅 0→0 (후보→통과)
+- 신규 6개 / 갱신 1개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리 66건 중 0건 등재 (leads.ko.jsonl 미매칭 66건을 전수 대조한 결과, 미래 일정 리드는 모두 이미 concerts.ko.json에 등재돼 있었음)
+- 과거 백필 0개(사유: 1건짜리 공연장이 KBS부산홀 1곳뿐이었고, 예정 공연 트랙에서 다이나믹 듀오 부산 공연(12/12, KBS부산홀)을 등재해 그 공연장이 2건으로 전환됨 → 백필로 추가 전환할 대상 없음) — 공연장 색인전환 1개(KBS부산홀)
+- 티켓팅 진행중 6개 (추가 +6 / 해제 -0)
+- description 보강 1개 (김필 콘서트: 공연명·공연장·주최사·예매 일정 확정 반영)
+- 총 등록 256개
+
+신규 등재
+- 2026 다이나믹 듀오 단독 콘서트 '가끔씩 오래 보자' 서울(11/27~29, 올림픽공원 올림픽홀)·부산(12/12, KBS부산홀)·대전(12/19, 충남대학교 정심화홀)
+- 2026 MONSTA X WORLD TOUR [THE X : NEXUS] - ENCORE (11/21~22, 인스파이어 아레나)
+- 2026 유채훈 단독 콘서트 〈HOME〉 (10/24~25, 코엑스아티움 우리은행홀)
+- 프레야 스카이 첫 내한공연 Stars Align Tour (2027-02-20, 명화라이브홀)
+
+[검증 탈락]
+- ITZY 미니앨범 'TUNNEL VISION'(11/10): 연도 검증 실패. 집계 기사(빌보드코리아 '11월 컴백 릴레이')가 2025년 기사였고, 같은 이름의 월드투어 서울 공연이 2026년 2월 잠실실내체육관으로 확인돼 앨범은 2025-11-10 발매로 판정.
+- 스트레이 키즈 'SKZ IT TAPE : DO IT'(11/21): 연도 검증 실패. 스타뉴스 성적 기사(2025-11-25 자)로 2025-11-21 발매 확정.
+- 피프티피프티 'Too Much Part 1.'(11/4), 선미 첫 정규앨범(11/5): 위와 같은 2025년 집계 기사 외에 2026년 독립 출처를 확보하지 못함.
+- 테디 스윔스(Teddy Swims) 첫 단독 내한공연 KBS아레나(11/15): 연도 검증 실패. 워너뮤직코리아 공지·스포츠경향 기사 모두 2025-07 게재이고 공연일은 2025-11-15 — 전형적인 재유통 기사 함정.
+- 남진 전국투어 공주, 이은결 30주년 등: 예매처 오픈 예정 목록에서 후보로 수집했으나 대중음악 공연 범주 밖이거나 독립 출처 2개를 확보하지 못해 이번 사이클 보류.
+
+## 2026-09-23 · ja
+
+로테이션상 ja가 가장 오래된 점검일(2026-09-14)이라 선택. 대상 창: 2026-07-25 ~ 2026-11-22(오늘 ±60일), 창 안 항목 150건(끝난 것 74 / 예정 76). 코드는 손대지 않았고 `data/concerts.ja.json`만 수정. push 전 `validate-data.mjs` 통과(파일 상단 `last_updated` 오늘로 갱신).
+
+⚠️ 운영 메모: AUDITOR.md는 "확인한 항목의 `last_updated`를 오늘로" 하라지만, AGENTS.md(3517bed 이후)는 **항목 단위 `last_updated` 금지**, §4-5는 **실제로 고친 항목에만 `updated_at`**이다. 오늘 JA 리서처도 항목 내 `last_updated`를 제거했다. 그래서 이번 회차는 AGENTS.md를 따라 **고친 20건에만 `updated_at=2026-09-23`**을 넣었고, 트랙 B에서 확인만 한 항목엔 아무 필드도 넣지 않았다. 트랙 B 중복 방지는 이 로그의 확인 목록으로 대신함 → **AUDITOR.md 14번 규칙 정리 필요(운영자 참고)**.
+
+**트랙 A (졸업 처리) — 20건** (상한 20 도달)
+- A-1/A-2 끝난 공연에 남은 예매 필드·플래그 정리 4건(§7 표대로 `presale`/`general_sale=false` + URL·datetime null, 전부 concert_tour):
+  ja-epica-japan-tour-2026-20260914(9/15 대阪 포함 종료), ja-the-weeknd-2026-20260919(9/20 종료), ja-motoharu-sano-in-and-out-osaka-20260922, ja-super-beaver-dome-tour-tokyo-20260922(9/23 공연은 별도 항목 존재)
+- A-3: 창 안 끝난 항목 중 approx=true 없음
+- A-4 description 시제 교정 20건(위 4건 포함, 있는 문장의 시제만 과거형으로 — 새 사실 추가 없음):
+  위 4건 + ja-lynch-ignite-the-climax-yokohama-20260904, ja-hinatazaka46-hinata-fes-2026-20260905, ja-kato-kuniko-reich90-meguro-20260905, ja-seikima-ii-great-black-mass-tokyo-20260905, ja-hosono-haruomi-prelude-20260902, ja-choi-yuree-concert-in-japan-20260830, ja-sukiyaki-tokyo-lindigo-20260825, ja-steve-lacy-ss-extra-20260813, ja-flo-japan-tour-2026-20260831, ja-spellbound-bbs-kabukicho-20260824, ja-jisung-our-scene-20260918, ja-suzuki-masayuki-martini-tokyo-20260922, ja-tentaka-matsuri-2026-20260919, ja-ultra-japan-2026-20260919, ja-rock-in-japan-2026-20260912, ja-fukuyama-masaharu-dome-2026-20260805
+- 의도적 제외(투어 전체를 다루는 항목이라 예매 링크가 남은 일정에 아직 유효):
+  - ja-nightmare-tour-2026-20260919(11/22까지 투어, eplus 투어 URL), ja-ryokushaka-arena-tour-2026-20260919(12/6까지, ぴあ 번들 URL) — 코드상 release_date 기준 "종료"지만 URL을 지우면 살아 있는 예매를 없애는 셈. 운영 판단 필요
+  - ja-babymonster-choom-japan-kyocera-20260922 — 9/22·23 2days, **오늘(9/23) 공연 진행일**이라 제외. 다음 회차에 시제 교정
+  - ja-boynextdoor-knock-on-vol2-japan-20260821 — 10/11까지 투어 서술, 제외
+
+**트랙 B (임박 점검) — 8건 확인** (공연일 가까운 순, 9/14 회차에 이미 본 freckles·number-i 제외). 8건 모두 공식·예매처·언론 소스로 정상 개최/발매 확인, 취소·연기 없음, approx 임박 항목 없음:
+- ja-glay-yogoreta-eiyu-20260923 — 64th 싱글 9/23 발매 확인(GLAY 공식/타워레코드/新潟日報)
+- ja-super-beaver-dome-tour-tokyo-20260923 — 도쿄돔 9/23 18:00 정상, 전 공연 매진·WOWOW 11월 방송(WOWOW/ぴあ)
+- ja-belle-and-sebastian-tigermilk-tokyo-20260924 / ja-belle-and-sebastian-sinister-tokyo-20260925 — Kanadevia Hall 9/24·25 개장18:00/개연19:00 정상(クリエイティブマン/e+/Rolling Stone Japan). 참고: 일부 매체는 요금을 "税別"로 표기, 데이터는 "税込" — 공식 확인 못 해 수정 안 함
+- ja-benjamin-grosvenor-recital-20260924 — 浜離宮朝日ホール 9/24 19:00 정상(홀 공식 이벤트 페이지/ぴあ)
+- ja-jowee-omicil-japan-2026-20260924 — WALL&WALL 9/24 정상(CDJournal/MUSIC TRIBUNE). release_time은 확인 못 해 null 유지
+- ja-ringo-ongakusai-2026-20260926 — 9/26·27 アルプス公園 정상, 개장9:00/개연10:00/폐연20:30(공식/松本市)
+- ja-sakanaction-toumei-glion-arena-kobe-20260929 — 9/29·30 정상(TOTTEI 공식/e+/サカナクション 공식)
+- B-3 링크: 샌드박스 fetch가 예매처 URL(eplus 등)을 직접 열지 못함 → 검색 결과로 해당 페이지·판매 진행 교차 확인, 재확인 원칙대로 죽은 링크로 단정하지 않고 유지
+- B-4: 확인 가능한 신규 값 없음(지어내지 않음)
+
+**남은 것**: A-4 music_release 시제("リリースする/される"류) 약 15건 — ja-ballistik-boyz-saku, ja-befirst-bruce-wayne, ja-spitz-mishiranu-ito, ja-yama-mountain, ja-kimura-takuya-checkpoint, ja-motfd-iwaou, ja-boynextdoor-boom-boom-boom, ja-milet-made-of-glass, ja-nakajima-kento-onigoto, ja-ikimonogakari-sayonara-lara, ja-ryokushaka-atamago, ja-hosono-yours-sincerely, ja-crazy-ken-band-nani, ja-ini-anthem, ja-tamaki-aska-otoginga, ja-befirst-watch-me, ja-sota-hanamura-kimiwosagashiteta — 다음 회차 이월. babymonster 0922 시제도 다음 회차.
+**리서처 참고(추가·수정 안 함)**:
+- ja-rock-in-japan-2026-20260912: 9/14 회차 플래그 그대로 `festival_days` 비어 있음(5일 개최 9/12~21). 이제 전 일정 종료라 화면 피해는 없어졌으나 일자별 라인업은 여전히 미등록
+- ja-ultra-japan-2026-20260919: `festival_days: null` 그대로(2일 개최, 종료)
+- 투어 전체를 한 항목에 담은 경우(nightmare·ryokushaka·boynextdoor) 첫날 기준으로 "종료" 처리되어 남은 공연이 예정 목록에서 빠짐 — 공연별 분리 또는 festival_days식 처리 검토 권장
+
+---
+
 ## [2026-09-23 14:30] [EN 브리핑]
 주간 브리핑 작성 완료 (영어권/글로벌)
 - 각도: This week's shows (9/23~9/29)
