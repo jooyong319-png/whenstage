@@ -1,3 +1,49 @@
+## [2026-09-25 09:30] [EN 리서처]
+리서치 완료 (해외 팬 대상 한국 공연)
+- 콘서트/투어 8→5, 발매 6→4, 페스티벌 4→2, 팬미팅 2→1 (후보→통과)
+- 신규 12개 / 갱신 0개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리 1건 중 0건 등재 (leads.en.jsonl 134건 전수 대조 → 한국 개최 관련 리드는 TOMORROW X TOGETHER STEAL THE WIND 1건뿐이고 이미 en-txt-steal-the-wind-seoul-20261113으로 등재됨. 나머지 133건은 북미·유럽 단독 일정으로 2026-09-21 방향 전환 이후 대상 아님)
+- 과거 백필 0개(사유: 예정 공연 후보 검증에 사이클 여력을 전부 사용. 신규 12건 전부 신규 한국 공연장이라 이번엔 공연장 색인전환 0개 — 다음 사이클에 KSPO Dome·Inspire Arena·KINTEX 등 기등록 공연장 중심으로 진행 예정)
+- 티켓팅 진행중 3개 (추가 +3 / 해제 -0)
+- description 보강 0개
+- 항목 내부에 중복 복사돼 있던 last_updated/last_researched_by 필드 점검 — en 파일에는 이미 없어서 변경 없음
+- 총 등록 339개
+
+신규 등재 (전부 한국 개최, timezone Asia/Seoul)
+- PENTAGON 10th Anniversary Tour <101010> in Seoul (10/9~10, Blue Square 우리WON뱅킹홀) — 데뷔 10주년 당일 공연, 양일 매진
+- ALL(H)OURS 1st World Tour <RISE UP> in Seoul (10/10, 성신여대 운정그린캠퍼스 대강당, 17:00)
+- 2026 MONSTA X World Tour <THE X : NEXUS> Encore in Incheon (11/21~22, 인스파이어 아레나) — 글로벌 팬클럽 선예매 9/29, 일반 9/30
+- SLOWDIVE Live 2026 in Seoul (12/8, KBS아레나, 20:00) — 프로모터 Live Nation Korea 확인해 publisher 채움
+- wave to earth - the ( ) pieces tour in Seoul (12/18~20, 고려대 화정체육관)
+- 2026 Hwang Minhyun Fan Meeting <PEACH-BLOSSOM> in Seoul (10/16~18, 코엑스아티움 우리은행홀)
+- Jarasum International Jazz Festival 2026 (10/9~11, 가평 자라섬, 제23회)
+- Grand Mint Festival 2026 (10/17~18, 올림픽공원) — festival_days에 10/17 라인업 등재(10/18 최종 라인업 미확인이라 보류)
+- SUNG HANBIN - DEAD:ALIVE (1st EP, 10/12 18:00) — ZEROBASEONE 첫 솔로
+- ONEW - Chakgak (1st Single Album, 10/20 18:00)
+- ILLIT - BREAK EVEN (5th Mini Album, 10/26)
+- RIIZE - Prologue Single for 2nd Studio Album (10/26)
+
+[KO 리서처 요청 — related_locale_ids 역방향 링크]
+아래 12건은 en 쪽에 `related_locale_ids.ko`를 채웠다. hreflang이 정상 동작하도록 concerts.ko.json 쪽에도 `related_locale_ids.en`을 채워주기를 요청한다.
+- ko-pentagon-101010-seoul-20261009 → en-pentagon-101010-seoul-20261009
+- ko-allhours-rise-up-seoul-20261010 → en-allhours-rise-up-seoul-20261010
+- ko-monstax-the-x-nexus-encore-incheon-20261121 → en-monsta-x-the-x-nexus-encore-incheon-20261121
+- ko-slowdive-live-2026-seoul-20261208 → en-slowdive-live-2026-seoul-20261208
+- ko-wavetoearth-seoul-20261219 → en-wave-to-earth-the-pieces-tour-seoul-20261218
+- ko-hwangminhyun-dowongyeong-seoul-20261016 → en-hwang-minhyun-peach-blossom-seoul-20261016
+- ko-jarasum-jazz-2026-20261009 → en-jarasum-jazz-festival-2026-20261009
+- ko-gmf-2026-20261017 → en-grand-mint-festival-2026-20261017
+- ko-sunghanbin-solo-debut-20261012 → en-sung-hanbin-dead-alive-20261012
+- ko-onew-chakgak-20261020 → en-onew-chakgak-20261020
+- ko-illit-break-even-20261026 → en-illit-break-even-20261026
+- ko-riize-prologue-single-20261026 → en-riize-prologue-single-20261026
+
+[검증 탈락]
+- 2026 HIGHLIGHT FAN CON (10/16, 장충체육관): 영어권 독립 출처를 하나도 확보하지 못함. 같은 공연장의 AHOF 팬콘(2026-01) 정보만 검색돼 혼동 위험이 커서 보류.
+- 2026 ONEUS WORLD TOUR 'FULL MOON' IN SEOUL (10/24~25): 날짜는 Soompi·allkpop·중앙일보 영문판 3곳이 일치하나 **공연장이 아직 미발표**. platforms[0]이 공연장 페이지 키라서 빈 값으로 등재하면 잘못된 모아보기 페이지가 생기므로 공연장 발표 후 다음 사이클에 등재.
+- tripleS 'LOVE&POP pt.2' (10/20): 10/20 날짜의 근거가 팬 위키(triples.fandom.com)와 팬 계정 X 게시물뿐이었다. allkpop·kpopofficial은 2026년 3부작 계획만 확인해주고 구체 날짜는 다루지 않아 독립 출처 2개 기준 미달.
+- 이미지: 신규 12건 전부 image_url null. 공식 티켓 페이지(NOL World·Ticketlink)는 og:image를 web_fetch로 뽑지 못했고, 위키미디어 커먼즈에 해당 아티스트 자유 라이선스 사진이 없거나 로고형이라 억지로 채우지 않았다.
+
 ## [2026-09-24 09:20] [KO 리서처]
 리서치 완료 (한국 국내 공연)
 - 콘서트/내한 9→6, 음원발매 4→0, 페스티벌 0→0, 팬미팅 0→0 (후보→통과)
