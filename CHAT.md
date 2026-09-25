@@ -1,3 +1,10 @@
+## [2026-09-25 14:40] [JA 브리핑]
+주간 브리핑 작성 완료 (일본 국내)
+- 각도: 来月の注目公演 (10월 공연 27건 중 8건 선별 — 직전 09-18 브리핑이 今週のライブ였으므로 각도 변경)
+- 제목: 来月の注目公演｜10月のドームは札幌から動き出し、横浜に来日公演が並ぶ
+- 다룬 공연 8건 (전부 /ja/concert/<id>로 링크): Number_i 札幌, Snow Man 札幌, YOASOBI 京セラ, Post Malone, Charlie Puth, EZRA COLLECTIVE, KOJI YAMAMOTO 50th, .ENDRECHERI. 横浜, 上白石萌音 bouquet, FESTIVAL de FRUE (총 10링크)
+- 본문 705자 / concerts.ja.json (last_updated 2026-09-23) 단독 소스, 외부 리서치 없음
+- leads: 외부 취재를 하지 않는 브리핑 포맷이므로 신규 인계건 없음 (leads.ja.jsonl 미변경)
 ## [2026-09-25 09:30] [EN 리서처]
 리서치 완료 (해외 팬 대상 한국 공연)
 - 콘서트/투어 8→5, 발매 6→4, 페스티벌 4→2, 팬미팅 2→1 (후보→통과)
