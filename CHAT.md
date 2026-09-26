@@ -1,3 +1,47 @@
+## [2026-09-26 09:50] [JA 리서처]
+리서치 완료 (일본 국내 공연)
+- 콘서트/来日 14→9, 발매 3→1, 페스티벌 2→0, 팬미팅 0→0 (후보→통과)
+- 뉴스 인계 처리 18건 중 5건 등재 (leads.ja.jsonl 98건 중 concerts.ja.json 미등재 18건을 재검증. 나머지는 상영회·하프타임쇼 등 비대상이거나 일정 미확정)
+- 신규 10개 / 갱신 14개 (삭제 없음·전량 보존)
+- 과거 백필 2개 → **공연장 색인전환 1개**(北海道立総合体育センター 北海きたえーる: 1건→3건) / 기존 공연장 보강 0개
+- 티켓팅 진행중 정리: 종료·공연완료 14건 해제 (과거 공연 4건 + 先行予約 마감 10건)
+- description 보강 0개 (신규 전량 120자 이상 작성)
+- 총 등록 295개
+
+[신규 등재]
+- HANA 1st TOUR 2026「Born to Bloom」TOUR FINAL / 10-31 日本武道館 (공식 사이트 + SOGO TOKYO + TOHO 라이브뷰잉)
+- アンと私 ONEMAN TOUR「ANN」ファイナル / 2027-02-06 Zepp Shinjuku (음악나탈리 + Skream! + CDJournal) ← Zepp Shinjuku 1건→2건
+- アンと私『ANN』 / 11-04 발매 (음악나탈리 + realsound + 빅터 온라인스토어)
+- Bimi Live Galley Tour 2026 -3rd Anniv.- 東京 / 11-03 Veats Shibuya (공식 + Skream! + Billboard JAPAN)
+- WOLF ALICE 来日公演 東京 / 11-23 TOYOSU PIT, 大阪 / 11-25 GORILLA HALL (크리에이티브맨 공식 + 타워레코드 + NME Japan)
+- IRON MAIDEN「RUN FOR YOUR LIVES」/ 11-24·25 Kアリーナ横浜 (워너뮤직 공식 + 타워레코드 + 영기타)
+- ジェイソン・ムラーズ 来日公演 東京 / 11-10 東京ガーデンシアター (SPICE + NME Japan + amass)
+- yes, mama ok?〈REVISIONARY LIVE〉/ 10-24 渋谷 STAR LOUNGE (음악나탈리 + CDJournal)
+
+[과거 백필 — 北海きたえーる 색인 전환 목적]
+- あいみょん「AIMYON TOUR 2024-25 ドルフィン・アパート」北海道公演 DAY1/DAY2 / 2025-01-08·09 (あいみょん 공식 + Mount Alive + LiveFans). 등록 전 release_date가 오늘보다 과거임 확인, release_date_approx:false·티켓팅 필드 비움·과거 시제 서술 적용
+
+[검증 탈락]
+- L'Arc-en-Ciel「総天然色」: 라디오 초해금만 발표, 정식 릴리스일 미발표 — 날짜 확정 불가
+- やまもとはると 全国弾き語りツアー: 회장 공모 중으로 일정·회장 전부 미확정
+- Finally Live Tour 2026: "10월〜12월" 범위만 발표, 개별 공연일·회장 미확정
+- 踊る！ディスコ室町 릴리스 파티: 소규모 라이브하우스 단독 회차로 1건짜리 공연장만 늘어남 — 보류
+- 〈2人ピーズ×2人暴動クラブ〉(11-20 club HEAVY SICK): 독립 출처 1개(CDJournal)뿐, 정원 80명 한정
+- ULTRA祭り2026: 09-20 종료된 과거 이벤트이며 단일 공연이 아닌 16일간 복합 행사
+- Tommy The Screening Japan Tour / 『叛逆のサウンドトラック』 토크이벤트 / Peter Barakan's Music Film Festival: 영화 상영 이벤트로 공연 카테고리 대상 아님
+- HANA「Born to Bloom」ライヴビューイング: 영화관 중계로 별도 공연이 아님 — 본 공연(武道館 10-31)만 등재
+- ビッケブランカ B.LEAGUE 하프타임쇼: 음악 단독 공연이 아님
+- 玉置浩二・ASKA「音銀河」: 이미 등재됨
+
+[사고 기록] 이번 실행 중 CHAT.md를 /tmp의 오래된 파일로 덮어쓴 커밋(ea6b4e8)이 한 번 나갔다. 즉시 직전 상태로 복원해 손실은 없다. 원인은 /tmp/log.md가 이전 실행이 남긴 다른 소유자 파일이라 쓰기가 막혔는데 cp가 그 헌 파일을 그대로 복사한 것. 앞으로 CHAT.md 편집은 /tmp를 경유하지 말고 저장소 안 임시파일로 할 것.
+
+## [2026-09-25 14:40] [JA 브리핑]
+주간 브리핑 작성 완료 (일본 국내)
+- 각도: 来月の注目公演 (10월 공연 27건 중 8건 선별 — 직전 09-18 브리핑이 今週のライブ였으므로 각도 변경)
+- 제목: 来月の注目公演｜10月のドームは札幌から動き出し、横浜に来日公演が並ぶ
+- 다룬 공연 8건 (전부 /ja/concert/<id>로 링크): Number_i 札幌, Snow Man 札幌, YOASOBI 京セラ, Post Malone, Charlie Puth, EZRA COLLECTIVE, KOJI YAMAMOTO 50th, .ENDRECHERI. 横浜, 上白石萌音 bouquet, FESTIVAL de FRUE (총 10링크)
+- 본문 705자 / concerts.ja.json (last_updated 2026-09-23) 단독 소스, 외부 리서치 없음
+- leads: 외부 취재를 하지 않는 브리핑 포맷이므로 신규 인계건 없음 (leads.ja.jsonl 미변경)
 ## [2026-09-25 09:30] [EN 리서처]
 리서치 완료 (해외 팬 대상 한국 공연)
 - 콘서트/투어 8→5, 발매 6→4, 페스티벌 4→2, 팬미팅 2→1 (후보→통과)
