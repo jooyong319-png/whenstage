@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-25",
+  "last_updated": "2026-09-28",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -3501,7 +3501,7 @@
       ],
       "developer": "Shakira",
       "publisher": "Live Nation",
-      "description": "Shakira opens a twelve-night European residency at Iberdrola Music in the Villaverde district of Madrid on September 18, 2026, her first Spanish concert in eight years. The promoter has built a temporary arena billed as Shakira Stadium for the run, holding more than 50,000 people a night. The residency closes out her Las Mujeres Ya No Lloran World Tour and runs alongside a Latin culture programme called Es Latina.",
+      "description": "Shakira opened a twelve-night European residency at Iberdrola Music in the Villaverde district of Madrid on September 18, 2026, her first Spanish concert in eight years. The promoter built a temporary arena billed as Shakira Stadium for the run, holding more than 50,000 people a night. The residency closes out her Las Mujeres Ya No Lloran World Tour and runs alongside a Latin culture programme called Es Latina.",
       "genres": [
         "Latin",
         "Pop",
@@ -3509,10 +3509,15 @@
       ],
       "image_url": null,
       "source_url": "https://iberdrolamusic.com/en/eventos/shakira/",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": "https://www.livenation.es/shakira-tickets-adp41381",
-      "presale": false
+      "general_sale_url": null,
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_end_datetime": null,
+      "updated_at": "2026-09-28"
     },
     {
       "release_time": "19:00",
@@ -3528,7 +3533,7 @@
         "Hartford HealthCare Amphitheater, Bridgeport, CT"
       ],
       "developer": "Neil Young & The Chrome Hearts, Willie Nelson & Family, Ty Myers",
-      "description": "Neil Young and Willie Nelson share a bill at the Hartford HealthCare Amphitheater in Bridgeport on September 22, 2026, the first of two co-headline dates announced in August. Young performs with The Chrome Hearts, the band he began touring with in late 2024, and Ty Myers opens. The pairing arrives as Nelson's Outlaw Music Festival run winds down and ahead of both artists' Farm Aid appearances.",
+      "description": "Neil Young and Willie Nelson shared a bill at the Hartford HealthCare Amphitheater in Bridgeport on September 22, 2026, the first of two co-headline dates announced in August. Young performed with The Chrome Hearts, the band he began touring with in late 2024, and Ty Myers opened. The pairing arrived as Nelson's Outlaw Music Festival run wound down and ahead of both artists' Farm Aid appearances.",
       "genres": [
         "Rock",
         "Country",
@@ -3536,9 +3541,14 @@
       ],
       "source_url": "https://news.pollstar.com/2026/08/20/willie-nelson-neil-young-to-co-headline-shows-in-bridgeport-and-philadelphia/",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-21T10:00:00-04:00",
-      "general_sale_url": "https://willienelson.com/pages/tour"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_end_datetime": null,
+      "updated_at": "2026-09-28"
     },
     {
       "id": "en-rebecca-black-exhibitionism-tour-boston-20260923",
@@ -3553,7 +3563,7 @@
       ],
       "developer": "Rebecca Black",
       "publisher": "Live Nation",
-      "description": "Rebecca Black launches Exhibitionism on Tour, a 27-date North American headlining run supporting her sophomore album Age of the Exhibitionist, due September 4, 2026. The trek opens September 23 at the Royale in Boston and works through clubs, theaters and ballrooms in Atlanta, Nashville, Dallas, Toronto, Chicago and Denver before the headline portion closes November 5 at the Fonda Theatre in Los Angeles. An artist and fan-club presale began July 22, with general on-sale July 24 via Ticketmaster.",
+      "description": "Rebecca Black launched Exhibitionism on Tour, a 27-date North American headlining run supporting her sophomore album Age of the Exhibitionist, released September 4, 2026. The trek opened September 23 at the Royale in Boston and works through clubs, theaters and ballrooms in Atlanta, Nashville, Dallas, Toronto, Chicago and Denver before the headline portion closes November 5 at the Fonda Theatre in Los Angeles. An artist and fan-club presale began July 22, with general on-sale July 24 via Ticketmaster.",
       "genres": [
         "Pop",
         "Concert",
@@ -3562,11 +3572,14 @@
       "image_url": null,
       "source_url": "https://news.pollstar.com/2026/07/20/rebecca-black-announces-headlining-north-america-tour/",
       "presale": false,
-      "presale_datetime": "2026-07-22T10:00:00-04:00",
+      "presale_datetime": null,
       "presale_url": null,
-      "general_sale": true,
-      "general_sale_datetime": "2026-07-24T10:00:00-04:00",
-      "general_sale_url": "https://www.livenation.com/artist/K8vZ9178Z_7/rebecca-black-events"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "presale_end_datetime": null,
+      "general_sale_end_datetime": null,
+      "updated_at": "2026-09-28"
     },
     {
       "id": "en-bourbon-and-beyond-2026-20260924",
@@ -3581,7 +3594,7 @@
       ],
       "developer": "Foo Fighters, Queens of the Stone Age, Mumford & Sons, Kacey Musgraves, Chris Stapleton, Dave Matthews Band",
       "publisher": "Danny Wimmer Presents",
-      "description": "Bourbon & Beyond returns to the Highland Festival Grounds at the Kentucky Exposition Center in Louisville from September 24 to 27, 2026 for its eighth edition. Danny Wimmer Presents has assembled the largest lineup in festival history, with more than 100 artists across five stages alongside bourbon tastings and chef demonstrations. Day-by-day set times were published in August ahead of the four-day run.",
+      "description": "Bourbon & Beyond returned to the Highland Festival Grounds at the Kentucky Exposition Center in Louisville from September 24 to 27, 2026 for its eighth edition. Danny Wimmer Presents assembled the largest lineup in festival history, with more than 100 artists across five stages alongside bourbon tastings and chef demonstrations. Day-by-day set times were published in August ahead of the four-day run.",
       "genres": [
         "Rock",
         "Country",
@@ -3589,8 +3602,8 @@
       ],
       "image_url": null,
       "source_url": "https://bourbonandbeyond.com/lineup/",
-      "general_sale": true,
-      "general_sale_url": "https://bourbonandbeyond.com/",
+      "general_sale": false,
+      "general_sale_url": null,
       "festival_days": [
         {
           "date": "2026-09-24",
@@ -3628,7 +3641,14 @@
             "Durand Jones & The Indications"
           ]
         }
-      ]
+      ],
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "updated_at": "2026-09-28"
     },
     {
       "id": "en-lucinda-williams-worlds-gone-wrong-atlanta-20260924",
@@ -3643,7 +3663,7 @@
       ],
       "developer": "Lucinda Williams",
       "publisher": null,
-      "description": "Roots and Americana icon Lucinda Williams announces World's Gone Wrong, an extensive 31-date North American headlining tour behind her new album of the same name. The fall run opens with two nights at Variety Playhouse in Atlanta on September 24 and 25, then moves through the Carolinas, Washington D.C. and a sweep of the Northeast. An artist presale ran July 15 to 17, with tickets going on general sale July 17 via Ticketmaster.",
+      "description": "Roots and Americana icon Lucinda Williams announced World's Gone Wrong, an extensive 31-date North American headlining tour behind her new album of the same name. The fall run opened with two nights at Variety Playhouse in Atlanta on September 24 and 25, then moves through the Carolinas, Washington D.C. and a sweep of the Northeast. An artist presale ran July 15 to 17, with tickets going on general sale July 17 via Ticketmaster.",
       "genres": [
         "Americana",
         "Rock",
@@ -3652,9 +3672,15 @@
       ],
       "image_url": null,
       "source_url": "https://news.pollstar.com/2026/07/14/lucinda-williams-announces-worlds-gone-wrong-fall-tour-of-north-america/",
-      "general_sale": true,
-      "general_sale_datetime": "2026-07-17T10:00:00-04:00",
-      "general_sale_url": null
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_end_datetime": null,
+      "updated_at": "2026-09-28"
     },
     {
       "release_time": null,
@@ -3670,7 +3696,7 @@
         "Highmark Mann Center for the Performing Arts, Philadelphia, PA"
       ],
       "developer": "Neil Young & The Chrome Hearts, Willie Nelson & Family, Ty Myers",
-      "description": "The second of two Neil Young and Willie Nelson co-headline concerts lands at the Highmark Mann Center for the Performing Arts in Philadelphia on September 24, 2026. Young is backed by The Chrome Hearts and Nelson by Family, with Ty Myers supporting both nights. Young scrapped his 2026 European dates earlier in the year, making this short East Coast pair his main run of the autumn.",
+      "description": "The second of two Neil Young and Willie Nelson co-headline concerts took place at the Highmark Mann Center for the Performing Arts in Philadelphia on September 24, 2026. Young was backed by The Chrome Hearts and Nelson by Family, with Ty Myers supporting both nights. Young scrapped his 2026 European dates earlier in the year, making this short East Coast pair his main run of the autumn.",
       "genres": [
         "Rock",
         "Country",
@@ -3678,9 +3704,14 @@
       ],
       "source_url": "https://news.pollstar.com/2026/08/20/willie-nelson-neil-young-to-co-headline-shows-in-bridgeport-and-philadelphia/",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-21T10:00:00-04:00",
-      "general_sale_url": "https://willienelson.com/pages/tour"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_end_datetime": null,
+      "updated_at": "2026-09-28"
     },
     {
       "id": "en-slothrust-dystopian-theatre-tour-boston-20260924",
@@ -3697,15 +3728,22 @@
       ],
       "developer": "Slothrust, The Velveteers",
       "publisher": null,
-      "description": "Slothrust stop at Royale in Boston on September 24 during The Dystopian Theatre Tour, the alt-rock trio's first headline run in more than a year and their first since signing to Equal Vision Records. The Velveteers support the eastern dates, with Um, Jennifer? joining the western leg. The tour opened September 15 in Omaha and finishes November 18 at The Bellwether in Los Angeles.",
+      "description": "Slothrust stopped at Royale in Boston on September 24 during The Dystopian Theatre Tour, the alt-rock trio's first headline run in more than a year and their first since signing to Equal Vision Records. The Velveteers supported the eastern dates, with Um, Jennifer? joining the western leg. The tour opened September 15 in Omaha and finishes November 18 at The Bellwether in Los Angeles.",
       "genres": [
         "Alternative Rock",
         "Tour"
       ],
       "image_url": null,
       "source_url": "https://equalvision.com/blogs/news/slothrust-signs-to-equal-vision-records-announces-new-tour-and-upcoming-new-single",
-      "general_sale": true,
-      "general_sale_url": "https://www.axs.com/events/1491810/slothrust-the-dystopian-theatre-tour-tickets"
+      "general_sale": false,
+      "general_sale_url": null,
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "updated_at": "2026-09-28"
     },
     {
       "id": "en-brandi-carlile-returning-to-myself-sad-gay-version-20260925",
@@ -3744,20 +3782,25 @@
         "Moroccan Lounge, Los Angeles, CA"
       ],
       "developer": "Icona Pop",
-      "description": "Swedish synthpop duo Icona Pop open a short American club run at Baby's All Right in Brooklyn on September 25, 2026, supporting their album Ritual, out August 14 via Ultra Records and Iconic Sound Recordings. Caroline Hjelt and Aino Jawo follow the Brooklyn date with Lincoln Hall in Chicago on October 2, a Las Vegas show on November 20 and the Moroccan Lounge in Los Angeles on November 21. Tickets are on general sale through the band's site.",
+      "description": "Swedish synthpop duo Icona Pop opened a short American club run at Baby's All Right in Brooklyn on September 25, 2026, supporting their album Ritual, out August 14 via Ultra Records and Iconic Sound Recordings. Caroline Hjelt and Aino Jawo follow the Brooklyn date with Lincoln Hall in Chicago on October 2, a Las Vegas show on November 20 and the Moroccan Lounge in Los Angeles on November 21. Tickets for the remaining dates are sold through the band's site.",
       "genres": [
         "Synthpop",
         "Tour"
       ],
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": "https://www.iconapop.com/tour",
+      "general_sale_url": null,
       "source_url": "https://news.pollstar.com/2026/07/31/icona-pop-unveil-fall-tour-dates/",
       "release_time": null,
       "release_date_approx": false,
       "publisher": null,
-      "image_url": null
+      "image_url": null,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_end_datetime": null,
+      "updated_at": "2026-09-28"
     },
     {
       "id": "en-kylie-cantrall-valley-girl-problems-minneapolis-20260925",
@@ -3772,21 +3815,22 @@
       ],
       "developer": "Kylie Cantrall",
       "publisher": "Live Nation",
-      "description": "Kylie Cantrall opens her first headlining tour at The Fillmore Minneapolis on September 25, 2026, with doors for a seven o'clock start. The fifteen-city North American run travels through Chicago, Toronto, Boston, New York, Nashville, Atlanta, Dallas and Houston before a hometown finale at The Novo in Los Angeles on October 22. It supports her Republic Records debut EP Valley Girl Problems.",
+      "description": "Kylie Cantrall opened her first headlining tour at The Fillmore Minneapolis on September 25, 2026, with a seven o'clock start. The fifteen-city North American run travels through Chicago, Toronto, Boston, New York, Nashville, Atlanta, Dallas and Houston before a hometown finale at The Novo in Los Angeles on October 22. It supports her Republic Records debut EP Valley Girl Problems.",
       "genres": [
         "Pop",
         "Tour"
       ],
       "image_url": null,
       "source_url": "https://www.billboard.com/music/pop/kylie-cantrall-valley-girl-problems-tour-dates-1236308486/",
-      "presale": true,
-      "presale_datetime": "2026-08-05T10:00:00-05:00",
+      "presale": false,
+      "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-07T10:00:00-05:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://www.ticketmaster.com/kylie-cantrall-tickets/artist/4577704"
+      "general_sale_url": null,
+      "updated_at": "2026-09-28"
     },
     {
       "id": "en-ocean-way-festival-2026-20260926",
@@ -3801,7 +3845,7 @@
       ],
       "developer": "The Killers, Jack White, Olivia Dean, Khruangbin, Sublime",
       "publisher": "Goldenvoice",
-      "description": "Goldenvoice, the promoter behind Coachella and Stagecoach, launches Ocean Way Festival on the sand at Santa Monica Beach across September 26 and 27, 2026. The Killers, Jack White and Olivia Dean headline an inaugural bill that also features Khruangbin, Sublime, Alvvays, Durand Jones & The Indications, Hiatus Kaiyote, SG Lewis, BLOND:ISH, Poolside and a Hot Chip DJ set. Single-day and two-day general admission passes went on sale in July.",
+      "description": "Goldenvoice, the promoter behind Coachella and Stagecoach, launched Ocean Way Festival on the sand at Santa Monica Beach across September 26 and 27, 2026. The Killers, Jack White and Olivia Dean headlined an inaugural bill that also featured Khruangbin, Sublime, Alvvays, Durand Jones & The Indications, Hiatus Kaiyote, SG Lewis, BLOND:ISH, Poolside and a Hot Chip DJ set. Single-day and two-day general admission passes went on sale in July.",
       "genres": [
         "Festival",
         "Rock",
@@ -3809,9 +3853,9 @@
       ],
       "image_url": null,
       "source_url": "https://consequence.net/2026/07/ocean-way-fesitval-jack-white-the-killers/",
-      "general_sale": true,
-      "general_sale_datetime": "2026-07-23T11:00:00-07:00",
-      "general_sale_url": "https://oceanwayfestival.com/tickets/",
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
       "festival_days": [
         {
           "date": "2026-09-26",
@@ -3829,7 +3873,13 @@
             "Durand Jones & The Indications"
           ]
         }
-      ]
+      ],
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_end_datetime": null,
+      "updated_at": "2026-09-28"
     },
     {
       "id": "en-michelle-branch-everywhere-back-again-seattle-20260927",
@@ -3844,7 +3894,7 @@
       ],
       "developer": "Michelle Branch",
       "publisher": null,
-      "description": "Michelle Branch returns to the road with the Everywhere and Back Again Tour, an 18-date US headlining run supporting a forthcoming EP of newly recorded versions of career-spanning songs, due November 6, 2026 via BMG. The tour opens September 27 at The Showbox in Seattle and runs through November 13 at Manchester Music Hall in Lexington, Kentucky. Tickets went on sale in July, and several shows sold out rapidly after the announcement.",
+      "description": "Michelle Branch returned to the road with the Everywhere and Back Again Tour, an 18-date US headlining run supporting a forthcoming EP of newly recorded versions of career-spanning songs, due November 6, 2026 via BMG. The tour opened September 27 at The Showbox in Seattle and runs through November 13 at Manchester Music Hall in Lexington, Kentucky. Tickets went on sale in July, and several shows sold out rapidly after the announcement.",
       "genres": [
         "Pop",
         "Rock",
@@ -3852,15 +3902,21 @@
       ],
       "image_url": null,
       "source_url": "https://news.pollstar.com/2026/07/15/michelle-branch-announces-everywhere-and-back-again-tour-releases-new-version-of-the-game-of-love/",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_end_datetime": null,
+      "updated_at": "2026-09-28"
     },
     {
       "id": "en-audrey-hobert-staircase-to-stardom-brooklyn-20260929",
       "name": "Audrey Hobert: The Staircase To Stardom Tour - Fall 2026",
       "release_date": "2026-09-29",
-      "release_time": null,
+      "release_time": "19:00",
       "release_date_approx": false,
       "timezone": "America/New_York",
       "category": "concert_tour",
@@ -3879,10 +3935,11 @@
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": "2026-07-31T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/audrey-hobert-tickets/artist/3919869"
+      "general_sale_url": "https://www.ticketmaster.com/audrey-hobert-tickets/artist/3919869",
+      "updated_at": "2026-09-28"
     },
     {
-      "release_time": null,
+      "release_time": "20:00",
       "release_date_approx": false,
       "publisher": null,
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Erykah_Badu_in_Nation19_Magazine.jpg/960px-Erykah_Badu_in_Nation19_Magazine.jpg",
@@ -3903,13 +3960,14 @@
       ],
       "source_url": "https://consequence.net/2026/06/erykah-badu-2026-tour-dates/",
       "general_sale": true,
-      "general_sale_url": "https://www.ticketmaster.com/erykah-badu-tickets/artist/781503"
+      "general_sale_url": "https://www.ticketmaster.com/erykah-badu-tickets/artist/781503",
+      "updated_at": "2026-09-28"
     },
     {
       "id": "en-erykah-badu-alchemist-los-angeles-20260929",
       "name": "Erykah Badu & The Alchemist - Los Angeles",
       "release_date": "2026-09-29",
-      "release_time": null,
+      "release_time": "20:00",
       "release_date_approx": false,
       "timezone": "America/Los_Angeles",
       "category": "concert_tour",
@@ -3926,13 +3984,14 @@
       ],
       "image_url": null,
       "source_url": "https://consequence.net/2026/06/erykah-badu-2026-tour-dates/",
-      "general_sale": true
+      "general_sale": true,
+      "updated_at": "2026-09-28"
     },
     {
       "id": "en-ringo-starr-all-starr-band-queens-20261001",
       "name": "Ringo Starr & His All Starr Band - Forest Hills, NY",
       "release_date": "2026-10-01",
-      "release_time": null,
+      "release_time": "19:00",
       "release_date_approx": false,
       "timezone": "America/New_York",
       "category": "concert_tour",
@@ -3951,13 +4010,14 @@
       "source_url": "https://news.pollstar.com/2026/07/06/ringo-starr-and-his-all-starr-band-announce-fall-dates/",
       "general_sale": true,
       "general_sale_datetime": "2026-07-10T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/ringo-starr-and-his-all-starr-tickets/artist/863651"
+      "general_sale_url": "https://www.ticketmaster.com/ringo-starr-and-his-all-starr-tickets/artist/863651",
+      "updated_at": "2026-09-28"
     },
     {
       "id": "en-rush-fifty-something-houston-20261001",
       "name": "Rush: Fifty Something Tour - Houston",
       "release_date": "2026-10-01",
-      "release_time": null,
+      "release_time": "19:30",
       "release_date_approx": false,
       "timezone": "America/Chicago",
       "category": "concert_tour",
@@ -3966,7 +4026,7 @@
       ],
       "developer": "Rush",
       "publisher": null,
-      "description": "Rush added Houston's Toyota Center on October 1, 2026 as one of four new single-night stops on the Fifty Something Tour, announced in late August. The reunion run marks the band's return to the road with Anika Nilles on drums. General tickets and VIP packages for the four added shows go on sale September 4, 2026 at 10am local time through Ticketmaster.",
+      "description": "Rush added Houston's Toyota Center on October 1, 2026 as one of four new single-night stops on the Fifty Something Tour, announced in late August. The reunion run marks the band's return to the road with Anika Nilles on drums. General tickets and VIP packages for the four added shows went on sale September 4, 2026 at 10am local time through Ticketmaster.",
       "genres": [
         "Rock",
         "Progressive Rock",
@@ -3976,13 +4036,14 @@
       "source_url": "https://www.rush.com/4-new-rush-2026-tour-dates-added/",
       "presale": false,
       "general_sale": true,
-      "general_sale_datetime": "2026-09-04T10:00:00-05:00"
+      "general_sale_datetime": "2026-09-04T10:00:00-05:00",
+      "updated_at": "2026-09-28"
     },
     {
       "id": "en-schoolboy-q-blank-face-10-years-atlanta-20261001",
       "name": "ScHoolboy Q: 10 Years of Blank Face LP Tour - Atlanta",
       "release_date": "2026-10-01",
-      "release_time": null,
+      "release_time": "20:00",
       "release_date_approx": false,
       "timezone": "America/New_York",
       "category": "concert_tour",
@@ -4006,7 +4067,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-08-07T10:00:00-04:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://www.ticketmaster.com/schoolboy-q-tickets/artist/1553249"
+      "general_sale_url": "https://www.ticketmaster.com/schoolboy-q-tickets/artist/1553249",
+      "updated_at": "2026-09-28"
     },
     {
       "id": "en-sugarland-ride-or-die-st-augustine-20261001",
@@ -4115,7 +4177,7 @@
       "name": "Post Malone: The BIG Stadium World Tour in Seoul",
       "release_date": "2026-10-02",
       "release_time": "20:00",
-      "release_date_approx": false,
+      "release_date_approx": true,
       "timezone": "Asia/Seoul",
       "category": "concert_tour",
       "platforms": [
@@ -4123,18 +4185,18 @@
       ],
       "developer": "Post Malone",
       "publisher": null,
-      "description": "Post Malone brings The BIG Stadium World Tour to Goyang Stadium, just outside Seoul, on October 2, 2026, his first Korean headline show since 2023. The main stadium bowl holds roughly 40,000 people and the show starts at 8 p.m. KST. Tickets are sold through NOL (formerly Interpark), which runs an English-language international booking site, and entry is restricted to ages 19 and over under Korean rules.",
+      "description": "[Postponed] Post Malone's Seoul date on The BIG Stadium World Tour, originally set for Goyang Stadium on October 2, 2026, was postponed in late August when he pushed back the remaining Asia, Australia and New Zealand legs of the tour; no new date has been announced and ticket buyers are being offered full refunds. It would have been his first Korean headline show since 2023, in the roughly 40,000-capacity main stadium bowl. Tickets had been sold through NOL (formerly Interpark), with entry restricted to ages 19 and over under Korean rules.",
       "genres": [
         "Hip-Hop",
         "Pop",
         "Concert"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Post_Malone_July_2021_%28cropped%29.jpg/250px-Post_Malone_July_2021_%28cropped%29.jpg",
-      "source_url": "https://www.jambase.com/show/post-malone-goyang-stadium-20261002",
-      "updated_at": "2026-09-22",
-      "general_sale": true,
-      "general_sale_datetime": "2026-04-07T12:00:00+09:00",
-      "general_sale_url": "https://world.nol.com/en/ticket/places/26000336/products/26004944",
+      "source_url": "https://www.koreaherald.com/article/10855462",
+      "updated_at": "2026-09-28",
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
       "related_locale_ids": {
         "ko": "ko-postmalone-big-stadium-tour-seoul-20261002"
       }
