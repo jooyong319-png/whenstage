@@ -2,9 +2,35 @@
 
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
-| ko | 2026-09-25 | |
-| en | 2026-09-21 | ← |
+| ko | 2026-09-25 | ← |
+| en | 2026-09-28 | |
 | ja | 2026-09-23 | |
+
+---
+
+## 2026-09-28 · en
+
+로테이션상 en이 가장 오래된 점검일(2026-09-21)이라 선택. 대상 창: 2026-07-30 ~ 2026-11-27(오늘 ±60일), 창 안 항목 174건(끝난 것 65 / 예정 109). 코드는 손대지 않았고 `data/concerts.en.json`만 수정(파일 상단 `last_updated` 2026-09-28). push 전 `validate-data.mjs` 통과. 지난 회차들과 같이 AGENTS.md §4-5를 따라 **실제로 고친 항목에만 `updated_at=2026-09-28`**, 항목 단위 `last_updated`는 넣지 않음.
+
+**트랙 A (졸업 처리) — 11건**
+- A-1/A-2 끝난 공연에 남은 예매 필드·플래그 정리 11건(§7대로 `presale`/`general_sale=false` + URL·datetime null, 전부 concert_tour/festival):
+  en-shakira-las-mujeres-ya-no-lloran-madrid-20260918(지난 회차 residency 진행 중이라 보류했던 것 — 10/11 최종일 항목이 별도로 있어 그쪽에 예매 링크가 살아 있으므로 개막일 항목만 정리), en-neil-young-willie-nelson-bridgeport-20260922, en-rebecca-black-exhibitionism-tour-boston-20260923, en-bourbon-and-beyond-2026-20260924(9/27 종료), en-lucinda-williams-worlds-gone-wrong-atlanta-20260924, en-neil-young-willie-nelson-philadelphia-20260924, en-slothrust-dystopian-theatre-tour-boston-20260924, en-icona-pop-ritual-tour-brooklyn-20260925, en-kylie-cantrall-valley-girl-problems-minneapolis-20260925, en-ocean-way-festival-2026-20260926(9/27 종료), en-michelle-branch-everywhere-back-again-seattle-20260927
+- A-3: 창 안 끝난 항목 중 approx=true 없음
+- A-4 description 시제: 위 11건의 해당 공연 서술만 과거형으로(투어 전체의 남은 일정 서술은 현재형 유지). 새 사실 추가 없음
+
+**트랙 B (임박 점검) — 8건 확인**
+- ⚠️ **연기 반영**: en-post-malone-big-stadium-seoul-20261002 — 8/27 아시아·오세아니아 일정 일괄 연기, 새 일정 미발표, 전액 환불(Korea Herald/경향신문/TicketNews). ko 9/25 회차와 동일 처리: description 앞에 `[Postponed]` + 연기 사실, `release_date_approx=true`, `general_sale=false`·URL·datetime null, source_url → Korea Herald 기사. **삭제 안 함**
+- en-erykah-badu-alchemist-hollywood-bowl-20260929 / en-erykah-badu-alchemist-los-angeles-20260929 — 9/29 Hollywood Bowl 정상, 20:00 시작(Hollywood Bowl 공식/KCRW) → release_time 20:00. ⚠️ **확인 필요**: Bowl 공식 공연명은 "Lauren Halsey's emajendat"이고 게스트가 DJ Pee .Wee(Anderson .Paak)·Flea 등 — 두 항목 description의 Smino/De La Soul 서포트 서술은 공식 페이지에서 확인 안 됨(수정 안 함). 또한 **두 항목은 같은 날·같은 공연장·같은 아티스트의 중복**으로 보임 — 병합은 Auditor 범위 밖이라 운영자/리서처 판단 필요(AGENTS.md 중복 병합 규칙)
+- en-audrey-hobert-staircase-to-stardom-brooklyn-20260929 — 9/29 Brooklyn Paramount 정상, 19:00(Live Nation/Consequence Live/SeatGeek) → release_time 19:00
+- en-rush-fifty-something-houston-20261001 — 10/1 Toyota Center 정상, 19:30(Hoodline/Toyota Center/KHOU) → release_time 19:30, "go on sale Sept 4" → "went on sale"
+- en-schoolboy-q-blank-face-10-years-atlanta-20261001 — 10/1 Tabernacle 투어 개막 정상, 20:00(Ticketmaster/Fusicology) → release_time 20:00
+- en-ringo-starr-all-starr-band-queens-20261001 — 10/1 Forest Hills Stadium 정상, 19:00(AXS/QNS) → release_time 19:00
+- en-sugarland-ride-or-die-st-augustine-20261001 — 10/1 투어 개막 정상(Pollstar/Taste of Country). 시작 19:00 표기가 있으나 교차 확인 부족해 release_time은 null 유지. 변경 없음
+- B-3 링크: 예매처는 직접 열지 않고 언론·공식 소스로 개최 진행 교차 확인 → 죽은 링크로 단정한 것 없음
+
+**남은 것**: 창 안 끝난 항목 중 미래시제 잔존 후보(en-djo-summer-tour-richmond, en-foo-fighters-take-cover-detroit, en-mamamoo-2026-us-reunion-tour-belmont-park, en-bts-world-tour-arirang-arlington, en-harry-styles-msg-residency, en-garth-brooks-* 등 약 20건) 다음 회차로 이월. 트랙 B 다음 순번: en-austin-city-limits-festival-20261002부터
+**운영자 참고**: Erykah Badu Hollywood Bowl 중복 2건 병합 검토. 9/28 기준 en 파일은 9/25 이후 리서처 갱신이 없었음
+**리서처 참고(추가 안 함)**: 신규 미등록 공연 발견 없음
 
 ---
 
