@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-25",
+  "last_updated": "2026-09-28",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -6366,6 +6366,439 @@
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26013626",
       "updated_at": "2026-09-24"
+    },
+    {
+      "id": "ko-cero-contemporary-seoul-cruise-20261010",
+      "name": "cero(세로) 내한공연 〈Contemporary Seoul Cruise 2026〉",
+      "release_date": "2026-10-10",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KT&G 상상마당 홍대(라이브홀)"
+      ],
+      "developer": "세로(cero)",
+      "publisher": "하이징크스(주)",
+      "description": "일본 시티팝·재즈 계열을 대표하는 3인조 밴드 세로(cero)가 10월 10일 오후 7시 서울 KT&G 상상마당 홍대 라이브홀에서 단독 내한공연 〈Contemporary Seoul Cruise 2026〉을 연다. 공연 시간은 약 90분이며 전석 스탠딩 7만7000원 단일 등급으로 운영된다. 주최·기획은 하이징크스가 맡았고 예스24 티켓 단독 판매로 8월 3일 낮 12시 일반 예매가 시작됐다. 관람 등급은 전체관람가다.",
+      "genres": [
+        "시티팝",
+        "재즈",
+        "내한공연"
+      ],
+      "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202607/20260728/20260728-59471.jpg",
+      "source_url": "https://ticket.yes24.com/Perf/59471",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-08-03T12:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.yes24.com/Perf/59471",
+      "updated_at": "2026-09-28"
+    },
+    {
+      "id": "ko-omoinotake-one-man-tour-seoul-20261017",
+      "name": "오모이노타케(Omoinotake) 내한공연 〈One Man Tour 2026 in Seoul〉",
+      "release_date": "2026-10-17",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "공감센터(공감홀)"
+      ],
+      "developer": "오모이노타케(Omoinotake)",
+      "publisher": "하이징크스(주)",
+      "description": "피아노 트리오 편성으로 알려진 일본 밴드 오모이노타케가 10월 17일 오후 7시 서울 공감센터 공감홀에서 단독 내한공연을 연다. 총 90분 구성이며 티켓은 VIP석 13만2000원, 일반석 9만9000원 두 등급으로 판매된다. 주최·기획은 하이징크스가 맡았고 예스24 티켓 단독 판매로 5월 13일 낮 12시 일반 예매가 열렸다. 티켓은 배송 없이 현장 수령만 가능하다.",
+      "genres": [
+        "J-POP",
+        "R&B",
+        "내한공연"
+      ],
+      "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202605/20260504/20260504-58335.jpeg",
+      "source_url": "https://ticket.yes24.com/Perf/58335",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-05-13T12:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.yes24.com/Perf/58335",
+      "updated_at": "2026-09-28"
+    },
+    {
+      "id": "ko-ano-live-in-seoul-20261017",
+      "name": "아노(ano) 첫 단독 내한공연 〈ano LIVE in SEOUL, KOREA 2026〉",
+      "release_date": "2026-10-17",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "블루스퀘어(우리WON뱅킹홀)"
+      ],
+      "developer": "아노(ano)",
+      "publisher": null,
+      "description": "애니메이션 '체인소맨' 엔딩곡으로 국내에도 이름을 알린 일본 아티스트 아노가 10월 17일과 18일 이틀간 서울 블루스퀘어 우리WON뱅킹홀에서 첫 단독 내한공연을 연다. 양일 모두 오후 6시 시작이며 스탠딩과 지정석 모두 13만8000원 동일 가격으로 책정됐다. 2020년 솔로 활동을 시작해 2022년 메이저 데뷔했고 이후 NHK 홍백가합전 무대에도 올랐다. 일반 예매는 7월 21일 오후 8시 NOL 티켓에서 시작됐다.",
+      "genres": [
+        "J-POP",
+        "얼터너티브",
+        "내한공연"
+      ],
+      "image_url": null,
+      "source_url": "https://www.xportsnews.com/article/2174330",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-21T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://nol.yanolja.com/ticket/products/26010474",
+      "updated_at": "2026-09-28"
+    },
+    {
+      "id": "ko-takasetoya-asia-tour-seoul-20261018",
+      "name": "타카세 토야(TAKASE TOYA) 내한공연 〈ASIA TOUR 2026 “∞” SEOUL〉",
+      "release_date": "2026-10-18",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "예스24 원더로크홀"
+      ],
+      "developer": "타카세 토야(TAKASE TOYA)",
+      "publisher": null,
+      "description": "일본 싱어송라이터 타카세 토야가 아시아 투어 'ASIA TOUR 2026 ∞'의 서울 공연을 10월 18일 오후 7시 예스24 원더로크홀에서 개최한다. 총 90분 구성이며 티켓은 VVIP석 38만원, VIP석 18만원, 일반석 7만5000원 세 등급으로 나뉜다. 예스24 티켓 단독 판매이고 관람 등급은 14세 이상이다. 티켓 일괄배송은 9월 15일 진행됐다.",
+      "genres": [
+        "J-POP",
+        "싱어송라이터",
+        "내한공연"
+      ],
+      "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202609/20260907/20260907-60065_1.jpg",
+      "source_url": "https://ticket.yes24.com/Perf/60065",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.yes24.com/Perf/60065",
+      "updated_at": "2026-09-28"
+    },
+    {
+      "id": "ko-flow-naruto-the-rock-seoul-20261028",
+      "name": "플로우(FLOW) 내한공연 〈NARUTO THE ROCK WORLD TOUR 2026 - SEOUL〉",
+      "release_date": "2026-10-28",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "예스24 라이브홀"
+      ],
+      "developer": "플로우(FLOW)",
+      "publisher": null,
+      "description": "애니메이션 '나루토' 주제가로 잘 알려진 일본 록밴드 플로우(FLOW)가 10월 28일 오후 8시 서울 예스24 라이브홀에서 'NARUTO THE ROCK WORLD TOUR 2026' 서울 공연을 연다. 총 90분 구성이며 티켓은 스탠딩 VIP석 16만5000원, 지정석 11만원, 스탠딩 일반석 9만9000원으로 판매된다. 예스24 티켓 단독 판매이며 1인 2매로 구매가 제한된다. 티켓 일괄배송은 10월 6일이다.",
+      "genres": [
+        "J-ROCK",
+        "애니메이션",
+        "내한공연"
+      ],
+      "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202609/20260902/20260902-59986.jpg",
+      "source_url": "https://ticket.yes24.com/Perf/59986",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.yes24.com/Perf/59986",
+      "updated_at": "2026-09-28"
+    },
+    {
+      "id": "ko-yoonmarch-mrch-symbiosis-seoul-20261031",
+      "name": "2026 윤마치(MRCH) CONCERT [공생관계 : We Live Together]",
+      "release_date": "2026-10-31",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "예스24 라이브홀"
+      ],
+      "developer": "윤마치(MRCH)",
+      "publisher": null,
+      "description": "인디 밴드 윤마치(MRCH)가 10월 31일과 11월 1일 이틀간 서울 예스24 라이브홀에서 단독 콘서트 '공생관계 : We Live Together'를 연다. 첫날은 오후 6시, 이튿날은 오후 5시에 시작하며 공연 시간은 120분이다. 티켓은 스탠딩석과 지정석 모두 11만원이며 예스24 티켓 단독 판매로 10월 6일 오후 8시 예매가 열린다. 관람 등급은 7세 이상, 회차별 1인 4매로 제한된다.",
+      "genres": [
+        "인디",
+        "록"
+      ],
+      "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202609/20260922/20260922-60342.jpg",
+      "source_url": "https://ticket.yes24.com/Perf/60342",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-06T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.yes24.com/Perf/60342",
+      "updated_at": "2026-09-28"
+    },
+    {
+      "id": "ko-bol4-red-square-seoul-20261107",
+      "name": "2026 볼빨간사춘기 콘서트 투어 〈Red Square〉 in SEOUL",
+      "release_date": "2026-11-07",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "킨텍스"
+      ],
+      "developer": "볼빨간사춘기(BOL4)",
+      "publisher": null,
+      "description": "볼빨간사춘기가 데뷔 10주년을 기념해 11월 7일과 8일 이틀간 경기 고양 킨텍스에서 단독 콘서트 '레드 스퀘어(Red Square)'를 연다. 공연명은 팀의 정체성을 대표하는 색 '레드'와 관객이 음악으로 모이는 거점을 뜻하는 '스퀘어'를 합쳐 만들었다. 지난 10년의 음악 서사를 한자리에서 되짚는 무대로 기획됐다. 당초 서울 송파구 올림픽공원 티켓링크 라이브 아레나에서 열릴 예정이었으나 공연장 사정으로 킨텍스로 변경됐다.",
+      "genres": [
+        "K-POP",
+        "인디",
+        "발라드"
+      ],
+      "image_url": null,
+      "source_url": "https://www.viva100.com/article/20260923500325",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-09-28"
+    },
+    {
+      "id": "ko-regallily-dawn-seoul-20261107",
+      "name": "리갈릴리(Regallily) 내한공연 〈Dawn in Seoul〉",
+      "release_date": "2026-11-07",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KT&G 상상마당 홍대(라이브홀)"
+      ],
+      "developer": "리갈릴리(Regallily)",
+      "publisher": null,
+      "description": "일본 3인조 록밴드 리갈릴리(Regallily)가 11월 7일 오후 7시 서울 KT&G 상상마당 홍대 라이브홀에서 단독 내한공연 'Dawn in Seoul'을 연다. 공연 시간은 약 90분이며 전석 스탠딩 8만8000원 단일 등급으로 운영된다. 예스24 티켓 단독 판매로 6월 30일 낮 12시 일반 예매가 열렸고 회차별 1인 2매로 구매가 제한된다. 관람 등급은 전체관람가다.",
+      "genres": [
+        "J-ROCK",
+        "인디",
+        "내한공연"
+      ],
+      "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202606/20260622/20260622-59001.jpg",
+      "source_url": "https://ticket.yes24.com/Perf/59001",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-06-30T12:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.yes24.com/Perf/59001",
+      "updated_at": "2026-09-28"
+    },
+    {
+      "id": "ko-joyongpil-great-birth-seoul-20261127",
+      "name": "[서울] 2026 조용필 & 위대한탄생 콘서트",
+      "release_date": "2026-11-27",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KSPO DOME(올림픽체조경기장)"
+      ],
+      "developer": "조용필 & 위대한탄생",
+      "publisher": null,
+      "description": "'가왕' 조용필이 밴드 위대한탄생과 함께 11월 27일부터 29일까지 사흘간 서울 KSPO DOME에서 단독 콘서트를 연다. 27일 오후 7시, 28일 오후 6시, 29일 오후 5시에 각각 시작하며 공연 시간은 총 130분이다. 반세기가 넘는 활동 기간의 대표곡과 음악적 발자취를 한자리에서 정리하는 무대로 준비됐다. 티켓은 VIP석 17만6000원부터 A석 11만원까지 네 등급이며 9월 18일 오후 2시 예스24 티켓 단독 판매로 예매가 시작됐다.",
+      "genres": [
+        "K-POP",
+        "록",
+        "발라드"
+      ],
+      "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202609/20260918/20260918-60153.jpg",
+      "source_url": "https://ticket.yes24.com/Perf/60153",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-18T14:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.yes24.com/Perf/60153",
+      "updated_at": "2026-09-28"
+    },
+    {
+      "id": "ko-zazenboys-matsuri-session-seoul-20261206",
+      "name": "자젠보이즈(ZAZEN BOYS) 내한공연 〈MATSURI SESSION IN SEOUL 2026〉",
+      "release_date": "2026-12-06",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "무신사 개러지"
+      ],
+      "developer": "자젠보이즈(ZAZEN BOYS)",
+      "publisher": null,
+      "description": "일본 얼터너티브 록밴드 자젠보이즈가 12월 6일 오후 5시 서울 무신사 개러지에서 단독 내한공연 'MATSURI SESSION IN SEOUL 2026'을 연다. 공연 시간은 약 90분이며 전석 스탠딩 9만9000원 단일 등급으로 판매된다. 예스24 티켓에서 예매할 수 있고 1인 2매로 구매가 제한된다. 관람 등급은 전체관람가다.",
+      "genres": [
+        "J-ROCK",
+        "얼터너티브",
+        "내한공연"
+      ],
+      "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202609/20260901/20260901-59963.jpg",
+      "source_url": "https://ticket.yes24.com/Perf/59963",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.yes24.com/Perf/59963",
+      "updated_at": "2026-09-28"
+    },
+    {
+      "id": "ko-mulasakiima-purple-shelter-seoul-20261212",
+      "name": "무라사키 이마(Mulasaki Ima) 내한공연 〈PURPLE SHELTER -ep.1- EXTRA in Seoul〉",
+      "release_date": "2026-12-12",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "예스24 원더로크홀"
+      ],
+      "developer": "무라사키 이마(Mulasaki Ima)",
+      "publisher": null,
+      "description": "일본 싱어송라이터 무라사키 이마(紫 今)가 12월 12일 오후 6시 서울 예스24 원더로크홀에서 원맨 투어 'PURPLE SHELTER -ep.1- EXTRA' 서울 공연을 연다. 공연 시간은 90분이며 스탠딩석과 지정석 모두 9만9000원 동일 가격이다. 예스24 티켓 단독 판매로 9월 23일 오후 8시 예매가 열렸고 1인 3매로 제한된다. 관람 등급은 8세 이상이며 예매·취소는 관람 전일 오전 11시까지 가능하다.",
+      "genres": [
+        "J-POP",
+        "싱어송라이터",
+        "내한공연"
+      ],
+      "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202609/20260915/20260915-60203.jpg",
+      "source_url": "https://ticket.yes24.com/Perf/60203",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-23T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.yes24.com/Perf/60203",
+      "updated_at": "2026-09-28"
+    },
+    {
+      "id": "ko-penthouse-neon-garden-seoul-20261219",
+      "name": "펜트하우스(Penthouse) 내한공연 〈ONE MAN LIVE TOUR 2026 「Neon Garden」 in Seoul〉",
+      "release_date": "2026-12-19",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "예스24 라이브홀"
+      ],
+      "developer": "펜트하우스(Penthouse)",
+      "publisher": null,
+      "description": "일본 5인조 밴드 펜트하우스(Penthouse)가 12월 19일 오후 7시 서울 예스24 라이브홀에서 단독 내한공연 'ONE MAN LIVE TOUR 2026 「Neon Garden」'을 연다. 티켓은 지정석 12만1000원, 스탠딩석 11만원 두 등급으로 판매되며 예스24 티켓 단독 판매다. 1인 4매로 구매가 제한되고 미취학 아동은 입장할 수 없다. 티켓 일괄배송은 11월 30일 진행된다.",
+      "genres": [
+        "J-POP",
+        "시티팝",
+        "내한공연"
+      ],
+      "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202608/20260825/20260825-59886.jpg",
+      "source_url": "https://ticket.yes24.com/Perf/59886",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.yes24.com/Perf/59886",
+      "updated_at": "2026-09-28"
+    },
+    {
+      "id": "ko-fujiikaze-prema-world-tour-seoul-20270109",
+      "name": "2027 후지이 카제(Fujii Kaze) 〈Prema World Tour〉 - 서울",
+      "release_date": "2027-01-09",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "고척스카이돔"
+      ],
+      "developer": "후지이 카제(Fujii Kaze)",
+      "publisher": null,
+      "description": "일본 싱어송라이터 후지이 카제가 2027년 1월 9일 오후 6시 서울 고척스카이돔에서 'Prema World Tour' 서울 공연을 연다. 2025년 발표한 첫 영어 정규 앨범 'Prema'를 기반으로 한 투어로, 아시아 구간은 타이베이·가오슝·방콕과 함께 서울이 포함됐다. 티켓은 플로어 FR 21만원부터 지정석 B 13만2000원까지 여섯 등급으로 나뉘며 멜론티켓에서 6월 17일 오후 7시 일반 예매가 시작됐다. 3년 만의 내한 공연이다.",
+      "genres": [
+        "J-POP",
+        "R&B",
+        "내한공연"
+      ],
+      "image_url": null,
+      "source_url": "https://ticket.melon.com/performance/index.htm?prodId=213396",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-06-17T19:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.melon.com/performance/index.htm?prodId=213396",
+      "updated_at": "2026-09-28"
+    },
+    {
+      "id": "ko-humpback-hello-anew-seoul-20270123",
+      "name": "험프백(Hump Back) 내한공연 〈HELLO ANEW TOUR SEOUL 2027〉",
+      "release_date": "2027-01-23",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "예스24 라이브홀"
+      ],
+      "developer": "험프백(Hump Back)",
+      "publisher": null,
+      "description": "일본 3인조 걸 밴드 험프백(Hump Back)이 2027년 1월 23일 오후 6시 서울 예스24 라이브홀에서 'HELLO ANEW TOUR SEOUL 2027' 공연을 연다. 티켓은 스탠딩석과 지정석 모두 13만2000원 동일 가격이며 예스24 티켓 단독 판매다. 일반 예매는 10월 7일 낮 12시 시작되고 회차별 1인 4매로 제한된다. 티켓 일괄배송은 2027년 1월 5일 진행되며 관람 등급은 전체관람가다.",
+      "genres": [
+        "J-ROCK",
+        "펑크",
+        "내한공연"
+      ],
+      "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202609/20260916/20260916-60207.jpg",
+      "source_url": "https://ticket.yes24.com/Perf/60207",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-07T12:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.yes24.com/Perf/60207",
+      "updated_at": "2026-09-28"
     }
   ]
 }
