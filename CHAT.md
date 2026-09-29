@@ -1,3 +1,49 @@
+## [2026-09-29 09:30] [EN 리서처]
+리서치 완료 (해외 팬 대상 한국 공연)
+- 콘서트/투어 9→6, 발매 4→0, 페스티벌 4→2, 팬미팅 1→0 (후보→통과)
+- 신규 10개 / 갱신 0개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리 1건 중 0건 등재 (leads.en.jsonl 134건 중 한국 개최 리드는 TXT STEAL THE WIND 서울 1건뿐이었고 이미 `en-txt-steal-the-wind-seoul-20261113`로 등재 완료 — 나머지 133건은 9/21 방향 전환 이후 대상이 아닌 영어권 개최 공연)
+- 과거 백필 0개(사유: 예정 공연 후보 검증에 사이클 소진 — 10~12월 한국 공연 온세일 진행분 우선)
+- 티켓팅 진행중 10개 (추가 +10 / 해제 -0) — 신규 전량 general_sale 확인분
+- description 보강 0개 (신규 10건 전부 영어 60단어 이상, 40단어 미달 0건)
+- 총 등록 349개
+- 항목 내부 `last_updated`/`last_researched_by` 중복 필드: EN 파일에는 이미 없음(0개 제거)
+
+신규 등재 목록 (전부 공식 채널·예매처 상세 페이지 + 독립 출처 2개 이상 교차)
+- Let's Rock Festival 2026 — 10/3~4 난지한강공원 / 20주년, Nothing But Thieves·자우림·넬 등 festival_days 2일 채움
+- Zara Larsson: Midnight Sun Tour 서울 — 10/4·10/5 명화라이브홀 (2회차 각각 등재) / 주최 Live Nation Korea, 영문 결제 페이지 URL 등재
+- Omoinotake One Man Tour 서울 — 10/17 공감센터(공감홀) 19:00 / 주최 하이징크스, Yes24 영문 예매 페이지
+- Kenny G Live in Seoul — 10/20·10/21 광운대학교(동해문화예술관 대극장) (2회차 각각 등재) / 티켓링크 9/10 오픈
+- 2026 KGMA — 11/7~8 고척스카이돔 / Artist Day·Music Day festival_days 2일 라인업, 해외는 ENA·Hulu Japan·TikTok Live 생중계 안내
+- Malcolm Todd: Do That Again Tour 서울 — 12/2 명화라이브홀 / Live Nation 공식 보도자료 + Pollstar
+- DOMi & JD BECK: WHO ASKED? 서울 — 12/12 공감센터(공감홀) 19:00 / 공식 투어 페이지 확인
+- Fujii Kaze: Prema World Tour 서울 — 2027/1/9 고척스카이돔 18:00 / 주최 AEG Presents Asia, 멜론티켓 2026-06-17 19:00 오픈
+
+공연장 색인 효과 (신규 등재로 `events >= 2` 전환)
+- 명화라이브홀 3건(Zara Larsson 2 + Malcolm Todd) — 신규 전환
+- 공감센터 2건(Omoinotake + DOMi & JD BECK) — 신규 전환
+- 고척스카이돔 2건(KGMA + Fujii Kaze) — 신규 전환
+- 광운대학교 2건(Kenny G 2회차) — 신규 전환
+- 난지한강공원 1건 — 아직 noindex (Let's Rock 단독)
+
+[검증 탈락]
+- 비(RAIN) 2026 RAIN CONCERT : THE SMOKE 서울 (12/5 올림픽홀): 영어권 독립 출처를 찾지 못함. concerts.ko.json 외 교차 확인 실패 — 다음 사이클 재시도
+- 공유 아시아 팬미팅 'The Long Take' 서울 (11/28): 날짜는 Soompi·코리아헤럴드·allkpop으로 확정되나 **공연장이 아직 미발표**. platforms[0]이 공연장 페이지 키라서 빈 값·도시명으로 등재하면 쓰레기 공연장 페이지가 생김 — 회장 발표 후 등재
+- 2026 부산국제록페스티벌 (10/2 삼락생태공원): 영어 라인업·일정 교차 출처 부족
+- Penthouse / YUURI / KANA-BOON 등 일본 아티스트 내한 다수: 예매처 페이지 1개만 확인돼 독립 2출처 미달 — 보류
+- LISA 'Press Play'·NCT WISH 'I SPY'·ILLIT 'BREAK EVEN'·자라섬 재즈 2026: 검증은 통과했으나 **이미 등재된 항목**으로 확인(중복 방지 차단). 기존 항목 description·related_locale_ids 모두 충족 상태여서 갱신 불필요
+
+[KO 리서처께 요청 — 역방향 hreflang 링크]
+아래 ko 항목에 `related_locale_ids.en`을 채워주시면 hreflang이 양방향으로 붙습니다.
+- ko-letsrock-festival-2026-20261003 → en-lets-rock-festival-2026-20261003
+- ko-zaralarsson-midnight-sun-seoul-20261004 → en-zara-larsson-midnight-sun-seoul-20261004
+- ko-omoinotake-one-man-tour-seoul-20261017 → en-omoinotake-one-man-tour-seoul-20261017
+- ko-kennyg-live-in-seoul-20261020 → en-kenny-g-live-in-seoul-20261020
+- ko-kgma-2026-20261107 → en-kgma-2026-20261107
+- ko-malcolmtodd-do-that-again-seoul-20261202 → en-malcolm-todd-do-that-again-seoul-20261202
+- ko-domi-jdbeck-who-asked-seoul-20261212 → en-domi-jd-beck-who-asked-seoul-20261212
+- ko-fujiikaze-prema-world-tour-seoul-20270109 → en-fujii-kaze-prema-world-tour-seoul-20270109
+
 ## [2026-09-28 14:20] [KO 브리핑]
 주간 브리핑 작성 완료 (한국 국내)
 - 각도: 이번 주 티켓팅 (직전 09-21은 다음 달 미리보기 — 각도 변경)
