@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-09-29",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -4302,6 +4302,103 @@
       }
     },
     {
+      "id": "en-lets-rock-festival-2026-20261003",
+      "name": "Let's Rock Festival 2026",
+      "release_date": "2026-10-03",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "festival",
+      "platforms": [
+        "Nanji Hangang Park, Seoul"
+      ],
+      "developer": null,
+      "publisher": "Private Curve",
+      "description": "Korea's longest-running indie and rock festival marks its twentieth edition across two days at Nanji Hangang Park on the Han River in western Seoul, October 3 and 4, 2026. UK headliners Nothing But Thieves lead the international side of the bill, alongside Korean rock institutions Jaurim, Nell, Guckkasten, Crying Nut, No Brain and Galaxy Express. The riverside site is reachable on Seoul Metro Line 6, and blind tickets sold out within minutes of going on sale in July.",
+      "genres": [
+        "Rock",
+        "Indie",
+        "Festival"
+      ],
+      "image_url": null,
+      "source_url": "https://sports.khan.co.kr/en/article/202607311827007/",
+      "updated_at": "2026-09-29",
+      "general_sale": true,
+      "festival_days": [
+        {
+          "date": "2026-10-03",
+          "lineup": [
+            "Nothing But Thieves",
+            "Jaurim",
+            "Nell"
+          ]
+        },
+        {
+          "date": "2026-10-04",
+          "lineup": [
+            "Guckkasten",
+            "Crying Nut",
+            "No Brain",
+            "Galaxy Express"
+          ]
+        }
+      ],
+      "related_locale_ids": {
+        "ko": "ko-letsrock-festival-2026-20261003"
+      }
+    },
+    {
+      "id": "en-zara-larsson-midnight-sun-seoul-20261004",
+      "name": "Zara Larsson: Midnight Sun Tour in Seoul (Night 1)",
+      "release_date": "2026-10-04",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Myunghwa Live Hall, Seoul"
+      ],
+      "developer": "Zara Larsson",
+      "publisher": "Live Nation Korea",
+      "description": "Swedish pop singer Zara Larsson brings the Asian leg of her Midnight Sun Tour to Seoul for two nights at Myunghwa Live Hall on October 4 and 5, 2026. The run supports her fifth album Midnight Sun and follows earlier European dates that began in Munich in October 2025. Live Nation Korea promotes the shows and sells tickets through its Korean site, which offers an English-language checkout that overseas visitors can use without a Korean ID number.",
+      "genres": [
+        "Pop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.livenation.kr/en/event/zara-larsson-midnight-sun-tour-seoul-tickets-edp1680726",
+      "updated_at": "2026-09-29",
+      "general_sale": true,
+      "general_sale_url": "https://www.livenation.kr/en/event/zara-larsson-midnight-sun-tour-seoul-tickets-edp1680726",
+      "related_locale_ids": {
+        "ko": "ko-zaralarsson-midnight-sun-seoul-20261004"
+      }
+    },
+    {
+      "id": "en-zara-larsson-midnight-sun-seoul-20261005",
+      "name": "Zara Larsson: Midnight Sun Tour in Seoul (Night 2)",
+      "release_date": "2026-10-05",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Myunghwa Live Hall, Seoul"
+      ],
+      "developer": "Zara Larsson",
+      "publisher": "Live Nation Korea",
+      "description": "The second of Zara Larsson's two Seoul dates on the Midnight Sun Tour takes place at Myunghwa Live Hall on October 5, 2026. Seoul sits alongside other Asian stops on a tour that opened in Munich in late 2025 in support of her fifth studio album. Live Nation Korea handles promotion and ticketing, and its English-language page lets fans travelling from abroad buy without a Korean resident registration number.",
+      "genres": [
+        "Pop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.livenation.kr/en/event/zara-larsson-midnight-sun-tour-seoul-tickets-edp1680726",
+      "updated_at": "2026-09-29",
+      "general_sale": true,
+      "general_sale_url": "https://www.livenation.kr/en/event/zara-larsson-midnight-sun-tour-seoul-tickets-edp1680726"
+    },
+    {
       "id": "en-monsta-x-nexus-newyork-20261006",
       "name": "Monsta X: THE X : NEXUS World Tour - New York",
       "release_date": "2026-10-06",
@@ -5244,6 +5341,34 @@
       }
     },
     {
+      "id": "en-omoinotake-one-man-tour-seoul-20261017",
+      "name": "Omoinotake: One Man Tour 2026 in Seoul",
+      "release_date": "2026-10-17",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Gonggam Center, Seoul(Gonggam Hall)"
+      ],
+      "developer": "Omoinotake",
+      "publisher": "Highjinkx",
+      "description": "Japanese piano trio Omoinotake play a headline Seoul show at Gonggam Hall on October 17, 2026, starting at 7 p.m. The ninety-minute all-ages concert is part of the Asian leg supporting Memorabilia, their first album in a year and a half. The band broke through internationally with Ikuokukonen, the theme to the drama Eye Love You, which passed six hundred million streams. Tickets are sold by Yes24, which runs an English-language booking page.",
+      "genres": [
+        "J-Pop",
+        "Pop Rock",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://ticket.yes24.com/Pages/English/Perf/FnPerfDeail.aspx?IdPerf=58335",
+      "updated_at": "2026-09-29",
+      "general_sale": true,
+      "general_sale_url": "https://ticket.yes24.com/Pages/English/Perf/FnPerfDeail.aspx?IdPerf=58335",
+      "related_locale_ids": {
+        "ko": "ko-omoinotake-one-man-tour-seoul-20261017"
+      }
+    },
+    {
       "id": "en-allison-russell-hour-of-chaos-boston-20261018",
       "name": "Allison Russell: In the Hour of Chaos Tour - Boston",
       "release_date": "2026-10-18",
@@ -5297,6 +5422,33 @@
       "general_sale_url": "https://www.kursaal.eus/"
     },
     {
+      "id": "en-kenny-g-live-in-seoul-20261020",
+      "name": "Kenny G Live in Seoul (Night 1)",
+      "release_date": "2026-10-20",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Kwangwoon University, Seoul(Donghae Culture and Arts Center Grand Theater)"
+      ],
+      "developer": "Kenny G",
+      "publisher": null,
+      "description": "Saxophonist Kenny G returns to Korea for two nights at the Grand Theater of the Donghae Culture and Arts Center on the Kwangwoon University campus in northeastern Seoul, October 20 and 21, 2026. It is his first Korean run in roughly two and a half years. Tickets went on general sale through Ticketlink on September 10, 2026. The venue sits beside Gwangwoon University Station, making it straightforward to reach for visitors staying elsewhere in the city.",
+      "genres": [
+        "Jazz",
+        "Smooth Jazz",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.starnewskorea.com/en/music/2026/09/03/2026090316490515056",
+      "updated_at": "2026-09-29",
+      "general_sale": true,
+      "related_locale_ids": {
+        "ko": "ko-kennyg-live-in-seoul-20261020"
+      }
+    },
+    {
       "id": "en-onew-chakgak-20261020",
       "name": "ONEW - Chakgak (1st Single Album)",
       "release_date": "2026-10-20",
@@ -5322,6 +5474,30 @@
       "related_locale_ids": {
         "ko": "ko-onew-chakgak-20261020"
       }
+    },
+    {
+      "id": "en-kenny-g-live-in-seoul-20261021",
+      "name": "Kenny G Live in Seoul (Night 2)",
+      "release_date": "2026-10-21",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Kwangwoon University, Seoul(Donghae Culture and Arts Center Grand Theater)"
+      ],
+      "developer": "Kenny G",
+      "publisher": null,
+      "description": "The second night of Kenny G's 2026 Seoul engagement falls on October 21 at the Grand Theater of the Donghae Culture and Arts Center at Kwangwoon University. The two-night stand marks the American saxophonist's first Korean concerts in about two and a half years, and tickets opened through Ticketlink on September 10, 2026. Kenny G has sold more than seventy-five million records and remains among the best-selling instrumental artists worldwide.",
+      "genres": [
+        "Jazz",
+        "Smooth Jazz",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.starnewskorea.com/en/music/2026/09/03/2026090316490515056",
+      "updated_at": "2026-09-29",
+      "general_sale": true
     },
     {
       "release_time": null,
@@ -6002,6 +6178,56 @@
       "release_date_approx": false,
       "publisher": null,
       "image_url": null
+    },
+    {
+      "id": "en-kgma-2026-20261107",
+      "name": "2026 Korea Grand Music Awards (KGMA)",
+      "release_date": "2026-11-07",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "festival",
+      "platforms": [
+        "Gocheok Sky Dome, Seoul"
+      ],
+      "developer": null,
+      "publisher": "Korea Grand Music Awards",
+      "description": "The third Korea Grand Music Awards run over two nights at Gocheok Sky Dome in southwestern Seoul on November 7 and 8, 2026, having moved to the larger indoor stadium for this edition. November 7 is billed as Artist Day and November 8 as Music Day, with roughly twenty acts performing each night. Fans outside Korea can watch live through ENA, Hulu Japan and TikTok Live rather than travelling, and the dome is a short walk from Guro Digital Complex area transit.",
+      "genres": [
+        "K-Pop",
+        "Awards",
+        "Festival"
+      ],
+      "image_url": null,
+      "source_url": "https://www.soompi.com/article/1867980wpp/2026-korea-grand-music-awards-kgma-announces-1st-lineup",
+      "updated_at": "2026-09-29",
+      "general_sale": true,
+      "festival_days": [
+        {
+          "date": "2026-11-07",
+          "lineup": [
+            "Young K",
+            "ILLIT",
+            "FIFTY FIFTY",
+            "TREASURE",
+            "P1Harmony",
+            "Jang Min-ho"
+          ]
+        },
+        {
+          "date": "2026-11-08",
+          "lineup": [
+            "ATEEZ",
+            "ITZY",
+            "RIIZE",
+            "Minho",
+            "WayV"
+          ]
+        }
+      ],
+      "related_locale_ids": {
+        "ko": "ko-kgma-2026-20261107"
+      }
     },
     {
       "id": "en-mcr-black-parade-2026-incheon-20261107",
@@ -6878,6 +7104,33 @@
       "general_sale_url": "https://www.ticketmaster.com/beat-tickets/artist/1860703"
     },
     {
+      "id": "en-malcolm-todd-do-that-again-seoul-20261202",
+      "name": "Malcolm Todd: Do That Again Tour in Seoul",
+      "release_date": "2026-12-02",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Myunghwa Live Hall, Seoul"
+      ],
+      "developer": "Malcolm Todd",
+      "publisher": "Live Nation Korea",
+      "description": "American singer-songwriter Malcolm Todd plays his first Seoul headline show at Myunghwa Live Hall on December 2, 2026, part of the Asian leg of the Do That Again Tour announced by Live Nation in September 2026. The Asian run opens November 23 at TICC in Taipei and also visits Yokohama, Manila, Singapore, Bangkok, Kuala Lumpur and Jakarta before the tour moves to Europe, the UK and Australia in 2027.",
+      "genres": [
+        "Pop",
+        "Indie Pop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://news.livenationentertainment.com/news/malcolm-todd-announces-2026-2027-do-that-again-tour-dates-across-asia-europe-the-uk-and-australia",
+      "updated_at": "2026-09-29",
+      "general_sale": true,
+      "related_locale_ids": {
+        "ko": "ko-malcolmtodd-do-that-again-seoul-20261202"
+      }
+    },
+    {
       "id": "en-esdeekid-council-house-rat-london-20261203",
       "name": "EsDeeKid: Council House Rat Tour - London",
       "release_date": "2026-12-03",
@@ -7124,6 +7377,33 @@
       "source_url": "https://www.aegpresents.co.uk/event/the-darkness-3/",
       "general_sale": true,
       "general_sale_url": "https://www.ticketmaster.co.uk/the-darkness-bands-of-brothers-arena-manchester-11-12-2026/event/1F0064C889672E02"
+    },
+    {
+      "id": "en-domi-jd-beck-who-asked-seoul-20261212",
+      "name": "DOMi & JD BECK: WHO ASKED? Tour Live in Seoul",
+      "release_date": "2026-12-12",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Gonggam Center, Seoul(Gonggam Hall)"
+      ],
+      "developer": "DOMi & JD BECK",
+      "publisher": null,
+      "description": "Grammy-nominated jazz duo DOMi & JD BECK give their first headline Seoul concert at Gonggam Hall on December 12, 2026 at 7 p.m., on the Asian leg of the WHO ASKED? Tour. Korean listeners know the pair partly through their work on BTS member RM's solo material. Keyboardist DOMi and drummer JD Beck built their reputation on the album NOT TiGHT and on a live show that leans heavily on improvisation.",
+      "genres": [
+        "Jazz",
+        "Fusion",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.domiandjdbeck.com/tour/",
+      "updated_at": "2026-09-29",
+      "general_sale": true,
+      "related_locale_ids": {
+        "ko": "ko-domi-jdbeck-who-asked-seoul-20261212"
+      }
     },
     {
       "id": "en-the-darkness-birmingham-20261212",
@@ -7480,6 +7760,34 @@
       "general_sale": true,
       "general_sale_datetime": "2026-08-07T10:00:00-07:00",
       "general_sale_url": "https://www.ticketmaster.com/lord-huron-tickets/artist/1486841"
+    },
+    {
+      "id": "en-fujii-kaze-prema-world-tour-seoul-20270109",
+      "name": "Fujii Kaze: Prema World Tour in Seoul",
+      "release_date": "2027-01-09",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Gocheok Sky Dome, Seoul"
+      ],
+      "developer": "Fujii Kaze",
+      "publisher": "AEG Presents Asia",
+      "description": "Japanese singer-songwriter Fujii Kaze brings the Prema World Tour to Gocheok Sky Dome in Seoul on January 9, 2027 at 6 p.m., his largest Korean show to date in the country's only domed stadium. AEG Presents Asia promotes the concert and tickets went on sale through Melon Ticket on June 17, 2026, capped at four per buyer. Floor prices run from 187,000 to 210,000 won, with reserved seating from 132,000 won.",
+      "genres": [
+        "J-Pop",
+        "Pop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://hehn.fujiikaze.com/pwt/en/",
+      "updated_at": "2026-09-29",
+      "general_sale": true,
+      "general_sale_datetime": "2026-06-17T19:00:00+09:00",
+      "related_locale_ids": {
+        "ko": "ko-fujiikaze-prema-world-tour-seoul-20270109"
+      }
     },
     {
       "id": "en-lord-huron-broken-bottle-los-angeles-20270111",
