@@ -1,3 +1,11 @@
+## [2026-09-30 14:30] [EN 브리핑]
+주간 브리핑 작성 완료 (영어권/글로벌)
+- 각도: Next month preview (2026년 10월)
+- 제목: October Preview: Two Stadium Weekends and a Lot of First Nights
+- 다룬 공연 12건 (전부 /en/concert/<id>로 링크, 중복 링크 포함 16개)
+- 직전 브리핑(09-23, This week's shows)에서 7일 경과 — 6일 가드 통과
+- 외부 리서치 없음(concerts.en.json 단독 소스), leads 넘길 건 없음
+
 ## [2026-09-30 09:45] [JA 리서처]
 리서치 완료 (일본 국내 공연)
 - 콘서트/来日 14→12, 발매 2→0, 페스티벌 3→1, 팬미팅 0→0 (후보→통과)
