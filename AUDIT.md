@@ -2,9 +2,37 @@
 
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
-| ko | 2026-09-25 | |
+| ko | 2026-09-25 | ← |
 | en | 2026-09-28 | |
-| ja | 2026-09-23 | ← |
+| ja | 2026-09-30 | |
+
+---
+
+## 2026-09-30 · ja
+
+로테이션상 ja가 가장 오래된 점검일(2026-09-23)이라 선택. 대상 창: 2026-08-01 ~ 2026-11-29(오늘 ±60일), 창 안 항목 166건(끝난 것 80 / 예정 86). 코드는 손대지 않았고 `data/concerts.ja.json`만 수정. push 전 `validate-data.mjs` 통과. 지난 회차들과 같이 AGENTS.md §4-5를 따라 **실제로 고친 21건에만 `updated_at=2026-09-30`**, 항목 단위 `last_updated`는 넣지 않음.
+
+**트랙 A (졸업 처리) — 20건** (상한 20 도달)
+- A-1/A-2 끝난 공연에 남은 예매 필드·플래그 정리 5건(§7대로 `presale`/`general_sale=false` + URL·datetime null):
+  ja-freckles-japan-tour-2026-20260923(peatix URL이 9/23 도쿄 공연 전용), ja-super-beaver-dome-tour-tokyo-20260923, ja-belle-and-sebastian-tigermilk-tokyo-20260924, ja-belle-and-sebastian-sinister-tokyo-20260925, ja-ringo-ongakusai-2026-20260926(9/27 종료, general_sale=true 잔존)
+- A-3: 창 안 끝난 항목 중 approx=true 없음
+- A-4 description 시제 교정 20건(위 5건 포함, 있는 문장의 시제만 과거형 — 새 사실 추가 없음):
+  위 5건 + ja-babymonster-choom-japan-kyocera-20260922(지난 회차 이월분), ja-glay-yogoreta-eiyu-20260923, ja-number-i-rebon-20260923, ja-benjamin-grosvenor-recital-20260924, ja-jowee-omicil-japan-2026-20260924, ja-befirst-watch-me-20260918, ja-sota-hanamura-kimiwosagashiteta-20260918, ja-crazy-ken-band-nani-20260916, ja-ini-anthem-20260916, ja-tamaki-aska-otoginga-20260916, ja-hosono-yours-sincerely-20260911, ja-ryokushaka-atamago-20260909("収録曲がステージで披露される予定だ" → 투어 개막 사실만 과거형으로 남김), ja-spitz-mishiranu-ito-20260807, ja-yama-mountain-20260811, ja-kimura-takuya-checkpoint-20260812
+- 의도적 제외(지난 회차와 동일 사유): ja-nightmare-tour-2026-20260919 / ja-ryokushaka-arena-tour-2026-20260919 — 투어 전체 예매 URL이 남은 일정에 아직 유효
+
+**트랙 B (임박 점검) — 8건 확인** (공연일 가까운 순, 지난 회차 확인분·오늘 리서처가 갱신한 항목 제외)
+- ⚠️ **연기 반영**: ja-post-malone-2026-20261006 — 8/27 Live Nation H.I.P.가 10/6 Kアリーナ横浜 공연 연기·전액 환불 발표, 振替日程 미정(Skream!/Billboard/Bandwagon). en·ko 회차와 동일 처리: description 앞에 `[延期]` + 연기 사실, `release_date_approx=true`, `release_time=null`, source_url → Skream! 일본어 기사. **삭제 안 함**
+- ja-avenged-sevenfold-tokyo-20260930 — 오늘 SGC HALL ARIAKE 19:00 정상(ローチケ/ticketjam). 변경 없음
+- ja-the-cribs-selling-a-vibe-20261002 — 10/2 duo MUSIC EXCHANGE 정상(stereoboard/gigora). 변경 없음
+- ja-kai-yoshihiro-homecoming-tour-yokohama-20261003 — 10/3 KT Zepp Yokohama 開場16:00/開演17:00 정상(e+). 변경 없음
+- ja-wasuta-zepp-shinjuku-20261004 — 10/4 Zepp Shinjuku 13:30/17:00 2회 공연 정상(チケット流通センター). 변경 없음
+- ja-abc-z-the-way-of-love-20260930 — 9/30 발매 확인(Real Sound/HMV/THE FIRST TIMES). 변경 없음
+- ja-hinatazaka46-ichaicha-mushi-20260930 — 9/30 발매 확인(THE FIRST TIMES/HMV). 변경 없음
+- ja-yamanaka-chihiro-happy-go-lucky-20260930 — **확인 실패**: 검색에서 발매 정보 교차 확인 못 함, source_url(ユニバーサル) 직접 열기도 샌드박스 제한으로 불가. 수정 없이 다음 회차 재확인
+- B-3 링크: 예매처 URL은 직접 열지 못해 검색 결과로 판매·개최 진행 교차 확인 → 죽은 링크로 단정한 것 없음
+
+**남은 것**: A-4 시제 후보 약 20건 이월 — ja-bakufu-slump-budokan-20260811, ja-steve-lacy-ss-extra-20260813, ja-motfd-iwaou-20260814, ja-boynextdoor-boom-boom-boom-20260818, ja-abc-z-connection-vol2-20260819, ja-milet-made-of-glass-20260819, ja-nakajima-kento-onigoto-20260819, ja-super-junior-ryeowook-konpeki-20260819, ja-number-i-numbers-ur26-20260825, ja-ikimonogakari-sayonara-lara-20260826, ja-ryo-takaiwa-spectacular-20260826, ja-jaurim-life-tokyo-2026-20260829, ja-sakanaction-toumei-budokan-20260908 등(일부는 오탐일 수 있음 — 다음 회차에 문장 단위로 판단). 트랙 B 다음 순번: ja-kai-yoshihiro-homecoming-complete-edition-20260930, ja-snowman-amenity-20261007, ja-peter-gallway-sahashi-full-circle-20261010부터
+**리서처 참고(추가 안 함)**: 신규 미등록 공연 발견 없음. ja-rock-in-japan-2026 / ja-ultra-japan-2026의 `festival_days` 공란은 여전(종료 공연)
 
 ---
 
