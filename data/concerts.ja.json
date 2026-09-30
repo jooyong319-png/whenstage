@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-26",
+  "last_updated": "2026-09-30",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -3369,7 +3369,7 @@
       "timezone": "Asia/Tokyo",
       "category": "festival",
       "platforms": [
-        "横浜赤レンガパーク(野外特設ステージ)"
+        "横浜赤レンガ倉庫(赤レンガパーク・野外特設ステージ)"
       ],
       "developer": "上白石萌音",
       "publisher": null,
@@ -3405,7 +3405,8 @@
             "小林武史"
           ]
         }
-      ]
+      ],
+      "updated_at": "2026-09-30"
     },
     {
       "id": "ja-wasuta-zepp-shinjuku-20261004",
@@ -3473,6 +3474,49 @@
       ],
       "image_url": null,
       "source_url": "https://avexnet.jp/news/1035995"
+    },
+    {
+      "id": "ja-bmsg-fes-26-20261010",
+      "name": "BMSG FES'26",
+      "release_date": "2026-10-10",
+      "release_time": "15:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "festival",
+      "platforms": [
+        "お台場BMSG FES特設会場"
+      ],
+      "developer": null,
+      "publisher": "BMSG",
+      "description": "SKY-HIが主宰するマネジメント／レーベルBMSGが主催する大型フェスティバル。2026年は「THE FUTURE IS YOURS」をコンセプトに、10月10日から12日までの3日間、東京・お台場の特設会場で開催される。SKY-HI、Novel Core、BE:FIRST、MAZZEL、STARGLOW、HANA、Aile The Shota、REIKO、Ayumu Imazu、BANVOX、SALU、ふみのらBMSG所属・関連のアーティストが出演し、メインステージのトリは初日STARGLOW、2日目MAZZEL、最終日BE:FIRSTが務める。各日とも開場13:00・開演15:00で、終演は20時頃を予定。サブステージやB-SIDE AREAも設けられ、日替わりでセットリストと演出が変わる構成となる。",
+      "genres": [
+        "フェスティバル",
+        "J-POP",
+        "複数アーティスト"
+      ],
+      "image_url": null,
+      "source_url": "https://www.billboard-japan.com/d_news/detail/165997",
+      "updated_at": "2026-09-30",
+      "festival_days": [
+        {
+          "date": "2026-10-10",
+          "lineup": [
+            "STARGLOW"
+          ]
+        },
+        {
+          "date": "2026-10-11",
+          "lineup": [
+            "MAZZEL"
+          ]
+        },
+        {
+          "date": "2026-10-12",
+          "lineup": [
+            "BE:FIRST"
+          ]
+        }
+      ]
     },
     {
       "release_time": null,
@@ -4442,6 +4486,31 @@
       "general_sale": true
     },
     {
+      "id": "ja-genjibu-lovereason-free-live-20261111",
+      "name": "原因は自分にある。 初フリーライブ（5thシングル「ラブリーズン」リリース記念）",
+      "release_date": "2026-11-11",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "横浜赤レンガ倉庫(赤レンガパーク特設会場)"
+      ],
+      "developer": "原因は自分にある。",
+      "publisher": null,
+      "description": "7人組グループ・原因は自分にある。が、5thシングル「ラブリーズン」の発売日である2026年11月11日に、神奈川・横浜赤レンガ倉庫の赤レンガパーク特設会場で開催するグループ初のフリーライブ。動員規模は約1万人を想定した大型の無料公演で、当日は生配信も予定されている。表題曲「ラブリーズン」はボカロP・シンガーソングライターのsyudouが書き下ろした楽曲で、狂気と愛と欲望を独特の視点で描いた内容。シングルはBlu-ray付き初回限定盤、通常盤、メンバー7人それぞれのソロ盤が用意される。",
+      "genres": [
+        "J-POP",
+        "アイドル",
+        "フリーライブ"
+      ],
+      "image_url": null,
+      "source_url": "https://www.billboard-japan.com/d_news/detail/165996",
+      "presale": false,
+      "general_sale": false,
+      "updated_at": "2026-09-30"
+    },
+    {
       "release_time": null,
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
@@ -4917,6 +4986,33 @@
       "general_sale_url": null
     },
     {
+      "id": "ja-jxj-journey-into-dreaming-japan-20261121",
+      "name": "JxJ（SEVENTEEN）〈JEONGHAN X JOSHUA JOURNEY INTO [DREAMING] - JAPAN〉ベルーナドーム公演（1日目）",
+      "release_date": "2026-11-21",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "ベルーナドーム"
+      ],
+      "developer": "JxJ（SEVENTEEN）",
+      "publisher": "HYBE JAPAN",
+      "description": "SEVENTEENのJEONGHANとJOSHUAによる新ユニットJxJが、初の単独ドームツアー〈JEONGHAN X JOSHUA JOURNEY INTO [DREAMING]〉の日本公演として埼玉・ベルーナドームで2日間にわたり開催する公演の初日。10月19日にリリースされる1stミニアルバム『DREAMSCAPE』の世界観を軸に構成され、夢と幻想をモチーフにした演出が予告されている。ツアーは10月30日の仁川公演を起点とし、日本公演は開場15:00・開演17:00。SEVENTEEN日本公式ファンクラブCARAT会員向けの先行抽選受付は9月30日13:00から10月12日23:59まで行われる。",
+      "genres": [
+        "K-POP",
+        "ドーム公演",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000749.000045862.html",
+      "presale": true,
+      "general_sale": false,
+      "presale_datetime": "2026-09-30T13:00:00+09:00",
+      "presale_end_datetime": "2026-10-12T23:59:00+09:00",
+      "updated_at": "2026-09-30"
+    },
+    {
       "id": "ja-silica-gel-ballad-of-you-20261121",
       "name": "Silica Gel「Asia Tour in Tokyo」来日公演",
       "release_date": "2026-11-21",
@@ -4940,6 +5036,33 @@
       "presale": true,
       "presale_datetime": null,
       "presale_url": "https://eplus.jp/sf/detail/4415100001"
+    },
+    {
+      "id": "ja-jxj-journey-into-dreaming-japan-20261122",
+      "name": "JxJ（SEVENTEEN）〈JEONGHAN X JOSHUA JOURNEY INTO [DREAMING] - JAPAN〉ベルーナドーム公演（2日目）",
+      "release_date": "2026-11-22",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "ベルーナドーム"
+      ],
+      "developer": "JxJ（SEVENTEEN）",
+      "publisher": "HYBE JAPAN",
+      "description": "SEVENTEENのJEONGHANとJOSHUAによる新ユニットJxJが、初の単独ドームツアー〈JEONGHAN X JOSHUA JOURNEY INTO [DREAMING]〉の日本公演として埼玉・ベルーナドームで2日間にわたり開催する公演の2日目。10月19日にリリースされる1stミニアルバム『DREAMSCAPE』の世界観を軸に構成され、夢と幻想をモチーフにした演出が予告されている。ツアーは10月30日の仁川公演を起点とし、日本公演は開場15:00・開演17:00。SEVENTEEN日本公式ファンクラブCARAT会員向けの先行抽選受付は9月30日13:00から10月12日23:59まで行われる。",
+      "genres": [
+        "K-POP",
+        "ドーム公演",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000749.000045862.html",
+      "presale": true,
+      "general_sale": false,
+      "presale_datetime": "2026-09-30T13:00:00+09:00",
+      "presale_end_datetime": "2026-10-12T23:59:00+09:00",
+      "updated_at": "2026-09-30"
     },
     {
       "release_time": "17:00",
@@ -6129,6 +6252,64 @@
       "updated_at": "2026-09-23"
     },
     {
+      "id": "ja-dave-matthews-japan-2027-tokyo-20270106",
+      "name": "デイヴ・マシューズ〈AN ACOUSTIC EVENING WITH DAVE MATTHEWS JAPAN TOUR 2027〉東京公演",
+      "release_date": "2027-01-06",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "すみだトリフォニーホール"
+      ],
+      "developer": "デイヴ・マシューズ",
+      "publisher": "SMASH",
+      "description": "デイヴ・マシューズ・バンドのフロントマン、デイヴ・マシューズによるキャリア初の来日公演〈AN ACOUSTIC EVENING WITH DAVE MATTHEWS JAPAN TOUR 2027〉の東京公演。バンドを伴わずアコースティックギター一本で臨む編成で、2027年1月に東京・大阪・京都・名古屋の全4公演が行われる。すみだトリフォニーホールは開場18:00・開演19:00で、チケットはSS席15,000円、S席12,000円、A席10,000円も用意される。イープラスでのオフィシャル先行抽選が9月29日17:00から10月12日23:59まで受け付けられ、一般前売は10月17日10:00に開始する。",
+      "genres": [
+        "ロック",
+        "来日公演",
+        "アコースティック"
+      ],
+      "image_url": null,
+      "source_url": "https://smash-jpn.com/live/?id=4782",
+      "presale": true,
+      "general_sale": false,
+      "presale_datetime": "2026-09-29T17:00:00+09:00",
+      "presale_end_datetime": "2026-10-12T23:59:00+09:00",
+      "presale_url": "https://eplus.jp/davematthews/",
+      "general_sale_datetime": "2026-10-17T10:00:00+09:00",
+      "updated_at": "2026-09-30"
+    },
+    {
+      "id": "ja-dave-matthews-japan-2027-osaka-20270108",
+      "name": "デイヴ・マシューズ〈AN ACOUSTIC EVENING WITH DAVE MATTHEWS JAPAN TOUR 2027〉大阪公演",
+      "release_date": "2027-01-08",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "サンケイホールブリーゼ"
+      ],
+      "developer": "デイヴ・マシューズ",
+      "publisher": "SMASH",
+      "description": "デイヴ・マシューズ・バンドのフロントマン、デイヴ・マシューズによるキャリア初の来日公演〈AN ACOUSTIC EVENING WITH DAVE MATTHEWS JAPAN TOUR 2027〉の大阪公演。バンドを伴わずアコースティックギター一本で臨む編成で、2027年1月に東京・大阪・京都・名古屋の全4公演が行われる。サンケイホールブリーゼは開場18:00・開演19:00で、チケットはSS席15,000円、S席12,000円。イープラスでのオフィシャル先行抽選が9月29日17:00から10月12日23:59まで受け付けられ、一般前売は10月17日10:00に開始する。",
+      "genres": [
+        "ロック",
+        "来日公演",
+        "アコースティック"
+      ],
+      "image_url": null,
+      "source_url": "https://smash-jpn.com/live/?id=4782",
+      "presale": true,
+      "general_sale": false,
+      "presale_datetime": "2026-09-29T17:00:00+09:00",
+      "presale_end_datetime": "2026-10-12T23:59:00+09:00",
+      "presale_url": "https://eplus.jp/davematthews/",
+      "general_sale_datetime": "2026-10-17T10:00:00+09:00",
+      "updated_at": "2026-09-30"
+    },
+    {
       "id": "ja-number-i-no3-nagoya-20270109",
       "name": "Number_i LIVE TOUR No.III（バンテリンドーム ナゴヤ公演1日目）",
       "release_date": "2027-01-09",
@@ -6154,6 +6335,35 @@
       "presale_end_datetime": "2026-10-01T23:59:00+09:00",
       "presale_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
       "general_sale": false
+    },
+    {
+      "id": "ja-dave-matthews-japan-2027-kyoto-20270110",
+      "name": "デイヴ・マシューズ〈AN ACOUSTIC EVENING WITH DAVE MATTHEWS JAPAN TOUR 2027〉京都公演",
+      "release_date": "2027-01-10",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "京都コンサートホール（アンサンブルホールムラタ）"
+      ],
+      "developer": "デイヴ・マシューズ",
+      "publisher": "SMASH",
+      "description": "デイヴ・マシューズ・バンドのフロントマン、デイヴ・マシューズによるキャリア初の来日公演〈AN ACOUSTIC EVENING WITH DAVE MATTHEWS JAPAN TOUR 2027〉の京都公演。バンドを伴わずアコースティックギター一本で臨む編成で、2027年1月に東京・大阪・京都・名古屋の全4公演が行われる。京都コンサートホールは開場17:00・開演18:00で、チケットはSS席15,000円、S席12,000円。イープラスでのオフィシャル先行抽選が9月29日17:00から10月12日23:59まで受け付けられ、一般前売は10月17日10:00に開始する。",
+      "genres": [
+        "ロック",
+        "来日公演",
+        "アコースティック"
+      ],
+      "image_url": null,
+      "source_url": "https://smash-jpn.com/live/?id=4782",
+      "presale": true,
+      "general_sale": false,
+      "presale_datetime": "2026-09-29T17:00:00+09:00",
+      "presale_end_datetime": "2026-10-12T23:59:00+09:00",
+      "presale_url": "https://eplus.jp/davematthews/",
+      "general_sale_datetime": "2026-10-17T10:00:00+09:00",
+      "updated_at": "2026-09-30"
     },
     {
       "id": "ja-number-i-no3-nagoya-20270110",
@@ -6203,6 +6413,35 @@
       "category": "concert_tour",
       "description": "BE:FIRSTがデビュー5周年を記念して開催するドームツアーの東京公演。2027年1月11日（月・祝）と12日（火）の2日間、東京ドームで行われ、ツアー全体の幕開けとなる。同ツアーは東京のあと福岡・みずほPayPayドーム福岡、埼玉・ベルーナドームと続く3都市6公演の構成で、グループにとって初の複数ドームを巡る規模となる。チケット先行受付などの詳細は公式サイトで追って発表される。",
       "updated_at": "2026-09-23"
+    },
+    {
+      "id": "ja-dave-matthews-japan-2027-nagoya-20270111",
+      "name": "デイヴ・マシューズ〈AN ACOUSTIC EVENING WITH DAVE MATTHEWS JAPAN TOUR 2027〉名古屋公演",
+      "release_date": "2027-01-11",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "DIAMOND HALL（名古屋）"
+      ],
+      "developer": "デイヴ・マシューズ",
+      "publisher": "SMASH",
+      "description": "デイヴ・マシューズ・バンドのフロントマン、デイヴ・マシューズによるキャリア初の来日公演〈AN ACOUSTIC EVENING WITH DAVE MATTHEWS JAPAN TOUR 2027〉の名古屋公演。バンドを伴わずアコースティックギター一本で臨む編成で、2027年1月に東京・大阪・京都・名古屋の全4公演が行われる。DIAMOND HALLは開場18:00・開演19:00で、チケットはSS席15,000円、S席12,000円。イープラスでのオフィシャル先行抽選が9月29日17:00から10月12日23:59まで受け付けられ、一般前売は10月17日10:00に開始する。",
+      "genres": [
+        "ロック",
+        "来日公演",
+        "アコースティック"
+      ],
+      "image_url": null,
+      "source_url": "https://smash-jpn.com/live/?id=4782",
+      "presale": true,
+      "general_sale": false,
+      "presale_datetime": "2026-09-29T17:00:00+09:00",
+      "presale_end_datetime": "2026-10-12T23:59:00+09:00",
+      "presale_url": "https://eplus.jp/davematthews/",
+      "general_sale_datetime": "2026-10-17T10:00:00+09:00",
+      "updated_at": "2026-09-30"
     },
     {
       "id": "ja-jeff-parker-eta-ivtet-bluenote-20270111",
@@ -6856,6 +7095,96 @@
       "updated_at": "2026-09-23"
     },
     {
+      "id": "ja-jon-cleary-piano-solo-2027-osaka-20270224",
+      "name": "ジョン・クリアリー〈PIANO SOLO TOUR〉大阪公演",
+      "release_date": "2027-02-24",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "UMEDA CLUB QUATTRO（大阪・梅田）"
+      ],
+      "developer": "ジョン・クリアリー",
+      "publisher": "SMASH",
+      "description": "ニューオーリンズ・ピアノの伝統を受け継ぐ英国出身のシンガー／ピアニスト、ジョン・クリアリーによる2年ぶりの来日公演〈PIANO SOLO TOUR〉の大阪公演。10月2日にリリースされるロイヤル・アルバート・ホールでのピアノ独奏を収めたライブアルバム『ライヴ・アット・ザ・ロイヤル・アルバート・ホール』を記念したツアーで、大阪1公演と東京2公演の全3公演が組まれている。UMEDA CLUB QUATTROは開場18:00・開演19:00、全席指定の前売は8,000円（ドリンク代別）。イープラスでのオフィシャル先行は9月29日17:00に受付を開始し、一般前売は10月17日10:00から。",
+      "genres": [
+        "ニューオーリンズ",
+        "ピアノ",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://smash-jpn.com/live/?id=4781",
+      "presale": true,
+      "general_sale": false,
+      "presale_datetime": "2026-09-29T17:00:00+09:00",
+      "presale_end_datetime": "2026-10-12T23:59:00+09:00",
+      "presale_url": "https://eplus.jp/joncleary/",
+      "general_sale_datetime": "2026-10-17T10:00:00+09:00",
+      "general_sale_url": "https://eplus.jp/joncleary/",
+      "updated_at": "2026-09-30"
+    },
+    {
+      "id": "ja-jon-cleary-piano-solo-2027-tokyo1-20270225",
+      "name": "ジョン・クリアリー〈PIANO SOLO TOUR〉東京（1日目）公演",
+      "release_date": "2027-02-25",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "SHIBUYA PLEASURE PLEASURE"
+      ],
+      "developer": "ジョン・クリアリー",
+      "publisher": "SMASH",
+      "description": "ニューオーリンズ・ピアノの伝統を受け継ぐ英国出身のシンガー／ピアニスト、ジョン・クリアリーによる2年ぶりの来日公演〈PIANO SOLO TOUR〉の東京公演。10月2日にリリースされるロイヤル・アルバート・ホールでのピアノ独奏を収めたライブアルバム『ライヴ・アット・ザ・ロイヤル・アルバート・ホール』を記念したツアーで、大阪1公演と東京2公演の全3公演が組まれている。SHIBUYA PLEASURE PLEASUREは開場18:00・開演19:00、全席指定の前売は8,000円（ドリンク代別）。イープラスでのオフィシャル先行は9月29日17:00に受付を開始し、一般前売は10月17日10:00から。",
+      "genres": [
+        "ニューオーリンズ",
+        "ピアノ",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://smash-jpn.com/live/?id=4781",
+      "presale": true,
+      "general_sale": false,
+      "presale_datetime": "2026-09-29T17:00:00+09:00",
+      "presale_end_datetime": "2026-10-12T23:59:00+09:00",
+      "presale_url": "https://eplus.jp/joncleary/",
+      "general_sale_datetime": "2026-10-17T10:00:00+09:00",
+      "general_sale_url": "https://eplus.jp/joncleary/",
+      "updated_at": "2026-09-30"
+    },
+    {
+      "id": "ja-jon-cleary-piano-solo-2027-tokyo2-20270226",
+      "name": "ジョン・クリアリー〈PIANO SOLO TOUR〉東京（2日目）公演",
+      "release_date": "2027-02-26",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "SHIBUYA PLEASURE PLEASURE"
+      ],
+      "developer": "ジョン・クリアリー",
+      "publisher": "SMASH",
+      "description": "ニューオーリンズ・ピアノの伝統を受け継ぐ英国出身のシンガー／ピアニスト、ジョン・クリアリーによる2年ぶりの来日公演〈PIANO SOLO TOUR〉の東京公演。10月2日にリリースされるロイヤル・アルバート・ホールでのピアノ独奏を収めたライブアルバム『ライヴ・アット・ザ・ロイヤル・アルバート・ホール』を記念したツアーで、大阪1公演と東京2公演の全3公演が組まれている。SHIBUYA PLEASURE PLEASUREは開場18:00・開演19:00、全席指定の前売は8,000円（ドリンク代別）。イープラスでのオフィシャル先行は9月29日17:00に受付を開始し、一般前売は10月17日10:00から。",
+      "genres": [
+        "ニューオーリンズ",
+        "ピアノ",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://smash-jpn.com/live/?id=4781",
+      "presale": true,
+      "general_sale": false,
+      "presale_datetime": "2026-09-29T17:00:00+09:00",
+      "presale_end_datetime": "2026-10-12T23:59:00+09:00",
+      "presale_url": "https://eplus.jp/joncleary/",
+      "general_sale_datetime": "2026-10-17T10:00:00+09:00",
+      "general_sale_url": "https://eplus.jp/joncleary/",
+      "updated_at": "2026-09-30"
+    },
+    {
       "id": "ja-xg-the-core-final-osaka-20270227",
       "name": "XG WORLD TOUR: THE CORE FINAL \"1\"（京セラドーム大阪）",
       "release_date": "2027-02-27",
@@ -7025,6 +7354,54 @@
       "general_sale": true,
       "general_sale_datetime": "2026-10-03T10:00:00+09:00",
       "general_sale_url": "https://w.pia.jp/t/toto-2027/"
+    },
+    {
+      "id": "ja-broken-social-scene-japan-2027-tokyo-20270330",
+      "name": "ブロークン・ソーシャル・シーン 来日公演 2027 東京公演",
+      "release_date": "2027-03-30",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "EX THEATER ROPPONGI"
+      ],
+      "developer": "ブロークン・ソーシャル・シーン",
+      "publisher": "SMASH",
+      "description": "カナダ・トロントを拠点とするブロークン・ソーシャル・シーンが、2008年以来19年ぶりに行う来日公演の東京公演。2026年5月に発表した通算6作目のアルバム『リメンバー・ザ・ヒューマンズ』を携えたツアーで、2027年3月30日の東京・EX THEATER ROPPONGIと31日の大阪・UMEDA CLUB QUATTROの2公演が組まれている。EX THEATER ROPPONGIは開場18:00・開演19:00、スタンディング前売は9,500円、スタンド指定席は12,000円。招聘はSMASHが手がける。",
+      "genres": [
+        "インディーロック",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://smash-jpn.com/live/?id=4785",
+      "presale": false,
+      "general_sale": false,
+      "updated_at": "2026-09-30"
+    },
+    {
+      "id": "ja-broken-social-scene-japan-2027-osaka-20270331",
+      "name": "ブロークン・ソーシャル・シーン 来日公演 2027 大阪公演",
+      "release_date": "2027-03-31",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "UMEDA CLUB QUATTRO（大阪・梅田）"
+      ],
+      "developer": "ブロークン・ソーシャル・シーン",
+      "publisher": "SMASH",
+      "description": "カナダ・トロントを拠点とするブロークン・ソーシャル・シーンが、2008年以来19年ぶりに行う来日公演の大阪公演。2026年5月に発表した通算6作目のアルバム『リメンバー・ザ・ヒューマンズ』を携えたツアーで、2027年3月30日の東京・EX THEATER ROPPONGIと31日の大阪・UMEDA CLUB QUATTROの2公演が組まれている。UMEDA CLUB QUATTROは開場18:00・開演19:00、スタンディング前売は9,500円で、こちらはオールスタンディング。招聘はSMASHが手がける。",
+      "genres": [
+        "インディーロック",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://smash-jpn.com/live/?id=4785",
+      "presale": false,
+      "general_sale": false,
+      "updated_at": "2026-09-30"
     },
     {
       "id": "ja-squeeze-japan-2027-osaka-20270409",
