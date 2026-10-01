@@ -4,6 +4,7 @@ import { getAllPosts } from '@/lib/blog';
 import { getAllNews } from '@/lib/news';
 import { getAllArtists, isArtistIndexable } from '@/lib/artists';
 import { getAllVenues, isVenueIndexable } from '@/lib/venues';
+import { getMonthPages, isMonthIndexable } from '@/lib/schedule';
 import { hasActiveTicketing, type Game } from '@/lib/types';
 import { LOCALES, type Locale } from '@/lib/i18nLabels';
 
@@ -195,5 +196,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
   }
 
-  return [...staticUrls, ...gameUrls, ...blogUrls, ...newsUrls, ...artistUrls, ...venueUrls];
+  // 날짜로 찾는 검색용 페이지 — 한국어만 있다(lib/schedule.ts). 지난 달은 noindex라 뺀다.
+  const scheduleUrls: MetadataRoute.Sitemap = [
+    { url: `${BASE}/ko/ticketing`, lastModified: dataUpdatedByLocale.ko, changeFrequency: 'daily', priority: 0.8 },
+  ];
+  for (const m of await getMonthPages('ko')) {
+    if (!isMonthIndexable(m)) continue;
+    scheduleUrls.push({
+      url: `${BASE}/ko/month/${m.ym}`,
+      ...(m.lastModified ? { lastModified: new Date(m.lastModified) } : {}),
+      changeFrequency: 'daily',
+      priority: 0.75,
+    });
+  }
+
+  return [...staticUrls, ...gameUrls, ...blogUrls, ...newsUrls, ...artistUrls, ...venueUrls, ...scheduleUrls];
 }

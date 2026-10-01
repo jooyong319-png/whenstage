@@ -1,0 +1,50 @@
+# 배포가 끝나면 바뀐 페이지를 IndexNow(빙·네이버 등)에 알린다 — 설명은 scripts/indexnow.mjs
+#
+# Vercel은 배포마다 GitHub에 deployment / deployment_status를 남긴다. 그 "성공"을 받아서 돈다.
+# 빌드를 건너뛴 배포(scripts/should-build.mjs)는 성공이 아니라서 여기까지 오지 않는다 —
+# 그래서 비교 기준은 "직전 커밋"이 아니라 **직전 성공 배포의 커밋**이다(그 사이 변경이 안 묻힌다).
+name: IndexNow
+
+on: deployment_status
+
+permissions:
+  contents: read
+  deployments: read
+
+jobs:
+  ping:
+    if: github.event.deployment_status.state == 'success' && github.event.deployment.environment == 'Production'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.deployment.sha }}
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 직전 성공 배포 커밋 찾기
+        id: base
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CURRENT_ID: ${{ github.event.deployment.id }}
+        run: |
+          base=""
+          for id in $(gh api "repos/${{ github.repository }}/deployments?environment=Production&per_page=30" --jq '.[].id'); do
+            [ "$id" = "$CURRENT_ID" ] && continue
+            state=$(gh api "repos/${{ github.repository }}/deployments/$id/statuses?per_page=1" --jq '.[0].state')
+            if [ "$state" = "success" ]; then
+              base=$(gh api "repos/${{ github.repository }}/deployments/$id" --jq '.sha')
+              break
+            fi
+          done
+          echo "sha=$base" >> "$GITHUB_OUTPUT"
+          echo "직전 성공 배포: ${base:-없음}"
+
+      - name: IndexNow 전송
+        env:
+          BASE_SHA: ${{ steps.base.outputs.sha }}
+        run: node scripts/indexnow.mjs

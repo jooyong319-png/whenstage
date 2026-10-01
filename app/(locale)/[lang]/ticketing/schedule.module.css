@@ -1,0 +1,82 @@
+/* 티켓팅 일정·월별 일정 공용 — 목록 행은 concert/concertList.module.css를 그대로 쓴다 */
+
+/* 그 달(또는 앞으로의 티켓팅)의 요약 — 목록 위에 짧게 */
+.summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 0.8rem;
+  margin: 1.2rem 0 0.4rem;
+}
+.fact {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm, 8px);
+  background: var(--bg-elev);
+  padding: 0.8rem 0.95rem;
+  min-width: 0;
+}
+.factLabel {
+  display: block;
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: var(--text-faint);
+  margin-bottom: 0.35rem;
+}
+.factList { list-style: none; margin: 0; padding: 0; font-size: 0.9rem; line-height: 1.7; }
+.factText { margin: 0; font-size: 0.9rem; line-height: 1.6; }
+.fact b { font-weight: 700; }
+
+.time {
+  display: block;
+  font-size: 0.74rem;
+  opacity: 0.8;
+}
+
+/* 선예매/일반예매 배지 — 일정 카드와 같은 티켓팅 주황 */
+.kind {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 0.08rem 0.42rem;
+  border-radius: var(--radius-xs, 4px);
+  background: var(--accent-warm);
+  color: #1b1206;
+  white-space: nowrap;
+}
+.kindGeneral {
+  background: transparent;
+  color: var(--accent-warm);
+  box-shadow: inset 0 0 0 1px var(--accent-warm);
+}
+
+.buy {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--accent-warm);
+  white-space: nowrap;
+}
+
+.note { font-size: 0.8rem; color: var(--text-faint); margin-top: 0.4rem; }
+
+.pager {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+
+.buyRow { margin: -0.35rem 0 0.5rem; padding-left: 4.4rem; }  /* 행 그리드의 내용 칸 시작(3.2 + 0.8 + 0.4rem)에 맞춘다 */
+@media (max-width: 30rem) { .buyRow { padding-left: 4.1rem; } }
+
+.venue { display: inline-flex; align-items: center; gap: 0.25rem; }
+.venue :global(.ic) { width: 12px; height: 12px; flex: 0 0 auto; }
+
+/* 좁은 화면 — 행이 2열(시각 | 내용)로 접히면 배지를 내용 칸 아래에 둔다(시각 칸으로 밀려 내려가지 않게) */
+@media (max-width: 30rem) {
+  .kind { grid-column: 2; justify-self: start; }
+}
+
+/* 문장 속 링크는 색만으로 구분하면 안 된다(axe link-in-text-block) — 밑줄 */
+.fact a { text-decoration: underline; text-underline-offset: 2px; }

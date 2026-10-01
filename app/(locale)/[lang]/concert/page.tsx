@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllGames, getUpcomingGames } from '@/lib/games';
+import { getMonthPages } from '@/lib/schedule';
 import {
   UI, LOCALES, OG_LOCALE, DEFAULT_OG_IMAGE, CATEGORY_LABELS, type Locale,
 } from '@/lib/i18nLabels';
@@ -73,6 +74,8 @@ export default async function ConcertListPage({ params }: Props) {
   const past = all.filter(g => !upcomingIds.has(g.id)).reverse();
 
   const months = groupByMonth(upcoming);
+  // 월별 페이지가 있는 달(한국어만)은 달 제목을 그 페이지로 잇는다
+  const monthPages = lang === 'ko' ? new Set((await getMonthPages('ko')).map(m => m.ym)) : new Set<string>();
 
   const crumbLd = breadcrumbLd([
     { name: ui.home, url: `https://whenstage.com/${lang}` },
@@ -115,7 +118,9 @@ export default async function ConcertListPage({ params }: Props) {
             // 앵커를 달아 "9월 콘서트" 같은 검색에서 해당 달로 바로 닿게 한다
             <section key={m.key} id={m.key} className={cs.month}>
               <h2 className={cs.monthTitle}>
-                {ui.monthLabel(m.year, m.month)}
+                {monthPages.has(m.key)
+                  ? <a href={`/ko/month/${m.key}`}>{ui.monthLabel(m.year, m.month)}</a>
+                  : ui.monthLabel(m.year, m.month)}
                 <span className={cs.monthCount}>{m.items.length}</span>
               </h2>
               <ul className={cs.list}>{m.items.map(row)}</ul>
