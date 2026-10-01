@@ -1,7 +1,6 @@
 import type { ReactNode } from 'react';
 import { getAllGames } from '@/lib/games';
 import { toCardGame } from '@/lib/types';
-import { kstDateOnly } from '@/lib/utils';
 import { FeaturedCards } from './FeaturedCards';
 import { type Locale } from '@/lib/i18nLabels';
 import styles from './PageShell.module.css';
@@ -17,11 +16,11 @@ interface Props {
 // 서브페이지(출시예정·카테고리·블로그·상세) 공용 2컬럼 셸 — 우측 레일에 카테고리별 카드 나열.
 // 정적 생성이라 빌드 시각(KST) 기준 D-day(데이터 일일 갱신 시 재배포로 신선도 유지).
 export async function PageShell({ children, lang, sidebar }: Props) {
-  const now = kstDateOnly(new Date().toISOString());
+  const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10); // KST 'YYYY-MM-DD'
   // ⚠️ 클라이언트 컴포넌트에는 **카드가 쓰는 필드만** 넘긴다(lib/types.ts CardGame 주석).
   // 전체 Game을 넘기면 description·source_url 등 안 쓰는 필드까지 페이지마다 직렬화된다.
   const defaultSidebar = sidebar
-    ?? <FeaturedCards games={(await getAllGames(lang)).map(toCardGame)} now={now} />;
+    ?? <FeaturedCards games={(await getAllGames(lang)).map(toCardGame)} today={today} />;
 
   // AppShell이 이미 <main id="main">을 렌더하므로 여기선 중복 main을 만들지 않는다(landmark 중복
    // 방지). 우측 레일도 <aside>(complementary)로 두면 main 안에 중첩돼 랜드마크 경고 → div로.

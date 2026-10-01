@@ -9,7 +9,7 @@
 // 무엇을 보내나: 직전 성공 배포 커밋(BASE_SHA)과 이번 커밋(HEAD) 사이에서
 //   - data/concerts.{lang}.json — 새로 생긴 항목·내용이 바뀐 항목의 상세 페이지
 //   - content/blog/*.{lang}.md  — 새 글·고친 글
-//   - 위가 바뀐 로케일의 홈·공연 목록, 한국어면 티켓팅 일정·이번 달 이후 월별 페이지
+//   - 위가 바뀐 로케일의 홈·공연 목록·티켓팅 일정, 바뀐 공연이 속한 이번 달 이후 월별 페이지
 // 보내기 전에 **전부 실제로 열어 보고 200인 것만** 보낸다(지난 달 월별 페이지처럼 없거나
 // 리다이렉트되는 주소를 걸러내는 가장 확실한 방법).
 //
@@ -53,8 +53,8 @@ for (const lang of LOCALES) {
     if (old.get(g.id) === JSON.stringify(g)) continue;
     urls.add(`${BASE}/${lang}/concert/${encodeURIComponent(g.id)}`);
     n++;
-    if (lang === 'ko' && !g.release_date_approx && g.release_date >= today.slice(0, 7)) {
-      urls.add(`${BASE}/ko/month/${g.release_date.slice(0, 7)}`);
+    if (!g.release_date_approx && g.release_date >= today.slice(0, 7)) {
+      urls.add(`${BASE}/${lang}/month/${g.release_date.slice(0, 7)}`);
     }
   }
   if (n) touchedLocales.add(lang);
@@ -74,7 +74,7 @@ for (const line of git(['diff', '--name-status', base, 'HEAD', '--', 'content/bl
 for (const lang of touchedLocales) {
   urls.add(`${BASE}/${lang}`);
   urls.add(`${BASE}/${lang}/concert`);
-  if (lang === 'ko') urls.add(`${BASE}/ko/ticketing`);
+  urls.add(`${BASE}/${lang}/ticketing`);
 }
 
 if (urls.size === 0) { console.log('보낼 변경 없음'); process.exit(0); }

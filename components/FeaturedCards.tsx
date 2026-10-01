@@ -3,12 +3,15 @@ import { useEffect, useMemo, useState, type CSSProperties } from 'react';
 import Link from 'next/link';
 import type { CardGame, Category } from '@/lib/types';
 import { CATEGORY_META } from '@/lib/types';
-import { calcDayDiff } from '@/lib/utils';
+import { calcDayDiff, parseDateOnly } from '@/lib/utils';
 import { useLocale } from '@/hooks/useLocale';
 import { CAL, UI, CATEGORY_LABELS, type Locale } from '@/lib/i18nLabels';
 import styles from './FeaturedCards.module.css';
 
-interface Props { games: CardGame[]; now: Date; }
+// today는 'YYYY-MM-DD'(KST) 문자열로 받는다. 예전엔 Date를 받았는데, 서버의 'KST 자정' Date는
+// 미주 브라우저에서 풀면 전날 저녁이 돼 D-day가 하루 밀리고 하이드레이션이 깨졌다(2026-10-01).
+// 날짜 문자열은 어느 시간대에서 풀어도 같은 날이다.
+interface Props { games: CardGame[]; today: string; }
 
 // 카드 표시용 정규화 데이터 — "티켓 스텁" 카드(본문 + D-day 스텁)에 필요한 것만.
 interface CardData {
@@ -25,10 +28,6 @@ interface CardData {
 const CATS: Category[] = ['concert_tour', 'music_release', 'festival', 'fanmeeting'];
 
 function shortDate(iso: string): string { const [, m, d] = iso.split('-'); return `${m}.${d}`; }
-function ymd(d: Date): string {
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
-}
-
 // 선예매·일반예매 중 하나라도 "지금" 진행 중인지(시작함·아직 안 끝남) — 오늘 날짜 문자열과 비교.
 function isActiveTicketing(g: CardGame, today: string): boolean {
   const phases: Array<[boolean | undefined, string | null | undefined, string | null | undefined]> = [
@@ -96,9 +95,9 @@ function FeaturedCard({ data }: { data: CardData }) {
 // 서브페이지 사이드바(PageShell 기본값) — 풀(사전예약 + 카테고리별 임박 1개씩)에서 최대 4장.
 // 마운트 후 셔플은 SSR 결과와 달라서 진입 직후 카드가 눈에 띄게 바뀌는 깜빡임을 유발했던
 // 원인이라 제거 — 항상 서버가 내려준 순서 그대로 렌더.
-export function FeaturedCards({ games, now }: Props) {
+export function FeaturedCards({ games, today }: Props) {
   const lang = useLocale();
-  const today = ymd(now);
+  const now = useMemo(() => parseDateOnly(today), [today]);
   const notReleased = (g: CardGame) => g.release_date_approx || g.release_date >= today;
 
   // 티켓팅(선예매/일반예매) 진행 중인 게임 목록 → 진입 시 이 중 '랜덤 1개' 노출(고정 최신 아님)

@@ -4,7 +4,7 @@ import { getAllPosts } from '@/lib/blog';
 import { getAllNews } from '@/lib/news';
 import { getAllArtists, isArtistIndexable } from '@/lib/artists';
 import { getAllVenues, isVenueIndexable } from '@/lib/venues';
-import { getMonthPages, isMonthIndexable } from '@/lib/schedule';
+import { getMonthPages, isMonthIndexable, getUpcomingTicketOpenings, isTicketingIndexable } from '@/lib/schedule';
 import { hasActiveTicketing, type Game } from '@/lib/types';
 import { LOCALES, type Locale } from '@/lib/i18nLabels';
 
@@ -196,18 +196,23 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }
   }
 
-  // 날짜로 찾는 검색용 페이지 — 한국어만 있다(lib/schedule.ts). 지난 달은 noindex라 뺀다.
-  const scheduleUrls: MetadataRoute.Sitemap = [
-    { url: `${BASE}/ko/ticketing`, lastModified: dataUpdatedByLocale.ko, changeFrequency: 'daily', priority: 0.8 },
-  ];
-  for (const m of await getMonthPages('ko')) {
-    if (!isMonthIndexable(m)) continue;
-    scheduleUrls.push({
-      url: `${BASE}/ko/month/${m.ym}`,
-      ...(m.lastModified ? { lastModified: new Date(m.lastModified) } : {}),
-      changeFrequency: 'daily',
-      priority: 0.75,
-    });
+  // 날짜로 찾는 검색용 페이지(lib/schedule.ts). 상세가 noindex인 것(지난 달·예매가 적은
+  // 티켓팅)은 뺀다 — 아티스트·공연장과 같은 원칙. 로케일별 독립 데이터라 hreflang은 없다.
+  const scheduleUrls: MetadataRoute.Sitemap = [];
+  for (const lang of LOCALES) {
+    const openings = await getUpcomingTicketOpenings(lang);
+    if (isTicketingIndexable(openings.length)) {
+      scheduleUrls.push({ url: `${BASE}/${lang}/ticketing`, lastModified: dataUpdatedByLocale[lang], changeFrequency: 'daily', priority: 0.8 });
+    }
+    for (const m of await getMonthPages(lang)) {
+      if (!isMonthIndexable(m)) continue;
+      scheduleUrls.push({
+        url: `${BASE}/${lang}/month/${m.ym}`,
+        ...(m.lastModified ? { lastModified: new Date(m.lastModified) } : {}),
+        changeFrequency: 'daily',
+        priority: 0.75,
+      });
+    }
   }
 
   return [...staticUrls, ...gameUrls, ...blogUrls, ...newsUrls, ...artistUrls, ...venueUrls, ...scheduleUrls];

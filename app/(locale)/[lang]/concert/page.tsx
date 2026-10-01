@@ -74,8 +74,8 @@ export default async function ConcertListPage({ params }: Props) {
   const past = all.filter(g => !upcomingIds.has(g.id)).reverse();
 
   const months = groupByMonth(upcoming);
-  // 월별 페이지가 있는 달(한국어만)은 달 제목을 그 페이지로 잇는다
-  const monthPages = lang === 'ko' ? new Set((await getMonthPages('ko')).map(m => m.ym)) : new Set<string>();
+  // 월별 페이지가 있는 달은 달 제목을 그 페이지로 잇는다
+  const monthPages = new Set((await getMonthPages(lang)).map(m => m.ym));
 
   const crumbLd = breadcrumbLd([
     { name: ui.home, url: `https://whenstage.com/${lang}` },
@@ -119,7 +119,7 @@ export default async function ConcertListPage({ params }: Props) {
             <section key={m.key} id={m.key} className={cs.month}>
               <h2 className={cs.monthTitle}>
                 {monthPages.has(m.key)
-                  ? <a href={`/ko/month/${m.key}`}>{ui.monthLabel(m.year, m.month)}</a>
+                  ? <a href={`/${lang}/month/${m.key}`}>{ui.monthLabel(m.year, m.month)}</a>
                   : ui.monthLabel(m.year, m.month)}
                 <span className={cs.monthCount}>{m.items.length}</span>
               </h2>

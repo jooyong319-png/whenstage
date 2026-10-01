@@ -23,7 +23,7 @@
 }
 .factList { list-style: none; margin: 0; padding: 0; font-size: 0.9rem; line-height: 1.7; }
 .factText { margin: 0; font-size: 0.9rem; line-height: 1.6; }
-.fact b { font-weight: 700; }
+.fact b { font-weight: 700; white-space: nowrap; }  /* "2 shows"가 숫자·단위 사이에서 갈라지지 않게 */
 
 .time {
   display: block;
