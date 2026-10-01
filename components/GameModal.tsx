@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion } from 'motion/react';
 import type { Game } from '@/lib/types';
-import { CATEGORY_META } from '@/lib/types';
+import { CATEGORY_META, eventStatusOf } from '@/lib/types';
 import { calcDayDiff, parseDateOnly } from '@/lib/utils';
 import { ShareButton } from './ShareButton';
 import { TicketingPhase } from './TicketingPhase';
@@ -10,7 +10,7 @@ import { useSaleWindowEnded } from '@/hooks/useSaleWindowEnded';
 import { useEventEnded } from '@/hooks/useEventEnded';
 import { effectivePresaleEnd } from '@/lib/types';
 import { useLocale } from '@/hooks/useLocale';
-import { UI, CAL, CATEGORY_LABELS } from '@/lib/i18nLabels';
+import { UI, CAL, CATEGORY_LABELS, pastLabel } from '@/lib/i18nLabels';
 import styles from './GameModal.module.css';
 
 interface Props {
@@ -46,8 +46,10 @@ export function GameModal({ game, onClose, wishlist }: Props) {
 
   const diff = calcDayDiff(game.release_date);
   const tba = ui ? ui.tba : '미정';
-  const releasedText = t ? t.released : '출시됨';
-  const dd = game.release_date_approx ? tba : diff < 0 ? releasedText : diff === 0 ? 'D-DAY' : `D-${diff}`;
+  const releasedText = t ? pastLabel(game.category, t) : '종료';
+  const status = eventStatusOf(game);
+  const statusText = status === 'cancelled' ? (t ? t.cancelledTag : '취소') : status === 'postponed' ? (t ? t.postponedTag : '연기') : null;
+  const dd = statusText ?? (game.release_date_approx ? tba : diff < 0 ? releasedText : diff === 0 ? 'D-DAY' : `D-${diff}`);
   const cat = CATEGORY_META[game.category];
   const catLabel = lang ? CATEGORY_LABELS[lang][game.category] : cat.label;
   const intlLocale = lang === 'en' ? 'en-US' : lang === 'ja' ? 'ja-JP' : 'ko-KR';

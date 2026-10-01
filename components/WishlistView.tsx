@@ -1,11 +1,11 @@
 'use client';
 import { useMemo, type CSSProperties } from 'react';
 import type { Game } from '@/lib/types';
-import { CATEGORY_META } from '@/lib/types';
+import { CATEGORY_META, eventStatusOf } from '@/lib/types';
 import { calcDayDiff, parseDateOnly } from '@/lib/utils';
 import { useWishlist } from '@/hooks/useWishlist';
 import { useLocale } from '@/hooks/useLocale';
-import { UI, CAL, CATEGORY_LABELS } from '@/lib/i18nLabels';
+import { UI, CAL, CATEGORY_LABELS, pastLabel } from '@/lib/i18nLabels';
 import { NotifyToggle } from './NotifyToggle';
 import { PageHeader } from './PageHeader';
 import styles from './WishlistView.module.css';
@@ -44,8 +44,10 @@ export function WishlistView({ games }: { games: Game[] }) {
             const diff = calcDayDiff(g.release_date);
             const released = diff < 0;
             const tba = ui ? ui.tba : '미정';
-            const releasedText = t ? t.released : '출시됨';
-            const dd = g.release_date_approx ? tba : released ? releasedText : diff === 0 ? 'D-DAY' : `D-${diff}`;
+            const releasedText = t ? pastLabel(g.category, t) : '종료';
+            const status = eventStatusOf(g);
+            const statusText = status === 'cancelled' ? (t ? t.cancelledTag : '취소') : status === 'postponed' ? (t ? t.postponedTag : '연기') : null;
+            const dd = statusText ?? (g.release_date_approx ? tba : released ? releasedText : diff === 0 ? 'D-DAY' : `D-${diff}`);
             const soon = diff >= 0 && diff <= 7;
             const cat = CATEGORY_META[g.category];
             const displayName = g.name;

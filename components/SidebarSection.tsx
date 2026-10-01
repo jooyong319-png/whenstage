@@ -12,7 +12,8 @@ interface Props {
 export function SidebarSection({ title, moreHref, moreLabel, children }: Props) {
   return (
     <section className={styles.section}>
-      <h3 className={styles.title}>{title}</h3>
+      {/* h2 — 본문은 h1 다음 h2 없이 바로 이 제목이 와서 h3면 제목 순서가 건너뛴다(axe heading-order) */}
+      <h2 className={styles.title}>{title}</h2>
       <div className={styles.list}>{children}</div>
       {moreHref && (
         <a href={moreHref} className={styles.more}>{moreLabel} →</a>

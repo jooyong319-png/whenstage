@@ -337,7 +337,13 @@ interface CalUiStrings {
   postComment: string;
   nickname: string;
   loading: string;
-  released: string;
+  released: string;        // 지난 음원 발매 ('발매됨')
+  ended: string;           // 지난 공연 ('종료')
+  cancelledTag: string;
+  postponedTag: string;
+  endedNotice: string;     // 상세 상단 안내
+  cancelledNotice: string;
+  postponedNotice: string;
   goTo: string;
   prevMonth: string;
   nextMonth: string;
@@ -439,7 +445,13 @@ export const CAL: Record<Locale, CalUiStrings> = {
     postComment: '등록',
     nickname: '닉네임',
     loading: '불러오는 중…',
-    released: '지남',
+    released: '발매됨',
+    ended: '종료',
+    cancelledTag: '취소',
+    postponedTag: '연기',
+    endedNotice: '종료된 공연입니다.',
+    cancelledNotice: '취소된 공연입니다.',
+    postponedNotice: '연기된 공연입니다. 새 일정이 정해지면 업데이트합니다.',
     goTo: '바로가기',
     prevMonth: '이전 달',
     nextMonth: '다음 달',
@@ -540,6 +552,12 @@ export const CAL: Record<Locale, CalUiStrings> = {
     nickname: 'Nickname',
     loading: 'Loading…',
     released: 'Released',
+    ended: 'Ended',
+    cancelledTag: 'Cancelled',
+    postponedTag: 'Postponed',
+    endedNotice: 'This show has ended.',
+    cancelledNotice: 'This show has been cancelled.',
+    postponedNotice: 'This show has been postponed. We will update the page when a new date is set.',
     goTo: 'View',
     prevMonth: 'Previous month',
     nextMonth: 'Next month',
@@ -640,6 +658,12 @@ export const CAL: Record<Locale, CalUiStrings> = {
     nickname: 'ニックネーム',
     loading: '読み込み中…',
     released: '発売済み',
+    ended: '終了',
+    cancelledTag: '中止',
+    postponedTag: '延期',
+    endedNotice: 'この公演は終了しました。',
+    cancelledNotice: 'この公演は中止になりました。',
+    postponedNotice: 'この公演は延期になりました。新しい日程が決まり次第更新します。',
     goTo: '見る',
     prevMonth: '前月',
     nextMonth: '翌月',
@@ -716,3 +740,9 @@ export const CAL: Record<Locale, CalUiStrings> = {
     eventEnds: (title) => `${title} 終了`,
   },
 };
+
+// 날짜가 지난 항목의 배지 문구 — 공연은 '종료', 음원 발매는 '발매됨'.
+// 예전엔 전부 released('지남'/'Released')였는데, 'Released'는 게임 캘린더 시절 문구라 공연엔 틀렸다.
+export function pastLabel(category: Category, t: CalUiStrings): string {
+  return category === 'music_release' ? t.released : t.ended;
+}

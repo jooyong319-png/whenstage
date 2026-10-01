@@ -7,7 +7,7 @@ import { getVenueBySlug, normalizeVenueKey, VENUE_CATEGORIES } from '@/lib/venue
 import { formatShortDate, calcDayDiff } from '@/lib/utils';
 import { CATEGORY_LABELS, UI, CAL, LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
 import type { Game } from '@/lib/types';
-import { effectivePresaleEnd, hasEventEnded } from '@/lib/types';
+import { effectivePresaleEnd, hasEventEnded, eventStatusOf } from '@/lib/types';
 import { PageShell } from '@/components/PageShell';
 import { WishlistButton } from '@/components/WishlistButton';
 import { DdayBadge } from '@/components/DdayBadge';
@@ -133,11 +133,25 @@ export default async function LocaleGamePage({ params }: Props) {
   ) : undefined;
 
   const isVenueEvent = VENUE_CATEGORIES.has(game.category);
+  // 취소·연기 — description 맨 앞 표기에서 읽는다(lib/types.ts eventStatusOf)
+  const status = eventStatusOf(game);
+  // 지난 공연 — 서버(빌드 시각) 판정이라 늦게 바뀔 수는 있어도 **일찍 '종료'가 뜨지는 않는다**.
+  // 크롤러가 읽을 수 있게 서버에서 그린다(D-day 배지는 클라이언트라 크롤러엔 안 보인다).
+  const ended = isVenueEvent && hasEventEnded(game, new Date());
+  // 끝났거나 취소·연기된 공연에서 갈 곳 — 같은 아티스트의 다음 공연, 없으면 같은 공연장의 다음 공연.
+  // 지난 공연 페이지로 들어온 검색 유입을 막다른 길에서 살아 있는 일정으로 넘긴다.
+  // 라벨에 출처를 밝힌다 — 공연장 쪽으로 넘어갔는데 그냥 '다음 공연'이라고 쓰면 같은 아티스트의
+  // 공연으로 오해한다(김용빈 취소 페이지에서 다른 가수 공연이 '다음 공연'으로 떴다).
+  const needsNext = status !== 'scheduled' || ended;
+  const nextShow = needsNext ? (artistOthers[0] ?? venueOthers[0] ?? null) : null;
+  const nextLabel = !nextShow ? '' : artistOthers[0]
+    ? (lang === 'ko' ? `${artist?.name}의 다음 공연` : lang === 'ja' ? `${artist?.name}の次の公演` : `${artist?.name}'s next show`)
+    : (lang === 'ko' ? `${venue?.name}의 다음 공연` : lang === 'ja' ? `${venue?.name}の次の公演` : `Next show at ${venue?.name}`);
   // 끝난 공연은 offers를 내보내지 않는다 — 이미 내려간 예매 페이지를 "InStock"으로 알리는
   // 꼴이라 검색결과에 죽은 링크가 그대로 나간다(§4-6). 여기는 서버(SSG)라 빌드 시각 기준이지만
   // 리서처 push로 하루 2회 재빌드되므로 지연은 최대 반나절이고, 화면 CTA는 클라이언트에서
   // 따로 판정한다(useEventEnded).
-  const ticketUrl = hasEventEnded(game, new Date())
+  const ticketUrl = hasEventEnded(game, new Date()) || status === 'cancelled'
     ? null
     : game.general_sale_url || game.presale_url || null;
   const eventUrl = `https://whenstage.com/${lang}/concert/${params.id}`;
@@ -180,7 +194,10 @@ export default async function LocaleGamePage({ params }: Props) {
         image: ogImg,
         startDate,
         ...(endDate ? { endDate } : {}),
-        eventStatus: 'https://schema.org/EventScheduled',
+        // 취소·연기는 구글 이벤트 결과에 그대로 표시된다(취소된 공연을 '예정'으로 알리지 않는다)
+        eventStatus: status === 'cancelled' ? 'https://schema.org/EventCancelled'
+          : status === 'postponed' ? 'https://schema.org/EventPostponed'
+          : 'https://schema.org/EventScheduled',
         eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
         location: { '@type': 'Place', name: venueName, address: placeAddress },
         ...(performerNames.length > 0
@@ -234,9 +251,26 @@ export default async function LocaleGamePage({ params }: Props) {
       <article className="concert-detail">
         <div className="detail-head">
           <span className={`category-tag cat-bg-${game.category}`}>{CATEGORY_LABELS[lang][game.category]}</span>
-          <DdayBadge releaseDate={game.release_date} approx={game.release_date_approx} />
+          <DdayBadge releaseDate={game.release_date} approx={game.release_date_approx} category={game.category} status={status} />
         </div>
         <h1>{game.name}</h1>
+        {(status !== 'scheduled' || ended) && (
+          <div className={`event-status-notice ${status !== 'scheduled' ? 'is-' + status : 'is-ended'}`} role="status">
+            <p className="event-status-text">
+              {status === 'cancelled' ? t.cancelledNotice : status === 'postponed' ? t.postponedNotice : t.endedNotice}
+            </p>
+            {nextShow && (
+              <a className="event-status-next" href={`/${lang}/concert/${encodeURIComponent(nextShow.id)}`}>
+                <span className="event-status-next-label">{nextLabel}</span>
+                <span className="event-status-next-name">{nextShow.name}</span>
+                <span className="event-status-next-date">
+                  {nextShow.release_date_approx ? ui.tba : formatShortDate(nextShow.release_date)}
+                  {nextShow.platforms?.[0] ? ` · ${nextShow.platforms[0]}` : ''}
+                </span>
+              </a>
+            )}
+          </div>
+        )}
         {game.image_url && (
           <>
             <DetailCover imageUrl={game.image_url} alt={game.name} category={game.category} />
@@ -318,7 +352,8 @@ export default async function LocaleGamePage({ params }: Props) {
           {game.genres.length > 0 && <li><strong>{ui.genres}</strong>{game.genres.join(', ')}</li>}
         </ul>
         <div className="detail-actions">
-          {game.presale_url && (
+          {/* 취소된 공연엔 예매 버튼을 내지 않는다(환불 안내는 출처 링크로) */}
+          {game.presale_url && status !== 'cancelled' && (
             <TicketingCtaButton
               url={game.presale_url}
               endDateTime={effectivePresaleEnd(game)}
@@ -327,7 +362,7 @@ export default async function LocaleGamePage({ params }: Props) {
               closedLabel={t.presaleClosedLabel}
             />
           )}
-          {game.general_sale_url && (
+          {game.general_sale_url && status !== 'cancelled' && (
             <TicketingCtaButton
               url={game.general_sale_url}
               endDateTime={game.general_sale_end_datetime}

@@ -3,7 +3,8 @@ import { notFound } from 'next/navigation';
 import { getMonthPages, isMonthIndexable, dayLabel, monthLabel, type MonthPage } from '@/lib/schedule';
 import { SCHEDULE_TEXT, countryName } from '@/lib/scheduleText';
 import { getAllVenues } from '@/lib/venues';
-import { UI, LOCALES, CATEGORY_LABELS, OG_LOCALE, DEFAULT_OG_IMAGE, type Locale } from '@/lib/i18nLabels';
+import { UI, CAL, LOCALES, CATEGORY_LABELS, OG_LOCALE, DEFAULT_OG_IMAGE, type Locale } from '@/lib/i18nLabels';
+import { eventStatusOf } from '@/lib/types';
 import { breadcrumbLd, jsonLd } from '@/lib/seo';
 import { PageShell } from '@/components/PageShell';
 import type { Category, Game } from '@/lib/types';
@@ -130,7 +131,12 @@ export default async function MonthPageView({ params }: Props) {
             </span>
           )}
         </span>
-        <span className={cs.cat}>{CATEGORY_LABELS[lang][g.category]}</span>
+        <span className={cs.cat}>
+          {/* 취소·연기는 분류보다 먼저 알린다 */}
+          {eventStatusOf(g) === 'cancelled' ? <b>{CAL[lang].cancelledTag}</b>
+            : eventStatusOf(g) === 'postponed' ? <b>{CAL[lang].postponedTag}</b>
+            : CATEGORY_LABELS[lang][g.category]}
+        </span>
       </a>
     </li>
   );

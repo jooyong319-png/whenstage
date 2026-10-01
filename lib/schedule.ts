@@ -9,6 +9,7 @@
 // 색인에서 뺀다. 처음엔 한국어만 만들었다가 같은 날 3개 언어로 넓혔다(wiki/decisions 2026-10-01).
 import { getAllGames, type GameLocale } from './games';
 import type { Category, Game } from './types';
+import { eventStatusOf } from './types';
 import { normalizeVenueKey, VENUE_CATEGORIES } from './venues';
 import { countryFromTimezone } from './seo';
 
@@ -212,6 +213,8 @@ export async function getUpcomingTicketOpenings(locale: GameLocale = 'ko', now: 
   const cutoff = new Date(`${todayKst(now)}T00:00:00+09:00`).getTime();
   const out: TicketOpening[] = [];
   for (const g of all) {
+    // 취소된 공연의 예매는 열리지 않는다(연기는 남긴다 — 예매처가 변경 공지를 낸다)
+    if (eventStatusOf(g) === 'cancelled') continue;
     const tz = g.timezone || 'Asia/Seoul';
     const pairs: [TicketKind, string | null | undefined, string | null | undefined][] = [
       ['presale', g.presale_datetime, g.presale_url],

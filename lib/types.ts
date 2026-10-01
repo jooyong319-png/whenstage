@@ -255,3 +255,17 @@ export const CATEGORY_META: Record<Category, {
   festival:      { label: '페스티벌',         short: '페스티벌', icon: 'ic-globe',   color: '#17823f' },
   fanmeeting:    { label: '팬미팅',           short: '팬미팅',  icon: 'ic-comment', color: '#c92c62' },
 };
+
+// 공연 상태 — 취소·연기. 별도 필드 없이 리서처가 이미 쓰는 표기를 읽는다(AGENTS.md: 취소된 공연은
+// 삭제하지 말고 description 맨 앞에 [취소됨]/[Cancelled]/[中止]). 필드를 새로 만들면 리서처 3개와
+// 검증기를 함께 바꿔야 하고, 이미 들어간 표기와 이중 관리가 된다(2026-10-01).
+// 연기는 규칙에 없었지만 리서처가 [Postponed]/[延期]로 이미 쓰고 있어 같이 받는다.
+export type EventStatus = 'scheduled' | 'cancelled' | 'postponed';
+const CANCELLED_RE = /^\s*[\[【]\s*(취소됨|취소|공연\s*취소|cancell?ed|中止|公演中止)\s*[\]】]/i;
+const POSTPONED_RE = /^\s*[\[【]\s*(연기됨|연기|공연\s*연기|postponed|延期|公演延期)\s*[\]】]/i;
+export function eventStatusOf(g: { description?: string | null }): EventStatus {
+  const d = g.description ?? '';
+  if (CANCELLED_RE.test(d)) return 'cancelled';
+  if (POSTPONED_RE.test(d)) return 'postponed';
+  return 'scheduled';
+}

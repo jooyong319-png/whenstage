@@ -58,8 +58,10 @@ export function TicketingPhase({ label, startDateTime, endDateTime, timezone }: 
 
   const startLabel = startDateTime ? formatEventDateTime(startDateTime, timezone, lang) : null;
 
+  // aria-label에 구간 이름을 붙인다 — 선예매·일반예매 박스가 한 페이지에 둘이라 이름이 같으면
+  // 랜드마크가 구분되지 않는다(axe landmark-unique)
   return (
-    <section className={styles.box} aria-label={t.ticketingInfo}>
+    <section className={styles.box} aria-label={`${label} · ${t.ticketingInfo}`}>
       <div className={styles.head}>
         <span className={styles.live}><span className={styles.dot} aria-hidden="true" /> {label}</span>
         {startLabel && <span className={styles.start}>{startLabel}</span>}

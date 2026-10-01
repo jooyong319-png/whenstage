@@ -2,11 +2,11 @@
 import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import { motion } from 'motion/react';
 import type { Game } from '@/lib/types';
-import { CATEGORY_META, availableTicketingUrl } from '@/lib/types';
+import { CATEGORY_META, availableTicketingUrl, eventStatusOf } from '@/lib/types';
 import { trackEvent } from '@/lib/analytics';
 import { calcDayDiff, getKoreanWeekday, parseDateOnly } from '@/lib/utils';
 import { useLocale } from '@/hooks/useLocale';
-import { UI, CAL, CATEGORY_LABELS } from '@/lib/i18nLabels';
+import { UI, CAL, CATEGORY_LABELS, pastLabel } from '@/lib/i18nLabels';
 import styles from './GameRow.module.css';
 
 interface Props {
@@ -35,8 +35,11 @@ export function GameRow({ game: g, now, wishlist, onPick, preBadge }: Props) {
   const isToday = diff === 0;
   const imminent = diff >= 0 && diff <= 7;
   const tba = ui ? ui.tba : '미정';
-  const releasedText = t ? t.released : '출시됨';
-  const dd = g.release_date_approx ? tba : released ? releasedText : isToday ? 'D-DAY' : `D-${diff}`;
+  const releasedText = t ? pastLabel(g.category, t) : '종료';
+  // 취소·연기는 날짜보다 먼저 알린다(지난 공연이어도 '종료'보다 '취소'가 정확한 정보)
+  const status = eventStatusOf(g);
+  const statusText = status === 'cancelled' ? (t ? t.cancelledTag : '취소') : status === 'postponed' ? (t ? t.postponedTag : '연기') : null;
+  const dd = statusText ?? (g.release_date_approx ? tba : released ? releasedText : isToday ? 'D-DAY' : `D-${diff}`);
   const cat = CATEGORY_META[g.category];
   const isWished = wishlist.has(g.id);
   // 지금 바로 예매 가능(상시판매 포함)하면 예매 버튼 노출 — 리스트/검색에서도 바로 예매처로.
