@@ -1,3 +1,44 @@
+## [2026-10-02 09:30] [EN 리서처]
+리서치 완료 (해외 팬 대상 한국 공연)
+- 콘서트/투어 16→12, 발매 0→0, 페스티벌 2→0, 팬미팅 2→1 (후보→통과)
+- 신규 15개 / 갱신 0개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리 2건 중 0건 등재 — `leads.en.jsonl` 134건 전량 점검 결과 한국 개최 건은 2건뿐이었다(TOMORROW X TOGETHER STEAL THE WIND 서울, Shakira 마드리드 레지던시). TXT 서울은 이미 `en-txt-steal-the-wind-seoul-20261113`로 등재돼 있고, Shakira는 스페인 단독 공연이라 2026-09-21 방향 전환 이후 대상 외. 나머지 132건은 전부 미국·영국·유럽 단독 공연/발매로 현재 담당 범위 밖이다.
+  · ⚠️ 뉴스 에이전트(news-en)가 아직 영어권 공연 기준으로 리드를 쌓고 있다 — 리드 최신 날짜가 2026-09-11이고 한국 공연 리드는 사실상 0이다. `prompts/NEWS_RESEARCHER_EN.md`도 한국 공연 중심으로 전환하면 인계가 실제로 작동할 것으로 보인다(플래너 검토 요청).
+- 과거 백필 0개(예정 공연 15건/일 한도를 예정 공연 트랙에서 전부 소진 — AGENTS.md §7 순서 원칙에 따라 이번 사이클 백필 생략)
+  · 다만 예정 공연 트랙에서 **공연장 색인전환 1개**: YES24 Live Hall, Seoul 0건→2건(FLOW 10/28, MAX CHANGMIN 11/6). Olympic Park, Seoul 1건→3건(NEXZ 10/17·10/18)으로 보강. 신규 1건짜리는 Jangchung Arena, Seoul(HIGHLIGHT 10/16) 1곳.
+- 티켓팅 진행중 10개 (추가 +10 / 해제 -0)
+- description 보강 0개 (신규 15건 모두 영어 50단어 이상)
+- 총 등록 364개
+
+신규 내역 (전부 영어권/공식 글로벌 소스 2개 이상 교차 확인)
+- JEONGHAN X JOSHUA 〈JOURNEY INTO [DREAMING]〉 10/30·10/31·11/01 Inspire Arena, Incheon — NOL World 영문 가이드 + Korea JoongAng Daily + allkpop + Sports Kyunghyang(영문) 일치. 글로벌 멤버십 인증 10/6~10/8, 글로벌 선예매 10/8 20시 KST, 일반 10/12 20시 KST까지 영문으로 확정 — 해외 CARAT에게 가장 수요 큰 건이다. ko 원본과 `related_locale_ids` 연결(10/30분)
+- ILLIT LIVE 〈PRESS START〉 ENCORE 10/17·10/18 Inspire Arena, Incheon — BELIFT LAB 공식 공지 + Korea JoongAng Daily + allkpop + Haps Korea 일치. ko 미등재 건이라 EN 단독 신규
+- 2026 AKMU Concert 〈Paradise of Rumors〉 10/09·10/10·10/11 KSPO Dome — official_akmu 공식 X + YES24 티켓 상세(59418) + Haps Korea 일치. 시작 시각 18시/17시/16시까지 확정. ko 미등재
+- NEXZ 1st Asia Tour 〈SAUCIN' THE WORLD〉 10/17·10/18 Olympic Park, Seoul(Olympic Hall) — Soompi + NOL World 영문 상세(26012968) 일치. 2회 전석 매진 후 추가석(A3·A4·E3·E4) 오픈, 글로벌 예약 페이지 15만4천원, 여권 본인인증 필수까지 영문 확인. ko 미등재
+- 2026 HIGHLIGHT FAN CON 10/16 Jangchung Arena — YES24 상세(59891) + Haps Korea(10/16~18) 일치. ko 원본과 `related_locale_ids` 연결
+- MAX CHANGMIN LIVE SESSION: RESONANCE 11/06 YES24 Live Hall — The Korea Herald + allkpop + dipe.co.kr + Haps Korea 일치. 3회 전석 매진이라 `general_sale: false`로 등재하고 2027 마카오(1/9)·타이베이(1/23) 대안을 description에 안내. ko 미등재
+- 2026 DAVICHI Concert 〈IN OUR SCENES〉 12/12 KSPO Dome — kpopmap + 공식 DAVICHI X + NOL 상세(26014056) 일치. 17년 만의 체조경기장 360도 공연. ko 원본과 연결
+- FLOW: NARUTO THE ROCK World Tour 2026 10/28 YES24 Live Hall — YES24 상세(59986) + Haps Korea 일치. 애니메이션 수요가 영어권에서 특히 큰 건
+- YUURI LIVE 2026 12/05 Inspire Arena, Incheon — 인터파크 상세(26010352) + Haps Korea 일치
+
+[KO 리서처 요청]
+다음 사이클에 `data/concerts.ko.json`의 아래 항목에 역방향 링크를 채워주면 hreflang이 양방향으로 붙는다.
+- `ko-jeonghan-joshua-journey-into-dreaming-incheon-20261030` → `related_locale_ids.en` = `en-jeonghan-x-joshua-journey-into-dreaming-incheon-20261030`
+- `ko-highlight-fancon-seoul-20261016` → `related_locale_ids.en` = `en-highlight-fan-con-seoul-20261016`
+- `ko-davichi-in-our-scenes-seoul-20261212` → `related_locale_ids.en` = `en-davichi-in-our-scenes-seoul-20261212`
+- `ko-flow-naruto-the-rock-seoul-20261028` → `related_locale_ids.en` = `en-flow-naruto-the-rock-seoul-20261028`
+- `ko-yuuri-live-2026-seoul-20261205` → `related_locale_ids.en` = `en-yuuri-live-2026-incheon-20261205`
+
+[이미지 교체 대상]
+신규 15건 전부 `image_url: null`로 등재했다. 후보 URL(인터파크 `ticketimage.interpark.com/.../*_p.gif`, YES24 `tkfile.yes24.com/...`)은 찾았으나 바이너리라 web_fetch로 실제 이미지·해상도 검증이 불가능해, "확신 없으면 null" 원칙대로 비워뒀다. 위키미디어 커먼즈에 해당 아티스트 사진이 있는지는 다음 사이클에 별도로 확인한다.
+
+[검증 탈락]
+- PERSONA LIVE TOUR 2026 -Resonance- in Seoul (10/03 YES24 Live Hall): Haps Korea·ko DB 양쪽에 있으나 15건/일 한도 초과로 보류(탈락 아님, 다음 사이클 1순위)
+- 2026 RAIN Concert 〈THE SMOKE〉 (12/05~06 Olympic Hall): 위와 동일 사유로 보류
+- Jarasum International Jazz Festival 2026 (10/09~11 Jarasum, Gapyeong): 위와 동일 사유로 보류. 공식 라인업 확정 후 `festival_days`까지 채워 등재하는 게 낫다
+- 2026 부산국제록페스티벌 (10/02~04 삼락생태공원): 개최 첫날이 오늘이라 예정 공연으로서 가치가 낮고, 영어권 1차 소스에서 라인업 확정 정보를 확보하지 못해 제외
+- XMF 2026 / WONDERLIVET 2026 / ASEAN-Korea Music Festival 2026: 영어권 독립 출처 2개를 못 채웠다(Haps Korea 단독). 라인업 공지 나오면 재검토
+
 ## [2026-10-01 09:50] [KO 리서처]
 리서치 완료 (한국 국내 공연)
 - 콘서트/내한 11→8, 음원발매 0→0, 페스티벌 3→2, 팬미팅 1→0 (후보→통과)
