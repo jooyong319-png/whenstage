@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-10-02",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -4608,6 +4608,30 @@
       "general_sale_url": null
     },
     {
+      "id": "en-akmu-paradise-of-rumors-seoul-20261009",
+      "name": "2026 AKMU Concert <Paradise of Rumors> - Seoul (Night 1)",
+      "release_date": "2026-10-09",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KSPO Dome, Seoul(Olympic Park)"
+      ],
+      "developer": "AKMU",
+      "publisher": null,
+      "description": "AKMU, the sibling duo of Lee Chan-hyuk and Lee Su-hyun, play three nights at KSPO Dome in Seoul's Olympic Park from October 9 to 11, 2026 with Paradise of Rumors. Night 1 starts at 6pm KST and runs about 150 minutes. Tickets are sold through YES24 Ticket, which has an English interface, but every ticket is collected in person at the venue rather than mailed or printed at home.",
+      "genres": [
+        "K-Pop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://ticket.yes24.com/Special/59418",
+      "updated_at": "2026-10-02",
+      "general_sale": true,
+      "general_sale_url": "https://ticket.yes24.com/Perf/59418"
+    },
+    {
       "id": "en-amon-amarth-allfather-awakens-manchester-20261009",
       "name": "Amon Amarth: The Allfather Awakens Tour - Manchester",
       "release_date": "2026-10-09",
@@ -4806,6 +4830,30 @@
       "source_url": "https://www.udiscovermusic.com/news/remi-wolf-mud/"
     },
     {
+      "id": "en-akmu-paradise-of-rumors-seoul-20261010",
+      "name": "2026 AKMU Concert <Paradise of Rumors> - Seoul (Night 2)",
+      "release_date": "2026-10-10",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KSPO Dome, Seoul(Olympic Park)"
+      ],
+      "developer": "AKMU",
+      "publisher": null,
+      "description": "Night 2 of AKMU's Paradise of Rumors run at KSPO Dome in Seoul, on October 10, 2026, with a 5pm KST start. The duo's three Olympic Park dates are their main Korean shows of the year. Standing tickets are limited to ages 12 and over while seated sections are open to all ages, and tickets are picked up at the venue with ID on the day of the concert.",
+      "genres": [
+        "K-Pop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://ticket.yes24.com/Special/59418",
+      "updated_at": "2026-10-02",
+      "general_sale": true,
+      "general_sale_url": "https://ticket.yes24.com/Perf/59418"
+    },
+    {
       "id": "en-allhours-rise-up-seoul-20261010",
       "name": "ALL(H)OURS 1st World Tour <RISE UP> in Seoul",
       "release_date": "2026-10-10",
@@ -4857,6 +4905,30 @@
       "general_sale_datetime": "2026-08-14T10:00:00-04:00",
       "general_sale_url": "https://www.ticketmaster.com/steve-lacy-tickets/artist/2330907",
       "updated_at": "2026-09-22"
+    },
+    {
+      "id": "en-akmu-paradise-of-rumors-seoul-20261011",
+      "name": "2026 AKMU Concert <Paradise of Rumors> - Seoul (Night 3)",
+      "release_date": "2026-10-11",
+      "release_time": "16:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KSPO Dome, Seoul(Olympic Park)"
+      ],
+      "developer": "AKMU",
+      "publisher": null,
+      "description": "The final night of AKMU's Paradise of Rumors at KSPO Dome in Seoul, on October 11, 2026, starting at 4pm KST. Sunday's earlier curtain makes it the easiest of the three dates for fans with evening flights out of Incheon. The venue sits inside Olympic Park on Seoul Subway Line 5 and Line 9, and tickets are collected at the box office on the day.",
+      "genres": [
+        "K-Pop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://ticket.yes24.com/Special/59418",
+      "updated_at": "2026-10-02",
+      "general_sale": true,
+      "general_sale_url": "https://ticket.yes24.com/Perf/59418"
     },
     {
       "id": "en-charlie-puth-whatevers-clever-seoul-20261011",
@@ -5174,6 +5246,36 @@
       "source_url": "https://www.nme.com/news/music/fontaines-d-c-announce-details-of-new-album-dopamine-chamber-with-epic-single-marianne-pre-order-tour-3963277"
     },
     {
+      "id": "en-highlight-fan-con-seoul-20261016",
+      "name": "2026 HIGHLIGHT FAN CON - Seoul (Day 1)",
+      "release_date": "2026-10-16",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "Jangchung Arena, Seoul"
+      ],
+      "developer": "HIGHLIGHT",
+      "publisher": "Weekend Live",
+      "description": "HIGHLIGHT hold their 2026 fan con across three days at Jangchung Arena in central Seoul from October 16 to 18, with the opening night starting at 7:30pm KST. The show leans on an isekai framing in which the 18-year veterans are cast as rookie trainees. Tickets run through YES24 Ticket, where the fan club presale opened September 7 and the general sale on September 10, both at 8pm KST.",
+      "genres": [
+        "K-Pop",
+        "Fan Meeting"
+      ],
+      "image_url": null,
+      "source_url": "https://ticket.yes24.com/Perf/59891",
+      "updated_at": "2026-10-02",
+      "presale": false,
+      "presale_datetime": "2026-09-07T20:00:00+09:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-10T20:00:00+09:00",
+      "general_sale_url": "https://ticket.yes24.com/Perf/59891",
+      "related_locale_ids": {
+        "ko": "ko-highlight-fancon-seoul-20261016"
+      }
+    },
+    {
       "id": "en-hwang-minhyun-peach-blossom-seoul-20261016",
       "name": "2026 Hwang Minhyun Fan Meeting <PEACH-BLOSSOM> in Seoul",
       "release_date": "2026-10-16",
@@ -5341,6 +5443,54 @@
       }
     },
     {
+      "id": "en-illit-press-start-encore-incheon-20261017",
+      "name": "ILLIT LIVE <PRESS START> ENCORE in Korea - Incheon (Day 1)",
+      "release_date": "2026-10-17",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Inspire Arena, Incheon"
+      ],
+      "developer": "ILLIT",
+      "publisher": "BELIFT LAB",
+      "description": "ILLIT close out their first tour with two encore shows at Inspire Arena in Incheon on October 17 and 18, 2026, before a December run at LaLa Arena TOKYO-BAY in Chiba. The original PRESS START tour sold out every stop across Seoul, five Japanese cities and Hong Kong, so overseas fans should expect tight availability and check BELIFT LAB's notice page, which publishes its ticketing details in English.",
+      "genres": [
+        "K-Pop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.koreajoongangdaily.com/entertainment/illit-to-embark-on-korea-japan-encore-of-its-first-tour/12793882",
+      "updated_at": "2026-10-02"
+    },
+    {
+      "id": "en-nexz-saucin-the-world-seoul-20261017",
+      "name": "NEXZ 1st Asia Tour <SAUCIN' THE WORLD> - Seoul (Day 1)",
+      "release_date": "2026-10-17",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Olympic Park, Seoul(Olympic Hall)"
+      ],
+      "developer": "NEXZ",
+      "publisher": null,
+      "description": "NEXZ open their first Asia tour, SAUCIN' THE WORLD, with two nights at Olympic Hall in Seoul's Olympic Park on October 17 and 18, 2026. Both dates sold out and extra seats in sections A3, A4, E3 and E4 were released afterwards. Overseas fans book on NOL World's English global reservation page at 154,000 won for standing or seated, with passport-based identity verification required before checkout.",
+      "genres": [
+        "K-Pop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.soompi.com/article/1869018wpp/nexz-announces-1st-asia-tour-saucin-the-world",
+      "updated_at": "2026-10-02",
+      "presale": false,
+      "presale_datetime": null,
+      "general_sale": true,
+      "general_sale_url": "https://world.nol.com/en/ticket/places/26001096/products/26012968"
+    },
+    {
       "id": "en-omoinotake-one-man-tour-seoul-20261017",
       "name": "Omoinotake: One Man Tour 2026 in Seoul",
       "release_date": "2026-10-17",
@@ -5391,6 +5541,54 @@
       "source_url": "https://consequence.net/2026/08/allison-russell-2026-north-american-tour/",
       "general_sale": true,
       "general_sale_url": "https://www.ticketmaster.com/allison-russell-tickets/artist/2788777"
+    },
+    {
+      "id": "en-illit-press-start-encore-incheon-20261018",
+      "name": "ILLIT LIVE <PRESS START> ENCORE in Korea - Incheon (Day 2)",
+      "release_date": "2026-10-18",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Inspire Arena, Incheon"
+      ],
+      "developer": "ILLIT",
+      "publisher": "BELIFT LAB",
+      "description": "Day 2 of ILLIT's PRESS START encore at Inspire Arena in Incheon on October 18, 2026, and the last Korean date of the group's first tour. The encore carries over the game-styled staging that ran through the original Seoul, Japan and Hong Kong shows. Inspire Arena sits next to Incheon Airport, which makes this one of the easier arena shows for fans flying in for a single weekend.",
+      "genres": [
+        "K-Pop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.koreajoongangdaily.com/entertainment/illit-to-embark-on-korea-japan-encore-of-its-first-tour/12793882",
+      "updated_at": "2026-10-02"
+    },
+    {
+      "id": "en-nexz-saucin-the-world-seoul-20261018",
+      "name": "NEXZ 1st Asia Tour <SAUCIN' THE WORLD> - Seoul (Day 2)",
+      "release_date": "2026-10-18",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Olympic Park, Seoul(Olympic Hall)"
+      ],
+      "developer": "NEXZ",
+      "publisher": null,
+      "description": "Day 2 of NEXZ's SAUCIN' THE WORLD launch at Olympic Hall in Seoul, on October 18, 2026. The JYP group's two Seoul shows both sold out before additional seating went on sale through NOL World. Tickets are mobile-only, with no physical ticket or will-call pickup, and the global page limits each account to two tickets per show including anything already booked.",
+      "genres": [
+        "K-Pop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.soompi.com/article/1869018wpp/nexz-announces-1st-asia-tour-saucin-the-world",
+      "updated_at": "2026-10-02",
+      "presale": false,
+      "presale_datetime": null,
+      "general_sale": true,
+      "general_sale_url": "https://world.nol.com/en/ticket/places/26001096/products/26012968"
     },
     {
       "id": "en-the-national-ab100-san-sebastian-20261018",
@@ -5913,6 +6111,35 @@
       "general_sale_url": "https://www.ticketmaster.com/bryan-adams-tickets/artist/734390?venueId=189062"
     },
     {
+      "id": "en-flow-naruto-the-rock-seoul-20261028",
+      "name": "FLOW: NARUTO THE ROCK World Tour 2026 - Seoul",
+      "release_date": "2026-10-28",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "YES24 Live Hall, Seoul"
+      ],
+      "developer": "FLOW",
+      "publisher": null,
+      "description": "Japanese rock band FLOW bring the NARUTO THE ROCK world tour to YES24 Live Hall in Seoul on October 28, 2026, with an 8pm KST start. The set is built around the anime themes the band is best known for abroad, including GO!!! and Sign. Tickets are sold through YES24 Ticket, which runs an English booking site, and the hall is a standing-floor club rather than an arena.",
+      "genres": [
+        "J-Rock",
+        "Anime",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://ticket.yes24.com/Perf/59986",
+      "updated_at": "2026-10-02",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_url": "https://ticket.yes24.com/Perf/59986",
+      "related_locale_ids": {
+        "ko": "ko-flow-naruto-the-rock-seoul-20261028"
+      }
+    },
+    {
       "id": "en-orville-peck-man-turned-mule-sacramento-20261028",
       "name": "Orville Peck: Man Turned Mule Tour - Sacramento",
       "release_date": "2026-10-28",
@@ -5966,6 +6193,36 @@
       "general_sale": true
     },
     {
+      "id": "en-jeonghan-x-joshua-journey-into-dreaming-incheon-20261030",
+      "name": "JEONGHAN X JOSHUA <JOURNEY INTO [DREAMING]> - Incheon (Night 1)",
+      "release_date": "2026-10-30",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Inspire Arena, Incheon"
+      ],
+      "developer": "JEONGHAN X JOSHUA",
+      "publisher": "HYBE",
+      "description": "SEVENTEEN's vocal duo JEONGHAN and JOSHUA bring their first unit concert, JOURNEY INTO [DREAMING], to Inspire Arena in Incheon for three nights from October 30 to November 1, 2026, built around their debut mini album DREAMSCAPE. Overseas CARATs buy on the separate global reservation page: membership verification runs October 6 to 8, the global membership presale opens October 8 at 8pm KST, and the general sale follows on October 12 at 8pm KST. Night 1 starts at 7pm KST.",
+      "genres": [
+        "K-Pop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://world.nol.com/en/content/articles/391e99ae-89a6-4677-a296-72b4da083a0b",
+      "updated_at": "2026-10-02",
+      "presale": true,
+      "presale_datetime": "2026-10-08T20:00:00+09:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-12T20:00:00+09:00",
+      "general_sale_url": "https://nol.yanolja.com/ticket/products/26013793",
+      "related_locale_ids": {
+        "ko": "ko-jeonghan-joshua-journey-into-dreaming-incheon-20261030"
+      }
+    },
+    {
       "id": "en-thao-show-me-20261030",
       "name": "THAO - Show Me",
       "release_date": "2026-10-30",
@@ -6016,6 +6273,33 @@
       "general_sale_url": "https://www.ticketmaster.com/the-faint-tickets/artist/717900"
     },
     {
+      "id": "en-jeonghan-x-joshua-journey-into-dreaming-incheon-20261031",
+      "name": "JEONGHAN X JOSHUA <JOURNEY INTO [DREAMING]> - Incheon (Night 2)",
+      "release_date": "2026-10-31",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Inspire Arena, Incheon"
+      ],
+      "developer": "JEONGHAN X JOSHUA",
+      "publisher": "HYBE",
+      "description": "SEVENTEEN's vocal duo JEONGHAN and JOSHUA bring their first unit concert, JOURNEY INTO [DREAMING], to Inspire Arena in Incheon for three nights from October 30 to November 1, 2026, built around their debut mini album DREAMSCAPE. Overseas CARATs buy on the separate global reservation page: membership verification runs October 6 to 8, the global membership presale opens October 8 at 8pm KST, and the general sale follows on October 12 at 8pm KST. This is the middle night of the three-show Incheon run.",
+      "genres": [
+        "K-Pop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://world.nol.com/en/content/articles/391e99ae-89a6-4677-a296-72b4da083a0b",
+      "updated_at": "2026-10-02",
+      "presale": true,
+      "presale_datetime": "2026-10-08T20:00:00+09:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-12T20:00:00+09:00",
+      "general_sale_url": "https://nol.yanolja.com/ticket/products/26013793"
+    },
+    {
       "release_time": null,
       "release_date_approx": false,
       "publisher": "Live Nation",
@@ -6040,6 +6324,33 @@
       "general_sale": true,
       "general_sale_datetime": "2026-08-24T10:00:00-04:00",
       "general_sale_url": "https://www.ticketmaster.com/usher-raymond-chris-brown-tickets/artist/4314089"
+    },
+    {
+      "id": "en-jeonghan-x-joshua-journey-into-dreaming-incheon-20261101",
+      "name": "JEONGHAN X JOSHUA <JOURNEY INTO [DREAMING]> - Incheon (Night 3)",
+      "release_date": "2026-11-01",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Inspire Arena, Incheon"
+      ],
+      "developer": "JEONGHAN X JOSHUA",
+      "publisher": "HYBE",
+      "description": "SEVENTEEN's vocal duo JEONGHAN and JOSHUA bring their first unit concert, JOURNEY INTO [DREAMING], to Inspire Arena in Incheon for three nights from October 30 to November 1, 2026, built around their debut mini album DREAMSCAPE. Overseas CARATs buy on the separate global reservation page: membership verification runs October 6 to 8, the global membership presale opens October 8 at 8pm KST, and the general sale follows on October 12 at 8pm KST. This is the final Incheon night before the tour moves on to Japan, Macau, Taiwan, Busan and Hong Kong.",
+      "genres": [
+        "K-Pop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://world.nol.com/en/content/articles/391e99ae-89a6-4677-a296-72b4da083a0b",
+      "updated_at": "2026-10-02",
+      "presale": true,
+      "presale_datetime": "2026-10-08T20:00:00+09:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-12T20:00:00+09:00",
+      "general_sale_url": "https://nol.yanolja.com/ticket/products/26013793"
     },
     {
       "release_time": null,
@@ -6120,6 +6431,29 @@
       "general_sale": true,
       "general_sale_datetime": "2026-08-24T10:00:00-04:00",
       "general_sale_url": "https://www.ticketmaster.com/usher-raymond-chris-brown-tickets/artist/4314089"
+    },
+    {
+      "id": "en-max-changmin-resonance-seoul-20261106",
+      "name": "MAX CHANGMIN LIVE SESSION: RESONANCE - Seoul (Night 1)",
+      "release_date": "2026-11-06",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "YES24 Live Hall, Seoul"
+      ],
+      "developer": "MAX CHANGMIN",
+      "publisher": null,
+      "description": "TVXQ's Max Changmin plays his first solo concert in Korea since debut, a three-night live session at YES24 Live Hall in Seoul's Gwangjin District from November 6 to 8, 2026. Night 1 begins at 7pm KST. All three dates sold out, so overseas fans should watch for resale notices or the 2027 Asia legs in Macau on January 9 and Taipei on January 23 instead.",
+      "genres": [
+        "K-Pop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.koreaherald.com/article/10886264",
+      "updated_at": "2026-10-02",
+      "general_sale": false
     },
     {
       "id": "en-quadeca-life-1-tour-seattle-20261106",
@@ -7209,6 +7543,31 @@
       }
     },
     {
+      "id": "en-yuuri-live-2026-incheon-20261205",
+      "name": "YUURI LIVE 2026 in Seoul - Incheon",
+      "release_date": "2026-12-05",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Inspire Arena, Incheon"
+      ],
+      "developer": "YUURI",
+      "publisher": "APPLEWOOD",
+      "description": "Japanese singer-songwriter Yuuri plays Inspire Arena in Incheon on December 5, 2026 at 6pm KST, his largest Korean headline show to date. Known abroad for Betelgeuse and Dry Flower, he moves up to an arena after earlier club dates in Seoul. Tickets opened on Interpark on July 31 at 8pm KST; Interpark's global site handles overseas bookings and passport pickup at the venue.",
+      "genres": [
+        "J-Pop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://tickets.interpark.com/goods/26010352",
+      "updated_at": "2026-10-02",
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-31T20:00:00+09:00",
+      "general_sale_url": "https://tickets.interpark.com/goods/26010352"
+    },
+    {
       "id": "en-slowdive-live-2026-seoul-20261208",
       "name": "SLOWDIVE Live 2026 in Seoul",
       "release_date": "2026-12-08",
@@ -7377,6 +7736,36 @@
       "source_url": "https://www.aegpresents.co.uk/event/the-darkness-3/",
       "general_sale": true,
       "general_sale_url": "https://www.ticketmaster.co.uk/the-darkness-bands-of-brothers-arena-manchester-11-12-2026/event/1F0064C889672E02"
+    },
+    {
+      "id": "en-davichi-in-our-scenes-seoul-20261212",
+      "name": "2026 DAVICHI Concert <IN OUR SCENES> - Seoul (Night 1)",
+      "release_date": "2026-12-12",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KSPO Dome, Seoul(Olympic Park)"
+      ],
+      "developer": "DAVICHI",
+      "publisher": null,
+      "description": "DAVICHI return to KSPO Dome in Seoul's Olympic Park for the first time in 17 years with two year-end shows on December 12 and 13, 2026. The duo are staging it in the round, opening all 360 degrees of the arena to seating. Night 1 starts at 6pm KST and runs about 120 minutes. The fan club presale opens October 6 at 6pm KST and the general sale October 8 at 7pm KST.",
+      "genres": [
+        "K-Pop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.kpopmap.com/k-pop-duo-davichi-announce-2026-concert-at-kspo-dome/",
+      "updated_at": "2026-10-02",
+      "presale": true,
+      "presale_datetime": "2026-10-06T18:00:00+09:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-08T19:00:00+09:00",
+      "general_sale_url": "https://nol.yanolja.com/ticket/products/26014056",
+      "related_locale_ids": {
+        "ko": "ko-davichi-in-our-scenes-seoul-20261212"
+      }
     },
     {
       "id": "en-domi-jd-beck-who-asked-seoul-20261212",
