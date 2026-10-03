@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-09-30",
+  "last_updated": "2026-10-03",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -3344,14 +3344,15 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/The_Cribs%2C_Live_2018.jpg/330px-The_Cribs%2C_Live_2018.jpg",
       "source_url": "https://skream.jp/news/2026/07/the_cribs_duo_music_exchange.php",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-08-08T10:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://eplus.jp/thecribs/",
       "presale": false,
       "presale_datetime": null,
       "presale_end_datetime": "2026-07-27T23:59:00+09:00",
-      "presale_url": "https://eplus.jp/thecribs/"
+      "presale_url": "https://eplus.jp/thecribs/",
+      "updated_at": "2026-10-03"
     },
     {
       "id": "ja-kai-yoshihiro-homecoming-tour-yokohama-20261003",
@@ -6347,11 +6348,12 @@
       ],
       "image_url": "https://prod-v2-assets.wmg.jp/uploads/Admat_1080x1350_On_Sale_ver1_a2b92ff228.png",
       "source_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-09-14T18:00:00+09:00",
       "presale_end_datetime": "2026-10-01T23:59:00+09:00",
       "presale_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
-      "general_sale": false
+      "general_sale": false,
+      "updated_at": "2026-10-03"
     },
     {
       "id": "ja-dave-matthews-japan-2027-kyoto-20270110",
@@ -6403,11 +6405,12 @@
       ],
       "image_url": "https://prod-v2-assets.wmg.jp/uploads/Admat_1080x1350_On_Sale_ver1_a2b92ff228.png",
       "source_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-09-14T18:00:00+09:00",
       "presale_end_datetime": "2026-10-01T23:59:00+09:00",
       "presale_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
-      "general_sale": false
+      "general_sale": false,
+      "updated_at": "2026-10-03"
     },
     {
       "release_time": null,
@@ -6508,11 +6511,12 @@
       ],
       "image_url": "https://prod-v2-assets.wmg.jp/uploads/Admat_1080x1350_On_Sale_ver1_a2b92ff228.png",
       "source_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-09-14T18:00:00+09:00",
       "presale_end_datetime": "2026-10-01T23:59:00+09:00",
       "presale_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
-      "general_sale": false
+      "general_sale": false,
+      "updated_at": "2026-10-03"
     },
     {
       "id": "ja-takahata-mitsuki-premium-live-20270111",
@@ -6560,11 +6564,12 @@
       ],
       "image_url": "https://prod-v2-assets.wmg.jp/uploads/Admat_1080x1350_On_Sale_ver1_a2b92ff228.png",
       "source_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-09-14T18:00:00+09:00",
       "presale_end_datetime": "2026-10-01T23:59:00+09:00",
       "presale_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
-      "general_sale": false
+      "general_sale": false,
+      "updated_at": "2026-10-03"
     },
     {
       "id": "ja-number-i-no3-fukuoka-20270117",
@@ -6587,11 +6592,12 @@
       ],
       "image_url": "https://prod-v2-assets.wmg.jp/uploads/Admat_1080x1350_On_Sale_ver1_a2b92ff228.png",
       "source_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-09-14T18:00:00+09:00",
       "presale_end_datetime": "2026-10-01T23:59:00+09:00",
       "presale_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
-      "general_sale": false
+      "general_sale": false,
+      "updated_at": "2026-10-03"
     },
     {
       "id": "ja-equal-love-tokyo-dome-20270119",
@@ -6813,6 +6819,36 @@
       "general_sale": false
     },
     {
+      "id": "ja-ayumu-imazu-live-2027-budokan-20270131",
+      "name": "Ayumu Imazu LIVE 2027 at 日本武道館",
+      "release_date": "2027-01-31",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "日本武道館"
+      ],
+      "developer": "Ayumu Imazu",
+      "publisher": "SOGO TOKYO",
+      "description": "シンガーソングライターのAyumu Imazuが自身初の日本武道館単独公演を行う。2026年6月21日、Zepp DiverCity（TOKYO）で開催された全国ツアー「Ayumu Imazu The CLASSIC TOUR 2026」の東京公演のステージ上でサプライズ発表されたもので、長年掲げてきた目標が実現する節目の舞台となる。2026年5月には約4年ぶりの2ndアルバム『CLASSIC』を発表し、同作を携えた9都市ツアーは全公演ソールドアウトを記録した。開場17:00、開演18:00。チケットは指定席9,800円（税込）のほか、優良座席とオリジナルTシャツが付くアップグレード枠17,000円（税込）が用意される。",
+      "genres": [
+        "J-POP",
+        "ダンス",
+        "ワンマン"
+      ],
+      "image_url": null,
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000234.000118793.html",
+      "presale": false,
+      "presale_datetime": "2026-06-21T20:00:00+09:00",
+      "presale_end_datetime": "2026-06-28T23:59:00+09:00",
+      "presale_url": "https://ayumuimazu-official.com/news/20270131/",
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-03"
+    },
+    {
       "id": "ja-maroon-5-tokyo-dome-20270202",
       "name": "マルーン5【Maroon 5 Asia 2027】東京ドーム公演（3日目）",
       "release_date": "2027-02-02",
@@ -6978,6 +7014,36 @@
       "image_url": null
     },
     {
+      "id": "ja-tokyo-ska-paradise-orchestra-arena-tour-2027-20270211",
+      "name": "東京スカパラダイスオーケストラ ARENA TOUR 2027［SKA］SHOWDOWN Episode2 日本武道館公演",
+      "release_date": "2027-02-11",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "日本武道館"
+      ],
+      "developer": "東京スカパラダイスオーケストラ",
+      "publisher": "HOT STUFF PROMOTION",
+      "description": "東京スカパラダイスオーケストラがバンド史上初のアリーナツアーとして開催する公演。2026年3月31日に東京ガーデンシアターで行われた『［SKA］SHOWDOWN』の舞台をアリーナへ移した「Episode2」で、東京・愛知・大阪・福岡の全国4都市5公演を回る。チケットは指定席9,900円、小学生から高校生を対象とした指定席学生チケット6,600円（いずれも税込）。各公演にゲストを迎えるスペシャルな内容で、ツアー初日となるこの日はアイナ・ジ・エンドの出演が発表されている。開場17:00、開演18:00。",
+      "genres": [
+        "スカ",
+        "ロック",
+        "ツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://tokyoska.net/live/tour.php?id=1003055&fdate=2027-02-11&ldate=2027-03-27",
+      "updated_at": "2026-10-03",
+      "presale": true,
+      "presale_datetime": "2026-09-28T12:00:00+09:00",
+      "presale_end_datetime": "2026-10-19T23:59:00+09:00",
+      "presale_url": "https://fcparadise.net/s/fc06/ticket/list?ima=1903&ct=ticket",
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null
+    },
+    {
       "id": "ja-weezer-japan-tour-2027-20270212",
       "name": "WEEZER JAPAN TOUR 2027",
       "release_date": "2027-02-12",
@@ -7002,6 +7068,36 @@
       "presale_url": "https://www.cmp-members.com/tickets/weezer-3/",
       "general_sale": true,
       "general_sale_datetime": "2026-09-05T00:00:00+09:00"
+    },
+    {
+      "id": "ja-tokyo-ska-paradise-orchestra-arena-tour-2027-20270212",
+      "name": "東京スカパラダイスオーケストラ ARENA TOUR 2027［SKA］SHOWDOWN Episode2 日本武道館公演",
+      "release_date": "2027-02-12",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "日本武道館"
+      ],
+      "developer": "東京スカパラダイスオーケストラ",
+      "publisher": "HOT STUFF PROMOTION",
+      "description": "東京スカパラダイスオーケストラがバンド史上初のアリーナツアーとして開催する公演。2026年3月31日に東京ガーデンシアターで行われた『［SKA］SHOWDOWN』の舞台をアリーナへ移した「Episode2」で、東京・愛知・大阪・福岡の全国4都市5公演を回る。チケットは指定席9,900円、小学生から高校生を対象とした指定席学生チケット6,600円（いずれも税込）。各公演にゲストを迎えるスペシャルな内容で、武道館2DAYSの2日目にあたるこの日は田島貴男がゲストとして出演する。開場17:00、開演18:00。",
+      "genres": [
+        "スカ",
+        "ロック",
+        "ツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://tokyoska.net/live/tour.php?id=1003055&fdate=2027-02-11&ldate=2027-03-27",
+      "updated_at": "2026-10-03",
+      "presale": true,
+      "presale_datetime": "2026-09-28T12:00:00+09:00",
+      "presale_end_datetime": "2026-10-19T23:59:00+09:00",
+      "presale_url": "https://fcparadise.net/s/fc06/ticket/list?ima=1903&ct=ticket",
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null
     },
     {
       "release_time": null,
@@ -7110,6 +7206,36 @@
       "category": "concert_tour",
       "description": "『Kis-My-Ft2 DOME TOUR 2026-2027 fan IS・・・・・・』の東京公演で、ツアーの締めくくりとなる3日間。2027年2月21日（日）17:00開演、22日（月）18:00開演、23日（火・祝）17:00開演の日程で東京ドームにて開催される。2026年12月の京セラドーム大阪2公演に続く後半戦で、デビュー15周年イヤーの集大成となるステージが予定されている。",
       "updated_at": "2026-09-23"
+    },
+    {
+      "id": "ja-tokyo-ska-paradise-orchestra-arena-tour-2027-20270223",
+      "name": "東京スカパラダイスオーケストラ ARENA TOUR 2027［SKA］SHOWDOWN Episode2 愛知公演",
+      "release_date": "2027-02-23",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "日本ガイシホール（クロコくんホール）"
+      ],
+      "developer": "東京スカパラダイスオーケストラ",
+      "publisher": "JAILHOUSE",
+      "description": "東京スカパラダイスオーケストラがバンド史上初のアリーナツアーとして開催する公演。2026年3月31日に東京ガーデンシアターで行われた『［SKA］SHOWDOWN』の舞台をアリーナへ移した「Episode2」で、東京・愛知・大阪・福岡の全国4都市5公演を回る。チケットは指定席9,900円、小学生から高校生を対象とした指定席学生チケット6,600円（いずれも税込）。各公演にゲストを迎えるスペシャルな内容で、愛知公演となるこの日は石原慎也（Saucy Dog）とムロツヨシがゲストに名を連ねる。開場17:00、開演18:00。",
+      "genres": [
+        "スカ",
+        "ロック",
+        "ツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://tokyoska.net/live/tour.php?id=1003055&fdate=2027-02-11&ldate=2027-03-27",
+      "updated_at": "2026-10-03",
+      "presale": true,
+      "presale_datetime": "2026-09-28T12:00:00+09:00",
+      "presale_end_datetime": "2026-10-19T23:59:00+09:00",
+      "presale_url": "https://fcparadise.net/s/fc06/ticket/list?ima=1903&ct=ticket",
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null
     },
     {
       "id": "ja-jon-cleary-piano-solo-2027-osaka-20270224",
@@ -7293,6 +7419,66 @@
       "updated_at": "2026-09-23"
     },
     {
+      "id": "ja-tokyo-ska-paradise-orchestra-arena-tour-2027-20270311",
+      "name": "東京スカパラダイスオーケストラ ARENA TOUR 2027［SKA］SHOWDOWN Episode2 大阪公演",
+      "release_date": "2027-03-11",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "大阪城ホール"
+      ],
+      "developer": "東京スカパラダイスオーケストラ",
+      "publisher": "キョードー大阪",
+      "description": "東京スカパラダイスオーケストラがバンド史上初のアリーナツアーとして開催する公演。2026年3月31日に東京ガーデンシアターで行われた『［SKA］SHOWDOWN』の舞台をアリーナへ移した「Episode2」で、東京・愛知・大阪・福岡の全国4都市5公演を回る。チケットは指定席9,900円、小学生から高校生を対象とした指定席学生チケット6,600円（いずれも税込）。各公演にゲストを迎えるスペシャルな内容で、大阪公演となるこの日は奥田民生とTK（凛として時雨）がゲストとして出演する。開場17:00、開演18:00。",
+      "genres": [
+        "スカ",
+        "ロック",
+        "ツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://tokyoska.net/live/tour.php?id=1003055&fdate=2027-02-11&ldate=2027-03-27",
+      "updated_at": "2026-10-03",
+      "presale": true,
+      "presale_datetime": "2026-09-28T12:00:00+09:00",
+      "presale_end_datetime": "2026-10-19T23:59:00+09:00",
+      "presale_url": "https://fcparadise.net/s/fc06/ticket/list?ima=1903&ct=ticket",
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null
+    },
+    {
+      "id": "ja-aile-the-shota-oneman-live-2027-budokan-20270313",
+      "name": "Aile The Shota Oneman Live 2027 in 日本武道館",
+      "release_date": "2027-03-13",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "日本武道館"
+      ],
+      "developer": "Aile The Shota",
+      "publisher": "クリエイティブマンプロダクション",
+      "description": "Aile The Shotaが初の日本武道館単独公演を開催する。2026年5月28日、Zepp DiverCity（TOKYO）で行われた全国11都市ツアー「Aile The Shota Oneman Tour 2026 “キセキセツ”」のファイナル公演のアンコールで「2027年3月13日。日本武道館で待っているぞ！」とサプライズ発表された。そのツアーファイナルはバンド5人編成に加えダンスクルーODORIやRHT.も参加する総勢26名規模のステージとなっており、武道館公演もその延長線上の大型公演となる見込み。開場17:00、開演18:00。チケットはS指定席8,800円、SS指定席11,000円、ファンクラブ限定のVIP指定席33,000円（いずれも税込）。企画・制作はBMSGとWONDER LIVE Inc.が担う。",
+      "genres": [
+        "J-POP",
+        "R&B",
+        "ワンマン"
+      ],
+      "image_url": null,
+      "source_url": "https://www.creativeman.co.jp/event/aile-the-shota27/",
+      "presale": false,
+      "presale_datetime": "2026-05-28T00:00:00+09:00",
+      "presale_end_datetime": "2026-06-08T23:59:00+09:00",
+      "presale_url": "https://bmsg.shop/pages/ats-fc-members",
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-03"
+    },
+    {
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "publisher": null,
@@ -7335,13 +7521,14 @@
         "来日公演",
         "50周年"
       ],
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-08-31T12:00:00+09:00",
       "presale_end_datetime": "2026-10-02T18:00:00+09:00",
       "presale_url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2634108&rlsCd=003",
       "general_sale": true,
       "general_sale_datetime": "2026-10-03T10:00:00+09:00",
-      "general_sale_url": "https://w.pia.jp/t/toto-os2027/"
+      "general_sale_url": "https://w.pia.jp/t/toto-os2027/",
+      "updated_at": "2026-10-03"
     },
     {
       "release_date_approx": false,
@@ -7364,13 +7551,44 @@
         "来日公演",
         "50周年"
       ],
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-08-31T12:00:00+09:00",
       "presale_end_datetime": "2026-10-02T18:00:00+09:00",
       "presale_url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2634122&rlsCd=003",
       "general_sale": true,
       "general_sale_datetime": "2026-10-03T10:00:00+09:00",
-      "general_sale_url": "https://w.pia.jp/t/toto-2027/"
+      "general_sale_url": "https://w.pia.jp/t/toto-2027/",
+      "updated_at": "2026-10-03"
+    },
+    {
+      "id": "ja-tokyo-ska-paradise-orchestra-arena-tour-2027-20270327",
+      "name": "東京スカパラダイスオーケストラ ARENA TOUR 2027［SKA］SHOWDOWN Episode2 福岡公演",
+      "release_date": "2027-03-27",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "福岡国際センター"
+      ],
+      "developer": "東京スカパラダイスオーケストラ",
+      "publisher": "キョードー西日本",
+      "description": "東京スカパラダイスオーケストラがバンド史上初のアリーナツアーとして開催する公演。2026年3月31日に東京ガーデンシアターで行われた『［SKA］SHOWDOWN』の舞台をアリーナへ移した「Episode2」で、東京・愛知・大阪・福岡の全国4都市5公演を回る。チケットは指定席9,900円、小学生から高校生を対象とした指定席学生チケット6,600円（いずれも税込）。各公演にゲストを迎えるスペシャルな内容で、ツアー最終公演となる福岡では斎藤宏介（UNISON SQUARE GARDEN／TenTwenty）がゲストを務める。開場16:00、開演17:00。",
+      "genres": [
+        "スカ",
+        "ロック",
+        "ツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://tokyoska.net/live/tour.php?id=1003055&fdate=2027-02-11&ldate=2027-03-27",
+      "updated_at": "2026-10-03",
+      "presale": true,
+      "presale_datetime": "2026-09-28T12:00:00+09:00",
+      "presale_end_datetime": "2026-10-19T23:59:00+09:00",
+      "presale_url": "https://fcparadise.net/s/fc06/ticket/list?ima=1903&ct=ticket",
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null
     },
     {
       "id": "ja-broken-social-scene-japan-2027-tokyo-20270330",
@@ -7447,6 +7665,66 @@
       "timezone": "Asia/Tokyo"
     },
     {
+      "id": "ja-starglow-arena-tour-2027-ariake-20270410",
+      "name": "STARGLOW 1st Arena Tour 2027 Aurora - The Dawn - 有明アリーナ公演",
+      "release_date": "2027-04-10",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "有明アリーナ"
+      ],
+      "developer": "STARGLOW",
+      "publisher": "クリエイティブマンプロダクション",
+      "description": "BMSG所属のグループSTARGLOWが初のアリーナツアー「STARGLOW 1st Arena Tour 2027 Aurora - The Dawn -」の東京公演を有明アリーナで行う。ツアーは2027年1月から4月にかけて全国7会場14公演を巡る構成で、プレデビュー1周年を記念した2026年9月22日のYouTube配信でサプライズ発表された。チケットは一般指定席および着席指定席が13,000円、ファンクラブ「STARS」とBMSGオンラインサロン「B-Town」会員限定のSS指定席（アップグレード）が18,000円（いずれも税込）。主催はクリエイティブマンプロダクション、企画はBMSG、制作はavex live creativeが担当する。この公演は開場16:00、開演17:00。",
+      "genres": [
+        "J-POP",
+        "ダンス",
+        "ツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://www.creativeman.co.jp/event/starglow-arena-tour-2027/",
+      "presale": true,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": "https://starglow.tokyo/special/tour2027aurora",
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-03"
+    },
+    {
+      "id": "ja-starglow-arena-tour-2027-ariake-20270411",
+      "name": "STARGLOW 1st Arena Tour 2027 Aurora - The Dawn - 有明アリーナ公演",
+      "release_date": "2027-04-11",
+      "release_time": "16:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "有明アリーナ"
+      ],
+      "developer": "STARGLOW",
+      "publisher": "クリエイティブマンプロダクション",
+      "description": "BMSG所属のグループSTARGLOWが初のアリーナツアー「STARGLOW 1st Arena Tour 2027 Aurora - The Dawn -」の東京公演を有明アリーナで行う。ツアーは2027年1月から4月にかけて全国7会場14公演を巡る構成で、プレデビュー1周年を記念した2026年9月22日のYouTube配信でサプライズ発表された。チケットは一般指定席および着席指定席が13,000円、ファンクラブ「STARS」とBMSGオンラインサロン「B-Town」会員限定のSS指定席（アップグレード）が18,000円（いずれも税込）。主催はクリエイティブマンプロダクション、企画はBMSG、制作はavex live creativeが担当する。この公演は開場15:00、開演16:00。",
+      "genres": [
+        "J-POP",
+        "ダンス",
+        "ツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://www.creativeman.co.jp/event/starglow-arena-tour-2027/",
+      "presale": true,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": "https://starglow.tokyo/special/tour2027aurora",
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-03"
+    },
+    {
       "id": "ja-sekai-no-owari-arena-tour-2027-20270417",
       "name": "SEKAI NO OWARI ARENA TOUR 2027（全国11会場23公演）",
       "release_date": "2027-04-17",
@@ -7512,14 +7790,15 @@
       ],
       "image_url": "https://www.radiohead2027.jp/wp-content/themes/rh2027/images/favicon_ogp/ogp.jpg",
       "source_url": "https://www.radiohead2027.jp/",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-09-07T16:00:00+09:00",
       "presale_end_datetime": "2026-09-27T23:59:00+09:00",
       "presale_url": "https://eplus.jp/radiohead/",
       "general_sale": false,
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
-      "release_time": null
+      "release_time": null,
+      "updated_at": "2026-10-03"
     },
     {
       "id": "ja-radiohead-japan-2027-20270609",
@@ -7539,14 +7818,15 @@
       ],
       "image_url": "https://www.radiohead2027.jp/wp-content/themes/rh2027/images/favicon_ogp/ogp.jpg",
       "source_url": "https://www.radiohead2027.jp/",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-09-07T16:00:00+09:00",
       "presale_end_datetime": "2026-09-27T23:59:00+09:00",
       "presale_url": "https://eplus.jp/radiohead/",
       "general_sale": false,
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
-      "release_time": null
+      "release_time": null,
+      "updated_at": "2026-10-03"
     },
     {
       "id": "ja-radiohead-japan-2027-20270611",
@@ -7566,14 +7846,15 @@
       ],
       "image_url": "https://www.radiohead2027.jp/wp-content/themes/rh2027/images/favicon_ogp/ogp.jpg",
       "source_url": "https://www.radiohead2027.jp/",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-09-07T16:00:00+09:00",
       "presale_end_datetime": "2026-09-27T23:59:00+09:00",
       "presale_url": "https://eplus.jp/radiohead/",
       "general_sale": false,
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
-      "release_time": null
+      "release_time": null,
+      "updated_at": "2026-10-03"
     },
     {
       "id": "ja-radiohead-japan-2027-20270612",
@@ -7593,14 +7874,15 @@
       ],
       "image_url": "https://www.radiohead2027.jp/wp-content/themes/rh2027/images/favicon_ogp/ogp.jpg",
       "source_url": "https://www.radiohead2027.jp/",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-09-07T16:00:00+09:00",
       "presale_end_datetime": "2026-09-27T23:59:00+09:00",
       "presale_url": "https://eplus.jp/radiohead/",
       "general_sale": false,
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
-      "release_time": null
+      "release_time": null,
+      "updated_at": "2026-10-03"
     },
     {
       "id": "ja-radiohead-japan-2027-20270613",
@@ -7620,14 +7902,15 @@
       ],
       "image_url": "https://www.radiohead2027.jp/wp-content/themes/rh2027/images/favicon_ogp/ogp.jpg",
       "source_url": "https://www.radiohead2027.jp/",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-09-07T16:00:00+09:00",
       "presale_end_datetime": "2026-09-27T23:59:00+09:00",
       "presale_url": "https://eplus.jp/radiohead/",
       "general_sale": false,
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
-      "release_time": null
+      "release_time": null,
+      "updated_at": "2026-10-03"
     },
     {
       "id": "ja-scandal-final-oneman-yokohama-20270821",
