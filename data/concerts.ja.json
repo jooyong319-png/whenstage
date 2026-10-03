@@ -858,6 +858,56 @@
       "source_url": "https://www.sundayfolk.com/liveinfo/8cdfdjm"
     },
     {
+      "id": "ja-dreams-come-true-black-album-tour-fukuoka-20260425",
+      "name": "DREAMS COME TRUE CONCERT TOUR 2026 THE BLACK ◯ ALBUM 福岡公演",
+      "release_date": "2026-04-25",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "マリンメッセ福岡A館"
+      ],
+      "developer": "DREAMS COME TRUE",
+      "publisher": "キョードー西日本",
+      "description": "DREAMS COME TRUE（ドリームズ・カム・トゥルー）が最新アルバム『THE BLACK ◯ ALBUM』を携えた全国ツアー「DREAMS COME TRUE CONCERT TOUR 2026 THE BLACK ◯ ALBUM」の福岡公演として、マリンメッセ福岡A館で2日間にわたり開催された公演。初日は開場15:30、開演17:00で行われた。チケットは指定席12,000円、注釈付指定席および立見が各11,000円（いずれも税込）で、3歳以上は有料入場という設定だった。福岡公演の問い合わせはキョードー西日本が担当した。",
+      "genres": [
+        "J-POP",
+        "ポップス",
+        "ツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://basecamp.jp.net/schedule/10756/",
+      "presale": false,
+      "general_sale": false,
+      "updated_at": "2026-10-03"
+    },
+    {
+      "id": "ja-dreams-come-true-black-album-tour-fukuoka-20260426",
+      "name": "DREAMS COME TRUE CONCERT TOUR 2026 THE BLACK ◯ ALBUM 福岡公演",
+      "release_date": "2026-04-26",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "マリンメッセ福岡A館"
+      ],
+      "developer": "DREAMS COME TRUE",
+      "publisher": "キョードー西日本",
+      "description": "DREAMS COME TRUE（ドリームズ・カム・トゥルー）が最新アルバム『THE BLACK ◯ ALBUM』を携えた全国ツアー「DREAMS COME TRUE CONCERT TOUR 2026 THE BLACK ◯ ALBUM」の福岡公演として、マリンメッセ福岡A館で2日間にわたり開催された公演。2日目は開場15:30、開演17:00で行われた。チケットは指定席12,000円、注釈付指定席および立見が各11,000円（いずれも税込）で、3歳以上は有料入場という設定だった。福岡公演の問い合わせはキョードー西日本が担当した。",
+      "genres": [
+        "J-POP",
+        "ポップス",
+        "ツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://basecamp.jp.net/schedule/10756/",
+      "presale": false,
+      "general_sale": false,
+      "updated_at": "2026-10-03"
+    },
+    {
       "id": "ja-njp-670-triphony-20260509",
       "name": "新日本フィルハーモニー交響楽団 第670回 定期演奏会〈トリフォニーホール・シリーズ〉",
       "release_date": "2026-05-09",
