@@ -1159,6 +1159,138 @@
         "agency": "할리우드 레코드",
         "members": "솔로",
         "debut": null
+      },
+      "노브레인": {
+        "text": "노브레인은 1996년 서울 홍대 클럽 '드럭'을 기반으로 결성된 한국 1세대 펑크록 밴드다. 크라잉넛과 함께 조선펑크 씬을 상징하는 팀으로 꼽히며, 거친 연주에 직설적인 한국어 가사를 얹은 스타일로 꾸준히 활동해 왔다. 보컬 이성우를 중심으로 멤버 교체를 거치며 현재까지 라이브 무대를 이어가고 있다.",
+        "agency": "록스타뮤직",
+        "members": "3인조",
+        "debut": "1996(결성)"
+      },
+      "다비치": {
+        "text": "다비치는 이해리와 강민경으로 구성된 2인조 보컬 듀오다. 팀명은 '다 비추다'에서 따온 것으로, 2008년 데뷔 이후 발라드를 중심으로 꾸준한 음원 성적을 기록해 왔다. 여성 듀오로는 드물게 장기간 활동을 이어오며 드라마 OST와 듀엣곡에서도 폭넓게 호흡을 맞췄다.",
+        "agency": "웨이크원",
+        "members": "2인조",
+        "debut": "2008.02.22"
+      },
+      "리갈릴리": {
+        "text": "리갈릴리는 2014년 결성된 일본의 3인조 밴드로, 보컬·기타 다카하시 호노카를 중심으로 활동한다. 몽환적인 기타 사운드와 문학적인 가사가 특징이며, 소니뮤직 계열 Ki/oon Music에 소속돼 있다. 애니메이션 주제가 참여를 통해 국내에도 팬층을 넓혔다.",
+        "agency": "Ki/oon Music",
+        "members": "3인조",
+        "debut": "2015(인디)"
+      },
+      "멜로망스": {
+        "text": "멜로망스는 보컬 김민석과 피아노 정동환으로 구성된 2인조 팀이다. 피아노를 중심으로 한 담백한 편곡과 담담한 보컬이 특징이며, '선물', '사랑인가 봐' 등이 꾸준히 사랑받았다. 2015년 미니앨범 'Sentimental'로 데뷔했다.",
+        "agency": "어비스컴퍼니",
+        "members": "2인조",
+        "debut": "2015.03.10"
+      },
+      "무라사키 이마": {
+        "text": "무라사키 이마(紫 今)는 작사·작곡·편곡은 물론 아트워크와 뮤직비디오까지 직접 다루는 일본의 싱어송라이터다. 가스펠과 아프리카 음악의 영향을 받은 허스키한 음색과 넓은 음역이 특징으로, 2023년 디지털 발매를 시작한 뒤 '마성의 여자A' 등이 SNS에서 크게 확산됐다. 2025년 첫 정규 앨범 'eMulsion'을 발표했다.",
+        "agency": "소니뮤직",
+        "members": "솔로",
+        "debut": "2023"
+      },
+      "볼빨간사춘기": {
+        "text": "볼빨간사춘기는 2016년 하프 앨범 'Red Ickle'로 데뷔한 팀으로, 데뷔 몇 달 뒤 '우주를 줄게'가 역주행하며 이름을 알렸다. 담백한 어쿠스틱 편곡에 또래의 감정을 담은 가사로 폭넓은 공감을 얻었다. 결성 당시 2인조였으나 2020년 이후 안지영 1인 체제로 활동하고 있다.",
+        "agency": "쇼파르뮤직",
+        "members": "솔로(안지영)",
+        "debut": "2016.04"
+      },
+      "부활": {
+        "text": "부활은 기타리스트 김태원이 이끄는 한국 록 밴드로, 1986년 1집 'Rock Will Never Die'로 데뷔했다. '희야', '비와 당신의 이야기', '네버엔딩 스토리' 등을 남겼고, 이승철·박완규·정동하 등 여러 보컬을 거치면서도 팀명처럼 활동을 이어왔다. 40년 가까이 현역으로 남아 있는 한국 록의 대표적인 장수 밴드다.",
+        "agency": null,
+        "members": null,
+        "debut": "1986"
+      },
+      "세로": {
+        "text": "세로(cero)는 2004년 결성된 일본 도쿄의 3인조 밴드로, 팀명은 'Contemporary Exotica Rock Orchestra'의 약자다. 재즈·펑크·라틴 등을 끌어와 조립한 편곡으로 2010년대 시티팝 재평가 흐름에서 핵심적인 존재로 꼽힌다. 독립 레이블 카쿠바리즘을 기반으로 활동한다.",
+        "agency": "카쿠바리즘",
+        "members": "3인조",
+        "debut": "2004(결성)"
+      },
+      "아노": {
+        "text": "아노(ano)는 아이돌 그룹 '유루메루모!' 출신으로 2020년부터 솔로 활동을 시작한 일본의 싱어송라이터다. 독특한 음색과 예상을 비껴가는 곡 구성, 방송 활동까지 겸한 폭넓은 존재감으로 주목받았다. 2022년 토이즈팩토리를 통해 메이저 데뷔했다.",
+        "agency": "TOY'S FACTORY",
+        "members": "솔로",
+        "debut": "2022(메이저)"
+      },
+      "오모이노타케": {
+        "text": "오모이노타케는 시마네현 출신 동창 3인이 2012년 결성한 일본 밴드다. 블랙뮤직을 바탕으로 한 연주에 멜랑콜리한 멜로디를 얹은 스타일로, 'THE FIRST TAKE' 출연 이후 폭넓은 세대의 지지를 얻었다. 2021년 EP 'EVERBLUE'로 메이저 데뷔했다.",
+        "agency": "소니뮤직",
+        "members": "3인조",
+        "debut": "2021.11.17(메이저)"
+      },
+      "유키 구라모토": {
+        "text": "유키 구라모토는 일본을 대표하는 뉴에이지 피아니스트이자 작곡가다. 단정하고 서정적인 선율로 1980년대부터 꾸준히 앨범을 발표해 왔으며, 특히 한국에서 큰 인기를 얻어 수십 년간 내한 공연을 이어오고 있다.",
+        "agency": null,
+        "members": "솔로",
+        "debut": "1986"
+      },
+      "윤마치": {
+        "text": "윤마치(MRCH)는 직접 곡을 쓰고 프로듀싱까지 하는 한국의 인디 싱어송라이터다. 2019년 EP 'Let's March!'로 솔로 데뷔했으며, 이후 'Love & Fear', 'Oh, Life' 등을 통해 담담한 전자음과 솔직한 가사를 결합한 색깔을 다져왔다. 트와이스·있지·엔믹스 등 다른 아티스트의 곡 작업에도 참여하고 있다.",
+        "agency": null,
+        "members": "솔로",
+        "debut": "2019.08.14"
+      },
+      "자젠보이즈": {
+        "text": "자젠보이즈는 밴드 넘버걸 해산 후 무카이 슈토쿠가 2003년 결성한 일본 록 밴드다. 끊어지듯 조여드는 리프와 반복되는 일본어 가사, 예측하기 어려운 리듬 전환이 특징이다. 무카이가 직접 세운 MATSURI STUDIO를 거점으로 활동한다.",
+        "agency": "MATSURI STUDIO",
+        "members": "4인조",
+        "debut": "2003(결성)"
+      },
+      "장한별": {
+        "text": "장한별은 2011년 그룹 레드애플의 메인보컬로 데뷔한 가수다. 말레이시아 등 동남아에서 먼저 이름을 알린 뒤 솔로곡과 OST를 이어왔고, 2026년 트로트 경연 프로그램 '무명전설'에서 TOP3에 오르며 국내 인지도를 넓혔다.",
+        "agency": null,
+        "members": "솔로",
+        "debut": "2011"
+      },
+      "정한 X 조슈아": {
+        "text": "정한 X 조슈아는 세븐틴의 보컬 라인 두 멤버가 꾸린 유닛이다. 그룹 활동과는 다른 결의 발라드·미디엄 템포 곡을 중심으로 두 사람의 음색 조화를 앞세운다. 2025년 첫 미니앨범 'DREAMSCAPE'를 발표했다.",
+        "agency": "플레디스엔터테인먼트",
+        "members": "2인",
+        "debut": "2025.10.19(유닛)"
+      },
+      "조용필 & 위대한탄생": {
+        "text": "조용필은 1968년 데뷔해 '돌아와요 부산항에', '창밖의 여자', '단발머리', '바운스' 등을 남기며 '가왕'으로 불려 온 한국 대중음악의 상징적인 가수다. 위대한탄생은 오랜 기간 그의 무대를 함께해 온 전속 밴드로, 두 이름을 나란히 건 전국투어는 조용필 콘서트의 오랜 형식이다.",
+        "agency": null,
+        "members": null,
+        "debut": "1968(조용필)"
+      },
+      "타카세 토야": {
+        "text": "타카세 토야는 직접 곡을 쓰고 프로듀싱도 맡는 일본의 싱어송라이터다. 자신이 대표로 있는 레이블 겸 매니지먼트 TTT inc.를 기반으로 활동하며, 소속 아티스트의 음악 제작에도 참여하고 있다. 아시아 투어를 돌며 국외 팬층을 넓히고 있다.",
+        "agency": "TTT inc.",
+        "members": "솔로",
+        "debut": null
+      },
+      "펜트하우스": {
+        "text": "펜트하우스(Penthouse)는 2018년 도쿄대학 밴드 서클에서 만난 멤버들이 결성한 일본의 시티소울 밴드다. '일상을 조금 멋스럽게 물들이는 음악'을 내세워 SNS 기반 커버·오리지널 곡으로 이름을 알렸고, 남녀 트윈 보컬과 탄탄한 연주력이 특징이다. 2021년 메이저 데뷔했다.",
+        "agency": null,
+        "members": "5인조",
+        "debut": "2021(메이저)"
+      },
+      "폴 길버트": {
+        "text": "폴 길버트는 속주와 정확한 피킹으로 잘 알려진 미국의 기타리스트다. 밴드 레이서 엑스를 거쳐 미스터 빅의 기타리스트로 세계적인 인기를 얻었고, 솔로로도 꾸준히 앨범을 내며 기타 교육 콘텐츠로도 영향을 끼쳤다.",
+        "agency": null,
+        "members": "솔로",
+        "debut": null
+      },
+      "플로우": {
+        "text": "플로우(FLOW)는 1998년 결성된 일본의 5인조 록 밴드로, 2003년 싱글 'Blaster'로 메이저 데뷔했다. '나루토', '천원돌파 그렌라간' 등 애니메이션 주제가로 특히 널리 알려졌으며, 두 명의 보컬이 주고받는 구성이 특징이다. 애니송 중심의 월드 투어를 꾸준히 이어오고 있다.",
+        "agency": "Ki/oon Music",
+        "members": "5인조",
+        "debut": "2003.07(메이저)"
+      },
+      "험프백": {
+        "text": "험프백(Hump Back)은 오사카 출신 3인조 걸 밴드로, 고교 경음악부를 계기로 2009년 결성됐다. 보컬·기타 하야시 모모코를 중심으로 직선적인 8비트 록과 생활의 감정을 담은 가사를 앞세운다. 2016년 현재 라인업을 갖춘 뒤 전국 라이브를 이어오고 있다.",
+        "agency": null,
+        "members": "3인조",
+        "debut": "2009(결성)"
+      },
+      "후지이 카제": {
+        "text": "후지이 카제는 오카야마현 출신의 일본 싱어송라이터로, 어린 시절부터 가족 가게에서 피아노 연주 영상을 올리며 주목받았다. 2020년 '난난w' 공개와 1집 'HELP EVER HURT NEVER'로 메이저 데뷔해 큰 반향을 얻었고, 재즈·R&B·가요를 두루 흡수한 폭넓은 음악성과 피아노 연주를 앞세운 라이브로 평가받는다.",
+        "agency": "HEHN RECORDS",
+        "members": "솔로",
+        "debut": "2020"
       }
     },
     "en": {
@@ -2283,6 +2415,126 @@
         "agency": null,
         "members": null,
         "debut": null
+      },
+      "5 Seconds of Summer": {
+        "text": "5 Seconds of Summer are an Australian pop-rock band formed in Sydney in 2011, made up of Luke Hemmings, Michael Clifford, Calum Hood and Ashton Irwin. They built an early following by posting covers online before touring arenas worldwide, and have since moved from pop-punk toward a broader alternative-pop sound across albums such as Youngblood and CALM.",
+        "agency": null,
+        "members": "4-piece",
+        "debut": "2011"
+      },
+      "AKMU": {
+        "text": "AKMU (Akdong Musician) is a South Korean sibling duo made up of Lee Chan-hyuk and Lee Su-hyun. They won the second season of K-pop Star on the strength of Lee Chan-hyuk's self-written songs and debuted under YG Entertainment in 2014. Their work is known for playful, literate lyrics paired with acoustic, folk-leaning arrangements.",
+        "agency": "YG Entertainment",
+        "members": "Duo",
+        "debut": "2014.04"
+      },
+      "Charlie Puth": {
+        "text": "Charlie Puth is an American singer, songwriter and producer who first drew attention through YouTube before breaking through with the global hit 'See You Again' in 2015. He writes, produces and mixes much of his own material, and is known for melodic pop built on precise harmony and pitch.",
+        "agency": "Atlantic Records",
+        "members": "Solo",
+        "debut": "2015"
+      },
+      "DAVICHI": {
+        "text": "Davichi are a South Korean vocal duo made up of Lee Hae-ri and Kang Min-kyung, who debuted in 2008. Working mainly in ballads, they have remained one of Korea's longest-running female duos and are a familiar presence on drama soundtracks.",
+        "agency": "WAKEONE",
+        "members": "Duo",
+        "debut": "2008.02.22"
+      },
+      "FLOW": {
+        "text": "FLOW are a Japanese five-piece rock band formed in 1998 who made their major-label debut in 2003 with the single 'Blaster'. They are best known internationally for anime theme songs, including work for Naruto and Gurren Lagann, and are distinguished by a twin-vocal lineup. The band tours worldwide on anime-song bills.",
+        "agency": "Ki/oon Music",
+        "members": "5-piece",
+        "debut": "2003.07"
+      },
+      "Fujii Kaze": {
+        "text": "Fujii Kaze is a Japanese singer-songwriter from Okayama who grew up playing piano and posting cover videos online. He made his major-label debut in 2020, and his first album HELP EVER HURT NEVER established him as one of Japan's most distinctive young artists. His writing draws on jazz, R&B and Japanese popular song, and his live shows centre on his own piano playing.",
+        "agency": "HEHN RECORDS",
+        "members": "Solo",
+        "debut": "2020"
+      },
+      "HIGHLIGHT": {
+        "text": "Highlight are a South Korean boy group who originally debuted in 2009 as BEAST and relaunched under the Highlight name in 2017. Now a four-member group, they are known for polished mid-tempo pop and for continuing to tour and release together well over a decade after their first debut.",
+        "agency": "Around Us Entertainment",
+        "members": "4-piece",
+        "debut": "2017.03.20"
+      },
+      "JEONGHAN X JOSHUA": {
+        "text": "Jeonghan X Joshua is a unit formed by two vocalists from the South Korean group SEVENTEEN. The pairing leans toward ballads and mid-tempo material that foregrounds the blend of their voices, apart from the group's usual performance-driven sound. They released their first mini album, DREAMSCAPE, in 2025.",
+        "agency": "PLEDIS Entertainment",
+        "members": "Duo",
+        "debut": "2025.10.19"
+      },
+      "Kenny G": {
+        "text": "Kenny G is an American saxophonist whose melodic, radio-friendly instrumental records made him one of the best-selling instrumentalists in history. Albums such as Duotones and Breathless brought smooth jazz to a mass pop audience, and he continues to tour internationally.",
+        "agency": null,
+        "members": "Solo",
+        "debut": "1982"
+      },
+      "Khalid": {
+        "text": "Khalid is an American singer and songwriter who broke through as a teenager with 'Location' and the 2017 album American Teen. His music pairs a warm, unhurried vocal delivery with R&B and pop production, often writing about youth, distance and small-town restlessness.",
+        "agency": "RCA Records",
+        "members": "Solo",
+        "debut": "2017"
+      },
+      "Malcolm Todd": {
+        "text": "Malcolm Todd is an American singer-songwriter who built an audience through self-released bedroom-pop recordings before signing with a major label. His songs mix loose, groove-led production with conversational vocals, and he has grown quickly from online releases to headline touring.",
+        "agency": "Columbia Records",
+        "members": "Solo",
+        "debut": null
+      },
+      "Omoinotake": {
+        "text": "Omoinotake are a Japanese three-piece formed in 2012 by school friends from Shimane Prefecture. They build on a Black-music foundation with melancholy melodies, and reached a wide audience after appearing on THE FIRST TAKE. The band made their major-label debut in 2021 with the EP EVERBLUE.",
+        "agency": "Sony Music",
+        "members": "3-piece",
+        "debut": "2021.11.17"
+      },
+      "YUURI": {
+        "text": "Yuuri is a Japanese singer-songwriter who began by posting street performances and covers before breaking through with the ballad 'Dry Flower', one of the biggest Japanese streaming hits of its era. He writes his own material, and is known for a rough-edged voice applied to plainly worded songs about relationships.",
+        "agency": "Sony Music Labels",
+        "members": "Solo",
+        "debut": "2020"
+      },
+      "Zara Larsson": {
+        "text": "Zara Larsson is a Swedish pop singer who first became known in her home country as a child talent-show winner before building an international career. Her singles, including 'Lush Life' and 'Never Forget You', pair dance-pop production with a powerful, direct vocal style.",
+        "agency": "Sommer House / Epic Records",
+        "members": "Solo",
+        "debut": "2013"
+      },
+      "MAX CHANGMIN": {
+        "text": "Max Changmin is a South Korean singer and one half of the long-running duo TVXQ, which debuted in 2003. He began releasing solo material in 2020, working in a jazzier, more vocally exposed register than his group output, and also performs in musical theatre.",
+        "agency": "SM Entertainment",
+        "members": "Solo",
+        "debut": "2020"
+      },
+      "Hwang Minhyun": {
+        "text": "Hwang Minhyun is a South Korean singer and actor who debuted with the group NU'EST and later performed as part of Wanna One. He began a solo career in 2023, favouring restrained pop and ballads, and has also built a parallel career in television drama.",
+        "agency": "PLEDIS Entertainment",
+        "members": "Solo",
+        "debut": "2023"
+      },
+      "SUNG HANBIN": {
+        "text": "Sung Hanbin is a South Korean singer and the leader of the group ZEROBASEONE, which debuted in 2023 after he placed first in the survival show Boys Planet. He is known as a dancer and centre performer within the group.",
+        "agency": "WAKEONE",
+        "members": "Solo",
+        "debut": "2023.07.10"
+      },
+      "&TEAM": {
+        "text": "&TEAM are a Japan-based boy group formed through the audition programme &AUDITION and launched by HYBE's Japanese label in December 2022. Their releases are built around a continuing narrative concept, and they perform mainly in Japanese and Korean.",
+        "agency": "HYBE LABELS JAPAN",
+        "members": "9-piece",
+        "debut": "2022.12"
+      },
+      "NEXZ": {
+        "text": "NEXZ are a boy group formed through Nizi Project Season 2, a joint audition between JYP Entertainment and Sony Music in Japan. They debuted in 2024 and release in both Korean and Japanese, following the training-and-debut model JYP established with NiziU.",
+        "agency": "JYP Entertainment Japan",
+        "members": "7-piece",
+        "debut": "2024"
+      },
+      "DOMi & JD BECK": {
+        "text": "DOMi & JD BECK are a duo of keyboardist Domitille Degalle and drummer JD Beck, who met as teenagers and built a following through short clips of their extraordinarily fast, tightly locked playing. Their 2022 debut album NOT TiGHT, released with Anderson .Paak's involvement, placed them at the centre of a younger jazz audience.",
+        "agency": "APESHIT / Blue Note",
+        "members": "Duo",
+        "debut": "2022"
       }
     },
     "ja": {
@@ -3371,6 +3623,90 @@
         "agency": null,
         "members": "2人組",
         "debut": null
+      },
+      "DREAMS COME TRUE": {
+        "text": "DREAMS COME TRUEは1988年に結成された日本のユニットで、吉田美和のボーカルと中村正人のベース・作曲を軸に活動する。ポップスにソウルやファンクの要素を織り込んだ楽曲と、大規模なワンダーランド公演で長年にわたり支持を集めてきた。",
+        "agency": null,
+        "members": "2人組",
+        "debut": "1989.03.21"
+      },
+      "Da-iCE": {
+        "text": "Da-iCEは2011年に結成された5人組ダンス&ボーカルグループで、ツインボーカルとダンサー3人という編成が特徴。2014年にメジャーデビューし、「CITRUS」のヒットを経て幅広い層に知られるようになった。楽曲制作にもメンバー自身が深く関わっている。",
+        "agency": "ユニバーサルミュージック",
+        "members": "5人組",
+        "debut": "2014.09.10"
+      },
+      "Kis-My-Ft2": {
+        "text": "Kis-My-Ft2は2011年にシングル「Everybody Go」でメジャーデビューしたグループで、ローラースケートを取り入れたパフォーマンスで知られる。メンバーそれぞれが音楽・演技・バラエティと幅広く活動し、デビュー以来アリーナ・ドーム規模のツアーを重ねてきた。",
+        "agency": "STARTO ENTERTAINMENT",
+        "members": null,
+        "debut": "2011.08.10"
+      },
+      "DJ KRUSH": {
+        "text": "DJ KRUSHは日本のヒップホップDJ・トラックメイカーで、1980年代後半から活動する。重低音とアブストラクトな音響処理を軸にしたインストゥルメンタル作品で国際的に評価され、海外アーティストとの共作も数多い。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": "1994"
+      },
+      "Iron Maiden": {
+        "text": "アイアン・メイデンは1975年にロンドンで結成されたイギリスのヘヴィメタルバンド。ツインギターによる疾走感のある構成と、歴史や文学を題材にした長尺曲で知られ、NWOBHMを象徴する存在となった。マスコットキャラクター「エディ」を掲げた大規模なステージ演出も特徴。",
+        "agency": null,
+        "members": "6人組",
+        "debut": "1980"
+      },
+      "Jason Mraz": {
+        "text": "ジェイソン・ムラーズはアメリカのシンガーソングライター。アコースティックギターを軸にした軽やかな歌い回しと、「I'm Yours」などのヒット曲で世界的に知られる。カフェのライブから叩き上げたキャリアを背景に、長年ソロでツアーを続けている。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": "2002"
+      },
+      "Wolf Alice": {
+        "text": "ウルフ・アリスはロンドン出身の4人組バンド。エリー・ロウセルのボーカルを中心に、ドリームポップからグランジ的な激しさまで振幅の大きいサウンドを行き来する。2作目『Visions of a Life』でマーキュリー・プライズを受賞した。",
+        "agency": "Dirty Hit",
+        "members": "4人組",
+        "debut": "2015"
+      },
+      "tofubeats": {
+        "text": "tofubeatsは神戸を拠点とするトラックメイカー・プロデューサー。10代からインターネット上で作品を発表し、2013年にメジャーデビューした。ハウスやR&Bを基調にしたポップな楽曲と、幅広いゲストボーカルを迎えた客演で知られる。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": "2013"
+      },
+      "東京スカパラダイスオーケストラ": {
+        "text": "東京スカパラダイスオーケストラは1985年に結成された日本のインストゥルメンタル・バンド。ホーンセクションを前面に出したスカを核に、ロックやラテンを取り込んだ演奏で知られる。多数のボーカリストを客演に迎えた作品群と、長年にわたるライブ活動で世代を越えた支持を得ている。",
+        "agency": null,
+        "members": null,
+        "debut": "1989"
+      },
+      "HANA": {
+        "text": "HANAはちゃんみなとBMSGによるオーディション『No No Girls』から誕生した7人組ガールズグループ。2025年の最終審査でメンバーが決定し、同年4月にメジャーデビューした。既存のアイドル像にとらわれない表現と、メンバー個々の声質の違いを前に出した楽曲が特徴。",
+        "agency": "BMSG",
+        "members": "7人組",
+        "debut": "2025.04.02"
+      },
+      "ACEes": {
+        "text": "ACEesは2025年2月に発表された5人組グループで、浮所飛貴・那須雄登・佐藤龍我・作間龍斗・深田竜生で構成される。それぞれ別のグループで活動してきたメンバーが再編を経て集まった編成で、全国ツアーを軸に活動を広げている。",
+        "agency": "STARTO ENTERTAINMENT",
+        "members": "5人組",
+        "debut": "2025(結成)"
+      },
+      "STARGLOW": {
+        "text": "STARGLOWはオーディション番組『THE LAST PIECE』から誕生したBMSGの5人組ダンス&ボーカルグループ。2025年9月にメンバーが決定し、プレデビュー曲「Moonchaser」を経て2026年1月にメジャーデビューした。BE:FIRST、MAZZELに続く同レーベル3組目のボーイズグループにあたる。",
+        "agency": "BMSG",
+        "members": "5人組",
+        "debut": "2026.01.21"
+      },
+      "KID FRESINO": {
+        "text": "KID FRESINOは日本のラッパー・トラックメイカー。ヒップホップを出発点に、バンド編成でのライブやジャズ・オルタナティブとの往復を重ね、作品ごとに手法を変えてきた。自身のラップだけでなく他アーティストのトラック制作でも知られる。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": null
+      },
+      "Aile The Shota": {
+        "text": "Aile The Shotaは東京を拠点とする日本のシンガーソングライター。R&Bとヒップホップを基調にした歌とラップを行き来するスタイルで、2021年から本格的に作品を発表している。同世代のプロデューサーやラッパーとの客演も多い。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": "2021"
       }
     }
   }
