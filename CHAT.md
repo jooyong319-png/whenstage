@@ -1,26 +1,36 @@
-## 2026-10-02 · ko
+## [2026-10-05 09:20] [KO 리서처]
+리서치 완료 (한국 국내 공연)
+- 콘서트/내한 6→2, 음원발매 0→0, 페스티벌 1→0, 팬미팅 1→0 (후보→통과)
+- 신규 2개 / 갱신 3개 / 백필 2개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리 76건 중 0건 등재 — `leads.ko.jsonl` 전량이 이미 `concerts.ko.json`에 등재돼 있어 신규 후보 없음(날짜 + 아티스트/공연명 토큰 매칭으로 재확인)
+- 과거 백필 2개 → **공연장 색인전환 2개**(영남대학교, 김해문화의전당) / 기존 공연장 보강 0개
+  → 여기에 기존 항목 공연장 확정으로 **세종대학교도 1건→2건 색인전환**. 이로써 ko의 1건짜리 공연장이 **0개**가 됐다
+- 티켓팅 진행중 4개 (추가 +4 / 해제 -0) — 원어스·올아워즈·공유 선예매/일반예매 일시 확정 반영
+- description 보강 3개 (공연장 확정에 맞춰 재서술)
+- 총 등록 288개
 
-로테이션상 ko가 가장 오래된 점검일(2026-09-25)이라 선택. 대상 창: 2026-08-03 ~ 2026-12-01(오늘 ±60일), 창 안 항목 200건(끝난 것 120 / 예정 80). 코드는 손대지 않았고 `data/concerts.ko.json`만 수정(파일 상단 `last_updated` 2026-10-02). push 전 `validate-data.mjs` 통과. 지난 회차들과 같이 AGENTS.md §4-5를 따라 **실제로 고친 24건에만 `updated_at=2026-10-02`**, 항목 단위 `last_updated`는 넣지 않음.
+**신규 (예정 공연)**
+- `ko-parkjinyoung-wet-seoul-20261224` 2026 박진영 연말 콘서트 'WET' — 12/24~26 올림픽공원(올림픽홀), 주최 JYP엔터테인먼트. 노컷뉴스·싱글리스트·뉴스엔·topstarnews 일치(10/3 보도)
+- `ko-binyeseo-gift-seoul-20261227` 2026 빈예서 연말 콘서트 '선물' — 12/27 코엑스아티움(우리은행홀) 13시·18시 2회, 주최 예음문화콘텐츠, NOL 10/6 14시 오픈. 스포츠경향·국제뉴스·조이뉴스24 일치(10/2 보도)
 
-**트랙 A (졸업 처리) — 20건** (상한 20 도달)
-- A-1/A-2 끝난 공연에 남은 예매 필드 2건(§7대로 `presale`/`general_sale=false` + URL·datetime null): ko-silicagel-syn-the-size-seoul-20260926, ko-takuyakimura-checkpoint-seoul-20260926
-- A-3: 창 안 끝난 항목 중 approx=true 없음
-- A-4 description 시제 교정 20건(위 2건 포함, 비음원 항목 우선·있는 문장의 시제만 과거형 — 새 사실 추가 없음):
-  위 2건 + ko-redoor-memory-seoul-20260926, ko-okf2026-orjet-kpop-festa-20260926("2차 라인업… 공개될 예정이다" → "예정이었다"), ko-crossgene-cross-the-line-20260808("될 전망이다" → "공연으로 기획됐다"), ko-choiyena-isegye-movie-seoul-20260822, ko-janghaneum-i-and-i-seoul-20260822, ko-limyoungwoong-imhero10-20260908, ko-nct127-7th-album-20260824, ko-unchild-tingting-20260902, ko-oneus-first-light-20260923(10월 투어 문장은 아직 미래라 유지), ko-ourbirthday-debut-single-20260819, ko-minzy-new-single-20260928, ko-closeyoureyes-comeback-20260930, ko-rose-new-trick-20260918, ko-lesserafim-made-my-night-20260911, ko-iu-i-byeollobuteo-20260910, ko-pentagon-geopjaengi-20260911, ko-kissoflife-sweat-20260804, ko-artms-hyper-ego-20260807
+**갱신 (공연장 미공개 → 확정)**
+- `ko-oneus-full-moon-seoul-20261024` → 세종대학교(대양홀), 10/24 18시·10/25 17시, 티켓링크 단독 9/30 20시 오픈 (싱글리스트·스타뉴스)
+- `ko-allhours-rise-up-seoul-20261010` → 성신여자대학교(운정그린캠퍼스 대강당), NOL 선예매 9/21 20시·일반 9/22 20시 (rnx·topstarnews·allkpop)
+- `ko-gongyoo-the-long-take-seoul-20261128` → 연세대학교(신촌캠퍼스 대강당), 티켓링크 선예매 10/27 20시·일반 10/29 20시 (싱글리스트 10/3·스타데일리뉴스)
 
-**트랙 B (임박 점검) — 8건 확인** (10/3 개막 항목 중 `updated_at` 없는 것, 9/25 회차에 본 busan-rock·edc·leehi·postmalone 제외)
-- ko-letsrock-festival-2026-20261003 — 10/3~4 난지한강공원 정상, 양일 12:00~21:00(스포츠경향/NOL 티켓). B-4 보강: `release_time` 12:00, `general_sale=true`인데 비어 있던 `general_sale_url` → NOL 티켓 상품 26010980
-- ko-andteam-blaze-the-way-encore-seoul-20261003 — 10/3~4 KSPO DOME 정상(스포츠경향/NOL). 변경 없음
-- ko-choiyuree-stay-seoul-20261003 — 10/3~4 장충체육관 정상(iMBC/NOL). 이미 지난 예매 오픈 문장 시제만 교정
-- ko-leo-muse-fanmeeting-seoul-20261003 — 취소·변경 소식 없음(9/7 포스터 공개 기사). 지난 선예매 문장 시제만 교정
-- ko-sandeul-baramgyeol-seoul-20261003 — 10/3 18시·4일 17시 블루스퀘어 정상(NOL). 지난 예매 문장 시제만 교정
-- ko-nakajimakento-idol1st-kenty-seoul-20261003 — 10/3~4 올림픽홀 정상(세계일보/스포츠경향). 시작 시각은 확인 못 해 `release_time` null 유지
-- ko-persona-live-tour-resonance-seoul-20261003 — 10/3 예스24 라이브홀 정상(Inven Global/RPG Site). 시작 시각 미확인 → 변경 없음
-- ko-verivery-give-me-five-seoul-20261003 — 10/3~4 KBS아레나 정상(iMBC/namanecard). 변경 없음
-- B-3 링크: 예매처는 샌드박스에서 직접 열지 않고 검색으로 판매·개최 진행 교차 확인 → 죽은 링크로 단정한 것 없음
+**과거 백필 (AGENTS.md §7)**
+- `ko-lucy-island-daegu-20260711` ［대구］2026 LUCY 9TH CONCERT 〈ISLAND〉 — 7/11 18시·7/12 16시 영남대학교(천마아트센터 그랜드홀), 주최·기획 위얼라이브. 예스24 공식 상세페이지(Perf/58602) + StagePick. 포스터 430×602 실측 검증 후 등재
+- `ko-kimkyungho-ballad-gimhae-20260718` ［김해］2026 김경호 전국투어 '발라드를 위한 時' — 7/18 15시·18시30분 김해문화의전당(마루홀). NOL 공식 상세페이지(26008384) + 김경호 공식 사이트. 포스터 750×1000 실측 검증 후 등재
+- 백필 2건 모두 `release_date_approx:false` / 티켓팅 필드 비움 / 과거 시제 서술 / 등재 직전 `release_date`가 오늘(2026-10-05)보다 과거임 확인
 
-**남은 것**: A-4 music_release 시제("발매한다/공개한다"류) 약 20건 이월 — ko-dawn-too-much-20260807, ko-kiiikiii-whykiiikiii-20260810, ko-axmxp-hello-axmxp-20260812, ko-astro-mj-right-20260819, ko-atheart-3-4-20260819, ko-kimjaejoong-the-wave-single-20260820, ko-tiffanyyoung-edge-of-calm-20260820, ko-eungaeun-jeonguk-paldo-20260824, ko-tuide-tune-and-play-20260824, ko-kimkitae-namu-gabang-20260826, ko-taemin-phase1-soft-violence-20260831, ko-82major-heat-20260901, ko-shinwonho-super-star-20260902, ko-plave-flame-milet-20260903, ko-evan-death-of-me-20260907, ko-kimheejae-reverb-20260907, ko-soyeon-solo-comeback-20260910, ko-inaminute-midnight-20260909, ko-allhours-unbound-20260910, ko-youngtak-gogo-20260914. 트랙 B 다음 순번: ko-xmf-2026-20261003, ko-youngtak-tak-show5-seoul-20261003, ko-jogwanwoo-autumn-miracle-bucheon-20261004, ko-zaralarsson-midnight-sun-seoul-20261004부터
-**리서처 참고(추가 안 함)**: 신규 미등록 공연 발견 없음. ko-okf2026 / ko-letsrock / ko-busan-rock 등 다일 페스티벌의 `festival_days` 공란 — 리서처 보강 권장(렛츠락은 3일 나씽 벗 띠브스·넬, 4일 자우림·국카스텐 등 요일별 라인업 공개됨)
+[검증 탈락]
+- 도자 캣(Doja Cat) 첫 내한 '12월 13일 킨텍스 제2전시장 10홀': **연도 불일치**. 검색 상위 출처인 보그 기사가 2025-08-22 작성이고 국민일보 기사는 "13일 킨텍스에서 첫 내한 공연을 열었다"는 과거 시제 — 2025년 12월 공연 기사가 재유통된 것으로 판단. 2026년 개최 근거 없어 등재 보류
+- BTS 월드투어(ARIRANG / "Beyond the Horizon"): 투어 명칭이 출처마다 엇갈리고, 한국 공연분으로 제시된 일정(고양 2026-04, 부산 2026-06)이 모두 과거이며 1차 출처 확인 불가 → 예정 공연 트랙 등재 보류
+- 김창완밴드 전국투어 시즌4 '하루' 김해(2026-06-20 추정): 예매처 상품페이지 1건 외 독립 출처로 날짜 재확인 실패 → 다음 사이클 백필 후보로 이월
+- NFlying '&CON5 : into REM' 전국투어(리드): 리드 일정(2026-08 대구·부산·광주)이 전부 과거이고 이미 등재돼 있어 신규 대상 아님
+
+[이번 실행 사고 기록]
+- CHAT.md 로그를 `/tmp/log.md`에 쓰려다 **다른 에이전트가 남긴 동명의 stale 파일**(2026-10-02 감사 로그, 소유자 nobody)에 쓰기가 막혀, 그 옛 내용이 CHAT.md 맨 위에 중복 prepend된 커밋(f936580)을 한 번 push했다. 곧바로 되돌리고 이 로그로 교체했다. 이후 실행에서는 임시 파일을 `$D/.scratch` 아래에 쓸 것 — `/tmp` 공용 경로는 다른 에이전트와 충돌한다.
 
 ---
 
