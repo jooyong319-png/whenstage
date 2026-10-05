@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-02",
+  "last_updated": "2026-10-05",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -2281,7 +2281,7 @@
       ],
       "developer": "Foo Fighters",
       "publisher": "Live Nation",
-      "description": "Foo Fighters open their 2026 Take Cover Tour on August 6 at Ford Field in Detroit, kicking off a stadium run that stretches to September 26 at Allegiant Stadium in Las Vegas. Queens of the Stone Age serve as direct support across the trek, which stops at NFL stadiums and ballparks including Soldier Field, Lincoln Financial Field and Nissan Stadium. Tickets for the Detroit opener and other dates are on sale through Ticketmaster.",
+      "description": "Foo Fighters opened their 2026 Take Cover Tour on August 6 at Ford Field in Detroit, kicking off a stadium run that stretched to September 26 at Allegiant Stadium in Las Vegas. Queens of the Stone Age served as direct support across the trek, which stopped at NFL stadiums and ballparks including Soldier Field, Lincoln Financial Field and Nissan Stadium. Tickets for the Detroit opener and other dates were sold through Ticketmaster.",
       "genres": [
         "Rock",
         "Tour"
@@ -2290,7 +2290,8 @@
       "source_url": "https://www.ticketmaster.com/foo-fighters-tickets/artist/776005",
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "updated_at": "2026-10-05"
     },
     {
       "id": "en-laufey-a-matter-of-time-sydney-20260807",
@@ -2438,7 +2439,7 @@
       ],
       "developer": "MAMAMOO",
       "publisher": null,
-      "description": "All four members of MAMAMOO - Solar, Moonbyul, Whee In and Hwasa - reunite for a seven-arena American run that opens August 12 at UBS Arena in Belmont Park, New York. The tour then visits Chicago, Fort Worth, Cedar Park, Los Angeles and San Jose before closing August 30 at the accesso ShoWare Center in Kent, Washington. It is the group's first US touring since the 2023 My Con world tour.",
+      "description": "All four members of MAMAMOO - Solar, Moonbyul, Whee In and Hwasa - reunited for a seven-arena American run that opened August 12 at UBS Arena in Belmont Park, New York. The tour then visited Chicago, Fort Worth, Cedar Park, Los Angeles and San Jose before closing August 30 at the accesso ShoWare Center in Kent, Washington. It was the group's first US touring since the 2023 My Con world tour.",
       "genres": [
         "K-pop",
         "Tour"
@@ -2446,7 +2447,8 @@
       "image_url": null,
       "source_url": "https://www.billboard.com/music/pop/mamamoo-dates-2026-us-reunion-tour-1236236788/",
       "general_sale": false,
-      "presale": false
+      "presale": false,
+      "updated_at": "2026-10-05"
     },
     {
       "id": "en-king-gizzard-alien-metal-20260814",
@@ -2554,14 +2556,15 @@
       ],
       "developer": "BTS",
       "publisher": "BIGHIT MUSIC / HYBE",
-      "description": "BTS return to the road with their 'ARIRANG' world tour, the group's first outing with all seven members since their military service. The Arlington run brings two stadium shows to AT&T Stadium on August 15 and 16, 2026, both starting at 8:00 PM. These Texas dates are part of a sprawling 2026-2027 tour of roughly 79 shows across 34 regions. Both nights sold out during the initial January on-sale, so seats are now only available through resale.",
+      "description": "BTS returned to the road with their 'ARIRANG' world tour, the group's first outing with all seven members since their military service. The Arlington run brought two stadium shows to AT&T Stadium on August 15 and 16, 2026, both starting at 8:00 PM. These Texas dates are part of a sprawling 2026-2027 tour of roughly 79 shows across 34 regions. Both nights sold out during the initial January on-sale, so seats were only available through resale.",
       "genres": [
         "K-pop",
         "Concert",
         "World Tour"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/BTS_during_a_White_House_press_conference_May_31%2C_2022_%28cropped%29.jpg/330px-BTS_during_a_White_House_press_conference_May_31%2C_2022_%28cropped%29.jpg",
-      "source_url": "https://attstadium.com/events/bts-world-tour-2/"
+      "source_url": "https://attstadium.com/events/bts-world-tour-2/",
+      "updated_at": "2026-10-05"
     },
     {
       "id": "en-garth-brooks-blame-it-all-on-my-roots-indianapolis-20260820",
@@ -2576,7 +2579,7 @@
       ],
       "developer": "Garth Brooks",
       "publisher": null,
-      "description": "Garth Brooks opens the Blame It All On My Roots Tour with four nights at Gainbridge Fieldhouse in Indianapolis, August 20 through 23, 2026. The first show starts at 7:30 PM, the Friday and Saturday dates at 8:00 PM, and the run finishes with a Sunday matinee at 2:00 PM. The arena tour revives the rotating drum pod staging Brooks used through the 1990s, and the shows form the basis of a live recording project. Every seat was sold at a flat $154 when tickets went up on July 17.",
+      "description": "Garth Brooks opened the Blame It All On My Roots Tour with four nights at Gainbridge Fieldhouse in Indianapolis, August 20 through 23, 2026. The first show started at 7:30 PM, the Friday and Saturday dates at 8:00 PM, and the run finished with a Sunday matinee at 2:00 PM. The arena tour revives the rotating drum pod staging Brooks used through the 1990s, and the shows form the basis of a live recording project. Every seat was sold at a flat $154 when tickets went up on July 17.",
       "genres": [
         "Country",
         "Concert"
@@ -2586,7 +2589,8 @@
       "presale": false,
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "updated_at": "2026-10-05"
     },
     {
       "id": "en-brandon-flowers-thrasher-20260821",
@@ -2674,7 +2678,7 @@
         "Hiram Bithorn Stadium, San Juan, Puerto Rico"
       ],
       "developer": "Bad Bunny",
-      "description": "Bad Bunny closes the Debi Tirar Mas Fotos World Tour with two hometown nights at Hiram Bithorn Stadium in San Juan, and this is the first of them. The billing, Cerramos en Casa, translates as we close at home, bringing the global run back to the Puerto Rico residency that started the album cycle in 2025. Tickets went on sale August 19 through PR Ticket.",
+      "description": "Bad Bunny closed the Debi Tirar Mas Fotos World Tour with two hometown nights at Hiram Bithorn Stadium in San Juan, and this was the first of them. The billing, Cerramos en Casa, translates as we close at home, bringing the global run back to the Puerto Rico residency that started the album cycle in 2025. Tickets went on sale August 19 through PR Ticket.",
       "genres": [
         "Reggaeton",
         "Latin",
@@ -2683,7 +2687,8 @@
       "source_url": "https://news.pollstar.com/2026/08/18/cerrando-en-casa-bad-bunny-returning-to-puerto-rico-for-final-shows-of-debi-tirar-mas-fotos-tour/",
       "presale": false,
       "general_sale": false,
-      "general_sale_datetime": null
+      "general_sale_datetime": null,
+      "updated_at": "2026-10-05"
     },
     {
       "release_time": null,
@@ -2699,7 +2704,7 @@
         "Hiram Bithorn Stadium, San Juan, Puerto Rico"
       ],
       "developer": "Bad Bunny",
-      "description": "Bad Bunny closes the Debi Tirar Mas Fotos World Tour with two hometown nights at Hiram Bithorn Stadium in San Juan, and this is the second and final of them. The billing, Cerramos en Casa, translates as we close at home, bringing the global run back to the Puerto Rico residency that started the album cycle in 2025. Tickets went on sale August 19 through PR Ticket.",
+      "description": "Bad Bunny closed the Debi Tirar Mas Fotos World Tour with two hometown nights at Hiram Bithorn Stadium in San Juan, and this was the second and final of them. The billing, Cerramos en Casa, translates as we close at home, bringing the global run back to the Puerto Rico residency that started the album cycle in 2025. Tickets went on sale August 19 through PR Ticket.",
       "genres": [
         "Reggaeton",
         "Latin",
@@ -2708,7 +2713,8 @@
       "source_url": "https://news.pollstar.com/2026/08/18/cerrando-en-casa-bad-bunny-returning-to-puerto-rico-for-final-shows-of-debi-tirar-mas-fotos-tour/",
       "presale": false,
       "general_sale": false,
-      "general_sale_datetime": null
+      "general_sale_datetime": null,
+      "updated_at": "2026-10-05"
     },
     {
       "id": "en-weird-al-yankovic-bigger-and-weirder-bridgeport-20260825",
@@ -2771,7 +2777,7 @@
       ],
       "developer": "Bon Jovi",
       "publisher": "Live Nation",
-      "description": "Bon Jovi cross the Atlantic for a short stadium run after their July residency at Madison Square Garden, opening August 28 at Scottish Gas Murrayfield in Edinburgh and playing Croke Park in Dublin on August 30. The leg closes with three nights at Wembley Stadium in London on September 4, 6 and 9. These are the band's first extensive shows since Jon Bon Jovi underwent vocal cord surgery.",
+      "description": "Bon Jovi crossed the Atlantic for a short stadium run after their July residency at Madison Square Garden, opening August 28 at Scottish Gas Murrayfield in Edinburgh and playing Croke Park in Dublin on August 30. The leg closed with three nights at Wembley Stadium in London on September 4, 6 and 9. These were the band's first extensive shows since Jon Bon Jovi underwent vocal cord surgery.",
       "genres": [
         "Rock",
         "Tour"
@@ -2779,7 +2785,8 @@
       "image_url": null,
       "source_url": "https://consequence.net/2025/10/bon-jovi-2026-tour-dates/",
       "general_sale": false,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "updated_at": "2026-10-05"
     },
     {
       "id": "en-dinosaur-jr-there-near-20260828",
@@ -3925,7 +3932,7 @@
       ],
       "developer": "Audrey Hobert",
       "publisher": null,
-      "description": "Audrey Hobert extends The Staircase To Stardom Tour into autumn with the biggest headline rooms of her career, opening the final leg at Brooklyn Paramount on September 29, 2026. The run announced in late July continues through Nashville's Ryman Auditorium, two nights at Chicago's Riviera Theatre and Oakland's Fox Theater, and is built around her debut album Who's The Clown?. She also plays both weekends of Austin City Limits in October.",
+      "description": "Audrey Hobert extended The Staircase To Stardom Tour into autumn with the biggest headline rooms of her career, opening the final leg at Brooklyn Paramount on September 29, 2026. The run announced in late July continues through Nashville's Ryman Auditorium, two nights at Chicago's Riviera Theatre and Oakland's Fox Theater, and is built around her debut album Who's The Clown?. She also plays both weekends of Austin City Limits in October.",
       "genres": [
         "Pop",
         "Tour"
@@ -3933,10 +3940,10 @@
       "image_url": null,
       "source_url": "https://www.nylon.com/entertainment/audrey-hobert-staircase-to-stardom-tour-new-dates-tickets",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-07-31T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/audrey-hobert-tickets/artist/3919869",
-      "updated_at": "2026-09-28"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-05"
     },
     {
       "release_time": "20:00",
@@ -3952,16 +3959,16 @@
         "Hollywood Bowl, Los Angeles, CA"
       ],
       "developer": "Erykah Badu, The Alchemist, Smino",
-      "description": "Erykah Badu and The Alchemist close their LIVE: A September Tour at the Hollywood Bowl on September 29, 2026. Smino supports the Los Angeles date rather than De La Soul, who accompany most of the run. The tour marks the first extended live outing behind the duo's collaborative album, which arrived August 28 via Control FREAQ and Young Recordings.",
+      "description": "Erykah Badu and The Alchemist closed their LIVE: A September Tour at the Hollywood Bowl on September 29, 2026. Smino supported the Los Angeles date rather than De La Soul, who accompanied most of the run. The tour marked the first extended live outing behind the duo's collaborative album, which arrived August 28 via Control FREAQ and Young Recordings.",
       "genres": [
         "R&B",
         "Hip-Hop",
         "Tour"
       ],
       "source_url": "https://consequence.net/2026/06/erykah-badu-2026-tour-dates/",
-      "general_sale": true,
-      "general_sale_url": "https://www.ticketmaster.com/erykah-badu-tickets/artist/781503",
-      "updated_at": "2026-09-28"
+      "general_sale": false,
+      "general_sale_url": null,
+      "updated_at": "2026-10-05"
     },
     {
       "id": "en-erykah-badu-alchemist-los-angeles-20260929",
@@ -3976,7 +3983,7 @@
       ],
       "developer": "Erykah Badu, The Alchemist, De La Soul, Smino",
       "publisher": null,
-      "description": "Erykah Badu and The Alchemist close their 2026 North American tour at the Hollywood Bowl on September 29, with De La Soul and Smino joining the bill. The Los Angeles finale caps a September run that began at Ravinia Festival and passed through Detroit, Toronto, Cleveland, New York, Denver and Berkeley, spotlighting the duo's newly released collaborative album.",
+      "description": "Erykah Badu and The Alchemist closed their 2026 North American tour at the Hollywood Bowl on September 29, with De La Soul and Smino joining the bill. The Los Angeles finale capped a September run that began at Ravinia Festival and passed through Detroit, Toronto, Cleveland, New York, Denver and Berkeley, spotlighting the duo's newly released collaborative album.",
       "genres": [
         "R&B",
         "Hip-Hop",
@@ -3984,8 +3991,8 @@
       ],
       "image_url": null,
       "source_url": "https://consequence.net/2026/06/erykah-badu-2026-tour-dates/",
-      "general_sale": true,
-      "updated_at": "2026-09-28"
+      "general_sale": false,
+      "updated_at": "2026-10-05"
     },
     {
       "id": "en-ringo-starr-all-starr-band-queens-20261001",
@@ -4000,7 +4007,7 @@
       ],
       "developer": "Ringo Starr & His All Starr Band",
       "publisher": null,
-      "description": "Ringo Starr and His All Starr Band bring their fall 2026 North American run to Forest Hills Stadium in Queens, New York on October 1, 2026. The ten-date trek opens September 24 in Easton, Pennsylvania and wraps October 7 in Albany. The 2026 lineup features Steve Lukather, Colin Hay, Warren Ham, Hamish Stuart, Gregg Bissonette and Buck Johnson. General tickets went on sale July 10, 2026 at 10 a.m. local time through Ticketmaster.",
+      "description": "Ringo Starr and His All Starr Band brought their fall 2026 North American run to Forest Hills Stadium in Queens, New York on October 1, 2026. The ten-date trek opened September 24 in Easton, Pennsylvania and wraps October 7 in Albany. The 2026 lineup features Steve Lukather, Colin Hay, Warren Ham, Hamish Stuart, Gregg Bissonette and Buck Johnson. General tickets went on sale July 10, 2026 at 10 a.m. local time through Ticketmaster.",
       "genres": [
         "Rock",
         "Classic Rock",
@@ -4008,10 +4015,10 @@
       ],
       "image_url": null,
       "source_url": "https://news.pollstar.com/2026/07/06/ringo-starr-and-his-all-starr-band-announce-fall-dates/",
-      "general_sale": true,
-      "general_sale_datetime": "2026-07-10T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/ringo-starr-and-his-all-starr-tickets/artist/863651",
-      "updated_at": "2026-09-28"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-05"
     },
     {
       "id": "en-rush-fifty-something-houston-20261001",
@@ -4035,9 +4042,9 @@
       "image_url": null,
       "source_url": "https://www.rush.com/4-new-rush-2026-tour-dates-added/",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-09-04T10:00:00-05:00",
-      "updated_at": "2026-09-28"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "updated_at": "2026-10-05"
     },
     {
       "id": "en-schoolboy-q-blank-face-10-years-atlanta-20261001",
@@ -4052,7 +4059,7 @@
       ],
       "developer": "ScHoolboy Q",
       "publisher": "Live Nation",
-      "description": "ScHoolboy Q begins the 10 Years of Blank Face LP Tour at the Tabernacle in Atlanta on October 1, 2026. The ten-city run marks the tenth anniversary of his fourth studio album, which reached number two on the Billboard 200 and earned a Best Rap Album Grammy nomination. Stops include Brooklyn Paramount, Washington DC, two Los Angeles nights and a Las Vegas finale on October 17.",
+      "description": "ScHoolboy Q began the 10 Years of Blank Face LP Tour at the Tabernacle in Atlanta on October 1, 2026. The ten-city run marks the tenth anniversary of his fourth studio album, which reached number two on the Billboard 200 and earned a Best Rap Album Grammy nomination. Stops include Brooklyn Paramount, Washington DC, two Los Angeles nights and a Las Vegas finale on October 17.",
       "genres": [
         "Hip-Hop",
         "Rap",
@@ -4060,15 +4067,15 @@
       ],
       "image_url": null,
       "source_url": "https://consequence.net/2026/08/schoolboy-q-2026-blank-face-lp-anniversary-tour-dates/",
-      "presale": true,
-      "presale_datetime": "2026-08-04T10:00:00-04:00",
+      "presale": false,
+      "presale_datetime": null,
       "presale_end_datetime": null,
-      "presale_url": "https://www.ticketmaster.com/schoolboy-q-tickets/artist/1553249",
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-07T10:00:00-04:00",
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://www.ticketmaster.com/schoolboy-q-tickets/artist/1553249",
-      "updated_at": "2026-09-28"
+      "general_sale_url": null,
+      "updated_at": "2026-10-05"
     },
     {
       "id": "en-sugarland-ride-or-die-st-augustine-20261001",
@@ -4083,16 +4090,17 @@
       ],
       "developer": "Sugarland",
       "publisher": null,
-      "description": "Sugarland open The Ride Or Die Tour on October 1, 2026 at the St. Augustine Amphitheatre in Florida. The 26-city American run marks the twentieth anniversary of Enjoy the Ride, the album that carried Settlin' and Want To and established Jennifer Nettles and Kristian Bush as country's leading duo. The routing crosses the Southeast, the upper Midwest and the Northeast before finishing November 21 in Grand Prairie, Texas. An artist presale opened August 12, 2026.",
+      "description": "Sugarland opened The Ride Or Die Tour on October 1, 2026 at the St. Augustine Amphitheatre in Florida. The 26-city American run marks the twentieth anniversary of Enjoy the Ride, the album that carried Settlin' and Want To and established Jennifer Nettles and Kristian Bush as country's leading duo. The routing crosses the Southeast, the upper Midwest and the Northeast before finishing November 21 in Grand Prairie, Texas. An artist presale opened August 12, 2026.",
       "genres": [
         "Country",
         "Concert"
       ],
       "image_url": null,
       "source_url": "https://news.pollstar.com/2026/08/13/sugarland-announces-the-ride-or-die-tour-this-fall/",
-      "presale": true,
-      "presale_datetime": "2026-08-12T10:00:00-04:00",
-      "general_sale": false
+      "presale": false,
+      "presale_datetime": null,
+      "general_sale": false,
+      "updated_at": "2026-10-05"
     },
     {
       "id": "en-austin-city-limits-festival-20261002",
@@ -4132,7 +4140,7 @@
         "Xfinity Mobile Arena, Philadelphia, PA"
       ],
       "developer": "Jonas Brothers, Magnus Ferrell, Deleasa",
-      "description": "The Jonas Brothers bring The Burning Up Tour All Over Again to Xfinity Mobile Arena in Philadelphia on October 2, 2026, one of 45 North American arena stops on the Live Nation run that grew out of their sold-out Madison Square Garden celebrations in August 2026. The show revisits the 2008 Burning Up Tour that broke Kevin, Joe and Nick Jonas nationally, rebuilt for arenas nearly two decades later. Magnus Ferrell and Deleasa joins as support.",
+      "description": "The Jonas Brothers brought The Burning Up Tour All Over Again to Xfinity Mobile Arena in Philadelphia on October 2, 2026, one of 45 North American arena stops on the Live Nation run that grew out of their sold-out Madison Square Garden celebrations in August 2026. The show revisited the 2008 Burning Up Tour that broke Kevin, Joe and Nick Jonas nationally, rebuilt for arenas nearly two decades later. Magnus Ferrell and Deleasa joined as support.",
       "genres": [
         "Pop",
         "Pop Rock",
@@ -4140,9 +4148,10 @@
       ],
       "source_url": "https://www.xfinitymobilearena.com/news/detail/jonas-brothers-bring-the-burning-up-tour-all-over-again-to-45-cities-across-north-america-this-fall",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-21T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/event/3000650DC6AE59EC"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-05"
     },
     {
       "id": "en-phish-fall-tour-atlantic-city-20261002",
@@ -4157,7 +4166,7 @@
       ],
       "developer": "Phish",
       "publisher": null,
-      "description": "Phish opens its October 2026 tour with the first of three consecutive nights at Jim Whelan Boardwalk Hall in Atlantic City on October 2. The eight-show October run covers Atlantic City, Richmond, Jacksonville and Huntsville, with Jacksonville marking the band's first Florida date since 2016. A ticket request period through the band's own ticketing site runs until noon ET on August 10, and remaining tickets reach the general public on August 14 at 10 a.m. ET.",
+      "description": "Phish opened its October 2026 tour with the first of three consecutive nights at Jim Whelan Boardwalk Hall in Atlantic City on October 2. The eight-show October run covers Atlantic City, Richmond, Jacksonville and Huntsville, with Jacksonville marking the band's first Florida date since 2016. A ticket request period through the band's own ticketing site ran until noon ET on August 10, and remaining tickets reached the general public on August 14 at 10 a.m. ET.",
       "genres": [
         "Jam Band",
         "Rock",
@@ -4165,12 +4174,13 @@
       ],
       "image_url": null,
       "source_url": "https://phish.com/news/october-tourdates-announced/",
-      "presale": true,
-      "general_sale": true,
-      "presale_end_datetime": "2026-08-10T12:00:00-04:00",
-      "presale_url": "https://tickets.phish.com",
-      "general_sale_datetime": "2026-08-14T10:00:00-04:00",
-      "general_sale_url": "https://phish.com/tours/"
+      "presale": false,
+      "general_sale": false,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-05"
     },
     {
       "id": "en-post-malone-big-stadium-seoul-20261002",
@@ -4260,7 +4270,7 @@
       ],
       "developer": "&TEAM",
       "publisher": null,
-      "description": "&TEAM close their BLAZE THE WAY tour with encore shows at KSPO Dome in Seoul on October 3 and 4, 2026. The HYBE Labels Japan group announced the dates as a surprise during the July 5 encore of their Inspire Arena run in Incheon. Having already played Belluna Dome in Japan, the nine members become the first Japanese boy group to headline solo dome shows in both countries. A Korean mini album arrives alongside the concerts.",
+      "description": "&TEAM closed their BLAZE THE WAY tour with encore shows at KSPO Dome in Seoul on October 3 and 4, 2026. The HYBE Labels Japan group announced the dates as a surprise during the July 5 encore of their Inspire Arena run in Incheon. Having already played Belluna Dome in Japan, the nine members became the first Japanese boy group to headline solo dome shows in both countries. A Korean mini album was set to arrive alongside the concerts.",
       "genres": [
         "K-Pop",
         "J-Pop",
@@ -4268,8 +4278,8 @@
       ],
       "image_url": null,
       "source_url": "https://sports.khan.co.kr/en/article/202607061916007/",
-      "updated_at": "2026-09-22",
-      "general_sale": true,
+      "updated_at": "2026-10-05",
+      "general_sale": false,
       "related_locale_ids": {
         "ko": "ko-andteam-blaze-the-way-encore-seoul-20261003"
       }
@@ -4287,7 +4297,7 @@
       ],
       "developer": null,
       "publisher": "Insomniac Events",
-      "description": "Insomniac brings Electric Daisy Carnival back to Korea on October 3 and 4, 2026 at the Inspire Entertainment Resort in Incheon, a short ride from Incheon International Airport. More than 70 acts play four stages, with Tiesto, DJ Snake, Fisher, Alok, Sara Landry, Subtronics, SVDDEN DEATH and ILLENIUM b2b DABIN leading the bill. Stage takeovers come from Basscon, Bassrush Experience, Electrik Seoul and Insomniac Records.",
+      "description": "Insomniac brought Electric Daisy Carnival back to Korea on October 3 and 4, 2026 at the Inspire Entertainment Resort in Incheon, a short ride from Incheon International Airport. More than 70 acts were billed across four stages, with Tiesto, DJ Snake, Fisher, Alok, Sara Landry, Subtronics, SVDDEN DEATH and ILLENIUM b2b DABIN leading the bill. Stage takeovers came from Basscon, Bassrush Experience, Electrik Seoul and Insomniac Records.",
       "genres": [
         "EDM",
         "Electronic",
@@ -4295,8 +4305,8 @@
       ],
       "image_url": null,
       "source_url": "https://djmag.com/news/edc-korea-2026-full-line-announced",
-      "updated_at": "2026-09-22",
-      "general_sale": true,
+      "updated_at": "2026-10-05",
+      "general_sale": false,
       "related_locale_ids": {
         "ko": "ko-edc-korea-2026-20261003"
       }
@@ -4314,7 +4324,7 @@
       ],
       "developer": null,
       "publisher": "Private Curve",
-      "description": "Korea's longest-running indie and rock festival marks its twentieth edition across two days at Nanji Hangang Park on the Han River in western Seoul, October 3 and 4, 2026. UK headliners Nothing But Thieves lead the international side of the bill, alongside Korean rock institutions Jaurim, Nell, Guckkasten, Crying Nut, No Brain and Galaxy Express. The riverside site is reachable on Seoul Metro Line 6, and blind tickets sold out within minutes of going on sale in July.",
+      "description": "Korea's longest-running indie and rock festival marked its twentieth edition across two days at Nanji Hangang Park on the Han River in western Seoul, October 3 and 4, 2026. UK headliners Nothing But Thieves lead the international side of the bill, alongside Korean rock institutions Jaurim, Nell, Guckkasten, Crying Nut, No Brain and Galaxy Express. The riverside site is reachable on Seoul Metro Line 6, and blind tickets sold out within minutes of going on sale in July.",
       "genres": [
         "Rock",
         "Indie",
@@ -4322,8 +4332,8 @@
       ],
       "image_url": null,
       "source_url": "https://sports.khan.co.kr/en/article/202607311827007/",
-      "updated_at": "2026-09-29",
-      "general_sale": true,
+      "updated_at": "2026-10-05",
+      "general_sale": false,
       "festival_days": [
         {
           "date": "2026-10-03",
@@ -4360,16 +4370,16 @@
       ],
       "developer": "Zara Larsson",
       "publisher": "Live Nation Korea",
-      "description": "Swedish pop singer Zara Larsson brings the Asian leg of her Midnight Sun Tour to Seoul for two nights at Myunghwa Live Hall on October 4 and 5, 2026. The run supports her fifth album Midnight Sun and follows earlier European dates that began in Munich in October 2025. Live Nation Korea promotes the shows and sells tickets through its Korean site, which offers an English-language checkout that overseas visitors can use without a Korean ID number.",
+      "description": "Swedish pop singer Zara Larsson brought the Asian leg of her Midnight Sun Tour to Seoul for two nights at Myunghwa Live Hall on October 4 and 5, 2026. The run supports her fifth album Midnight Sun and follows earlier European dates that began in Munich in October 2025. Live Nation Korea promotes the shows and sells tickets through its Korean site, which offers an English-language checkout that overseas visitors can use without a Korean ID number.",
       "genres": [
         "Pop",
         "Concert"
       ],
       "image_url": null,
       "source_url": "https://www.livenation.kr/en/event/zara-larsson-midnight-sun-tour-seoul-tickets-edp1680726",
-      "updated_at": "2026-09-29",
-      "general_sale": true,
-      "general_sale_url": "https://www.livenation.kr/en/event/zara-larsson-midnight-sun-tour-seoul-tickets-edp1680726",
+      "updated_at": "2026-10-05",
+      "general_sale": false,
+      "general_sale_url": null,
       "related_locale_ids": {
         "ko": "ko-zaralarsson-midnight-sun-seoul-20261004"
       }
@@ -4427,7 +4437,7 @@
       "id": "en-phish-fall-tour-richmond-20261006",
       "name": "Phish: October 2026 Tour - Richmond (Night 1)",
       "release_date": "2026-10-06",
-      "release_time": null,
+      "release_time": "19:00",
       "release_date_approx": false,
       "timezone": "America/New_York",
       "category": "concert_tour",
@@ -4436,7 +4446,7 @@
       ],
       "developer": "Phish",
       "publisher": null,
-      "description": "Phish plays the first of two nights at Allianz Amphitheater at Riverfront in Richmond on October 6, 2026, following the three-night Atlantic City opening. The eight-show October run covers Atlantic City, Richmond, Jacksonville and Huntsville, with Jacksonville marking the band's first Florida date since 2016. A ticket request period through the band's own ticketing site runs until noon ET on August 10, and remaining tickets reach the general public on August 14 at 10 a.m. ET.",
+      "description": "Phish plays the first of two nights at Allianz Amphitheater at Riverfront in Richmond on October 6, 2026, following the three-night Atlantic City opening. The eight-show October run covers Atlantic City, Richmond, Jacksonville and Huntsville, with Jacksonville marking the band's first Florida date since 2016. A ticket request period through the band's own ticketing site ran until noon ET on August 10, and remaining tickets reached the general public on August 14 at 10 a.m. ET.",
       "genres": [
         "Jam Band",
         "Rock",
@@ -4449,7 +4459,8 @@
       "presale_end_datetime": "2026-08-10T12:00:00-04:00",
       "presale_url": "https://tickets.phish.com",
       "general_sale_datetime": "2026-08-14T10:00:00-04:00",
-      "general_sale_url": "https://phish.com/tours/"
+      "general_sale_url": "https://phish.com/tours/",
+      "updated_at": "2026-10-05"
     },
     {
       "id": "en-beyond-the-music-2026-salford-20261007",
@@ -4557,7 +4568,7 @@
       "id": "en-wynonna-judd-hard-truth-new-york-20261008",
       "name": "Wynonna Judd: The Hard Truth Tour - New York",
       "release_date": "2026-10-08",
-      "release_time": null,
+      "release_time": "20:00",
       "release_date_approx": false,
       "timezone": "America/New_York",
       "category": "concert_tour",
@@ -4580,7 +4591,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-08-07T10:00:00-04:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://www.livenation.com/artist/K8vZ9171aKf/wynonna-judd-events"
+      "general_sale_url": "https://www.livenation.com/artist/K8vZ9171aKf/wynonna-judd-events",
+      "updated_at": "2026-10-05"
     },
     {
       "id": "en-zz-top-the-big-one-nashville-20261008",
