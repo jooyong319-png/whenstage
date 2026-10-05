@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-02",
+  "last_updated": "2026-10-05",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -4113,21 +4113,25 @@
       "release_date_approx": false,
       "timezone": "Asia/Seoul",
       "category": "concert_tour",
-      "platforms": [],
+      "platforms": [
+        "성신여자대학교(운정그린캠퍼스 대강당)"
+      ],
       "developer": "올아워즈(ALL(H)OURS)",
       "publisher": "이든엔터테인먼트",
-      "description": "올아워즈가 10월 10일 서울에서 데뷔 후 첫 월드투어 'RISE UP'의 문을 연다. 8월 14일 공식 SNS에 티징 포스터가 공개되며 투어 개최가 알려졌고, 서울 공연을 시작으로 11월 유럽, 2027년 1월 북미로 무대를 넓힌다. 투어에 앞서 9월 10일 미니 6집 'UNBOUND'를 발매하고 첫 공식 응원봉도 선보인다. 서울 공연장과 예매 일정은 아직 공개되지 않아 추가 공지를 기다려야 한다.",
+      "description": "올아워즈가 10월 10일 서울 성북구 성신여자대학교 운정그린캠퍼스 대강당에서 데뷔 후 첫 월드투어 'RISE UP'의 문을 연다. 8월 공식 SNS 티징 포스터로 투어가 알려졌고, 9월 발매한 미니 6집 'UNBOUND' 수록곡과 기존 대표곡을 함께 꺼내 놓는 무대로 꾸려진다. 티켓은 NOL에서 9월 21일 오후 8시 팬클럽 선예매, 22일 오후 8시 일반 예매로 순차 열렸으며 서울 공연을 시작으로 11월 유럽, 2027년 1월 북미로 일정이 이어진다.",
       "genres": [
         "K-POP",
         "콘서트",
         "월드투어"
       ],
       "image_url": null,
-      "source_url": "https://sports.khan.co.kr/article/202608151010003",
-      "presale": false,
-      "general_sale": false,
-      "general_sale_datetime": null,
-      "general_sale_url": null
+      "source_url": "https://www.rnx.kr/news/articleView.html?idxno=894452",
+      "presale": true,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-22T20:00:00+09:00",
+      "general_sale_url": null,
+      "presale_datetime": "2026-09-21T20:00:00+09:00",
+      "updated_at": "2026-10-05"
     },
     {
       "id": "ko-charlieputh-whatevers-clever-goyang-20261011",
@@ -4315,20 +4319,25 @@
       "id": "ko-oneus-full-moon-seoul-20261024",
       "name": "2026 ONEUS WORLD TOUR 'FULL MOON' IN SEOUL",
       "release_date": "2026-10-24",
-      "release_time": null,
+      "release_time": "18:00",
       "release_date_approx": false,
       "timezone": "Asia/Seoul",
       "category": "concert_tour",
-      "platforms": [],
+      "platforms": [
+        "세종대학교(대양홀)"
+      ],
       "developer": "원어스(ONEUS)",
-      "publisher": null,
-      "description": "원어스가 소속사를 옮긴 뒤 처음으로 여는 월드투어의 개막 공연이다. 서울 공연은 10월 24일과 25일 이틀간 열리며, 이후 남미와 유럽, 북미, 아시아로 이어지는 일정이 예고돼 있다. 그룹은 7월 30일 공식 SNS에 1차 포스터를 올리며 투어 개최를 알렸고, 공연장과 예매 일정은 아직 공개되지 않아 추후 공식 채널을 통해 안내될 예정이다.",
+      "publisher": "라이브웍스컴퍼니",
+      "description": "원어스가 소속사를 옮긴 뒤 처음 여는 월드투어의 개막 공연으로, 10월 24일 오후 6시와 25일 오후 5시 두 차례 서울 광진구 세종대학교 대양홀 무대에 오른다. 군 복무를 마친 서호가 합류해 다섯 멤버가 완전체로 서는 첫 공연이며, 9월 발매한 미니 12집 'FIRST LIGHT : 井' 수록곡을 중심으로 기존 투어와 다른 구성의 세트리스트를 준비했다. 티켓은 9월 30일 오후 8시 티켓링크에서 단독 판매로 열렸고, 서울 이후 중남미·유럽·북미·아시아 21개 도시로 투어가 이어진다.",
       "genres": [
         "K-POP",
         "월드투어"
       ],
       "image_url": null,
-      "source_url": "https://www.tenasia.co.kr/article/2026073174404"
+      "source_url": "https://www.slist.kr/news/articleView.html?idxno=769767",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-30T20:00:00+09:00",
+      "updated_at": "2026-10-05"
     },
     {
       "id": "ko-sosubin-neulgeuraewaetdeon-seoul-20261024",
@@ -4585,16 +4594,23 @@
       "release_date_approx": false,
       "timezone": "Asia/Seoul",
       "category": "fanmeeting",
-      "platforms": [],
+      "platforms": [
+        "연세대학교(신촌캠퍼스 대강당)"
+      ],
       "developer": "공유",
       "publisher": "매니지먼트 숲",
-      "description": "배우 공유가 데뷔 26년 만에 처음 여는 아시아 팬미팅 투어 'The Long Take'의 마지막 도시로 11월 28일 서울 무대에 오른다. 투어는 10월 4일 요코하마를 시작으로 방콕(10월 10일), 자카르타(10월 17일), 마카오(11월 7일), 마닐라(11월 21일)를 거쳐 서울로 이어지는 6개 도시 일정이다. 서울 공연장과 예매 일정은 소속사 매니지먼트 숲을 통해 추후 공개된다.",
+      "description": "배우 공유가 데뷔 26년 만에 처음 여는 아시아 팬미팅 투어 'The Long Take'의 마지막 도시로 11월 28일 서울 서대문구 연세대학교 신촌캠퍼스 대강당 무대에 오른다. 투어는 10월 4일 요코하마를 시작으로 방콕·자카르타·마카오·마닐라를 거쳐 서울로 이어지는 6개 도시 일정이며, 포문을 연 요코하마 공연은 전석 매진됐다. 서울 공연 티켓은 티켓링크에서 10월 27일 오후 8시 사전 인증을 마친 팬카페 회원 선예매, 29일 오후 8시 일반 예매로 열린다.",
       "genres": [
         "팬미팅",
         "배우"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Gong_Yoo_in_2021_-_3.png",
-      "source_url": "https://www.tenasia.co.kr/article/2026073177024"
+      "source_url": "https://www.slist.kr/news/articleView.html?idxno=770788",
+      "presale": true,
+      "presale_datetime": "2026-10-27T20:00:00+09:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-29T20:00:00+09:00",
+      "updated_at": "2026-10-05"
     },
     {
       "id": "ko-kanaboon-critical-hit-parade-seoul-20261205",
@@ -7254,6 +7270,115 @@
       "general_sale_end_datetime": null,
       "general_sale_url": null,
       "updated_at": "2026-10-01"
+    },
+    {
+      "id": "ko-parkjinyoung-wet-seoul-20261224",
+      "name": "2026 박진영 연말 콘서트 'WET'",
+      "release_date": "2026-12-24",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "올림픽공원(올림픽홀)"
+      ],
+      "developer": "박진영(J.Y. Park)",
+      "publisher": "JYP엔터테인먼트",
+      "description": "박진영이 12월 24일부터 26일까지 사흘간 서울 송파구 올림픽공원 올림픽홀에서 연말 단독 콘서트 'WET'을 연다. 공연명은 그의 신곡 제목에서 따왔고, 한겨울에 카리브해의 여름을 옮겨 놓은 듯한 연출로 관객이 입장하는 순간부터 해변에 온 느낌을 받도록 구성했다는 것이 소속사 JYP엔터테인먼트의 설명이다. 박진영은 파티·1위곡·그루브·80년대·30주년 등 해마다 다른 테마로 연말 단독 공연을 열어 왔으며, 서울 일정을 마친 뒤 2027년 1월 30~31일 일본 도쿄 카나데비아 홀로 무대를 옮긴다.",
+      "genres": [
+        "K-POP",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://nocutnews.co.kr/news/6586940",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-05"
+    },
+    {
+      "id": "ko-binyeseo-gift-seoul-20261227",
+      "name": "2026 빈예서 연말 콘서트 '선물'",
+      "release_date": "2026-12-27",
+      "release_time": "13:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "코엑스아티움(우리은행홀)"
+      ],
+      "developer": "빈예서",
+      "publisher": "예음문화콘텐츠",
+      "description": "트로트 가수 빈예서가 12월 27일 서울 강남구 코엑스아티움 우리은행홀에서 연말 단독 콘서트 '선물'을 연다. 오후 1시와 오후 6시 두 차례로 나뉘어 진행되며, 한 해 동안 응원해 준 팬들에게 감사를 전하는 자리로 마련됐다. 공연 제목에는 연말에 빈예서와 관객이 서로에게 특별한 선물이 된다는 뜻이 담겼다. 정통 트로트에서 보여 온 짙은 감성과 밝고 흥겨운 무대를 한자리에 모은 구성이 예고됐고, 티켓은 10월 6일 오후 2시 NOL에서 열린다.",
+      "genres": [
+        "트로트",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://sports.khan.co.kr/article/202610021621003",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-06T14:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-05"
+    },
+    {
+      "id": "ko-lucy-island-daegu-20260711",
+      "name": "［대구］ 2026 LUCY 9TH CONCERT 〈ISLAND〉",
+      "release_date": "2026-07-11",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "영남대학교(천마아트센터 그랜드홀)"
+      ],
+      "developer": "루시(LUCY)",
+      "publisher": "위얼라이브",
+      "description": "루시가 7월 11일과 12일 경산 영남대학교 천마아트센터 그랜드홀에서 아홉 번째 단독 콘서트 'ISLAND'의 대구 공연을 열었다. 11일은 오후 6시, 12일은 오후 4시에 시작해 인터미션 없이 130분간 진행됐고 8세 이상 관람으로 운영됐다. 티켓은 예스24 티켓 단독 판매로 팬클럽 'HOTTEST 9TH' 회원 인증 선예매가 함께 운영됐으며 주최·기획은 위얼라이브가 맡았다. 루시는 이 투어를 서울 KSPO DOME까지 이어 간 뒤 10월 서울 앙코르 공연으로 다시 무대에 오른다.",
+      "genres": [
+        "밴드",
+        "콘서트"
+      ],
+      "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202605/20260526/20260526-58602_1.jpg",
+      "source_url": "https://ticket.yes24.com/Perf/58602",
+      "presale": false,
+      "general_sale": false,
+      "updated_at": "2026-10-05"
+    },
+    {
+      "id": "ko-kimkyungho-ballad-gimhae-20260718",
+      "name": "［김해］ 2026 김경호 전국투어 콘서트 : 발라드를 위한 時",
+      "release_date": "2026-07-18",
+      "release_time": "15:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "김해문화의전당(마루홀)"
+      ],
+      "developer": "김경호",
+      "publisher": null,
+      "description": "김경호가 7월 18일 경남 김해문화의전당 마루홀에서 전국투어 콘서트 '발라드를 위한 時'의 김해 공연을 열었다. 같은 날 오후 3시와 오후 6시 30분 두 차례로 나뉘어 진행됐고 공연 시간은 120분, 8세 이상 관람으로 운영됐다. 록 보컬로 알려진 김경호가 발라드에 초점을 맞춰 꾸린 투어로, 중증·경증 장애인과 국가유공자 할인과 전화 예매 전용 휠체어석이 함께 운영됐다. 티켓은 NOL에서 판매됐으며 R석 11만원, S석 9만9000원, A석 7만7000원으로 책정됐다.",
+      "genres": [
+        "발라드",
+        "록",
+        "콘서트"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26008384_p.gif",
+      "source_url": "https://nol.yanolja.com/ticket/products/26008384",
+      "presale": false,
+      "general_sale": false,
+      "updated_at": "2026-10-05"
     }
   ]
 }
