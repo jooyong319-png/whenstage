@@ -1,3 +1,51 @@
+## [2026-10-06 09:30] [EN 리서처]
+리서치 완료 (해외 팬 대상 한국 공연)
+- 콘서트/투어 10→8, 발매 3→0, 페스티벌 2→0, 팬미팅 3→2 (후보→통과)
+- 신규 12개 / 갱신 0개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리 1건 중 0건 등재 — `leads.en.jsonl` 134건 중 한국 공연 관련은 TXT STEAL THE WIND 1건뿐이고 이미 `concerts.en.json`에 등재돼 있다. 나머지 133건은 전부 미국·유럽 개최 공연으로 2026-09-21 방향 전환 이후 대상이 아니다(leads 파일은 append-only 원칙대로 미수정). 뉴스 에이전트 쪽 최신 lead가 2026-09-11에서 멈춰 있다
+- 과거 백필 0개(예정 공연 후보 검증에 사이클 소진 — 한국 공연 후보 18건을 개별 교차검증하는 데 전량 투입)
+- 티켓팅 진행중 11개 (추가 +11 / 해제 -0)
+- description 보강 0개 (신규 12건 전부 77~90단어로 작성)
+- 총 등록 376개
+
+**공연장 색인전환 효과(1건→2건 이상)**
+- 장충체육관 1→3 (tripleS ANDLESS 2일)
+- 고려대학교 화정체육관 1→2 (LUCY ISLAND 앙코르)
+- 블루스퀘어 1→2 (이승기 기승전:樂)
+- 성신여자대학교 1→2 (김지원 WONEDERLAND)
+→ en의 1건짜리 한국 공연장이 4개 줄었다. 신규 1건짜리 공연장은 세종대학교(원어스 2일이라 즉시 2건)·NOL씨어터 합정(누자베스 1건)·연세대학교(공유 1건) 3개 발생
+- 올림픽공원(올림픽홀) 2→5 보강 (10CM·다이나믹듀오·박진영)
+
+**신규 (예정 공연)**
+- `en-triples-andless-seoul-20261010` / `-20261011` tripleS ANDLESS 서울 2일 (장충체육관, S석 3만원)
+- `en-10cm-the-missing-tracks-seoul-20261009` 10CM 팬콘 (10/9~11, 올림픽홀 18시)
+- `en-lucy-island-encore-seoul-20261023` LUCY ISLAND 앙코르 (10/23~25)
+- `en-lee-seung-gi-gisungjeon-rak-seoul-20261023` 이승기 13년만 단독 (10/23~25, 전석 3분 매진)
+- `en-kim-ji-won-wonederland-seoul-20261024` 김지원 팬미팅 (아시아투어 개막)
+- `en-oneus-full-moon-seoul-20261024` / `-20261025` 원어스 월드투어 개막 2일 (서호 전역 후 완전체)
+- `en-nujabes-metaphorical-ensemble-seoul-20261031` 누자베스 메타포리컬 앙상블 내한
+- `en-dynamic-duo-once-in-a-while-seoul-20261127` 다이나믹 듀오 연말 3일
+- `en-gong-yoo-the-long-take-seoul-20261128` 공유 첫 아시아 팬미팅 투어 피날레
+- `en-jy-park-wet-seoul-20261224` 박진영 연말 'WET' 3일 (일반예매 10/6 14시)
+
+**KO 리서처 요청 — `concerts.ko.json`에 역방향 링크 채워주세요 (`related_locale_ids.en`)**
+- `ko-10cm-the-missing-tracks-seoul-20261009` → `en-10cm-the-missing-tracks-seoul-20261009`
+- `ko-lucy-island-encore-seoul-20261023` → `en-lucy-island-encore-seoul-20261023`
+- `ko-leeseunggi-gisungjeon-rak-seoul-20261024` → `en-lee-seung-gi-gisungjeon-rak-seoul-20261023`
+- `ko-kimjiwon-wonederland-seoul-20261024` → `en-kim-ji-won-wonederland-seoul-20261024`
+- `ko-oneus-full-moon-seoul-20261024` → `en-oneus-full-moon-seoul-20261024`
+- `ko-nujabes-metaphorical-ensemble-seoul-20261031` → `en-nujabes-metaphorical-ensemble-seoul-20261031`
+- `ko-dynamicduo-once-in-a-while-seoul-20261127` → `en-dynamic-duo-once-in-a-while-seoul-20261127`
+- `ko-gongyoo-the-long-take-seoul-20261128` → `en-gong-yoo-the-long-take-seoul-20261128`
+- `ko-parkjinyoung-wet-seoul-20261224` → `en-jy-park-wet-seoul-20261224`
+
+[검증 탈락]
+- 2026 RAIN CONCERT : THE SMOKE – SEOUL (12/5 올림픽홀): 영어권 소스에서 'THE SMOKE' 공연 자체가 확인되지 않음. 비 관련 검색결과가 2024 STILL RAINING·2015 THE SQUALL 등 과거 공연뿐 — 독립 출처 2개 미달로 보류
+- 볼빨간사춘기 Red Square in SEOUL (11/7 킨텍스): 투어명·날짜·공연장 어느 것도 영어권 소스에서 확인 안 됨. 킨텍스 관련 결과는 SBS 가요대전 출연뿐 — 보류
+- GHOSTIVAL 2026 (10/24 인천문학경기장): 검색 결과가 전부 다른 행사(10/9~11 임진각 2026 GHOST 페스티벌)로 수렴. 동명 혼동 위험이 커 보류
+- tripleS 'LOVE&POP pt.2' (10/20 음원): 파트2 제작은 확인되나 **발매일 10/20을 뒷받침하는 소스가 없음**. 같은 검색에서 ANDLESS 서울 공연이 확인돼 그쪽으로 대체 등재
+- EDC Korea 2026 (10/3~4 인스파이어): 라인업·날짜 모두 확인됐으나 **이미 종료된 공연**이라 예정 트랙 대상이 아님. 백필 트랙 후보로 다음 사이클에 넘김(인스파이어는 이미 9건으로 색인 대상이라 색인 이득은 없고 콘텐츠 보강 목적)
+
 ## [2026-10-05 14:20] [KO 브리핑]
 주간 브리핑 작성 완료 (한국 국내)
 - 각도: 이번 주 무대 (직전 2편이 다음달 미리보기·이번 주 티켓팅이었으므로 각도 전환)
