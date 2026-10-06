@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-05",
+  "last_updated": "2026-10-06",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -4620,6 +4620,35 @@
       "general_sale_url": null
     },
     {
+      "id": "en-10cm-the-missing-tracks-seoul-20261009",
+      "name": "2026 10CM Fan Concert <THE MISSING TRACKS> in Seoul",
+      "release_date": "2026-10-09",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Olympic Park, Seoul(Olympic Hall)"
+      ],
+      "developer": "10CM",
+      "publisher": null,
+      "description": "Singer-songwriter 10CM plays three nights at Olympic Hall in Seoul Olympic Park from October 9 to 11, 2026, each starting at 6 p.m. The fan concert is built around a storyline hunting down his so-called missing tracks, songs that were dropped from past set lists or never performed live at all. Each night carries its own case-number subtitle, beginning with CASE No.1009 on October 9 and closing with CASE No.1011 on October 11, so the three shows are not interchangeable.",
+      "genres": [
+        "K-Indie",
+        "Pop",
+        "Fan Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.starnewskorea.com/en/music/2026/09/03/2026090310500470178",
+      "updated_at": "2026-10-06",
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26011325",
+      "related_locale_ids": {
+        "ko": "ko-10cm-the-missing-tracks-seoul-20261009"
+      }
+    },
+    {
       "id": "en-akmu-paradise-of-rumors-seoul-20261009",
       "name": "2026 AKMU Concert <Paradise of Rumors> - Seoul (Night 1)",
       "release_date": "2026-10-09",
@@ -4919,6 +4948,31 @@
       "updated_at": "2026-09-22"
     },
     {
+      "id": "en-triples-andless-seoul-20261010",
+      "name": "tripleS World Tour <ANDLESS> in Seoul (Day 1)",
+      "release_date": "2026-10-10",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Jangchung Arena, Seoul"
+      ],
+      "developer": "tripleS",
+      "publisher": "MODHAUS",
+      "description": "tripleS open their 2026 world tour ANDLESS with the first of two nights at Jangchung Arena in Seoul on October 10, 2026. The 24-member group announced the tour in July and set Seoul ticket prices at a deliberately low 30,000 won for S-section seats, a move the agency framed as making arena shows affordable for younger fans. After the two Seoul dates the run continues to Macau, Tokyo and six North American cities through late November, so overseas fans unable to reach Korea have later options on the same tour.",
+      "genres": [
+        "K-POP",
+        "World Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.soompi.com/article/1856423wpp/triples-announces-dates-and-cities-for-2026-world-tour-andless",
+      "updated_at": "2026-10-06",
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_url": null
+    },
+    {
       "id": "en-akmu-paradise-of-rumors-seoul-20261011",
       "name": "2026 AKMU Concert <Paradise of Rumors> - Seoul (Night 3)",
       "release_date": "2026-10-11",
@@ -4993,6 +5047,31 @@
       "general_sale": true,
       "general_sale_url": "https://www.livenation.es/shakira-tickets-adp41381",
       "presale": false
+    },
+    {
+      "id": "en-triples-andless-seoul-20261011",
+      "name": "tripleS World Tour <ANDLESS> in Seoul (Day 2)",
+      "release_date": "2026-10-11",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Jangchung Arena, Seoul"
+      ],
+      "developer": "tripleS",
+      "publisher": "MODHAUS",
+      "description": "The second and final Seoul night of tripleS's 2026 world tour ANDLESS takes place at Jangchung Arena on October 11, 2026. Seoul serves as the launch point for a nine-city run that reaches Macau on October 24, Tokyo on October 31 and then Toronto, New York, Chicago, Dallas, Los Angeles and Vancouver through November 28. Tickets went on sale with S-section seats priced at 30,000 won, unusually low for a Korean arena concert, and the set list draws on the group's ongoing LOVE&POP album project.",
+      "genres": [
+        "K-POP",
+        "World Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://blog.namanecard.com/en/triples-andless-world-tour-2026-dates/",
+      "updated_at": "2026-10-06",
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_url": null
     },
     {
       "id": "en-nct-wish-i-spy-20261012",
@@ -5840,6 +5919,35 @@
       "general_sale_url": null
     },
     {
+      "id": "en-lee-seung-gi-gisungjeon-rak-seoul-20261023",
+      "name": "2026 Lee Seung-gi Concert <Gi Seung Jeon : Rak> in Seoul",
+      "release_date": "2026-10-23",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Blue Square, Seoul(Woori WON Banking Hall)"
+      ],
+      "developer": "Lee Seung-gi",
+      "publisher": null,
+      "description": "Lee Seung-gi returns to the concert stage for the first time in 13 years with three nights at Blue Square's Woori WON Banking Hall in Yongsan-gu, Seoul, from October 23 to 25, 2026. The October 23 date was added after demand for the original two shows; every seat across all dates sold out within three minutes of the June 4 opening on NOL Ticket. The set list spans his best-known ballads, among them Because You're My Woman, Delete and Return.",
+      "genres": [
+        "K-POP",
+        "Ballad",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://sports.khan.co.kr/en/article/202609120031007",
+      "updated_at": "2026-10-06",
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "related_locale_ids": {
+        "ko": "ko-leeseunggi-gisungjeon-rak-seoul-20261024"
+      }
+    },
+    {
       "id": "en-lisa-press-play-20261023",
       "name": "LISA - PRESS PLAY (EP)",
       "release_date": "2026-10-23",
@@ -5866,6 +5974,35 @@
       "updated_at": "2026-09-22",
       "related_locale_ids": {
         "ko": "ko-lisa-press-play-20261023"
+      }
+    },
+    {
+      "id": "en-lucy-island-encore-seoul-20261023",
+      "name": "2026 LUCY 9th Concert <ISLAND> Encore in Seoul",
+      "release_date": "2026-10-23",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Korea University, Seoul(Hwajung Gymnasium)"
+      ],
+      "developer": "LUCY",
+      "publisher": "Mystic Story",
+      "description": "Band LUCY bring back their ninth solo concert ISLAND for an encore run at Korea University's Hwajung Gymnasium in Seoul from October 23 to 25, 2026. The show returns to the imagined island the four-piece treat as their origin point, built around the idea of scattered petals blowing back home. The Seoul encore opens a short Asian leg that continues to Hong Kong on November 3, Singapore on November 14 and Bangkok on November 28, giving fans outside Korea a nearer date.",
+      "genres": [
+        "K-Rock",
+        "Band",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://en.edaily.co.kr/news/eda202608105745",
+      "updated_at": "2026-10-06",
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "related_locale_ids": {
+        "ko": "ko-lucy-island-encore-seoul-20261023"
       }
     },
     {
@@ -5989,6 +6126,62 @@
       "presale": false
     },
     {
+      "id": "en-kim-ji-won-wonederland-seoul-20261024",
+      "name": "2026 Kim Ji-won Fan Meeting <WONEDERLAND> in Seoul",
+      "release_date": "2026-10-24",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "Sungshin Women's University, Seoul(Woonjung Green Campus Grand Auditorium)"
+      ],
+      "developer": "Kim Ji-won",
+      "publisher": "High Zium Studio",
+      "description": "Actor Kim Ji-won holds her second solo fan meeting, WONEDERLAND, on October 24 and 25, 2026 at the Grand Auditorium of Sungshin Women's University's Woonjung Green Campus in Seoul. It is her first solo fan event in two years and the opening stop of an Asia tour that continues to Macau, Taipei, Yokohama, Osaka, Hong Kong and Bangkok. The title folds in her fandom name WONEDAY. Seoul tickets opened through Yes24 Ticket at 8 p.m. KST on September 16.",
+      "genres": [
+        "Fan Meeting",
+        "Actor"
+      ],
+      "image_url": null,
+      "source_url": "https://www.soompi.com/article/1868479wpp/kim-ji-won-announces-stops-for-fan-meeting-tour-wonederland",
+      "updated_at": "2026-10-06",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-16T20:00:00+09:00",
+      "general_sale_url": null,
+      "related_locale_ids": {
+        "ko": "ko-kimjiwon-wonederland-seoul-20261024"
+      }
+    },
+    {
+      "id": "en-oneus-full-moon-seoul-20261024",
+      "name": "2026 ONEUS World Tour <FULL MOON> in Seoul (Night 1)",
+      "release_date": "2026-10-24",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Sejong University, Seoul(Daeyang Hall)"
+      ],
+      "developer": "ONEUS",
+      "publisher": "Liveworks Company",
+      "description": "ONEUS launch their 2026 world tour FULL MOON at Daeyang Hall, Sejong University, in Seoul's Gwangjin District on October 24, 2026 at 6 p.m. It is the group's first show as a full five-member lineup since Seoho completed his military service, and the first tour after their move to a new agency. The set list centres on their 12th mini album FIRST LIGHT. Tickets opened exclusively on Ticketlink at 8 p.m. KST on September 30, and the tour then reaches Latin America, Europe, North America and Asia.",
+      "genres": [
+        "K-POP",
+        "World Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.soompi.com/article/1865602wpp/oneus-announces-dates-and-cities-for-2026-world-tour-full-moon",
+      "updated_at": "2026-10-06",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-30T20:00:00+09:00",
+      "general_sale_url": null,
+      "related_locale_ids": {
+        "ko": "ko-oneus-full-moon-seoul-20261024"
+      }
+    },
+    {
       "id": "en-tame-impala-deadbeat-perth-20261024",
       "name": "Tame Impala: Deadbeat Tour - Australia",
       "release_date": "2026-10-24",
@@ -6011,6 +6204,34 @@
       "source_url": "https://consequence.net/2026/07/tame-impala-2026-deadbeat-north-american-tour-kickoff/",
       "general_sale": true,
       "general_sale_url": "https://www.frontiertouring.com/tameimpala"
+    },
+    {
+      "id": "en-oneus-full-moon-seoul-20261025",
+      "name": "2026 ONEUS World Tour <FULL MOON> in Seoul (Night 2)",
+      "release_date": "2026-10-25",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Sejong University, Seoul(Daeyang Hall)"
+      ],
+      "developer": "ONEUS",
+      "publisher": "Liveworks Company",
+      "description": "The second Seoul night of the 2026 ONEUS world tour FULL MOON takes place at Daeyang Hall, Sejong University, on October 25, 2026 at 5 p.m., an earlier start time than the opening show. Both Seoul dates mark the five members performing together again after Seoho's discharge, with a set list drawn largely from the mini album FIRST LIGHT. Tickets were sold exclusively through Ticketlink from September 30, and the tour continues through Latin America, Europe, North America and Asia across 21 cities.",
+      "genres": [
+        "K-POP",
+        "World Tour"
+      ],
+      "image_url": null,
+      "source_url": "https://www.starnewskorea.com/en/music/2026/09/30/2026093014483918515",
+      "updated_at": "2026-10-06",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-30T20:00:00+09:00",
+      "general_sale_url": null,
+      "related_locale_ids": {
+        "ko": "ko-oneus-full-moon-seoul-20261024"
+      }
     },
     {
       "id": "en-benson-boone-wanted-man-seoul-20261026",
@@ -6310,6 +6531,35 @@
       "general_sale": true,
       "general_sale_datetime": "2026-10-12T20:00:00+09:00",
       "general_sale_url": "https://nol.yanolja.com/ticket/products/26013793"
+    },
+    {
+      "id": "en-nujabes-metaphorical-ensemble-seoul-20261031",
+      "name": "Nujabes Metaphorical Ensemble Live in Seoul",
+      "release_date": "2026-10-31",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "NOL Theater Hapjeong, Seoul(Dongyang Life Hall)"
+      ],
+      "developer": "Nujabes Metaphorical Ensemble",
+      "publisher": "Hydeout Productions",
+      "description": "The Nujabes Metaphorical Ensemble, the official live project run by Hydeout Productions, the label founded by the late Japanese producer Nujabes, plays Seoul on October 31, 2026 at 6 p.m. at Dongyang Life Hall in NOL Theater Hapjeong. The roughly 100-minute set is performed by Chika a.k.a. Inherit on turntables, Patrick Bartley on saxophone, BIGYUKI on keyboards and Pase Rock on the mic, with DJ SHOTA opening. VIP and VVIP tiers add rehearsal access and a meet-and-greet.",
+      "genres": [
+        "Jazz",
+        "Hip-Hop",
+        "Live"
+      ],
+      "image_url": null,
+      "source_url": "https://nol.yanolja.com/ticket/products/26012781",
+      "updated_at": "2026-10-06",
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26012781",
+      "related_locale_ids": {
+        "ko": "ko-nujabes-metaphorical-ensemble-seoul-20261031"
+      }
     },
     {
       "release_time": null,
@@ -7282,6 +7532,34 @@
       "general_sale_url": "https://www.axs.com/uk/events/1562167/nia-archives-tickets"
     },
     {
+      "id": "en-dynamic-duo-once-in-a-while-seoul-20261127",
+      "name": "2026 Dynamic Duo Concert <Let's See Each Other Once in a While> in Seoul",
+      "release_date": "2026-11-27",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Olympic Park, Seoul(Olympic Hall)"
+      ],
+      "developer": "Dynamic Duo",
+      "publisher": "Amoeba Culture",
+      "description": "Hip-hop duo Dynamic Duo hold their annual year-end concert for three nights at Olympic Hall in Seoul Olympic Park from November 27 to 29, 2026. The title comes from a track on their seventh studio album, and the series has sold out every Seoul date for three years running since 2023. Seoul tickets opened on NOL Ticket at 8 p.m. KST on September 29, with further sales the next evening, and part of the proceeds goes to the welfare organisation Love's Snail. Busan and Daejeon dates follow in December.",
+      "genres": [
+        "Hip-Hop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://www.starnewskorea.com/en/music/2026/09/22/2026092217212224826",
+      "updated_at": "2026-10-06",
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-29T20:00:00+09:00",
+      "general_sale_url": null,
+      "related_locale_ids": {
+        "ko": "ko-dynamicduo-once-in-a-while-seoul-20261127"
+      }
+    },
+    {
       "id": "en-the-darkness-crock-of-hits-20261127",
       "name": "The Darkness - Crock Of Hits",
       "release_date": "2026-11-27",
@@ -7305,6 +7583,34 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/HollywoodVampsSSe200618-69_(42513700740).jpg/960px-HollywoodVampsSSe200618-69_(42513700740).jpg",
       "source_url": "https://www.thedarknesslive.com/the-darkness-announce-greatest-hits-album-crock-of-hits-plus-intimate-london-album-launch-show/"
+    },
+    {
+      "id": "en-gong-yoo-the-long-take-seoul-20261128",
+      "name": "2026 Gong Yoo Asia Fan Meeting Tour <The Long Take> in Seoul",
+      "release_date": "2026-11-28",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "Yonsei University, Seoul(Sinchon Campus Grand Auditorium)"
+      ],
+      "developer": "Gong Yoo",
+      "publisher": "Management SOOP",
+      "description": "Gong Yoo wraps his first-ever Asia fan meeting tour, The Long Take, in Seoul on November 28, 2026 at the Grand Auditorium of Yonsei University's Sinchon campus. The six-city run began in Yokohama on October 4 and passed through Bangkok, Jakarta, Macau and Manila before reaching Korea. The actor, known internationally for Goblin, Squid Game and Train to Busan, framed the tour as looking back on past scenes while filming new ones with fans in a single unbroken take.",
+      "genres": [
+        "Fan Meeting",
+        "Actor"
+      ],
+      "image_url": null,
+      "source_url": "https://www.koreajoongangdaily.com/entertainment/actor-gong-yoo-to-hold-fan-meet-and-greet-across-asia/12776772",
+      "updated_at": "2026-10-06",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-29T20:00:00+09:00",
+      "general_sale_url": null,
+      "related_locale_ids": {
+        "ko": "ko-gongyoo-the-long-take-seoul-20261128"
+      }
     },
     {
       "id": "en-rock-the-bells-festival-2026-20261129",
@@ -8108,6 +8414,35 @@
       "presale": false,
       "general_sale_datetime": "2026-08-21T10:00:00-04:00",
       "updated_at": "2026-09-22"
+    },
+    {
+      "id": "en-jy-park-wet-seoul-20261224",
+      "name": "2026 J.Y. Park Year-End Concert <WET> in Seoul",
+      "release_date": "2026-12-24",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Olympic Park, Seoul(Olympic Hall)"
+      ],
+      "developer": "J.Y. Park",
+      "publisher": "JYP Entertainment",
+      "description": "J.Y. Park closes 2026 with three nights at Olympic Hall in Seoul Olympic Park, on December 24 at 8 p.m. and December 25 and 26 at 5 p.m. The concert takes its name from WET, the summer single that ended his six-year break from seasonal releases. Tickets open on NOL at 2 p.m. KST on October 6, priced from 121,000 to 165,000 won, with a four-ticket limit per person per show and admission restricted to ages seven and over.",
+      "genres": [
+        "K-POP",
+        "R&B",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://nol.yanolja.com/ticket/products/26014222",
+      "updated_at": "2026-10-06",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-06T14:00:00+09:00",
+      "general_sale_url": "https://nol.yanolja.com/ticket/products/26014222",
+      "related_locale_ids": {
+        "ko": "ko-parkjinyoung-wet-seoul-20261224"
+      }
     },
     {
       "release_time": null,
