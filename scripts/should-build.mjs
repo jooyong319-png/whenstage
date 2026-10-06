@@ -39,6 +39,9 @@ const MARKER = '.next/cache/last-built-sha';
 /** 바뀌어도 사이트 출력이 그대로인 것들 */
 const IGNORED = [
   ':(exclude)CHAT.md',
+  ':(exclude)AUDIT.md',          // 점검 로그 — 빠져 있어서 점검 로그만 바뀌어도 배포됐다(2026-10-07)
+  ':(exclude)BACKLOG.md',
+  ':(exclude)PROJECT_STATUS.md',
   ':(exclude)README.md',
   ':(exclude)AGENTS.md',
   ':(exclude)prompts',
@@ -84,7 +87,50 @@ try {
   process.exit(1);
 }
 
-if (changed) {
+// ## 🔴 동시 빌드 경쟁 (2026-10-07)
+//
+// 리서처는 "데이터 커밋 → 1분 뒤 로그(CHAT.md) 커밋"을 따로 푸시한다. 두 번째 빌드가 시작될 때
+// 첫 번째 빌드는 아직 돌고 있어 마커를 못 남겼다 → 두 번째는 **그 전의 낡은 마커**와 비교해서
+// 첫 번째의 데이터 변경까지 자기 것으로 보고 **같은 내용을 또 빌드**했다(10/6 09:33·09:35 실측).
+// 배포 = 엣지 캐시 전체 무효화라 ISR 읽기가 그만큼 더 나간다.
+//
+// 그래서: 사이트 변경이 있는 **마지막 커밋 C**가 HEAD가 아니면(= C 뒤로는 문서 커밋뿐이면),
+// C에 대한 배포가 이미 만들어졌는지 GitHub에 묻는다. 있으면 그 배포가 C까지의 전부를 빌드하므로
+// 이번 것은 건너뛴다. 어떤 커밋이든 그 시점의 저장소 전체를 빌드하므로 C의 배포에 C 이전 변경도
+// 다 들어 있다. **묻다가 실패하면 빌드한다**(조용히 건너뛰는 것이 이 장치의 최악의 실패 모드).
+async function coveredByAnotherDeploy() {
+  const last = git(['log', '-1', '--format=%H', base + '..HEAD', '--', '.', ...IGNORED]).trim();
+  const head = git(['rev-parse', 'HEAD']).trim();
+  if (!last || last === head) return false;   // 맨 끝 커밋이 사이트를 바꿨다 → 이번이 그 빌드다
+  const owner = process.env.VERCEL_GIT_REPO_OWNER;
+  const repo = process.env.VERCEL_GIT_REPO_SLUG;
+  if (!owner || !repo) return false;
+  try {
+    const r = await fetch(`https://api.github.com/repos/${owner}/${repo}/deployments?sha=${last}&per_page=5`, {
+      headers: { 'User-Agent': 'whenstage-should-build', Accept: 'application/vnd.github+json' },
+      signal: AbortSignal.timeout(5000),
+    });
+    if (!r.ok) { console.log('GitHub 배포 조회 실패(' + r.status + ') — 안전하게 빌드한다'); return false; }
+    const list = await r.json();
+    if (Array.isArray(list) && list.length > 0) {
+      console.log(`사이트 변경의 마지막 커밋 ${last.slice(0, 7)}은 이미 따로 배포 중/완료 — 그 뒤는 문서뿐`);
+      return true;
+    }
+  } catch (e) {
+    console.log('GitHub 배포 조회 오류 — 안전하게 빌드한다:', String(e).slice(0, 80));
+  }
+  return false;
+}
+
+// ⚠️ fetch 직후 process.exit()을 부르면 Node가 소켓 정리 중에 죽으며 종료 코드가 127이 된다
+// (Windows에서 재현). Vercel은 0이 아니면 빌드하므로 "건너뛴다"고 판정해 놓고 빌드해 버린다.
+// 그래서 여기부터는 exitCode만 정하고 자연스럽게 끝낸다.
+const duplicate = changed ? await coveredByAnotherDeploy() : false;
+
+if (duplicate) {
+  console.log('같은 내용의 빌드가 이미 있다 — 건너뛴다');
+  process.exitCode = 0;
+} else if (changed) {
   console.log('사이트에 영향 있는 변경:\n  ' + changed.split('\n').slice(0, 10).join('\n  '));
   try {
     mkdirSync(dirname(MARKER), { recursive: true });
@@ -92,8 +138,8 @@ if (changed) {
   } catch (e) {
     console.log('마커 기록 실패(무해):', e.message.slice(0, 60));
   }
-  process.exit(1);
+  process.exitCode = 1;
+} else {
+  console.log('문서·프롬프트만 바뀌었다 — 빌드를 건너뛴다');
+  process.exitCode = 0;
 }
-
-console.log('문서·프롬프트만 바뀌었다 — 빌드를 건너뛴다');
-process.exit(0);
