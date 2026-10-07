@@ -8,36 +8,34 @@
 
 ---
 
-## [2026-10-07 09:45] [JA 리서처]
-리서치 완료 (일본 국내 공연)
-- 콘서트/来日 9→8, 발매 2→0, 페스티벌 2→0, 팬미팅 0→0 (후보→통과)
-- 신규 16개 / 갱신 2개 (삭제 없음·전량 보존)
-- 뉴스 인계 처리 11건 중 0건 등재 — `leads.ja.jsonl` 98건을 전수 대조한 결과 미등재 리드는 11건뿐이었고, 그중 과거 일정 종료(ULTRA祭り2026·玉置浩二「音銀河」·日向坂46「イチャイチャ虫」 등), 일정 미발표(やまもとはると 全国弾き語りツアー·Finally Live Tour「TAKE to GIVE」·L'Arc-en-Ciel「総天然色」), 카테고리 외(상영회·B.LEAGUE 하프타임쇼) 사유로 전부 보류. 앞선 사이클에서 이미 대부분 등재 완료된 상태다(leads 파일은 append-only 원칙대로 미수정)
-- 과거 백필 1개 → **공연장 색인전환 1개**(EX THEATER ROPPONGI 1건→2건) / 기존 공연장 보강 0개 — 예정 공연 검증에 여력을 집중해 1건으로 제한
-- **예정 공연 쪽 색인 효과**: 福岡国際センター 1→3건, 東京体育館 0→2건(신규), ゼビオアリーナ仙台 0→2건(신규), 国立代々木競技場 0→2건(신규) — 宮本浩次 아리나 투어가 각 회장에서 2일 공연이라 1건짜리 회장을 만들지 않고 색인 대상 페이지를 늘렸다
-- 티켓팅 진행중 94개 (추가 +3 / 해제 -2)
-  - 해제: `ja-kai-yoshihiro-homecoming-tour-yokohama-20261003`, `ja-wasuta-zepp-shinjuku-20261004` (공연 종료)
-  - 추가: Blue 振替公演 2건(オフィシャル1次抽選先行 10/6~10/18), Young K 2건(ticket board 先行 9/29~10/13), beabadoobee 1건(Artist先着先行 10/8~)
-- description 보강 0개 (120자 미만 항목 0개 유지)
-- `publisher` 신규 채움 13개 — LIVE NATION H.I.P.(3), ON THE LINE(2), キョードー西日本(2), サンデーフォークプロモーション(2), GIP(2), DISK GARAGE(2)
-- 총 등록 335개
+## 2026-10-07 · ja
 
-[등재 내역]
-- 宮本浩次「TOUR 2026〜2027 I AM HERO」전 10공연 (福岡国際センター 12/25·26, 日本ガイシホール 1/5·6, ゼビオアリーナ仙台 1/23·24, 国立代々木競技場 2/10·11, GLION ARENA KOBE 2/27·28) — 공식 투어 사이트 + ぴあ 기사로 일시·개연시각·요금 전건 확인. 一般三次抽選이 9/28 종료돼 티켓팅 필드는 false
-- Blue「25th Anniversary Tour」振替公演 2공연 (Spotify O-EAST 2027/1/19·20) — 2026년 2월 공연의 연기 振替. 유니버설 뮤직 공식 + LIVE NATION H.I.P. 공식 페이지 일치
-- Young K Solo Tour <YOUNGEST> in JAPAN 2공연 (東京体育館 메인아리나 2027/2/13·14) — 公演特設サイト + Kstyle 일치
-- beabadoobee「The Powerlines Tour」초 단독 来日 1공연 (TOYOSU PIT 2027/4/9) — NME Japan + LIVE NATION H.I.P. 공식 페이지 일치
-- [백필] ステレオラブ 来日 2026 東京 (EX THEATER ROPPONGI 2026/7/2) — 17년 만의 来日. 과거 시제 서술, 티켓팅 필드 비움
+로테이션상 ja가 가장 오래된 점검일(2026-09-30)이라 선택. 대상 창: 2026-08-08 ~ 2026-12-06(오늘 ±60일), 창 안 항목 174건(끝난 것 87 / 예정 87). 코드는 손대지 않았고 `data/concerts.ja.json`만 수정. push 전 `validate-data.mjs` 통과. 지난 회차들과 같이 AGENTS.md §4-5를 따라 **실제로 고친 22건에만 `updated_at=2026-10-07`**, 항목 단위 `last_updated`는 넣지 않음(파일 최상위에만 쓰는 규칙 우선).
 
-[검증 탈락]
-- DREAMS COME TRUE「THE BLACK ○ ALBUM」2026-04-26 (백필 후보): 회장 정보가 출처마다 엇갈림(福岡国際センター vs マリンメッセ福岡 A館). 福岡国際センター 색인전환 후보로 유망했지만 회장 불일치로 보류
-- M!LK ARENA TOUR 2026-2027「シャカリキレボリューション」 잔여 7공연(ぴあアリーナMM 11/21·22, 大阪城ホール 12/25·26, 横浜アリーナ 2027/1/15~17): 집계 사이트 2곳은 일정이 일치하지만 공식 사이트·티켓 플랫폼에서 날짜를 직접 확인하지 못했고, 1월 神奈川 회장 표기가 일부 출처에서 仙台サンプラザホール로 엇갈림. 다음 사이클에 공식 소스로 재확인 후 등재
-- プラハ交響楽団 来日公演 2027: 일정이 「2027년 1월」수준까지만 확인돼 개별 공연일·회장 미확정. 다음 사이클 재확인
-- AKASAKI 1st World Tour "ONIGIRI" / Finally Live Tour 2026「TAKE to GIVE」/ やまもとはると 全国弾き語りツアー: 일본 공연 일정·회장 모두 미발표 상태
+**트랙 A (졸업 처리) — 20건** (상한 20 도달)
+- A-1/A-2 끝난 공연에 남은 예매 필드 정리 4건(§7대로 `presale`/`general_sale=false` + URL·datetime null) + 서술 과거형:
+  ja-avenged-sevenfold-tokyo-20260930, ja-the-cribs-selling-a-vibe-20261002, ja-wasuta-zepp-shinjuku-20261004(도쿄 공연 단일 항목이라 정리 — 이후 아이치·해외 일정 서술은 현재형 유지), ja-augusta-camp-2026-20260815(마감일이 있어 A-1 조건엔 안 걸리지만 종료 공연의 ぴあ URL 잔존이라 §7대로 정리)
+- A-3: 창 안 끝난 항목 중 approx=true는 ja-post-malone-2026-20261006 1건뿐 — 연기·振替 미정이라 **의도적으로 유지**
+- A-4 description 시제만 교정 16건(있는 문장의 시제만, 새 사실 추가 없음 — 개최 결과는 단정하지 않고 "予定された/決まっていた"로 처리):
+  ja-david-byrne-ss-extra-20260813, ja-holly-humberstone-ss-extra-20260813, ja-jon-spencer-ss-extra-20260818, ja-boynextdoor-boom-boom-boom-20260818, ja-milet-made-of-glass-20260819(지난 예약 접수 문장 삭제), ja-nakajima-kento-onigoto-20260819, ja-ikimonogakari-sayonara-lara-20260826, ja-ryo-takaiwa-spectacular-20260826, ja-number-i-numbers-ur26-20260825, ja-sakanaction-toumei-budokan-20260908, ja-sakanaction-toumei-glion-arena-kobe-20260930, ja-abc-z-the-way-of-love-20260930, ja-hinatazaka46-ichaicha-mushi-20260930, ja-kai-yoshihiro-homecoming-complete-edition-20260930, ja-kai-yoshihiro-homecoming-tour-yokohama-20261003, ja-kamishiraishi-mone-bouquet-20261003(festival_days 마지막 날 10/4 기준 종료)
+- 의도적 제외: ja-nightmare-tour-2026-20260919 / ja-ryokushaka-arena-tour-2026-20260919 / ja-boynextdoor-knock-on-vol2-japan-20260821(투어 전체 항목, 잔여 일정 진행 중), ja-babymonster-choom-japan-kyocera-20260922(presale 마감일 명시돼 A-1 비해당)
 
-[다음 사이클 메모]
-- 宮本浩次 투어는 다수 공연이 이미 SOLD OUT이고 公式リセール 운용 여부에 따라 티켓팅 필드가 바뀔 수 있으니 재확인 대상
-- 이미지 미확보 15건(image_url null) — 宮本浩次·Young K·beabadoobee·ステレオラブ 모두 위키미디어 커먼즈에 자유 라이선스 사진을 찾지 못했다. Blue만 유니버설 뮤직 재팬 공식 아티스트 페이지 이미지를 사용했으므로 **교체 대상**으로 기록
+**트랙 B (임박 점검) — 8건 확인** (공연일 가까운 순, `updated_at` 없는 항목)
+- ja-snowman-amenity-20261007 — 오늘 10/7 발매 확인(HMV/Real Sound/THE FIRST TIMES). 변경 없음
+- ja-peter-gallway-sahashi-full-circle-20261010 — 10/10 개막~10/28·29 BLUES ALLEY JAPAN 피날레 확인(チケット流通センター 일정 목록/e+). 변경 없음
+- ja-rei-makoto-rcrew-fanmeeting-osaka-20261012 — 10/12·13 SkyシアターMBS, Rcrew 회원 한정·10,500엔 확인(ステージナタリー/ぴあ/CDJournal). 변경 없음
+- ja-endrecheri-billboard-live-tour-2026-yokohama-20261013 / -20261014 — 10/13·14 ビルボードライブ横浜 2부제 정상(otomo.net 등). 일반발매(10/1) 이미 시작 → 설명 "開始する"→"開始した", `presale=false`·`general_sale=true`로 데이터 내 일시와 맞춤. general_sale_url은 공식 URL 미확인이라 채우지 않음
+- ja-ezra-collective-tokyo-20261013 — 10/13 豊洲PIT 19:00 정상(ローチケ/ticketjam). 변경 없음
+- ja-scaffold-3-tokyo-20261013 — 10/13 SHIBUYA CLUB QUATTRO 18:00/19:00 정상(HOUYHNHNM/WWD JAPAN). 변경 없음
+- ja-abc-z-way-of-love-tour-20261014 — 10/14·15 オリックス劇場 개막 확인(さきがけ/THE FIRST TIMES). 18:00 개연 표기는 재판매 사이트뿐이라 release_time null 유지. 변경 없음
+- B-3 링크: 예매처·출처 URL은 샌드박스 제한(직접 fetch 불가)으로 열지 못해 검색 결과로 개최·판매 진행 교차 확인 → 죽은 링크로 단정한 것 없음
+
+**남은 것**: A-4 시제 후보 이월 — ja-jaurim-life-tokyo-2026-20260829("販売されている"), ja-boynextdoor-knock-on-vol2-japan-20260821(투어 10/11 종료 후 정리 대상). 트랙 B 다음 순번: ja-scaffold-3-osaka-20261015, ja-charlie-puth-2026-20261016, ja-the-and-startours-earth-harajuku-20261017부터
+**리서처 참고(추가 안 함)**: 신규 미등록 공연 발견 없음
+**기록 정정**: 이 로그의 첫 push(c68cbb9)에 공용 /tmp 임시 파일 혼선으로 JA 리서처 로그 내용이 잘못 삽입됐었음 → 바로 다음 커밋에서 정정(해당 내용은 리서처 로그 파일 쪽에 원본이 있음)
+
+---
+
 ## 2026-10-05 · en
 
 로테이션상 en이 가장 오래된 점검일(2026-09-28)이라 선택. 대상 창: 2026-08-06 ~ 2026-12-04(오늘 ±60일), 창 안 항목 196건(끝난 것 76 / 예정 120). 코드는 손대지 않았고 `data/concerts.en.json`만 수정(파일 상단 `last_updated` 2026-10-05). push 전 `validate-data.mjs` 통과. 지난 회차들과 같이 AGENTS.md §4-5를 따라 **실제로 고친 22건에만 `updated_at=2026-10-05`**, 항목 단위 `last_updated`는 넣지 않음.
