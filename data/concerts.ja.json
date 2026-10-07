@@ -1525,7 +1525,7 @@
         "SGC HALL ARIAKE（東京・有明）"
       ],
       "developer": "David Byrne",
-      "description": "トーキング・ヘッズのフロントマンとして知られるデヴィッド・バーンが、〈SUMMER SONIC 2026〉出演に合わせた単独公演〈SUMMER SONIC EXTRA〉を東京・SGC HALL 有明で行う。2025年9月に〈Matador Records〉から発表した最新アルバム『Who Is The Sky?』を携えたツアーの一環で、開場18時・開演19時。アリーナ前方スタンディングとS席・A席の三種で7月4日に一般発売されたが、すでにソールドアウトとなっている。企画・制作・招聘はクリエイティブマンプロダクション、協力はBEATINK。",
+      "description": "トーキング・ヘッズのフロントマンとして知られるデヴィッド・バーンが、〈SUMMER SONIC 2026〉出演に合わせた単独公演〈SUMMER SONIC EXTRA〉を東京・SGC HALL 有明で行った。2025年9月に〈Matador Records〉から発表した最新アルバム『Who Is The Sky?』を携えたツアーの一環で、開場18時・開演19時だった。アリーナ前方スタンディングとS席・A席の三種で7月4日に一般発売されたが、ソールドアウトとなっていた。企画・制作・招聘はクリエイティブマンプロダクション、協力はBEATINK。",
       "genres": [
         "ロック",
         "来日",
@@ -1534,7 +1534,8 @@
       "presale": false,
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "updated_at": "2026-10-07"
     },
     {
       "release_time": "19:00",
@@ -1551,7 +1552,7 @@
         "duo MUSIC EXCHANGE（東京・渋谷）"
       ],
       "developer": "Holly Humberstone",
-      "description": "イギリス・グランサム出身のシンガーソングライター、ホリー・ハンバーストーンが〈SUMMER SONIC 2026〉出演に合わせ、渋谷duo MUSIC EXCHANGEで単独公演を行う。2026年春に発表した2枚目のアルバム『Cruel World』を携えた来日で、開場18時・開演19時のオールスタンディング公演。チケットは8,000円（税込・1ドリンク別）で、7月11日に一般発売された。企画・制作・招聘はクリエイティブマンプロダクション、協力はユニバーサルミュージック。",
+      "description": "イギリス・グランサム出身のシンガーソングライター、ホリー・ハンバーストーンが〈SUMMER SONIC 2026〉出演に合わせ、渋谷duo MUSIC EXCHANGEで単独公演を行った。2026年春に発表した2枚目のアルバム『Cruel World』を携えた来日で、開場18時・開演19時のオールスタンディング公演だった。チケットは8,000円（税込・1ドリンク別）で、7月11日に一般発売された。企画・制作・招聘はクリエイティブマンプロダクション、協力はユニバーサルミュージック。",
       "genres": [
         "ポップ",
         "シンガーソングライター",
@@ -1560,7 +1561,8 @@
       "presale": false,
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "updated_at": "2026-10-07"
     },
     {
       "release_time": "19:00",
@@ -1691,8 +1693,8 @@
       "image_url": "https://image.pia.jp/images/202605/202605140010_ex.png",
       "source_url": "https://www.office-augusta.com/ac2026/",
       "general_sale": false,
-      "general_sale_end_datetime": "2026-08-06T23:59:00+09:00",
-      "general_sale_url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2611197&rlsCd=001",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
       "festival_days": [
         {
           "date": "2026-08-15",
@@ -1711,7 +1713,9 @@
             "大東まみ"
           ]
         }
-      ]
+      ],
+      "presale": false,
+      "updated_at": "2026-10-07"
     },
     {
       "id": "ja-natural-lag-budokan-20260816",
@@ -1769,13 +1773,14 @@
       ],
       "developer": "BOYNEXTDOOR",
       "publisher": null,
-      "description": "BOYNEXTDOORが8月18日0時に配信する日本オリジナルの2ndデジタル・シングル。2025年11月の「SAY CHEESE!」以来となる日本語書き下ろし曲で、繰り返されるフレーズとアップテンポなビートが弾けるようなエネルギーを生む一曲に仕上がっている。8月21日に開幕する日本アリーナ・ツアー〈KNOCK ON Vol.2〉の直前という投下タイミングで、ツアー会場でのパフォーマンスにも期待が集まっている。",
+      "description": "BOYNEXTDOORが8月18日0時に配信した日本オリジナルの2ndデジタル・シングル。2025年11月の「SAY CHEESE!」以来となる日本語書き下ろし曲で、繰り返されるフレーズとアップテンポなビートが弾けるようなエネルギーを生む一曲に仕上がっている。8月21日に開幕する日本アリーナ・ツアー〈KNOCK ON Vol.2〉の直前という投下タイミングで、ツアー会場でのパフォーマンスにも期待が集まっていた。",
       "genres": [
         "K-POP",
         "デジタルシングル"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/BoyNextDoor_at_Music_Bank%2C_2024_%2820240426%29.jpg/330px-BoyNextDoor_at_Music_Bank%2C_2024_%2820240426%29.jpg",
-      "source_url": "https://www.billboard-japan.com/d_news/detail/164151"
+      "source_url": "https://www.billboard-japan.com/d_news/detail/164151",
+      "updated_at": "2026-10-07"
     },
     {
       "id": "ja-jon-spencer-ss-extra-20260818",
@@ -1790,7 +1795,7 @@
       ],
       "developer": "Jon Spencer（ジョン・スペンサー）",
       "publisher": "CREATIVEMAN PRODUCTIONS",
-      "description": "ジョン・スペンサー・ブルース・エクスプロージョンのフロントマンとして知られるジョン・スペンサーが、サマーソニック出演に合わせた〈SUMMER SONIC EXTRA〉として単独公演を行う。8月18日の渋谷CLUB QUATTROは開場18:30・開演19:30、オールスタンディング前売8,800円（別途ドリンク代600円）。オープニング・アクトにはテレビ大陸音頭が決まった。前日17日には名古屋CLUB QUATTROでKING BROTHERSを迎えた公演も組まれている。一般発売は7月11日10時に始まっている。",
+      "description": "ジョン・スペンサー・ブルース・エクスプロージョンのフロントマンとして知られるジョン・スペンサーが、サマーソニック出演に合わせた〈SUMMER SONIC EXTRA〉として単独公演を行った。8月18日の渋谷CLUB QUATTROは開場18:30・開演19:30、オールスタンディング前売8,800円（別途ドリンク代600円）。オープニング・アクトにはテレビ大陸音頭が決まっていた。前日17日には名古屋CLUB QUATTROでKING BROTHERSを迎えた公演も組まれていた。一般発売は7月11日10時に始まった。",
       "genres": [
         "ロック",
         "ガレージロック",
@@ -1800,7 +1805,8 @@
       "source_url": "https://www.club-quattro.com/shibuya/schedule/detail/?cd=018506",
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "updated_at": "2026-10-07"
     },
     {
       "id": "ja-abc-z-connection-vol2-20260819",
@@ -1838,12 +1844,13 @@
       "platforms": [],
       "developer": "milet",
       "publisher": null,
-      "description": "シンガーソングライターmiletが、約3年ぶりとなる4枚目のオリジナルアルバム『Made of Glass』を2026年8月19日にリリースする。TVアニメ「葬送のフリーレン」エンディングテーマ「Anytime Anywhere」「The Story of Us」や、映画・ドラマの主題歌といった数々のタイアップ曲に加え、新曲も多数収録される。初回生産限定盤には「milet Asia Tour 2024 in Taipei」やファンクラブ向けライブの映像が付属。ソニーミュージック公式サイトで予約受付が始まっている。",
+      "description": "シンガーソングライターmiletが、約3年ぶりとなる4枚目のオリジナルアルバム『Made of Glass』を2026年8月19日にリリースした。TVアニメ「葬送のフリーレン」エンディングテーマ「Anytime Anywhere」「The Story of Us」や、映画・ドラマの主題歌といった数々のタイアップ曲に加え、新曲も多数収録された。初回生産限定盤には「milet Asia Tour 2024 in Taipei」やファンクラブ向けライブの映像が付属した。",
       "genres": [
         "J-POP"
       ],
       "image_url": null,
-      "source_url": "https://www.sonymusic.co.jp/artist/milet_music/info/584236"
+      "source_url": "https://www.sonymusic.co.jp/artist/milet_music/info/584236",
+      "updated_at": "2026-10-07"
     },
     {
       "id": "ja-nakajima-kento-onigoto-20260819",
@@ -1856,12 +1863,13 @@
       "platforms": [],
       "developer": "中島健人",
       "publisher": null,
-      "description": "元Sexy Zoneの中島健人が2026年8月19日にリリースする、初の両A面となる3rdシングル。表題曲「鬼事」はTVアニメ「逃げ上手の若君」第二期のオープニングテーマで、中島自身も作詞に参加している。もう一方の表題曲「Fiction Love」は、7月に全国公開された主演映画「ラブ≠コメディ」の主題歌。ソロ活動を本格化させる中島の新たな表現が詰まった一枚として注目を集めている。",
+      "description": "元Sexy Zoneの中島健人が2026年8月19日にリリースした、初の両A面となる3rdシングル。表題曲「鬼事」はTVアニメ「逃げ上手の若君」第二期のオープニングテーマで、中島自身も作詞に参加している。もう一方の表題曲「Fiction Love」は、7月に全国公開された主演映画「ラブ≠コメディ」の主題歌。ソロ活動を本格化させる中島の新たな表現が詰まった一枚として注目を集めた。",
       "genres": [
         "J-POP"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/BuzzFeed_MUSIC_AWARDS_JAPAN_2026_-_%E4%B8%AD%E5%B3%B6%E5%81%A5%E4%BA%BA.png/250px-BuzzFeed_MUSIC_AWARDS_JAPAN_2026_-_%E4%B8%AD%E5%B3%B6%E5%81%A5%E4%BA%BA.png",
-      "source_url": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/584745"
+      "source_url": "https://www.sonymusic.co.jp/artist/KentoNakajima/info/584745",
+      "updated_at": "2026-10-07"
     },
     {
       "id": "ja-super-junior-ryeowook-konpeki-20260819",
@@ -2038,13 +2046,14 @@
       ],
       "developer": "Number_i",
       "publisher": null,
-      "description": "Number_iが、グループ初のファンミーティング「Numbers Ur'26」の東京公演を、東京・TOYOTA ARENA TOKYOで開催した。東京公演は8月25日・26日・27日の3日間で計5回。7月21日・22日の大阪城ホール公演に続く日程で、ファンクラブ「iLYs」会員限定、顔認証入場のため来場者全員の事前の顔写真登録が必要となる。移籍第1弾シングルのリリースを控えた夏の重要イベントとして注目を集めた。",
+      "description": "Number_iが、グループ初のファンミーティング「Numbers Ur'26」の東京公演を、東京・TOYOTA ARENA TOKYOで開催した。東京公演は8月25日・26日・27日の3日間で計5回。7月21日・22日の大阪城ホール公演に続く日程で、ファンクラブ「iLYs」会員限定、顔認証入場のため来場者全員の事前の顔写真登録が必要とされた。移籍第1弾シングルのリリースを控えた夏の重要イベントとして注目を集めた。",
       "genres": [
         "J-POP",
         "ファンミーティング"
       ],
       "image_url": null,
-      "source_url": "https://natalie.mu/music/news/670380"
+      "source_url": "https://natalie.mu/music/news/670380",
+      "updated_at": "2026-10-07"
     },
     {
       "id": "ja-sukiyaki-tokyo-lindigo-20260825",
@@ -2079,12 +2088,13 @@
       "platforms": [],
       "developer": "いきものがかり",
       "publisher": null,
-      "description": "3人組ポップグループいきものがかりが、ニューシングル「さよならララ」を2026年8月26日にCDリリースする。表題曲は7月5日に放送を開始したオリジナルTVアニメ『さよならララ』のオープニングテーマとして書き下ろされ、7月15日に先行配信された。吉岡聖恵の伸びやかな歌声と水野良樹のメロディ、亀田誠治の編曲が、人魚姫ララと人間たちの物語を彩る一曲。初回生産限定盤と通常盤の2形態で、限定盤のBlu-rayにはMVやノンクレジットオープニング映像などが収録される予定。",
+      "description": "3人組ポップグループいきものがかりが、ニューシングル「さよならララ」を2026年8月26日にCDリリースした。表題曲は7月5日に放送を開始したオリジナルTVアニメ『さよならララ』のオープニングテーマとして書き下ろされ、7月15日に先行配信された。吉岡聖恵の伸びやかな歌声と水野良樹のメロディ、亀田誠治の編曲が、人魚姫ララと人間たちの物語を彩る一曲。初回生産限定盤と通常盤の2形態で、限定盤のBlu-rayにはMVやノンクレジットオープニング映像などが収録された。",
       "genres": [
         "J-POP"
       ],
       "image_url": null,
-      "source_url": "https://ikimonogakari.com/news/media/20260417-1"
+      "source_url": "https://ikimonogakari.com/news/media/20260417-1",
+      "updated_at": "2026-10-07"
     },
     {
       "id": "ja-moonriders-ed-morrison-20260826",
@@ -2120,7 +2130,7 @@
       ],
       "developer": "高岩遼（RYO TAKAIWA）",
       "publisher": null,
-      "description": "SANABAGUN.やTHE THROTTLEのフロントマンとしても知られる高岩遼が、約8年ぶりとなる渋谷CLUB QUATTROでの単独公演を行う。8月26日の水曜日、開場18時45分・開演19時30分。ゲストには盟友NAGAN SERVERの出演が決まり、かつて高岩が営んでいたミュージック・バー「Brother」も一夜限りで復活する。前売5,800円（別途ドリンク代）。終演後の22時からは渋谷MUSIC BAR LIONで誕生日前夜を祝うアフター・パーティーが開かれ、ドア2,000円で入場できる。",
+      "description": "SANABAGUN.やTHE THROTTLEのフロントマンとしても知られる高岩遼が、約8年ぶりとなる渋谷CLUB QUATTROでの単独公演を行った。8月26日の水曜日、開場18時45分・開演19時30分だった。ゲストには盟友NAGAN SERVERの出演が決まり、かつて高岩が営んでいたミュージック・バー「Brother」も一夜限りで復活するとされた。前売5,800円（別途ドリンク代）。終演後の22時からは渋谷MUSIC BAR LIONで誕生日前夜を祝うアフター・パーティーが予定され、ドア2,000円とされた。",
       "genres": [
         "ジャズ",
         "ソウル",
@@ -2128,7 +2138,8 @@
       ],
       "image_url": null,
       "source_url": "https://www.cdjournal.com/news/takaiwa-ryo/128628",
-      "general_sale": false
+      "general_sale": false,
+      "updated_at": "2026-10-07"
     },
     {
       "id": "ja-acees-arena-tour-2026-v-osaka-20260829",
@@ -2510,11 +2521,12 @@
         "日本武道館"
       ],
       "developer": "サカナクション",
-      "description": "サカナクションが「怪獣」ツアー以来となるアリーナ・ツアー〈SAKANAQUARIUM 2026-2027 “透明”〉を開幕させる初日公演。9月8日に東京・日本武道館で開場17:30・開演18:30で行われ、武道館は9月9日・18日・19日、10月3日・4日を含む計6公演が組まれている。総合演出は前回に続き映像ディレクターの田中裕介が担当。前方中央にセンタースピーカーを加えた新しい音響システム「speaker+C」が投入され、2026年公演のチケットは7月時点で全公演ソールドアウトとなっている。",
+      "description": "サカナクションが「怪獣」ツアー以来となるアリーナ・ツアー〈SAKANAQUARIUM 2026-2027 “透明”〉を開幕させた初日公演。9月8日に東京・日本武道館で開場17:30・開演18:30で行われ、武道館は9月9日・18日・19日、10月3日・4日を含む計6公演が組まれている。総合演出は前回に続き映像ディレクターの田中裕介が担当。前方中央にセンタースピーカーを加えた新しい音響システム「speaker+C」が投入され、2026年公演のチケットは7月時点で全公演ソールドアウトとなっている。",
       "genres": [
         "J-ROCK",
         "アリーナツアー"
-      ]
+      ],
+      "updated_at": "2026-10-07"
     },
     {
       "release_time": null,
@@ -3282,13 +3294,14 @@
       ],
       "developer": "A.B.C-Z",
       "publisher": "ポニーキャニオン",
-      "description": "A.B.C-Zの通算10枚目となるオリジナル・アルバム『The Way of L.O.V-E』が9月30日に発売される。7月にリリースした3rd EP『THE WAY』が現在進行形のA.B.C-Zを提示した作品だったのに対し、本作はそこからさまざまな形の\"L.O.V-E\"を描き出すミクスチャー・リバイバル・アルバムと位置づけられている。早期予約特典は「マジマジック」のミュージック・ビデオの場面を用いたソロ＆集合ステッカーのセット。10月からは本作を携えた全国ツアーも始まる。",
+      "description": "A.B.C-Zの通算10枚目となるオリジナル・アルバム『The Way of L.O.V-E』が9月30日に発売された。7月にリリースした3rd EP『THE WAY』が現在進行形のA.B.C-Zを提示した作品だったのに対し、本作はそこからさまざまな形の\"L.O.V-E\"を描き出すミクスチャー・リバイバル・アルバムと位置づけられている。早期予約特典は「マジマジック」のミュージック・ビデオの場面を用いたソロ＆集合ステッカーのセットだった。10月からは本作を携えた全国ツアーも予定されている。",
       "genres": [
         "J-POP",
         "アルバム"
       ],
       "image_url": null,
-      "source_url": "https://www.cdjournal.com/news/abc-z/128426"
+      "source_url": "https://www.cdjournal.com/news/abc-z/128426",
+      "updated_at": "2026-10-07"
     },
     {
       "id": "ja-avenged-sevenfold-tokyo-20260930",
@@ -3303,7 +3316,7 @@
       ],
       "developer": "Avenged Sevenfold",
       "publisher": "クリエイティブマンプロダクション",
-      "description": "2014年のサマーソニック出演以来、12年ぶりとなるアヴェンジド・セヴンフォールドの来日公演。アジア・ツアーの日本公演として東京・SGC HALL ARIAKEで一夜限り行われる。開場18:00／開演19:00、アリーナスタンディング・スタンド指定席ともに17,500円（税込）で、チケットはすでに完売している。公演の模様は10月3日にWOWOWプライムおよびWOWOWオンデマンドで独占放送・配信されることも決まった。",
+      "description": "2014年のサマーソニック出演以来、12年ぶりとなるアヴェンジド・セヴンフォールドの来日公演。アジア・ツアーの日本公演として東京・SGC HALL ARIAKEで一夜限り行われた。開場18:00／開演19:00、アリーナスタンディング・スタンド指定席ともに17,500円（税込）で、チケットは完売していた。公演の模様は10月3日にWOWOWプライムおよびWOWOWオンデマンドで独占放送・配信されることも決まっていた。",
       "genres": [
         "ヘヴィメタル",
         "ハードロック"
@@ -3312,8 +3325,9 @@
       "source_url": "https://www.creativeman.co.jp/artist/2026/11a7x/",
       "presale": false,
       "general_sale": false,
-      "general_sale_datetime": "2026-05-16T10:00:00+09:00",
-      "general_sale_url": "https://eplus.jp/avengedsevenfold/"
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-07"
     },
     {
       "id": "ja-hinatazaka46-ichaicha-mushi-20260930",
@@ -3328,13 +3342,14 @@
       ],
       "developer": "日向坂46",
       "publisher": null,
-      "description": "日向坂46の18枚目のシングルで、2026年に入って3枚目のリリースとなる。発売は9月30日。表題曲の選抜メンバーを決めるフォーメーション発表は8月20日の生配信で行われ、それに先立って8月9日放送の『日向坂で会いましょう』でも情報が明かされた。発売に合わせて「forTUNE meets オンラインミート＆グリート」の開催も決まっている。同じ9月にはグループが宮崎で開く「ひなたフェス2026」も控えており、秋に向けた活動の軸となる作品となる。",
+      "description": "日向坂46の18枚目のシングルで、2026年に入って3枚目のリリースとなる。発売は9月30日だった。表題曲の選抜メンバーを決めるフォーメーション発表は8月20日の生配信で行われ、それに先立って8月9日放送の『日向坂で会いましょう』でも情報が明かされた。発売に合わせて「forTUNE meets オンラインミート＆グリート」の開催も決まっていた。同じ9月にはグループが宮崎で開く「ひなたフェス2026」も予定されており、秋に向けた活動の軸と位置づけられた作品だった。",
       "genres": [
         "アイドル",
         "J-POP"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Hinatazaka46_members_at_Yokohama_Stadium.jpg/330px-Hinatazaka46_members_at_Yokohama_Stadium.jpg",
-      "source_url": "https://www.cdjournal.com/news/hinatazaka-46/128707"
+      "source_url": "https://www.cdjournal.com/news/hinatazaka-46/128707",
+      "updated_at": "2026-10-07"
     },
     {
       "id": "ja-kai-yoshihiro-homecoming-complete-edition-20260930",
@@ -3349,13 +3364,14 @@
       ],
       "developer": "甲斐よしひろ",
       "publisher": "エイベックス",
-      "description": "甲斐バンドのヴォーカル・甲斐よしひろによる約15年ぶりのソロ・アルバム。TOKIO、中島みゆき、松田聖子、研ナオコ、明石家さんま、時任三郎らへ提供してきた楽曲を自ら厳選しリテイクしたセルフカヴァー音源集で、1987年の『ストレート・ライフ』から数えてソロ40周年イヤーの幕開けを飾る一枚となる。83年に松田聖子へ提供した「ハートをRock」のニュー・ミックスを初収録し、マスタリングはSterling SoundのTed Jensenが手がけた。",
+      "description": "甲斐バンドのヴォーカル・甲斐よしひろによる約15年ぶりのソロ・アルバム。TOKIO、中島みゆき、松田聖子、研ナオコ、明石家さんま、時任三郎らへ提供してきた楽曲を自ら厳選しリテイクしたセルフカヴァー音源集で、1987年の『ストレート・ライフ』から数えてソロ40周年イヤーの幕開けを飾る一枚となった。83年に松田聖子へ提供した「ハートをRock」のニュー・ミックスを初収録し、マスタリングはSterling SoundのTed Jensenが手がけた。",
       "genres": [
         "ロック",
         "J-POP"
       ],
       "image_url": null,
-      "source_url": "https://www.cdjournal.com/news/kai-yoshihiro/129178"
+      "source_url": "https://www.cdjournal.com/news/kai-yoshihiro/129178",
+      "updated_at": "2026-10-07"
     },
     {
       "release_date_approx": false,
@@ -3372,11 +3388,12 @@
         "GLION ARENA KOBE（兵庫・神戸）"
       ],
       "developer": "サカナクション",
-      "description": "〈SAKANAQUARIUM 2026-2027 “透明”〉兵庫公演の2日目。9月30日にGLION ARENA KOBEで開場18:00・開演19:00で行われる。9月8日の日本武道館で幕を開けたツアーは、大阪城ホール2公演と神戸2公演を経て10月3日・4日の日本武道館へ向かう構成。新音響システム「speaker+C」を用いた演出が続き、この2026年レグのチケットは全公演完売している。企画制作はグリーンズ。",
+      "description": "〈SAKANAQUARIUM 2026-2027 “透明”〉兵庫公演の2日目。9月30日にGLION ARENA KOBEで開場18:00・開演19:00で行われた。9月8日の日本武道館で幕を開けたツアーは、大阪城ホール2公演と神戸2公演を経て10月3日・4日の日本武道館へ向かう構成。新音響システム「speaker+C」を用いた演出が続き、この2026年レグのチケットは全公演完売している。企画制作はグリーンズ。",
       "genres": [
         "J-ROCK",
         "アリーナツアー"
-      ]
+      ],
+      "updated_at": "2026-10-07"
     },
     {
       "id": "ja-yamanaka-chihiro-happy-go-lucky-20260930",
@@ -3410,7 +3427,7 @@
       ],
       "developer": "THE CRIBS",
       "publisher": "SMASH",
-      "description": "英国ウェイクフィールド出身のジャーマン3兄弟によるロックバンドTHE CRIBSが、約5年ぶりの新作『Selling A Vibe』を携えて来日する。公演は2026年10月2日、東京・duo MUSIC EXCHANGEでの一夜限りの開催。2004年のデビュー以来、全英トップ10入り作を重ねUKロック・シーンで確固たる地位を築いてきたバンドの現在地を体感できるステージとなる。オフィシャル先行(抽選制)の受付を経て、一般発売は8月8日午前10時にイープラス・チケットぴあ・ローソンチケットで開始される。",
+      "description": "英国ウェイクフィールド出身のジャーマン3兄弟によるロックバンドTHE CRIBSが、約5年ぶりの新作『Selling A Vibe』を携えて来日した。公演は2026年10月2日、東京・duo MUSIC EXCHANGEでの一夜限りの開催。2004年のデビュー以来、全英トップ10入り作を重ねUKロック・シーンで確固たる地位を築いてきたバンドの現在地を体感できるステージとなった。オフィシャル先行(抽選制)の受付を経て、一般発売は8月8日午前10時にイープラス・チケットぴあ・ローソンチケットで開始された。",
       "genres": [
         "来日",
         "ロック"
@@ -3418,14 +3435,14 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/The_Cribs%2C_Live_2018.jpg/330px-The_Cribs%2C_Live_2018.jpg",
       "source_url": "https://skream.jp/news/2026/07/the_cribs_duo_music_exchange.php",
       "general_sale": false,
-      "general_sale_datetime": "2026-08-08T10:00:00+09:00",
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://eplus.jp/thecribs/",
+      "general_sale_url": null,
       "presale": false,
       "presale_datetime": null,
-      "presale_end_datetime": "2026-07-27T23:59:00+09:00",
-      "presale_url": "https://eplus.jp/thecribs/",
-      "updated_at": "2026-10-03"
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "updated_at": "2026-10-07"
     },
     {
       "id": "ja-kai-yoshihiro-homecoming-tour-yokohama-20261003",
@@ -3440,7 +3457,7 @@
       ],
       "developer": "甲斐よしひろ",
       "publisher": null,
-      "description": "甲斐よしひろが4年ぶりに行うソロ・ツアー〈ホームカミングツアー 2026〉の初日公演。9月30日発売のセルフカヴァー・アルバム『ホームカミング - Complete Edition -』と連動した全国5公演のうち、神奈川・KT Zepp Yokohamaで幕を開ける。バンドには土屋公平（ギター）、TOKIE（ベース）、河村“カースケ”智康（ドラム）が参加。開場16:00／開演17:00、VIP席18,000円・指定席11,000円（税込・ドリンク代別）。",
+      "description": "甲斐よしひろが4年ぶりに行うソロ・ツアー〈ホームカミングツアー 2026〉の初日公演。9月30日発売のセルフカヴァー・アルバム『ホームカミング - Complete Edition -』と連動した全国5公演のうち、神奈川・KT Zepp Yokohamaで幕を開けた。バンドには土屋公平（ギター）、TOKIE（ベース）、河村“カースケ”智康（ドラム）が参加。開場16:00／開演17:00、VIP席18,000円・指定席11,000円（税込・ドリンク代別）。",
       "genres": [
         "ロック",
         "J-POP"
@@ -3464,7 +3481,7 @@
       ],
       "developer": "上白石萌音",
       "publisher": null,
-      "description": "歌手デビュー10周年を迎えた上白石萌音が、自身初の主催野外フェスを2026年10月3日・4日の2日間、横浜赤レンガパークの野外特設ステージで開催する。両日とも開場11時・開演13時で、androp、MONGOL800、AI、森山直太朗、大橋トリオ、GLIM SPANKYらが日替わりで出演。10月4日には妹adieu（上白石萌歌）がBAND ACTとして加わり、歌手として初の姉妹共演が実現する。ゲストには井上芳雄や小林武史らも名を連ねる、10周年を締めくくる記念公演となる。",
+      "description": "歌手デビュー10周年を迎えた上白石萌音が、自身初の主催野外フェスを2026年10月3日・4日の2日間、横浜赤レンガパークの野外特設ステージで開催した。両日とも開場11時・開演13時で、androp、MONGOL800、AI、森山直太朗、大橋トリオ、GLIM SPANKYらが日替わりで出演した。10月4日には妹adieu（上白石萌歌）がBAND ACTとして加わり、歌手として初の姉妹共演が予定された。ゲストには井上芳雄や小林武史らも名を連ねた、10周年を締めくくる記念公演だった。",
       "genres": [
         "フェスティバル",
         "複数アーティスト",
@@ -3497,7 +3514,7 @@
           ]
         }
       ],
-      "updated_at": "2026-09-30"
+      "updated_at": "2026-10-07"
     },
     {
       "id": "ja-wasuta-zepp-shinjuku-20261004",
@@ -3510,7 +3527,7 @@
       ],
       "developer": "わーすた",
       "publisher": "キョードー東京",
-      "description": "2027年2月の解散を発表したわーすたが行うラストツアー【WORLD TOUR 2026「WASUTA is my life!!!!」】の東京公演。9月18日の福岡DRUM LOGOSを皮切りに広島LIVE VANQUISH、GORILLA HALL OSAKA、北海道cube gardenを回り、この日はZepp Shinjukuで13時30分開演の1部と17時開演の2部の2回公演を行う。1部は「観て聴いて元気になる」、2部は「満開のわーすたBEST」と題され、両部で内容が異なる。その後は愛知DIAMOND HALLに加え、タイ・韓国・台湾での追加公演も控える。チケットは2026年8月22日10時から先着で一般発売された。",
+      "description": "2027年2月の解散を発表したわーすたが行うラストツアー【WORLD TOUR 2026「WASUTA is my life!!!!」】の東京公演。9月18日の福岡DRUM LOGOSを皮切りに広島LIVE VANQUISH、GORILLA HALL OSAKA、北海道cube gardenを回り、この日はZepp Shinjukuで13時30分開演の1部と17時開演の2部の2回公演を行った。1部は「観て聴いて元気になる」、2部は「満開のわーすたBEST」と題され、両部で内容が異なっていた。その後は愛知DIAMOND HALLに加え、タイ・韓国・台湾での追加公演も控える。チケットは2026年8月22日10時から先着で一般発売された。",
       "genres": [
         "J-POP",
         "アイドル"
@@ -3518,8 +3535,8 @@
       "source_url": "https://wa-suta.world/en/schedule/tour.php?id=1003050",
       "presale": false,
       "general_sale": false,
-      "general_sale_datetime": "2026-08-22T10:00:00+09:00",
-      "general_sale_url": "https://w.pia.jp/t/wa-suta2026/",
+      "general_sale_datetime": null,
+      "general_sale_url": null,
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "image_url": null,
@@ -3674,17 +3691,18 @@
       ],
       "developer": ".ENDRECHERI.（堂本剛）",
       "publisher": null,
-      "description": "堂本剛によるクリエイティブ・プロジェクト.ENDRECHERI.が、ビルボードライブに初登場する3都市ツアー。ジョージ・クリントンらのPファンクに影響を受けたファンクミュージックを軸に、ジャンルを横断する楽曲をクラブサイズの空間で聴かせる。各日1stステージ・2ndステージの2部制で、1stは開場16:30／開演17:30、2ndは開場19:30／開演20:30。チケットはClub BBL会員および法人会員先行が9月28日12:00、一般発売が10月1日12:00に受付を開始する。本公演は2026-10-13のビルボードライブ横浜で行われる。",
+      "description": "堂本剛によるクリエイティブ・プロジェクト.ENDRECHERI.が、ビルボードライブに初登場する3都市ツアー。ジョージ・クリントンらのPファンクに影響を受けたファンクミュージックを軸に、ジャンルを横断する楽曲をクラブサイズの空間で聴かせる。各日1stステージ・2ndステージの2部制で、1stは開場16:30／開演17:30、2ndは開場19:30／開演20:30。チケットはClub BBL会員および法人会員先行が9月28日12:00、一般発売が10月1日12:00に受付を開始した。本公演は2026-10-13のビルボードライブ横浜で行われる。",
       "genres": [
         "ファンク",
         "J-POP"
       ],
       "image_url": null,
       "source_url": "https://www.billboard-japan.com/d_news/detail/165300",
-      "presale": true,
-      "general_sale": false,
+      "presale": false,
+      "general_sale": true,
       "presale_datetime": "2026-09-28T12:00:00+09:00",
-      "general_sale_datetime": "2026-10-01T12:00:00+09:00"
+      "general_sale_datetime": "2026-10-01T12:00:00+09:00",
+      "updated_at": "2026-10-07"
     },
     {
       "id": "ja-ezra-collective-tokyo-20261013",
@@ -3780,17 +3798,18 @@
       ],
       "developer": ".ENDRECHERI.（堂本剛）",
       "publisher": null,
-      "description": "堂本剛によるクリエイティブ・プロジェクト.ENDRECHERI.が、ビルボードライブに初登場する3都市ツアー。ジョージ・クリントンらのPファンクに影響を受けたファンクミュージックを軸に、ジャンルを横断する楽曲をクラブサイズの空間で聴かせる。各日1stステージ・2ndステージの2部制で、1stは開場16:30／開演17:30、2ndは開場19:30／開演20:30。チケットはClub BBL会員および法人会員先行が9月28日12:00、一般発売が10月1日12:00に受付を開始する。本公演は2026-10-14のビルボードライブ横浜で行われる。",
+      "description": "堂本剛によるクリエイティブ・プロジェクト.ENDRECHERI.が、ビルボードライブに初登場する3都市ツアー。ジョージ・クリントンらのPファンクに影響を受けたファンクミュージックを軸に、ジャンルを横断する楽曲をクラブサイズの空間で聴かせる。各日1stステージ・2ndステージの2部制で、1stは開場16:30／開演17:30、2ndは開場19:30／開演20:30。チケットはClub BBL会員および法人会員先行が9月28日12:00、一般発売が10月1日12:00に受付を開始した。本公演は2026-10-14のビルボードライブ横浜で行われる。",
       "genres": [
         "ファンク",
         "J-POP"
       ],
       "image_url": null,
       "source_url": "https://www.billboard-japan.com/d_news/detail/165300",
-      "presale": true,
-      "general_sale": false,
+      "presale": false,
+      "general_sale": true,
       "presale_datetime": "2026-09-28T12:00:00+09:00",
-      "general_sale_datetime": "2026-10-01T12:00:00+09:00"
+      "general_sale_datetime": "2026-10-01T12:00:00+09:00",
+      "updated_at": "2026-10-07"
     },
     {
       "release_date_approx": false,
