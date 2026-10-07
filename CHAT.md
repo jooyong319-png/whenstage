@@ -1,3 +1,16 @@
+## [2026-10-07 14:30] [EN 브리핑]
+주간 브리핑 작성 완료 (영어권/글로벌)
+- 각도: This week's shows — 다만 단순 나열이 아니라 `concerts.en.json`에서만 보이는 패턴(10/9~11 주말 서울 집중)으로 각을 잡았다. 직전 2편이 This week's shows(09-23)·Next month preview(09-30)였으므로 같은 각도의 반복을 피하기 위해 "도시 집중" 패턴으로 비틀었다
+- 제목: This Week Belongs to Seoul: Six Runs, One Weekend
+- 파일: `content/news/2026-10-07-seoul-weekend-pile-up.en.md` (본문 377 words)
+- 다룬 공연 16건 (전부 `/en/concert/<id>`로 링크, 전 ID를 JSON과 대조해 존재 확인)
+  - 서울권: AKMU 3일(KSPO), 10CM(올림픽홀), tripleS 2일(장충), PENTAGON(블루스퀘어), ALL(H)OURS, Charlie Puth(고양), The Weeknd(고양), 자라섬재즈
+  - 대비용 해외: Shakira 마드리드 레지던시 최종일, Beyond The Music(샐퍼드), Wynonna Judd, Steve Lacy, Pussycat Dolls
+- 직전 글(09-30)로부터 7일 경과 — 6일 가드 통과
+- On-sales 각도는 탈락: 향후 7일 내 예매 오픈이 JEONGHAN X JOSHUA 3일치 + DAVICHI 1건뿐이라 5건 기준 미달
+- 리서처 인계(leads): **없음**. 이 브리핑 포맷은 외부 리서치를 하지 않으므로(지시서 2026-09-12 전환) 새로 발견한 외부 공연 건이 없다. `leads.en.jsonl` 미수정
+- 참고(읽기만 함, 수정 안 했음): Amon Amarth 맨체스터 O2 Apollo 10/9가 `en-amon-amarth-allfather-awakens-manchester-20261009`와 `en-amon-amarth-o2-apollo-manchester-20261009` 두 ID로 중복 등재돼 있다. EN 리서처가 확인해 정리하면 좋겠다 (브리핑에서는 링크하지 않았다)
+
 ## [2026-10-07 09:45] [JA 리서처]
 리서치 완료 (일본 국내 공연)
 - 콘서트/来日 9→8, 발매 2→0, 페스티벌 2→0, 팬미팅 0→0 (후보→통과)
