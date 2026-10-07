@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-03",
+  "last_updated": "2026-10-07",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -837,27 +837,6 @@
       "publisher": null
     },
     {
-      "id": "ja-mr-children-saturday-in-the-park-nagoya-20260425",
-      "name": "Mr.Children Tour 2026 \"Saturday in the park\"（名古屋公演）",
-      "release_date": "2026-04-25",
-      "release_time": "17:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "日本ガイシホール（愛知）"
-      ],
-      "developer": "Mr.Children",
-      "publisher": "サンデーフォークプロモーション",
-      "description": "Mr.Childrenが2026年4月から11月にかけて全国28公演で回ったアリーナ・ツアーの名古屋公演。会場は日本ガイシホールで、4月25日は開場16:00・開演17:00、翌26日は開場15:00・開演16:00の2days として行われた。ツアー・タイトルの「Saturday in the park」は週末の公園に集うような開放感を掲げたもので、名古屋公演はサンデーフォークプロモーションが主催した。",
-      "genres": [
-        "J-ROCK",
-        "アリーナツアー"
-      ],
-      "image_url": null,
-      "source_url": "https://www.sundayfolk.com/liveinfo/8cdfdjm"
-    },
-    {
       "id": "ja-dreams-come-true-black-album-tour-fukuoka-20260425",
       "name": "DREAMS COME TRUE CONCERT TOUR 2026 THE BLACK ◯ ALBUM 福岡公演",
       "release_date": "2026-04-25",
@@ -881,6 +860,27 @@
       "presale": false,
       "general_sale": false,
       "updated_at": "2026-10-03"
+    },
+    {
+      "id": "ja-mr-children-saturday-in-the-park-nagoya-20260425",
+      "name": "Mr.Children Tour 2026 \"Saturday in the park\"（名古屋公演）",
+      "release_date": "2026-04-25",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "日本ガイシホール（愛知）"
+      ],
+      "developer": "Mr.Children",
+      "publisher": "サンデーフォークプロモーション",
+      "description": "Mr.Childrenが2026年4月から11月にかけて全国28公演で回ったアリーナ・ツアーの名古屋公演。会場は日本ガイシホールで、4月25日は開場16:00・開演17:00、翌26日は開場15:00・開演16:00の2days として行われた。ツアー・タイトルの「Saturday in the park」は週末の公園に集うような開放感を掲げたもので、名古屋公演はサンデーフォークプロモーションが主催した。",
+      "genres": [
+        "J-ROCK",
+        "アリーナツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://www.sundayfolk.com/liveinfo/8cdfdjm"
     },
     {
       "id": "ja-dreams-come-true-black-album-tour-fukuoka-20260426",
@@ -1167,6 +1167,29 @@
       ],
       "image_url": null,
       "source_url": "https://www.aiko.com/topics/?id=7871"
+    },
+    {
+      "id": "ja-stereolab-japan-2026-tokyo-20260702",
+      "name": "ステレオラブ 来日公演 2026 東京（EX THEATER ROPPONGI）",
+      "release_date": "2026-07-02",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "EX THEATER ROPPONGI"
+      ],
+      "developer": "Stereolab（ステレオラブ）",
+      "publisher": null,
+      "description": "英仏混成のポストロック・バンド、ステレオラブが17年ぶりに実現させた来日ツアーの東京公演。2026年6月29日の大阪・UMEDA CLUB QUATTROに始まり、名古屋CLUB QUATTROを経て7月2日にEX THEATER ROPPONGIで開催された。2020年に予定されていた来日が中止となっていたため待望の再訪となり、EX THEATER ROPPONGI公演は早期に完売して前日の神田スクエアホールに追加公演が組まれた。チケットは9,800円から12,000円の価格帯だった。",
+      "genres": [
+        "ポストロック",
+        "インディーロック",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://l-tike.com/stereolab/",
+      "updated_at": "2026-10-07"
     },
     {
       "id": "ja-zilqy-from-zero-to-one-20260711",
@@ -3424,8 +3447,9 @@
       ],
       "image_url": null,
       "source_url": "https://kaisurf.com/live",
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-01T00:00:00+09:00"
+      "general_sale": false,
+      "general_sale_datetime": "2026-08-01T00:00:00+09:00",
+      "updated_at": "2026-10-07"
     },
     {
       "id": "ja-kamishiraishi-mone-bouquet-20261003",
@@ -3493,12 +3517,13 @@
       ],
       "source_url": "https://wa-suta.world/en/schedule/tour.php?id=1003050",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-08-22T10:00:00+09:00",
       "general_sale_url": "https://w.pia.jp/t/wa-suta2026/",
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
-      "image_url": null
+      "image_url": null,
+      "updated_at": "2026-10-07"
     },
     {
       "id": "ja-post-malone-2026-20261006",
@@ -6274,6 +6299,30 @@
       "updated_at": "2026-09-23"
     },
     {
+      "id": "ja-miyamoto-hiroji-i-am-hero-fukuoka-20261225",
+      "name": "宮本浩次「TOUR 2026〜2027 I AM HERO」福岡公演（ツアー初日）",
+      "release_date": "2026-12-25",
+      "release_time": "18:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "福岡国際センター"
+      ],
+      "developer": "宮本浩次",
+      "publisher": "キョードー西日本",
+      "description": "エレファントカシマシの宮本浩次がソロとしては初めて開催する全国アリーナツアーのツアー初日。2026年6月10日に4年半ぶりのオリジナルアルバム『I AM HERO』を発表し、同年6月12日の60歳バースデーコンサートを経て決定したツアーで、福岡・愛知・宮城・東京・兵庫の全国5都市10公演を巡る。会場は福岡国際センターで、開場17:30／開演18:30。チケットは指定席A・注釈付き指定席Aが12,100円、指定席Bが9,900円（いずれも税込）で、一般三次抽選受付は2026年9月28日に締め切られた。",
+      "genres": [
+        "J-POP",
+        "ロック"
+      ],
+      "image_url": null,
+      "source_url": "https://miyamotohiroji.com/iamhero",
+      "updated_at": "2026-10-07",
+      "presale": false,
+      "general_sale": false
+    },
+    {
       "id": "ja-narumiya-yumemiangya-yokohama-20261225",
       "name": "なるみや Live Tour 2026「夢見行脚」追加公演",
       "release_date": "2026-12-25",
@@ -6298,6 +6347,30 @@
       "presale_url": "https://narumiya-official.jp/yumemiangya/"
     },
     {
+      "id": "ja-miyamoto-hiroji-i-am-hero-fukuoka-20261226",
+      "name": "宮本浩次「TOUR 2026〜2027 I AM HERO」福岡公演（ツアー2日目）",
+      "release_date": "2026-12-26",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "福岡国際センター"
+      ],
+      "developer": "宮本浩次",
+      "publisher": "キョードー西日本",
+      "description": "エレファントカシマシの宮本浩次がソロとしては初めて開催する全国アリーナツアーのツアー2日目。2026年6月10日に4年半ぶりのオリジナルアルバム『I AM HERO』を発表し、同年6月12日の60歳バースデーコンサートを経て決定したツアーで、福岡・愛知・宮城・東京・兵庫の全国5都市10公演を巡る。会場は福岡国際センターで、開場16:00／開演17:00。チケットは指定席A・注釈付き指定席Aが12,100円、指定席Bが9,900円（いずれも税込）で、一般三次抽選受付は2026年9月28日に締め切られた。",
+      "genres": [
+        "J-POP",
+        "ロック"
+      ],
+      "image_url": null,
+      "source_url": "https://miyamotohiroji.com/iamhero",
+      "updated_at": "2026-10-07",
+      "presale": false,
+      "general_sale": false
+    },
+    {
       "release_time": null,
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
@@ -6318,6 +6391,30 @@
       "category": "concert_tour",
       "description": "DJ KRUSHの最新アルバム『TOKYØHUM』を掲げたジャパンツアーの東京公演にして国内最終日。2026年12月27日（日）に東京・代官山UNITで行われる。11月13日の仙台CLUB SHAFTに始まり、熊本・京都・名古屋・札幌・横浜・大阪・高知を回る全国9都市ツアーの締めくくりで、アルバム参加のRiko Dan、MC Yallah、ELIMらがゲストとして名を連ねる。開場・開演時刻は順次発表される。",
       "updated_at": "2026-09-23"
+    },
+    {
+      "id": "ja-miyamoto-hiroji-i-am-hero-aichi-20270105",
+      "name": "宮本浩次「TOUR 2026〜2027 I AM HERO」愛知公演（愛知公演初日）",
+      "release_date": "2027-01-05",
+      "release_time": "18:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "日本ガイシホール（クロコくんホール）"
+      ],
+      "developer": "宮本浩次",
+      "publisher": "サンデーフォークプロモーション",
+      "description": "エレファントカシマシの宮本浩次がソロとしては初めて開催する全国アリーナツアーの愛知公演初日。2026年6月10日に4年半ぶりのオリジナルアルバム『I AM HERO』を発表し、同年6月12日の60歳バースデーコンサートを経て決定したツアーで、福岡・愛知・宮城・東京・兵庫の全国5都市10公演を巡る。会場は日本ガイシホール（クロコくんホール）で、開場17:30／開演18:30。チケットは指定席A・注釈付き指定席Aが12,100円、指定席Bが9,900円（いずれも税込）で、一般三次抽選受付は2026年9月28日に締め切られた。",
+      "genres": [
+        "J-POP",
+        "ロック"
+      ],
+      "image_url": null,
+      "source_url": "https://miyamotohiroji.com/iamhero",
+      "updated_at": "2026-10-07",
+      "presale": false,
+      "general_sale": false
     },
     {
       "id": "ja-dave-matthews-japan-2027-tokyo-20270106",
@@ -6347,6 +6444,30 @@
       "presale_url": "https://eplus.jp/davematthews/",
       "general_sale_datetime": "2026-10-17T10:00:00+09:00",
       "updated_at": "2026-09-30"
+    },
+    {
+      "id": "ja-miyamoto-hiroji-i-am-hero-aichi-20270106",
+      "name": "宮本浩次「TOUR 2026〜2027 I AM HERO」愛知公演（愛知公演2日目）",
+      "release_date": "2027-01-06",
+      "release_time": "18:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "日本ガイシホール（クロコくんホール）"
+      ],
+      "developer": "宮本浩次",
+      "publisher": "サンデーフォークプロモーション",
+      "description": "エレファントカシマシの宮本浩次がソロとしては初めて開催する全国アリーナツアーの愛知公演2日目。2026年6月10日に4年半ぶりのオリジナルアルバム『I AM HERO』を発表し、同年6月12日の60歳バースデーコンサートを経て決定したツアーで、福岡・愛知・宮城・東京・兵庫の全国5都市10公演を巡る。会場は日本ガイシホール（クロコくんホール）で、開場17:30／開演18:30。チケットは指定席A・注釈付き指定席Aが12,100円、指定席Bが9,900円（いずれも税込）で、一般三次抽選受付は2026年9月28日に締め切られた。",
+      "genres": [
+        "J-POP",
+        "ロック"
+      ],
+      "image_url": null,
+      "source_url": "https://miyamotohiroji.com/iamhero",
+      "updated_at": "2026-10-07",
+      "presale": false,
+      "general_sale": false
     },
     {
       "id": "ja-dave-matthews-japan-2027-osaka-20270108",
@@ -6650,6 +6771,34 @@
       "updated_at": "2026-10-03"
     },
     {
+      "id": "ja-blue-25th-anniversary-tokyo-20270119",
+      "name": "Blue「25th Anniversary Tour」来日公演 DAY1（振替公演）",
+      "release_date": "2027-01-19",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "Spotify O-EAST（東京・渋谷）"
+      ],
+      "developer": "Blue（ブルー）",
+      "publisher": "LIVE NATION H.I.P.",
+      "description": "イギリス出身の4人組ボーカルグループBlueが結成25周年を記念したアジアツアーの一環として行う東京公演。2026年2月に予定されていた公演がアーティスト側の事情で延期となり、同じSpotify O-EASTでの振替公演として開催される。開場18:00／開演19:00で、チケットは1階スタンディング8,800円、2階指定席10,800円、サウンドチェックや写真撮影が付くONE LOVE VIP PACKAGEが32,800円。日本での単独公演は12年ぶりとなる。",
+      "genres": [
+        "ポップ",
+        "R&B",
+        "来日公演"
+      ],
+      "image_url": "https://www.universal-music.co.jp/blue/wp-content/uploads/sites/2732/2026/10/blue_1080x1350.jpg",
+      "source_url": "https://www.universal-music.co.jp/blue/news/2026-10-02/",
+      "updated_at": "2026-10-07",
+      "presale": true,
+      "presale_datetime": "2026-10-06T12:00:00+09:00",
+      "presale_end_datetime": "2026-10-18T23:59:00+09:00",
+      "presale_url": "https://w.pia.jp/t/blue2027/",
+      "general_sale": false
+    },
+    {
       "id": "ja-equal-love-tokyo-dome-20270119",
       "name": "＝LOVE in TOKYO DOME（1日目）",
       "release_date": "2027-01-19",
@@ -6673,6 +6822,34 @@
       "timezone": "Asia/Tokyo",
       "publisher": null,
       "image_url": null
+    },
+    {
+      "id": "ja-blue-25th-anniversary-tokyo-20270120",
+      "name": "Blue「25th Anniversary Tour」来日公演 DAY2（振替公演）",
+      "release_date": "2027-01-20",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "Spotify O-EAST（東京・渋谷）"
+      ],
+      "developer": "Blue（ブルー）",
+      "publisher": "LIVE NATION H.I.P.",
+      "description": "イギリス出身の4人組ボーカルグループBlueが結成25周年を記念したアジアツアーの一環として行う東京公演。2026年2月に予定されていた公演がアーティスト側の事情で延期となり、同じSpotify O-EASTでの振替公演として開催される。開場18:00／開演19:00で、チケットは1階スタンディング8,800円、2階指定席10,800円、サウンドチェックや写真撮影が付くONE LOVE VIP PACKAGEが32,800円。日本での単独公演は12年ぶりとなる。",
+      "genres": [
+        "ポップ",
+        "R&B",
+        "来日公演"
+      ],
+      "image_url": "https://www.universal-music.co.jp/blue/wp-content/uploads/sites/2732/2026/10/blue_1080x1350.jpg",
+      "source_url": "https://www.universal-music.co.jp/blue/news/2026-10-02/",
+      "updated_at": "2026-10-07",
+      "presale": true,
+      "presale_datetime": "2026-10-06T12:00:00+09:00",
+      "presale_end_datetime": "2026-10-18T23:59:00+09:00",
+      "presale_url": "https://w.pia.jp/t/blue2027/",
+      "general_sale": false
     },
     {
       "id": "ja-equal-love-tokyo-dome-20270120",
@@ -6764,6 +6941,30 @@
       ]
     },
     {
+      "id": "ja-miyamoto-hiroji-i-am-hero-sendai-20270123",
+      "name": "宮本浩次「TOUR 2026〜2027 I AM HERO」宮城公演（宮城公演初日）",
+      "release_date": "2027-01-23",
+      "release_time": "17:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "ゼビオアリーナ仙台"
+      ],
+      "developer": "宮本浩次",
+      "publisher": "GIP",
+      "description": "エレファントカシマシの宮本浩次がソロとしては初めて開催する全国アリーナツアーの宮城公演初日。2026年6月10日に4年半ぶりのオリジナルアルバム『I AM HERO』を発表し、同年6月12日の60歳バースデーコンサートを経て決定したツアーで、福岡・愛知・宮城・東京・兵庫の全国5都市10公演を巡る。会場はゼビオアリーナ仙台で、開場16:30／開演17:30。チケットは指定席A・注釈付き指定席Aが12,100円、指定席Bが9,900円（いずれも税込）で、一般三次抽選受付は2026年9月28日に締め切られた。",
+      "genres": [
+        "J-POP",
+        "ロック"
+      ],
+      "image_url": null,
+      "source_url": "https://miyamotohiroji.com/iamhero",
+      "updated_at": "2026-10-07",
+      "presale": false,
+      "general_sale": false
+    },
+    {
       "id": "ja-sumika-laurens-library-20270123",
       "name": "sumika Live Tour 2027『Laurens Library』",
       "release_date": "2027-01-23",
@@ -6795,6 +6996,30 @@
       "general_sale_url": null
     },
     {
+      "id": "ja-miyamoto-hiroji-i-am-hero-sendai-20270124",
+      "name": "宮本浩次「TOUR 2026〜2027 I AM HERO」宮城公演（宮城公演2日目）",
+      "release_date": "2027-01-24",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "ゼビオアリーナ仙台"
+      ],
+      "developer": "宮本浩次",
+      "publisher": "GIP",
+      "description": "エレファントカシマシの宮本浩次がソロとしては初めて開催する全国アリーナツアーの宮城公演2日目。2026年6月10日に4年半ぶりのオリジナルアルバム『I AM HERO』を発表し、同年6月12日の60歳バースデーコンサートを経て決定したツアーで、福岡・愛知・宮城・東京・兵庫の全国5都市10公演を巡る。会場はゼビオアリーナ仙台で、開場16:00／開演17:00。チケットは指定席A・注釈付き指定席Aが12,100円、指定席Bが9,900円（いずれも税込）で、一般三次抽選受付は2026年9月28日に締め切られた。",
+      "genres": [
+        "J-POP",
+        "ロック"
+      ],
+      "image_url": null,
+      "source_url": "https://miyamotohiroji.com/iamhero",
+      "updated_at": "2026-10-07",
+      "presale": false,
+      "general_sale": false
+    },
+    {
       "id": "ja-maroon-5-tokyo-dome-20270130",
       "name": "マルーン5【Maroon 5 Asia 2027】東京ドーム公演（1日目）",
       "release_date": "2027-01-30",
@@ -6816,6 +7041,36 @@
       "source_url": "https://www.universal-music.co.jp/maroon5/news/2026-08-20/",
       "presale": true,
       "general_sale": false
+    },
+    {
+      "id": "ja-ayumu-imazu-live-2027-budokan-20270131",
+      "name": "Ayumu Imazu LIVE 2027 at 日本武道館",
+      "release_date": "2027-01-31",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "日本武道館"
+      ],
+      "developer": "Ayumu Imazu",
+      "publisher": "SOGO TOKYO",
+      "description": "シンガーソングライターのAyumu Imazuが自身初の日本武道館単独公演を行う。2026年6月21日、Zepp DiverCity（TOKYO）で開催された全国ツアー「Ayumu Imazu The CLASSIC TOUR 2026」の東京公演のステージ上でサプライズ発表されたもので、長年掲げてきた目標が実現する節目の舞台となる。2026年5月には約4年ぶりの2ndアルバム『CLASSIC』を発表し、同作を携えた9都市ツアーは全公演ソールドアウトを記録した。開場17:00、開演18:00。チケットは指定席9,800円（税込）のほか、優良座席とオリジナルTシャツが付くアップグレード枠17,000円（税込）が用意される。",
+      "genres": [
+        "J-POP",
+        "ダンス",
+        "ワンマン"
+      ],
+      "image_url": null,
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000234.000118793.html",
+      "presale": false,
+      "presale_datetime": "2026-06-21T20:00:00+09:00",
+      "presale_end_datetime": "2026-06-28T23:59:00+09:00",
+      "presale_url": "https://ayumuimazu-official.com/news/20270131/",
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-03"
     },
     {
       "id": "ja-gretchen-parlato-bluenote-20270131",
@@ -6867,36 +7122,6 @@
       "source_url": "https://www.universal-music.co.jp/maroon5/news/2026-08-20/",
       "presale": true,
       "general_sale": false
-    },
-    {
-      "id": "ja-ayumu-imazu-live-2027-budokan-20270131",
-      "name": "Ayumu Imazu LIVE 2027 at 日本武道館",
-      "release_date": "2027-01-31",
-      "release_time": "18:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "日本武道館"
-      ],
-      "developer": "Ayumu Imazu",
-      "publisher": "SOGO TOKYO",
-      "description": "シンガーソングライターのAyumu Imazuが自身初の日本武道館単独公演を行う。2026年6月21日、Zepp DiverCity（TOKYO）で開催された全国ツアー「Ayumu Imazu The CLASSIC TOUR 2026」の東京公演のステージ上でサプライズ発表されたもので、長年掲げてきた目標が実現する節目の舞台となる。2026年5月には約4年ぶりの2ndアルバム『CLASSIC』を発表し、同作を携えた9都市ツアーは全公演ソールドアウトを記録した。開場17:00、開演18:00。チケットは指定席9,800円（税込）のほか、優良座席とオリジナルTシャツが付くアップグレード枠17,000円（税込）が用意される。",
-      "genres": [
-        "J-POP",
-        "ダンス",
-        "ワンマン"
-      ],
-      "image_url": null,
-      "source_url": "https://prtimes.jp/main/html/rd/p/000000234.000118793.html",
-      "presale": false,
-      "presale_datetime": "2026-06-21T20:00:00+09:00",
-      "presale_end_datetime": "2026-06-28T23:59:00+09:00",
-      "presale_url": "https://ayumuimazu-official.com/news/20270131/",
-      "general_sale": false,
-      "general_sale_datetime": null,
-      "general_sale_url": null,
-      "updated_at": "2026-10-03"
     },
     {
       "id": "ja-maroon-5-tokyo-dome-20270202",
@@ -7018,6 +7243,30 @@
       "presale_url": "https://www.yoshiikazuya.com/feature/tour2027"
     },
     {
+      "id": "ja-miyamoto-hiroji-i-am-hero-tokyo-20270210",
+      "name": "宮本浩次「TOUR 2026〜2027 I AM HERO」東京公演（東京公演初日）",
+      "release_date": "2027-02-10",
+      "release_time": "18:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "国立代々木競技場（第一体育館）"
+      ],
+      "developer": "宮本浩次",
+      "publisher": "DISK GARAGE",
+      "description": "エレファントカシマシの宮本浩次がソロとしては初めて開催する全国アリーナツアーの東京公演初日。2026年6月10日に4年半ぶりのオリジナルアルバム『I AM HERO』を発表し、同年6月12日の60歳バースデーコンサートを経て決定したツアーで、福岡・愛知・宮城・東京・兵庫の全国5都市10公演を巡る。会場は国立代々木競技場（第一体育館）で、開場17:30／開演18:30。チケットは指定席A・注釈付き指定席Aが12,100円、指定席Bが9,900円（いずれも税込）で、一般三次抽選受付は2026年9月28日に締め切られた。",
+      "genres": [
+        "J-POP",
+        "ロック"
+      ],
+      "image_url": null,
+      "source_url": "https://miyamotohiroji.com/iamhero",
+      "updated_at": "2026-10-07",
+      "presale": false,
+      "general_sale": false
+    },
+    {
       "id": "ja-xg-the-core-final-tokyo-20270210",
       "name": "XG WORLD TOUR: THE CORE FINAL \"1\"（東京ドーム）",
       "release_date": "2027-02-10",
@@ -7039,6 +7288,60 @@
       "timezone": "Asia/Tokyo",
       "publisher": null,
       "image_url": null
+    },
+    {
+      "id": "ja-miyamoto-hiroji-i-am-hero-tokyo-20270211",
+      "name": "宮本浩次「TOUR 2026〜2027 I AM HERO」東京公演（東京公演2日目）",
+      "release_date": "2027-02-11",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "国立代々木競技場（第一体育館）"
+      ],
+      "developer": "宮本浩次",
+      "publisher": "DISK GARAGE",
+      "description": "エレファントカシマシの宮本浩次がソロとしては初めて開催する全国アリーナツアーの東京公演2日目。2026年6月10日に4年半ぶりのオリジナルアルバム『I AM HERO』を発表し、同年6月12日の60歳バースデーコンサートを経て決定したツアーで、福岡・愛知・宮城・東京・兵庫の全国5都市10公演を巡る。会場は国立代々木競技場（第一体育館）で、開場16:00／開演17:00。チケットは指定席A・注釈付き指定席Aが12,100円、指定席Bが9,900円（いずれも税込）で、一般三次抽選受付は2026年9月28日に締め切られた。",
+      "genres": [
+        "J-POP",
+        "ロック"
+      ],
+      "image_url": null,
+      "source_url": "https://miyamotohiroji.com/iamhero",
+      "updated_at": "2026-10-07",
+      "presale": false,
+      "general_sale": false
+    },
+    {
+      "id": "ja-tokyo-ska-paradise-orchestra-arena-tour-2027-20270211",
+      "name": "東京スカパラダイスオーケストラ ARENA TOUR 2027［SKA］SHOWDOWN Episode2 日本武道館公演",
+      "release_date": "2027-02-11",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "日本武道館"
+      ],
+      "developer": "東京スカパラダイスオーケストラ",
+      "publisher": "HOT STUFF PROMOTION",
+      "description": "東京スカパラダイスオーケストラがバンド史上初のアリーナツアーとして開催する公演。2026年3月31日に東京ガーデンシアターで行われた『［SKA］SHOWDOWN』の舞台をアリーナへ移した「Episode2」で、東京・愛知・大阪・福岡の全国4都市5公演を回る。チケットは指定席9,900円、小学生から高校生を対象とした指定席学生チケット6,600円（いずれも税込）。各公演にゲストを迎えるスペシャルな内容で、ツアー初日となるこの日はアイナ・ジ・エンドの出演が発表されている。開場17:00、開演18:00。",
+      "genres": [
+        "スカ",
+        "ロック",
+        "ツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://tokyoska.net/live/tour.php?id=1003055&fdate=2027-02-11&ldate=2027-03-27",
+      "updated_at": "2026-10-03",
+      "presale": true,
+      "presale_datetime": "2026-09-28T12:00:00+09:00",
+      "presale_end_datetime": "2026-10-19T23:59:00+09:00",
+      "presale_url": "https://fcparadise.net/s/fc06/ticket/list?ima=1903&ct=ticket",
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null
     },
     {
       "id": "ja-xg-the-core-final-tokyo-20270211",
@@ -7064,9 +7367,9 @@
       "image_url": null
     },
     {
-      "id": "ja-tokyo-ska-paradise-orchestra-arena-tour-2027-20270211",
+      "id": "ja-tokyo-ska-paradise-orchestra-arena-tour-2027-20270212",
       "name": "東京スカパラダイスオーケストラ ARENA TOUR 2027［SKA］SHOWDOWN Episode2 日本武道館公演",
-      "release_date": "2027-02-11",
+      "release_date": "2027-02-12",
       "release_time": "18:00",
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
@@ -7076,7 +7379,7 @@
       ],
       "developer": "東京スカパラダイスオーケストラ",
       "publisher": "HOT STUFF PROMOTION",
-      "description": "東京スカパラダイスオーケストラがバンド史上初のアリーナツアーとして開催する公演。2026年3月31日に東京ガーデンシアターで行われた『［SKA］SHOWDOWN』の舞台をアリーナへ移した「Episode2」で、東京・愛知・大阪・福岡の全国4都市5公演を回る。チケットは指定席9,900円、小学生から高校生を対象とした指定席学生チケット6,600円（いずれも税込）。各公演にゲストを迎えるスペシャルな内容で、ツアー初日となるこの日はアイナ・ジ・エンドの出演が発表されている。開場17:00、開演18:00。",
+      "description": "東京スカパラダイスオーケストラがバンド史上初のアリーナツアーとして開催する公演。2026年3月31日に東京ガーデンシアターで行われた『［SKA］SHOWDOWN』の舞台をアリーナへ移した「Episode2」で、東京・愛知・大阪・福岡の全国4都市5公演を回る。チケットは指定席9,900円、小学生から高校生を対象とした指定席学生チケット6,600円（いずれも税込）。各公演にゲストを迎えるスペシャルな内容で、武道館2DAYSの2日目にあたるこの日は田島貴男がゲストとして出演する。開場17:00、開演18:00。",
       "genres": [
         "スカ",
         "ロック",
@@ -7118,36 +7421,6 @@
       "presale_url": "https://www.cmp-members.com/tickets/weezer-3/",
       "general_sale": true,
       "general_sale_datetime": "2026-09-05T00:00:00+09:00"
-    },
-    {
-      "id": "ja-tokyo-ska-paradise-orchestra-arena-tour-2027-20270212",
-      "name": "東京スカパラダイスオーケストラ ARENA TOUR 2027［SKA］SHOWDOWN Episode2 日本武道館公演",
-      "release_date": "2027-02-12",
-      "release_time": "18:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "日本武道館"
-      ],
-      "developer": "東京スカパラダイスオーケストラ",
-      "publisher": "HOT STUFF PROMOTION",
-      "description": "東京スカパラダイスオーケストラがバンド史上初のアリーナツアーとして開催する公演。2026年3月31日に東京ガーデンシアターで行われた『［SKA］SHOWDOWN』の舞台をアリーナへ移した「Episode2」で、東京・愛知・大阪・福岡の全国4都市5公演を回る。チケットは指定席9,900円、小学生から高校生を対象とした指定席学生チケット6,600円（いずれも税込）。各公演にゲストを迎えるスペシャルな内容で、武道館2DAYSの2日目にあたるこの日は田島貴男がゲストとして出演する。開場17:00、開演18:00。",
-      "genres": [
-        "スカ",
-        "ロック",
-        "ツアー"
-      ],
-      "image_url": null,
-      "source_url": "https://tokyoska.net/live/tour.php?id=1003055&fdate=2027-02-11&ldate=2027-03-27",
-      "updated_at": "2026-10-03",
-      "presale": true,
-      "presale_datetime": "2026-09-28T12:00:00+09:00",
-      "presale_end_datetime": "2026-10-19T23:59:00+09:00",
-      "presale_url": "https://fcparadise.net/s/fc06/ticket/list?ima=1903&ct=ticket",
-      "general_sale": false,
-      "general_sale_datetime": null,
-      "general_sale_url": null
     },
     {
       "release_time": null,
@@ -7194,6 +7467,34 @@
       "updated_at": "2026-09-23"
     },
     {
+      "id": "ja-young-k-youngest-japan-20270213",
+      "name": "Young K Solo Tour <YOUNGEST> in JAPAN DAY1",
+      "release_date": "2027-02-13",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京体育館（メインアリーナ）"
+      ],
+      "developer": "Young K（DAY6）",
+      "publisher": "ON THE LINE",
+      "description": "韓国のバンドDAY6のメンバーYoung Kが、2作目のフルアルバム『YOUNGEST』を掲げたソロワールドツアーの一環として行う日本公演。会場は東京体育館メインアリーナで、開場17:00／開演18:00。全席指定15,000円（税込）で、未就学児は入場できない。2026年8月の仁川インスパイアアリーナでの開幕3公演は先行予約で全席完売しており、その後バンコク・台北・香港・シンガポールなどアジア各都市を巡回する流れのなかで東京公演が追加発表された。企画はJYPエンターテインメントが担当する。",
+      "genres": [
+        "K-POP",
+        "ロック",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://jypj-store.com/pages/youngk-youngest",
+      "updated_at": "2026-10-07",
+      "presale": true,
+      "presale_datetime": "2026-09-29T17:00:00+09:00",
+      "presale_end_datetime": "2026-10-13T23:59:00+09:00",
+      "presale_url": "https://ticket.tickebo.jp/sn/YoungK_solo_tb",
+      "general_sale": false
+    },
+    {
       "id": "ja-wasuta-last-live-20270214",
       "name": "わーすた ラストライブ（SGC HALL ARIAKE）",
       "release_date": "2027-02-14",
@@ -7213,6 +7514,34 @@
       "timezone": "Asia/Tokyo",
       "publisher": null,
       "image_url": null
+    },
+    {
+      "id": "ja-young-k-youngest-japan-20270214",
+      "name": "Young K Solo Tour <YOUNGEST> in JAPAN DAY2",
+      "release_date": "2027-02-14",
+      "release_time": "16:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京体育館（メインアリーナ）"
+      ],
+      "developer": "Young K（DAY6）",
+      "publisher": "ON THE LINE",
+      "description": "韓国のバンドDAY6のメンバーYoung Kが、2作目のフルアルバム『YOUNGEST』を掲げたソロワールドツアーの一環として行う日本公演。会場は東京体育館メインアリーナで、開場15:00／開演16:00。全席指定15,000円（税込）で、未就学児は入場できない。2026年8月の仁川インスパイアアリーナでの開幕3公演は先行予約で全席完売しており、その後バンコク・台北・香港・シンガポールなどアジア各都市を巡回する流れのなかで東京公演が追加発表された。企画はJYPエンターテインメントが担当する。",
+      "genres": [
+        "K-POP",
+        "ロック",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://jypj-store.com/pages/youngk-youngest",
+      "updated_at": "2026-10-07",
+      "presale": true,
+      "presale_datetime": "2026-09-29T17:00:00+09:00",
+      "presale_end_datetime": "2026-10-13T23:59:00+09:00",
+      "presale_url": "https://ticket.tickebo.jp/sn/YoungK_solo_tb",
+      "general_sale": false
     },
     {
       "release_date_approx": false,
@@ -7378,6 +7707,30 @@
       "updated_at": "2026-09-30"
     },
     {
+      "id": "ja-miyamoto-hiroji-i-am-hero-kobe-20270227",
+      "name": "宮本浩次「TOUR 2026〜2027 I AM HERO」兵庫公演（兵庫公演初日）",
+      "release_date": "2027-02-27",
+      "release_time": "17:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "GLION ARENA KOBE"
+      ],
+      "developer": "宮本浩次",
+      "publisher": null,
+      "description": "エレファントカシマシの宮本浩次がソロとしては初めて開催する全国アリーナツアーの兵庫公演初日。2026年6月10日に4年半ぶりのオリジナルアルバム『I AM HERO』を発表し、同年6月12日の60歳バースデーコンサートを経て決定したツアーで、福岡・愛知・宮城・東京・兵庫の全国5都市10公演を巡る。会場はGLION ARENA KOBEで、開場16:30／開演17:30。チケットは指定席A・注釈付き指定席Aが12,100円、指定席Bが9,900円（いずれも税込）で、一般三次抽選受付は2026年9月28日に締め切られた。",
+      "genres": [
+        "J-POP",
+        "ロック"
+      ],
+      "image_url": null,
+      "source_url": "https://miyamotohiroji.com/iamhero",
+      "updated_at": "2026-10-07",
+      "presale": false,
+      "general_sale": false
+    },
+    {
       "id": "ja-xg-the-core-final-osaka-20270227",
       "name": "XG WORLD TOUR: THE CORE FINAL \"1\"（京セラドーム大阪）",
       "release_date": "2027-02-27",
@@ -7422,6 +7775,30 @@
       "timezone": "Asia/Tokyo",
       "image_url": null,
       "publisher": null
+    },
+    {
+      "id": "ja-miyamoto-hiroji-i-am-hero-kobe-20270228",
+      "name": "宮本浩次「TOUR 2026〜2027 I AM HERO」兵庫公演（ツアー最終日）",
+      "release_date": "2027-02-28",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "GLION ARENA KOBE"
+      ],
+      "developer": "宮本浩次",
+      "publisher": null,
+      "description": "エレファントカシマシの宮本浩次がソロとしては初めて開催する全国アリーナツアーのツアー最終日。2026年6月10日に4年半ぶりのオリジナルアルバム『I AM HERO』を発表し、同年6月12日の60歳バースデーコンサートを経て決定したツアーで、福岡・愛知・宮城・東京・兵庫の全国5都市10公演を巡る。会場はGLION ARENA KOBEで、開場16:00／開演17:00。チケットは指定席A・注釈付き指定席Aが12,100円、指定席Bが9,900円（いずれも税込）で、一般三次抽選受付は2026年9月28日に締め切られた。",
+      "genres": [
+        "J-POP",
+        "ロック"
+      ],
+      "image_url": null,
+      "source_url": "https://miyamotohiroji.com/iamhero",
+      "updated_at": "2026-10-07",
+      "presale": false,
+      "general_sale": false
     },
     {
       "id": "ja-xg-the-core-final-osaka-20270228",
@@ -7687,6 +8064,33 @@
       "presale": false,
       "general_sale": false,
       "updated_at": "2026-09-30"
+    },
+    {
+      "id": "ja-beabadoobee-powerlines-tokyo-20270409",
+      "name": "beabadoobee「The Powerlines Tour」初単独来日公演",
+      "release_date": "2027-04-09",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "TOYOSU PIT（東京・豊洲）"
+      ],
+      "developer": "beabadoobee（ビーバドゥービー）",
+      "publisher": "LIVE NATION H.I.P.",
+      "description": "フィリピン生まれロンドン育ちのシンガーソングライター、ビーバドゥービーによる初の単独来日公演。2026年9月に発表した通算4作目のアルバム『Pylon』は前作に続き全英アルバムチャート1位を獲得しており、マディソン・スクエア・ガーデンやロンドンThe O2などを回る自身最大規模のアリーナツアー「Powerlines Tour」を携えたフルセット公演となる。会場はTOYOSU PITで開場18:00／開演19:00、スタンディング11,800円、GOLDスタンディング28,800円。過去にはサマーソニックでの出演やテイラー・スウィフトの前座を経験している。",
+      "genres": [
+        "オルタナティヴ",
+        "インディーポップ",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://www.livenationhip.co.jp/all-events/beabadoobee-tickets-ae1285263",
+      "updated_at": "2026-10-07",
+      "presale": true,
+      "presale_datetime": "2026-10-08T12:00:00+09:00",
+      "presale_url": "https://l-tike.com/st1/bbdb2027-artist",
+      "general_sale": false
     },
     {
       "id": "ja-squeeze-japan-2027-osaka-20270409",
