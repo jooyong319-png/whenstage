@@ -8,6 +8,7 @@ import { PushSync } from '@/components/PushSync';
 import { InstallPrompt } from '@/components/InstallPrompt';
 import { MotionProvider } from '@/components/motion/MotionProvider';
 import type { MenuData } from '@/lib/menuData';
+import { ClickTracker } from '@/components/ClickTracker';
 
 // 루트 레이아웃 2종((locale)/[lang]와 (app))이 공유하는 <body> 내용 — 아이콘 스프라이트, 헤더/푸터,
 // 하단 탭바 등 사이트 전역 크롬. 두 그룹 다 <html>을 독립적으로 렌더링해야 해서(멀티 루트 레이아웃)
@@ -66,6 +67,7 @@ export function AppShell({ children, menu }: { children: React.ReactNode; menu?:
       <HeaderScroll />
       <Toaster />
       <PushSync />
+      <ClickTracker />
       <InstallPrompt />
       <SiteFooter />
       <script

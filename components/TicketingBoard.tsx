@@ -72,7 +72,7 @@ export function TicketingBoard({ games, now, onPick }: Props) {
                 const dd = diff <= 0 ? t.ticketToday : t.ticketDday(`D-${diff}`);
                 return (
                   <li key={g.id} className={styles.item} style={{ '--cat': CATEGORY_META[g.category].color } as CSSProperties}>
-                    <a href={`/${lang}/concert/${g.id}`} className={styles.main} onClick={e => pick(e, g.id)}>
+                    <a href={`/${lang}/concert/${g.id}`} className={styles.main} data-ev="board_click" data-source="board_soon" data-id={g.id} onClick={e => pick(e, g.id)}>
                       <span className={styles.top}>
                         <span className={`${styles.dday} ${diff <= 3 ? styles.ddayHot : ''}`}>{dd}</span>
                         <span className={styles.kind}>{o.kind === 'presale' ? t.presaleTag : t.generalSaleTag}</span>
@@ -94,7 +94,7 @@ export function TicketingBoard({ games, now, onPick }: Props) {
                 const diff = g.release_date_approx ? null : calcDayDiff(g.release_date, now);
                 return (
                   <li key={g.id} className={styles.item} style={{ '--cat': CATEGORY_META[g.category].color } as CSSProperties}>
-                    <a href={`/${lang}/concert/${g.id}`} className={styles.main} onClick={e => pick(e, g.id)}>
+                    <a href={`/${lang}/concert/${g.id}`} className={styles.main} data-ev="board_click" data-source="board_onsale" data-id={g.id} onClick={e => pick(e, g.id)}>
                       <span className={styles.top}>
                         <span className={styles.ddaySoft}>
                           {diff == null ? formatDateShort(g.release_date, lang) : t.showDday(diff <= 0 ? 'D-DAY' : `D-${diff}`)}
@@ -120,7 +120,7 @@ export function TicketingBoard({ games, now, onPick }: Props) {
           </div>
         )}
       </div>
-      <a className={styles.more} href={`/${lang}/ticketing`}>{t.seeAllTicketing} →</a>
+      <a className={styles.more} href={`/${lang}/ticketing`} data-ev="board_click" data-source="board_more">{t.seeAllTicketing} →</a>
     </section>
   );
 }

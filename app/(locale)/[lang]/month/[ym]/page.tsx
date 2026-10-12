@@ -117,7 +117,7 @@ export default async function MonthPageView({ params }: Props) {
 
   const row = (g: Game) => (
     <li key={g.id} className={cs.row}>
-      <a href={`/${lang}/concert/${encodeURIComponent(g.id)}`} className={cs.link}>
+      <a href={`/${lang}/concert/${encodeURIComponent(g.id)}`} className={cs.link} data-ev="schedule_click" data-source="month_page" data-id={g.id}>
         <span className={`${cs.date} num`}>
           {Number(g.release_date.slice(5, 7))}.{g.release_date.slice(8, 10)}
           {g.release_time ? <span className={ss.time}>{g.release_time}</span> : null}

@@ -2,8 +2,9 @@
 // 사용자 제보(예매 링크 제보/정정, 아티스트 정보 수정·등록) — Supabase data_reports 테이블.
 import { supabase, isSupabaseReady } from './supabase';
 
-export type ReportKind = 'ticketing_link' | 'artist_info' | 'other';
-export type ReportTargetType = 'concert' | 'artist';
+// show_request — 검색 0건에서 "이 공연 알려 주세요"(2026-10-13). target_type은 'search', target_id는 검색어
+export type ReportKind = 'ticketing_link' | 'artist_info' | 'show_request' | 'other';
+export type ReportTargetType = 'concert' | 'artist' | 'search';
 
 export interface ReportInput {
   kind: ReportKind;

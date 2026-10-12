@@ -50,6 +50,8 @@ export function BottomTabBar() {
           <a
             key={tab.href}
             href={tab.href}
+            data-ev="nav_click"
+            data-area="tabbar"
             className="bottom-tab"
             aria-current={active ? 'page' : undefined}
             onClick={onClick}

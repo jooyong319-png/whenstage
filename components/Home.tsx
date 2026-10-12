@@ -1,5 +1,6 @@
 'use client';
-import { useState, useMemo, useEffect, useCallback } from 'react';
+import { useState, useMemo, useEffect, useCallback, useRef } from 'react';
+import { trackEvent } from '@/lib/analytics';
 import { motion, AnimatePresence } from 'motion/react';
 import type { Game, FilterState } from '@/lib/types';
 import { normalizeArtistKey } from '@/lib/types';
@@ -160,6 +161,20 @@ export function Home({ initialGames, lastUpdated, serverNow, artistAliases, card
 
   const ui = UI[lang];
 
+  // 검색어 → GA4 (2026-10-13). 사람들이 직접 입력하는 이름이 니즈를 가장 직접적으로 보여준다.
+  // 타이핑 중간 글자까지 보내지 않도록 입력이 1.2초 멈췄을 때 한 번, 같은 검색어는 한 번만.
+  // view_search_results + search_term은 GA4 기본 '검색어' 측정기준으로 잡힌다(등록 불필요).
+  const lastSearchRef = useRef('');
+  useEffect(() => {
+    const term = filters.search.trim();
+    if (term.length < 2 || term === lastSearchRef.current) return;
+    const timer = setTimeout(() => {
+      lastSearchRef.current = term;
+      trackEvent('view_search_results', { search_term: term.slice(0, 100), results_count: listGames.length });
+    }, 1200);
+    return () => clearTimeout(timer);
+  }, [filters.search, listGames.length]);
+
   // 히어로 마퀴 티커 — 확정일(approx 제외) 다가오는 일정 중 가까운 순 10개(실데이터, 장식 아님)
   const tickerItems = useMemo(() => {
     const today = new Date(now);
@@ -245,6 +260,7 @@ export function Home({ initialGames, lastUpdated, serverNow, artistAliases, card
       >
       {showList ? (
         <ListView
+          query={filters.search}
           games={listGames}
           wishlist={wishlist}
           onPick={openModal}

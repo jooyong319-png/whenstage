@@ -96,6 +96,7 @@ export function HeaderNav({ menu }: { menu?: MenuData }) {
         <nav className="header-primary-nav" aria-label={lang === 'ko' ? '주요 메뉴' : 'Main menu'}>
         <a
           href={home}
+          data-ev="nav_click" data-area="header"
           className={`header-cal-link ${pathname === home ? 'header-cal-active' : ''}`}
           aria-current={pathname === home ? 'page' : undefined}
         >
@@ -104,6 +105,7 @@ export function HeaderNav({ menu }: { menu?: MenuData }) {
         </a>
         <a
           href={primary[1].href}
+          data-ev="nav_click" data-area="header"
           className={`header-news-link ${pathname.startsWith(primary[1].href) ? 'header-news-active' : ''}`}
           aria-current={pathname.startsWith(primary[1].href) ? 'page' : undefined}
         >
@@ -112,6 +114,7 @@ export function HeaderNav({ menu }: { menu?: MenuData }) {
         </a>
         <a
           href={primary[2].href}
+          data-ev="nav_click" data-area="header"
           className={`header-artist-link ${pathname.startsWith(primary[2].href) ? 'header-artist-active' : ''}`}
           aria-current={pathname.startsWith(primary[2].href) ? 'page' : undefined}
         >
@@ -120,6 +123,7 @@ export function HeaderNav({ menu }: { menu?: MenuData }) {
         </a>
         <a
           href={primary[3].href}
+          data-ev="nav_click" data-area="header"
           className={`header-guide-link ${pathname.startsWith(primary[3].href) ? 'header-guide-active' : ''}`}
           aria-current={pathname.startsWith(primary[3].href) ? 'page' : undefined}
         >
@@ -128,6 +132,7 @@ export function HeaderNav({ menu }: { menu?: MenuData }) {
         </a>
         <a
           href={primary[4].href}
+          data-ev="nav_click" data-area="header"
           className={`header-venue-link ${pathname.startsWith(primary[4].href) ? 'header-venue-active' : ''}`}
           aria-current={pathname.startsWith(primary[4].href) ? 'page' : undefined}
         >
@@ -153,14 +158,14 @@ export function HeaderNav({ menu }: { menu?: MenuData }) {
               묶음뿐이었고 그건 PC에서 숨김). 위쪽 메뉴에 없는 '행동' 위주 항목을 둔다 */}
           <div className="menu-group">
             <span className="menu-group-title">{M.tickets}</span>
-            <a href={`${p}/ticketing`} className="menu-link menu-link-row" onClick={() => setOpenMenu(null)}>
+            <a href={`${p}/ticketing`} className="menu-link menu-link-row" data-ev="nav_click" data-area="menu" onClick={() => setOpenMenu(null)}>
               <span>{SCHEDULE_TEXT[lang].footerTicketing}</span>
               {menu && menu.ticketCount > 0 && <span className="menu-count">{menu.ticketCount}</span>}
             </a>
-            <a href={menu?.monthYm ? `${p}/month/${menu.monthYm}` : `${p}/concert`} className="menu-link" onClick={() => setOpenMenu(null)}>
+            <a href={menu?.monthYm ? `${p}/month/${menu.monthYm}` : `${p}/concert`} className="menu-link" data-ev="nav_click" data-area="menu" onClick={() => setOpenMenu(null)}>
               {menu?.monthYm ? M.thisMonth(Number(menu.monthYm.slice(5, 7))) : SCHEDULE_TEXT[lang].footerMonthly}
             </a>
-            <a href={`${p}/wishlist`} className="menu-link menu-link-row" onClick={() => setOpenMenu(null)}>
+            <a href={`${p}/wishlist`} className="menu-link menu-link-row" data-ev="nav_click" data-area="menu" onClick={() => setOpenMenu(null)}>
               <span>{M.saved}</span>
               {/* 알림이 켜져 있으면 점 — 꺼져 있으면 여기서 켜러 가게 된다(PC엔 알림을 켤 곳이 여기뿐) */}
               {pushOn === true && <span className="menu-dot" aria-label={M.alertsOn} />}
@@ -177,7 +182,7 @@ export function HeaderNav({ menu }: { menu?: MenuData }) {
                 <a
                   key={item.href}
                   href={item.href}
-                  className="menu-link menu-link-primary"
+                  className="menu-link menu-link-primary" data-ev="nav_click" data-area="menu"
                   aria-current={active ? 'page' : undefined}
                   onClick={() => setOpenMenu(null)}
                 >
@@ -188,10 +193,10 @@ export function HeaderNav({ menu }: { menu?: MenuData }) {
             <div className="menu-divider" />
           </div>
           <div className="menu-group">
-            <a href={`${p}/news`} className="menu-link" onClick={() => setOpenMenu(null)}>{ui.news}</a>
-            <a href={`${p}/guide`} className="menu-link" onClick={() => setOpenMenu(null)}>{ui.guide}</a>
-            <a href={`${p}/guide/glossary`} className="menu-link" onClick={() => setOpenMenu(null)}>{M.glossary}</a>
-            <a href={`${p}/contact`} className="menu-link" onClick={() => setOpenMenu(null)}>{M.contact}</a>
+            <a href={`${p}/news`} className="menu-link" data-ev="nav_click" data-area="menu" onClick={() => setOpenMenu(null)}>{ui.news}</a>
+            <a href={`${p}/guide`} className="menu-link" data-ev="nav_click" data-area="menu" onClick={() => setOpenMenu(null)}>{ui.guide}</a>
+            <a href={`${p}/guide/glossary`} className="menu-link" data-ev="nav_click" data-area="menu" onClick={() => setOpenMenu(null)}>{M.glossary}</a>
+            <a href={`${p}/contact`} className="menu-link" data-ev="nav_click" data-area="menu" onClick={() => setOpenMenu(null)}>{M.contact}</a>
           </div>
         </nav>
       </div>

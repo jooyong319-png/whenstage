@@ -87,7 +87,7 @@ export default async function TicketingPage({ params }: Props) {
 
   const row = (x: TicketOpening) => (
     <li key={`${x.game.id}-${x.kind}`} className={cs.row}>
-      <a href={`/${lang}/concert/${encodeURIComponent(x.game.id)}`} className={cs.link}>
+      <a href={`/${lang}/concert/${encodeURIComponent(x.game.id)}`} className={cs.link} data-ev="schedule_click" data-source="ticketing_page" data-id={x.game.id}>
         <span className={`${cs.date} num`}>
           {x.time}
           {/* 시간대는 둘째 줄 — 'EDT'까지 한 줄에 넣으면 시각 칸을 넘친다 */}
@@ -107,7 +107,7 @@ export default async function TicketingPage({ params }: Props) {
       {x.url && (
         // 상세 링크(<a>) 안에 넣으면 중첩 링크가 된다 — 형제로 둔다
         <p className={ss.buyRow}>
-          <a className={ss.buy} href={x.url} target="_blank" rel="noopener nofollow">{t.buy}</a>
+          <a className={ss.buy} href={x.url} target="_blank" rel="noopener nofollow" data-ev="ticketing_click" data-source="ticketing_page" data-id={x.game.id}>{t.buy}</a>
         </p>
       )}
     </li>

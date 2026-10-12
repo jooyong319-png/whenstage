@@ -804,3 +804,23 @@ ISR 읽기 점검 중 발견. 엣지 캐시는 정상(Age가 다음 배포 때�
 - 건수·이번 달은 레이아웃에서 계산해 헤더로 넘긴다(`lib/menuData.ts`, 언어별 1회 계산 — 페이지 2천여 장)
 - 위쪽 메뉴·모바일 하단 탭의 **뉴스 자리를 티켓팅으로**. 뉴스는 주 1회 브리핑 + 검색 노출 막은 섹션이라
   첫 화면 자리를 줄 이유가 약하다. 이름은 짧게 "티켓팅 / Tickets / チケット"
+
+## 니즈 파악용 기록 — 검색어·0건 요청·예매 동선 (2026-10-13)
+
+하루 방문 50~70명(사장님). 그런데 기록하는 행동이 예매 클릭·알림·찜 3가지뿐이었다 — 사람들이 뭘 찾는지 알 길이 없었다.
+
+| 이벤트 | 매개변수 | 언제 |
+|---|---|---|
+| `view_search_results` | `search_term`(GA4 기본 "검색어"), `results_count` | 검색 입력이 1.2초 멈출 때, 같은 검색어는 1번 |
+| `request_show` | `search_term` | 검색 0건에서 "이 공연 알려 주세요" — **제보함(data_reports)에도 `show_request`로 저장** |
+| `nav_click` | `area`(menu/header/tabbar), `item`(경로에서 추출) | 메뉴·위쪽 메뉴·하단 탭 |
+| `board_click` | `source`(board_soon/board_onsale/board_more) | 홈 예매 보드 |
+| `schedule_click` | `source`(ticketing_page/month_page) | 티켓팅·월별 페이지 공연 행 |
+| `ticketing_click` | `source`에 ticketing_page 추가 | 티켓팅 페이지 예매처 링크 |
+
+- 서버 컴포넌트 페이지는 링크에 `data-ev/data-source/data-id`만 붙이고 `ClickTracker`(문서 리스너 하나)가 보낸다
+- GA4 맞춤 측정기준 등록 완료(사장님, 10/13): source · area · item · results_count
+- 키 이벤트: ticketing_click 표시. notify_enable · request_show는 첫 발생 후 목록에 뜨면 표시
+- ⚠️ 로컬 `.env.local`에 `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`가 없어서 개발 서버에선 제보 저장이 꺼진다(운영은 정상)
+
+**읽는 법(1~2주 뒤)**: 검색어 상위·0건 검색어 → 리서처 우선순위 / board_click·nav_click → 예매 진입점이 쓰이는지

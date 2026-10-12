@@ -22,6 +22,7 @@ interface ReportRow {
 const KIND_LABEL: Record<string, string> = {
   ticketing_link: '예매 링크',
   artist_info: '아티스트 정보',
+  show_request: '공연 요청(검색 0건)',
   other: '기타',
 };
 
@@ -190,7 +191,9 @@ export function AdminDashboard({ nameMap }: { nameMap: Record<string, string> })
           {visibleReports.map(r => {
             const href = r.target_type === 'concert'
               ? `/${r.locale}/concert/${r.target_id}`
-              : `/${r.locale}/artist/${encodeURIComponent(r.target_id)}`;
+              : r.target_type === 'search'
+                ? `/${r.locale}?q=${encodeURIComponent(r.target_id)}`   // 공연 요청 — 그 검색을 다시 열어 본다
+                : `/${r.locale}/artist/${encodeURIComponent(r.target_id)}`;
             return (
               <li key={r.id} className={styles.reportRow}>
                 <div className={styles.reportTop}>

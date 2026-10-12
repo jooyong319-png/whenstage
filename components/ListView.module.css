@@ -48,3 +48,21 @@
 @media (max-width: 760px) {
   .resultBar { position: static; top: auto; }
 }
+
+/* 검색 0건 → 공연 요청 (RequestShowButton) */
+.request { margin-top: 1rem; display: flex; flex-direction: column; align-items: center; gap: 0.5rem; }
+.requestAsk { margin: 0; font-size: 0.9rem; color: var(--text-faint); }
+.requestBtn {
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 800;
+  padding: 0.55rem 1rem;
+  border-radius: var(--radius-sm, 6px);
+  border: 1px solid var(--accent-warm);
+  background: color-mix(in srgb, var(--accent-warm) 12%, transparent);
+  color: var(--accent-warm);
+  cursor: pointer;
+}
+.requestBtn:disabled { opacity: 0.6; cursor: default; }
+.requestDone { margin: 1rem 0 0; font-weight: 700; }
+.requestFail { margin: 0; font-size: 0.82rem; color: var(--text-faint); }
