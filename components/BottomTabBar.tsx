@@ -1,6 +1,7 @@
 'use client';
 import { usePathname } from 'next/navigation';
 import { UI, CAL, LOCALES, type Locale } from '@/lib/i18nLabels';
+import { SCHEDULE_TEXT } from '@/lib/scheduleText';
 
 interface Tab {
   href: string;
@@ -24,7 +25,8 @@ function buildTabs(lang: Locale): Tab[] {
   const p = `/${lang}`;
   return [
     { href: p, label: ui.calendar, icon: 'ic-calendar' },
-    { href: `${p}/news`, label: ui.news, icon: 'ic-flame' },
+    // 뉴스 → 티켓팅(2026-10-13) — 위쪽 헤더와 같은 이유. 뉴스는 ☰ 메뉴에 있다
+    { href: `${p}/ticketing`, label: SCHEDULE_TEXT[lang].navShort, icon: 'ic-tag' },
     { href: `${p}/blog`, label: ui.blog, icon: 'ic-file' },
     { href: `${p}/wishlist`, label: t.wishlist, icon: 'ic-star' },
   ];

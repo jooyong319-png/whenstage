@@ -32,6 +32,7 @@ export interface ScheduleText {
   backToCalendar: string;
   footerTicketing: string;
   footerMonthly: string;
+  navShort: string;                                     // 헤더·하단 탭용 짧은 이름
 }
 
 export const SCHEDULE_TEXT: Record<GameLocale, ScheduleText> = {
@@ -71,6 +72,7 @@ export const SCHEDULE_TEXT: Record<GameLocale, ScheduleText> = {
     backToCalendar: '← 캘린더',
     footerTicketing: '티켓팅 일정',
     footerMonthly: '월별 공연 일정',
+    navShort: '티켓팅',
   },
   ja: {
     unit: n => `${n}件`,
@@ -108,6 +110,7 @@ export const SCHEDULE_TEXT: Record<GameLocale, ScheduleText> = {
     backToCalendar: '← カレンダー',
     footerTicketing: 'チケット発売日程',
     footerMonthly: '月別の公演日程',
+    navShort: 'チケット',
   },
   en: {
     unit: n => `${n} show${n === 1 ? '' : 's'}`,
@@ -145,6 +148,7 @@ export const SCHEDULE_TEXT: Record<GameLocale, ScheduleText> = {
     backToCalendar: '← Calendar',
     footerTicketing: 'Ticket sales',
     footerMonthly: 'Concerts by month',
+    navShort: 'Tickets',
   },
 };
 

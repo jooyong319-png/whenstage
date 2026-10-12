@@ -3,6 +3,7 @@ import '@/app/globals.css';
 import { AppHead } from '@/components/AppHead';
 import { AppShell } from '@/components/AppShell';
 import { LOCALES, type Locale } from '@/lib/i18nLabels';
+import { getMenuData } from '@/lib/menuData';
 
 // 멀티 루트 레이아웃(Next.js) — /ko, /en, /ja 등 로케일이 붙은 모든 실제 콘텐츠 페이지는 이 레이아웃이
 // <html>을 직접 렌더링한다. params.lang을 그대로 써서 서버에서부터 정확한 lang 속성이 나가야
@@ -59,7 +60,7 @@ function isLocale(v: string): v is Locale {
   return (LOCALES as string[]).includes(v);
 }
 
-export default function LocaleRootLayout({
+export default async function LocaleRootLayout({
   children,
   params,
 }: {
@@ -67,13 +68,14 @@ export default function LocaleRootLayout({
   params: { lang: string };
 }) {
   const lang = isLocale(params.lang) ? params.lang : 'ko';
+  const menu = await getMenuData(lang);
   return (
     <html lang={lang} suppressHydrationWarning>
       <head>
         <AppHead />
       </head>
       <body>
-        <AppShell>{children}</AppShell>
+        <AppShell menu={menu}>{children}</AppShell>
       </body>
     </html>
   );

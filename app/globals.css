@@ -992,3 +992,25 @@ textarea:focus-visible,
 .ticket-alert-btn.is-wished { background: var(--accent-warm); color: var(--on-warm, #1a1206); }
 .ticket-alert-btn .ic { width: 16px; height: 16px; }
 .ticket-alert-hint { margin: 0; font-size: 0.82rem; color: var(--text-faint); }
+
+/* ☰ 메뉴 = 예매 도구함 (2026-10-13) */
+.menu-group { display: flex; flex-direction: column; }
+.menu-group-title {
+  padding: 0.35rem 0.7rem 0.2rem;
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: var(--text-faint);
+  letter-spacing: 0.04em;
+}
+.menu-link-row { display: flex; align-items: center; justify-content: space-between; gap: 0.8rem; }
+.menu-count {
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 0.05rem 0.45rem;
+  border-radius: 999px;
+  background: var(--accent-warm);
+  color: var(--on-warm, #1a1206);
+}
+.menu-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent-warm); flex: 0 0 auto; }
+.menu-hint { font-size: 0.72rem; font-weight: 700; color: var(--accent-warm); }
+.site-menu { min-width: 220px; }
