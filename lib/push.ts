@@ -1,6 +1,7 @@
 'use client';
 // 웹 푸시 구독 클라이언트 헬퍼 — Supabase에 구독정보 + 찜 game_ids + 알림 설정(prefs) 저장.
 import { supabase, isSupabaseReady } from './supabase';
+import { getFollowKeys } from '@/hooks/useFollow';
 import { type NotifyPrefs, DEFAULT_NOTIFY_PREFS, normalizePrefs } from './notifyPrefs';
 
 // env에 붙여넣을 때 따라온 공백/줄바꿈/따옴표 제거(있으면 subscribe 실패 원인)
@@ -108,6 +109,12 @@ async function saveSubscription(sub: PushSubscription, gameIds: string[]): Promi
     .from('push_subscriptions')
     .update({ prefs: getNotifyPrefs() })
     .eq('endpoint', sub.endpoint);
+  // 팔로우한 가수도 같은 방식(2026-10-13) — artist_keys 컬럼(supabase/follow_artists.sql) 실행 전이어도
+  // 이 update만 실패하고 구독은 살아 있다
+  await supabase
+    .from('push_subscriptions')
+    .update({ artist_keys: getFollowKeys() })
+    .eq('endpoint', sub.endpoint);
 }
 
 export type SubscribeResult = 'ok' | 'denied' | 'unsupported' | 'error';
@@ -160,6 +167,16 @@ export async function unsubscribePush(): Promise<void> {
     await supabase.from('push_subscriptions').delete().eq('endpoint', endpoint);
   }
   markNotifyOptedOut();
+}
+
+// 팔로우 목록 변경 시 구독자의 artist_keys 동기화(구독 없으면 무시, 컬럼 없으면 조용히 실패)
+export async function syncArtistKeys(keys: string[]): Promise<void> {
+  const sub = await getCurrentSubscription();
+  if (!sub || !isSupabaseReady() || !supabase) return;
+  await supabase
+    .from('push_subscriptions')
+    .update({ artist_keys: keys, updated_at: new Date().toISOString() })
+    .eq('endpoint', sub.endpoint);
 }
 
 // 찜 목록 변경 시 구독자의 game_ids 동기화(구독 없으면 무시)
