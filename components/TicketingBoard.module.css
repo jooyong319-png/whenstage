@@ -84,3 +84,24 @@
   color: var(--text-faint);
 }
 .more:hover { color: var(--accent); }
+
+/* 팔로우 안내 (FollowNudge, 2026-10-13) */
+.nudge {
+  margin: 0 0 1.1rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--accent-warm);
+  border-radius: var(--radius, 10px);
+  background: color-mix(in srgb, var(--accent-warm) 7%, var(--bg-elev));
+}
+.nudgeTitle { margin: 0; font-weight: 800; font-size: 0.98rem; }
+.nudgeSub { margin: 0.2rem 0 0.6rem; font-size: 0.84rem; color: var(--text-faint); }
+.nudgeList { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.45rem; }
+.nudgeItem {
+  display: inline-flex; align-items: center; gap: 0.35rem;
+  padding: 0.25rem 0.3rem 0.25rem 0.65rem;
+  border: 1px solid var(--border); border-radius: 999px; background: var(--bg-elev);
+}
+.nudgeItem :global(.follow-btn-sm) { margin-left: 0; }
+.nudgeName { font-size: 0.85rem; font-weight: 700; color: var(--text); }
+.nudgeLine { margin: 0 0 0.9rem; font-size: 0.86rem; color: var(--text-faint); }
+.nudgeLine a { font-weight: 700; }

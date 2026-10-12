@@ -9,6 +9,7 @@ import { CalendarView } from './CalendarView';
 import { ListView } from './ListView';
 import { UpcomingStrip } from './UpcomingStrip';
 import { TicketingBoard } from './TicketingBoard';
+import { FollowNudge } from './FollowNudge';
 import { HeroSpotlight } from './HeroSpotlight';
 import { LatestNews, type LatestNewsItem } from './LatestNews';
 import { GameModal } from './GameModal';
@@ -251,6 +252,8 @@ export function Home({ initialGames, lastUpdated, serverNow, artistAliases, card
           </motion.div>
 
       {/* 예매가 먼저다 — 사람들이 찾는 건 "언제 예매가 열리나"(2026-10-13). 목록 보기에선 숨긴다 */}
+      {/* "왜 WhenStage인가" — 가수 팔로우 = 예매 전 알림(2026-10-13) */}
+      {!showList && <FollowNudge games={initialGames} />}
       {!showList && <TicketingBoard games={filteredGames} now={now} onPick={openModal} />}
 
       <motion.div
