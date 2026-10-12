@@ -10,6 +10,19 @@ import { trackEvent } from '@/lib/analytics';
  * 문서 전체에 리스너 하나 — 페이지마다 클라이언트 컴포넌트를 늘리지 않는다.
  */
 export function ClickTracker() {
+  // 알림을 눌러 들어온 방문(크론이 URL에 ?from=push&k=<종류>를 붙인다) → notification_open 1회,
+  // 주소창은 깨끗하게 되돌린다(공유·북마크에 꼬리가 남지 않게)
+  useEffect(() => {
+    try {
+      const u = new URL(window.location.href);
+      if (u.searchParams.get('from') !== 'push') return;
+      trackEvent('notification_open', { item: u.searchParams.get('k') ?? 'unknown' });
+      u.searchParams.delete('from');
+      u.searchParams.delete('k');
+      window.history.replaceState(window.history.state, '', u.pathname + (u.search ? u.search : '') + u.hash);
+    } catch { /* 무시 */ }
+  }, []);
+
   useEffect(() => {
     const onClick = (e: MouseEvent) => {
       const el = (e.target as Element | null)?.closest?.('[data-ev]') as HTMLElement | null;
