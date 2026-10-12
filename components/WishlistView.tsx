@@ -7,8 +7,15 @@ import { useWishlist } from '@/hooks/useWishlist';
 import { useLocale } from '@/hooks/useLocale';
 import { UI, CAL, CATEGORY_LABELS, pastLabel } from '@/lib/i18nLabels';
 import { NotifyToggle } from './NotifyToggle';
+import { FollowedArtists } from './FollowedArtists';
 import { PageHeader } from './PageHeader';
 import styles from './WishlistView.module.css';
+
+const MY_ALERTS = {
+  ko: { title: '내 알림', sub: '팔로우한 가수와 찜한 공연의 새 소식·예매 오픈을 알려 드려요.', saved: '찜한 공연' },
+  en: { title: 'My alerts', sub: 'New shows and ticket sales for the artists you follow and the shows you saved.', saved: 'Saved shows' },
+  ja: { title: 'マイ通知', sub: 'フォロー中のアーティストと保存した公演の新着・発売開始をお知らせします。', saved: '保存した公演' },
+};
 
 export function WishlistView({ games }: { games: Game[] }) {
   const lang = useLocale();
@@ -22,15 +29,19 @@ export function WishlistView({ games }: { games: Game[] }) {
 
   return (
     <section className={styles.section}>
+      {/* '내 찜' → '내 알림'(2026-10-13): 팔로우한 가수 + 찜한 공연 + 알림 설정을 한곳에.
+          알림이 오는 이유(팔로우·찜)와 알림 설정이 같은 화면에 있어야 켜고 끄기가 이해된다 */}
       <PageHeader
-        icon="ic-star"
-        title={t ? t.myWishlist : '내 찜'}
-        subtitle={t ? t.myWishlistSub : '관심 있는 공연·발매 일정을 모아봤어요.'}
-        count={items.length > 0 ? items.length : undefined}
-        countLabel={lang === 'ko' ? '개' : lang === 'ja' ? '件' : 'saved'}
+        icon="ic-bell"
+        title={MY_ALERTS[lang ?? 'ko'].title}
+        subtitle={MY_ALERTS[lang ?? 'ko'].sub}
       />
 
       <NotifyToggle />
+
+      <FollowedArtists games={games} />
+
+      <h2 className={styles.followTitle}>{MY_ALERTS[lang ?? 'ko'].saved}{items.length > 0 && <span className={styles.followCount}>{items.length}</span>}</h2>
 
       {items.length === 0 ? (
         <div className={styles.empty}>

@@ -1035,3 +1035,4 @@ textarea:focus-visible,
 .follow-btn-sm .ic { width: 12px; height: 12px; }
 .follow-btn.is-following { background: var(--accent-warm); color: var(--on-warm, #1a1206); }
 .follow-btn:disabled { opacity: 0.6; cursor: default; }
+.follow-btn { white-space: nowrap; flex: 0 0 auto; }  /* 좁은 카드 안에서 '팔로우 중'이 세로로 쪼개지지 않게 */

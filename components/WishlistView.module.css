@@ -84,3 +84,34 @@
   .remove { grid-row: span 1; }
   .dday { order: 2; }
 }
+
+/* 팔로우한 가수 (FollowedArtists, 2026-10-13) */
+.followSection { margin: 1.4rem 0 1.6rem; }
+.followTitle {
+  display: flex; align-items: baseline; gap: 0.45rem;
+  font-size: 1.02rem; font-weight: 800; margin: 1.2rem 0 0.6rem;
+}
+.followCount { font-size: 0.78rem; font-weight: 700; color: var(--text-faint); }
+.followEmpty {
+  border: 1px dashed var(--border); border-radius: var(--radius, 10px);
+  padding: 1rem; text-align: center;
+}
+.followBrowse { display: inline-block; margin-top: 0.4rem; font-weight: 700; }
+.followList { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.5rem; }
+.followItem {
+  display: flex; align-items: center; gap: 0.6rem; min-width: 0;
+  background: var(--bg-elev); border: 1px solid var(--border);
+  border-radius: var(--radius, 10px); padding: 0.65rem 0.8rem;
+}
+.followMain { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: 0.2rem; }
+.followName { font-weight: 800; color: var(--text); }
+.followLine, .followLineMuted {
+  font-size: 0.82rem; color: var(--text-faint);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.followTicket {
+  display: inline-block; margin-right: 0.35rem;
+  font-size: 0.7rem; font-weight: 800; padding: 0.04rem 0.4rem;
+  border-radius: var(--radius-xs, 3px);
+  background: var(--accent-warm); color: var(--on-warm, #1a1206);
+}
