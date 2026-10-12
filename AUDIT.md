@@ -2,9 +2,36 @@
 
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
-| ko | 2026-10-02 | ← |
-| en | 2026-10-05 | |
+| ko | 2026-10-12 | |
+| en | 2026-10-05 | ← |
 | ja | 2026-10-07 | |
+
+---
+
+## 2026-10-12 · ko
+
+로테이션상 ko가 가장 오래된 점검일(2026-10-02)이라 선택. 대상 창: 2026-08-13 ~ 2026-12-11(오늘 ±60일), 창 안 항목 195건(끝난 것 129 / 예정 66). 코드는 손대지 않았고 `data/concerts.ko.json`만 수정(파일 상단 `last_updated` 2026-10-12). push 전 `validate-data.mjs` 통과. 지난 회차들과 같이 **실제로 고친 25건에만 `updated_at=2026-10-12`**, 항목 단위 `last_updated`는 넣지 않음.
+
+**트랙 A (졸업 처리) — 20건** (상한 20 도달)
+- A-1/A-2 끝난 공연의 예매 필드·플래그 정리 + description 과거형 18건(§7대로 `presale`/`general_sale=false` + 존재하는 예매 URL·datetime 필드 null, 시제만 교정 — 새 사실 추가 없음):
+  ko-busan-rock-festival-20261002, ko-edc-korea-2026-20261003, ko-letsrock-festival-2026-20261003, ko-youngtak-tak-show5-seoul-20261003, ko-leechangsub-unknown-seoul-20261009, ko-andteam-blaze-the-way-encore-seoul-20261003, ko-choiyuree-stay-seoul-20261003(서울 공연 항목만 — 부산·대구 일정 서술은 그대로), ko-leehi-hibiscus-garden-live-20261003, ko-leo-muse-fanmeeting-seoul-20261003, ko-nakajimakento-idol1st-kenty-seoul-20261003, ko-sandeul-baramgyeol-seoul-20261003, ko-xmf-2026-20261003, ko-jogwanwoo-autumn-miracle-bucheon-20261004, ko-zaralarsson-midnight-sun-seoul-20261004, ko-theweeknd-after-hours-til-dawn-goyang-20261007, ko-10cm-the-missing-tracks-seoul-20261009, ko-jx-core-incheon-20261009, ko-pentagon-101010-seoul-20261009
+- A-4 description 시제만 교정 2건: ko-persona-live-tour-resonance-seoul-20261003, ko-jarasum-jazz-2026-20261009(festival 10/9~11 종료)
+- A-3: 창 안 끝난 항목 중 approx=true는 ko-postmalone-big-stadium-tour-seoul-20261002 1건뿐 — 연기 상태·새 날짜 미발표라 **의도적으로 유지**
+- 오탐 확인(변경 없음): ko-nflying-into-rem-busan-20260815 / ko-kimyongbin-serenade-seoul-20260919 / ko-okf2026-orjet-kpop-festa-20260926 — 이미 과거형("예정이었다")
+
+**트랙 B (임박 점검) — 8건 확인** (공연일 가까운 순, `updated_at` 없는 항목)
+- ko-sunghanbin-solo-debut-20261012 — 오늘 18시 미니 1집 'DEAD:ALIVE' 발매 확인(텐아시아/스포츠경향). "앨범명 미공개" 서술 → 앨범명·타이틀곡 'UNDEAD'·8곡으로 갱신, `release_time` 18:00
+- ko-nctwish-i-spy-20261012 — 10/12 발매·6곡 확인(텐아시아 10/7). 변경 없음
+- ko-hwangminhyun-dowongyeong-seoul-20261016 — 10/16~18 코엑스아티움 정상, 이후 도쿄·마카오·타이베이(코리아데일리 10/9). 지난 예매 문장 시제 교정, 일반예매 시작 후라 `presale=false`
+- ko-highlight-fancon-seoul-20261016 — 10/16~18 장충체육관 정상(일간스포츠). 변경 없음
+- ko-gmf-2026-20261017 — 10/17~18 올림픽공원 정상, 9/30 타임테이블 공개(일간스포츠). 낡은 "1차 라인업·4개 스테이지·티켓 오픈 추후 발표" 서술 → 3개 스테이지·48팀·1일권 13만2000원으로 갱신
+- ko-kimdongryul-old-song-seoul-20261017 — 10/17~19·22~25 세종대극장 7회 정상(스타뉴스 등). 지난 티켓 오픈 문장 시제 교정. 시작 시각·주최사는 확인 못 해 null 유지
+- ko-onew-chakgak-20261020 — 10/20 싱글 '착각' 발매 일정 유지, 선공개곡 9/29 'Mind Games'·10/7 'Tic Tac Toe' 확인(뉴스핌/싱글리스트). 변경 없음
+- ko-triples-love-and-pop-pt2-20261020 — **발매일 변경**: 10/20 → **10/16 오후 1시** 싱글 'Andless'(Soompi 10/11, 톱스타뉴스 2건 일치). `release_date`·`release_time` 13:00·name·description(앨범→싱글) 갱신. id는 그대로 둠(id 변경은 링크·중복 위험)
+- B-3 링크: 예매처는 직접 열지 않고(NOL 페이지 fetch 권한 대기 시간 초과) 언론으로 개최·판매 진행 교차 확인 → 죽은 링크로 단정한 것 없음
+
+**남은 것**: 트랙 A 이월 — A-1/A-2 4건(ko-yosea-asia-tour-seoul-20261009, ko-allhours-rise-up-seoul-20261010, ko-charlieputh-whatevers-clever-goyang-20261011, ko-cero-contemporary-seoul-cruise-20261010) + 지난 회차부터 이월된 music_release 시제("발매한다") 약 21건(ko-astro-mj-right-20260819 ~ ko-roykim-cry-out-loud-20261006). 트랙 B 다음 순번: ko-kennyg-live-in-seoul-20261020, ko-lucy-island-encore-seoul-20261023, ko-lisa-press-play-20261023, ko-day6-5th-fanmeeting-incheon-20261023부터
+**리서처 참고(추가 안 함)**: 신규 미등록 공연 발견 없음. ko-triples-love-and-pop-pt2-20261020의 id 날짜(1020)가 실제 발매일(1016)과 어긋남 — 리서처가 id 정리 여부 판단 권장
 
 ---
 
