@@ -1014,3 +1014,24 @@ textarea:focus-visible,
 .menu-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent-warm); flex: 0 0 auto; }
 .menu-hint { font-size: 0.72rem; font-weight: 700; color: var(--accent-warm); }
 .site-menu { min-width: 220px; }
+
+/* 가수 팔로우 버튼 (2026-10-13) */
+.follow-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border-radius: 999px;
+  border: 1px solid var(--accent-warm);
+  background: color-mix(in srgb, var(--accent-warm) 12%, transparent);
+  color: var(--accent-warm);
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.follow-btn-md { padding: 0.45rem 0.95rem; font-size: 0.88rem; }
+.follow-btn-sm { padding: 0.18rem 0.6rem; font-size: 0.74rem; margin-left: 0.5rem; }
+.follow-btn .ic { width: 15px; height: 15px; }
+.follow-btn-sm .ic { width: 12px; height: 12px; }
+.follow-btn.is-following { background: var(--accent-warm); color: var(--on-warm, #1a1206); }
+.follow-btn:disabled { opacity: 0.6; cursor: default; }

@@ -79,3 +79,6 @@
   font-weight: 600;
   color: var(--text);
 }
+
+/* 팔로우 버튼 줄 (2026-10-13) */
+.followRow { margin-top: 0.5rem; }

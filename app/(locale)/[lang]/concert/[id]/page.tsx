@@ -11,6 +11,7 @@ import { effectivePresaleEnd, hasEventEnded, eventStatusOf, nextTicketOpening } 
 import { PageShell } from '@/components/PageShell';
 import { WishlistButton } from '@/components/WishlistButton';
 import { TicketAlertButton } from '@/components/TicketAlertButton';
+import { FollowButton } from '@/components/FollowButton';
 import { DdayBadge } from '@/components/DdayBadge';
 import { ShareButton } from '@/components/ShareButton';
 import { ViewCounter } from '@/components/ViewCounter';
@@ -345,6 +346,8 @@ export default async function LocaleGamePage({ params }: Props) {
               <a href={`/${lang}/artist/${encodeURIComponent(normalizeArtistKey(game.developer))}`} className="detail-artist-link">
                 {game.developer}
               </a>
+              {/* 이 공연이 끝나도 이 가수의 다음 공연을 받게 — 1회 방문을 재방문으로 바꾸는 자리 */}
+              {artist && <FollowButton lang={lang} artistKey={artist.slug} artistName={artist.name} size="sm" />}
             </li>
           )}
           {game.publisher && <li><strong>{ui.publisher}</strong>{game.publisher}</li>}

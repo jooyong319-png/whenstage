@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllArtists, getArtistBySlug, isArtistIndexable } from '@/lib/artists';
 import { PageShell } from '@/components/PageShell';
+import { FollowButton } from '@/components/FollowButton';
 import { EventList } from '@/components/EventList';
 import { ArtistAvatar } from '@/components/ArtistAvatar';
 import { SidebarSection } from '@/components/SidebarSection';
@@ -97,6 +98,10 @@ export default async function ArtistDetailPage({ params }: Props) {
             <ArtistAvatar src={artist.image} name={artist.name} />
             <div className={artistStyles.headerText}>
               <h1 className={styles.postH1}>{artist.name}</h1>
+              {/* 팔로우 = 이 가수의 새 공연·예매 오픈 알림 — 사이트를 다시 찾을 이유(2026-10-13) */}
+              <div className={artistStyles.followRow}>
+                <FollowButton lang={lang} artistKey={artist.slug} artistName={artist.name} />
+              </div>
               <p className={styles.postLead}>
                 {artist.events.length}{lang === 'ko' ? '개 일정' : lang === 'ja' ? '件' : ' events'}
                 {artist.upcomingCount > 0 ? ` · ${artist.upcomingCount}${ui.artistUpcomingCount}` : ''}
