@@ -2,7 +2,7 @@
 import { type CSSProperties } from 'react';
 import { motion } from 'motion/react';
 import type { Game } from '@/lib/types';
-import { CATEGORY_META } from '@/lib/types';
+import { CATEGORY_META, nextTicketOpening, dateInZone } from '@/lib/types';
 import { calcDayDiff, formatShortDate } from '@/lib/utils';
 import { useLocale } from '@/hooks/useLocale';
 import { CAL, UI, CATEGORY_LABELS } from '@/lib/i18nLabels';
@@ -33,7 +33,12 @@ export function UpcomingStrip({ games, cardImages, now, onPick }: Props) {
           const cat = CATEGORY_META[g.category];
           const img = cardImages[g.id];
           const diff = g.release_date_approx ? null : calcDayDiff(g.release_date, now);
-          const dday = diff == null ? (ui ? ui.tba : '미정') : diff <= 0 ? 'D-DAY' : `D-${diff}`;
+          // 예매가 아직 안 열렸으면 예매까지 남은 날을 보여준다(GameRow와 같은 규칙)
+          const opening = nextTicketOpening(g, now);
+          const ticketDiff = opening ? calcDayDiff(dateInZone(opening.at, g.timezone || 'Asia/Seoul'), now) : null;
+          const dday = ticketDiff != null && t
+            ? (ticketDiff <= 0 ? t.ticketToday : t.ticketDday(`D-${ticketDiff}`))
+            : diff == null ? (ui ? ui.tba : '미정') : diff <= 0 ? 'D-DAY' : `D-${diff}`;
           const dateText = g.release_date_approx ? (ui ? ui.tba : '미정') : formatShortDate(g.release_date);
           return (
             <motion.a

@@ -269,3 +269,42 @@ export function eventStatusOf(g: { description?: string | null }): EventStatus {
   if (POSTPONED_RE.test(d)) return 'postponed';
   return 'scheduled';
 }
+
+// ── 예매 중심 표시 (2026-10-13) ────────────────────────────────────────────
+// 사람들이 이 사이트에 오는 이유는 "언제 예매가 열리나"다. 공연일보다 예매 오픈을 먼저 보여준다.
+
+export interface NextTicketOpening {
+  kind: 'presale' | 'general';
+  at: string;           // ISO(오프셋 포함)
+  url: string | null;
+}
+
+// 아직 열리지 않은 가장 가까운 예매(선예매·일반예매 중 이른 것). 취소된 공연은 없다.
+// now는 **순간**(Date)이다 — 같은 날 20시 오픈이면 그 전까지는 "곧 열림"이다.
+export function nextTicketOpening(
+  g: Pick<Game, 'presale_datetime' | 'presale_url' | 'general_sale_datetime' | 'general_sale_url' | 'description'>,
+  now: Date,
+): NextTicketOpening | null {
+  if (eventStatusOf(g) === 'cancelled') return null;
+  const t = now.getTime();
+  const list: NextTicketOpening[] = [];
+  for (const [kind, at, url] of [
+    ['presale', g.presale_datetime, g.presale_url],
+    ['general', g.general_sale_datetime, g.general_sale_url],
+  ] as const) {
+    if (!at) continue;
+    const ms = new Date(at).getTime();
+    if (Number.isNaN(ms) || ms <= t) continue;
+    list.push({ kind, at, url: url ?? null });
+  }
+  list.sort((a, b) => new Date(a.at).getTime() - new Date(b.at).getTime());
+  return list[0] ?? null;
+}
+
+// 그 순간이 공연 타임존에서 며칠인지 'YYYY-MM-DD' — 예매 D-day 계산용
+export function dateInZone(iso: string, timeZone: string): string {
+  const p = new Intl.DateTimeFormat('en-CA', { timeZone, year: 'numeric', month: '2-digit', day: '2-digit' })
+    .formatToParts(new Date(iso));
+  const get = (k: string) => p.find(x => x.type === k)?.value ?? '';
+  return `${get('year')}-${get('month')}-${get('day')}`;
+}

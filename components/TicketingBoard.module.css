@@ -1,0 +1,86 @@
+/* 홈 맨 위 예매 보드 — 일정 카드(ScheduleCard)와 같은 재질, 더 촘촘하게 */
+.board {
+  margin: 0 0 1.4rem;
+}
+.cols {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+  gap: 1rem;
+}
+.col { min-width: 0; }
+.title {
+  font-size: 1rem;
+  font-weight: 800;
+  margin: 0 0 0.55rem;
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-width: 0;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--cat, var(--accent));
+  border-radius: var(--radius, 10px);
+  padding: 0.6rem 0.75rem;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  flex: 1 1 auto;
+  min-width: 0;
+  color: inherit;
+  text-decoration: none;
+}
+.main:hover .name { text-decoration: underline; }
+.top { display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; }
+.dday {
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 0.08rem 0.45rem;
+  border-radius: var(--radius-xs, 3px);
+  background: color-mix(in srgb, var(--accent-warm) 18%, transparent);
+  color: var(--accent-warm);
+  white-space: nowrap;
+}
+/* 3일 이내 — 지금 준비해야 하는 것 */
+.ddayHot { background: var(--accent-warm); color: var(--on-warm, #1a1206); }
+.ddaySoft { font-size: 0.72rem; font-weight: 700; color: var(--text-faint); white-space: nowrap; }
+.kind { font-size: 0.72rem; font-weight: 700; color: var(--text-faint); }
+.name {
+  font-weight: 700;
+  line-height: 1.35;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.when { font-size: 0.8rem; color: var(--text-faint); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.buy {
+  flex: 0 0 auto;
+  font-size: 0.78rem;
+  font-weight: 800;
+  padding: 0.4rem 0.65rem;
+  border-radius: var(--radius-sm, 6px);
+  background: color-mix(in srgb, var(--accent-warm) 14%, transparent);
+  color: var(--accent-warm);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.buy:hover { background: color-mix(in srgb, var(--accent-warm) 24%, transparent); }
+.more {
+  display: inline-block;
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-faint);
+}
+.more:hover { color: var(--accent); }

@@ -585,7 +585,7 @@ textarea:focus-visible,
 .category-tag.cat-bg-concert_tour     { --cat-dot: #4a5fe0; }
 .category-tag.cat-bg-music_release { --cat-dot: #0e9d94; }
 .category-tag.cat-bg-festival    { --cat-dot: #1f9d52; }
-.category-tag.cat-bg-fanmeeting    { --cat-dot: #df3d78; }
+.category-tag.cat-bg-fanmeeting    { --cat-dot: #c92c62; }  /* #df3d78은 흰 글자 대비 4.0:1(AA 미달) — lib/types의 팬미팅 색과 맞춘다 */
 
 /* ─── 게임 상세 페이지 (정적) ─── */
 /* 상세 빵부스러기(breadcrumb) */
@@ -966,3 +966,29 @@ textarea:focus-visible,
 .event-status-next-name { font-weight: 700; }
 .event-status-next-name::after { content: ' →'; }
 .event-status-next-date { font-size: 0.82rem; color: var(--text-faint); }
+
+/* 예매 알림 — 상세의 예매 일정 바로 아래 (2026-10-13) */
+.ticket-alert {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem 0.8rem;
+  flex-wrap: wrap;
+  margin: 0.4rem 0 1.1rem;
+}
+.ticket-alert-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.5rem 0.85rem;
+  border-radius: var(--radius-sm, 6px);
+  border: 1px solid var(--accent-warm);
+  background: color-mix(in srgb, var(--accent-warm) 12%, transparent);
+  color: var(--accent-warm);
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+.ticket-alert-btn.is-wished { background: var(--accent-warm); color: var(--on-warm, #1a1206); }
+.ticket-alert-btn .ic { width: 16px; height: 16px; }
+.ticket-alert-hint { margin: 0; font-size: 0.82rem; color: var(--text-faint); }

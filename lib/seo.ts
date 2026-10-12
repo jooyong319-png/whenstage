@@ -244,3 +244,51 @@ export function concertMetaDescription(p: {
   const full = `${lead}. ${body}`;
   return full.length <= DESC_BUDGET ? full : `${full.slice(0, DESC_BUDGET - 1).trimEnd()}…`;
 }
+
+/** 예매가 아직 안 열린 공연의 검색 제목 — `공연명 티켓팅 10/20 20:00 · 공연 2026.11.13` (2026-10-13)
+ *
+ *  사람들이 찾는 건 "OO 티켓팅", "OO 예매"다. 공연일만 있던 제목은 그 질문에 답하지 못했다.
+ *  빌드 시점에 오픈이 지나면 다음 빌드부터 원래 제목(concertMetaTitle)으로 돌아간다.
+ *  자리가 모자라면 ① 공연일을 버리고 ② 병기 괄호를 떼고 ③ 티켓팅을 앞으로 보낸다(이름 꼬리는 구글이 자른다). */
+export function ticketMetaTitle(
+  name: string,
+  release_date: string,
+  openingAt: string,
+  timeZone: string,
+  lang: Locale,
+): string {
+  const when = ticketWhen(openingAt, timeZone, lang);
+  const date = metaDate(release_date);
+  const word = lang === 'en' ? 'Tickets' : lang === 'ja' ? 'チケット発売' : '티켓팅';
+  const show = lang === 'en' ? 'Show' : lang === 'ja' ? '公演' : '공연';
+  const fits = (s: string) => displayWidth(s) <= TITLE_WIDTH;
+  for (const n of [name, stripParenthetical(name)]) {
+    for (const c of [`${n} ${word} ${when} · ${show} ${date}`, `${n} ${word} ${when}`]) {
+      if (fits(c)) return c;
+    }
+  }
+  return `${word} ${when} — ${stripParenthetical(name)}`;
+}
+
+/** 검색 결과용 짧은 오픈 시각 — 공연 현지 시간. 해외(en)는 시간대를 붙인다 */
+function ticketWhen(iso: string, timeZone: string, lang: Locale): string {
+  const p = new Intl.DateTimeFormat('en-US', {
+    timeZone, month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', hourCycle: 'h23',
+    ...(lang === 'en' ? { timeZoneName: 'short' as const } : {}),
+  }).formatToParts(new Date(iso));
+  const get = (k: string) => p.find(x => x.type === k)?.value ?? '';
+  const base = `${get('month')}/${get('day')} ${get('hour')}:${get('minute')}`;
+  return lang === 'en' ? `${base} ${get('timeZoneName')}` : base;
+}
+
+/** 검색 설명 앞에 예매 오픈을 붙인다 — `티켓팅 10/20 20:00 오픈(선예매). 기존 설명…` */
+export function withTicketLead(desc: string, openingAt: string, timeZone: string, kind: 'presale' | 'general', lang: Locale): string {
+  const when = ticketWhen(openingAt, timeZone, lang);
+  const lead = lang === 'en'
+    ? `Tickets on sale ${when} (${kind === 'presale' ? 'presale' : 'general sale'}).`
+    : lang === 'ja'
+      ? `チケット${kind === 'presale' ? '先行受付' : '一般発売'} ${when}開始。`
+      : `티켓팅 ${when} 오픈(${kind === 'presale' ? '선예매' : '일반예매'}).`;
+  const full = `${lead} ${desc}`;
+  return full.length <= DESC_BUDGET ? full : `${full.slice(0, DESC_BUDGET - 1).trimEnd()}…`;
+}

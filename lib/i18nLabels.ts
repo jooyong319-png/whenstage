@@ -344,6 +344,17 @@ interface CalUiStrings {
   endedNotice: string;     // 상세 상단 안내
   cancelledNotice: string;
   postponedNotice: string;
+  ticketDday: (d: string) => string;   // 예매까지 — '예매 D-3' / 'Tickets D-3' / '発売 D-3'
+  ticketToday: string;                 // 오늘 열림
+  openingSoon: string;                 // 홈 섹션 제목
+  onSaleNow: string;
+  seeAllTicketing: string;
+  ticketAlert: string;                 // '예매 알림 받기'
+  ticketAlertOn: string;
+  ticketAlertHint: string;
+  ticketAlertOnToast: string;
+  notifyUnsupportedSaved: string;
+  showDday: (d: string) => string;     // '공연 D-12'
   goTo: string;
   prevMonth: string;
   nextMonth: string;
@@ -452,6 +463,17 @@ export const CAL: Record<Locale, CalUiStrings> = {
     endedNotice: '종료된 공연입니다.',
     cancelledNotice: '취소된 공연입니다.',
     postponedNotice: '연기된 공연입니다. 새 일정이 정해지면 업데이트합니다.',
+    ticketDday: d => `예매 ${d}`,
+    ticketToday: '오늘 예매',
+    openingSoon: '곧 열리는 예매',
+    onSaleNow: '지금 예매 중',
+    seeAllTicketing: '티켓팅 일정 전체 보기',
+    ticketAlert: '예매 알림 받기',
+    ticketAlertOn: '예매 알림 받는 중',
+    ticketAlertHint: '찜해 두면 선예매·일반예매가 열릴 때 알림을 보내 드려요.',
+    ticketAlertOnToast: '예매가 열리면 알려 드릴게요',
+    notifyUnsupportedSaved: '찜했어요. 이 브라우저는 알림을 지원하지 않아요.',
+    showDday: d => `공연 ${d}`,
     goTo: '바로가기',
     prevMonth: '이전 달',
     nextMonth: '다음 달',
@@ -558,6 +580,17 @@ export const CAL: Record<Locale, CalUiStrings> = {
     endedNotice: 'This show has ended.',
     cancelledNotice: 'This show has been cancelled.',
     postponedNotice: 'This show has been postponed. We will update the page when a new date is set.',
+    ticketDday: d => `Tickets ${d}`,
+    ticketToday: 'Tickets today',
+    openingSoon: 'Ticket sales opening soon',
+    onSaleNow: 'On sale now',
+    seeAllTicketing: 'See all ticket sale dates',
+    ticketAlert: 'Get a ticket sale alert',
+    ticketAlertOn: 'Alert on',
+    ticketAlertHint: 'Save this show and we will notify you when the presale and general sale open.',
+    ticketAlertOnToast: "We'll notify you when tickets go on sale",
+    notifyUnsupportedSaved: 'Saved. This browser does not support notifications.',
+    showDday: d => `Show ${d}`,
     goTo: 'View',
     prevMonth: 'Previous month',
     nextMonth: 'Next month',
@@ -664,6 +697,17 @@ export const CAL: Record<Locale, CalUiStrings> = {
     endedNotice: 'この公演は終了しました。',
     cancelledNotice: 'この公演は中止になりました。',
     postponedNotice: 'この公演は延期になりました。新しい日程が決まり次第更新します。',
+    ticketDday: d => `発売 ${d}`,
+    ticketToday: '本日発売',
+    openingSoon: 'まもなく発売',
+    onSaleNow: '発売中',
+    seeAllTicketing: 'チケット発売日程をすべて見る',
+    ticketAlert: '発売通知を受け取る',
+    ticketAlertOn: '発売通知オン',
+    ticketAlertHint: 'お気に入りに追加すると、先行受付・一般発売の開始時に通知します。',
+    ticketAlertOnToast: '発売開始をお知らせします',
+    notifyUnsupportedSaved: 'お気に入りに追加しました。このブラウザは通知に対応していません。',
+    showDday: d => `公演 ${d}`,
     goTo: '見る',
     prevMonth: '前月',
     nextMonth: '翌月',

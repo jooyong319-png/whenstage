@@ -7,9 +7,10 @@ import { getVenueBySlug, normalizeVenueKey, VENUE_CATEGORIES } from '@/lib/venue
 import { formatShortDate, calcDayDiff } from '@/lib/utils';
 import { CATEGORY_LABELS, UI, CAL, LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
 import type { Game } from '@/lib/types';
-import { effectivePresaleEnd, hasEventEnded, eventStatusOf } from '@/lib/types';
+import { effectivePresaleEnd, hasEventEnded, eventStatusOf, nextTicketOpening } from '@/lib/types';
 import { PageShell } from '@/components/PageShell';
 import { WishlistButton } from '@/components/WishlistButton';
+import { TicketAlertButton } from '@/components/TicketAlertButton';
 import { DdayBadge } from '@/components/DdayBadge';
 import { ShareButton } from '@/components/ShareButton';
 import { ViewCounter } from '@/components/ViewCounter';
@@ -19,7 +20,7 @@ import { TicketingCtaButton } from '@/components/TicketingCtaButton';
 import { ReportForm } from '@/components/ReportForm';
 import { SidebarSection } from '@/components/SidebarSection';
 import { RelatedEventCard } from '@/components/RelatedEventCard';
-import { breadcrumbLd, jsonLd, eventStartDate, concertMetaTitle, concertMetaDescription, countryFromTimezone, wikimediaFilePage } from '@/lib/seo';
+import { breadcrumbLd, jsonLd, eventStartDate, concertMetaTitle, concertMetaDescription, countryFromTimezone, wikimediaFilePage, ticketMetaTitle, withTicketLead } from '@/lib/seo';
 
 interface Props {
   params: { lang: string; id: string };
@@ -54,14 +55,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // 레이아웃 title 템플릿('%s | WhenStage')이 브랜드를 뒤에 붙인다.
   // (og/twitter title은 템플릿 미적용이라 그대로 쓰되 브랜드는 도메인으로 노출)
   const venue = game.platforms?.[0] ?? null;
-  const title = concertMetaTitle(game.name, game.release_date, venue, params.lang);
-  const desc = concertMetaDescription({
+  // 예매가 아직 안 열렸으면 제목·설명이 티켓팅에 답한다("OO 티켓팅"이 사람들이 실제로 치는 검색어).
+  // 빌드 시각 기준 — 오픈이 지나면 다음 빌드부터 공연일 제목으로 돌아간다(하루 2~4번 빌드).
+  const opening = nextTicketOpening(game, new Date());
+  const tz = game.timezone || 'Asia/Seoul';
+  const title = opening
+    ? ticketMetaTitle(game.name, game.release_date, opening.at, tz, params.lang)
+    : concertMetaTitle(game.name, game.release_date, venue, params.lang);
+  const baseDesc = concertMetaDescription({
     release_date: game.release_date,
     venue,
     artist: game.developer,
     description: game.description,
     categoryLabel: CATEGORY_LABELS[params.lang][game.category],
   });
+  const desc = opening ? withTicketLead(baseDesc, opening.at, tz, opening.kind, params.lang) : baseDesc;
 
   return {
     title,
@@ -251,7 +259,7 @@ export default async function LocaleGamePage({ params }: Props) {
       <article className="concert-detail">
         <div className="detail-head">
           <span className={`category-tag cat-bg-${game.category}`}>{CATEGORY_LABELS[lang][game.category]}</span>
-          <DdayBadge releaseDate={game.release_date} approx={game.release_date_approx} category={game.category} status={status} />
+          <DdayBadge releaseDate={game.release_date} approx={game.release_date_approx} category={game.category} status={status} ticketAt={nextTicketOpening(game, new Date())?.at} timezone={game.timezone} />
         </div>
         <h1>{game.name}</h1>
         {(status !== 'scheduled' || ended) && (
@@ -269,6 +277,31 @@ export default async function LocaleGamePage({ params }: Props) {
                 </span>
               </a>
             )}
+          </div>
+        )}
+        {/* 예매가 먼저다(2026-10-13) — 사람들이 이 페이지에서 찾는 건 "언제 예매가 열리나"라서
+            예매 일정을 커버 이미지보다 위에 둔다. 아직 안 열렸으면 바로 옆에서 알림을 켤 수 있게 한다 */}
+        {game.presale && (
+          <>
+            <TicketingPhase label={t.presaleTag} startDateTime={game.presale_datetime} endDateTime={effectivePresaleEnd(game)} timezone={game.timezone} />
+          </>
+        )}
+        {game.general_sale && (
+          <>
+            <TicketingPhase label={t.generalSaleTag} startDateTime={game.general_sale_datetime} endDateTime={game.general_sale_end_datetime} timezone={game.timezone} />
+          </>
+        )}
+        {/* 링크 미확보 안내는 한 번만 — 선예매·일반예매마다 반복하면 예매 일정보다 안내가 더 크다 */}
+        {((game.presale && !game.presale_url) || (game.general_sale && !game.general_sale_url)) && (
+          <p className="prereg-info">
+            <svg className="ic" aria-hidden="true"><use href="#ic-bell" /></svg>
+            {t.ticketingLinkPending}
+          </p>
+        )}
+        {status !== 'cancelled' && nextTicketOpening(game, new Date()) && (
+          <div className="ticket-alert">
+            <TicketAlertButton id={game.id} />
+            <p className="ticket-alert-hint">{t.ticketAlertHint}</p>
           </div>
         )}
         {game.image_url && (
@@ -294,28 +327,6 @@ export default async function LocaleGamePage({ params }: Props) {
         <p className="release-date">
           <strong>{ui.releaseDate}:</strong> {dateStr}
         </p>
-        {game.presale && (
-          <>
-            <TicketingPhase label={t.presaleTag} startDateTime={game.presale_datetime} endDateTime={effectivePresaleEnd(game)} timezone={game.timezone} />
-            {!game.presale_url && (
-              <p className="prereg-info">
-                <svg className="ic" aria-hidden="true"><use href="#ic-bell" /></svg>
-                {t.ticketingLinkPending}
-              </p>
-            )}
-          </>
-        )}
-        {game.general_sale && (
-          <>
-            <TicketingPhase label={t.generalSaleTag} startDateTime={game.general_sale_datetime} endDateTime={game.general_sale_end_datetime} timezone={game.timezone} />
-            {!game.general_sale_url && (
-              <p className="prereg-info">
-                <svg className="ic" aria-hidden="true"><use href="#ic-bell" /></svg>
-                {t.ticketingLinkPending}
-              </p>
-            )}
-          </>
-        )}
         {game.description && <p className="desc">{game.description}</p>}
         {game.festival_days && game.festival_days.length > 0 && (
           <ul className="detail-festival-days">

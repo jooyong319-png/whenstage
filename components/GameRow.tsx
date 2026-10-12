@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import { motion } from 'motion/react';
 import type { Game } from '@/lib/types';
-import { CATEGORY_META, availableTicketingUrl, eventStatusOf } from '@/lib/types';
+import { CATEGORY_META, availableTicketingUrl, eventStatusOf, nextTicketOpening, dateInZone } from '@/lib/types';
 import { trackEvent } from '@/lib/analytics';
 import { calcDayDiff, getKoreanWeekday, parseDateOnly } from '@/lib/utils';
 import { useLocale } from '@/hooks/useLocale';
@@ -39,7 +39,11 @@ export function GameRow({ game: g, now, wishlist, onPick, preBadge }: Props) {
   // 취소·연기는 날짜보다 먼저 알린다(지난 공연이어도 '종료'보다 '취소'가 정확한 정보)
   const status = eventStatusOf(g);
   const statusText = status === 'cancelled' ? (t ? t.cancelledTag : '취소') : status === 'postponed' ? (t ? t.postponedTag : '연기') : null;
-  const dd = statusText ?? (g.release_date_approx ? tba : released ? releasedText : isToday ? 'D-DAY' : `D-${diff}`);
+  // 예매가 아직 안 열렸으면 배지는 **예매까지 남은 날**이다 — 사람들이 기다리는 건 예매 오픈이다(2026-10-13)
+  const opening = !statusText && !released ? nextTicketOpening(g, now) : null;
+  const ticketDiff = opening ? calcDayDiff(dateInZone(opening.at, g.timezone || 'Asia/Seoul'), now) : null;
+  const ticketText = ticketDiff == null || !t ? null : ticketDiff <= 0 ? t.ticketToday : t.ticketDday(`D-${ticketDiff}`);
+  const dd = statusText ?? ticketText ?? (g.release_date_approx ? tba : released ? releasedText : isToday ? 'D-DAY' : `D-${diff}`);
   const cat = CATEGORY_META[g.category];
   const isWished = wishlist.has(g.id);
   // 지금 바로 예매 가능(상시판매 포함)하면 예매 버튼 노출 — 리스트/검색에서도 바로 예매처로.
