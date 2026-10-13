@@ -1,0 +1,39 @@
+# 매시간 알림 크론 호출 (2026-10-13) — cron-job.org 대신
+#
+# 알림 발송(app/api/cron/notify)은 이 주소가 호출될 때 돈다. Vercel 무료 크론은 하루 1회뿐이라
+# 예전엔 cron-job.org가 매시간 불렀는데, 확인해 보니 24시간에 1번만 호출되고 있었다(꺼짐·실패).
+# 그런데 Vercel에는 CRON_HOURLY=1이 켜져 있어서 크론이 "사용자가 고른 시각에만" 보냈다 →
+# 하루 1번 호출 시각과 우연히 같은 사용자 말고는 D-day·예매 알림이 안 가고 있었을 것이다.
+# '예매 1시간 전' 알림(2026-10-13)도 매시간 호출이 전제다.
+#
+# 여기로 옮긴 이유: 설정이 코드로 남고, 실행 기록이 Actions 탭에 보여서 꺼지면 알 수 있다.
+# 비밀값 CRON_SECRET(저장소 Settings → Secrets → Actions)이 Vercel의 CRON_SECRET과 같아야 한다.
+name: Notify hourly
+
+on:
+  schedule:
+    # 매시 7분 — 정각은 GitHub 예약 실행이 몰려 크게 밀린다. '1시간 전' 창(오픈 15~75분 전)에 들어간다
+    - cron: '7 * * * *'
+  workflow_dispatch: {}   # 수동 실행(시험용)
+
+permissions: {}
+
+jobs:
+  call:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: 알림 크론 호출
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+        run: |
+          if [ -z "$CRON_SECRET" ]; then
+            echo "::error::저장소 비밀값 CRON_SECRET이 없다 — Settings → Secrets and variables → Actions에 등록할 것"
+            exit 1
+          fi
+          # 응답(발송 수 등)을 로그에 남긴다 — 실패하면 워크플로가 빨갛게 보인다
+          code=$(curl -sS -o resp.json -w '%{http_code}' --max-time 120 \
+            -H "Authorization: Bearer $CRON_SECRET" https://whenstage.com/api/cron/notify)
+          cat resp.json; echo
+          echo "HTTP $code"
+          [ "$code" = "200" ]
