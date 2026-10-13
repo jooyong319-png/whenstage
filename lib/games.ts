@@ -1,4 +1,5 @@
 // server-only: 이 파일은 fs를 쓰므로 서버 컴포넌트에서만 import 가능
+import { dupNoindexIds } from './descDup';
 import path from 'path';
 import { promises as fs } from 'fs';
 import { type Game, type GamesData, type Category } from './types';
@@ -85,3 +86,15 @@ export async function getLastUpdated(locale: GameLocale = 'ko'): Promise<string>
 
 // 순수 헬퍼는 lib/utils.ts로 분리됨. 기존 import 호환용 re-export.
 export { calcDayDiff, formatKoreanDate, formatShortDate, getKoreanWeekday } from './utils';
+
+// 설명 복사 묶음에서 대표가 아닌 공연(noindex·사이트맵 제외) — lib/descDup.ts. 상세 페이지 메타데이터가
+// 페이지마다 부르므로(1천여 장) 로케일별로 한 번만 계산한다.
+const dupNoindexCache = new Map<GameLocale, Promise<Set<string>>>();
+export function getDupNoindexIds(locale: GameLocale): Promise<Set<string>> {
+  let p = dupNoindexCache.get(locale);
+  if (!p) {
+    p = getAllGames(locale).then(gs => dupNoindexIds(gs, locale));
+    dupNoindexCache.set(locale, p);
+  }
+  return p;
+}

@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next';
-import { getAllGames, getLastUpdated } from '@/lib/games';
+import { getAllGames, getLastUpdated, getDupNoindexIds } from '@/lib/games';
 import { getAllPosts } from '@/lib/blog';
 import { getAllNews } from '@/lib/news';
 import { getAllArtists, isArtistIndexable } from '@/lib/artists';
@@ -108,9 +108,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ja: new Set(gamesByLocale.ja.map(g => g.id)),
   };
 
+  // 설명 복사 묶음의 대표가 아닌 공연은 상세가 noindex라 사이트맵에서도 뺀다(신호를 맞춘다 — lib/descDup.ts)
+  const dupNoindex: Record<Locale, Set<string>> = {
+    ko: await getDupNoindexIds('ko'), en: await getDupNoindexIds('en'), ja: await getDupNoindexIds('ja'),
+  };
   const gameUrls: MetadataRoute.Sitemap = [];
   for (const lang of LOCALES) {
     for (const g of gamesByLocale[lang]) {
+      if (dupNoindex[lang].has(g.id)) continue;
       const upcoming = g.release_date_approx || g.release_date >= todayStr;
       // 티켓팅 가산점은 **아직 안 지난 공연에만** 준다. 끝난 공연에 presale/general_sale
       // 플래그가 켜진 채 남아 있는 경우가 많은데(공연이 끝나면 리서처가 내리지 않는다),
@@ -123,7 +128,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         const languages: Record<string, string> = { [lang]: `${BASE}/${lang}/concert/${g.id}` };
         for (const relLang of LOCALES) {
           const relId = g.related_locale_ids[relLang];
-          if (relId && idSets[relLang].has(relId)) languages[relLang] = `${BASE}/${relLang}/concert/${relId}`;
+          if (relId && idSets[relLang].has(relId) && !dupNoindex[relLang].has(relId)) languages[relLang] = `${BASE}/${relLang}/concert/${relId}`;
         }
         if (Object.keys(languages).length > 1) alternates = { languages };
       }

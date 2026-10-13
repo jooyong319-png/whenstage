@@ -78,6 +78,63 @@ function checkLastUpdated(file, lastUpdated) {
   }
 }
 
+
+// ── 설명 복사 검사 (2026-10-13) ───────────────────────────────────────────────
+// 같은 가수의 다른 공연과 설명이 절반 이상 같으면 "투어를 도시별로 나누며 복사한" 페이지다 —
+// claude-seo 점검에서 ja 23%·en 10%가 이랬고, 8월 구글 강등 사유(대규모 자동 생성)와 같은 패턴.
+// lib/descDup.ts와 **같은 계산**이다(이 파일은 .mjs라 그걸 못 쓴다 — 기준을 바꾸면 두 곳 다).
+//   - 오늘 고친 항목(updated_at = 오늘)이 끼어 있으면 **오류** — 새로 만들거나 고치면서 복사하지 말 것
+//   - 예전부터 있던 묶음은 **경고 + 정리 목록** — 오류로 막으면 리서처 작업 전체가 멈춘다
+const DUP_THRESHOLD = 0.5;
+const artistKey = (n) => n.replace(/[（(][^）)]*[）)]/g, '').trim().normalize('NFC');
+function descGrams(text, lang) {
+  const out = new Set();
+  if (lang === 'ja') {
+    const t = text.replace(/\s+/g, '');
+    for (let i = 0; i + 8 <= t.length; i++) out.add(t.slice(i, i + 8));
+    return out;
+  }
+  const w = text.toLowerCase().match(/[\p{L}\p{N}]+/gu) ?? [];
+  for (let i = 0; i + 4 <= w.length; i++) out.add(w.slice(i, i + 4).join(' '));
+  return out;
+}
+function jaccard(a, b) {
+  if (!a.size || !b.size) return 0;
+  let inter = 0;
+  for (const x of a) if (b.has(x)) inter++;
+  return inter / (a.size + b.size - inter);
+}
+const dupWarnings = [];
+function checkCopiedDescriptions(file, games) {
+  const lang = file.match(/concerts\.(\w+)\.json/)?.[1] ?? 'ko';
+  const by = new Map();
+  for (const g of games) {
+    if (!g?.developer || !g?.description) continue;
+    const k = artistKey(g.developer);
+    (by.get(k) ?? by.set(k, []).get(k)).push(g);
+  }
+  for (const [artist, gs] of by) {
+    if (gs.length < 2) continue;
+    const grams = gs.map(g => descGrams(g.description, lang));
+    const pairs = [];
+    for (let i = 0; i < gs.length; i++) for (let j = i + 1; j < gs.length; j++) {
+      const sim = jaccard(grams[i], grams[j]);
+      if (sim >= DUP_THRESHOLD) pairs.push([gs[i], gs[j], sim]);
+    }
+    if (!pairs.length) continue;
+    const fresh = pairs.filter(([a, b]) => a.updated_at === today || b.updated_at === today);
+    for (const [a, b, sim] of fresh) {
+      problems.push(`${file} / ${a.updated_at === today ? a.id : b.id}: 설명이 ${a.updated_at === today ? b.id : a.id}와 ${Math.round(sim * 100)}% 같다 — `
+        + '도시·날짜별로 나눈 공연은 그 공연만의 정보(공연장·날짜·예매 일정·좌석 등)로 설명을 따로 써야 한다. '
+        + '같은 공연장 연속 공연이면 한 건으로 합친다(AGENTS.md "설명 복사 금지")');
+    }
+    if (fresh.length < pairs.length) {
+      const ids = [...new Set(pairs.flatMap(([a, b]) => [a.id, b.id]))];
+      dupWarnings.push(`${file} / ${artist}: ${ids.length}건 — ${ids.join(', ')}`);
+    }
+  }
+}
+
 for (const file of files) {
   let data;
   try {
@@ -145,7 +202,15 @@ for (const file of files) {
       problems.push(`${file} / ${id}: release_date 형식이 YYYY-MM-DD가 아니다 (${g.release_date})`);
     }
   }
+  checkCopiedDescriptions(file, games);
   console.log(`${file}: ${games.length}건 검사`);
+}
+
+// 예전부터 있던 설명 복사 묶음 — 실패로 치지 않고 정리 목록만 보여준다(리서처가 매 실행 일부씩 다시 쓴다)
+if (dupWarnings.length) {
+  console.log(`\n⚠️ 설명 복사 묶음 ${dupWarnings.length}개 — 정리 대상(묶음마다 대표 1건만 색인 중, lib/descDup.ts):`);
+  for (const w of dupWarnings.slice(0, 40)) console.log('  - ' + w);
+  if (dupWarnings.length > 40) console.log(`  … 외 ${dupWarnings.length - 40}개`);
 }
 
 if (problems.length) {

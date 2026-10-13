@@ -7007,7 +7007,7 @@
       ],
       "developer": "TOMORROW X TOGETHER",
       "publisher": "BIGHIT MUSIC",
-      "description": "TOMORROW X TOGETHER open their STEAL THE WIND world tour with three nights at KSPO Dome in Seoul's Olympic Park on November 13, 14 and 15, 2026, before the run continues through Asia, Japan, North America and Europe. All three nights stream live on Weverse Concerts for MOA outside Korea. Overseas fans buy through the separate global ticketing page: membership verification runs September 28 to October 2, with presale October 2 and general sale October 6.",
+      "description": "TOMORROW X TOGETHER open their STEAL THE WIND world tour with three nights at KSPO Dome in Seoul's Olympic Park: November 13 at 7 p.m., November 14 at 6 p.m. and November 15 at 5 p.m. KST, 2026, before the run continues through Asia, Japan, North America and Europe. All three nights stream live on Weverse Concerts for MOA outside Korea. Tickets are sold through NOL, with MOA membership presales on separate domestic and global pages ahead of general sale; on the global page, membership verification runs September 28 to October 2, with presale October 2 and general sale October 6. The shows are rated for ages 9 and up.",
       "genres": [
         "K-Pop",
         "Concert"
@@ -9811,58 +9811,6 @@
       "source_url": "https://blabbermouth.net/news/scorpions-postpone-2026-las-vegas-residency-due-to-unforeseen-circumstances"
     },
     {
-      "release_time": "18:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Seoul",
-      "category": "concert_tour",
-      "publisher": "BIGHIT MUSIC",
-      "image_url": null,
-      "presale": true,
-      "general_sale": true,
-      "id": "en-txt-steal-the-wind-seoul-20261114",
-      "name": "TOMORROW X TOGETHER World Tour <STEAL THE WIND> in Seoul (Night 2)",
-      "release_date": "2026-11-14",
-      "platforms": [
-        "KSPO Dome, Seoul(Olympic Park)"
-      ],
-      "developer": "TOMORROW X TOGETHER",
-      "description": "The second Seoul show of TOMORROW X TOGETHER's STEAL THE WIND world tour starts at 6 p.m. KST on November 14, 2026 at KSPO Dome in Olympic Park. The three-night Seoul opener runs November 13 to 15 before the tour heads through Asia, Japan, North America and Europe. Tickets went through NOL, with MOA membership presales on separate domestic and global pages ahead of general sale; the show is rated for ages 9 and up.",
-      "genres": [
-        "K-Pop",
-        "Concert"
-      ],
-      "source_url": "https://nol.yanolja.com/ticket/products/26013161",
-      "general_sale_datetime": "2026-10-06T20:00:00+09:00",
-      "presale_datetime": "2026-10-01T20:00:00+09:00",
-      "updated_at": "2026-10-13"
-    },
-    {
-      "release_time": "17:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Seoul",
-      "category": "concert_tour",
-      "publisher": "BIGHIT MUSIC",
-      "image_url": null,
-      "presale": true,
-      "general_sale": true,
-      "id": "en-txt-steal-the-wind-seoul-20261115",
-      "name": "TOMORROW X TOGETHER World Tour <STEAL THE WIND> in Seoul (Night 3)",
-      "release_date": "2026-11-15",
-      "platforms": [
-        "KSPO Dome, Seoul(Olympic Park)"
-      ],
-      "developer": "TOMORROW X TOGETHER",
-      "description": "The third and final Seoul show of TOMORROW X TOGETHER's STEAL THE WIND world tour starts at 5 p.m. KST on November 15, 2026 at KSPO Dome in Olympic Park. The three-night Seoul opener runs November 13 to 15 before the tour heads through Asia, Japan, North America and Europe. Tickets went through NOL, with MOA membership presales on separate domestic and global pages ahead of general sale; the show is rated for ages 9 and up.",
-      "genres": [
-        "K-Pop",
-        "Concert"
-      ],
-      "source_url": "https://nol.yanolja.com/ticket/products/26013161",
-      "general_sale_datetime": "2026-10-06T20:00:00+09:00",
-      "presale_datetime": "2026-10-01T20:00:00+09:00",
-      "updated_at": "2026-10-13"
-    },
-    {
       "release_time": "20:00",
       "release_date_approx": false,
       "timezone": "Asia/Seoul",
@@ -9957,57 +9905,7 @@
         "Kyung Hee University, Seoul(Grand Peace Hall)"
       ],
       "developer": "Panic",
-      "description": "Panic, the 1990s duo of Lee Juck and Kim Jin-pyo, returns for a year-end run at Kyung Hee University's Grand Peace Hall in Seoul, with this show on Friday, December 4, 2026 at 7:30 p.m. KST. It follows their sold-out April reunion concerts, the pair's first in twenty years. Tickets open October 15 at 8 p.m. KST exclusively on Ticketlink, capped at two per account across all three nights, and each show runs about 120 minutes.",
-      "genres": [
-        "K-Pop",
-        "Concert"
-      ],
-      "source_url": "https://sports.khan.co.kr/en/article/202610121346007/",
-      "general_sale_datetime": "2026-10-15T20:00:00+09:00",
-      "updated_at": "2026-10-13"
-    },
-    {
-      "release_time": "17:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Seoul",
-      "category": "concert_tour",
-      "publisher": null,
-      "image_url": null,
-      "presale": false,
-      "general_sale": true,
-      "id": "en-panic-is-coming-again-seoul-20261205",
-      "name": "2026 Panic Concert <PANIC IS COMING, AGAIN> in Seoul (Night 2)",
-      "release_date": "2026-12-05",
-      "platforms": [
-        "Kyung Hee University, Seoul(Grand Peace Hall)"
-      ],
-      "developer": "Panic",
-      "description": "Panic, the 1990s duo of Lee Juck and Kim Jin-pyo, returns for a year-end run at Kyung Hee University's Grand Peace Hall in Seoul, with this show on Saturday, December 5, 2026 at 5 p.m. KST. It follows their sold-out April reunion concerts, the pair's first in twenty years. Tickets open October 15 at 8 p.m. KST exclusively on Ticketlink, capped at two per account across all three nights, and each show runs about 120 minutes.",
-      "genres": [
-        "K-Pop",
-        "Concert"
-      ],
-      "source_url": "https://sports.khan.co.kr/en/article/202610121346007/",
-      "general_sale_datetime": "2026-10-15T20:00:00+09:00",
-      "updated_at": "2026-10-13"
-    },
-    {
-      "release_time": "16:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Seoul",
-      "category": "concert_tour",
-      "publisher": null,
-      "image_url": null,
-      "presale": false,
-      "general_sale": true,
-      "id": "en-panic-is-coming-again-seoul-20261206",
-      "name": "2026 Panic Concert <PANIC IS COMING, AGAIN> in Seoul (Night 3)",
-      "release_date": "2026-12-06",
-      "platforms": [
-        "Kyung Hee University, Seoul(Grand Peace Hall)"
-      ],
-      "developer": "Panic",
-      "description": "Panic, the 1990s duo of Lee Juck and Kim Jin-pyo, returns for a year-end run at Kyung Hee University's Grand Peace Hall in Seoul, with this show on Sunday, December 6, 2026 at 4 p.m. KST. It follows their sold-out April reunion concerts, the pair's first in twenty years. Tickets open October 15 at 8 p.m. KST exclusively on Ticketlink, capped at two per account across all three nights, and each show runs about 120 minutes.",
+      "description": "Panic, the 1990s duo of Lee Juck and Kim Jin-pyo, returns for a three-night year-end run at Kyung Hee University's Grand Peace Hall in Seoul: Friday, December 4 at 7:30 p.m., Saturday, December 5 at 5 p.m. and Sunday, December 6 at 4 p.m. KST, 2026. It follows their sold-out April reunion concerts, the pair's first in twenty years. Tickets open October 15 at 8 p.m. KST exclusively on Ticketlink, capped at two per account across all three nights, and each show runs about 120 minutes.",
       "genres": [
         "K-Pop",
         "Concert"
@@ -10032,31 +9930,7 @@
         "KSPO Dome, Seoul(Olympic Park)"
       ],
       "developer": "WOODZ",
-      "description": "WOODZ brings his Archive. 1 world tour home for an encore finale titled Archive. 1 : Completed at KSPO Dome in Seoul, with this show on October 31, 2026 at 6 p.m. KST. The tour previously visited Japan and Southeast Asia. Tickets were sold on Melon Ticket, starting with a presale for his fan club in early October, and both nights sold out shortly after general sale opened.",
-      "genres": [
-        "K-Pop",
-        "Concert"
-      ],
-      "source_url": "https://www.tenasia.co.kr/article/2026100809754",
-      "updated_at": "2026-10-13"
-    },
-    {
-      "release_time": "17:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Seoul",
-      "category": "concert_tour",
-      "publisher": "EDAM Entertainment",
-      "image_url": null,
-      "presale": false,
-      "general_sale": false,
-      "id": "en-woodz-archive-1-completed-seoul-20261101",
-      "name": "2026 WOODZ WORLD TOUR <Archive. 1 : Completed> in Seoul (Night 2)",
-      "release_date": "2026-11-01",
-      "platforms": [
-        "KSPO Dome, Seoul(Olympic Park)"
-      ],
-      "developer": "WOODZ",
-      "description": "WOODZ brings his Archive. 1 world tour home for an encore finale titled Archive. 1 : Completed at KSPO Dome in Seoul, with this show on November 1, 2026 at 5 p.m. KST. The tour previously visited Japan and Southeast Asia. Tickets were sold on Melon Ticket, starting with a presale for his fan club in early October, and both nights sold out shortly after general sale opened.",
+      "description": "WOODZ brings his Archive. 1 world tour home for a two-night encore finale titled Archive. 1 : Completed at KSPO Dome in Seoul, on October 31 at 6 p.m. and November 1 at 5 p.m. KST, 2026. The tour previously visited Japan and Southeast Asia. Tickets were sold on Melon Ticket, starting with a presale for his fan club in early October, and both nights sold out shortly after general sale opened.",
       "genres": [
         "K-Pop",
         "Concert"
@@ -10080,55 +9954,7 @@
         "KSPO Dome, Seoul(Olympic Park)"
       ],
       "developer": "Jannabi",
-      "description": "Korean rock band Jannabi returns to KSPO Dome in Seoul for a three-day run with two different concepts, and this date is an all-ballad set list on October 23, 2026. The October 23 show, \"On a Wonderful Day in October\", is built entirely from ballads, while October 24 and 25 carry the \"Sweat and Stardust\" title as the upgraded finale of the band's first Asia tour. Tickets went on sale September 21 and all three dates sold out within minutes.",
-      "genres": [
-        "Rock",
-        "Concert"
-      ],
-      "source_url": "https://sports.khan.co.kr/en/article/202609221415007",
-      "updated_at": "2026-10-13"
-    },
-    {
-      "release_time": null,
-      "release_date_approx": false,
-      "timezone": "Asia/Seoul",
-      "category": "concert_tour",
-      "publisher": null,
-      "image_url": null,
-      "presale": false,
-      "general_sale": false,
-      "id": "en-jannabi-kspo-dome-seoul-20261024",
-      "name": "Jannabi Sweat and Stardust in Seoul (Asia Tour Finale Night 1)",
-      "release_date": "2026-10-24",
-      "platforms": [
-        "KSPO Dome, Seoul(Olympic Park)"
-      ],
-      "developer": "Jannabi",
-      "description": "Korean rock band Jannabi returns to KSPO Dome in Seoul for a three-day run with two different concepts, and this date is the first of two Asia tour finale nights on October 24, 2026. The October 23 show, \"On a Wonderful Day in October\", is built entirely from ballads, while October 24 and 25 carry the \"Sweat and Stardust\" title as the upgraded finale of the band's first Asia tour. Tickets went on sale September 21 and all three dates sold out within minutes.",
-      "genres": [
-        "Rock",
-        "Concert"
-      ],
-      "source_url": "https://sports.khan.co.kr/en/article/202609221415007",
-      "updated_at": "2026-10-13"
-    },
-    {
-      "release_time": null,
-      "release_date_approx": false,
-      "timezone": "Asia/Seoul",
-      "category": "concert_tour",
-      "publisher": null,
-      "image_url": null,
-      "presale": false,
-      "general_sale": false,
-      "id": "en-jannabi-kspo-dome-seoul-20261025",
-      "name": "Jannabi Sweat and Stardust in Seoul (Asia Tour Finale Night 2)",
-      "release_date": "2026-10-25",
-      "platforms": [
-        "KSPO Dome, Seoul(Olympic Park)"
-      ],
-      "developer": "Jannabi",
-      "description": "Korean rock band Jannabi returns to KSPO Dome in Seoul for a three-day run with two different concepts, and this date is the closing night of the 2026 Asia tour on October 25, 2026. The October 23 show, \"On a Wonderful Day in October\", is built entirely from ballads, while October 24 and 25 carry the \"Sweat and Stardust\" title as the upgraded finale of the band's first Asia tour. Tickets went on sale September 21 and all three dates sold out within minutes.",
+      "description": "Korean rock band Jannabi returns to KSPO Dome in Seoul for a three-day run from October 23 to 25, 2026, with two different concepts. The October 23 show, \"On a Wonderful Day in October\", is built entirely from ballads, while October 24 and 25 carry the \"Sweat and Stardust\" title as the upgraded finale of the band's first Asia tour, with October 25 as its closing night. Tickets went on sale September 21 and all three dates sold out within minutes.",
       "genres": [
         "Rock",
         "Concert"

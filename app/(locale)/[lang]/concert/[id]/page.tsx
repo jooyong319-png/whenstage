@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getAllGames, getGameById, getUpcomingGamesByCategory, getLastUpdated } from '@/lib/games';
+import { getAllGames, getGameById, getUpcomingGamesByCategory, getLastUpdated, getDupNoindexIds } from '@/lib/games';
 import { getArtistBySlug, normalizeArtistKey, getArtistImageMap } from '@/lib/artists';
 import { CATEGORY_META } from '@/lib/types';
 import { getVenueBySlug, normalizeVenueKey, VENUE_CATEGORIES } from '@/lib/venues';
@@ -75,6 +75,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description: desc,
     alternates: { canonical: url },
+    // 같은 가수의 다른 공연과 설명이 절반 이상 같으면(투어를 도시별로 나누며 복사한 경우) 묶음 대표만 색인한다
+    // — 리서처가 설명을 도시별로 다시 쓰면 다음 빌드에서 저절로 풀린다(lib/descDup.ts)
+    ...((await getDupNoindexIds(params.lang)).has(game.id) ? { robots: { index: false, follow: true } } : {}),
     openGraph: { title, description: desc, url, type: 'article', locale: OG_LOCALE[params.lang], images: [{ url: ogImage }] },
     twitter: { card: 'summary_large_image', title, description: desc, images: [ogImage] },
   };
