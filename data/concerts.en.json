@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-13",
+  "last_updated": "2026-10-14",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -2979,7 +2979,7 @@
       ],
       "developer": "Garth Brooks",
       "publisher": null,
-      "description": "Country superstar Garth Brooks brings his retro-styled Blame It All On My Roots arena tour to Denver for back-to-back nights at Ball Arena on September 4 and 5, his first Colorado shows in seven years. Following the tour's opening city of Indianapolis, all seats are a single flat price of $155.25 including fees. There are no presales or advance sales; every ticket goes on sale at the same time on July 31 at 10 a.m. Mountain, with an eight-ticket limit.",
+      "description": "Country superstar Garth Brooks brought his retro-styled Blame It All On My Roots arena tour to Denver for back-to-back nights at Ball Arena on September 4 and 5, his first Colorado shows in seven years. Following the tour's opening city of Indianapolis, all seats were a single flat price of $155.25 including fees. There were no presales or advance sales; every ticket went on sale at the same time on July 31 at 10 a.m. Mountain, with an eight-ticket limit.",
       "genres": [
         "Country",
         "Tour"
@@ -2991,7 +2991,8 @@
       "presale_url": null,
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "updated_at": "2026-10-14"
     },
     {
       "id": "en-kasabian-act-iii-20260904",
@@ -4115,16 +4116,22 @@
       ],
       "developer": null,
       "publisher": "C3 Presents",
-      "description": "Austin City Limits returns for its 25th anniversary across two weekends, October 2-4 and October 9-11, 2026, at Zilker Park in Austin. The lineup is headlined by Charli XCX, Rufus Du Sol, Twenty One Pilots, Lorde and The XX, with Skrillex topping Weekend 1 and Kings of Leon topping Weekend 2. Other acts include Turnstile, Labrinth, The Chainsmokers, Young Miko and Bleachers. Three-day passes and premium packages are on sale now.",
+      "description": "Austin City Limits returned for its 25th anniversary across two weekends, October 2-4 and October 9-11, 2026, at Zilker Park in Austin. The lineup was headlined by Charli XCX, Rufus Du Sol, Twenty One Pilots, Lorde and The XX, with Skrillex topping Weekend 1 and Kings of Leon topping Weekend 2. Other acts included Turnstile, Labrinth, The Chainsmokers, Young Miko and Bleachers. Three-day passes and premium packages were sold through the festival.",
       "genres": [
         "Festival",
         "Multi-artist"
       ],
       "image_url": null,
       "source_url": "https://www.aclfestival.com/",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": "https://www.aclfestival.com/passes"
+      "general_sale_url": null,
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_end_datetime": null,
+      "updated_at": "2026-10-14"
     },
     {
       "release_time": null,
@@ -4397,16 +4404,22 @@
       ],
       "developer": "Zara Larsson",
       "publisher": "Live Nation Korea",
-      "description": "The second of Zara Larsson's two Seoul dates on the Midnight Sun Tour takes place at Myunghwa Live Hall on October 5, 2026. Seoul sits alongside other Asian stops on a tour that opened in Munich in late 2025 in support of her fifth studio album. Live Nation Korea handles promotion and ticketing, and its English-language page lets fans travelling from abroad buy without a Korean resident registration number.",
+      "description": "The second of Zara Larsson's two Seoul dates on the Midnight Sun Tour was scheduled to take place at Myunghwa Live Hall on October 5, 2026. Seoul sat alongside other Asian stops on a tour that opened in Munich in late 2025 in support of her fifth studio album. Live Nation Korea handled promotion and ticketing, and its English-language page let fans travelling from abroad buy without a Korean resident registration number.",
       "genres": [
         "Pop",
         "Concert"
       ],
       "image_url": null,
       "source_url": "https://www.livenation.kr/en/event/zara-larsson-midnight-sun-tour-seoul-tickets-edp1680726",
-      "updated_at": "2026-09-29",
-      "general_sale": true,
-      "general_sale_url": "https://www.livenation.kr/en/event/zara-larsson-midnight-sun-tour-seoul-tickets-edp1680726"
+      "updated_at": "2026-10-14",
+      "general_sale": false,
+      "general_sale_url": null,
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null
     },
     {
       "id": "en-monsta-x-nexus-newyork-20261006",
@@ -4421,7 +4434,7 @@
       ],
       "developer": "Monsta X",
       "publisher": "Live Nation",
-      "description": "Monsta X bring THE X : NEXUS, their 2026 world tour, to the Infosys Theater at Madison Square Garden on October 6, with doors at 7:00 PM and the show starting at 8:00 PM. The North American leg runs October 3-24 across ten cities including Fairfax, Boston, Toronto and Los Angeles, following the tour's launch with three sold-out nights at Seoul's KSPO Dome and stops across Asia and Latin America. Tickets have been on sale since April 14 through Ticketmaster.",
+      "description": "Monsta X were scheduled to bring THE X : NEXUS, their 2026 world tour, to the Infosys Theater at Madison Square Garden on October 6, with doors at 7:00 PM and the show starting at 8:00 PM. The North American leg runs October 3-24 across ten cities including Fairfax, Boston, Toronto and Los Angeles, following the tour's launch with three sold-out nights at Seoul's KSPO Dome and stops across Asia and Latin America. Tickets went on sale April 14 through Ticketmaster.",
       "genres": [
         "K-pop",
         "Concert",
@@ -4429,9 +4442,15 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/MonstaX_in_Golden_Disc_Awards_2019.jpg/330px-MonstaX_in_Golden_Disc_Awards_2019.jpg",
       "source_url": "https://www.msg.com/events-tickets/monsta-x-infosys-theater-at-madison-square-garden-october-2026/3B00647BF0495307",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": "https://www.ticketmaster.com/monsta-x-tickets/artist/2371302"
+      "general_sale_url": null,
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_end_datetime": null,
+      "updated_at": "2026-10-14"
     },
     {
       "id": "en-phish-fall-tour-richmond-20261006",
@@ -4446,7 +4465,7 @@
       ],
       "developer": "Phish",
       "publisher": null,
-      "description": "Phish plays the first of two nights at Allianz Amphitheater at Riverfront in Richmond on October 6, 2026, following the three-night Atlantic City opening. The eight-show October run covers Atlantic City, Richmond, Jacksonville and Huntsville, with Jacksonville marking the band's first Florida date since 2016. A ticket request period through the band's own ticketing site ran until noon ET on August 10, and remaining tickets reached the general public on August 14 at 10 a.m. ET.",
+      "description": "Phish was scheduled to play the first of two nights at Allianz Amphitheater at Riverfront in Richmond on October 6, 2026, with the second set for October 7, right after the three-night Atlantic City opening. Richmond was the second stop of an eight-show October run that continued to Jacksonville, the band's first Florida date since 2016, and Huntsville. Fans could request tickets through the band's own ticketing system until noon ET on August 10, before the remaining seats went on general sale August 14 at 10 a.m. ET.",
       "genres": [
         "Jam Band",
         "Rock",
@@ -4454,13 +4473,15 @@
       ],
       "image_url": null,
       "source_url": "https://phish.com/news/october-tourdates-announced/",
-      "presale": true,
-      "general_sale": true,
-      "presale_end_datetime": "2026-08-10T12:00:00-04:00",
-      "presale_url": "https://tickets.phish.com",
-      "general_sale_datetime": "2026-08-14T10:00:00-04:00",
-      "general_sale_url": "https://phish.com/tours/",
-      "updated_at": "2026-10-05"
+      "presale": false,
+      "general_sale": false,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-14",
+      "presale_datetime": null,
+      "general_sale_end_datetime": null
     },
     {
       "id": "en-beyond-the-music-2026-salford-20261007",
@@ -4519,7 +4540,7 @@
       ],
       "developer": "The Weeknd, Creepy Nuts",
       "publisher": "Live Nation Korea, Hyundai Card",
-      "description": "The Weeknd plays two nights at Goyang Stadium near Seoul on October 7 and 8, 2026, billed locally as Hyundai Card Super Concert 28 and forming the Korean stop of the After Hours Til Dawn stadium tour. Japanese duo Creepy Nuts open both shows. Doors and showtime are 7 p.m. KST, admission is limited to ages 19 and over, and Live Nation Korea runs an English booking page for overseas buyers.",
+      "description": "The Weeknd was scheduled to play two nights at Goyang Stadium near Seoul on October 7 and 8, 2026, billed locally as Hyundai Card Super Concert 28 and forming the Korean stop of the After Hours Til Dawn stadium tour. Japanese duo Creepy Nuts were set to open both shows. Doors and showtime were 7 p.m. KST, admission was limited to ages 19 and over, and Live Nation Korea ran an English booking page for overseas buyers.",
       "genres": [
         "R&B",
         "Pop",
@@ -4527,13 +4548,18 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/The_Weeknd_Portrait_by_Brian_Ziff.jpg/250px-The_Weeknd_Portrait_by_Brian_Ziff.jpg",
       "source_url": "https://www.billboard.com/music/rb-hip-hop/the-weeknd-2026-asian-dates-after-hours-til-dawn-tour-1236244092/",
-      "updated_at": "2026-09-22",
-      "general_sale": true,
-      "general_sale_datetime": "2026-05-21T00:00:00+09:00",
-      "general_sale_url": "https://www.livenation.kr/en/event/the-weeknd-after-hours-til-dawn-tour-seoul-tickets-edp1672877",
+      "updated_at": "2026-10-14",
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
       "related_locale_ids": {
         "ko": "ko-theweeknd-after-hours-til-dawn-goyang-20261007"
-      }
+      },
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_end_datetime": null
     },
     {
       "id": "en-trombone-shorty-orleans-avenue-fall-chattanooga-20261008",
@@ -4577,22 +4603,22 @@
       ],
       "developer": "Wynonna Judd, Troubadour Blue",
       "publisher": "Live Nation",
-      "description": "Wynonna Judd opens The Hard Truth Tour at New York's Bowery Ballroom on October 8, 2026, launching a fifteen-date headlining run that closes November 21 at Hard Rock Live Northern Indiana in Gary. The theatre-scale trek supports The Hard Truth, her first solo album since 2016, due October 2 on ANTI- Records. Nashville duo Troubadour Blue open every announced date.",
+      "description": "Wynonna Judd was scheduled to open The Hard Truth Tour at New York's Bowery Ballroom on October 8, 2026, launching a fifteen-date headlining run that closes November 21 at Hard Rock Live Northern Indiana in Gary. The theatre-scale trek supports The Hard Truth, her first solo album since 2016, slated for October 2 on ANTI- Records. Nashville duo Troubadour Blue open every announced date.",
       "genres": [
         "Country",
         "Tour"
       ],
       "image_url": null,
       "source_url": "https://www.ticketnews.com/2026/08/wynonna-judd-sets-fall-2026-u-s-the-hard-truth-tour-dates/",
-      "presale": true,
-      "presale_datetime": "2026-08-04T10:00:00-04:00",
+      "presale": false,
+      "presale_datetime": null,
       "presale_end_datetime": null,
-      "presale_url": "https://www.livenation.com/artist/K8vZ9171aKf/wynonna-judd-events",
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-07T10:00:00-04:00",
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://www.livenation.com/artist/K8vZ9171aKf/wynonna-judd-events",
-      "updated_at": "2026-10-05"
+      "general_sale_url": null,
+      "updated_at": "2026-10-14"
     },
     {
       "id": "en-zz-top-the-big-one-nashville-20261008",
@@ -4632,7 +4658,7 @@
       ],
       "developer": "10CM",
       "publisher": null,
-      "description": "Singer-songwriter 10CM plays three nights at Olympic Hall in Seoul Olympic Park from October 9 to 11, 2026, each starting at 6 p.m. The fan concert is built around a storyline hunting down his so-called missing tracks, songs that were dropped from past set lists or never performed live at all. Each night carries its own case-number subtitle, beginning with CASE No.1009 on October 9 and closing with CASE No.1011 on October 11, so the three shows are not interchangeable.",
+      "description": "Singer-songwriter 10CM was scheduled to play three nights at Olympic Hall in Seoul Olympic Park from October 9 to 11, 2026, each starting at 6 p.m. The fan concert was built around a storyline hunting down his so-called missing tracks, songs that were dropped from past set lists or never performed live at all. Each night carried its own case-number subtitle, beginning with CASE No.1009 on October 9 and closing with CASE No.1011 on October 11, so the three shows were not interchangeable.",
       "genres": [
         "K-Indie",
         "Pop",
@@ -4640,13 +4666,18 @@
       ],
       "image_url": null,
       "source_url": "https://www.starnewskorea.com/en/music/2026/09/03/2026090310500470178",
-      "updated_at": "2026-10-06",
-      "general_sale": true,
+      "updated_at": "2026-10-14",
+      "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26011325",
+      "general_sale_url": null,
       "related_locale_ids": {
         "ko": "ko-10cm-the-missing-tracks-seoul-20261009"
-      }
+      },
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_end_datetime": null
     },
     {
       "id": "en-akmu-paradise-of-rumors-seoul-20261009",
@@ -4661,16 +4692,22 @@
       ],
       "developer": "AKMU",
       "publisher": null,
-      "description": "AKMU, the sibling duo of Lee Chan-hyuk and Lee Su-hyun, play three nights at KSPO Dome in Seoul's Olympic Park from October 9 to 11, 2026 with Paradise of Rumors. Night 1 starts at 6pm KST and runs about 150 minutes. Tickets are sold through YES24 Ticket, which has an English interface, but every ticket is collected in person at the venue rather than mailed or printed at home.",
+      "description": "AKMU, the sibling duo of Lee Chan-hyuk and Lee Su-hyun, were scheduled to play three nights at KSPO Dome in Seoul's Olympic Park from October 9 to 11, 2026 with Paradise of Rumors. Night 1 was set to start at 6pm KST and run about 150 minutes. Tickets were sold through YES24 Ticket, which has an English interface, but every ticket was collected in person at the venue rather than mailed or printed at home.",
       "genres": [
         "K-Pop",
         "Concert"
       ],
       "image_url": null,
       "source_url": "https://ticket.yes24.com/Special/59418",
-      "updated_at": "2026-10-02",
-      "general_sale": true,
-      "general_sale_url": "https://ticket.yes24.com/Perf/59418"
+      "updated_at": "2026-10-14",
+      "general_sale": false,
+      "general_sale_url": null,
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null
     },
     {
       "id": "en-amon-amarth-allfather-awakens-manchester-20261009",
@@ -4712,15 +4749,21 @@
         "O2 Apollo, Manchester, England"
       ],
       "developer": "Amon Amarth, Orbit Culture, Soilwork",
-      "description": "Amon Amarth launch The Allfather Awakens tour at the O2 Apollo in Manchester on October 9, 2026. Fellow Swedes Orbit Culture and Soilwork support the all-Swedish bill, which moves to London's Eventim Apollo and Wolverhampton Civic Hall before crossing to mainland Europe and ending November 15 in Lisbon. The band promise a new theatrical stage production and an extended headline set.",
+      "description": "Amon Amarth were scheduled to launch The Allfather Awakens tour at the O2 Apollo in Manchester on October 9, 2026. Fellow Swedes Orbit Culture and Soilwork support the all-Swedish bill, which moves to London's Eventim Apollo and Wolverhampton Civic Hall before crossing to mainland Europe and ending November 15 in Lisbon. The band promise a new theatrical stage production and an extended headline set.",
       "genres": [
         "Metal",
         "Tour"
       ],
       "source_url": "https://www.metalblade.com/us/news/amon-amarth-announce-uk-eu-2026-tour-dates-tease-new-album/",
-      "general_sale": true,
-      "general_sale_datetime": "2025-11-28T09:00:00+00:00",
-      "general_sale_url": "https://www.amonamarth.com/tour"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_end_datetime": null,
+      "updated_at": "2026-10-14"
     },
     {
       "id": "en-beat-fall-tour-santa-cruz-20261009",
@@ -4735,7 +4778,7 @@
       ],
       "developer": "BEAT, Adrian Belew, Tony Levin, Steve Vai, Terry Bozzio",
       "publisher": null,
-      "description": "BEAT launches its Fall 2026 North American tour at the Quarry Amphitheater in Santa Cruz on October 9. BEAT pairs former King Crimson members Adrian Belew and Tony Levin with guitarist Steve Vai and drummer Terry Bozzio, who replaces Danny Carey for this run because of Tool commitments. The 40-date North American tour runs from October 9 to December 3 and widens the repertoire beyond the 1980s Crimson albums to material from the band's 1990s output.",
+      "description": "BEAT was scheduled to launch its Fall 2026 North American tour at the Quarry Amphitheater in Santa Cruz on October 9, the first of 40 dates running through December 3. The lineup brings together ex-King Crimson members Adrian Belew and Tony Levin with Steve Vai on guitar, while Terry Bozzio sits in on drums because Danny Carey is tied up with Tool. This leg broadens the set beyond the 1980s Crimson albums to take in songs from the band's 1990s output.",
       "genres": [
         "Progressive Rock",
         "Art Rock",
@@ -4744,9 +4787,14 @@
       "image_url": null,
       "source_url": "https://consequence.net/2026/08/beat-king-crimson-fall-2026-tour/",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-07T10:00:00-07:00",
-      "general_sale_url": "https://www.ticketmaster.com/beat-tickets/artist/1860703"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_end_datetime": null,
+      "updated_at": "2026-10-14"
     },
     {
       "id": "en-godsmack-rise-of-rock-airway-heights-20261009",
@@ -4883,16 +4931,22 @@
       ],
       "developer": "AKMU",
       "publisher": null,
-      "description": "Night 2 of AKMU's Paradise of Rumors run at KSPO Dome in Seoul, on October 10, 2026, with a 5pm KST start. The duo's three Olympic Park dates are their main Korean shows of the year. Standing tickets are limited to ages 12 and over while seated sections are open to all ages, and tickets are picked up at the venue with ID on the day of the concert.",
+      "description": "Night 2 of AKMU's Paradise of Rumors run at KSPO Dome in Seoul, on October 10, 2026, with a 5pm KST start. The duo's three Olympic Park dates were their main Korean shows of the year. Standing tickets were limited to ages 12 and over while seated sections were open to all ages, and tickets were picked up at the venue with ID on the day of the concert.",
       "genres": [
         "K-Pop",
         "Concert"
       ],
       "image_url": null,
       "source_url": "https://ticket.yes24.com/Special/59418",
-      "updated_at": "2026-10-02",
-      "general_sale": true,
-      "general_sale_url": "https://ticket.yes24.com/Perf/59418"
+      "updated_at": "2026-10-14",
+      "general_sale": false,
+      "general_sale_url": null,
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null
     },
     {
       "id": "en-allhours-rise-up-seoul-20261010",
@@ -4907,19 +4961,25 @@
       ],
       "developer": "ALL(H)OURS",
       "publisher": "GF Entertainment",
-      "description": "ALL(H)OURS open their first world tour RISE UP in Seoul at 5 p.m. on October 10, 2026, at the Grand Auditorium of Sungshin Women's University. The set draws on the group's back catalogue plus their sixth mini album UNBOUND, released in September 2026. Fan club presale ran on September 21 and general sale on September 22 through NOL Ticket, which sells to overseas buyers. The tour then travels to Europe in November and North America in January 2027.",
+      "description": "ALL(H)OURS were scheduled to open their first world tour RISE UP in Seoul at 5 p.m. on October 10, 2026, at the Grand Auditorium of Sungshin Women's University. The set was planned to draw on the group's back catalogue plus their sixth mini album UNBOUND, released in September 2026. Fan club presale ran on September 21 and general sale on September 22 through NOL Ticket, which sells to overseas buyers. The tour then travels to Europe in November and North America in January 2027.",
       "genres": [
         "K-Pop",
         "Concert"
       ],
       "image_url": null,
       "source_url": "https://www.allkpop.com/article/2026/09/allhours-open-their-first-world-tour-rise-up-in-seoul-on-october-10",
-      "updated_at": "2026-09-25",
+      "updated_at": "2026-10-14",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "related_locale_ids": {
         "ko": "ko-allhours-rise-up-seoul-20261010"
-      }
+      },
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null
     },
     {
       "release_time": "20:00",
@@ -4935,17 +4995,22 @@
         "Radio City Music Hall, New York, NY"
       ],
       "developer": "Steve Lacy",
-      "description": "Steve Lacy brings the Oh yeah? Tour to Radio City Music Hall on October 10, 2026, his first headline performance at the New York landmark. The 27-city North American run is his first since 2022 and supports his third album Oh yeah?, released on RCA in July with guest turns from SZA, Tyler, the Creator, Erykah Badu, Fousheé and Cecile Believe. Tickets are on sale through Ticketmaster.",
+      "description": "Steve Lacy was scheduled to bring the Oh yeah? Tour to Radio City Music Hall on October 10, 2026, his first headline performance at the New York landmark. The 27-city North American run is his first since 2022 and supports his third album Oh yeah?, released on RCA in July with guest turns from SZA, Tyler, the Creator, Erykah Badu, Fousheé and Cecile Believe. Tickets were sold through Ticketmaster.",
       "genres": [
         "R&B",
         "Alternative",
         "Tour"
       ],
       "source_url": "https://consequence.net/2026/08/steve-lacy-2026-oh-yeah-north-american-tour/",
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-14T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/steve-lacy-tickets/artist/2330907",
-      "updated_at": "2026-09-22"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-14",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_end_datetime": null
     },
     {
       "id": "en-triples-andless-seoul-20261010",
@@ -4960,17 +5025,22 @@
       ],
       "developer": "tripleS",
       "publisher": "MODHAUS",
-      "description": "tripleS open their 2026 world tour ANDLESS with the first of two nights at Jangchung Arena in Seoul on October 10, 2026. The 24-member group announced the tour in July and set Seoul ticket prices at a deliberately low 30,000 won for S-section seats, a move the agency framed as making arena shows affordable for younger fans. After the two Seoul dates the run continues to Macau, Tokyo and six North American cities through late November, so overseas fans unable to reach Korea have later options on the same tour.",
+      "description": "tripleS were scheduled to open their 2026 world tour ANDLESS with the first of two nights at Jangchung Arena in Seoul on October 10, 2026. The 24-member group announced the tour in July and set Seoul ticket prices at a deliberately low 30,000 won for S-section seats, a move the agency framed as making arena shows affordable for younger fans. After the two Seoul dates the run continues to Macau, Tokyo and six North American cities through late November, so overseas fans unable to reach Korea have later options on the same tour.",
       "genres": [
         "K-POP",
         "World Tour"
       ],
       "image_url": null,
       "source_url": "https://www.soompi.com/article/1856423wpp/triples-announces-dates-and-cities-for-2026-world-tour-andless",
-      "updated_at": "2026-10-06",
-      "general_sale": true,
+      "updated_at": "2026-10-14",
+      "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_end_datetime": null
     },
     {
       "id": "en-akmu-paradise-of-rumors-seoul-20261011",
@@ -4985,16 +5055,22 @@
       ],
       "developer": "AKMU",
       "publisher": null,
-      "description": "The final night of AKMU's Paradise of Rumors at KSPO Dome in Seoul, on October 11, 2026, starting at 4pm KST. Sunday's earlier curtain makes it the easiest of the three dates for fans with evening flights out of Incheon. The venue sits inside Olympic Park on Seoul Subway Line 5 and Line 9, and tickets are collected at the box office on the day.",
+      "description": "The final night of AKMU's Paradise of Rumors at KSPO Dome in Seoul, on October 11, 2026, starting at 4pm KST. Sunday's earlier curtain made it the easiest of the three dates for fans with evening flights out of Incheon. The venue sits inside Olympic Park on Seoul Subway Line 5 and Line 9, and tickets were collected at the box office on the day.",
       "genres": [
         "K-Pop",
         "Concert"
       ],
       "image_url": null,
       "source_url": "https://ticket.yes24.com/Special/59418",
-      "updated_at": "2026-10-02",
-      "general_sale": true,
-      "general_sale_url": "https://ticket.yes24.com/Perf/59418"
+      "updated_at": "2026-10-14",
+      "general_sale": false,
+      "general_sale_url": null,
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null
     },
     {
       "id": "en-charlie-puth-whatevers-clever-seoul-20261011",
@@ -5009,19 +5085,25 @@
       ],
       "developer": "Charlie Puth",
       "publisher": "Live Nation Korea",
-      "description": "Charlie Puth returns to Korea on October 11, 2026 for his first stadium show in the country, staged at Goyang Stadium in Gyeonggi Province and presented by Live Nation Korea. The concert supports Whatever's Clever!, his fourth studio album released in March 2026, and Puth has promised a full live band, reworked arrangements of his earlier hits and a medley built specifically for the Seoul audience. Showtime is 7 p.m. KST.",
+      "description": "Charlie Puth was scheduled to return to Korea on October 11, 2026 for his first stadium show in the country, staged at Goyang Stadium in Gyeonggi Province and presented by Live Nation Korea. The concert supports Whatever's Clever!, his fourth studio album released in March 2026, and Puth has promised a full live band, reworked arrangements of his earlier hits and a medley built specifically for the Seoul audience. Showtime was 7 p.m. KST.",
       "genres": [
         "Pop",
         "Concert"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Charlie_Puth.jpg/250px-Charlie_Puth.jpg",
       "source_url": "https://www.koreatimes.co.kr/entertainment/music/20260715/charlie-puth-returns-to-korea-for-1st-stadium-concert",
-      "updated_at": "2026-09-22",
-      "general_sale": true,
-      "general_sale_url": "https://www.livenation.kr/en/event/charlie-puth-whatever-s-clever-world-tour-seoul-tickets-edp1668245",
+      "updated_at": "2026-10-14",
+      "general_sale": false,
+      "general_sale_url": null,
       "related_locale_ids": {
         "ko": "ko-charlieputh-whatevers-clever-goyang-20261011"
-      }
+      },
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null
     },
     {
       "id": "en-shakira-las-mujeres-ya-no-lloran-madrid-20261011",
@@ -5036,7 +5118,7 @@
       ],
       "developer": "Shakira",
       "publisher": "Live Nation",
-      "description": "The twelfth and final night of Shakira's Madrid residency falls on October 11, 2026 at Iberdrola Music, bringing the Las Mujeres Ya No Lloran World Tour to a close. The residency is spread across four weekends in September and October, with shows on the 18th, 19th, 20th, 25th, 26th and 27th of September and the 2nd, 3rd, 4th, 9th, 10th and 11th of October. Each night uses a purpose-built 50,000-capacity temporary stadium.",
+      "description": "The twelfth and final night of Shakira's Madrid residency fell on October 11, 2026 at Iberdrola Music, bringing the Las Mujeres Ya No Lloran World Tour to a close. The residency was spread across four weekends in September and October, with shows on the 18th, 19th, 20th, 25th, 26th and 27th of September and the 2nd, 3rd, 4th, 9th, 10th and 11th of October. Each night used a purpose-built 50,000-capacity temporary stadium.",
       "genres": [
         "Latin",
         "Pop",
@@ -5044,9 +5126,15 @@
       ],
       "image_url": null,
       "source_url": "https://iberdrolamusic.com/en/eventos/shakira/",
-      "general_sale": true,
-      "general_sale_url": "https://www.livenation.es/shakira-tickets-adp41381",
-      "presale": false
+      "general_sale": false,
+      "general_sale_url": null,
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "updated_at": "2026-10-14"
     },
     {
       "id": "en-triples-andless-seoul-20261011",
@@ -5061,17 +5149,22 @@
       ],
       "developer": "tripleS",
       "publisher": "MODHAUS",
-      "description": "The second and final Seoul night of tripleS's 2026 world tour ANDLESS takes place at Jangchung Arena on October 11, 2026. Seoul serves as the launch point for a nine-city run that reaches Macau on October 24, Tokyo on October 31 and then Toronto, New York, Chicago, Dallas, Los Angeles and Vancouver through November 28. Tickets went on sale with S-section seats priced at 30,000 won, unusually low for a Korean arena concert, and the set list draws on the group's ongoing LOVE&POP album project.",
+      "description": "The second and final Seoul night of tripleS's 2026 world tour ANDLESS was scheduled to take place at Jangchung Arena on October 11, 2026. Seoul served as the launch point for a nine-city run that reaches Macau on October 24, Tokyo on October 31 and then Toronto, New York, Chicago, Dallas, Los Angeles and Vancouver through November 28. Tickets went on sale with S-section seats priced at 30,000 won, unusually low for a Korean arena concert, and the set list was set to draw on the group's ongoing LOVE&POP album project.",
       "genres": [
         "K-POP",
         "World Tour"
       ],
       "image_url": null,
       "source_url": "https://blog.namanecard.com/en/triples-andless-world-tour-2026-dates/",
-      "updated_at": "2026-10-06",
-      "general_sale": true,
+      "updated_at": "2026-10-14",
+      "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_end_datetime": null
     },
     {
       "id": "en-nct-wish-i-spy-20261012",
@@ -5140,7 +5233,7 @@
       ],
       "developer": "The Pussycat Dolls, Lil' Kim, Deja Vu",
       "publisher": null,
-      "description": "The Pussycat Dolls close the European leg of their PCD Forever reunion tour at The O2 arena in London on October 13, 2026, with Lil' Kim and Deja Vu as special guests. The group reformed in 2026 as a trio of Nicole Scherzinger, Ashley Roberts and Kimberly Wyatt, releasing the single 'Club Song'. The wider tour spans 53 dates across the UK, Europe and North America.",
+      "description": "The Pussycat Dolls were scheduled to close the European leg of their PCD Forever reunion tour at The O2 arena in London on October 13, 2026, with Lil' Kim and Deja Vu as special guests. The group reformed in 2026 as a trio of Nicole Scherzinger, Ashley Roberts and Kimberly Wyatt, releasing the single 'Club Song'. The wider tour spans 53 dates across the UK, Europe and North America.",
       "genres": [
         "Pop",
         "R&B",
@@ -5149,8 +5242,14 @@
       "image_url": null,
       "source_url": "https://www.theo2.co.uk/events/detail/the-pussycat-dolls-2026",
       "presale": false,
-      "general_sale": true,
-      "general_sale_url": "https://www.axs.com/uk/events/1370388/the-pussycat-dolls-tickets"
+      "general_sale": false,
+      "general_sale_url": null,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "updated_at": "2026-10-14"
     },
     {
       "id": "en-ryan-bingham-still-gettin-away-fall-memphis-20261013",
@@ -5244,7 +5343,7 @@
       ],
       "developer": "Tyla",
       "publisher": null,
-      "description": "Tyla brings her A*POP World Tour to O2 Academy Brixton on October 15, 2026, one of 34 dates announced on July 27. The run supports APOP, the Grammy winner's second album, released July 24. The tour opens October 12 at Zenith Paris and works through Amsterdam, Glasgow, Manchester, Brussels, Berlin and Stockholm before a North American leg starting November 12 in Wheatland, California, and closing dates in Lagos, Cape Town and Johannesburg. An artist presale runs July 29 via Laylo, with general on-sale July 31 through Ticketmaster.",
+      "description": "Tyla brings her A*POP World Tour to O2 Academy Brixton on October 15, 2026, one of 34 dates announced on July 27. The run supports APOP, the Grammy winner's second album, released July 24. The tour was set to open October 12 at Zenith Paris and work through Amsterdam, Glasgow, Manchester, Brussels, Berlin and Stockholm before a North American leg starting November 12 in Wheatland, California, and closing dates in Lagos, Cape Town and Johannesburg. An artist presale ran July 29 via Laylo, with general on-sale following July 31 through Ticketmaster.",
       "genres": [
         "Pop",
         "Tour"
@@ -5258,10 +5357,11 @@
       "general_sale": true,
       "general_sale_datetime": "2026-07-31T10:00:00+01:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "updated_at": "2026-10-14"
     },
     {
-      "release_time": null,
+      "release_time": "19:30",
       "release_date_approx": false,
       "publisher": "Live Nation",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Usher_Milan_2026.jpg",
@@ -5284,7 +5384,8 @@
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": "2026-08-24T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/usher-raymond-chris-brown-tickets/artist/4314089"
+      "general_sale_url": "https://www.ticketmaster.com/usher-raymond-chris-brown-tickets/artist/4314089",
+      "updated_at": "2026-10-14"
     },
     {
       "id": "en-angele-instinct-20261016",
