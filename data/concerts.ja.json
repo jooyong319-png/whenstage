@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-07",
+  "last_updated": "2026-10-14",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -792,7 +792,7 @@
     },
     {
       "id": "ja-bts-arirang-in-japan-tokyo-dome-20260417",
-      "name": "BTS WORLD TOUR 'ARIRANG' IN JAPAN 東京ドーム公演（初日）",
+      "name": "BTS WORLD TOUR 'ARIRANG' IN JAPAN 東京ドーム公演",
       "release_date": "2026-04-17",
       "release_time": "18:30",
       "category": "concert_tour",
@@ -800,7 +800,7 @@
         "東京ドーム"
       ],
       "developer": "BTS",
-      "description": "BTSが約7年ぶりに日本で行った来日公演の初日。2026年4月17日・18日の2日間、東京ドームで開催され、初日日は開場16:30・開演18:30だった。2022年にラスベガスで終えた〈PERMISSION TO DANCE ON STAGE〉以来となる大規模ツアーで、世界34地域・79公演が組まれたワールドツアーの日本パートにあたる。チケットはVIP席45,000円、SS席35,000円、S席25,000円。両日とも全国の映画館でライブビューイングの生中継も実施された。",
+      "description": "BTSが約7年ぶりに日本で行った来日公演で、2026年4月17日（金）・18日（土）の2日間、東京ドームで開催された。初日は開場16:30・開演18:30、2日目は開場13:00・開演15:00だった。2022年にラスベガスで終えた〈PERMISSION TO DANCE ON STAGE〉以来となる大規模ツアーで、世界34地域・79公演が組まれたワールドツアーの日本パートにあたる。チケットはVIP席45,000円、SS席35,000円、S席25,000円。両日とも全国の映画館でライブビューイングの生中継も実施された。",
       "genres": [
         "K-POP",
         "ドームツアー"
@@ -811,30 +811,8 @@
       "general_sale": false,
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
-      "publisher": null
-    },
-    {
-      "id": "ja-bts-arirang-in-japan-tokyo-dome-20260418",
-      "name": "BTS WORLD TOUR 'ARIRANG' IN JAPAN 東京ドーム公演（2日目）",
-      "release_date": "2026-04-18",
-      "release_time": "15:00",
-      "category": "concert_tour",
-      "platforms": [
-        "東京ドーム"
-      ],
-      "developer": "BTS",
-      "description": "BTSが約7年ぶりに日本で行った来日公演の2日目。2026年4月17日・18日の2日間、東京ドームで開催され、2日目日は開場13:00・開演15:00だった。2022年にラスベガスで終えた〈PERMISSION TO DANCE ON STAGE〉以来となる大規模ツアーで、世界34地域・79公演が組まれたワールドツアーの日本パートにあたる。チケットはVIP席45,000円、SS席35,000円、S席25,000円。両日とも全国の映画館でライブビューイングの生中継も実施された。",
-      "genres": [
-        "K-POP",
-        "ドームツアー"
-      ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/BTS_during_a_White_House_press_conference_May_31%2C_2022_%28cropped%29.jpg/500px-BTS_during_a_White_House_press_conference_May_31%2C_2022_%28cropped%29.jpg",
-      "source_url": "https://prtimes.jp/main/html/rd/p/000000636.000045862.html",
-      "presale": false,
-      "general_sale": false,
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "publisher": null
+      "publisher": null,
+      "updated_at": "2026-10-14"
     },
     {
       "id": "ja-dreams-come-true-black-album-tour-fukuoka-20260425",
@@ -2143,7 +2121,7 @@
     },
     {
       "id": "ja-acees-arena-tour-2026-v-osaka-20260829",
-      "name": "ACEes Arena Tour 2026 \"V\"（Asueアリーナ大阪・大阪公演初日）",
+      "name": "ACEes Arena Tour 2026 \"V\"（Asueアリーナ大阪・大阪公演／ツアーファイナル）",
       "release_date": "2026-08-29",
       "release_time": "17:30",
       "category": "concert_tour",
@@ -2151,7 +2129,7 @@
         "Asueアリーナ大阪(大阪市中央体育館)"
       ],
       "developer": "ACEes",
-      "description": "浮所飛貴、那須雄登、作間龍斗、深田竜生、佐藤龍我の5人からなるACEesが行ったアリーナツアーの大阪公演（大阪公演初日）。マリンメッセ福岡A館、日本ガイシホール、エコパアリーナ、有明アリーナを経て、8月29日・30日のAsueアリーナ大阪で締めくくられた。ツアータイトルの\"V\"にはVENTURE、VERSUS、VIRAL、VEIN、VANGUARD、VORTEXという6つのテーマが込められ、5都市で計23万2000人を動員した。この日の17:30公演は一部がYouTubeで生配信され、アーカイブ配信は行われなかった。",
+      "description": "浮所飛貴、那須雄登、作間龍斗、深田竜生、佐藤龍我の5人からなるACEesが行ったアリーナツアーの大阪公演で、8月29日（土）・30日（日）にAsueアリーナ大阪で開催された。29日は17:30の1公演で一部がYouTubeで生配信され（アーカイブなし）、30日は12:30と17:30の2公演が組まれ、ここでツアー全日程が終了した。マリンメッセ福岡A館、日本ガイシホール、エコパアリーナ、有明アリーナを経た5都市のツアーで、タイトルの\"V\"にはVENTURE、VERSUS、VIRAL、VEIN、VANGUARD、VORTEXという6つのテーマが込められ、計23万2000人を動員した。",
       "genres": [
         "J-POP",
         "アイドル",
@@ -2163,7 +2141,8 @@
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "image_url": null,
-      "publisher": null
+      "publisher": null,
+      "updated_at": "2026-10-14"
     },
     {
       "id": "ja-jaurim-life-tokyo-2026-20260829",
@@ -2185,30 +2164,6 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Jaurim_1.jpg/250px-Jaurim_1.jpg",
       "source_url": "https://release.traicy.com/posts/202606171199388/"
-    },
-    {
-      "id": "ja-acees-arena-tour-2026-v-osaka-20260830",
-      "name": "ACEes Arena Tour 2026 \"V\"（Asueアリーナ大阪・ツアーファイナル）",
-      "release_date": "2026-08-30",
-      "release_time": "12:30",
-      "category": "concert_tour",
-      "platforms": [
-        "Asueアリーナ大阪(大阪市中央体育館)"
-      ],
-      "developer": "ACEes",
-      "description": "浮所飛貴、那須雄登、作間龍斗、深田竜生、佐藤龍我の5人からなるACEesが行ったアリーナツアーの大阪公演（ツアーファイナル）。マリンメッセ福岡A館、日本ガイシホール、エコパアリーナ、有明アリーナを経て、8月29日・30日のAsueアリーナ大阪で締めくくられた。ツアータイトルの\"V\"にはVENTURE、VERSUS、VIRAL、VEIN、VANGUARD、VORTEXという6つのテーマが込められ、5都市で計23万2000人を動員した。この日は12:30と17:30の2公演が組まれ、5都市を巡ったツアーの全日程がここで終了した。",
-      "genres": [
-        "J-POP",
-        "アイドル",
-        "アリーナツアー"
-      ],
-      "source_url": "https://relief-ticket.jp/events/artist/15/148",
-      "presale": false,
-      "general_sale": false,
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "image_url": null,
-      "publisher": null
     },
     {
       "id": "ja-choi-yuree-concert-in-japan-20260830",
@@ -5974,7 +5929,7 @@
     },
     {
       "id": "ja-harada-tomoyo-lultimo-anno-26-20261211",
-      "name": "原田知世〈L'ULTIMO Anno 26 『恋愛小説5』リリース記念 Special Live〉（12月11日公演）",
+      "name": "原田知世〈L'ULTIMO Anno 26 『恋愛小説5』リリース記念 Special Live〉",
       "release_date": "2026-12-11",
       "release_time": null,
       "release_date_approx": false,
@@ -5985,7 +5940,7 @@
       ],
       "developer": "原田知世",
       "publisher": null,
-      "description": "11月4日に発売されるカヴァー・アルバム『恋愛小説5～my white days』のリリースを記念して、原田知世が恵比寿The Garden Hallで開催する2デイズ公演の初日。ホリデー・ソング編となる新作の収録曲を中心に、歴代の恋愛小説シリーズの人気曲も交えた冬らしいステージが期待される。8月31日にサントリーホールでキャリア初のオーケストラ編成公演を成功させたばかりの原田が、年末に届ける特別な一夜。主催者先行予約は9月13日23:59まで受付。",
+      "description": "11月4日に発売されるカヴァー・アルバム『恋愛小説5～my white days』のリリースを記念して、原田知世が12月11日（金）・12日（土）の2日間、恵比寿The Garden Hallで開催する特別公演。ホリデー・ソング編となる新作の収録曲を中心に、歴代の恋愛小説シリーズの人気曲も交えた冬らしいステージが予定されている。8月31日にサントリーホールでキャリア初のオーケストラ編成公演を行ったばかりの原田が、年末に届ける2夜となる。主催者先行予約は9月13日23:59まで受け付けられた。",
       "genres": [
         "J-POP",
         "カヴァー"
@@ -5994,7 +5949,7 @@
       "source_url": "https://www.cdjournal.com/news/harada-tomoyo/129260",
       "presale": false,
       "presale_end_datetime": "2026-09-13T23:59:00+09:00",
-      "updated_at": "2026-09-26"
+      "updated_at": "2026-10-14"
     },
     {
       "id": "ja-mei-ehara-domino-tokyo-20261211",
@@ -6016,30 +5971,6 @@
       ],
       "image_url": null,
       "source_url": "https://www.cdjournal.com/news/mei-ehara/129211"
-    },
-    {
-      "id": "ja-harada-tomoyo-lultimo-anno-26-20261212",
-      "name": "原田知世〈L'ULTIMO Anno 26 『恋愛小説5』リリース記念 Special Live〉（12月12日公演）",
-      "release_date": "2026-12-12",
-      "release_time": null,
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "恵比寿 The Garden Hall（東京）"
-      ],
-      "developer": "原田知世",
-      "publisher": null,
-      "description": "11月4日に発売されるカヴァー・アルバム『恋愛小説5～my white days』のリリースを記念して、原田知世が恵比寿The Garden Hallで開催する2デイズ公演の2日目。ホリデー・ソング編となる新作の収録曲を中心に、歴代の恋愛小説シリーズの人気曲も交えた冬らしいステージが期待される。8月31日にサントリーホールでキャリア初のオーケストラ編成公演を成功させたばかりの原田が、年末に届ける特別な一夜。主催者先行予約は9月13日23:59まで受付。",
-      "genres": [
-        "J-POP",
-        "カヴァー"
-      ],
-      "image_url": null,
-      "source_url": "https://www.cdjournal.com/news/harada-tomoyo/129260",
-      "presale": false,
-      "presale_end_datetime": "2026-09-13T23:59:00+09:00",
-      "updated_at": "2026-09-26"
     },
     {
       "release_time": null,
@@ -8430,6 +8361,258 @@
       "presale": false,
       "presale_datetime": "2026-08-11T22:00:00+09:00",
       "presale_end_datetime": "2026-08-23T23:59:00+09:00"
+    },
+    {
+      "id": "ja-bruno-mars-romantic-tour-nagoya-20270104",
+      "name": "Bruno Mars – The Romantic Tour in Japan 名古屋公演",
+      "release_date": "2027-01-04",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "バンテリンドーム ナゴヤ"
+      ],
+      "developer": "Bruno Mars",
+      "publisher": "LIVE NATION H.I.P.",
+      "description": "ブルーノ・マーズの来日ドームツアー「Bruno Mars – The Romantic Tour in Japan」は、2027年1月4日（月）・5日（火）のバンテリンドーム ナゴヤで幕を開ける。最新アルバム『The Romantic』を携えた6都市12公演の初日の会場で、公式サイトによると5日は開場16:00・開演18:00、18:00からDJ Pee .Wee（アンダーソン・パーク）がオープニングを務め、ブルーノ・マーズは18:45頃に登場する。4日は完売、5日は残りわずか。料金はVIP GOLD 149,800円からB席11,800円まで6段階。",
+      "genres": [
+        "来日公演",
+        "ポップ",
+        "ドームツアー"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Bruno_Mars_b%26w_%28cropped%29.jpg",
+      "source_url": "https://realsound.jp/2026/06/post-2436387.html",
+      "presale": false,
+      "presale_datetime": "2026-06-24T12:00:00+09:00",
+      "presale_end_datetime": "2026-06-28T23:59:00+09:00",
+      "presale_url": "https://www.livenationhip.co.jp/all-events/bruno-mars-tickets-ae147754",
+      "general_sale": false,
+      "updated_at": "2026-10-14"
+    },
+    {
+      "id": "ja-bruno-mars-romantic-tour-sapporo-20270110",
+      "name": "Bruno Mars – The Romantic Tour in Japan 札幌公演",
+      "release_date": "2027-01-10",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "大和ハウス プレミストドーム（札幌ドーム）"
+      ],
+      "developer": "Bruno Mars",
+      "publisher": "LIVE NATION H.I.P.",
+      "description": "『The Romantic』を引っさげたブルーノ・マーズの日本ドームツアーで2都市目となる北海道公演。大和ハウス プレミストドーム（札幌ドーム）で1月10日（日）・11日（月・祝）に2公演が組まれた。11日は開場14:00・開演16:00で、16:00〜16:30にDJ Pee .Wee（アンダーソン・パーク）のDJセット、16:45頃から本編という進行が公式に示されている。7月末のオフィシャル2次抽選先行の時点で両日ともB席は売り切れ、VIP GOLDからA席までが対象だった。現在は両日とも残りわずか。",
+      "genres": [
+        "来日公演",
+        "ポップ",
+        "ドームツアー"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Bruno_Mars_b%26w_%28cropped%29.jpg",
+      "source_url": "https://realsound.jp/2026/06/post-2436387.html",
+      "presale": false,
+      "presale_datetime": "2026-06-24T12:00:00+09:00",
+      "presale_end_datetime": "2026-06-28T23:59:00+09:00",
+      "presale_url": "https://www.livenationhip.co.jp/all-events/bruno-mars-tickets-ae147754",
+      "general_sale": false,
+      "updated_at": "2026-10-14"
+    },
+    {
+      "id": "ja-bruno-mars-romantic-tour-saitama-20270115",
+      "name": "Bruno Mars – The Romantic Tour in Japan 埼玉公演",
+      "release_date": "2027-01-15",
+      "release_time": "17:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "ベルーナドーム"
+      ],
+      "developer": "Bruno Mars",
+      "publisher": "LIVE NATION H.I.P.",
+      "description": "埼玉・ベルーナドームでの2日間は、ブルーノ・マーズ来日ツアーの3都市目。1月15日（金）は開場15:30・開演17:30、16日（土）は開場15:00・開演17:00で、いずれもDJ Pee .Wee（アンダーソン・パーク）が先に登場する。この会場だけの席種として、6〜8名で申し込むPARTY BOX（1名128,000円）やPARTY TERRACE（1名52,800円）、エグゼクティブシート・エグゼクティブBOX（各42,800円）が設けられ、16日の来場者全員には当日会場で限定ブランケットが配られる。15日は残りわずか、16日は完売。",
+      "genres": [
+        "来日公演",
+        "ポップ",
+        "ドームツアー"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Bruno_Mars_b%26w_%28cropped%29.jpg",
+      "source_url": "https://realsound.jp/2026/06/post-2436387.html",
+      "presale": false,
+      "presale_datetime": "2026-06-24T12:00:00+09:00",
+      "presale_end_datetime": "2026-06-28T23:59:00+09:00",
+      "presale_url": "https://www.livenationhip.co.jp/all-events/bruno-mars-tickets-ae147754",
+      "general_sale": false,
+      "updated_at": "2026-10-14"
+    },
+    {
+      "id": "ja-bruno-mars-romantic-tour-osaka-20270119",
+      "name": "Bruno Mars – The Romantic Tour in Japan 大阪公演",
+      "release_date": "2027-01-19",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "京セラドーム大阪"
+      ],
+      "developer": "Bruno Mars",
+      "publisher": "LIVE NATION H.I.P.",
+      "description": "京セラドーム大阪では1月19日（火）・20日（水）の平日2日間にわたり、ブルーノ・マーズの『The Romantic』ツアー日本公演が行われる。6都市を巡るドームツアーの4都市目で、20日は開場16:30・開演18:30、18:30からDJ Pee .Wee（アンダーソン・パーク）、19:15頃からブルーノ・マーズのステージとなる。両日とも完売しており、7月31日から受け付けたオフィシャル2次抽選先行でも大阪はSS席（29,800円）しか残っていなかった。招聘・企画制作はLIVE NATION H.I.P.。",
+      "genres": [
+        "来日公演",
+        "ポップ",
+        "ドームツアー"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Bruno_Mars_b%26w_%28cropped%29.jpg",
+      "source_url": "https://realsound.jp/2026/06/post-2436387.html",
+      "presale": false,
+      "presale_datetime": "2026-06-24T12:00:00+09:00",
+      "presale_end_datetime": "2026-06-28T23:59:00+09:00",
+      "presale_url": "https://www.livenationhip.co.jp/all-events/bruno-mars-tickets-ae147754",
+      "general_sale": false,
+      "updated_at": "2026-10-14"
+    },
+    {
+      "id": "ja-bruno-mars-romantic-tour-fukuoka-20270123",
+      "name": "Bruno Mars – The Romantic Tour in Japan 福岡公演",
+      "release_date": "2027-01-23",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "みずほPayPayドーム福岡"
+      ],
+      "developer": "Bruno Mars",
+      "publisher": "LIVE NATION H.I.P.",
+      "description": "九州で唯一の開催となるのが、1月23日（土）・24日（日）のみずほPayPayドーム福岡公演で、ツアー5都市目にあたる。23日は開場15:00・開演17:00、24日は開場14:30・開演16:30と、日曜は30分早い進行。どちらもDJ Pee .Wee（アンダーソン・パーク）のオープニングの後にブルーノ・マーズが登場する。福岡限定の席種として5名1組のBOX 5（1名32,800円）が用意された。23日は完売、24日は残りわずかとなっている。",
+      "genres": [
+        "来日公演",
+        "ポップ",
+        "ドームツアー"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Bruno_Mars_b%26w_%28cropped%29.jpg",
+      "source_url": "https://realsound.jp/2026/06/post-2436387.html",
+      "presale": false,
+      "presale_datetime": "2026-06-24T12:00:00+09:00",
+      "presale_end_datetime": "2026-06-28T23:59:00+09:00",
+      "presale_url": "https://www.livenationhip.co.jp/all-events/bruno-mars-tickets-ae147754",
+      "general_sale": false,
+      "updated_at": "2026-10-14"
+    },
+    {
+      "id": "ja-bruno-mars-romantic-tour-tokyo-20270127",
+      "name": "Bruno Mars – The Romantic Tour in Japan 東京公演",
+      "release_date": "2027-01-27",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ドーム"
+      ],
+      "developer": "Bruno Mars",
+      "publisher": "LIVE NATION H.I.P.",
+      "description": "ブルーノ・マーズの来日ドームツアー全12公演を締めくくるのは、1月27日（水）・28日（木）の東京ドーム2デイズ。28日は開場16:00・開演18:00で、DJ Pee .Wee（アンダーソン・パーク）が18:00から出演し、本編は18:45頃から。東京だけの席種としてVIPバルコニー（36,800円）、4〜10名の升BOX（1名40,800円）、4名1組のThe 3rd Platinum BOX（1名33,800円）が設定された。両日とも完売で、7月末のオフィシャル2次抽選先行の段階で既に受付席種がなかった。",
+      "genres": [
+        "来日公演",
+        "ポップ",
+        "ドームツアー"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Bruno_Mars_b%26w_%28cropped%29.jpg",
+      "source_url": "https://realsound.jp/2026/06/post-2436387.html",
+      "presale": false,
+      "presale_datetime": "2026-06-24T12:00:00+09:00",
+      "presale_end_datetime": "2026-06-28T23:59:00+09:00",
+      "presale_url": "https://www.livenationhip.co.jp/all-events/bruno-mars-tickets-ae147754",
+      "general_sale": false,
+      "updated_at": "2026-10-14"
+    },
+    {
+      "id": "ja-megadeth-farewell-japan-tour-budokan-20270224",
+      "name": "MEGADETH フェアウェル・ジャパン・ツアー 2027 日本武道館公演",
+      "release_date": "2027-02-24",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "日本武道館"
+      ],
+      "developer": "MEGADETH",
+      "publisher": "ウドー音楽事務所",
+      "description": "最後の来日と銘打たれたメガデスのフェアウェル・ジャパン・ツアーの東京公演で、日本武道館で2027年2月24日（水）と追加公演の25日（木）に行われる。両日とも開場18:00・開演19:00。24日と大阪・グランキューブ大阪（2月22日）は即日完売となり、10月2日に25日の追加が発表された。追加公演はウドー・メンバーズ先行（先着）を10月23日18:00まで受け付け、一般発売は10月24日（土）10:00から。S席18,000円、A席17,000円（税込）で、主催はBAYFM78、企画・招聘・制作はウドー音楽事務所。",
+      "genres": [
+        "来日公演",
+        "ヘヴィメタル",
+        "ロック"
+      ],
+      "image_url": null,
+      "source_url": "https://amass.jp/192199/",
+      "presale": true,
+      "presale_datetime": "2026-10-03T12:00:00+09:00",
+      "presale_end_datetime": "2026-10-23T18:00:00+09:00",
+      "presale_url": "https://www.udo.jp/shows/Megadeth27",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-24T10:00:00+09:00",
+      "general_sale_url": "https://l-tike.com/megadeth-live/",
+      "updated_at": "2026-10-14"
+    },
+    {
+      "id": "ja-evanescence-japan-2026-tokyo-20261201",
+      "name": "EVANESCENCE 2026 JAPAN 東京公演",
+      "release_date": "2026-12-01",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "SGC HALL ARIAKE"
+      ],
+      "developer": "Evanescence",
+      "publisher": "クリエイティブマンプロダクション",
+      "description": "エイミー・リー率いるエヴァネッセンスの単独来日ツアーの東京公演。SGC HALL ARIAKEで12月1日（火）・2日（水）の2日間開催され、いずれも開場18:00・開演19:00。サポートアクトには、アニメ発のガールズバンドAve Mujicaが出演する。チケットはアリーナスタンディング・指定席ともに16,500円（税込）で、オフィシャル抽選先行やプレオーダーを経て、7月18日10:00から先着順の一般発売が行われている。東京2公演の後、12月4日に大阪公演が控える。",
+      "genres": [
+        "来日公演",
+        "ロック",
+        "オルタナティヴ"
+      ],
+      "image_url": null,
+      "source_url": "https://tinpanblog.com/evanescence-japan-tour-december-2026-guide/",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-18T10:00:00+09:00",
+      "general_sale_url": "https://eplus.jp/evanescence/",
+      "updated_at": "2026-10-14"
+    },
+    {
+      "id": "ja-evanescence-japan-2026-osaka-20261204",
+      "name": "EVANESCENCE 2026 JAPAN 大阪公演",
+      "release_date": "2026-12-04",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "Zepp Osaka Bayside"
+      ],
+      "developer": "Evanescence",
+      "publisher": "クリエイティブマンプロダクション",
+      "description": "12月4日（金）のZepp Osaka Baysideは、エヴァネッセンス2026年来日ツアー3公演の最終日で、関西では唯一の公演となる。開場18:00・開演19:00で、東京と同じくAve Mujicaがサポートアクトを務める。ライブハウスでの開催のため料金体系が東京と異なり、1Fスタンディング16,500円、2F指定席19,000円（いずれも税込・ドリンク代別）。e+での先着販売は7月18日10:00に始まり、12月1日18:00まで受け付けられる。",
+      "genres": [
+        "来日公演",
+        "ロック",
+        "オルタナティヴ"
+      ],
+      "image_url": null,
+      "source_url": "https://eplus.jp/evanescence/",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-07-18T10:00:00+09:00",
+      "general_sale_url": "https://eplus.jp/evanescence/",
+      "updated_at": "2026-10-14"
     }
   ]
 }
