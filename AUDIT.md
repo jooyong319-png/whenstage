@@ -3,8 +3,36 @@
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
 | ko | 2026-10-12 | |
-| en | 2026-10-05 | ← |
-| ja | 2026-10-07 | |
+| en | 2026-10-14 | |
+| ja | 2026-10-07 | ← |
+
+---
+
+## 2026-10-14 · en
+
+로테이션상 en이 가장 오래된 점검일(2026-10-05)이라 선택. 대상 창: 2026-08-15 ~ 2026-12-13(오늘 ±60일), 창 안 항목 217건(끝난 것 98 / 예정 119). 코드는 손대지 않았고 `data/concerts.en.json`만 수정(파일 상단 `last_updated` 2026-10-14). push 전 `validate-data.mjs` 통과. 지난 회차들과 같이 AGENTS.md §4-5를 따라 **실제로 고친 22건에만 `updated_at=2026-10-14`**, 항목 단위 `last_updated`는 넣지 않음.
+
+**트랙 A (졸업 처리) — 20건** (상한 20 도달)
+- A-1/A-2 끝난 공연의 예매 필드·플래그 정리 19건(§7대로 `presale`/`general_sale=false` + 예매 URL·datetime 6개 필드 null) + 해당 공연 문장만 시제 교정(개최 결과는 단정하지 않고 "was scheduled to"로 처리, 투어 잔여 일정 서술은 현재형 유지):
+  en-austin-city-limits-festival-20261002(2주말 10/9~11까지 종료 확인 후 정리), en-zara-larsson-midnight-sun-seoul-20261005, en-monsta-x-nexus-newyork-20261006, en-phish-fall-tour-richmond-20261006, en-the-weeknd-after-hours-til-dawn-seoul-20261007, en-wynonna-judd-hard-truth-new-york-20261008("due October 2" → "slated for October 2" — 발매 여부 미확인), en-10cm-the-missing-tracks-seoul-20261009, en-akmu-paradise-of-rumors-seoul-20261009 / -20261010 / -20261011, en-amon-amarth-o2-apollo-manchester-20261009, en-beat-fall-tour-santa-cruz-20261009, en-allhours-rise-up-seoul-20261010, en-steve-lacy-radio-city-20261010, en-triples-andless-seoul-20261010 / -20261011, en-charlie-puth-whatevers-clever-seoul-20261011, en-shakira-las-mujeres-ya-no-lloran-madrid-20261011, en-pussycat-dolls-pcd-forever-london-20261013
+- A-4 description 시제만 교정 1건: en-garth-brooks-blame-it-all-roots-denver-20260904(지난 회차 이월분)
+- ⚠ 수정 항목에 `updated_at=오늘`이 붙으면 validate-data의 "설명 복사" 검사가 오류로 잡음 → en-phish-fall-tour-richmond-20261006(Atlantic City 항목과 50%), en-beat-fall-tour-santa-cruz-20261009(Inglewood 항목과 52%)는 **이미 데이터에 있던 사실만으로 문장을 재구성**해 기준 아래로 내림(새 사실 추가 없음)
+- A-3: 창 안 끝난 항목 중 approx=true는 en-post-malone-big-stadium-seoul-20261002 1건뿐 — 연기·새 날짜 미발표라 **의도적으로 유지**
+
+**트랙 B (임박 점검) — 8건 확인** (공연일 가까운 순, `updated_at` 없는 항목)
+- en-jonas-brothers-burning-up-all-over-again-indianapolis-20261015 — 10/15 Gainbridge Fieldhouse 정상, 19:30 시작, 게스트 Magnus Ferrell·Deleasa(공연장 공식 이벤트 페이지). **release_time 19:30 반영 보류**: 고치면 updated_at=오늘이 되어 같은 투어 4개 항목과 71~76% 설명 복사 오류가 남(기존부터 있던 복사 묶음). 설명 재작성은 점검 범위를 넘어 미반영 — 리서처 정리 필요
+- en-tyla-apop-world-tour-london-20261015 — 10/15 O2 Academy Brixton 정상(FACT Magazine). 지난 예매·투어 개막 문장 시제 교정
+- en-usher-chris-brown-rb-tour-east-rutherford-20261015 — 10/15 MetLife 정상, 19:30 시작(TicketNews) → release_time 19:30
+- en-nice-as-fuck-10th-anniversary-pasadena-20261016 — 10/16 Sid the Cat 투어 첫 공연 일정 유지(mxdwn 9/10 투어 목록). 변경 없음
+- en-angele-instinct-20261016 — 10/16 발매 유지(Paris Match 9/12). 변경 없음
+- en-fontaines-dc-dopamine-chamber-20261016 — 10/16 XL 발매 유지(releasewave). 변경 없음
+- en-insomnium-netherworlds-20261016 — 10/16 발매 유지(Century Media 공식 스토어). 변경 없음
+- en-rachel-chinouriri-i-think-i-spoke-too-soon-20261016 — 10/16 발매 유지(음반점 예약 페이지). 변경 없음
+- B-3 링크: 위 8건의 source/image/예매 URL 14개를 실제로 열어 봄 — 12개 200, Jonas·Usher의 source_url(공연장 뉴스 페이지)은 406(봇 차단으로 판단, 같은 사실은 다른 소스로 확인) → 죽은 링크로 단정한 것 없음, 변경 없음
+
+**남은 것**: 트랙 A 이월 5건(플래그만 남은 것 — 예매 URL은 이미 null): en-trombone-shorty-orleans-avenue-fall-chattanooga-20261008, en-zz-top-the-big-one-nashville-20261008, en-amon-amarth-allfather-awakens-manchester-20261009, en-godsmack-rise-of-rock-airway-heights-20261009, en-ryan-bingham-still-gettin-away-fall-memphis-20261013. ⚠ 이 중 Godsmack·Ryan Bingham·Trombone Shorty·Amon Amarth(allfather)는 같은 투어의 다른 항목과 설명이 겹칠 수 있어 고칠 때 validate 복사 검사 주의. 트랙 B 다음 순번: en-allison-russell-hour-of-chaos-boston-20261018, en-the-national-ab100-san-sebastian-20261018, en-jonas-brothers-...-rosemont-20261022, 10/23 발매 앨범들부터
+**운영자/리서처 참고**: ① Jonas Brothers 투어 항목들(indianapolis/rosemont/denver/belmont-park/prudential-center/philadelphia) 설명이 서로 55~76% 같음 — 고치는 순간 검증이 막히므로 리서처가 항목별 설명 재작성 필요. ② Amon Amarth 맨체스터 10/9 중복 2건 여전히 미병합. ③ ACL 항목은 `festival_days` 부재 문제가 있었으나 이제 2주말 모두 종료라 실질 영향 없음
+**리서처 참고(추가 안 함)**: 신규 미등록 공연 발견 없음
 
 ---
 
