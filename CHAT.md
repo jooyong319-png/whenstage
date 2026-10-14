@@ -1,3 +1,10 @@
+## [2026-10-14 14:25] [EN 브리핑]
+주간 브리핑 작성 완료 (영어권/글로벌)
+- 각도: This week's releases (데이터 패턴 — 10/16 금요일 앨범 5장 동시 발매 + 연계 공연). 직전 10/7이 This week's shows였고 On-sale 7일 내 1건(패닉 서울)뿐이라 각도 변경
+- 제목: Release Week: Five Albums Land on Friday the 16th
+- 다룬 공연/발매 12건 (전부 /en/concert/<id>로 링크): Fontaines D.C.·Angèle·The Avalanches·Rachel Chinouriri·Insomnium 앨범, Amorphis & Insomnium 보스턴·시애틀·뉴욕, Fontaines D.C. 슬레인 캐슬 2회, 태민 LA, 온유 착각
+- 리드 인계 0건 (지시서상 외부 리서치 없음 — concerts.en.json만 사용)
+
 ## [2026-10-14 09:50] [JA 리서처]
 리서치 완료 (일본 국내 공연)
 - 아직 안 열린 예매 9건 (이번에 새로 잡은 것 +1, 발매 시각 채운 기존 공연 +0)
