@@ -2,9 +2,34 @@
 
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
-| ko | 2026-10-12 | |
+| ko | 2026-10-12 | ← |
 | en | 2026-10-14 | |
-| ja | 2026-10-07 | ← |
+| ja | 2026-10-16 | |
+
+---
+
+## 2026-10-16 · ja
+
+로테이션상 ja가 가장 오래된 점검일(2026-10-07)이라 선택. 대상 창: 2026-08-17 ~ 2026-12-15(오늘 ±60일). 코드는 손대지 않았고 `data/concerts.ja.json`만 수정(파일 상단 `last_updated` 2026-10-16). push 전 `validate-data.mjs` 통과. 지난 회차들과 같이 AGENTS.md §4-5를 따라 **실제로 고친 14건에만 `updated_at=2026-10-16`**, 항목 단위 `last_updated`는 넣지 않음.
+
+**트랙 A (졸업 처리) — 13건**
+- A-1/A-2 끝난 공연의 예매 필드 정리 6건(§7대로 `presale`/`general_sale=false` + 예매 URL·datetime 6개 필드 null): ja-abc-z-connection-vol2-20260819(+시제), ja-choi-yuree-concert-in-japan-20260830, ja-hosono-haruomi-prelude-20260902, ja-jisung-our-scene-20260918, ja-kai-yoshihiro-homecoming-tour-yokohama-20261003, ja-ezra-collective-tokyo-20261013(+시제)
+- A-4 description 시제만 교정 7건(있는 문장의 시제만, 새 사실 추가 없음): ja-boynextdoor-knock-on-vol2-japan-20260821(투어 10/11 종료 — 지난 회차 이월분), ja-jaurim-life-tokyo-2026-20260829(이월분 "販売されている"), ja-sakanaction-toumei-osakajo-hall-20260912, ja-yamanaka-chihiro-happy-go-lucky-20260930, ja-snowman-amenity-20261007(발매 문장만, 구매 링크 규칙 무관), ja-bmsg-fes-26-20261010(festival_days 마지막 날 10/12 기준), ja-rei-makoto-rcrew-fanmeeting-osaka-20261012
+- A-3: 창 안 끝난 항목 중 approx=true는 ja-post-malone-2026-20261006 1건뿐 — 연기·振替 미정이라 **의도적으로 유지**
+- **보류 4건(설명 복사 묶음)**: ja-endrecheri-billboard-live-tour-2026-yokohama-20261013 / -20261014, ja-scaffold-3-tokyo-20261013 / ja-scaffold-3-osaka-20261015 — 끝난 공연이라 예매 필드 정리·시제 교정 대상이지만, 고치면 `updated_at=오늘`이 붙어 validate-data의 "설명 복사" 검사(ENDRECHERI 94%/75%, Scaffold 87%)에 걸림. 기존부터 있던 복사 묶음이라 설명 재작성은 점검 범위를 넘는다고 판단해 미반영 → **리서처 정리 필요**
+- 의도적 제외(투어 잔여 일정 진행 중): ja-ryokushaka-arena-tour-2026-20260919(~12/6), ja-nightmare-tour-2026-20260919, ja-peter-gallway-sahashi-full-circle-20261010(~10/29), ja-abc-z-way-of-love-tour-20261014(~11/24)
+
+**트랙 B (임박 점검) — 8건 확인** (공연일 가까운 순, `updated_at` 없는 항목)
+- ja-charlie-puth-2026-20261016 — 오늘 10/16 ぴあアリーナMM 18:00/19:00 정상(10/7자 기사, 취소·연기 공지 없음). 6월 올랜도 1회 취소 외 추가 취소 보도 없음. source/image URL 200. 변경 없음
+- ja-the-and-startours-earth-harajuku-20261017 / -20261018 — e+ 아티스트 페이지에 STARTOURS～Earth～ 原宿RUIDO 일반발매 게재 유지, source(CDJournal)·general_sale_url 200. 변경 없음
+- ja-shai-maestro-guesthouse-20261020 — 코튼클럽 공식 스케줄에 "SHAI MAESTRO TRIO : The Guesthouse" 게재, 예약 링크 exec/5722가 공식 스케줄에서 그대로 연결됨(직접 curl은 세션 없이 "システムエラー" 페이지 — 2회 확인, 사이트 자체 링크라 **죽은 링크로 단정 안 함**). 변경 없음
+- ja-number-i-no3-sapporo-20261024 — LIVE NATION H.I.P. 공식 페이지 10/24 札幌ドーム 14:00/16:00, 전 일정 동일·취소 공지 없음. 변경 없음
+- ja-yoasobi-chowakusei-2026-20261024 — THE FIRST TIMES(9/12) 京セラドーム 10/24·25 유지. source·image 200. 변경 없음
+- ja-kobayashi-watashi-tobutame-20261025 — ローチケ 아티스트 페이지: 10/25 JANUS 일반발매(先着) 판매 중, 11/8 I'M A SHOW 지정석 매진·立見 추가판매. 선예매가 끝났는데 `presale=true`로 남아 있어 **`presale=false`·`general_sale=true`, general_sale_url=ローチケ 페이지**로 수정(일반발매 개시 일시는 미확인이라 null 유지)
+- ja-mwam-firestarter-single-20261028 — HMV 공지로 10/28 발매 유지 확인, source(PR TIMES) 200. 변경 없음
+
+**남은 것**: 위 보류 4건(설명 복사). 트랙 B 다음 순번: ja-ovall-glimmer-tour-osaka-20261029, ja-snowman-dome-tour-all-suite-sapporo-20261030, ja-festival-de-frue-2026-20261031부터
+**리서처 참고(추가 안 함)**: 신규 미등록 공연 발견 없음. ENDRECHERI 빌보드라이브 투어(横浜 2건 + 大阪 2건 + 東京 1건)·Scaffold 3(東京/大阪) 설명 복사 정리 필요
 
 ---
 
