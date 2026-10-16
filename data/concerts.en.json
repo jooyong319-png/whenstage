@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-14",
+  "last_updated": "2026-10-16",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -2670,7 +2670,7 @@
       "publisher": null,
       "image_url": null,
       "id": "en-bad-bunny-cerramos-en-casa-san-juan-20260822",
-      "name": "Bad Bunny: Debi Tirar Mas Fotos - Cerramos en Casa (Night 1)",
+      "name": "Bad Bunny: Debi Tirar Mas Fotos - Cerramos en Casa",
       "release_date": "2026-08-22",
       "timezone": "America/Puerto_Rico",
       "category": "concert_tour",
@@ -2678,7 +2678,7 @@
         "Hiram Bithorn Stadium, San Juan, Puerto Rico"
       ],
       "developer": "Bad Bunny",
-      "description": "Bad Bunny closed the Debi Tirar Mas Fotos World Tour with two hometown nights at Hiram Bithorn Stadium in San Juan, and this was the first of them. The billing, Cerramos en Casa, translates as we close at home, bringing the global run back to the Puerto Rico residency that started the album cycle in 2025. Tickets went on sale August 19 through PR Ticket.",
+      "description": "Bad Bunny closed the Debi Tirar Mas Fotos World Tour with two hometown nights at Hiram Bithorn Stadium in San Juan on August 22 and 23, 2026. The billing, Cerramos en Casa, translates as we close at home, bringing the global run back to Puerto Rico, where the album cycle began with his 2025 residency. Tickets went on sale August 19 through PR Ticket, only days before the two shows.",
       "genres": [
         "Reggaeton",
         "Latin",
@@ -2688,33 +2688,7 @@
       "presale": false,
       "general_sale": false,
       "general_sale_datetime": null,
-      "updated_at": "2026-10-05"
-    },
-    {
-      "release_time": null,
-      "release_date_approx": false,
-      "publisher": null,
-      "image_url": null,
-      "id": "en-bad-bunny-cerramos-en-casa-san-juan-20260823",
-      "name": "Bad Bunny: Debi Tirar Mas Fotos - Cerramos en Casa (Night 2)",
-      "release_date": "2026-08-23",
-      "timezone": "America/Puerto_Rico",
-      "category": "concert_tour",
-      "platforms": [
-        "Hiram Bithorn Stadium, San Juan, Puerto Rico"
-      ],
-      "developer": "Bad Bunny",
-      "description": "Bad Bunny closed the Debi Tirar Mas Fotos World Tour with two hometown nights at Hiram Bithorn Stadium in San Juan, and this was the second and final of them. The billing, Cerramos en Casa, translates as we close at home, bringing the global run back to the Puerto Rico residency that started the album cycle in 2025. Tickets went on sale August 19 through PR Ticket.",
-      "genres": [
-        "Reggaeton",
-        "Latin",
-        "Concert"
-      ],
-      "source_url": "https://news.pollstar.com/2026/08/18/cerrando-en-casa-bad-bunny-returning-to-puerto-rico-for-final-shows-of-debi-tirar-mas-fotos-tour/",
-      "presale": false,
-      "general_sale": false,
-      "general_sale_datetime": null,
-      "updated_at": "2026-10-05"
+      "updated_at": "2026-10-16"
     },
     {
       "id": "en-weird-al-yankovic-bigger-and-weirder-bridgeport-20260825",
@@ -5320,7 +5294,7 @@
         "Crypto.com Arena, Los Angeles, CA"
       ],
       "developer": "TAEMIN",
-      "description": "SHINee member and solo artist TAEMIN plays Crypto.com Arena in Los Angeles on October 15, 2026 as part of the 2026-27 LiMiNaL World Tour, his first run routed with a major Western promoter after partnering with AEG. The tour follows his Coachella debut in April 2026 and the album Phase 1 : SOFT VIOLENCE, and moves him from theatre-sized rooms into full arenas. The leg opens October 12 at SAP Center in San Jose.",
+      "description": "TAEMIN plays Crypto.com Arena in Los Angeles on October 15, 2026, the second of six North American stops on his 2026-27 LiMiNaL World Tour, three nights after the leg opened at SAP Center in San Jose. The date comes six months after his Coachella debut and a month after his September home shows at Jamsil Indoor Stadium in Seoul, with Las Vegas next on the route.",
       "genres": [
         "K-POP",
         "Tour"
@@ -5328,7 +5302,7 @@
       "source_url": "https://www.allkpop.com/article/2026/08/taemin-announces-official-dates-and-cities-for-the-north-america-leg-of-his-2026-world-tour-liminal",
       "presale": false,
       "general_sale": false,
-      "updated_at": "2026-09-22"
+      "updated_at": "2026-10-16"
     },
     {
       "id": "en-tyla-apop-world-tour-london-20261015",
@@ -6120,7 +6094,7 @@
         "Prudential Center, Newark, NJ"
       ],
       "developer": "TAEMIN",
-      "description": "SHINee member and solo artist TAEMIN plays Prudential Center in Newark on October 23, 2026 as part of the 2026-27 LiMiNaL World Tour, his first run routed with a major Western promoter after partnering with AEG. The tour follows his Coachella debut in April 2026 and the album Phase 1 : SOFT VIOLENCE, and moves him from theatre-sized rooms into full arenas. The Newark show closes the six-city North American leg.",
+      "description": "Prudential Center in Newark hosts the final North American date of TAEMIN's LiMiNaL World Tour on October 23, 2026, after stops in San Jose, Los Angeles, Las Vegas, Grand Prairie and Chicago. It is the only East Coast show of the leg, and the tour then heads to Mexico, Chile, Peru and Brazil before a European run in November. AEG Presents promotes the North American dates.",
       "genres": [
         "K-Pop",
         "Pop",
@@ -6128,7 +6102,8 @@
       ],
       "source_url": "https://www.forbes.com/sites/jeffbenjamin/2026/08/14/taemin-reveals-us-leg-of-liminal-world-tour-in-partnership-with-aeg/",
       "presale": false,
-      "general_sale": false
+      "general_sale": false,
+      "updated_at": "2026-10-16"
     },
     {
       "id": "en-tony-iommi-from-the-dark-20261023",
@@ -6528,7 +6503,7 @@
     },
     {
       "id": "en-jeonghan-x-joshua-journey-into-dreaming-incheon-20261030",
-      "name": "JEONGHAN X JOSHUA <JOURNEY INTO [DREAMING]> - Incheon (Night 1)",
+      "name": "JEONGHAN X JOSHUA <JOURNEY INTO [DREAMING]> - Incheon",
       "release_date": "2026-10-30",
       "release_time": "19:00",
       "release_date_approx": false,
@@ -6539,15 +6514,15 @@
       ],
       "developer": "JEONGHAN X JOSHUA",
       "publisher": "HYBE",
-      "description": "SEVENTEEN's vocal duo JEONGHAN and JOSHUA bring their first unit concert, JOURNEY INTO [DREAMING], to Inspire Arena in Incheon for three nights from October 30 to November 1, 2026, built around their debut mini album DREAMSCAPE. Overseas CARATs buy on the separate global reservation page: membership verification runs October 6 to 8, the global membership presale opens October 8 at 8pm KST, and the general sale follows on October 12 at 8pm KST. Night 1 starts at 7pm KST.",
+      "description": "SEVENTEEN's vocal duo JEONGHAN and JOSHUA bring their first unit concert, JOURNEY INTO [DREAMING], to Inspire Arena in Incheon for three shows: October 30 at 7pm, October 31 at 6pm and November 1 at 5pm KST, 2026, built around their debut mini album DREAMSCAPE. Overseas CARATs buy on the separate global reservation page; the global membership presale opened October 8 and the general sale October 12, both at 8pm KST. Entry is by mobile ticket only, and the tour then moves on to Japan, Macau, Taiwan, Busan and Hong Kong.",
       "genres": [
         "K-Pop",
         "Concert"
       ],
       "image_url": null,
       "source_url": "https://world.nol.com/en/content/articles/391e99ae-89a6-4677-a296-72b4da083a0b",
-      "updated_at": "2026-10-02",
-      "presale": true,
+      "updated_at": "2026-10-16",
+      "presale": false,
       "presale_datetime": "2026-10-08T20:00:00+09:00",
       "general_sale": true,
       "general_sale_datetime": "2026-10-12T20:00:00+09:00",
@@ -6607,33 +6582,6 @@
       "general_sale_url": "https://www.ticketmaster.com/the-faint-tickets/artist/717900"
     },
     {
-      "id": "en-jeonghan-x-joshua-journey-into-dreaming-incheon-20261031",
-      "name": "JEONGHAN X JOSHUA <JOURNEY INTO [DREAMING]> - Incheon (Night 2)",
-      "release_date": "2026-10-31",
-      "release_time": null,
-      "release_date_approx": false,
-      "timezone": "Asia/Seoul",
-      "category": "concert_tour",
-      "platforms": [
-        "Inspire Arena, Incheon"
-      ],
-      "developer": "JEONGHAN X JOSHUA",
-      "publisher": "HYBE",
-      "description": "SEVENTEEN's vocal duo JEONGHAN and JOSHUA bring their first unit concert, JOURNEY INTO [DREAMING], to Inspire Arena in Incheon for three nights from October 30 to November 1, 2026, built around their debut mini album DREAMSCAPE. Overseas CARATs buy on the separate global reservation page: membership verification runs October 6 to 8, the global membership presale opens October 8 at 8pm KST, and the general sale follows on October 12 at 8pm KST. This is the middle night of the three-show Incheon run.",
-      "genres": [
-        "K-Pop",
-        "Concert"
-      ],
-      "image_url": null,
-      "source_url": "https://world.nol.com/en/content/articles/391e99ae-89a6-4677-a296-72b4da083a0b",
-      "updated_at": "2026-10-02",
-      "presale": true,
-      "presale_datetime": "2026-10-08T20:00:00+09:00",
-      "general_sale": true,
-      "general_sale_datetime": "2026-10-12T20:00:00+09:00",
-      "general_sale_url": "https://nol.yanolja.com/ticket/products/26013793"
-    },
-    {
       "id": "en-nujabes-metaphorical-ensemble-seoul-20261031",
       "name": "Nujabes Metaphorical Ensemble Live in Seoul",
       "release_date": "2026-10-31",
@@ -6687,33 +6635,6 @@
       "general_sale": true,
       "general_sale_datetime": "2026-08-24T10:00:00-04:00",
       "general_sale_url": "https://www.ticketmaster.com/usher-raymond-chris-brown-tickets/artist/4314089"
-    },
-    {
-      "id": "en-jeonghan-x-joshua-journey-into-dreaming-incheon-20261101",
-      "name": "JEONGHAN X JOSHUA <JOURNEY INTO [DREAMING]> - Incheon (Night 3)",
-      "release_date": "2026-11-01",
-      "release_time": null,
-      "release_date_approx": false,
-      "timezone": "Asia/Seoul",
-      "category": "concert_tour",
-      "platforms": [
-        "Inspire Arena, Incheon"
-      ],
-      "developer": "JEONGHAN X JOSHUA",
-      "publisher": "HYBE",
-      "description": "SEVENTEEN's vocal duo JEONGHAN and JOSHUA bring their first unit concert, JOURNEY INTO [DREAMING], to Inspire Arena in Incheon for three nights from October 30 to November 1, 2026, built around their debut mini album DREAMSCAPE. Overseas CARATs buy on the separate global reservation page: membership verification runs October 6 to 8, the global membership presale opens October 8 at 8pm KST, and the general sale follows on October 12 at 8pm KST. This is the final Incheon night before the tour moves on to Japan, Macau, Taiwan, Busan and Hong Kong.",
-      "genres": [
-        "K-Pop",
-        "Concert"
-      ],
-      "image_url": null,
-      "source_url": "https://world.nol.com/en/content/articles/391e99ae-89a6-4677-a296-72b4da083a0b",
-      "updated_at": "2026-10-02",
-      "presale": true,
-      "presale_datetime": "2026-10-08T20:00:00+09:00",
-      "general_sale": true,
-      "general_sale_datetime": "2026-10-12T20:00:00+09:00",
-      "general_sale_url": "https://nol.yanolja.com/ticket/products/26013793"
     },
     {
       "release_time": null,
@@ -10062,6 +9983,141 @@
       ],
       "source_url": "https://sports.khan.co.kr/en/article/202609221415007",
       "updated_at": "2026-10-13"
+    },
+    {
+      "id": "en-epik-high-2027-concert-seoul-20270122",
+      "name": "2027 EPIK HIGH Concert - Seoul",
+      "release_date": "2027-01-22",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KSPO Dome, Seoul(Olympic Park)"
+      ],
+      "developer": "EPIK HIGH",
+      "publisher": null,
+      "description": "Tablo, Mithra Jin and Tukutz headline KSPO Dome for the first time in Epik High's two-decade career, with three shows on January 22, 2027 at 8pm, January 23 at 6pm and January 24 at 4pm KST. Tickets are sold on Melon Ticket: the STAGE PASS membership presale opened October 2 and the general sale followed on October 7, both at 8pm KST. The Seoul run comes after the trio's 13-city EPIK HIGH 3.0 tour of North America.",
+      "genres": [
+        "K-Hip-Hop",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/190322_%EC%97%90%ED%94%BD%ED%95%98%EC%9D%B4_%EC%BD%94%EC%97%91%EC%8A%A4_%EC%8A%A4%ED%83%80%ED%95%84%EB%93%9C_%ED%8C%AC%EC%8B%B8%EC%9D%B8%ED%9A%8C_1.jpg",
+      "source_url": "https://sports.khan.co.kr/en/article/202609291423007",
+      "presale": false,
+      "presale_datetime": "2026-10-02T20:00:00+09:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-07T20:00:00+09:00",
+      "updated_at": "2026-10-16"
+    },
+    {
+      "id": "en-jang-wooyoung-solo-concert-seoul-20261114",
+      "name": "Jang Wooyoung Solo Concert - Seoul",
+      "release_date": "2026-11-14",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "YES24 Live Hall, Seoul"
+      ],
+      "developer": "Jang Wooyoung",
+      "publisher": null,
+      "description": "2PM's Jang Wooyoung returns with his first solo concert in about a year, two shows at YES24 Live Hall in Seoul on November 14 and 15, 2026, where he plans to perform a new song for the first time. Tickets are sold on YES24: the official fan club presale ran October 15, the HOTTEST 9th-term presale opens October 16 at 8pm KST, and the general sale starts October 19 at 8pm KST. Hyogo, Tokyo and Taipei dates follow the Seoul shows.",
+      "genres": [
+        "K-Pop",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Wooyoung_Press_Conference_2PM_House_Party_Bangkok_2016_3.png",
+      "source_url": "https://sports.khan.co.kr/en/article/202610160139007/",
+      "presale": true,
+      "presale_datetime": "2026-10-15T20:00:00+09:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-19T20:00:00+09:00",
+      "updated_at": "2026-10-16"
+    },
+    {
+      "id": "en-onew-the-live-q-seoul-20261030",
+      "name": "ONEW CONCERT <ONEW THE LIVE : Q> - Seoul",
+      "release_date": "2026-10-30",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Olympic Park, Seoul(Olympic Hall)"
+      ],
+      "developer": "ONEW",
+      "publisher": null,
+      "description": "SHINee's ONEW brings his solo concert ONEW THE LIVE : Q home to Seoul for three days, October 30 to November 1, 2026, at Olympic Hall in Olympic Park. The Seoul run follows Q shows in Tokyo on September 22 and 23 and in Taipei on October 3, and lands ten days after his first single album Chakgak arrives on October 20. Showtimes and the ticket schedule were not confirmed in the sources checked, so check the official notice before planning travel.",
+      "genres": [
+        "K-Pop",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Onew_Percent_Showcase_2025_2.jpg",
+      "source_url": "https://enews.imbc.com/News/ViewAmp/520074",
+      "presale": false,
+      "general_sale": false,
+      "updated_at": "2026-10-16"
+    },
+    {
+      "id": "en-lee-chang-sub-unknown-seoul-20261016",
+      "name": "2026 Lee Chang-sub Solo Concert <Unknown> - Seoul",
+      "release_date": "2026-10-16",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Kyung Hee University, Seoul(Grand Peace Hall)"
+      ],
+      "developer": "Lee Chang-sub",
+      "publisher": null,
+      "description": "BTOB's Lee Chang-sub stages his solo concert Unknown over three days, October 16 to 18, 2026, at Kyung Hee University's Grand Peace Hall in Seoul. The shows were first set for October 9 and 10 at Ticketlink Live Arena in Olympic Park, but moved after ballot-count protests disrupted that venue, and bookings were reissued for the new dates. It is his third consecutive year of solo concerts after The Wayfarer and EndAnd.",
+      "genres": [
+        "K-Pop",
+        "Ballad",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Lee_Chang-sub_at_an_fansign_in_November_2016_01.jpg",
+      "source_url": "https://sports.khan.co.kr/en/article/202609090904007",
+      "presale": false,
+      "general_sale": false,
+      "related_locale_ids": {
+        "ko": "ko-leechangsub-unknown-seoul-20261009"
+      },
+      "updated_at": "2026-10-16"
+    },
+    {
+      "id": "en-kim-jae-hwan-yeobaek-seoul-20261031",
+      "name": "2026 Kim Jae-hwan Concert <Yeobaek> - Seoul",
+      "release_date": "2026-10-31",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Blue Square, Seoul(Woori WON Banking Hall)"
+      ],
+      "developer": "Kim Jae-hwan",
+      "publisher": null,
+      "description": "Kim Jae-hwan holds Yeobaek, his first concert since completing military service, with two shows at Blue Square's Woori WON Banking Hall in Seoul on October 31 at 6pm and November 1 at 5pm KST, 2026. Tickets were sold through NOL, with a fan club presale on September 8 and the general sale on September 9, and every seat for both nights sold out. A Taipei date was later added, taking Yeobaek beyond Korea.",
+      "genres": [
+        "K-Pop",
+        "Ballad",
+        "Concert"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/171022_%EB%B6%80%EC%82%B0%EC%9B%90%EC%95%84%EC%8B%9C%EC%95%84%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C_%EC%9C%A4%EC%A7%80%EC%84%B1_%26_%EA%B9%80%EC%9E%AC%ED%99%98_02.jpg/500px-171022_%EB%B6%80%EC%82%B0%EC%9B%90%EC%95%84%EC%8B%9C%EC%95%84%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C_%EC%9C%A4%EC%A7%80%EC%84%B1_%26_%EA%B9%80%EC%9E%AC%ED%99%98_02.jpg",
+      "source_url": "https://sports.khan.co.kr/en/article/202609110406007",
+      "presale": false,
+      "presale_datetime": "2026-09-08T20:00:00+09:00",
+      "general_sale": false,
+      "general_sale_datetime": "2026-09-09T20:00:00+09:00",
+      "general_sale_url": "https://tickets.interpark.com/goods/26012668",
+      "related_locale_ids": {
+        "ko": "ko-kimjaehwan-yeoback-seoul-20261031"
+      },
+      "updated_at": "2026-10-16"
     }
   ]
 }
