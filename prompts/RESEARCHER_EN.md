@@ -177,6 +177,7 @@ git config user.name "Researcher Claude (EN)"
    KO 리서처가 예매처 공지로 확인해 둔 것이라 가장 빠르다 — 단 영어 소스로 재확인해서 쓴다
 2. **글로벌 예매처의 오픈 공지**: 인터파크 글로벌(Interpark Global / NOL Global), 멜론티켓 글로벌, 예스24 글로벌,
    티켓링크 글로벌, Weverse Shop·소속사 글로벌 공지. 글로벌 판매가 따로 열리면 그 시각이 해외 팬에겐 진짜 정보다
+   - 한국 예매처의 **오픈 공지는 web_fetch로 그대로 읽힌다**(2026-10-17 실측): 멜론티켓 오픈예정 `https://ticket.melon.com/csoon/index.htm`, 인터파크(NOL) 공지 `https://tickets.interpark.com/contents/notice`(공연명 + 오픈 일시가 페이지에 있다), 예스24 공지 `http://ticket.yes24.com/New/Notice/NoticeMain.aspx`. 국내 오픈 일시를 여기서 먼저 잡고, 글로벌 판매 일정은 그 공연의 글로벌 공지로 확인한다
 3. 시각은 반드시 **한국 시간 오프셋 포함**으로 채운다(`2026-10-20T20:00:00+09:00`). 화면이 각 방문자 시간으로 바꿔 준다
 4. **이미 등록된 한국 공연도 다시 본다** — 다가오는데 예매 시각이 비어 있는 것을 먼저 채운다
 
