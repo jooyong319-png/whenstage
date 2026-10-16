@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-14",
+  "last_updated": "2026-10-16",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -1800,7 +1800,7 @@
       ],
       "developer": "A.B.C-Z",
       "publisher": null,
-      "description": "A.B.C-Zが自ら企画するツーマン・ライヴ・フェスの第2弾。8月19日の大阪国際会議場 グランキューブ大阪、8月29日・30日のパシフィコ横浜 国立大ホールの計3公演で、日替わりゲストを迎えて共演する。ゲストは大阪公演がZiDol、横浜初日が新浜レオン、最終日が大黒摩季。秋から始まるワンマン・ツアーに先立つ夏の自主企画で、先着一般販売は8月1日12時にスタートした。",
+      "description": "A.B.C-Zが自ら企画するツーマン・ライヴ・フェスの第2弾。8月19日の大阪国際会議場 グランキューブ大阪、8月29日・30日のパシフィコ横浜 国立大ホールの計3公演で、日替わりゲストを迎えて共演する構成だった。ゲストは大阪公演がZiDol、横浜初日が新浜レオン、最終日が大黒摩季。秋から始まるワンマン・ツアーに先立つ夏の自主企画で、先着一般販売は8月1日12時にスタートした。",
       "genres": [
         "J-POP",
         "アイドル"
@@ -1809,7 +1809,13 @@
       "source_url": "https://www.musicvoice.jp/news/310961/",
       "presale": false,
       "general_sale": false,
-      "general_sale_datetime": "2026-08-01T12:00:00+09:00"
+      "general_sale_datetime": null,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-16"
     },
     {
       "id": "ja-milet-made-of-glass-20260819",
@@ -1891,7 +1897,7 @@
       ],
       "developer": "BOYNEXTDOOR",
       "publisher": "HYBE JAPAN",
-      "description": "KOZ ENTERTAINMENT所属の5人組、BOYNEXTDOORが自身初のアリーナ・ツアーとして日本6都市を回る。8月21日から23日までのKアリーナ横浜3daysで幕を開け、佐賀・大阪・宮城・長野を経て10月10日・11日の千葉LaLa arena TOKYO-BAYまで全13公演を行う。初日は開場16:30・開演18:00。チケットは7月25日13:00から一般発売が始まっており、8月29日の佐賀公演はアジア各地域と米国の映画館でライブビューイングも実施される。",
+      "description": "KOZ ENTERTAINMENT所属の5人組、BOYNEXTDOORが自身初のアリーナ・ツアーとして日本6都市を回った。8月21日から23日までのKアリーナ横浜3daysで幕を開け、佐賀・大阪・宮城・長野を経て10月10日・11日の千葉LaLa arena TOKYO-BAYまで全13公演が組まれた。初日は開場16:30・開演18:00だった。チケットは7月25日13:00から一般発売が始まり、8月29日の佐賀公演はアジア各地域と米国の映画館でライブビューイングも実施された。",
       "genres": [
         "K-POP",
         "アリーナツアー"
@@ -1901,7 +1907,8 @@
       "presale": false,
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "updated_at": "2026-10-16"
     },
     {
       "id": "ja-ko1keyz-1st-fanmeeting-20260821",
@@ -2157,13 +2164,14 @@
       ],
       "developer": "JAURIM（紫雨林）",
       "publisher": null,
-      "description": "韓国を代表するロックバンドJAURIM（紫雨林）が、2年連続となる日本単独公演『JAURIM CONCERT in JAPAN 2026 〜LIFE! X TOKYO〜』を2026年8月29日、東京・Veats Shibuyaで開催した。昼夜2回公演で、これまでの代表曲に加えて最新作からの楽曲も日本で初めて披露した。チケットはぴあ最速先行(抽選)などの先行受付を経て販売されている。",
+      "description": "韓国を代表するロックバンドJAURIM（紫雨林）が、2年連続となる日本単独公演『JAURIM CONCERT in JAPAN 2026 〜LIFE! X TOKYO〜』を2026年8月29日、東京・Veats Shibuyaで開催した。昼夜2回公演で、これまでの代表曲に加えて最新作からの楽曲も日本で初めて披露した。チケットはぴあ最速先行(抽選)などの先行受付を経て販売された。",
       "genres": [
         "来日",
         "ロック"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Jaurim_1.jpg/250px-Jaurim_1.jpg",
-      "source_url": "https://release.traicy.com/posts/202606171199388/"
+      "source_url": "https://release.traicy.com/posts/202606171199388/",
+      "updated_at": "2026-10-16"
     },
     {
       "id": "ja-choi-yuree-concert-in-japan-20260830",
@@ -2187,8 +2195,14 @@
       "image_url": null,
       "source_url": "https://www.anemo.co.jp/topics/lifestyle/stage-lifestyle/432626-20260717/",
       "general_sale": false,
-      "general_sale_datetime": "2026-08-03T12:00:00+09:00",
-      "updated_at": "2026-09-23"
+      "general_sale_datetime": null,
+      "updated_at": "2026-10-16",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null
     },
     {
       "id": "ja-flo-japan-tour-2026-20260831",
@@ -2268,9 +2282,14 @@
       "image_url": null,
       "source_url": "https://www.liquidroom.net/schedule/haruomihosoino_20260902",
       "presale": false,
-      "presale_datetime": "2026-08-03T19:00:00+09:00",
-      "presale_end_datetime": "2026-08-11T23:59:00+09:00",
-      "updated_at": "2026-09-23"
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "updated_at": "2026-10-16",
+      "general_sale": false,
+      "presale_url": null,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null
     },
     {
       "id": "ja-kohmi-expo-2026-20260903",
@@ -2604,11 +2623,12 @@
         "大阪城ホール"
       ],
       "developer": "サカナクション",
-      "description": "アリーナ・ツアー〈SAKANAQUARIUM 2026-2027 “透明”〉の大阪公演初日。9月12日に大阪城ホールで開場17:00・開演18:00、翌13日は開場16:00・開演17:00の2days で行われた。日本武道館に続く2会場目で、大阪公演の企画制作はグリーンズが担当する。バンド独自の音響システムを発展させた「speaker+C」により、会場のどの席でも音の輪郭が届く設計が図られている。2026年公演分のチケットはすでに完売している。",
+      "description": "アリーナ・ツアー〈SAKANAQUARIUM 2026-2027 “透明”〉の大阪公演初日。9月12日に大阪城ホールで開場17:00・開演18:00、翌13日は開場16:00・開演17:00の2days で行われた。日本武道館に続く2会場目で、大阪公演の企画制作はグリーンズが担当した。バンド独自の音響システムを発展させた「speaker+C」により、会場のどの席でも音の輪郭が届く設計が図られている。2026年公演分のチケットはすでに完売していた。",
       "genres": [
         "J-ROCK",
         "アリーナツアー"
-      ]
+      ],
+      "updated_at": "2026-10-16"
     },
     {
       "id": "ja-epica-japan-tour-2026-20260914",
@@ -2746,10 +2766,14 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/180212_%EC%A7%80%EC%84%B1.png/250px-180212_%EC%A7%80%EC%84%B1.png",
       "source_url": "https://ticketplus.co.jp/news/detail/968",
       "presale": false,
-      "presale_datetime": "2026-07-13T10:00:00+09:00",
-      "presale_end_datetime": "2026-07-26T23:59:00+09:00",
+      "presale_datetime": null,
+      "presale_end_datetime": null,
       "presale_url": null,
-      "updated_at": "2026-09-23"
+      "updated_at": "2026-10-16",
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null
     },
     {
       "id": "ja-sota-hanamura-kimiwosagashiteta-20260918",
@@ -3361,13 +3385,14 @@
       "platforms": [],
       "developer": "山中千尋",
       "publisher": "ユニバーサル ミュージック",
-      "description": "ジャズ・ピアニスト山中千尋が音楽キャリア25周年を迎えて発表するニュー・アルバム。これまでライヴで演奏を重ねてきた楽曲を中心に、キース・ジャレット「Memories of Tomorrow」、カーラ・ブレイ「Lawns」、ビル・エヴァンス／マイルス・デイヴィス「Blue in Green」などの名曲に自作「Beverly」を加えて構成される。通常盤はSHM-CD、初回限定盤はUHQCD＋DVDの2形態で、DVDには2023年のいわきアリオス公演の映像を収録。",
+      "description": "ジャズ・ピアニスト山中千尋が音楽キャリア25周年を迎えて発表したニュー・アルバム。これまでライヴで演奏を重ねてきた楽曲を中心に、キース・ジャレット「Memories of Tomorrow」、カーラ・ブレイ「Lawns」、ビル・エヴァンス／マイルス・デイヴィス「Blue in Green」などの名曲に自作「Beverly」を加えて構成された。通常盤はSHM-CD、初回限定盤はUHQCD＋DVDの2形態で、DVDには2023年のいわきアリオス公演の映像を収録。",
       "genres": [
         "ジャズ",
         "アルバム"
       ],
       "image_url": null,
-      "source_url": "https://www.universal-music.co.jp/chihiro-yamanaka/news/2026-08-19/"
+      "source_url": "https://www.universal-music.co.jp/chihiro-yamanaka/news/2026-08-19/",
+      "updated_at": "2026-10-16"
     },
     {
       "id": "ja-the-cribs-selling-a-vibe-20261002",
@@ -3420,8 +3445,14 @@
       "image_url": null,
       "source_url": "https://kaisurf.com/live",
       "general_sale": false,
-      "general_sale_datetime": "2026-08-01T00:00:00+09:00",
-      "updated_at": "2026-10-07"
+      "general_sale_datetime": null,
+      "updated_at": "2026-10-16",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null
     },
     {
       "id": "ja-kamishiraishi-mone-bouquet-20261003",
@@ -3531,14 +3562,15 @@
       "platforms": [],
       "developer": "Snow Man",
       "publisher": "MENT RECORDING",
-      "description": "Snow Manの6枚目のオリジナルアルバム『AMENITY』が2026年10月7日に発売される。メンバーがホテルのスタッフとなり、音楽をもてなしとして届けるというコンセプトが掲げられ、リード曲は「グッタイム」。アートワークは吉田ユニが手がけた。初回盤A・Bは新曲を含む9曲、通常盤は14曲を収録し、初回盤には「グッタイム」ほかのミュージックビデオやメイキング、新規撮り下ろしのバラエティ映像を収めたBlu-ray／DVDが付属する。価格は初回盤A・Bが各4,620円、通常盤が3,520円（いずれも税込）。",
+      "description": "Snow Manの6枚目のオリジナルアルバム『AMENITY』が2026年10月7日に発売された。メンバーがホテルのスタッフとなり、音楽をもてなしとして届けるというコンセプトが掲げられ、リード曲は「グッタイム」。アートワークは吉田ユニが手がけた。初回盤A・Bは新曲を含む9曲、通常盤は14曲を収録し、初回盤には「グッタイム」ほかのミュージックビデオやメイキング、新規撮り下ろしのバラエティ映像を収めたBlu-ray／DVDが付属する。価格は初回盤A・Bが各4,620円、通常盤が3,520円（いずれも税込）。",
       "genres": [
         "J-POP",
         "アイドル",
         "アルバム"
       ],
       "image_url": null,
-      "source_url": "https://avexnet.jp/news/1035995"
+      "source_url": "https://avexnet.jp/news/1035995",
+      "updated_at": "2026-10-16"
     },
     {
       "id": "ja-bmsg-fes-26-20261010",
@@ -3553,7 +3585,7 @@
       ],
       "developer": null,
       "publisher": "BMSG",
-      "description": "SKY-HIが主宰するマネジメント／レーベルBMSGが主催する大型フェスティバル。2026年は「THE FUTURE IS YOURS」をコンセプトに、10月10日から12日までの3日間、東京・お台場の特設会場で開催される。SKY-HI、Novel Core、BE:FIRST、MAZZEL、STARGLOW、HANA、Aile The Shota、REIKO、Ayumu Imazu、BANVOX、SALU、ふみのらBMSG所属・関連のアーティストが出演し、メインステージのトリは初日STARGLOW、2日目MAZZEL、最終日BE:FIRSTが務める。各日とも開場13:00・開演15:00で、終演は20時頃を予定。サブステージやB-SIDE AREAも設けられ、日替わりでセットリストと演出が変わる構成となる。",
+      "description": "SKY-HIが主宰するマネジメント／レーベルBMSGが主催する大型フェスティバル。2026年は「THE FUTURE IS YOURS」をコンセプトに、10月10日から12日までの3日間、東京・お台場の特設会場で開催された。SKY-HI、Novel Core、BE:FIRST、MAZZEL、STARGLOW、HANA、Aile The Shota、REIKO、Ayumu Imazu、BANVOX、SALU、ふみのらBMSG所属・関連のアーティストが出演し、メインステージのトリは初日STARGLOW、2日目MAZZEL、最終日BE:FIRSTが務めた。各日とも開場13:00・開演15:00で、終演は20時頃を予定していた。サブステージやB-SIDE AREAも設けられ、日替わりでセットリストと演出が変わる構成だった。",
       "genres": [
         "フェスティバル",
         "J-POP",
@@ -3561,7 +3593,7 @@
       ],
       "image_url": null,
       "source_url": "https://www.billboard-japan.com/d_news/detail/165997",
-      "updated_at": "2026-09-30",
+      "updated_at": "2026-10-16",
       "festival_days": [
         {
           "date": "2026-10-10",
@@ -3625,13 +3657,14 @@
       ],
       "developer": "礼真琴",
       "publisher": null,
-      "description": "宝塚歌劇団を退団した礼真琴にとって初となるファンミーティング。2026年10月12日・13日の2日間、大阪・SkyシアターMBSで開催される。オフィシャル・ファンクラブ「Rcrew」の会員限定イベントで、全席指定10,500円（税込）。退団後にファンと直接顔を合わせる最初の機会となり、大阪を皮切りに2027年春には東京公演も予定されていることが発表されている。",
+      "description": "宝塚歌劇団を退団した礼真琴にとって初となるファンミーティング。2026年10月12日・13日の2日間、大阪・SkyシアターMBSで開催された。オフィシャル・ファンクラブ「Rcrew」の会員限定イベントで、全席指定10,500円（税込）。退団後にファンと直接顔を合わせる最初の機会となり、大阪を皮切りに2027年春には東京公演も予定されていることが発表されている。",
       "genres": [
         "ファンミーティング",
         "ミュージカル"
       ],
       "image_url": null,
-      "source_url": "https://www.cdjournal.com/news/rei-makoto/129026"
+      "source_url": "https://www.cdjournal.com/news/rei-makoto/129026",
+      "updated_at": "2026-10-16"
     },
     {
       "id": "ja-endrecheri-billboard-live-tour-2026-yokohama-20261013",
@@ -3672,7 +3705,7 @@
       ],
       "developer": "Ezra Collective",
       "publisher": "クリエイティブマンプロダクション",
-      "description": "現行UKジャズ・シーンを代表するロンドンの5人組、Ezra Collectiveによる一夜限りの単独来日公演。2026年10月13日に東京・豊洲PITで行われ、開場18:00／開演19:00。チケットはオールスタンディング9,000円（税込・別途1ドリンク）で、6月13日10時から一般発売が始まっている。マーキュリー・プライズ受賞後も勢いを増す彼らが、9月18日発表の4thアルバム『Here Because of Hope』の楽曲を携えて登場する。企画・制作・招聘はクリエイティブマンプロダクション。",
+      "description": "現行UKジャズ・シーンを代表するロンドンの5人組、Ezra Collectiveによる一夜限りの単独来日公演。2026年10月13日に東京・豊洲PITで行われ、開場18:00／開演19:00。チケットはオールスタンディング9,000円（税込・別途1ドリンク）で、6月13日10時から一般発売が始まった。マーキュリー・プライズ受賞後も勢いを増す彼らが、9月18日発表の4thアルバム『Here Because of Hope』の楽曲を携えて登場する公演だった。企画・制作・招聘はクリエイティブマンプロダクション。",
       "genres": [
         "ジャズ",
         "UKジャズ",
@@ -3680,10 +3713,15 @@
       ],
       "image_url": null,
       "source_url": "https://www.creativeman.co.jp/event/ezra-collective26/",
-      "general_sale": true,
-      "general_sale_datetime": "2026-06-13T10:00:00+09:00",
-      "general_sale_url": "https://eplus.jp/ezracollective/",
-      "presale": false
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_end_datetime": null,
+      "updated_at": "2026-10-16"
     },
     {
       "release_date_approx": false,
@@ -3984,9 +4022,12 @@
       ],
       "image_url": null,
       "source_url": "https://www.cdjournal.com/news/kobayashi-watashi/128553",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-08-03T00:00:00+09:00",
-      "presale_url": "https://l-tike.com/kobayashiwatashi/"
+      "presale_url": "https://l-tike.com/kobayashiwatashi/",
+      "general_sale": true,
+      "general_sale_url": "https://l-tike.com/kobayashiwatashi/",
+      "updated_at": "2026-10-16"
     },
     {
       "release_time": null,
