@@ -88,6 +88,22 @@
     {
       "from": "/en/concert/en-bad-bunny-cerramos-en-casa-san-juan-20260823",
       "to": "/en/concert/en-bad-bunny-cerramos-en-casa-san-juan-20260822"
+    },
+    {
+      "from": "/ja/concert/ja-equal-love-tokyo-dome-20270120",
+      "to": "/ja/concert/ja-equal-love-tokyo-dome-20270119"
+    },
+    {
+      "from": "/ja/concert/ja-maroon-5-tokyo-dome-20270131",
+      "to": "/ja/concert/ja-maroon-5-tokyo-dome-20270130"
+    },
+    {
+      "from": "/ja/concert/ja-maroon-5-tokyo-dome-20270202",
+      "to": "/ja/concert/ja-maroon-5-tokyo-dome-20270130"
+    },
+    {
+      "from": "/ja/concert/ja-blue-25th-anniversary-tokyo-20270120",
+      "to": "/ja/concert/ja-blue-25th-anniversary-tokyo-20270119"
     }
   ]
 }

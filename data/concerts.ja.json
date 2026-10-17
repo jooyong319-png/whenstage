@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-16",
+  "last_updated": "2026-10-17",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -5565,7 +5565,7 @@
       ],
       "developer": "Art Garfunkel",
       "publisher": "クリエイティブマンプロダクション",
-      "description": "グラミー賞を8度受賞し「Voice of Generations」と称されるアート・ガーファンクルが、本格的なライブ復帰を果たした2026年に行う日本ツアーの東京公演。サイモン＆ガーファンクル時代の「明日に架ける橋」「サウンド・オブ・サイレンス」「ボクサー」やソロ期の「ブライト・アイズ」「ワンダフル・ワールド」などを軸にした構成が予告されている。開場18:00・開演19:00、S指定席17,500円／A指定席15,000円（税込）。全5公演の日本ツアーの4本目にあたる。",
+      "description": "[中止] グラミー賞を8度受賞し「Voice of Generations」と称されるアート・ガーファンクルが、本格的なライブ復帰を果たした2026年に行う日本ツアーの東京公演。サイモン＆ガーファンクル時代の「明日に架ける橋」「サウンド・オブ・サイレンス」「ボクサー」やソロ期の「ブライト・アイズ」「ワンダフル・ワールド」などを軸にした構成が予告されている。開場18:00・開演19:00、S指定席17,500円／A指定席15,000円（税込）。全5公演の日本ツアーの4本目にあたる。その後、アーティスト側のやむを得ない事情により日本ツアー全5公演の中止が主催者から発表され、購入済みチケットは10月31日まで各プレイガイドで払い戻しされる。",
       "genres": [
         "フォーク",
         "ポップス"
@@ -5577,7 +5577,8 @@
       "presale_end_datetime": "2026-08-31T23:59:00+09:00",
       "presale_url": "https://l-tike.com/artgarfunkel/",
       "general_sale": false,
-      "general_sale_datetime": "2026-10-03T10:00:00+09:00"
+      "general_sale_datetime": "2026-10-03T10:00:00+09:00",
+      "updated_at": "2026-10-17"
     },
     {
       "release_date_approx": false,
@@ -5693,7 +5694,7 @@
       ],
       "developer": "Art Garfunkel",
       "publisher": "クリエイティブマンプロダクション",
-      "description": "アート・ガーファンクルの2026年日本ツアーを締めくくる大阪公演。会場はオリックス劇場で開場18:00・開演19:00、S指定席17,500円／A指定席15,000円（税込）。2025年にテルアビブで5万人規模のステージに立ったことをきっかけに歌い続ける決意を語った彼が、伝説的なバンドを従えたワールドツアーの一環として来日する。京都・三重・群馬・東京に続く5公演目で、問い合わせはキョードーインフォメーションが担当する。",
+      "description": "[中止] アート・ガーファンクルの2026年日本ツアーを締めくくる大阪公演。会場はオリックス劇場で開場18:00・開演19:00、S指定席17,500円／A指定席15,000円（税込）。2025年にテルアビブで5万人規模のステージに立ったことをきっかけに歌い続ける決意を語った彼が、伝説的なバンドを従えたワールドツアーの一環として来日する。京都・三重・群馬・東京に続く5公演目で、問い合わせはキョードーインフォメーションが担当する。その後、アーティスト側のやむを得ない事情により日本ツアー全5公演の中止が主催者から発表され、購入済みチケットは10月31日まで各プレイガイドで払い戻しされる。",
       "genres": [
         "フォーク",
         "ポップス"
@@ -5705,7 +5706,8 @@
       "presale_end_datetime": "2026-08-31T23:59:00+09:00",
       "presale_url": "https://l-tike.com/artgarfunkel/",
       "general_sale": false,
-      "general_sale_datetime": "2026-10-03T10:00:00+09:00"
+      "general_sale_datetime": "2026-10-03T10:00:00+09:00",
+      "updated_at": "2026-10-17"
     },
     {
       "id": "ja-roth-bart-baron-gishiki-tokyo-20261204",
@@ -6763,7 +6765,7 @@
     },
     {
       "id": "ja-blue-25th-anniversary-tokyo-20270119",
-      "name": "Blue「25th Anniversary Tour」来日公演 DAY1（振替公演）",
+      "name": "Blue「25th Anniversary Tour」来日公演（振替公演）",
       "release_date": "2027-01-19",
       "release_time": "19:00",
       "release_date_approx": false,
@@ -6774,7 +6776,7 @@
       ],
       "developer": "Blue（ブルー）",
       "publisher": "LIVE NATION H.I.P.",
-      "description": "イギリス出身の4人組ボーカルグループBlueが結成25周年を記念したアジアツアーの一環として行う東京公演。2026年2月に予定されていた公演がアーティスト側の事情で延期となり、同じSpotify O-EASTでの振替公演として開催される。開場18:00／開演19:00で、チケットは1階スタンディング8,800円、2階指定席10,800円、サウンドチェックや写真撮影が付くONE LOVE VIP PACKAGEが32,800円。日本での単独公演は12年ぶりとなる。",
+      "description": "イギリス出身の4人組ボーカルグループBlueが結成25周年を記念したアジアツアーの一環として行う東京公演。2026年2月に予定されていた公演がアーティスト側の事情で延期となり、同じSpotify O-EASTで2027年1月19日（火）・20日（水）の2日間、振替公演として開催される。両日とも開場18:00／開演19:00で、チケットは1階スタンディング8,800円、2階指定席10,800円、サウンドチェックや写真撮影が付くONE LOVE VIP PACKAGEが32,800円。日本での単独公演は12年ぶりとなる。",
       "genres": [
         "ポップ",
         "R&B",
@@ -6782,7 +6784,7 @@
       ],
       "image_url": "https://www.universal-music.co.jp/blue/wp-content/uploads/sites/2732/2026/10/blue_1080x1350.jpg",
       "source_url": "https://www.universal-music.co.jp/blue/news/2026-10-02/",
-      "updated_at": "2026-10-07",
+      "updated_at": "2026-10-17",
       "presale": true,
       "presale_datetime": "2026-10-06T12:00:00+09:00",
       "presale_end_datetime": "2026-10-18T23:59:00+09:00",
@@ -6791,14 +6793,14 @@
     },
     {
       "id": "ja-equal-love-tokyo-dome-20270119",
-      "name": "＝LOVE in TOKYO DOME（1日目）",
+      "name": "＝LOVE in TOKYO DOME",
       "release_date": "2027-01-19",
       "category": "concert_tour",
       "platforms": [
         "東京ドーム"
       ],
       "developer": "＝LOVE",
-      "description": "指原莉乃プロデュースのアイドルグループ＝LOVEが、グループ初となる東京ドーム公演【＝LOVE in TOKYO DOME】を2027年1月19日・20日の2日間にわたって行う、その1日目。2026年の国立競技場2デイズで約13万2000人を動員した9周年コンサートに続く、キャリア最大規模の単独公演となる。チケットはオフィシャルファンクラブ最速先行が2026年10月13日17時から10月18日23時59分まで、FC先行が10月26日18時から11月1日23時59分まで受け付けられ、FC先行の終了後に一般先行の実施も予定されている。席種や価格などの詳細は追って発表される。",
+      "description": "指原莉乃がプロデュースするアイドルグループ＝LOVEが、グループ初の東京ドーム公演【＝LOVE in TOKYO DOME】を2027年1月19日（火）・20日（水）の2日間にわたって開催する。2026年に国立競技場2デイズで約13万2000人を動員した9周年コンサートに続く、キャリア最大規模の単独公演となる。チケットはオフィシャルファンクラブ最速先行が2026年10月13日17時から18日23時59分まで、FC先行が10月26日18時から11月1日23時59分まで受け付けられ、FC先行の終了後には一般先行も予定されている。開演時刻や席種・価格は追って発表される。",
       "genres": [
         "J-POP",
         "アイドル"
@@ -6812,60 +6814,8 @@
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "publisher": null,
-      "image_url": null
-    },
-    {
-      "id": "ja-blue-25th-anniversary-tokyo-20270120",
-      "name": "Blue「25th Anniversary Tour」来日公演 DAY2（振替公演）",
-      "release_date": "2027-01-20",
-      "release_time": "19:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "Spotify O-EAST（東京・渋谷）"
-      ],
-      "developer": "Blue（ブルー）",
-      "publisher": "LIVE NATION H.I.P.",
-      "description": "イギリス出身の4人組ボーカルグループBlueが結成25周年を記念したアジアツアーの一環として行う東京公演。2026年2月に予定されていた公演がアーティスト側の事情で延期となり、同じSpotify O-EASTでの振替公演として開催される。開場18:00／開演19:00で、チケットは1階スタンディング8,800円、2階指定席10,800円、サウンドチェックや写真撮影が付くONE LOVE VIP PACKAGEが32,800円。日本での単独公演は12年ぶりとなる。",
-      "genres": [
-        "ポップ",
-        "R&B",
-        "来日公演"
-      ],
-      "image_url": "https://www.universal-music.co.jp/blue/wp-content/uploads/sites/2732/2026/10/blue_1080x1350.jpg",
-      "source_url": "https://www.universal-music.co.jp/blue/news/2026-10-02/",
-      "updated_at": "2026-10-07",
-      "presale": true,
-      "presale_datetime": "2026-10-06T12:00:00+09:00",
-      "presale_end_datetime": "2026-10-18T23:59:00+09:00",
-      "presale_url": "https://w.pia.jp/t/blue2027/",
-      "general_sale": false
-    },
-    {
-      "id": "ja-equal-love-tokyo-dome-20270120",
-      "name": "＝LOVE in TOKYO DOME（2日目）",
-      "release_date": "2027-01-20",
-      "category": "concert_tour",
-      "platforms": [
-        "東京ドーム"
-      ],
-      "developer": "＝LOVE",
-      "description": "指原莉乃プロデュースのアイドルグループ＝LOVEが、グループ初となる東京ドーム公演【＝LOVE in TOKYO DOME】を2027年1月19日・20日の2日間にわたって行う、その2日目。2026年の国立競技場2デイズで約13万2000人を動員した9周年コンサートに続く、キャリア最大規模の単独公演となる。チケットはオフィシャルファンクラブ最速先行が2026年10月13日17時から10月18日23時59分まで、FC先行が10月26日18時から11月1日23時59分まで受け付けられ、FC先行の終了後に一般先行の実施も予定されている。席種や価格などの詳細は追って発表される。",
-      "genres": [
-        "J-POP",
-        "アイドル"
-      ],
-      "source_url": "https://equal-love.jp/news/detail/11613",
-      "presale": true,
-      "general_sale": false,
-      "presale_datetime": "2026-10-13T17:00:00+09:00",
-      "presale_end_datetime": "2026-10-18T23:59:00+09:00",
-      "release_time": null,
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "publisher": null,
-      "image_url": null
+      "image_url": null,
+      "updated_at": "2026-10-17"
     },
     {
       "release_date_approx": false,
@@ -7012,7 +6962,7 @@
     },
     {
       "id": "ja-maroon-5-tokyo-dome-20270130",
-      "name": "マルーン5【Maroon 5 Asia 2027】東京ドーム公演（1日目）",
+      "name": "マルーン5【Maroon 5 Asia 2027】東京ドーム公演",
       "release_date": "2027-01-30",
       "release_time": "18:00",
       "release_date_approx": false,
@@ -7023,7 +6973,7 @@
       ],
       "developer": "マルーン5",
       "publisher": "LIVE NATION H.I.P.",
-      "description": "マルーン5が2027年1月にスタートするアジアツアーの一環として行う来日公演で、2025年以来2年ぶりの日本公演となる。東京ドームでの3days開催で、公演名は【Maroon 5 Asia 2027】。主催はLIVE NATION H.I.P.。チケットはVIP GOLD席128,000円、VIP SILVER席38,800円、SS指定席15,800円ほか複数の席種が用意され、ファンクラブ「S.I.N. Club」先行が2026年8月11日から始まっている。本公演は1日目で、開演は18:00を予定している。",
+      "description": "マルーン5が2027年1月にスタートするアジアツアー【Maroon 5 Asia 2027】の一環として行う来日公演で、2025年以来2年ぶりの日本公演となる。会場は東京ドームで、1月30日（土）18:00、31日（日）17:00、2月2日（火）19:00開演の3公演。主催はLIVE NATION H.I.P.。チケットはVIP GOLD席128,000円、VIP SILVER席38,800円、SS指定席15,800円ほか複数の席種が用意され、ファンクラブ「S.I.N. Club」先行が2026年8月11日から始まっている。",
       "genres": [
         "ポップ・ロック",
         "ドーム公演"
@@ -7031,7 +6981,8 @@
       "image_url": null,
       "source_url": "https://www.universal-music.co.jp/maroon5/news/2026-08-20/",
       "presale": true,
-      "general_sale": false
+      "general_sale": false,
+      "updated_at": "2026-10-17"
     },
     {
       "id": "ja-ayumu-imazu-live-2027-budokan-20270131",
@@ -7090,52 +7041,6 @@
       "general_sale": true,
       "general_sale_datetime": "2026-08-29T12:00:00+09:00",
       "general_sale_url": "https://reserve.bluenote.co.jp/reserve/schedule/show_event_info/4006/"
-    },
-    {
-      "id": "ja-maroon-5-tokyo-dome-20270131",
-      "name": "マルーン5【Maroon 5 Asia 2027】東京ドーム公演（2日目）",
-      "release_date": "2027-01-31",
-      "release_time": "17:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "東京ドーム"
-      ],
-      "developer": "マルーン5",
-      "publisher": "LIVE NATION H.I.P.",
-      "description": "マルーン5が2027年1月にスタートするアジアツアーの一環として行う来日公演で、2025年以来2年ぶりの日本公演となる。東京ドームでの3days開催で、公演名は【Maroon 5 Asia 2027】。主催はLIVE NATION H.I.P.。チケットはVIP GOLD席128,000円、VIP SILVER席38,800円、SS指定席15,800円ほか複数の席種が用意され、ファンクラブ「S.I.N. Club」先行が2026年8月11日から始まっている。本公演は2日目で、開演は17:00を予定している。",
-      "genres": [
-        "ポップ・ロック",
-        "ドーム公演"
-      ],
-      "image_url": null,
-      "source_url": "https://www.universal-music.co.jp/maroon5/news/2026-08-20/",
-      "presale": true,
-      "general_sale": false
-    },
-    {
-      "id": "ja-maroon-5-tokyo-dome-20270202",
-      "name": "マルーン5【Maroon 5 Asia 2027】東京ドーム公演（3日目）",
-      "release_date": "2027-02-02",
-      "release_time": "19:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "東京ドーム"
-      ],
-      "developer": "マルーン5",
-      "publisher": "LIVE NATION H.I.P.",
-      "description": "マルーン5が2027年1月にスタートするアジアツアーの一環として行う来日公演で、2025年以来2年ぶりの日本公演となる。東京ドームでの3days開催で、公演名は【Maroon 5 Asia 2027】。主催はLIVE NATION H.I.P.。チケットはVIP GOLD席128,000円、VIP SILVER席38,800円、SS指定席15,800円ほか複数の席種が用意され、ファンクラブ「S.I.N. Club」先行が2026年8月11日から始まっている。本公演は3日目で、開演は19:00を予定している。",
-      "genres": [
-        "ポップ・ロック",
-        "ドーム公演"
-      ],
-      "image_url": null,
-      "source_url": "https://www.universal-music.co.jp/maroon5/news/2026-08-20/",
-      "presale": true,
-      "general_sale": false
     },
     {
       "release_time": "18:00",
@@ -8654,6 +8559,62 @@
       "general_sale_datetime": "2026-07-18T10:00:00+09:00",
       "general_sale_url": "https://eplus.jp/evanescence/",
       "updated_at": "2026-10-14"
+    },
+    {
+      "id": "ja-six60-right-here-right-now-tokyo-20261214",
+      "name": "SIX60「Right Here Right Now Asia 2026 Tour」東京公演",
+      "release_date": "2026-12-14",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "代官山UNIT"
+      ],
+      "developer": "SIX60",
+      "publisher": "クリエイティブマンプロダクション",
+      "description": "ニュージーランドで最もライブ動員力のあるバンドと評されるロックバンドSIX60が、アジアツアー「Right Here Right Now Asia 2026 Tour」の一環として行う単独来日公演。ダニーデンの学生アパートから活動を始めたバンドで、本国チャートでは4作のアルバムが1位を獲得し、2025年にはAotearoa Music Awardsで同国初の“Chart Icon”に選ばれた。会場は代官山UNITで開場18:00／開演19:00、オールスタンディング8,800円（税込・ドリンク代別）。クリエイティブマン会員先行は10月16日15時から18日18時まで、一般発売は10月24日（土）10時から。",
+      "genres": [
+        "ロック",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://www.creativeman.co.jp/event/six60-26/",
+      "presale": true,
+      "presale_datetime": "2026-10-16T15:00:00+09:00",
+      "presale_end_datetime": "2026-10-18T18:00:00+09:00",
+      "presale_url": "https://www.cmp-members.com/tickets/six60/",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-24T10:00:00+09:00",
+      "updated_at": "2026-10-17"
+    },
+    {
+      "id": "ja-the-lemon-twigs-japan-tour-2027-tokyo-20270122",
+      "name": "THE LEMON TWIGS JAPAN TOUR 2027 東京公演",
+      "release_date": "2027-01-22",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "恵比寿 The Garden Hall（東京）"
+      ],
+      "developer": "The Lemon Twigs",
+      "publisher": "クリエイティブマンプロダクション",
+      "description": "ニューヨーク州ロングアイランド出身のダダリオ兄弟を中心とするロックバンド、ザ・レモン・ツイッグスが2027年1月に行うジャパンツアーの初日・東京公演。会場は恵比寿ザ・ガーデンホールで、開場18:00／開演19:00、オールスタンディング8,800円（税込・ドリンク代別）。ツアーはこの後、1月23日に京都・CLUB METRO、24日に大阪・Yogibo META VALLEYを回る。チケットはWEB販売のみで、クリエイティブマン会員先行とプレイガイド先行を経て、一般発売は10月17日（土）10時にイープラス・チケットぴあ・ローソンチケットで始まった。",
+      "genres": [
+        "ロック",
+        "インディー",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://www.creativeman.co.jp/event/the-lemon-twigs_2027/",
+      "presale": false,
+      "presale_datetime": "2026-10-05T15:00:00+09:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-17T10:00:00+09:00",
+      "general_sale_url": "https://w.pia.jp/t/thelemontwigs-t/",
+      "updated_at": "2026-10-17"
     }
   ]
 }
