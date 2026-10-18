@@ -1291,6 +1291,42 @@
         "agency": "HEHN RECORDS",
         "members": "솔로",
         "debut": "2020"
+      },
+      "V.O.S": {
+        "text": "V.O.S는 박지헌·최현준·김경록으로 구성된 3인조 보컬 그룹이다. 2004년 1집 'The Real'로 데뷔해 '큰일이다', '울어', '눈을 보고 말해요' 등 R&B 발라드로 사랑받았다. 한동안 멤버들이 듀오·솔로로 흩어져 활동하다 2016년 1월 다시 3인 완전체로 돌아왔다.",
+        "agency": null,
+        "members": "3인조",
+        "debut": "2004"
+      },
+      "남진": {
+        "text": "남진은 본명 김남진으로, 전라남도 목포 출신의 가수다. 1965년 '서울 플레이보이'로 데뷔한 뒤 '울려고 내가 왔나', '가슴 아프게', '님과 함께' 등을 히트시키며 '영원한 오빠'로 불려 왔다. '둥지', '나야 나', 장윤정과 함께한 '당신이 좋아' 등으로 세대를 넘어 사랑받으며 60년 가까이 무대를 지키고 있다.",
+        "agency": null,
+        "members": "솔로",
+        "debut": "1965"
+      },
+      "린": {
+        "text": "린(LYn)은 2001년 데뷔한 보컬리스트다. 섬세한 음색과 감정 표현으로 '사랑했잖아' 등의 발라드와 다수의 드라마 OST를 불러 'OST 여왕'으로 불린다. 정규 앨범과 단독 콘서트를 꾸준히 이어가고 있다.",
+        "agency": null,
+        "members": "솔로",
+        "debut": "2001"
+      },
+      "박진영": {
+        "text": "박진영(J.Y. Park)은 1994년 '날 떠나지마'로 데뷔한 가수 겸 프로듀서다. JYP엔터테인먼트를 설립해 god, 원더걸스, 2PM, 트와이스, 스트레이 키즈 등을 키워냈으며, 프로듀서 활동과 별개로 지금도 신곡을 내고 무대에 서는 현역 퍼포머다.",
+        "agency": "JYP엔터테인먼트",
+        "members": "솔로",
+        "debut": "1994"
+      },
+      "빈예서": {
+        "text": "빈예서는 트로트 가수다. 2022년 KBS '전국노래자랑' 연말결선 대상을 받으며 이름을 알렸고, TV조선 '미스트롯3'와 MBN '현역가왕3'에 출연했다. 2024년 10월 '아버지의 인생', '활짝 피어나'로 정식 데뷔했다.",
+        "agency": "예음컬처앤콘텐츠",
+        "members": "솔로",
+        "debut": "2024.10.27"
+      },
+      "이스라엘 & 뉴브리드": {
+        "text": "이스라엘 & 뉴브리드는 미국의 가스펠·워십 리더 이스라엘 호튼이 이끄는 음악 그룹이다. 가스펠에 R&B, 라틴, 록 등 다양한 장르를 섞은 사운드로 미국 현대 가스펠 신에서 꾸준히 활동해 왔다.",
+        "agency": null,
+        "members": null,
+        "debut": null
       }
     },
     "en": {
@@ -2535,6 +2571,120 @@
         "agency": "APESHIT / Blue Note",
         "members": "Duo",
         "debut": "2022"
+      },
+      "10CM": {
+        "text": "10CM is the singer-songwriter project of Kwon Jung-yeol, which debuted with a mini album in 2010. It began as a duo with Yoon Cheol-jong before becoming a one-man project. Known for spare acoustic arrangements and Kwon's light, distinctive voice, 10CM has produced steady hits such as 'Americano' and 'Stalker'.",
+        "agency": null,
+        "members": "Solo project",
+        "debut": "2010"
+      },
+      "ALLOURS": {
+        "text": "ALL(H)OURS is a seven-member South Korean boy group under Eden Entertainment: Kunho, Youmin, Xayden, Minje, Masami, Hyunbin and On:N. They debuted on January 10, 2024 with the EP 'All Ours' and the single 'Gotcha'. The name plays on 'all ours' and 'all hours', and the group is built around high-energy performance.",
+        "agency": "Eden Entertainment",
+        "members": "7 members",
+        "debut": "2024.01.10"
+      },
+      "Dynamic Duo": {
+        "text": "Dynamic Duo is the hip-hop pair of Gaeko and Choiza. After the breakup of their earlier group CB MASS, they restarted as a duo with the 2004 album 'Taxi Driver', and in 2006 they founded their own label, Amoeba Culture. Two decades on, they remain one of Korean hip-hop's best-known acts, with regular albums and year-end concerts.",
+        "agency": "Amoeba Culture",
+        "members": "Duo",
+        "debut": "2004.05.17"
+      },
+      "EPIK HIGH": {
+        "text": "Epik High is a South Korean hip-hop trio made up of Tablo, Mithra Jin and DJ Tukutz. They debuted in 2003 and became known for introspective lyrics and genre-crossing production, with songs such as 'Fly', 'Love Love Love' and 'Born Hater'. They have toured widely abroad, including appearances at Coachella.",
+        "agency": null,
+        "members": "3 members",
+        "debut": "2003"
+      },
+      "Gong Yoo": {
+        "text": "Gong Yoo, born Gong Ji-cheol, began acting in 2001 with the KBS drama 'School 4'. He built a wide following at home and abroad through dramas such as 'Coffee Prince' and 'Goblin' and films including 'Silenced', 'Train to Busan' and 'The Age of Shadows'. Twenty-six years into his career, he is touring Asia with his first fan meeting series, 'The Long Take'.",
+        "agency": "Management SOOP",
+        "members": "Solo",
+        "debut": "2001"
+      },
+      "J.Y. Park": {
+        "text": "J.Y. Park (Park Jin-young) is a singer and producer who debuted in 1994 with 'Don't Leave Me'. He founded JYP Entertainment, home to acts such as god, Wonder Girls, 2PM, TWICE and Stray Kids. Alongside his work as a producer, he still releases new songs and performs as an active stage artist.",
+        "agency": "JYP Entertainment",
+        "members": "Solo",
+        "debut": "1994"
+      },
+      "Jang Wooyoung": {
+        "text": "Jang Wooyoung is a singer and dancer best known as a member of the boy group 2PM, which debuted in 2008. He launched his solo career in 2012 with the single 'Sexy Lady' and has since released solo albums and staged solo concerts alongside his group work.",
+        "agency": null,
+        "members": "Solo",
+        "debut": "2008 (2PM)"
+      },
+      "Jannabi": {
+        "text": "Jannabi is a South Korean rock band led by singer-songwriter Choi Jung-hoon. Since their 2014 debut, they have drawn on retro rock and pop with nostalgic, lyrical songs such as 'For Lovers Who Hesitate'. They have grown from small clubs to arena-sized venues like KSPO Dome.",
+        "agency": "Peponi Music",
+        "members": null,
+        "debut": "2014"
+      },
+      "Kim Jae-hwan": {
+        "text": "Kim Jae-hwan is a solo singer and former member of the project group Wanna One. After the group's run ended, he made his solo debut with his first mini album in 2019. With a wide vocal range and steady live singing, he moves between ballads and pop.",
+        "agency": null,
+        "members": "Solo",
+        "debut": "2017 (Wanna One)"
+      },
+      "Kim Ji-won": {
+        "text": "Kim Ji-won is an actress who debuted through commercials in 2010 and went on to appear in dramas including 'The Heirs', 'Descendants of the Sun', 'Crash Landing on You' and 'Queen of Tears'. Known for understated emotional acting across romance and comedy, she also meets fans directly through fan meetings at home and abroad.",
+        "agency": "HighZium Studio",
+        "members": "Solo",
+        "debut": "2010"
+      },
+      "LUCY": {
+        "text": "LUCY is a four-piece band: Shin Ye-chan, Choi Sang-yeop, Cho Won-sang and Shin Kwang-il. Formed on JTBC's 2019 audition show 'Superband', where they finished runner-up, they released their debut album 'DEAR.' in May 2020. A violin out front and bright, lyrical melodies define their sound.",
+        "agency": "Mystic Story",
+        "members": "4 members",
+        "debut": "2020.05.08"
+      },
+      "Lee Chang-sub": {
+        "text": "Lee Chang-sub is the main vocalist of BTOB and a solo artist. He debuted with BTOB in 2012 and released his first solo song, 'At The End', in 2017 as the opening entry of the 'Piece of BTOB' project. Since signing with Fantagio in 2023, he has put more weight on solo work, including annual solo concerts.",
+        "agency": "Fantagio",
+        "members": "Solo",
+        "debut": "2012.03.21"
+      },
+      "Lee Seung-gi": {
+        "text": "Lee Seung-gi is a singer and actor who debuted in 2004 with 'Because You're My Woman'. Starting out as a ballad singer, he has worked across music, television drama and variety shows.",
+        "agency": null,
+        "members": "Solo",
+        "debut": "2004"
+      },
+      "Nujabes Metaphorical Ensemble": {
+        "text": "Nujabes Metaphorical Ensemble is the official live project of Hydeout Productions, the Tokyo label founded by the late producer Nujabes (Jun Seba, 1974–2010). The ensemble reinterprets his jazz-inflected hip-hop and instrumental work with live musicians.",
+        "agency": "Hydeout Productions",
+        "members": null,
+        "debut": null
+      },
+      "ONEUS": {
+        "text": "ONEUS is a five-member boy group: Seoho, Leedo, Keonhee, Hwanwoong and Xion. They debuted in 2019 with the mini album 'Light Us' and the lead single 'Valkyrie', and became known for stages that blend traditional Korean elements with modern choreography. Originally with RBW, they now work under B.WAVE Entertainment.",
+        "agency": "B.WAVE Entertainment",
+        "members": "5 members",
+        "debut": "2019.01.09"
+      },
+      "Roy Kim": {
+        "text": "Roy Kim is a singer-songwriter who rose to fame by winning the audition show 'Superstar K4' in 2012. His 2013 single 'Bom Bom Bom' became a major hit, and he has continued to release lyrical, acoustic-based songs that he writes himself.",
+        "agency": null,
+        "members": "Solo",
+        "debut": "2013"
+      },
+      "WOODZ": {
+        "text": "WOODZ is the solo name of singer-songwriter Cho Seung-youn, formerly of the groups UNIQ and X1. He has released music as WOODZ since 2020, writing and producing much of it himself, and his guitar-driven songs moved him from idol pop toward a band-rock sound. His single 'Drowning' climbed the charts years after release, broadening his audience.",
+        "agency": "EDAM Entertainment",
+        "members": "Solo",
+        "debut": "2020 (as WOODZ)"
+      },
+      "tripleS": {
+        "text": "tripleS is a 24-member multinational girl group under MODHAUS that debuted as a full group in February 2023. Alongside full-group releases, it puts out records through rotating sub-units, and fans vote on unit lineups and tracks as part of the group's participatory model.",
+        "agency": "MODHAUS",
+        "members": "24 members",
+        "debut": "2023.02.13"
+      },
+      "Panic": {
+        "text": "Panic is the duo of Lee Juck and Kim Jin-pyo, who debuted in 1995. Songs such as 'Snail' and 'Left-Handed' paired Lee's melodies with sharp, socially minded lyrics and left a lasting mark on 1990s Korean pop.",
+        "agency": null,
+        "members": "Duo",
+        "debut": "1995"
       }
     },
     "ja": {
@@ -3707,6 +3857,96 @@
         "agency": null,
         "members": "ソロ",
         "debut": "2021"
+      },
+      "Ayumu Imazu": {
+        "text": "Ayumu Imazuは大阪府八尾市出身のシンガーソングライター／ダンサー。14歳でプロジェクト「GLOBAL JAPAN CHALLENGE」に選ばれ、約3年半ニューヨークで音楽とダンスを学んだ。2018年にソロ活動を始め、2021年8月13日の配信シングル「Juice」でメジャーデビュー。2024年の「Obsessed」がダンスチャレンジを通じてSNSで広く拡散した。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": "2021.08.13"
+      },
+      "Bruno Mars": {
+        "text": "ブルーノ・マーズはハワイ・ホノルル出身のシンガーソングライター／プロデューサー。2010年のデビュー・アルバム『Doo-Wops & Hooligans』で世界的にブレイクし、「Just the Way You Are」「Uptown Funk」（マーク・ロンソンとの共演）など数々のヒットを生んだ。アンダーソン・パークとのユニット、シルク・ソニックでも活動している。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": "2010"
+      },
+      "Evanescence": {
+        "text": "エヴァネッセンスは米アーカンソー州リトルロックで結成された、エイミー・リー率いるロックバンド。2003年のアルバム『Fallen』と「Bring Me to Life」で世界的な成功を収めた。ピアノとヘヴィなギターを組み合わせたゴシックな音像と、エイミー・リーの伸びやかな歌声が持ち味。",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "MEGADETH": {
+        "text": "メガデスは1983年、メタリカを脱退したデイヴ・ムステインがロサンゼルスで結成したスラッシュメタル・バンド。複雑なリフと鋭いギターソロで、メタリカ、スレイヤー、アンスラックスとともに「スラッシュメタル四天王」と呼ばれる。日本でも長く人気を保ち、最後の来日と銘打ったツアーを行う。",
+        "agency": null,
+        "members": null,
+        "debut": "1983（結成）"
+      },
+      "Stereolab": {
+        "text": "ステレオラブは1990年にロンドンで結成されたバンドで、ティム・ゲインとレティシア・サディエールを中心に活動する。クラウトロックのミニマルな反復、ラウンジ・ポップ、電子音を独自に融合させ、フランス語と英語を交えた歌詞でも知られる。2019年に活動を再開した。",
+        "agency": null,
+        "members": null,
+        "debut": "1990（結成）"
+      },
+      "The Lemon Twigs": {
+        "text": "ザ・レモン・ツイッグスは、ニューヨーク州ロングアイランド出身のブライアンとマイケルのダダリオ兄弟を中心とするロックバンド。2016年に4ADからデビュー・アルバム『Do Hollywood』を発表した。60〜70年代のポップスやロックへの深い愛情を感じさせるメロディとハーモニーが持ち味。",
+        "agency": null,
+        "members": null,
+        "debut": "2016"
+      },
+      "beabadoobee": {
+        "text": "ビーバドゥービーはフィリピン生まれ、ロンドン育ちのシンガーソングライター。2017年に発表した楽曲「Coffee」がネットで広まり、ロンドンのレーベルDirty Hitと契約した。90年代オルタナティヴ・ロックを思わせるギターサウンドと、等身大の歌詞で支持を集めている。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": null
+      },
+      "Young K": {
+        "text": "Young Kは韓国のバンドDAY6のベース兼ボーカル。2015年にDAY6としてデビューし、多くの楽曲で作詞・作曲にも携わってきた。ソロでも作品を発表し、ワールドツアーを行っている。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": "2015（DAY6）"
+      },
+      "宮本浩次": {
+        "text": "宮本浩次はロックバンド、エレファントカシマシのボーカル・ギターで、ほぼ全楽曲の作詞・作曲を手がける。1988年にバンドでデビューし、「今宵の月のように」などで知られる。2019年からはソロ活動も本格化させ、カバー・アルバムやオリジナル作品を発表している。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": "1988（エレファントカシマシ）"
+      },
+      "Blue": {
+        "text": "Blueはダンカン・ジェームス、リー・ライアン、サイモン・ウェブ、アントニー・コスタからなるイギリスの4人組ボーカルグループ。2001年のデビュー曲「All Rise」をはじめとするヒットで人気を得た。日本でも根強いファンを持ち、結成25周年を迎えた。",
+        "agency": null,
+        "members": "4人組",
+        "debut": null
+      },
+      "JxJ": {
+        "text": "JxJはSEVENTEENのボーカルチームで活動するJEONGHANとJOSHUAによるユニット。グループのパフォーマンス中心の楽曲とは異なり、二人の声の重なりを生かしたバラードやミディアムテンポの楽曲を中心に届ける。",
+        "agency": "PLEDIS Entertainment",
+        "members": "2人組",
+        "debut": null
+      },
+      "THE&": {
+        "text": "THE&は、FUZZY CONTROLで長年コンビを組んできたJUON（ギター・ヴォーカル）とSATOKO（ドラム・コーラス）によるバンド。2ndアルバム『THE&II』を携えて全国ツアーを行っている。",
+        "agency": null,
+        "members": "2人組",
+        "debut": null
+      },
+      "ブロークン・ソーシャル・シーン": {
+        "text": "ブロークン・ソーシャル・シーンはカナダ・トロントを拠点とする大所帯のバンド／音楽集団。ケヴィン・ドリューとブレンダン・カニングを中心に結成され、ファイストやメトリックのメンバーなど多くのミュージシャンが参加してきた。2002年の『You Forgot It in People』でインディー・ロックの重要バンドとして評価を確立した。",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "デイヴ・マシューズ": {
+        "text": "デイヴ・マシューズは南アフリカ生まれのシンガーソングライター／ギタリスト。1991年に米バージニア州シャーロッツビルで結成したデイヴ・マシューズ・バンドのフロントマンとして、ジャム的な長尺演奏を特徴とするライブで米国屈指の動員力を誇る。アコースティック編成でのソロ公演も行っている。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": null
+      },
+      "ジョン・クリアリー": {
+        "text": "ジョン・クリアリーはイギリス出身で、ニューオーリンズを拠点とするシンガー／ピアニスト。プロフェッサー・ロングヘアらに連なるニューオーリンズ・ピアノの伝統を受け継ぎ、ボニー・レイットのバンドでも長く活動した。2016年にはアルバム『Go Go Juice』でグラミー賞を受賞している。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": null
       }
     }
   }
