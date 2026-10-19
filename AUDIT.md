@@ -2,9 +2,34 @@
 
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
-| ko | 2026-10-12 | ← |
-| en | 2026-10-14 | |
+| ko | 2026-10-19 | |
+| en | 2026-10-14 | ← |
 | ja | 2026-10-16 | |
+
+---
+
+## 2026-10-19 · ko
+
+로테이션상 ko가 가장 오래된 점검일(2026-10-12)이라 선택. 대상 창: 2026-08-20 ~ 2026-12-18(오늘 ±60일), 창 안 항목 193건(끝난 것 125 / 예정 68). 코드는 손대지 않았고 `data/concerts.ko.json`만 수정(파일 상단 `last_updated` 2026-10-19). push 전 `validate-data.mjs` 통과. 지난 회차들과 같이 **실제로 고친 25건에만 `updated_at=2026-10-19`**, 항목 단위 `last_updated`는 넣지 않음.
+
+**트랙 A (졸업 처리) — 20건** (상한 20 도달)
+- A-1/A-2 끝난 공연의 예매 필드·플래그 정리 + description 과거형 11건(§7대로 `presale`/`general_sale=false` + 예매 URL·datetime 필드 null, 시제만 교정 — 새 사실 추가 없음): ko-yosea-asia-tour-seoul-20261009, ko-allhours-rise-up-seoul-20261010, ko-cero-contemporary-seoul-cruise-20261010, ko-charlieputh-whatevers-clever-goyang-20261011(지난 회차 이월분 4건 여기까지), ko-hwangminhyun-dowongyeong-seoul-20261016, ko-highlight-fancon-seoul-20261016, ko-omoinotake-one-man-tour-seoul-20261017, ko-ano-live-in-seoul-20261017, ko-gmf-2026-20261017(festival_days 마지막 날 10/18 기준), ko-takasetoya-asia-tour-seoul-20261018, ko-paul-gilbert-wroc-world-tour-seoul-20261018
+- A-4 music_release 시제("발매한다" → "발매했다", 구매 링크는 규칙대로 미변경) 9건: ko-triples-love-and-pop-pt2-20261020, ko-kimjaejoong-the-wave-single-20260820, ko-tiffanyyoung-edge-of-calm-20260820, ko-eungaeun-jeonguk-paldo-20260824, ko-tuide-tune-and-play-20260824, ko-kimkitae-namu-gabang-20260826, ko-taemin-phase1-soft-violence-20260831("서울 공연 날짜 아직 미공개" → "발표 당시 미공개"), ko-82major-heat-20260901, ko-shinwonho-super-star-20260902
+- 의도적 제외: ko-kimdongryul-old-song-seoul-20261017 — 10/22~25 잔여 회차 진행 중(festival_days 없음, 끝난 공연 아님). ko-postmalone-big-stadium-tour-seoul-20261002 approx=true 유지(연기·새 날짜 미발표). 오탐: ko-kimyongbin-serenade-seoul-20260919("진행될 계획이었다" — 이미 과거형)
+
+**트랙 B (임박 점검) — 8건 확인** (공연일 가까운 순, `updated_at` 없는 항목)
+- ko-onew-chakgak-20261020 — 10/20 오후 6시 발매 유지, 3곡(착각·Mind Games·Tic Tac Toe)(스타뉴스 10/13). `release_time` 18:00 추가, **`publisher` SM엔터테인먼트 → 그리핀엔터테인먼트**(코리아헤럴드: Griffin Entertainment 확인)
+- ko-kennyg-live-in-seoul-20261020 — 10/20~21 광운대 동해문화예술관 유지(노컷뉴스). 변경 없음
+- ko-lucy-island-encore-seoul-20261023 — 10/23~25 화정체육관 유지. "예매 일정은 추후 공지" 서술 → 9/17 20시 멜론티켓 팬클럽 선예매·9/22 20시 일반 예매로 갱신, 두 datetime 반영(스포츠경향 9/18). 일반 예매처 미확인이라 URL은 null 유지
+- ko-lisa-press-play-20261023 — 10/23 발매 유지(노컷뉴스). 변경 없음
+- ko-day6-5th-fanmeeting-incheon-20261023 — 10/23~25 인스파이어 아레나 유지. 지난 예매 문장 시제 교정, 선예매 종료로 `presale=false`
+- ko-leeseunggi-gisungjeon-rak-seoul-20261024 — **회차 추가**: NOL 공식 상품 페이지에 10/23(금) 19:30 추가 공연(9/11 18시 예매 오픈) 게재 → `release_date` 2026-10-23·`release_time` 19:30, description 회차 서술 갱신. id는 그대로 둠
+- ko-sosubin-neulgeuraewaetdeon-seoul-20261024 — NOL 페이지 10/24 18시·10/25 17시 올림픽홀, 취소 공지 없음(10/8 추가석 오픈). 변경 없음
+- ko-kimjiwon-wonederland-seoul-20261024 — 10/24~25 성신여대 운정그린캠퍼스 대강당 유지(엑스포츠뉴스). 예매 문장 시제 교정
+- B-3 링크: 8건의 source/image/예매 URL 20개 실제 접속 — 전부 200. 죽은 링크 없음
+
+**남은 것**: 트랙 A 이월 — music_release 시제("발매한다") 약 7건(ko-evan-death-of-me-20260907, ko-kimheejae-reverb-20260907, ko-soyeon-solo-comeback-20260910, ko-inaminute-midnight-20260909, ko-allhours-unbound-20260910, ko-youngtak-gogo-20260914, ko-kickflip-kick-off-the-wall-pt1-20261006, ko-roykim-cry-out-loud-20261006, ko-nctwish-i-spy-20261012) + 10/25 이후 ko-kimdongryul-old-song-seoul-20261017. 트랙 B 다음 순번: ko-bensonboone-wanted-man-tour-seoul-20261026, ko-riize-prologue-single-20261026, ko-illit-break-even-20261026, ko-kimfeel-journey-20261029부터
+**리서처 참고(추가 안 함)**: 신규 미등록 공연 발견 없음. ko-leeseunggi-gisungjeon-rak-seoul-20261024의 id 날짜(1024)가 첫 회차(1023)와 어긋남, ko-triples-love-and-pop-pt2-20261020도 여전히 동일 — id 정리 여부 판단 권장
 
 ---
 
