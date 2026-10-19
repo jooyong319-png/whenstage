@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-16",
+  "last_updated": "2026-10-19",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -7488,7 +7488,7 @@
       ],
       "developer": "Trans-Siberian Orchestra",
       "publisher": null,
-      "description": "Trans-Siberian Orchestra play two shows at Ball Arena on 2026-11-21 as part of a 30th anniversary winter run built around a restaged version of The Ghosts of Christmas Eve, followed by a second set of holiday material with lasers and pyrotechnics. The tour again splits into eastern and western casts to cover roughly fifty cities between November 19 and December 30. General sale opens September 18, 2026 at 10am local time.",
+      "description": "Ball Arena in Denver gets two Trans-Siberian Orchestra performances on Saturday, November 21, 2026, at 3 p.m. and 7:30 p.m. local time, two days after the winter tour opens in Green Bay. This year's first set restages The Ghosts of Christmas Eve to mark 30 years since the debut album Christmas Eve and Other Stories, and a second set of holiday material follows with lasers and pyrotechnics.",
       "genres": [
         "Symphonic Rock",
         "Holiday",
@@ -7499,7 +7499,8 @@
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": "2026-09-18T10:00:00-07:00",
-      "general_sale_url": "https://www.ticketmaster.com/transsiberian-orchestra-tickets/artist/780815"
+      "general_sale_url": "https://www.ticketmaster.com/transsiberian-orchestra-tickets/artist/780815",
+      "updated_at": "2026-10-19"
     },
     {
       "id": "en-syd-beard-tour-atlanta-20261124",
@@ -8374,7 +8375,7 @@
       ],
       "developer": "Trans-Siberian Orchestra",
       "publisher": null,
-      "description": "Trans-Siberian Orchestra play two shows at PPG Paints Arena on 2026-12-19 as part of a 30th anniversary winter run built around a restaged version of The Ghosts of Christmas Eve, followed by a second set of holiday material with lasers and pyrotechnics. The tour again splits into eastern and western casts to cover roughly fifty cities between November 19 and December 30. General sale opens September 18, 2026 at 10am local time.",
+      "description": "PPG Paints Arena in Pittsburgh hosts Trans-Siberian Orchestra twice on Saturday, December 19, 2026, with a 2:30 p.m. matinee and a 7:30 p.m. evening show. It falls on one of the last weekends of the winter run, which ends December 30 in St. Louis. Fan club presales were held September 10 and 11, ahead of the general on-sale on September 18.",
       "genres": [
         "Symphonic Rock",
         "Holiday",
@@ -8385,7 +8386,8 @@
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": "2026-09-18T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/transsiberian-orchestra-tickets/artist/780815"
+      "general_sale_url": "https://www.ticketmaster.com/transsiberian-orchestra-tickets/artist/780815",
+      "updated_at": "2026-10-19"
     },
     {
       "id": "en-trans-siberian-orchestra-philadelphia-20261220",
@@ -8400,7 +8402,7 @@
       ],
       "developer": "Trans-Siberian Orchestra",
       "publisher": null,
-      "description": "Trans-Siberian Orchestra play two shows at Xfinity Mobile Arena on 2026-12-20 as part of a 30th anniversary winter run built around a restaged version of The Ghosts of Christmas Eve, followed by a second set of holiday material with lasers and pyrotechnics. The tour again splits into eastern and western casts to cover roughly fifty cities between November 19 and December 30. General sale opens September 18, 2026 at 10am local time.",
+      "description": "Xfinity Mobile Arena in Philadelphia has the Sunday, December 20, 2026 stop, a 3 p.m. matinee and a 7:30 p.m. evening performance, the day after the Pittsburgh shows. Tickets went on general sale September 18 at 10 a.m. local time, following a Live Nation presale for select dates on September 17. The program pairs the 30th-anniversary staging of The Ghosts of Christmas Eve with a set of holiday songs.",
       "genres": [
         "Symphonic Rock",
         "Holiday",
@@ -8411,7 +8413,8 @@
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": "2026-09-18T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/transsiberian-orchestra-tickets/artist/780815"
+      "general_sale_url": "https://www.ticketmaster.com/transsiberian-orchestra-tickets/artist/780815",
+      "updated_at": "2026-10-19"
     },
     {
       "release_time": null,
@@ -9318,7 +9321,7 @@
       ],
       "developer": "Radiohead",
       "publisher": null,
-      "description": "Radiohead open a four-night stand at RAC Arena in Perth on 2027-05-03, part of their first Australian tour in fifteen years. The 2027 run covers Perth, Melbourne and Sydney before residencies in Japan, and follows the band's European residency shows of late 2025. Tickets were sold only through a registration ballot on the band's own site, capped at four per fan, to limit bots and resale.",
+      "description": "Radiohead begin their 2027 Australian run with four nights at RAC Arena in Perth on May 3, 4, 6 and 7. Perth is the shortest of the three Australian stands; the band then plays six nights each in Melbourne and Sydney and finishes with five at GMO Arena Saitama in Japan in June, 21 shows in all. There was no open on-sale: fans had to register on radiohead.com, with up to four tickets per registration.",
       "genres": [
         "Alternative Rock",
         "Rock",
@@ -9327,7 +9330,8 @@
       "image_url": null,
       "source_url": "https://www.nme.com/news/music/radiohead-announce-long-run-of-2027-residency-shows-in-australia-and-japan-buy-tickets-3967312",
       "presale": false,
-      "general_sale": false
+      "general_sale": false,
+      "updated_at": "2026-10-19"
     },
     {
       "id": "en-supergrass-london-20270507",
@@ -9467,7 +9471,7 @@
       ],
       "developer": "Radiohead",
       "publisher": null,
-      "description": "Radiohead open a six-night stand at Rod Laver Arena in Melbourne on 2027-05-13, part of their first Australian tour in fifteen years. The 2027 run covers Perth, Melbourne and Sydney before residencies in Japan, and follows the band's European residency shows of late 2025. Tickets were sold only through a registration ballot on the band's own site, capped at four per fan, to limit bots and resale.",
+      "description": "Rod Laver Arena in Melbourne hosts six Radiohead nights on May 13, 14, 16, 17, 19 and 20, 2027, the middle leg of the band's Australian residency run between the Perth opener and the Sydney shows. As with every date on this tour, seats went only to fans who signed up through the band's official website, which the band said was a way to keep bots and scalpers out.",
       "genres": [
         "Alternative Rock",
         "Rock",
@@ -9476,7 +9480,8 @@
       "image_url": null,
       "source_url": "https://www.nme.com/news/music/radiohead-announce-long-run-of-2027-residency-shows-in-australia-and-japan-buy-tickets-3967312",
       "presale": false,
-      "general_sale": false
+      "general_sale": false,
+      "updated_at": "2026-10-19"
     },
     {
       "id": "en-bruno-mars-the-romantic-seoul-20270521",
@@ -9574,7 +9579,7 @@
       ],
       "developer": "Radiohead",
       "publisher": null,
-      "description": "Radiohead open a six-night stand at Afterpay Arena in Sydney on 2027-05-25, part of their first Australian tour in fifteen years. The 2027 run covers Perth, Melbourne and Sydney before residencies in Japan, and follows the band's European residency shows of late 2025. Tickets were sold only through a registration ballot on the band's own site, capped at four per fan, to limit bots and resale.",
+      "description": "Sydney's Afterpay Arena closes the Australian part of Radiohead's 2027 run with six shows on May 25, 26, 28, 29 and 31 and June 1. A week later the band moves on to Japan for five nights at GMO Arena Saitama from June 8. Access is by registration rather than a public sale, and each registration is capped at four tickets.",
       "genres": [
         "Alternative Rock",
         "Rock",
@@ -9583,7 +9588,8 @@
       "image_url": null,
       "source_url": "https://www.nme.com/news/music/radiohead-announce-long-run-of-2027-residency-shows-in-australia-and-japan-buy-tickets-3967312",
       "presale": false,
-      "general_sale": false
+      "general_sale": false,
+      "updated_at": "2026-10-19"
     },
     {
       "id": "en-tame-impala-deadbeat-manchester-20270528",
@@ -10118,6 +10124,134 @@
         "ko": "ko-kimjaehwan-yeoback-seoul-20261031"
       },
       "updated_at": "2026-10-16"
+    },
+    {
+      "id": "en-and2ble-winter-inside-fancon-seoul-20261205",
+      "name": "2026 AND2BLE FAN-CON <W!nter inside> in Seoul",
+      "release_date": "2026-12-05",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "Korea University, Seoul(Hwajung Gymnasium)"
+      ],
+      "developer": "AND2BLE",
+      "publisher": "YH Entertainment",
+      "description": "AND2BLE hold their first fan-con, W!nter inside, at Korea University's Hwajung Gymnasium (Tiger Dome) in Seoul on December 5 at 5 p.m. and December 6 at 4 p.m. KST, before taking it to Yokohama on December 11 and 12. Melon Ticket runs the sale: the domestic fan club presale opens October 21 at 8 p.m. KST, the global fan club presale for Weverse N:DCLO (GL) members October 22 at 8 p.m., and the general sale October 23 at 8 p.m. Overseas buyers must finish passport verification on Melon's global page first. All seats are 143,000 won; ages 7 and up.",
+      "genres": [
+        "K-Pop",
+        "Fan Meeting"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/10/20261013140753e1fe9f8e-8736-43d3-ac9c-1e3834b1eb7e.jpg",
+      "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13055",
+      "presale": true,
+      "presale_datetime": "2026-10-21T20:00:00+09:00",
+      "presale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13055",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-23T20:00:00+09:00",
+      "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13055",
+      "related_locale_ids": {
+        "ko": "ko-and2ble-winter-inside-fancon-seoul-20261205"
+      },
+      "updated_at": "2026-10-19"
+    },
+    {
+      "id": "en-mma-2026-20261114",
+      "name": "Melon Music Awards 2026 (MMA2026)",
+      "release_date": "2026-11-14",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "festival",
+      "platforms": [
+        "Gocheok Sky Dome, Seoul"
+      ],
+      "developer": null,
+      "publisher": "Kakao Entertainment",
+      "description": "The 18th Melon Music Awards run over two nights for the first time, at Gocheok Sky Dome in Seoul on November 14 and 15, 2026, from 6 p.m. KST each day, with aespa, NCT DREAM and ATEEZ among 14 acts on night one and IVE, CORTIS and NCT 127 among 12 on night two. Tickets are sold on Melon Ticket to Melon members only: round one on October 19 at 8 p.m. KST is for subscribers of at least a year with GOLD grade or higher, and round two on October 22 at 8 p.m. is open to any current Melon pass holder, two tickets per Melon ID in total. No separate global sale has been announced; overseas fans can stream it on the Melon and 1theK YouTube channels.",
+      "genres": [
+        "K-Pop",
+        "Awards",
+        "Festival"
+      ],
+      "image_url": null,
+      "source_url": "https://www.etoday.co.kr/news/view/2637167",
+      "presale": true,
+      "presale_datetime": "2026-10-19T20:00:00+09:00",
+      "presale_end_datetime": "2026-10-19T23:59:00+09:00",
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-22T20:00:00+09:00",
+      "general_sale_url": null,
+      "festival_days": [
+        {
+          "date": "2026-11-14",
+          "lineup": [
+            "I.O.I",
+            "aespa",
+            "NCT DREAM",
+            "ATEEZ",
+            "YENA",
+            "RIIZE",
+            "TWS",
+            "RESCENE",
+            "Hearts2Hearts",
+            "Dragon Pony",
+            "IDID",
+            "AEN",
+            "TUIDE",
+            "HANA"
+          ]
+        },
+        {
+          "date": "2026-11-15",
+          "lineup": [
+            "IVE",
+            "KiiiKiii",
+            "CORTIS",
+            "NCT 127",
+            "PLAVE",
+            "82MAJOR",
+            "NCT WISH",
+            "ILLIT",
+            "ALPHA DRIVE ONE",
+            "LNGSHOT",
+            "AND2BLE",
+            "hrtz.wav"
+          ]
+        }
+      ],
+      "updated_at": "2026-10-19"
+    },
+    {
+      "id": "en-nmixx-zero-frontier-finale-incheon-20261127",
+      "name": "NMIXX 1st World Tour Finale <Episode 1: Zero Frontier> in Incheon",
+      "release_date": "2026-11-27",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Inspire Arena, Incheon"
+      ],
+      "developer": "NMIXX",
+      "publisher": "JYP Entertainment",
+      "description": "NMIXX wrap up their first world tour, Episode 1: Zero Frontier, with three nights at Inspire Arena in Incheon from November 27 to 29, 2026, returning to the arena where their two November 2025 shows sold out after a run that took in Europe, North America and Asia. Tickets are on NOL: the NSWER 4th-generation fan club presale runs October 26 from 8 p.m. to 11:59 p.m. KST, one ticket per person per show, and the general sale opens October 27 at 8 p.m. KST. Show times have not yet been listed. The venue is about 14 minutes by car from Incheon Airport Terminal 1.",
+      "genres": [
+        "K-Pop",
+        "Concert"
+      ],
+      "image_url": "https://media.triple.guide/triple-cms/c_limit,f_auto,h_2048,w_2048/d784960c-4c0b-4ba7-8cb8-c1c09a36b4fb.jpg",
+      "source_url": "https://world.nol.com/en/content/festas/01a0320c-febb-7711-aad0-d39586c2da5f",
+      "presale": true,
+      "presale_datetime": "2026-10-26T20:00:00+09:00",
+      "presale_end_datetime": "2026-10-26T23:59:00+09:00",
+      "presale_url": "https://world.nol.com/en/content/festas/01a0320c-febb-7711-aad0-d39586c2da5f",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-27T20:00:00+09:00",
+      "general_sale_url": "https://world.nol.com/en/content/festas/01a0320c-febb-7711-aad0-d39586c2da5f",
+      "updated_at": "2026-10-19"
     }
   ]
 }
