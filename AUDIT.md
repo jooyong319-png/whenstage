@@ -28,7 +28,7 @@
 - ko-kimjiwon-wonederland-seoul-20261024 — 10/24~25 성신여대 운정그린캠퍼스 대강당 유지(엑스포츠뉴스). 예매 문장 시제 교정
 - B-3 링크: 8건의 source/image/예매 URL 20개 실제 접속 — 전부 200. 죽은 링크 없음
 
-**남은 것**: 트랙 A 이월 — music_release 시제("발매한다") 약 7건(ko-evan-death-of-me-20260907, ko-kimheejae-reverb-20260907, ko-soyeon-solo-comeback-20260910, ko-inaminute-midnight-20260909, ko-allhours-unbound-20260910, ko-youngtak-gogo-20260914, ko-kickflip-kick-off-the-wall-pt1-20261006, ko-roykim-cry-out-loud-20261006, ko-nctwish-i-spy-20261012) + 10/25 이후 ko-kimdongryul-old-song-seoul-20261017. 트랙 B 다음 순번: ko-bensonboone-wanted-man-tour-seoul-20261026, ko-riize-prologue-single-20261026, ko-illit-break-even-20261026, ko-kimfeel-journey-20261029부터
+**남은 것**: 트랙 A 이월 — music_release 시제("발매한다") 9건(ko-evan-death-of-me-20260907, ko-kimheejae-reverb-20260907, ko-soyeon-solo-comeback-20260910, ko-inaminute-midnight-20260909, ko-allhours-unbound-20260910, ko-youngtak-gogo-20260914, ko-kickflip-kick-off-the-wall-pt1-20261006, ko-roykim-cry-out-loud-20261006, ko-nctwish-i-spy-20261012) + 10/25 이후 ko-kimdongryul-old-song-seoul-20261017. 트랙 B 다음 순번: ko-bensonboone-wanted-man-tour-seoul-20261026, ko-riize-prologue-single-20261026, ko-illit-break-even-20261026, ko-kimfeel-journey-20261029부터
 **리서처 참고(추가 안 함)**: 신규 미등록 공연 발견 없음. ko-leeseunggi-gisungjeon-rak-seoul-20261024의 id 날짜(1024)가 첫 회차(1023)와 어긋남, ko-triples-love-and-pop-pt2-20261020도 여전히 동일 — id 정리 여부 판단 권장
 
 ---
