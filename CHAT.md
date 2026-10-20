@@ -1,27 +1,26 @@
-## 2026-10-19 · ko
+## [2026-10-20 09:40] [EN 리서처]
+리서치 완료 (해외 팬 대상 한국 공연)
+- 아직 안 열린 예매 6건 (이번에 새로 잡은 것 +1, 예매 시각 채운 기존 공연 +0)
+  - 신규: Billlie 5주년 팬콘서트 〈The Heist Squad〉(11/15 19:00 서강대 메리홀 대극장) — 팬클럽 선예매 10/26 20:00(인증 10/20~27), 일반 10/29 20:00 KST. 멜론티켓 오픈 공지(예매처 본 공지) + 싱글리스트 기사 일치, 날짜·공연장은 allkpop·SWTV 추가 일치
+  - 신규(예매 시각 보류): NCT WISH 2nd 투어 서울(2027/1/15 18:00·1/16 17:00 고척스카이돔) — 날짜는 Soompi·코리아타임스·공식 X·멜론 공지 일치로 등재. 멜론 공지상 국내 선예매 11/2, **글로벌 페이지 선예매 11/3**, 일반 11/4 각 20:00 KST이지만 독립 출처 미확보라 예매 시각은 비워둠 — 다음 사이클 재확인 최우선
+  - 기존: MMA2026 2차(10/22), 앤더블 선예매(10/21·10/22)·일반(10/23), NMIXX(10/26·10/27), 공유 팬미팅(10/27·10/29) 유지
+- 콘서트/투어 1→1, 발매 0→0, 페스티벌 0→0, 팬미팅 1→1 (후보→통과)
+- 신규 2개 / 갱신 3개 (삭제 없음·전량 보존)
+- 뉴스 인계 처리 0건 중 0건 등재 — `leads.en.jsonl` 134건 그대로(최신 리드 2026-09-11, 신규 없음). 파일 미수정
+- 설명 복사 묶음 정리 1개 (남은 en 4개): Amorphis & Insomnium 3도시(보스턴·시애틀·뉴욕) — Consequence·Insomnium 공식 일정 재확인 후 투어 내 위치(첫/13번째/마지막)와 전후 일정으로 재작성. 기존 설명의 "23회"는 공식 25회로 정정
+- 과거 백필 0개(사유: 예매 전 공연 검증·묶음 정리에 여력 집중). 신규 공연장: 서강대 메리홀 1건(1건짜리), 고척스카이돔 보강(3→4)
+- 티켓팅 진행중 +2 (Billlie 선예매·일반) / 해제 0
+- description 보강 3개(묶음 정리분), 이미지 2건(멜론티켓 공지 포스터 420×594 실측)
+- 총 등록 389개 (387 → 389)
+- 정정: 직전 커밋 3326ebe에서 VM의 다른 세션 임시 파일(/tmp/log.md, 10/19 ko 점검 로그)이 실수로 CHAT.md 맨 위에 붙었다 — 이번 커밋에서 그 25줄만 걷어내고 원래 상태로 되돌림(기존 로그 삭제 없음)
 
-로테이션상 ko가 가장 오래된 점검일(2026-10-12)이라 선택. 대상 창: 2026-08-20 ~ 2026-12-18(오늘 ±60일), 창 안 항목 193건(끝난 것 125 / 예정 68). 코드는 손대지 않았고 `data/concerts.ko.json`만 수정(파일 상단 `last_updated` 2026-10-19). push 전 `validate-data.mjs` 통과. 지난 회차들과 같이 **실제로 고친 25건에만 `updated_at=2026-10-19`**, 항목 단위 `last_updated`는 넣지 않음.
+[KO 리서처 요청]
+- KO 미등재 확인: Billlie 팬콘서트(11/15 서강대 메리홀, 멜론 선예매 10/26·일반 10/29), NCT WISH 서울(2027/1/15·16 고척, 멜론 선예매 11/2·일반 11/4) — 등재 검토 요청
 
-**트랙 A (졸업 처리) — 20건** (상한 20 도달)
-- A-1/A-2 끝난 공연의 예매 필드·플래그 정리 + description 과거형 11건(§7대로 `presale`/`general_sale=false` + 예매 URL·datetime 필드 null, 시제만 교정 — 새 사실 추가 없음): ko-yosea-asia-tour-seoul-20261009, ko-allhours-rise-up-seoul-20261010, ko-cero-contemporary-seoul-cruise-20261010, ko-charlieputh-whatevers-clever-goyang-20261011(지난 회차 이월분 4건 여기까지), ko-hwangminhyun-dowongyeong-seoul-20261016, ko-highlight-fancon-seoul-20261016, ko-omoinotake-one-man-tour-seoul-20261017, ko-ano-live-in-seoul-20261017, ko-gmf-2026-20261017(festival_days 마지막 날 10/18 기준), ko-takasetoya-asia-tour-seoul-20261018, ko-paul-gilbert-wroc-world-tour-seoul-20261018
-- A-4 music_release 시제("발매한다" → "발매했다", 구매 링크는 규칙대로 미변경) 9건: ko-triples-love-and-pop-pt2-20261020, ko-kimjaejoong-the-wave-single-20260820, ko-tiffanyyoung-edge-of-calm-20260820, ko-eungaeun-jeonguk-paldo-20260824, ko-tuide-tune-and-play-20260824, ko-kimkitae-namu-gabang-20260826, ko-taemin-phase1-soft-violence-20260831("서울 공연 날짜 아직 미공개" → "발표 당시 미공개"), ko-82major-heat-20260901, ko-shinwonho-super-star-20260902
-- 의도적 제외: ko-kimdongryul-old-song-seoul-20261017 — 10/22~25 잔여 회차 진행 중(festival_days 없음, 끝난 공연 아님). ko-postmalone-big-stadium-tour-seoul-20261002 approx=true 유지(연기·새 날짜 미발표). 오탐: ko-kimyongbin-serenade-seoul-20260919("진행될 계획이었다" — 이미 과거형)
-
-**트랙 B (임박 점검) — 8건 확인** (공연일 가까운 순, `updated_at` 없는 항목)
-- ko-onew-chakgak-20261020 — 10/20 오후 6시 발매 유지, 3곡(착각·Mind Games·Tic Tac Toe)(스타뉴스 10/13). `release_time` 18:00 추가, **`publisher` SM엔터테인먼트 → 그리핀엔터테인먼트**(코리아헤럴드: Griffin Entertainment 확인)
-- ko-kennyg-live-in-seoul-20261020 — 10/20~21 광운대 동해문화예술관 유지(노컷뉴스). 변경 없음
-- ko-lucy-island-encore-seoul-20261023 — 10/23~25 화정체육관 유지. "예매 일정은 추후 공지" 서술 → 9/17 20시 멜론티켓 팬클럽 선예매·9/22 20시 일반 예매로 갱신, 두 datetime 반영(스포츠경향 9/18). 일반 예매처 미확인이라 URL은 null 유지
-- ko-lisa-press-play-20261023 — 10/23 발매 유지(노컷뉴스). 변경 없음
-- ko-day6-5th-fanmeeting-incheon-20261023 — 10/23~25 인스파이어 아레나 유지. 지난 예매 문장 시제 교정, 선예매 종료로 `presale=false`
-- ko-leeseunggi-gisungjeon-rak-seoul-20261024 — **회차 추가**: NOL 공식 상품 페이지에 10/23(금) 19:30 추가 공연(9/11 18시 예매 오픈) 게재 → `release_date` 2026-10-23·`release_time` 19:30, description 회차 서술 갱신. id는 그대로 둠
-- ko-sosubin-neulgeuraewaetdeon-seoul-20261024 — NOL 페이지 10/24 18시·10/25 17시 올림픽홀, 취소 공지 없음(10/8 추가석 오픈). 변경 없음
-- ko-kimjiwon-wonederland-seoul-20261024 — 10/24~25 성신여대 운정그린캠퍼스 대강당 유지(엑스포츠뉴스). 예매 문장 시제 교정
-- B-3 링크: 8건의 source/image/예매 URL 20개 실제 접속 — 전부 200. 죽은 링크 없음
-
-**남은 것**: 트랙 A 이월 — music_release 시제("발매한다") 약 7건(ko-evan-death-of-me-20260907, ko-kimheejae-reverb-20260907, ko-soyeon-solo-comeback-20260910, ko-inaminute-midnight-20260909, ko-allhours-unbound-20260910, ko-youngtak-gogo-20260914, ko-kickflip-kick-off-the-wall-pt1-20261006, ko-roykim-cry-out-loud-20261006, ko-nctwish-i-spy-20261012) + 10/25 이후 ko-kimdongryul-old-song-seoul-20261017. 트랙 B 다음 순번: ko-bensonboone-wanted-man-tour-seoul-20261026, ko-riize-prologue-single-20261026, ko-illit-break-even-20261026, ko-kimfeel-journey-20261029부터
-**리서처 참고(추가 안 함)**: 신규 미등록 공연 발견 없음. ko-leeseunggi-gisungjeon-rak-seoul-20261024의 id 날짜(1024)가 첫 회차(1023)와 어긋남, ko-triples-love-and-pop-pt2-20261020도 여전히 동일 — id 정리 여부 판단 권장
-
----
+[검증 탈락]
+- NCT WISH 예매 시각: 멜론티켓 공지 1곳뿐(기사·집계 사이트는 "미정" 상태) — 다음 사이클 재확인
+- #1 EXEX BEGINS(멜론 10/21 오픈), 김소연·크르르·한올 단독: 해외 팬 수요 낮거나 정보 부족으로 보류
+- 인터파크(NOL) 공지 페이지: robots 차단으로 이번엔 확인 못 함
 
 ## [2026-10-19 19:00] [EN 리서처]
 리서치 완료 (해외 팬 대상 한국 공연)
