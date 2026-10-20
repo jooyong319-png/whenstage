@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-19",
+  "last_updated": "2026-10-20",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -7208,15 +7208,16 @@
       ],
       "developer": "Amorphis, Insomnium",
       "publisher": null,
-      "description": "Amorphis and Insomnium open their 23-date North American co-headline tour at Paradise Rock Club in Boston on November 17, 2026. The two Finnish metal bands split headline duties across the run, drawing on Insomnium's new album Netherworlds and Amorphis's 2025 record Borderland alongside older material. Texas melodic death metal band Hinayana support the whole tour, which runs from November 17 to December 19.",
+      "description": "Amorphis and Insomnium launch their North American co-headline tour at Paradise Rock Club in Boston on November 17, 2026, the first of 25 dates. From Boston the two Finnish bands cross straight into Canada for Montreal's Theatre Beanfield and Toronto's Concert Hall on the next two nights before heading west through the Midwest. Texas melodic death metal act Hinayana open the bill.",
       "genres": [
         "Melodic Death Metal",
         "Metal",
         "Tour"
       ],
       "image_url": null,
-      "source_url": "https://www.insomnium.net/?view=article&id=58%3Anetherworlds-2&catid=9",
-      "general_sale": true
+      "source_url": "https://consequence.net/2026/09/amorphis-insomnium-fall-2026-tour/",
+      "general_sale": true,
+      "updated_at": "2026-10-20"
     },
     {
       "release_time": null,
@@ -7744,15 +7745,16 @@
       ],
       "developer": "Amorphis, Insomnium",
       "publisher": null,
-      "description": "Amorphis and Insomnium bring their North American co-headline tour to The Showbox in Seattle on December 2, 2026. The two Finnish metal bands split headline duties across the run, drawing on Insomnium's new album Netherworlds and Amorphis's 2025 record Borderland alongside older material. Texas melodic death metal band Hinayana support the whole tour, which runs from November 17 to December 19.",
+      "description": "Seattle's Showbox at the Market hosts Amorphis and Insomnium on December 2, 2026, the 13th of 25 shows and the midpoint of their shared North American run. It follows a Pacific Northwest swing through Vancouver's Rickshaw Theatre and Portland's Hawthorne Theatre, and the tour then drops into California for The UC Theatre in Berkeley two nights later. Hinayana support.",
       "genres": [
         "Melodic Death Metal",
         "Metal",
         "Tour"
       ],
       "image_url": null,
-      "source_url": "https://www.insomnium.net/?view=article&id=58%3Anetherworlds-2&catid=9",
-      "general_sale": true
+      "source_url": "https://consequence.net/2026/09/amorphis-insomnium-fall-2026-tour/",
+      "general_sale": true,
+      "updated_at": "2026-10-20"
     },
     {
       "id": "en-beat-fall-tour-inglewood-20261202",
@@ -8326,15 +8328,16 @@
       ],
       "developer": "Amorphis, Insomnium",
       "publisher": null,
-      "description": "Amorphis and Insomnium wrap their North American co-headline tour at Irving Plaza in New York on December 19, 2026. The two Finnish metal bands split headline duties across the run, drawing on Insomnium's new album Netherworlds and Amorphis's 2025 record Borderland alongside older material. Texas melodic death metal band Hinayana support the whole tour, which runs from November 17 to December 19.",
+      "description": "Irving Plaza in Manhattan closes the Amorphis and Insomnium co-headline tour on December 19, 2026, the 25th and final date of a run that began in Boston on November 17. The New York show comes the night after a stop at Reverb in Reading, Pennsylvania, capping an East Coast stretch that also takes in Richmond's Canal Club and Baltimore Soundstage. Texas band Hinayana open.",
       "genres": [
         "Melodic Death Metal",
         "Metal",
         "Tour"
       ],
       "image_url": null,
-      "source_url": "https://www.insomnium.net/?view=article&id=58%3Anetherworlds-2&catid=9",
-      "general_sale": true
+      "source_url": "https://consequence.net/2026/09/amorphis-insomnium-fall-2026-tour/",
+      "general_sale": true,
+      "updated_at": "2026-10-20"
     },
     {
       "release_time": null,
@@ -10252,6 +10255,64 @@
       "general_sale_datetime": "2026-10-27T20:00:00+09:00",
       "general_sale_url": "https://world.nol.com/en/content/festas/01a0320c-febb-7711-aad0-d39586c2da5f",
       "updated_at": "2026-10-19"
+    },
+    {
+      "id": "en-billlie-the-heist-squad-fancon-seoul-20261115",
+      "name": "Billlie 5th Anniversary Fan Concert 'The Heist Squad' - Seoul",
+      "release_date": "2026-11-15",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "Sogang University Mary Hall, Seoul(Grand Theater)"
+      ],
+      "developer": "Billlie",
+      "publisher": "MYSTIC STORY, Dreamus Company",
+      "description": "Billlie mark five years since their debut with The Heist Squad, a single fan concert at Sogang University's Mary Hall Grand Theater in Seoul on November 15, 2026 at 7 p.m. KST, running about 100 minutes. Every seat costs 121,000 won, with a limit of two tickets per person. Sales are on Melon Ticket: the fan club presale opens October 26 at 8 p.m. KST after a verification window from October 20 to 27, and general sale follows on October 29 at 8 p.m. KST. Ages 8 and up.",
+      "genres": [
+        "K-Pop",
+        "Fan Meeting"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/10/202610190943333882e6ba-5ae6-4d73-8ab9-8d2949bb2d1a.jpg",
+      "source_url": "https://www.allkpop.com/article/2026/10/billlie-to-celebrate-5th-debut-anniversary-with-fan-concert-the-heist-squad-in-november",
+      "presale": true,
+      "presale_datetime": "2026-10-26T20:00:00+09:00",
+      "presale_end_datetime": "2026-10-27T23:59:00+09:00",
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-29T20:00:00+09:00",
+      "general_sale_url": null,
+      "updated_at": "2026-10-20"
+    },
+    {
+      "id": "en-nct-wish-into-the-wish-face-our-wish-seoul-20270115",
+      "name": "NCT WISH 2nd Concert Tour 'INTO THE WISH : Face Our WISH' in Seoul",
+      "release_date": "2027-01-15",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Gocheok Sky Dome, Seoul"
+      ],
+      "developer": "NCT WISH",
+      "publisher": null,
+      "description": "NCT WISH open their second concert tour, INTO THE WISH : Face Our WISH, with two nights at Gocheok Sky Dome in Seoul: January 15, 2027 at 6 p.m. KST and January 16 at 5 p.m. KST. It is the group's first time headlining the domed ballpark, under three years after debut, and Seoul comes before Asian stops in Kaohsiung, Bangkok and Manila. VIP seats (220,000 won) include a pre-show soundcheck and general seats are 165,000 won. Melon Ticket runs a separate global page that requires passport verification before buying. Ages 7 and up.",
+      "genres": [
+        "K-Pop",
+        "Concert"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/10/20261016144124431fdf89-cf33-4d16-b26a-a586a49610f7.jpg",
+      "source_url": "https://www.soompi.com/article/1876986wpp/nct-wish-announces-stops-for-2nd-concert-tour-into-the-wish-face-our-wish",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-20"
     }
   ]
 }
