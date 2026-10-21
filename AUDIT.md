@@ -3,8 +3,35 @@
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
 | ko | 2026-10-19 | |
-| en | 2026-10-14 | ← |
-| ja | 2026-10-16 | |
+| en | 2026-10-21 | |
+| ja | 2026-10-16 | ← |
+
+---
+
+## 2026-10-21 · en
+
+로테이션상 en이 가장 오래된 점검일(2026-10-14)이라 선택. 대상 창: 2026-08-22 ~ 2026-12-20(오늘 ±60일), 창 안 항목 225건(끝난 것 114 / 예정 111). 코드는 손대지 않았고 `data/concerts.en.json`만 수정(파일 상단 `last_updated` 2026-10-21). push 전 `validate-data.mjs` 통과. 지난 회차들과 같이 **실제로 고친 17건에만 `updated_at=2026-10-21`**, 항목 단위 `last_updated`는 넣지 않음.
+
+**트랙 A (졸업 처리) — 16건**
+- A-1/A-2 끝난 공연의 예매 필드·플래그 정리 15건(§7대로 `presale`/`general_sale=false` + 예매 URL·datetime 6개 필드 null) + 해당 공연 문장만 시제 교정(투어 잔여 일정 서술은 현재형 유지, 새 사실 추가 없음):
+  지난 회차 이월 5건 en-trombone-shorty-orleans-avenue-fall-chattanooga-20261008, en-zz-top-the-big-one-nashville-20261008, en-amon-amarth-allfather-awakens-manchester-20261009, en-godsmack-rise-of-rock-airway-heights-20261009, en-ryan-bingham-still-gettin-away-fall-memphis-20261013 / 신규 en-jonas-brothers-burning-up-all-over-again-indianapolis-20261015, en-tyla-apop-world-tour-london-20261015, en-usher-chris-brown-rb-tour-east-rutherford-20261015, en-highlight-fan-con-seoul-20261016(10/16~18 종료), en-nice-as-fuck-10th-anniversary-pasadena-20261016, en-nexz-saucin-the-world-seoul-20261017 / -20261018, en-omoinotake-one-man-tour-seoul-20261017, en-allison-russell-hour-of-chaos-boston-20261018, en-the-national-ab100-san-sebastian-20261018("go on sale" → "went on sale")
+- A-4 music_release 시제 1건(구매 링크 규칙대로 미변경): en-the-avalanches-no-bad-memories-20261016
+- ⚠ en-jonas-...-indianapolis-20261015는 고치자 같은 투어 5건과 58~67% 설명 복사 오류 → **기존 데이터 + 지난 회차 확인 사실(19:30 시작, Magnus Ferrell·Deleasa 오프닝)만으로 문장 재구성**해 기준 아래로 내림, 지난 회차에 보류했던 `release_time` 19:30도 이번에 반영
+- 의도적 제외: en-kenny-g-live-in-seoul-20261020(10/20~21 2회 중 오늘 10/21 공연 진행 중 — festival_days 없어 스캔에 잡혔지만 끝난 공연 아님, 다음 회차 대상), en-post-malone-big-stadium-seoul-20261002 approx=true 유지(연기·새 날짜 미발표). 오탐: en-riot-fest-2026(“William”), en-neil-young-willie-nelson 2건(이미 과거형), en-lucinda-williams-...-atlanta(투어 진행 중 서술)
+
+**트랙 B (임박 점검) — 8건 확인** (공연일 가까운 순, `updated_at` 없는 항목)
+- en-jonas-brothers-burning-up-all-over-again-rosemont-20261022 — 10/22 Allstate Arena 일정 유지(예매·이벤트 목록 다수), 취소 공지 없음. 변경 없음. ("Deleasa joins" 문법 오류 있으나 고치면 설명 복사 검사에 걸려 보류)
+- en-anderson-paak-cordae-heavy-is-the-crown-20261023 — 10월 발매 유지(hiphop-n-more·Ratings Game 8/19). 변경 없음
+- en-claud-me-and-the-music-20261023 — 10/23 Dead Oceans 유지(레이블 공지·The Line of Best Fit). 변경 없음
+- en-jay-z-30th-anniversary-los-angeles-20261023 — SoFi 10/23·24 2회 유지(추가 공연 공지, 취소·연기 보도 없음). 지난 예매 문장 시제 교정("Presales open" → "opened")
+- en-tony-iommi-from-the-dark-20261023 — 10/23 BMG 발매 유지(Shore Fire 보도자료). 변경 없음
+- en-wolves-in-the-throne-room-estuary-20261023 — 10/23 Relapse 유지(Relapse 상품 페이지·Treble). 변경 없음
+- en-jodeci-forever-my-lady-35th-san-francisco-20261024 — 투어 개막 The Masonic 유지, 다음 날 10/25 YouTube Theater 공식 페이지와 일치. 2025년 K-Ci 입원 취소 외 이번 투어 취소 보도 없음. 변경 없음
+- en-katseye-wildworld-tour-belmont-park-20261024 — 10/24·25 UBS Arena 유지(위키 투어 문서), 취소 없음. **참고**: 10/8 Sophia가 북미 레그 전체 불참 확정 — 설명엔 멤버 구성 서술이 없어 변경 없음
+- B-3 링크: 8건 source/image/예매 URL 13개 실제 접속 — 12개 200, Jonas Rosemont source_url(공연장 뉴스) 406(지난 회차와 동일한 봇 차단, 같은 사실 다른 소스로 확인) → 죽은 링크 없음
+
+**남은 것**: 트랙 A — en-kenny-g-live-in-seoul-20261020(10/21 종료 후 예매 플래그 정리). 트랙 B 다음 순번: en-tame-impala-deadbeat-perth-20261024, en-bryan-adams-bare-bones-las-vegas-20261028부터
+**운영자/리서처 참고(추가 안 함)**: ① Jonas Brothers 투어 나머지 5건(philadelphia/rosemont/denver/belmont-park/prudential-center) 설명 복사 묶음 여전 — 리서처 재작성 필요. ② en-tony-iommi-from-the-dark `platforms`가 Streaming뿐 — 실제 바이닐·CD·디지털 발매(Shore Fire). ③ 신규 미등록 공연 발견 없음
 
 ---
 
