@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-17",
+  "last_updated": "2026-10-21",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -4864,7 +4864,7 @@
     },
     {
       "id": "ja-highlow-sengoku-lovehate-20261118",
-      "name": "HiGH&LOW THE 戦国 LOVE&HATE（有明アリーナ公演初日）",
+      "name": "HiGH&LOW THE 戦国 LOVE&HATE（有明アリーナ公演）",
       "release_date": "2026-11-18",
       "release_time": "14:00",
       "release_date_approx": false,
@@ -4875,22 +4875,24 @@
       ],
       "developer": "宝塚歌劇団×LDH JAPAN",
       "publisher": null,
-      "description": "宝塚歌劇団とLDH JAPANのコラボレーション第5弾となるライブイベント「HiGH&LOW THE 戦国 LOVE&HATE」の有明アリーナ公演初日。2024年の「HiGH&LOW THE 戦国」の続編にあたり、演劇と音楽を融合させた構成で上演される。宙組の水美舞斗ら宝塚歌劇団10名に加え、藤原樹・浦川翔平（THE RAMPAGE）、中島颯太・堀夏喜（FANTASTICS）らが出演。各日14:00開演と19:00開演の2回公演で、先行抽選予約は8月24日15:00に受付を開始し、一般発売は10月24日を予定している。",
+      "description": "宝塚歌劇団とLDH JAPANのコラボレーション第5弾となるライブイベント「HiGH&LOW THE 戦国 LOVE&HATE」の有明アリーナ公演。2024年の「HiGH&LOW THE 戦国」の続編で、演劇と音楽を融合させた構成で上演される。11月18日（水）・19日（木）の2日間、各日13:00開場／14:00開演と18:00開場／19:00開演の1日2回、計4回公演。宙組の水美舞斗ら宝塚歌劇団10名に加え、藤原樹・浦川翔平（THE RAMPAGE）、中島颯太・堀夏喜（FANTASTICS）らが出演する。チケットは全席指定14,300円（税込）で未就学児は入場不可。ファンクラブ・ticketbookの各先行は10月17日で終了し、一般発売は10月24日（土）からticketbookほか各プレイガイドで行われる。",
       "genres": [
         "J-POP",
         "舞台",
         "LDH"
       ],
       "image_url": null,
-      "source_url": "https://natalie.mu/music/news/679223",
-      "presale": true,
+      "source_url": "https://www.ldh-liveschedule.jp/sys/tour/44541/",
+      "presale": false,
       "presale_datetime": "2026-08-24T15:00:00+09:00",
       "presale_url": "https://e-ticketbook.com/",
-      "general_sale": false
+      "general_sale": true,
+      "general_sale_url": "https://e-ticketbook.com/high-low-sengoku26-lovehate/2608-tb/",
+      "updated_at": "2026-10-21"
     },
     {
       "id": "ja-yonezu-kenshi-ghost-osakajo-hall-20261118",
-      "name": "米津玄師 2026 TOUR / GHOST（大阪城ホール公演・初日）",
+      "name": "米津玄師 2026 TOUR / GHOST（大阪城ホール公演）",
       "release_date": "2026-11-18",
       "release_time": "18:30",
       "category": "concert_tour",
@@ -4898,7 +4900,7 @@
         "大阪城ホール"
       ],
       "developer": "米津玄師",
-      "description": "米津玄師が全国6都市・計14公演で行うアリーナツアー〈2026 TOUR / GHOST〉の大阪城ホール公演初日。開場17:00・開演18:30。長野ビッグハット、Kアリーナ横浜に続く3会場目で、大阪公演は2日間にわたって行われる。チケットは指定席・注釈付指定席・立見いずれも9,900円（税込）で、一般販売の抽選受付は7月7日18時から7月26日23時59分まで行われ、8月12日正午に当選が発表された。大阪公演の問い合わせ窓口はキョードーインフォメーション。",
+      "description": "米津玄師が全国6都市・計14公演で行うアリーナツアー〈2026 TOUR / GHOST〉の大阪城ホール公演。11月18日（水）と19日（木）の2日間で、両日とも開場17:00・開演18:30。長野ビッグハット、Kアリーナ横浜に続く3会場目にあたり、この後ツアーはマリンメッセ福岡A館、セキスイハイムスーパーアリーナ、ポートメッセなごや第1展示館を経て、12月16日・17日のKアリーナ横浜で全日程を終える。チケットは指定席・注釈付指定席・立見いずれも9,900円（税込）で、一般販売の抽選受付は7月7日18時から7月26日23時59分まで行われ、8月12日正午に当選が発表された。問い合わせ窓口はキョードーインフォメーション。",
       "genres": [
         "J-POP",
         "アリーナツアー"
@@ -4911,58 +4913,8 @@
       "general_sale_end_datetime": "2026-07-26T23:59:00+09:00",
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
-      "publisher": null
-    },
-    {
-      "id": "ja-highlow-sengoku-lovehate-20261119",
-      "name": "HiGH&LOW THE 戦国 LOVE&HATE（有明アリーナ公演2日目）",
-      "release_date": "2026-11-19",
-      "release_time": "14:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "有明アリーナ"
-      ],
-      "developer": "宝塚歌劇団×LDH JAPAN",
       "publisher": null,
-      "description": "宝塚歌劇団とLDH JAPANのコラボレーション第5弾となるライブイベント「HiGH&LOW THE 戦国 LOVE&HATE」の有明アリーナ公演2日目。2024年の「HiGH&LOW THE 戦国」の続編にあたり、演劇と音楽を融合させた構成で上演される。宙組の水美舞斗ら宝塚歌劇団10名に加え、藤原樹・浦川翔平（THE RAMPAGE）、中島颯太・堀夏喜（FANTASTICS）らが出演。各日14:00開演と19:00開演の2回公演で、先行抽選予約は8月24日15:00に受付を開始し、一般発売は10月24日を予定している。",
-      "genres": [
-        "J-POP",
-        "舞台",
-        "LDH"
-      ],
-      "image_url": null,
-      "source_url": "https://natalie.mu/music/news/679223",
-      "presale": true,
-      "presale_datetime": "2026-08-24T15:00:00+09:00",
-      "presale_url": "https://e-ticketbook.com/",
-      "general_sale": false
-    },
-    {
-      "id": "ja-yonezu-kenshi-ghost-osakajo-hall-20261119",
-      "name": "米津玄師 2026 TOUR / GHOST（大阪城ホール公演・2日目）",
-      "release_date": "2026-11-19",
-      "release_time": "18:30",
-      "category": "concert_tour",
-      "platforms": [
-        "大阪城ホール"
-      ],
-      "developer": "米津玄師",
-      "description": "米津玄師が全国6都市・計14公演で行うアリーナツアー〈2026 TOUR / GHOST〉の大阪城ホール公演2日目。開場17:00・開演18:30。大阪2日目にあたり、この後ツアーはマリンメッセ福岡A館、セキスイハイムスーパーアリーナ、ポートメッセなごや第1展示館を経て12月16日・17日のKアリーナ横浜で全日程を終える。チケットは指定席・注釈付指定席・立見いずれも9,900円（税込）で、一般販売の抽選受付は7月7日18時から7月26日23時59分まで行われ、8月12日正午に当選が発表された。大阪公演の問い合わせ窓口はキョードーインフォメーション。",
-      "genres": [
-        "J-POP",
-        "アリーナツアー"
-      ],
-      "image_url": "https://s3-reissue.s3.ap-northeast-1.amazonaws.com/rr/wp-content/uploads/tourGHOST_Visual-1024x819.jpg",
-      "source_url": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
-      "presale": false,
-      "general_sale": false,
-      "general_sale_datetime": "2026-07-07T18:00:00+09:00",
-      "general_sale_end_datetime": "2026-07-26T23:59:00+09:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "publisher": null
+      "updated_at": "2026-10-21"
     },
     {
       "id": "ja-fujii-kaze-piano-recital-20261120",
@@ -5095,7 +5047,7 @@
     },
     {
       "id": "ja-jxj-journey-into-dreaming-japan-20261121",
-      "name": "JxJ（SEVENTEEN）〈JEONGHAN X JOSHUA JOURNEY INTO [DREAMING] - JAPAN〉ベルーナドーム公演（1日目）",
+      "name": "JxJ（SEVENTEEN）〈JEONGHAN X JOSHUA JOURNEY INTO [DREAMING] - JAPAN〉ベルーナドーム公演",
       "release_date": "2026-11-21",
       "release_time": "17:00",
       "release_date_approx": false,
@@ -5106,7 +5058,7 @@
       ],
       "developer": "JxJ（SEVENTEEN）",
       "publisher": "HYBE JAPAN",
-      "description": "SEVENTEENのJEONGHANとJOSHUAによる新ユニットJxJが、初の単独ドームツアー〈JEONGHAN X JOSHUA JOURNEY INTO [DREAMING]〉の日本公演として埼玉・ベルーナドームで2日間にわたり開催する公演の初日。10月19日にリリースされる1stミニアルバム『DREAMSCAPE』の世界観を軸に構成され、夢と幻想をモチーフにした演出が予告されている。ツアーは10月30日の仁川公演を起点とし、日本公演は開場15:00・開演17:00。SEVENTEEN日本公式ファンクラブCARAT会員向けの先行抽選受付は9月30日13:00から10月12日23:59まで行われる。",
+      "description": "SEVENTEENのJEONGHANとJOSHUAによるユニットJxJが、初の単独ドームツアー〈JEONGHAN X JOSHUA JOURNEY INTO [DREAMING]〉の日本公演として埼玉・ベルーナドームで行う2日間公演。11月21日（土）・22日（日）とも開場15:00・開演17:00。10月19日リリースの1stミニアルバム『DREAMSCAPE』の世界観を軸に、夢と幻想をモチーフにした演出が予告されている。ツアーは10月30日の仁川公演を起点とし、SEVENTEEN日本公式ファンクラブCARAT会員向けの先行抽選受付は9月30日13:00から10月12日23:59まで行われた。",
       "genres": [
         "K-POP",
         "ドーム公演",
@@ -5114,11 +5066,11 @@
       ],
       "image_url": null,
       "source_url": "https://prtimes.jp/main/html/rd/p/000000749.000045862.html",
-      "presale": true,
+      "presale": false,
       "general_sale": false,
       "presale_datetime": "2026-09-30T13:00:00+09:00",
       "presale_end_datetime": "2026-10-12T23:59:00+09:00",
-      "updated_at": "2026-09-30"
+      "updated_at": "2026-10-21"
     },
     {
       "id": "ja-silica-gel-ballad-of-you-20261121",
@@ -5144,33 +5096,6 @@
       "presale": true,
       "presale_datetime": null,
       "presale_url": "https://eplus.jp/sf/detail/4415100001"
-    },
-    {
-      "id": "ja-jxj-journey-into-dreaming-japan-20261122",
-      "name": "JxJ（SEVENTEEN）〈JEONGHAN X JOSHUA JOURNEY INTO [DREAMING] - JAPAN〉ベルーナドーム公演（2日目）",
-      "release_date": "2026-11-22",
-      "release_time": "17:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "ベルーナドーム"
-      ],
-      "developer": "JxJ（SEVENTEEN）",
-      "publisher": "HYBE JAPAN",
-      "description": "SEVENTEENのJEONGHANとJOSHUAによる新ユニットJxJが、初の単独ドームツアー〈JEONGHAN X JOSHUA JOURNEY INTO [DREAMING]〉の日本公演として埼玉・ベルーナドームで2日間にわたり開催する公演の2日目。10月19日にリリースされる1stミニアルバム『DREAMSCAPE』の世界観を軸に構成され、夢と幻想をモチーフにした演出が予告されている。ツアーは10月30日の仁川公演を起点とし、日本公演は開場15:00・開演17:00。SEVENTEEN日本公式ファンクラブCARAT会員向けの先行抽選受付は9月30日13:00から10月12日23:59まで行われる。",
-      "genres": [
-        "K-POP",
-        "ドーム公演",
-        "来日公演"
-      ],
-      "image_url": null,
-      "source_url": "https://prtimes.jp/main/html/rd/p/000000749.000045862.html",
-      "presale": true,
-      "general_sale": false,
-      "presale_datetime": "2026-09-30T13:00:00+09:00",
-      "presale_end_datetime": "2026-10-12T23:59:00+09:00",
-      "updated_at": "2026-09-30"
     },
     {
       "release_time": "17:00",
@@ -8615,6 +8540,35 @@
       "general_sale_datetime": "2026-10-17T10:00:00+09:00",
       "general_sale_url": "https://w.pia.jp/t/thelemontwigs-t/",
       "updated_at": "2026-10-17"
+    },
+    {
+      "id": "ja-finn-wolfhard-common-side-effects-tokyo-20270209",
+      "name": "FINN WOLFHARD「THE COMMON SIDE EFFECTS JAPAN TOUR」東京公演",
+      "release_date": "2027-02-09",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "Spotify O-EAST"
+      ],
+      "developer": "Finn Wolfhard",
+      "publisher": "クリエイティブマンプロダクション",
+      "description": "俳優としても知られるカナダ出身のミュージシャン、フィン・ウルフハードの初来日ツアー「THE COMMON SIDE EFFECTS JAPAN TOUR」の東京公演で、2月8日の大阪・Yogibo META VALLEYに続く最終日にあたる。会場は渋谷のSpotify O-EASTで、開場18:00／開演19:00、オールスタンディング9,500円（税込・ドリンク代別）。チケットはWEB販売のみで、クリエイティブマン会員先行（10月14日〜18日）とイープラス・チケットぴあ・ローソンチケットのプレイガイド先行（10月19日12時〜）を経て、一般発売は10月24日（土）10時から。未就学児は入場不可。",
+      "genres": [
+        "ロック",
+        "インディー",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://www.creativeman.co.jp/event/finn-wolfhard_2027/",
+      "presale": true,
+      "presale_datetime": "2026-10-14T15:00:00+09:00",
+      "presale_url": "https://eplus.jp/finnwolfhard/",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-24T10:00:00+09:00",
+      "general_sale_url": "https://w.pia.jp/t/finn-wolfhard-t/",
+      "updated_at": "2026-10-21"
     }
   ]
 }
