@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-10-21",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -4548,7 +4548,7 @@
       ],
       "developer": "Trombone Shorty & Orleans Avenue",
       "publisher": null,
-      "description": "Grammy-winning New Orleans bandleader Trombone Shorty and Orleans Avenue add a run of fall 2026 dates, opening October 8 in Chattanooga and moving through North Carolina, Virginia and a stretch of Northeast shows from October 16 to 24. The October 23 date at Newark's NJPAC features Mavis Staples, while singer-songwriter Abraham Alexander joins as special guest on select nights. An artist presale started July 22, with general on-sale July 24.",
+      "description": "Grammy-winning New Orleans bandleader Trombone Shorty and Orleans Avenue added a run of fall 2026 dates, which opened October 8 in Chattanooga and moves through North Carolina, Virginia and a stretch of Northeast shows from October 16 to 24. The October 23 date at Newark's NJPAC features Mavis Staples, while singer-songwriter Abraham Alexander joins as special guest on select nights. An artist presale started July 22, with general on-sale July 24.",
       "genres": [
         "Jazz",
         "Funk",
@@ -4558,11 +4558,12 @@
       "image_url": null,
       "source_url": "https://themusicuniverse.com/trombone-shorty-orleans-avenue-announce-new-fall-2026-tour-dates/",
       "presale": false,
-      "presale_datetime": "2026-07-22T10:00:00-04:00",
+      "presale_datetime": null,
       "presale_url": null,
-      "general_sale": true,
-      "general_sale_datetime": "2026-07-24T10:00:00-04:00",
-      "general_sale_url": null
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-21"
     },
     {
       "id": "en-wynonna-judd-hard-truth-new-york-20261008",
@@ -4615,9 +4616,11 @@
       ],
       "image_url": null,
       "source_url": "https://www.jambase.com/article/zz-top-tour-dates-fall-2026",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "presale": false,
+      "updated_at": "2026-10-21"
     },
     {
       "id": "en-10cm-the-missing-tracks-seoul-20261009",
@@ -4696,7 +4699,7 @@
       ],
       "developer": "Amon Amarth",
       "publisher": null,
-      "description": "Swedish melodic death metal veterans Amon Amarth headline The Allfather Awakens tour across the UK and mainland Europe, opening October 9, 2026 at Manchester's O2 Apollo and finishing November 15 in Lisbon over roughly 28 dates. The run features an updated stage production and an extended headlining set, with support from Orbit Culture and Soilwork. It accompanies the band's thirteenth studio album, 'The Allfather Awakens', due on Metal Blade Records in the second half of 2026.",
+      "description": "Swedish melodic death metal veterans Amon Amarth headline The Allfather Awakens tour across the UK and mainland Europe, which opened October 9, 2026 at Manchester's O2 Apollo and finishes November 15 in Lisbon over roughly 28 dates. The run features an updated stage production and an extended headlining set, with support from Orbit Culture and Soilwork. It accompanies the band's thirteenth studio album, 'The Allfather Awakens', due on Metal Blade Records in the second half of 2026.",
       "genres": [
         "Melodic death metal",
         "Metal",
@@ -4705,9 +4708,10 @@
       "image_url": null,
       "source_url": "https://www.metalblade.com/us/news/amon-amarth-announce-uk-eu-2026-tour-dates-tease-new-album/",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2025-11-28T09:00:00+00:00",
-      "general_sale_url": null
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-21"
     },
     {
       "release_time": null,
@@ -4783,7 +4787,7 @@
       ],
       "developer": "Godsmack, Dorothy",
       "publisher": null,
-      "description": "Godsmack extend their Rise of Rock world tour with a ten-date October run through the American Midwest and Northeast, opening at Northern Quest Resort & Casino in Airway Heights, Washington. Dorothy joins as direct support across the leg, which wraps on October 24 at Mohegan Sun Arena in Uncasville. Presales ran July 29 to 31, with general tickets going on sale July 31 at 10 a.m. local time.",
+      "description": "Godsmack extend their Rise of Rock world tour with a ten-date October run through the American Midwest and Northeast, which opened at Northern Quest Resort & Casino in Airway Heights, Washington. Dorothy joins as direct support across the leg, which wraps on October 24 at Mohegan Sun Arena in Uncasville. Presales ran July 29 to 31, with general tickets going on sale July 31 at 10 a.m. local time.",
       "genres": [
         "Rock",
         "Hard Rock",
@@ -4792,8 +4796,9 @@
       "image_url": null,
       "source_url": "https://blabbermouth.net/news/godsmack-announces-october-2026-u-s-tour-dates-with-dorothy",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-07-31T10:00:00-07:00"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "updated_at": "2026-10-21"
     },
     {
       "id": "en-greta-van-fleet-palace-for-the-people-20261009",
@@ -5238,7 +5243,7 @@
       ],
       "developer": "Ryan Bingham & The Texas Gentlemen",
       "publisher": null,
-      "description": "Academy Award and Grammy-winning songwriter Ryan Bingham extends his Still Gettin' Away With It Tour with a fall theater leg backed by The Texas Gentlemen. The run opens October 13 in Memphis and travels through Nashville's Ryman Auditorium, Chicago's Riviera Theatre and St. Louis' The Pageant before a string of Texas dates, wrapping November 14 at Billy Bob's in Fort Worth. Presales began July 22, with general on-sale opening July 24.",
+      "description": "Academy Award and Grammy-winning songwriter Ryan Bingham extends his Still Gettin' Away With It Tour with a fall theater leg backed by The Texas Gentlemen. The run opened October 13 in Memphis and travels through Nashville's Ryman Auditorium, Chicago's Riviera Theatre and St. Louis' The Pageant before a string of Texas dates, wrapping November 14 at Billy Bob's in Fort Worth. Presales began July 22, with general on-sale opening July 24.",
       "genres": [
         "Americana",
         "Country",
@@ -5248,14 +5253,15 @@
       "image_url": null,
       "source_url": "https://themusicuniverse.com/ryan-bingham-expands-2026-tour-dates-with-the-texas-gentlemen/",
       "presale": false,
-      "presale_datetime": "2026-07-22T10:00:00-05:00",
+      "presale_datetime": null,
       "presale_url": null,
-      "general_sale": true,
-      "general_sale_datetime": "2026-07-24T10:00:00-05:00",
-      "general_sale_url": null
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-21"
     },
     {
-      "release_time": null,
+      "release_time": "19:30",
       "release_date_approx": false,
       "publisher": "Live Nation",
       "image_url": null,
@@ -5268,7 +5274,7 @@
         "Gainbridge Fieldhouse, Indianapolis, IN"
       ],
       "developer": "Jonas Brothers, Magnus Ferrell, Deleasa",
-      "description": "The Jonas Brothers bring The Burning Up Tour All Over Again to Gainbridge Fieldhouse in Indianapolis on October 15, 2026, one of 45 North American arena stops on the Live Nation run that grew out of their sold-out Madison Square Garden celebrations in August 2026. The show revisits the 2008 Burning Up Tour that broke Kevin, Joe and Nick Jonas nationally, rebuilt for arenas nearly two decades later. Magnus Ferrell and Deleasa joins as support.",
+      "description": "Kevin, Joe and Nick Jonas played Gainbridge Fieldhouse in Indianapolis on October 15, 2026, with the show starting at 7:30 p.m. local time and Magnus Ferrell and Deleasa opening the night. Indianapolis was one of 45 North American arena stops on a Live Nation run that grew out of the brothers' sold-out Madison Square Garden celebrations in August 2026, revisiting for arenas the 2008 Burning Up Tour that first broke them nationally.",
       "genres": [
         "Pop",
         "Pop Rock",
@@ -5276,9 +5282,10 @@
       ],
       "source_url": "https://www.xfinitymobilearena.com/news/detail/jonas-brothers-bring-the-burning-up-tour-all-over-again-to-45-cities-across-north-america-this-fall",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-21T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/jonas-brothers-tickets/artist/1052712"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-21"
     },
     {
       "release_time": null,
@@ -5317,7 +5324,7 @@
       ],
       "developer": "Tyla",
       "publisher": null,
-      "description": "Tyla brings her A*POP World Tour to O2 Academy Brixton on October 15, 2026, one of 34 dates announced on July 27. The run supports APOP, the Grammy winner's second album, released July 24. The tour was set to open October 12 at Zenith Paris and work through Amsterdam, Glasgow, Manchester, Brussels, Berlin and Stockholm before a North American leg starting November 12 in Wheatland, California, and closing dates in Lagos, Cape Town and Johannesburg. An artist presale ran July 29 via Laylo, with general on-sale following July 31 through Ticketmaster.",
+      "description": "Tyla brought her A*POP World Tour to O2 Academy Brixton on October 15, 2026, one of 34 dates announced on July 27. The run supports APOP, the Grammy winner's second album, released July 24. The tour was set to open October 12 at Zenith Paris and work through Amsterdam, Glasgow, Manchester, Brussels, Berlin and Stockholm before a North American leg starting November 12 in Wheatland, California, and closing dates in Lagos, Cape Town and Johannesburg. An artist presale ran July 29 via Laylo, with general on-sale following July 31 through Ticketmaster.",
       "genres": [
         "Pop",
         "Tour"
@@ -5325,14 +5332,14 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Tyla_at_2026_Montreux_Jazz_Festival_8.png/330px-Tyla_at_2026_Montreux_Jazz_Festival_8.png",
       "source_url": "https://consequence.net/2026/07/tyla-announces-apop-world-tour/",
       "presale": false,
-      "presale_datetime": "2026-07-29T10:00:00+01:00",
+      "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
-      "general_sale_datetime": "2026-07-31T10:00:00+01:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-14"
+      "updated_at": "2026-10-21"
     },
     {
       "release_time": "19:30",
@@ -5348,7 +5355,7 @@
         "MetLife Stadium, East Rutherford, NJ"
       ],
       "developer": "Usher, Chris Brown, Mario, Eric Bellinger, Tank",
-      "description": "Usher and Chris Brown bring The R&B Tour to MetLife Stadium in East Rutherford on October 15, 2026, one of eight stadium dates added in August after the co-headline run sold out its opening stretch. Instead of separate headline sets, the two singers alternate across nine cinematic acts in a nearly three-hour production, joined onstage by Mario, Eric Bellinger and Tank. Live Nation produces the 59-date trek.",
+      "description": "Usher and Chris Brown brought The R&B Tour to MetLife Stadium in East Rutherford on October 15, 2026, one of eight stadium dates added in August after the co-headline run sold out its opening stretch. Instead of separate headline sets, the two singers alternated across nine cinematic acts in a nearly three-hour production, joined onstage by Mario, Eric Bellinger and Tank. Live Nation produces the 59-date trek.",
       "genres": [
         "R&B",
         "Hip-Hop",
@@ -5356,10 +5363,10 @@
       ],
       "source_url": "https://www.sofistadium.com/news/detail/chris-brown-usher-add-eight-new-stadium-dates-to-the-rb-tour-following-incredible-fan-demand",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-24T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/usher-raymond-chris-brown-tickets/artist/4314089",
-      "updated_at": "2026-10-14"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-21"
     },
     {
       "id": "en-angele-instinct-20261016",
@@ -5424,19 +5431,19 @@
       ],
       "developer": "HIGHLIGHT",
       "publisher": "Weekend Live",
-      "description": "HIGHLIGHT hold their 2026 fan con across three days at Jangchung Arena in central Seoul from October 16 to 18, with the opening night starting at 7:30pm KST. The show leans on an isekai framing in which the 18-year veterans are cast as rookie trainees. Tickets run through YES24 Ticket, where the fan club presale opened September 7 and the general sale on September 10, both at 8pm KST.",
+      "description": "HIGHLIGHT held their 2026 fan con across three days at Jangchung Arena in central Seoul from October 16 to 18, with the opening night starting at 7:30pm KST. The show leaned on an isekai framing in which the 18-year veterans were cast as rookie trainees. Tickets ran through YES24 Ticket, where the fan club presale opened September 7 and the general sale on September 10, both at 8pm KST.",
       "genres": [
         "K-Pop",
         "Fan Meeting"
       ],
       "image_url": null,
       "source_url": "https://ticket.yes24.com/Perf/59891",
-      "updated_at": "2026-10-02",
+      "updated_at": "2026-10-21",
       "presale": false,
-      "presale_datetime": "2026-09-07T20:00:00+09:00",
-      "general_sale": true,
-      "general_sale_datetime": "2026-09-10T20:00:00+09:00",
-      "general_sale_url": "https://ticket.yes24.com/Perf/59891",
+      "presale_datetime": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
       "related_locale_ids": {
         "ko": "ko-highlight-fancon-seoul-20261016"
       }
@@ -5504,7 +5511,7 @@
       ],
       "developer": "Nice as Fuck, Alix Brown",
       "publisher": null,
-      "description": "Nice as Fuck, the trio of Jenny Lewis, Erika Spring of Au Revoir Simone and Tennessee Thomas of The Like, open an eight-date reunion run at Sid the Cat in Pasadena on October 16, 2026. The tour marks ten years since their self-titled 2016 debut, which the band is reissuing alongside the shows. DJ Alix Brown opens every date. The trek was announced in early September 2026.",
+      "description": "Nice as Fuck, the trio of Jenny Lewis, Erika Spring of Au Revoir Simone and Tennessee Thomas of The Like, opened an eight-date reunion run at Sid the Cat in Pasadena on October 16, 2026. The tour marks ten years since their self-titled 2016 debut, which the band is reissuing alongside the shows. DJ Alix Brown opens every date. The trek was announced in early September 2026.",
       "genres": [
         "Indie",
         "Rock",
@@ -5513,7 +5520,8 @@
       "image_url": null,
       "source_url": "https://www.rollingstone.com/music/music-news/nice-as-fuck-10-anniversary-reunion-tour-1235624710/",
       "presale": false,
-      "general_sale": true
+      "general_sale": false,
+      "updated_at": "2026-10-21"
     },
     {
       "id": "en-rachel-chinouriri-i-think-i-spoke-too-soon-20261016",
@@ -5558,13 +5566,14 @@
         "Vinyl"
       ],
       "developer": "The Avalanches",
-      "description": "The Avalanches release No Bad Memories on October 16, 2026, their fourth studio album and the first since 2020's We Will Always Love You. The Melbourne duo announced the record in early August alongside the single 'Can't Get Over Losing You,' featuring Louisiana producer and multi-instrumentalist Portraits of Tracy. Three earlier tracks from the album drew on collaborations with Karen O, Jamie xx, Nikki Nair, Jessy Lanza and Prentiss. Vinyl and CD editions are on preorder through the band's own store.",
+      "description": "The Avalanches released No Bad Memories on October 16, 2026, their fourth studio album and the first since 2020's We Will Always Love You. The Melbourne duo announced the record in early August alongside the single 'Can't Get Over Losing You,' featuring Louisiana producer and multi-instrumentalist Portraits of Tracy. Three earlier tracks from the album drew on collaborations with Karen O, Jamie xx, Nikki Nair, Jessy Lanza and Prentiss. Vinyl and CD editions were offered on preorder through the band's own store.",
       "genres": [
         "Electronic",
         "Plunderphonics",
         "Album"
       ],
-      "source_url": "https://www.billboard.com/music/music-news/the-avalances-new-album-no-bad-memories-october-1236310978/"
+      "source_url": "https://www.billboard.com/music/music-news/the-avalances-new-album-no-bad-memories-october-1236310978/",
+      "updated_at": "2026-10-21"
     },
     {
       "id": "en-grand-mint-festival-2026-20261017",
@@ -5643,18 +5652,18 @@
       ],
       "developer": "NEXZ",
       "publisher": null,
-      "description": "NEXZ open their first Asia tour, SAUCIN' THE WORLD, with two nights at Olympic Hall in Seoul's Olympic Park on October 17 and 18, 2026. Both dates sold out and extra seats in sections A3, A4, E3 and E4 were released afterwards. Overseas fans book on NOL World's English global reservation page at 154,000 won for standing or seated, with passport-based identity verification required before checkout.",
+      "description": "NEXZ opened their first Asia tour, SAUCIN' THE WORLD, with two nights at Olympic Hall in Seoul's Olympic Park on October 17 and 18, 2026. Both dates sold out and extra seats in sections A3, A4, E3 and E4 were released afterwards. Overseas fans booked on NOL World's English global reservation page at 154,000 won for standing or seated, with passport-based identity verification required before checkout.",
       "genres": [
         "K-Pop",
         "Concert"
       ],
       "image_url": null,
       "source_url": "https://www.soompi.com/article/1869018wpp/nexz-announces-1st-asia-tour-saucin-the-world",
-      "updated_at": "2026-10-02",
+      "updated_at": "2026-10-21",
       "presale": false,
       "presale_datetime": null,
-      "general_sale": true,
-      "general_sale_url": "https://world.nol.com/en/ticket/places/26001096/products/26012968"
+      "general_sale": false,
+      "general_sale_url": null
     },
     {
       "id": "en-omoinotake-one-man-tour-seoul-20261017",
@@ -5669,7 +5678,7 @@
       ],
       "developer": "Omoinotake",
       "publisher": "Highjinkx",
-      "description": "Japanese piano trio Omoinotake play a headline Seoul show at Gonggam Hall on October 17, 2026, starting at 7 p.m. The ninety-minute all-ages concert is part of the Asian leg supporting Memorabilia, their first album in a year and a half. The band broke through internationally with Ikuokukonen, the theme to the drama Eye Love You, which passed six hundred million streams. Tickets are sold by Yes24, which runs an English-language booking page.",
+      "description": "Japanese piano trio Omoinotake played a headline Seoul show at Gonggam Hall on October 17, 2026, starting at 7 p.m. The ninety-minute all-ages concert was part of the Asian leg supporting Memorabilia, their first album in a year and a half. The band broke through internationally with Ikuokukonen, the theme to the drama Eye Love You, which passed six hundred million streams. Tickets were sold by Yes24, which ran an English-language booking page.",
       "genres": [
         "J-Pop",
         "Pop Rock",
@@ -5677,12 +5686,13 @@
       ],
       "image_url": null,
       "source_url": "https://ticket.yes24.com/Pages/English/Perf/FnPerfDeail.aspx?IdPerf=58335",
-      "updated_at": "2026-09-29",
-      "general_sale": true,
-      "general_sale_url": "https://ticket.yes24.com/Pages/English/Perf/FnPerfDeail.aspx?IdPerf=58335",
+      "updated_at": "2026-10-21",
+      "general_sale": false,
+      "general_sale_url": null,
       "related_locale_ids": {
         "ko": "ko-omoinotake-one-man-tour-seoul-20261017"
-      }
+      },
+      "presale": false
     },
     {
       "id": "en-allison-russell-hour-of-chaos-boston-20261018",
@@ -5697,7 +5707,7 @@
       ],
       "developer": "Allison Russell",
       "publisher": null,
-      "description": "Allison Russell plays Royale in Boston on October 18, 2026 on her fall North American headline tour. The 20-date run supports In the Hour of Chaos, her third solo album, released in July 2026 with contributions from Norah Jones, Brittney Spencer, Joy Oladokun and Kara Jackson. Elisapie and AHI join as special guests on selected dates.",
+      "description": "Allison Russell played Royale in Boston on October 18, 2026 on her fall North American headline tour. The 20-date run supports In the Hour of Chaos, her third solo album, released in July 2026 with contributions from Norah Jones, Brittney Spencer, Joy Oladokun and Kara Jackson. Elisapie and AHI join as special guests on selected dates.",
       "genres": [
         "Folk",
         "Americana",
@@ -5705,8 +5715,10 @@
       ],
       "image_url": null,
       "source_url": "https://consequence.net/2026/08/allison-russell-2026-north-american-tour/",
-      "general_sale": true,
-      "general_sale_url": "https://www.ticketmaster.com/allison-russell-tickets/artist/2788777"
+      "general_sale": false,
+      "general_sale_url": null,
+      "presale": false,
+      "updated_at": "2026-10-21"
     },
     {
       "id": "en-illit-press-start-encore-incheon-20261018",
@@ -5743,18 +5755,18 @@
       ],
       "developer": "NEXZ",
       "publisher": null,
-      "description": "Day 2 of NEXZ's SAUCIN' THE WORLD launch at Olympic Hall in Seoul, on October 18, 2026. The JYP group's two Seoul shows both sold out before additional seating went on sale through NOL World. Tickets are mobile-only, with no physical ticket or will-call pickup, and the global page limits each account to two tickets per show including anything already booked.",
+      "description": "Day 2 of NEXZ's SAUCIN' THE WORLD launch at Olympic Hall in Seoul, on October 18, 2026. The JYP group's two Seoul shows both sold out before additional seating went on sale through NOL World. Tickets were mobile-only, with no physical ticket or will-call pickup, and the global page limited each account to two tickets per show including anything already booked.",
       "genres": [
         "K-Pop",
         "Concert"
       ],
       "image_url": null,
       "source_url": "https://www.soompi.com/article/1869018wpp/nexz-announces-1st-asia-tour-saucin-the-world",
-      "updated_at": "2026-10-02",
+      "updated_at": "2026-10-21",
       "presale": false,
       "presale_datetime": null,
-      "general_sale": true,
-      "general_sale_url": "https://world.nol.com/en/ticket/places/26001096/products/26012968"
+      "general_sale": false,
+      "general_sale_url": null
     },
     {
       "id": "en-the-national-ab100-san-sebastian-20261018",
@@ -5769,7 +5781,7 @@
       ],
       "developer": "The National",
       "publisher": null,
-      "description": "The National close the AB100 weekend at Kursaal Donostia in San Sebastian on October 18, 2026, playing an expanded \"and friends\" set that stands as their only confirmed concert of the year and their first live performance since the end of 2024. AB100 is a two-day gathering curated by band members Aaron and Bryce Dessner, running October 17 and 18 in the Basque Country, with Kevin Morby, Ben Howard, Jon Hopkins and Richard Reed Parry among the collaborators taking part. A limited members presale opened July 30 and general tickets go on sale August 3.",
+      "description": "The National closed the AB100 weekend at Kursaal Donostia in San Sebastian on October 18, 2026, playing an expanded \"and friends\" set that stood as their only confirmed concert of the year and their first live performance since the end of 2024. AB100 is a two-day gathering curated by band members Aaron and Bryce Dessner, held October 17 and 18 in the Basque Country, with Kevin Morby, Ben Howard, Jon Hopkins and Richard Reed Parry among the collaborators taking part. A limited members presale opened July 30 and general tickets went on sale August 3.",
       "genres": [
         "Indie Rock",
         "Festival"
@@ -5780,10 +5792,11 @@
       "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://www.kursaal.eus/"
+      "general_sale_url": null,
+      "updated_at": "2026-10-21"
     },
     {
       "id": "en-kenny-g-live-in-seoul-20261020",
@@ -5977,7 +5990,7 @@
       ],
       "developer": "JAY-Z",
       "publisher": null,
-      "description": "JAY-Z plays SoFi Stadium on October 23 and 24, 2026 as part of the 30th anniversary run marking three decades since Reasonable Doubt. The Los Angeles dates were announced July 27 alongside stadium shows at Tottenham Hotspur Stadium in London on September 4 and 5 and Stade de France in Paris on September 10, and they follow three hometown nights at Yankee Stadium earlier in July. Presales open July 29 at 10 a.m. local time with Citi cardholder access in Los Angeles, ahead of the general on-sale July 30 via Ticketmaster.",
+      "description": "JAY-Z plays SoFi Stadium on October 23 and 24, 2026 as part of the 30th anniversary run marking three decades since Reasonable Doubt. The Los Angeles dates were announced July 27 alongside stadium shows at Tottenham Hotspur Stadium in London on September 4 and 5 and Stade de France in Paris on September 10, and they follow three hometown nights at Yankee Stadium earlier in July. Presales opened July 29 at 10 a.m. local time with Citi cardholder access in Los Angeles, ahead of the general on-sale July 30 via Ticketmaster.",
       "genres": [
         "Hip-Hop",
         "Tour"
@@ -5991,7 +6004,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-07-30T10:00:00-07:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "updated_at": "2026-10-21"
     },
     {
       "id": "en-lee-seung-gi-gisungjeon-rak-seoul-20261023",
