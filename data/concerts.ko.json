@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-19",
+  "last_updated": "2026-10-22",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -7665,7 +7665,7 @@
       ],
       "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/10/20261013140753e1fe9f8e-8736-43d3-ac9c-1e3834b1eb7e.jpg",
       "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13055",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-10-21T20:00:00+09:00",
       "presale_end_datetime": "2026-10-21T23:59:59+09:00",
       "presale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13055",
@@ -7673,7 +7673,10 @@
       "general_sale_datetime": "2026-10-23T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13055",
-      "updated_at": "2026-10-19"
+      "updated_at": "2026-10-22",
+      "related_locale_ids": {
+        "en": "en-and2ble-winter-inside-fancon-seoul-20261205"
+      }
     },
     {
       "id": "ko-jangwooyoung-solo-concert-seoul-20261114",
@@ -7735,6 +7738,232 @@
       "general_sale_end_datetime": null,
       "general_sale_url": null,
       "updated_at": "2026-10-19"
+    },
+    {
+      "id": "ko-nmixx-zero-frontier-finale-incheon-20261127",
+      "name": "NMIXX 1ST WORLD TOUR 〈EPISODE 1: ZERO FRONTIER〉 FINALE IN INCHEON",
+      "release_date": "2026-11-27",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "인스파이어 아레나"
+      ],
+      "developer": "엔믹스(NMIXX)",
+      "publisher": null,
+      "description": "엔믹스(NMIXX)가 첫 월드투어 'EPISODE 1: ZERO FRONTIER'의 마지막 무대를 인천 인스파이어 아레나에서 사흘간 꾸민다. 공연은 11월 27일(금) 오후 7시, 28일(토) 오후 5시, 29일(일) 오후 4시다. 티켓은 NOL 티켓(인터파크)에서 팬클럽 NSWER 4기 선예매가 10월 26일 오후 8시부터 11시 59분까지 회차당 1인 1매로 열리고, 일반예매는 27일 오후 8시에 시작한다. 전석 지정석 15만4000원, 만 7세 이상 관람가이며 모바일 티켓으로만 입장한다.",
+      "genres": [
+        "K-POP",
+        "콘서트"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26013946_p.gif",
+      "source_url": "https://nol.yanolja.com/ticket/products/26013946",
+      "presale": true,
+      "presale_datetime": "2026-10-26T20:00:00+09:00",
+      "presale_end_datetime": "2026-10-26T23:59:00+09:00",
+      "presale_url": "https://tickets.interpark.com/goods/26013946",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-27T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26013946",
+      "related_locale_ids": {
+        "en": "en-nmixx-zero-frontier-finale-incheon-20261127"
+      },
+      "updated_at": "2026-10-22"
+    },
+    {
+      "id": "ko-billlie-the-heist-squad-fancon-seoul-20261115",
+      "name": "Billlie 5th Anniversary Fan Concert 〈The Heist Squad〉",
+      "release_date": "2026-11-15",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "서강대학교 메리홀(대극장)"
+      ],
+      "developer": "빌리(Billlie)",
+      "publisher": "MYSTIC, 드림어스컴퍼니",
+      "description": "그룹 빌리(Billlie)가 데뷔 5주년을 맞아 11월 15일 오후 7시 서울 서강대학교 메리홀 대극장에서 팬콘서트 'The Heist Squad'를 단 1회 연다. 사기꾼·해커·운전자 등 '작전 팀' 콘셉트를 내건 약 100분 공연이다. 티켓은 멜론티켓 단독 판매로, 팬클럽 선예매 인증(10월 20~27일)을 거쳐 선예매가 10월 26일 오후 8시, 일반예매가 29일 오후 8시에 열린다. 전석 12만1000원, 1인 2매 한정이며 8세 이상(미취학 아동 불가) 관람가다.",
+      "genres": [
+        "K-POP",
+        "팬콘서트"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/10/202610190943333882e6ba-5ae6-4d73-8ab9-8d2949bb2d1a.jpg",
+      "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13084",
+      "presale": true,
+      "presale_datetime": "2026-10-26T20:00:00+09:00",
+      "presale_end_datetime": "2026-10-27T23:59:00+09:00",
+      "presale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13084",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-29T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13084",
+      "related_locale_ids": {
+        "en": "en-billlie-the-heist-squad-fancon-seoul-20261115"
+      },
+      "updated_at": "2026-10-22"
+    },
+    {
+      "id": "ko-nctwish-face-our-wish-seoul-20270115",
+      "name": "NCT WISH 2nd CONCERT TOUR 'INTO THE WISH : Face Our WISH' IN SEOUL",
+      "release_date": "2027-01-15",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "고척스카이돔"
+      ],
+      "developer": "NCT WISH",
+      "publisher": "SM엔터테인먼트, DREAM MAKER ENTERTAINMENT",
+      "description": "NCT WISH가 두 번째 콘서트 투어 'INTO THE WISH : Face Our WISH'를 서울 고척스카이돔에서 시작한다. 2027년 1월 15일(금) 오후 6시와 16일(토) 오후 5시 2회 공연으로, 데뷔 3년이 채 안 돼 처음 서는 돔 무대다. 서울 뒤로 가오슝·방콕·마닐라 등 아시아 일정이 이어진다. 티켓은 멜론티켓에서 판매하며 VIP석 22만원(사운드체크 참여)·일반석 16만5000원, 회차당 1인 2매, 만 7세 이상 관람가다. 해외 예매는 여권 인증이 필요한 멜론티켓 글로벌로 진행된다.",
+      "genres": [
+        "K-POP",
+        "콘서트"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/10/20261016144124431fdf89-cf33-4d16-b26a-a586a49610f7.jpg",
+      "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13085",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "related_locale_ids": {
+        "en": "en-nct-wish-into-the-wish-face-our-wish-seoul-20270115"
+      },
+      "updated_at": "2026-10-22"
+    },
+    {
+      "id": "ko-mma-2026-20261114",
+      "name": "멜론뮤직어워드 2026 (MMA2026)",
+      "release_date": "2026-11-14",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "festival",
+      "platforms": [
+        "고척스카이돔"
+      ],
+      "developer": null,
+      "publisher": "카카오엔터테인먼트(멜론)",
+      "description": "카카오엔터테인먼트의 음악 플랫폼 멜론이 여는 시상식 MMA2026이 11월 14일과 15일 서울 고척스카이돔에서 열린다. 18년 역사상 처음으로 이틀에 걸쳐 진행되며 두 날 모두 오후 6시 시작이다. 첫날은 에스파·NCT 드림·에이티즈 등 14팀, 둘째 날은 아이브·코르티스·NCT 127 등 12팀이 무대에 선다. 티켓은 멜론티켓에서 멜론 회원만 살 수 있는데, 1차(1년 이상 GOLD 등급 이상)는 10월 19일에 마감됐고 2차는 이용권 보유자 대상으로 10월 22일 오후 8시에 열린다. 두 차례 합쳐 멜론 ID당 2매까지다.",
+      "genres": [
+        "K-POP",
+        "시상식"
+      ],
+      "image_url": null,
+      "source_url": "https://www.etoday.co.kr/news/view/2637167",
+      "presale": false,
+      "presale_datetime": "2026-10-19T20:00:00+09:00",
+      "presale_end_datetime": "2026-10-19T23:59:00+09:00",
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-22T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "related_locale_ids": {
+        "en": "en-mma-2026-20261114"
+      },
+      "updated_at": "2026-10-22"
+    },
+    {
+      "id": "ko-epikhigh-2027-concert-seoul-20270122",
+      "name": "2027 에픽하이 콘서트",
+      "release_date": "2027-01-22",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KSPO DOME(올림픽체조경기장)"
+      ],
+      "developer": "에픽하이(EPIK HIGH)",
+      "publisher": null,
+      "description": "에픽하이(타블로·미쓰라·투컷)가 2027년 1월 22일부터 24일까지 서울 올림픽공원 KSPO DOME에서 단독 콘서트를 연다. 데뷔 20여 년 만에 처음 서는 KSPO DOME 무대로, 공연은 22일(금) 오후 8시, 23일(토) 오후 6시, 24일(일) 오후 4시 세 차례다. 티켓은 멜론티켓에서 판매 중이며 멤버십 선예매는 10월 2일, 일반예매는 10월 7일 각각 오후 8시에 이미 열렸다. 북미 13개 도시 투어 'EPIK HIGH 3.0'을 마친 뒤 이어지는 서울 공연이다.",
+      "genres": [
+        "힙합",
+        "콘서트"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/190322_%EC%97%90%ED%94%BD%ED%95%98%EC%9D%B4_%EC%BD%94%EC%97%91%EC%8A%A4_%EC%8A%A4%ED%83%80%ED%95%84%EB%93%9C_%ED%8C%AC%EC%8B%B8%EC%9D%B8%ED%9A%8C_1.jpg",
+      "source_url": "https://www.tvreport.co.kr/music/article/1079240/",
+      "presale": false,
+      "presale_datetime": "2026-10-02T20:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-07T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "related_locale_ids": {
+        "en": "en-epik-high-2027-concert-seoul-20270122"
+      },
+      "updated_at": "2026-10-22"
+    },
+    {
+      "id": "ko-bulnabang-monster-farm-seoul-20261223",
+      "name": "불나방스타쏘세지클럽 콘서트 〈모여봐요 괴물의 농장〉",
+      "release_date": "2026-12-23",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "세종문화회관(S씨어터)"
+      ],
+      "developer": "불나방스타쏘세지클럽",
+      "publisher": "프라이빗커브",
+      "description": "밴드 불나방스타쏘세지클럽이 12월 23일(수) 오후 7시 30분 세종문화회관 S씨어터에서 연말 콘서트 '모여봐요 괴물의 농장'을 연다. 프라이빗커브의 '아름다운 싱어송라이터 시리즈 2026' 첫 라인업으로, 지난 6월 약 7년 만에 낸 신곡 '괴물쇼' 이후 처음 여는 연말 단독 무대다. 러닝타임은 80분, R석 7만7000원 전석 지정석이며 티켓은 10월 28일 낮 12시 멜론티켓과 세종문화티켓에서 동시에 열린다.",
+      "genres": [
+        "밴드",
+        "인디",
+        "콘서트"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/10/20261021114646a86a5084-7573-48b4-9ca8-7d4ba069e157.jpg",
+      "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13108",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-28T12:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13108",
+      "updated_at": "2026-10-22"
+    },
+    {
+      "id": "ko-baekhyunjin-health-seoul-20261226",
+      "name": "백현진 연말 콘서트 〈건강!〉",
+      "release_date": "2026-12-26",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "세종문화회관(S씨어터)"
+      ],
+      "developer": "백현진",
+      "publisher": "프라이빗커브",
+      "description": "싱어송라이터이자 미술가 백현진이 12월 26일(토) 오후 7시와 27일(일) 오후 6시 이틀간 세종문화회관 S씨어터에서 연말 콘서트 '건강!'을 연다. 같은 극장에서 이어지는 프라이빗커브 '아름다운 싱어송라이터 시리즈 2026'의 두 번째 공연으로, 불나방스타쏘세지클럽(23일) 다음 주말에 열린다. R석 8만8000원 전석 지정석이고, 티켓은 10월 28일 오후 2시 멜론티켓과 세종문화티켓에서 예매할 수 있다.",
+      "genres": [
+        "싱어송라이터",
+        "콘서트"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/10/202610201811460d3a911e-cca8-4f74-9e4a-1ea15d352b79.jpg",
+      "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13109",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-28T14:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13109",
+      "updated_at": "2026-10-22"
     }
   ]
 }
