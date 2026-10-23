@@ -1,3 +1,63 @@
+## [2026-10-23 09:40] [EN 리서처]
+리서치 완료 (해외 팬 대상 한국 공연)
+- 아직 안 열린 예매 4건 (이번에 새로 잡은 것 +0, 예매 시각 채운 기존 공연 +0) — 앤더블 일반(오늘 10/23 20:00), NMIXX(10/26·10/27), Billlie(10/26·10/29), 공유 팬미팅(10/27·10/29) 유지
+  - NCT WISH 서울 예매 시각: 멜론티켓 공지(csoonId 13085, 10/16 등록)를 사용자 PC 셸 curl로 원문 확인 — 선예매 1차 11/2·2차 11/3·일반 11/4 각 20:00 KST, 글로벌은 tkglobal.melon.com·여권 인증 필수. 그러나 위버스 공지(notice/40039)는 JS 페이지라 본문 미확보, 기사·집계 사이트도 아직 "미정" → 독립 출처 1곳 부족으로 이번에도 비워둠(11/2 전 최우선 재확인)
+- 콘서트/투어 3→2, 발매 0→0, 페스티벌 0→0, 팬미팅 0→0 (후보→통과)
+- 신규 2개 / 갱신 12개 (삭제 없음·전량 보존)
+  - 신규: 비 〈THE SMOKE〉 서울(12/5 18:00·12/6 17:00 올림픽홀) — YES24 판매 페이지(Perf/60211) + 스포츠경향 영문(10/20) + 전남일보(9/16) 일치. 예매 이미 열림(general_sale:true, YES24 URL)
+  - 신규: 조용필 & 위대한탄생 서울(11/27 19:00·28 18:00·29 17:00 KSPO DOME) — YES24 판매 페이지(Perf/60153) + 스포츠경향 영문(9/16) 일치. 주최 위즈덤엔터테인먼트, 일반 9/18 14:00 YES24 단독
+  - 크로스 링크(`related_locale_ids.ko`) 추가 8건: NMIXX·Billlie·NCT WISH 서울·MMA2026·에픽하이(KO 요청 처리) + 태민 PHASE 1·YUURI 인천·장우영 단독(같은 날짜·공연장 대조로 발견)
+- 뉴스 인계 처리 0건 중 0건 등재 — `leads.en.jsonl` 134건 그대로(최신 리드 2026-09-11, 신규 없음). 파일 미수정
+- 설명 복사 묶음 정리 1개 (남은 en 3개: Ghost·Bryan Adams·Jonas Brothers): Lord Huron 〈23 Nights at the Broken Bottle〉 4건(내슈빌·브루클린·새크라멘토·LA) — Consequence 원문 23회 일정표 재확인 후 각 공연의 투어 내 위치·전후 일정으로 재작성
+- 과거 백필 0개(사유: 크로스 링크 정리·예매 시각 재확인에 여력 집중). 신규 2건은 이미 색인된 공연장(올림픽홀·KSPO DOME) 보강, 1건짜리 신규 공연장 0개
+- 티켓팅 진행중 +2 (비·조용필 일반) / 해제 0
+- description 보강 4개(묶음 정리분), 이미지 2건(YES24 포스터 430×602 실측)
+- 총 등록 391개 (389 → 391)
+
+[KO 리서처 요청]
+- 역방향 연결 부탁(`concerts.ko.json`의 `related_locale_ids.en`) — 다가오는 공연 35건:
+  - `ko-day6-5th-fanmeeting-incheon-20261023` ← `en-day6-5th-fanmeeting-incheon-20261023`
+  - `ko-leeseunggi-gisungjeon-rak-seoul-20261024` ← `en-lee-seung-gi-gisungjeon-rak-seoul-20261023`
+  - `ko-lisa-press-play-20261023` ← `en-lisa-press-play-20261023`
+  - `ko-lucy-island-encore-seoul-20261023` ← `en-lucy-island-encore-seoul-20261023`
+  - `ko-kimjiwon-wonederland-seoul-20261024` ← `en-kim-ji-won-wonederland-seoul-20261024`
+  - `ko-oneus-full-moon-seoul-20261024` ← `en-oneus-full-moon-seoul-20261024`
+  - `ko-oneus-full-moon-seoul-20261024` ← `en-oneus-full-moon-seoul-20261025`
+  - `ko-bensonboone-wanted-man-tour-seoul-20261026` ← `en-benson-boone-wanted-man-seoul-20261026`
+  - `ko-illit-break-even-20261026` ← `en-illit-break-even-20261026`
+  - `ko-riize-prologue-single-20261026` ← `en-riize-prologue-single-20261026`
+  - `ko-flow-naruto-the-rock-seoul-20261028` ← `en-flow-naruto-the-rock-seoul-20261028`
+  - `ko-jeonghan-joshua-journey-into-dreaming-incheon-20261030` ← `en-jeonghan-x-joshua-journey-into-dreaming-incheon-20261030`
+  - `ko-nujabes-metaphorical-ensemble-seoul-20261031` ← `en-nujabes-metaphorical-ensemble-seoul-20261031`
+  - `ko-kgma-2026-20261107` ← `en-kgma-2026-20261107`
+  - `ko-txt-steal-the-wind-seoul-20261113` ← `en-txt-steal-the-wind-seoul-20261113`
+  - `ko-5sos-everyones-a-star-seoul-20261119` ← `en-5sos-everyones-a-star-seoul-20261119`
+  - `ko-monstax-the-x-nexus-encore-incheon-20261121` ← `en-monsta-x-the-x-nexus-encore-incheon-20261121`
+  - `ko-dynamicduo-once-in-a-while-seoul-20261127` ← `en-dynamic-duo-once-in-a-while-seoul-20261127`
+  - `ko-gongyoo-the-long-take-seoul-20261128` ← `en-gong-yoo-the-long-take-seoul-20261128`
+  - `ko-malcolmtodd-do-that-again-seoul-20261202` ← `en-malcolm-todd-do-that-again-seoul-20261202`
+  - `ko-khalid-always-summer-somewhere-goyang-20261205` ← `en-khalid-always-summer-somewhere-seoul-20261205`
+  - `ko-yuuri-live-2026-seoul-20261205` ← `en-yuuri-live-2026-incheon-20261205`
+  - `ko-slowdive-live-2026-seoul-20261208` ← `en-slowdive-live-2026-seoul-20261208`
+  - `ko-davichi-in-our-scenes-seoul-20261212` ← `en-davichi-in-our-scenes-seoul-20261212`
+  - `ko-domi-jdbeck-who-asked-seoul-20261212` ← `en-domi-jd-beck-who-asked-seoul-20261212`
+  - `ko-wavetoearth-seoul-20261219` ← `en-wave-to-earth-the-pieces-tour-seoul-20261218`
+  - `ko-parkjinyoung-wet-seoul-20261224` ← `en-jy-park-wet-seoul-20261224`
+  - `ko-fujiikaze-prema-world-tour-seoul-20270109` ← `en-fujii-kaze-prema-world-tour-seoul-20270109`
+  - `ko-maroon5-live-in-korea-goyang-20270127` ← `en-maroon-5-asia-2027-seoul-20270127`
+  - `ko-bruno-mars-the-romantic-goyang-20270521` ← `en-bruno-mars-the-romantic-seoul-20270521`
+  - `ko-roykim-year-end-concert-seoul-20261121` ← `en-roy-kim-roy-live-tour-seoul-20261121`
+  - `ko-jangwooyoung-solo-concert-seoul-20261114` ← `en-jang-wooyoung-solo-concert-seoul-20261114`
+  - `ko-kimjaehwan-yeoback-seoul-20261031` ← `en-kim-jae-hwan-yeobaek-seoul-20261031`
+  - `ko-rain-the-smoke-seoul-20261205` ← `en-rain-the-smoke-seoul-20261205`
+  - `ko-joyongpil-great-birth-seoul-20261127` ← `en-cho-yong-pil-great-birth-seoul-20261127`
+- 이 밖에 지난 공연 20건(태민 PHASE 1 포함)도 EN→KO 링크만 있고 KO→EN이 비어 있음(포스트 말론·더 위켄드·찰리 푸스·EDC 등) — 여력 있을 때 일괄 정리 요청
+
+[검증 탈락]
+- NCT WISH 예매 시각: 멜론티켓 공지 1곳뿐(위버스 공지 본문 미확보) — 다음 사이클 재확인
+- 온유 〈ONEW THE LIVE : Q〉(10/30~11/1 올림픽홀): 회차 시각·예매 정보 여전히 미확인(KO도 미등재)
+- 볼빨간사춘기 〈Red Square〉(11/7·8 킨텍스): 이번 사이클 영어 출처 확인 못 해 보류
+
 ## [2026-10-22 09:50] [KO 리서처]
 리서치 완료 (한국 국내 공연)
 - 아직 안 열린 예매 7건 (이번에 새로 잡은 것 +5, 예매 시각 채운 기존 공연 +0) — 신규: MMA2026 2차(오늘 10/22 20:00), 엔믹스 인천 피날레(선 10/26·일반 10/27 20:00, NOL), 빌리 팬콘(선 10/26·일반 10/29 20:00, 멜론), 불나방스타쏘세지클럽(10/28 12:00)·백현진(10/28 14:00, 멜론·세종문화티켓). 기존: 공유 팬미팅(10/27·10/29), 앤더블 일반(10/23)
