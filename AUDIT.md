@@ -2,9 +2,37 @@
 
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
-| ko | 2026-10-19 | |
+| ko | 2026-10-19 | ← |
 | en | 2026-10-21 | |
-| ja | 2026-10-16 | ← |
+| ja | 2026-10-23 | |
+
+---
+
+## 2026-10-23 · ja
+
+로테이션상 ja가 가장 오래된 점검일(2026-10-16)이라 선택. 대상 창: 2026-08-24 ~ 2026-12-22(오늘 ±60일), 창 안 항목 168건(끝난 것 79 / 예정 89). 코드는 손대지 않았고 `data/concerts.ja.json`만 수정(파일 상단 `last_updated` 2026-10-23). push 전 `validate-data.mjs` 통과. 지난 회차들과 같이 **실제로 고친 4건에만 `updated_at=2026-10-23`**, 항목 단위 `last_updated`는 넣지 않음.
+
+**트랙 A (졸업 처리) — 4건**
+- A-1/A-2 끝난 공연의 예매 필드 정리 3건(§7대로 `presale`/`general_sale=false` + 예매 URL·datetime 6개 필드 null): ja-the-and-startours-earth-harajuku-20261017, ja-the-and-startours-earth-harajuku-20261018(+시제 "戻る一夜となる"→"なった"), ja-shai-maestro-guesthouse-20261020(10/20·21 2일 공연 종료, +시제 "来日する/披露する/開催。"→과거형)
+- A-4 description 시제만 교정 1건: ja-charlie-puth-2026-20261016("開催される"→"開催された", "披露する予定。"→"披露する予定とされた。") — 새 사실 추가 없음
+- A-3: 창 안 끝난 항목 중 approx=true는 여전히 ja-post-malone-2026-20261006 1건 — 연기·振替 미정이라 의도적으로 유지
+- 오탐(이미 과거형 또는 다른 일정 서술): ryo-takaiwa, kato-kuniko(투어 2027년 3월까지 진행), abc-z-the-way-of-love, hinatazaka46-ichaicha-mushi, kamishiraishi-mone-bouquet, bmsg-fes-26, rei-makoto(2027 도쿄 공연 예고), sukiyaki-tokyo
+- 계속 보류(설명 복사 묶음, 지난 회차와 동일 사유): ENDRECHERI yokohama 2건, Scaffold 3 東京/大阪
+- 의도적 제외(투어 잔여 일정 진행 중): ryokushaka-arena-tour, nightmare-tour, peter-gallway-sahashi(~10/29), abc-z-way-of-love-tour(~11/24)
+
+**트랙 B (임박 점검) — 8건 확인, 변경 없음** (공연일 가까운 순, `updated_at` 없는 항목. 지난 회차에 확인한 number-i 札幌·YOASOBI·MWAM 싱글은 건너뜀)
+- ja-ovall-glimmer-tour-osaka-20261029 — SMASH 공식 페이지에 10/29 JANUS OPEN 18:30/START 19:00 그대로, 当日券あり. 변경 없음
+- ja-snowman-dome-tour-all-suite-sapporo-20261030 — MENT RECORDING 공식 투어 페이지 10/30·31 17:00, 11/1 일정 유지. 변경 없음
+- ja-festival-de-frue-2026-20261031 — 공식 사이트 10/31·11/1 타임테이블 게재(坂本慎太郎·Juana Molina·Pachyman 등). 변경 없음
+- ja-jo0ji-ikari-tour-2026-20261101 — KT Zepp Yokohama 11/1 개막 유지(Sony Music·e+·티켓 리스팅). 변경 없음
+- ja-harada-tomoyo-renai-shosetsu-5-20261104 — 11/4 발매 유지(CDJournal·Billboard JAPAN). 변경 없음
+- ja-motoharu-sano-in-and-out-tokyo-20261105 — DISK GARAGE 일정에 11/5 SGC HALL ARIAKE 유지. 변경 없음
+- ja-yonezu-kenshi-ghost-2026-20261106 — REISSUE RECORDS 공식(10/6 갱신) 長野ビッグハット 11/6·7 유지, 10월 월드투어 발표 기사도 "11月6日開幕" 표기. 변경 없음
+- ja-flumpool-kokokaranouta-shibuya-20261107 — 공식 라이브 페이지 "予定通り開催". 변경 없음
+- B-3 링크: 8건 source/image/예매 URL 13개 실제 접속 — 전부 200(ぴあ 단축 URL 2건·REISSUE source는 리다이렉트로 정상 도착) → 죽은 링크 없음
+
+**남은 것**: 위 보류 4건(설명 복사). 트랙 B 다음 순번: ja-punk-rock-connection-2026-20261107, ja-wiener-philharmoniker-week-japan-2026-20261107~, ja-kai-yoshihiro-homecoming-tour-haneda-20261108부터
+**리서처 참고(추가 안 함)**: ① ja-yonezu-kenshi-ghost-2026 설명의 "当選発表は8月12日正午が予定されている"는 지난 일정이라 시제 정리 필요(예정 공연이라 이번엔 미수정). ② 米津玄師 월드투어「KENSHI YONEZU 2026-2027 WORLD TOUR / GHOST」 발표(10월, realsound) — ja 미등록 여부 확인 필요. ③ ENDRECHERI·Scaffold 설명 복사 정리 여전히 필요
 
 ---
 
