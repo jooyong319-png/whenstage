@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-10-23",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -2856,7 +2856,11 @@
         "Pop",
         "Album"
       ],
-      "source_url": "https://www.forbes.com/sites/jeffbenjamin/2026/08/14/taemin-reveals-us-leg-of-liminal-world-tour-in-partnership-with-aeg/"
+      "source_url": "https://www.forbes.com/sites/jeffbenjamin/2026/08/14/taemin-reveals-us-leg-of-liminal-world-tour-in-partnership-with-aeg/",
+      "related_locale_ids": {
+        "ko": "ko-taemin-phase1-soft-violence-20260831"
+      },
+      "updated_at": "2026-10-23"
     },
     {
       "id": "en-fcukers-fall-tour-grand-rapids-20260901",
@@ -7707,7 +7711,7 @@
       ],
       "developer": "Lord Huron",
       "publisher": null,
-      "description": "Lord Huron opens the 23-date traveling residency 23 Nights at the Broken Bottle at the Ryman Auditorium in Nashville on December 1, 2026. The residency stages each show inside the \"Broken Bottle,\" a desert honky-tonk drawn from Lord Huron's fictional universe, and is billed as \"An Evening With Lord Huron\" with no opening act. The band draws on its full catalog, from radio hits to rarely played deep cuts, in theaters far smaller than the amphitheaters of its 2026 summer run behind The Cosmic Selector Vol. 1. The 2,362-capacity Ryman sets the intimate tone for the run.",
+      "description": "Lord Huron open 23 Nights at the Broken Bottle at Nashville's Ryman Auditorium on December 1, 2026, the first of 23 theater dates and the smallest room of the run at 2,362 seats. Cincinnati and Columbus follow on the next two nights. The traveling residency turns each stage into the Broken Bottle, a desert honky-tonk from the band's own fictional world, with no opening act.",
       "genres": [
         "Indie Folk",
         "Indie Rock",
@@ -7718,7 +7722,8 @@
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": "2026-08-07T10:00:00-05:00",
-      "general_sale_url": "https://www.ticketmaster.com/lord-huron-tickets/artist/1486841"
+      "general_sale_url": "https://www.ticketmaster.com/lord-huron-tickets/artist/1486841",
+      "updated_at": "2026-10-23"
     },
     {
       "id": "en-syd-beard-tour-brooklyn-20261201",
@@ -7921,10 +7926,13 @@
       ],
       "image_url": null,
       "source_url": "https://tickets.interpark.com/goods/26010352",
-      "updated_at": "2026-10-02",
+      "updated_at": "2026-10-23",
       "general_sale": true,
       "general_sale_datetime": "2026-07-31T20:00:00+09:00",
-      "general_sale_url": "https://tickets.interpark.com/goods/26010352"
+      "general_sale_url": "https://tickets.interpark.com/goods/26010352",
+      "related_locale_ids": {
+        "ko": "ko-yuuri-live-2026-seoul-20261205"
+      }
     },
     {
       "id": "en-slowdive-live-2026-seoul-20261208",
@@ -8288,7 +8296,7 @@
       ],
       "developer": "Lord Huron",
       "publisher": null,
-      "description": "Lord Huron plays the first of two nights at Kings Theatre in Brooklyn on December 18, 2026 as part of 23 Nights at the Broken Bottle. The residency stages each show inside the \"Broken Bottle,\" a desert honky-tonk drawn from Lord Huron's fictional universe, and is billed as \"An Evening With Lord Huron\" with no opening act. The band draws on its full catalog, from radio hits to rarely played deep cuts, in theaters far smaller than the amphitheaters of its 2026 summer run behind The Cosmic Selector Vol. 1. A second Brooklyn date follows on December 19.",
+      "description": "Brooklyn's Kings Theatre hosts the 13th and 14th nights of Lord Huron's residency tour on December 18 and 19, 2026, the last shows of the December leg and its only New York City stop. The band arrive from two nights at MTELUS in Montreal, then break for the holidays before the West Coast swing. Tickets are sold through Ticketmaster and the band's website.",
       "genres": [
         "Indie Folk",
         "Indie Rock",
@@ -8299,7 +8307,8 @@
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": "2026-08-07T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/lord-huron-tickets/artist/1486841"
+      "general_sale_url": "https://www.ticketmaster.com/lord-huron-tickets/artist/1486841",
+      "updated_at": "2026-10-23"
     },
     {
       "id": "en-wave-to-earth-the-pieces-tour-seoul-20261218",
@@ -8528,7 +8537,7 @@
       ],
       "developer": "Lord Huron",
       "publisher": null,
-      "description": "Lord Huron restarts 23 Nights at the Broken Bottle on New Year's Day 2027 at Channel 24 in Sacramento, the first West Coast stop after the December leg. The residency stages each show inside the \"Broken Bottle,\" a desert honky-tonk drawn from Lord Huron's fictional universe, and is billed as \"An Evening With Lord Huron\" with no opening act. The band draws on its full catalog, from radio hits to rarely played deep cuts, in theaters far smaller than the amphitheaters of its 2026 summer run behind The Cosmic Selector Vol. 1.",
+      "description": "Sacramento's Channel 24 is where Lord Huron pick the Broken Bottle residency back up on New Year's Day 2027, after a 12-day break that follows Brooklyn. It is the 15th of 23 dates and the only single-night California stop before Oakland's Fox Theater on January 3; Las Vegas sits between the two on January 2. Tickets are on sale through Ticketmaster.",
       "genres": [
         "Indie Folk",
         "Indie Rock",
@@ -8539,7 +8548,8 @@
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": "2026-08-07T10:00:00-07:00",
-      "general_sale_url": "https://www.ticketmaster.com/lord-huron-tickets/artist/1486841"
+      "general_sale_url": "https://www.ticketmaster.com/lord-huron-tickets/artist/1486841",
+      "updated_at": "2026-10-23"
     },
     {
       "id": "en-fujii-kaze-prema-world-tour-seoul-20270109",
@@ -8582,7 +8592,7 @@
       ],
       "developer": "Lord Huron",
       "publisher": null,
-      "description": "The 23-date residency closes on January 11, 2027 with the second of two nights at The Wiltern in Los Angeles, the band's home city. The residency stages each show inside the \"Broken Bottle,\" a desert honky-tonk drawn from Lord Huron's fictional universe, and is billed as \"An Evening With Lord Huron\" with no opening act. The band draws on its full catalog, from radio hits to rarely played deep cuts, in theaters far smaller than the amphitheaters of its 2026 summer run behind The Cosmic Selector Vol. 1.",
+      "description": "Lord Huron finish 23 Nights at the Broken Bottle in their home city with two nights at The Wiltern in Los Angeles, January 10 and 11, 2027; this entry covers the closing show on the 11th. The final week runs through Vancouver's Orpheum Theatre and Seattle's Paramount Theatre, two nights each, before the band end the residency on home turf.",
       "genres": [
         "Indie Folk",
         "Indie Rock",
@@ -8593,7 +8603,8 @@
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": "2026-08-07T10:00:00-07:00",
-      "general_sale_url": "https://www.ticketmaster.com/lord-huron-tickets/artist/1486841"
+      "general_sale_url": "https://www.ticketmaster.com/lord-huron-tickets/artist/1486841",
+      "updated_at": "2026-10-23"
     },
     {
       "id": "en-70000-tons-of-metal-2027-20270114",
@@ -10031,7 +10042,10 @@
       "presale_datetime": "2026-10-02T20:00:00+09:00",
       "general_sale": true,
       "general_sale_datetime": "2026-10-07T20:00:00+09:00",
-      "updated_at": "2026-10-16"
+      "updated_at": "2026-10-23",
+      "related_locale_ids": {
+        "ko": "ko-epikhigh-2027-concert-seoul-20270122"
+      }
     },
     {
       "id": "en-jang-wooyoung-solo-concert-seoul-20261114",
@@ -10057,7 +10071,10 @@
       "presale_datetime": "2026-10-15T20:00:00+09:00",
       "general_sale": true,
       "general_sale_datetime": "2026-10-19T20:00:00+09:00",
-      "updated_at": "2026-10-16"
+      "updated_at": "2026-10-23",
+      "related_locale_ids": {
+        "ko": "ko-jangwooyoung-solo-concert-seoul-20261114"
+      }
     },
     {
       "id": "en-onew-the-live-q-seoul-20261030",
@@ -10239,7 +10256,10 @@
           ]
         }
       ],
-      "updated_at": "2026-10-19"
+      "updated_at": "2026-10-23",
+      "related_locale_ids": {
+        "ko": "ko-mma-2026-20261114"
+      }
     },
     {
       "id": "en-nmixx-zero-frontier-finale-incheon-20261127",
@@ -10268,7 +10288,10 @@
       "general_sale": true,
       "general_sale_datetime": "2026-10-27T20:00:00+09:00",
       "general_sale_url": "https://world.nol.com/en/content/festas/01a0320c-febb-7711-aad0-d39586c2da5f",
-      "updated_at": "2026-10-19"
+      "updated_at": "2026-10-23",
+      "related_locale_ids": {
+        "ko": "ko-nmixx-zero-frontier-finale-incheon-20261127"
+      }
     },
     {
       "id": "en-billlie-the-heist-squad-fancon-seoul-20261115",
@@ -10297,7 +10320,10 @@
       "general_sale": true,
       "general_sale_datetime": "2026-10-29T20:00:00+09:00",
       "general_sale_url": null,
-      "updated_at": "2026-10-20"
+      "updated_at": "2026-10-23",
+      "related_locale_ids": {
+        "ko": "ko-billlie-the-heist-squad-fancon-seoul-20261115"
+      }
     },
     {
       "id": "en-nct-wish-into-the-wish-face-our-wish-seoul-20270115",
@@ -10326,7 +10352,67 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-20"
+      "updated_at": "2026-10-23",
+      "related_locale_ids": {
+        "ko": "ko-nctwish-face-our-wish-seoul-20270115"
+      }
+    },
+    {
+      "id": "en-rain-the-smoke-seoul-20261205",
+      "name": "2026 RAIN CONCERT : THE SMOKE - SEOUL",
+      "release_date": "2026-12-05",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Olympic Park, Seoul(Olympic Hall)"
+      ],
+      "developer": "Rain",
+      "publisher": null,
+      "description": "Rain closes his year with two solo shows titled THE SMOKE at Olympic Hall in Seoul's Olympic Park: December 5, 2026 at 6 p.m. KST and December 6 at 5 p.m. KST, each about 120 minutes. Tickets are sold on YES24 Ticket in four tiers, from 110,000 won for S seats to 198,000 won for VVIP, and the show is open to ages 8 and up. The fan club presale and general sale both opened in late September and early October.",
+      "genres": [
+        "K-Pop",
+        "Concert"
+      ],
+      "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202609/20260916/20260916-60211.jpg",
+      "source_url": "https://sports.khan.co.kr/en/article/202610201456007/",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_url": "https://ticket.yes24.com/Perf/60211",
+      "updated_at": "2026-10-23",
+      "related_locale_ids": {
+        "ko": "ko-rain-the-smoke-seoul-20261205"
+      }
+    },
+    {
+      "id": "en-cho-yong-pil-great-birth-seoul-20261127",
+      "name": "2026 Cho Yong-pil & The Great Birth Concert - Seoul",
+      "release_date": "2026-11-27",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KSPO Dome, Seoul(Olympic Park)"
+      ],
+      "developer": "Cho Yong-pil",
+      "publisher": "Wisdom Entertainment",
+      "description": "Korean rock legend Cho Yong-pil, on stage since 1968, plays three nights at KSPO Dome in Seoul with his longtime band The Great Birth: November 27, 2026 at 7 p.m., November 28 at 6 p.m. and November 29 at 5 p.m. KST, each running about 130 minutes. Tickets went on sale exclusively on YES24 Ticket on September 18 at 2 p.m. KST, priced from 110,000 won (A) to 176,000 won (VIP), for ages 8 and up.",
+      "genres": [
+        "K-Rock",
+        "Concert"
+      ],
+      "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202609/20260918/20260918-60153.jpg",
+      "source_url": "https://sports.khan.co.kr/en/article/202609160850007",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-18T14:00:00+09:00",
+      "general_sale_url": "https://ticket.yes24.com/Perf/60153",
+      "updated_at": "2026-10-23",
+      "related_locale_ids": {
+        "ko": "ko-joyongpil-great-birth-seoul-20261127"
+      }
     }
   ]
 }
