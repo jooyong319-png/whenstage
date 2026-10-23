@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-10-23",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -3846,13 +3846,14 @@
       ],
       "developer": "Charlie Puth",
       "publisher": "ライブネーション・ジャパン",
-      "description": "「Attention」「See You Again」などのヒットで知られるシンガーソングライターCharlie Puthの一夜限りの来日公演。ワールドツアー「Whatever's Clever! World Tour」として、2026年10月16日に横浜のぴあアリーナMMで開催される。最新アルバム『Whatever's Clever!』の楽曲やヒット曲を披露する予定。同作には宇多田ヒカルが参加した「Home」も収録されている。",
+      "description": "「Attention」「See You Again」などのヒットで知られるシンガーソングライターCharlie Puthの一夜限りの来日公演。ワールドツアー「Whatever's Clever! World Tour」として、2026年10月16日に横浜のぴあアリーナMMで開催された。最新アルバム『Whatever's Clever!』の楽曲やヒット曲を披露する予定とされた。同作には宇多田ヒカルが参加した「Home」も収録されている。",
       "genres": [
         "来日",
         "ポップ"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Charlie_Puth.jpg/250px-Charlie_Puth.jpg",
-      "source_url": "https://skream.jp/news/2026/04/charlie_puth_whatevers_clever_world_tour.php"
+      "source_url": "https://skream.jp/news/2026/04/charlie_puth_whatevers_clever_world_tour.php",
+      "updated_at": "2026-10-23"
     },
     {
       "id": "ja-the-and-startours-earth-harajuku-20261017",
@@ -3874,8 +3875,10 @@
       ],
       "image_url": null,
       "source_url": "https://www.cdjournal.com/news/the/129138",
-      "general_sale": true,
-      "general_sale_url": "https://eplus.jp/sf/word/0000165641"
+      "general_sale": false,
+      "general_sale_url": null,
+      "presale": false,
+      "updated_at": "2026-10-23"
     },
     {
       "id": "ja-the-and-startours-earth-harajuku-20261018",
@@ -3890,15 +3893,17 @@
       ],
       "developer": "THE&",
       "publisher": null,
-      "description": "THE&の2ndアルバム『THE&II』に連動した全国ツアー〈STARTOURS～Earth～〉を締めくくる東京2デイズ2日目にして、全10公演のツアーファイナル。名古屋・大阪・広島・福岡・熊本・岩見沢・札幌・鹿児島を巡ったツアーの最終地として原宿RUIDOに戻る一夜となる。開場16:30／開演17:00、オールスタンディングで前売6,000円・当日6,500円（ドリンク代別）。",
+      "description": "THE&の2ndアルバム『THE&II』に連動した全国ツアー〈STARTOURS～Earth～〉を締めくくる東京2デイズ2日目にして、全10公演のツアーファイナル。名古屋・大阪・広島・福岡・熊本・岩見沢・札幌・鹿児島を巡ったツアーの最終地として原宿RUIDOに戻る一夜となった。開場16:30／開演17:00、オールスタンディングで前売6,000円・当日6,500円（ドリンク代別）。",
       "genres": [
         "ロック",
         "J-POP"
       ],
       "image_url": null,
       "source_url": "https://www.cdjournal.com/news/the/129138",
-      "general_sale": true,
-      "general_sale_url": "https://eplus.jp/sf/word/0000165641"
+      "general_sale": false,
+      "general_sale_url": null,
+      "presale": false,
+      "updated_at": "2026-10-23"
     },
     {
       "id": "ja-shai-maestro-guesthouse-20261020",
@@ -3913,7 +3918,7 @@
       ],
       "developer": "シャイ・マエストロ（Shai Maestro）",
       "publisher": "コットンクラブ",
-      "description": "現代ジャズを代表するイスラエル出身のピアニスト／作曲家シャイ・マエストロが、約2年半ぶりに自身のトリオを率いて来日する。ルーベン・ロジャース（b）、オフリ・ネヘミヤ（ds）とともに、naïveレーベルからの最新作『The Guesthouse』の楽曲を中心に披露する。2026年10月20日（火）・21日（水）の2日間、東京・丸の内のコットンクラブで各日2ステージ制（1st開演18:00／2nd開演20:30）で開催。全席指定でテーブル席は9,000円。",
+      "description": "現代ジャズを代表するイスラエル出身のピアニスト／作曲家シャイ・マエストロが、約2年半ぶりに自身のトリオを率いて来日した。ルーベン・ロジャース（b）、オフリ・ネヘミヤ（ds）とともに、naïveレーベルからの最新作『The Guesthouse』の楽曲を中心に披露した。2026年10月20日（火）・21日（水）の2日間、東京・丸の内のコットンクラブで各日2ステージ制（1st開演18:00／2nd開演20:30）で開催された。全席指定でテーブル席は9,000円。",
       "genres": [
         "ジャズ",
         "来日",
@@ -3922,13 +3927,14 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/By_Liri_Agami.jpg/330px-By_Liri_Agami.jpg",
       "source_url": "https://www.cdjournal.com/news/shai-maestro/128336",
       "presale": false,
-      "presale_datetime": "2026-08-01T12:00:00+09:00",
+      "presale_datetime": null,
       "presale_end_datetime": null,
-      "presale_url": "https://reserve.cottonclubjapan.co.jp/reserve/schedule/exec/5722/#5722",
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-03T12:00:00+09:00",
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "updated_at": "2026-10-23"
     },
     {
       "id": "ja-number-i-no3-sapporo-20261024",
