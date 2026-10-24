@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-23",
+  "last_updated": "2026-10-24",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -3639,10 +3639,11 @@
       "presale_datetime": "2026-07-29T00:00:00+09:00",
       "presale_end_datetime": "2026-08-16T23:59:00+09:00",
       "presale_url": "https://t.pia.jp/pia/event/event.do?eventCd=2625547",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-08-22T10:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://t.pia.jp/pia/event/event.do?eventCd=2625547"
+      "general_sale_url": "https://t.pia.jp/pia/event/event.do?eventCd=2625547",
+      "updated_at": "2026-10-24"
     },
     {
       "id": "ja-rei-makoto-rcrew-fanmeeting-osaka-20261012",
@@ -6715,8 +6716,8 @@
       ],
       "image_url": "https://www.universal-music.co.jp/blue/wp-content/uploads/sites/2732/2026/10/blue_1080x1350.jpg",
       "source_url": "https://www.universal-music.co.jp/blue/news/2026-10-02/",
-      "updated_at": "2026-10-17",
-      "presale": true,
+      "updated_at": "2026-10-24",
+      "presale": false,
       "presale_datetime": "2026-10-06T12:00:00+09:00",
       "presale_end_datetime": "2026-10-18T23:59:00+09:00",
       "presale_url": "https://w.pia.jp/t/blue2027/",
@@ -6737,7 +6738,7 @@
         "アイドル"
       ],
       "source_url": "https://equal-love.jp/news/detail/11613",
-      "presale": true,
+      "presale": false,
       "general_sale": false,
       "presale_datetime": "2026-10-13T17:00:00+09:00",
       "presale_end_datetime": "2026-10-18T23:59:00+09:00",
@@ -6746,7 +6747,7 @@
       "timezone": "Asia/Tokyo",
       "publisher": null,
       "image_url": null,
-      "updated_at": "2026-10-17"
+      "updated_at": "2026-10-24"
     },
     {
       "release_date_approx": false,
@@ -6756,7 +6757,7 @@
       "source_url": "https://prtimes.jp/main/html/rd/p/000000261.000118793.html",
       "release_time": null,
       "id": "ja-asia-pop-girl-fest-2027-day1-20270122",
-      "name": "ASIA POP GIRL FEST 2027 日本公演 DAY1",
+      "name": "ASIA POP GIRL FEST 2027 日本公演",
       "release_date": "2027-01-22",
       "category": "festival",
       "platforms": [
@@ -6777,31 +6778,7 @@
             "4EVE",
             "BINI"
           ]
-        }
-      ]
-    },
-    {
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "publisher": "BMSG",
-      "image_url": null,
-      "source_url": "https://prtimes.jp/main/html/rd/p/000000261.000118793.html",
-      "release_time": null,
-      "id": "ja-asia-pop-girl-fest-2027-day2-20270123",
-      "name": "ASIA POP GIRL FEST 2027 日本公演 DAY2",
-      "release_date": "2027-01-23",
-      "category": "festival",
-      "platforms": [
-        "LaLa arena TOKYO-BAY（千葉・船橋）"
-      ],
-      "developer": "HANA／4EVE／BINI",
-      "description": "日本のHANA、タイの4EVE、フィリピンのBINIという3ヵ国を代表するガールズグループが集う3マンライブ。日本公演は2027年1月22日・23日の2日間、千葉・LaLa arena TOKYO-BAYで行われる。その後はタイ・バンコクのBITEC LIVE(2月13日)、フィリピン・マニラのSM Arena Mall of Asia(2月19日)へと巡り、アジア3ヵ国をつなぐ形で開催される。チケットの詳細は後日発表とされている。",
-      "genres": [
-        "フェスティバル",
-        "J-POP",
-        "アジア"
-      ],
-      "festival_days": [
+        },
         {
           "date": "2027-01-23",
           "lineup": [
@@ -6810,7 +6787,8 @@
             "BINI"
           ]
         }
-      ]
+      ],
+      "updated_at": "2026-10-24"
     },
     {
       "id": "ja-miyamoto-hiroji-i-am-hero-sendai-20270123",
@@ -7947,7 +7925,7 @@
     },
     {
       "id": "ja-starglow-arena-tour-2027-ariake-20270410",
-      "name": "STARGLOW 1st Arena Tour 2027 Aurora - The Dawn - 有明アリーナ公演",
+      "name": "STARGLOW 1st Arena Tour 2027 Aurora - The Dawn - 有明アリーナ公演（2日間）",
       "release_date": "2027-04-10",
       "release_time": "17:00",
       "release_date_approx": false,
@@ -7958,7 +7936,7 @@
       ],
       "developer": "STARGLOW",
       "publisher": "クリエイティブマンプロダクション",
-      "description": "BMSG所属のグループSTARGLOWが初のアリーナツアー「STARGLOW 1st Arena Tour 2027 Aurora - The Dawn -」の東京公演を有明アリーナで行う。ツアーは2027年1月から4月にかけて全国7会場14公演を巡る構成で、プレデビュー1周年を記念した2026年9月22日のYouTube配信でサプライズ発表された。チケットは一般指定席および着席指定席が13,000円、ファンクラブ「STARS」とBMSGオンラインサロン「B-Town」会員限定のSS指定席（アップグレード）が18,000円（いずれも税込）。主催はクリエイティブマンプロダクション、企画はBMSG、制作はavex live creativeが担当する。この公演は開場16:00、開演17:00。",
+      "description": "BMSG所属のグループSTARGLOWが初のアリーナツアー「STARGLOW 1st Arena Tour 2027 Aurora - The Dawn -」の東京公演を有明アリーナで行う。ツアーは2027年1月から4月にかけて全国7会場14公演を巡る構成で、プレデビュー1周年を記念した2026年9月22日のYouTube配信でサプライズ発表された。チケットは一般指定席および着席指定席が13,000円、ファンクラブ「STARS」とBMSGオンラインサロン「B-Town」会員限定のSS指定席（アップグレード）が18,000円（いずれも税込）。主催はクリエイティブマンプロダクション、企画はBMSG、制作はavex live creativeが担当する。有明アリーナでは2027年4月10日（開場16:00／開演17:00）と11日（開場15:00／開演16:00）の2日間公演が組まれている。",
       "genres": [
         "J-POP",
         "ダンス",
@@ -7973,37 +7951,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-03"
-    },
-    {
-      "id": "ja-starglow-arena-tour-2027-ariake-20270411",
-      "name": "STARGLOW 1st Arena Tour 2027 Aurora - The Dawn - 有明アリーナ公演",
-      "release_date": "2027-04-11",
-      "release_time": "16:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "有明アリーナ"
-      ],
-      "developer": "STARGLOW",
-      "publisher": "クリエイティブマンプロダクション",
-      "description": "BMSG所属のグループSTARGLOWが初のアリーナツアー「STARGLOW 1st Arena Tour 2027 Aurora - The Dawn -」の東京公演を有明アリーナで行う。ツアーは2027年1月から4月にかけて全国7会場14公演を巡る構成で、プレデビュー1周年を記念した2026年9月22日のYouTube配信でサプライズ発表された。チケットは一般指定席および着席指定席が13,000円、ファンクラブ「STARS」とBMSGオンラインサロン「B-Town」会員限定のSS指定席（アップグレード）が18,000円（いずれも税込）。主催はクリエイティブマンプロダクション、企画はBMSG、制作はavex live creativeが担当する。この公演は開場15:00、開演16:00。",
-      "genres": [
-        "J-POP",
-        "ダンス",
-        "ツアー"
-      ],
-      "image_url": null,
-      "source_url": "https://www.creativeman.co.jp/event/starglow-arena-tour-2027/",
-      "presale": true,
-      "presale_datetime": null,
-      "presale_end_datetime": null,
-      "presale_url": "https://starglow.tokyo/special/tour2027aurora",
-      "general_sale": false,
-      "general_sale_datetime": null,
-      "general_sale_url": null,
-      "updated_at": "2026-10-03"
+      "updated_at": "2026-10-24"
     },
     {
       "id": "ja-sekai-no-owari-arena-tour-2027-20270417",
@@ -8020,16 +7968,17 @@
         "J-POP",
         "アリーナツアー"
       ],
-      "source_url": "https://sekainoowari.jp/info/2026/09/18/7918/",
+      "source_url": "https://sekainoowari.jp/info/2026/10/19/7918/",
       "presale": true,
       "general_sale": false,
       "presale_datetime": "2026-09-18T18:00:00+09:00",
-      "presale_end_datetime": "2026-10-04T23:59:00+09:00",
+      "presale_end_datetime": "2026-10-29T23:59:00+09:00",
       "presale_url": "https://w.pia.jp/t/sekainoowari2027/",
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "publisher": null,
-      "image_url": null
+      "image_url": null,
+      "updated_at": "2026-10-24"
     },
     {
       "id": "ja-greenroom-festival-27-yokohama-20270522",
@@ -8428,14 +8377,14 @@
       ],
       "image_url": null,
       "source_url": "https://amass.jp/192199/",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-10-03T12:00:00+09:00",
       "presale_end_datetime": "2026-10-23T18:00:00+09:00",
       "presale_url": "https://www.udo.jp/shows/Megadeth27",
       "general_sale": true,
       "general_sale_datetime": "2026-10-24T10:00:00+09:00",
       "general_sale_url": "https://l-tike.com/megadeth-live/",
-      "updated_at": "2026-10-14"
+      "updated_at": "2026-10-24"
     },
     {
       "id": "ja-evanescence-japan-2026-tokyo-20261201",
@@ -8511,13 +8460,13 @@
       ],
       "image_url": null,
       "source_url": "https://www.creativeman.co.jp/event/six60-26/",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-10-16T15:00:00+09:00",
       "presale_end_datetime": "2026-10-18T18:00:00+09:00",
       "presale_url": "https://www.cmp-members.com/tickets/six60/",
       "general_sale": true,
       "general_sale_datetime": "2026-10-24T10:00:00+09:00",
-      "updated_at": "2026-10-17"
+      "updated_at": "2026-10-24"
     },
     {
       "id": "ja-the-lemon-twigs-japan-tour-2027-tokyo-20270122",
@@ -8575,6 +8524,87 @@
       "general_sale_datetime": "2026-10-24T10:00:00+09:00",
       "general_sale_url": "https://w.pia.jp/t/finn-wolfhard-t/",
       "updated_at": "2026-10-21"
+    },
+    {
+      "id": "ja-seal-japan-2027-tokyo-20270127",
+      "name": "シール（Seal）来日公演2027 東京公演",
+      "release_date": "2027-01-27",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ガーデンシアター"
+      ],
+      "developer": "シール",
+      "publisher": "ウドー音楽事務所",
+      "description": "英国出身のシンガー、シール（Seal）による2027年1月の来日公演のうち、東京ガーデンシアターで行われる一夜。開場18:00、開演19:00。S席はアリーナから3階バルコニーまでで19,000円、3階バルコニーサイドのA席が18,000円（いずれも税込）。主催はJ-WAVE、企画・招聘・制作はウドー音楽事務所が担う。ウドー・メンバーズ先行やイープラスの抽選先行を経て、一般発売は10月31日10時にイープラス、チケットぴあ、ローソンチケットで始まる。来日は1月25日のグランキューブ大阪と合わせた2都市で、東京はその2日後に組まれた最終公演となる。",
+      "genres": [
+        "ソウル",
+        "ポップス",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://www.udo.jp/shows/Seal27",
+      "presale": true,
+      "presale_datetime": null,
+      "presale_url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2639822&rlsCd=004",
+      "general_sale": false,
+      "general_sale_datetime": "2026-10-31T10:00:00+09:00",
+      "general_sale_url": "https://eplus.jp/seal2027/",
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "ja-notd-lonely-in-paradise-tokyo-20270225",
+      "name": "NOTD Lonely In Paradise Japan Tour 東京公演",
+      "release_date": "2027-02-25",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "Zepp Shinjuku（TOKYO）"
+      ],
+      "developer": "NOTD",
+      "publisher": "SMASH",
+      "description": "スウェーデンのDJ／プロデューサー・デュオNOTDが〈Lonely In Paradise Japan Tour〉の初日として新宿・歌舞伎町のZepp Shinjukuに立つ。開場18:00、開演19:00で、チケットはスタンディング8,500円（ドリンク代別）。一般発売は2026年10月10日10時に始まっており、問い合わせ先は招聘元のSMASH。東京公演は木曜の平日開催で、ツアーは翌日の大阪公演へと続く。",
+      "genres": [
+        "EDM",
+        "ダンス",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://tvfan.kyodo.co.jp/music/news-music/1525182",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "updated_at": "2026-10-24"
+    },
+    {
+      "id": "ja-notd-lonely-in-paradise-osaka-20270226",
+      "name": "NOTD Lonely In Paradise Japan Tour 大阪公演",
+      "release_date": "2027-02-26",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "心斎橋BIGCAT（大阪）"
+      ],
+      "developer": "NOTD",
+      "publisher": "SMASH",
+      "description": "2都市を巡るNOTDの来日ツアーで最終日にあたるのが、アメリカ村のライブハウス心斎橋BIGCATでの金曜公演だ。前夜の東京・Zepp Shinjukuに続き、大阪でも18時に開場し19時にスタートする。入場はオールスタンディングで料金は8,500円、別途ドリンク代が必要。チケットは10月10日から一般販売中で、招聘を手がけるSMASHが窓口となっている。",
+      "genres": [
+        "EDM",
+        "ダンス",
+        "来日公演"
+      ],
+      "image_url": null,
+      "source_url": "https://tvfan.kyodo.co.jp/music/news-music/1525182",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "updated_at": "2026-10-24"
     }
   ]
 }
