@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-22",
+  "last_updated": "2026-10-26",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -7825,18 +7825,18 @@
       ],
       "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/10/20261016144124431fdf89-cf33-4d16-b26a-a586a49610f7.jpg",
       "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13085",
-      "presale": false,
-      "presale_datetime": null,
-      "presale_end_datetime": null,
-      "presale_url": null,
-      "general_sale": false,
-      "general_sale_datetime": null,
+      "presale": true,
+      "presale_datetime": "2026-11-02T20:00:00+09:00",
+      "presale_end_datetime": "2026-11-03T23:59:00+09:00",
+      "presale_url": "https://ticket.melon.com/performance/index.htm?prodId=214071",
+      "general_sale": true,
+      "general_sale_datetime": "2026-11-04T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
+      "general_sale_url": "https://ticket.melon.com/performance/index.htm?prodId=214071",
       "related_locale_ids": {
         "en": "en-nct-wish-into-the-wish-face-our-wish-seoul-20270115"
       },
-      "updated_at": "2026-10-22"
+      "updated_at": "2026-10-26"
     },
     {
       "id": "ko-mma-2026-20261114",
@@ -7964,6 +7964,97 @@
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13109",
       "updated_at": "2026-10-22"
+    },
+    {
+      "id": "ko-aespa-my-bogosipda-ae-fanmeeting-seoul-20261128",
+      "name": "2026 aespa FAN MEETING “MY 보고싶다 ae가”",
+      "release_date": "2026-11-28",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "고려대학교 화정체육관(타이거돔)"
+      ],
+      "developer": "에스파(aespa)",
+      "publisher": "SM엔터테인먼트",
+      "description": "에스파(aespa)가 데뷔 6주년을 맞아 팬덤 MY와 만나는 팬미팅 'MY 보고싶다 ae가'를 11월 28일(토) 오후 6시와 29일(일) 오후 4시, 서울 고려대학교 화정체육관에서 두 차례 연다. 티켓은 멜론티켓 단독 판매로, 위버스 팬클럽 국내 선예매가 10월 27일 오후 8시, 글로벌 선예매가 28일 오후 8시에 열리고 일반예매는 29일 오후 8시에 시작한다. 전석 지정석 12만1000원, 회차당 1인 1매, 7세 이상 관람가이며 온라인 생중계 예매는 따로 공지된다.",
+      "genres": [
+        "K-POP",
+        "팬미팅"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/10/2026102117065915d084d1-cd9e-41d0-b35a-b8ef780110da.jpg",
+      "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13116",
+      "presale": true,
+      "presale_datetime": "2026-10-27T20:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13116",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-29T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13116",
+      "updated_at": "2026-10-26"
+    },
+    {
+      "id": "ko-hanroro-question-mark-incheon-20270102",
+      "name": "한로로 5th 단독콘서트 [물음표]",
+      "release_date": "2027-01-02",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "인스파이어 아레나"
+      ],
+      "developer": "한로로(HANRORO)",
+      "publisher": "어센틱, 원더로크",
+      "description": "싱어송라이터 한로로가 다섯 번째 단독 콘서트 '물음표'로 데뷔 후 처음 아레나 무대에 선다. 2027년 1월 2일(토) 오후 6시와 3일(일) 오후 5시 인천 인스파이어 아레나에서 이틀간 열리며, 1층은 스탠딩, 2·3층은 지정석으로 운영된다. 티켓은 2026년 11월 13일(금) 오후 6시 NOL 티켓과 멜론티켓에서 동시에 열린다. 1층 스탠딩·2층 지정석 14만3000원, 3층 13만2000원, 약 120분 공연으로 전체 관람가다.",
+      "genres": [
+        "인디",
+        "록",
+        "콘서트"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/10/202610231759399da14ffa-0f6a-4cca-aca0-70de1106fe8f.jpg",
+      "source_url": "https://www.joynews24.com/view/2018633",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-11-13T18:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13130",
+      "updated_at": "2026-10-26"
+    },
+    {
+      "id": "ko-jinyoung-code-seoul-20261107",
+      "name": "PARK JINYOUNG 1ST CONCERT TOUR [CODE#] IN SEOUL",
+      "release_date": "2026-11-07",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "장충체육관"
+      ],
+      "developer": "진영(GOT7)",
+      "publisher": "BH엔터테인먼트",
+      "description": "갓세븐(GOT7) 멤버이자 배우인 박진영(진영)의 첫 솔로 콘서트 투어 'CODE#'가 11월 7일(토) 오후 6시, 8일(일) 오후 4시 서울 장충체육관에서 막을 올린다. 서울 공연 뒤로 오사카·마닐라·도쿄·타이베이·방콕·마카오까지 아시아 7개 도시 일정이 이어진다. 멜론티켓 단독 판매로 9월 18일 국내 예매가 열렸고, 무대 구조물 위치가 확정되면서 판매하지 않았던 플로어·2층 일부 좌석을 10월 26일 오후 8시에 추가로 연다. 추가 오픈분은 회차별 1인 2매, 카드 결제만 가능하다.",
+      "genres": [
+        "K-POP",
+        "콘서트"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/product/2026/09/202609101557251152daa6-fdd1-4259-bd46-c7b2684968c0.jpg",
+      "source_url": "https://www.newspim.com/news/view/20260914000859",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.melon.com/performance/index.htm?prodId=213880",
+      "updated_at": "2026-10-26"
     }
   ]
 }
