@@ -2,9 +2,34 @@
 
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
-| ko | 2026-10-19 | ← |
-| en | 2026-10-21 | |
+| ko | 2026-10-26 | |
+| en | 2026-10-21 | ← |
 | ja | 2026-10-23 | |
+
+---
+
+## 2026-10-26 · ko
+
+로테이션상 ko가 가장 오래된 점검일(2026-10-19)이라 선택. 대상 창: 2026-08-27 ~ 2026-12-25(오늘 ±60일), 창 안 항목 188건(끝난 것 117 / 예정 71). 코드는 손대지 않았고 `data/concerts.ko.json`만 수정(파일 상단 `last_updated` 2026-10-26). push 전 `validate-data.mjs` 통과. 고친 항목·트랙 B 확인 항목 모두 `updated_at=2026-10-26`.
+
+**트랙 A (졸업 처리) — 20건** (상한 20 도달)
+- A-1/A-2 끝난 공연(10/17~25)의 예매 필드·플래그 정리 + description 과거형 10건(§7대로 `presale`/`general_sale=false` + 예매 URL·datetime 6개 필드 null, 시제만 교정 — 새 사실 추가 없음): ko-kimdongryul-old-song-seoul-20261017(10/25 마지막 회차 종료), ko-oneus-full-moon-seoul-20261024, ko-sosubin-neulgeuraewaetdeon-seoul-20261024, ko-kimjiwon-wonederland-seoul-20261024, ko-kennyg-live-in-seoul-20261020, ko-day6-5th-fanmeeting-incheon-20261023, ko-yuchaehoon-home-seoul-20261024, ko-ghostival-2026-incheon-20261024("라인업은 아직 공개되지 않았다" → "발표 당시 공개되지 않았다"), ko-lucy-island-encore-seoul-20261023, ko-leeseunggi-gisungjeon-rak-seoul-20261024
+- A-4 music_release 시제("발매한다" → "발매했다", 구매 링크 미변경) 10건 — 지난 회차 이월분 9건 + 1건: ko-evan-death-of-me-20260907, ko-kimheejae-reverb-20260907, ko-soyeon-solo-comeback-20260910, ko-inaminute-midnight-20260909, ko-allhours-unbound-20260910, ko-youngtak-gogo-20260914, ko-kickflip-kick-off-the-wall-pt1-20261006, ko-roykim-cry-out-loud-20261006(11/21~22 콘서트 문장은 아직 미래라 유지), ko-nctwish-i-spy-20261012, ko-onew-chakgak-20261020
+- A-3: ko-postmalone-big-stadium-tour-seoul-20261002 approx=true 유지(연기·새 날짜 미발표)
+
+**트랙 B (임박 점검) — 8건 확인** (공연일 가까운 순, `updated_at` 없는 항목)
+- ko-bensonboone-wanted-man-tour-seoul-20261026 — NOL 상품 페이지 10/26(월) 오후 8시 킨텍스 제2전시장 10홀, 취소 공지 없음. `release_time` 20:00 추가, "시작 시각 추후 안내" 문장 → "오후 8시에 시작한다"
+- ko-riize-prologue-single-20261026 — 10/26 0시 싱글 'Insomnia' 발매(미주중앙일보 10/18, SM). 제목·`release_time` 00:00 반영. 기사에 '프롤로그' 표현은 없으나 같은 날짜·같은 싱글로 판단(9/13 기사는 제목 미공개). name은 그대로 둠
+- ko-illit-break-even-20261026 — 10/26 오후 6시 발매, 타이틀곡 '체포하겠어'(미주중앙일보 10/18). `release_time` 18:00, 타이틀곡 한 문장 추가
+- ko-kimfeel-journey-20261029 — 10/29 오후 6시 발매 유지(스포츠경향 9/30). 변경 없음
+- ko-kimjaehwan-yeoback-seoul-20261031 — 10/31~11/1 블루스퀘어 유지(미주중앙일보 10/12, NOL). 선예매 종료로 `presale=false`, 예매 문장 시제 교정
+- ko-nujabes-metaphorical-ensemble-seoul-20261031 — NOL 10/31 18:00 100분, 출연진 동일, 취소 공지 없음. 변경 없음
+- ko-kwonjinah-save-me-seoul-20261106 — 11/6 20시·7일 18시·8일 17시 명화라이브홀 유지(톱스타뉴스). 변경 없음(예매처 미확인이라 예매 필드 미보강)
+- ko-ko1keyz-1st-fanmeeting-seoul-20261107 — NOL 11/7 14·19시, 11/8 14시 유지. 선예매 종료로 `presale=false`, 예매 문장 시제 교정. 공지에 11/8 19시 추가 회차 언급이 있으나 회차 목록엔 없어 미반영
+- B-3 링크: 8건의 source/image/예매 URL 15개 실제 접속 — 전부 200. 죽은 링크 없음
+
+**남은 것**: 트랙 A 이월 — description 시제 ko-lisa-press-play-20261023, ko-triples-love-and-pop-pt2-20261020, ko-plave-flame-milet-20260903, ko-oneus-first-light-20260923, ko-ryusujeong-all-the-colors-i-am-20260911, ko-verivery-give-me-five-seoul-20261003 / 8~9월 끝난 공연 예매 필드 잔존 후보(jaypark·kimjaejoong·leesu 8/29, fromis9, kimyoona, parkeunbin, johnpark, isul-live-festival, wayv, chomingyu, kimyongbin) — A-1 조건 해당 여부 다음 회차 확인. 트랙 B 다음 순번: ko-kgma-2026-20261107, ko-choiyuree-stay-busan-20261107, ko-txt-steal-the-wind-seoul-20261113, ko-choiyuree-stay-daegu-20261114부터
+**리서처 참고(추가 안 함)**: 신규 미등록 공연 발견 없음. 김재환 [여백] 타이베이 공연(11/29 Legacy TERA)은 ko 범위 밖이라 참고만. ko-riize-prologue-single-20261026 name을 'Insomnia'로 바꿀지 판단 권장
 
 ---
 
