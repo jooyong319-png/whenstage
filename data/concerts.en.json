@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-23",
+  "last_updated": "2026-10-27",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -10337,22 +10337,22 @@
         "Gocheok Sky Dome, Seoul"
       ],
       "developer": "NCT WISH",
-      "publisher": null,
-      "description": "NCT WISH open their second concert tour, INTO THE WISH : Face Our WISH, with two nights at Gocheok Sky Dome in Seoul: January 15, 2027 at 6 p.m. KST and January 16 at 5 p.m. KST. It is the group's first time headlining the domed ballpark, under three years after debut, and Seoul comes before Asian stops in Kaohsiung, Bangkok and Manila. VIP seats (220,000 won) include a pre-show soundcheck and general seats are 165,000 won. Melon Ticket runs a separate global page that requires passport verification before buying. Ages 7 and up.",
+      "publisher": "SM Entertainment, DREAM MAKER ENTERTAINMENT",
+      "description": "NCT WISH open their second concert tour, INTO THE WISH : Face Our WISH, with two nights at Gocheok Sky Dome in Seoul: January 15, 2027 at 6 p.m. KST and January 16 at 5 p.m. KST. It is the group's first time headlining the domed ballpark, and Seoul comes before Asian stops in Kaohsiung, Bangkok and Manila. Melon Ticket sells it: the NCTzen WISH membership presale runs November 2 at 8 p.m. KST on the domestic page and November 3 at 8 p.m. KST on the passport-verified global page, with general sale on November 4 at 8 p.m. KST. VIP seats (220,000 won, includes soundcheck) and general seats (165,000 won); ages 7 and up.",
       "genres": [
         "K-Pop",
         "Concert"
       ],
       "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/10/20261016144124431fdf89-cf33-4d16-b26a-a586a49610f7.jpg",
       "source_url": "https://www.soompi.com/article/1876986wpp/nct-wish-announces-stops-for-2nd-concert-tour-into-the-wish-face-our-wish",
-      "presale": false,
-      "presale_datetime": null,
-      "presale_end_datetime": null,
-      "presale_url": null,
-      "general_sale": false,
-      "general_sale_datetime": null,
-      "general_sale_url": null,
-      "updated_at": "2026-10-23",
+      "presale": true,
+      "presale_datetime": "2026-11-02T20:00:00+09:00",
+      "presale_end_datetime": "2026-11-03T23:59:00+09:00",
+      "presale_url": "https://tkglobal.melon.com/",
+      "general_sale": true,
+      "general_sale_datetime": "2026-11-04T20:00:00+09:00",
+      "general_sale_url": "https://ticket.melon.com/performance/index.htm?prodId=214071",
+      "updated_at": "2026-10-27",
       "related_locale_ids": {
         "ko": "ko-nctwish-face-our-wish-seoul-20270115"
       }
@@ -10413,6 +10413,101 @@
       "related_locale_ids": {
         "ko": "ko-joyongpil-great-birth-seoul-20261127"
       }
+    },
+    {
+      "id": "en-aespa-my-bogosipda-ae-fanmeeting-seoul-20261128",
+      "name": "2026 aespa Fan Meeting \"MY 보고싶다 ae가\" in Seoul",
+      "release_date": "2026-11-28",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "Korea University, Seoul(Hwajung Gymnasium)"
+      ],
+      "developer": "aespa",
+      "publisher": "SM Entertainment",
+      "description": "aespa mark their sixth debut anniversary with a fan meeting for MY at Korea University's Hwajeong Tiger Dome in Seoul, with shows on November 28, 2026 at 6 p.m. KST and November 29 at 4 p.m. KST. Melon Ticket sells it exclusively, and overseas fans buy on the Melon Ticket Global site, which only lets passport-verified accounts purchase. The Weverse MY membership presale runs October 27 at 8 p.m. KST on the domestic page and October 28 at 8 p.m. KST on the global page; general sale opens October 29 at 8 p.m. KST. All seats are reserved at 121,000 won, one ticket per person per show, ages 7 and up.",
+      "genres": [
+        "K-Pop",
+        "Fan Meeting"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/10/2026102117065915d084d1-cd9e-41d0-b35a-b8ef780110da.jpg",
+      "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13116",
+      "presale": true,
+      "presale_datetime": "2026-10-27T20:00:00+09:00",
+      "presale_end_datetime": "2026-10-28T23:59:00+09:00",
+      "presale_url": "https://tkglobal.melon.com/",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-29T20:00:00+09:00",
+      "general_sale_url": "https://tkglobal.melon.com/",
+      "related_locale_ids": {
+        "ko": "ko-aespa-my-bogosipda-ae-fanmeeting-seoul-20261128"
+      },
+      "updated_at": "2026-10-27"
+    },
+    {
+      "id": "en-hanroro-question-mark-incheon-20270102",
+      "name": "HANRORO 5th Solo Concert [Question Mark] in Incheon",
+      "release_date": "2027-01-02",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Inspire Arena, Incheon"
+      ],
+      "developer": "HANRORO",
+      "publisher": "Authentic, Wonderlock",
+      "description": "Singer-songwriter HANRORO, known for guitar-driven songs about youthful restlessness since her 2022 debut single, plays her first arena shows with her fifth solo concert, titled Question Mark (물음표). It runs at Inspire Arena near Incheon Airport on January 2, 2027 at 6 p.m. KST and January 3 at 5 p.m. KST, with a standing floor and reserved seats on the second and third levels. Tickets go on sale November 13, 2026 at 6 p.m. KST on both NOL Ticket and Melon Ticket; floor and second-level seats cost 143,000 won and third-level seats 132,000 won. The show runs about two hours and is open to all ages.",
+      "genres": [
+        "Indie",
+        "Rock",
+        "Concert"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/10/202610231759399da14ffa-0f6a-4cca-aca0-70de1106fe8f.jpg",
+      "source_url": "https://www.joynews24.com/view/2018633",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-11-13T18:00:00+09:00",
+      "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13130",
+      "related_locale_ids": {
+        "ko": "ko-hanroro-question-mark-incheon-20270102"
+      },
+      "updated_at": "2026-10-27"
+    },
+    {
+      "id": "en-park-jinyoung-code-seoul-20261107",
+      "name": "PARK JINYOUNG 1st Concert Tour [CODE#] in Seoul",
+      "release_date": "2026-11-07",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Jangchung Arena, Seoul"
+      ],
+      "developer": "Jinyoung (GOT7)",
+      "publisher": "BH Entertainment",
+      "description": "GOT7 member and actor Park Jinyoung opens his first solo concert tour, CODE#, at Jangchung Arena in Seoul on November 7, 2026 at 6 p.m. KST and November 8 at 4 p.m. KST, before Asian dates in Osaka, Manila, Tokyo, Taipei, Bangkok and Macau. Melon Ticket is the only seller: the domestic page opened September 18 and the global page for overseas buyers on September 21. Seats held back until the stage layout was fixed, on the floor and parts of the second level, went on sale October 26 at 8 p.m. KST, two per person, card payment only. VIP seats are 176,000 won and regular seats 154,000 won.",
+      "genres": [
+        "K-Pop",
+        "Concert"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/product/2026/09/202609101557251152daa6-fdd1-4259-bd46-c7b2684968c0.jpg",
+      "source_url": "https://ticket.melon.com/performance/index.htm?prodId=213880",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_url": "https://ticket.melon.com/performance/index.htm?prodId=213880",
+      "related_locale_ids": {
+        "ko": "ko-jinyoung-code-seoul-20261107"
+      },
+      "updated_at": "2026-10-27"
     }
   ]
 }
