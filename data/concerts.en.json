@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-27",
+  "last_updated": "2026-10-28",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -2875,7 +2875,7 @@
       ],
       "developer": "Fcukers",
       "publisher": null,
-      "description": "New York dance-punk trio Fcukers, named Spotify's Radar US Artist of 2026 after their acclaimed debut album 'O', return for a North American headlining run following their Together Together support dates with Harry Styles. The leg opens September 1 in Grand Rapids and reaches Toronto, Atlanta's Shaky Knees, San Francisco's Portola and both Austin City Limits weekends through October 11. Support comes from Baby Wave, SEES00000 and Total Wife on select dates. Presales start July 28, general sale July 29.",
+      "description": "New York dance-punk trio Fcukers, named Spotify's Radar US Artist of 2026 after their acclaimed debut album 'O', return for a North American headlining run following their Together Together support dates with Harry Styles. The leg opened September 1 in Grand Rapids and reaches Toronto, Atlanta's Shaky Knees, San Francisco's Portola and both Austin City Limits weekends through October 11. Support comes from Baby Wave, SEES00000 and Total Wife on select dates. Presales start July 28, general sale July 29.",
       "genres": [
         "Dance-punk",
         "Electronic",
@@ -2889,7 +2889,8 @@
       "presale_url": null,
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "updated_at": "2026-10-28"
     },
     {
       "id": "en-silvana-estrada-suaves-lluvias-portland-20260903",
@@ -2904,7 +2905,7 @@
       ],
       "developer": "Silvana Estrada",
       "publisher": "Monqui Presents",
-      "description": "Mexican singer-songwriter and Latin Grammy winner Silvana Estrada brings her Vendran Suaves Lluvias tour to North America in 2026. After select US festival appearances and Mon Laferte support dates in August, her headlining run opens September 3 in Portland, Oregon, crosses into Canada at Vancouver's Chan Centre for the Performing Arts on September 6, and continues through Los Angeles, Miami, Nashville and other cities. Presales began July 22 in select cities, with general on-sale opening July 24.",
+      "description": "Mexican singer-songwriter and Latin Grammy winner Silvana Estrada brings her Vendran Suaves Lluvias tour to North America in 2026. After select US festival appearances and Mon Laferte support dates in August, her headlining run opened September 3 in Portland, Oregon, crosses into Canada at Vancouver's Chan Centre for the Performing Arts on September 6, and continues through Los Angeles, Miami, Nashville and other cities. Presales began July 22 in select cities, with general on-sale opening July 24.",
       "genres": [
         "Latin",
         "Folk",
@@ -2918,7 +2919,8 @@
       "presale_url": null,
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "updated_at": "2026-10-28"
     },
     {
       "id": "en-adela-prima-20260904",
@@ -3106,7 +3108,7 @@
       ],
       "developer": "Lupe Fiasco, Gym Class Heroes, B.o.B",
       "publisher": "Live Nation",
-      "description": "Hip-hop veterans Lupe Fiasco and Gym Class Heroes co-headline the 19-date Back To Basics Tour, with B.o.B along as special guest on most stops. The fall trek opens September 10, 2026 at Cleveland's Jacobs Pavilion and runs through late October, hitting Pittsburgh, Denver, Minneapolis, Detroit, San Antonio and Boston among other cities. Tickets went on general sale July 17 via Ticketmaster and Live Nation.",
+      "description": "Hip-hop veterans Lupe Fiasco and Gym Class Heroes co-headline the 19-date Back To Basics Tour, with B.o.B along as special guest on most stops. The fall trek opened September 10, 2026 at Cleveland's Jacobs Pavilion and runs through late October, hitting Pittsburgh, Denver, Minneapolis, Detroit, San Antonio and Boston among other cities. Tickets went on general sale July 17 via Ticketmaster and Live Nation.",
       "genres": [
         "Hip-Hop",
         "Rap",
@@ -3116,7 +3118,8 @@
       "source_url": "https://consequence.net/2026/07/lupe-fiasco-gymclassheroes-2026-us-tour/",
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "updated_at": "2026-10-28"
     },
     {
       "id": "en-bigbang-2026-world-tour-east-rutherford-20260911",
@@ -4497,13 +4500,14 @@
         "Brighton Music Hall, Allston, MA"
       ],
       "developer": "Oso Oso, Leisure Hour, Bad Luck",
-      "description": "Jade Lilitri's Oso Oso opens a 32-date North American headline run at Brighton Music Hall in Allston on October 7, 2026. Leisure Hour and Bad Luck support the eastern leg, which works down the coast and through the Midwest before wrapping in Washington on October 25. A second leg with Liquid Mike and Bugsy picks up in Columbus in November and ends in St. Louis.",
+      "description": "Jade Lilitri's Oso Oso opened a 32-date North American headline run at Brighton Music Hall in Allston on October 7, 2026. Leisure Hour and Bad Luck support the eastern leg, which works down the coast and through the Midwest before wrapping in Washington on October 25. A second leg with Liquid Mike and Bugsy picks up in Columbus in November and ends in St. Louis.",
       "genres": [
         "Emo",
         "Indie Rock",
         "Concert"
       ],
-      "source_url": "https://www.scenepointblank.com/news/tours/2026/08/20/oso-oso-us-tour-dates/"
+      "source_url": "https://www.scenepointblank.com/news/tours/2026/08/20/oso-oso-us-tour-dates/",
+      "updated_at": "2026-10-28"
     },
     {
       "id": "en-the-weeknd-after-hours-til-dawn-seoul-20261007",
@@ -5465,14 +5469,14 @@
       ],
       "developer": "Hwang Minhyun",
       "publisher": "PLEDIS Entertainment",
-      "description": "Hwang Minhyun opens his 2026 fan meeting tour PEACH-BLOSSOM with three days at Woori Bank Hall inside COEX Artium in Gangnam, Seoul, from October 16 to 18, 2026. PLEDIS Entertainment announced the run in August. The programme mixes vocal performances with talk and game segments. The tour then travels to Tachikawa Stage Garden in Tokyo on October 21 and 22, Grand Lisboa Palace Resort in Macau on November 7 and Legacy TERA in Taipei on November 27.",
+      "description": "Hwang Minhyun opened his 2026 fan meeting tour PEACH-BLOSSOM with three days at Woori Bank Hall inside COEX Artium in Gangnam, Seoul, from October 16 to 18, 2026. PLEDIS Entertainment announced the run in August. The programme mixed vocal performances with talk and game segments. The tour then travels to Tachikawa Stage Garden in Tokyo on October 21 and 22, Grand Lisboa Palace Resort in Macau on November 7 and Legacy TERA in Taipei on November 27.",
       "genres": [
         "K-Pop",
         "Fan Meeting"
       ],
       "image_url": null,
       "source_url": "https://www.soompi.com/article/1864535wpp/hwang-minhyun-announces-2026-fan-meeting-peach-blossom",
-      "updated_at": "2026-09-25",
+      "updated_at": "2026-10-28",
       "related_locale_ids": {
         "ko": "ko-hwangminhyun-dowongyeong-seoul-20261016"
       }
@@ -5815,7 +5819,7 @@
       ],
       "developer": "Kenny G",
       "publisher": null,
-      "description": "Saxophonist Kenny G returns to Korea for two nights at the Grand Theater of the Donghae Culture and Arts Center on the Kwangwoon University campus in northeastern Seoul, October 20 and 21, 2026. It is his first Korean run in roughly two and a half years. Tickets went on general sale through Ticketlink on September 10, 2026. The venue sits beside Gwangwoon University Station, making it straightforward to reach for visitors staying elsewhere in the city.",
+      "description": "Saxophonist Kenny G returned to Korea for two nights at the Grand Theater of the Donghae Culture and Arts Center on the Kwangwoon University campus in northeastern Seoul, October 20 and 21, 2026. It was his first Korean run in roughly two and a half years. Tickets went on general sale through Ticketlink on September 10, 2026. The venue sits beside Gwangwoon University Station, making it straightforward to reach for visitors staying elsewhere in the city.",
       "genres": [
         "Jazz",
         "Smooth Jazz",
@@ -5823,11 +5827,12 @@
       ],
       "image_url": null,
       "source_url": "https://www.starnewskorea.com/en/music/2026/09/03/2026090316490515056",
-      "updated_at": "2026-09-29",
-      "general_sale": true,
+      "updated_at": "2026-10-28",
+      "general_sale": false,
       "related_locale_ids": {
         "ko": "ko-kennyg-live-in-seoul-20261020"
-      }
+      },
+      "presale": false
     },
     {
       "id": "en-onew-chakgak-20261020",
@@ -5869,7 +5874,7 @@
       ],
       "developer": "Kenny G",
       "publisher": null,
-      "description": "The second night of Kenny G's 2026 Seoul engagement falls on October 21 at the Grand Theater of the Donghae Culture and Arts Center at Kwangwoon University. The two-night stand marks the American saxophonist's first Korean concerts in about two and a half years, and tickets opened through Ticketlink on September 10, 2026. Kenny G has sold more than seventy-five million records and remains among the best-selling instrumental artists worldwide.",
+      "description": "The second night of Kenny G's 2026 Seoul engagement fell on October 21 at the Grand Theater of the Donghae Culture and Arts Center at Kwangwoon University. The two-night stand marked the American saxophonist's first Korean concerts in about two and a half years, and tickets opened through Ticketlink on September 10, 2026. Kenny G has sold more than seventy-five million records and remains among the best-selling instrumental artists worldwide.",
       "genres": [
         "Jazz",
         "Smooth Jazz",
@@ -5877,8 +5882,9 @@
       ],
       "image_url": null,
       "source_url": "https://www.starnewskorea.com/en/music/2026/09/03/2026090316490515056",
-      "updated_at": "2026-09-29",
-      "general_sale": true
+      "updated_at": "2026-10-28",
+      "general_sale": false,
+      "presale": false
     },
     {
       "release_time": null,
@@ -5894,7 +5900,7 @@
         "Allstate Arena, Rosemont, IL"
       ],
       "developer": "Jonas Brothers, Magnus Ferrell, Deleasa",
-      "description": "The Jonas Brothers bring The Burning Up Tour All Over Again to Allstate Arena in Rosemont on October 22, 2026, one of 45 North American arena stops on the Live Nation run that grew out of their sold-out Madison Square Garden celebrations in August 2026. The show revisits the 2008 Burning Up Tour that broke Kevin, Joe and Nick Jonas nationally, rebuilt for arenas nearly two decades later. Magnus Ferrell and Deleasa joins as support.",
+      "description": "On October 22, 2026, Allstate Arena in Rosemont hosted the Jonas Brothers on The Burning Up Tour All Over Again. The 45-date Live Nation arena trek across North America took shape after the trio sold out a run of Madison Square Garden celebration shows in August 2026, and it brought their 2008 Burning Up Tour, the outing that first made them a national act, back to arenas almost twenty years on. Support at Rosemont came from Magnus Ferrell along with Deleasa.",
       "genres": [
         "Pop",
         "Pop Rock",
@@ -5902,9 +5908,10 @@
       ],
       "source_url": "https://www.xfinitymobilearena.com/news/detail/jonas-brothers-bring-the-burning-up-tour-all-over-again-to-45-cities-across-north-america-this-fall",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-21T10:00:00-05:00",
-      "general_sale_url": "https://www.ticketmaster.com/jonas-brothers-tickets/artist/1052712"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-28"
     },
     {
       "release_time": null,
@@ -5994,7 +6001,7 @@
       ],
       "developer": "JAY-Z",
       "publisher": null,
-      "description": "JAY-Z plays SoFi Stadium on October 23 and 24, 2026 as part of the 30th anniversary run marking three decades since Reasonable Doubt. The Los Angeles dates were announced July 27 alongside stadium shows at Tottenham Hotspur Stadium in London on September 4 and 5 and Stade de France in Paris on September 10, and they follow three hometown nights at Yankee Stadium earlier in July. Presales opened July 29 at 10 a.m. local time with Citi cardholder access in Los Angeles, ahead of the general on-sale July 30 via Ticketmaster.",
+      "description": "JAY-Z played SoFi Stadium on October 23 and 24, 2026 as part of the 30th anniversary run marking three decades since Reasonable Doubt. The Los Angeles dates were announced July 27 alongside stadium shows at Tottenham Hotspur Stadium in London on September 4 and 5 and Stade de France in Paris on September 10, and they follow three hometown nights at Yankee Stadium earlier in July. Presales opened July 29 at 10 a.m. local time with Citi cardholder access in Los Angeles, ahead of the general on-sale July 30 via Ticketmaster.",
       "genres": [
         "Hip-Hop",
         "Tour"
@@ -6002,14 +6009,14 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Jay-Z_meets_with_New_York_Senate_Majority_Leader_in_Albany_%28cropped%29.webp/330px-Jay-Z_meets_with_New_York_Senate_Majority_Leader_in_Albany_%28cropped%29.webp.png",
       "source_url": "https://consequence.net/2026/07/jay-z-los-angeles-london-tour-dates/",
       "presale": false,
-      "presale_datetime": "2026-07-29T10:00:00-07:00",
+      "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
-      "general_sale_datetime": "2026-07-30T10:00:00-07:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-21"
+      "updated_at": "2026-10-28"
     },
     {
       "id": "en-lee-seung-gi-gisungjeon-rak-seoul-20261023",
@@ -6082,7 +6089,7 @@
       ],
       "developer": "LUCY",
       "publisher": "Mystic Story",
-      "description": "Band LUCY bring back their ninth solo concert ISLAND for an encore run at Korea University's Hwajung Gymnasium in Seoul from October 23 to 25, 2026. The show returns to the imagined island the four-piece treat as their origin point, built around the idea of scattered petals blowing back home. The Seoul encore opens a short Asian leg that continues to Hong Kong on November 3, Singapore on November 14 and Bangkok on November 28, giving fans outside Korea a nearer date.",
+      "description": "Band LUCY brought back their ninth solo concert ISLAND for an encore run at Korea University's Hwajung Gymnasium in Seoul from October 23 to 25, 2026. The show returned to the imagined island the four-piece treat as their origin point, built around the idea of scattered petals blowing back home. The Seoul encore opened a short Asian leg that continues to Hong Kong on November 3, Singapore on November 14 and Bangkok on November 28, giving fans outside Korea a nearer date.",
       "genres": [
         "K-Rock",
         "Band",
@@ -6090,13 +6097,14 @@
       ],
       "image_url": null,
       "source_url": "https://en.edaily.co.kr/news/eda202608105745",
-      "updated_at": "2026-10-06",
-      "general_sale": true,
+      "updated_at": "2026-10-28",
+      "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_url": null,
       "related_locale_ids": {
         "ko": "ko-lucy-island-encore-seoul-20261023"
-      }
+      },
+      "presale": false
     },
     {
       "release_time": null,
@@ -6182,7 +6190,7 @@
       ],
       "developer": "Jodeci",
       "publisher": null,
-      "description": "R&B group Jodeci mark the 35th anniversary of their debut album Forever My Lady with a 36-date US tour that opens at The Masonic in San Francisco. The route travels through Inglewood, Phoenix, St. Louis, Detroit, Chicago, Houston and New Orleans before closing on December 19 in the group's hometown of Charlotte. An artist presale began July 29, with general tickets on sale July 31 at 10 a.m. local time.",
+      "description": "R&B group Jodeci mark the 35th anniversary of their debut album Forever My Lady with a 36-date US tour that opened at The Masonic in San Francisco. The route travels through Inglewood, Phoenix, St. Louis, Detroit, Chicago, Houston and New Orleans before closing on December 19 in the group's hometown of Charlotte. An artist presale began July 29, with general tickets on sale July 31 at 10 a.m. local time.",
       "genres": [
         "R&B",
         "Concert",
@@ -6191,9 +6199,10 @@
       "image_url": null,
       "source_url": "https://consequence.net/2026/07/jodeci-2026-us-tour-dates/",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-07-31T10:00:00-07:00",
-      "general_sale_url": "https://www.ticketmaster.com/jodeci-tickets/artist/752607"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-28"
     },
     {
       "id": "en-katseye-wildworld-tour-belmont-park-20261024",
@@ -6208,7 +6217,7 @@
       ],
       "developer": "KATSEYE",
       "publisher": "Live Nation",
-      "description": "KATSEYE bring The Wildworld Tour to UBS Arena in Belmont Park, New York on October 24, 2026, the first of two consecutive nights at the Long Island venue. The North American leg opens October 13 in Miami and runs through late November, ending in Mexico City. Tickets went on general sale in May 2026 and several dates sold out quickly.",
+      "description": "KATSEYE brought The Wildworld Tour to UBS Arena in Belmont Park, New York on October 24, 2026, the first of two consecutive nights at the Long Island venue. The North American leg opened October 13 in Miami and runs through late November, ending in Mexico City. Tickets went on general sale in May 2026 and several dates sold out quickly.",
       "genres": [
         "Pop",
         "K-pop",
@@ -6216,8 +6225,9 @@
       ],
       "image_url": null,
       "source_url": "https://consequence.net/2026/05/katseye-2026-wildworld-tour-how-to-get-tickets/",
-      "general_sale": true,
-      "presale": false
+      "general_sale": false,
+      "presale": false,
+      "updated_at": "2026-10-28"
     },
     {
       "id": "en-kim-ji-won-wonederland-seoul-20261024",
@@ -6232,20 +6242,21 @@
       ],
       "developer": "Kim Ji-won",
       "publisher": "High Zium Studio",
-      "description": "Actor Kim Ji-won holds her second solo fan meeting, WONEDERLAND, on October 24 and 25, 2026 at the Grand Auditorium of Sungshin Women's University's Woonjung Green Campus in Seoul. It is her first solo fan event in two years and the opening stop of an Asia tour that continues to Macau, Taipei, Yokohama, Osaka, Hong Kong and Bangkok. The title folds in her fandom name WONEDAY. Seoul tickets opened through Yes24 Ticket at 8 p.m. KST on September 16.",
+      "description": "Actor Kim Ji-won held her second solo fan meeting, WONEDERLAND, on October 24 and 25, 2026 at the Grand Auditorium of Sungshin Women's University's Woonjung Green Campus in Seoul. It was her first solo fan event in two years and the opening stop of an Asia tour that continues to Macau, Taipei, Yokohama, Osaka, Hong Kong and Bangkok. The title folds in her fandom name WONEDAY. Seoul tickets opened through Yes24 Ticket at 8 p.m. KST on September 16.",
       "genres": [
         "Fan Meeting",
         "Actor"
       ],
       "image_url": null,
       "source_url": "https://www.soompi.com/article/1868479wpp/kim-ji-won-announces-stops-for-fan-meeting-tour-wonederland",
-      "updated_at": "2026-10-06",
-      "general_sale": true,
-      "general_sale_datetime": "2026-09-16T20:00:00+09:00",
+      "updated_at": "2026-10-28",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_url": null,
       "related_locale_ids": {
         "ko": "ko-kimjiwon-wonederland-seoul-20261024"
-      }
+      },
+      "presale": false
     },
     {
       "id": "en-oneus-full-moon-seoul-20261024",
@@ -6260,20 +6271,21 @@
       ],
       "developer": "ONEUS",
       "publisher": "Liveworks Company",
-      "description": "ONEUS launch their 2026 world tour FULL MOON at Daeyang Hall, Sejong University, in Seoul's Gwangjin District on October 24, 2026 at 6 p.m. It is the group's first show as a full five-member lineup since Seoho completed his military service, and the first tour after their move to a new agency. The set list centres on their 12th mini album FIRST LIGHT. Tickets opened exclusively on Ticketlink at 8 p.m. KST on September 30, and the tour then reaches Latin America, Europe, North America and Asia.",
+      "description": "ONEUS launched their 2026 world tour FULL MOON at Daeyang Hall, Sejong University, in Seoul's Gwangjin District on October 24, 2026 at 6 p.m. It was the group's first show as a full five-member lineup since Seoho completed his military service, and the first tour after their move to a new agency. The set list centred on their 12th mini album FIRST LIGHT. Tickets opened exclusively on Ticketlink at 8 p.m. KST on September 30, and the tour then reaches Latin America, Europe, North America and Asia.",
       "genres": [
         "K-POP",
         "World Tour"
       ],
       "image_url": null,
       "source_url": "https://www.soompi.com/article/1865602wpp/oneus-announces-dates-and-cities-for-2026-world-tour-full-moon",
-      "updated_at": "2026-10-06",
-      "general_sale": true,
-      "general_sale_datetime": "2026-09-30T20:00:00+09:00",
+      "updated_at": "2026-10-28",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_url": null,
       "related_locale_ids": {
         "ko": "ko-oneus-full-moon-seoul-20261024"
-      }
+      },
+      "presale": false
     },
     {
       "id": "en-tame-impala-deadbeat-perth-20261024",
@@ -6289,15 +6301,17 @@
       ],
       "developer": "Tame Impala, Ninajirachi",
       "publisher": "Frontier Touring",
-      "description": "Kevin Parker brings the Deadbeat Tour home to Australia in October 2026, closing the year-long run behind Tame Impala's fifth album with two nights at Perth's RAC Arena on October 24 and 25. The Frontier Touring arena run also takes in Brisbane, four nights at Melbourne's Rod Laver Arena and three in Sydney, with Ninajirachi supporting every date and the band performing as a six-piece on a stage set in the round.",
+      "description": "Kevin Parker brought the Deadbeat Tour home to Australia in October 2026, closing the year-long run behind Tame Impala's fifth album with two nights at Perth's RAC Arena on October 24 and 25. The Frontier Touring arena run also takes in Brisbane, four nights at Melbourne's Rod Laver Arena and three in Sydney, with Ninajirachi supporting every date and the band performing as a six-piece on a stage set in the round.",
       "genres": [
         "Psychedelic Rock",
         "Tour"
       ],
       "image_url": null,
       "source_url": "https://consequence.net/2026/07/tame-impala-2026-deadbeat-north-american-tour-kickoff/",
-      "general_sale": true,
-      "general_sale_url": "https://www.frontiertouring.com/tameimpala"
+      "general_sale": false,
+      "general_sale_url": null,
+      "presale": false,
+      "updated_at": "2026-10-28"
     },
     {
       "id": "en-oneus-full-moon-seoul-20261025",
@@ -6312,20 +6326,21 @@
       ],
       "developer": "ONEUS",
       "publisher": "Liveworks Company",
-      "description": "The second Seoul night of the 2026 ONEUS world tour FULL MOON takes place at Daeyang Hall, Sejong University, on October 25, 2026 at 5 p.m., an earlier start time than the opening show. Both Seoul dates mark the five members performing together again after Seoho's discharge, with a set list drawn largely from the mini album FIRST LIGHT. Tickets were sold exclusively through Ticketlink from September 30, and the tour continues through Latin America, Europe, North America and Asia across 21 cities.",
+      "description": "The second Seoul night of the 2026 ONEUS world tour FULL MOON took place at Daeyang Hall, Sejong University, on October 25, 2026 at 5 p.m., an earlier start time than the opening show. Both Seoul dates mark the five members performing together again after Seoho's discharge, with a set list drawn largely from the mini album FIRST LIGHT. Tickets were sold exclusively through Ticketlink from September 30, and the tour continues through Latin America, Europe, North America and Asia across 21 cities.",
       "genres": [
         "K-POP",
         "World Tour"
       ],
       "image_url": null,
       "source_url": "https://www.starnewskorea.com/en/music/2026/09/30/2026093014483918515",
-      "updated_at": "2026-10-06",
-      "general_sale": true,
-      "general_sale_datetime": "2026-09-30T20:00:00+09:00",
+      "updated_at": "2026-10-28",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_url": null,
       "related_locale_ids": {
         "ko": "ko-oneus-full-moon-seoul-20261024"
-      }
+      },
+      "presale": false
     },
     {
       "id": "en-benson-boone-wanted-man-seoul-20261026",
@@ -6340,7 +6355,7 @@
       ],
       "developer": "Benson Boone",
       "publisher": "Live Nation Korea",
-      "description": "Benson Boone plays Hall 10 of KINTEX Exhibition Center 2 in Goyang on October 26, 2026, his second headline date in Korea after a January 2025 debut. The show falls on the Asian leg of the Wanted Man world tour, which follows his earlier American Heart runs through North America and Europe. Doors open for an 8 p.m. KST start, and NOL handled ticketing from July 21, 2026.",
+      "description": "Benson Boone played Hall 10 of KINTEX Exhibition Center 2 in Goyang on October 26, 2026, his second headline date in Korea after a January 2025 debut. The show fell on the Asian leg of the Wanted Man world tour, which follows his earlier American Heart runs through North America and Europe. Doors opened for an 8 p.m. KST start, and NOL handled ticketing from July 21, 2026.",
       "genres": [
         "Pop",
         "Rock",
@@ -6348,13 +6363,14 @@
       ],
       "image_url": null,
       "source_url": "https://www.koreatimes.co.kr/lifestyle/people-events/20260713/beautiful-things-singer-benson-boone-to-return-to-korea-in-october",
-      "updated_at": "2026-09-22",
-      "general_sale": true,
-      "general_sale_datetime": "2026-07-21T12:00:00+09:00",
-      "general_sale_url": "https://www.livenation.kr/en/event/benson-boone-wanted-man-tour-seoul-tickets-edp1686561",
+      "updated_at": "2026-10-28",
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
       "related_locale_ids": {
         "ko": "ko-bensonboone-wanted-man-tour-seoul-20261026"
-      }
+      },
+      "presale": false
     },
     {
       "id": "en-illit-break-even-20261026",
@@ -6398,14 +6414,14 @@
       ],
       "developer": "RIIZE",
       "publisher": "SM Entertainment",
-      "description": "RIIZE release a prologue single on October 26, 2026 that opens the run-up to their second studio album, now set for spring 2027. The group revealed the schedule in a video shown at the end of their third anniversary fan meeting Ch. RIIZE: On Air at Inspire Arena in Incheon in September. The second album follows Odyssey from May 2025, and the group plan further activity through the end of 2026 between the single and the album.",
+      "description": "RIIZE released a prologue single on October 26, 2026 that opened the run-up to their second studio album, now set for spring 2027. The group revealed the schedule in a video shown at the end of their third anniversary fan meeting Ch. RIIZE: On Air at Inspire Arena in Incheon in September. The second album follows Odyssey from May 2025, and the group plan further activity through the end of 2026 between the single and the album.",
       "genres": [
         "K-Pop",
         "Album"
       ],
       "image_url": null,
       "source_url": "https://www.koreaherald.com/article/10872651",
-      "updated_at": "2026-09-25",
+      "updated_at": "2026-10-28",
       "related_locale_ids": {
         "ko": "ko-riize-prologue-single-20261026"
       }
@@ -6414,7 +6430,7 @@
       "id": "en-bryan-adams-bare-bones-las-vegas-20261028",
       "name": "Bryan Adams: Bare Bones - Wynn Las Vegas",
       "release_date": "2026-10-28",
-      "release_time": null,
+      "release_time": "20:00",
       "release_date_approx": false,
       "timezone": "America/Los_Angeles",
       "category": "concert_tour",
@@ -6435,7 +6451,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-08-07T10:00:00-07:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://www.ticketmaster.com/bryan-adams-tickets/artist/734390?venueId=189062"
+      "general_sale_url": "https://www.ticketmaster.com/bryan-adams-tickets/artist/734390?venueId=189062",
+      "updated_at": "2026-10-28"
     },
     {
       "id": "en-flow-naruto-the-rock-seoul-20261028",
@@ -6493,7 +6510,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-07-31T10:00:00-07:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://orvillepeck.com/tour"
+      "general_sale_url": "https://orvillepeck.com/tour",
+      "updated_at": "2026-10-28"
     },
     {
       "id": "en-nice-as-fuck-10th-anniversary-brooklyn-20261029",
@@ -6517,7 +6535,8 @@
       "image_url": null,
       "source_url": "https://www.rollingstone.com/music/music-news/nice-as-fuck-10-anniversary-reunion-tour-1235624710/",
       "presale": false,
-      "general_sale": true
+      "general_sale": true,
+      "updated_at": "2026-10-28"
     },
     {
       "id": "en-jeonghan-x-joshua-journey-into-dreaming-incheon-20261030",
@@ -6571,7 +6590,8 @@
         "Album"
       ],
       "image_url": null,
-      "source_url": "https://stereogum.com/2506577/thao-announces-new-album-show-me-hear-sick-of-the-times-feat-tune-yards-the-linda-lindas/music"
+      "source_url": "https://stereogum.com/2506577/thao-announces-new-album-show-me-hear-sick-of-the-times-feat-tune-yards-the-linda-lindas/music",
+      "updated_at": "2026-10-28"
     },
     {
       "id": "en-the-faint-fall-tour-springfield-20261030",
@@ -6586,7 +6606,7 @@
       ],
       "developer": "The Faint",
       "publisher": null,
-      "description": "Omaha dance-punk band The Faint return for a 13-date US club tour across October and November, launching at The Regency Live in Springfield, Missouri. The route swings through Indianapolis, Louisville, Memphis, Athens and Miami before finishing on November 15 at The Social in Orlando. An artist presale opened July 29 through the band's own site, and general tickets go on sale July 31 at 10 a.m. local time.",
+      "description": "Omaha dance-punk band The Faint return for a 13-date US club tour across October and November, launching at The Regency Live in Springfield, Missouri. The route swings through Indianapolis, Louisville, Memphis, Athens and Miami before finishing on November 15 at The Social in Orlando. An artist presale opened July 29 through the band's own site, and general tickets went on sale July 31 at 10 a.m. local time.",
       "genres": [
         "Rock",
         "Dance-Punk",
@@ -6597,7 +6617,8 @@
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": "2026-07-31T10:00:00-05:00",
-      "general_sale_url": "https://www.ticketmaster.com/the-faint-tickets/artist/717900"
+      "general_sale_url": "https://www.ticketmaster.com/the-faint-tickets/artist/717900",
+      "updated_at": "2026-10-28"
     },
     {
       "id": "en-nujabes-metaphorical-ensemble-seoul-20261031",
@@ -6642,7 +6663,7 @@
         "Lucas Oil Stadium, Indianapolis, IN"
       ],
       "developer": "Usher, Chris Brown, Mario, Eric Bellinger, Tank",
-      "description": "The R&B Tour makes its first Indianapolis stop at Lucas Oil Stadium on October 31, 2026, one of four brand-new cities added when Usher and Chris Brown extended the run to 59 dates. The nearly three-hour show moves between their catalogues across nine cinematic acts, backed by Mario, Eric Bellinger and Tank. Earlier legs set attendance and multi-night records in Detroit, Washington and Birmingham.",
+      "description": "[Cancelled] The R&B Tour makes its first Indianapolis stop at Lucas Oil Stadium on October 31, 2026, one of four brand-new cities added when Usher and Chris Brown extended the run to 59 dates. The nearly three-hour show moves between their catalogues across nine cinematic acts, backed by Mario, Eric Bellinger and Tank. Earlier legs set attendance and multi-night records in Detroit, Washington and Birmingham. In October 2026 the promoter cancelled this date along with three other newly added October stadium shows, and ticket holders were told to expect automatic refunds to their original payment method.",
       "genres": [
         "R&B",
         "Hip-Hop",
@@ -6650,9 +6671,10 @@
       ],
       "source_url": "https://www.sofistadium.com/news/detail/chris-brown-usher-add-eight-new-stadium-dates-to-the-rb-tour-following-incredible-fan-demand",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-08-24T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/usher-raymond-chris-brown-tickets/artist/4314089"
+      "general_sale_url": null,
+      "updated_at": "2026-10-28"
     },
     {
       "release_time": null,
@@ -6679,7 +6701,8 @@
       "source_url": "https://consequence.net/2026/08/fuerza-regida-2026-us-tour-dates/",
       "presale_datetime": "2026-08-11T10:00:00-06:00",
       "general_sale_datetime": "2026-08-14T10:00:00-06:00",
-      "general_sale_url": "https://www.ticketmaster.com/fuerza-regida-tickets/artist/2499958"
+      "general_sale_url": "https://www.ticketmaster.com/fuerza-regida-tickets/artist/2499958",
+      "updated_at": "2026-10-28"
     },
     {
       "id": "en-pentatonix-christmas-in-the-city-tacoma-20261105",
@@ -6706,7 +6729,8 @@
       "presale": true,
       "general_sale": true,
       "general_sale_datetime": "2026-08-14T10:00:00-07:00",
-      "general_sale_url": "https://www.ticketmaster.com/pentatonix-tickets/artist/1747243"
+      "general_sale_url": "https://www.ticketmaster.com/pentatonix-tickets/artist/1747243",
+      "updated_at": "2026-10-28"
     },
     {
       "release_time": null,
