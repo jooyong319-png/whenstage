@@ -124,6 +124,22 @@
     {
       "from": "/ja/concert/ja-asia-pop-girl-fest-2027-day2-20270123",
       "to": "/ja/concert/ja-asia-pop-girl-fest-2027-day1-20270122"
+    },
+    {
+      "from": "/ja/concert/ja-mwam-firestarter-tour-tokyo-20261210",
+      "to": "/ja/concert/ja-mwam-firestarter-tour-tokyo-20261209"
+    },
+    {
+      "from": "/ja/concert/ja-mwam-firestarter-tour-osaka-20261222",
+      "to": "/ja/concert/ja-mwam-firestarter-tour-osaka-20261221"
+    },
+    {
+      "from": "/ja/concert/ja-xg-the-core-final-tokyo-20270211",
+      "to": "/ja/concert/ja-xg-the-core-final-tokyo-20270210"
+    },
+    {
+      "from": "/ja/concert/ja-xg-the-core-final-osaka-20270228",
+      "to": "/ja/concert/ja-xg-the-core-final-osaka-20270227"
     }
   ]
 }

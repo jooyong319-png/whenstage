@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-24",
+  "last_updated": "2026-10-28",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -3739,7 +3739,7 @@
         "SHIBUYA CLUB QUATTRO（東京・渋谷）"
       ],
       "developer": "Body/Head／Jim O'Rourke",
-      "description": "Jim O'Rourkeと石橋英子、CLUB QUATTROの継続的な対話から生まれたライブ企画〈Scaffold〉の第3回。東京公演は10月13日にCLUB QUATTROで開催され、開場18:00・開演19:00となる。出演はソニック・ユースのキム・ゴードンとビル・ネイスによるエクスペリメンタル・デュオBody/Head、そして共同企画者でもあり久々のソロ出演となるJim O'Rourke。チケットはオールスタンディング前売10,000円(税込・ドリンク別)で、9月1日18時からプレオーダー先行、9月11日10時から一般発売。",
+      "description": "パルコが主催し、Jim O'Rourke、石橋英子、CLUB QUATTROの対話から生まれた企画〈Scaffold〉の3回目。その初日として10月13日（火）にSHIBUYA CLUB QUATTROで開催された。キム・ゴードンとビル・ネイスによるBody/Headが来日し、共同企画者のJim O'Rourkeが久しぶりにソロで出演した。チケットは国内向けのほか海外客向けのインバウンド窓口も用意されていた。",
       "genres": [
         "実験音楽",
         "ノイズ",
@@ -3749,9 +3749,10 @@
       "presale_datetime": "2026-09-01T18:00:00+09:00",
       "presale_end_datetime": "2026-09-07T18:00:00+09:00",
       "presale_url": "https://eplus.jp/scaffold-3/",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-09-11T10:00:00+09:00",
-      "general_sale_url": "https://eplus.jp/scaffold-3/"
+      "general_sale_url": "https://eplus.jp/scaffold-3/",
+      "updated_at": "2026-10-28"
     },
     {
       "id": "ja-abc-z-way-of-love-tour-20261014",
@@ -3820,7 +3821,7 @@
         "UMEDA CLUB QUATTRO（大阪・梅田）"
       ],
       "developer": "Body/Head／Jim O'Rourke",
-      "description": "Jim O'Rourkeと石橋英子、CLUB QUATTROの継続的な対話から生まれたライブ企画〈Scaffold〉の第3回。大阪公演は10月15日にCLUB QUATTROで開催され、開場18:00・開演19:00となる。出演はソニック・ユースのキム・ゴードンとビル・ネイスによるエクスペリメンタル・デュオBody/Head、そして共同企画者でもあり久々のソロ出演となるJim O'Rourke。チケットはオールスタンディング前売10,000円(税込・ドリンク別)で、9月1日18時からプレオーダー先行、9月11日10時から一般発売。",
+      "description": "東京公演の2日後、10月15日（木）に大阪・UMEDA CLUB QUATTROで行われた〈Scaffold #3〉の最終公演。元ソニック・ユースのキム・ゴードンがビル・ネイスと組むデュオBody/Headと、ソロのJim O'Rourkeによる2組の構成は東京と同じだった。オールスタンディングの前売は1万円（税込・ドリンク別）で、入場は整理番号順、未就学児は入場不可とされた。",
       "genres": [
         "実験音楽",
         "ノイズ",
@@ -3830,9 +3831,10 @@
       "presale_datetime": "2026-09-01T18:00:00+09:00",
       "presale_end_datetime": "2026-09-07T18:00:00+09:00",
       "presale_url": "https://eplus.jp/scaffold-3/",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-09-11T10:00:00+09:00",
-      "general_sale_url": "https://eplus.jp/scaffold-3/"
+      "general_sale_url": "https://eplus.jp/scaffold-3/",
+      "updated_at": "2026-10-28"
     },
     {
       "id": "ja-charlie-puth-2026-20261016",
@@ -3983,9 +3985,9 @@
       ],
       "image_url": null,
       "source_url": "https://natalie.mu/music/news/",
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-10-28",
       "presale": false,
-      "general_sale": true
+      "general_sale": false
     },
     {
       "id": "ja-yoasobi-chowakusei-2026-20261024",
@@ -4032,9 +4034,9 @@
       "presale": false,
       "presale_datetime": "2026-08-03T00:00:00+09:00",
       "presale_url": "https://l-tike.com/kobayashiwatashi/",
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_url": "https://l-tike.com/kobayashiwatashi/",
-      "updated_at": "2026-10-16"
+      "updated_at": "2026-10-28"
     },
     {
       "release_time": null,
@@ -5754,9 +5756,9 @@
     },
     {
       "id": "ja-mwam-firestarter-tour-tokyo-20261209",
-      "name": "MAN WITH A MISSION Presents Firestarter Tour 2026（東京公演1日目）",
+      "name": "MAN WITH A MISSION Presents Firestarter Tour 2026（東京公演）",
       "release_date": "2026-12-09",
-      "release_time": null,
+      "release_time": "19:00",
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "category": "concert_tour",
@@ -5765,16 +5767,19 @@
       ],
       "developer": "MAN WITH A MISSION",
       "publisher": null,
-      "description": "MAN WITH A MISSIONが約5年ぶりのフィジカル・シングル『Firestarter』（2026年10月28日発売）を掲げて開催するワンマン・ツアーの東京公演1日目。東京・大阪の2都市で各2公演、計4公演のみという限定規模で、サマーソニック東京初日のステージ上で電撃的に発表された。ファンクラブ「FUN WITH A MISSION」先行は2026年8月14日21:30に受付を開始し、シングルの最速先行予約特典としてもシリアルが配布される。",
+      "description": "MAN WITH A MISSIONがシングル『Firestarter』（2026年10月28日発売）を掲げて行うワンマン・ツアーのうち、東京・有明のSGC HALL ARIAKEで12月9日（水）・10日（木）に開かれる2公演。両日とも開場18:00・開演19:00。8月14日のファンクラブ先行に続き、オフィシャルHP先行、プレオーダーを経て10月17日10時にイープラスで一般発売が始まったが、現在は両日とも予定枚数終了となっている。",
       "genres": [
         "ロック",
         "ワンマン公演"
       ],
       "image_url": null,
       "source_url": "https://prtimes.jp/main/html/rd/p/000004965.000013546.html",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-08-14T21:30:00+09:00",
-      "presale_url": "https://eplus.jp/mwam2026"
+      "presale_url": "https://eplus.jp/mwam2026",
+      "general_sale": false,
+      "general_sale_url": "https://eplus.jp/mwam2026/",
+      "updated_at": "2026-10-28"
     },
     {
       "id": "ja-number-i-no3-tokyo-20261209",
@@ -5852,30 +5857,6 @@
       "presale_end_datetime": "2026-09-23T23:59:00+09:00",
       "general_sale": false,
       "general_sale_datetime": "2026-10-10T10:00:00+09:00"
-    },
-    {
-      "id": "ja-mwam-firestarter-tour-tokyo-20261210",
-      "name": "MAN WITH A MISSION Presents Firestarter Tour 2026（東京公演2日目）",
-      "release_date": "2026-12-10",
-      "release_time": null,
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "SGC HALL ARIAKE（東京・有明）"
-      ],
-      "developer": "MAN WITH A MISSION",
-      "publisher": null,
-      "description": "MAN WITH A MISSIONが約5年ぶりのフィジカル・シングル『Firestarter』（2026年10月28日発売）を掲げて開催するワンマン・ツアーの東京公演2日目。東京・大阪の2都市で各2公演、計4公演のみという限定規模で、サマーソニック東京初日のステージ上で電撃的に発表された。ファンクラブ「FUN WITH A MISSION」先行は2026年8月14日21:30に受付を開始し、シングルの最速先行予約特典としてもシリアルが配布される。",
-      "genres": [
-        "ロック",
-        "ワンマン公演"
-      ],
-      "image_url": null,
-      "source_url": "https://prtimes.jp/main/html/rd/p/000004965.000013546.html",
-      "presale": true,
-      "presale_datetime": "2026-08-14T21:30:00+09:00",
-      "presale_url": "https://eplus.jp/mwam2026"
     },
     {
       "id": "ja-number-i-no3-tokyo-20261210",
@@ -6111,9 +6092,9 @@
     },
     {
       "id": "ja-mwam-firestarter-tour-osaka-20261221",
-      "name": "MAN WITH A MISSION Presents Firestarter Tour 2026（大阪公演1日目）",
+      "name": "MAN WITH A MISSION Presents Firestarter Tour 2026（大阪公演）",
       "release_date": "2026-12-21",
-      "release_time": null,
+      "release_time": "19:00",
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "category": "concert_tour",
@@ -6122,40 +6103,19 @@
       ],
       "developer": "MAN WITH A MISSION",
       "publisher": null,
-      "description": "MAN WITH A MISSIONが約5年ぶりのフィジカル・シングル『Firestarter』（2026年10月28日発売）を掲げて開催するワンマン・ツアーの大阪公演1日目。東京・大阪の2都市で各2公演、計4公演のみという限定規模で、サマーソニック東京初日のステージ上で電撃的に発表された。ファンクラブ「FUN WITH A MISSION」先行は2026年8月14日21:30に受付を開始し、シングルの最速先行予約特典としてもシリアルが配布される。",
+      "description": "約5年ぶりのフィジカル・シングル発売に合わせた計4公演の限定ツアーで、後半にあたる大阪・Zepp Osaka Baysideでの2日間。日程は12月21日（月）と22日（火）の平日連続で、いずれも18時開場・19時開演となる。ツアー開催はサマーソニック東京初日のステージ上で発表された。イープラスでの一般販売は21日分が12月18日18時まで、22日分が19日18時までの設定だったが、すでに予定枚数に達している。",
       "genres": [
         "ロック",
         "ワンマン公演"
       ],
       "image_url": null,
       "source_url": "https://prtimes.jp/main/html/rd/p/000004965.000013546.html",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-08-14T21:30:00+09:00",
-      "presale_url": "https://eplus.jp/mwam2026"
-    },
-    {
-      "id": "ja-mwam-firestarter-tour-osaka-20261222",
-      "name": "MAN WITH A MISSION Presents Firestarter Tour 2026（大阪公演2日目）",
-      "release_date": "2026-12-22",
-      "release_time": null,
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "Zepp Osaka Bayside（大阪）"
-      ],
-      "developer": "MAN WITH A MISSION",
-      "publisher": null,
-      "description": "MAN WITH A MISSIONが約5年ぶりのフィジカル・シングル『Firestarter』（2026年10月28日発売）を掲げて開催するワンマン・ツアーの大阪公演2日目。東京・大阪の2都市で各2公演、計4公演のみという限定規模で、サマーソニック東京初日のステージ上で電撃的に発表された。ファンクラブ「FUN WITH A MISSION」先行は2026年8月14日21:30に受付を開始し、シングルの最速先行予約特典としてもシリアルが配布される。",
-      "genres": [
-        "ロック",
-        "ワンマン公演"
-      ],
-      "image_url": null,
-      "source_url": "https://prtimes.jp/main/html/rd/p/000004965.000013546.html",
-      "presale": true,
-      "presale_datetime": "2026-08-14T21:30:00+09:00",
-      "presale_url": "https://eplus.jp/mwam2026"
+      "presale_url": "https://eplus.jp/mwam2026",
+      "general_sale": false,
+      "general_sale_url": "https://eplus.jp/mwam2026/",
+      "updated_at": "2026-10-28"
     },
     {
       "release_time": null,
@@ -7073,7 +7033,7 @@
     },
     {
       "id": "ja-xg-the-core-final-tokyo-20270210",
-      "name": "XG WORLD TOUR: THE CORE FINAL \"1\"（東京ドーム）",
+      "name": "XG WORLD TOUR: THE CORE FINAL（東京ドーム）",
       "release_date": "2027-02-10",
       "release_time": "18:30",
       "category": "concert_tour",
@@ -7081,7 +7041,7 @@
         "東京ドーム"
       ],
       "developer": "XG",
-      "description": "7人組グループXGの2度目のワールドツアー【XG WORLD TOUR: THE CORE】のファイナル公演で、東京ドームで行われる2日間のうち「1（ワン）」と題された一日。ファイナルは各会場とも1日目と2日目で異なるコンセプトのステージを組む構成で、東京ドームが2027年2月10日・11日、京セラドーム大阪が2月27日・28日の計4公演となる。ツアーは2026年2月のKアリーナ横浜公演で開幕し、アジア・ヨーロッパ・オーストラリア・北米を巡って計35公演を予定。この日の開演は18:30。チケットはオフィシャルファンクラブ「ALPHAZ」の最速先行が2026年8月7日から受け付けられた。",
+      "description": "XGの2度目のワールドツアー【XG WORLD TOUR: THE CORE】を締めくくるファイナルの東京ドーム2日間。2月10日（水）は「1」と題した公演で開場16:30・開演18:30、祝日の2月11日（木）は「7」と題した公演で開場15:00・開演17:00と、日ごとに異なるコンセプトのステージになる。イープラスでは抽選先行が3次まで終わり、10月15日15時から12月25日23時59分まで先着先行を受付中。",
       "genres": [
         "J-POP",
         "ドームツアー"
@@ -7092,7 +7052,9 @@
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "publisher": null,
-      "image_url": null
+      "image_url": null,
+      "presale_url": "https://eplus.jp/xg/",
+      "updated_at": "2026-10-28"
     },
     {
       "id": "ja-miyamoto-hiroji-i-am-hero-tokyo-20270211",
@@ -7147,29 +7109,6 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_url": null
-    },
-    {
-      "id": "ja-xg-the-core-final-tokyo-20270211",
-      "name": "XG WORLD TOUR: THE CORE FINAL \"7\"（東京ドーム）",
-      "release_date": "2027-02-11",
-      "release_time": "17:00",
-      "category": "concert_tour",
-      "platforms": [
-        "東京ドーム"
-      ],
-      "developer": "XG",
-      "description": "7人組グループXGの2度目のワールドツアー【XG WORLD TOUR: THE CORE】のファイナル公演で、東京ドームで行われる2日間のうち「7（セブン）」と題された一日。ファイナルは各会場とも1日目と2日目で異なるコンセプトのステージを組む構成で、東京ドームが2027年2月10日・11日、京セラドーム大阪が2月27日・28日の計4公演となる。ツアーは2026年2月のKアリーナ横浜公演で開幕し、アジア・ヨーロッパ・オーストラリア・北米を巡って計35公演を予定。この日の開演は17:00。チケットはオフィシャルファンクラブ「ALPHAZ」の最速先行が2026年8月7日から受け付けられた。",
-      "genres": [
-        "J-POP",
-        "ドームツアー"
-      ],
-      "source_url": "https://rollingstonejapan.com/articles/detail/45105",
-      "presale": true,
-      "general_sale": false,
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "publisher": null,
-      "image_url": null
     },
     {
       "id": "ja-tokyo-ska-paradise-orchestra-arena-tour-2027-20270212",
@@ -7537,7 +7476,7 @@
     },
     {
       "id": "ja-xg-the-core-final-osaka-20270227",
-      "name": "XG WORLD TOUR: THE CORE FINAL \"1\"（京セラドーム大阪）",
+      "name": "XG WORLD TOUR: THE CORE FINAL（京セラドーム大阪）",
       "release_date": "2027-02-27",
       "release_time": "17:00",
       "category": "concert_tour",
@@ -7545,7 +7484,7 @@
         "京セラドーム大阪"
       ],
       "developer": "XG",
-      "description": "7人組グループXGの2度目のワールドツアー【XG WORLD TOUR: THE CORE】のファイナル公演で、京セラドーム大阪で行われる2日間のうち「1（ワン）」と題された一日。ファイナルは各会場とも1日目と2日目で異なるコンセプトのステージを組む構成で、東京ドームが2027年2月10日・11日、京セラドーム大阪が2月27日・28日の計4公演となる。ツアーは2026年2月のKアリーナ横浜公演で開幕し、アジア・ヨーロッパ・オーストラリア・北米を巡って計35公演を予定。この日の開演は17:00。チケットはオフィシャルファンクラブ「ALPHAZ」の最速先行が2026年8月7日から受け付けられた。",
+      "description": "2026年2月にKアリーナ横浜で始まり、アジア・ヨーロッパ・オーストラリア・北米を回ったワールドツアーの最終地点となる京セラドーム大阪公演。2月27日（土）が「1」、28日（日）が「7」のステージで、開演は両日17時（開場15時）。チケットはファンクラブ「ALPHAZ」最速先行のあと複数回のプレオーダーが行われ、3次プレオーダーは10月16日12時から28日23時59分まで受け付けられた。",
       "genres": [
         "J-POP",
         "ドームツアー"
@@ -7556,7 +7495,9 @@
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "publisher": null,
-      "image_url": null
+      "image_url": null,
+      "presale_url": "https://eplus.jp/xg/",
+      "updated_at": "2026-10-28"
     },
     {
       "id": "ja-ano-nyanoesai-20270228",
@@ -7604,29 +7545,6 @@
       "updated_at": "2026-10-07",
       "presale": false,
       "general_sale": false
-    },
-    {
-      "id": "ja-xg-the-core-final-osaka-20270228",
-      "name": "XG WORLD TOUR: THE CORE FINAL \"7\"（京セラドーム大阪）",
-      "release_date": "2027-02-28",
-      "release_time": "17:00",
-      "category": "concert_tour",
-      "platforms": [
-        "京セラドーム大阪"
-      ],
-      "developer": "XG",
-      "description": "7人組グループXGの2度目のワールドツアー【XG WORLD TOUR: THE CORE】のファイナル公演で、京セラドーム大阪で行われる2日間のうち「7（セブン）」と題された一日。ファイナルは各会場とも1日目と2日目で異なるコンセプトのステージを組む構成で、東京ドームが2027年2月10日・11日、京セラドーム大阪が2月27日・28日の計4公演となる。ツアーは2026年2月のKアリーナ横浜公演で開幕し、アジア・ヨーロッパ・オーストラリア・北米を巡って計35公演を予定。この日の開演は17:00。チケットはオフィシャルファンクラブ「ALPHAZ」の最速先行が2026年8月7日から受け付けられた。",
-      "genres": [
-        "J-POP",
-        "ドームツアー"
-      ],
-      "source_url": "https://rollingstonejapan.com/articles/detail/45105",
-      "presale": true,
-      "general_sale": false,
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "publisher": null,
-      "image_url": null
     },
     {
       "release_time": null,
@@ -8605,6 +8523,59 @@
       "general_sale": true,
       "general_sale_datetime": null,
       "updated_at": "2026-10-24"
+    },
+    {
+      "id": "ja-ayaka-20th-anniversary-live-tour-budokan-20261129",
+      "name": "絢香 20th ANNIVERSARY LIVE TOUR（日本武道館公演）",
+      "release_date": "2026-11-29",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "日本武道館"
+      ],
+      "developer": "絢香",
+      "publisher": null,
+      "description": "デビュー20周年を迎えた絢香が9月から全国20公演で回ってきたホール・アリーナツアーのファイナルで、大阪城ホールと並ぶ2本のアリーナ公演のひとつ。11月29日（日）開場16:00・開演17:00、S席11,000円・A席9,900円（税込）。ファンクラブ先行と10月7日からのプレイガイド先着先行（A席のみ）に続き、10月31日（土）10時からチケットぴあ・イープラス・ローソンチケットで一般発売される。",
+      "genres": [
+        "J-POP",
+        "アリーナ公演",
+        "周年ツアー"
+      ],
+      "image_url": null,
+      "source_url": "https://www.sogotokyo.com/live_information/detail/2683",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-31T10:00:00+09:00",
+      "general_sale_url": "https://ticket.pia.jp/pia/ticketInformation.do?eventCd=2607416&rlsCd=001&lotRlsCd=",
+      "updated_at": "2026-10-28"
+    },
+    {
+      "id": "ja-inoue-yoshio-by-mybest-toyota-arena-tokyo-20270407",
+      "name": "井上芳雄 by MYSELF 10周年コンサート「by MYBEST」",
+      "release_date": "2027-04-07",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "TOYOTA ARENA TOKYO"
+      ],
+      "developer": "井上芳雄",
+      "publisher": null,
+      "description": "ミュージカル俳優・井上芳雄の冠番組「井上芳雄 by MYSELF」の10周年を記念したコンサートで、TOYOTA ARENA TOKYOで2日間行われる。4月7日（水）は18:00開演でゲストに浦井健治・佐藤隆紀・濱田めぐみ、4月8日（木）は14:00開演で浦井健治・坂本真綾・田代万里生が出演し、演出は上田一豪。1日指定席17,000円、2日通し券32,000円で、一般発売は2027年1月16日（土）10時から。",
+      "genres": [
+        "ミュージカル",
+        "コンサート"
+      ],
+      "image_url": null,
+      "source_url": "https://eplus.jp/yoshio-concert2027/",
+      "presale": false,
+      "general_sale": false,
+      "general_sale_datetime": "2027-01-16T10:00:00+09:00",
+      "general_sale_url": "https://eplus.jp/yoshio-concert2027/",
+      "updated_at": "2026-10-28"
     }
   ]
 }
