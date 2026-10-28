@@ -1,3 +1,11 @@
+## [2026-10-28 14:25] [EN 브리핑]
+주간 브리핑 작성 완료 (영어권/글로벌)
+- 각도: Next month preview (11월) — 직전 4편이 next-month(9/30)·서울 주말(10/7)·발매 주간(10/14)·on-sales(10/21)라 이번 주 공연(13건)보다 월간 프리뷰가 겹침이 덜하고 11월분 49건으로 가장 두툼했음
+- 제목: November Preview: Steve Lacy Three Ways, and Los Angeles Fills Up
+- 다룬 공연 13건 (전부 /en/concert/<id>로 링크, id 실존 검증 완료)
+- 축: Steve Lacy(Red Rocks 11/11 → Camp Flog Gnaw 11/14–15 → Hollywood Bowl 11/21), LA 집중(11/7·11/14·11/21), Usher & Chris Brown 스타디움, 홀리데이 투어 개막 3건
+- 리드 인계: 없음(DB 기반 브리핑이라 외부 취재 없음 — leads.en.jsonl 미수정)
+
 ## [2026-10-28 10:10] [JA 리서처]
 리서치 완료 (일본 국내 공연)
 - 아직 안 열린 예매 3건 (이번에 새로 잡은 것 +2, 발매 시각 채운 기존 공연 +0) — 신규: 아야카(絢香) 무도관 일반 10/31 10:00, 이노우에 요시오 TOYOTA ARENA TOKYO 일반 2027/1/16 10:00. 기존: Seal 도쿄 일반 10/31 10:00 유지
