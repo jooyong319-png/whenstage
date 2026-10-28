@@ -3,8 +3,35 @@
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
 | ko | 2026-10-26 | |
-| en | 2026-10-21 | ← |
-| ja | 2026-10-23 | |
+| en | 2026-10-28 | |
+| ja | 2026-10-23 | ← |
+
+---
+
+## 2026-10-28 · en
+
+로테이션상 en이 가장 오래된 점검일(2026-10-21)이라 선택. 대상 창: 2026-08-29 ~ 2026-12-27(오늘 ±60일). 코드는 손대지 않았고 `data/concerts.en.json`만 수정(파일 상단 `last_updated` 2026-10-28). push 전 `validate-data.mjs` 통과. 고친 항목·트랙 B 확인 항목 모두 `updated_at=2026-10-28`.
+
+**트랙 A (졸업 처리) — 18건**
+- A-1/A-2 끝난 공연의 예매 필드·플래그 정리 12건(§7대로 `presale`/`general_sale=false` + 예매 URL·datetime 6개 필드 null) + 해당 공연 문장만 과거형(투어 잔여 일정 서술은 현재형 유지, 새 사실 추가 없음): en-kenny-g-live-in-seoul-20261020 / -20261021(지난 회차 이월), en-jonas-brothers-burning-up-all-over-again-rosemont-20261022, en-jay-z-30th-anniversary-los-angeles-20261023(10/23·24 종료), en-lucy-island-encore-seoul-20261023(10/23~25 종료), en-jodeci-forever-my-lady-35th-san-francisco-20261024, en-katseye-wildworld-tour-belmont-park-20261024, en-kim-ji-won-wonederland-seoul-20261024(10/24·25 종료), en-oneus-full-moon-seoul-20261024 / -20261025, en-tame-impala-deadbeat-perth-20261024(10/24·25 종료), en-benson-boone-wanted-man-seoul-20261026
+- ⚠ Jonas Rosemont는 시제만 고치자 Philadelphia와 75% 설명 복사 오류 → 지난 회차 Indianapolis처럼 **기존 문장의 사실만으로 재구성**(같은 투어 다른 건과 1~3%), "Deleasa joins" 문법 오류도 함께 해소
+- A-4 description 시제만 6건: en-riize-prologue-single-20261026(music_release, 링크 미변경), en-hwang-minhyun-peach-blossom-seoul-20261016, en-oso-oso-exchange-of-information-allston-20261007, en-fcukers-fall-tour-grand-rapids-20260901, en-silvana-estrada-suaves-lluvias-portland-20260903, en-lupe-fiasco-back-to-basics-cleveland-20260910 ("opens" → "opened")
+- A-3: en-post-malone-big-stadium-seoul-20261002 approx=true 유지(연기·새 날짜 미발표)
+- 오탐: phoebe-bridgers(Alex G "opens" = 오프닝 게스트), nice-as-fuck-pasadena(DJ "opens every date"), the-avalanches·nexz(이미 과거형, "will"은 앨범명·will-call)
+
+**트랙 B (임박 점검) — 8건 확인** (공연일 가까운 순, `updated_at` 없는 항목)
+- ⚠ **en-usher-chris-brown-rb-tour-indianapolis-20261031 — 취소 확인** → `[Cancelled]` 표기 + 취소·자동 환불 문장 추가, `general_sale=false`·`general_sale_url=null`. 근거: theGrio 10/12(Baltimore 10/17·Cincinnati 10/24·Columbia 10/29·Indianapolis 10/31 4건 취소, 프로모터 "투어 인원 건강" 사유), Lucas Oil Stadium 이벤트 페이지 취소·14~21일 자동 환불 공지
+- en-bryan-adams-bare-bones-las-vegas-20261028 — 10/28~11/1 5회 Encore Theater 유지(FOX5 8/4). `release_time` 20:00 추가
+- en-orville-peck-man-turned-mule-sacramento-20261028 — Pollstar: 10/28 Channel 24 개막, 19회, 11/22 Huntington 종료 일치. 취소 보도 없음(검색되는 취소 기사는 2023년 건). 변경 없음
+- en-nice-as-fuck-10th-anniversary-brooklyn-20261029 — mxdwn 9/10 투어 목록 마지막 날 10/29 Xanadu Roller Arts 일치. 변경 없음
+- en-thao-show-me-20261030 — 10/30 Kill Rock Stars 발매 유지(Stereogum·mxdwn·레코드숍 예약). 변경 없음
+- en-the-faint-fall-tour-springfield-20261030 — 10/30 The Regency Live 유지(Consequence·예매 리스팅). 지난 예매 문장 시제 교정("go on sale" → "went on sale")
+- en-fuerza-regida-this-is-our-dream-morrison-20261102 — Remezcla 2nd leg 10일정, 마지막 11/2 Red Rocks 일치. 변경 없음
+- en-pentatonix-christmas-in-the-city-tacoma-20261105 — TicketNews: 11/5 Tacoma Dome 개막, 28회 일치. 변경 없음
+- B-3 링크: 8건 source/image/예매 URL 16개 실제 접속 — 13개 200. orvillepeck.com/tour 403, jambase 기사 403, sofistadium 뉴스 406 — 두 번 재시도해도 동일하나 봇 차단으로 판단(같은 사실을 다른 소스·검색 결과로 확인), 죽은 링크로 단정 안 함
+
+**남은 것**: 트랙 B 다음 순번: en-quadeca-life-1-tour-seattle-20261106, en-usher-chris-brown-rb-tour-atlanta-20261105, en-jimmy-eat-world-the-format-hollywood-bowl-20261107, en-olivia-rodrigo-unraveled-tour-philadelphia-20261107부터
+**운영자/리서처 참고(추가 안 함)**: ① Usher·Chris Brown 4건 취소 중 Baltimore·Cincinnati·Columbia가 en에 등록돼 있으면 `[Cancelled]` 표기 필요(이번엔 창 내 B 순번 외라 미확인). ② Fuerza Regida Red Rocks 11/3 2회차 티켓 리스팅(eventworld)이 보이나 공식 발표 미확인. ③ Jonas Brothers 나머지 4건 설명 복사 묶음 여전. ④ 신규 미등록 공연 발견 없음
 
 ---
 
