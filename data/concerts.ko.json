@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-26",
+  "last_updated": "2026-10-29",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -4322,11 +4322,14 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-26",
+      "updated_at": "2026-10-29",
       "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale_end_datetime": null
+      "general_sale_end_datetime": null,
+      "related_locale_ids": {
+        "en": "en-lucy-island-encore-seoul-20261023"
+      }
     },
     {
       "id": "ko-leeseunggi-gisungjeon-rak-seoul-20261024",
@@ -4356,7 +4359,10 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-26"
+      "updated_at": "2026-10-29",
+      "related_locale_ids": {
+        "en": "en-lee-seung-gi-gisungjeon-rak-seoul-20261023"
+      }
     },
     {
       "id": "ko-oneus-full-moon-seoul-20261024",
@@ -4380,13 +4386,16 @@
       "source_url": "https://www.slist.kr/news/articleView.html?idxno=769767",
       "general_sale": false,
       "general_sale_datetime": null,
-      "updated_at": "2026-10-26",
+      "updated_at": "2026-10-29",
       "presale": false,
       "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "related_locale_ids": {
+        "en": "en-oneus-full-moon-seoul-20261024"
+      }
     },
     {
       "id": "ko-sosubin-neulgeuraewaetdeon-seoul-20261024",
@@ -4447,7 +4456,10 @@
       "general_sale_datetime": "2026-07-21T12:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-26"
+      "updated_at": "2026-10-29",
+      "related_locale_ids": {
+        "en": "en-benson-boone-wanted-man-seoul-20261026"
+      }
     },
     {
       "id": "ko-kimjaehwan-yeoback-seoul-20261031",
@@ -4478,7 +4490,10 @@
       "general_sale_datetime": "2026-09-09T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26012668",
-      "updated_at": "2026-10-26"
+      "updated_at": "2026-10-29",
+      "related_locale_ids": {
+        "en": "en-kim-jae-hwan-yeobaek-seoul-20261031"
+      }
     },
     {
       "id": "ko-nujabes-metaphorical-ensemble-seoul-20261031",
@@ -4509,7 +4524,10 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26012781",
-      "updated_at": "2026-10-26"
+      "updated_at": "2026-10-29",
+      "related_locale_ids": {
+        "en": "en-nujabes-metaphorical-ensemble-seoul-20261031"
+      }
     },
     {
       "id": "ko-ko1keyz-1st-fanmeeting-seoul-20261107",
@@ -4569,7 +4587,11 @@
       "general_sale": true,
       "general_sale_datetime": "2026-05-13T19:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "related_locale_ids": {
+        "en": "en-5sos-everyones-a-star-seoul-20261119"
+      },
+      "updated_at": "2026-10-29"
     },
     {
       "id": "ko-kokyungpyo-kyungpyo-night-seoul-20261121",
@@ -4638,7 +4660,11 @@
         "콘서트"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/180531_%EB%A1%9C%EC%9D%B4%ED%82%B4.jpg/330px-180531_%EB%A1%9C%EC%9D%B4%ED%82%B4.jpg",
-      "source_url": "https://sports.khan.co.kr/article/202607160757003/"
+      "source_url": "https://sports.khan.co.kr/article/202607160757003/",
+      "related_locale_ids": {
+        "en": "en-roy-kim-roy-live-tour-seoul-20261121"
+      },
+      "updated_at": "2026-10-29"
     },
     {
       "id": "ko-gongyoo-the-long-take-seoul-20261128",
@@ -4664,7 +4690,10 @@
       "presale_datetime": "2026-10-27T20:00:00+09:00",
       "general_sale": true,
       "general_sale_datetime": "2026-10-29T20:00:00+09:00",
-      "updated_at": "2026-10-05"
+      "updated_at": "2026-10-29",
+      "related_locale_ids": {
+        "en": "en-gong-yoo-the-long-take-seoul-20261128"
+      }
     },
     {
       "id": "ko-kanaboon-critical-hit-parade-seoul-20261205",
@@ -4718,7 +4747,11 @@
       "general_sale": true,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26009919"
+      "general_sale_url": "https://tickets.interpark.com/goods/26009919",
+      "related_locale_ids": {
+        "en": "en-khalid-always-summer-somewhere-seoul-20261205"
+      },
+      "updated_at": "2026-10-29"
     },
     {
       "id": "ko-yuuri-live-2026-seoul-20261205",
@@ -4743,7 +4776,11 @@
       "source_url": "https://tickets.interpark.com/goods/26010352",
       "general_sale": true,
       "general_sale_datetime": "2026-07-31T20:00:00+09:00",
-      "general_sale_url": "https://tickets.interpark.com/goods/26010352"
+      "general_sale_url": "https://tickets.interpark.com/goods/26010352",
+      "related_locale_ids": {
+        "en": "en-yuuri-live-2026-incheon-20261205"
+      },
+      "updated_at": "2026-10-29"
     },
     {
       "id": "ko-slowdive-live-2026-seoul-20261208",
@@ -4773,7 +4810,11 @@
       "general_sale": true,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012276"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012276",
+      "related_locale_ids": {
+        "en": "en-slowdive-live-2026-seoul-20261208"
+      },
+      "updated_at": "2026-10-29"
     },
     {
       "id": "ko-domi-jdbeck-who-asked-seoul-20261212",
@@ -4799,7 +4840,11 @@
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": "2026-08-25T19:00:00+09:00",
-      "general_sale_url": null
+      "general_sale_url": null,
+      "related_locale_ids": {
+        "en": "en-domi-jd-beck-who-asked-seoul-20261212"
+      },
+      "updated_at": "2026-10-29"
     },
     {
       "id": "ko-leeseungchul-the-voice-incheon-20261212",
@@ -4859,7 +4904,11 @@
       "general_sale": false,
       "general_sale_datetime": "2026-09-01T12:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012666"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012666",
+      "related_locale_ids": {
+        "en": "en-wave-to-earth-the-pieces-tour-seoul-20261218"
+      },
+      "updated_at": "2026-10-29"
     },
     {
       "id": "ko-mumyeongjeonseol-busan-encore-20261231",
@@ -4918,7 +4967,11 @@
       "general_sale": true,
       "general_sale_datetime": "2026-08-14T12:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "related_locale_ids": {
+        "en": "en-maroon-5-asia-2027-seoul-20270127"
+      },
+      "updated_at": "2026-10-29"
     },
     {
       "id": "ko-bruno-mars-the-romantic-goyang-20270521",
@@ -4948,7 +5001,11 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-14T12:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012591"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012591",
+      "related_locale_ids": {
+        "en": "en-bruno-mars-the-romantic-seoul-20270521"
+      },
+      "updated_at": "2026-10-29"
     },
     {
       "id": "ko-kimjiwon-wonederland-seoul-20261024",
@@ -4978,7 +5035,10 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-26"
+      "updated_at": "2026-10-29",
+      "related_locale_ids": {
+        "en": "en-kim-ji-won-wonederland-seoul-20261024"
+      }
     },
     {
       "id": "ko-kimfeel-journey-20261029",
@@ -5433,7 +5493,11 @@
         "발매"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/20240314_Lisa_Manoban_07.jpg/500px-20240314_Lisa_Manoban_07.jpg",
-      "source_url": "https://www.segye.com/newsView/20260904506288"
+      "source_url": "https://www.segye.com/newsView/20260904506288",
+      "related_locale_ids": {
+        "en": "en-lisa-press-play-20261023"
+      },
+      "updated_at": "2026-10-29"
     },
     {
       "id": "ko-dohkyungsoo-dopamine-20260908",
@@ -5768,7 +5832,11 @@
         "시상식"
       ],
       "image_url": null,
-      "source_url": "https://www.munhwa.com/article/11614524"
+      "source_url": "https://www.munhwa.com/article/11614524",
+      "related_locale_ids": {
+        "en": "en-kgma-2026-20261107"
+      },
+      "updated_at": "2026-10-29"
     },
     {
       "id": "ko-rose-new-trick-20260918",
@@ -5857,7 +5925,11 @@
       "general_sale": true,
       "general_sale_datetime": "2026-10-06T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26013161"
+      "general_sale_url": "https://tickets.interpark.com/goods/26013161",
+      "related_locale_ids": {
+        "en": "en-txt-steal-the-wind-seoul-20261113"
+      },
+      "updated_at": "2026-10-29"
     },
     {
       "id": "ko-day6-5th-fanmeeting-incheon-20261023",
@@ -5888,7 +5960,10 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-26"
+      "updated_at": "2026-10-29",
+      "related_locale_ids": {
+        "en": "en-day6-5th-fanmeeting-incheon-20261023"
+      }
     },
     {
       "id": "ko-rain-the-smoke-seoul-20261205",
@@ -5917,7 +5992,11 @@
       "general_sale": true,
       "general_sale_datetime": "2026-10-01T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "related_locale_ids": {
+        "en": "en-rain-the-smoke-seoul-20261205"
+      },
+      "updated_at": "2026-10-29"
     },
     {
       "id": "ko-kwonjinah-save-me-seoul-20261106",
@@ -6026,7 +6105,11 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-22T12:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26013394"
+      "general_sale_url": "https://tickets.interpark.com/goods/26013394",
+      "related_locale_ids": {
+        "en": "en-malcolm-todd-do-that-again-seoul-20261202"
+      },
+      "updated_at": "2026-10-29"
     },
     {
       "id": "ko-redoor-memory-seoul-20260926",
@@ -6139,7 +6222,10 @@
       ],
       "image_url": null,
       "source_url": "https://www.starnewskorea.com/music/2026/09/14/2026091411013690861",
-      "updated_at": "2026-10-26"
+      "updated_at": "2026-10-29",
+      "related_locale_ids": {
+        "en": "en-riize-prologue-single-20261026"
+      }
     },
     {
       "id": "ko-illit-break-even-20261026",
@@ -6160,7 +6246,10 @@
       ],
       "image_url": null,
       "source_url": "https://isplus.com/article/view/isp202609140168",
-      "updated_at": "2026-10-26"
+      "updated_at": "2026-10-29",
+      "related_locale_ids": {
+        "en": "en-illit-break-even-20261026"
+      }
     },
     {
       "id": "ko-roykim-cry-out-loud-20261006",
@@ -6325,7 +6414,10 @@
       "general_sale_datetime": "2026-09-29T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26013810",
-      "updated_at": "2026-09-24"
+      "updated_at": "2026-10-29",
+      "related_locale_ids": {
+        "en": "en-dynamic-duo-once-in-a-while-seoul-20261127"
+      }
     },
     {
       "id": "ko-dynamicduo-once-in-a-while-busan-20261212",
@@ -6415,7 +6507,10 @@
       "general_sale_datetime": "2026-09-30T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26013132",
-      "updated_at": "2026-09-24"
+      "updated_at": "2026-10-29",
+      "related_locale_ids": {
+        "en": "en-monsta-x-the-x-nexus-encore-incheon-20261121"
+      }
     },
     {
       "id": "ko-yuchaehoon-home-seoul-20261024",
@@ -6630,7 +6725,10 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.yes24.com/Perf/59986",
-      "updated_at": "2026-09-28"
+      "updated_at": "2026-10-29",
+      "related_locale_ids": {
+        "en": "en-flow-naruto-the-rock-seoul-20261028"
+      }
     },
     {
       "id": "ko-yoonmarch-mrch-symbiosis-seoul-20261031",
@@ -6753,7 +6851,10 @@
       "general_sale_datetime": "2026-09-18T14:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.yes24.com/Perf/60153",
-      "updated_at": "2026-09-28"
+      "updated_at": "2026-10-29",
+      "related_locale_ids": {
+        "en": "en-cho-yong-pil-great-birth-seoul-20261127"
+      }
     },
     {
       "id": "ko-zazenboys-matsuri-session-seoul-20261206",
@@ -6877,7 +6978,10 @@
       "general_sale_datetime": "2026-06-17T19:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.melon.com/performance/index.htm?prodId=213396",
-      "updated_at": "2026-09-28"
+      "updated_at": "2026-10-29",
+      "related_locale_ids": {
+        "en": "en-fujii-kaze-prema-world-tour-seoul-20270109"
+      }
     },
     {
       "id": "ko-humpback-hello-anew-seoul-20270123",
@@ -7001,7 +7105,10 @@
       "general_sale_datetime": "2026-10-12T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://nol.yanolja.com/ticket/products/26013793",
-      "updated_at": "2026-10-01"
+      "updated_at": "2026-10-29",
+      "related_locale_ids": {
+        "en": "en-jeonghan-x-joshua-journey-into-dreaming-incheon-20261030"
+      }
     },
     {
       "id": "ko-asean-korea-music-festival-round-incheon-20261107",
@@ -7063,7 +7170,10 @@
       "general_sale_datetime": "2026-10-08T19:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://nol.yanolja.com/ticket/products/26014056",
-      "updated_at": "2026-10-01"
+      "updated_at": "2026-10-29",
+      "related_locale_ids": {
+        "en": "en-davichi-in-our-scenes-seoul-20261212"
+      }
     },
     {
       "id": "ko-the-greatest-sohyang-kimkitae-goyang-20261212",
@@ -7367,7 +7477,10 @@
       "general_sale_datetime": "2026-10-06T14:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26014222",
-      "updated_at": "2026-10-19"
+      "updated_at": "2026-10-29",
+      "related_locale_ids": {
+        "en": "en-jy-park-wet-seoul-20261224"
+      }
     },
     {
       "id": "ko-binyeseo-gift-seoul-20261227",
@@ -7734,7 +7847,10 @@
       "general_sale_datetime": "2026-10-19T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-19"
+      "updated_at": "2026-10-29",
+      "related_locale_ids": {
+        "en": "en-jang-wooyoung-solo-concert-seoul-20261114"
+      }
     },
     {
       "id": "ko-soran-layering-seoul-20261121",
@@ -8021,7 +8137,10 @@
       "general_sale_datetime": "2026-10-29T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13116",
-      "updated_at": "2026-10-26"
+      "updated_at": "2026-10-29",
+      "related_locale_ids": {
+        "en": "en-aespa-my-bogosipda-ae-fanmeeting-seoul-20261128"
+      }
     },
     {
       "id": "ko-hanroro-question-mark-incheon-20270102",
@@ -8052,7 +8171,10 @@
       "general_sale_datetime": "2026-11-13T18:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13130",
-      "updated_at": "2026-10-26"
+      "updated_at": "2026-10-29",
+      "related_locale_ids": {
+        "en": "en-hanroro-question-mark-incheon-20270102"
+      }
     },
     {
       "id": "ko-jinyoung-code-seoul-20261107",
@@ -8082,7 +8204,162 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.melon.com/performance/index.htm?prodId=213880",
-      "updated_at": "2026-10-26"
+      "updated_at": "2026-10-29",
+      "related_locale_ids": {
+        "en": "en-park-jinyoung-code-seoul-20261107"
+      }
+    },
+    {
+      "id": "ko-kyuhyun-continue-seoul-20261218",
+      "name": "규현 (KYUHYUN) ASIA TOUR 'CONTINUE' IN SEOUL",
+      "release_date": "2026-12-18",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "장충체육관"
+      ],
+      "developer": "규현(KYUHYUN)",
+      "publisher": null,
+      "description": "슈퍼주니어 규현이 아시아 투어 'CONTINUE'의 출발점으로 12월 18일(금) 오후 8시, 19일(토) 오후 6시, 20일(일) 오후 5시 서울 장충체육관에서 3회 공연을 연다. 투어 타이틀은 11월 11일 오후 6시 발매되는 EP 'CONTINUE'와 같고, 서울 이후 도시는 추후 공개된다. NOL 티켓에서 팬클럽 선예매가 10월 26일 오후 7시부터 28일까지 진행됐고 일반예매는 10월 29일 오후 8시에 열린다. 플로어석 15만4000원, R석 14만3000원, 8세 이상 관람가, 공연 시간 120분이다.",
+      "genres": [
+        "K-POP",
+        "콘서트"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26014833_p.gif",
+      "source_url": "https://www.topstarnews.net/news/articleView.html?idxno=16256394",
+      "presale": false,
+      "presale_datetime": "2026-10-26T19:00:00+09:00",
+      "presale_end_datetime": "2026-10-28T23:59:00+09:00",
+      "presale_url": "https://tickets.interpark.com/goods/26014833",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-29T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26014833",
+      "updated_at": "2026-10-29"
+    },
+    {
+      "id": "ko-nflying-once-upon-a-snowball-seoul-20261224",
+      "name": "2026 N.Flying LIVE 'Once Upon a Snowball'",
+      "release_date": "2026-12-24",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "고려대학교 화정체육관"
+      ],
+      "developer": "엔플라잉(N.Flying)",
+      "publisher": "FNC엔터테인먼트",
+      "description": "밴드 엔플라잉(N.Flying)이 크리스마스 시즌 단독 공연 'Once Upon a Snowball'을 12월 24일(목) 오후 7시 30분, 25일(금) 오후 5시, 26일(토) 오후 4시 고려대학교 화정체육관에서 연다. 멜론티켓 단독 판매로, 공식 팬클럽 N.Fia 5기 선예매가 11월 4일 오후 8시부터 5일 자정 전까지 진행되고(사전 인증 10월 30일 오후 2시~11월 5일) 일반예매는 11월 6일 오후 8시에 열린다. 전석 지정석 14만3000원, 회차당 1인 2매, 8세 이상 관람가이며 공연 시간은 120분이다.",
+      "genres": [
+        "K-POP",
+        "밴드",
+        "콘서트"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/10/202610271109036583336e-f66c-4496-b9b8-7ef400f033f3.jpg",
+      "source_url": "https://www.slist.kr/news/articleView.html?idxno=777275",
+      "presale": true,
+      "presale_datetime": "2026-11-04T20:00:00+09:00",
+      "presale_end_datetime": "2026-11-05T23:59:00+09:00",
+      "presale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13152",
+      "general_sale": true,
+      "general_sale_datetime": "2026-11-06T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13152",
+      "updated_at": "2026-10-29"
+    },
+    {
+      "id": "ko-simondominic-simon-says-seoul-20270109",
+      "name": "SIMON DOMINIC 1ST CONCERT 〈SIMON SAYS〉",
+      "release_date": "2027-01-09",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "예스24 라이브홀"
+      ],
+      "developer": "사이먼 도미닉(Simon Dominic)",
+      "publisher": "ONYX",
+      "description": "래퍼 사이먼 도미닉이 데뷔 후 첫 단독 콘서트 'SIMON SAYS'를 2027년 1월 9일(토) 오후 6시, 10일(일) 오후 5시 서울 광진구 YES24 LIVE HALL에서 연다. 일반 티켓은 2026년 10월 29일 오후 7시 예스24 티켓과 NOL 티켓에서 동시에 열리며, 가격은 1층 스탠딩 12만1000원, 2층 지정석 13만2000원이다. 회차당 1인 4매까지, 만 7세 이상 관람가, 공연 시간 120분이며 주최는 ONYX, 주관은 MPMG다.",
+      "genres": [
+        "힙합",
+        "콘서트"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26015319_p.gif",
+      "source_url": "http://m.ticket.yes24.com/Notice/18718",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-29T19:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://tickets.interpark.com/goods/26015319",
+      "updated_at": "2026-10-29"
+    },
+    {
+      "id": "ko-chenle-leles-show-2-seoul-20261124",
+      "name": "2026 CHENLE B-day PARTY [Lele's Show 2]",
+      "release_date": "2026-11-24",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "예스24 라이브홀"
+      ],
+      "developer": "천러(CHENLE)",
+      "publisher": null,
+      "description": "NCT DREAM 멤버 천러가 생일을 기념한 팬 이벤트 'Lele's Show 2'를 11월 24일(화) 오후 8시 서울 YES24 LIVE HALL에서 1회 연다. 지난해 12월 같은 장소에서 열린 첫 'Lele's Show'에 이어 1년 만에 돌아오는 자리로, 천러와 함께 미션을 풀어 가는 구성이 예고됐다. 예스24 티켓 단독 판매로 NCTzen DREAM 멤버십 선예매가 10월 27일 오후 8시, 일반예매가 28일 오후 8시에 열렸다. 전석 7만7000원, 1인 1매, 만 7세 이상 관람가다.",
+      "genres": [
+        "K-POP",
+        "팬미팅"
+      ],
+      "image_url": "https://stkfile.yes24.com/upload2/PerfBlog/202610/20261023/20261023-60596.jpg",
+      "source_url": "https://x.com/NCTsmtown_DREAM/status/2113495771492520034",
+      "presale": false,
+      "presale_datetime": "2026-10-27T20:00:00+09:00",
+      "presale_end_datetime": "2026-10-27T23:59:59+09:00",
+      "presale_url": "https://ticket.yes24.com/Perf/60596",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-28T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.yes24.com/Perf/60596",
+      "updated_at": "2026-10-29"
+    },
+    {
+      "id": "ko-sjf-theater-baekyerin-yoonseokcheol-seoul-20261117",
+      "name": "SJF at the Theater 2026 - 백예린X윤석철",
+      "release_date": "2026-11-17",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "세종문화회관(대극장)"
+      ],
+      "developer": "백예린",
+      "publisher": "프라이빗커브, SBS",
+      "description": "싱어송라이터 백예린과 재즈 피아니스트 윤석철이 서울재즈페스티벌의 가을 공연 시리즈 '서재페 앳 더 씨어터' 무대에서 합동 공연을 한다. 처음 잡힌 11월 21일(토) 오후 7시 공연에 11월 17일(화) 오후 8시 회차가 추가돼 세종문화회관 대극장에서 모두 2회 열린다. 추가 회차 티켓은 10월 29일 정오 예스24 티켓에서 열렸고 멜론티켓에서도 판매한다. 좌석은 VIP 15만4000원부터 B석 9만9000원까지이며 초등학생 이상 입장할 수 있다.",
+      "genres": [
+        "재즈",
+        "팝",
+        "콘서트"
+      ],
+      "image_url": "https://stkfile.yes24.com/upload2/PerfBlog/202610/20261026/20261026-60530.jpg",
+      "source_url": "https://ticket.melon.com/performance/index.htm?prodId=214035",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.yes24.com/Perf/60530",
+      "updated_at": "2026-10-29"
     }
   ]
 }
