@@ -2,9 +2,32 @@
 
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
-| ko | 2026-10-26 | |
+| ko | 2026-10-26 | ← |
 | en | 2026-10-28 | |
-| ja | 2026-10-23 | ← |
+| ja | 2026-10-30 | |
+
+---
+
+## 2026-10-30 · ja
+
+로테이션상 ja가 가장 오래된 점검일(2026-10-23)이라 선택. 대상 창: 2026-08-31 ~ 2026-12-29(오늘 ±60일), 창 안 항목 164건(끝난 것 76 / 예정 88). 코드는 손대지 않았고 `data/concerts.ja.json`만 수정(파일 상단 `last_updated` 2026-10-30). push 전 `validate-data.mjs` 통과. 고친 항목·트랙 B 확인 항목은 `updated_at=2026-10-30` — 단 설명 복사 묶음(ENDRECHERI 横浜 2건, ウィーン・フィル 4건)은 `updated_at`을 오늘로 올리면 validate가 오류를 내서 기존 값 유지.
+
+**트랙 A (졸업 처리) — 11건**
+- A-1/A-2 끝난 공연의 예매 필드·플래그 정리 6건(§7대로 `presale`/`general_sale=false` + 예매 URL·datetime 6개 필드 null): ja-peter-gallway-sahashi-full-circle-20261010(10/29 BLUES ALLEY 피날레로 투어 종료, +시제 "回る/迎える"→과거형), ja-ovall-glimmer-tour-osaka-20261029(+"発売される"→"発売された", 11/27까지 투어 잔여 서술은 유지), ja-endrecheri-billboard-live-tour-2026-yokohama-20261013 / -20261014(`general_sale=true` 잔존 해제, +"行われる"→"行われた"), ja-scaffold-3-tokyo-20261013 / ja-scaffold-3-osaka-20261015(e+ URL 잔존)
+- A-4 description 시제만 5건(새 사실 추가 없음): ja-kismyft2-kis-scene-20261028(music_release, 링크 없음), ja-mwam-firestarter-single-20261028(12월 투어 서술은 유지), ja-yes-mama-ok-revisionary-live-20261024, ja-sakanaction-toumei-glion-arena-kobe-20260929 / ja-sakanaction-toumei-budokan-20260908("組まれている/ソールドアウトとなっている"→과거형 — 2026 레그 10/4 종료)
+- A-3: 창 안 끝난 항목 중 approx=true는 여전히 ja-post-malone-2026-20261006 1건 — 연기·振替 미정이라 유지
+- 의도적 제외(투어 잔여 일정 진행 중이라 예매 정보 유효): nightmare-tour(~11/22), ryokushaka-arena-tour(~12/6), number-i-no3-sapporo(~2027/1), yoasobi-chowakusei(~12/6), kobayashi-watashi-tobutame(11/8 도쿄 남음). babymonster-kyocera는 선예매 마감일이 있어 A-1 조건 비해당
+
+**트랙 B (임박 점검) — 8건 확인** (공연일 가까운 순, `updated_at` 없는 항목. 10/23에 확인한 7건은 건너뜀)
+- ja-punk-rock-connection-2026-20261107 — CDJournal 9/1: 11/7 고円寺 6개 회장, 開場11:00/開演12:00, e+ 발매. 취소 공지 없음. `release_time` 12:00 추가, 회장명 오기 "氣楽"→"喜楽" 교정
+- ja-wiener-philharmoniker-week-japan-2026-20261107 / -1108 / -1109 / -1112 — 산토리홀 공연 상세(11/12 19:00 브루크너 8번 하스판, 시리즈 11/7·8 16:00, 11/9 19:00) 일치, 변경 공지 없음. 변경 없음
+- ja-kai-yoshihiro-homecoming-tour-haneda-20261108 — 공식 kaisurf.com: 11/8 Zepp Haneda 16:00/17:00 유지, "ALL TICKETS SOLD OUT". 설명에 "全公演完売" 한 문장 추가
+- ja-xaosx-888-the-real-clap-20261109 — 크리에이티브맨 공식: 11/9 KT Zepp Yokohama 2회 공연 유지, 선행 9/23~29 종료·일반 10/17 발매. `presale=false`/`general_sale=true`, 예매 문장 시제 교정
+- ja-takahata-mitsuki-im-all-yours-20261111 — Real Sound 9/10 트랙리스트 공개(11/11 발매·9곡) 일치. "収録予定"→"収録する", 지난 선행 배신(8/21) 시제 교정
+- B-3 링크: 8건 source/image/예매 URL 7종 실제 접속 — 6개 200. suntory.co.jp wphweek2026 특설 페이지만 403(UA 바꿔 재시도해도 동일, 같은 사이트 공연 상세 페이지는 정상) → 봇 차단으로 판단, 죽은 링크로 단정 안 함
+
+**남은 것**: ENDRECHERI 横浜 2건·ウィーン・フィル 4건·Scaffold 설명 복사 정리(리서처 몫). 트랙 B 다음 순번: ja-aklo-zorn-a2z-2026-20261113, ja-band-maid-world-tour-final-20261113, ja-tokunaga-hideaki-covers-and-best-tokyo-20261114, ja-endrecheri-billboard-live-tour-2026-osaka-20261116부터
+**리서처 참고(추가 안 함)**: 신규 미등록 공연 발견 없음. 10/23 로그의 yonezu-kenshi 지난 抽選 일정 문장 시제 정리는 여전히 미처리(예정 공연)
 
 ---
 
