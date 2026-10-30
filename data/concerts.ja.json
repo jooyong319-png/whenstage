@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-28",
+  "last_updated": "2026-10-30",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -2495,12 +2495,12 @@
         "日本武道館"
       ],
       "developer": "サカナクション",
-      "description": "サカナクションが「怪獣」ツアー以来となるアリーナ・ツアー〈SAKANAQUARIUM 2026-2027 “透明”〉を開幕させた初日公演。9月8日に東京・日本武道館で開場17:30・開演18:30で行われ、武道館は9月9日・18日・19日、10月3日・4日を含む計6公演が組まれている。総合演出は前回に続き映像ディレクターの田中裕介が担当。前方中央にセンタースピーカーを加えた新しい音響システム「speaker+C」が投入され、2026年公演のチケットは7月時点で全公演ソールドアウトとなっている。",
+      "description": "サカナクションが「怪獣」ツアー以来となるアリーナ・ツアー〈SAKANAQUARIUM 2026-2027 “透明”〉を開幕させた初日公演。9月8日に東京・日本武道館で開場17:30・開演18:30で行われ、武道館は9月9日・18日・19日、10月3日・4日を含む計6公演が組まれた。総合演出は前回に続き映像ディレクターの田中裕介が担当。前方中央にセンタースピーカーを加えた新しい音響システム「speaker+C」が投入され、2026年公演のチケットは7月時点で全公演ソールドアウトとなっていた。",
       "genres": [
         "J-ROCK",
         "アリーナツアー"
       ],
-      "updated_at": "2026-10-07"
+      "updated_at": "2026-10-30"
     },
     {
       "release_time": null,
@@ -3254,11 +3254,12 @@
         "GLION ARENA KOBE（兵庫・神戸）"
       ],
       "developer": "サカナクション",
-      "description": "〈SAKANAQUARIUM 2026-2027 “透明”〉の兵庫公演初日で、2026年に開業した神戸のアリーナGLION ARENA KOBEでの開催。9月29日は開場18:00・開演19:00で、翌30日も同じ時間で2days が組まれている。東京・大阪に続く3都市目にあたり、2026年レグはこの神戸2公演のあと10月3日・4日の日本武道館で締めくくられる。企画制作はグリーンズ。チケットは全公演ソールドアウトとなっている。",
+      "description": "〈SAKANAQUARIUM 2026-2027 “透明”〉の兵庫公演初日で、2026年に開業した神戸のアリーナGLION ARENA KOBEでの開催。9月29日は開場18:00・開演19:00で、翌30日も同じ時間で2daysが組まれた。東京・大阪に続く3都市目にあたり、2026年レグはこの神戸2公演のあと10月3日・4日の日本武道館で締めくくられた。企画制作はグリーンズ。チケットは全公演ソールドアウトとなっていた。",
       "genres": [
         "J-ROCK",
         "アリーナツアー"
-      ]
+      ],
+      "updated_at": "2026-10-30"
     },
     {
       "id": "ja-abc-z-the-way-of-love-20260930",
@@ -3634,16 +3635,16 @@
       "platforms": [
         "金沢 もっきりや（石川ほか全国11都市12公演）"
       ],
-      "description": "ザ・フィフス・アヴェニュー・バンドで知られるシンガー・ソングライターのピーター・ゴールウェイと、ギタリスト／プロデューサーの佐橋佳幸が、コラボ・アルバム『EN』を携えて全国を回る。10月10日の石川・金沢もっきりやを皮切りに福井・京都・愛知・大分・福岡・広島・大阪・香川・愛媛を巡り、10月28日・29日の東京・BLUES ALLEY JAPAN 2デイズでフィナーレを迎える。チケットは前売8000円・当日9000円（ドリンク／フード代別）。",
+      "description": "ザ・フィフス・アヴェニュー・バンドで知られるシンガー・ソングライターのピーター・ゴールウェイと、ギタリスト／プロデューサーの佐橋佳幸が、コラボ・アルバム『EN』を携えて全国を回った。10月10日の石川・金沢もっきりやを皮切りに福井・京都・愛知・大分・福岡・広島・大阪・香川・愛媛を巡り、10月28日・29日の東京・BLUES ALLEY JAPAN 2デイズでフィナーレを迎えた。チケットは前売8000円・当日9000円（ドリンク／フード代別）。",
       "presale": false,
-      "presale_datetime": "2026-07-29T00:00:00+09:00",
-      "presale_end_datetime": "2026-08-16T23:59:00+09:00",
-      "presale_url": "https://t.pia.jp/pia/event/event.do?eventCd=2625547",
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
       "general_sale": false,
-      "general_sale_datetime": "2026-08-22T10:00:00+09:00",
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://t.pia.jp/pia/event/event.do?eventCd=2625547",
-      "updated_at": "2026-10-24"
+      "general_sale_url": null,
+      "updated_at": "2026-10-30"
     },
     {
       "id": "ja-rei-makoto-rcrew-fanmeeting-osaka-20261012",
@@ -3680,7 +3681,7 @@
       ],
       "developer": ".ENDRECHERI.（堂本剛）",
       "publisher": null,
-      "description": "堂本剛によるクリエイティブ・プロジェクト.ENDRECHERI.が、ビルボードライブに初登場する3都市ツアー。ジョージ・クリントンらのPファンクに影響を受けたファンクミュージックを軸に、ジャンルを横断する楽曲をクラブサイズの空間で聴かせる。各日1stステージ・2ndステージの2部制で、1stは開場16:30／開演17:30、2ndは開場19:30／開演20:30。チケットはClub BBL会員および法人会員先行が9月28日12:00、一般発売が10月1日12:00に受付を開始した。本公演は2026-10-13のビルボードライブ横浜で行われる。",
+      "description": "堂本剛によるクリエイティブ・プロジェクト.ENDRECHERI.が、ビルボードライブに初登場する3都市ツアー。ジョージ・クリントンらのPファンクに影響を受けたファンクミュージックを軸に、ジャンルを横断する楽曲をクラブサイズの空間で聴かせる。各日1stステージ・2ndステージの2部制で、1stは開場16:30／開演17:30、2ndは開場19:30／開演20:30。チケットはClub BBL会員および法人会員先行が9月28日12:00、一般発売が10月1日12:00に受付を開始した。本公演は2026-10-13のビルボードライブ横浜で行われた。",
       "genres": [
         "ファンク",
         "J-POP"
@@ -3688,9 +3689,9 @@
       "image_url": null,
       "source_url": "https://www.billboard-japan.com/d_news/detail/165300",
       "presale": false,
-      "general_sale": true,
-      "presale_datetime": "2026-09-28T12:00:00+09:00",
-      "general_sale_datetime": "2026-10-01T12:00:00+09:00",
+      "general_sale": false,
+      "presale_datetime": null,
+      "general_sale_datetime": null,
       "updated_at": "2026-10-07"
     },
     {
@@ -3746,13 +3747,13 @@
         "来日公演"
       ],
       "presale": false,
-      "presale_datetime": "2026-09-01T18:00:00+09:00",
-      "presale_end_datetime": "2026-09-07T18:00:00+09:00",
-      "presale_url": "https://eplus.jp/scaffold-3/",
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
       "general_sale": false,
-      "general_sale_datetime": "2026-09-11T10:00:00+09:00",
-      "general_sale_url": "https://eplus.jp/scaffold-3/",
-      "updated_at": "2026-10-28"
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-30"
     },
     {
       "id": "ja-abc-z-way-of-love-tour-20261014",
@@ -3793,7 +3794,7 @@
       ],
       "developer": ".ENDRECHERI.（堂本剛）",
       "publisher": null,
-      "description": "堂本剛によるクリエイティブ・プロジェクト.ENDRECHERI.が、ビルボードライブに初登場する3都市ツアー。ジョージ・クリントンらのPファンクに影響を受けたファンクミュージックを軸に、ジャンルを横断する楽曲をクラブサイズの空間で聴かせる。各日1stステージ・2ndステージの2部制で、1stは開場16:30／開演17:30、2ndは開場19:30／開演20:30。チケットはClub BBL会員および法人会員先行が9月28日12:00、一般発売が10月1日12:00に受付を開始した。本公演は2026-10-14のビルボードライブ横浜で行われる。",
+      "description": "堂本剛によるクリエイティブ・プロジェクト.ENDRECHERI.が、ビルボードライブに初登場する3都市ツアー。ジョージ・クリントンらのPファンクに影響を受けたファンクミュージックを軸に、ジャンルを横断する楽曲をクラブサイズの空間で聴かせる。各日1stステージ・2ndステージの2部制で、1stは開場16:30／開演17:30、2ndは開場19:30／開演20:30。チケットはClub BBL会員および法人会員先行が9月28日12:00、一般発売が10月1日12:00に受付を開始した。本公演は2026-10-14のビルボードライブ横浜で行われた。",
       "genres": [
         "ファンク",
         "J-POP"
@@ -3801,9 +3802,9 @@
       "image_url": null,
       "source_url": "https://www.billboard-japan.com/d_news/detail/165300",
       "presale": false,
-      "general_sale": true,
-      "presale_datetime": "2026-09-28T12:00:00+09:00",
-      "general_sale_datetime": "2026-10-01T12:00:00+09:00",
+      "general_sale": false,
+      "presale_datetime": null,
+      "general_sale_datetime": null,
       "updated_at": "2026-10-07"
     },
     {
@@ -3828,13 +3829,13 @@
         "来日公演"
       ],
       "presale": false,
-      "presale_datetime": "2026-09-01T18:00:00+09:00",
-      "presale_end_datetime": "2026-09-07T18:00:00+09:00",
-      "presale_url": "https://eplus.jp/scaffold-3/",
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
       "general_sale": false,
-      "general_sale_datetime": "2026-09-11T10:00:00+09:00",
-      "general_sale_url": "https://eplus.jp/scaffold-3/",
-      "updated_at": "2026-10-28"
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-10-30"
     },
     {
       "id": "ja-charlie-puth-2026-20261016",
@@ -3978,14 +3979,14 @@
       ],
       "developer": "yes, mama ok?",
       "publisher": null,
-      "description": "1995年にデビューしたyes, mama ok?が結成30周年を記念して行う一夜限りの公演。「再検証」をコンセプトに、初期から現在までの楽曲を特別編成で披露する。会場は渋谷のSTAR LOUNGEで開場17:30／開演18:00。ゲストに東京ブルースブレイカーズ、DJ臼山田洋オーケストラが出演する。チケットは前売4,000円／当日4,500円（ともに別途1ドリンク）で、9月1日10:00からイープラスで発売された。",
+      "description": "1995年にデビューしたyes, mama ok?が結成30周年を記念して行った一夜限りの公演。「再検証」をコンセプトに、初期から現在までの楽曲を特別編成で披露した。会場は渋谷のSTAR LOUNGEで、開場17:30／開演18:00。ゲストに東京ブルースブレイカーズ、DJ臼山田洋オーケストラが出演した。チケットは前売4,000円／当日4,500円（ともに別途1ドリンク）で、9月1日10:00からイープラスで発売された。",
       "genres": [
         "邦楽ロック",
         "アートポップ"
       ],
       "image_url": null,
       "source_url": "https://natalie.mu/music/news/",
-      "updated_at": "2026-10-28",
+      "updated_at": "2026-10-30",
       "presale": false,
       "general_sale": false
     },
@@ -4054,8 +4055,8 @@
       "name": "Kis-My-Ft2『Kis SCENE』（12thアルバム）",
       "release_date": "2026-10-28",
       "category": "music_release",
-      "description": "Kis-My-Ft2の12thアルバム。デビュー15年の歩みとファンとの思い出を“キスシーン”に見立てたタイトルで、15周年イヤーに毎月リリースしてきた楽曲や書き下ろしの新曲を含む全15曲を収録する。「&Joy」「UNISON」「HEARTLOUD」「My Affection」のほか、アニメ『カードファイト!! ヴァンガード Divinez 運命星戦編』テーマソングの新曲「Escape」も収められる。初回盤A／B、通常盤、メンバーごとのソロ盤などが用意される。",
-      "updated_at": "2026-09-23"
+      "description": "Kis-My-Ft2の12thアルバム。デビュー15年の歩みとファンとの思い出を“キスシーン”に見立てたタイトルで、15周年イヤーに毎月リリースしてきた楽曲や書き下ろしの新曲を含む全15曲を収録した。「&Joy」「UNISON」「HEARTLOUD」「My Affection」のほか、アニメ『カードファイト!! ヴァンガード Divinez 運命星戦編』テーマソングの新曲「Escape」も収められた。初回盤A／B、通常盤、メンバーごとのソロ盤などが用意された。",
+      "updated_at": "2026-10-30"
     },
     {
       "id": "ja-mwam-firestarter-single-20261028",
@@ -4068,13 +4069,14 @@
       "platforms": [],
       "developer": "MAN WITH A MISSION",
       "publisher": null,
-      "description": "MAN WITH A MISSIONが約5年ぶりにリリースするフィジカル・シングル『Firestarter』。収録される新曲「ONE」は8月29日に先行配信され、Jリーグ・セレッソ大阪の新テーマソングに起用されている。同作の最速先行予約特典として12月の東阪ワンマン・ツアーのチケット先行シリアルが封入されるなど、ツアーと一体で展開される作品となっている。",
+      "description": "MAN WITH A MISSIONが約5年ぶりにリリースしたフィジカル・シングル『Firestarter』。収録された新曲「ONE」は8月29日に先行配信され、Jリーグ・セレッソ大阪の新テーマソングに起用されている。同作の最速先行予約特典として12月の東阪ワンマン・ツアーのチケット先行シリアルが封入されるなど、ツアーと一体で展開される作品となっている。",
       "genres": [
         "ロック",
         "シングル"
       ],
       "image_url": null,
-      "source_url": "https://prtimes.jp/main/html/rd/p/000004965.000013546.html"
+      "source_url": "https://prtimes.jp/main/html/rd/p/000004965.000013546.html",
+      "updated_at": "2026-10-30"
     },
     {
       "id": "ja-ovall-glimmer-tour-osaka-20261029",
@@ -4089,7 +4091,7 @@
       ],
       "developer": "Ovall",
       "publisher": "SMASH",
-      "description": "Shingo Suzuki、mabanua、関口シンゴによるバンドOvallが、約2年ぶりの5thアルバム『Glimmer』を携えて行う全国ツアーの大阪公演。ツアーは10月3日の札幌近松を皮切りに福岡・大阪・名古屋を巡り、11月27日の渋谷Spotify O-EASTで締めくくられる全5公演。大阪公演の会場はMusic Club JANUSで、開場18:30／開演19:00。前売スタンディングは6,000円（ドリンク代別）、22歳以下対象のU-22チケットは3,000円。一般前売は9月5日10時からチケットぴあ、イープラス、ローソンチケットで発売される。",
+      "description": "Shingo Suzuki、mabanua、関口シンゴによるバンドOvallが、約2年ぶりの5thアルバム『Glimmer』を携えて行う全国ツアーの大阪公演。ツアーは10月3日の札幌近松を皮切りに福岡・大阪・名古屋を巡り、11月27日の渋谷Spotify O-EASTで締めくくられる全5公演。大阪公演の会場はMusic Club JANUSで、開場18:30／開演19:00。前売スタンディングは6,000円（ドリンク代別）、22歳以下対象のU-22チケットは3,000円。一般前売は9月5日10時からチケットぴあ、イープラス、ローソンチケットで発売された。",
       "genres": [
         "ネオソウル",
         "ジャズ",
@@ -4097,9 +4099,11 @@
       ],
       "image_url": null,
       "source_url": "https://smash-jpn.com/live/?id=4708",
-      "general_sale": true,
-      "general_sale_datetime": "2026-09-05T10:00:00+09:00",
-      "general_sale_url": "https://w.pia.jp/t/ovall"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "presale": false,
+      "updated_at": "2026-10-30"
     },
     {
       "id": "ja-snowman-dome-tour-all-suite-sapporo-20261030",
@@ -4387,7 +4391,7 @@
       "id": "ja-punk-rock-connection-2026-20261107",
       "name": "PUNK ROCK CONNECTION 2026",
       "release_date": "2026-11-07",
-      "release_time": null,
+      "release_time": "12:00",
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "category": "festival",
@@ -4396,7 +4400,7 @@
       ],
       "developer": null,
       "publisher": null,
-      "description": "パンク誕生50周年にあたる2026年に、東京・高円寺の街を舞台として開かれるサーキット・イベント。高円寺HIGH、ShowBoat、CLUB ROOTS!、氣楽ミュージックウェアハウス、スタジオベイド高円寺、KATA_BARの6会場を使い、総勢47組のアーティストと12組のDJが出演する。DONT TURN AWAY、THE PRISONER、JUNIOR、SHACHI、BOMB FACTORY、柳家睦＆THE RATBONESらに加え、タイのJIMMY REVOLT、台湾のTHE BROKEN FLOWERSら海外勢も名を連ねる。チケットは9月1日よりイープラスで発売中。",
+      "description": "パンク誕生50周年にあたる2026年に、東京・高円寺の街を舞台として開かれるサーキット・イベント。高円寺HIGH、ShowBoat、CLUB ROOTS!、喜楽ミュージックウェアハウス、スタジオベイド高円寺、KATA_BARの6会場を使い、総勢47組のアーティストと12組のDJが出演する。DONT TURN AWAY、THE PRISONER、JUNIOR、SHACHI、BOMB FACTORY、柳家睦＆THE RATBONESらに加え、タイのJIMMY REVOLT、台湾のTHE BROKEN FLOWERSら海外勢も名を連ねる。チケットは9月1日よりイープラスで発売中。",
       "genres": [
         "パンク",
         "サーキットフェス"
@@ -4404,7 +4408,8 @@
       "image_url": null,
       "source_url": "https://www.cdjournal.com/news/-/129272",
       "presale": false,
-      "general_sale": true
+      "general_sale": true,
+      "updated_at": "2026-10-30"
     },
     {
       "id": "ja-wiener-philharmoniker-week-japan-2026-20261107",
@@ -4491,7 +4496,7 @@
       ],
       "developer": "甲斐よしひろ",
       "publisher": null,
-      "description": "甲斐よしひろのソロ・ツアー〈ホームカミングツアー 2026〉を締めくくる東京公演。横浜・大阪・福岡・名古屋を巡ったツアーの最終地としてZepp Haneda（TOKYO）に立つ。約15年ぶりのソロ・アルバム『ホームカミング - Complete Edition -』の収録曲を軸に、土屋公平（ギター）、TOKIE（ベース）、河村“カースケ”智康（ドラム）とのバンド編成で聴かせる。開場16:00／開演17:00、VIP席18,000円・指定席11,000円（税込・ドリンク代別）。",
+      "description": "甲斐よしひろのソロ・ツアー〈ホームカミングツアー 2026〉を締めくくる東京公演。横浜・大阪・福岡・名古屋を巡ったツアーの最終地としてZepp Haneda（TOKYO）に立つ。約15年ぶりのソロ・アルバム『ホームカミング - Complete Edition -』の収録曲を軸に、土屋公平（ギター）、TOKIE（ベース）、河村“カースケ”智康（ドラム）とのバンド編成で聴かせる。開場16:00／開演17:00、VIP席18,000円・指定席11,000円（税込・ドリンク代別）。チケットは全公演完売となった。",
       "genres": [
         "ロック",
         "J-POP"
@@ -4499,7 +4504,8 @@
       "image_url": null,
       "source_url": "https://kaisurf.com/live",
       "general_sale": true,
-      "general_sale_datetime": "2026-08-01T00:00:00+09:00"
+      "general_sale_datetime": "2026-08-01T00:00:00+09:00",
+      "updated_at": "2026-10-30"
     },
     {
       "id": "ja-wiener-philharmoniker-week-japan-2026-20261108",
@@ -4566,16 +4572,17 @@
       ],
       "developer": "XAOSX",
       "publisher": "XAOSX Project（制作：クリエイティブマンプロダクション）",
-      "description": "福澤侑、spi、YUKI、Daiki、AKIRA TAKANO、阿部顕嵐、皇希、青海伶の8人からなるアーティスト集団XAOSXの初ライブ。「日常にバグを。世界にリアルなノイズを」をテーマに既成概念にとらわれない活動を掲げる彼らが、KT Zepp Yokohamaで昼夜2回公演を行う。1回目は開場14:30・開演15:30、2回目は開場18:00・開演19:00。1Fスタンディング11,500円、2F指定席12,500円（いずれも税込・特典付き・ドリンク代別）で、一般発売は10月17日10時から。",
+      "description": "福澤侑、spi、YUKI、Daiki、AKIRA TAKANO、阿部顕嵐、皇希、青海伶の8人からなるアーティスト集団XAOSXの初ライブ。「日常にバグを。世界にリアルなノイズを」をテーマに既成概念にとらわれない活動を掲げる彼らが、KT Zepp Yokohamaで昼夜2回公演を行う。1回目は開場14:30・開演15:30、2回目は開場18:00・開演19:00。1Fスタンディング11,500円、2F指定席12,500円（いずれも税込・特典付き・ドリンク代別）で、一般発売は10月17日10時に始まった。",
       "genres": [
         "J-POP",
         "ダンス"
       ],
       "image_url": null,
       "source_url": "https://www.creativeman.co.jp/event/xaosx888/",
-      "presale": true,
-      "general_sale": false,
-      "general_sale_datetime": "2026-10-17T10:00:00+09:00"
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-17T10:00:00+09:00",
+      "updated_at": "2026-10-30"
     },
     {
       "id": "ja-jason-mraz-japan-2026-tokyo-20261110",
@@ -4663,13 +4670,14 @@
       ],
       "developer": "高畑充希",
       "publisher": "ユニバーサル ミュージック",
-      "description": "俳優・高畑充希が12年ぶりに発表するアルバムで、ユニバーサル ミュージック移籍後の第1弾となる。石崎ひゅーい、尾崎世界観（クリープハイプ）、清竜人、くじら、日食なつこ、Bialystocksらが書き下ろした楽曲を中心に全9曲を収録予定。2023年の主演舞台『宝飾時計』のために椎名林檎が作詞作編曲を手がけた「青春の続き」や、土岐麻子作詞・Night Tempo作曲の「Over You」も収められる。先行配信曲「令和Lady恋愛賛歌」はPenthouseの浪岡真太郎が作曲・編曲、大原拓真が作詞を担当し、8月21日に配信される。",
+      "description": "俳優・高畑充希が12年ぶりに発表するアルバムで、ユニバーサル ミュージック移籍後の第1弾となる。石崎ひゅーい、尾崎世界観（クリープハイプ）、清竜人、くじら、日食なつこ、Bialystocksらが書き下ろした楽曲を中心に全9曲を収録する。2023年の主演舞台『宝飾時計』のために椎名林檎が作詞作編曲を手がけた「青春の続き」や、土岐麻子作詞・Night Tempo作曲の「Over You」も収められる。先行配信曲「令和Lady恋愛賛歌」はPenthouseの浪岡真太郎が作曲・編曲、大原拓真が作詞を担当し、8月21日に配信された。",
       "genres": [
         "J-POP",
         "アルバム"
       ],
       "image_url": null,
-      "source_url": "https://www.cdjournal.com/news/takahata-mitsuki/128899"
+      "source_url": "https://www.cdjournal.com/news/takahata-mitsuki/128899",
+      "updated_at": "2026-10-30"
     },
     {
       "id": "ja-kirara-japan-2026-20261112",
