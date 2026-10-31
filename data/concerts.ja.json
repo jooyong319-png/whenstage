@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-30",
+  "last_updated": "2026-10-31",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -3670,7 +3670,7 @@
     },
     {
       "id": "ja-endrecheri-billboard-live-tour-2026-yokohama-20261013",
-      "name": ".ENDRECHERI.【Billboard Live Tour 2026】横浜公演（2026-10-13）",
+      "name": ".ENDRECHERI.【Billboard Live Tour 2026】横浜公演（10月13日・14日）",
       "release_date": "2026-10-13",
       "release_time": "17:30",
       "release_date_approx": false,
@@ -3681,7 +3681,7 @@
       ],
       "developer": ".ENDRECHERI.（堂本剛）",
       "publisher": null,
-      "description": "堂本剛によるクリエイティブ・プロジェクト.ENDRECHERI.が、ビルボードライブに初登場する3都市ツアー。ジョージ・クリントンらのPファンクに影響を受けたファンクミュージックを軸に、ジャンルを横断する楽曲をクラブサイズの空間で聴かせる。各日1stステージ・2ndステージの2部制で、1stは開場16:30／開演17:30、2ndは開場19:30／開演20:30。チケットはClub BBL会員および法人会員先行が9月28日12:00、一般発売が10月1日12:00に受付を開始した。本公演は2026-10-13のビルボードライブ横浜で行われた。",
+      "description": ".ENDRECHERI.（堂本剛）の【Billboard Live Tour 2026】は、2026年10月13日（火）と14日（水）のビルボードライブ横浜で幕を開けた。横浜は3都市ツアーの初日の地で、両日とも1stステージ（開場16:30／開演17:30）と2ndステージ（開場19:30／開演20:30）の2回公演が行われ、2日間で計4ステージとなった。Pファンクを軸にしたファンク・サウンドを、クラブサイズの客席で間近に届けた公演だった。",
       "genres": [
         "ファンク",
         "J-POP"
@@ -3692,7 +3692,7 @@
       "general_sale": false,
       "presale_datetime": null,
       "general_sale_datetime": null,
-      "updated_at": "2026-10-07"
+      "updated_at": "2026-10-31"
     },
     {
       "id": "ja-ezra-collective-tokyo-20261013",
@@ -3780,32 +3780,6 @@
       "source_url": "https://www.cdjournal.com/news/abc-z/128426",
       "presale": false,
       "general_sale": false
-    },
-    {
-      "id": "ja-endrecheri-billboard-live-tour-2026-yokohama-20261014",
-      "name": ".ENDRECHERI.【Billboard Live Tour 2026】横浜公演（2026-10-14）",
-      "release_date": "2026-10-14",
-      "release_time": "17:30",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "ビルボードライブ横浜"
-      ],
-      "developer": ".ENDRECHERI.（堂本剛）",
-      "publisher": null,
-      "description": "堂本剛によるクリエイティブ・プロジェクト.ENDRECHERI.が、ビルボードライブに初登場する3都市ツアー。ジョージ・クリントンらのPファンクに影響を受けたファンクミュージックを軸に、ジャンルを横断する楽曲をクラブサイズの空間で聴かせる。各日1stステージ・2ndステージの2部制で、1stは開場16:30／開演17:30、2ndは開場19:30／開演20:30。チケットはClub BBL会員および法人会員先行が9月28日12:00、一般発売が10月1日12:00に受付を開始した。本公演は2026-10-14のビルボードライブ横浜で行われた。",
-      "genres": [
-        "ファンク",
-        "J-POP"
-      ],
-      "image_url": null,
-      "source_url": "https://www.billboard-japan.com/d_news/detail/165300",
-      "presale": false,
-      "general_sale": false,
-      "presale_datetime": null,
-      "general_sale_datetime": null,
-      "updated_at": "2026-10-07"
     },
     {
       "release_date_approx": false,
@@ -4806,7 +4780,7 @@
     },
     {
       "id": "ja-endrecheri-billboard-live-tour-2026-osaka-20261116",
-      "name": ".ENDRECHERI.【Billboard Live Tour 2026】大阪公演（2026-11-16）",
+      "name": ".ENDRECHERI.【Billboard Live Tour 2026】大阪公演（11月16日・17日）",
       "release_date": "2026-11-16",
       "release_time": "17:30",
       "release_date_approx": false,
@@ -4817,42 +4791,18 @@
       ],
       "developer": ".ENDRECHERI.（堂本剛）",
       "publisher": null,
-      "description": "堂本剛によるクリエイティブ・プロジェクト.ENDRECHERI.が、ビルボードライブに初登場する3都市ツアー。ジョージ・クリントンらのPファンクに影響を受けたファンクミュージックを軸に、ジャンルを横断する楽曲をクラブサイズの空間で聴かせる。各日1stステージ・2ndステージの2部制で、1stは開場16:30／開演17:30、2ndは開場19:30／開演20:30。チケットはClub BBL会員および法人会員先行が9月28日12:00、一般発売が10月1日12:00に受付を開始する。本公演は2026-11-16のビルボードライブ大阪で行われる。",
+      "description": "横浜に続くツアー2都市目として、ビルボードライブ大阪で11月16日（月）・17日（火）の2デイズが組まれている。1日2ステージ制のため大阪では合計4回の公演となり、1stは17:30、2ndは20:30に開演する（開場はそれぞれ1時間前）。チケットはClub BBL会員・法人会員向けの先行が9月28日正午、一般発売が10月1日正午に始まっており、平日夜の開催だ。",
       "genres": [
         "ファンク",
         "J-POP"
       ],
       "image_url": null,
       "source_url": "https://www.billboard-japan.com/d_news/detail/165300",
-      "presale": true,
+      "presale": false,
       "general_sale": false,
       "presale_datetime": "2026-09-28T12:00:00+09:00",
-      "general_sale_datetime": "2026-10-01T12:00:00+09:00"
-    },
-    {
-      "id": "ja-endrecheri-billboard-live-tour-2026-osaka-20261117",
-      "name": ".ENDRECHERI.【Billboard Live Tour 2026】大阪公演（2026-11-17）",
-      "release_date": "2026-11-17",
-      "release_time": "17:30",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "ビルボードライブ大阪"
-      ],
-      "developer": ".ENDRECHERI.（堂本剛）",
-      "publisher": null,
-      "description": "堂本剛によるクリエイティブ・プロジェクト.ENDRECHERI.が、ビルボードライブに初登場する3都市ツアー。ジョージ・クリントンらのPファンクに影響を受けたファンクミュージックを軸に、ジャンルを横断する楽曲をクラブサイズの空間で聴かせる。各日1stステージ・2ndステージの2部制で、1stは開場16:30／開演17:30、2ndは開場19:30／開演20:30。チケットはClub BBL会員および法人会員先行が9月28日12:00、一般発売が10月1日12:00に受付を開始する。本公演は2026-11-17のビルボードライブ大阪で行われる。",
-      "genres": [
-        "ファンク",
-        "J-POP"
-      ],
-      "image_url": null,
-      "source_url": "https://www.billboard-japan.com/d_news/detail/165300",
-      "presale": true,
-      "general_sale": false,
-      "presale_datetime": "2026-09-28T12:00:00+09:00",
-      "general_sale_datetime": "2026-10-01T12:00:00+09:00"
+      "general_sale_datetime": "2026-10-01T12:00:00+09:00",
+      "updated_at": "2026-10-31"
     },
     {
       "id": "ja-red-bull-symphonic-awich-20261117",
@@ -5459,17 +5409,18 @@
       ],
       "developer": ".ENDRECHERI.（堂本剛）",
       "publisher": null,
-      "description": "堂本剛によるクリエイティブ・プロジェクト.ENDRECHERI.が、ビルボードライブに初登場する3都市ツアー。ジョージ・クリントンらのPファンクに影響を受けたファンクミュージックを軸に、ジャンルを横断する楽曲をクラブサイズの空間で聴かせる。各日1stステージ・2ndステージの2部制で、1stは開場16:30／開演17:30、2ndは開場19:30／開演20:30。チケットはClub BBL会員および法人会員先行が9月28日12:00、一般発売が10月1日12:00に受付を開始する。本公演は2026-11-30のビルボードライブ東京で行われる。",
+      "description": "堂本剛のプロジェクト.ENDRECHERI.が初めてビルボードライブに出演する3都市ツアーの最終公演。会場はビルボードライブ東京で、11月30日（月）のみの1日公演となる。この日も2部制で、1stステージが開場16:30・開演17:30、2ndステージが開場19:30・開演20:30。東京は横浜・大阪の各2日間と違って1日限りのため、ツアーで最もステージ数が少ない都市でもある。",
       "genres": [
         "ファンク",
         "J-POP"
       ],
       "image_url": null,
       "source_url": "https://www.billboard-japan.com/d_news/detail/165300",
-      "presale": true,
+      "presale": false,
       "general_sale": false,
       "presale_datetime": "2026-09-28T12:00:00+09:00",
-      "general_sale_datetime": "2026-10-01T12:00:00+09:00"
+      "general_sale_datetime": "2026-10-01T12:00:00+09:00",
+      "updated_at": "2026-10-31"
     },
     {
       "id": "ja-two-door-cinema-club-2026-20261130",
@@ -5791,7 +5742,7 @@
     },
     {
       "id": "ja-number-i-no3-tokyo-20261209",
-      "name": "Number_i LIVE TOUR No.III（東京ドーム公演1日目）",
+      "name": "Number_i LIVE TOUR No.III（東京ドーム公演 12月9日・10日）",
       "release_date": "2026-12-09",
       "release_time": "18:30",
       "release_date_approx": false,
@@ -5802,7 +5753,7 @@
       ],
       "developer": "Number_i",
       "publisher": "LIVE NATION H.I.P.",
-      "description": "Number_iのワールド・ツアー日本公演「Number_i LIVE TOUR No.III」の東京ドーム公演1日目。全国5都市・5大ドームを巡る全9公演のうち東京は2日間が設定されており、グループにとって初の東京ドーム単独公演となる。開場16:30／開演18:30。ファンクラブ先行受付は2026年8月10日16:00から16日23:59まで行われた。",
+      "description": "Number_iにとって初めての東京ドーム単独公演で、ドーム・ツアー「LIVE TOUR No.III」の東京2デイズにあたる。日程は12月9日（水）と10日（木）の平日2日間で、両日とも開場16:30／開演18:30。12月2日の京セラドーム大阪公演の1週間後に行われる。主催・企画・制作はLIVE NATION H.I.P.で、ファンクラブ先行は2026年8月10日16時から16日23時59分まで受け付けられた。",
       "genres": [
         "J-POP",
         "ドーム公演",
@@ -5812,7 +5763,8 @@
       "source_url": "https://wmg.jp/number-i/news/92727",
       "presale": false,
       "presale_datetime": "2026-08-10T16:00:00+09:00",
-      "presale_end_datetime": "2026-08-16T23:59:00+09:00"
+      "presale_end_datetime": "2026-08-16T23:59:00+09:00",
+      "updated_at": "2026-10-31"
     },
     {
       "id": "ja-fkj-tyber-tour-tokyo-20261210",
@@ -5865,31 +5817,6 @@
       "presale_end_datetime": "2026-09-23T23:59:00+09:00",
       "general_sale": false,
       "general_sale_datetime": "2026-10-10T10:00:00+09:00"
-    },
-    {
-      "id": "ja-number-i-no3-tokyo-20261210",
-      "name": "Number_i LIVE TOUR No.III（東京ドーム公演2日目）",
-      "release_date": "2026-12-10",
-      "release_time": "18:30",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "東京ドーム"
-      ],
-      "developer": "Number_i",
-      "publisher": "LIVE NATION H.I.P.",
-      "description": "Number_iのワールド・ツアー日本公演「Number_i LIVE TOUR No.III」の東京ドーム公演2日目。全国5都市・5大ドームを巡る全9公演のうち東京は2日間が設定されており、グループにとって初の東京ドーム単独公演となる。開場16:30／開演18:30。ファンクラブ先行受付は2026年8月10日16:00から16日23:59まで行われた。",
-      "genres": [
-        "J-POP",
-        "ドーム公演",
-        "ワールドツアー"
-      ],
-      "image_url": "https://prod-v2-assets.wmg.jp/uploads/Admat_1080x1350_On_Sale_ver1_a2b92ff228.png",
-      "source_url": "https://wmg.jp/number-i/news/92727",
-      "presale": false,
-      "presale_datetime": "2026-08-10T16:00:00+09:00",
-      "presale_end_datetime": "2026-08-16T23:59:00+09:00"
     },
     {
       "id": "ja-harada-tomoyo-lultimo-anno-26-20261211",
@@ -6393,7 +6320,7 @@
     },
     {
       "id": "ja-number-i-no3-nagoya-20270109",
-      "name": "Number_i LIVE TOUR No.III（バンテリンドーム ナゴヤ公演1日目）",
+      "name": "Number_i LIVE TOUR No.III（バンテリンドーム ナゴヤ公演 1月9日〜11日）",
       "release_date": "2027-01-09",
       "release_time": "17:00",
       "release_date_approx": false,
@@ -6404,7 +6331,7 @@
       ],
       "developer": "Number_i",
       "publisher": "LIVE NATION H.I.P.",
-      "description": "Number_iのワールド・ツアー日本公演「Number_i LIVE TOUR No.III」の愛知・バンテリンドーム ナゴヤ公演初日。2027年1月9日に開催され、開場15:00／開演17:00。名古屋は3日間4公演が組まれた最多日程の会場となる。全国5都市・5大ドームを巡る全9公演で構成され、グループ初のドーム・ツアーにあたる。主催・企画・制作はLIVE NATION H.I.P.。ファンクラブ先行は8月に締め切られ、Live Nation H.I.P.会員などを対象とした抽選先行が9月14日18時から、誰でも申し込めるプレイガイド抽選先行が9月18日正午から10月1日23時59分まで受け付けられる。",
+      "description": "名古屋・バンテリンドーム ナゴヤでは3日間で4公演が組まれ、ツアー中もっとも公演数の多い会場となった。1月9日（土）は17:00開演、10日（日）は昼夜2回で12:30と19:00開演、祝日の11日（月）は17:00開演で、開場はいずれも開演の2時間前。LIVE NATION H.I.P.会員などを対象にした抽選先行が9月14日18時から、プレイガイド抽選先行が9月18日正午から10月1日23時59分まで実施された。",
       "genres": [
         "J-POP",
         "ヒップホップ",
@@ -6417,7 +6344,7 @@
       "presale_end_datetime": "2026-10-01T23:59:00+09:00",
       "presale_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
       "general_sale": false,
-      "updated_at": "2026-10-03"
+      "updated_at": "2026-10-31"
     },
     {
       "id": "ja-dave-matthews-japan-2027-kyoto-20270110",
@@ -6447,34 +6374,6 @@
       "presale_url": "https://eplus.jp/davematthews/",
       "general_sale_datetime": "2026-10-17T10:00:00+09:00",
       "updated_at": "2026-09-30"
-    },
-    {
-      "id": "ja-number-i-no3-nagoya-20270110",
-      "name": "Number_i LIVE TOUR No.III（バンテリンドーム ナゴヤ公演2日目）",
-      "release_date": "2027-01-10",
-      "release_time": "12:30",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "バンテリンドーム ナゴヤ"
-      ],
-      "developer": "Number_i",
-      "publisher": "LIVE NATION H.I.P.",
-      "description": "Number_iのワールド・ツアー日本公演「Number_i LIVE TOUR No.III」の愛知・バンテリンドーム ナゴヤ公演2日目。2027年1月10日は昼夜2回公演で、第1部が開場10:30／開演12:30、第2部が開場17:00／開演19:00という日程が組まれている。全国5都市・5大ドームを巡る全9公演で構成され、グループ初のドーム・ツアーにあたる。主催・企画・制作はLIVE NATION H.I.P.。ファンクラブ先行は8月に締め切られ、Live Nation H.I.P.会員などを対象とした抽選先行が9月14日18時から、誰でも申し込めるプレイガイド抽選先行が9月18日正午から10月1日23時59分まで受け付けられる。",
-      "genres": [
-        "J-POP",
-        "ヒップホップ",
-        "ドームツアー"
-      ],
-      "image_url": "https://prod-v2-assets.wmg.jp/uploads/Admat_1080x1350_On_Sale_ver1_a2b92ff228.png",
-      "source_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
-      "presale": false,
-      "presale_datetime": "2026-09-14T18:00:00+09:00",
-      "presale_end_datetime": "2026-10-01T23:59:00+09:00",
-      "presale_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
-      "general_sale": false,
-      "updated_at": "2026-10-03"
     },
     {
       "release_time": null,
@@ -6555,34 +6454,6 @@
       "timezone": "Asia/Tokyo"
     },
     {
-      "id": "ja-number-i-no3-nagoya-20270111",
-      "name": "Number_i LIVE TOUR No.III（バンテリンドーム ナゴヤ公演3日目）",
-      "release_date": "2027-01-11",
-      "release_time": "17:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "バンテリンドーム ナゴヤ"
-      ],
-      "developer": "Number_i",
-      "publisher": "LIVE NATION H.I.P.",
-      "description": "Number_iのワールド・ツアー日本公演「Number_i LIVE TOUR No.III」の愛知・バンテリンドーム ナゴヤ公演最終日。2027年1月11日の祝日に行われ、開場15:00／開演17:00。名古屋3日間の締めくくりとなる回である。全国5都市・5大ドームを巡る全9公演で構成され、グループ初のドーム・ツアーにあたる。主催・企画・制作はLIVE NATION H.I.P.。ファンクラブ先行は8月に締め切られ、Live Nation H.I.P.会員などを対象とした抽選先行が9月14日18時から、誰でも申し込めるプレイガイド抽選先行が9月18日正午から10月1日23時59分まで受け付けられる。",
-      "genres": [
-        "J-POP",
-        "ヒップホップ",
-        "ドームツアー"
-      ],
-      "image_url": "https://prod-v2-assets.wmg.jp/uploads/Admat_1080x1350_On_Sale_ver1_a2b92ff228.png",
-      "source_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
-      "presale": false,
-      "presale_datetime": "2026-09-14T18:00:00+09:00",
-      "presale_end_datetime": "2026-10-01T23:59:00+09:00",
-      "presale_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
-      "general_sale": false,
-      "updated_at": "2026-10-03"
-    },
-    {
       "id": "ja-takahata-mitsuki-premium-live-20270111",
       "name": "高畑充希 20th Anniversary Project「I'm All Yours」Premium Live",
       "release_date": "2027-01-11",
@@ -6609,7 +6480,7 @@
     },
     {
       "id": "ja-number-i-no3-fukuoka-20270116",
-      "name": "Number_i LIVE TOUR No.III（みずほPayPayドーム福岡公演1日目）",
+      "name": "Number_i LIVE TOUR No.III（みずほPayPayドーム福岡公演 1月16日・17日）",
       "release_date": "2027-01-16",
       "release_time": "17:00",
       "release_date_approx": false,
@@ -6620,7 +6491,7 @@
       ],
       "developer": "Number_i",
       "publisher": "LIVE NATION H.I.P.",
-      "description": "Number_iのワールド・ツアー日本公演「Number_i LIVE TOUR No.III」の福岡・みずほPayPayドーム福岡公演初日。2027年1月16日に開催され、開場15:00／開演17:00。福岡は日本パートの最終地にあたる。全国5都市・5大ドームを巡る全9公演で構成され、グループ初のドーム・ツアーにあたる。主催・企画・制作はLIVE NATION H.I.P.。ファンクラブ先行は8月に締め切られ、Live Nation H.I.P.会員などを対象とした抽選先行が9月14日18時から、誰でも申し込めるプレイガイド抽選先行が9月18日正午から10月1日23時59分まで受け付けられる。",
+      "description": "日本パート「Chapter 1 : Japan」を締めくくるのが、1月16日（土）・17日（日）のみずほPayPayドーム福岡2デイズだ。両日とも開場15:00、開演17:00。福岡公演を最後に、ツアーは海外公演「Chapter 2 : Asia & North America」へ移る。チケットはファンクラブ先行（8月）、LIVE NATION H.I.P.会員などの抽選先行（9月14日〜）、プレイガイド抽選先行（9月18日〜10月1日）の順に受け付けられた。",
       "genres": [
         "J-POP",
         "ヒップホップ",
@@ -6633,35 +6504,7 @@
       "presale_end_datetime": "2026-10-01T23:59:00+09:00",
       "presale_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
       "general_sale": false,
-      "updated_at": "2026-10-03"
-    },
-    {
-      "id": "ja-number-i-no3-fukuoka-20270117",
-      "name": "Number_i LIVE TOUR No.III（みずほPayPayドーム福岡公演2日目）",
-      "release_date": "2027-01-17",
-      "release_time": "17:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "みずほPayPayドーム福岡"
-      ],
-      "developer": "Number_i",
-      "publisher": "LIVE NATION H.I.P.",
-      "description": "Number_iのワールド・ツアー日本公演「Number_i LIVE TOUR No.III」の福岡・みずほPayPayドーム福岡公演2日目。2027年1月17日に行われ、開場15:00／開演17:00。日本公演「Chapter 1 : Japan」を締めくくる公演で、この後は海外公演「Chapter 2 : Asia & North America」へ続く。全国5都市・5大ドームを巡る全9公演で構成され、グループ初のドーム・ツアーにあたる。主催・企画・制作はLIVE NATION H.I.P.。ファンクラブ先行は8月に締め切られ、Live Nation H.I.P.会員などを対象とした抽選先行が9月14日18時から、誰でも申し込めるプレイガイド抽選先行が9月18日正午から10月1日23時59分まで受け付けられる。",
-      "genres": [
-        "J-POP",
-        "ヒップホップ",
-        "ドームツアー"
-      ],
-      "image_url": "https://prod-v2-assets.wmg.jp/uploads/Admat_1080x1350_On_Sale_ver1_a2b92ff228.png",
-      "source_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
-      "presale": false,
-      "presale_datetime": "2026-09-14T18:00:00+09:00",
-      "presale_end_datetime": "2026-10-01T23:59:00+09:00",
-      "presale_url": "https://www.livenationhip.co.jp/all-events/number_i-tickets-ae1689539",
-      "general_sale": false,
-      "updated_at": "2026-10-03"
+      "updated_at": "2026-10-31"
     },
     {
       "id": "ja-blue-25th-anniversary-tokyo-20270119",
@@ -8584,6 +8427,59 @@
       "general_sale_datetime": "2027-01-16T10:00:00+09:00",
       "general_sale_url": "https://eplus.jp/yoshio-concert2027/",
       "updated_at": "2026-10-28"
+    },
+    {
+      "id": "ja-illit-press-start-encore-lala-arena-20261223",
+      "name": "ILLIT LIVE 'PRESS START♥' ENCORE in JAPAN",
+      "release_date": "2026-12-23",
+      "release_time": "18:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "LaLa arena TOKYO-BAY（千葉・船橋）"
+      ],
+      "developer": "ILLIT",
+      "publisher": null,
+      "description": "ILLIT初のライブツアー「PRESS START♥」のアンコール公演で、千葉・LaLa arena TOKYO-BAYにてグループ初となる同一都市4日間公演が行われる。日程は12月23日（水）・24日（木）が開場17:00／開演18:30、26日（土）・27日（日）が開場15:30／開演17:00。指定席・スタンド着席指定席は各15,000円。一般発売は10月31日（土）10:00から始まり、12月26日・27日はローソンチケットのみの取り扱いとなる。",
+      "genres": [
+        "K-POP"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Illit_in_January_2026.png/500px-Illit_in_January_2026.png",
+      "source_url": "https://www.hybejapan.events/illit/press_start_encore",
+      "presale": false,
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-31T10:00:00+09:00",
+      "general_sale_url": "https://ticket.pia.jp/pia/ticketInformation.do?eventCd=2638924&rlsCd=001&lotRlsCd=",
+      "updated_at": "2026-10-31"
+    },
+    {
+      "id": "ja-a-flood-of-circle-heartmark-ebisu-20261229",
+      "name": "a flood of circle「ハートマーク刺繍してやるよ、ちょっと忘れっぽい魂に」",
+      "release_date": "2026-12-29",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "category": "concert_tour",
+      "platforms": [
+        "恵比寿 The Garden Hall（東京）"
+      ],
+      "developer": "a flood of circle",
+      "publisher": null,
+      "description": "結成20周年を記念したトリビュート・アルバムに連動して、a flood of circleが年末の12月29日（火）に恵比寿 The Garden Hallで行うライブ。アルバムに参加したストレイテナー（STRAIGHTENER）とGLIM SPANKYをゲストに迎える。開場18:00／開演19:00、オールスタンディング5,500円（ドリンク代別）で、未就学児は入場不可。イープラスでの先行予約は10月26日正午から11月3日23時59分まで、一般発売は11月14日（土）10:00からぴあ・イープラス・ローソンチケットで始まる。",
+      "genres": [
+        "ロック"
+      ],
+      "image_url": null,
+      "source_url": "https://vintage-rock.com/news/712825/",
+      "presale": true,
+      "presale_datetime": "2026-10-26T12:00:00+09:00",
+      "presale_end_datetime": "2026-11-03T23:59:00+09:00",
+      "presale_url": "https://eplus.jp/afoc/",
+      "general_sale": false,
+      "general_sale_datetime": "2026-11-14T10:00:00+09:00",
+      "general_sale_url": "https://ticket.pia.jp/pia/ticketInformation.do?eventCd=2637964&rlsCd=001&lotRlsCd=",
+      "updated_at": "2026-10-31"
     }
   ]
 }
