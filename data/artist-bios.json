@@ -1393,6 +1393,48 @@
         "agency": null,
         "members": "솔로",
         "debut": "2012.07"
+      },
+      "한로로": {
+        "text": "한로로는 2022년 싱글 '입춘'으로 활동을 시작한 싱어송라이터로, 청춘의 불안과 성장을 일기처럼 풀어낸 가사로 Z세대 리스너들의 지지를 받아 왔다. EP 'Take-off', 'Home', '자몽살구클럽' 등을 발표했고, '0+0'과 '사랑하게 될 거야' 등이 음원 차트 상위권에 오르며 단독 공연 규모를 빠르게 키워 왔다.",
+        "agency": "어센틱",
+        "members": "솔로",
+        "debut": "2022"
+      },
+      "진영": {
+        "text": "박진영은 2014년 그룹 GOT7으로 데뷔해 보컬로 활동해 왔으며, 드라마와 영화를 오가는 배우로도 꾸준히 작품을 이어 왔다. 2021년 'DIVE'로 솔로 음악을 시작해 2023년 첫 미니앨범 'Chapter 0: WITH'를, 2026년 두 번째 미니앨범 'Said & Done'을 발표했고 첫 솔로 콘서트 투어 'CODE#'을 열었다.",
+        "agency": null,
+        "members": "솔로",
+        "debut": null
+      },
+      "규현": {
+        "text": "규현은 2006년 슈퍼주니어에 합류해 메인 보컬로 활동해 왔고, 2014년 첫 미니앨범 '광화문에서'로 솔로 활동을 본격화했다. '광화문에서', '밀리언조각' 등 발라드로 사랑받았으며 뮤지컬 무대와 예능에서도 활약해 왔다. 2023년 SM엔터테인먼트를 떠나 안테나와 전속 계약을 맺었다.",
+        "agency": "안테나",
+        "members": "솔로",
+        "debut": "2014"
+      },
+      "사이먼 도미닉": {
+        "text": "사이먼 도미닉(쌈디)은 2009년 힙합 그룹 슈프림팀으로 이름을 알린 래퍼로, 이후 솔로 앨범과 피처링으로 한국 힙합 신의 대표 얼굴 중 하나가 됐다. AOMG의 공동 대표를 지내기도 했으며, 2026년에는 정규앨범 'TTFU' 이후 약 4년 만에 새 앨범 'ONYX'를 발표하고 첫 단독 콘서트 'SIMON SAYS'를 열었다.",
+        "agency": null,
+        "members": "솔로",
+        "debut": null
+      },
+      "천러": {
+        "text": "천러는 2016년 NCT DREAM의 'Chewing Gum'으로 데뷔한 중국 출신 멤버로, 맑고 높은 음역의 보컬로 팀의 음악을 받쳐 왔다. 그룹 활동과 함께 자신의 생일을 기념한 단독 무대 'Lele's Show' 등으로 팬들과 따로 만나고 있다.",
+        "agency": "SM엔터테인먼트",
+        "members": null,
+        "debut": "2016.08.25"
+      },
+      "백예린": {
+        "text": "백예린은 2012년 듀오 15&로 데뷔한 뒤 2015년 EP 'FRANK'로 솔로 활동을 시작한 싱어송라이터다. 'Square', '산책' 등에서 들려준 몽환적인 음색과 R&B·인디 팝 감성으로 탄탄한 팬층을 쌓았고, 2019년 정규 1집 'Every letter I sent you.'를 발표했다.",
+        "agency": null,
+        "members": "솔로",
+        "debut": "2012"
+      },
+      "소향 & 김기태": {
+        "text": "가창력으로 이름난 두 보컬리스트의 합동 무대다. 소향은 CCM 가수로 출발해 '나는 가수다'와 '불후의 명곡' 등에서 폭발적인 고음으로 대중에게 널리 알려졌고, 김기태는 JTBC '싱어게인2' 우승자로 깊고 허스키한 음색이 강점이다.",
+        "agency": null,
+        "members": null,
+        "debut": null
       }
     },
     "en": {
@@ -2781,6 +2823,120 @@
         "agency": null,
         "members": "Solo",
         "debut": "2002"
+      },
+      "HANRORO": {
+        "text": "HANRORO is a South Korean singer-songwriter who emerged in 2022 with the single \"Let Me Love My Youth.\" Her diary-like songs about anxious, hopeful youth have made her a favorite among younger listeners, and EPs such as Take-off, Home and Jamong Salgu Club, along with chart hits like \"0+0,\" have steadily grown the scale of her solo concerts.",
+        "agency": "Authentic",
+        "members": "Solo",
+        "debut": "2022"
+      },
+      "Jinyoung": {
+        "text": "Park Jinyoung debuted in 2014 as a vocalist in GOT7 and has built a parallel career as a television and film actor. He began releasing solo music with \"DIVE\" in 2021, followed by the mini-albums Chapter 0: WITH (2023) and Said & Done (2026), and launched his first solo concert tour, CODE#, in 2026.",
+        "agency": null,
+        "members": "Solo",
+        "debut": null
+      },
+      "N.Flying": {
+        "text": "N.Flying is a South Korean rock band under FNC Entertainment that debuted in Korea in May 2015 with \"Awesome.\" Fronted by Lee Seung-hyub, the band broke through in 2019 with the sleeper hit \"Rooftop\" and has since become known for energetic live shows that mix pop-rock hooks with a full band sound.",
+        "agency": "FNC Entertainment",
+        "members": null,
+        "debut": "2015.05.20"
+      },
+      "KYUHYUN": {
+        "text": "Kyuhyun joined Super Junior in 2006 as one of its main vocalists and launched his solo career in 2014 with the mini-album At Gwanghwamun. Known for ballads and a long run in musical theater, he left SM Entertainment in 2023 and signed with Antenna.",
+        "agency": "Antenna",
+        "members": "Solo",
+        "debut": "2014"
+      },
+      "Simon Dominic": {
+        "text": "Simon Dominic first rose to prominence in 2009 as a member of the hip-hop duo Supreme Team and became one of Korean hip-hop's best-known rappers through his solo work and features. A former co-CEO of AOMG, he returned in 2026 with ONYX, his first full album in about four years, and staged his first solo concert, SIMON SAYS.",
+        "agency": null,
+        "members": "Solo",
+        "debut": null
+      },
+      "CHENLE": {
+        "text": "Chenle is a Chinese member of NCT DREAM, which debuted in August 2016 with \"Chewing Gum.\" His bright, high-register vocals are a signature of the group's sound, and he also hosts his own birthday shows, Lele's Show, for fans.",
+        "agency": "SM Entertainment",
+        "members": null,
+        "debut": "2016.08.25"
+      },
+      "Billy Joel, Sting": {
+        "text": "Billy Joel and Sting team up for a co-headline stadium night. Joel is the New York piano man behind \"Piano Man,\" \"Uptown Girl\" and \"We Didn't Start the Fire,\" while Sting brings songs from both The Police and his long solo career, including \"Every Breath You Take\" and \"Fields of Gold.\"",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Wilco, Waxahatchee": {
+        "text": "Wilco is the Chicago band led by Jeff Tweedy, whose albums Yankee Hotel Foxtrot and A Ghost Is Born made it a cornerstone of American alternative rock. Sharing the bill is Waxahatchee, the project of Alabama-born singer-songwriter Katie Crutchfield, whose country-leaning records Saint Cloud and Tigers Blood drew wide acclaim.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Lana Del Rey, BANKS": {
+        "text": "Lana Del Rey is the American singer-songwriter whose cinematic, melancholy pop—from Born to Die to Norman Fucking Rockwell!—has been one of the defining sounds of the 2010s and beyond. Opening is BANKS, the Los Angeles singer known for dark, minimalist R&B-pop.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Laufey, Suki Waterhouse": {
+        "text": "Laufey is the Icelandic-Chinese singer-songwriter who blends jazz standards, classical training and contemporary pop; her album Bewitched won the Grammy for Best Traditional Pop Vocal Album. Opening is Suki Waterhouse, the British singer and actor known for hazy indie-pop songs such as \"Good Looking.\"",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Laufey, Leonie Biney": {
+        "text": "Laufey is the Icelandic-Chinese singer-songwriter who blends jazz standards, classical training and contemporary pop; her album Bewitched won the Grammy for Best Traditional Pop Vocal Album, and her A Matter of Time tour brings that sound to arenas. Leonie Biney opens the show.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Sleep Token, Thornhill": {
+        "text": "Sleep Token is the masked, anonymous British band led by the singer known as Vessel, whose blend of metal, R&B and ambient pop—heard on Take Me Back to Eden and Even In Arcadia—has made it one of rock's fastest-rising acts. Opening is Thornhill, the Australian alternative-metal band.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Alex G, Nilufer Yanya": {
+        "text": "Alex G is the Philadelphia songwriter whose lo-fi beginnings grew into acclaimed albums such as Rocket and God Save the Animals. Opening is Nilüfer Yanya, the London singer-guitarist known for angular, guitar-driven indie rock.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Harry Styles, Jamie xx": {
+        "text": "Harry Styles rose to fame with One Direction before establishing himself as a solo star with albums such as Fine Line and Harry's House, which won the Grammy for Album of the Year. He is joined by Jamie xx, the producer and member of The xx, whose solo records In Colour and In Waves brought club music to a wide audience.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Harry Styles, Kylie Minogue": {
+        "text": "Harry Styles rose to fame with One Direction before establishing himself as a solo star with albums such as Fine Line and Harry's House, which won the Grammy for Album of the Year. He is joined by Kylie Minogue, the Australian pop icon behind \"Can't Get You Out of My Head\" and the 2023 hit \"Padam Padam.\"",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Bruno Mars, Anderson .Paak": {
+        "text": "Bruno Mars is the singer, songwriter and producer behind hits such as \"Uptown Funk\" and \"24K Magic,\" known for retro-soul showmanship. He is joined by Anderson .Paak, his partner in the duo Silk Sonic, whose \"Leave the Door Open\" won multiple Grammys.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "The Weeknd, Creepy Nuts": {
+        "text": "The Weeknd is the Toronto singer behind \"Blinding Lights\" and \"Starboy,\" whose After Hours Til Dawn stadium tour turns his cinematic synth-pop into a large-scale spectacle. Joining him is Creepy Nuts, the Japanese hip-hop duo of rapper R-Shitei and DJ Matsunaga, known worldwide for \"Bling-Bang-Bang-Born.\"",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Metallica, Limp Bizkit, Avatar": {
+        "text": "Metallica is the Bay Area band that defined thrash metal with albums such as Master of Puppets and later reached a mass audience with its 1991 self-titled \"Black Album\"; the M72 tour is staged in the round. Support comes from nu-metal veterans Limp Bizkit and the Swedish metal band Avatar.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Olivia Rodrigo, Grace Ives": {
+        "text": "Olivia Rodrigo broke through in 2021 with \"drivers license\" and the album SOUR, and followed it with GUTS, mixing pop-punk energy with confessional songwriting. Opening is Grace Ives, the New York singer-songwriter known for quirky, synth-driven pop.",
+        "agency": null,
+        "members": null,
+        "debut": null
       }
     },
     "ja": {
@@ -4096,6 +4252,90 @@
         "text": "フィン・ウルフハードはカナダ・バンクーバー出身の俳優／ミュージシャン。ドラマ『ストレンジャー・シングス 未知の世界』のマイク役で広く知られる一方、バンドCalpurniaやThe Aubreysで音楽活動を行い、ソロ名義でも作品を発表している。",
         "agency": null,
         "members": "ソロ",
+        "debut": null
+      },
+      "ILLIT": {
+        "text": "ILLIT（アイリット）はHYBE傘下のBELIFT LABから2024年3月にデビューした5人組ガールズグループ。デビュー曲「Magnetic」が韓国内外のチャートで大ヒットし、日本人メンバー2人を含む構成で日本でも活動を広げている。",
+        "agency": "BELIFT LAB",
+        "members": "5人組",
+        "debut": "2024.03.25"
+      },
+      "絢香": {
+        "text": "絢香は大阪府出身のシンガーソングライター。2006年にシングル「I believe」でデビューし、「三日月」「みんな空の下」などで力強い歌声を印象づけた。一時の活動休止を経て活動を再開し、2026年にはデビュー20周年を迎えている。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": "2006.02.01"
+      },
+      "a flood of circle": {
+        "text": "a flood of circleは2006年に東京で結成されたロックバンド。佐々木亮介のしゃがれたボーカルを軸に、ブルースやガレージ・ロックを下敷きにした泥臭く疾走感のあるサウンドで、ライブハウスを中心に精力的な活動を続けている。",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Bimi": {
+        "text": "Bimiは俳優・廣野凌大のアーティスト名義。2021年にシングル「Tai」で活動を始め、2023年にEVIL LINE RECORDSからメジャーデビューした。ラップとバンドサウンドを行き来する楽曲で、2025年には初のメジャーアルバム『R』を発表している。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": "2021.06.30"
+      },
+      "Dungeoneering": {
+        "text": "Dungeoneeringは、Albino SoundとD.A.N.のDaigosが2025年に結成したエレクトロニック・デュオ。重低音のリズムに声のループや即興的なメロディを重ね、テクノ、エクスペリメンタル、アンビエントの間を行き来するライブを展開している。",
+        "agency": null,
+        "members": "2人組",
+        "debut": "2025"
+      },
+      "玉置浩二 × ASKA": {
+        "text": "安全地帯のボーカルとして知られ、ソロでも「メロディー」などの名曲を持つ玉置浩二と、CHAGE and ASKAで数々のヒットを生んだASKAによる共演公演。日本のポップスを代表する二人の歌い手が同じステージに立つ。",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Body/Head／Jim O'Rourke": {
+        "text": "Body/Headは元ソニック・ユースのキム・ゴードンとギタリストのビル・ネイスによるデュオで、ノイズと即興を軸にした実験的な演奏で知られる。共演するジム・オルークは、ソニック・ユースへの参加歴を持ち日本を拠点に活動する音楽家・プロデューサー。",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "WHIRR & NOTHING": {
+        "text": "サンフランシスコ・ベイエリアのシューゲイザー・バンドWHIRRと、フィラデルフィアのNOTHINGによる共演公演。両バンドは2014年にスプリット作品を発表しており、轟音ギターと甘いメロディを持ち味とする現代シューゲイザーの代表格として知られる。",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "BRIAN JACKSON & YASIIN BEY": {
+        "text": "ブライアン・ジャクソンは、ギル・スコット・ヘロンの長年の共作者として「The Bottle」などを生んだキーボード奏者／フルート奏者。旧名モス・デフとして知られるラッパーのヤシーン・ベイとともに、ギル・スコット・ヘロンの楽曲を現代に蘇らせるプロジェクトを行っている。",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "ジェフ・パーカー・ETAカルテット": {
+        "text": "ジェフ・パーカーはシカゴのポストロック・バンド、トータスのギタリストとしても知られるジャズ・ギタリスト。ETA IVtetはロサンゼルスのバーETAでの定期セッションから生まれたカルテットで、即興を軸にしたミニマルで反復的な演奏を聴かせる。",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "HANA／4EVE／BINI": {
+        "text": "アジア各国のガールズグループが集うイベント。HANAはちゃんみながプロデュースしたオーディション「No No Girls」から誕生したBMSG所属のグループ、BINIはフィリピンで絶大な人気を誇る8人組、4EVEはタイのガールズグループとして出演する。",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "THE SPELLBOUND×BOOM BOOM SATELLITES": {
+        "text": "THE SPELLBOUNDは、BOOM BOOM SATELLITESの中野雅之とTHE NOVEMBERSの小林祐介によるバンド。2016年に亡くなったBOOM BOOM SATELLITESのボーカル・ギター、川島道行の誕生日にちなみ、両者の楽曲を届ける公演が行われる。",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "宝塚歌劇団×LDH JAPAN": {
+        "text": "宝塚歌劇団とEXILEらが所属するLDH JAPANがタッグを組み、人気シリーズ「HiGH&LOW」の世界観を戦国時代に置き換えた舞台作品。タカラジェンヌとLDHのアーティストが共演する異色のコラボレーションとなっている。",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "エラ・メイ／ジョン・バティステ ほか": {
+        "text": "横浜で開催される音楽とアートのフェスティバル「GREENROOM FESTIVAL」の出演陣。「Boo'd Up」で知られる英国出身のR&Bシンガー、エラ・メイや、アルバム『We Are』でグラミー賞最優秀アルバム賞を受賞したジョン・バティステらが名を連ねる。",
+        "agency": null,
+        "members": null,
         "debut": null
       }
     }
