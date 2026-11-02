@@ -2,9 +2,33 @@
 
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
-| ko | 2026-10-26 | ← |
-| en | 2026-10-28 | |
+| ko | 2026-11-02 | |
+| en | 2026-10-28 | ← |
 | ja | 2026-10-30 | |
+
+---
+
+## 2026-11-02 · ko
+
+로테이션상 ko가 가장 오래된 점검일(2026-10-26)이라 선택. 대상 창: 2026-09-03 ~ 2027-01-01(오늘 ±60일), 창 안 항목 187건(끝난 것 114 / 예정 73). 코드는 손대지 않았고 `data/concerts.ko.json`만 수정(파일 상단 `last_updated` 2026-11-02). push 전 `validate-data.mjs` 통과. 고친 항목·트랙 B 확인 항목 모두 `updated_at=2026-11-02`.
+
+**트랙 A (졸업 처리) — 12건**
+- A-1/A-2 끝난 공연(10/26~11/1)의 예매 필드·플래그 정리 + description 과거형 8건(§7대로 `presale`/`general_sale=false` + 예매 URL·datetime 6개 필드 null, 시제만 교정 — 새 사실 추가 없음): ko-israel-newbreed-seoul-20261027, ko-flow-naruto-the-rock-seoul-20261028, ko-jeonghan-joshua-journey-into-dreaming-incheon-20261030(11/1 마지막 회차 종료), ko-kimjaehwan-yeoback-seoul-20261031(11/1 종료), ko-nujabes-metaphorical-ensemble-seoul-20261031(출연진 문장은 "맡는 구성이었다"로 — 실제 출연 여부 단정 안 함), ko-yoonmarch-mrch-symbiosis-seoul-20261031(11/1 종료), ko-janghanbyeol-the-star-is-born-seoul-20261031, ko-bensonboone-wanted-man-tour-seoul-20261026(`general_sale=true` 잔존)
+- A-4 description 시제만 4건: ko-verivery-give-me-five-seoul-20261003(지난 회차 이월분, 해외 투어 잔여 일정 문장은 유지), ko-lisa-press-play-20261023(이월분, 11월 라스베이거스 레지던시 문장은 미래라 유지), ko-kimfeel-journey-20261029("끌어올릴 예정이다"→"계획이었다"), ko-riize-prologue-single-20261026("연말까지 활동" 문장 유지) — music_release 구매 링크 미변경
+- 확인 후 손대지 않음: ko-triples-love-and-pop-pt2-20261020(남은 미래 문장은 2027년 1월 3부 — 사실상 미래), ko-roykim-cry-out-loud-20261006(11/21~22 콘서트 미래). 지난 회차 이월 후보 plave·oneus·ryusujeong 시제, 8~9월 공연 예매 필드 잔존 후보는 이번 스캔에서 A-1/A-4 조건에 걸리지 않음(이미 정리됨)
+- A-3: ko-postmalone-big-stadium-tour-seoul-20261002 approx=true 유지(연기·새 날짜 미발표)
+
+**트랙 B (임박 점검) — 8건 확인** (`updated_at` 없는 항목, 공연일 가까운 순)
+- ko-choiyuree-stay-busan-20261107 / ko-choiyuree-stay-daegu-20261114 — NOL 상품 페이지 생존·일정 유지, 취소 공지 없음. 변경 없음
+- ko-wonderlivet-2026-20261120 — 일간스포츠 9/30·iMBC 타임테이블 기사: 11/20~22 킨텍스 제2전시장, 매일 정오 시작, 헤드라이너 동일, 취소 공지 없음. 변경 없음
+- ko-kokyungpyo-kyungpyo-night-seoul-20261121 — 스타뉴스 10/26: 11/21 오후 2시·6시 2회, 10/26 오후 7시 티켓링크 선예매. `release_time` 14:00, 회차·예매 문장 반영("추후 공지" 문장 교체). 단일 출처(영문 AI 번역판)라 예매 URL·주최사는 미변경 — 기사에 소속사가 'CJ ENM Company'로 나와 기존 publisher(유니온픽처스)와 다름, 다음 회차 원문 확인 필요
+- ko-mumyeongjeonseol-daegu-encore-20261121 — NOL 26010589: 11/21 13:00·18:00 엑스코 5층 컨벤션홀, 120분 유지. B-4로 `general_sale_url` 보강
+- ko-kanaboon-critical-hit-parade-seoul-20261205 — 세계일보 8/5·스타뉴스: 12/5 예스24 라이브홀 유지. 시작 시각·예매처 확인 실패 — 그대로 둠
+- ko-mumyeongjeonseol-incheon-20261205 / ko-kimjanghoon-dasinalda-seoul-20261205 — NOL 상품 페이지 생존·일정 유지. 변경 없음
+- B-3 링크: 8건 source/image/예매 URL 13개 접속 — 12개 200(인터파크 goods는 NOL로 리다이렉트). ticket.yes24.com/Perf/59840은 봇매니저 차단 페이지로 리다이렉트 — 봇 차단으로 판단, 죽은 링크로 단정 안 함
+
+**남은 것**: 트랙 A 대기 없음. 고경표 팬미팅 publisher 원문 확인. 트랙 B 다음 순번: ko-kwonjinah-this-winter-daegu-20261212, ko-leeseungchul-the-voice-incheon-20261212, ko-kwonjinah-this-winter-busan-20261225, ko-mumyeongjeonseol-busan-encore-20261231(updated_at 없음) → 이후 ko-nobrain-still-noisy-vol2-seoul-20261106 등 오래된 순
+**리서처 참고(추가 안 함)**: 김장훈 '다시 날다' 부산·창원 회차(NOL 26013504·26013424) 미등록 여부 확인 권장
 
 ---
 
