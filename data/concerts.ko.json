@@ -3782,13 +3782,14 @@
       ],
       "developer": "베리베리(VERIVERY)",
       "publisher": null,
-      "description": "베리베리가 10월 3일과 4일 서울 강서구 KBS아레나에서 '2026 VERIVERY CONCERT [GIVE ME FIVE, KEEP THAT VIBE] SEOUL'을 연다. 2019년 데뷔 이후 처음으로 서는 아레나 규모 무대이자 11개 도시를 도는 해외 투어의 출발점이다. 서울 공연 이후 자카르타·오사카·도쿄를 거쳐 바르샤바·암스테르담·쾰른·베를린·파리 등 유럽 도시와 마카오·타이베이로 일정이 이어진다.",
+      "description": "베리베리가 10월 3일과 4일 서울 강서구 KBS아레나에서 '2026 VERIVERY CONCERT [GIVE ME FIVE, KEEP THAT VIBE] SEOUL'을 열었다. 2019년 데뷔 이후 처음으로 선 아레나 규모 무대이자 11개 도시를 도는 해외 투어의 출발점이었다. 서울 공연 이후 자카르타·오사카·도쿄를 거쳐 바르샤바·암스테르담·쾰른·베를린·파리 등 유럽 도시와 마카오·타이베이로 일정이 이어진다.",
       "genres": [
         "K-POP",
         "콘서트"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/190506_%EB%B2%A0%EB%A6%AC%EB%B2%A0%EB%A6%AC_%EC%8B%A0%EC%B4%8C_%EB%B2%84%EC%8A%A4%ED%82%B9.jpg",
-      "source_url": "http://www.osen.co.kr/article/G1112848840"
+      "source_url": "http://www.osen.co.kr/article/G1112848840",
+      "updated_at": "2026-11-02"
     },
     {
       "id": "ko-xmf-2026-20261003",
@@ -4441,7 +4442,7 @@
       ],
       "developer": "벤슨 분(Benson Boone)",
       "publisher": "라이브네이션코리아",
-      "description": "미국 싱어송라이터 벤슨 분이 'Wanted Man Tour'로 한국을 찾는다. 10월 26일 경기 고양 킨텍스 10홀에서 열리는 단독 공연으로, 라이브네이션코리아가 주최를 맡았다. 'Beautiful Things'로 글로벌 차트를 휩쓴 뒤 이어진 월드투어의 아시아 구간에 서울이 포함됐다. 티켓은 7월 20일 낮 12시 선예매, 7월 21일 낮 12시 일반예매 순으로 열렸다. 공연은 오후 8시에 시작한다.",
+      "description": "미국 싱어송라이터 벤슨 분이 'Wanted Man Tour'로 한국을 찾았다. 10월 26일 경기 고양 킨텍스 10홀에서 열린 단독 공연으로, 라이브네이션코리아가 주최를 맡았다. 'Beautiful Things'로 글로벌 차트를 휩쓴 뒤 이어진 월드투어의 아시아 구간에 서울이 포함됐다. 티켓은 7월 20일 낮 12시 선예매, 7월 21일 낮 12시 일반예매 순으로 열렸다. 공연은 오후 8시에 시작했다.",
       "genres": [
         "팝",
         "내한"
@@ -4449,14 +4450,14 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Benson_Boone_Press_Copy_Warner_Records_%28cropped%29.png",
       "source_url": "https://www.livenation.kr/event/benson-boone-wanted-man-tour-seoul-tickets-edp1686561",
       "presale": false,
-      "presale_datetime": "2026-07-20T12:00:00+09:00",
+      "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
-      "general_sale_datetime": "2026-07-21T12:00:00+09:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-29",
+      "updated_at": "2026-11-02",
       "related_locale_ids": {
         "en": "en-benson-boone-wanted-man-seoul-20261026"
       }
@@ -4474,7 +4475,7 @@
       ],
       "developer": "김재환",
       "publisher": null,
-      "description": "김재환이 단독 콘서트 [여백:餘白]을 연다. 10월 31일 오후 6시와 11월 1일 오후 5시 이틀에 걸쳐 두 차례 서울 블루스퀘어 우리WON뱅킹홀에서 열리며 7세 이상 관람가다. 티켓은 전석 15만4000원으로 NOL 티켓에서 단독 판매되고, 회차당 1인 4매까지 구매할 수 있다. 팬클럽 선예매는 9월 8일 오후 8시, 일반 예매는 9월 9일 오후 8시에 열렸다.",
+      "description": "김재환이 단독 콘서트 [여백:餘白]을 열었다. 10월 31일 오후 6시와 11월 1일 오후 5시 이틀에 걸쳐 두 차례 서울 블루스퀘어 우리WON뱅킹홀에서 열렸으며 7세 이상 관람가였다. 티켓은 전석 15만4000원으로 NOL 티켓에서 단독 판매됐고, 회차당 1인 4매까지 구매할 수 있었다. 팬클럽 선예매는 9월 8일 오후 8시, 일반 예매는 9월 9일 오후 8시에 열렸다.",
       "genres": [
         "K-POP",
         "발라드",
@@ -4483,14 +4484,14 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/171022_%EB%B6%80%EC%82%B0%EC%9B%90%EC%95%84%EC%8B%9C%EC%95%84%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C_%EC%9C%A4%EC%A7%80%EC%84%B1_%26_%EA%B9%80%EC%9E%AC%ED%99%98_02.jpg/500px-171022_%EB%B6%80%EC%82%B0%EC%9B%90%EC%95%84%EC%8B%9C%EC%95%84%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C_%EC%9C%A4%EC%A7%80%EC%84%B1_%26_%EA%B9%80%EC%9E%AC%ED%99%98_02.jpg",
       "source_url": "https://tickets.interpark.com/goods/26012668",
       "presale": false,
-      "presale_datetime": "2026-09-08T20:00:00+09:00",
+      "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
-      "general_sale_datetime": "2026-09-09T20:00:00+09:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012668",
-      "updated_at": "2026-10-29",
+      "general_sale_url": null,
+      "updated_at": "2026-11-02",
       "related_locale_ids": {
         "en": "en-kim-jae-hwan-yeobaek-seoul-20261031"
       }
@@ -4508,7 +4509,7 @@
       ],
       "developer": "누자베스 메타포리컬 앙상블(Nujabes Metaphorical Ensemble)",
       "publisher": null,
-      "description": "일본 프로듀서 누자베스의 미완성 구상을 잇는 프로젝트 그룹 누자베스 메타포리컬 앙상블이 10월 31일 오후 6시 서울 NOL 씨어터 합정 동양생명홀에서 첫 서울 공연을 연다. 약 100분간 진행되며 Chika a.k.a. Inherit(DJ), 패트릭 발리(색소폰), BIGYUKI(키보드), Pase Rock(MC)이 무대에 오르고 오프닝 액트는 DJ SHOTA가 맡는다. 좌석은 VVIP·VIP·스탠딩 일반·지정 일반으로 구분된다.",
+      "description": "일본 프로듀서 누자베스의 미완성 구상을 잇는 프로젝트 그룹 누자베스 메타포리컬 앙상블이 10월 31일 오후 6시 서울 NOL 씨어터 합정 동양생명홀에서 첫 서울 공연을 열었다. 약 100분간 진행됐으며 Chika a.k.a. Inherit(DJ), 패트릭 발리(색소폰), BIGYUKI(키보드), Pase Rock(MC)이 무대에 오르고 오프닝 액트는 DJ SHOTA가 맡는 구성이었다. 좌석은 VVIP·VIP·스탠딩 일반·지정 일반으로 구분됐다.",
       "genres": [
         "힙합",
         "재즈",
@@ -4520,11 +4521,11 @@
       "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012781",
-      "updated_at": "2026-10-29",
+      "general_sale_url": null,
+      "updated_at": "2026-11-02",
       "related_locale_ids": {
         "en": "en-nujabes-metaphorical-ensemble-seoul-20261031"
       }
@@ -4597,7 +4598,7 @@
       "id": "ko-kokyungpyo-kyungpyo-night-seoul-20261121",
       "name": "2026 KO KYUNGPYO FANMEETING: NOW 'KYUNGPYO NIGHT'",
       "release_date": "2026-11-21",
-      "release_time": null,
+      "release_time": "14:00",
       "release_date_approx": false,
       "timezone": "Asia/Seoul",
       "category": "fanmeeting",
@@ -4606,7 +4607,7 @@
       ],
       "developer": "고경표",
       "publisher": "유니온픽처스",
-      "description": "배우 고경표가 2026년 11월 21일 서울 성암아트홀에서 단독 팬미팅 '2026 KO KYUNGPYO FANMEETING: NOW 〈KYUNGPYO NIGHT〉'를 연다. 소속사 유니온픽처스가 8월 19일 개최를 공식 발표했으며, 토크와 게임, 스페셜 스테이지 등으로 구성된다. 오랜 시간 응원해 온 팬들과 직접 소통하며 작품이나 예능에서 보여준 모습과는 또 다른 무대 위 매력을 선보일 예정이다. 티켓 오픈 일정은 공식 SNS를 통해 추후 공지된다.",
+      "description": "배우 고경표가 2026년 11월 21일 서울 성암아트홀에서 단독 팬미팅 '2026 KO KYUNGPYO FANMEETING: NOW 〈KYUNGPYO NIGHT〉'를 연다. 공연은 오후 2시와 오후 6시 두 차례 진행된다. 소속사 유니온픽처스가 8월 19일 개최를 공식 발표했으며, 토크와 게임, 스페셜 스테이지 등으로 구성된다. 오랜 시간 응원해 온 팬들과 직접 소통하며 작품이나 예능에서 보여준 모습과는 또 다른 무대 위 매력을 선보일 예정이다. 티켓은 10월 26일 오후 7시 티켓링크에서 선예매가 열렸다.",
       "genres": [
         "팬미팅",
         "배우"
@@ -4616,7 +4617,8 @@
       "presale": false,
       "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "updated_at": "2026-11-02"
     },
     {
       "id": "ko-mumyeongjeonseol-daegu-encore-20261121",
@@ -4639,7 +4641,10 @@
       "image_url": null,
       "source_url": "https://sports.khan.co.kr/article/202607310950003/",
       "general_sale": true,
-      "general_sale_datetime": "2026-07-31T13:00:00+09:00"
+      "general_sale_datetime": "2026-07-31T13:00:00+09:00",
+      "general_sale_url": "https://nol.yanolja.com/ticket/products/26010589",
+      "general_sale_end_datetime": null,
+      "updated_at": "2026-11-02"
     },
     {
       "id": "ko-roykim-year-end-concert-seoul-20261121",
@@ -4717,7 +4722,8 @@
       "image_url": null,
       "source_url": "https://www.starnewskorea.com/music/2026/08/04/2026080410042952283",
       "general_sale": true,
-      "general_sale_datetime": "2026-08-10T20:00:00+09:00"
+      "general_sale_datetime": "2026-08-10T20:00:00+09:00",
+      "updated_at": "2026-11-02"
     },
     {
       "id": "ko-khalid-always-summer-somewhere-goyang-20261205",
@@ -5053,7 +5059,7 @@
       ],
       "developer": "김필",
       "publisher": null,
-      "description": "김필이 10월 29일 오후 6시 두 번째 정규앨범 'JOURNEY'를 발매한다. 2019년 12월 1집 'Yours, Sincerely' 이후 약 7년 만의 정규 신보이자 데뷔 15주년을 채우는 앨범으로, 소속사가 9월 2일 컴백 일정을 공식화했다. 앨범 발매에 앞서 9월 26일과 10월 23일 두 차례 선공개곡을 차례로 내놓으며 분위기를 끌어올릴 예정이다. 앨범 제목처럼 지나온 시간과 앞으로의 여정을 담아낸 작품으로 소개됐다.",
+      "description": "김필이 10월 29일 오후 6시 두 번째 정규앨범 'JOURNEY'를 발매했다. 2019년 12월 1집 'Yours, Sincerely' 이후 약 7년 만의 정규 신보이자 데뷔 15주년을 채우는 앨범으로, 소속사가 9월 2일 컴백 일정을 공식화했다. 앨범 발매에 앞서 9월 26일과 10월 23일 두 차례 선공개곡을 차례로 내놓으며 분위기를 끌어올릴 계획이었다. 앨범 제목처럼 지나온 시간과 앞으로의 여정을 담아낸 작품으로 소개됐다.",
       "genres": [
         "발라드",
         "컴백"
@@ -5062,7 +5068,7 @@
       "source_url": "https://isplus.com/article/view/isp202609020205",
       "presale": false,
       "general_sale": false,
-      "updated_at": "2026-10-26"
+      "updated_at": "2026-11-02"
     },
     {
       "id": "ko-kimfeel-journey-concert-seoul-20261114",
@@ -5161,7 +5167,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-01T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://ticket.yes24.com/Perf/59840"
+      "general_sale_url": "https://ticket.yes24.com/Perf/59840",
+      "updated_at": "2026-11-02"
     },
     {
       "id": "ko-choiyuree-stay-busan-20261107",
@@ -5191,7 +5198,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-01T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012514"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012514",
+      "updated_at": "2026-11-02"
     },
     {
       "id": "ko-choiyuree-stay-daegu-20261114",
@@ -5221,7 +5229,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-01T20:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012762"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012762",
+      "updated_at": "2026-11-02"
     },
     {
       "id": "ko-mumyeongjeonseol-incheon-20261205",
@@ -5250,7 +5259,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-07T17:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012920"
+      "general_sale_url": "https://tickets.interpark.com/goods/26012920",
+      "updated_at": "2026-11-02"
     },
     {
       "id": "ko-kimjanghoon-dasinalda-seoul-20261205",
@@ -5279,7 +5289,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-09-11T12:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26013013"
+      "general_sale_url": "https://tickets.interpark.com/goods/26013013",
+      "updated_at": "2026-11-02"
     },
     {
       "id": "ko-9muses-muse-on-seoul-20250831",
@@ -5486,7 +5497,7 @@
       "platforms": [],
       "developer": "리사(LISA)",
       "publisher": null,
-      "description": "블랙핑크 리사가 2026년 10월 23일 첫 미니앨범 'PRESS PLAY'를 발매한다. 앞서 9월 4일 선공개 싱글 '사와디카(SaWaDiKa)'를 먼저 내놓으며 앨범 활동의 문을 열었는데, 곡 제목인 '사와디카'는 태국어로 여성이 건네는 정중한 인사말이다. 리사는 신보 발매 이후 11월 13~14일과 27~28일 미국 라스베이거스 시저스 팰리스 더 콜로세움에서 K팝 아티스트 최초로 단독 레지던시 공연 'VIVA LA LISA'를 이어 갈 예정이다.",
+      "description": "블랙핑크 리사가 2026년 10월 23일 첫 미니앨범 'PRESS PLAY'를 발매했다. 앞서 9월 4일 선공개 싱글 '사와디카(SaWaDiKa)'를 먼저 내놓으며 앨범 활동의 문을 열었는데, 곡 제목인 '사와디카'는 태국어로 여성이 건네는 정중한 인사말이다. 리사는 신보 발매 이후 11월 13~14일과 27~28일 미국 라스베이거스 시저스 팰리스 더 콜로세움에서 K팝 아티스트 최초로 단독 레지던시 공연 'VIVA LA LISA'를 이어 갈 예정이다.",
       "genres": [
         "K-POP",
         "팝",
@@ -5497,7 +5508,7 @@
       "related_locale_ids": {
         "en": "en-lisa-press-play-20261023"
       },
-      "updated_at": "2026-10-29"
+      "updated_at": "2026-11-02"
     },
     {
       "id": "ko-dohkyungsoo-dopamine-20260908",
@@ -6215,14 +6226,14 @@
       "platforms": [],
       "developer": "라이즈(RIIZE)",
       "publisher": "SM엔터테인먼트",
-      "description": "라이즈가 10월 26일 0시 정규 2집으로 가는 길목에서 프롤로그 싱글 'Insomnia'를 공개한다. 정규 2집 자체는 2027년 봄 발매로 예고됐고, 이번 싱글은 그 서막에 해당한다. 활동 계획은 9월 12~13일 인천 인스파이어 아레나에서 열린 데뷔 3주년 팬미팅 'Ch. RIIZE : ON AIR' 종료 직후 상영된 영상을 통해 공개됐으며, 이틀간 2만3000여 명이 현장을 찾았다. 라이즈는 이 싱글을 시작으로 연말까지 활동을 이어갈 예정이다.",
+      "description": "라이즈가 10월 26일 0시 정규 2집으로 가는 길목에서 프롤로그 싱글 'Insomnia'를 공개했다. 정규 2집 자체는 2027년 봄 발매로 예고됐고, 이번 싱글은 그 서막에 해당한다. 활동 계획은 9월 12~13일 인천 인스파이어 아레나에서 열린 데뷔 3주년 팬미팅 'Ch. RIIZE : ON AIR' 종료 직후 상영된 영상을 통해 공개됐으며, 이틀간 2만3000여 명이 현장을 찾았다. 라이즈는 이 싱글을 시작으로 연말까지 활동을 이어갈 예정이다.",
       "genres": [
         "K-POP",
         "발매"
       ],
       "image_url": null,
       "source_url": "https://www.starnewskorea.com/music/2026/09/14/2026091411013690861",
-      "updated_at": "2026-10-29",
+      "updated_at": "2026-11-02",
       "related_locale_ids": {
         "en": "en-riize-prologue-single-20261026"
       }
@@ -6709,7 +6720,7 @@
       ],
       "developer": "플로우(FLOW)",
       "publisher": null,
-      "description": "애니메이션 '나루토' 주제가로 잘 알려진 일본 록밴드 플로우(FLOW)가 10월 28일 오후 8시 서울 예스24 라이브홀에서 'NARUTO THE ROCK WORLD TOUR 2026' 서울 공연을 연다. 총 90분 구성이며 티켓은 스탠딩 VIP석 16만5000원, 지정석 11만원, 스탠딩 일반석 9만9000원으로 판매된다. 예스24 티켓 단독 판매이며 1인 2매로 구매가 제한된다. 티켓 일괄배송은 10월 6일이다.",
+      "description": "애니메이션 '나루토' 주제가로 잘 알려진 일본 록밴드 플로우(FLOW)가 10월 28일 오후 8시 서울 예스24 라이브홀에서 'NARUTO THE ROCK WORLD TOUR 2026' 서울 공연을 열었다. 총 90분 구성이었으며 티켓은 스탠딩 VIP석 16만5000원, 지정석 11만원, 스탠딩 일반석 9만9000원으로 판매됐다. 예스24 티켓 단독 판매이며 1인 2매로 구매가 제한됐다. 티켓 일괄배송은 10월 6일이었다.",
       "genres": [
         "J-ROCK",
         "애니메이션",
@@ -6721,11 +6732,11 @@
       "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://ticket.yes24.com/Perf/59986",
-      "updated_at": "2026-10-29",
+      "general_sale_url": null,
+      "updated_at": "2026-11-02",
       "related_locale_ids": {
         "en": "en-flow-naruto-the-rock-seoul-20261028"
       }
@@ -6743,7 +6754,7 @@
       ],
       "developer": "윤마치(MRCH)",
       "publisher": null,
-      "description": "인디 밴드 윤마치(MRCH)가 10월 31일과 11월 1일 이틀간 서울 예스24 라이브홀에서 단독 콘서트 '공생관계 : We Live Together'를 연다. 첫날은 오후 6시, 이튿날은 오후 5시에 시작하며 공연 시간은 120분이다. 티켓은 스탠딩석과 지정석 모두 11만원이며 예스24 티켓 단독 판매로 10월 6일 오후 8시 예매가 열린다. 관람 등급은 7세 이상, 회차별 1인 4매로 제한된다.",
+      "description": "인디 밴드 윤마치(MRCH)가 10월 31일과 11월 1일 이틀간 서울 예스24 라이브홀에서 단독 콘서트 '공생관계 : We Live Together'를 열었다. 첫날은 오후 6시, 이튿날은 오후 5시에 시작했으며 공연 시간은 120분이었다. 티켓은 스탠딩석과 지정석 모두 11만원이었으며 예스24 티켓 단독 판매로 10월 6일 오후 8시 예매가 열렸다. 관람 등급은 7세 이상, 회차별 1인 4매로 제한됐다.",
       "genres": [
         "인디",
         "록"
@@ -6754,11 +6765,11 @@
       "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
-      "general_sale_datetime": "2026-10-06T20:00:00+09:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://ticket.yes24.com/Perf/60342",
-      "updated_at": "2026-09-28"
+      "general_sale_url": null,
+      "updated_at": "2026-11-02"
     },
     {
       "id": "ko-bol4-red-square-seoul-20261107",
@@ -7027,7 +7038,7 @@
       ],
       "developer": "장한별",
       "publisher": "레온웍스",
-      "description": "'무명전설' TOP3 출신 장한별이 10월 31일 서울 세종대학교 대양홀에서 데뷔 첫 단독 콘서트 'THE STAR IS BORN'을 연다. 오후 1시와 오후 6시 두 차례로 나뉘어 진행되며 관람 시간은 120분, 만 7세 이상 입장할 수 있다. 티켓은 R석 16만5000원·S석 14만3000원이고 티켓링크 단독 판매다. 발라드부터 트로트와 팝까지 그동안 선보인 장르를 한자리에 모은 무대가 예고됐으며 주최는 레온웍스, 주관은 준컴퍼니가 맡는다.",
+      "description": "'무명전설' TOP3 출신 장한별이 10월 31일 서울 세종대학교 대양홀에서 데뷔 첫 단독 콘서트 'THE STAR IS BORN'을 열었다. 오후 1시와 오후 6시 두 차례로 나뉘어 진행됐으며 관람 시간은 120분, 만 7세 이상 입장할 수 있었다. 티켓은 R석 16만5000원·S석 14만3000원이었고 티켓링크 단독 판매였다. 발라드부터 트로트와 팝까지 그동안 선보인 장르를 한자리에 모은 무대가 예고됐으며 주최는 레온웍스, 주관은 준컴퍼니가 맡았다.",
       "genres": [
         "트로트",
         "발라드",
@@ -7039,11 +7050,11 @@
       "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-01"
+      "updated_at": "2026-11-02"
     },
     {
       "id": "ko-ghostival-2026-incheon-20261024",
@@ -7089,7 +7100,7 @@
       ],
       "developer": "정한 X 조슈아(JEONGHAN X JOSHUA)",
       "publisher": "하이브(HYBE)",
-      "description": "세븐틴의 유닛 정한 X 조슈아가 10월 30일부터 11월 1일까지 사흘간 인천 인스파이어 아레나에서 'JOURNEY INTO [DREAMING]' 공연을 연다. 회차별 시작 시각은 30일 오후 7시, 31일 오후 6시, 11월 1일 오후 5시다. 멤버십 선예매는 10월 8일 오후 8시, 일반 예매는 10월 12일 오후 8시에 NOL 티켓 단독으로 열린다. 만 9세 이상 관람 가능하며 실물 티켓 없이 모바일 티켓으로만 입장한다. 주최는 하이브다.",
+      "description": "세븐틴의 유닛 정한 X 조슈아가 10월 30일부터 11월 1일까지 사흘간 인천 인스파이어 아레나에서 'JOURNEY INTO [DREAMING]' 공연을 열었다. 회차별 시작 시각은 30일 오후 7시, 31일 오후 6시, 11월 1일 오후 5시였다. 멤버십 선예매는 10월 8일 오후 8시, 일반 예매는 10월 12일 오후 8시에 NOL 티켓 단독으로 열렸다. 만 9세 이상 관람 가능했으며 실물 티켓 없이 모바일 티켓으로만 입장했다. 주최는 하이브였다.",
       "genres": [
         "K-POP",
         "콘서트",
@@ -7097,15 +7108,15 @@
       ],
       "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26013793_p.gif",
       "source_url": "https://nol.yanolja.com/ticket/products/26013793",
-      "presale": true,
-      "presale_datetime": "2026-10-08T20:00:00+09:00",
+      "presale": false,
+      "presale_datetime": null,
       "presale_end_datetime": null,
-      "presale_url": "https://nol.yanolja.com/ticket/products/26013793",
-      "general_sale": true,
-      "general_sale_datetime": "2026-10-12T20:00:00+09:00",
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://nol.yanolja.com/ticket/products/26013793",
-      "updated_at": "2026-10-29",
+      "general_sale_url": null,
+      "updated_at": "2026-11-02",
       "related_locale_ids": {
         "en": "en-jeonghan-x-joshua-journey-into-dreaming-incheon-20261030"
       }
@@ -7682,7 +7693,7 @@
       ],
       "developer": "이스라엘 & 뉴브리드",
       "publisher": null,
-      "description": "가스펠 그룹 이스라엘 & 뉴브리드가 10월 27일 오후 8시 서울 중구 공감센터 공감홀에서 내한공연을 연다. 관람 시간은 120분이고 전체관람가로 운영되며, 전석 자유석으로 CAT 1부터 CAT 4까지 티켓 등급 순서대로 선착순 입장한다. 티켓 가격은 CAT 1석 17만2000원부터 CAT 4석 6만8000원까지 네 등급으로 나뉜다. 일반예매는 10월 8일 낮 12시 NOL 티켓 단독 판매로 시작된다.",
+      "description": "가스펠 그룹 이스라엘 & 뉴브리드가 10월 27일 오후 8시 서울 중구 공감센터 공감홀에서 내한공연을 열었다. 관람 시간은 120분이고 전체관람가로 운영됐으며, 전석 자유석으로 CAT 1부터 CAT 4까지 티켓 등급 순서대로 선착순 입장했다. 티켓 가격은 CAT 1석 17만2000원부터 CAT 4석 6만8000원까지 네 등급으로 나뉘었다. 일반예매는 10월 8일 낮 12시 NOL 티켓 단독 판매로 시작됐다.",
       "genres": [
         "가스펠",
         "CCM",
@@ -7691,10 +7702,14 @@
       "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26014312_p.gif",
       "source_url": "https://nol.yanolja.com/ticket/products/26014312",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-10-08T12:00:00+09:00",
-      "general_sale_url": "https://nol.yanolja.com/ticket/products/26014312",
-      "updated_at": "2026-10-08"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-02",
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale_end_datetime": null
     },
     {
       "id": "ko-mintfesta-vol88-20261108",
