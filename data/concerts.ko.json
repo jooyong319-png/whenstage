@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-11-02",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -8360,6 +8360,157 @@
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.yes24.com/Perf/60530",
       "updated_at": "2026-10-29"
+    },
+    {
+      "id": "ko-cravity-sonorous-seoul-20261114",
+      "name": "2026 CRAVITY CONCERT 〈SONOROUS〉 in Seoul",
+      "release_date": "2026-11-14",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "올림픽공원(올림픽홀)"
+      ],
+      "developer": "크래비티(CRAVITY)",
+      "publisher": "스타쉽엔터테인먼트, 쇼노트",
+      "description": "크래비티가 11월 14일과 15일 이틀간 서울 올림픽공원 올림픽홀에서 단독 콘서트 'SONOROUS(소노로스)'를 연다. 공연 제목은 9월 30일 발매한 아홉 번째 미니앨범 'SONOROUS'에서 따왔고, 15일 공연은 해외 팬을 위해 온라인으로도 동시 생중계된다. 티켓은 멜론티켓에서 판매되며, 11월 5일 오후 8시에는 1층 G·H구역과 2층 A2·E2구역 시야제한석이 추가로 풀린다. 서울 공연 뒤 11월 21일 부산 KBS홀로 무대를 옮긴다.",
+      "genres": [
+        "K-POP",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13174",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-02"
+    },
+    {
+      "id": "ko-cravity-sonorous-busan-20261121",
+      "name": "2026 CRAVITY CONCERT 〈SONOROUS〉 in Busan",
+      "release_date": "2026-11-21",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KBS부산홀"
+      ],
+      "developer": "크래비티(CRAVITY)",
+      "publisher": "스타쉽엔터테인먼트, 쇼노트",
+      "description": "크래비티의 2026 단독 콘서트 'SONOROUS'가 서울 올림픽홀 이틀 공연에 이어 11월 21일(토) 오후 6시 부산 KBS홀에서 투어의 마지막 무대를 연다. 멜론티켓에서 팬클럽 LUVITY 인증 회원 대상 선예매가 10월 13일 오후 8시에 먼저 열렸고, 일반예매는 10월 15일(목) 오후 8시에 시작됐다. 휠체어석은 10월 16일 오전 10시부터 전화로만 접수했다. 만 7세 이상(2019년생 이상) 관람할 수 있으며 주관은 마루·인엔터가 맡았다.",
+      "genres": [
+        "K-POP",
+        "콘서트"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/10/2026103013575233e976f0-968b-405a-a3f7-5b37ce905f9d.jpg",
+      "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=12877",
+      "presale": false,
+      "presale_datetime": "2026-10-13T20:00:00+09:00",
+      "presale_end_datetime": "2026-10-14T23:59:00+09:00",
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-15T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-02"
+    },
+    {
+      "id": "ko-sungsikyung-year-end-concert-seoul-20261231",
+      "name": "2026 성시경 연말 콘서트 〈성시경〉",
+      "release_date": "2026-12-31",
+      "release_time": "21:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KSPO DOME(올림픽체조경기장)"
+      ],
+      "developer": "성시경",
+      "publisher": "SK재원, 에스이십칠",
+      "description": "성시경이 12월 31일부터 2027년 1월 3일까지 나흘간 서울 올림픽공원 KSPO DOME에서 연말 콘서트를 연다. 12월 31일(목)은 오후 9시, 1월 1일(금)은 오후 7시, 2일(토)과 3일(일)은 오후 6시에 시작하며, 새해를 공연장에서 함께 맞는 일정이다. NOL 티켓에서 팬클럽 선예매가 11월 6일(금) 오후 8시에 먼저 열리고(팬클럽 인증은 11월 2일 오후 4시부터), 일반예매는 11월 12일(목) 오후 8시에 시작된다. 초등학생 이상 관람가이며 공연 시간은 120분 이상이다.",
+      "genres": [
+        "발라드",
+        "콘서트"
+      ],
+      "image_url": "https://ticketimage.interpark.com/TicketImage/notice_poster/20/20261030102111.jpg",
+      "source_url": "https://www.topstarnews.net/news/articleView.html?idxno=16263918",
+      "presale": true,
+      "presale_datetime": "2026-11-06T20:00:00+09:00",
+      "presale_end_datetime": "2026-11-12T14:00:00+09:00",
+      "presale_url": "https://nol.yanolja.com/ticket/products/26015783",
+      "general_sale": true,
+      "general_sale_datetime": "2026-11-12T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://nol.yanolja.com/ticket/products/26015783",
+      "updated_at": "2026-11-02"
+    },
+    {
+      "id": "ko-leeseungyoon-zero-goyang-20261211",
+      "name": "2026 이승윤 콘서트 '0'",
+      "release_date": "2026-12-11",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "킨텍스(제2전시장 10홀)"
+      ],
+      "developer": "이승윤",
+      "publisher": null,
+      "description": "싱어송라이터 이승윤이 12월 11일부터 13일까지 사흘간 고양 킨텍스 제2전시장 10홀에서 연말 단독 콘서트 '0'을 연다. 시작 시각은 11일(금) 오후 7시 30분, 12일(토) 오후 6시, 13일(일) 오후 5시다. 티켓은 NOL 티켓에서 10월 30일 오후 7시에 열렸고, 예매가 시작되자마자 NOL 콘서트 랭킹 1위에 올랐다. 올해 진행한 클럽 투어를 마친 뒤 이어지는 대형 공연으로, 한 해를 정리하는 무대가 될 전망이다.",
+      "genres": [
+        "밴드",
+        "싱어송라이터",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://sports.khan.co.kr/en/article/202610161346007/",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-30T19:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-02"
+    },
+    {
+      "id": "ko-byunjinsub-time-machine-seoul-encore-20261219",
+      "name": "2026 변진섭 전국투어 콘서트 : 변천사 시즌 2.7 - 서울 앵콜",
+      "release_date": "2026-12-19",
+      "release_time": "15:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KBS아레나"
+      ],
+      "developer": "변진섭",
+      "publisher": null,
+      "description": "'발라드 황제' 변진섭이 전국투어 '변천사 시즌 2.7'의 서울 앵콜 공연을 12월 19일(토) 오후 3시 서울 KBS아레나에서 연다. 앞서 열린 서울 공연에 이어 추가로 마련된 무대다. 티켓은 11월 2일(월) 오전 11시 NOL 티켓과 예스24 티켓에서 함께 열린다. 공연 시간은 120분이며 8세 이상 관람할 수 있다. 예매처에 따라 부제가 '타임머신'(NOL)과 '시간여행'(예스24)으로 다르게 표기돼 있다.",
+      "genres": [
+        "발라드",
+        "콘서트"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26015752_p.gif",
+      "source_url": "https://nol.yanolja.com/ticket/products/26015752",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-11-02T11:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://nol.yanolja.com/ticket/products/26015752",
+      "updated_at": "2026-11-02"
     }
   ]
 }
