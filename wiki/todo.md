@@ -12,11 +12,14 @@ Codex가 읽기 전용으로 25건을 냈고, 하나씩 코드로 확인했다. 
 - 블로그/뉴스 상세에서 언어 전환 시 404 → 그 언어 목록으로 · 단방향 hreflang 29쌍 사이트맵에서 제외 · 모달 포커스(이동·가두기·복귀)
 - 검증기: category·timezone·예매 datetime 오프셋·festival_days 형식 검사 추가(현재 데이터 전부 통과)
 
+- Codex가 놓친 것: 캘린더 이름 정렬 `localeCompare`가 서버·브라우저에서 달라 운영 `/ko`·`/ja` 홈 하이드레이션이 깨졌다(React #418·#425). **로컬 dev로는 재현 안 됨 — 운영에서 브라우저로 pageerror를 봐야 잡힌다**
+
 **남긴 것 (결정 필요)**
 - [ ] 🔴 Supabase RLS — `push_subscriptions`가 누구나 조회·수정·삭제 가능(anon 키로 전체 구독 삭제 가능). endpoint 기준 RPC(security definer)로 바꾸려면 SQL 실행 필요
 - [ ] 🔴 관리자 페이지 — `NEXT_PUBLIC_ADMIN_PASS`(브라우저에 노출되는 값) + `data_reports` 공개 조회·수정. 서버 쪽 확인으로 바꿔야 함
 - [ ] 홈·찜 페이지가 전체 공연 데이터를 내려보냄(RSC 383~438KB) — 줄이려면 구조 변경
 - [ ] EN 알림 시각·'오늘' 기준이 KST — 미국 공연·사용자에겐 하루/시각이 어긋남(설계 문제)
+- [ ] 일부만 고침: 상세 페이지 예매 버튼 마감 표시는 열어 둔 채로는 갱신 안 됨(`useSaleWindowEnded`·`useEventEnded`가 마운트 때 1회) / 단방향 hreflang 29쌍은 사이트맵에서 뺐을 뿐 데이터(`related_locale_ids`)는 그대로
 - 해당 없음으로 판단: `prefs.hour` 표시(운영은 매시간 모드라 'KST 기준' 문구와 맞음) · 설명 복사 오류가 '오늘 수정분'만 막는 것(의도된 결정) · 검증기 공연장 괄호 제거(현재 오탐 없음)
 
 ## 🔴 2026-10-13 현재 — "왜 WhenStage인가" = 가수 팔로우 + 예매 전 알림
