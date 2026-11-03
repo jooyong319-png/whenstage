@@ -11,6 +11,13 @@ import { CAL, CATEGORY_LABELS } from '@/lib/i18nLabels';
 import { parseDateOnly } from '@/lib/utils';
 import styles from './CalendarView.module.css';
 
+// 🔴 같은 날 공연의 이름순 — localeCompare를 쓰면 안 된다. 실행 환경의 언어 설정을 따라서 서버(Vercel)와 브라우저의
+// 순서가 달라지고, 그러면 하이드레이션이 깨져 홈 전체를 다시 그린다(운영 /ko·/ja에서 React #418·#425, 2026-11-04 실측.
+// 로컬 dev에선 재현 안 됨). 단순 문자 코드 비교는 어디서나 같다. 화면에서 순서의 의미는 "항상 같은 순서"면 충분하다.
+function compareName(a: string, b: string): number {
+  return a < b ? -1 : a > b ? 1 : 0;
+}
+
 interface Props {
   cursor: Date;
   onCursorChange: (d: Date) => void;
@@ -179,7 +186,7 @@ export function CalendarView({ cursor, onCursorChange, games, wishlist: _wishlis
       if (dateOnly(g.general_sale_datetime) === selectedISO) out.push({ game: g, kind: 'general_sale' });
       if (dateOnly(g.general_sale_end_datetime) === selectedISO) out.push({ game: g, kind: 'general_sale_end' });
     }
-    return out.sort((a, b) => a.game.name.localeCompare(b.game.name));
+    return out.sort((a, b) => compareName(a.game.name, b.game.name));
   }, [selectedISO, games]);
 
   // "다가오는 일정" 미리보기 — 선택 날짜와 무관하게 오늘 이후 가까운 순 최대 4개(출시/선예매/
@@ -199,7 +206,7 @@ export function CalendarView({ cursor, onCursorChange, games, wishlist: _wishlis
     }
     return all
       .filter(e => !shown.has(`${e.game.id}-${e.kind}`))
-      .sort((a, b) => a.date.localeCompare(b.date) || a.game.name.localeCompare(b.game.name))
+      .sort((a, b) => a.date.localeCompare(b.date) || compareName(a.game.name, b.game.name))
       .slice(0, 4);
   }, [games, now, panelEntries]);
 
