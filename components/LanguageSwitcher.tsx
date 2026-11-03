@@ -39,6 +39,9 @@ function buildUrl(target: PageLang, p: Parsed): string {
   if (p.kind === 'home' || p.kind === 'unmapped') {
     return `/${target}`;
   }
+  // 🔴 블로그·뉴스 글은 언어마다 따로 쓴 글이라 슬러그가 겹치지 않는다(content/blog/*.ko.md 등) —
+  //    슬러그를 그대로 두면 다른 언어에선 항상 404였다(Codex 점검 2026-11-04). 같은 언어의 목록으로 보낸다.
+  if (p.kind === 'detail') return `/${target}/${p.rel.split('/')[0]}`;
   return `/${target}/${p.rel}`;
 }
 
@@ -98,7 +101,7 @@ export function LanguageSwitcher({ open, onOpenChange }: Props) {
           {LANGS.map(l => (
             <li key={l.key} role="presentation">
               <a
-                href={buildUrl(l.key, parsed)}
+                href={parsed.lang === l.key ? pathname : buildUrl(l.key, parsed)}
                 className={`${styles.item} ${parsed.lang === l.key ? styles.itemActive : ''}`}
                 role="option"
                 aria-selected={parsed.lang === l.key}

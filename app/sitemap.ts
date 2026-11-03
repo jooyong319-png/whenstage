@@ -102,10 +102,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     en: await getAllGames('en'),
     ja: await getAllGames('ja'),
   };
-  const idSets: Record<Locale, Set<string>> = {
-    ko: new Set(gamesByLocale.ko.map(g => g.id)),
-    en: new Set(gamesByLocale.en.map(g => g.id)),
-    ja: new Set(gamesByLocale.ja.map(g => g.id)),
+  const byId: Record<Locale, Map<string, Game>> = {
+    ko: new Map(gamesByLocale.ko.map(g => [g.id, g])),
+    en: new Map(gamesByLocale.en.map(g => [g.id, g])),
+    ja: new Map(gamesByLocale.ja.map(g => [g.id, g])),
   };
 
   // 설명 복사 묶음의 대표가 아닌 공연은 상세가 noindex라 사이트맵에서도 뺀다(신호를 맞춘다 — lib/descDup.ts)
@@ -128,7 +128,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         const languages: Record<string, string> = { [lang]: `${BASE}/${lang}/concert/${g.id}` };
         for (const relLang of LOCALES) {
           const relId = g.related_locale_ids[relLang];
-          if (relId && idSets[relLang].has(relId) && !dupNoindex[relLang].has(relId)) languages[relLang] = `${BASE}/${relLang}/concert/${relId}`;
+          // 🔴 양방향일 때만 — hreflang은 상대 페이지도 나를 가리켜야 유효하다. 한쪽만 적힌 쌍이 29개였다
+          //    (리서처가 한 로케일에만 related_locale_ids를 적음, Codex 점검 2026-11-04). 구글은 단방향을 무시한다.
+          const back = relId ? byId[relLang].get(relId)?.related_locale_ids?.[lang] : undefined;
+          if (relId && back === g.id && !dupNoindex[relLang].has(relId)) languages[relLang] = `${BASE}/${relLang}/concert/${relId}`;
         }
         if (Object.keys(languages).length > 1) alternates = { languages };
       }

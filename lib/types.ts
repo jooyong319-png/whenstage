@@ -181,9 +181,12 @@ export function effectivePresaleEnd(
 // 날짜/시각까지 따진다(리서처가 채운 presale/general_sale 불리언은 "예정 있음"일 뿐 지금
 // 열려있다는 보장이 아님). 검색 결과 등에서 "예매중" 배지를 띄울 때 씀.
 export function isTicketingLiveNow(
-  g: Pick<Game, 'presale_datetime' | 'presale_end_datetime' | 'general_sale_datetime' | 'general_sale_end_datetime'>,
+  g: Pick<Game, 'presale_datetime' | 'presale_end_datetime' | 'general_sale_datetime' | 'general_sale_end_datetime'
+    | 'release_date' | 'festival_days' | 'timezone' | 'description'>,
   now: Date,
 ): boolean {
+  // 끝난 공연·취소된 공연은 마감일이 비어 있어도 '예매중'이 아니다(Codex 점검 2026-11-04 — 24건이 '예매중'으로 보였다)
+  if (hasEventEnded(g, now) || eventStatusOf(g) === 'cancelled') return false;
   const t = now.getTime();
   const inWindow = (startIso?: string | null, endIso?: string | null): boolean => {
     if (!startIso) return false;

@@ -137,8 +137,10 @@ function kstHour(): number {
 
 export async function GET(req: Request) {
   // 보안: Vercel Cron이 주입하는 Authorization: Bearer <CRON_SECRET> 확인
+  // 🔴 비밀값이 없으면 **막는다** — 예전엔 `secret &&` 때문에 환경변수가 빠지면 누구나 호출할 수 있었다
+  //    (?test=1이면 구독자 전원에게 발송). Codex 점검 2026-11-04.
   const secret = process.env.CRON_SECRET;
-  if (secret && req.headers.get('authorization') !== `Bearer ${secret}`) {
+  if (!secret || req.headers.get('authorization') !== `Bearer ${secret}`) {
     return NextResponse.json({ error: 'unauthorized' }, { status: 401 });
   }
 
@@ -292,6 +294,12 @@ export async function GET(req: Request) {
       if (code === 404 || code === 410) {
         await supabase.from('push_subscriptions').delete().eq('endpoint', s.endpoint);
         pruned++;
+      } else {
+        // 일시 실패(푸시 서버 5xx·타임아웃)면 기록을 지워 다음 시간 크론이 다시 보내게 한다 — 기록을 먼저
+        // 넣는 건 동시 호출(cron-job.org + GitHub) 중복을 막기 위해서인데, 실패까지 '보냄'으로 남으면
+        // 그 알림은 영영 안 갔다(Codex 점검 2026-11-04). 단 '당일' 류는 날이 바뀌면 다시 후보가 안 된다.
+        await supabase.from('push_sent_log').delete()
+          .eq('endpoint', s.endpoint).eq('game_id', id).eq('kind', kind);
       }
       return false;
     }

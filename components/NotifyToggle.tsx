@@ -29,7 +29,8 @@ export function NotifyToggle() {
           // 브라우저에 구독 객체가 남아있어도, 서버(DB)에 실제로 등록돼 있어야 알림이 실제로
           // 온다 — 예전에 끄기를 눌렀는데 브라우저 쪽 unsubscribe()가 조용히 실패해서 DB만
           // 지워지고 브라우저 구독은 남아있던 경우, 여기서 걸러서 진짜로 정리한다.
-          if (await isEndpointRegistered(sub.endpoint)) { setState('on'); return; }
+          // 조회 실패(null)면 브라우저 구독을 믿고 켜진 상태로 둔다 — 실패를 "없음"으로 보고 해지하면 안 된다
+          if ((await isEndpointRegistered(sub.endpoint)) !== false) { setState('on'); return; }
           await sub.unsubscribe().catch(() => {});
           markNotifyOptedOut(); // DB에 없는 상태는 "구독 없음"으로 취급 — 다음에 다시 켤 땐 토글을 명시적으로 눌러야 함
           setState('off');

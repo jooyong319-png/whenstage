@@ -8,6 +8,7 @@ import { CategoryFilterBar } from './CategoryFilterBar';
 import { ScheduleCard, type ScheduleKind } from './ScheduleCard';
 import { useLocale } from '@/hooks/useLocale';
 import { CAL, CATEGORY_LABELS } from '@/lib/i18nLabels';
+import { parseDateOnly } from '@/lib/utils';
 import styles from './CalendarView.module.css';
 
 interface Props {
@@ -205,7 +206,7 @@ export function CalendarView({ cursor, onCursorChange, games, wishlist: _wishlis
   const isToday = selectedISO === toISO(now);
   const panelTitle = isToday
     ? (t ? t.todaySchedule : '오늘의 일정')
-    : `${selectedISO} (${(t ? t.weekdays : ['일','월','화','수','목','금','토'])[new Date(selectedISO).getDay()]})`;
+    : `${selectedISO} (${(t ? t.weekdays : ['일','월','화','수','목','금','토'])[parseDateOnly(selectedISO).getDay()]})`;
 
   return (
     <section className={styles.view}>

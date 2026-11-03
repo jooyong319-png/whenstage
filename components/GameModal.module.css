@@ -211,3 +211,6 @@
   .imageEmoji { font-size: 2.2rem; }
   .actions { gap: 0.4rem; }
 }
+
+/* 열릴 때 코드로 옮긴 포커스엔 테두리를 그리지 않는다(키보드 포커스는 그대로 보임) */
+.modal:focus:not(:focus-visible) { outline: none; }

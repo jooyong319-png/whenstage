@@ -7,6 +7,9 @@ create table if not exists public.push_subscriptions (
   game_ids   text[] not null default '{}',
   updated_at timestamptz not null default now()
 );
+-- 알림 설정(lib/notifyPrefs.ts: offsets·categories·ticketing·hour) — 운영 DB엔 이미 있는데 이 파일에 빠져 있었다
+-- (Codex 점검 2026-11-04). 새로 만드는 DB에서 이게 없으면 크론 조회가 실패한다.
+alter table public.push_subscriptions add column if not exists prefs jsonb;
 -- game_ids 배열 겹침(overlaps) 조회 가속
 create index if not exists push_subscriptions_game_ids_idx
   on public.push_subscriptions using gin (game_ids);

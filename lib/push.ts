@@ -80,14 +80,17 @@ export async function getCurrentSubscription(): Promise<PushSubscription | null>
 // DB(push_subscriptions)에 이 endpoint가 실제로 등록돼 있는지 — 브라우저 레벨 구독 객체가
 // 남아있어도(unsubscribe()가 브라우저 쪽에서만 조용히 실패한 경우 등) 서버가 실제로 알림을
 // 보낼지는 이 테이블 기준이므로, ON/OFF 표시는 브라우저 상태만으로 판단하면 안 된다.
-export async function isEndpointRegistered(endpoint: string): Promise<boolean> {
-  if (!isSupabaseReady() || !supabase) return false;
+// 🔴 조회 **실패**(네트워크·Supabase 장애)는 null — "없음(false)"과 구분한다. 예전엔 실패도 false라서
+//    호출부가 멀쩡한 구독을 해지해 버렸다(Codex 점검 2026-11-04).
+export async function isEndpointRegistered(endpoint: string): Promise<boolean | null> {
+  if (!isSupabaseReady() || !supabase) return null;
   const { data, error } = await supabase
     .from('push_subscriptions')
     .select('endpoint')
     .eq('endpoint', endpoint)
     .maybeSingle();
-  return !error && !!data;
+  if (error) return null;
+  return !!data;
 }
 
 async function saveSubscription(sub: PushSubscription, gameIds: string[]): Promise<void> {

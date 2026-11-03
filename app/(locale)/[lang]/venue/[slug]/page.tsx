@@ -76,7 +76,7 @@ export default async function VenueDetailPage({ params }: Props) {
         {venue.events.length === 0 ? (
           <p className={styles.empty}>{ui.artistNoEvents}</p>
         ) : (
-          <EventList events={venue.events} />
+          <EventList events={venue.events} serverNow={new Date().toISOString()} />
         )}
       </article>
     </PageShell>

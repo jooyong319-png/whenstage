@@ -13,6 +13,9 @@ import { execFileSync } from 'node:child_process';
 const MUST_BE_ARRAY = ['platforms', 'genres'];
 /** 반드시 있어야 하는 필드 */
 const REQUIRED = ['id', 'name', 'release_date', 'category'];
+/** lib/types.ts Category와 같아야 한다 */
+const CATEGORIES = new Set(['concert_tour', 'festival', 'fanmeeting', 'music_release']);
+const DATETIME_FIELDS = ['presale_datetime', 'presale_end_datetime', 'general_sale_datetime', 'general_sale_end_datetime'];
 
 const files = ['data/concerts.ko.json', 'data/concerts.en.json', 'data/concerts.ja.json'];
 const problems = [];
@@ -196,6 +199,34 @@ for (const file of files) {
         problems.push(`${file} / ${id}: updated_at 형식이 YYYY-MM-DD가 아니다 (${g.updated_at})`);
       } else if (g.updated_at > today) {
         problems.push(`${file} / ${id}: updated_at이 미래 날짜다 (${g.updated_at})`);
+      }
+    }
+    // 형식 검사 (2026-11-04, Codex 점검) — 지금 데이터는 다 통과한다. 틀린 값이 들어오면 화면에서 조용히
+    // 깨지는 것들이다: 모르는 category는 배지·색이 비고, 시간대가 틀리면 Intl이 예외를 던져 프리렌더가 죽고,
+    // 오프셋 없는 datetime은 서버(UTC)와 브라우저 시간대에 따라 다른 시각이 된다.
+    if (g?.category != null && !CATEGORIES.has(g.category)) {
+      problems.push(`${file} / ${id}: category '${g.category}'는 없는 값이다 (${[...CATEGORIES].join('·')})`);
+    }
+    if (g?.timezone != null) {
+      try { new Intl.DateTimeFormat('en', { timeZone: g.timezone }); }
+      catch { problems.push(`${file} / ${id}: timezone '${g.timezone}'가 IANA 시간대가 아니다 (예: Asia/Seoul)`); }
+    }
+    for (const key of DATETIME_FIELDS) {
+      const v = g?.[key];
+      if (v == null) continue;
+      if (typeof v !== 'string' || Number.isNaN(Date.parse(v)) || !/(?:[+-]\d{2}:\d{2}|Z)$/.test(v)) {
+        problems.push(`${file} / ${id}: ${key}는 오프셋이 붙은 ISO 시각이어야 한다 (예: 2026-11-04T20:00:00+09:00) — ${JSON.stringify(v)}`);
+      }
+    }
+    if (g?.festival_days != null) {
+      if (!Array.isArray(g.festival_days)) {
+        problems.push(`${file} / ${id}: festival_days는 배열이어야 한다`);
+      } else {
+        for (const d of g.festival_days) {
+          if (!d || !/^\d{4}-\d{2}-\d{2}$/.test(d.date ?? '') || !Array.isArray(d.lineup)) {
+            problems.push(`${file} / ${id}: festival_days 항목은 { date: 'YYYY-MM-DD', lineup: [] } 형식이어야 한다 — ${JSON.stringify(d)}`);
+          }
+        }
       }
     }
     if (g?.release_date && !/^\d{4}-\d{2}-\d{2}$/.test(g.release_date)) {

@@ -34,8 +34,27 @@ export function GameModal({ game, onClose, wishlist }: Props) {
     const img = imgRef.current;
     if (img && img.complete && img.naturalWidth === 0) setImgError(true);
   }, [game.image_url]);
+  // 포커스 관리(2026-11-04, Codex 점검) — 열리면 대화상자로 옮기고, Tab은 안에서만 돌고, 닫히면
+  // 연 버튼으로 돌려준다. 예전엔 포커스가 뒤 페이지에 남아 키보드·스크린리더로는 모달을 못 썼다.
+  const dialogRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
-    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose(); };
+    const opener = document.activeElement as HTMLElement | null;
+    dialogRef.current?.focus({ preventScroll: true });
+    return () => { if (opener && document.contains(opener)) opener.focus({ preventScroll: true }); };
+  }, []);
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') { onClose(); return; }
+      if (e.key !== 'Tab' || !dialogRef.current) return;
+      const items = dialogRef.current.querySelectorAll<HTMLElement>(
+        'a[href], button:not([disabled]), input:not([disabled]), select, textarea, [tabindex]:not([tabindex="-1"])');
+      if (!items.length) return;
+      const first = items[0], last = items[items.length - 1];
+      const active = document.activeElement;
+      if (e.shiftKey && (active === first || active === dialogRef.current)) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && active === last) { e.preventDefault(); first.focus(); }
+      else if (!dialogRef.current.contains(active)) { e.preventDefault(); first.focus(); }
+    };
     window.addEventListener('keydown', onKey);
     document.body.style.overflow = 'hidden';
     return () => {
@@ -71,6 +90,8 @@ export function GameModal({ game, onClose, wishlist }: Props) {
       transition={{ duration: 0.2 }}
     >
       <motion.div
+        ref={dialogRef}
+        tabIndex={-1}
         className={styles.modal}
         role="dialog"
         aria-modal="true"

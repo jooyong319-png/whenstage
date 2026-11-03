@@ -1,11 +1,12 @@
 'use client';
-import { useEffect, useMemo, useState, type CSSProperties, type MouseEvent } from 'react';
+import { useMemo, type CSSProperties, type MouseEvent } from 'react';
 import type { Game } from '@/lib/types';
 import { availableTicketingUrl, eventStatusOf, nextTicketOpening, dateInZone, CATEGORY_META } from '@/lib/types';
 import { calcDayDiff, formatEventDateTimeShort, formatDateShort } from '@/lib/utils';
 import { trackEvent } from '@/lib/analytics';
 import { useLocale } from '@/hooks/useLocale';
 import { CAL } from '@/lib/i18nLabels';
+import { useLiveNow } from '@/hooks/useLiveNow';
 import styles from './TicketingBoard.module.css';
 
 interface Props {
@@ -31,8 +32,8 @@ export function TicketingBoard({ games, now, onPick }: Props) {
   const lang = useLocale();
   const t = lang ? CAL[lang] : null;
   // mount 후 실제 현재 시각 — "오늘 20시 오픈"이 지났는지까지 따진다. 첫 렌더는 now(서버와 동일)
-  const [instant, setInstant] = useState<Date>(now);
-  useEffect(() => { setInstant(new Date()); }, []);
+  // 1분마다 갱신 — 페이지를 열어 둔 채 오픈 시각이 지나면 '곧 오픈'에서 '예매 중'으로 넘어간다
+  const instant = useLiveNow() ?? now;
 
   const { soon, onSale } = useMemo(() => {
     const limit = instant.getTime() + SOON_DAYS * 86400e3;

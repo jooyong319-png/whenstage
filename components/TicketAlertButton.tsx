@@ -1,7 +1,7 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useWishlist } from '@/hooks/useWishlist';
-import { pushConfigured, pushSupported, subscribePush } from '@/lib/push';
+import { pushConfigured, pushSupported, subscribePush, getCurrentSubscription } from '@/lib/push';
 import { showToast } from '@/lib/toast';
 import { trackEvent } from '@/lib/analytics';
 import { useLocale } from '@/hooks/useLocale';
@@ -19,7 +19,20 @@ export function TicketAlertButton({ id }: { id: string }) {
   const lang = useLocale();
   const t = lang ? CAL[lang] : null;
   const wishlist = useWishlist();
-  const on = wishlist.has(id);
+  const wished = wishlist.has(id);
+  // 이 브라우저에 알림 구독이 있는지 — null = 아직 모름(첫 렌더·SSR)
+  // 🔴 예전엔 '켜짐 = 찜'이었다. 하트로 찜만 하고 알림은 안 켠 사람에게도 "알림 받는 중"이 떴고,
+  //    누르면 알림이 켜지는 게 아니라 찜이 풀렸다(Codex 점검 2026-11-04).
+  const [subscribed, setSubscribed] = useState<boolean | null>(null);
+  useEffect(() => {
+    let alive = true;
+    if (!pushConfigured() || !pushSupported()) { setSubscribed(false); return; }
+    getCurrentSubscription().then(s => { if (alive) setSubscribed(!!s); }).catch(() => { if (alive) setSubscribed(false); });
+    return () => { alive = false; };
+  }, []);
+  // 알림을 못 쓰는 브라우저는 찜이 곧 할 수 있는 전부라 찜 기준으로 표시
+  const canPush = pushConfigured() && pushSupported();
+  const on = wished && (!canPush || subscribed !== false);
   const [busy, setBusy] = useState(false);
 
   const onClick = async () => {
@@ -32,10 +45,12 @@ export function TicketAlertButton({ id }: { id: string }) {
     // 구독을 **먼저** 하고 찜은 나중에 — 찜 토글은 권한이 '미결정'이면 "알림 켤까요?" 토스트를 띄운다
     // (hooks/useWishlist nudgeNotify). 여기서 권한을 먼저 정해 두면 그 안내가 겹쳐 뜨지 않는다.
     setBusy(true);
-    const r = await subscribePush([...wishlist.ids, id]);
+    const ids = wished ? [...wishlist.ids] : [...wishlist.ids, id];
+    const r = await subscribePush(ids);
     setBusy(false);
-    wishlist.toggle(id);
+    if (!wished) wishlist.toggle(id);   // 이미 찜한 공연이면 찜은 그대로 두고 알림만 켠다
     if (r === 'ok') {
+      setSubscribed(true);
       trackEvent('notify_enable', { source: 'ticket_alert', game_id: id });
       showToast(t ? t.ticketAlertOnToast : '예매가 열리면 알려 드릴게요');
     } else if (r === 'denied') {

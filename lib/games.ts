@@ -2,7 +2,7 @@
 import { dupNoindexIds } from './descDup';
 import path from 'path';
 import { promises as fs } from 'fs';
-import { type Game, type GamesData, type Category } from './types';
+import { type Game, type GamesData, type Category, eventEndDate } from './types';
 import { kstDateOnly } from './utils';
 
 // ko/en/ja는 서로 번역이 아니라 완전히 독립된 콘텐츠(국가/지역별 실제 공연) —
@@ -67,15 +67,16 @@ function todayKstStr(): string {
 }
 
 // 이미 지난 출시 제외 (오늘 이후 + 출시일 미정만) — '출시 예정' 표면용.
+// 다일 공연(페스티벌)은 **마지막 날** 기준 — 첫날 기준이면 둘째 날부터 목록에서 사라졌다(2026-11-04).
 // 정적 생성이라 빌드 시각 기준(데이터 일일 갱신 시 재배포로 신선도 유지).
 export async function getUpcomingGames(locale: GameLocale = 'ko'): Promise<Game[]> {
   const today = todayKstStr();
-  return (await getAllGames(locale)).filter(g => g.release_date_approx || g.release_date >= today);
+  return (await getAllGames(locale)).filter(g => g.release_date_approx || eventEndDate(g) >= today);
 }
 
 export async function getUpcomingGamesByCategory(category: Category, locale: GameLocale = 'ko'): Promise<Game[]> {
   const today = todayKstStr();
-  return (await getGamesByCategory(category, locale)).filter(g => g.release_date_approx || g.release_date >= today);
+  return (await getGamesByCategory(category, locale)).filter(g => g.release_date_approx || eventEndDate(g) >= today);
 }
 
 // 데이터 갱신 시각

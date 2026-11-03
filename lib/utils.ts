@@ -15,7 +15,8 @@ export function calcDayDiff(release_date: string, now: Date = new Date()): numbe
   r.setHours(0, 0, 0, 0);
   const t = new Date(now);
   t.setHours(0, 0, 0, 0);
-  return Math.ceil((r.getTime() - t.getTime()) / (1000 * 60 * 60 * 24));
+  // 둘 다 로컬 자정이라 차이는 하루의 정수배 — 단 서머타임 전환일은 23/25시간이라 ceil이면 하루가 더해진다 → round
+  return Math.round((r.getTime() - t.getTime()) / (1000 * 60 * 60 * 24));
 }
 
 // SSR(서버=UTC)와 클라(=KST, UTC+9)의 하이드레이션 불일치 방지용.

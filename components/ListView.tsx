@@ -6,6 +6,7 @@ import { CategoryFilterBar } from './CategoryFilterBar';
 import { RequestShowButton } from './RequestShowButton';
 import { useLocale } from '@/hooks/useLocale';
 import { CAL } from '@/lib/i18nLabels';
+import { useLiveNow } from '@/hooks/useLiveNow';
 import styles from './ListView.module.css';
 
 interface Props {
@@ -22,6 +23,7 @@ interface Props {
 export function ListView({ games, wishlist, onPick, now, category, onCategory, query }: Props) {
   const lang = useLocale();
   const t = lang ? CAL[lang] : null;
+  const live = useLiveNow() ?? now;   // '예매중' 판단은 실제 시각으로(now는 오늘 자정)
 
   const items = [...games].sort((a, b) => a.release_date.localeCompare(b.release_date));
 
@@ -47,7 +49,7 @@ export function ListView({ games, wishlist, onPick, now, category, onCategory, q
               now={now}
               wishlist={wishlist}
               onPick={onPick}
-              preBadge={isTicketingLiveNow(g, now) ? (t ? t.onSaleNowBadge : '예매중') : undefined}
+              preBadge={isTicketingLiveNow(g, live) ? (t ? t.onSaleNowBadge : '예매중') : undefined}
             />
           ))}
         </ul>

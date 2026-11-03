@@ -17,6 +17,7 @@ import { useWishlist } from '@/hooks/useWishlist';
 import { useWishlistFilter } from '@/hooks/useWishlistFilter';
 import { useLocale } from '@/hooks/useLocale';
 import { CAL, UI } from '@/lib/i18nLabels';
+import { ServerNowProvider } from '@/hooks/useLiveNow';
 import styles from './Home.module.css';
 
 interface HomeProps {
@@ -212,6 +213,7 @@ export function Home({ initialGames, lastUpdated, serverNow, artistAliases, card
   }, [initialGames, cardImages, now]);
 
   return (
+    <ServerNowProvider value={serverNow}>
     <div className={styles.home}>
       <HeroSpotlight
         slides={heroSlides}
@@ -301,5 +303,6 @@ export function Home({ initialGames, lastUpdated, serverNow, artistAliases, card
         {openGame && <GameModal game={openGame} onClose={() => closeModal()} wishlist={wishlist} />}
       </AnimatePresence>
     </div>
+    </ServerNowProvider>
   );
 }

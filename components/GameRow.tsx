@@ -5,6 +5,7 @@ import type { Game } from '@/lib/types';
 import { CATEGORY_META, availableTicketingUrl, eventStatusOf, nextTicketOpening, dateInZone } from '@/lib/types';
 import { trackEvent } from '@/lib/analytics';
 import { calcDayDiff, getKoreanWeekday, parseDateOnly } from '@/lib/utils';
+import { useLiveNow } from '@/hooks/useLiveNow';
 import { useLocale } from '@/hooks/useLocale';
 import { UI, CAL, CATEGORY_LABELS, pastLabel } from '@/lib/i18nLabels';
 import styles from './GameRow.module.css';
@@ -30,6 +31,8 @@ export function GameRow({ game: g, now, wishlist, onPick, preBadge }: Props) {
     if (img && img.complete && img.naturalWidth === 0) setImgError(true);
   }, [g.image_url]);
   const showImg = !!g.image_url && !imgError;
+  // 판매 시각 판단은 실제 시각(live)으로 — now는 날짜 기준. 첫 렌더는 now(서버와 같게)
+  const live = useLiveNow() ?? now;
   const diff = calcDayDiff(g.release_date, now);
   const released = diff < 0;
   const isToday = diff === 0;
@@ -40,14 +43,14 @@ export function GameRow({ game: g, now, wishlist, onPick, preBadge }: Props) {
   const status = eventStatusOf(g);
   const statusText = status === 'cancelled' ? (t ? t.cancelledTag : '취소') : status === 'postponed' ? (t ? t.postponedTag : '연기') : null;
   // 예매가 아직 안 열렸으면 배지는 **예매까지 남은 날**이다 — 사람들이 기다리는 건 예매 오픈이다(2026-10-13)
-  const opening = !statusText && !released ? nextTicketOpening(g, now) : null;
+  const opening = !statusText && !released ? nextTicketOpening(g, live) : null;
   const ticketDiff = opening ? calcDayDiff(dateInZone(opening.at, g.timezone || 'Asia/Seoul'), now) : null;
   const ticketText = ticketDiff == null || !t ? null : ticketDiff <= 0 ? t.ticketToday : t.ticketDday(`D-${ticketDiff}`);
   const dd = statusText ?? ticketText ?? (g.release_date_approx ? tba : released ? releasedText : isToday ? 'D-DAY' : `D-${diff}`);
   const cat = CATEGORY_META[g.category];
   const isWished = wishlist.has(g.id);
   // 지금 바로 예매 가능(상시판매 포함)하면 예매 버튼 노출 — 리스트/검색에서도 바로 예매처로.
-  const buyCta = availableTicketingUrl(g, now);
+  const buyCta = availableTicketingUrl(g, live);
   const mmdd = g.release_date_approx ? tba : g.release_date.slice(5).replace('-', '/');
   const weekdayName = lang ? t!.weekdays[parseDateOnly(g.release_date).getDay()] : getKoreanWeekday(g.release_date);
   const weekday = g.release_date_approx ? '' : `(${weekdayName})`;

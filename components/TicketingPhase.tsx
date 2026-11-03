@@ -3,6 +3,7 @@ import { Fragment, useEffect, useState } from 'react';
 import { useLocale } from '@/hooks/useLocale';
 import { CAL } from '@/lib/i18nLabels';
 import { formatEventDateTime } from '@/lib/utils';
+import { useLiveNow } from '@/hooks/useLiveNow';
 import styles from './TicketingPhase.module.css';
 
 interface Props {
@@ -48,11 +49,14 @@ export function TicketingPhase({ label, startDateTime, endDateTime, timezone }: 
 
   const startMs = startDateTime ? new Date(startDateTime).getTime() : null;
   const endMs = endDateTime ? new Date(endDateTime).getTime() : null;
-  const notStartedYet = startMs != null && Date.now() < startMs;
+  // 렌더 중 Date.now()는 서버(빌드 시각)와 달라 하이드레이션이 깨진다 — 마운트 전(null)엔 '시작 전'으로 그린다
+  const live = useLiveNow();
+  const nowMs = live ? Date.now() : null;
+  const notStartedYet = startMs != null && (nowMs == null || nowMs < startMs);
   const targetMs = notStartedYet ? startMs : endMs;
 
   const { mounted, parts } = useCountdown(targetMs);
-  const ended = endMs != null && Date.now() >= endMs && !notStartedYet;
+  const ended = endMs != null && nowMs != null && nowMs >= endMs && !notStartedYet;
   const showTimer = targetMs != null && mounted && parts;
   const showSkeleton = targetMs != null && !mounted;
 

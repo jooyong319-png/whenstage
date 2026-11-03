@@ -5,6 +5,7 @@ import type { Game } from '@/lib/types';
 import { CATEGORY_META, effectivePresaleEnd, availableTicketingUrl } from '@/lib/types';
 import { trackEvent } from '@/lib/analytics';
 import { formatDateShort, formatEventDateTimeShort } from '@/lib/utils';
+import { useLiveNow } from '@/hooks/useLiveNow';
 import { useLocale } from '@/hooks/useLocale';
 import { CAL, CATEGORY_LABELS } from '@/lib/i18nLabels';
 import { useSaleWindowEnded } from '@/hooks/useSaleWindowEnded';
@@ -64,7 +65,9 @@ export function ScheduleCard({ game, kind, onPick, now }: Props) {
   const ctaEnded = useSaleWindowEnded(ctaEndDateTime);
   // 공연일(release) 카드용 — 지금 바로 예매 가능하면(상시판매 포함) "예매하기" 버튼. 예매 시작일
   // 카드(위 kind별 CTA)와 별개로, 시작 datetime이 없어 카드가 안 생기는 상시판매 링크를 노출.
-  const buyCta = kind === 'release' ? availableTicketingUrl(game, now) : null;
+  // 판매 시각 판단은 실제 시각(live)으로 — now는 '오늘 자정'이다. 첫 렌더는 now(서버와 같게)
+  const live = useLiveNow() ?? now;
+  const buyCta = kind === 'release' ? availableTicketingUrl(game, live) : null;
 
   return (
     <motion.div

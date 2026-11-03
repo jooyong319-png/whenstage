@@ -156,7 +156,7 @@ export default async function ArtistDetailPage({ params }: Props) {
         {artist.events.length === 0 ? (
           <p className={styles.empty}>{ui.artistNoEvents}</p>
         ) : (
-          <EventList events={artist.events} />
+          <EventList events={artist.events} serverNow={new Date().toISOString()} />
         )}
       </article>
     </PageShell>

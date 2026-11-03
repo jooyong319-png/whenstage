@@ -127,10 +127,12 @@ export async function getRelatedPosts(slug: string, lang: Locale, limit = 3): Pr
 // 간단한 마크다운 → HTML 변환 (외부 라이브러리 없이)
 // 기본 문법만 지원: 제목(#), 굵게(**), 이탤릭(*), 링크([](url)), 리스트(-), 단락
 export function markdownToHtml(md: string): string {
-  let html = md;
+  // 🔴 원고(AI 에이전트가 매일 씀)의 글자를 **먼저** 이스케이프한다 — 예전엔 원문 HTML이 그대로 통과했고
+  //    링크 주소도 이스케이프 없이 href에 들어갔다(Codex 점검 2026-11-04). 원고에 HTML 태그는 쓰지 않는다.
+  let html = escape(md);
 
-  // 코드 블록 (3중 백틱)
-  html = html.replace(/```([\s\S]*?)```/g, (_, code) => `<pre><code>${escape(code.trim())}</code></pre>`);
+  // 코드 블록 (3중 백틱) — 위에서 이미 이스케이프됨
+  html = html.replace(/```([\s\S]*?)```/g, (_, code) => `<pre><code>${code.trim()}</code></pre>`);
 
   // 헤더
   html = html.replace(/^### (.+)$/gm, '<h3>$1</h3>');
@@ -142,7 +144,13 @@ export function markdownToHtml(md: string): string {
   html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
 
   // 링크
-  html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+  // 링크 — javascript:·data: 같은 스킴은 막는다(http(s)·상대 경로만). 따옴표는 위 이스케이프로 이미 &quot;
+  html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (all, text: string, href: string) => {
+    const h = href.trim();
+    const scheme = /^([a-z][a-z0-9+.-]*):/i.exec(h.replace(/&#?\w+;/g, ''));
+    if (scheme && !/^(https?|mailto)$/i.test(scheme[1])) return text;
+    return `<a href="${h}">${text}</a>`;
+  });
 
   // 리스트 (- 로 시작)
   html = html.replace(/^- (.+)$/gm, '<li>$1</li>');
