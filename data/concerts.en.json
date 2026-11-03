@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-10-30",
+  "last_updated": "2026-11-03",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -10659,6 +10659,101 @@
         "ko": "ko-chenle-leles-show-2-seoul-20261124"
       },
       "updated_at": "2026-10-30"
+    },
+    {
+      "id": "en-sung-si-kyung-year-end-concert-seoul-20261231",
+      "name": "2026 Sung Si-kyung Year-End Concert",
+      "release_date": "2026-12-31",
+      "release_time": "21:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KSPO Dome, Seoul(Olympic Park)"
+      ],
+      "developer": "Sung Si-kyung",
+      "publisher": null,
+      "description": "Ballad singer Sung Si-kyung rings in 2027 at KSPO Dome with four year-end shows: December 31 at 9 p.m., January 1 at 7 p.m., and January 2 and 3 at 6 p.m. KST. NOL Ticket opens a fan club presale for PURPLEOCEAN KOREA and PURPLEOCEAN JAPAN members on November 6 at 8 p.m. KST, then the general sale on November 12 at 8 p.m. KST. Overseas fans can book on NOL World, which lists seats from 121,000 to 165,000 won. The show runs about two hours and admits elementary school students and older.",
+      "genres": [
+        "Ballad",
+        "Concert"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26015783_p.gif",
+      "source_url": "https://www.starnewskorea.com/en/star/2026/10/30/2026103016580558394",
+      "presale": true,
+      "presale_datetime": "2026-11-06T20:00:00+09:00",
+      "presale_end_datetime": "2026-11-12T14:00:00+09:00",
+      "presale_url": "https://world.nol.com/en/ticket/products/26015783",
+      "general_sale": true,
+      "general_sale_datetime": "2026-11-12T20:00:00+09:00",
+      "general_sale_url": "https://world.nol.com/en/ticket/products/26015783",
+      "related_locale_ids": {
+        "ko": "ko-sungsikyung-year-end-concert-seoul-20261231"
+      },
+      "updated_at": "2026-11-03"
+    },
+    {
+      "id": "en-cravity-sonorous-seoul-20261114",
+      "name": "2026 CRAVITY CONCERT <SONOROUS> in Seoul",
+      "release_date": "2026-11-14",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Olympic Park, Seoul(Olympic Hall)"
+      ],
+      "developer": "CRAVITY",
+      "publisher": "Starship Entertainment, SHOWNOTE",
+      "description": "CRAVITY bring SONOROUS, named after their ninth mini album, to Olympic Hall in Seoul's Olympic Park on November 14 and 15. Starship Entertainment says the November 15 show will also stream live online for global fans who cannot make the trip. Melon Ticket sells the shows on both its Korean and Global pages, and it will release extra obstructed-view seats in sections G, H, A2 and E2 on November 5 at 8 p.m. KST, capped at two per person per show.",
+      "genres": [
+        "K-Pop",
+        "Concert"
+      ],
+      "image_url": null,
+      "source_url": "https://sports.khan.co.kr/en/article/202609161058007",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "related_locale_ids": {
+        "ko": "ko-cravity-sonorous-seoul-20261114"
+      },
+      "updated_at": "2026-11-03"
+    },
+    {
+      "id": "en-cravity-sonorous-busan-20261121",
+      "name": "2026 CRAVITY CONCERT <SONOROUS> in Busan",
+      "release_date": "2026-11-21",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KBS Hall, Busan"
+      ],
+      "developer": "CRAVITY",
+      "publisher": "Starship Entertainment, SHOWNOTE",
+      "description": "The SONOROUS run closes in Busan on Saturday, November 21, at 6 p.m. KST at KBS Hall, one week after CRAVITY's two Olympic Hall nights in Seoul. Melon Ticket held a LUVITY fan club presale on October 13 and opened the general sale on October 15, both at 8 p.m. KST; fans who verify on the Global page must also buy there. VIP seats cost 198,000 won and include a pre-show sound check, general seats 154,000 won, and attendees must be 7 or older.",
+      "genres": [
+        "K-Pop",
+        "Concert"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/10/2026103013575233e976f0-968b-405a-a3f7-5b37ce905f9d.jpg",
+      "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=12877",
+      "presale": false,
+      "presale_datetime": "2026-10-13T20:00:00+09:00",
+      "presale_end_datetime": "2026-10-14T23:59:00+09:00",
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-15T20:00:00+09:00",
+      "general_sale_url": null,
+      "related_locale_ids": {
+        "ko": "ko-cravity-sonorous-busan-20261121"
+      },
+      "updated_at": "2026-11-03"
     }
   ]
 }
