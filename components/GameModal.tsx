@@ -2,8 +2,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion } from 'motion/react';
 import type { Game } from '@/lib/types';
-import { CATEGORY_META, eventStatusOf } from '@/lib/types';
-import { calcDayDiff, parseDateOnly } from '@/lib/utils';
+import { CATEGORY_META, eventStatusOf, eventEndDate } from '@/lib/types';
+import { calcEventDayDiff, parseDateOnly } from '@/lib/utils';
 import { ShareButton } from './ShareButton';
 import { TicketingPhase } from './TicketingPhase';
 import { useSaleWindowEnded } from '@/hooks/useSaleWindowEnded';
@@ -63,7 +63,7 @@ export function GameModal({ game, onClose, wishlist }: Props) {
     };
   }, [onClose]);
 
-  const diff = calcDayDiff(game.release_date);
+  const diff = calcEventDayDiff(game.release_date, eventEndDate(game));
   const tba = ui ? ui.tba : '미정';
   const releasedText = t ? pastLabel(game.category, t) : '종료';
   const status = eventStatusOf(game);

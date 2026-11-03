@@ -7,7 +7,7 @@ import { getVenueBySlug, normalizeVenueKey, VENUE_CATEGORIES } from '@/lib/venue
 import { formatShortDate, calcDayDiff } from '@/lib/utils';
 import { CATEGORY_LABELS, UI, CAL, LOCALES, OG_LOCALE, type Locale } from '@/lib/i18nLabels';
 import type { Game } from '@/lib/types';
-import { effectivePresaleEnd, hasEventEnded, eventStatusOf, nextTicketOpening } from '@/lib/types';
+import { effectivePresaleEnd, hasEventEnded, eventStatusOf, eventEndDate, nextTicketOpening } from '@/lib/types';
 import { PageShell } from '@/components/PageShell';
 import { WishlistButton } from '@/components/WishlistButton';
 import { TicketAlertButton } from '@/components/TicketAlertButton';
@@ -110,7 +110,7 @@ export default async function LocaleGamePage({ params }: Props) {
   const relImg = (g: Game): string | null =>
     g.image_url || (g.developer ? artistImgs[normalizeArtistKey(g.developer)] ?? null : null);
 
-  const isUpcoming = (g: Game) => g.release_date_approx || calcDayDiff(g.release_date) >= 0;
+  const isUpcoming = (g: Game) => g.release_date_approx || calcDayDiff(eventEndDate(g)) >= 0;
 
   const artist = game.developer ? await getArtistBySlug(normalizeArtistKey(game.developer), lang) : null;
   const artistOthers = artist
@@ -263,7 +263,7 @@ export default async function LocaleGamePage({ params }: Props) {
       <article className="concert-detail">
         <div className="detail-head">
           <span className={`category-tag cat-bg-${game.category}`}>{CATEGORY_LABELS[lang][game.category]}</span>
-          <DdayBadge releaseDate={game.release_date} approx={game.release_date_approx} category={game.category} status={status} ticketAt={nextTicketOpening(game, new Date())?.at} timezone={game.timezone} />
+          <DdayBadge releaseDate={game.release_date} endDate={eventEndDate(game)} approx={game.release_date_approx} category={game.category} status={status} ticketAt={nextTicketOpening(game, new Date())?.at} timezone={game.timezone} />
         </div>
         <h1>{game.name}</h1>
         {(status !== 'scheduled' || ended) && (

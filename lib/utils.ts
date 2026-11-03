@@ -19,6 +19,13 @@ export function calcDayDiff(release_date: string, now: Date = new Date()): numbe
   return Math.round((r.getTime() - t.getTime()) / (1000 * 60 * 60 * 24));
 }
 
+// 공연 D-day — 다일 공연(페스티벌)은 첫날~마지막 날 사이가 전부 'D-DAY'(0)다. 첫날만 보면 둘째 날부터
+// '종료'로 보였다(Codex 점검 2026-11-04). endDate는 lib/types eventEndDate 값.
+export function calcEventDayDiff(startDate: string, endDate: string, now: Date = new Date()): number {
+  const d = calcDayDiff(startDate, now);
+  return d < 0 && calcDayDiff(endDate, now) >= 0 ? 0 : d;
+}
+
 // SSR(서버=UTC)와 클라(=KST, UTC+9)의 하이드레이션 불일치 방지용.
 // ISO instant를 KST 달력 날짜로 변환해, 실행 환경 timezone과 무관하게
 // 동일한 연/월/일의 '로컬 자정' Date를 반환한다. (getDate/getMonth/getDay 등

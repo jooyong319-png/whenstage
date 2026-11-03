@@ -2,9 +2,9 @@
 import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import { motion } from 'motion/react';
 import type { Game } from '@/lib/types';
-import { CATEGORY_META, availableTicketingUrl, eventStatusOf, nextTicketOpening, dateInZone } from '@/lib/types';
+import { CATEGORY_META, availableTicketingUrl, eventStatusOf, eventEndDate, nextTicketOpening, dateInZone } from '@/lib/types';
 import { trackEvent } from '@/lib/analytics';
-import { calcDayDiff, getKoreanWeekday, parseDateOnly } from '@/lib/utils';
+import { calcDayDiff, calcEventDayDiff, getKoreanWeekday, parseDateOnly } from '@/lib/utils';
 import { useLiveNow } from '@/hooks/useLiveNow';
 import { useLocale } from '@/hooks/useLocale';
 import { UI, CAL, CATEGORY_LABELS, pastLabel } from '@/lib/i18nLabels';
@@ -33,7 +33,7 @@ export function GameRow({ game: g, now, wishlist, onPick, preBadge }: Props) {
   const showImg = !!g.image_url && !imgError;
   // 판매 시각 판단은 실제 시각(live)으로 — now는 날짜 기준. 첫 렌더는 now(서버와 같게)
   const live = useLiveNow() ?? now;
-  const diff = calcDayDiff(g.release_date, now);
+  const diff = calcEventDayDiff(g.release_date, eventEndDate(g), now);
   const released = diff < 0;
   const isToday = diff === 0;
   const imminent = diff >= 0 && diff <= 7;

@@ -1,8 +1,8 @@
 'use client';
 import { useMemo, type CSSProperties, type MouseEvent } from 'react';
 import type { Game } from '@/lib/types';
-import { availableTicketingUrl, eventStatusOf, nextTicketOpening, dateInZone, CATEGORY_META } from '@/lib/types';
-import { calcDayDiff, formatEventDateTimeShort, formatDateShort } from '@/lib/utils';
+import { availableTicketingUrl, eventStatusOf, eventEndDate, nextTicketOpening, dateInZone, CATEGORY_META } from '@/lib/types';
+import { calcDayDiff, calcEventDayDiff, formatEventDateTimeShort, formatDateShort } from '@/lib/utils';
 import { trackEvent } from '@/lib/analytics';
 import { useLocale } from '@/hooks/useLocale';
 import { CAL } from '@/lib/i18nLabels';
@@ -92,7 +92,7 @@ export function TicketingBoard({ games, now, onPick }: Props) {
             <h2 className={styles.title}>{t.onSaleNow}</h2>
             <ul className={styles.list}>
               {onSale.map(({ g, buy }) => {
-                const diff = g.release_date_approx ? null : calcDayDiff(g.release_date, now);
+                const diff = g.release_date_approx ? null : calcEventDayDiff(g.release_date, eventEndDate(g), now);
                 return (
                   <li key={g.id} className={styles.item} style={{ '--cat': CATEGORY_META[g.category].color } as CSSProperties}>
                     <a href={`/${lang}/concert/${g.id}`} className={styles.main} data-ev="board_click" data-source="board_onsale" data-id={g.id} onClick={e => pick(e, g.id)}>
