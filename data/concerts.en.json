@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-03",
+  "last_updated": "2026-11-04",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -4474,7 +4474,7 @@
         "MediaCity, Salford, England"
       ],
       "developer": "Kofi Stone, Lady Ice, Bawo, OneDa, Mouth Ulcers, ALT BLK ERA",
-      "description": "Beyond The Music returns for a third edition from October 7 to 9, 2026, moving from central Manchester to MediaCity in Salford. The combined festival and industry conference spreads across the MediaCity campus and wider Salford, using outdoor stages, dock10 studios, disused shop units and established local venues. Birmingham rapper Kofi Stone leads the first announced wave alongside Lady Ice, Bawo and OneDa, part of a showcase covering more than one hundred emerging artists.",
+      "description": "Beyond The Music returned for a third edition from October 7 to 9, 2026, moving from central Manchester to MediaCity in Salford. The combined festival and industry conference spread across the MediaCity campus and wider Salford, using outdoor stages, dock10 studios, disused shop units and established local venues. Birmingham rapper Kofi Stone leads the first announced wave alongside Lady Ice, Bawo and OneDa, part of a showcase covering more than one hundred emerging artists.",
       "genres": [
         "Festival",
         "Hip-Hop",
@@ -4484,7 +4484,8 @@
       "release_time": null,
       "release_date_approx": false,
       "image_url": null,
-      "publisher": null
+      "publisher": null,
+      "updated_at": "2026-11-04"
     },
     {
       "release_time": null,
@@ -5309,7 +5310,7 @@
         "Crypto.com Arena, Los Angeles, CA"
       ],
       "developer": "TAEMIN",
-      "description": "TAEMIN plays Crypto.com Arena in Los Angeles on October 15, 2026, the second of six North American stops on his 2026-27 LiMiNaL World Tour, three nights after the leg opened at SAP Center in San Jose. The date comes six months after his Coachella debut and a month after his September home shows at Jamsil Indoor Stadium in Seoul, with Las Vegas next on the route.",
+      "description": "TAEMIN played Crypto.com Arena in Los Angeles on October 15, 2026, the second of six North American stops on his 2026-27 LiMiNaL World Tour, three nights after the leg opened at SAP Center in San Jose. The date came six months after his Coachella debut and a month after his September home shows at Jamsil Indoor Stadium in Seoul, with Las Vegas next on the route.",
       "genres": [
         "K-POP",
         "Tour"
@@ -5317,7 +5318,7 @@
       "source_url": "https://www.allkpop.com/article/2026/08/taemin-announces-official-dates-and-cities-for-the-north-america-leg-of-his-2026-world-tour-liminal",
       "presale": false,
       "general_sale": false,
-      "updated_at": "2026-10-16"
+      "updated_at": "2026-11-04"
     },
     {
       "id": "en-tyla-apop-world-tour-london-20261015",
@@ -5596,7 +5597,7 @@
       ],
       "developer": null,
       "publisher": "Mint Paper",
-      "description": "Grand Mint Festival returns to Seoul's Olympic Park on October 17 and 18, 2026. Run by Mint Paper since 2007, GMF is the city's main autumn festival for Korean indie, acoustic and singer-songwriter acts, spread across outdoor lawn stages and indoor halls including KSPO Dome. The final lineup was confirmed in September 2026. Tickets are sold through NOL, YES24, Naver and Ticketlink, and the park sits directly on Seoul Subway Line 5 and 9.",
+      "description": "Grand Mint Festival returned to Seoul's Olympic Park on October 17 and 18, 2026. Run by Mint Paper since 2007, GMF is the city's main autumn festival for Korean indie, acoustic and singer-songwriter acts, spread across outdoor lawn stages and indoor halls including KSPO Dome. The final lineup was confirmed in September 2026. Tickets were sold through NOL, YES24, Naver and Ticketlink, and the park sits directly on Seoul Subway Line 5 and 9.",
       "genres": [
         "Indie",
         "Pop",
@@ -5604,7 +5605,7 @@
       ],
       "image_url": null,
       "source_url": "https://sports.khan.co.kr/en/article/202609171240007/",
-      "updated_at": "2026-09-25",
+      "updated_at": "2026-11-04",
       "festival_days": [
         {
           "date": "2026-10-17",
@@ -6031,7 +6032,7 @@
       ],
       "developer": "Lee Seung-gi",
       "publisher": null,
-      "description": "Lee Seung-gi returns to the concert stage for the first time in 13 years with three nights at Blue Square's Woori WON Banking Hall in Yongsan-gu, Seoul, from October 23 to 25, 2026. The October 23 date was added after demand for the original two shows; every seat across all dates sold out within three minutes of the June 4 opening on NOL Ticket. The set list spans his best-known ballads, among them Because You're My Woman, Delete and Return.",
+      "description": "Lee Seung-gi returned to the concert stage for the first time in 13 years with three nights at Blue Square's Woori WON Banking Hall in Yongsan-gu, Seoul, from October 23 to 25, 2026. The October 23 date was added after demand for the original two shows; every seat across all dates sold out within three minutes of the June 4 opening on NOL Ticket. The set list spanned his best-known ballads, among them Because You're My Woman, Delete and Return.",
       "genres": [
         "K-POP",
         "Ballad",
@@ -6039,7 +6040,7 @@
       ],
       "image_url": null,
       "source_url": "https://sports.khan.co.kr/en/article/202609120031007",
-      "updated_at": "2026-10-06",
+      "updated_at": "2026-11-04",
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_url": null,
@@ -6439,7 +6440,7 @@
       ],
       "developer": "Bryan Adams",
       "publisher": null,
-      "description": "Bryan Adams returns to the Encore Theater at Wynn Las Vegas for a five-night Bare Bones engagement running October 28 through November 1, 2026, including a Halloween performance. The stripped-back show pairs Adams with longtime collaborator and pianist Gary Breit, revisiting his catalogue without a full band. The residency follows two previous sold-out runs at the same room.",
+      "description": "Bryan Adams returned to the Encore Theater at Wynn Las Vegas for a five-night Bare Bones engagement running October 28 through November 1, 2026, including a Halloween performance. The stripped-back show paired Adams with longtime collaborator and pianist Gary Breit, revisiting his catalogue without a full band. The residency followed two previous sold-out runs at the same room.",
       "genres": [
         "Rock",
         "Acoustic",
@@ -6448,11 +6449,11 @@
       "image_url": null,
       "source_url": "https://www.wynnlasvegas.com/entertainment/upcoming-shows/bryan-adams",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-07T10:00:00-07:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://www.ticketmaster.com/bryan-adams-tickets/artist/734390?venueId=189062",
-      "updated_at": "2026-10-28"
+      "general_sale_url": null,
+      "updated_at": "2026-11-04"
     },
     {
       "id": "en-flow-naruto-the-rock-seoul-20261028",
@@ -6467,7 +6468,7 @@
       ],
       "developer": "FLOW",
       "publisher": null,
-      "description": "Japanese rock band FLOW bring the NARUTO THE ROCK world tour to YES24 Live Hall in Seoul on October 28, 2026, with an 8pm KST start. The set is built around the anime themes the band is best known for abroad, including GO!!! and Sign. Tickets are sold through YES24 Ticket, which runs an English booking site, and the hall is a standing-floor club rather than an arena.",
+      "description": "Japanese rock band FLOW brought the NARUTO THE ROCK world tour to YES24 Live Hall in Seoul on October 28, 2026, with an 8pm KST start. The set was built around the anime themes the band is best known for abroad, including GO!!! and Sign. Tickets were sold through YES24 Ticket, which runs an English booking site, and the hall is a standing-floor club rather than an arena.",
       "genres": [
         "J-Rock",
         "Anime",
@@ -6475,10 +6476,10 @@
       ],
       "image_url": null,
       "source_url": "https://ticket.yes24.com/Perf/59986",
-      "updated_at": "2026-10-02",
+      "updated_at": "2026-11-04",
       "presale": false,
-      "general_sale": true,
-      "general_sale_url": "https://ticket.yes24.com/Perf/59986",
+      "general_sale": false,
+      "general_sale_url": null,
       "related_locale_ids": {
         "ko": "ko-flow-naruto-the-rock-seoul-20261028"
       }
@@ -6496,7 +6497,7 @@
       ],
       "developer": "Orville Peck",
       "publisher": null,
-      "description": "Orville Peck opens the Man Turned Mule Tour at Channel 24 in Sacramento on October 28, 2026, launching a 19-date North American theater run behind his fourth album Mule. The itinerary moves through Anaheim, Phoenix, Denver, Minneapolis, Chicago, Philadelphia, Atlanta and Nashville, includes two nights at Brooklyn Paramount on November 9 and 10, and closes November 22 at The Paramount in Huntington, New York. Artist and Citi presales ran from July 28, with the general on-sale on July 31 at 10 a.m. local time.",
+      "description": "Orville Peck opened the Man Turned Mule Tour at Channel 24 in Sacramento on October 28, 2026, launching a 19-date North American theater run behind his fourth album Mule. The itinerary moves through Anaheim, Phoenix, Denver, Minneapolis, Chicago, Philadelphia, Atlanta and Nashville, includes two nights at Brooklyn Paramount on November 9 and 10, and closes November 22 at The Paramount in Huntington, New York. Artist and Citi presales ran from July 28, with the general on-sale on July 31 at 10 a.m. local time.",
       "genres": [
         "Country",
         "Tour"
@@ -6507,11 +6508,11 @@
       "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
-      "general_sale_datetime": "2026-07-31T10:00:00-07:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://orvillepeck.com/tour",
-      "updated_at": "2026-10-28"
+      "general_sale_url": null,
+      "updated_at": "2026-11-04"
     },
     {
       "id": "en-nice-as-fuck-10th-anniversary-brooklyn-20261029",
@@ -6526,7 +6527,7 @@
       ],
       "developer": "Nice as Fuck, Alix Brown",
       "publisher": null,
-      "description": "Nice as Fuck close their tenth anniversary reunion tour at Xanadu Roller Arts in Brooklyn on October 29, 2026, two days before Halloween. The band, made up of Jenny Lewis, Erika Spring and Tennessee Thomas, reunited for eight shows running from Pasadena eastward through Chicago. Alix Brown DJs the whole run, and the group is reissuing their 2016 self-titled album to mark the anniversary.",
+      "description": "Nice as Fuck closed their tenth anniversary reunion tour at Xanadu Roller Arts in Brooklyn on October 29, 2026, two days before Halloween. The band, made up of Jenny Lewis, Erika Spring and Tennessee Thomas, reunited for eight shows running from Pasadena eastward through Chicago. Alix Brown DJed the whole run, and the group is reissuing their 2016 self-titled album to mark the anniversary.",
       "genres": [
         "Indie",
         "Rock",
@@ -6535,8 +6536,8 @@
       "image_url": null,
       "source_url": "https://www.rollingstone.com/music/music-news/nice-as-fuck-10-anniversary-reunion-tour-1235624710/",
       "presale": false,
-      "general_sale": true,
-      "updated_at": "2026-10-28"
+      "general_sale": false,
+      "updated_at": "2026-11-04"
     },
     {
       "id": "en-jeonghan-x-joshua-journey-into-dreaming-incheon-20261030",
@@ -6551,19 +6552,19 @@
       ],
       "developer": "JEONGHAN X JOSHUA",
       "publisher": "HYBE",
-      "description": "SEVENTEEN's vocal duo JEONGHAN and JOSHUA bring their first unit concert, JOURNEY INTO [DREAMING], to Inspire Arena in Incheon for three shows: October 30 at 7pm, October 31 at 6pm and November 1 at 5pm KST, 2026, built around their debut mini album DREAMSCAPE. Overseas CARATs buy on the separate global reservation page; the global membership presale opened October 8 and the general sale October 12, both at 8pm KST. Entry is by mobile ticket only, and the tour then moves on to Japan, Macau, Taiwan, Busan and Hong Kong.",
+      "description": "SEVENTEEN's vocal duo JEONGHAN and JOSHUA brought their first unit concert, JOURNEY INTO [DREAMING], to Inspire Arena in Incheon for three shows: October 30 at 7pm, October 31 at 6pm and November 1 at 5pm KST, 2026, built around their debut mini album DREAMSCAPE. Overseas CARATs bought on the separate global reservation page; the global membership presale opened October 8 and the general sale October 12, both at 8pm KST. Entry was by mobile ticket only, and the tour then moves on to Japan, Macau, Taiwan, Busan and Hong Kong.",
       "genres": [
         "K-Pop",
         "Concert"
       ],
       "image_url": null,
       "source_url": "https://world.nol.com/en/content/articles/391e99ae-89a6-4677-a296-72b4da083a0b",
-      "updated_at": "2026-10-16",
+      "updated_at": "2026-11-04",
       "presale": false,
-      "presale_datetime": "2026-10-08T20:00:00+09:00",
-      "general_sale": true,
-      "general_sale_datetime": "2026-10-12T20:00:00+09:00",
-      "general_sale_url": "https://nol.yanolja.com/ticket/products/26013793",
+      "presale_datetime": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
       "related_locale_ids": {
         "ko": "ko-jeonghan-joshua-journey-into-dreaming-incheon-20261030"
       }
@@ -6606,7 +6607,7 @@
       ],
       "developer": "The Faint",
       "publisher": null,
-      "description": "Omaha dance-punk band The Faint return for a 13-date US club tour across October and November, launching at The Regency Live in Springfield, Missouri. The route swings through Indianapolis, Louisville, Memphis, Athens and Miami before finishing on November 15 at The Social in Orlando. An artist presale opened July 29 through the band's own site, and general tickets went on sale July 31 at 10 a.m. local time.",
+      "description": "Omaha dance-punk band The Faint returned for a 13-date US club tour across October and November, launching at The Regency Live in Springfield, Missouri. The route swings through Indianapolis, Louisville, Memphis, Athens and Miami before finishing on November 15 at The Social in Orlando. An artist presale opened July 29 through the band's own site, and general tickets went on sale July 31 at 10 a.m. local time.",
       "genres": [
         "Rock",
         "Dance-Punk",
@@ -6615,10 +6616,10 @@
       "image_url": null,
       "source_url": "https://consequence.net/2026/07/the-faint-announce-2026-tour/",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-07-31T10:00:00-05:00",
-      "general_sale_url": "https://www.ticketmaster.com/the-faint-tickets/artist/717900",
-      "updated_at": "2026-10-28"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-04"
     },
     {
       "id": "en-nujabes-metaphorical-ensemble-seoul-20261031",
@@ -6633,7 +6634,7 @@
       ],
       "developer": "Nujabes Metaphorical Ensemble",
       "publisher": "Hydeout Productions",
-      "description": "The Nujabes Metaphorical Ensemble, the official live project run by Hydeout Productions, the label founded by the late Japanese producer Nujabes, plays Seoul on October 31, 2026 at 6 p.m. at Dongyang Life Hall in NOL Theater Hapjeong. The roughly 100-minute set is performed by Chika a.k.a. Inherit on turntables, Patrick Bartley on saxophone, BIGYUKI on keyboards and Pase Rock on the mic, with DJ SHOTA opening. VIP and VVIP tiers add rehearsal access and a meet-and-greet.",
+      "description": "The Nujabes Metaphorical Ensemble, the official live project run by Hydeout Productions, the label founded by the late Japanese producer Nujabes, played Seoul on October 31, 2026 at 6 p.m. at Dongyang Life Hall in NOL Theater Hapjeong. The roughly 100-minute set was billed to be performed by Chika a.k.a. Inherit on turntables, Patrick Bartley on saxophone, BIGYUKI on keyboards and Pase Rock on the mic, with DJ SHOTA billed to open. VIP and VVIP tiers added rehearsal access and a meet-and-greet.",
       "genres": [
         "Jazz",
         "Hip-Hop",
@@ -6641,13 +6642,14 @@
       ],
       "image_url": null,
       "source_url": "https://nol.yanolja.com/ticket/products/26012781",
-      "updated_at": "2026-10-06",
-      "general_sale": true,
+      "updated_at": "2026-11-04",
+      "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012781",
+      "general_sale_url": null,
       "related_locale_ids": {
         "ko": "ko-nujabes-metaphorical-ensemble-seoul-20261031"
-      }
+      },
+      "presale": false
     },
     {
       "release_time": null,
@@ -6663,7 +6665,7 @@
         "Lucas Oil Stadium, Indianapolis, IN"
       ],
       "developer": "Usher, Chris Brown, Mario, Eric Bellinger, Tank",
-      "description": "[Cancelled] The R&B Tour makes its first Indianapolis stop at Lucas Oil Stadium on October 31, 2026, one of four brand-new cities added when Usher and Chris Brown extended the run to 59 dates. The nearly three-hour show moves between their catalogues across nine cinematic acts, backed by Mario, Eric Bellinger and Tank. Earlier legs set attendance and multi-night records in Detroit, Washington and Birmingham. In October 2026 the promoter cancelled this date along with three other newly added October stadium shows, and ticket holders were told to expect automatic refunds to their original payment method.",
+      "description": "[Cancelled] The R&B Tour was to make its first Indianapolis stop at Lucas Oil Stadium on October 31, 2026, one of four brand-new cities added when Usher and Chris Brown extended the run to 59 dates. The nearly three-hour show moved between their catalogues across nine cinematic acts, backed by Mario, Eric Bellinger and Tank. Earlier legs set attendance and multi-night records in Detroit, Washington and Birmingham. In October 2026 the promoter cancelled this date along with three other newly added October stadium shows, and ticket holders were told to expect automatic refunds to their original payment method.",
       "genres": [
         "R&B",
         "Hip-Hop",
@@ -6672,17 +6674,17 @@
       "source_url": "https://www.sofistadium.com/news/detail/chris-brown-usher-add-eight-new-stadium-dates-to-the-rb-tour-following-incredible-fan-demand",
       "presale": false,
       "general_sale": false,
-      "general_sale_datetime": "2026-08-24T10:00:00-04:00",
+      "general_sale_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-28"
+      "updated_at": "2026-11-04"
     },
     {
       "release_time": null,
       "release_date_approx": false,
       "publisher": "Live Nation",
       "image_url": null,
-      "presale": true,
-      "general_sale": true,
+      "presale": false,
+      "general_sale": false,
       "id": "en-fuerza-regida-this-is-our-dream-morrison-20261102",
       "name": "Fuerza Regida: This Is Our Dream Tour - Red Rocks (Finale)",
       "release_date": "2026-11-02",
@@ -6692,17 +6694,17 @@
         "Red Rocks Amphitheatre, Morrison, CO"
       ],
       "developer": "Fuerza Regida",
-      "description": "Fuerza Regida close the second leg of their This Is Our Dream Tour at Red Rocks Amphitheatre in Morrison, Colorado on November 2, 2026. The ten-date amphitheater and arena run opens October 3 in Tinley Park, Illinois and passes through Charlotte, Atlanta, Birmingham, Albuquerque, Wheatland, Bakersfield, Fresno and West Valley City. The Musica Mexicana group announced the leg on August 10, following a sold-out stadium run earlier in the year that took in Dodger Stadium and Citi Field.",
+      "description": "Fuerza Regida closed the second leg of their This Is Our Dream Tour at Red Rocks Amphitheatre in Morrison, Colorado on November 2, 2026. The ten-date amphitheater and arena run opened October 3 in Tinley Park, Illinois and passed through Charlotte, Atlanta, Birmingham, Albuquerque, Wheatland, Bakersfield, Fresno and West Valley City. The Musica Mexicana group announced the leg on August 10, following a sold-out stadium run earlier in the year that took in Dodger Stadium and Citi Field.",
       "genres": [
         "Regional Mexican",
         "Latin",
         "Concert"
       ],
       "source_url": "https://consequence.net/2026/08/fuerza-regida-2026-us-tour-dates/",
-      "presale_datetime": "2026-08-11T10:00:00-06:00",
-      "general_sale_datetime": "2026-08-14T10:00:00-06:00",
-      "general_sale_url": "https://www.ticketmaster.com/fuerza-regida-tickets/artist/2499958",
-      "updated_at": "2026-10-28"
+      "presale_datetime": null,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-04"
     },
     {
       "id": "en-pentatonix-christmas-in-the-city-tacoma-20261105",
@@ -6756,7 +6758,8 @@
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": "2026-08-24T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/usher-raymond-chris-brown-tickets/artist/4314089"
+      "general_sale_url": "https://www.ticketmaster.com/usher-raymond-chris-brown-tickets/artist/4314089",
+      "updated_at": "2026-11-04"
     },
     {
       "id": "en-max-changmin-resonance-seoul-20261106",
@@ -6794,7 +6797,7 @@
       ],
       "developer": "Quadeca, Derby, Oleka",
       "publisher": null,
-      "description": "Quadeca brings The Life 1 Tour to The Showbox in Seattle on November 6, 2026, one of 23 North American dates supporting his fifth album Life 1. The run opens October 10 at The Nile Theater in Mesa, Arizona and finishes November 10 at The Fonda in his native Los Angeles, with Derby and Oleka opening throughout. An artist presale ran July 29 and general tickets went on sale July 31 at 10 a.m. local time via Ticketmaster; a portion of tour proceeds goes to cancer research nonprofit City of Hope.",
+      "description": "Quadeca brings The Life 1 Tour to The Showbox in Seattle on November 6, 2026, one of 23 North American dates supporting his fifth album Life 1. The run opened October 10 at The Nile Theater in Mesa, Arizona and finishes November 10 at The Fonda in his native Los Angeles, with Derby and Oleka opening throughout. An artist presale ran July 29 and general tickets went on sale July 31 at 10 a.m. local time via Ticketmaster; a portion of tour proceeds goes to cancer research nonprofit City of Hope.",
       "genres": [
         "Hip-Hop",
         "Tour"
@@ -6808,7 +6811,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-07-31T10:00:00-07:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://www.ticketmaster.com/quadeca-tickets/artist/3002632"
+      "general_sale_url": "https://www.ticketmaster.com/quadeca-tickets/artist/3002632",
+      "updated_at": "2026-11-04"
     },
     {
       "id": "en-jimmy-eat-world-the-format-hollywood-bowl-20261107",
@@ -6834,10 +6838,11 @@
       "general_sale_end_datetime": null,
       "general_sale_url": "https://www.ticketmaster.com/jimmy-eat-world-the-format-sing-hollywood-california-11-07-2026/event/0B0064F5C75F3BBB",
       "source_url": "https://news.pollstar.com/2026/07/29/jimmy-eat-world-the-format-to-celebrate-anniversaries-of-landmark-albums-at-the-hollywood-bowl/",
-      "release_time": null,
+      "release_time": "19:00",
       "release_date_approx": false,
       "publisher": null,
-      "image_url": null
+      "image_url": null,
+      "updated_at": "2026-11-04"
     },
     {
       "id": "en-kgma-2026-20261107",
@@ -6936,7 +6941,8 @@
       "general_sale_url": "https://www.ticketmaster.com/event/3000649DC07F7DF5",
       "presale": false,
       "release_date_approx": false,
-      "image_url": null
+      "image_url": null,
+      "updated_at": "2026-11-04"
     },
     {
       "id": "en-stand-up-for-heroes-2026-new-york-20261109",
@@ -6958,13 +6964,14 @@
       "source_url": "https://www.rollingstone.com/music/music-news/bruce-springsteen-jon-stewart-stand-up-for-heroes-20-1235614776/",
       "release_time": null,
       "release_date_approx": false,
-      "image_url": null
+      "image_url": null,
+      "updated_at": "2026-11-04"
     },
     {
       "id": "en-allison-russell-hour-of-chaos-seattle-20261111",
       "name": "Allison Russell: In the Hour of Chaos Tour - Seattle",
       "release_date": "2026-11-11",
-      "release_time": null,
+      "release_time": "20:00",
       "release_date_approx": false,
       "timezone": "America/Los_Angeles",
       "category": "concert_tour",
@@ -6982,7 +6989,8 @@
       "image_url": null,
       "source_url": "https://consequence.net/2026/08/allison-russell-2026-north-american-tour/",
       "general_sale": true,
-      "general_sale_url": "https://www.ticketmaster.com/allison-russell-tickets/artist/2788777"
+      "general_sale_url": "https://www.ticketmaster.com/allison-russell-tickets/artist/2788777",
+      "updated_at": "2026-11-04"
     },
     {
       "id": "en-steve-lacy-oh-yeah-morrison-20261111",
@@ -6997,7 +7005,7 @@
       ],
       "developer": "Steve Lacy",
       "publisher": null,
-      "description": "Steve Lacy plays Red Rocks Amphitheatre outside Denver on November 11, 2026 as part of the Oh yeah? Tour. The show sits in the western stretch of a 27-date North American itinerary that opens September 27 in Minneapolis and closes November 30 in Vancouver. The tour supports Oh yeah?, the guitarist and singer's third solo album, issued by RCA Records in July 2026.",
+      "description": "Steve Lacy plays Red Rocks Amphitheatre outside Denver on November 11, 2026 as part of the Oh yeah? Tour. The show sits in the western stretch of a 27-date North American itinerary that opened September 27 in Minneapolis and closes November 30 in Vancouver. The tour supports Oh yeah?, the guitarist and singer's third solo album, issued by RCA Records in July 2026.",
       "genres": [
         "R&B",
         "Alternative",
@@ -7006,7 +7014,8 @@
       "image_url": null,
       "source_url": "https://consequence.net/2026/08/steve-lacy-2026-oh-yeah-north-american-tour/",
       "general_sale": true,
-      "general_sale_url": "https://www.ticketmaster.com/steve-lacy-tickets/artist/2330907"
+      "general_sale_url": "https://www.ticketmaster.com/steve-lacy-tickets/artist/2330907",
+      "updated_at": "2026-11-04"
     },
     {
       "id": "en-dave-matthews-band-fall-tour-new-york-20261112",
@@ -7021,7 +7030,7 @@
       ],
       "developer": "Dave Matthews Band",
       "publisher": null,
-      "description": "Dave Matthews Band close their fall 2026 arena tour with two nights at Madison Square Garden on November 12 and 13, both starting at 7:30 PM. The six-city run opens November 4 at the Kohl Center in Madison, Wisconsin and passes through Nashville, Chicago, Providence and Baltimore on the way to New York. A presale for members of the band's Warehouse Fan Association is already under way, and general tickets go on sale August 21, 2026 at 10 a.m. local time.",
+      "description": "Dave Matthews Band close their fall 2026 arena tour with two nights at Madison Square Garden on November 12 and 13, both starting at 7:30 PM. The six-city run opens November 4 at the Kohl Center in Madison, Wisconsin and passes through Nashville, Chicago, Providence and Baltimore on the way to New York. A presale for members of the band's Warehouse Fan Association ran first, and general tickets went on sale August 21, 2026 at 10 a.m. local time.",
       "genres": [
         "Rock",
         "Jam",
@@ -7031,7 +7040,8 @@
       "source_url": "https://news.pollstar.com/2026/08/11/dave-matthews-band-announces-2026-fall-tour/",
       "presale": true,
       "general_sale": true,
-      "general_sale_datetime": "2026-08-21T10:00:00-04:00"
+      "general_sale_datetime": "2026-08-21T10:00:00-04:00",
+      "updated_at": "2026-11-04"
     },
     {
       "id": "en-jake-bugg-alamo-20261113",
@@ -10034,13 +10044,13 @@
         "KSPO Dome, Seoul(Olympic Park)"
       ],
       "developer": "Jannabi",
-      "description": "Korean rock band Jannabi returns to KSPO Dome in Seoul for a three-day run from October 23 to 25, 2026, with two different concepts. The October 23 show, \"On a Wonderful Day in October\", is built entirely from ballads, while October 24 and 25 carry the \"Sweat and Stardust\" title as the upgraded finale of the band's first Asia tour, with October 25 as its closing night. Tickets went on sale September 21 and all three dates sold out within minutes.",
+      "description": "Korean rock band Jannabi returned to KSPO Dome in Seoul for a three-day run from October 23 to 25, 2026, with two different concepts. The October 23 show, \"On a Wonderful Day in October\", was built entirely from ballads, while October 24 and 25 carried the \"Sweat and Stardust\" title as the upgraded finale of the band's first Asia tour, with October 25 as its closing night. Tickets went on sale September 21 and all three dates sold out within minutes.",
       "genres": [
         "Rock",
         "Concert"
       ],
       "source_url": "https://sports.khan.co.kr/en/article/202609221415007",
-      "updated_at": "2026-10-13"
+      "updated_at": "2026-11-04"
     },
     {
       "id": "en-epik-high-2027-concert-seoul-20270122",
@@ -10165,7 +10175,7 @@
       ],
       "developer": "Kim Jae-hwan",
       "publisher": null,
-      "description": "Kim Jae-hwan holds Yeobaek, his first concert since completing military service, with two shows at Blue Square's Woori WON Banking Hall in Seoul on October 31 at 6pm and November 1 at 5pm KST, 2026. Tickets were sold through NOL, with a fan club presale on September 8 and the general sale on September 9, and every seat for both nights sold out. A Taipei date was later added, taking Yeobaek beyond Korea.",
+      "description": "Kim Jae-hwan held Yeobaek, his first concert since completing military service, with two shows at Blue Square's Woori WON Banking Hall in Seoul on October 31 at 6pm and November 1 at 5pm KST, 2026. Tickets were sold through NOL, with a fan club presale on September 8 and the general sale on September 9, and every seat for both nights sold out. A Taipei date was later added, taking Yeobaek beyond Korea.",
       "genres": [
         "K-Pop",
         "Ballad",
@@ -10174,14 +10184,14 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/171022_%EB%B6%80%EC%82%B0%EC%9B%90%EC%95%84%EC%8B%9C%EC%95%84%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C_%EC%9C%A4%EC%A7%80%EC%84%B1_%26_%EA%B9%80%EC%9E%AC%ED%99%98_02.jpg/500px-171022_%EB%B6%80%EC%82%B0%EC%9B%90%EC%95%84%EC%8B%9C%EC%95%84%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C_%EC%9C%A4%EC%A7%80%EC%84%B1_%26_%EA%B9%80%EC%9E%AC%ED%99%98_02.jpg",
       "source_url": "https://sports.khan.co.kr/en/article/202609110406007",
       "presale": false,
-      "presale_datetime": "2026-09-08T20:00:00+09:00",
+      "presale_datetime": null,
       "general_sale": false,
-      "general_sale_datetime": "2026-09-09T20:00:00+09:00",
-      "general_sale_url": "https://tickets.interpark.com/goods/26012668",
+      "general_sale_datetime": null,
+      "general_sale_url": null,
       "related_locale_ids": {
         "ko": "ko-kimjaehwan-yeoback-seoul-20261031"
       },
-      "updated_at": "2026-10-16"
+      "updated_at": "2026-11-04"
     },
     {
       "id": "en-and2ble-winter-inside-fancon-seoul-20261205",
