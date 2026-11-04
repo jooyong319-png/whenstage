@@ -1,3 +1,10 @@
+## [2026-11-04 05:25] [EN 브리핑]
+주간 브리핑 작성 완료 (영어권/글로벌)
+- 각도: This week's shows (11/4~11/11 공연 12건 — 직전 2편이 On-sales·Next month preview라 각도 변경)
+- 제목: This Week's Shows: Two Albums Turn Twenty, One Turns 25, All on Saturday
+- 다룬 공연 12건 (전부 /en/concert/<id>로 링크, id 실존 확인) — 11/7 MCR 인천·Jimmy Eat World & The Format 할리우드볼 기념앨범 전곡 공연 겹침 중심
+- 리드 인계: 외부 취재 없음(지시서상 DB 전용) → leads.en.jsonl 미수정
+
 ## [2026-11-03 09:40] [EN 리서처]
 리서치 완료 (해외 팬 대상 한국 공연)
 - 아직 안 열린 예매 4건 (이번에 새로 잡은 것 +1, 예매 시각 채운 기존 공연 +0) — 신규: 성시경 연말 KSPO DOME(팬클럽 선 11/6 20:00·일반 11/12 20:00, NOL). 기존: 엔플라잉 화정(11/4·11/6)·NCT WISH 고척(일반 11/4)·한로로 인스파이어(11/13) 유지
