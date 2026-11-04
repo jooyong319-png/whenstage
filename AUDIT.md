@@ -3,8 +3,34 @@
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
 | ko | 2026-11-02 | |
-| en | 2026-10-28 | ← |
-| ja | 2026-10-30 | |
+| en | 2026-11-04 | |
+| ja | 2026-10-30 | ← |
+
+---
+
+## 2026-11-04 · en
+
+로테이션상 en이 가장 오래된 점검일(2026-10-28)이라 선택. 대상 창: 2026-09-05 ~ 2027-01-03(오늘 ±60일), 창 안 항목 225건(끝난 것 134 / 예정 91). 코드는 손대지 않았고 `data/concerts.en.json`만 수정(파일 상단 `last_updated` 2026-11-04). push 전 `validate-data.mjs` 통과(설명 복사 오류 없음, 기존 경고 묶음만). 고친 항목·트랙 B 확인 항목 모두 `updated_at=2026-11-04`.
+
+**트랙 A (졸업 처리) — 15건**
+- A-1/A-2 끝난 공연의 예매 필드·플래그 정리 10건(§7대로 `presale`/`general_sale=false` + 예매 URL·datetime 6개 필드 null) + 해당 공연 문장만 과거형(투어 잔여 일정 서술은 유지, 새 사실 추가 없음): en-bryan-adams-bare-bones-las-vegas-20261028(11/1 종료), en-flow-naruto-the-rock-seoul-20261028, en-orville-peck-man-turned-mule-sacramento-20261028, en-nice-as-fuck-10th-anniversary-brooklyn-20261029(`general_sale=true` 잔존), en-jeonghan-x-joshua-journey-into-dreaming-incheon-20261030(11/1 종료), en-the-faint-fall-tour-springfield-20261030, en-kim-jae-hwan-yeobaek-seoul-20261031, en-nujabes-metaphorical-ensemble-seoul-20261031(출연진 문장은 "was billed to be performed by"로 — 실제 출연 단정 안 함), en-usher-chris-brown-rb-tour-indianapolis-20261031(취소 항목, `general_sale_datetime` 잔존 정리 + "was to make"), en-fuerza-regida-this-is-our-dream-morrison-20261102
+- A-4 description 시제만 5건: en-beyond-the-music-2026-salford-20261007, en-grand-mint-festival-2026-20261017, en-jannabi-kspo-dome-seoul-20261023, en-lee-seung-gi-gisungjeon-rak-seoul-20261023, en-taemin-liminal-crypto-com-arena-20261015 ("returns/plays" → 과거형)
+- A-3: en-post-malone-big-stadium-seoul-20261002 approx=true 유지(연기·새 날짜 미발표)
+- 오탐(손대지 않음): "was scheduled to …" 이미 과거형 16건, day6("The title plays on"), audrey-hobert(ACL 언급), fontaines-dc/lisa/thao(music_release, 앨범 서술), phoebe-bridgers·nice-as-fuck-pasadena(오프닝 게스트)
+
+**트랙 B (임박 점검) — 8건 확인** (`updated_at` 없는 항목, 공연일 가까운 순)
+- en-usher-chris-brown-rb-tour-atlanta-20261105 — Complex 10/10·HollywoodLife 10/12: 취소는 10월 4건뿐, 11/5부터 Atlanta 5연전으로 재개. MBS 공식 페이지 11/5·6·8·10·11 일치(11/7→11/6 이동). 변경 없음
+- en-quadeca-life-1-tour-seattle-20261106 — AXS·Songkick 11/6 Showbox 유지, 취소 없음. "opens October 10" → "opened" 시제만
+- en-jimmy-eat-world-the-format-hollywood-bowl-20261107 — Hollywood Bowl 공식: 11/7 19:00(게이트 17:30). `release_time` 19:00 추가
+- en-olivia-rodrigo-unraveled-tour-philadelphia-20261107 — PhillyVoice·Songkick 11/7·8 Xfinity Mobile Arena 유지. 변경 없음
+- en-stand-up-for-heroes-2026-new-york-20261109 — NME·AP(8/25): 11/9 David Geffen Hall, 라인업 일치. 변경 없음
+- en-allison-russell-hour-of-chaos-seattle-20261111 — Showbox 공식: 11/11 도어 19:00·공연 20:00, 21+. `release_time` 20:00 추가
+- en-steve-lacy-oh-yeah-morrison-20261111 — Complex: 11/11 Red Rocks, 9/27 Minneapolis~11/30 Vancouver 일치. "opens" → "opened" 시제만
+- en-dave-matthews-band-fall-tour-new-york-20261112 — MSG 공식: 11/12·13 19:30. 지난 예매 문장 시제 교정("is already under way / go on sale" → "ran first / went on sale")
+- B-3 링크: 8건 source/image/예매 URL 16개 접속 — 12개 200. sofistadium 뉴스·xfinitymobilearena 406, Ticketmaster event 페이지 2개 401 — 봇 차단으로 판단(같은 사실을 공식 공연장 페이지·기사로 확인), 죽은 링크로 단정 안 함
+
+**남은 것**: 트랙 A 대기 없음. 트랙 B 다음 순번: en-usher-chris-brown-rb-tour-los-angeles-20261116, en-jake-bugg-alamo-20261113, en-camp-flog-gnaw-carnival-2026-20261114, en-jorja-smith-what-are-the-odds-los-angeles-20261114, en-oso-oso-exchange-of-information-los-angeles-20261115, en-rush-fifty-something-pittsburgh-20261115부터
+**운영자/리서처 참고(추가 안 함)**: ① Fuerza Regida Red Rocks 등 지난 회차 참고사항 변동 없음. ② Jonas Brothers 4건 설명 복사 묶음 여전. ③ 신규 미등록 공연 발견 없음
 
 ---
 
