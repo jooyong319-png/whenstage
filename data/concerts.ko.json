@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-02",
+  "last_updated": "2026-11-05",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -8526,6 +8526,95 @@
       "general_sale_end_datetime": null,
       "general_sale_url": "https://nol.yanolja.com/ticket/products/26015752",
       "updated_at": "2026-11-02"
+    },
+    {
+      "id": "ko-youngtak-tak-show5-busan-20270116",
+      "name": "2026 영탁 단독 콘서트 'TAK SHOW5' - 부산",
+      "release_date": "2027-01-16",
+      "release_time": "15:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "부산 벡스코(제1전시장 3홀)"
+      ],
+      "developer": "영탁",
+      "publisher": "어비스컴퍼니, 에스이십칠",
+      "description": "영탁의 브랜드 콘서트 'TAK SHOW5' 전국 투어 마지막 도시 부산 공연으로, 2027년 1월 16일(토)과 17일(일) 이틀 모두 오후 3시 벡스코 제1전시장 3홀에서 열린다. 서울·전주에 이어 11월 대구, 12월 인천을 거친 뒤 투어를 마무리하는 무대다. 공식 멤버십 '영탁앤블루스' 2기 선예매가 11월 10일 오후 8시부터 12일 오후 1시 59분까지, 일반예매는 11월 12일 오후 8시 멜론티켓에서 열린다. 좌석은 SR 15만4000원·R 14만3000원·S 13만2000원, 1인 4매 제한, 초등학생 이상 관람가이며 러닝타임은 120분이다.",
+      "genres": [
+        "트로트",
+        "콘서트"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/11/20261102153820641a2e02-eae3-4cea-b115-6c58d06b5d84.jpg",
+      "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13197",
+      "presale": true,
+      "presale_datetime": "2026-11-10T20:00:00+09:00",
+      "presale_end_datetime": "2026-11-12T13:59:00+09:00",
+      "presale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13197",
+      "general_sale": true,
+      "general_sale_datetime": "2026-11-12T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13197",
+      "updated_at": "2026-11-05"
+    },
+    {
+      "id": "ko-flare-u-where-ure-seoul-20261226",
+      "name": "2026-27 FLARE U FANCON TOUR: Where U'RE in SEOUL",
+      "release_date": "2026-12-26",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "장충체육관"
+      ],
+      "developer": "플레어 유(FLARE U)",
+      "publisher": null,
+      "description": "FNC엔터테인먼트 듀오 플레어 유(FLARE U)가 데뷔 후 처음 여는 팬 콘서트 투어의 출발점으로, 12월 26일(토) 오후 6시와 27일(일) 오후 5시 서울 장충체육관에서 두 차례 공연한다. 서울을 시작으로 아시아 여러 도시를 도는 투어이며, 10월 발매한 미니 2집 'LOVEHOOD' 활동에 이어 열리는 무대다. 공식 팬클럽 U'RE 선예매는 11월 12일 오후 8시부터 자정 전까지, 일반예매는 11월 13일 오후 8시 멜론티켓에서 열린다. 전석 13만2000원, 회당 1인 4매 제한, 만 7세 이상 관람 가능하다.",
+      "genres": [
+        "K-POP",
+        "팬콘서트"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/11/20261104111722d90a1bab-6f44-49dc-ba1d-44d341df58f7.jpg",
+      "source_url": "https://www.newspim.com/news/view/20261103000102",
+      "presale": true,
+      "presale_datetime": "2026-11-12T20:00:00+09:00",
+      "presale_end_datetime": "2026-11-12T23:59:00+09:00",
+      "presale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13188",
+      "general_sale": true,
+      "general_sale_datetime": "2026-11-13T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13188",
+      "updated_at": "2026-11-05"
+    },
+    {
+      "id": "ko-touched-highlight-v-seoul-20270123",
+      "name": "터치드(TOUCHED) 단독 콘서트 'HIGHLIGHT Ⅴ'",
+      "release_date": "2027-01-23",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "고려대학교 화정체육관"
+      ],
+      "developer": "터치드(TOUCHED)",
+      "publisher": "엠피엠지뮤직",
+      "description": "밴드 터치드(TOUCHED)가 매년 겨울 이어온 브랜드 공연 'HIGHLIGHT'의 다섯 번째 시리즈를 2027년 1월 23일(토) 오후 6시, 24일(일) 오후 5시 고려대학교 화정체육관에서 연다. 10월 그랜드 민트 페스티벌 2026 무대 말미에 처음 발표한 공연으로, 첫 정규앨범 '극야'를 바탕으로 한 새 레퍼토리가 예고됐다. 1층 스탠딩·2층 지정석으로 운영되며 R석 14만3000원·S석 13만2000원·A석 12만1000원, 관람 시간 130분, 초등학생 이상 관람가다. 티켓은 11월 10일 오후 7시 멜론티켓에서 열린다.",
+      "genres": [
+        "밴드",
+        "록",
+        "콘서트"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/11/202611031122102ec707b3-8c61-4791-8c84-b5ac5aaa8676.jpg",
+      "source_url": "https://www.gukjenews.com/news/articleView.html?idxno=3725129",
+      "presale": false,
+      "presale_datetime": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-11-10T19:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13211",
+      "updated_at": "2026-11-05"
     }
   ]
 }
