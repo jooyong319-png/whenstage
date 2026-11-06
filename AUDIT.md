@@ -2,9 +2,35 @@
 
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
-| ko | 2026-11-02 | |
+| ko | 2026-11-02 | ← |
 | en | 2026-11-04 | |
-| ja | 2026-10-30 | ← |
+| ja | 2026-11-06 | |
+
+---
+
+## 2026-11-06 · ja
+
+로테이션상 ja가 가장 오래된 점검일(2026-10-30)이라 선택. 대상 창: 2026-09-07 ~ 2027-01-05(오늘 ±60일), 창 안 항목 156건(끝난 것 75 / 예정 81). 코드는 손대지 않았고 `data/concerts.ja.json`만 수정(파일 상단 `last_updated` 2026-11-06). push 전 `validate-data.mjs` 통과(기존 설명 복사 묶음 경고만). 고친 항목·트랙 B 확인 항목 모두 `updated_at=2026-11-06`.
+
+**트랙 A (졸업 처리) — 5건**
+- A-1/A-2 끝난 공연의 예매 필드·플래그 정리 2건(§7대로 플래그 false + 예매 URL·datetime null) + 시제: ja-festival-de-frue-2026-20261031(10/31~11/1 종료, `general_sale=true`·shop URL 잔존, "開かれる/行われる"→과거형), ja-bimi-live-galley-tour-2026-tokyo-20261103(l-tike URL 잔존, "行う/となる/見込み"→과거형, 11/14·11/22 잔여 일정 서술은 유지)
+- A-4 description 시제만 3건(새 사실 추가 없음): ja-ann-and-me-ann-album-20261104(music_release, "リリースされる"→"された", 11/7 투어 시작 서술은 유지), ja-hana-born-to-bloom-budokan-20261031, ja-koji-yamamoto-50th-tokyo-20261031
+- A-3: 창 안 끝난 항목 중 approx=true는 ja-post-malone-2026-20261006 1건 — 연기·振替 미정이라 유지
+- 의도적 제외(투어 잔여 일정 진행 중): jo0ji-ikari-tour(~12/19), abc-z-way-of-love-tour(~11/24), snowman-dome-tour-sapporo(~2027/1), number-i-no3-sapporo, yoasobi-chowakusei, nightmare-tour, ryokushaka-arena-tour, kobayashi-watashi-tobutame(11/8 도쿄 남음). "初となる" 등 시제 무관 "となる" 오탐 다수는 손대지 않음
+
+**트랙 B (임박 점검) — 8건 확인** (`updated_at` 없는 항목, 공연일 가까운 순. ウィーン・フィル 4건은 10/30 확인분이라 건너뜀)
+- ja-yonezu-kenshi-ghost-2026-20261106 — 공식(reissuerecords, 10/6 업데이트 URL로 리다이렉트): 11/6 長野ビッグハット 17:00/18:30 유지, 공식 리세일 진행 중. 지난 当選発表 문장 시제 교정(10/23·10/30 로그 미처리분 해소)
+- ja-flumpool-kokokaranouta-shibuya-20261107 — 공식 Live 페이지: 11/7 게스트 3인·17:00/18:00 일치, 10/31부터 ぴあ 추가 판매. 변경 없음
+- ja-aklo-zorn-a2z-2026-20261113 — ZORN FC 공지: 11/13 東京ガーデンシアター 18:00/19:00, FC 抽選 7/30 21:00~8/16 23:59. `presale=false` + 선예매 기간 datetime 추가, 시제 교정
+- ja-band-maid-world-tour-final-20261113 — 공식(11/6 갱신): 11/13 OPEN 16:30(NEK! 출연으로 30분 앞당김)/START 18:00, 일반발매 10/24 12:00 ローチケ·e+·ぴあ, 11/14는 매진·생중계 결정. `presale=false`, `general_sale=true`, `general_sale_datetime`·`general_sale_url`(공식 페이지 기재 l-tike) 추가, 문장 시제 교정
+- ja-tokunaga-hideaki-covers-and-best-tokyo-20261114 — 컬럼비아 공식: 11/14 東京国際フォーラム A 16:00/17:00 일치. 일반발매(9/26) 시작돼 `general_sale=true`, 시제 교정
+- ja-red-bull-symphonic-awich-20261117 — PR TIMES 공식 릴리스: 11/17 오사카~11/27 요코하마 4공연 일치. 변경 없음
+- ja-hotsquall-full-power-oneman-20261120 — 공식: 11/20 渋谷THE GAME 18:30/19:15, 일반발매 9/20 12:00 e+. `presale=false`/`general_sale=true`/`general_sale_datetime` 추가, 문장 보강(확인된 일반발매일만)
+- ja-5-seconds-of-summer-2026-20261121 — 크리에이티브맨 공식(10/23 공지): 11/21 공연 진행, 11/22 추가 공연 판매 중. 변경 없음
+- B-3 링크: 8건 source/예매 URL 12개 접속 — 11개 200(reissuerecords·pia는 리다이렉트로 정상 도착). l-tike.com 2개(bandmaid·bimi)는 이 환경에서 연결 자체 실패(000), 재시도 동일 → 접속 환경 문제로 판단, 죽은 링크로 단정 안 함(bandmaid는 공식 사이트가 같은 URL 안내)
+
+**남은 것**: 트랙 A 대기 없음. 트랙 B 다음 순번: ja-hinatazaka46-hinakuri-2026-kobe-20261121, ja-silica-gel-ballad-of-you-20261121, ja-second-backer-final-sendai-20261122, ja-nntt-peter-grimes-20261123, ja-tyondai-braxton-japan-tour-20261124부터
+**리서처 참고(추가 안 함)**: 신규 미등록 공연 발견 없음. 설명 복사 묶음(ウィーン・フィル 3건, 宮本浩次 10건 등) 여전 — 리서처 몫
 
 ---
 
