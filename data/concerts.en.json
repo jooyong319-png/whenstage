@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-04",
+  "last_updated": "2026-11-06",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -10764,6 +10764,134 @@
         "ko": "ko-cravity-sonorous-busan-20261121"
       },
       "updated_at": "2026-11-03"
+    },
+    {
+      "id": "en-hyukoh-33-tour-seoul-20270116",
+      "name": "HYUKOH [33] TOUR - SEOUL",
+      "release_date": "2027-01-16",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Olympic Park, Seoul(Olympic Hall)"
+      ],
+      "developer": "HYUKOH",
+      "publisher": "DOOROODOOROO Artist Company, Wonderrock",
+      "description": "HYUKOH opens its first solo world tour in about five years at Olympic Hall on Saturday, January 16, at 6 p.m. and Sunday, January 17, at 5 p.m. KST, ahead of the new full-length album '33'. Tickets go on sale exclusively through Melon Ticket on November 12 at 8 p.m. KST, priced from 132,000 won (A seats) to 154,000 won (standing and R seats). After Seoul the band heads to Taipei Music Center, Toyosu PIT in Tokyo, seven North American cities, London and Big Ears Festival.",
+      "genres": [
+        "Indie Rock",
+        "Concert"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/11/20261105181538bc8e3528-c310-463f-ac06-b454e5d75d4c.jpg",
+      "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13227",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-11-12T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13227",
+      "updated_at": "2026-11-06"
+    },
+    {
+      "id": "en-touched-highlight-v-seoul-20270123",
+      "name": "TOUCHED Solo Concert 'HIGHLIGHT V'",
+      "release_date": "2027-01-23",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "Korea University, Seoul(Hwajung Gymnasium)"
+      ],
+      "developer": "TOUCHED",
+      "publisher": "MPMG Music",
+      "description": "Rock band TOUCHED brings the fifth edition of its winter brand show HIGHLIGHT to Korea University's Hwajung Gymnasium on January 23 (6 p.m.) and January 24 (5 p.m.) KST, a date the band revealed at the end of its Grand Mint Festival 2026 set. The floor is standing and the second level is reserved, with R, S and A seats at 143,000, 132,000 and 121,000 won. Every attendee gets a light-up cheering bracelet, the show runs about 130 minutes, and Melon Ticket opens sales on November 10 at 7 p.m. KST.",
+      "genres": [
+        "Rock",
+        "Band",
+        "Concert"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/11/202611031122102ec707b3-8c61-4791-8c84-b5ac5aaa8676.jpg",
+      "source_url": "https://sports.khan.co.kr/en/article/202610220151007",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-11-10T19:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13211",
+      "related_locale_ids": {
+        "ko": "ko-touched-highlight-v-seoul-20270123"
+      },
+      "updated_at": "2026-11-06"
+    },
+    {
+      "id": "en-flare-u-where-ure-seoul-20261226",
+      "name": "2026-27 FLARE U FANCON TOUR: Where U'RE in SEOUL",
+      "release_date": "2026-12-26",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "Jangchung Arena, Seoul"
+      ],
+      "developer": "FLARE U",
+      "publisher": null,
+      "description": "FNC Entertainment duo FLARE U launches its first fan concert tour at Jangchung Arena on December 26 (6 p.m.) and December 27 (5 p.m.) KST, before stops in Taipei, Macau and Singapore in January. Melon Ticket runs a Global page: members of the global U'RE fan club on Plus Chat must verify between November 9 and 12, then buy in the presale on November 12 from 8 p.m. KST. General sale opens November 13 at 8 p.m. KST; all seats are 132,000 won, four per show, ages 7 and up.",
+      "genres": [
+        "K-Pop",
+        "Fan Concert"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/11/20261104111722d90a1bab-6f44-49dc-ba1d-44d341df58f7.jpg",
+      "source_url": "https://otakukart.com/flare-u-announces-first-ever-fan-concert-tour-where-ure-beginning-in-seoul-this-december/",
+      "presale": true,
+      "presale_datetime": "2026-11-12T20:00:00+09:00",
+      "presale_end_datetime": "2026-11-12T23:59:00+09:00",
+      "presale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13188",
+      "general_sale": true,
+      "general_sale_datetime": "2026-11-13T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13188",
+      "related_locale_ids": {
+        "ko": "ko-flare-u-where-ure-seoul-20261226"
+      },
+      "updated_at": "2026-11-06"
+    },
+    {
+      "id": "en-young-tak-tak-show5-busan-20270116",
+      "name": "2026 YOUNGTAK Solo Concert 'TAK SHOW5' - Busan",
+      "release_date": "2027-01-16",
+      "release_time": "15:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "BEXCO, Busan(Exhibition Center 1 Hall 3)"
+      ],
+      "developer": "Young Tak",
+      "publisher": "Abyss Company, S27",
+      "description": "Trot star Young Tak closes the fifth season of his annual TAK SHOW tour in Busan, playing BEXCO Exhibition Center 1, Hall 3 at 3 p.m. KST on both January 16 and 17, after Seoul, Jeonju, Daegu in late November and Incheon in December. Second-term YOUNGTAK&BLUES members can buy in a presale from November 10 at 8 p.m. to November 12 at 1:59 p.m. KST, and the general sale opens on Melon Ticket November 12 at 8 p.m. KST. Seats cost 132,000 to 154,000 won, limit four.",
+      "genres": [
+        "Trot",
+        "Concert"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/11/20261102153820641a2e02-eae3-4cea-b115-6c58d06b5d84.jpg",
+      "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13197",
+      "presale": true,
+      "presale_datetime": "2026-11-10T20:00:00+09:00",
+      "presale_end_datetime": "2026-11-12T13:59:00+09:00",
+      "presale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13197",
+      "general_sale": true,
+      "general_sale_datetime": "2026-11-12T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13197",
+      "related_locale_ids": {
+        "ko": "ko-youngtak-tak-show5-busan-20270116"
+      },
+      "updated_at": "2026-11-06"
     }
   ]
 }
