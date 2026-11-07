@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-06",
+  "last_updated": "2026-11-07",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -827,7 +827,7 @@
       ],
       "developer": "DREAMS COME TRUE",
       "publisher": "キョードー西日本",
-      "description": "DREAMS COME TRUE（ドリームズ・カム・トゥルー）が最新アルバム『THE BLACK ◯ ALBUM』を携えた全国ツアー「DREAMS COME TRUE CONCERT TOUR 2026 THE BLACK ◯ ALBUM」の福岡公演として、マリンメッセ福岡A館で2日間にわたり開催された公演。初日は開場15:30、開演17:00で行われた。チケットは指定席12,000円、注釈付指定席および立見が各11,000円（いずれも税込）で、3歳以上は有料入場という設定だった。福岡公演の問い合わせはキョードー西日本が担当した。",
+      "description": "DREAMS COME TRUEがアルバム『THE BLACK ◯ ALBUM』を携えて回った全国ツアー「CONCERT TOUR 2026 THE BLACK ◯ ALBUM」の福岡公演で、2026年4月25日（土）と26日（日）の2日間、マリンメッセ福岡A館で開催された。両日とも開場15:30／開演17:00。チケットは指定席12,000円、注釈付指定席と立見が各11,000円（いずれも税込）で、3歳以上は有料だった。福岡公演の問い合わせ先はキョードー西日本が務めた。",
       "genres": [
         "J-POP",
         "ポップス",
@@ -837,7 +837,7 @@
       "source_url": "https://basecamp.jp.net/schedule/10756/",
       "presale": false,
       "general_sale": false,
-      "updated_at": "2026-10-03"
+      "updated_at": "2026-11-07"
     },
     {
       "id": "ja-mr-children-saturday-in-the-park-nagoya-20260425",
@@ -859,31 +859,6 @@
       ],
       "image_url": null,
       "source_url": "https://www.sundayfolk.com/liveinfo/8cdfdjm"
-    },
-    {
-      "id": "ja-dreams-come-true-black-album-tour-fukuoka-20260426",
-      "name": "DREAMS COME TRUE CONCERT TOUR 2026 THE BLACK ◯ ALBUM 福岡公演",
-      "release_date": "2026-04-26",
-      "release_time": "17:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "マリンメッセ福岡A館"
-      ],
-      "developer": "DREAMS COME TRUE",
-      "publisher": "キョードー西日本",
-      "description": "DREAMS COME TRUE（ドリームズ・カム・トゥルー）が最新アルバム『THE BLACK ◯ ALBUM』を携えた全国ツアー「DREAMS COME TRUE CONCERT TOUR 2026 THE BLACK ◯ ALBUM」の福岡公演として、マリンメッセ福岡A館で2日間にわたり開催された公演。2日目は開場15:30、開演17:00で行われた。チケットは指定席12,000円、注釈付指定席および立見が各11,000円（いずれも税込）で、3歳以上は有料入場という設定だった。福岡公演の問い合わせはキョードー西日本が担当した。",
-      "genres": [
-        "J-POP",
-        "ポップス",
-        "ツアー"
-      ],
-      "image_url": null,
-      "source_url": "https://basecamp.jp.net/schedule/10756/",
-      "presale": false,
-      "general_sale": false,
-      "updated_at": "2026-10-03"
     },
     {
       "id": "ja-njp-670-triphony-20260509",
@@ -7079,7 +7054,7 @@
     },
     {
       "id": "ja-young-k-youngest-japan-20270213",
-      "name": "Young K Solo Tour <YOUNGEST> in JAPAN DAY1",
+      "name": "Young K Solo Tour <YOUNGEST> in JAPAN",
       "release_date": "2027-02-13",
       "release_time": "18:00",
       "release_date_approx": false,
@@ -7090,7 +7065,7 @@
       ],
       "developer": "Young K（DAY6）",
       "publisher": "ON THE LINE",
-      "description": "韓国のバンドDAY6のメンバーYoung Kが、2作目のフルアルバム『YOUNGEST』を掲げたソロワールドツアーの一環として行う日本公演。会場は東京体育館メインアリーナで、開場17:00／開演18:00。全席指定15,000円（税込）で、未就学児は入場できない。2026年8月の仁川インスパイアアリーナでの開幕3公演は先行予約で全席完売しており、その後バンコク・台北・香港・シンガポールなどアジア各都市を巡回する流れのなかで東京公演が追加発表された。企画はJYPエンターテインメントが担当する。",
+      "description": "韓国のバンドDAY6のメンバーYoung Kが、2作目のフルアルバム『YOUNGEST』を掲げたソロワールドツアーの日本公演として、東京体育館メインアリーナで2日間行う。2027年2月13日（土）は開場17:00／開演18:00、14日（日）は開場15:00／開演16:00。全席指定15,000円（税込）で、未就学児は入場不可。2026年8月に仁川で開幕した同ツアーはバンコク・台北・香港・シンガポールなどアジア各都市を回っており、その流れで東京公演が追加された。",
       "genres": [
         "K-POP",
         "ロック",
@@ -7098,8 +7073,8 @@
       ],
       "image_url": null,
       "source_url": "https://jypj-store.com/pages/youngk-youngest",
-      "updated_at": "2026-10-07",
-      "presale": true,
+      "updated_at": "2026-11-07",
+      "presale": false,
       "presale_datetime": "2026-09-29T17:00:00+09:00",
       "presale_end_datetime": "2026-10-13T23:59:00+09:00",
       "presale_url": "https://ticket.tickebo.jp/sn/YoungK_solo_tb",
@@ -7125,34 +7100,6 @@
       "timezone": "Asia/Tokyo",
       "publisher": null,
       "image_url": null
-    },
-    {
-      "id": "ja-young-k-youngest-japan-20270214",
-      "name": "Young K Solo Tour <YOUNGEST> in JAPAN DAY2",
-      "release_date": "2027-02-14",
-      "release_time": "16:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "東京体育館（メインアリーナ）"
-      ],
-      "developer": "Young K（DAY6）",
-      "publisher": "ON THE LINE",
-      "description": "韓国のバンドDAY6のメンバーYoung Kが、2作目のフルアルバム『YOUNGEST』を掲げたソロワールドツアーの一環として行う日本公演。会場は東京体育館メインアリーナで、開場15:00／開演16:00。全席指定15,000円（税込）で、未就学児は入場できない。2026年8月の仁川インスパイアアリーナでの開幕3公演は先行予約で全席完売しており、その後バンコク・台北・香港・シンガポールなどアジア各都市を巡回する流れのなかで東京公演が追加発表された。企画はJYPエンターテインメントが担当する。",
-      "genres": [
-        "K-POP",
-        "ロック",
-        "来日公演"
-      ],
-      "image_url": null,
-      "source_url": "https://jypj-store.com/pages/youngk-youngest",
-      "updated_at": "2026-10-07",
-      "presale": true,
-      "presale_datetime": "2026-09-29T17:00:00+09:00",
-      "presale_end_datetime": "2026-10-13T23:59:00+09:00",
-      "presale_url": "https://ticket.tickebo.jp/sn/YoungK_solo_tb",
-      "general_sale": false
     },
     {
       "release_date_approx": false,
@@ -8496,6 +8443,270 @@
       "general_sale_datetime": "2026-11-14T10:00:00+09:00",
       "general_sale_url": "https://ticket.pia.jp/pia/ticketInformation.do?eventCd=2637964&rlsCd=001&lotRlsCd=",
       "updated_at": "2026-10-31"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": "https://s3-ap-northeast-1.amazonaws.com/pf-web/fanclubs/222/assets/340/statics/txt_steal_the_wind_in_japan/images/ogp.png",
+      "presale": true,
+      "presale_datetime": "2026-09-15T13:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": "https://ticket.pia.jp/pia/event.do?eventCd=2641922",
+      "general_sale": false,
+      "general_sale_datetime": "2026-11-21T13:00:00+09:00",
+      "general_sale_url": null,
+      "updated_at": "2026-11-07",
+      "id": "ja-txt-steal-the-wind-fukuoka-20261219",
+      "name": "TOMORROW X TOGETHER WORLD TOUR ＜STEAL THE WIND＞ IN JAPAN（福岡公演）",
+      "release_date": "2026-12-19",
+      "release_time": "17:00",
+      "platforms": [
+        "みずほPayPayドーム福岡"
+      ],
+      "description": "TOMORROW X TOGETHERにとって3度目となる日本ドームツアーの初日を飾る福岡公演。12月19日（土）は開場15:00／開演17:00、20日（日）は開場14:00／開演16:00で、みずほPayPayドーム福岡で2日間行われる。20日の公演は全国の映画館でライブビューイングとして生中継されることも決まった。11月7日（土）13:00から16日（月）23:59まで各プレイガイドで特別先着受付があり、ローソンチケットの一般発売は11月21日（土）13:00から。",
+      "category": "concert_tour",
+      "developer": "TOMORROW X TOGETHER",
+      "genres": [
+        "K-POP",
+        "来日",
+        "ドームツアー"
+      ],
+      "source_url": "https://www.hybejapan-concert.com/statics/txt_steal_the_wind_in_japan"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": "https://s3-ap-northeast-1.amazonaws.com/pf-web/fanclubs/222/assets/340/statics/txt_steal_the_wind_in_japan/images/ogp.png",
+      "presale": true,
+      "presale_datetime": "2026-09-15T13:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": "https://ticket.pia.jp/pia/event.do?eventCd=2641892",
+      "general_sale": false,
+      "general_sale_datetime": "2026-11-21T13:00:00+09:00",
+      "general_sale_url": null,
+      "updated_at": "2026-11-07",
+      "id": "ja-txt-steal-the-wind-tokyo-dome-20270107",
+      "name": "TOMORROW X TOGETHER WORLD TOUR ＜STEAL THE WIND＞ IN JAPAN（東京公演）",
+      "release_date": "2027-01-07",
+      "release_time": "18:00",
+      "platforms": [
+        "東京ドーム"
+      ],
+      "description": "通算5度目のワールドツアー「STEAL THE WIND」の東京公演で、2027年1月7日（木）と8日（金）の平日2日間に東京ドームで開催される。両日とも開場16:00／開演18:00。4月の8thミニアルバムで描いた「風」をツアーの中心テーマに据えたステージになると発表されている。指定席16,500円、ステージ両端のステージサイド体感席16,000円、スタンド後方のWelcomeシート11,500円（いずれも税込）。特別先着受付は11月7日13:00から、一般発売は11月21日13:00から。",
+      "category": "concert_tour",
+      "developer": "TOMORROW X TOGETHER",
+      "genres": [
+        "K-POP",
+        "来日",
+        "ドームツアー"
+      ],
+      "source_url": "https://www.hybejapan-concert.com/statics/txt_steal_the_wind_in_japan"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": "https://s3-ap-northeast-1.amazonaws.com/pf-web/fanclubs/222/assets/340/statics/txt_steal_the_wind_in_japan/images/ogp.png",
+      "presale": true,
+      "presale_datetime": "2026-09-15T13:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": "https://ticket.pia.jp/pia/event.do?eventCd=2641837",
+      "general_sale": false,
+      "general_sale_datetime": "2026-11-21T13:00:00+09:00",
+      "general_sale_url": null,
+      "updated_at": "2026-11-07",
+      "id": "ja-txt-steal-the-wind-osaka-20270130",
+      "name": "TOMORROW X TOGETHER WORLD TOUR ＜STEAL THE WIND＞ IN JAPAN（大阪公演）",
+      "release_date": "2027-01-30",
+      "release_time": "17:00",
+      "platforms": [
+        "京セラドーム大阪"
+      ],
+      "description": "日本ドームツアー3都市目となる大阪公演。2027年1月30日（土）は開場15:00／開演17:00、31日（日）は開場14:00／開演16:00と、日曜は1時間早いスケジュールで京セラドーム大阪に2日間立つ。MOA Membership（JP）会員先行は9月15日に始まり、現在はプレイガイドの特別先着受付（11月7日13:00〜16日23:59）が行われている。一般発売は11月21日（土）13:00からローソンチケットで、1公演につき4枚まで。",
+      "category": "concert_tour",
+      "developer": "TOMORROW X TOGETHER",
+      "genres": [
+        "K-POP",
+        "来日",
+        "ドームツアー"
+      ],
+      "source_url": "https://www.hybejapan-concert.com/statics/txt_steal_the_wind_in_japan"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": "https://s3-ap-northeast-1.amazonaws.com/pf-web/fanclubs/222/assets/340/statics/txt_steal_the_wind_in_japan/images/ogp.png",
+      "presale": true,
+      "presale_datetime": "2026-09-15T13:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": "https://ticket.pia.jp/pia/event.do?eventCd=2641849",
+      "general_sale": false,
+      "general_sale_datetime": "2026-11-21T13:00:00+09:00",
+      "general_sale_url": null,
+      "updated_at": "2026-11-07",
+      "id": "ja-txt-steal-the-wind-nagoya-20270220",
+      "name": "TOMORROW X TOGETHER WORLD TOUR ＜STEAL THE WIND＞ IN JAPAN（愛知公演）",
+      "release_date": "2027-02-20",
+      "release_time": "17:00",
+      "platforms": [
+        "バンテリンドーム ナゴヤ"
+      ],
+      "description": "福岡・東京・大阪と続く日本ドームツアーの最終地、愛知公演。2027年2月20日（土）・21日（日）にバンテリンドーム ナゴヤで行われ、両日とも開場15:00／開演17:00。前回ツアー「ACT : TOMORROW」では日本5都市のドームで35万人以上を動員しており、今回は新シリーズの幕開けとなる。11月7日13:00から特別先着受付、11月21日13:00からローソンチケットで一般発売。公演の問い合わせ先はキョードー東海。",
+      "category": "concert_tour",
+      "developer": "TOMORROW X TOGETHER",
+      "genres": [
+        "K-POP",
+        "来日",
+        "ドームツアー"
+      ],
+      "source_url": "https://www.hybejapan-concert.com/statics/txt_steal_the_wind_in_japan"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": "https://diskgarage.com/ticket/picture/102272",
+      "presale": true,
+      "presale_datetime": "2026-10-31T12:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": "https://eplus.jp/motoharusanoandcb/",
+      "general_sale": false,
+      "general_sale_datetime": "2026-12-05T10:00:00+09:00",
+      "general_sale_url": "https://ticket.pia.jp/pia/event.do?eventCd=2627370",
+      "updated_at": "2026-11-07",
+      "id": "ja-motoharu-sano-in-and-out-tokyo-garden-theater-20270320",
+      "name": "佐野元春 & THE COYOTE BAND “IN & OUT TOUR 2026”（東京ガーデンシアター公演）",
+      "release_date": "2027-03-20",
+      "release_time": "17:00",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ガーデンシアター"
+      ],
+      "developer": "佐野元春",
+      "genres": [
+        "ロック",
+        "J-POP"
+      ],
+      "description": "2026年9月から全国18都市21公演を巡ってきた佐野元春 & THE COYOTE BANDのホールツアー「IN & OUT」のうち、2027年3月20日（土）に東京ガーデンシアターで行われる公演。開場16:00／開演17:00。S指定席はアリーナ前方、A指定席はアリーナ後方とスタンドで、特製Tシャツ付き指定席（S 18,700円・A 16,500円）も用意される。プレイガイド先行抽選は10月31日正午から始まり、一般発売は12月5日（土）10:00から。",
+      "source_url": "https://diskgarage.com/ticket/detail/102272"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": "https://eplus.jp/s/image/016558/0001/000/0165580001_4.jpg",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": "2026-11-14T10:00:00+09:00",
+      "general_sale_url": "https://ticket.pia.jp/pia/event.do?eventCd=2636279",
+      "updated_at": "2026-11-07",
+      "id": "ja-suga-shikao-sugafes-acoustic-supernova-yokohama-20270223",
+      "name": "スガ シカオ「30th ANNIVERSARY LIVE スガフェス!× ACOUSTIC SUPERNOVA」",
+      "release_date": "2027-02-23",
+      "release_time": "17:00",
+      "category": "concert_tour",
+      "platforms": [
+        "横浜アリーナ"
+      ],
+      "developer": "スガ シカオ",
+      "genres": [
+        "J-POP",
+        "ロック"
+      ],
+      "description": "デビュー30周年を迎えるスガ シカオが、アコースティックツアー「ACOUSTIC SUPERNOVA」のファイナルとして2027年2月23日（火・祝）に横浜アリーナで開くアニバーサリー公演。開場16:00／開演17:00。〈スガフェス!〉パートではCLAMP「xxxHOLiC」の朗読劇や稲川淳二の怪談、斉藤和義・大槻ケンヂらが参加するカラオケ大会が組まれ、ACOUSTIC SUPERNOVAパートには岡野昭仁がゲスト出演する。一般発売は11月14日（土）10:00から。",
+      "source_url": "https://eplus.jp/sf/detail/0165580001"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": "https://helloproject.com/upload/images/207bd62260b06e4e3b63b2658194ed6380353235d3bc16bf4e24e18742f2a4c0.webp",
+      "presale": false,
+      "presale_datetime": "2026-09-14T17:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-11-08T10:00:00+09:00",
+      "general_sale_url": "https://ticket.pia.jp/pia/event.do?eventCd=2640471",
+      "updated_at": "2026-11-07",
+      "id": "ja-angerme-2026-aki-final-furinkazan-kiwami-20261202",
+      "name": "アンジュルム 2026秋 FINAL 風林火山・極",
+      "release_date": "2026-12-02",
+      "release_time": "18:00",
+      "category": "concert_tour",
+      "platforms": [
+        "ぴあアリーナMM"
+      ],
+      "developer": "アンジュルム",
+      "genres": [
+        "アイドル",
+        "J-POP"
+      ],
+      "description": "9月から全国のホールを回った秋ツアー「風林火山・弐」を締めくくるアンジュルムのファイナル公演。2026年12月2日（水）にぴあアリーナMMで開場17:00／開演18:00、オープニングアクトには同じハロー！プロジェクトのロージークロニクルが出演する。全席指定9,800円（税込）で、着席鑑賞のファミリー席も用意。ファンクラブ先行は終了しており、一般発売は11月8日（日）10:00からチケットぴあとイープラスで始まる。",
+      "source_url": "https://www.helloproject.com/event/74b3f7024b660b2919bcaab4a6eefb3deb626e7b8f5003a3eab95291384befd6/"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": null,
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": "2026-11-21T10:00:00+09:00",
+      "general_sale_url": "https://ticket.pia.jp/pia/event.do?eventCd=2642117",
+      "updated_at": "2026-11-07",
+      "id": "ja-highlight-fancon-japan-20261205",
+      "name": "2026 HIGHLIGHT FANCON [アイドル18年目の僕らが、異世界ではまさかのデビュー組練習生?!] in JAPAN",
+      "release_date": "2026-12-05",
+      "release_time": "17:00",
+      "category": "fanmeeting",
+      "platforms": [
+        "Kanadevia Hall"
+      ],
+      "developer": "HIGHLIGHT",
+      "genres": [
+        "K-POP",
+        "ファンミーティング"
+      ],
+      "description": "韓国のボーイズグループHIGHLIGHTが2026年12月5日（土）に東京・Kanadevia Hallで開くファンコンサート。開場16:00／開演17:00。10月に韓国で3日間行われた同名公演の日本版で、ライブに加えてファンコンならではの新しいコーナー構成が予告されている。全席指定15,400円（税込・ドリンク代別）、未就学児は入場不可。ファンクラブ2次先行は10月26日で締め切られ、一般発売は11月21日（土）10:00からチケットぴあで。",
+      "source_url": "https://bestcalendar.jp/press/160125"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": null,
+      "presale": true,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": "2026-11-21T10:00:00+09:00",
+      "general_sale_url": "https://ticket.pia.jp/pia/event.do?eventCd=2641995",
+      "updated_at": "2026-11-07",
+      "id": "ja-kinniku-shojo-tai-2026-live-final-20261220",
+      "name": "筋肉少女帯 2026 ライブファイナル",
+      "release_date": "2026-12-20",
+      "release_time": "18:00",
+      "category": "concert_tour",
+      "platforms": [
+        "LIQUIDROOM"
+      ],
+      "developer": "筋肉少女帯",
+      "genres": [
+        "ロック"
+      ],
+      "description": "筋肉少女帯がその年の活動を締めくくる恒例の年末公演で、2026年は12月20日（日）に恵比寿LIQUIDROOMで開催する。開場17:00／開演18:00、サポートにピアノの三柴理とドラムの長谷川浩二が加わる。オールスタンディング8,800円（税込・ドリンク代別）で未就学児は入場不可。ぴあのプレリザーブ（抽選）は11月15日23:59まで受付中で、一般発売は11月21日（土）10:00から。翌2027年2月18日にはえんそくとの共演公演もZepp Shinjukuで控える。",
+      "source_url": "https://king-show.net/"
     }
   ]
 }
