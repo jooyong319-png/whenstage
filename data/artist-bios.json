@@ -1435,6 +1435,36 @@
         "agency": null,
         "members": null,
         "debut": null
+      },
+      "크래비티": {
+        "text": "크래비티(CRAVITY)는 스타쉽엔터테인먼트 소속 보이그룹으로, 2020년 4월 첫 앨범 'HIDEOUT: REMEMBER WHO WE ARE'로 데뷔했다. 힘 있는 퍼포먼스와 청량한 곡을 오가며 활동해 왔고, 2026년 9월 아홉 번째 미니앨범 'SONOROUS'를 발표했다.",
+        "agency": "스타쉽엔터테인먼트",
+        "members": null,
+        "debut": "2020.04.14"
+      },
+      "이승윤": {
+        "text": "이승윤은 직접 곡을 쓰고 노래하는 싱어송라이터로, 2021년 JTBC '싱어게인 - 무명가수전'에서 우승하며 대중에게 이름을 알렸다. 문학적인 가사와 록 기반의 거친 에너지가 특징이며, 클럽 공연부터 대형 단독 콘서트까지 꾸준히 무대를 넓혀 왔다.",
+        "agency": null,
+        "members": "솔로",
+        "debut": null
+      },
+      "변진섭": {
+        "text": "변진섭은 1988년 1집 '홀로 된다는 것'으로 데뷔해 '희망사항', '너에게로 또다시' 등을 히트시키며 '발라드 황제'로 불려 온 가수다. 1980~90년대 한국 발라드 전성기를 이끈 대표 보컬 중 한 명으로, 최근에는 전국투어 '변천사' 시리즈로 관객과 만나고 있다.",
+        "agency": null,
+        "members": "솔로",
+        "debut": "1988"
+      },
+      "플레어 유": {
+        "text": "플레어 유(FLARE U)는 FNC엔터테인먼트가 선보인 2인조 보이그룹으로, 최립우와 강우진으로 구성됐다. 2026년 5월 데뷔 미니앨범 'Youth Error'로 활동을 시작했고, 10월 미니 2집 'LOVEHOOD'를 발표했다.",
+        "agency": "FNC엔터테인먼트",
+        "members": "2인조",
+        "debut": "2026.05"
+      },
+      "터치드": {
+        "text": "터치드(TOUCHED)는 보컬 윤민을 중심으로 한 5인조 혼성 록 밴드로, 2020년 데뷔했다. 강렬한 라이브와 탄탄한 연주력으로 페스티벌 무대에서 빠르게 이름을 알렸고, 매년 겨울 브랜드 공연 'HIGHLIGHT'를 이어 오고 있다.",
+        "agency": "엠피엠지뮤직",
+        "members": "5인조 밴드",
+        "debut": "2020"
       }
     },
     "en": {
@@ -2937,6 +2967,318 @@
         "agency": null,
         "members": null,
         "debut": null
+      },
+      "Sung Si-kyung": {
+        "text": "Sung Si-kyung is a South Korean ballad singer who debuted in 2000 and became one of the country's best-known voices with songs such as 'On the Street' and 'Every Moment of You'. He is also a familiar TV host, and his year-end concerts have long been a fixture for Korean fans.",
+        "agency": null,
+        "members": "Solo",
+        "debut": "2000"
+      },
+      "CRAVITY": {
+        "text": "CRAVITY is a South Korean boy group under Starship Entertainment that debuted in April 2020 with 'HIDEOUT: REMEMBER WHO WE ARE'. The group moves between hard-hitting performance tracks and brighter pop, and released its ninth mini album, 'SONOROUS', in September 2026.",
+        "agency": "Starship Entertainment",
+        "members": null,
+        "debut": "April 14, 2020"
+      },
+      "HYUKOH": {
+        "text": "HYUKOH is a Seoul rock band fronted by singer-songwriter Oh Hyuk, alongside Lim Hyun-je, Lee In-woo and Lim Dong-geon. Since the 2014 EP '20' the band has drifted between indie rock, lo-fi and psychedelia, and its 2027 world tour follows the new full-length album '33'.",
+        "agency": "DOOROODOOROO Artist Company",
+        "members": "4 members",
+        "debut": "2014"
+      },
+      "TOUCHED": {
+        "text": "TOUCHED is a five-piece South Korean rock band that debuted in 2020 and broke through on the festival circuit thanks to singer Yoon Min's voice and a tight live show. The band has played festivals in Europe and across Asia, and stages its own winter concert series, HIGHLIGHT, each year.",
+        "agency": "MPMG Music",
+        "members": "5 members",
+        "debut": "2020"
+      },
+      "FLARE U": {
+        "text": "FLARE U is an FNC Entertainment boy duo made up of Choi Lip-woo and Kang Woo-jin. They debuted in May 2026 with the mini album 'Youth Error' and followed it with a second mini album, 'LOVEHOOD', in October.",
+        "agency": "FNC Entertainment",
+        "members": "2 members",
+        "debut": "May 2026"
+      },
+      "Young Tak": {
+        "text": "Young Tak is a South Korean trot singer who rose to national fame as a finalist on TV Chosun's 'Mr. Trot' in 2020. Hits such as 'Why Are You There' and 'Jjin-iya' made him one of the genre's biggest draws, and his annual TAK SHOW tour is now in its fifth season.",
+        "agency": null,
+        "members": "Solo",
+        "debut": null
+      },
+      "David Byrne's Night": {
+        "text": "David Byrne's Night is a rotating tribute collective founded by Dundee musician Lola Stephen. Its shows pair Talking Heads and David Byrne solo songs with readings of Robert Burns poetry, performed by players from the British indie, punk and experimental scenes.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "James, Stereophonics, The Wombats, The Lathums": {
+        "text": "The 2025 bill for Neighbourhood Weekender at Victoria Park in Warrington. Manchester band James headlined the Saturday and Welsh rockers Stereophonics closed the Sunday, with Liverpool's The Wombats and Wigan's The Lathums among the guitar bands lower down.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "blink-182, Alkaline Trio, Beauty School Dropout": {
+        "text": "blink-182 are the California pop-punk trio behind 'All the Small Things' and 'What's My Age Again', back in their Mark Hoppus, Tom DeLonge and Travis Barker lineup since 2022. Chicago punk band Alkaline Trio and Beauty School Dropout supported the 2025 Missionary Impossible tour.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Oasis, Cage the Elephant, Cast": {
+        "text": "Oasis, the Manchester band led by Liam and Noel Gallagher, reunited in 2025 for the Live '25 tour, their first shows since splitting in 2009. Kentucky rock band Cage the Elephant and Liverpool's Cast opened the North American stadium dates.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Slayer, Rob Zombie, Avenged Sevenfold, Deftones, Bring Me the Horizon, Sleep Token": {
+        "text": "The top of the 2025 Louder Than Life bill in Louisville, Kentucky, one of the largest rock and metal festivals in the US. Thrash pioneers Slayer, Rob Zombie, Avenged Sevenfold, Deftones and Bring Me the Horizon headlined, with Sleep Token billed just below them.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Turnstile, Mannequin Pussy, Speed, Jane Remover": {
+        "text": "Turnstile are a Baltimore hardcore band whose melodic, genre-blurring records have carried them well beyond the punk scene. Their 2025 Never Enough Tour brought along Philadelphia's Mannequin Pussy, Australian hardcore band Speed and Jane Remover.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Bryan Adams, Pat Benatar & Neil Giraldo": {
+        "text": "Canadian singer-songwriter Bryan Adams, known for 'Summer of '69' and '(Everything I Do) I Do It for You', toured North America in 2025 behind Roll With The Punches. Rock singer Pat Benatar and her guitarist and husband Neil Giraldo opened the shows.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Sigur Ros, Wordless Music Orchestra": {
+        "text": "Sigur Rós are the Icelandic post-rock band known for Jónsi's falsetto and slow-building, cinematic songs. On their orchestral tour behind the 2023 album ATTA they performed with the Wordless Music Orchestra, playing new material alongside older favourites.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Tyler, the Creator, Childish Gambino, A$AP Rocky, Doechii, Kali Uchis": {
+        "text": "The headliners of the 2025 Camp Flog Gnaw Carnival, the Los Angeles festival hosted by Tyler, the Creator. Tyler topped the bill alongside Childish Gambino, A$AP Rocky and Doechii, with Kali Uchis added after the rain-delayed reschedule.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Eli Young Band, Bray, Joey Holt": {
+        "text": "Eli Young Band are a Texas country quartet best known for number-one singles such as 'Crazy Girl' and 'Drunk Last Night'. Their 2025 Strange Hours Tour followed the album of the same name, with local acts opening some dates.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Lorna Shore, Whitechapel, Shadow of Intent, Humanity's Last Breath": {
+        "text": "Lorna Shore are a New Jersey deathcore band whose symphonic, blast-heavy sound made them one of the genre's biggest names. Their 2026 UK headline run brought along fellow heavyweights Whitechapel, Shadow of Intent and Humanity's Last Breath.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Richard Ashcroft, Blossoms, Kaiser Chiefs, DMA's": {
+        "text": "The 2026 bill for Neighbourhood Weekender in Warrington. Former Verve frontman Richard Ashcroft and Stockport band Blossoms took the headline slots, with Kaiser Chiefs and Australian band DMA's among the acts playing beneath them.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "PinkPantheress, iKeda": {
+        "text": "PinkPantheress is an English singer and producer whose short, breakbeat-driven bedroom-pop songs first spread on TikTok. She won Producer of the Year at the 2026 BRIT Awards and brought her arena show to the UK and Europe that spring, with iKeda opening.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "St. Vincent, New York Philharmonic": {
+        "text": "St. Vincent is the stage name of American musician Annie Clark, known for inventive guitar work and art-rock records such as 'Masseduction' and 'All Born Screaming'. Her Live With Orchestra tour reworks her catalogue for full orchestra, here with the New York Philharmonic.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Diana Krall, Pat Metheny, Marcus Miller, Samara Joy, Nils Petter Molvaer": {
+        "text": "Headliners of the 61st Jazzaldia, the long-running jazz festival in San Sebastián. Singer-pianist Diana Krall, guitarist Pat Metheny, bassist Marcus Miller and singer Samara Joy drew sell-out crowds, with Norwegian trumpeter Nils Petter Molvær also on the bill.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "The Black Keys, Eddie 9V": {
+        "text": "The Black Keys are the Akron, Ohio duo of Dan Auerbach and Patrick Carney, whose blues-rooted rock produced hits like 'Lonely Boy' and 'Tighten Up'. Atlanta blues guitarist Eddie 9V opened dates on their 2026 world tour.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Erykah Badu, The Alchemist": {
+        "text": "Erykah Badu is the Dallas singer often credited with shaping neo-soul, and The Alchemist is a veteran hip-hop producer known for sample-heavy collaborations. The pair released a long-teased joint album in August 2026.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Erykah Badu, The Alchemist, De La Soul": {
+        "text": "Erykah Badu and producer The Alchemist toured North America in September 2026 behind their joint album. Long Island hip-hop group De La Soul, known for '3 Feet High and Rising', joined most of the run.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Erykah Badu, The Alchemist, Smino": {
+        "text": "Erykah Badu and producer The Alchemist took their joint album on the road in September 2026. St. Louis rapper Smino, known for his elastic flow and playful wordplay, joined the Los Angeles finale.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Erykah Badu, The Alchemist, De La Soul, Smino": {
+        "text": "The bill for the Hollywood Bowl finale of Erykah Badu and The Alchemist's September 2026 tour, celebrating their joint album. De La Soul, who supported most of the run, and St. Louis rapper Smino joined the closing night.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Guns N' Roses, Ice Cube": {
+        "text": "Guns N' Roses are the Los Angeles hard rock band behind 'Appetite for Destruction' and 'Sweet Child o' Mine', touring with Axl Rose, Slash and Duff McKagan. West Coast rap pioneer Ice Cube opened their 2026 return to the Rose Bowl.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Neil Young & The Chrome Hearts, Willie Nelson & Family, Ty Myers": {
+        "text": "A co-headline bill pairing two songwriting veterans: Neil Young with his band The Chrome Hearts, and country icon Willie Nelson with his longtime band, the Family. Both are Farm Aid co-founders. Young country singer Ty Myers opened.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Foo Fighters, Queens of the Stone Age, Mumford & Sons, Kacey Musgraves, Chris Stapleton, Dave Matthews Band": {
+        "text": "The top of the 2026 Bourbon & Beyond bill in Louisville, a festival that mixes music with bourbon and food. Foo Fighters, Queens of the Stone Age, Mumford & Sons, Kacey Musgraves, Chris Stapleton and Dave Matthews Band headlined across four days.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Jonas Brothers, Magnus Ferrell, Deleasa": {
+        "text": "The Jonas Brothers are siblings Kevin, Joe and Nick Jonas, who broke through in the late 2000s and reunited in 2019 with 'Sucker'. Their 2026 arena tour revisits the 2008 Burning Up Tour, with Magnus Ferrell and Deleasa supporting.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Jonas Brothers, All Time Low, Magnus Ferrell, Deleasa": {
+        "text": "The Jonas Brothers' 2026 tour revisits the 2008 Burning Up Tour that made Kevin, Joe and Nick Jonas household names. Baltimore pop-punk band All Time Low joined Magnus Ferrell and Deleasa as support for the Los Angeles date.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Kofi Stone, Lady Ice, Bawo, OneDa, Mouth Ulcers, ALT BLK ERA": {
+        "text": "The first wave of acts for the 2026 edition of Beyond The Music, a Manchester-area festival and industry conference that showcases more than a hundred emerging artists. Birmingham rapper Kofi Stone leads the bill alongside Lady Ice, Bawo and OneDa.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Oso Oso, Leisure Hour, Bad Luck": {
+        "text": "Oso Oso is the emo and indie-rock project of Long Island songwriter Jade Lilitri, known for warm, hooky albums such as 'The Yunahon Mixtape' and 'Basking in the Glow'. Leisure Hour and Bad Luck supported the first leg of the 2026 North American tour.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Oso Oso, Liquid Mike, Bugsy": {
+        "text": "Oso Oso is the project of Long Island songwriter Jade Lilitri, whose melodic emo-tinged indie rock has built a devoted following. Michigan power-pop band Liquid Mike and Bugsy supported the second leg of the 2026 North American tour.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Amon Amarth, Orbit Culture, Soilwork": {
+        "text": "Amon Amarth are a Swedish melodic death metal band whose Viking-themed songs and theatrical stage shows have made them festival favourites. Their 2026 European run is an all-Swedish bill with Orbit Culture and Soilwork.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "The Pussycat Dolls, Lil' Kim, Deja Vu": {
+        "text": "The Pussycat Dolls are the Los Angeles pop group behind 'Don't Cha' and 'Buttons', reformed in 2026 as a trio of Nicole Scherzinger, Ashley Roberts and Kimberly Wyatt. Brooklyn rapper Lil' Kim and Deja Vu are special guests on the PCD Forever tour.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Usher, Chris Brown, Mario, Eric Bellinger, Tank": {
+        "text": "Usher and Chris Brown, two of the biggest R&B stars of the past two decades, teamed up in 2026 for The R&B Tour, trading songs across a nearly three-hour show. Fellow singers Mario, Eric Bellinger and Tank join them on stage.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Nice as Fuck, Alix Brown": {
+        "text": "Nice as Fuck is the trio of Jenny Lewis, Erika Spring of Au Revoir Simone and Tennessee Thomas of The Like, whose stripped-back self-titled album came out in 2016. Their 2026 reunion shows mark its tenth anniversary, with DJ Alix Brown opening.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Anderson .Paak, Cordae": {
+        "text": "Anderson .Paak is a California singer, rapper and drummer known for his solo albums and for Silk Sonic with Bruno Mars. Maryland-born rapper Cordae has worked with him on several singles, and the two released a joint album, 'Heavy Is the Crown', in October 2026.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Olivia Rodrigo, Devon Again": {
+        "text": "Olivia Rodrigo is an American singer-songwriter who broke through in 2021 with 'drivers license' and the album 'SOUR', followed by 'GUTS' in 2023. The Unraveled Tour supports her third album, released in June 2026, with Devon Again opening the Philadelphia shows.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Bruce Springsteen, Jon Stewart, Hasan Minhaj, Josh Johnson, Alex Warren, The Resilient": {
+        "text": "The lineup for Stand Up for Heroes, the Bob Woodruff Foundation's annual music and comedy benefit for injured veterans in New York. Bruce Springsteen has played nearly every edition since 2007, with comedians Jon Stewart, Hasan Minhaj and Josh Johnson on the 2026 bill.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Tyler, the Creator, Turnstile, Steve Lacy, Future, Don Toliver": {
+        "text": "The top of the 2026 Camp Flog Gnaw Carnival bill, the Los Angeles festival hosted by Tyler, the Creator. Tyler headlines alongside Baltimore hardcore band Turnstile, singer-guitarist Steve Lacy, Atlanta rapper Future and Houston's Don Toliver.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Amorphis, Insomnium": {
+        "text": "Amorphis and Insomnium are two of Finland's best-known melodic metal bands: Amorphis blend death metal with folk melodies and the Kalevala epic, while Insomnium are known for melancholic melodic death metal. They co-headline a 25-date North American tour in late 2026.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Lindsey Stirling, ARKAI": {
+        "text": "Lindsey Stirling is an American violinist who combines electronic music with dance, and first drew attention through YouTube. Her Snow Waltz Holiday Tour builds a theatrical show around Christmas material, with electroacoustic string duo ARKAI supporting.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Nia Archives, Cannelle, NEW YORK, Trickpony": {
+        "text": "Nia Archives is a British producer, DJ and singer who brought jungle back into the mainstream, and her debut album earned a Mercury Prize shortlisting. Cannelle, NEW YORK and Trickpony support the 2026 Emotional World Tour.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "LL Cool J, SWV, Method Man & Redman, Lil' Kim, D-Nice, The LOX, LeToya Luckett, David Banner": {
+        "text": "The 2026 lineup for Rock The Bells Festival, the hip-hop heritage event founded by LL Cool J, held in Newark over Thanksgiving weekend. LL Cool J headlines with R&B trio SWV, Method Man & Redman and Lil' Kim, plus a set curated by DJ D-Nice.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Basement, Fleshwater, Beton Arme": {
+        "text": "Basement are an emo and alternative-rock band from Ipswich, England, known for the albums 'Colourmeinkindness' and 'Promise Everything'. Their 2027 UK and European tour follows 'WIRED', their first album in more than eight years, with Fleshwater and Beton Arme opening.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Luke Combs, Treaty Oak Revival, Avery Anna, Shenandoah, Wyatt McCubbin": {
+        "text": "Luke Combs is a North Carolina-born country singer whose run of chart-topping singles, including 'Beautiful Crazy' and his cover of 'Fast Car', made him one of Nashville's biggest stadium acts. Treaty Oak Revival, Avery Anna, Shenandoah and Wyatt McCubbin support the 2027 leg of his tour.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Harry Styles, CA7RIEL & Paco Amoroso": {
+        "text": "Harry Styles is the English singer who moved from One Direction to a solo career built on records like 'Fine Line' and 'Harry's House'. Argentine duo CA7RIEL & Paco Amoroso open his 2027 stadium dates in Arlington, Texas.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Yuri, Lucero": {
+        "text": "Yuri and Lucero are Mexican pop stars whose careers stretch back to the late 1970s and early 1980s, with long runs of hits and telenovela work. The Entre Amigas Tour is the first time the two have shared a stage.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Weezer, Taking Back Sunday": {
+        "text": "Weezer are the Los Angeles band led by Rivers Cuomo, known since the 1994 'Blue Album' for songs like 'Buddy Holly' and 'Say It Ain't So'. Long Island emo band Taking Back Sunday support their 2027 UK and European dates.",
+        "agency": null,
+        "members": null,
+        "debut": null
+      },
+      "Fontaines D.C., Hayley Williams, Damien Dempsey, Madra Salach": {
+        "text": "Fontaines D.C. are a Dublin post-punk band whose albums, including 2024's 'Romance', took them from local venues to festival headline slots. Their 2027 Slane Castle show, with Paramore's Hayley Williams and Irish singer Damien Dempsey in support, is the biggest of their career.",
+        "agency": null,
+        "members": null,
+        "debut": null
       }
     },
     "ja": {
@@ -4337,6 +4679,36 @@
         "agency": null,
         "members": null,
         "debut": null
+      },
+      "HIGHLIGHT": {
+        "text": "HIGHLIGHTは韓国のボーイズグループで、2009年にBEASTとしてデビューし、2017年に現在のグループ名へ改めた。ユン・ドゥジュン、ヤン・ヨソプ、イ・ギグァン、ソン・ドンウンの4人で活動し、甘いボーカルと息の長いチームワークで支持を集めている。",
+        "agency": "AROUND US ENTERTAINMENT",
+        "members": "4人組",
+        "debut": "2009.10.16"
+      },
+      "アンジュルム": {
+        "text": "アンジュルムはハロー！プロジェクトに所属するアイドルグループで、2009年結成のスマイレージを前身とし、2014年に現在の名前へ改名した。メンバーの加入と卒業を重ねながら、力強いパフォーマンスと個性の強いステージで独自の存在感を築いている。",
+        "agency": "アップフロントプロモーション",
+        "members": null,
+        "debut": null
+      },
+      "スガ シカオ": {
+        "text": "スガ シカオは1997年にデビューしたシンガーソングライター。ファンクを土台にしたグルーヴと、人間の内面を生々しく描く歌詞で知られ、「夜空ノムコウ」の作詞でも広く名前を知られる。2027年にデビュー30周年を迎える。",
+        "agency": null,
+        "members": "ソロ",
+        "debut": "1997"
+      },
+      "筋肉少女帯": {
+        "text": "筋肉少女帯は大槻ケンヂを中心とするロックバンドで、1988年にメジャーデビューした。ハードなメタルサウンドに大槻の文学的で奇妙な世界観の歌詞を乗せたスタイルで知られ、2006年の活動再開以降も年末公演などを恒例として続けている。",
+        "agency": null,
+        "members": null,
+        "debut": "1988"
+      },
+      "アンと私": {
+        "text": "アンと私はボーカルの二口を中心とするロックバンド。ライブハウスでの活動を重ねて支持を広げ、2026年11月にビクターエンタテインメントから1stアルバム『ANN』でメジャーデビューした。",
+        "agency": "ビクターエンタテインメント",
+        "members": null,
+        "debut": "2026.11.04"
       }
     }
   }
