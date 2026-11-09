@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-05",
+  "last_updated": "2026-11-09",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -8404,7 +8404,10 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-11-02"
+      "updated_at": "2026-11-09",
+      "related_locale_ids": {
+        "en": "en-cravity-sonorous-seoul-20261114"
+      }
     },
     {
       "id": "ko-cravity-sonorous-busan-20261121",
@@ -8434,7 +8437,10 @@
       "general_sale_datetime": "2026-10-15T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-11-02"
+      "updated_at": "2026-11-09",
+      "related_locale_ids": {
+        "en": "en-cravity-sonorous-busan-20261121"
+      }
     },
     {
       "id": "ko-sungsikyung-year-end-concert-seoul-20261231",
@@ -8464,7 +8470,10 @@
       "general_sale_datetime": "2026-11-12T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://nol.yanolja.com/ticket/products/26015783",
-      "updated_at": "2026-11-02"
+      "updated_at": "2026-11-09",
+      "related_locale_ids": {
+        "en": "en-sung-si-kyung-year-end-concert-seoul-20261231"
+      }
     },
     {
       "id": "ko-leeseungyoon-zero-goyang-20261211",
@@ -8555,7 +8564,10 @@
       "general_sale_datetime": "2026-11-12T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13197",
-      "updated_at": "2026-11-05"
+      "updated_at": "2026-11-09",
+      "related_locale_ids": {
+        "en": "en-young-tak-tak-show5-busan-20270116"
+      }
     },
     {
       "id": "ko-flare-u-where-ure-seoul-20261226",
@@ -8585,7 +8597,10 @@
       "general_sale_datetime": "2026-11-13T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13188",
-      "updated_at": "2026-11-05"
+      "updated_at": "2026-11-09",
+      "related_locale_ids": {
+        "en": "en-flare-u-where-ure-seoul-20261226"
+      }
     },
     {
       "id": "ko-touched-highlight-v-seoul-20270123",
@@ -8614,7 +8629,98 @@
       "general_sale_datetime": "2026-11-10T19:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13211",
-      "updated_at": "2026-11-05"
+      "updated_at": "2026-11-09",
+      "related_locale_ids": {
+        "en": "en-touched-highlight-v-seoul-20270123"
+      }
+    },
+    {
+      "id": "ko-hyukoh-33-tour-seoul-20270116",
+      "name": "HYUKOH [33] TOUR - SEOUL",
+      "release_date": "2027-01-16",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "올림픽공원(올림픽홀)"
+      ],
+      "developer": "혁오(HYUKOH)",
+      "publisher": "두루두루아티스트컴퍼니",
+      "description": "밴드 혁오가 2022년 이후 약 5년 만의 단독 공연이자 새 정규앨범 '33'을 내건 월드투어 'HYUKOH [33] TOUR'의 첫 무대를 2027년 1월 16일(토) 오후 6시, 17일(일) 오후 5시 올림픽공원 올림픽홀에서 연다. 주관은 두루두루아티스트컴퍼니와 원더로크가 함께 맡았고, 좌석은 스탠딩·R석 15만4000원, S석 14만3000원, A석 13만2000원이다. 티켓은 11월 12일(목) 오후 8시 멜론티켓에서 단독으로 열린다. 서울 이후 투어는 타이베이 뮤직센터, 도쿄 도요스 피트, 북미 7개 도시와 런던으로 이어진다.",
+      "genres": [
+        "밴드",
+        "인디 록",
+        "콘서트"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/11/20261105181538bc8e3528-c310-463f-ac06-b454e5d75d4c.jpg",
+      "source_url": "https://www.ftoday.co.kr/news/articleView.html?idxno=369060",
+      "presale": false,
+      "presale_datetime": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-11-12T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13227",
+      "related_locale_ids": {
+        "en": "en-hyukoh-33-tour-seoul-20270116"
+      },
+      "updated_at": "2026-11-09"
+    },
+    {
+      "id": "ko-jeffbernat-luv-language-tour-seoul-20270218",
+      "name": "Jeff Bernat Live: Luv Language Tour 2027 in Seoul",
+      "release_date": "2027-02-18",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "예스24 원더로크홀"
+      ],
+      "developer": "제프 버넷(Jeff Bernat)",
+      "publisher": "이벤팀라이브코리아",
+      "description": "R&B 싱어송라이터 제프 버넷이 2024년 3월 명화라이브홀 공연 이후 약 3년 만에 내한해 2027년 2월 18일(목) 오후 8시 서울 예스24 원더로크홀에서 단독 공연을 연다. 2월 자카르타에서 출발해 3월 시드니까지 이어지는 아시아·오세아니아 투어의 서울 일정으로, 지난 6월 낸 정규앨범 'Luv Language' 수록곡과 'Call You Mine'·'Cruel' 등 대표곡을 들려줄 예정이다. 티켓은 11월 10일(화) 낮 12시 예스24 티켓에서 단독 판매로 열린다.",
+      "genres": [
+        "R&B",
+        "팝",
+        "내한공연"
+      ],
+      "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202611/20261106/20261106-61043.jpg",
+      "source_url": "https://www.slist.kr/news/articleView.html?idxno=778541",
+      "presale": false,
+      "presale_datetime": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-11-10T12:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.yes24.com/Perf/61043",
+      "updated_at": "2026-11-09"
+    },
+    {
+      "id": "ko-parkseojin-my-name-is-seojin-god-seoul-20261225",
+      "name": "2026-27 박서진 전국투어 콘서트 'MY NAME IS SEOJIN:갓' - 서울",
+      "release_date": "2026-12-25",
+      "release_time": "17:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "코엑스(D홀)"
+      ],
+      "developer": "박서진",
+      "publisher": null,
+      "description": "가수 박서진의 새 전국투어 'MY NAME IS SEOJIN:갓'이 크리스마스인 12월 25일(금)과 26일(토) 오후 5시 서울 코엑스 D홀에서 막을 올린다. 6개 도시 투어의 첫 공연으로, 이후 2027년 1월 전주·대구, 2월 대전, 3월 부산을 거쳐 3월 27~28일 인천에서 마무리된다. 좌석은 VIP 16만5000원, R 15만4000원, S 13만2000원, A 12만1000원이며 공연 시간 120분, 8세 이상 관람가다. 티켓은 11월 3일 오후 7시 티켓링크에서 열렸고 회차별 1인 4매까지 예매할 수 있다.",
+      "genres": [
+        "트로트",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://www.topstarnews.net/news/articleView.html?idxno=16266731",
+      "presale": false,
+      "presale_datetime": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-11-03T19:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "updated_at": "2026-11-09"
     }
   ]
 }
