@@ -2,9 +2,33 @@
 
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
-| ko | 2026-11-02 | ← |
-| en | 2026-11-04 | |
+| ko | 2026-11-09 | |
+| en | 2026-11-04 | ← |
 | ja | 2026-11-06 | |
+
+---
+
+## 2026-11-09 · ko
+
+로테이션상 ko가 가장 오래된 점검일(2026-11-02)이라 선택. 대상 창: 2026-09-10 ~ 2027-01-08(오늘 ±60일), 창 안 항목 173건(끝난 것 107 / 예정 66). 코드는 손대지 않았고 `data/concerts.ko.json`만 수정(파일 상단 `last_updated` 2026-11-09). push 전 `validate-data.mjs` 통과(기존 en/ja 설명 복사 묶음 경고만). 고친 항목·트랙 B 확인 항목 모두 `updated_at=2026-11-09`.
+
+**트랙 A (졸업 처리) — 14건**
+- A-1/A-2 끝난 공연(11/6~11/8)의 예매 필드·플래그 정리 + description 과거형 9건(§7대로 `presale`/`general_sale=false` + 예매 URL·datetime 6개 필드 null, 시제만 교정 — 새 사실 추가 없음): ko-ko1keyz-1st-fanmeeting-seoul-20261107, ko-choiyuree-stay-busan-20261107, ko-regallily-dawn-seoul-20261107, ko-asean-korea-music-festival-round-incheon-20261107("라인업은 아직 공개되지 않았다"→"등록 시점까지 공개되지 않았다"), ko-nobrain-still-noisy-vol2-seoul-20261106(게스트 문장은 "오르는 구성의 공연이었다" — 실제 출연 단정 안 함), ko-mintfesta-vol88-20261108, ko-jinyoung-code-seoul-20261107(아시아 투어 잔여 일정 문장 유지), ko-kgma-2026-20261107("순차 공개할 예정이다"→"계획이었다"), ko-bol4-red-square-seoul-20261107
+- 9월 종료 항목의 지난 예매 일시(datetime) 잔존 null 처리 5건(URL은 이미 정리돼 A-1에 안 걸리던 것): ko-johnpark-break-seoul-20260911, ko-isul-live-festival-2026-20260912, ko-wayv-born-this-way-seoul-20260912, ko-chomingyu-mono-drama-sweet-escape-seoul-20260919, ko-kimyongbin-serenade-seoul-20260919([취소됨] 표기 유지)
+- A-3: ko-postmalone-big-stadium-tour-seoul-20261002 approx=true 유지(연기·새 날짜 미발표 — 예매 일시도 손대지 않음)
+- 확인 후 손대지 않음: edc·okf·persona·youngtak·jarasum·lisa·oneus·triples·ryusujeong·riize의 "예정/진행된다" 매치는 과거 맥락("~할 예정이었다") 또는 사실상 미래 일정 서술 — 지난 회차 판단과 동일
+
+**트랙 B (임박 점검) — 8건 확인** (`updated_at` 없는 4건 → 2026-09-24/28 확인분 순)
+- ko-leeseungchul-the-voice-incheon-20261212 — NOL 26011556: 12/12 인스파이어 아레나, 판매 상태 정상, 러닝타임 120분. 변경 없음
+- ko-kwonjinah-this-winter-daegu-20261212 / ko-kwonjinah-this-winter-busan-20261225 — NOL 26013115·26013067: 12/12~13 엑스코 오디토리움, 12/25~26 KBS부산홀 유지. 선예매 마감(9/22 23:59) 지나 `presale=false`, 지난 예매 문장 시제 교정
+- ko-mumyeongjeonseol-busan-encore-20261231 — NOL 26011605(부산앵콜, 벡스코 오디토리움, 12/31 회차 포함) 생존. B-4로 `general_sale_url` 보강
+- ko-kimfeel-journey-concert-seoul-20261114 — NOL 26012915: 11/14~15 블루스퀘어 우리WON뱅킹홀 유지. "10월 29일 발매하는 정규 2집"→"발매한"(발매일 경과)
+- ko-dynamicduo-once-in-a-while-busan-20261212 / -daejeon-20261219 — NOL 26013663·26013730: 12/12 KBS부산홀, 12/19 충남대 정심화홀 유지. 지난 일반예매 문장 시제 교정
+- ko-zazenboys-matsuri-session-seoul-20261206 — 취소·연기 공지 검색 결과 없음. 변경 없음
+- B-3 링크: 8건 source/image/예매 URL 17개 접속 — 전부 200(인터파크 goods는 NOL로 리다이렉트). ticket.yes24.com/Perf/59963은 봇매니저 차단 페이지로 리다이렉트 — 봇 차단으로 판단, 죽은 링크로 단정 안 함
+
+**남은 것**: 트랙 A 대기 없음. 지난 회차 이월분(고경표 팬미팅 publisher 원문 확인) 미처리. 트랙 B 다음 순번: ko-mulasakiima-purple-shelter-seoul-20261212, ko-penthouse-neon-garden-seoul-20261219, ko-the-greatest-sohyang-kimkitae-goyang-20261212, ko-johangjo-saenggak-goyang-20261212, ko-kimjanghoon-dasinalda-goyang-20261213, ko-yuhki-kuramoto-peacefully-gimhae-20261215 등 오래된 순
+**리서처 참고(추가 안 함)**: 무명전설 NOL 26011605에 부산앵콜 외 회차(안동·광주·수원 등, ~2027-01-23)가 묶여 있음 — 미등록 회차 여부 확인 권장. 다이나믹 듀오 서울(11/27~29 올림픽홀, NOL 26013810) 등록 여부 확인 권장
 
 ---
 
