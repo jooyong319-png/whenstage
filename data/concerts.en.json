@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-06",
+  "last_updated": "2026-11-10",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -10792,7 +10792,10 @@
       "general_sale_datetime": "2026-11-12T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13227",
-      "updated_at": "2026-11-06"
+      "updated_at": "2026-11-10",
+      "related_locale_ids": {
+        "ko": "ko-hyukoh-33-tour-seoul-20270116"
+      }
     },
     {
       "id": "en-touched-highlight-v-seoul-20270123",
@@ -10892,6 +10895,129 @@
         "ko": "ko-youngtak-tak-show5-busan-20270116"
       },
       "updated_at": "2026-11-06"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-11-10T12:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.yes24.com/Perf/61043",
+      "updated_at": "2026-11-10",
+      "id": "en-jeff-bernat-luv-language-tour-seoul-20270218",
+      "name": "Jeff Bernat Live: Luv Language Tour 2027 in Seoul",
+      "release_date": "2027-02-18",
+      "release_time": "20:00",
+      "platforms": [
+        "YES24 Wanderloch Hall, Seoul"
+      ],
+      "developer": "Jeff Bernat",
+      "publisher": "Eventim Live Korea",
+      "description": "Filipino-American R&B singer-songwriter Jeff Bernat returns to Korea for the first time in three years with a single show at YES24 Wanderloch Hall in Seodaemun, Seoul, on Thursday, February 18, 2027, at 8 p.m. KST. Seoul sits between Taipei and Tokyo on his Luv Language Asia-Pacific run, and fans can expect 'Call You Mine', 'Cruel' and newer material. Tickets go on sale exclusively through YES24 Ticket on November 10 at noon KST.",
+      "genres": [
+        "R&B",
+        "Pop",
+        "Concert"
+      ],
+      "image_url": "https://tkfile.yes24.com/upload2/PerfBlog/202611/20261106/20261106-61043.jpg",
+      "source_url": "https://www.cineplay.co.kr/en-us/articles/30610",
+      "related_locale_ids": {
+        "ko": "ko-jeffbernat-luv-language-tour-seoul-20270218"
+      }
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-22T12:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://world.nol.com/en/ticket/products/26015024",
+      "updated_at": "2026-11-10",
+      "id": "en-kenshi-yonezu-ghost-world-tour-incheon-20270114",
+      "name": "KENSHI YONEZU 2026-2027 WORLD TOUR / GHOST in Korea",
+      "release_date": "2027-01-14",
+      "release_time": "19:30",
+      "platforms": [
+        "Inspire Arena, Incheon"
+      ],
+      "developer": "Kenshi Yonezu",
+      "publisher": "Live Nation Korea",
+      "description": "Kenshi Yonezu brings his GHOST world tour to Inspire Arena near Incheon Airport for three nights: Thursday, January 14 at 7:30 p.m., and Saturday, January 16 and Sunday, January 17 at 7 p.m. KST, one more show than his sold-out 2025 Korean debut at the same venue. Seoul is the first overseas stop of the tour's 2027 leg. Tickets run from 143,000 to 172,000 won and have been on sale through NOL since October 22, including an English booking page on NOL World.",
+      "genres": [
+        "J-Pop",
+        "Rock",
+        "Concert"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26015024_p.gif",
+      "source_url": "https://sports.khan.co.kr/en/article/202610170100007"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "presale": false,
+      "presale_datetime": "2026-10-14T12:00:00+09:00",
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-16T12:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://world.nol.com/en/ticket/products/26014497",
+      "updated_at": "2026-11-10",
+      "id": "en-beabadoobee-powerlines-tour-seoul-20270323",
+      "name": "beabadoobee: The Powerlines Tour in Seoul",
+      "release_date": "2027-03-23",
+      "release_time": "20:00",
+      "platforms": [
+        "Olympic Park, Seoul(Olympic Hall)"
+      ],
+      "developer": "beabadoobee",
+      "publisher": "Live Nation Korea",
+      "description": "beabadoobee finally plays her first headline show in Korea on Tuesday, March 23, 2027, at 8 p.m. KST at Olympic Hall in Olympic Park, after a planned festival appearance the year before fell through. The date is part of the Powerlines Tour, her first arena tour, built around the album Pylon. An artist presale ran October 14-15 and general sale opened October 16 at noon KST on NOL, which also lists the show on its English-language NOL World site. Ages 12 and up.",
+      "genres": [
+        "Indie Rock",
+        "Indie Pop",
+        "Concert"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26014497_p.gif",
+      "source_url": "https://sports.khan.co.kr/en/article/202610072035007"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "presale": false,
+      "presale_datetime": "2026-10-21T10:00:00+09:00",
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-23T12:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://world.nol.com/en/ticket/products/26015096",
+      "updated_at": "2026-11-10",
+      "id": "en-damien-rice-o-25th-anniversary-tour-seoul-20270227",
+      "name": "Damien Rice 'O' 25th Anniversary Tour in Seoul",
+      "release_date": "2027-02-27",
+      "release_time": "19:00",
+      "platforms": [
+        "GS Arts Center, Seoul"
+      ],
+      "developer": "Damien Rice",
+      "publisher": "Private Curve",
+      "description": "Damien Rice marks 25 years of his debut album O with three all-seated shows at GS Arts Center in Yeoksam, Gangnam: Saturday, February 27, 2027 at 7 p.m., then Sunday, February 28 at 2:30 p.m. and 7 p.m. KST. It is his first Korean stage since January 2025 and one of 25 cities on the anniversary tour. Seats cost 110,000 to 176,000 won; the artist presale closed October 23 and general sale opened that day at noon on NOL and the GS Arts Center site.",
+      "genres": [
+        "Folk",
+        "Singer-songwriter",
+        "Concert"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26015096_p.gif",
+      "source_url": "https://sports.khan.co.kr/en/article/202610162142007"
     }
   ]
 }
