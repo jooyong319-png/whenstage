@@ -1,16 +1,20 @@
 import { ImageResponse } from 'next/og';
+import { readFileSync } from 'fs';
+import path from 'path';
 
 // 소셜 공유 미리보기 이미지(OG/Twitter 카드, 1200x630) — 사이트 전역 폴백(app/layout.tsx가
 // /og-image.png로 참조) + 콘서트 상세 페이지가 image_url 없을 때 쓰는 폴백. "티켓 스텁 W"
 // 마크 + 새 레이저 워시 톤으로 갱신(2026-07-23, 이전엔 구 브랜드 그라데이션 그대로였음).
-// runtime='edge' — nodejs는 로컬 Windows에서 next/og 폰트 로더가 깨지는 기존 버그가 있어
-// (app-icon 라우트 주석 참고) 폰트를 로컬 fs 대신 자기 자신에게 fetch해서 우회.
-export const runtime = 'edge';
+// nodejs 런타임 (2026-11-11) — Next 16에서 Edge Runtime이 사용 중단 예고됐다. 예전엔 로컬 Windows의
+// next/og **기본 폰트** 로더 버그를 피하려고 edge를 썼는데, feature-graphic 라우트처럼 폰트를 직접
+// 읽어 넘기면 그 경로를 타지 않는다.
+// 가변 폰트(woff2)는 next/og가 파싱 못 함(wOF2 시그니처 미지원) — otf 사용.
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
-export async function GET(req: Request) {
-  const origin = new URL(req.url).origin;
-  // 가변 폰트(woff2)는 이 next/og 번들 버전이 파싱 못 함(wOF2 시그니처 미지원) — otf 사용.
-  const fontData = await fetch(new URL('/fonts/pretendard-bold.otf', origin)).then(r => r.arrayBuffer());
+const fontData = readFileSync(path.join(process.cwd(), 'assets/fonts/pretendard-bold.otf'));
+
+export async function GET() {
 
   return new ImageResponse(
     (
