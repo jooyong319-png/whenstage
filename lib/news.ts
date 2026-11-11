@@ -20,6 +20,17 @@ export interface NewsItem {
   heroImage: string | null;    // 위 콘서트의 대표 이미지 (없으면 null)
 }
 
+// 값 전체가 같은 따옴표 한 쌍으로 감싸졌을 때만 바깥 한 쌍을 벗긴다.
+// 한쪽에만 있는 따옴표(곡·앨범명 인용: `... 'Observing Chaos'`)는 본문이므로 건드리지 않는다.
+// 안쪽에 같은 따옴표가 또 있으면(`'A' and 'B'`) 감싼 게 아니라 인용 두 개이므로 그대로 둔다.
+function unquote(s: string): string {
+  if (s.length < 2) return s;
+  const q = s[0];
+  if ((q !== '"' && q !== "'") || s[s.length - 1] !== q) return s;
+  const inner = s.slice(1, -1);
+  return inner.includes(q) ? s : inner;
+}
+
 // 단순 frontmatter 파서 (gray-matter 없이) — blog.ts와 동일 규칙
 function parseFrontmatter(raw: string): { meta: Record<string, string | string[]>; body: string } {
   const match = raw.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
@@ -33,9 +44,9 @@ function parseFrontmatter(raw: string): { meta: Record<string, string | string[]
     const key = m[1];
     let val: string | string[] = m[2].trim();
     if (val.startsWith('[') && val.endsWith(']')) {
-      val = val.slice(1, -1).split(',').map(s => s.trim().replace(/^["']|["']$/g, '')).filter(Boolean);
+      val = val.slice(1, -1).split(',').map(s => unquote(s.trim())).filter(Boolean);
     } else {
-      val = val.replace(/^["']|["']$/g, '');
+      val = unquote(val);
     }
     meta[key] = val;
   }
