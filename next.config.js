@@ -51,6 +51,17 @@ const nextConfig = {
   async headers() {
     return [
       {
+        // 기본 보안 헤더 (2026-11-11). CSP는 넣지 않았다 — 인라인 스크립트(JSON-LD·테마 초기화)와
+        // 광고 스크립트가 있어 nonce 설계 없이 켜면 화면이 깨진다. 별도 작업으로 다룰 것.
+        source: '/(.*)',
+        headers: [
+          { key: 'X-Content-Type-Options', value: 'nosniff' },
+          { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+          { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+          { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
+        ],
+      },
+      {
         // `_next/static`(불변 자산)과 API는 Next·Vercel이 알아서 처리하므로 건드리지 않는다.
         source: '/((?!_next/static|_next/image|api).*)',
         headers: [
