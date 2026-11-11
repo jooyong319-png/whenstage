@@ -1,0 +1,57 @@
+# WhenStage
+
+> WhenStage (whenstage.com) is a calendar of concerts and tours, music releases (comebacks), festivals, and fan meetings, with ticket on-sale dates and times (presale and general sale). Every entry is curated from official announcements and press sources and links to its source. The site is updated daily.
+
+The three language sections are NOT translations of each other. Each one holds its own independent set of real events, artists, venues, news, and roundup articles for that audience. To answer a question, use the section that matches the region or language of the question.
+
+Dates, venues, and ticketing times can change. Each event page links to the official source; treat that source as authoritative.
+
+## Korean (/ko) — concerts and releases in South Korea
+
+- [Home](https://whenstage.com/ko): calendar and list of upcoming events, searchable by name (`?q=`)
+- [All events](https://whenstage.com/ko/concert): concerts, tours, releases, festivals, fan meetings
+- [Ticket on-sale schedule](https://whenstage.com/ko/ticketing): upcoming presale and general-sale opening times
+- [Artist directory](https://whenstage.com/ko/artist): profile and all listed events per artist
+- [Venue directory](https://whenstage.com/ko/venue): all listed events per venue
+- [News](https://whenstage.com/ko/news): short articles on newly announced tours, releases, and line-ups
+- [Roundups](https://whenstage.com/ko/blog): editorial guides that group events by theme or period
+- [Guide](https://whenstage.com/ko/guide): how the site works, FAQ
+- [Glossary](https://whenstage.com/ko/guide/glossary): ticketing and concert terms
+- [About WhenStage](https://whenstage.com/ko/about): what is covered and how entries are verified
+
+## English (/en) — events in Korea for international fans, plus global tours and releases
+
+- [Home](https://whenstage.com/en): calendar and list of upcoming events, searchable by name (`?q=`)
+- [All events](https://whenstage.com/en/concert): concerts, tours, releases, festivals, fan meetings
+- [Ticket on-sale schedule](https://whenstage.com/en/ticketing): upcoming presale and general-sale opening times
+- [Artist directory](https://whenstage.com/en/artist): profile and all listed events per artist
+- [Venue directory](https://whenstage.com/en/venue): all listed events per venue
+- [News](https://whenstage.com/en/news): short articles on newly announced tours, releases, and line-ups
+- [Roundups](https://whenstage.com/en/blog): editorial guides that group events by theme or period
+- [Guide](https://whenstage.com/en/guide): how the site works, FAQ
+- [Glossary](https://whenstage.com/en/guide/glossary): ticketing and concert terms
+- [About WhenStage](https://whenstage.com/en/about): what is covered and how entries are verified
+
+## Japanese (/ja) — concerts and releases in Japan
+
+- [Home](https://whenstage.com/ja): calendar and list of upcoming events, searchable by name (`?q=`)
+- [All events](https://whenstage.com/ja/concert): concerts, tours, releases, festivals, fan meetings
+- [Ticket on-sale schedule](https://whenstage.com/ja/ticketing): upcoming presale and general-sale opening times
+- [Artist directory](https://whenstage.com/ja/artist): profile and all listed events per artist
+- [Venue directory](https://whenstage.com/ja/venue): all listed events per venue
+- [News](https://whenstage.com/ja/news): short articles on newly announced tours, releases, and line-ups
+- [Roundups](https://whenstage.com/ja/blog): editorial guides that group events by theme or period
+- [Guide](https://whenstage.com/ja/guide): how the site works, FAQ
+- [Glossary](https://whenstage.com/ja/guide/glossary): ticketing and concert terms
+- [About WhenStage](https://whenstage.com/ja/about): what is covered and how entries are verified
+
+## URL patterns
+
+- Event detail: `https://whenstage.com/{lang}/concert/{id}` — date, venue, artist, presale/general-sale times, official source link
+- Artist detail: `https://whenstage.com/{lang}/artist/{slug}`
+- Venue detail: `https://whenstage.com/{lang}/venue/{slug}`
+- Monthly schedule: `https://whenstage.com/{lang}/month/{YYYY-MM}`
+
+## Optional
+
+- [Sitemap](https://whenstage.com/sitemap.xml): every indexable URL with last-modified dates
