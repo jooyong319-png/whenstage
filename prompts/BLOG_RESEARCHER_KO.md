@@ -85,6 +85,7 @@ git config user.name "Blog Writer KO Claude"
 title: 글 제목
 description: 158자 이내 요약(메타 description으로도 씀)
 date: 2026-07-22   # 발행일(오늘 날짜) — 다루는 사건 날짜가 아님
+updated: 2026-07-30   # (선택) 이미 발행한 글의 내용을 고쳤을 때만 넣는다 — 고친 날짜. 새 글에는 쓰지 않는다. `date`는 그대로 둔다.
 tags: [태그1, 태그2]
 keyword: 검색어           # 이 글이 노리는 검색어 하나. 본문에 7회 이상 나와야 한다.
 ---

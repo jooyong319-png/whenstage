@@ -12,6 +12,7 @@ export interface NewsItem {
   title: string;
   description: string;
   date: string;             // 'YYYY-MM-DD'
+  updated: string;          // 'YYYY-MM-DD' — frontmatter `updated:`(글을 고친 날). 없으면 date와 같다
   tags: string[];
   source: string;           // 출처 매체명 (예: 인터파크 뉴스)
   sourceUrl: string;        // 원문 링크 (저작권 안전판 — 필수)
@@ -80,6 +81,7 @@ async function readNews(lang: Locale): Promise<NewsItem[]> {
         title: String(meta.title ?? slug),
         description: String(meta.description ?? ''),
         date: String(meta.date ?? '1970-01-01'),
+        updated: /^\d{4}-\d{2}-\d{2}$/.test(String(meta.updated ?? '')) ? String(meta.updated) : String(meta.date ?? '1970-01-01'),
         tags: Array.isArray(meta.tags) ? meta.tags : [],
         source: String(meta.source ?? ''),
         sourceUrl: String(meta.source_url ?? ''),

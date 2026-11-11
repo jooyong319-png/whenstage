@@ -9,6 +9,7 @@ export interface BlogPost {
   title: string;
   description: string;
   date: string;             // 'YYYY-MM-DD'
+  updated: string;          // 'YYYY-MM-DD' — frontmatter `updated:`(글을 고친 날). 없으면 date와 같다
   tags: string[];
   content: string;          // markdown 본문 (frontmatter 제외)
   heroGameId: string | null;   // 본문 첫 콘서트 링크의 id
@@ -75,6 +76,7 @@ async function readPosts(lang: Locale): Promise<BlogPost[]> {
         title: String(meta.title ?? slug),
         description: String(meta.description ?? ''),
         date: String(meta.date ?? '1970-01-01'),
+        updated: /^\d{4}-\d{2}-\d{2}$/.test(String(meta.updated ?? '')) ? String(meta.updated) : String(meta.date ?? '1970-01-01'),
         tags: Array.isArray(meta.tags) ? meta.tags : [],
         content: body,
         heroGameId: null,

@@ -69,7 +69,7 @@ export default async function LocaleBlogPage(props: Props) {
     headline: post.title,
     description: post.description,
     datePublished: post.date,
-    dateModified: post.date,
+    dateModified: post.updated,
     inLanguage: lang,
     url: `https://whenstage.com/${lang}/blog/${params.slug}`,
     image: post.heroImage || 'https://whenstage.com/og-image.png',

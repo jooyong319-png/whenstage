@@ -87,6 +87,7 @@ git config user.name "Blog Writer EN Claude"
 title: Article Title
 description: Under 158 characters (also used as meta description)
 date: 2026-07-22   # publish date, not the event date
+updated: 2026-07-30   # (선택) 이미 발행한 글의 내용을 고쳤을 때만 넣는다 — 고친 날짜. 새 글에는 쓰지 않는다. `date`는 그대로 둔다.
 tags: [tag1, tag2]
 ---
 

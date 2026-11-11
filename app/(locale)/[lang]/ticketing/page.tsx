@@ -87,6 +87,21 @@ export default async function TicketingPage(props: Props) {
     { name: t.ticketingTitle, url: `https://whenstage.com/${lang}/ticketing` },
   ]);
 
+  // 예매 오픈 목록을 기계가 읽을 수 있게 — 월별 일정 페이지의 ItemList와 같은 꼴(2026-11-11).
+  // 같은 공연이 선예매·일반예매로 두 번 나올 수 있어 공연 단위로 한 번씩만 넣는다(가까운 오픈 순).
+  const listedIds = Array.from(new Set(list.map(x => x.game.id)));
+  const listLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: t.ticketingTitle,
+    numberOfItems: listedIds.length,
+    itemListElement: listedIds.map((id, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: `https://whenstage.com/${lang}/concert/${encodeURIComponent(id)}`,
+    })),
+  };
+
   const row = (x: TicketOpening) => (
     <li key={`${x.game.id}-${x.kind}`} className={cs.row}>
       <a href={`/${lang}/concert/${encodeURIComponent(x.game.id)}`} className={cs.link} data-ev="schedule_click" data-source="ticketing_page" data-id={x.game.id}>
@@ -118,6 +133,7 @@ export default async function TicketingPage(props: Props) {
   return (
     <PageShell lang={lang}>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(crumbLd) }} />
+      {listedIds.length > 0 && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(listLd) }} />}
       <article className={styles.post}>
         <a href={`/${lang}`} className={styles.backLink}>{t.backToCalendar}</a>
         <header className={styles.postHeader}>

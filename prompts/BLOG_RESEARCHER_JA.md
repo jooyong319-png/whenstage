@@ -84,6 +84,7 @@ git config user.name "Blog Writer JA Claude"
 title: 記事タイトル
 description: 158文字以内の要約(メタディスクリプションにも使用)
 date: 2026-07-22   # 公開日 — 扱う出来事の日付ではない
+updated: 2026-07-30   # (선택) 이미 발행한 글의 내용을 고쳤을 때만 넣는다 — 고친 날짜. 새 글에는 쓰지 않는다. `date`는 그대로 둔다.
 tags: [タグ1, タグ2]
 ---
 

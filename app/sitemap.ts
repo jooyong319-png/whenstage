@@ -74,7 +74,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   function staticLastmod(source: LastmodSource, lang: Locale): Date | undefined {
     if (source === 'games') return dataUpdatedByLocale[lang];
-    if (source === 'blog') return newestDate(postsByLocale[lang].map(p => p.date));
+    if (source === 'blog') return newestDate(postsByLocale[lang].map(p => p.updated));
     if (source === 'news') return newestDate(newsByLocale[lang].map(n => n.date));
     return undefined;
   }
@@ -156,7 +156,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     for (const p of postsByLocale[lang]) {
       blogUrls.push({
         url: `${BASE}/${lang}/blog/${p.slug}`,
-        lastModified: new Date(p.date),
+        lastModified: new Date(p.updated),
         changeFrequency: 'monthly',
         priority: lang === 'ko' ? 0.75 : 0.65,
       });

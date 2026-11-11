@@ -77,7 +77,7 @@ export default async function LocaleNewsPage(props: Props) {
     headline: item.title,
     description: item.description,
     datePublished: item.date,
-    dateModified: item.date,
+    dateModified: item.updated,
     inLanguage: lang,
     url: `https://whenstage.com/${lang}/news/${item.slug}`,
     image: item.heroImage || 'https://whenstage.com/og-image.png',
