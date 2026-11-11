@@ -72,6 +72,9 @@ function checkLastUpdated(file, lastUpdated) {
     return;
   }
 
+  // 얕은 클론(CI의 기본 checkout 등)에서는 히스토리가 한 커밋뿐이라 모든 파일의 "마지막 커밋일"이
+  // 그 커밋 날짜로 나온다 — 멀쩡한 데이터가 오탐으로 걸린다(2026-11-11 CI에서 실측). 판단할 수 없으니 건너뛴다.
+  if (git(['rev-parse', '--is-shallow-repository']) === 'true') return;
   const committed = git(['log', '-1', '--format=%cs', '--', file]);
   if (!committed) return;                  // 얕은 클론 등 — 건너뛴다
   if (lastUpdated !== committed) {

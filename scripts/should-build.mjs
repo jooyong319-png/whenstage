@@ -72,12 +72,24 @@ function baseRef() {
     git(['cat-file', '-e', sha + '^{commit}']);   // 얕은 클론이면 없을 수 있다
     return sha;
   } catch {
-    console.log('마지막 빌드 커밋이 클론에 없다 — HEAD^로 비교한다');
-    return 'HEAD^';
+    // 🔴 여기서 HEAD^로 물러나면 안 된다 (2026-11-11 수정).
+    // Vercel은 얕게 클론한다. 문서 커밋이 여러 번 건너뛰어진 뒤에는 마지막 빌드 커밋이 클론 밖으로 밀려나고,
+    // 그 상태에서 HEAD^와만 비교하면 **그 사이의 진짜 변경이 통째로 묻힌다.** 실제로 Next.js 16 업그레이드
+    // 커밋 바로 뒤에 문서 커밋을 붙여 푸시했더니 "문서만 바뀌었다"로 판정돼 배포가 안 됐다.
+    // 머리말에 적은 원칙대로, 기준을 못 찾으면 빌드한다.
+    return null;
   }
 }
 
 const base = baseRef();
+if (base === null) {
+  console.log('마지막 빌드 커밋이 클론에 없다 — 비교할 수 없으니 안전하게 빌드한다');
+  try {
+    mkdirSync(dirname(MARKER), { recursive: true });
+    writeFileSync(MARKER, git(['rev-parse', 'HEAD']).trim());
+  } catch { /* 마커 기록 실패는 무해 */ }
+  process.exit(1);
+}
 console.log('비교 기준: ' + base + (base === 'HEAD^' ? ' (마커 없음)' : ' (마지막 빌드 커밋)'));
 let changed;
 try {
