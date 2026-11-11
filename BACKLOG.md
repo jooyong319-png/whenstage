@@ -351,7 +351,8 @@
   - `twitter` 카드 구조 변경(이미 정상 동작)
 
 ## [20260725-05] 어디서도 렌더되지 않는 gcalen 잔재 죽은 코드 `Comments.tsx`(+`.module.css`) 제거
-- 상태: 대기
+- 상태: 완료 (2026-11-11, 커밋 9813b66)
+- 처리 기록(2026-11-11, 개발 담당): `git rm`으로 `components/Comments.tsx`·`components/Comments.module.css` 2개 삭제(그 외 파일 불변). 검증 = **타입체크 + 코드 리뷰**(저위험 5-A 죽은 코드 삭제라 전체 `npm run build` 생략): `npx tsc --noEmit` ✅ 오류 0(rebase 후 재확인), 삭제 전후 `grep -rn "Comments" app/ components/ lib/ hooks/`로 컴포넌트 import/렌더(`<Comments`·`from './Comments'`) 0건 확인 — 남은 매치는 privacy 페이지 정책 문구와 `lib/i18nLabels.ts`의 `comments`/`postComment`/`nickname` 딕셔너리 키뿐(후자는 이제 미사용 키로 보이나 스펙 범위 밖이라 손대지 않음 — 정리하려면 별도 항목). 스모크테스트 생략(라우트 무영향).
 - 등록일: 2026-07-25
 - 우선순위: P2(죽은 에셋 정리 — 2026-07-23 orphan 청소에서 누락된 gcalen 잔재. `og-image.png`(20260723-01)·`PreRegCountdown.module.css`(20260723-03) 완료 항목과 동일 성격)
 - 근거: `components/Comments.tsx`가 **어떤 페이지·컴포넌트에서도 import/렌더되지 않는다**(전 소스 `import ... Comments` 스캔 결과 자기 자신의 `Comments.module.css` 참조 1건 외 0건; `<Comments`·dynamic import도 0건). 또한 이 컴포넌트가 조회/삽입하는 Supabase `comments` 테이블은 스키마 소스인 `supabase/*.sql`에 정의가 없다(현재 `data_reports.sql`·`push_subscriptions.sql`만 존재, `wiki/architecture.md` "외부 서비스 연동 현황"의 실사용 테이블 목록에도 `comments` 없음). `git log` 상 이 파일은 초기 스캐폴드(cea0056, 2026-07-21)·도메인 전환(c49fa5a, 2026-07-21) 이후 한 번도 수정되지 않았고, 2026-07-23 2차 오버홀의 orphan 컴포넌트 7종 청소(`wiki/decisions.md`/`design-audit.md`) 목록에서 빠져 살아남은 잔재다. `wiki/design-audit.md:220`은 이 파일이 아직 gcalen 시절 "이 게임에 대한 댓글" 카피를 그대로 갖고 있다고 이미 지적. 참고로 같은 감사 문서가 함께 거론한 `GameReactions.tsx`는 2026-07-23에 제거됐으나 `Comments`만 남음.
