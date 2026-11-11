@@ -404,3 +404,57 @@
   - 완전한 YAML 파서 도입(멀티라인·중첩·이스케이프 등) — 이번은 따옴표 언쿼트 결함만 국소 수정
   - `lib/push.ts`의 env 트림 정규식(실무 영향 없음)·`data/concerts.*.json`(JSON이라 무관)
   - 콘텐츠 마크다운 자체 수정(원본은 정상)
+
+## [20261111-01] GEO 1단계 — `robots.ts`에서 AI 검색·인용 봇만 차단 해제(학습 봇·SEO 도구는 계속 차단)
+- 상태: 대기
+- 등록일: 2026-11-11
+- 우선순위: P1(GEO의 전제 조건 — 이게 막혀 있으면 ChatGPT 검색·Perplexity에 사이트가 아예 안 잡혀 다른 GEO 작업이 그쪽엔 무효)
+- 근거: 오너 결정(2026-11-11) "검색·인용 봇만 허용". `app/robots.ts`의 `AI_CRAWLERS`는 2026-09-07 Vercel ISR Read Units 절감 목적으로 AI 봇을 일괄 차단했는데, 목록에 **학습용이 아니라 답변에 출처 링크를 달아 사람을 보내주는 봇**이 섞여 있다. 각 사 공식 문서(2026-11-11 확인): OpenAI — `OAI-SearchBot`은 ChatGPT 검색 노출용("opt out하면 ChatGPT search answers에 안 나옴"), `ChatGPT-User`는 사용자 요청 시 페이지 방문용, 학습은 `GPTBot`만(서로 독립 설정). Perplexity — `PerplexityBot`은 검색 결과 노출·링크용이며 "AI foundation model 학습에 쓰지 않는다"고 명시. Anthropic — 학습은 `ClaudeBot`, 검색은 `Claude-SearchBot`, 사용자 요청은 `Claude-User`(뒤 둘은 현재 목록에 없어 이미 허용 상태). 즉 파일 주석의 "콘텐츠를 학습에 쓰되 사람을 보내주지는 않는 크롤러"라는 분류가 위 3개 봇에는 맞지 않는다. 구글 AI 오버뷰·Bing Copilot은 Googlebot·Bingbot을 쓰므로 현재도 영향 없음(`Google-Extended` 차단은 검색/AI 오버뷰와 무관).
+- 스펙:
+  - `app/robots.ts`의 `AI_CRAWLERS` 배열에서 **`OAI-SearchBot`, `ChatGPT-User`, `PerplexityBot` 3개만** 제거한다. 나머지(`GPTBot`, `ClaudeBot`, `anthropic-ai`, `Claude-Web`, `Google-Extended`, `Applebot-Extended`, `CCBot`, `Bytespider`, `Amazonbot`, `Meta-ExternalAgent`, `FacebookBot`, `cohere-ai`, `Diffbot`, `ImagesiftBot`, `Omgilibot`, `Timpibot`, `YouBot`)와 `SEO_TOOLS`는 그대로 차단 유지.
+  - 파일 상단 주석을 갱신한다: "학습 전용 봇은 막고, 검색·인용 봇(OAI-SearchBot/ChatGPT-User/PerplexityBot/Claude-SearchBot/Claude-User/Perplexity-User)은 허용한다 — 2026-11-11 GEO 결정"과, 허용 봇 이름을 실수로 다시 차단 목록에 넣지 않도록 한 줄 경고.
+  - `wiki/decisions.md`에 결정 기록 추가(6-C 트리거 해당 — 2026-09-07 일괄 차단을 부분 철회한 이유와 트레이드오프: 크롤 비용 소폭 증가 가능 ↔ AI 검색 노출).
+- 완료 조건:
+  - [ ] `AI_CRAWLERS`에 `OAI-SearchBot`·`ChatGPT-User`·`PerplexityBot`이 없고, `GPTBot`·`ClaudeBot`·`CCBot`·`Bytespider` 등 학습 봇과 `SEO_TOOLS`는 그대로 남아 있음
+  - [ ] `npm run typecheck` 통과(문자열 배열 3개 제거 + 주석 — 저위험 5-A)
+  - [ ] 배포 후 `curl -s https://whenstage.com/robots.txt`에 위 3개 봇의 `Disallow`가 없음을 확인(자동화에서 못 하면 로그에 남기고 사람이 확인)
+  - [ ] `wiki/decisions.md`에 결정 기록됨
+- 범위 아닌 것:
+  - 학습 봇 차단 해제(오너가 명시적으로 선택하지 않음), `SEO_TOOLS` 변경, `/_next/` 등 다른 robots 규칙 변경
+  - Vercel 방화벽/WAF 설정(대시보드 영역 — 사람 몫). 배포 후 1~2주간 ISR Read Units 추이는 사람이 확인하고, 급증하면 이 항목을 되돌린다
+
+## [20261111-02] GEO 2단계 — AI 에이전트용 사이트 안내 파일 `llms.txt` 추가
+- 상태: 대기
+- 등록일: 2026-11-11
+- 우선순위: P2(비용이 거의 없는 보조 수단 — 다만 `llms.txt`는 비공식 제안 규격이고 주요 AI 검색이 실제로 읽는다는 공식 확인은 없어 효과는 불확실. 기대치를 낮게 잡을 것)
+- 근거: `public/`에 `llms.txt`가 없다(`ls public` = ads.txt·favicon.svg·fonts·icons·og-image.png·sw.js 등). 사이트는 3개 로케일이 서로 다른 실제 공연을 담는 독립 데이터 구조(`wiki/decisions.md`)라, AI가 "한국 공연은 /ko, 해외 팬 대상은 /en, 일본 공연은 /ja"라는 구조를 페이지 몇 장만 보고 파악하기 어렵다. 이를 한 파일로 설명해 두면 에이전트가 사이트를 읽을 때 올바른 섹션으로 바로 간다.
+- 스펙:
+  - `public/llms.txt`를 정적 파일로 추가한다(라우트 핸들러 아님 — 빌드·ISR 영향 0). llmstxt.org 형식: `# WhenStage` 제목, `>` 한 단락 요약(콘서트·내한/음원 발매/페스티벌/팬미팅 일정과 예매 오픈 시각을 공식 출처 기반으로 큐레이션, ko/en/ja는 번역이 아니라 각 언어권의 독립 데이터), 이어서 로케일별 `##` 섹션에 주요 진입 URL 링크와 한 줄 설명 — 홈(`/{lang}`), 공연 목록(`/{lang}/concert`), 예매 일정(`/{lang}/ticketing`), 아티스트(`/{lang}/artist`), 공연장(`/{lang}/venue`), 뉴스(`/{lang}/news`), 모아보기(`/{lang}/blog`), 가이드·용어사전(`/{lang}/guide`, `/{lang}/guide/glossary`), 소개(`/{lang}/about`). 마지막에 사이트맵 URL과 "일정은 변경될 수 있으니 각 페이지의 공식 출처 링크를 확인" 안내.
+  - 본문은 영어로 쓴다(에이전트 공용어). 개별 공연·기사 URL은 나열하지 않는다(1,600+ URL — 사이트맵이 담당, 파일이 금방 낡는다).
+  - 실제 존재하는 라우트만 링크한다(`find app -name page.tsx`로 대조).
+- 완료 조건:
+  - [ ] `public/llms.txt`가 존재하고 링크된 경로가 전부 실제 라우트와 일치
+  - [ ] `npm run typecheck` 통과(정적 텍스트 파일 1개 추가 — 저위험 5-A)
+  - [ ] 배포 후 `https://whenstage.com/llms.txt`가 200으로 열림(자동화에서 못 하면 로그에 남김)
+- 범위 아닌 것:
+  - `llms-full.txt`(전체 본문 덤프)·페이지별 `.md` 버전 제공(대형 작업, 효과 미검증)
+  - sitemap·robots 변경, 콘텐츠(`data/`·`content/`) 수정
+
+## [20261111-03] GEO 3단계 — 사이트 운영 주체 `Organization` 구조화 데이터를 홈에 추가하고 글의 publisher와 `@id`로 연결
+- 상태: 대기
+- 등록일: 2026-11-11
+- 우선순위: P2(AI·검색엔진이 "WhenStage가 무엇인지"를 하나의 엔티티로 인식하게 하는 기반 — 인용 시 출처 신뢰도 판단 재료)
+- 근거: 홈(`app/(locale)/[lang]/page.tsx:68`)의 JSON-LD는 `WebSite`+`SearchAction`뿐이고 독립된 `Organization` 엔티티가 없다. `Organization`은 뉴스·블로그 상세(`news/[slug]/page.tsx:82~83`, `blog/[slug]/page.tsx:74~75`)에서 `author`/`publisher`로 **이름만 인라인**으로 반복되며, 코드 전체에 `sameAs`·`@id` 연결이 0건이다(`grep -rn sameAs app lib components` 결과 없음). 그래서 기사마다 publisher가 서로 무관한 별개 노드로 읽힌다.
+- 스펙:
+  - 홈 JSON-LD에 `Organization` 노드를 추가한다: `@id: 'https://whenstage.com/#organization'`, `name: 'WhenStage'`, `url: 'https://whenstage.com'`, `logo`(기존 글 publisher가 쓰는 로고 `ImageObject`와 같은 값), `description`(해당 로케일 소개 한 문장 — `about` 페이지 첫 문장 수준, 새 카피 창작 금지·기존 i18n 문구 재사용). 기존 `WebSite` 노드에는 `publisher: { '@id': 'https://whenstage.com/#organization' }`를 추가.
+  - 뉴스·블로그 상세의 `author`/`publisher` `Organization`에 같은 `@id`를 넣어 홈의 엔티티와 연결한다(기존 name/logo 필드는 유지).
+  - `@id` 문자열은 상수 하나로 둔다(위치는 기존 JSON-LD 헬퍼 — `breadcrumbLd`/`jsonLd`가 있는 파일 — 옆이 자연스러움).
+  - 공식 SNS 계정이 코드·about 페이지에 없으므로 `sameAs`는 넣지 않는다(없는 계정을 지어내지 말 것).
+- 완료 조건:
+  - [ ] 홈 3개 로케일 HTML의 JSON-LD에 `@id`가 `https://whenstage.com/#organization`인 `Organization`이 있고 `WebSite.publisher`가 그 `@id`를 참조
+  - [ ] 뉴스·블로그 상세의 publisher/author가 같은 `@id`를 가짐, 기존 필드(headline·datePublished 등) 회귀 없음
+  - [ ] `npm run typecheck` 통과. 서버 컴포넌트의 JSON-LD 객체 리터럴 수정이라 지시서 §5 기준으로 위험도를 개발 담당이 판정(로직·라우팅 무영향이면 5-A, 애매하면 5-B로 빌드 검증 또는 보류)
+  - [ ] 배포 후 Google Rich Results Test 또는 Schema Markup Validator로 홈·기사 1건씩 오류 0건 확인(사람 몫이면 로그에 남김)
+- 범위 아닌 것:
+  - `MusicEvent`/`MusicGroup`/`MusicVenue` 등 기존 상세 페이지 구조화 데이터 변경(이미 갖춰져 있음)
+  - 글의 `dateModified`가 `datePublished`와 같은 값인 문제(수정일 데이터가 frontmatter에 없어 별도 항목 필요), about 페이지 문구·디자인 변경
