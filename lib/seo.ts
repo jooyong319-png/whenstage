@@ -292,3 +292,6 @@ export function withTicketLead(desc: string, openingAt: string, timeZone: string
   const full = `${lead} ${desc}`;
   return full.length <= DESC_BUDGET ? full : `${full.slice(0, DESC_BUDGET - 1).trimEnd()}…`;
 }
+
+/** 사이트 운영 주체 엔티티의 `@id` — 홈의 Organization 노드와 글의 author/publisher를 하나로 잇는다. */
+export const ORG_ID = 'https://whenstage.com/#organization';

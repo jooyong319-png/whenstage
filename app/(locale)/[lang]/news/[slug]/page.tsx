@@ -6,7 +6,7 @@ import { PageShell } from '@/components/PageShell';
 import { BlogHero } from '@/components/BlogHero';
 import { SidebarSection } from '@/components/SidebarSection';
 import { RelatedArticleCard } from '@/components/RelatedArticleCard';
-import { breadcrumbLd, jsonLd } from '@/lib/seo';
+import { breadcrumbLd, jsonLd, ORG_ID } from '@/lib/seo';
 import styles from '@/app/blog/blog.module.css';
 import n from '@/app/news/news.module.css';
 
@@ -79,9 +79,10 @@ export default async function LocaleNewsPage({ params }: Props) {
     inLanguage: lang,
     url: `https://whenstage.com/${lang}/news/${item.slug}`,
     image: item.heroImage || 'https://whenstage.com/og-image.png',
-    author: { '@type': 'Organization', name: 'WhenStage' },
+    author: { '@type': 'Organization', '@id': ORG_ID, name: 'WhenStage' },
     publisher: {
       '@type': 'Organization',
+      '@id': ORG_ID,
       name: 'WhenStage',
       logo: { '@type': 'ImageObject', url: 'https://whenstage.com/og-image.png' },
     },

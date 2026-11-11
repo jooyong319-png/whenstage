@@ -6,7 +6,7 @@ import { getAllNews } from '@/lib/news';
 import { normalizeArtistKey } from '@/lib/types';
 import { Home } from '@/components/Home';
 import { UI, LOCALES, OG_LOCALE, DEFAULT_OG_IMAGE, type Locale } from '@/lib/i18nLabels';
-import { localeAlternates } from '@/lib/seo';
+import { localeAlternates, ORG_ID } from '@/lib/seo';
 
 interface Props {
   params: { lang: string };
@@ -70,6 +70,7 @@ export default async function LocaleHomePage({ params }: Props) {
     url: `https://whenstage.com/${lang}`,
     description: ui.siteDescription,
     inLanguage: lang,
+    publisher: { '@id': ORG_ID },
     // 사이트링크 검색창 — Home이 ?q= 파라미터를 읽어 공연명 검색을 실행한다.
     potentialAction: {
       '@type': 'SearchAction',
@@ -78,9 +79,20 @@ export default async function LocaleHomePage({ params }: Props) {
     },
   };
 
+  const orgJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    '@id': ORG_ID,
+    name: 'WhenStage',
+    url: 'https://whenstage.com',
+    logo: { '@type': 'ImageObject', url: 'https://whenstage.com/og-image.png' },
+    description: ui.siteDescription,
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }} />
       <Home initialGames={games} lastUpdated={lastUpdated} serverNow={serverNow} artistAliases={artistAliases} cardImages={cardImages} latestNews={latestNews} />
     </>
   );
