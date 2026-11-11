@@ -370,7 +370,8 @@
   - 실제 Supabase DB의 `comments` 테이블 삭제(사람 판단 영역)
 
 ## [20260725-06] 저장소 루트 잔재 `robots.txt`(gcalen 스캐폴드) 제거 — 서빙은 `app/robots.ts`가 담당
-- 상태: 대기
+- 상태: 완료 (2026-11-11 확인, 커밋 210ae2a에서 이미 삭제됨)
+- 처리 기록(2026-11-11, 개발 담당 — 오너 지시로 한 세션에서 연속 처리): 루트 `robots.txt`는 이전 커밋 210ae2a(`fix(seo)`)에서 이미 삭제돼 있어 추가 변경 없음 — 파일 부재만 확인하고 완료 처리.
 - 등록일: 2026-07-25
 - 우선순위: P2(죽은 에셋 정리 + 소스 오브 트루스 이원화 해소 — `og-image.png`(20260723-01)·`Comments.tsx`(20260725-05)와 동일 성격의 gcalen 스캐폴드 잔재)
 - 근거: 저장소 루트에 `robots.txt`(67B)가 있는데 **Next.js App Router는 루트 파일을 정적 서빙하지 않고 `public/`과 `app/`의 특수 파일만 서빙**하므로 이 루트 파일은 어디에도 노출되지 않는 죽은 파일이다. 실제 `/robots.txt`는 `app/robots.ts`(`MetadataRoute.Robots` 라우트, `User-agent:* / Allow:/ / Sitemap: https://whenstage.com/sitemap.xml`)가 동적 생성하며, 라이브 `https://whenstage.com/robots.txt`도 이쪽이 나간다. 확인 사항: (1) `public/robots.txt`는 존재하지 않음(`ls public/` = ads.txt·favicon.svg·google 인증·icons·fonts·offline.html·.well-known뿐) → 루트 파일과 `app/robots.ts`가 충돌하지도 않음, (2) 루트 `robots.txt`의 `git log`상 마지막 변경이 초기 스캐폴드(cea0056, 2026-07-21)·리브랜딩(c49fa5a)뿐 이후 방치, (3) `grep -rn "robots.txt" app/ components/ lib/ vercel.json next.config.js middleware.ts` 참조 0건. 즉 순수 죽은 파일이면서, 동시에 robots 규칙이 루트 파일과 `app/robots.ts` 두 곳에 흩어져 있어(현재 내용은 동일) 나중에 규칙을 바꿀 때 엉뚱한(서빙 안 되는) 파일을 고칠 위험이 있는 이원화 상태다.
@@ -387,7 +388,8 @@
   - robots 규칙 자체(allow/disallow) 정책 변경 — 이번은 순수 죽은 파일 삭제만(규칙은 `app/robots.ts` 현행 유지)
 
 ## [20260725-07] 뉴스·모아보기 frontmatter 파서가 값 끝 따옴표를 잘못 떼어 곡·앨범명 닫는 따옴표가 사라지는 버그
-- 상태: 대기
+- 상태: 완료 (2026-11-11, 커밋 51310ac)
+- 처리 기록(2026-11-11, 개발 담당 — 오너 지시로 한 세션에서 연속 처리): `lib/news.ts`·`lib/blog.ts`에 `unquote()` 추가 — 값 전체가 같은 따옴표 한 쌍으로 감싸졌을 때만 바깥 한 쌍 제거(안쪽에 같은 따옴표가 또 있으면 인용 두 개로 보고 보존), 스칼라·배열 분기 모두 적용. 검증: `npx tsc --noEmit` ✅ / **전체 빌드 `npm run build` ✅ 완주**(이번 실행 환경에서 성공) / 빌드 산출물 확인 ✅: 실제 콘텐츠 314편 로드 테스트에서 Gayle 제목이 `...'Observing Chaos'`로 닫는 따옴표 포함 파싱, 빌드된 EN 뉴스 HTML `<title>`에서도 확인. 전체가 감싸진 frontmatter 값 23건은 종전대로 언쿼트. 공용 헬퍼 추출은 하지 않음(두 파일에 동일 함수 — 기존 '동일 규칙 복제' 관례 유지).
 - 등록일: 2026-07-25
 - 우선순위: P1(라이브 색인 콘텐츠의 제목·설명 결함 — 뉴스/블로그 제목이 카드·상세 `<title>`·OG에 그대로 노출되는데 닫는 따옴표가 잘려 검색/공유 미리보기 품질을 떨어뜨림. 케이팝/음악 도메인 특성상 곡·앨범·투어명을 따옴표로 감싼 제목이 매우 흔해 신규 기사마다 반복 재발)
 - 근거: 라이브 `https://whenstage.com/en/news`에서 제목 `Gayle Sets ... Debut Album 'Observing Chaos`(닫는 `'` 없음), `Morgan Wallen Drops New Solo Single "Been By Now`(닫는 `"` 없음), 설명 `... shares new single "Loving You Is.`(닫는 `"` 없음)를 실측. 원본 마크다운(`content/news/2026-07-24-gayle-observing-chaos-release-date.en.md`)의 frontmatter는 `title: ... 'Observing Chaos'`로 양끝 따옴표가 정상 존재 → 콘텐츠 결함이 아니라 파서 결함. 원인: `lib/news.ts:38`·`lib/blog.ts:34`의 `val = val.replace(/^["']|["']$/g, '')` — 값 전체가 따옴표로 감싸졌을 때만 바깥 한 쌍을 벗겨야 하는데, 정규식이 **여는 따옴표 또는 닫는 따옴표를 독립적으로(그리고 `g` 플래그로) 제거**해서, 값이 우연히 따옴표로 끝나면(곡·앨범명 인용) 그 닫는 따옴표까지 떼어낸다. 대칭으로, 값이 인용어로 시작하면 여는 따옴표도 사라진다. 배열 분기(`lib/news.ts:36`·`lib/blog.ts:32`)의 요소별 strip도 동일 결함(태그가 따옴표로 끝나는 경우는 드물지만 일관성 위해 함께 고침). 콘서트(`data/concerts.*.json`)는 JSON 파싱이라 무관, `lib/push.ts:7`도 같은 정규식이나 VAPID 키(base64url)라 실무상 영향 없어 이번 범위 아님.
@@ -406,7 +408,8 @@
   - 콘텐츠 마크다운 자체 수정(원본은 정상)
 
 ## [20261111-01] GEO 1단계 — `robots.ts`에서 AI 검색·인용 봇만 차단 해제(학습 봇·SEO 도구는 계속 차단)
-- 상태: 대기
+- 상태: 완료 (2026-11-11, 커밋 3d9494e)
+- 처리 기록(2026-11-11, 개발 담당 — 오너 지시로 한 세션에서 연속 처리): `AI_CRAWLERS`에서 `OAI-SearchBot`·`ChatGPT-User`·`PerplexityBot` 3개 제거 + 주석 갱신, `wiki/decisions.md` 기록. 검증: `npx tsc --noEmit` ✅ / **전체 빌드 `npm run build` ✅ 완주**(이번 실행 환경에서 성공) / 빌드 산출물 확인 ✅: 빌드된 robots.txt에 위 3개 봇 0건, 학습 봇·SEO 도구 차단 유지. 배포 후 라이브 robots.txt 확인과 ISR Read Units 추이 관찰은 사람 몫.
 - 등록일: 2026-11-11
 - 우선순위: P1(GEO의 전제 조건 — 이게 막혀 있으면 ChatGPT 검색·Perplexity에 사이트가 아예 안 잡혀 다른 GEO 작업이 그쪽엔 무효)
 - 근거: 오너 결정(2026-11-11) "검색·인용 봇만 허용". `app/robots.ts`의 `AI_CRAWLERS`는 2026-09-07 Vercel ISR Read Units 절감 목적으로 AI 봇을 일괄 차단했는데, 목록에 **학습용이 아니라 답변에 출처 링크를 달아 사람을 보내주는 봇**이 섞여 있다. 각 사 공식 문서(2026-11-11 확인): OpenAI — `OAI-SearchBot`은 ChatGPT 검색 노출용("opt out하면 ChatGPT search answers에 안 나옴"), `ChatGPT-User`는 사용자 요청 시 페이지 방문용, 학습은 `GPTBot`만(서로 독립 설정). Perplexity — `PerplexityBot`은 검색 결과 노출·링크용이며 "AI foundation model 학습에 쓰지 않는다"고 명시. Anthropic — 학습은 `ClaudeBot`, 검색은 `Claude-SearchBot`, 사용자 요청은 `Claude-User`(뒤 둘은 현재 목록에 없어 이미 허용 상태). 즉 파일 주석의 "콘텐츠를 학습에 쓰되 사람을 보내주지는 않는 크롤러"라는 분류가 위 3개 봇에는 맞지 않는다. 구글 AI 오버뷰·Bing Copilot은 Googlebot·Bingbot을 쓰므로 현재도 영향 없음(`Google-Extended` 차단은 검색/AI 오버뷰와 무관).
@@ -424,7 +427,8 @@
   - Vercel 방화벽/WAF 설정(대시보드 영역 — 사람 몫). 배포 후 1~2주간 ISR Read Units 추이는 사람이 확인하고, 급증하면 이 항목을 되돌린다
 
 ## [20261111-02] GEO 2단계 — AI 에이전트용 사이트 안내 파일 `llms.txt` 추가
-- 상태: 대기
+- 상태: 완료 (2026-11-11, 커밋 589b38b)
+- 처리 기록(2026-11-11, 개발 담당 — 오너 지시로 한 세션에서 연속 처리): `public/llms.txt` 추가(영문, 로케일 3섹션 × 진입 URL 10개 + URL 패턴 + 사이트맵). 링크 경로 전부 `find app -name page.tsx` 라우트와 대조. 검증: `npx tsc --noEmit` ✅ / **전체 빌드 `npm run build` ✅ 완주**(이번 실행 환경에서 성공) / 빌드 산출물 확인 ✅. 배포 후 `/llms.txt` 200 확인은 사람 몫.
 - 등록일: 2026-11-11
 - 우선순위: P2(비용이 거의 없는 보조 수단 — 다만 `llms.txt`는 비공식 제안 규격이고 주요 AI 검색이 실제로 읽는다는 공식 확인은 없어 효과는 불확실. 기대치를 낮게 잡을 것)
 - 근거: `public/`에 `llms.txt`가 없다(`ls public` = ads.txt·favicon.svg·fonts·icons·og-image.png·sw.js 등). 사이트는 3개 로케일이 서로 다른 실제 공연을 담는 독립 데이터 구조(`wiki/decisions.md`)라, AI가 "한국 공연은 /ko, 해외 팬 대상은 /en, 일본 공연은 /ja"라는 구조를 페이지 몇 장만 보고 파악하기 어렵다. 이를 한 파일로 설명해 두면 에이전트가 사이트를 읽을 때 올바른 섹션으로 바로 간다.
@@ -441,7 +445,8 @@
   - sitemap·robots 변경, 콘텐츠(`data/`·`content/`) 수정
 
 ## [20261111-03] GEO 3단계 — 사이트 운영 주체 `Organization` 구조화 데이터를 홈에 추가하고 글의 publisher와 `@id`로 연결
-- 상태: 대기
+- 상태: 완료 (2026-11-11, 커밋 5bd2c84)
+- 처리 기록(2026-11-11, 개발 담당 — 오너 지시로 한 세션에서 연속 처리): `lib/seo.ts`에 `ORG_ID` 상수, 홈에 `Organization` 노드(+`WebSite.publisher` 참조), 뉴스·블로그 상세 author/publisher에 같은 `@id`. description은 기존 `ui.siteDescription` 재사용, `sameAs` 없음. 검증: `npx tsc --noEmit` ✅ / **전체 빌드 `npm run build` ✅ 완주**(이번 실행 환경에서 성공) / 빌드 산출물 확인 ✅: 빌드된 ko/en/ja 홈 HTML과 뉴스·블로그 상세 HTML에서 `@id` 존재 확인. Rich Results Test는 배포 후 사람 몫.
 - 등록일: 2026-11-11
 - 우선순위: P2(AI·검색엔진이 "WhenStage가 무엇인지"를 하나의 엔티티로 인식하게 하는 기반 — 인용 시 출처 신뢰도 판단 재료)
 - 근거: 홈(`app/(locale)/[lang]/page.tsx:68`)의 JSON-LD는 `WebSite`+`SearchAction`뿐이고 독립된 `Organization` 엔티티가 없다. `Organization`은 뉴스·블로그 상세(`news/[slug]/page.tsx:82~83`, `blog/[slug]/page.tsx:74~75`)에서 `author`/`publisher`로 **이름만 인라인**으로 반복되며, 코드 전체에 `sameAs`·`@id` 연결이 0건이다(`grep -rn sameAs app lib components` 결과 없음). 그래서 기사마다 publisher가 서로 무관한 별개 노드로 읽힌다.

@@ -875,3 +875,19 @@ web_fetch로 안 보인다 → Claude in Chrome"이라고 썼는데 리서처 �
 (`tickets.interpark.com/contents/notice`)는 공연명 + 오픈 일시가, **예스24 공지**도 목록이 그대로 읽힌다.
 일본은 **ぴあ 발매 정보**(`t.pia.jp/pia/rlsInfo.do`)가 읽히고 e+는 거의 비어 있고 로손티켓은 막힌다.
 → KO·EN·JA 3-0단계에 읽히는 주소를 첫 할 일로 넣었다. 재확인: ~10/24 "아직 안 열린 예매" 건수
+
+## AI 봇 일괄 차단을 부분 철회 — 검색·인용 봇만 허용 (2026-11-11, GEO)
+2026-09-07에 Vercel ISR Read Units 절감을 위해 AI 크롤러를 전부 막았는데, 그 목록에 학습용이
+아닌 **AI 검색 답변에 출처 링크를 달아주는 봇**까지 들어 있었다. 오너가 GEO(생성형 검색 최적화)를
+시작하기로 하면서 다음과 같이 나눴다.
+
+- ⭕ 허용: `OAI-SearchBot`·`ChatGPT-User`(ChatGPT 검색), `PerplexityBot`·`Perplexity-User`,
+  `Claude-SearchBot`·`Claude-User` — 막으면 해당 AI 검색 답변에 사이트가 안 나온다.
+- ❌ 계속 차단: 학습 전용(`GPTBot`·`ClaudeBot`·`Google-Extended`·`CCBot`·`Bytespider` 등)과 SEO 분석 도구.
+  "전부 허용"안은 9월의 비용 문제가 재발할 위험 때문에 기각.
+- 구글 AI 오버뷰·Bing Copilot은 일반 검색봇을 쓰므로 원래부터 영향이 없었다.
+
+트레이드오프: 크롤 요청이 다소 늘 수 있다. Read Units가 다시 급증하면 `app/robots.ts`의
+`AI_CRAWLERS`에 세 봇을 되돌려 넣으면 된다. 봇 이름·용도는 각 사 공식 문서(2026-11-11)로 확인했으며
+바뀔 수 있으니 목록을 고칠 때 다시 확인할 것. 같은 날 `public/llms.txt`와 홈 `Organization`
+구조화 데이터(`lib/seo.ts` `ORG_ID`)도 추가했다.
