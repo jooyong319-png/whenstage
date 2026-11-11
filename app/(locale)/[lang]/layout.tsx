@@ -60,6 +60,13 @@ function isLocale(v: string): v is Locale {
   return (LOCALES as string[]).includes(v);
 }
 
+// 로케일은 ko/en/ja 셋뿐이다. 이게 없으면 `/아무말` 이 `[lang]` 에 걸려 홈 화면을 200으로
+// 내보낸다(soft-404) — 봇이 찌르는 주소마다 렌더·엣지 캐시가 생기던 원인(2026-11-11).
+export const dynamicParams = false;
+export function generateStaticParams() {
+  return LOCALES.map(lang => ({ lang }));
+}
+
 export default async function LocaleRootLayout({
   children,
   params,
