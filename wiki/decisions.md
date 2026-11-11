@@ -922,4 +922,4 @@ web_fetch로 안 보인다 → Claude in Chrome"이라고 썼는데 리서처 �
 - 빌드 도구가 Turbopack으로 바뀌어 빌드가 훨씬 빨라졌다(샌드박스에서도 2분대 완주).
 - 엣지 캐시 설정(`next.config.js` headers)과 `dynamicParams = false`는 그대로 동작함을 응답 헤더로 확인했다.
   없는 주소(404)는 이제 `no-store`로 나가 엣지에 쌓이지 않는다.
-- 미해결: `app/api/asset/*`·위젯 라우트가 Edge Runtime을 쓰는데 16에서 사용 중단 예고 경고가 뜬다. 다음 메이저 전에 nodejs로 옮길 것.
+- Edge Runtime을 쓰던 `app/api/asset/og-image`·`app-icon`은 같은 날 nodejs로 옮겼다(폰트를 `assets/fonts`에서 직접 읽어 넘긴다). 로컬 Windows에서 500이 나면 폰트 경로부터 볼 것.
