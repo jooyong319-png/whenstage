@@ -99,3 +99,20 @@ export function getDupNoindexIds(locale: GameLocale): Promise<Set<string>> {
   }
   return p;
 }
+
+/**
+ * 홈·찜 화면처럼 **전체 공연 목록을 브라우저로 내려보내는** 페이지용 — 끝난 지 30일 넘은 공연의
+ * 설명문을 뺀다(2026-11-11).
+ *
+ * 설명문이 목록 용량의 40% 남짓인데, 지난 공연이 전체의 3/4이다. 지난 공연은 캘린더에서 날짜·이름만
+ * 보이고, 설명은 모달을 열었을 때만 쓰인다 — 모달엔 상세 페이지 링크가 있어 거기서 전문을 볼 수 있다.
+ * 상세 페이지·검색엔진용 데이터는 이 함수를 거치지 않으므로 그대로다.
+ */
+export function slimPastGames(games: Game[], now: Date = new Date()): Game[] {
+  const cutoff = new Date(now.getTime() - 30 * 24 * 3600 * 1000).toISOString().slice(0, 10);
+  return games.map(g => {
+    if (g.release_date_approx || !g.description) return g;
+    const lastDay = g.festival_days?.length ? g.festival_days[g.festival_days.length - 1].date : g.release_date;
+    return lastDay < cutoff ? { ...g, description: null } : g;
+  });
+}

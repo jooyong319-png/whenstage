@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getAllGames } from '@/lib/games';
+import { getAllGames, slimPastGames } from '@/lib/games';
 import { PageShell } from '@/components/PageShell';
 import { WishlistView } from '@/components/WishlistView';
 import { LOCALES, type Locale } from '@/lib/i18nLabels';
@@ -31,7 +31,7 @@ export default async function Page(props: Props) {
   const games = await getAllGames(lang);
   return (
     <PageShell lang={lang}>
-      <WishlistView games={games} />
+      <WishlistView games={slimPastGames(games)} />
     </PageShell>
   );
 }

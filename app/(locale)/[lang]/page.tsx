@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getAllGames, getLastUpdated } from '@/lib/games';
+import { getAllGames, getLastUpdated, slimPastGames } from '@/lib/games';
 import { getArtistAliases, getArtistImageMap } from '@/lib/artists';
 import { getAllNews } from '@/lib/news';
 import { artistKeysOf } from '@/lib/types';
@@ -95,7 +95,7 @@ export default async function LocaleHomePage(props: Props) {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }} />
-      <Home initialGames={games} lastUpdated={lastUpdated} serverNow={serverNow} artistAliases={artistAliases} cardImages={cardImages} latestNews={latestNews} />
+      <Home initialGames={slimPastGames(games)} lastUpdated={lastUpdated} serverNow={serverNow} artistAliases={artistAliases} cardImages={cardImages} latestNews={latestNews} />
     </>
   );
 }
