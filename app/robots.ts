@@ -11,6 +11,7 @@ import type { MetadataRoute } from 'next';
  * 아래 목록은 **검색 유입을 하나도 만들지 않으면서 요청만 쌓는** 크롤러다.
  *
  *  · AI 학습 크롤러 — 콘텐츠를 학습 데이터로 가져갈 뿐 우리 쪽으로 사람을 보내지 않는다
+ *    (AI 검색·인용 봇은 2026-11-11부터 허용 — 아래 `AI_CRAWLERS` 주석 참고)
  *  · SEO 분석 도구 — 경쟁사 조사용이지 우리 검색 순위와는 무관하다
  *
  * ## 무엇을 막지 않는가
@@ -23,13 +24,21 @@ import type { MetadataRoute } from 'next';
  * 딱칼크보다 효과가 크다. 되돌리기 쉬운 조치이니, 유입이 줄면 목록에서 빼면 된다.
  */
 
-/** 콘텐츠를 학습에 쓰되 사람을 보내주지는 않는 크롤러 */
+/**
+ * 콘텐츠를 학습에 쓰되 사람을 보내주지는 않는 크롤러.
+ *
+ * ⚠️ AI **검색·인용** 봇은 여기 넣지 않는다 (2026-11-11 GEO 결정).
+ * `OAI-SearchBot`·`ChatGPT-User`(ChatGPT 검색), `PerplexityBot`·`Perplexity-User`,
+ * `Claude-SearchBot`·`Claude-User` 는 답변에 출처 링크를 달아 사람을 보내준다.
+ * 이들을 막으면 AI 검색 답변에 사이트가 아예 안 나온다. 학습 전용 봇(`GPTBot`·`ClaudeBot` 등)과
+ * 이름이 비슷하니 다시 섞어 넣지 말 것. 봇 용도는 각 사 공식 문서로 확인했다.
+ */
 const AI_CRAWLERS = [
-  'GPTBot', 'OAI-SearchBot', 'ChatGPT-User',
+  'GPTBot',
   'ClaudeBot', 'anthropic-ai', 'Claude-Web',
   'Google-Extended',          // Gemini 학습용. 검색(Googlebot)과 다른 봇이다.
   'Applebot-Extended',        // 같은 이유. 검색용 Applebot은 막지 않는다.
-  'CCBot', 'PerplexityBot', 'Bytespider', 'Amazonbot',
+  'CCBot', 'Bytespider', 'Amazonbot',
   'Meta-ExternalAgent', 'FacebookBot', 'cohere-ai', 'Diffbot',
   'ImagesiftBot', 'Omgilibot', 'Timpibot', 'YouBot',
 ];
