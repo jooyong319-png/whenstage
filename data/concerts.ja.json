@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-07",
+  "last_updated": "2026-11-11",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -6122,14 +6122,14 @@
       ],
       "developer": "宮本浩次",
       "publisher": "キョードー西日本",
-      "description": "エレファントカシマシの宮本浩次がソロとしては初めて開催する全国アリーナツアーのツアー初日。2026年6月10日に4年半ぶりのオリジナルアルバム『I AM HERO』を発表し、同年6月12日の60歳バースデーコンサートを経て決定したツアーで、福岡・愛知・宮城・東京・兵庫の全国5都市10公演を巡る。会場は福岡国際センターで、開場17:30／開演18:30。チケットは指定席A・注釈付き指定席Aが12,100円、指定席Bが9,900円（いずれも税込）で、一般三次抽選受付は2026年9月28日に締め切られた。",
+      "description": "宮本浩次がソロ名義で初めて回る全国アリーナツアー〈I AM HERO〉の幕開けとなる福岡2日間。会場は福岡国際センターで、12月25日（金）は開場17:30／開演18:30、26日（土）は開場16:00／開演17:00。主催はキョードー西日本。2026年6月発表のアルバム『I AM HERO』を携えたツアーで、ここから愛知・宮城・東京・兵庫へと続く。指定席Aは12,100円（税込）。",
       "genres": [
         "J-POP",
         "ロック"
       ],
       "image_url": null,
       "source_url": "https://miyamotohiroji.com/iamhero",
-      "updated_at": "2026-10-07",
+      "updated_at": "2026-11-11",
       "presale": false,
       "general_sale": false
     },
@@ -6156,30 +6156,6 @@
       "presale": true,
       "presale_datetime": "2026-08-20T21:00:00+09:00",
       "presale_url": "https://narumiya-official.jp/yumemiangya/"
-    },
-    {
-      "id": "ja-miyamoto-hiroji-i-am-hero-fukuoka-20261226",
-      "name": "宮本浩次「TOUR 2026〜2027 I AM HERO」福岡公演（ツアー2日目）",
-      "release_date": "2026-12-26",
-      "release_time": "17:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "福岡国際センター"
-      ],
-      "developer": "宮本浩次",
-      "publisher": "キョードー西日本",
-      "description": "エレファントカシマシの宮本浩次がソロとしては初めて開催する全国アリーナツアーのツアー2日目。2026年6月10日に4年半ぶりのオリジナルアルバム『I AM HERO』を発表し、同年6月12日の60歳バースデーコンサートを経て決定したツアーで、福岡・愛知・宮城・東京・兵庫の全国5都市10公演を巡る。会場は福岡国際センターで、開場16:00／開演17:00。チケットは指定席A・注釈付き指定席Aが12,100円、指定席Bが9,900円（いずれも税込）で、一般三次抽選受付は2026年9月28日に締め切られた。",
-      "genres": [
-        "J-POP",
-        "ロック"
-      ],
-      "image_url": null,
-      "source_url": "https://miyamotohiroji.com/iamhero",
-      "updated_at": "2026-10-07",
-      "presale": false,
-      "general_sale": false
     },
     {
       "release_time": null,
@@ -6216,14 +6192,14 @@
       ],
       "developer": "宮本浩次",
       "publisher": "サンデーフォークプロモーション",
-      "description": "エレファントカシマシの宮本浩次がソロとしては初めて開催する全国アリーナツアーの愛知公演初日。2026年6月10日に4年半ぶりのオリジナルアルバム『I AM HERO』を発表し、同年6月12日の60歳バースデーコンサートを経て決定したツアーで、福岡・愛知・宮城・東京・兵庫の全国5都市10公演を巡る。会場は日本ガイシホール（クロコくんホール）で、開場17:30／開演18:30。チケットは指定席A・注釈付き指定席Aが12,100円、指定席Bが9,900円（いずれも税込）で、一般三次抽選受付は2026年9月28日に締め切られた。",
+      "description": "年明けの愛知2デイズは日本ガイシホール（クロコくんホール）で、2027年1月5日（火）・6日（水）ともに開場17:30／開演18:30の平日夜公演。〈I AM HERO〉ツアーの2都市目にあたり、主催はサンデーフォークプロモーション。指定席Bは9,900円（税込）で、注釈付き指定席Aも用意された。福岡に続く名古屋での2日間となる。",
       "genres": [
         "J-POP",
         "ロック"
       ],
       "image_url": null,
       "source_url": "https://miyamotohiroji.com/iamhero",
-      "updated_at": "2026-10-07",
+      "updated_at": "2026-11-11",
       "presale": false,
       "general_sale": false
     },
@@ -6255,30 +6231,6 @@
       "presale_url": "https://eplus.jp/davematthews/",
       "general_sale_datetime": "2026-10-17T10:00:00+09:00",
       "updated_at": "2026-09-30"
-    },
-    {
-      "id": "ja-miyamoto-hiroji-i-am-hero-aichi-20270106",
-      "name": "宮本浩次「TOUR 2026〜2027 I AM HERO」愛知公演（愛知公演2日目）",
-      "release_date": "2027-01-06",
-      "release_time": "18:30",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "日本ガイシホール（クロコくんホール）"
-      ],
-      "developer": "宮本浩次",
-      "publisher": "サンデーフォークプロモーション",
-      "description": "エレファントカシマシの宮本浩次がソロとしては初めて開催する全国アリーナツアーの愛知公演2日目。2026年6月10日に4年半ぶりのオリジナルアルバム『I AM HERO』を発表し、同年6月12日の60歳バースデーコンサートを経て決定したツアーで、福岡・愛知・宮城・東京・兵庫の全国5都市10公演を巡る。会場は日本ガイシホール（クロコくんホール）で、開場17:30／開演18:30。チケットは指定席A・注釈付き指定席Aが12,100円、指定席Bが9,900円（いずれも税込）で、一般三次抽選受付は2026年9月28日に締め切られた。",
-      "genres": [
-        "J-POP",
-        "ロック"
-      ],
-      "image_url": null,
-      "source_url": "https://miyamotohiroji.com/iamhero",
-      "updated_at": "2026-10-07",
-      "presale": false,
-      "general_sale": false
     },
     {
       "id": "ja-dave-matthews-japan-2027-osaka-20270108",
@@ -6605,14 +6557,14 @@
       ],
       "developer": "宮本浩次",
       "publisher": "GIP",
-      "description": "エレファントカシマシの宮本浩次がソロとしては初めて開催する全国アリーナツアーの宮城公演初日。2026年6月10日に4年半ぶりのオリジナルアルバム『I AM HERO』を発表し、同年6月12日の60歳バースデーコンサートを経て決定したツアーで、福岡・愛知・宮城・東京・兵庫の全国5都市10公演を巡る。会場はゼビオアリーナ仙台で、開場16:30／開演17:30。チケットは指定席A・注釈付き指定席Aが12,100円、指定席Bが9,900円（いずれも税込）で、一般三次抽選受付は2026年9月28日に締め切られた。",
+      "description": "〈I AM HERO〉ツアー3都市目、東北唯一の開催地となる宮城公演。ゼビオアリーナ仙台で2027年1月23日（土）は開場16:30／開演17:30、24日（日）は開場16:00／開演17:00と週末の2日間に組まれた。主催はGIP。宮本浩次ソロとして仙台のアリーナに立つ2日間で、このあと2月の東京・兵庫へとツアーは折り返していく。",
       "genres": [
         "J-POP",
         "ロック"
       ],
       "image_url": null,
       "source_url": "https://miyamotohiroji.com/iamhero",
-      "updated_at": "2026-10-07",
+      "updated_at": "2026-11-11",
       "presale": false,
       "general_sale": false
     },
@@ -6646,30 +6598,6 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null
-    },
-    {
-      "id": "ja-miyamoto-hiroji-i-am-hero-sendai-20270124",
-      "name": "宮本浩次「TOUR 2026〜2027 I AM HERO」宮城公演（宮城公演2日目）",
-      "release_date": "2027-01-24",
-      "release_time": "17:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "ゼビオアリーナ仙台"
-      ],
-      "developer": "宮本浩次",
-      "publisher": "GIP",
-      "description": "エレファントカシマシの宮本浩次がソロとしては初めて開催する全国アリーナツアーの宮城公演2日目。2026年6月10日に4年半ぶりのオリジナルアルバム『I AM HERO』を発表し、同年6月12日の60歳バースデーコンサートを経て決定したツアーで、福岡・愛知・宮城・東京・兵庫の全国5都市10公演を巡る。会場はゼビオアリーナ仙台で、開場16:00／開演17:00。チケットは指定席A・注釈付き指定席Aが12,100円、指定席Bが9,900円（いずれも税込）で、一般三次抽選受付は2026年9月28日に締め切られた。",
-      "genres": [
-        "J-POP",
-        "ロック"
-      ],
-      "image_url": null,
-      "source_url": "https://miyamotohiroji.com/iamhero",
-      "updated_at": "2026-10-07",
-      "presale": false,
-      "general_sale": false
     },
     {
       "id": "ja-maroon-5-tokyo-dome-20270130",
@@ -6862,14 +6790,14 @@
       ],
       "developer": "宮本浩次",
       "publisher": "DISK GARAGE",
-      "description": "エレファントカシマシの宮本浩次がソロとしては初めて開催する全国アリーナツアーの東京公演初日。2026年6月10日に4年半ぶりのオリジナルアルバム『I AM HERO』を発表し、同年6月12日の60歳バースデーコンサートを経て決定したツアーで、福岡・愛知・宮城・東京・兵庫の全国5都市10公演を巡る。会場は国立代々木競技場（第一体育館）で、開場17:30／開演18:30。チケットは指定席A・注釈付き指定席Aが12,100円、指定席Bが9,900円（いずれも税込）で、一般三次抽選受付は2026年9月28日に締め切られた。",
+      "description": "首都圏唯一の会場となる東京公演は国立代々木競技場（第一体育館）。2027年2月10日（水）は開場17:30／開演18:30、建国記念の日の11日（木・祝）は開場16:00／開演17:00で、祝日は早めのスタートとなる。主催はDISK GARAGE。ツアー終盤の大舞台で、残すは翌々週の兵庫公演のみとなる。",
       "genres": [
         "J-POP",
         "ロック"
       ],
       "image_url": null,
       "source_url": "https://miyamotohiroji.com/iamhero",
-      "updated_at": "2026-10-07",
+      "updated_at": "2026-11-11",
       "presale": false,
       "general_sale": false
     },
@@ -6897,30 +6825,6 @@
       "image_url": null,
       "presale_url": "https://eplus.jp/xg/",
       "updated_at": "2026-10-28"
-    },
-    {
-      "id": "ja-miyamoto-hiroji-i-am-hero-tokyo-20270211",
-      "name": "宮本浩次「TOUR 2026〜2027 I AM HERO」東京公演（東京公演2日目）",
-      "release_date": "2027-02-11",
-      "release_time": "17:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "国立代々木競技場（第一体育館）"
-      ],
-      "developer": "宮本浩次",
-      "publisher": "DISK GARAGE",
-      "description": "エレファントカシマシの宮本浩次がソロとしては初めて開催する全国アリーナツアーの東京公演2日目。2026年6月10日に4年半ぶりのオリジナルアルバム『I AM HERO』を発表し、同年6月12日の60歳バースデーコンサートを経て決定したツアーで、福岡・愛知・宮城・東京・兵庫の全国5都市10公演を巡る。会場は国立代々木競技場（第一体育館）で、開場16:00／開演17:00。チケットは指定席A・注釈付き指定席Aが12,100円、指定席Bが9,900円（いずれも税込）で、一般三次抽選受付は2026年9月28日に締め切られた。",
-      "genres": [
-        "J-POP",
-        "ロック"
-      ],
-      "image_url": null,
-      "source_url": "https://miyamotohiroji.com/iamhero",
-      "updated_at": "2026-10-07",
-      "presale": false,
-      "general_sale": false
     },
     {
       "id": "ja-tokyo-ska-paradise-orchestra-arena-tour-2027-20270211",
@@ -7187,7 +7091,7 @@
       ],
       "developer": "ジョン・クリアリー",
       "publisher": "SMASH",
-      "description": "ニューオーリンズ・ピアノの伝統を受け継ぐ英国出身のシンガー／ピアニスト、ジョン・クリアリーによる2年ぶりの来日公演〈PIANO SOLO TOUR〉の大阪公演。10月2日にリリースされるロイヤル・アルバート・ホールでのピアノ独奏を収めたライブアルバム『ライヴ・アット・ザ・ロイヤル・アルバート・ホール』を記念したツアーで、大阪1公演と東京2公演の全3公演が組まれている。UMEDA CLUB QUATTROは開場18:00・開演19:00、全席指定の前売は8,000円（ドリンク代別）。イープラスでのオフィシャル先行は9月29日17:00に受付を開始し、一般前売は10月17日10:00から。",
+      "description": "ニューオーリンズ・ピアノを受け継ぐ英国出身のシンガー／ピアニスト、ジョン・クリアリーの2年ぶり来日〈PIANO SOLO TOUR〉は大阪から始まる。会場はUMEDA CLUB QUATTRO、2027年2月24日（水）開場18:00／開演19:00の1公演のみ。全席指定8,000円（ドリンク代別）で、招聘はSMASH。ロイヤル・アルバート・ホールでの独奏を収めたライブ盤のリリースを記念したツアーだ。",
       "genres": [
         "ニューオーリンズ",
         "ピアノ",
@@ -7195,14 +7099,14 @@
       ],
       "image_url": null,
       "source_url": "https://smash-jpn.com/live/?id=4781",
-      "presale": true,
-      "general_sale": false,
+      "presale": false,
+      "general_sale": true,
       "presale_datetime": "2026-09-29T17:00:00+09:00",
       "presale_end_datetime": "2026-10-12T23:59:00+09:00",
       "presale_url": "https://eplus.jp/joncleary/",
       "general_sale_datetime": "2026-10-17T10:00:00+09:00",
       "general_sale_url": "https://eplus.jp/joncleary/",
-      "updated_at": "2026-09-30"
+      "updated_at": "2026-11-11"
     },
     {
       "id": "ja-jon-cleary-piano-solo-2027-tokyo1-20270225",
@@ -7217,7 +7121,7 @@
       ],
       "developer": "ジョン・クリアリー",
       "publisher": "SMASH",
-      "description": "ニューオーリンズ・ピアノの伝統を受け継ぐ英国出身のシンガー／ピアニスト、ジョン・クリアリーによる2年ぶりの来日公演〈PIANO SOLO TOUR〉の東京公演。10月2日にリリースされるロイヤル・アルバート・ホールでのピアノ独奏を収めたライブアルバム『ライヴ・アット・ザ・ロイヤル・アルバート・ホール』を記念したツアーで、大阪1公演と東京2公演の全3公演が組まれている。SHIBUYA PLEASURE PLEASUREは開場18:00・開演19:00、全席指定の前売は8,000円（ドリンク代別）。イープラスでのオフィシャル先行は9月29日17:00に受付を開始し、一般前売は10月17日10:00から。",
+      "description": "ジョン・クリアリー〈PIANO SOLO TOUR〉の東京公演は、渋谷の着席型ライブハウスSHIBUYA PLEASURE PLEASUREで2027年2月25日（木）・26日（金）の2夜連続。両日とも開場18:00／開演19:00で、26日がツアー最終公演となる。ピアノ1台で聴かせるニューオーリンズR&Bを全席指定8,000円（ドリンク代別）で楽しめ、一般前売は10月17日からイープラスほかで発売中。",
       "genres": [
         "ニューオーリンズ",
         "ピアノ",
@@ -7225,44 +7129,14 @@
       ],
       "image_url": null,
       "source_url": "https://smash-jpn.com/live/?id=4781",
-      "presale": true,
-      "general_sale": false,
+      "presale": false,
+      "general_sale": true,
       "presale_datetime": "2026-09-29T17:00:00+09:00",
       "presale_end_datetime": "2026-10-12T23:59:00+09:00",
       "presale_url": "https://eplus.jp/joncleary/",
       "general_sale_datetime": "2026-10-17T10:00:00+09:00",
       "general_sale_url": "https://eplus.jp/joncleary/",
-      "updated_at": "2026-09-30"
-    },
-    {
-      "id": "ja-jon-cleary-piano-solo-2027-tokyo2-20270226",
-      "name": "ジョン・クリアリー〈PIANO SOLO TOUR〉東京（2日目）公演",
-      "release_date": "2027-02-26",
-      "release_time": "19:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "SHIBUYA PLEASURE PLEASURE"
-      ],
-      "developer": "ジョン・クリアリー",
-      "publisher": "SMASH",
-      "description": "ニューオーリンズ・ピアノの伝統を受け継ぐ英国出身のシンガー／ピアニスト、ジョン・クリアリーによる2年ぶりの来日公演〈PIANO SOLO TOUR〉の東京公演。10月2日にリリースされるロイヤル・アルバート・ホールでのピアノ独奏を収めたライブアルバム『ライヴ・アット・ザ・ロイヤル・アルバート・ホール』を記念したツアーで、大阪1公演と東京2公演の全3公演が組まれている。SHIBUYA PLEASURE PLEASUREは開場18:00・開演19:00、全席指定の前売は8,000円（ドリンク代別）。イープラスでのオフィシャル先行は9月29日17:00に受付を開始し、一般前売は10月17日10:00から。",
-      "genres": [
-        "ニューオーリンズ",
-        "ピアノ",
-        "来日公演"
-      ],
-      "image_url": null,
-      "source_url": "https://smash-jpn.com/live/?id=4781",
-      "presale": true,
-      "general_sale": false,
-      "presale_datetime": "2026-09-29T17:00:00+09:00",
-      "presale_end_datetime": "2026-10-12T23:59:00+09:00",
-      "presale_url": "https://eplus.jp/joncleary/",
-      "general_sale_datetime": "2026-10-17T10:00:00+09:00",
-      "general_sale_url": "https://eplus.jp/joncleary/",
-      "updated_at": "2026-09-30"
+      "updated_at": "2026-11-11"
     },
     {
       "id": "ja-miyamoto-hiroji-i-am-hero-kobe-20270227",
@@ -7277,14 +7151,14 @@
       ],
       "developer": "宮本浩次",
       "publisher": null,
-      "description": "エレファントカシマシの宮本浩次がソロとしては初めて開催する全国アリーナツアーの兵庫公演初日。2026年6月10日に4年半ぶりのオリジナルアルバム『I AM HERO』を発表し、同年6月12日の60歳バースデーコンサートを経て決定したツアーで、福岡・愛知・宮城・東京・兵庫の全国5都市10公演を巡る。会場はGLION ARENA KOBEで、開場16:30／開演17:30。チケットは指定席A・注釈付き指定席Aが12,100円、指定席Bが9,900円（いずれも税込）で、一般三次抽選受付は2026年9月28日に締め切られた。",
+      "description": "全国5都市10公演の〈I AM HERO〉ツアーを締めくくる兵庫公演で、会場はGLION ARENA KOBE。2027年2月27日（土）は開場16:30／開演17:30、千秋楽となる28日（日）は開場16:00／開演17:00。福岡から約2か月をかけて回ってきたソロ初のアリーナツアーが神戸のウォーターフロントで幕を下ろす。",
       "genres": [
         "J-POP",
         "ロック"
       ],
       "image_url": null,
       "source_url": "https://miyamotohiroji.com/iamhero",
-      "updated_at": "2026-10-07",
+      "updated_at": "2026-11-11",
       "presale": false,
       "general_sale": false
     },
@@ -7335,30 +7209,6 @@
       "timezone": "Asia/Tokyo",
       "image_url": null,
       "publisher": null
-    },
-    {
-      "id": "ja-miyamoto-hiroji-i-am-hero-kobe-20270228",
-      "name": "宮本浩次「TOUR 2026〜2027 I AM HERO」兵庫公演（ツアー最終日）",
-      "release_date": "2027-02-28",
-      "release_time": "17:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "GLION ARENA KOBE"
-      ],
-      "developer": "宮本浩次",
-      "publisher": null,
-      "description": "エレファントカシマシの宮本浩次がソロとしては初めて開催する全国アリーナツアーのツアー最終日。2026年6月10日に4年半ぶりのオリジナルアルバム『I AM HERO』を発表し、同年6月12日の60歳バースデーコンサートを経て決定したツアーで、福岡・愛知・宮城・東京・兵庫の全国5都市10公演を巡る。会場はGLION ARENA KOBEで、開場16:00／開演17:00。チケットは指定席A・注釈付き指定席Aが12,100円、指定席Bが9,900円（いずれも税込）で、一般三次抽選受付は2026年9月28日に締め切られた。",
-      "genres": [
-        "J-POP",
-        "ロック"
-      ],
-      "image_url": null,
-      "source_url": "https://miyamotohiroji.com/iamhero",
-      "updated_at": "2026-10-07",
-      "presale": false,
-      "general_sale": false
     },
     {
       "release_time": null,
@@ -8707,6 +8557,63 @@
       ],
       "description": "筋肉少女帯がその年の活動を締めくくる恒例の年末公演で、2026年は12月20日（日）に恵比寿LIQUIDROOMで開催する。開場17:00／開演18:00、サポートにピアノの三柴理とドラムの長谷川浩二が加わる。オールスタンディング8,800円（税込・ドリンク代別）で未就学児は入場不可。ぴあのプレリザーブ（抽選）は11月15日23:59まで受付中で、一般発売は11月21日（土）10:00から。翌2027年2月18日にはえんそくとの共演公演もZepp Shinjukuで控える。",
       "source_url": "https://king-show.net/"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": "https://lp.p.pia.jp/shared/materials/690a9f28-0f21-4518-811b-1616e8646ff9/origin.jpg",
+      "presale": true,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": "https://t.pia.jp/pia/event/event.do?eventCd=2641489",
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-11",
+      "id": "ja-kizu-budokan-20270227",
+      "name": "キズ 単独公演『武道館』",
+      "release_date": "2027-02-27",
+      "release_time": "17:00",
+      "category": "concert_tour",
+      "platforms": [
+        "日本武道館"
+      ],
+      "developer": "キズ",
+      "genres": [
+        "ヴィジュアル系",
+        "ロック"
+      ],
+      "description": "ヴィジュアル系バンド・キズが2027年2月27日（土）に日本武道館で開く単独公演。バンドはこの日から一部活動休止に入ると発表しており、休止前最後のステージとなる。開場16:00／開演17:00。席種はアリーナVIP席30,000円、アリーナS席15,000円、着席指定席12,000円、アリーナA席・スタンドA席6,800円、B席3,800円。オフィシャル二次先行（抽選）が11月21日23:59まで受付中で、ぴあのプレリザーブは11月22日10:00から12月14日まで。",
+      "source_url": "https://lp.p.pia.jp/article/news/512666/index.html"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": "https://s3-ap-northeast-1.amazonaws.com/pf-web/fanclubs/222/assets/340/statics/pureflow_encore/images/ogp.png",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-11-07T10:00:00+09:00",
+      "general_sale_url": "https://w.pia.jp/t/lesserafim2026/",
+      "updated_at": "2026-11-11",
+      "id": "ja-le-sserafim-pureflow-kyocera-dome-20261219",
+      "name": "2026 LE SSERAFIM TOUR 'PUREFLOW' IN KYOCERA DOME OSAKA",
+      "release_date": "2026-12-19",
+      "release_time": "17:00",
+      "category": "concert_tour",
+      "platforms": [
+        "京セラドーム大阪"
+      ],
+      "developer": "LE SSERAFIM",
+      "genres": [
+        "K-POP"
+      ],
+      "description": "LE SSERAFIMの2度目のワールドツアー〈PUREFLOW〉の日本追加公演で、グループ初となる京セラドーム大阪での2日間。12月19日（土）は開場15:00／開演17:00、20日（日）は開場14:00／開演16:00。指定席16,500円（税込）、FEARNOT Membership会員限定でVIP席へのアップグレード（+11,000円）も用意された。一般販売は11月7日10:00からローチケ・チケットぴあ・イープラスほかで先着順に行われている。新曲「AEIOU」のステージ初披露も予告されている。",
+      "source_url": "https://www.hybejapan-concert.com/statics/le-sserafim_pureflow_kyocera_dome_osaka"
     }
   ]
 }
