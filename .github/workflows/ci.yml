@@ -1,0 +1,23 @@
+name: CI
+
+# 타입체크·린트·데이터 검증. 리서처·개발 자동화가 main에 직접 push하므로,
+# 깨진 커밋이 들어오면 여기서 바로 빨간불이 켜지게 한다(배포 자체를 막지는 않는다).
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['**.md', 'wiki/**', 'prompts/**']
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm run validate
