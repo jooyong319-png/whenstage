@@ -24,7 +24,7 @@ import { RelatedEventCard } from '@/components/RelatedEventCard';
 import { breadcrumbLd, jsonLd, eventStartDate, concertMetaTitle, concertMetaDescription, countryFromTimezone, wikimediaFilePage, ticketMetaTitle, withTicketLead } from '@/lib/seo';
 
 interface Props {
-  params: { lang: string; id: string };
+  params: Promise<{ lang: string; id: string }>;
 }
 
 function isLocale(v: string): v is Locale {
@@ -44,7 +44,8 @@ export async function generateStaticParams() {
   return params;
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   if (!isLocale(params.lang)) return {};
   const game = await getGameById(params.id, params.lang);
   if (!game) return { title: UI[params.lang].notFound };
@@ -84,7 +85,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function LocaleGamePage({ params }: Props) {
+export default async function LocaleGamePage(props: Props) {
+  const params = await props.params;
   if (!isLocale(params.lang)) notFound();
   const lang = params.lang;
   const ui = UI[lang];

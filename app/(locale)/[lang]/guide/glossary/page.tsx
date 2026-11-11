@@ -4,7 +4,7 @@ import { PageShell } from '@/components/PageShell';
 import { LOCALES, type Locale } from '@/lib/i18nLabels';
 import { localeAlternates } from '@/lib/seo';
 
-interface Props { params: { lang: string }; }
+interface Props { params: Promise<{ lang: string }>; }
 function isLocale(v: string): v is Locale { return (LOCALES as string[]).includes(v); }
 
 export async function generateStaticParams() {
@@ -29,7 +29,8 @@ const META: Record<Locale, Metadata> = {
   },
 };
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   if (!isLocale(params.lang)) return {};
   return META[params.lang];
 }
@@ -98,7 +99,8 @@ const TERMS: Record<Locale, Term[]> = {
 
 const BACK_LABEL: Record<Locale, string> = { ko: '← 가이드로', en: '← Back to Guide', ja: '← ガイドへ' };
 
-export default async function GlossaryPage({ params }: Props) {
+export default async function GlossaryPage(props: Props) {
+  const params = await props.params;
   if (!isLocale(params.lang)) notFound();
   const lang = params.lang;
   const terms = TERMS[lang];

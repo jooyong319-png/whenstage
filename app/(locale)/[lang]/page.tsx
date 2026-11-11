@@ -9,7 +9,7 @@ import { UI, LOCALES, OG_LOCALE, DEFAULT_OG_IMAGE, type Locale } from '@/lib/i18
 import { localeAlternates, ORG_ID } from '@/lib/seo';
 
 interface Props {
-  params: { lang: string };
+  params: Promise<{ lang: string }>;
 }
 
 function isLocale(v: string): v is Locale {
@@ -20,7 +20,8 @@ export async function generateStaticParams() {
   return LOCALES.map(lang => ({ lang }));
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   if (!isLocale(params.lang)) return {};
   const ui = UI[params.lang];
   const url = `https://whenstage.com/${params.lang}`;
@@ -34,7 +35,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function LocaleHomePage({ params }: Props) {
+export default async function LocaleHomePage(props: Props) {
+  const params = await props.params;
   if (!isLocale(params.lang)) notFound();
   const lang = params.lang;
   const ui = UI[lang];

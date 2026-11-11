@@ -21,7 +21,7 @@ import ss from '../../ticketing/schedule.module.css';
  * 로케일마다 데이터가 독립이다(번역 아님) — ko는 한국 공연, ja는 일본 공연, en은 해외 팬 대상
  * 한국 공연 + 예전에 넣은 미·영 공연. 그래서 hreflang으로 잇지 않는다(사이트 전체 원칙).
  */
-interface Props { params: { lang: string; ym: string }; }
+interface Props { params: Promise<{ lang: string; ym: string }>; }
 function isLocale(v: string): v is Locale { return (LOCALES as string[]).includes(v); }
 
 export const dynamicParams = false;
@@ -34,7 +34,7 @@ export async function generateStaticParams() {
   return params;
 }
 
-async function findMonth(params: Props['params']): Promise<MonthPage | null> {
+async function findMonth(params: Awaited<Props['params']>): Promise<MonthPage | null> {
   if (!isLocale(params.lang)) return null;
   const months = await getMonthPages(params.lang);
   return months.find(m => m.ym === params.ym) ?? null;
@@ -63,7 +63,8 @@ function describe(m: MonthPage): string {
   );
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   const m = await findMonth(params);
   if (!m) return {};
   const t = SCHEDULE_TEXT[m.lang];
@@ -80,7 +81,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function MonthPageView({ params }: Props) {
+export default async function MonthPageView(props: Props) {
+  const params = await props.params;
   const m = await findMonth(params);
   if (!m) notFound();
   const lang = m.lang;

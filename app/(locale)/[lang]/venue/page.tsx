@@ -9,14 +9,15 @@ import { RevealGroup, RevealItem } from '@/components/motion/Reveal';
 import styles from '@/app/blog/blog.module.css';
 import vs from './venue.module.css';
 
-interface Props { params: { lang: string }; }
+interface Props { params: Promise<{ lang: string }>; }
 function isLocale(v: string): v is Locale { return (LOCALES as string[]).includes(v); }
 
 export async function generateStaticParams() {
   return LOCALES.map(lang => ({ lang }));
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   if (!isLocale(params.lang)) return {};
   const ui = UI[params.lang];
   const url = `https://whenstage.com/${params.lang}/venue`;
@@ -29,7 +30,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function VenueListPage({ params }: Props) {
+export default async function VenueListPage(props: Props) {
+  const params = await props.params;
   if (!isLocale(params.lang)) notFound();
   const lang = params.lang;
   const ui = UI[lang];

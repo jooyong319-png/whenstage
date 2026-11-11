@@ -5,7 +5,7 @@ import { PageShell } from '@/components/PageShell';
 import { WishlistView } from '@/components/WishlistView';
 import { LOCALES, type Locale } from '@/lib/i18nLabels';
 
-interface Props { params: { lang: string }; }
+interface Props { params: Promise<{ lang: string }>; }
 function isLocale(v: string): v is Locale { return (LOCALES as string[]).includes(v); }
 
 export async function generateStaticParams() {
@@ -18,12 +18,14 @@ const META: Record<Locale, Metadata> = {
   ja: { title: 'マイ通知', description: 'フォロー中のアーティストと保存した公演の新着・発売開始のお知らせ。', robots: { index: false, follow: true } },
 };
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   if (!isLocale(params.lang)) return {};
   return META[params.lang];
 }
 
-export default async function Page({ params }: Props) {
+export default async function Page(props: Props) {
+  const params = await props.params;
   if (!isLocale(params.lang)) notFound();
   const lang = params.lang;
   const games = await getAllGames(lang);

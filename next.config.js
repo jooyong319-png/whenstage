@@ -7,13 +7,7 @@ const CONCERT_REDIRECTS = require('./data/concert-redirects.json').redirects;
 
 const nextConfig = {
   reactStrictMode: true,
-  // 백업/문서/스크립트는 빌드 대상에서 제외
-  // (eslint/typecheck도)
-  eslint: { ignoreDuringBuilds: false },
-  // metadata.metadataBase 경고 방지
-  experimental: {
-    typedRoutes: false
-  },
+  // Next 16부터 빌드가 린트를 돌리지 않는다(`eslint` 옵션 삭제) — 린트는 `npm run lint`·CI가 맡는다.
 
   /**
    * 🔴 엣지 캐시를 켠다 — ISR Read 한도 초과의 직접 원인이었다 (2026-09-21).

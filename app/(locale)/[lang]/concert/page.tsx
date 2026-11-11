@@ -24,14 +24,15 @@ import cs from './concertList.module.css';
  *
  * 홈과 겹치지 않는다 — 홈은 카드로 40개를 보여주고, 여기는 전부를 달력처럼 나열한다.
  */
-interface Props { params: { lang: string }; }
+interface Props { params: Promise<{ lang: string }>; }
 function isLocale(v: string): v is Locale { return (LOCALES as string[]).includes(v); }
 
 export async function generateStaticParams() {
   return LOCALES.map(lang => ({ lang }));
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   if (!isLocale(params.lang)) return {};
   const ui = UI[params.lang];
   const url = `https://whenstage.com/${params.lang}/concert`;
@@ -62,7 +63,8 @@ function groupByMonth(games: Game[]): { key: string; year: number; month: number
   });
 }
 
-export default async function ConcertListPage({ params }: Props) {
+export default async function ConcertListPage(props: Props) {
+  const params = await props.params;
   if (!isLocale(params.lang)) notFound();
   const lang = params.lang;
   const ui = UI[lang];

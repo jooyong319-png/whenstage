@@ -11,14 +11,15 @@ import { localeAlternates, breadcrumbLd, jsonLd } from '@/lib/seo';
 import blogStyles from '@/app/blog/blog.module.css';
 import styles from './artist.module.css';
 
-interface Props { params: { lang: string }; }
+interface Props { params: Promise<{ lang: string }>; }
 function isLocale(v: string): v is Locale { return (LOCALES as string[]).includes(v); }
 
 export async function generateStaticParams() {
   return LOCALES.map(lang => ({ lang }));
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   if (!isLocale(params.lang)) return {};
   const ui = UI[params.lang];
   const url = `https://whenstage.com/${params.lang}/artist`;
@@ -31,7 +32,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function ArtistListPage({ params }: Props) {
+export default async function ArtistListPage(props: Props) {
+  const params = await props.params;
   if (!isLocale(params.lang)) notFound();
   const lang = params.lang;
   const ui = UI[lang];

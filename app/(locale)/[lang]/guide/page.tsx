@@ -4,7 +4,7 @@ import { PageShell } from '@/components/PageShell';
 import { LOCALES, OG_LOCALE, DEFAULT_OG_IMAGE, type Locale } from '@/lib/i18nLabels';
 import { localeAlternates } from '@/lib/seo';
 
-interface Props { params: { lang: string }; }
+interface Props { params: Promise<{ lang: string }>; }
 function isLocale(v: string): v is Locale { return (LOCALES as string[]).includes(v); }
 
 export async function generateStaticParams() {
@@ -41,7 +41,8 @@ const META: Record<Locale, Metadata> = Object.fromEntries(
   })
 ) as Record<Locale, Metadata>;
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   if (!isLocale(params.lang)) return {};
   return META[params.lang];
 }
@@ -104,7 +105,8 @@ const FOOTER_P: Record<Locale, string> = {
   ja: 'WhenStage(whenstage.com)はコンサート・来日公演、音源発売、フェス、ファンミーティング情報を毎日整理しています。',
 };
 
-export default async function Page({ params }: Props) {
+export default async function Page(props: Props) {
+  const params = await props.params;
   if (!isLocale(params.lang)) notFound();
   const lang = params.lang;
   const faqs = FAQS[lang];

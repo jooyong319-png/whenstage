@@ -24,7 +24,7 @@ function pickFromAcceptLanguage(header: string | null): Locale | null {
   return null;
 }
 
-export function middleware(req: NextRequest) {
+export function proxy(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
   // 이미 /ko, /en, /ja로 시작하는 경로는 절대 건드리지 않는다 — 크롤러가 각 언어 페이지를
@@ -57,7 +57,7 @@ export function middleware(req: NextRequest) {
   return res;
 }
 
-// 루트(/)에서만 실행 — 다른 모든 경로(/ko/*, /en/*, /ja/*, API, 정적 파일 등)는 미들웨어 자체가 돌지 않는다.
+// 루트(/)에서만 실행 — 다른 모든 경로(/ko/*, /en/*, /ja/*, API, 정적 파일 등)는 프록시(예전 이름: 미들웨어) 자체가 돌지 않는다.
 export const config = {
   matcher: '/',
 };

@@ -106,7 +106,7 @@ export function LanguageSwitcher({ open, onOpenChange }: Props) {
                 role="option"
                 aria-selected={parsed.lang === l.key}
                 onClick={() => {
-                  // 수동 선택값을 쿠키에 저장 — middleware.ts가 '/' 진입 시 이 값을 최우선으로 사용.
+                  // 수동 선택값을 쿠키에 저장 — proxy.ts가 '/' 진입 시 이 값을 최우선으로 사용.
                   document.cookie = `NEXT_LOCALE=${l.key}; path=/; max-age=31536000; SameSite=Lax`;
                   onOpenChange(false);
                 }}

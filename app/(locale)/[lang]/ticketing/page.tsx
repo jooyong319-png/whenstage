@@ -27,7 +27,7 @@ import ss from './schedule.module.css';
  * 앞으로 열릴 예매가 적으면(TICKETING_MIN_INDEX 미만) 색인에서 뺀다 — 2건짜리 목록은 얇은 페이지다.
  * 데이터가 늘면 다음 배포에서 저절로 색인 대상이 된다.
  */
-interface Props { params: { lang: string }; }
+interface Props { params: Promise<{ lang: string }>; }
 function isLocale(v: string): v is Locale { return (LOCALES as string[]).includes(v); }
 
 export const dynamicParams = false;
@@ -42,7 +42,8 @@ function timeWithZone(t: TicketOpening, lang: Locale): string {
   return `${t.time} ${tzShort(t.at, t.tz, lang)}`;
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   if (!isLocale(params.lang)) return {};
   const lang = params.lang;
   const t = SCHEDULE_TEXT[lang];
@@ -68,7 +69,8 @@ function groupByDate(list: TicketOpening[]): { date: string; items: TicketOpenin
   return Array.from(map.entries()).map(([date, items]) => ({ date, items }));
 }
 
-export default async function TicketingPage({ params }: Props) {
+export default async function TicketingPage(props: Props) {
+  const params = await props.params;
   if (!isLocale(params.lang)) notFound();
   const lang = params.lang;
   const t = SCHEDULE_TEXT[lang];

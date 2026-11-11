@@ -10,7 +10,7 @@ import { localeAlternates } from '@/lib/seo';
 import styles from '@/app/blog/blog.module.css';
 import n from '@/app/news/news.module.css';
 
-interface Props { params: { lang: string }; }
+interface Props { params: Promise<{ lang: string }>; }
 function isLocale(v: string): v is Locale { return (LOCALES as string[]).includes(v); }
 
 export async function generateStaticParams() {
@@ -53,7 +53,8 @@ const META: Record<Locale, Metadata> = Object.fromEntries(
   })
 ) as Record<Locale, Metadata>;
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   if (!isLocale(params.lang)) return {};
   return META[params.lang];
 }
@@ -66,7 +67,8 @@ const SUBTITLE: Record<Locale, string> = {
 };
 const EMPTY: Record<Locale, string> = { ko: '아직 뉴스가 없습니다. 곧 채워질 예정이에요!', en: 'No news yet — check back soon!', ja: 'まだニュースがありません。近日公開予定です!' };
 
-export default async function Page({ params }: Props) {
+export default async function Page(props: Props) {
+  const params = await props.params;
   if (!isLocale(params.lang)) notFound();
   const lang = params.lang;
   const items = await getAllNews(lang);

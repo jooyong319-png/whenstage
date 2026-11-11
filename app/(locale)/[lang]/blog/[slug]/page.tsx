@@ -10,7 +10,7 @@ import { breadcrumbLd, jsonLd, ORG_ID } from '@/lib/seo';
 import styles from '@/app/blog/blog.module.css';
 
 interface Props {
-  params: { lang: string; slug: string };
+  params: Promise<{ lang: string; slug: string }>;
 }
 
 function isLocale(v: string): v is Locale {
@@ -29,7 +29,8 @@ export async function generateStaticParams() {
   return params;
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   if (!isLocale(params.lang)) return {};
   const lang = params.lang;
   const post = await getPostBySlug(params.slug, lang);
@@ -51,7 +52,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function LocaleBlogPage({ params }: Props) {
+export default async function LocaleBlogPage(props: Props) {
+  const params = await props.params;
   if (!isLocale(params.lang)) notFound();
   const lang = params.lang;
   const ui = UI[lang];

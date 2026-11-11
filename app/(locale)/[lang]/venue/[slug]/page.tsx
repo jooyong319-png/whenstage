@@ -7,7 +7,7 @@ import { UI, LOCALES, OG_LOCALE, DEFAULT_OG_IMAGE, type Locale } from '@/lib/i18
 import { breadcrumbLd, jsonLd } from '@/lib/seo';
 import styles from '@/app/blog/blog.module.css';
 
-interface Props { params: { lang: string; slug: string }; }
+interface Props { params: Promise<{ lang: string; slug: string }>; }
 function isLocale(v: string): v is Locale { return (LOCALES as string[]).includes(v); }
 
 // 빌드에 없는 slug는 하드 404(soft-404 방지) — 콘텐츠가 모두 빌드 시점에 정해지므로 안전
@@ -22,7 +22,8 @@ export async function generateStaticParams() {
   return params;
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata(props: Props): Promise<Metadata> {
+  const params = await props.params;
   if (!isLocale(params.lang)) return {};
   const venue = await getVenueBySlug(params.slug, params.lang);
   if (!venue) return { title: UI[params.lang].notFound };
@@ -39,7 +40,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default async function VenueDetailPage({ params }: Props) {
+export default async function VenueDetailPage(props: Props) {
+  const params = await props.params;
   if (!isLocale(params.lang)) notFound();
   const lang = params.lang;
   const ui = UI[lang];

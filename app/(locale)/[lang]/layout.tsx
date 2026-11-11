@@ -67,13 +67,18 @@ export function generateStaticParams() {
   return LOCALES.map(lang => ({ lang }));
 }
 
-export default async function LocaleRootLayout({
-  children,
-  params,
-}: {
-  children: React.ReactNode;
-  params: { lang: string };
-}) {
+export default async function LocaleRootLayout(
+  props: {
+    children: React.ReactNode;
+    params: Promise<{ lang: string }>;
+  }
+) {
+  const params = await props.params;
+
+  const {
+    children
+  } = props;
+
   const lang = isLocale(params.lang) ? params.lang : 'ko';
   const menu = await getMenuData(lang);
   return (
