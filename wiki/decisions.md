@@ -910,3 +910,16 @@ web_fetch로 안 보인다 → Claude in Chrome"이라고 썼는데 리서처 �
 (스키마 변경은 여전히 보류 — 위 "필드명을 안 바꾼 이유"). 규칙은 "확신 없으면 안 쪼갠다":
 쉼표만 구분자로 보고, 괄호 안·예외 목록·소문자 단어로 시작하는 조각은 붙여 둔다. `&`는 나누지 않는다.
 새 예외가 보이면 `lib/types.ts`의 `ARTIST_COMMA_EXCEPTIONS`에 추가한다.
+
+## Next.js 16 / React 19로 올렸다 (2026-11-11)
+14.2.x에 보안 권고가 쌓였고(`npm audit` critical 포함) 해결책이 메이저 업그레이드뿐이었다. 한 번에 16으로 올렸다.
+
+- `params`는 이제 Promise다 — 페이지·레이아웃·`generateMetadata`에서 `const params = await props.params`.
+  새 페이지를 만들 때 예전 `{ params }: { params: { lang: string } }` 꼴을 복사하지 말 것(타입 에러).
+- `middleware.ts`는 `proxy.ts`가 됐다(함수 이름도 `proxy`). 하는 일은 같다 — 루트(`/`)만 로케일로 보낸다.
+- `next lint`가 없어져 `npm run lint`는 `eslint .`, 설정은 `eslint.config.mjs`. 빌드는 더 이상 린트를 돌리지 않는다(CI가 맡는다).
+  React 19 린트의 새 규칙(`set-state-in-effect` 등)은 기존 코드가 여럿 걸려 **경고**로 낮췄다.
+- 빌드 도구가 Turbopack으로 바뀌어 빌드가 훨씬 빨라졌다(샌드박스에서도 2분대 완주).
+- 엣지 캐시 설정(`next.config.js` headers)과 `dynamicParams = false`는 그대로 동작함을 응답 헤더로 확인했다.
+  없는 주소(404)는 이제 `no-store`로 나가 엣지에 쌓이지 않는다.
+- 미해결: `app/api/asset/*`·위젯 라우트가 Edge Runtime을 쓰는데 16에서 사용 중단 예고 경고가 뜬다. 다음 메이저 전에 nodejs로 옮길 것.
