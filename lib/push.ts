@@ -1,6 +1,19 @@
 'use client';
-// 웹 푸시 구독 클라이언트 헬퍼 — Supabase에 구독정보 + 찜 game_ids + 알림 설정(prefs) 저장.
-import { supabase, isSupabaseReady } from './supabase';
+// 웹 푸시 구독 클라이언트 헬퍼 — 구독정보 + 찜 game_ids + 알림 설정(prefs)을 서버 라우트(/api/push)로 저장.
+// 브라우저가 테이블을 직접 건드리지 않는다(2026-11-11) — 이유는 app/api/push/route.ts 머리말.
+import { isSupabaseReady } from './supabase';
+
+type PushAction = 'exists' | 'save' | 'update' | 'delete';
+async function pushApi(action: PushAction, endpoint: string, extra: Record<string, unknown> = {}): Promise<Record<string, unknown>> {
+  const res = await fetch('/api/push', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ action, endpoint, ...extra }),
+  });
+  const json = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error((json as { error?: string }).error || `HTTP ${res.status}`);
+  return json as Record<string, unknown>;
+}
 import { getFollowKeys } from '@/hooks/useFollow';
 import { type NotifyPrefs, DEFAULT_NOTIFY_PREFS, normalizePrefs } from './notifyPrefs';
 
@@ -37,11 +50,8 @@ export function getNotifyPrefs(): NotifyPrefs {
 export async function setNotifyPrefs(prefs: NotifyPrefs): Promise<void> {
   try { localStorage.setItem(PREFS_KEY, JSON.stringify(prefs)); } catch { /* ignore */ }
   const sub = await getCurrentSubscription();
-  if (!sub || !isSupabaseReady() || !supabase) return;
-  await supabase
-    .from('push_subscriptions')
-    .update({ prefs, updated_at: new Date().toISOString() })
-    .eq('endpoint', sub.endpoint);
+  if (!sub || !isSupabaseReady()) return;
+  await pushApi('update', sub.endpoint, { prefs }).catch(() => {});
 }
 
 export function pushConfigured(): boolean {
@@ -83,41 +93,28 @@ export async function getCurrentSubscription(): Promise<PushSubscription | null>
 // 🔴 조회 **실패**(네트워크·Supabase 장애)는 null — "없음(false)"과 구분한다. 예전엔 실패도 false라서
 //    호출부가 멀쩡한 구독을 해지해 버렸다(Codex 점검 2026-11-04).
 export async function isEndpointRegistered(endpoint: string): Promise<boolean | null> {
-  if (!isSupabaseReady() || !supabase) return null;
-  const { data, error } = await supabase
-    .from('push_subscriptions')
-    .select('endpoint')
-    .eq('endpoint', endpoint)
-    .maybeSingle();
-  if (error) return null;
-  return !!data;
+  if (!isSupabaseReady()) return null;
+  try {
+    const r = await pushApi('exists', endpoint);
+    return typeof r.registered === 'boolean' ? r.registered : null;
+  } catch { return null; }
 }
 
 async function saveSubscription(sub: PushSubscription, gameIds: string[]): Promise<void> {
-  if (!isSupabaseReady() || !supabase) throw new Error('Supabase 미설정');
+  if (!isSupabaseReady()) throw new Error('Supabase 미설정');
   const json = sub.toJSON();
-  const { error } = await supabase.from('push_subscriptions').upsert(
-    {
-      endpoint: sub.endpoint,
+  // prefs·팔로우한 가수(artist_keys)는 서버가 best-effort로 따로 갱신한다 — 그 컬럼이 없어도 구독은 성공.
+  try {
+    await pushApi('save', sub.endpoint, {
       p256dh: json.keys?.p256dh ?? '',
       auth: json.keys?.auth ?? '',
-      game_ids: gameIds,
-      updated_at: new Date().toISOString(),
-    },
-    { onConflict: 'endpoint' },
-  );
-  if (error) throw new Error('DB ' + error.message);
-  // prefs는 별도 best-effort — prefs 컬럼 마이그레이션 전이라도 구독 자체는 성공하게(구독 깨짐 방지).
-  await supabase
-    .from('push_subscriptions')
-    .update({ prefs: getNotifyPrefs() })
-    .eq('endpoint', sub.endpoint);
-  // 팔로우한 가수도 같은 방식(2026-10-13) — artist_keys 컬럼(supabase/follow_artists.sql) 실행 전이어도
-  // 이 update만 실패하고 구독은 살아 있다
-  await supabase
-    .from('push_subscriptions')
-    .update({ artist_keys: getFollowKeys() })
-    .eq('endpoint', sub.endpoint);
+      gameIds,
+      prefs: getNotifyPrefs(),
+      artistKeys: getFollowKeys(),
+    });
+  } catch (e) {
+    throw new Error('DB ' + ((e as Error)?.message || String(e)));
+  }
 }
 
 export type SubscribeResult = 'ok' | 'denied' | 'unsupported' | 'error';
@@ -166,8 +163,8 @@ export async function unsubscribePush(): Promise<void> {
     const ok = await sub.unsubscribe();
     if (!ok) { await sub.unsubscribe().catch(() => {}); }
   } catch { /* ignore — DB 삭제로 실사용상 꺼짐은 보장 */ }
-  if (isSupabaseReady() && supabase) {
-    await supabase.from('push_subscriptions').delete().eq('endpoint', endpoint);
+  if (isSupabaseReady()) {
+    await pushApi('delete', endpoint).catch(() => {});
   }
   markNotifyOptedOut();
 }
@@ -175,19 +172,13 @@ export async function unsubscribePush(): Promise<void> {
 // 팔로우 목록 변경 시 구독자의 artist_keys 동기화(구독 없으면 무시, 컬럼 없으면 조용히 실패)
 export async function syncArtistKeys(keys: string[]): Promise<void> {
   const sub = await getCurrentSubscription();
-  if (!sub || !isSupabaseReady() || !supabase) return;
-  await supabase
-    .from('push_subscriptions')
-    .update({ artist_keys: keys, updated_at: new Date().toISOString() })
-    .eq('endpoint', sub.endpoint);
+  if (!sub || !isSupabaseReady()) return;
+  await pushApi('update', sub.endpoint, { artistKeys: keys }).catch(() => {});
 }
 
 // 찜 목록 변경 시 구독자의 game_ids 동기화(구독 없으면 무시)
 export async function syncGameIds(gameIds: string[]): Promise<void> {
   const sub = await getCurrentSubscription();
-  if (!sub || !isSupabaseReady() || !supabase) return;
-  await supabase
-    .from('push_subscriptions')
-    .update({ game_ids: gameIds, updated_at: new Date().toISOString() })
-    .eq('endpoint', sub.endpoint);
+  if (!sub || !isSupabaseReady()) return;
+  await pushApi('update', sub.endpoint, { gameIds }).catch(() => {});
 }

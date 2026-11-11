@@ -4,7 +4,17 @@ import { supabase, isSupabaseReady } from '@/lib/supabase';
 import styles from './AdminDashboard.module.css';
 
 // 비밀번호(선택). 설정 안 하면 게이트 없이 열림(데이터는 어차피 공개 anon 키로 조회 가능).
-const ADMIN_PASS = process.env.NEXT_PUBLIC_ADMIN_PASS;
+// 관리자 키는 서버(/api/admin/reports)가 확인한다 — 브라우저 번들에 비밀번호를 싣지 않는다(2026-11-11).
+const ADMIN_KEY_STORE = 'whenstage.admin.key';
+async function adminApi(password: string, action: 'verify' | 'list' | 'update', extra: Record<string, unknown> = {}) {
+  const res = await fetch('/api/admin/reports', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ password, action, ...extra }),
+  });
+  const json = await res.json().catch(() => ({}));
+  return { status: res.status, json: json as { reports?: unknown[]; error?: string } };
+}
 
 interface Row { created_at: string; game_id: string; }
 interface ReportRow {
@@ -32,7 +42,8 @@ function kstDay(iso: string): string {
 }
 
 export function AdminDashboard({ nameMap }: { nameMap: Record<string, string> }) {
-  const [unlocked, setUnlocked] = useState<boolean>(!ADMIN_PASS);
+  const [unlocked, setUnlocked] = useState<boolean>(false);
+  const [adminKey, setAdminKey] = useState<string>('');
   const [pw, setPw] = useState('');
   const [gateErr, setGateErr] = useState('');
   const [rows, setRows] = useState<Row[] | null>(null);
@@ -44,7 +55,12 @@ export function AdminDashboard({ nameMap }: { nameMap: Record<string, string> })
 
   useEffect(() => {
     if (unlocked) return;
-    try { if (sessionStorage.getItem('whenstage.admin') === '1') setUnlocked(true); } catch { /* ignore */ }
+    let saved = '';
+    try { saved = sessionStorage.getItem(ADMIN_KEY_STORE) ?? ''; } catch { /* ignore */ }
+    if (!saved) return;
+    adminApi(saved, 'verify').then(r => {
+      if (r.status === 200) { setAdminKey(saved); setUnlocked(true); }
+    }).catch(() => {});
   }, [unlocked]);
 
   useEffect(() => {
@@ -78,21 +94,15 @@ export function AdminDashboard({ nameMap }: { nameMap: Record<string, string> })
   }, [unlocked]);
 
   useEffect(() => {
-    if (!unlocked || !isSupabaseReady() || !supabase) return;
-    (async () => {
-      const { data, error } = await supabase!
-        .from('data_reports')
-        .select('id,kind,target_type,target_id,locale,message,contact,status,created_at')
-        .order('created_at', { ascending: false })
-        .limit(500);
-      if (!error) setReports((data as ReportRow[]) ?? []);
-    })();
-  }, [unlocked]);
+    if (!unlocked || !adminKey) return;
+    adminApi(adminKey, 'list').then(r => {
+      if (r.status === 200) setReports((r.json.reports as ReportRow[]) ?? []);
+    }).catch(() => {});
+  }, [unlocked, adminKey]);
 
   async function updateReportStatus(id: string, status: 'approved' | 'rejected') {
-    if (!supabase) return;
     setReports(prev => prev?.map(r => (r.id === id ? { ...r, status } : r)) ?? prev);
-    await supabase.from('data_reports').update({ status }).eq('id', id);
+    await adminApi(adminKey, 'update', { id, status }).catch(() => {});
   }
 
   const visibleReports = (reports ?? []).filter(r => reportFilter === 'all' || r.status === reportFilter);
@@ -146,12 +156,18 @@ export function AdminDashboard({ nameMap }: { nameMap: Record<string, string> })
     );
   }
 
-  function tryUnlock() {
-    if (pw === ADMIN_PASS) {
-      try { sessionStorage.setItem('whenstage.admin', '1'); } catch { /* ignore */ }
+  async function tryUnlock() {
+    const r = await adminApi(pw, 'verify').catch(() => null);
+    if (r?.status === 200) {
+      try { sessionStorage.setItem(ADMIN_KEY_STORE, pw); } catch { /* ignore */ }
+      setAdminKey(pw);
       setUnlocked(true);
-    } else {
+    } else if (r?.status === 503) {
+      setGateErr('서버에 ADMIN_PASS가 설정되지 않았어요');
+    } else if (r?.status === 401) {
       setGateErr('키가 틀렸어요');
+    } else {
+      setGateErr('확인에 실패했어요. 잠시 뒤 다시 시도해 주세요');
     }
   }
 
