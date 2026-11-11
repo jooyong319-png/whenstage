@@ -3,7 +3,7 @@ import { useState, useMemo, useEffect, useCallback, useRef } from 'react';
 import { trackEvent } from '@/lib/analytics';
 import { motion, AnimatePresence } from 'motion/react';
 import type { Game, FilterState } from '@/lib/types';
-import { normalizeArtistKey } from '@/lib/types';
+import { artistKeysOf } from '@/lib/types';
 import { formatShortDate, kstDateOnly, parseDateOnly } from '@/lib/utils';
 import { CalendarView } from './CalendarView';
 import { ListView } from './ListView';
@@ -124,13 +124,11 @@ export function Home({ initialGames, lastUpdated, serverNow, artistAliases, card
         // 이벤트 제목만으로는 부족함(예: "BIGBANG 2026 WORLD TOUR IN GOYANG"엔 "빅뱅"이 아예
         // 없음) — developer(아티스트명) 원문도 직접 매치 대상에 넣는다.
         const nameMatch = g.name.toLowerCase().includes(q);
-        const devKey = g.developer ? normalizeArtistKey(g.developer) : null;
+        const devKeys = artistKeysOf(g.developer);
         const devMatch = g.developer ? g.developer.toLowerCase().includes(q) : false;
         // "bigbang" 검색으로 "빅뱅"이 나오게(역방향도) — 큐레이션된 영문/로마자 별칭
         // (data/artist-aliases.json) 중 하나라도 검색어를 포함하면 매치로 본다.
-        const aliasMatch = devKey
-          ? (artistAliases[devKey] ?? []).some(a => a.toLowerCase().includes(q))
-          : false;
+        const aliasMatch = devKeys.some(k => (artistAliases[k] ?? []).some(a => a.toLowerCase().includes(q)));
         if (!nameMatch && !devMatch && !aliasMatch) return false;
       }
 

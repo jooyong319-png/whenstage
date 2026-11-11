@@ -3,7 +3,7 @@ import path from 'path';
 import { promises as fs } from 'fs';
 import { getAllGames, type GameLocale } from './games';
 import type { Game } from './types';
-import { normalizeArtistKey } from './types';
+import { normalizeArtistKey, splitArtists, artistKeysOf } from './types';
 
 // 아티스트 전용 큐레이션 이미지(공연/발매 리서치와 분리 관리) — data/artist-images.json.
 // 콘서트 엔트리의 image_url을 재활용하면 행사 스냅샷이 섞여 품질이 들쭉날쭉해지므로,
@@ -75,7 +75,7 @@ export function isArtistIndexable(a: ArtistSummary): boolean {
 
 // normalizeArtistKey는 lib/types.ts로 이동(fs 의존 없는 순수 함수라 클라이언트 컴포넌트에서도
 // import 가능해야 함 — 검색의 별칭 매칭에 씀). 기존 import 경로 호환을 위해 재수출.
-export { normalizeArtistKey };
+export { normalizeArtistKey, splitArtists, artistKeysOf };
 
 function todayKstStr(now: Date = new Date()): string {
   const kst = new Date(now.getTime() + 9 * 60 * 60 * 1000);
@@ -89,18 +89,25 @@ export async function getAllArtists(locale: GameLocale = 'ko'): Promise<ArtistSu
   const curated = await getCuratedImages();
   const bios = (await getCuratedBios())[locale] ?? {};
 
+  // 한 공연에 아티스트가 여럿이면("A, B") 각자의 그룹에 모두 넣는다 — 합쳐진 이름으로 묶지 않는다.
   const groups = new Map<string, Game[]>();
+  const names = new Map<string, string>(); // 키 → 대표 표시명(가장 긴 표기)
   for (const g of games) {
     if (!g.developer) continue;
-    const key = normalizeArtistKey(g.developer);
-    if (!key) continue;
-    (groups.get(key) ?? groups.set(key, []).get(key)!).push(g);
+    for (const artistName of splitArtists(g.developer)) {
+      const key = normalizeArtistKey(artistName);
+      if (!key) continue;
+      const list = groups.get(key) ?? groups.set(key, []).get(key)!;
+      if (!list.includes(g)) list.push(g);
+      const cur = names.get(key);
+      if (!cur || artistName.length > cur.length) names.set(key, artistName);
+    }
   }
 
   const artists: ArtistSummary[] = [];
   for (const [key, events] of groups) {
     // 그룹 내 가장 긴 표기(보통 로마자 병기 포함) 를 대표 표시명으로.
-    const name = events.reduce((longest, g) => (g.developer!.length > longest.length ? g.developer! : longest), events[0].developer!);
+    const name = names.get(key) ?? key;
     const sorted = events.slice().sort((a, b) => a.release_date.localeCompare(b.release_date));
     const upcomingCount = sorted.filter(g => g.release_date_approx || g.release_date >= today).length;
     // 콘서트 엔트리의 image_url로 폴백하지 않는다 — 행사 스냅샷이 섞여 품질이 들쭉날쭉해지는

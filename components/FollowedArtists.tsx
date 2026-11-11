@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useMemo, useState } from 'react';
 import type { Game } from '@/lib/types';
-import { normalizeArtistKey, nextTicketOpening } from '@/lib/types';
+import { normalizeArtistKey, splitArtists, artistKeysOf, nextTicketOpening } from '@/lib/types';
 import { formatEventDateTimeShort, formatDateShort, calcDayDiff } from '@/lib/utils';
 import { useFollow } from '@/hooks/useFollow';
 import { useLocale } from '@/hooks/useLocale';
@@ -36,8 +36,11 @@ export function FollowedArtists({ games }: { games: Game[] }) {
       .filter(k => k.startsWith(prefix))
       .map(k => {
         const artistKey = k.slice(prefix.length);
-        const mine = games.filter(g => g.developer && normalizeArtistKey(g.developer) === artistKey);
-        const name = mine.reduce((n, g) => (g.developer!.length > n.length ? g.developer! : n), artistKey);
+        const mine = games.filter(g => !!g.developer
+          && (artistKeysOf(g.developer).includes(artistKey) || normalizeArtistKey(g.developer) === artistKey));
+        const name = mine
+          .flatMap(g => splitArtists(g.developer!).filter(n => normalizeArtistKey(n) === artistKey))
+          .reduce((n, cand) => (cand.length > n.length ? cand : n), artistKey);
         const upcoming = mine
           .filter(g => g.release_date_approx || g.release_date >= todayStr)
           .sort((a, b) => a.release_date.localeCompare(b.release_date));

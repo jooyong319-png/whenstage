@@ -5,7 +5,7 @@ import gamesKo from '@/data/concerts.ko.json';
 import gamesEn from '@/data/concerts.en.json';
 import gamesJa from '@/data/concerts.ja.json';
 import type { Category, LocaleCode } from '@/lib/types';
-import { normalizeArtistKey, eventStatusOf } from '@/lib/types';
+import { artistKeysOf, normalizeArtistKey, eventStatusOf } from '@/lib/types';
 import { normalizePrefs } from '@/lib/notifyPrefs';
 
 export const runtime = 'nodejs';
@@ -235,8 +235,12 @@ export async function GET(req: Request) {
   for (const g of allGames) {
     const lang = localeOfId(g.id);
     if (!lang || !g.developer) continue;
-    const key = `${lang}:${normalizeArtistKey(g.developer)}`;
-    (gamesByArtist.get(key) ?? gamesByArtist.set(key, []).get(key)!).push(g.id);
+    // 분리 전에 합쳐진 이름("A, B")으로 팔로우한 구독도 계속 받게 원문 키도 함께 등록한다.
+    const legacyKey = normalizeArtistKey(g.developer);
+    for (const artistKey of new Set([...artistKeysOf(g.developer), legacyKey])) {
+      const key = `${lang}:${artistKey}`;
+      (gamesByArtist.get(key) ?? gamesByArtist.set(key, []).get(key)!).push(g.id);
+    }
   }
   const isUpcoming = (g: GameLite) => g.release_date_approx || g.release_date >= today;
 

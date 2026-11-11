@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAllGames, getGameById, getUpcomingGamesByCategory, getLastUpdated, getDupNoindexIds } from '@/lib/games';
-import { getArtistBySlug, normalizeArtistKey, getArtistImageMap } from '@/lib/artists';
+import { getArtistBySlug, normalizeArtistKey, splitArtists, artistKeysOf, getArtistImageMap } from '@/lib/artists';
 import { CATEGORY_META } from '@/lib/types';
 import { getVenueBySlug, normalizeVenueKey, VENUE_CATEGORIES } from '@/lib/venues';
 import { formatShortDate, calcDayDiff } from '@/lib/utils';
@@ -108,11 +108,13 @@ export default async function LocaleGamePage({ params }: Props) {
   // 관련 카드 이미지 맵: 콘서트 image_url 우선, 없으면 developer로 아티스트 큐레이션 이미지 폴백.
   const artistImgs = await getArtistImageMap();
   const relImg = (g: Game): string | null =>
-    g.image_url || (g.developer ? artistImgs[normalizeArtistKey(g.developer)] ?? null : null);
+    g.image_url || (artistKeysOf(g.developer).map(k => artistImgs[k]).find(Boolean) ?? null);
 
   const isUpcoming = (g: Game) => g.release_date_approx || calcDayDiff(eventEndDate(g)) >= 0;
 
-  const artist = game.developer ? await getArtistBySlug(normalizeArtistKey(game.developer), lang) : null;
+  // 아티스트가 여럿인 공연은 첫 번째(대표) 아티스트 기준으로 팔로우 버튼·'다른 일정'을 보여준다.
+  const artistNames = game.developer ? splitArtists(game.developer) : [];
+  const artist = artistNames.length > 0 ? await getArtistBySlug(normalizeArtistKey(artistNames[0]), lang) : null;
   const artistOthers = artist
     ? artist.events.filter(g => g.id !== game.id && isUpcoming(g)).slice(0, 3)
     : [];
@@ -183,7 +185,7 @@ export default async function LocaleGamePage({ params }: Props) {
   // 라인업은 데이터에 이미 있는데 구조화 데이터에선 안 쓰이고 있었다(단독 아티스트가 없는
   // 페스티벌이 performer 누락으로 잡히던 원인). 중복 표기는 제거.
   const performerNames = Array.from(new Set([
-    ...(game.developer ? [game.developer] : []),
+    ...artistNames,
     ...(game.festival_days?.flatMap(d => d.lineup) ?? []),
   ]));
   const venueName = game.platforms[0] || game.name; // location은 필수 — 없으면 공연명으로 폴백
@@ -245,7 +247,7 @@ export default async function LocaleGamePage({ params }: Props) {
         name: game.name,
         image: ogImg,
         datePublished: game.release_date,
-        ...(game.developer ? { byArtist: { '@type': 'MusicGroup', name: game.developer } } : {}),
+        ...(artistNames.length > 0 ? { byArtist: artistNames.map(n => ({ '@type': 'MusicGroup', name: n })) } : {}),
         ...(game.publisher ? { publisher: { '@type': 'Organization', name: game.publisher } } : {}),
         description: game.description ?? '',
         inLanguage: lang,
@@ -343,9 +345,14 @@ export default async function LocaleGamePage({ params }: Props) {
           {game.developer && (
             <li>
               <strong>{ui.developer}</strong>
-              <a href={`/${lang}/artist/${encodeURIComponent(normalizeArtistKey(game.developer))}`} className="detail-artist-link">
-                {game.developer}
-              </a>
+              {artistNames.map((artistName, i) => (
+                <span key={artistName}>
+                  {i > 0 && ', '}
+                  <a href={`/${lang}/artist/${encodeURIComponent(normalizeArtistKey(artistName))}`} className="detail-artist-link">
+                    {artistName}
+                  </a>
+                </span>
+              ))}
               {/* 이 공연이 끝나도 이 가수의 다음 공연을 받게 — 1회 방문을 재방문으로 바꾸는 자리 */}
               {artist && <FollowButton lang={lang} artistKey={artist.slug} artistName={artist.name} size="sm" />}
             </li>

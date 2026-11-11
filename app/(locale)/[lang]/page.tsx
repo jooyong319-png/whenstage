@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { getAllGames, getLastUpdated } from '@/lib/games';
 import { getArtistAliases, getArtistImageMap } from '@/lib/artists';
 import { getAllNews } from '@/lib/news';
-import { normalizeArtistKey } from '@/lib/types';
+import { artistKeysOf } from '@/lib/types';
 import { Home } from '@/components/Home';
 import { UI, LOCALES, OG_LOCALE, DEFAULT_OG_IMAGE, type Locale } from '@/lib/i18nLabels';
 import { localeAlternates, ORG_ID } from '@/lib/seo';
@@ -47,7 +47,7 @@ export default async function LocaleHomePage({ params }: Props) {
   const artistImgs = await getArtistImageMap();
   const cardImages: Record<string, string> = {};
   for (const g of games) {
-    const img = g.image_url || (g.developer ? artistImgs[normalizeArtistKey(g.developer)] : undefined);
+    const img = g.image_url || artistKeysOf(g.developer).map(k => artistImgs[k]).find(Boolean);
     if (img) cardImages[g.id] = img;
   }
   const serverNow = new Date().toISOString();

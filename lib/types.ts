@@ -10,6 +10,57 @@ export function normalizeArtistKey(name: string): string {
   return name.replace(/[（(][^）)]*[）)]/g, '').trim().normalize('NFC');
 }
 
+// 아티스트명 자체에 쉼표가 들어가는 알려진 단일 아티스트 — 쪼개지 않는다(소문자 비교).
+const ARTIST_COMMA_EXCEPTIONS = new Set([
+  'tyler, the creator',
+  'earth, wind & fire',
+  'blood, sweat & tears',
+  'crosby, stills & nash',
+  'crosby, stills, nash & young',
+  'emerson, lake & palmer',
+  'peter, paul and mary',
+  'um, jennifer?',
+]);
+
+// 한 developer 문자열에 여러 아티스트가 쉼표로 담긴 경우("Kendrick Lamar, SZA") 개별 아티스트로 나눈다.
+// 그대로 묶으면 "Kendrick Lamar, SZA"라는 존재하지 않는 아티스트 페이지가 생긴다(2026-11 EN 116건).
+// 원칙은 "확신 없으면 안 쪼갠다" — 괄호 안 쉼표는 무시하고, 쉼표 뒤 조각이 소문자로 시작하면
+// (", the Creator" · "yes, mama ok?") 앞 조각의 일부로 보고 다시 붙인다(첫 단어가 전부 소문자일 때만 —
+// "iKeda"처럼 소문자로 시작하는 고유 표기는 별개 아티스트다). '&'·'、'는 이름의 일부인
+// 경우가 많아(Simon & Garfunkel) 건드리지 않는다.
+export function splitArtists(developer: string): string[] {
+  const raw = developer.trim();
+  if (!raw) return [];
+  if (!raw.includes(',') && !raw.includes('，')) return [raw];
+  if (ARTIST_COMMA_EXCEPTIONS.has(raw.toLowerCase())) return [raw];
+
+  const parts: string[] = [];
+  let depth = 0;
+  let buf = '';
+  for (const ch of raw) {
+    if (ch === '(' || ch === '（') { depth++; buf += ch; continue; }
+    if (ch === ')' || ch === '）') { depth = Math.max(0, depth - 1); buf += ch; continue; }
+    if ((ch === ',' || ch === '，') && depth === 0) { parts.push(buf); buf = ''; continue; }
+    buf += ch;
+  }
+  parts.push(buf);
+
+  const merged: string[] = [];
+  for (const part of parts) {
+    const seg = part.trim();
+    if (!seg) continue;
+    if (merged.length > 0 && /^[a-z]+(\s|$|[?!.])/.test(seg)) merged[merged.length - 1] += ', ' + seg;
+    else merged.push(seg);
+  }
+  return merged.length > 0 ? merged : [raw];
+}
+
+// developer에 담긴 아티스트별 정규화 키(중복 제거). 아티스트 그룹핑·팔로우 매칭·알림이 모두 이걸 쓴다.
+export function artistKeysOf(developer: string | null | undefined): string[] {
+  if (!developer) return [];
+  return Array.from(new Set(splitArtists(developer).map(normalizeArtistKey).filter(Boolean)));
+}
+
 export type Category =
   | 'concert_tour'   // 콘서트·내한 공연
   | 'music_release'  // 음원 발매(컴백)
