@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-09",
+  "last_updated": "2026-11-12",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -8709,7 +8709,10 @@
       "general_sale_datetime": "2026-11-10T12:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.yes24.com/Perf/61043",
-      "updated_at": "2026-11-09"
+      "updated_at": "2026-11-12",
+      "related_locale_ids": {
+        "en": "en-jeff-bernat-luv-language-tour-seoul-20270218"
+      }
     },
     {
       "id": "ko-parkseojin-my-name-is-seojin-god-seoul-20261225",
@@ -8737,6 +8740,131 @@
       "general_sale_datetime": "2026-11-03T19:00:00+09:00",
       "general_sale_end_datetime": null,
       "updated_at": "2026-11-09"
+    },
+    {
+      "id": "ko-kenshi-yonezu-ghost-world-tour-incheon-20270114",
+      "name": "요네즈 켄시 내한공연 'KENSHI YONEZU 2026-2027 WORLD TOUR / GHOST'",
+      "release_date": "2027-01-14",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "인스파이어 아레나"
+      ],
+      "developer": "요네즈 켄시(Kenshi Yonezu)",
+      "publisher": "라이브네이션코리아",
+      "description": "일본 싱어송라이터 요네즈 켄시가 월드투어 'GHOST'로 인천 영종도 인스파이어 아레나에서 세 차례 공연한다. 1월 14일(목) 오후 7시 30분, 16일(토)과 17일(일) 오후 7시 무대이며, 2025년 첫 내한 때보다 하루 늘어난 일정이다. 좌석은 플로어석 17만2000원, 지정석 P 16만5000원·R 15만4000원·S 14만3000원이고 전체관람가다. 티켓은 10월 22일 정오부터 NOL 티켓 단독으로 판매 중이다.",
+      "genres": [
+        "J-Pop",
+        "록",
+        "콘서트"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26015024_p.gif",
+      "source_url": "https://sports.khan.co.kr/en/article/202610170100007",
+      "presale": false,
+      "presale_datetime": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-22T12:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://nol.yanolja.com/ticket/products/26015024",
+      "related_locale_ids": {
+        "en": "en-kenshi-yonezu-ghost-world-tour-incheon-20270114"
+      },
+      "updated_at": "2026-11-12"
+    },
+    {
+      "id": "ko-beabadoobee-powerlines-tour-seoul-20270323",
+      "name": "비바두비 첫 내한공연 'beabadoobee: The Powerlines Tour in Seoul'",
+      "release_date": "2027-03-23",
+      "release_time": "20:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "올림픽공원(올림픽홀)"
+      ],
+      "developer": "비바두비(beabadoobee)",
+      "publisher": "라이브네이션코리아",
+      "description": "필리핀계 영국 인디 록 싱어송라이터 비바두비가 첫 단독 내한공연을 3월 23일(화) 오후 8시 올림픽공원 올림픽홀에서 연다. 그의 첫 아레나 규모 투어인 'The Powerlines Tour'의 서울 공연이다. 스탠딩 11만원, 지정석 P 13만2000원·R 12만1000원이며 얼리 엔트리·골드 시트 패키지도 따로 판매한다. 아티스트 선예매는 10월 14~15일에 진행됐고 일반 예매는 10월 16일 정오 NOL 티켓에서 열렸다. 만 12세 이상 관람가.",
+      "genres": [
+        "인디 록",
+        "인디 팝",
+        "콘서트"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26014497_p.gif",
+      "source_url": "https://sports.khan.co.kr/en/article/202610072035007",
+      "presale": false,
+      "presale_datetime": "2026-10-14T12:00:00+09:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-16T12:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://nol.yanolja.com/ticket/products/26014497",
+      "related_locale_ids": {
+        "en": "en-beabadoobee-powerlines-tour-seoul-20270323"
+      },
+      "updated_at": "2026-11-12"
+    },
+    {
+      "id": "ko-damien-rice-o-25th-anniversary-seoul-20270227",
+      "name": "데미안 라이스 내한공연 Damien Rice 'O' 25th Anniversary Tour",
+      "release_date": "2027-02-27",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "GS아트센터"
+      ],
+      "developer": "데미안 라이스(Damien Rice)",
+      "publisher": "프라이빗커브",
+      "description": "아일랜드 싱어송라이터 데미안 라이스가 데뷔 앨범 'O' 발매 25주년 투어로 서울 역삼동 GS아트센터 무대에 선다. 2월 27일(토) 오후 7시, 28일(일) 오후 2시 30분과 7시 등 3회 공연이며 공연 시간은 100분이다. 전석 지정석으로 R석 17만6000원부터 B석 11만원까지이고 미취학 아동은 입장할 수 없다. 아티스트 선예매는 10월 21~23일 진행됐고, 일반 예매는 10월 23일 정오 NOL 티켓과 GS아트센터 홈페이지에서 열렸다.",
+      "genres": [
+        "포크",
+        "싱어송라이터",
+        "콘서트"
+      ],
+      "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26015096_p.gif",
+      "source_url": "https://sports.khan.co.kr/en/article/202610162142007",
+      "presale": false,
+      "presale_datetime": "2026-10-21T10:00:00+09:00",
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-23T12:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://nol.yanolja.com/ticket/products/26015096",
+      "related_locale_ids": {
+        "en": "en-damien-rice-o-25th-anniversary-tour-seoul-20270227"
+      },
+      "updated_at": "2026-11-12"
+    },
+    {
+      "id": "ko-superjunior-83z-1983-fancon-busan-20270123",
+      "name": "2026-27 SUPER JUNIOR-83z FANCON TOUR [1983] in BUSAN",
+      "release_date": "2027-01-23",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "KBS부산홀"
+      ],
+      "developer": "슈퍼주니어-83z",
+      "publisher": "SM엔터테인먼트",
+      "description": "이특과 김희철의 1983년생 유닛 슈퍼주니어-83z가 첫 팬콘 투어 '1983'의 부산 공연을 추가했다. 1월 23일(토) 오후 7시, 24일(일) 오후 4시 KBS부산홀에서 두 차례 열린다. 투어는 7월 서울에서 시작해 도쿄·방콕·홍콩·쿠알라룸푸르·마카오·가오슝·싱가포르를 돌았고 11월 타이베이, 12월 오사카를 거쳐 부산으로 이어진다. 멜론티켓에서 11월 17일 오후 8시 국내 팬클럽, 18일 오후 8시 글로벌 팬클럽 선예매 후 19일 오후 8시 일반 예매가 열린다.",
+      "genres": [
+        "K-pop",
+        "팬콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://www.topstarnews.net/news/articleView.html?idxno=16273769",
+      "presale": true,
+      "presale_datetime": "2026-11-17T20:00:00+09:00",
+      "presale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13260",
+      "general_sale": false,
+      "general_sale_datetime": "2026-11-19T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13260",
+      "updated_at": "2026-11-12"
     }
   ]
 }
