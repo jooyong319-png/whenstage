@@ -5976,7 +5976,7 @@
       ],
       "developer": "DAY6",
       "publisher": "JYP Entertainment",
-      "description": "DAY6 hold their fifth official fan meeting over three days, October 23 to 25, 2026, at Inspire Arena in Incheon. The final day on October 25 is also streamed worldwide as a paid Beyond LIVE broadcast, so My Day outside Korea can watch without travelling. Official fan club presale tickets sold out immediately across all three sessions. The title plays on the idea that the band and its fandom are only complete together.",
+      "description": "DAY6 held their fifth official fan meeting over three days, October 23 to 25, 2026, at Inspire Arena in Incheon. The final day on October 25 was also streamed worldwide as a paid Beyond LIVE broadcast, so My Day outside Korea could watch without travelling. Official fan club presale tickets sold out immediately across all three sessions. The title plays on the idea that the band and its fandom are only complete together.",
       "genres": [
         "K-Pop",
         "Rock",
@@ -5984,7 +5984,7 @@
       ],
       "image_url": null,
       "source_url": "https://www.koreaherald.com/article/10866143",
-      "updated_at": "2026-09-22",
+      "updated_at": "2026-11-13",
       "related_locale_ids": {
         "ko": "ko-day6-5th-fanmeeting-incheon-20261023"
       }
@@ -6719,7 +6719,7 @@
       ],
       "developer": "Pentatonix",
       "publisher": null,
-      "description": "Pentatonix opens the 2026 leg of its Christmas in the City Tour at the Tacoma Dome on November 5. The new leg covers 28 North American arena dates across November and December and supports the deluxe edition of the a cappella group's 2025 holiday album Christmas in the City, a New York-inspired record that leaned on jazz arrangements of standards alongside original songs.",
+      "description": "Pentatonix opened the 2026 leg of its Christmas in the City Tour at the Tacoma Dome on November 5. The new leg covers 28 North American arena dates across November and December and supports the deluxe edition of the a cappella group's 2025 holiday album Christmas in the City, a New York-inspired record that leaned on jazz arrangements of standards alongside original songs.",
       "genres": [
         "A Cappella",
         "Pop",
@@ -6728,11 +6728,11 @@
       ],
       "image_url": null,
       "source_url": "https://www.jambase.com/article/pentatonix-tour-dates-2026-fall",
-      "presale": true,
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-14T10:00:00-07:00",
-      "general_sale_url": "https://www.ticketmaster.com/pentatonix-tickets/artist/1747243",
-      "updated_at": "2026-10-28"
+      "presale": false,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-13"
     },
     {
       "release_time": null,
@@ -6748,7 +6748,7 @@
         "Mercedes-Benz Stadium, Atlanta, GA"
       ],
       "developer": "Usher, Chris Brown, Mario, Eric Bellinger, Tank",
-      "description": "Usher and Chris Brown open a five-night Atlanta stand at Mercedes-Benz Stadium on November 5, 2026, the newly added first date of a run that continues on November 6, 8, 10 and 11. The co-headline format alternates the pair across nine acts rather than back-to-back sets, with Mario, Eric Bellinger and Tank joining them. Live Nation produces the 59-show tour, which reaches Tampa in December.",
+      "description": "Usher and Chris Brown opened a five-night Atlanta stand at Mercedes-Benz Stadium on November 5, 2026, the newly added first date of a run that continued on November 6, 8, 10 and 11. The co-headline format alternates the pair across nine acts rather than back-to-back sets, with Mario, Eric Bellinger and Tank joining them. Live Nation produces the 59-show tour, which reaches Tampa in December.",
       "genres": [
         "R&B",
         "Hip-Hop",
@@ -6756,10 +6756,10 @@
       ],
       "source_url": "https://www.sofistadium.com/news/detail/chris-brown-usher-add-eight-new-stadium-dates-to-the-rb-tour-following-incredible-fan-demand",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-24T10:00:00-04:00",
-      "general_sale_url": "https://www.ticketmaster.com/usher-raymond-chris-brown-tickets/artist/4314089",
-      "updated_at": "2026-11-04"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-13"
     },
     {
       "id": "en-max-changmin-resonance-seoul-20261106",
@@ -6774,15 +6774,16 @@
       ],
       "developer": "MAX CHANGMIN",
       "publisher": null,
-      "description": "TVXQ's Max Changmin plays his first solo concert in Korea since debut, a three-night live session at YES24 Live Hall in Seoul's Gwangjin District from November 6 to 8, 2026. Night 1 begins at 7pm KST. All three dates sold out, so overseas fans should watch for resale notices or the 2027 Asia legs in Macau on January 9 and Taipei on January 23 instead.",
+      "description": "TVXQ's Max Changmin played his first solo concert in Korea since debut, a three-night live session at YES24 Live Hall in Seoul's Gwangjin District from November 6 to 8, 2026. Night 1 began at 7pm KST. All three dates sold out, and the tour continues with 2027 Asia legs in Macau on January 9 and Taipei on January 23 instead.",
       "genres": [
         "K-Pop",
         "Concert"
       ],
       "image_url": null,
       "source_url": "https://www.koreaherald.com/article/10886264",
-      "updated_at": "2026-10-02",
-      "general_sale": false
+      "updated_at": "2026-11-13",
+      "general_sale": false,
+      "presale": false
     },
     {
       "id": "en-quadeca-life-1-tour-seattle-20261106",
@@ -6797,7 +6798,7 @@
       ],
       "developer": "Quadeca, Derby, Oleka",
       "publisher": null,
-      "description": "Quadeca brings The Life 1 Tour to The Showbox in Seattle on November 6, 2026, one of 23 North American dates supporting his fifth album Life 1. The run opened October 10 at The Nile Theater in Mesa, Arizona and finishes November 10 at The Fonda in his native Los Angeles, with Derby and Oleka opening throughout. An artist presale ran July 29 and general tickets went on sale July 31 at 10 a.m. local time via Ticketmaster; a portion of tour proceeds goes to cancer research nonprofit City of Hope.",
+      "description": "Quadeca brought The Life 1 Tour to The Showbox in Seattle on November 6, 2026, one of 23 North American dates supporting his fifth album Life 1. The run opened October 10 at The Nile Theater in Mesa, Arizona and finished November 10 at The Fonda in his native Los Angeles, with Derby and Oleka opening throughout. An artist presale ran July 29 and general tickets went on sale July 31 at 10 a.m. local time via Ticketmaster; a portion of tour proceeds goes to cancer research nonprofit City of Hope.",
       "genres": [
         "Hip-Hop",
         "Tour"
@@ -6808,11 +6809,11 @@
       "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
-      "general_sale_datetime": "2026-07-31T10:00:00-07:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://www.ticketmaster.com/quadeca-tickets/artist/3002632",
-      "updated_at": "2026-11-04"
+      "general_sale_url": null,
+      "updated_at": "2026-11-13"
     },
     {
       "id": "en-jimmy-eat-world-the-format-hollywood-bowl-20261107",
@@ -6824,25 +6825,25 @@
         "Hollywood Bowl, Los Angeles, CA"
       ],
       "developer": "Jimmy Eat World, The Format",
-      "description": "Arizona bands Jimmy Eat World and The Format co-headline the Hollywood Bowl on November 7, 2026, marking the first time the two acts have shared a stage. Jimmy Eat World perform Bleed American in full for the album's twenty-fifth anniversary, covering Sweetness, The Middle and Hear You Me, while The Format play their 2006 record Dog Problems front to back for its twentieth. It is one of only two full-album shows The Format have scheduled this year.",
+      "description": "Arizona bands Jimmy Eat World and The Format co-headlined the Hollywood Bowl on November 7, 2026, marking the first time the two acts have shared a stage. Jimmy Eat World were set to perform Bleed American in full for the album's twenty-fifth anniversary, covering Sweetness, The Middle and Hear You Me, while The Format were set to play their 2006 record Dog Problems front to back for its twentieth. It was one of only two full-album shows The Format had scheduled this year.",
       "genres": [
         "Rock",
         "Tour"
       ],
       "presale": false,
-      "presale_datetime": "2026-07-30T08:00:00-07:00",
-      "presale_end_datetime": "2026-07-30T22:00:00-07:00",
+      "presale_datetime": null,
+      "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
-      "general_sale_datetime": "2026-07-31T10:00:00-07:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://www.ticketmaster.com/jimmy-eat-world-the-format-sing-hollywood-california-11-07-2026/event/0B0064F5C75F3BBB",
+      "general_sale_url": null,
       "source_url": "https://news.pollstar.com/2026/07/29/jimmy-eat-world-the-format-to-celebrate-anniversaries-of-landmark-albums-at-the-hollywood-bowl/",
       "release_time": "19:00",
       "release_date_approx": false,
       "publisher": null,
       "image_url": null,
-      "updated_at": "2026-11-04"
+      "updated_at": "2026-11-13"
     },
     {
       "id": "en-kgma-2026-20261107",
@@ -6857,7 +6858,7 @@
       ],
       "developer": null,
       "publisher": "Korea Grand Music Awards",
-      "description": "The third Korea Grand Music Awards run over two nights at Gocheok Sky Dome in southwestern Seoul on November 7 and 8, 2026, having moved to the larger indoor stadium for this edition. November 7 is billed as Artist Day and November 8 as Music Day, with roughly twenty acts performing each night. Fans outside Korea can watch live through ENA, Hulu Japan and TikTok Live rather than travelling, and the dome is a short walk from Guro Digital Complex area transit.",
+      "description": "The third Korea Grand Music Awards ran over two nights at Gocheok Sky Dome in southwestern Seoul on November 7 and 8, 2026, having moved to the larger indoor stadium for this edition. November 7 was billed as Artist Day and November 8 as Music Day, with roughly twenty acts performing each night. Fans outside Korea could watch live through ENA, Hulu Japan and TikTok Live rather than travelling, and the dome is a short walk from Guro Digital Complex area transit.",
       "genres": [
         "K-Pop",
         "Awards",
@@ -6865,8 +6866,8 @@
       ],
       "image_url": null,
       "source_url": "https://www.soompi.com/article/1867980wpp/2026-korea-grand-music-awards-kgma-announces-1st-lineup",
-      "updated_at": "2026-09-29",
-      "general_sale": true,
+      "updated_at": "2026-11-13",
+      "general_sale": false,
       "festival_days": [
         {
           "date": "2026-11-07",
@@ -6892,7 +6893,8 @@
       ],
       "related_locale_ids": {
         "ko": "ko-kgma-2026-20261107"
-      }
+      },
+      "presale": false
     },
     {
       "id": "en-mcr-black-parade-2026-incheon-20261107",
@@ -6907,7 +6909,7 @@
       ],
       "developer": "My Chemical Romance",
       "publisher": null,
-      "description": "My Chemical Romance play Paradise City in Incheon on November 7, 2026, their first Korean concert in about 18 years. The date belongs to The Black Parade 2026 tour marking the album's twentieth anniversary, on which the band performs the record in full. The show was originally set for April 18, 2026 and was moved to November; tickets issued for the earlier date were carried over rather than reissued.",
+      "description": "My Chemical Romance played Paradise City in Incheon on November 7, 2026, their first Korean concert in about 18 years. The date belongs to The Black Parade 2026 tour marking the album's twentieth anniversary, on which the band performed the record in full. The show was originally set for April 18, 2026 and was moved to November; tickets issued for the earlier date were carried over rather than reissued.",
       "genres": [
         "Rock",
         "Alternative",
@@ -6916,8 +6918,9 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/MCR820_%28cropped%29.jpg/330px-MCR820_%28cropped%29.jpg",
       "source_url": "https://www.songkick.com/concerts/42684979-my-chemical-romance-at-paradise-city-korea",
-      "updated_at": "2026-09-22",
-      "general_sale": true
+      "updated_at": "2026-11-13",
+      "general_sale": false,
+      "presale": false
     },
     {
       "id": "en-olivia-rodrigo-unraveled-tour-philadelphia-20261107",
@@ -6931,18 +6934,18 @@
       ],
       "developer": "Olivia Rodrigo, Devon Again",
       "publisher": "Live Nation",
-      "description": "Olivia Rodrigo brings The Unraveled Tour to Philadelphia for two nights at Xfinity Mobile Arena on November 7 and 8, 2026, with doors at 6:00 PM and both shows starting at 7:00 PM. The run supports her third album, You Seem Pretty Sad for a Girl So in Love, released in June 2026. Devon Again opens the Philadelphia dates. The wider tour covers 86 shows across North America and Europe.",
+      "description": "Olivia Rodrigo brought The Unraveled Tour to Philadelphia for two nights at Xfinity Mobile Arena on November 7 and 8, 2026, with doors at 6:00 PM and both shows starting at 7:00 PM. The run supports her third album, You Seem Pretty Sad for a Girl So in Love, released in June 2026. Devon Again was billed to open the Philadelphia dates. The wider tour covers 86 shows across North America and Europe.",
       "genres": [
         "Pop",
         "Tour"
       ],
       "source_url": "https://www.xfinitymobilearena.com/events/detail/olivia-rodrigo-2026",
-      "general_sale": true,
-      "general_sale_url": "https://www.ticketmaster.com/event/3000649DC07F7DF5",
+      "general_sale": false,
+      "general_sale_url": null,
       "presale": false,
       "release_date_approx": false,
       "image_url": null,
-      "updated_at": "2026-11-04"
+      "updated_at": "2026-11-13"
     },
     {
       "id": "en-stand-up-for-heroes-2026-new-york-20261109",
@@ -6955,7 +6958,7 @@
       ],
       "developer": "Bruce Springsteen, Jon Stewart, Hasan Minhaj, Josh Johnson, Alex Warren, The Resilient",
       "publisher": "Bob Woodruff Foundation",
-      "description": "The Bob Woodruff Foundation marks twenty years of Stand Up for Heroes on November 9, 2026 at David Geffen Hall in New York's Lincoln Center. Bruce Springsteen headlines the music and comedy benefit, which he has played at nearly every edition since 2007. Jon Stewart, Hasan Minhaj and Josh Johnson handle the comedy, with additional performances from Alex Warren and veteran group The Resilient. The series has raised more than 117 million dollars for injured veterans.",
+      "description": "The Bob Woodruff Foundation marked twenty years of Stand Up for Heroes on November 9, 2026 at David Geffen Hall in New York's Lincoln Center. Bruce Springsteen was billed to headline the music and comedy benefit, which he has played at nearly every edition since 2007. Jon Stewart, Hasan Minhaj and Josh Johnson were billed for the comedy, with additional performances from Alex Warren and veteran group The Resilient. The series has raised more than 117 million dollars for injured veterans.",
       "genres": [
         "Rock",
         "Benefit",
@@ -6965,7 +6968,7 @@
       "release_time": null,
       "release_date_approx": false,
       "image_url": null,
-      "updated_at": "2026-11-04"
+      "updated_at": "2026-11-13"
     },
     {
       "id": "en-allison-russell-hour-of-chaos-seattle-20261111",
@@ -6980,7 +6983,7 @@
       ],
       "developer": "Allison Russell",
       "publisher": null,
-      "description": "Allison Russell performs at The Showbox in Seattle on November 11, 2026, near the end of her fall North American headline tour. The 20-date itinerary opened October 15 in Asheville and closes November 15 in Berkeley, California. It supports In the Hour of Chaos, the Montreal-born singer-songwriter's heavily collaborative third solo album released in July 2026.",
+      "description": "Allison Russell performed at The Showbox in Seattle on November 11, 2026, near the end of her fall North American headline tour. The 20-date itinerary opened October 15 in Asheville and closes November 15 in Berkeley, California. It supports In the Hour of Chaos, the Montreal-born singer-songwriter's heavily collaborative third solo album released in July 2026.",
       "genres": [
         "Folk",
         "Americana",
@@ -6988,9 +6991,10 @@
       ],
       "image_url": null,
       "source_url": "https://consequence.net/2026/08/allison-russell-2026-north-american-tour/",
-      "general_sale": true,
-      "general_sale_url": "https://www.ticketmaster.com/allison-russell-tickets/artist/2788777",
-      "updated_at": "2026-11-04"
+      "general_sale": false,
+      "general_sale_url": null,
+      "updated_at": "2026-11-13",
+      "presale": false
     },
     {
       "id": "en-steve-lacy-oh-yeah-morrison-20261111",
@@ -7005,7 +7009,7 @@
       ],
       "developer": "Steve Lacy",
       "publisher": null,
-      "description": "Steve Lacy plays Red Rocks Amphitheatre outside Denver on November 11, 2026 as part of the Oh yeah? Tour. The show sits in the western stretch of a 27-date North American itinerary that opened September 27 in Minneapolis and closes November 30 in Vancouver. The tour supports Oh yeah?, the guitarist and singer's third solo album, issued by RCA Records in July 2026.",
+      "description": "Steve Lacy played Red Rocks Amphitheatre outside Denver on November 11, 2026 as part of the Oh yeah? Tour. The show sat in the western stretch of a 27-date North American itinerary that opened September 27 in Minneapolis and closes November 30 in Vancouver. The tour supports Oh yeah?, the guitarist and singer's third solo album, issued by RCA Records in July 2026.",
       "genres": [
         "R&B",
         "Alternative",
@@ -7013,9 +7017,10 @@
       ],
       "image_url": null,
       "source_url": "https://consequence.net/2026/08/steve-lacy-2026-oh-yeah-north-american-tour/",
-      "general_sale": true,
-      "general_sale_url": "https://www.ticketmaster.com/steve-lacy-tickets/artist/2330907",
-      "updated_at": "2026-11-04"
+      "general_sale": false,
+      "general_sale_url": null,
+      "updated_at": "2026-11-13",
+      "presale": false
     },
     {
       "id": "en-dave-matthews-band-fall-tour-new-york-20261112",
@@ -7030,7 +7035,7 @@
       ],
       "developer": "Dave Matthews Band",
       "publisher": null,
-      "description": "Dave Matthews Band close their fall 2026 arena tour with two nights at Madison Square Garden on November 12 and 13, both starting at 7:30 PM. The six-city run opens November 4 at the Kohl Center in Madison, Wisconsin and passes through Nashville, Chicago, Providence and Baltimore on the way to New York. A presale for members of the band's Warehouse Fan Association ran first, and general tickets went on sale August 21, 2026 at 10 a.m. local time.",
+      "description": "Dave Matthews Band close their fall 2026 arena tour with two nights at Madison Square Garden on November 12 and 13, both starting at 7:30 PM. The six-city run opened November 4 at the Kohl Center in Madison, Wisconsin and passes through Nashville, Chicago, Providence and Baltimore on the way to New York. A presale for members of the band's Warehouse Fan Association ran first, and general tickets went on sale August 21, 2026 at 10 a.m. local time.",
       "genres": [
         "Rock",
         "Jam",
@@ -7038,10 +7043,10 @@
       ],
       "image_url": null,
       "source_url": "https://news.pollstar.com/2026/08/11/dave-matthews-band-announces-2026-fall-tour/",
-      "presale": true,
+      "presale": false,
       "general_sale": true,
       "general_sale_datetime": "2026-08-21T10:00:00-04:00",
-      "updated_at": "2026-11-04"
+      "updated_at": "2026-11-13"
     },
     {
       "id": "en-jake-bugg-alamo-20261113",
@@ -7066,7 +7071,8 @@
         "Album"
       ],
       "image_url": null,
-      "source_url": "https://www.nme.com/news/music/jake-bugg-announces-album-alamo-single-never-can-tell-2027-uk-ireland-tour-tickets-3966578"
+      "source_url": "https://www.nme.com/news/music/jake-bugg-announces-album-alamo-single-never-can-tell-2027-uk-ireland-tour-tickets-3966578",
+      "updated_at": "2026-11-13"
     },
     {
       "id": "en-txt-steal-the-wind-seoul-20261113",
@@ -7119,7 +7125,8 @@
       ],
       "source_url": "https://www.rollingstone.com/music/music-news/camp-flog-gnaw-2026-tyler-the-creator-steve-lacy-turnstile-1235611575/",
       "general_sale": false,
-      "general_sale_url": "https://www.axs.com/events/1475989/camp-flog-gnaw-2026-tickets"
+      "general_sale_url": "https://www.axs.com/events/1475989/camp-flog-gnaw-2026-tickets",
+      "updated_at": "2026-11-13"
     },
     {
       "release_time": null,
@@ -7143,7 +7150,8 @@
         "Soul",
         "Concert"
       ],
-      "source_url": "https://news.pollstar.com/2026/08/07/jorja-smith-announces-north-american-fall-run/"
+      "source_url": "https://news.pollstar.com/2026/08/07/jorja-smith-announces-north-american-fall-run/",
+      "updated_at": "2026-11-13"
     },
     {
       "release_time": null,
@@ -7165,7 +7173,8 @@
         "Indie Rock",
         "Concert"
       ],
-      "source_url": "https://www.scenepointblank.com/news/tours/2026/08/20/oso-oso-us-tour-dates/"
+      "source_url": "https://www.scenepointblank.com/news/tours/2026/08/20/oso-oso-us-tour-dates/",
+      "updated_at": "2026-11-13"
     },
     {
       "id": "en-rush-fifty-something-pittsburgh-20261115",
@@ -7190,7 +7199,8 @@
       "source_url": "https://www.rush.com/4-new-rush-2026-tour-dates-added/",
       "presale": false,
       "general_sale": true,
-      "general_sale_datetime": "2026-09-04T10:00:00-04:00"
+      "general_sale_datetime": "2026-09-04T10:00:00-04:00",
+      "updated_at": "2026-11-13"
     },
     {
       "id": "en-silverstein-story-of-the-year-camp-screamo-2-seattle-20261116",
@@ -7205,7 +7215,7 @@
       ],
       "developer": "Silverstein & Story of the Year",
       "publisher": null,
-      "description": "Silverstein and Story of the Year open Camp Screamo 2 at Showbox SoDo in Seattle on November 16, 2026. The co-headlining run covers 24 North American dates through December 13 at Citizens House of Blues in Boston, following the pair's first Camp Screamo leg earlier in the year. Stand Atlantic and Footballhead support throughout. Presales began July 28 with the code CAMPSCREAMO via Ticketmaster, and the general on-sale is July 31 at 10 a.m. local time.",
+      "description": "Silverstein and Story of the Year open Camp Screamo 2 at Showbox SoDo in Seattle on November 16, 2026. The co-headlining run covers 24 North American dates through December 13 at Citizens House of Blues in Boston, following the pair's first Camp Screamo leg earlier in the year. Stand Atlantic and Footballhead support throughout. Presales began July 28 with the code CAMPSCREAMO via Ticketmaster, and the general on-sale was July 31 at 10 a.m. local time.",
       "genres": [
         "Rock",
         "Tour"
@@ -7219,7 +7229,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-07-31T10:00:00-07:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "updated_at": "2026-11-13"
     },
     {
       "release_time": null,
@@ -7245,7 +7256,8 @@
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": "2026-08-24T10:00:00-07:00",
-      "general_sale_url": "https://www.ticketmaster.com/usher-raymond-chris-brown-tickets/artist/4314089"
+      "general_sale_url": "https://www.ticketmaster.com/usher-raymond-chris-brown-tickets/artist/4314089",
+      "updated_at": "2026-11-13"
     },
     {
       "id": "en-amorphis-insomnium-boston-20261117",
@@ -7317,10 +7329,11 @@
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": "2026-08-28T10:00:00-04:00",
-      "release_time": null,
+      "release_time": "19:00",
       "release_date_approx": false,
       "image_url": null,
-      "publisher": null
+      "publisher": null,
+      "updated_at": "2026-11-13"
     },
     {
       "id": "en-5sos-everyones-a-star-seoul-20261119",
@@ -10525,7 +10538,7 @@
       ],
       "developer": "Jinyoung (GOT7)",
       "publisher": "BH Entertainment",
-      "description": "GOT7 member and actor Park Jinyoung opens his first solo concert tour, CODE#, at Jangchung Arena in Seoul on November 7, 2026 at 6 p.m. KST and November 8 at 4 p.m. KST, before Asian dates in Osaka, Manila, Tokyo, Taipei, Bangkok and Macau. Melon Ticket is the only seller: the domestic page opened September 18 and the global page for overseas buyers on September 21. Seats held back until the stage layout was fixed, on the floor and parts of the second level, went on sale October 26 at 8 p.m. KST, two per person, card payment only. VIP seats are 176,000 won and regular seats 154,000 won.",
+      "description": "GOT7 member and actor Park Jinyoung opened his first solo concert tour, CODE#, at Jangchung Arena in Seoul on November 7, 2026 at 6 p.m. KST and November 8 at 4 p.m. KST, before Asian dates in Osaka, Manila, Tokyo, Taipei, Bangkok and Macau. Melon Ticket was the only seller: the domestic page opened September 18 and the global page for overseas buyers on September 21. Seats held back until the stage layout was fixed, on the floor and parts of the second level, went on sale October 26 at 8 p.m. KST, two per person, card payment only. VIP seats were 176,000 won and regular seats 154,000 won.",
       "genres": [
         "K-Pop",
         "Concert"
@@ -10535,13 +10548,13 @@
       "presale": false,
       "presale_datetime": null,
       "presale_url": null,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
-      "general_sale_url": "https://ticket.melon.com/performance/index.htm?prodId=213880",
+      "general_sale_url": null,
       "related_locale_ids": {
         "ko": "ko-jinyoung-code-seoul-20261107"
       },
-      "updated_at": "2026-10-27"
+      "updated_at": "2026-11-13"
     },
     {
       "id": "en-n-flying-once-upon-a-snowball-seoul-20261224",
