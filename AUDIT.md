@@ -3,8 +3,35 @@
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
 | ko | 2026-11-09 | |
-| en | 2026-11-04 | ← |
-| ja | 2026-11-06 | |
+| en | 2026-11-13 | |
+| ja | 2026-11-06 | ← |
+
+---
+
+## 2026-11-13 · en
+
+로테이션상 en이 가장 오래된 점검일(2026-11-04)이라 선택. 대상 창: 2026-09-14 ~ 2027-01-12(오늘 ±60일), 창 안 항목 221건(끝난 것 139 / 예정 82). 코드는 손대지 않았고 `data/concerts.en.json`만 수정(파일 상단 `last_updated` 2026-11-13). push 전 `validate-data.mjs` 통과(기존 설명 복사 묶음 경고만). 고친 항목·트랙 B 확인 항목 모두 `updated_at=2026-11-13`.
+
+**트랙 A (졸업 처리) — 14건**
+- A-1/A-2 끝난 공연의 예매 필드·플래그 정리 11건(§7대로 `presale`/`general_sale=false` + 예매 URL·datetime 6개 필드 null) + 해당 공연 문장만 과거형(투어 잔여 일정 서술은 유지, 새 사실 추가 없음 — 출연·연주 내용은 "was billed / were set to"로, 실제 진행 단정 안 함): en-pentatonix-christmas-in-the-city-tacoma-20261105, en-usher-chris-brown-rb-tour-atlanta-20261105, en-quadeca-life-1-tour-seattle-20261106, en-jimmy-eat-world-the-format-hollywood-bowl-20261107, en-kgma-2026-20261107(11/8 종료, `general_sale=true` 잔존), en-mcr-black-parade-2026-incheon-20261107(`general_sale=true` 잔존), en-olivia-rodrigo-unraveled-tour-philadelphia-20261107, en-allison-russell-hour-of-chaos-seattle-20261111, en-steve-lacy-oh-yeah-morrison-20261111, en-park-jinyoung-code-seoul-20261107, en-max-changmin-resonance-seoul-20261106(`presale`만 false, "should watch for resale notices" 권유 문장 → 2027 아시아 일정 서술로 축약)
+- A-4 description 시제만 2건: en-stand-up-for-heroes-2026-new-york-20261109, en-day6-5th-fanmeeting-incheon-20261023
+- 부분 처리 1건: en-dave-matthews-band-fall-tour-new-york-20261112 — release_date 11/12라 코드상 종료지만 MSG 둘째 날(11/13)이 오늘이라 일반예매 필드는 남김. 지난 `presale=true`만 false, "run opens November 4"→"opened". 다음 회차에 일반예매 정리 필요
+- A-3: en-post-malone-big-stadium-seoul-20261002 approx=true 유지(연기·새 날짜 미발표)
+- 오탐(손대지 않음): phoebe-bridgers·audrey-hobert·rush-houston·schoolboy-q·sugarland·nice-as-fuck-pasadena(투어·기념 서술의 현재형), nexz("will-call")
+
+**트랙 B (임박 점검) — 8건 확인** (`updated_at` 없는 항목, 공연일 가까운 순)
+- en-jake-bugg-alamo-20261113 — BroadwayWorld·Yorkshire Evening Post 등: 11/13 Thirty Tigers 발매 일치. 변경 없음(오늘 발매라 시제 유지)
+- en-camp-flog-gnaw-carnival-2026-20261114 — 공식 festival-info: 11/14·15 양일, 정오 개장·23시 통금. 취소 없음. 변경 없음(아래 참고)
+- en-jorja-smith-what-are-the-odds-los-angeles-20261114 — Pollstar 원문 생존, 취소 공지 없음. 변경 없음(20:00 시작은 리셀 사이트만 확인돼 미기입)
+- en-oso-oso-exchange-of-information-los-angeles-20261115 — Scene Point Blank·Consequence: 11/15 Teragram 유지. 변경 없음
+- en-rush-fifty-something-pittsburgh-20261115 — rush.com 공식·JamBase: 11/15 PPG Paints Arena 유지. 변경 없음
+- en-silverstein-story-of-the-year-camp-screamo-2-seattle-20261116 — Blabbermouth·Showbox: 11/16 Showbox SoDo 유지. "general on-sale is July 31"→"was" 시제만
+- en-usher-chris-brown-rb-tour-los-angeles-20261116 — SoFi 공식 이벤트 페이지(chris-brown-usher-november-16) 존재, 취소 없음. 변경 없음
+- en-lindsey-stirling-snow-waltz-hollywood-20261118 — Hard Rock 공식 뉴스룸: 11/18(수) 19:00. `release_time` 19:00 추가
+- B-3 링크: 8건 source/image/예매 URL 14개 접속 — 12개 200. sofistadium 뉴스 406(지난 회차와 동일, 봇 차단), axs.com Camp Flog Gnaw 403 재시도 동일 — 봇 차단으로 판단, 죽은 링크로 단정 안 함
+
+**남은 것**: Dave Matthews MSG 일반예매 정리(다음 회차). 트랙 B 다음 순번: en-jamila-woods-10-years-of-heavn-portland-20261119, en-katseye-wildworld-tour-oakland-20261119, en-down-volume-v-20261120, en-katseye-wildworld-tour-los-angeles-20261121, en-syd-beard-tour-atlanta-20261124, en-nia-archives-emotional-world-tour-london-20261126부터
+**운영자/리서처 참고(추가 안 함)**: ① en-camp-flog-gnaw-carnival-2026-20261114는 2일 행사인데 `festival_days`가 없어 11/15에 "끝난 공연"으로 표시됨 — 일자별 라인업 확인 후 `festival_days` 보강 권장(점검 루틴은 라인업 분배 미확인이라 손대지 않음). 같은 이유로 2일 이상 단일 항목(DMB MSG, Olivia Rodrigo 필라델피아 등)도 릴리스일 기준 조기 종료 판정. ② Jonas Brothers 4건 설명 복사 묶음 여전. ③ 신규 미등록 공연 발견 없음
 
 ---
 
