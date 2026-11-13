@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-10",
+  "last_updated": "2026-11-13",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -11018,6 +11018,38 @@
       ],
       "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26015096_p.gif",
       "source_url": "https://sports.khan.co.kr/en/article/202610162142007"
+    },
+    {
+      "id": "en-super-junior-83z-1983-fancon-busan-20270123",
+      "name": "2026-27 SUPER JUNIOR-83z FANCON TOUR [1983] in BUSAN",
+      "release_date": "2027-01-23",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "KBS Hall, Busan"
+      ],
+      "developer": "SUPER JUNIOR-83z",
+      "publisher": "SM Entertainment",
+      "description": "SUPER JUNIOR-83z, the 1983-born unit of Leeteuk and Kim Heechul, adds Busan as a new stop on their first fan-concert tour, 1983, after Taipei in November and Osaka in December. KBS Busan Hall hosts two shows: Saturday, January 23, 2027 at 7 p.m. KST and Sunday, January 24 at 4 p.m. KST. Melon Ticket sells both, and overseas fans buy on the Melon Ticket Global page, which requires passport verification and accepts only overseas-issued cards. The E.L.F. membership presale opens November 17 at 8 p.m. KST on the Korean page and November 18 at 8 p.m. KST on the global page; general sale follows November 19 at 8 p.m. KST. Seats cost 154,000 won (1983 seats, with a sound-check event) or 132,000 won, two tickets per person per show.",
+      "genres": [
+        "K-Pop",
+        "Fan Meeting"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/11/20261110183228b993289f-64d4-48ac-a857-9c8a67574099.jpg",
+      "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13260",
+      "presale": true,
+      "presale_datetime": "2026-11-17T20:00:00+09:00",
+      "presale_end_datetime": "2026-11-18T23:59:00+09:00",
+      "presale_url": "https://tkglobal.melon.com/",
+      "general_sale": false,
+      "general_sale_datetime": "2026-11-19T20:00:00+09:00",
+      "general_sale_url": "https://tkglobal.melon.com/",
+      "related_locale_ids": {
+        "ko": "ko-superjunior-83z-1983-fancon-busan-20270123"
+      },
+      "updated_at": "2026-11-13"
     }
   ]
 }
