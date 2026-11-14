@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-11",
+  "last_updated": "2026-11-14",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -2426,19 +2426,20 @@
       ],
       "developer": "California Transit Authority",
       "publisher": null,
-      "description": "シカゴの創設メンバーで初代ドラマーのダニー・セラフィンが率いるCalifornia Transit Authority（CTA）が、8年ぶりの来日として行った公演。公演名は【Danny Seraphine California Transit Authority plays Chicago】で、シカゴ黄金期のレパートリーをホーンセクションを擁するバンド編成で再構築し、ジャズロックの原点というべきアンサンブルを聴かせた。ビルボードライブ3都市を巡るツアーの一公演として開催された。東京公演は2026-09-07にビルボードライブ東京で、1stステージ・2ndステージの2部制で行われた。",
+      "description": "2026年9月7日（月）、東京ミッドタウン ガーデンテラス4Fのビルボードライブ東京で行われた、ダニー・セラフィン率いるCalifornia Transit Authority（CTA）の来日ツアー初日。8年ぶりの来日で、1st（開場16:30・開演17:30）と2nd（開場19:30・開演20:30）の2ステージ制だった。東京ではSara Anne Niemietz（Vo）、Marc Bonilla（Gt/Vo）、Travis Davis（Ba）、Ed Roth（Key）に加え、Luis Valle（Tp）、Osamu Imagome（Tb）、Takafumi Kawashima（Sax）のホーン隊がクレジットされ、シカゴのナンバーを演奏した。",
       "genres": [
         "ジャズロック",
         "来日公演"
       ],
       "image_url": null,
-      "source_url": "https://www.billboard-live.com/tokyo/show?event_id=ev-21521"
+      "source_url": "https://www.billboard-live.com/tokyo/show?event_id=ev-21521",
+      "updated_at": "2026-11-14"
     },
     {
       "id": "ja-cta-billboard-live-osaka-20260908",
       "name": "CTA（Danny Seraphine California Transit Authority）ビルボードライブ大阪公演",
       "release_date": "2026-09-08",
-      "release_time": null,
+      "release_time": "17:30",
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "category": "concert_tour",
@@ -2447,13 +2448,14 @@
       ],
       "developer": "California Transit Authority",
       "publisher": null,
-      "description": "シカゴの創設メンバーで初代ドラマーのダニー・セラフィンが率いるCalifornia Transit Authority（CTA）が、8年ぶりの来日として行った公演。公演名は【Danny Seraphine California Transit Authority plays Chicago】で、シカゴ黄金期のレパートリーをホーンセクションを擁するバンド編成で再構築し、ジャズロックの原点というべきアンサンブルを聴かせた。ビルボードライブ3都市を巡るツアーの一公演として開催された。大阪公演は2026-09-08にビルボードライブ大阪で、1stステージ・2ndステージの2部制で行われた。",
+      "description": "ツアー2日目となる大阪公演は、翌9月8日（火）に梅田・ハービスPLAZA ENT地下2階のビルボードライブ大阪で開かれた。元シカゴのドラマー、ダニー・セラフィンが中心のCTAが、東京と同じく17:30開演・20:30開演の1日2回のステージを披露。大阪の公演ページではホーン隊を個別の名前ではなく「Horn Section」と表記し、FM COCOLOが後援に名を連ねた。ワインペアリングプランも用意された。",
       "genres": [
         "ジャズロック",
         "来日公演"
       ],
       "image_url": null,
-      "source_url": "https://www.billboard-live.com/osaka/show?event_id=ev-21522"
+      "source_url": "https://www.billboard-live.com/osaka/show?event_id=ev-21522",
+      "updated_at": "2026-11-14"
     },
     {
       "release_date_approx": false,
@@ -2521,7 +2523,7 @@
       "id": "ja-cta-billboard-live-yokohama-20260910",
       "name": "CTA（Danny Seraphine California Transit Authority）ビルボードライブ横浜公演",
       "release_date": "2026-09-10",
-      "release_time": null,
+      "release_time": "17:30",
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "category": "concert_tour",
@@ -2530,13 +2532,14 @@
       ],
       "developer": "California Transit Authority",
       "publisher": null,
-      "description": "シカゴの創設メンバーで初代ドラマーのダニー・セラフィンが率いるCalifornia Transit Authority（CTA）が、8年ぶりの来日として行った公演。公演名は【Danny Seraphine California Transit Authority plays Chicago】で、シカゴ黄金期のレパートリーをホーンセクションを擁するバンド編成で再構築し、ジャズロックの原点というべきアンサンブルを聴かせた。ビルボードライブ3都市を巡るツアーの一公演として開催された。横浜公演は2026-09-10にビルボードライブ横浜で、1stステージ・2ndステージの2部制で行われた。",
+      "description": "一日空けた9月10日（木）、横浜・北仲のKITANAKA BRICK&WHITE 1Fにあるビルボードライブ横浜が、CTA来日3公演の締めくくりの舞台となった。ステージは16:30開場・17:30開演と19:30開場・20:30開演の2回。メンバーは東京公演と同じ8人編成で、トランペット・トロンボーン・サックスの3管を加えた厚いサウンドでシカゴ初期の楽曲群を再現し、ジャパンツアーを終えた。",
       "genres": [
         "ジャズロック",
         "来日公演"
       ],
       "image_url": null,
-      "source_url": "https://www.billboard-live.com/yokohama/show?event_id=ev-21523"
+      "source_url": "https://www.billboard-live.com/yokohama/show?event_id=ev-21523",
+      "updated_at": "2026-11-14"
     },
     {
       "id": "ja-hosono-yours-sincerely-20260911",
@@ -4366,7 +4369,7 @@
     },
     {
       "id": "ja-wiener-philharmoniker-week-japan-2026-20261107",
-      "name": "ウィーン・フィルハーモニー ウィーク イン ジャパン 2026 リッカルド・ムーティ指揮（11月7日）",
+      "name": "ウィーン・フィルハーモニー ウィーク イン ジャパン 2026 リッカルド・ムーティ指揮（サントリーホール 全4公演）",
       "release_date": "2026-11-07",
       "release_time": "16:00",
       "category": "concert_tour",
@@ -4375,7 +4378,7 @@
       ],
       "developer": "ウィーン・フィルハーモニー管弦楽団(指揮:リッカルド・ムーティ)",
       "publisher": "サントリーホール",
-      "description": "ウィーン・フィルハーモニー管弦楽団の来日70周年、41回目のツアーとなる東京公演の初日。指揮は同楽団と55年にわたり共演を重ねてきたリッカルド・ムーティ。ベートーヴェンの交響曲第2番ニ長調 作品36とブラームスの交響曲第2番ニ長調 作品73を組み合わせたニ長調プログラム。会場はサントリーホール大ホールで、料金はS席48,000円からD席28,000円まで。主催はサントリーホール、特別協賛は大和証券グループ。期間中は青少年プログラムや公開マスタークラスも組まれている。",
+      "description": "来日70周年、41回目となったウィーン・フィルハーモニー管弦楽団の日本ツアーのうち、サントリーホール大ホールで行われた東京公演4日分をまとめた項目。指揮は55年にわたり同楽団と共演してきたリッカルド・ムーティ。11月7日（土）16:00はベートーヴェン交響曲第2番とブラームス交響曲第2番のニ長調プログラム、8日（日）16:00はモーツァルト交響曲第40番とチャイコフスキー交響曲第4番の短調プログラムで、この日は25歳以下向けユース席の抽選と無料公開リハーサルも実施された。9日（月）と12日（木）は19:00開演で、ブルックナー交響曲第8番（ハース版）1曲が演奏された。料金はS席48,000円〜D席28,000円、主催はサントリーホール、特別協賛は大和証券グループ。",
       "genres": [
         "クラシック",
         "オーケストラ",
@@ -4384,11 +4387,12 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Riccardo_Muti.jpg/500px-Riccardo_Muti.jpg",
       "source_url": "https://www.suntory.co.jp/suntoryhall/feature/wphweek2026/",
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": "2026-05-23T10:00:00+09:00",
       "general_sale_url": "https://suntoryhall.pia.jp/",
       "release_date_approx": false,
-      "timezone": "Asia/Tokyo"
+      "timezone": "Asia/Tokyo",
+      "updated_at": "2026-11-14"
     },
     {
       "release_time": "12:00",
@@ -4459,58 +4463,6 @@
       "general_sale": true,
       "general_sale_datetime": "2026-08-01T00:00:00+09:00",
       "updated_at": "2026-10-30"
-    },
-    {
-      "id": "ja-wiener-philharmoniker-week-japan-2026-20261108",
-      "name": "ウィーン・フィルハーモニー ウィーク イン ジャパン 2026 リッカルド・ムーティ指揮（11月8日）",
-      "release_date": "2026-11-08",
-      "release_time": "16:00",
-      "category": "concert_tour",
-      "platforms": [
-        "サントリーホール(大ホール)"
-      ],
-      "developer": "ウィーン・フィルハーモニー管弦楽団(指揮:リッカルド・ムーティ)",
-      "publisher": "サントリーホール",
-      "description": "ウィーン・フィルハーモニー管弦楽団の来日70周年、41回目のツアーとなる東京公演の2日目。指揮は同楽団と55年にわたり共演を重ねてきたリッカルド・ムーティ。モーツァルトの交響曲第40番ト短調 K.550とチャイコフスキーの交響曲第4番ヘ短調 作品36を並べた短調プログラム。この日のみ中学1年生から25歳以下を対象としたユース席90枚（4,800円）が抽選で用意され、同日には無料公開リハーサルも実施される。会場はサントリーホール大ホールで、料金はS席48,000円からD席28,000円まで。主催はサントリーホール、特別協賛は大和証券グループ。期間中は青少年プログラムや公開マスタークラスも組まれている。",
-      "genres": [
-        "クラシック",
-        "オーケストラ",
-        "来日公演"
-      ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Riccardo_Muti.jpg/500px-Riccardo_Muti.jpg",
-      "source_url": "https://www.suntory.co.jp/suntoryhall/feature/wphweek2026/",
-      "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-05-23T10:00:00+09:00",
-      "general_sale_url": "https://suntoryhall.pia.jp/",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo"
-    },
-    {
-      "id": "ja-wiener-philharmoniker-week-japan-2026-20261109",
-      "name": "ウィーン・フィルハーモニー ウィーク イン ジャパン 2026 リッカルド・ムーティ指揮（11月9日）",
-      "release_date": "2026-11-09",
-      "release_time": "19:00",
-      "category": "concert_tour",
-      "platforms": [
-        "サントリーホール(大ホール)"
-      ],
-      "developer": "ウィーン・フィルハーモニー管弦楽団(指揮:リッカルド・ムーティ)",
-      "publisher": "サントリーホール",
-      "description": "ウィーン・フィルハーモニー管弦楽団の来日70周年、41回目のツアーとなる東京公演の3日目。指揮は同楽団と55年にわたり共演を重ねてきたリッカルド・ムーティ。ブルックナーの交響曲第8番ハ短調 WAB108（ハース版）1曲のみを演奏する大曲プログラム。会場はサントリーホール大ホールで、料金はS席48,000円からD席28,000円まで。主催はサントリーホール、特別協賛は大和証券グループ。期間中は青少年プログラムや公開マスタークラスも組まれている。",
-      "genres": [
-        "クラシック",
-        "オーケストラ",
-        "来日公演"
-      ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Riccardo_Muti.jpg/500px-Riccardo_Muti.jpg",
-      "source_url": "https://www.suntory.co.jp/suntoryhall/feature/wphweek2026/",
-      "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-05-23T10:00:00+09:00",
-      "general_sale_url": "https://suntoryhall.pia.jp/",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo"
     },
     {
       "id": "ja-xaosx-888-the-real-clap-20261109",
@@ -4658,32 +4610,6 @@
       "presale_end_datetime": "2026-09-23T23:59:00+09:00",
       "general_sale_datetime": "2026-09-26T10:00:00+09:00",
       "updated_at": "2026-09-26"
-    },
-    {
-      "id": "ja-wiener-philharmoniker-week-japan-2026-20261112",
-      "name": "ウィーン・フィルハーモニー ウィーク イン ジャパン 2026 リッカルド・ムーティ指揮（11月12日）",
-      "release_date": "2026-11-12",
-      "release_time": "19:00",
-      "category": "concert_tour",
-      "platforms": [
-        "サントリーホール(大ホール)"
-      ],
-      "developer": "ウィーン・フィルハーモニー管弦楽団(指揮:リッカルド・ムーティ)",
-      "publisher": "サントリーホール",
-      "description": "ウィーン・フィルハーモニー管弦楽団の来日70周年、41回目のツアーとなる東京公演の最終日。指揮は同楽団と55年にわたり共演を重ねてきたリッカルド・ムーティ。3日目と同じくブルックナーの交響曲第8番ハ短調 WAB108（ハース版）を演奏し、東京公演の全日程を締めくくる。会場はサントリーホール大ホールで、料金はS席48,000円からD席28,000円まで。主催はサントリーホール、特別協賛は大和証券グループ。期間中は青少年プログラムや公開マスタークラスも組まれている。",
-      "genres": [
-        "クラシック",
-        "オーケストラ",
-        "来日公演"
-      ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Riccardo_Muti.jpg/500px-Riccardo_Muti.jpg",
-      "source_url": "https://www.suntory.co.jp/suntoryhall/feature/wphweek2026/",
-      "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-05-23T10:00:00+09:00",
-      "general_sale_url": "https://suntoryhall.pia.jp/",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo"
     },
     {
       "release_time": "19:00",
@@ -6216,7 +6142,7 @@
       ],
       "developer": "デイヴ・マシューズ",
       "publisher": "SMASH",
-      "description": "デイヴ・マシューズ・バンドのフロントマン、デイヴ・マシューズによるキャリア初の来日公演〈AN ACOUSTIC EVENING WITH DAVE MATTHEWS JAPAN TOUR 2027〉の東京公演。バンドを伴わずアコースティックギター一本で臨む編成で、2027年1月に東京・大阪・京都・名古屋の全4公演が行われる。すみだトリフォニーホールは開場18:00・開演19:00で、チケットはSS席15,000円、S席12,000円、A席10,000円も用意される。イープラスでのオフィシャル先行抽選が9月29日17:00から10月12日23:59まで受け付けられ、一般前売は10月17日10:00に開始する。",
+      "description": "デイヴ・マシューズにとってキャリア初の来日となるアコースティック・ソロツアーの初日。2027年1月6日（水）、錦糸町のすみだトリフォニーホールで開場18:00・開演19:00。東京のみSS席15,000円・S席12,000円に加えA席10,000円が設定された。10月17日の一般発売後、SMASHの公演ページでSOLD OUTと告知されており、当日券の販売はない。問い合わせはSMASH（03-3444-6751）。",
       "genres": [
         "ロック",
         "来日公演",
@@ -6224,13 +6150,14 @@
       ],
       "image_url": null,
       "source_url": "https://smash-jpn.com/live/?id=4782",
-      "presale": true,
+      "presale": false,
       "general_sale": false,
       "presale_datetime": "2026-09-29T17:00:00+09:00",
       "presale_end_datetime": "2026-10-12T23:59:00+09:00",
       "presale_url": "https://eplus.jp/davematthews/",
       "general_sale_datetime": "2026-10-17T10:00:00+09:00",
-      "updated_at": "2026-09-30"
+      "updated_at": "2026-11-14",
+      "general_sale_url": "https://w.pia.jp/t/davematthews/"
     },
     {
       "id": "ja-dave-matthews-japan-2027-osaka-20270108",
@@ -6245,7 +6172,7 @@
       ],
       "developer": "デイヴ・マシューズ",
       "publisher": "SMASH",
-      "description": "デイヴ・マシューズ・バンドのフロントマン、デイヴ・マシューズによるキャリア初の来日公演〈AN ACOUSTIC EVENING WITH DAVE MATTHEWS JAPAN TOUR 2027〉の大阪公演。バンドを伴わずアコースティックギター一本で臨む編成で、2027年1月に東京・大阪・京都・名古屋の全4公演が行われる。サンケイホールブリーゼは開場18:00・開演19:00で、チケットはSS席15,000円、S席12,000円。イープラスでのオフィシャル先行抽選が9月29日17:00から10月12日23:59まで受け付けられ、一般前売は10月17日10:00に開始する。",
+      "description": "東京の2日後、1月8日（金）に大阪・梅田のブリーゼタワー7F、サンケイホールブリーゼで行われるツアー2公演目。19:00開演（18:00開場）で、席種はSS席15,000円とS席12,000円の2種類のみ。英語ページでは海外購入者向けにS席が案内された。チケットはすでに完売し、当日券もない。大阪公演の問い合わせ先はSMASH WEST（06-6535-5569）。",
       "genres": [
         "ロック",
         "来日公演",
@@ -6253,13 +6180,13 @@
       ],
       "image_url": null,
       "source_url": "https://smash-jpn.com/live/?id=4782",
-      "presale": true,
+      "presale": false,
       "general_sale": false,
       "presale_datetime": "2026-09-29T17:00:00+09:00",
       "presale_end_datetime": "2026-10-12T23:59:00+09:00",
       "presale_url": "https://eplus.jp/davematthews/",
       "general_sale_datetime": "2026-10-17T10:00:00+09:00",
-      "updated_at": "2026-09-30"
+      "updated_at": "2026-11-14"
     },
     {
       "id": "ja-number-i-no3-nagoya-20270109",
@@ -6302,7 +6229,7 @@
       ],
       "developer": "デイヴ・マシューズ",
       "publisher": "SMASH",
-      "description": "デイヴ・マシューズ・バンドのフロントマン、デイヴ・マシューズによるキャリア初の来日公演〈AN ACOUSTIC EVENING WITH DAVE MATTHEWS JAPAN TOUR 2027〉の京都公演。バンドを伴わずアコースティックギター一本で臨む編成で、2027年1月に東京・大阪・京都・名古屋の全4公演が行われる。京都コンサートホールは開場17:00・開演18:00で、チケットはSS席15,000円、S席12,000円。イープラスでのオフィシャル先行抽選が9月29日17:00から10月12日23:59まで受け付けられ、一般前売は10月17日10:00に開始する。",
+      "description": "日曜日の1月10日、京都・下鴨の京都コンサートホール内アンサンブルホールムラタで開かれる3公演目。4都市で唯一、開場17:00・開演18:00と1時間早いスケジュールになっている。室内楽向けの中ホールで、ギター1本の弾き語りを聴ける公演だ。SS席・S席とも完売済みで当日券は発売されない。お問い合わせはSMASH WEST。",
       "genres": [
         "ロック",
         "来日公演",
@@ -6310,13 +6237,13 @@
       ],
       "image_url": null,
       "source_url": "https://smash-jpn.com/live/?id=4782",
-      "presale": true,
+      "presale": false,
       "general_sale": false,
       "presale_datetime": "2026-09-29T17:00:00+09:00",
       "presale_end_datetime": "2026-10-12T23:59:00+09:00",
       "presale_url": "https://eplus.jp/davematthews/",
       "general_sale_datetime": "2026-10-17T10:00:00+09:00",
-      "updated_at": "2026-09-30"
+      "updated_at": "2026-11-14"
     },
     {
       "release_time": null,
@@ -6353,7 +6280,7 @@
       ],
       "developer": "デイヴ・マシューズ",
       "publisher": "SMASH",
-      "description": "デイヴ・マシューズ・バンドのフロントマン、デイヴ・マシューズによるキャリア初の来日公演〈AN ACOUSTIC EVENING WITH DAVE MATTHEWS JAPAN TOUR 2027〉の名古屋公演。バンドを伴わずアコースティックギター一本で臨む編成で、2027年1月に東京・大阪・京都・名古屋の全4公演が行われる。DIAMOND HALLは開場18:00・開演19:00で、チケットはSS席15,000円、S席12,000円。イープラスでのオフィシャル先行抽選が9月29日17:00から10月12日23:59まで受け付けられ、一般前売は10月17日10:00に開始する。",
+      "description": "ジャパンツアーの最終公演は1月11日（月・祝）、名古屋・新栄の雲竜フレックスビル西館5FにあるDIAMOND HALL。開場18:00、開演19:00。ほかの会場がホール公演であるのに対し、ここはライブハウスでの開催となる。名古屋も完売しており当日券はなし。地元プロモーターのJAILHOUSE（052-936-6041）が問い合わせ窓口を務める。",
       "genres": [
         "ロック",
         "来日公演",
@@ -6361,13 +6288,13 @@
       ],
       "image_url": null,
       "source_url": "https://smash-jpn.com/live/?id=4782",
-      "presale": true,
+      "presale": false,
       "general_sale": false,
       "presale_datetime": "2026-09-29T17:00:00+09:00",
       "presale_end_datetime": "2026-10-12T23:59:00+09:00",
       "presale_url": "https://eplus.jp/davematthews/",
       "general_sale_datetime": "2026-10-17T10:00:00+09:00",
-      "updated_at": "2026-09-30"
+      "updated_at": "2026-11-14"
     },
     {
       "id": "ja-jeff-parker-eta-ivtet-bluenote-20270111",

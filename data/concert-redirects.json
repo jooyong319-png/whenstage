@@ -196,6 +196,18 @@
     {
       "from": "/ja/concert/ja-jon-cleary-piano-solo-2027-tokyo2-20270226",
       "to": "/ja/concert/ja-jon-cleary-piano-solo-2027-tokyo1-20270225"
+    },
+    {
+      "from": "/ja/concert/ja-wiener-philharmoniker-week-japan-2026-20261108",
+      "to": "/ja/concert/ja-wiener-philharmoniker-week-japan-2026-20261107"
+    },
+    {
+      "from": "/ja/concert/ja-wiener-philharmoniker-week-japan-2026-20261109",
+      "to": "/ja/concert/ja-wiener-philharmoniker-week-japan-2026-20261107"
+    },
+    {
+      "from": "/ja/concert/ja-wiener-philharmoniker-week-japan-2026-20261112",
+      "to": "/ja/concert/ja-wiener-philharmoniker-week-japan-2026-20261107"
     }
   ]
 }
