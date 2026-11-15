@@ -1465,6 +1465,42 @@
         "agency": "엠피엠지뮤직",
         "members": "5인조 밴드",
         "debut": "2020"
+      },
+      "데미안 라이스": {
+        "text": "데미안 라이스(Damien Rice)는 아일랜드 더블린 출신 싱어송라이터다. 밴드 주니퍼(Juniper)에서 활동하다 1998년 탈퇴한 뒤, 2002년 데뷔 앨범 'O'로 영국 앨범 차트 8위에 올랐다. 'The Blower's Daughter', 'Cannonball', 'Volcano' 등 담백한 어쿠스틱 사운드의 곡으로 사랑받았고, 이후 '9'(2006), 'My Favourite Faded Fantasy'(2014)를 냈다.",
+        "agency": null,
+        "members": "솔로",
+        "debut": "2002"
+      },
+      "비바두비": {
+        "text": "비바두비(beabadoobee)는 필리핀 일로일로에서 태어나 세 살 때 영국으로 건너간 싱어송라이터다. 2017년 곡 'Coffee'를 샘플링한 Powfu의 'Death Bed'가 틱톡에서 화제가 되며 이름을 알렸고, 2018년 영국 레이블 Dirty Hit과 계약했다. 90년대 얼터너티브 록의 질감을 담은 정규 'Fake It Flowers'(2020), 'Beatopia'(2022), 'This Is How Tomorrow Moves'(2024)를 발표했으며, 마지막 앨범은 영국 앨범 차트 1위에 올랐다.",
+        "agency": "Dirty Hit",
+        "members": "솔로",
+        "debut": "2017"
+      },
+      "슈퍼주니어-83z": {
+        "text": "슈퍼주니어-83z는 슈퍼주니어의 1983년생 멤버 이특과 김희철로 구성된 유닛으로, 이름도 두 사람의 출생 연도에서 따왔다. 2026년 7월 13일 타이틀곡 'Promise'가 담긴 첫 미니앨범 'Promise'로 데뷔했고, 서울을 시작으로 아시아 여러 도시를 도는 첫 팬콘 투어 '1983'을 이어 가고 있다.",
+        "agency": "SM엔터테인먼트",
+        "members": "2인조",
+        "debut": "2026.07.13"
+      },
+      "요네즈 켄시": {
+        "text": "요네즈 켄시(米津玄師)는 일본의 싱어송라이터 겸 프로듀서다. '하치(ハチ)'라는 이름으로 보컬로이드 곡을 발표하며 주목받았고, 2012년 본인 이름의 앨범 'diorama'로 활동을 시작했다. 작사·작곡·편곡은 물론 일러스트까지 직접 맡는 경우가 많으며, 'Lemon', 'KICK BACK' 등 드라마·애니메이션 주제가로 큰 인기를 얻었다.",
+        "agency": "소니 뮤직 레이블즈",
+        "members": "솔로",
+        "debut": "2012"
+      },
+      "제프 버넷": {
+        "text": "제프 버넷(Jeff Bernat)은 필리핀 수빅에서 태어나 미국에서 자란 R&B 싱어송라이터 겸 프로듀서다. 2012년 데뷔 앨범 'The Gentleman Approach'를 발표했고, 수록곡 'Call You Mine'이 2014년 한국 드라마 '운명처럼 널 사랑해'에 삽입되면서 국내에서 두터운 팬층을 얻었다.",
+        "agency": null,
+        "members": "솔로",
+        "debut": "2012"
+      },
+      "혁오": {
+        "text": "혁오(HYUKOH)는 보컬 오혁을 중심으로 임현제, 이인우, 임동건이 함께하는 4인조 밴드다. 2014년 EP '20'으로 데뷔한 뒤 인디 록, 로파이, 사이키델릭을 넘나드는 음악으로 국내외에서 주목받았고, 새 정규 앨범 '33'과 함께 2027년 월드 투어에 나선다.",
+        "agency": "두루두루 아티스트 컴퍼니",
+        "members": "4인조 밴드",
+        "debut": "2014"
       }
     },
     "en": {
@@ -3279,6 +3315,30 @@
         "agency": null,
         "members": null,
         "debut": null
+      },
+      "Damien Rice": {
+        "text": "Damien Rice is an Irish singer-songwriter from Dublin who left the band Juniper in 1998 to go solo. His 2002 debut 'O', home to 'The Blower's Daughter', 'Cannonball' and 'Volcano', reached No. 8 in the UK and won the Shortlist Music Prize. He followed it with '9' (2006) and 'My Favourite Faded Fantasy' (2014).",
+        "agency": null,
+        "members": "Solo",
+        "debut": "2002"
+      },
+      "Jeff Bernat": {
+        "text": "Jeff Bernat is a Filipino-American R&B singer, songwriter and producer, born in Subic in the Philippines and raised in the US. He released his debut album 'The Gentleman Approach' in 2012, and its song 'Call You Mine' found a large Korean audience after appearing in the 2014 drama 'You Are My Destiny'.",
+        "agency": null,
+        "members": "Solo",
+        "debut": "2012"
+      },
+      "SUPER JUNIOR-83z": {
+        "text": "SUPER JUNIOR-83z is the SUPER JUNIOR unit of Leeteuk and Kim Heechul, named after the year both were born. The duo debuted on July 13, 2026 with the six-track EP 'Promise' and launched their first fan-concert tour, '1983', in Seoul before taking it across Asia.",
+        "agency": "SM Entertainment",
+        "members": "Duo",
+        "debut": "2026.07.13"
+      },
+      "beabadoobee": {
+        "text": "beabadoobee (Beatrice Laus) is a singer-songwriter born in Iloilo City, Philippines, and raised in London. Her 2017 song 'Coffee' was sampled in Powfu's viral hit 'Death Bed', and she signed to Dirty Hit in 2018. Her albums 'Fake It Flowers' (2020), 'Beatopia' (2022) and 'This Is How Tomorrow Moves' (2024) draw on '90s alternative rock, and the last became her first UK No. 1.",
+        "agency": "Dirty Hit",
+        "members": "Solo",
+        "debut": "2017"
       }
     },
     "ja": {
@@ -4709,6 +4769,12 @@
         "agency": "ビクターエンタテインメント",
         "members": null,
         "debut": "2026.11.04"
+      },
+      "キズ": {
+        "text": "キズは2017年3月に結成されたヴィジュアル系ロックバンド。ボーカル・ギターの来夢、ギターのReiki、ベースのユエ、ドラムのきょうのすけの4人で活動し、シングルとライブ作品を中心にリリースを重ねてきた。2026年8月に初のフルアルバム『1st LAST ALBUM』を発表し、2027年2月27日の日本武道館公演から一部活動休止に入ると発表している。",
+        "agency": null,
+        "members": "4人組",
+        "debut": "2017.03"
       }
     }
   }
