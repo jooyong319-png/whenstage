@@ -2,9 +2,36 @@
 
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
-| ko | 2026-11-09 | |
+| ko | 2026-11-09 | ← |
 | en | 2026-11-13 | |
-| ja | 2026-11-06 | ← |
+| ja | 2026-11-16 | |
+
+---
+
+## 2026-11-16 · ja
+
+로테이션상 ja가 가장 오래된 점검일(2026-11-06)이라 선택. 대상 창: 2026-09-17 ~ 2027-01-15(오늘 ±60일), 창 안 항목 155건(끝난 것 77 / 예정 78). 코드는 손대지 않았고 `data/concerts.ja.json`만 수정(파일 상단 `last_updated` 2026-11-16). push 전 `validate-data.mjs` 통과(기존 설명 복사 묶음 경고만). 고친 항목·트랙 B 확인 항목 모두 `updated_at=2026-11-16`.
+
+**트랙 A (졸업 처리) — 18건**
+- A-1/A-2 끝난 공연의 예매 필드·플래그 정리 15건(§7대로 플래그 false + 예매 URL·datetime 6개 필드 null): ja-kobayashi-watashi-tobutame-20261025(11/8 도쿄까지 종료), ja-koji-yamamoto-50th-tokyo-20261031, ja-babymonster-choom-japan-kyocera-20260922, ja-motoharu-sano-in-and-out-tokyo-20261105, ja-flumpool-kokokaranouta-shibuya-20261107(`general_sale=true` 잔존), ja-punk-rock-connection-2026-20261107(`general_sale=true` 잔존), ja-wiener-philharmoniker-week-japan-2026-20261107(11/12 종료), ja-kai-yoshihiro-homecoming-tour-haneda-20261108, ja-xaosx-888-the-real-clap-20261109, ja-jason-mraz-japan-2026-tokyo-20261110, ja-jumadiba-kibarashi-oneman-tokyo-20261111, ja-kirara-japan-2026-20261112, ja-aklo-zorn-a2z-2026-20261113, ja-band-maid-world-tour-final-20261113(11/14 종료), ja-tokunaga-hideaki-covers-and-best-tokyo-20261114
+- 위 중 description 시제도 교정(새 사실 추가 없음, 출연은 "発表されていた/組まれた"로 실제 진행 단정 회피): kobayashi, flumpool, punk-rock-connection, kai-yoshihiro, xaosx, jason-mraz, jumadiba, kirara, aklo-zorn, band-maid
+- A-4 description 시제만 3건: ja-bikn-shibuya-2026-20261108("（予定）" 시각은 "告知時点の予定"으로 표기), ja-genjibu-lovereason-free-live-20261111, ja-takahata-mitsuki-im-all-yours-20261111(music_release — 구매 링크 없음, 시제만)
+- A-3: ja-post-malone-2026-20261006 approx=true 유지(연기·振替 미정)
+- 의도적 제외(투어 잔여 일정 진행 중): nightmare-tour(~11/22), yonezu-kenshi-ghost(~12/17), jo0ji-ikari-tour(~12/19), abc-z·snowman·number-i·yoasobi·ryokushaka 등 지난 회차와 동일
+
+**트랙 B (임박 점검) — 8건 확인** (`updated_at` 없는 항목, 공연일 가까운 순)
+- ja-hinatazaka46-hinakuri-2026-kobe-20261121 — 공식 스페셜 사이트: 11/21~23 神戸ワールド記念ホール 開場16:00/開演17:30, 兵庫 일반판매 11/14 12:00~. `presale=false`/`general_sale=true`/`general_sale_datetime`/`release_time 17:30` 추가, 문장 시제 교정
+- ja-silica-gel-ballad-of-you-20261121 — e+ 상세: 11/21 O-EAST 開場18:00/開演19:00, 抽選 7/18 18:00~, 一般 9/25 18:00~11/20 18:00(현재 予定枚数終了). `presale=false`, e+ URL을 `general_sale_url`로 이동, 일반 datetime·`release_time` 추가, 시제 교정
+- ja-second-backer-final-sendai-20261122 — チケットぴあ: 11/22 仙台MACANA 유지(一般 予定枚数終了). `presale=false`, 시제 교정. source_url(fanpla 뉴스)은 "詳細は後日発表" 시점 기사지만 생존이라 유지
+- ja-nntt-peter-grimes-20261123 — 新国立劇場 공식: 11/23~12/5 5회 14:00 일치. 변경 없음
+- ja-tyondai-braxton-japan-tour-20261124 — CDJournal: 11/24 草月ホール 18:00/19:00 일치. 변경 없음
+- ja-ego-wrappin-phantom-of-love-20261125 — Billboard JAPAN(9/8): 11/25 발매 일치, 연기 공지 없음. 변경 없음
+- ja-martha-argerich-akikos-piano-20261125 — KAJIMOTO 11/16 공지 "曲順変更と曲目・出演者追加": Day1 曲順 변경, ドビュッシー「小組曲」全曲. 문장에 1줄 추가, 지난 선예매 `presale=false`(필드 플래그 없음→false)
+- ja-queens-of-the-stone-age-2026-20261125 — 크리에이티브맨 공식: 도쿄 SOLD OUT(10/26), 名古屋 19:00·大阪 18:00 발매 중. `release_time 19:00`, 시제 교정+매진 사실 추가
+- B-3 링크: source/image/예매 URL 17개 접속 — 15개 200. kajimotomusic.com 첫 시도 000 → 재시도 200(정상). l-tike.com(QOTSA general_sale_url)은 2회 모두 연결 실패 — 지난 회차와 같은 환경 문제로 판단, 유지
+
+**남은 것**: 트랙 A 대기 없음(투어 진행 중 항목은 투어 종료 후). 트랙 B 다음 순번: ja-psychic-fes-2026-20261128, ja-two-door-cinema-club-2026-20261130, ja-martha-argerich-chopin-and-his-asia-20261201(11/16 曲目·出演者追加 공지 반영 필요), ja-moonriders-winter-super-moon-20261201, ja-number-i-no3-osaka-20261202부터
+**운영자/리서처 참고(추가 안 함)**: ① ja-hinatazaka46-hinakuri-2026-kobe-20261121는 3일 공연인데 `festival_days`가 없어 11/22부터 종료 판정됨. ② 설명 복사 묶음(스카파라 5건, Broken Social Scene 2건) 여전. ③ 신규 미등록 공연 발견 없음
 
 ---
 
