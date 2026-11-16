@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-12",
+  "last_updated": "2026-11-16",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -8865,6 +8865,55 @@
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13260",
       "updated_at": "2026-11-12"
+    },
+    {
+      "id": "ko-exo-kase-silent-city-fancon-seoul-20270109",
+      "name": "EXO-KASE Fancon Tour – SILENT CITY in SEOUL",
+      "release_date": "2027-01-09",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "고려대학교 화정체육관"
+      ],
+      "developer": "엑소-카이세훈(EXO-KASE)",
+      "publisher": "SM엔터테인먼트",
+      "description": "엑소의 카이와 세훈이 결성한 유닛 엑소-카이세훈이 데뷔 후 첫 팬콘 투어 'SILENT CITY'를 서울에서 시작한다. 2027년 1월 9일(토) 오후 6시, 10일(일) 오후 5시 고려대학교 화정체육관에서 두 차례 열리며, 이후 쿠알라룸푸르·마카오·자카르타·도쿄·방콕·타이베이·마닐라로 이어진다. 예매는 멜론티켓에서 11월 23일 오후 8시 EXO-L 국내 선예매, 24일 글로벌 선예매를 거쳐 25일 오후 8시 일반 예매가 열린다. 좌석은 VIP 16만5천원, 일반 14만3천원이다.",
+      "genres": [
+        "K-pop",
+        "팬콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://www.topstarnews.net/news/articleView.html?idxno=16275744",
+      "presale": true,
+      "presale_datetime": "2026-11-23T20:00:00+09:00",
+      "presale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13280",
+      "general_sale": false,
+      "general_sale_datetime": "2026-11-25T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13280",
+      "updated_at": "2026-11-16"
+    },
+    {
+      "id": "ko-exo-kase-waking-up-the-city-20261201",
+      "name": "엑소-카이세훈 첫 미니앨범 'Waking Up The City'",
+      "release_date": "2026-12-01",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [],
+      "developer": "엑소-카이세훈(EXO-KASE)",
+      "publisher": "SM엔터테인먼트",
+      "description": "엑소의 메인 댄서 카이와 세훈이 뭉친 퍼포먼스 유닛 엑소-카이세훈이 12월 1일 첫 미니앨범 'Waking Up The City'로 데뷔한다. 동명의 타이틀곡과 멤버별 솔로곡을 포함해 7곡이 실린다. 타이틀곡은 디스토션이 걸린 베이스 리프와 드럼에 힙합 프로덕션을 얹은 댄스곡으로, 새벽에 깨어나는 도시에 한계를 넘어서겠다는 의지를 빗댔다. 11월 16일 0시 엑소 공식 SNS에 첫 티저 이미지가 공개됐다.",
+      "genres": [
+        "K-pop",
+        "발매"
+      ],
+      "image_url": null,
+      "source_url": "https://www.joynews24.com/view/2026410",
+      "updated_at": "2026-11-16"
     }
   ]
 }
