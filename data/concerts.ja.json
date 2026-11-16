@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-14",
+  "last_updated": "2026-11-16",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -2926,10 +2926,10 @@
       "image_url": null,
       "source_url": "https://yg-babymonster-official.jp/live/2026-2027_worldtour_in_japan/",
       "presale": false,
-      "presale_datetime": "2026-07-28T18:00:00+09:00",
-      "presale_end_datetime": "2026-08-16T23:59:00+09:00",
-      "presale_url": "https://eplus.jp/babymonster/",
-      "updated_at": "2026-09-30"
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "updated_at": "2026-11-16"
     },
     {
       "id": "ja-motoharu-sano-in-and-out-osaka-20260922",
@@ -3977,7 +3977,7 @@
       ],
       "developer": "小林私",
       "publisher": null,
-      "description": "シンガー・ソングライター小林私が約2年ぶりに行うワンマン形式の公演。10月25日の大阪Music Club JANUSと11月8日の東京I'M A SHOWの2会場で開催され、いずれも開場17:30・開演18:00。これまでのワンマンではゲストを迎えることが多かったが、今回はゲストを招かない完全なソロ・ステージとして構成される。「ワンマンライブ」ではなく「単独公演」と銘打たれ、音楽を軸により自由な形で表現を提示する内容になるという。",
+      "description": "シンガー・ソングライター小林私が約2年ぶりに行ったワンマン形式の公演。10月25日の大阪Music Club JANUSと11月8日の東京I'M A SHOWの2会場で開催され、いずれも開場17:30・開演18:00。これまでのワンマンではゲストを迎えることが多かったが、今回はゲストを招かない完全なソロ・ステージとして構成された。「ワンマンライブ」ではなく「単独公演」と銘打たれ、音楽を軸により自由な形で表現を提示する内容とされた。",
       "genres": [
         "シンガーソングライター",
         "J-POP"
@@ -3985,11 +3985,11 @@
       "image_url": null,
       "source_url": "https://www.cdjournal.com/news/kobayashi-watashi/128553",
       "presale": false,
-      "presale_datetime": "2026-08-03T00:00:00+09:00",
-      "presale_url": "https://l-tike.com/kobayashiwatashi/",
+      "presale_datetime": null,
+      "presale_url": null,
       "general_sale": false,
-      "general_sale_url": "https://l-tike.com/kobayashiwatashi/",
-      "updated_at": "2026-10-28"
+      "general_sale_url": null,
+      "updated_at": "2026-11-16"
     },
     {
       "release_time": null,
@@ -4155,12 +4155,12 @@
       "image_url": null,
       "source_url": "https://koji50live.jp/",
       "presale": false,
-      "presale_datetime": "2026-08-25T12:00:00+09:00",
-      "presale_end_datetime": "2026-09-09T23:59:00+09:00",
-      "presale_url": "https://tickets.kyodotokyo.com/koji50/",
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
       "general_sale": false,
-      "general_sale_datetime": "2026-09-26T10:00:00+09:00",
-      "updated_at": "2026-11-06"
+      "general_sale_datetime": null,
+      "updated_at": "2026-11-16"
     },
     {
       "id": "ja-jo0ji-ikari-tour-2026-20261101",
@@ -4286,10 +4286,11 @@
       "image_url": "https://diskgarage.com/digaonline/wordpress/wp-content/uploads/1780626761.webp",
       "source_url": "https://diskgarage.com/digaonline/news/233331",
       "presale": false,
-      "presale_datetime": "2026-07-31T15:00:00+09:00",
-      "presale_end_datetime": "2026-08-28T23:59:00+09:00",
+      "presale_datetime": null,
+      "presale_end_datetime": null,
       "general_sale": false,
-      "general_sale_datetime": "2026-10-03T10:00:00+09:00"
+      "general_sale_datetime": null,
+      "updated_at": "2026-11-16"
     },
     {
       "release_time": "18:30",
@@ -4331,7 +4332,7 @@
       ],
       "developer": "flumpool",
       "publisher": "ディスクガレージ",
-      "description": "flumpoolが2026年9月から11月にかけて回るホール・ツアー『flumpool tour 2026「ここからの歌」』の東京公演。全国8会場11公演の終盤にあたる11月7日のLINE CUBE SHIBUYA公演には、家入レオ、川崎鷹也、斎藤宏介（UNISON SQUARE GARDEN／TenTwenty）がゲストとして出演する。当初は対バン形式として発表されていたが、flumpoolがホストバンドを務めて3人のヴォーカリストを迎える特別編成に変更された。ドラムスの小倉誠司がライブ活動を休止しているため、本ツアーはレミオロメンの神宮司治がサポート・ドラマーを務める。開場17:00／開演18:00、指定席8,200円（税込）。",
+      "description": "flumpoolが2026年9月から11月にかけて回るホール・ツアー『flumpool tour 2026「ここからの歌」』の東京公演。全国8会場11公演の終盤にあたる11月7日のLINE CUBE SHIBUYA公演には、家入レオ、川崎鷹也、斎藤宏介（UNISON SQUARE GARDEN／TenTwenty）がゲストとして発表されていた。当初は対バン形式として発表されていたが、flumpoolがホストバンドを務めて3人のヴォーカリストを迎える特別編成に変更された。ドラムスの小倉誠司がライブ活動を休止しているため、本ツアーはレミオロメンの神宮司治がサポート・ドラマーを務める。開場17:00／開演18:00、指定席8,200円（税込）。",
       "genres": [
         "J-POP",
         "ロック",
@@ -4339,9 +4340,9 @@
       ],
       "image_url": null,
       "source_url": "https://www.flumpool.jp/live/",
-      "general_sale": true,
-      "general_sale_url": "https://w.pia.jp/t/flumpool2026/",
-      "updated_at": "2026-11-06"
+      "general_sale": false,
+      "general_sale_url": null,
+      "updated_at": "2026-11-16"
     },
     {
       "id": "ja-punk-rock-connection-2026-20261107",
@@ -4356,7 +4357,7 @@
       ],
       "developer": null,
       "publisher": null,
-      "description": "パンク誕生50周年にあたる2026年に、東京・高円寺の街を舞台として開かれるサーキット・イベント。高円寺HIGH、ShowBoat、CLUB ROOTS!、喜楽ミュージックウェアハウス、スタジオベイド高円寺、KATA_BARの6会場を使い、総勢47組のアーティストと12組のDJが出演する。DONT TURN AWAY、THE PRISONER、JUNIOR、SHACHI、BOMB FACTORY、柳家睦＆THE RATBONESらに加え、タイのJIMMY REVOLT、台湾のTHE BROKEN FLOWERSら海外勢も名を連ねる。チケットは9月1日よりイープラスで発売中。",
+      "description": "パンク誕生50周年にあたる2026年に、東京・高円寺の街を舞台として開かれたサーキット・イベント。高円寺HIGH、ShowBoat、CLUB ROOTS!、喜楽ミュージックウェアハウス、スタジオベイド高円寺、KATA_BARの6会場を使い、総勢47組のアーティストと12組のDJが出演者として発表された。DONT TURN AWAY、THE PRISONER、JUNIOR、SHACHI、BOMB FACTORY、柳家睦＆THE RATBONESらに加え、タイのJIMMY REVOLT、台湾のTHE BROKEN FLOWERSら海外勢も名を連ねた。チケットは9月1日からイープラスで販売された。",
       "genres": [
         "パンク",
         "サーキットフェス"
@@ -4364,8 +4365,8 @@
       "image_url": null,
       "source_url": "https://www.cdjournal.com/news/-/129272",
       "presale": false,
-      "general_sale": true,
-      "updated_at": "2026-10-30"
+      "general_sale": false,
+      "updated_at": "2026-11-16"
     },
     {
       "id": "ja-wiener-philharmoniker-week-japan-2026-20261107",
@@ -4388,11 +4389,11 @@
       "source_url": "https://www.suntory.co.jp/suntoryhall/feature/wphweek2026/",
       "presale": false,
       "general_sale": false,
-      "general_sale_datetime": "2026-05-23T10:00:00+09:00",
-      "general_sale_url": "https://suntoryhall.pia.jp/",
+      "general_sale_datetime": null,
+      "general_sale_url": null,
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
-      "updated_at": "2026-11-14"
+      "updated_at": "2026-11-16"
     },
     {
       "release_time": "12:00",
@@ -4417,8 +4418,8 @@
       "name": "BiKN shibuya 2026",
       "release_date": "2026-11-08",
       "category": "festival",
-      "description": "アジア各国のインディー・アーティストが渋谷に集まるサーキット型フェスティバル。2026年11月8日（日）に開催され、開場11:00／開演12:00（予定）。会場はSpotify O-EAST（メイン／サブ／3Fロビー）、Spotify O-nest、7thFLOOR、duo MUSIC EXCHANGEの複数箇所にまたがる。第2弾発表までに韓国のoceanfromtheblue、Luci Gang、香港のGordon Flanders、中国のChace、STOLEN、インドネシアのReality Clubらが出演者として名を連ねている。",
-      "updated_at": "2026-09-23",
+      "description": "アジア各国のインディー・アーティストが渋谷に集まるサーキット型フェスティバル。2026年11月8日（日）に開催された（告知時点の予定は開場11:00／開演12:00）。会場はSpotify O-EAST（メイン／サブ／3Fロビー）、Spotify O-nest、7thFLOOR、duo MUSIC EXCHANGEの複数箇所にまたがる。第2弾発表までに韓国のoceanfromtheblue、Luci Gang、香港のGordon Flanders、中国のChace、STOLEN、インドネシアのReality Clubらが出演者として名を連ねていた。",
+      "updated_at": "2026-11-16",
       "festival_days": [
         {
           "date": "2026-11-08",
@@ -4453,16 +4454,16 @@
       ],
       "developer": "甲斐よしひろ",
       "publisher": null,
-      "description": "甲斐よしひろのソロ・ツアー〈ホームカミングツアー 2026〉を締めくくる東京公演。横浜・大阪・福岡・名古屋を巡ったツアーの最終地としてZepp Haneda（TOKYO）に立つ。約15年ぶりのソロ・アルバム『ホームカミング - Complete Edition -』の収録曲を軸に、土屋公平（ギター）、TOKIE（ベース）、河村“カースケ”智康（ドラム）とのバンド編成で聴かせる。開場16:00／開演17:00、VIP席18,000円・指定席11,000円（税込・ドリンク代別）。チケットは全公演完売となった。",
+      "description": "甲斐よしひろのソロ・ツアー〈ホームカミングツアー 2026〉を締めくくる東京公演。横浜・大阪・福岡・名古屋を巡ったツアーの最終地として組まれたZepp Haneda（TOKYO）公演。約15年ぶりのソロ・アルバム『ホームカミング - Complete Edition -』の収録曲を軸に、土屋公平（ギター）、TOKIE（ベース）、河村“カースケ”智康（ドラム）とのバンド編成で聴かせる構成とされた。開場16:00／開演17:00、VIP席18,000円・指定席11,000円（税込・ドリンク代別）。チケットは全公演完売となった。",
       "genres": [
         "ロック",
         "J-POP"
       ],
       "image_url": null,
       "source_url": "https://kaisurf.com/live",
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-01T00:00:00+09:00",
-      "updated_at": "2026-10-30"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "updated_at": "2026-11-16"
     },
     {
       "id": "ja-xaosx-888-the-real-clap-20261109",
@@ -4477,7 +4478,7 @@
       ],
       "developer": "XAOSX",
       "publisher": "XAOSX Project（制作：クリエイティブマンプロダクション）",
-      "description": "福澤侑、spi、YUKI、Daiki、AKIRA TAKANO、阿部顕嵐、皇希、青海伶の8人からなるアーティスト集団XAOSXの初ライブ。「日常にバグを。世界にリアルなノイズを」をテーマに既成概念にとらわれない活動を掲げる彼らが、KT Zepp Yokohamaで昼夜2回公演を行う。1回目は開場14:30・開演15:30、2回目は開場18:00・開演19:00。1Fスタンディング11,500円、2F指定席12,500円（いずれも税込・特典付き・ドリンク代別）で、一般発売は10月17日10時に始まった。",
+      "description": "福澤侑、spi、YUKI、Daiki、AKIRA TAKANO、阿部顕嵐、皇希、青海伶の8人からなるアーティスト集団XAOSXの初ライブ。「日常にバグを。世界にリアルなノイズを」をテーマに既成概念にとらわれない活動を掲げる彼らが、KT Zepp Yokohamaで昼夜2回公演が組まれた。1回目は開場14:30・開演15:30、2回目は開場18:00・開演19:00。1Fスタンディング11,500円、2F指定席12,500円（いずれも税込・特典付き・ドリンク代別）で、一般発売は10月17日10時に始まった。",
       "genres": [
         "J-POP",
         "ダンス"
@@ -4485,9 +4486,9 @@
       "image_url": null,
       "source_url": "https://www.creativeman.co.jp/event/xaosx888/",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-10-17T10:00:00+09:00",
-      "updated_at": "2026-10-30"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "updated_at": "2026-11-16"
     },
     {
       "id": "ja-jason-mraz-japan-2026-tokyo-20261110",
@@ -4502,7 +4503,7 @@
       ],
       "developer": "Jason Mraz",
       "publisher": "SMASH",
-      "description": "ジェイソン・ムラーズが7年ぶりに日本で行う単独公演の東京公演。会場は東京ガーデンシアターで、開場18:00／開演19:00。チケットは前売でSS席19,000円、S席16,000円、A席12,000円。翌11月11日には大阪公演も予定されている。来日にあわせて代表作『ラララ・ラヴ・ソングス』の来日記念デラックス・エディションが10月28日に発売される。",
+      "description": "ジェイソン・ムラーズにとって7年ぶりとなった日本での単独公演の東京公演。会場は東京ガーデンシアターで、開場18:00／開演19:00。チケットは前売でSS席19,000円、S席16,000円、A席12,000円。翌11月11日には大阪公演も組まれていた。来日にあわせて代表作『ラララ・ラヴ・ソングス』の来日記念デラックス・エディションが10月28日に発売された。",
       "genres": [
         "ポップ",
         "シンガーソングライター",
@@ -4510,9 +4511,9 @@
       ],
       "image_url": null,
       "source_url": "https://nme-jp.com/news/167562/",
-      "updated_at": "2026-09-26",
+      "updated_at": "2026-11-16",
       "presale": false,
-      "general_sale": true
+      "general_sale": false
     },
     {
       "id": "ja-genjibu-lovereason-free-live-20261111",
@@ -4527,7 +4528,7 @@
       ],
       "developer": "原因は自分にある。",
       "publisher": null,
-      "description": "7人組グループ・原因は自分にある。が、5thシングル「ラブリーズン」の発売日である2026年11月11日に、神奈川・横浜赤レンガ倉庫の赤レンガパーク特設会場で開催するグループ初のフリーライブ。動員規模は約1万人を想定した大型の無料公演で、当日は生配信も予定されている。表題曲「ラブリーズン」はボカロP・シンガーソングライターのsyudouが書き下ろした楽曲で、狂気と愛と欲望を独特の視点で描いた内容。シングルはBlu-ray付き初回限定盤、通常盤、メンバー7人それぞれのソロ盤が用意される。",
+      "description": "7人組グループ・原因は自分にある。が、5thシングル「ラブリーズン」の発売日である2026年11月11日に、神奈川・横浜赤レンガ倉庫の赤レンガパーク特設会場で開催されたグループ初のフリーライブ。動員規模は約1万人を想定した大型の無料公演で、当日は生配信も予定されていた。表題曲「ラブリーズン」はボカロP・シンガーソングライターのsyudouが書き下ろした楽曲で、狂気と愛と欲望を独特の視点で描いた内容。シングルはBlu-ray付き初回限定盤、通常盤、メンバー7人それぞれのソロ盤が用意された。",
       "genres": [
         "J-POP",
         "アイドル",
@@ -4537,7 +4538,7 @@
       "source_url": "https://www.billboard-japan.com/d_news/detail/165996",
       "presale": false,
       "general_sale": false,
-      "updated_at": "2026-09-30"
+      "updated_at": "2026-11-16"
     },
     {
       "release_time": null,
@@ -4557,10 +4558,10 @@
       "name": "JUMADIBA – ONE MAN LIVE 2026 ~ Kibarashi ~（恵比寿LIQUIDROOM）",
       "release_date": "2026-11-11",
       "category": "concert_tour",
-      "description": "JUMADIBAが全曲セルフプロデュースの1stアルバム『Kibarashi』のリリースにあわせて行うワンマンライブの東京公演。2026年11月11日（水）に恵比寿LIQUIDROOMで開催される。11月5日の福岡・BEAT STATION、11月7日の大阪・梅田CLUB QUATTROに続く3都市ツアーの最終日にあたり、チケットはぴあでのオフィシャル1次先行抽選が9月23日23:59まで受け付けられた。",
-      "updated_at": "2026-09-26",
+      "description": "JUMADIBAが全曲セルフプロデュースの1stアルバム『Kibarashi』のリリースにあわせて行うワンマンライブの東京公演。2026年11月11日（水）に恵比寿LIQUIDROOMで開催された。11月5日の福岡・BEAT STATION、11月7日の大阪・梅田CLUB QUATTROに続く3都市ツアーの最終日にあたり、チケットはぴあでのオフィシャル1次先行抽選が9月23日23:59まで受け付けられた。",
+      "updated_at": "2026-11-16",
       "presale": false,
-      "presale_end_datetime": "2026-09-23T23:59:00+09:00"
+      "presale_end_datetime": null
     },
     {
       "id": "ja-takahata-mitsuki-im-all-yours-20261111",
@@ -4575,14 +4576,14 @@
       ],
       "developer": "高畑充希",
       "publisher": "ユニバーサル ミュージック",
-      "description": "俳優・高畑充希が12年ぶりに発表するアルバムで、ユニバーサル ミュージック移籍後の第1弾となる。石崎ひゅーい、尾崎世界観（クリープハイプ）、清竜人、くじら、日食なつこ、Bialystocksらが書き下ろした楽曲を中心に全9曲を収録する。2023年の主演舞台『宝飾時計』のために椎名林檎が作詞作編曲を手がけた「青春の続き」や、土岐麻子作詞・Night Tempo作曲の「Over You」も収められる。先行配信曲「令和Lady恋愛賛歌」はPenthouseの浪岡真太郎が作曲・編曲、大原拓真が作詞を担当し、8月21日に配信された。",
+      "description": "俳優・高畑充希が12年ぶりに発表したアルバムで、ユニバーサル ミュージック移籍後の第1弾となる。石崎ひゅーい、尾崎世界観（クリープハイプ）、清竜人、くじら、日食なつこ、Bialystocksらが書き下ろした楽曲を中心に全9曲を収録した。2023年の主演舞台『宝飾時計』のために椎名林檎が作詞作編曲を手がけた「青春の続き」や、土岐麻子作詞・Night Tempo作曲の「Over You」も収められた。先行配信曲「令和Lady恋愛賛歌」はPenthouseの浪岡真太郎が作曲・編曲、大原拓真が作詞を担当し、8月21日に配信された。",
       "genres": [
         "J-POP",
         "アルバム"
       ],
       "image_url": null,
       "source_url": "https://www.cdjournal.com/news/takahata-mitsuki/128899",
-      "updated_at": "2026-10-30"
+      "updated_at": "2026-11-16"
     },
     {
       "id": "ja-kirara-japan-2026-20261112",
@@ -4597,7 +4598,7 @@
       ],
       "developer": "KIRARA",
       "publisher": "SMASH",
-      "description": "【FUJI ROCK FESTIVAL '26】への出演で日本の聴衆に強い印象を残した韓国のエレクトロニック・ミュージシャン、KIRARAが、自身初となる単独来日公演を東京・代官山UNITで行う。開場18:30・開演19:30、チケットはスタンディング6,800円（ドリンク代別）。イープラスでのオフィシャル先着先行が9月8日から9月23日まで、一般発売は9月26日10:00に開始される。招聘はSMASH。",
+      "description": "【FUJI ROCK FESTIVAL '26】への出演で日本の聴衆に強い印象を残した韓国のエレクトロニック・ミュージシャン、KIRARAが、自身初となる単独来日公演を東京・代官山UNITで行った。開場18:30・開演19:30、チケットはスタンディング6,800円（ドリンク代別）。イープラスでのオフィシャル先着先行は9月8日から9月23日まで行われ、一般発売は9月26日10:00に開始された。招聘はSMASH。",
       "genres": [
         "エレクトロニック",
         "K-インディー"
@@ -4606,10 +4607,10 @@
       "source_url": "https://www.billboard-japan.com/d_news/detail/165301",
       "presale": false,
       "general_sale": false,
-      "presale_datetime": "2026-09-08T00:00:00+09:00",
-      "presale_end_datetime": "2026-09-23T23:59:00+09:00",
-      "general_sale_datetime": "2026-09-26T10:00:00+09:00",
-      "updated_at": "2026-09-26"
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "general_sale_datetime": null,
+      "updated_at": "2026-11-16"
     },
     {
       "release_time": "19:00",
@@ -4626,17 +4627,17 @@
         "東京ガーデンシアター"
       ],
       "developer": "AKLO × ZORN",
-      "description": "ラッパーのAKLOとZORNによるツーマン・ライヴ。全国11か所を回った〈AtoZ TOUR 2018〉、そして新型コロナウイルスの影響で中止となった〈AtoZ 2020〉から6年を経ての再集結となる。会場は東京ガーデンシアターで、開場18時・開演19時の一夜限りの公演。チケットはアリーナ立見席22,000円、バルコニー指定席11,000円のほか、Tシャツ付き・CAP付きの席種も用意される。ZORNのファンクラブ「Chill Out Club」会員限定の抽選先行は7月30日から8月16日まで実施された。",
+      "description": "ラッパーのAKLOとZORNによるツーマン・ライヴ。全国11か所を回った〈AtoZ TOUR 2018〉、そして新型コロナウイルスの影響で中止となった〈AtoZ 2020〉から6年を経ての再集結となった。会場は東京ガーデンシアターで、開場18時・開演19時の一夜限りの公演。チケットはアリーナ立見席22,000円、バルコニー指定席11,000円のほか、Tシャツ付き・CAP付きの席種も用意された。ZORNのファンクラブ「Chill Out Club」会員限定の抽選先行は7月30日から8月16日まで実施された。",
       "genres": [
         "ヒップホップ",
         "日本語ラップ",
         "ツーマン"
       ],
       "presale": false,
-      "presale_url": "https://fc.zorn.tokyo/news/?id=515",
-      "presale_datetime": "2026-07-30T21:00:00+09:00",
-      "presale_end_datetime": "2026-08-16T23:59:00+09:00",
-      "updated_at": "2026-11-06"
+      "presale_url": null,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "updated_at": "2026-11-16"
     },
     {
       "id": "ja-band-maid-world-tour-final-20261113",
@@ -4651,7 +4652,7 @@
       ],
       "developer": "BAND-MAID",
       "publisher": null,
-      "description": "メイド服姿でハードなサウンドを鳴らす5人組、BAND-MAIDが現在開催中の\"BAND-MAID WORLD TOUR 2026\"のファイナルとして、11月13日・14日の2日間、日本武道館に立つ。2021年に予定しながら中止となった武道館公演の再挑戦であり、バンドにとって悲願のステージとなる。オープニング・アクトには今年メジャー・デビューした4人組ガールズ・ロック・バンドNEK!が両日出演。初日は18時、2日目は17時開演。11月公演のオフィシャル先行は8月1日正午から受付が始まり、一般発売は10月24日正午から行われた。",
+      "description": "メイド服姿でハードなサウンドを鳴らす5人組、BAND-MAIDが\"BAND-MAID WORLD TOUR 2026\"のファイナルとして、11月13日・14日の2日間、日本武道館に立った。2021年に予定しながら中止となった武道館公演の再挑戦であり、バンドにとって悲願のステージとなった。オープニング・アクトには今年メジャー・デビューした4人組ガールズ・ロック・バンドNEK!が両日出演。初日は18時、2日目は17時開演。11月公演のオフィシャル先行は8月1日正午から受付が始まり、一般発売は10月24日正午から行われた。",
       "genres": [
         "ロック",
         "J-ROCK"
@@ -4659,12 +4660,12 @@
       "image_url": null,
       "source_url": "https://gekirock.com/news/2026/07/bandmaid_oa_neki.php",
       "presale": false,
-      "presale_datetime": "2026-08-01T12:00:00+09:00",
-      "presale_url": "https://l-tike.com/bandmaid/",
-      "general_sale": true,
-      "general_sale_datetime": "2026-10-24T12:00:00+09:00",
-      "general_sale_url": "https://l-tike.com/bandmaid/",
-      "updated_at": "2026-11-06"
+      "presale_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-16"
     },
     {
       "id": "ja-tokunaga-hideaki-covers-and-best-tokyo-20261114",
@@ -4686,9 +4687,9 @@
       ],
       "image_url": null,
       "source_url": "https://columbia.jp/artist-info/tokunagahideaki/live/93193.html",
-      "general_sale": true,
-      "general_sale_datetime": "2026-09-26T00:00:00+09:00",
-      "updated_at": "2026-11-06"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "updated_at": "2026-11-16"
     },
     {
       "id": "ja-endrecheri-billboard-live-tour-2026-osaka-20261116",
@@ -4905,7 +4906,7 @@
       "id": "ja-hinatazaka46-hinakuri-2026-kobe-20261121",
       "name": "日向坂46 ARENA TOUR「ひなくり2026」",
       "release_date": "2026-11-21",
-      "release_time": null,
+      "release_time": "17:30",
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "category": "concert_tour",
@@ -4914,20 +4915,21 @@
       ],
       "developer": "日向坂46",
       "publisher": null,
-      "description": "日向坂46が毎年12月に開催してきた恒例ライブ「ひなくり」を約4年ぶりに復活させる。2022年を最後に途絶えていたが、今回は単独会場ではなく3都市を回るアリーナツアー形式となる。11月21日から23日の兵庫・神戸ワールド記念ホールを皮切りに、12月9日から11日は東京・国立代々木競技場第一体育館、12月22日から24日は愛知・日本ガイシホールと続き全9公演。チケットはファンクラブ抽選先行およびLemino各種先行の受付が9月9日12時に始まる。価格はLeminoスペシャルシート1万7000円、全席指定と親子・女性エリアが各1万1000円。",
+      "description": "日向坂46が毎年12月に開催してきた恒例ライブ「ひなくり」を約4年ぶりに復活させる。2022年を最後に途絶えていたが、今回は単独会場ではなく3都市を回るアリーナツアー形式となる。11月21日から23日の兵庫・神戸ワールド記念ホールを皮切りに、12月9日から11日は東京・国立代々木競技場第一体育館、12月22日から24日は愛知・日本ガイシホールと続き全9公演。チケットはファンクラブ抽選先行およびLemino各種先行の受付は9月9日12時に始まり、兵庫公演の一般販売は11月14日12時から受け付けられている。神戸公演は3日間とも開場16時・開演17時30分。価格はLeminoスペシャルシート1万7000円、全席指定と親子・女性エリアが各1万1000円。",
       "genres": [
         "J-POP"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Hinatazaka46_members_at_Yokohama_Stadium.jpg/330px-Hinatazaka46_members_at_Yokohama_Stadium.jpg",
       "source_url": "https://www.billboard-japan.com/d_news/detail/163948",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-09-09T12:00:00+09:00",
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": false,
-      "general_sale_datetime": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-11-14T12:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null
+      "general_sale_url": null,
+      "updated_at": "2026-11-16"
     },
     {
       "id": "ja-jxj-journey-into-dreaming-japan-20261121",
@@ -4960,7 +4962,7 @@
       "id": "ja-silica-gel-ballad-of-you-20261121",
       "name": "Silica Gel「Asia Tour in Tokyo」来日公演",
       "release_date": "2026-11-21",
-      "release_time": null,
+      "release_time": "19:00",
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "category": "concert_tour",
@@ -4969,7 +4971,7 @@
       ],
       "developer": "Silica Gel（シリカゲル）",
       "publisher": "SMASH",
-      "description": "韓国発の4人組ロックバンド、Silica Gel（シリカゲル）が、3rdアルバム『Ballad of You』（2026年8月20日発売）を携えたアジアツアーの一環として、2026年11月21日に東京・渋谷Spotify O-EASTで一夜限りの単独来日公演を開催する。爆発的な人気で日本でも注目を集める同バンドの来日単独公演で、チケットは7,500円（別途1ドリンク）。最速先行受付が7月27日まで行われている。",
+      "description": "韓国発の4人組ロックバンド、Silica Gel（シリカゲル）が、3rdアルバム『Ballad of You』（2026年8月20日発売）を携えたアジアツアーの一環として、2026年11月21日に東京・渋谷Spotify O-EASTで一夜限りの単独来日公演を開催する。爆発的な人気で日本でも注目を集める同バンドの来日単独公演で、チケットは7,500円（別途1ドリンク）。最速先行受付は7月27日まで行われ、イープラスでの一般発売は9月25日18:00から11月20日18:00まで。開場18:00・開演19:00。",
       "genres": [
         "ロック",
         "来日",
@@ -4977,9 +4979,14 @@
       ],
       "image_url": null,
       "source_url": "https://spincoaster.com/news/silica-gel-ballad-of-you",
-      "presale": true,
-      "presale_datetime": null,
-      "presale_url": "https://eplus.jp/sf/detail/4415100001"
+      "presale": false,
+      "presale_datetime": "2026-07-18T18:00:00+09:00",
+      "presale_url": null,
+      "updated_at": "2026-11-16",
+      "general_sale": true,
+      "general_sale_url": "https://eplus.jp/sf/detail/4415100001",
+      "general_sale_datetime": "2026-09-25T18:00:00+09:00",
+      "general_sale_end_datetime": "2026-11-20T18:00:00+09:00"
     },
     {
       "release_time": "17:00",
@@ -4996,14 +5003,15 @@
         "仙台MACANA"
       ],
       "developer": "セカンドバッカー",
-      "description": "セカンドバッカーが2026年に行っている全国ツアー〈あの時こうしておけばよかった〉のファイナル・シリーズ初日。仙台MACANAを皮切りに、札幌・高松・広島・福岡・名古屋・大阪・金沢・東京と全国9都市を回るワンマン公演で、開場16時30分・開演17時。オフィシャル1次抽選先行は8月2日20時から8月30日23時59分まで受け付けられる。ツアー本編で重ねてきた対バン形式を離れ、単独編成で締めくくる構成となっている。",
+      "description": "セカンドバッカーが2026年に行っている全国ツアー〈あの時こうしておけばよかった〉のファイナル・シリーズ初日。仙台MACANAを皮切りに、札幌・高松・広島・福岡・名古屋・大阪・金沢・東京と全国9都市を回るワンマン公演で、開場16時30分・開演17時。オフィシャル1次抽選先行は8月2日20時から8月30日23時59分まで受け付けられた。ツアー本編で重ねてきた対バン形式を離れ、単独編成で締めくくる構成となっている。",
       "genres": [
         "J-ROCK",
         "全国ツアー"
       ],
       "presale": false,
       "presale_datetime": "2026-08-02T20:00:00+09:00",
-      "presale_end_datetime": "2026-08-30T23:59:00+09:00"
+      "presale_end_datetime": "2026-08-30T23:59:00+09:00",
+      "updated_at": "2026-11-16"
     },
     {
       "id": "ja-nntt-peter-grimes-20261123",
@@ -5024,7 +5032,8 @@
         "クラシック"
       ],
       "image_url": null,
-      "source_url": "https://www.nntt.jac.go.jp/opera/petergrimes/"
+      "source_url": "https://www.nntt.jac.go.jp/opera/petergrimes/",
+      "updated_at": "2026-11-16"
     },
     {
       "id": "ja-wolf-alice-japan-2026-tokyo-20261123",
@@ -5097,7 +5106,8 @@
         "現代音楽"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/TB_PublicRecordsBrooklyn_2022.png",
-      "source_url": "https://www.cdjournal.com/news/tyondai-braxton/129281"
+      "source_url": "https://www.cdjournal.com/news/tyondai-braxton/129281",
+      "updated_at": "2026-11-16"
     },
     {
       "id": "ja-ego-wrappin-phantom-of-love-20261125",
@@ -5118,7 +5128,8 @@
         "アルバム"
       ],
       "image_url": null,
-      "source_url": "https://www.billboard-japan.com/d_news/detail/165289"
+      "source_url": "https://www.billboard-japan.com/d_news/detail/165289",
+      "updated_at": "2026-11-16"
     },
     {
       "id": "ja-iron-maiden-run-for-your-lives-yokohama-20261125",
@@ -5160,7 +5171,7 @@
         "すみだトリフォニーホール(大ホール)"
       ],
       "developer": "マルタ・アルゲリッチ",
-      "description": "マルタ・アルゲリッチが信頼する音楽家とともに、2日間にわたり異なるプログラムを披露する来日公演の初日。11月25日にすみだトリフォニーホール大ホールで開場18:30・開演19:00。広島で被爆した「明子さんのピアノ」を軸に据え、ドビュッシー「小組曲」やメンデルスゾーンのピアノ三重奏曲第1番第2楽章をこのピアノで演奏する。シューマンのピアノ五重奏曲、藤倉大「明子の日記」、ラフマニノフ「交響的舞曲」も並び、神尾真由子、荒井里桜、笠井大暉、横坂源、酒井茜が共演する。主催はKAJIMOTO、共催はすみだトリフォニーホール。",
+      "description": "マルタ・アルゲリッチが信頼する音楽家とともに、2日間にわたり異なるプログラムを披露する来日公演の初日。11月25日にすみだトリフォニーホール大ホールで開場18:30・開演19:00。広島で被爆した「明子さんのピアノ」を軸に据え、ドビュッシー「小組曲」やメンデルスゾーンのピアノ三重奏曲第1番第2楽章をこのピアノで演奏する。シューマンのピアノ五重奏曲、藤倉大「明子の日記」、ラフマニノフ「交響的舞曲」も並び、神尾真由子、荒井里桜、笠井大暉、横坂源、酒井茜が共演する。11月16日には曲順の変更が発表され、ドビュッシー「小組曲」は全曲演奏となった。主催はKAJIMOTO、共催はすみだトリフォニーホール。",
       "genres": [
         "クラシック",
         "ピアノ",
@@ -5172,13 +5183,14 @@
       "presale_url": "https://w1.onlineticket.jp/sf/kajimoto/detail/4593790001-P0030001?P1=0019&P6=060&P10=10",
       "general_sale": true,
       "general_sale_datetime": "2026-09-13T10:00:00+09:00",
-      "general_sale_url": "https://eplus.jp/sf/detail/4593790001-P0030001P021001?P1=1221"
+      "general_sale_url": "https://eplus.jp/sf/detail/4593790001-P0030001P021001?P1=1221",
+      "updated_at": "2026-11-16"
     },
     {
       "id": "ja-queens-of-the-stone-age-2026-20261125",
       "name": "QUEENS OF THE STONE AGE 来日公演2026",
       "release_date": "2026-11-25",
-      "release_time": null,
+      "release_time": "19:00",
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "category": "concert_tour",
@@ -5189,7 +5201,7 @@
       ],
       "developer": "QUEENS OF THE STONE AGE",
       "publisher": "CREATIVEMAN PRODUCTIONS",
-      "description": "米ロックバンド、QUEENS OF THE STONE AGE（クイーンズ・オブ・ザ・ストーン・エイジ）が約2年ぶりの来日公演を行う。2026年11月25日のZepp Haneda（TOKYO）を皮切りに、11月26日のZepp Nagoya、11月28日のZepp Nambaを回る東名阪ツアー。約3年ぶりの新曲発表に合わせた来日で、オフィシャル先行は7月22日正午から、一般発売は8月1日午前10時からスタートする。チケットは1階スタンディング11,000円ほか。",
+      "description": "米ロックバンド、QUEENS OF THE STONE AGE（クイーンズ・オブ・ザ・ストーン・エイジ）が約2年ぶりの来日公演を行う。2026年11月25日のZepp Haneda（TOKYO）を皮切りに、11月26日のZepp Nagoya、11月28日のZepp Nambaを回る東名阪ツアー。約3年ぶりの新曲発表に合わせた来日で、オフィシャル先行は7月22日正午から、一般発売は8月1日午前10時から始まり、東京公演は10月26日にソールドアウトとなった。各公演とも開演19時（大阪は18時）。チケットは1階スタンディング11,000円ほか。",
       "genres": [
         "ロック",
         "来日"
@@ -5201,7 +5213,8 @@
       "presale_url": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2347554",
       "general_sale": true,
       "general_sale_datetime": "2026-08-01T10:00:00+09:00",
-      "general_sale_url": "https://l-tike.com/concert/mevent/?mid=367063"
+      "general_sale_url": "https://l-tike.com/concert/mevent/?mid=367063",
+      "updated_at": "2026-11-16"
     },
     {
       "id": "ja-wolf-alice-japan-2026-osaka-20261125",
