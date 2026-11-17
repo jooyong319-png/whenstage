@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-13",
+  "last_updated": "2026-11-17",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -11063,6 +11063,65 @@
         "ko": "ko-superjunior-83z-1983-fancon-busan-20270123"
       },
       "updated_at": "2026-11-13"
+    },
+    {
+      "id": "en-exo-kase-silent-city-fancon-seoul-20270109",
+      "name": "EXO-KASE Fancon Tour – SILENT CITY in SEOUL",
+      "release_date": "2027-01-09",
+      "release_time": "18:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "Korea University, Seoul(Hwajung Gymnasium)"
+      ],
+      "developer": "EXO-KASE",
+      "publisher": "SM Entertainment",
+      "description": "EXO-KASE, the new unit of EXO's Kai and Sehun, opens its first fan-concert tour, SILENT CITY, at Korea University's Hwajeong Gymnasium in Seoul with two shows: Saturday, January 9, 2027 at 6 p.m. KST and Sunday, January 10 at 5 p.m. KST. Seoul is the first of eight Asian stops, followed by Kuala Lumpur, Macau, Jakarta, Tokyo, Bangkok, Taipei and Manila. Overseas fans buy through Melon Ticket Global with an overseas-issued card: EXO-L members verified on Weverse get a global presale on November 24 at 8 p.m. KST (one day after the Korean-page presale), and general sale opens November 25 at 8 p.m. KST. Fan club verification for the global page runs until November 24 at 11:59 p.m. KST. Seats cost 165,000 won (VIP) or 143,000 won, two tickets per person per show, ages 7 and up.",
+      "genres": [
+        "K-Pop",
+        "Fan Meeting"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/11/202611131048559733f470-b56d-4294-a0c3-6fc3d2d07410.jpg",
+      "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13280",
+      "presale": true,
+      "presale_datetime": "2026-11-24T20:00:00+09:00",
+      "presale_end_datetime": "2026-11-24T23:59:00+09:00",
+      "presale_url": "https://tkglobal.melon.com/",
+      "general_sale": false,
+      "general_sale_datetime": "2026-11-25T20:00:00+09:00",
+      "general_sale_url": "https://tkglobal.melon.com/",
+      "related_locale_ids": {
+        "ko": "ko-exo-kase-silent-city-fancon-seoul-20270109"
+      },
+      "updated_at": "2026-11-17"
+    },
+    {
+      "id": "en-exo-kase-waking-up-the-city-20261201",
+      "name": "EXO-KASE - Waking Up The City (1st Mini Album)",
+      "release_date": "2026-12-01",
+      "release_time": null,
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "music_release",
+      "platforms": [
+        "Streaming",
+        "Digital",
+        "CD"
+      ],
+      "developer": "EXO-KASE",
+      "publisher": "SM Entertainment",
+      "description": "Kai and Sehun of EXO debut as the duo EXO-KASE with their first mini album, Waking Up The City, on December 1, 2026. SM Entertainment confirmed the unit in November, and the seven-track EP carries the title song plus one solo track from each member. The release comes about five weeks before the pair start their first fan-concert tour, SILENT CITY, in Seoul on January 9, 2027. A release time had not been announced as of mid-November.",
+      "genres": [
+        "K-Pop",
+        "Album"
+      ],
+      "image_url": null,
+      "source_url": "https://www.koreatimes.co.kr/entertainment/k-pop/20261111/exos-kai-sehun-to-debut-as-duo-exo-kase-on-dec-1",
+      "related_locale_ids": {
+        "ko": "ko-exo-kase-waking-up-the-city-20261201"
+      },
+      "updated_at": "2026-11-17"
     }
   ]
 }
