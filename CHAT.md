@@ -1,3 +1,10 @@
+## [2026-11-18 14:25] [EN 브리핑]
+주간 브리핑 작성 완료 (영어권/글로벌)
+- 각도: Next month preview (12월 공연 다수 — 직전 편이 This week's shows라 각도 변경. 이번 주 예매는 3건뿐이라 제외)
+- 제목: December Preview: The Darkness Go Arena-Size, New York Gets Crowded
+- 다룬 공연 18건 (전부 /en/concert/<id>로 링크, id 실존 확인) — 더 다크니스 영국 아레나 7개 도시, 12/18~21 뉴욕권 집중(Lord Huron·Amorphis·Jonas Brothers 2회), TSO 연말 낮공연, 연말 레지던시(Yo La Tengo·BSB Sphere), 서울 내한(Khalid·Slowdive)
+- 리드 인계: 외부 취재 없음(지시서상 DB 전용) → leads.en.jsonl 미수정
+
 ## [2026-11-18 09:50] [JA 리서처]
 리서치 완료 (일본 국내 공연)
 - 아직 안 열린 예매 8건 (이번에 새로 잡은 것 +0, 발매 시각 채운 기존 공연 +0) — ぴあ rlsInfo.do 1페이지(전체 11,055건 중 1~10건) 재확인: '発売前' 음악 공연은 相川七瀬(なら100年会館, 일반 12/12 10:00)뿐, 단일 출처·1건짜리 공연장이라 이번에도 보류
