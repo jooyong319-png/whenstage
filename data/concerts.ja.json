@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-16",
+  "last_updated": "2026-11-18",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -6768,7 +6768,7 @@
     },
     {
       "id": "ja-tokyo-ska-paradise-orchestra-arena-tour-2027-20270211",
-      "name": "東京スカパラダイスオーケストラ ARENA TOUR 2027［SKA］SHOWDOWN Episode2 日本武道館公演",
+      "name": "東京スカパラダイスオーケストラ ARENA TOUR 2027［SKA］SHOWDOWN Episode2 日本武道館2DAYS",
       "release_date": "2027-02-11",
       "release_time": "18:00",
       "release_date_approx": false,
@@ -6779,7 +6779,7 @@
       ],
       "developer": "東京スカパラダイスオーケストラ",
       "publisher": "HOT STUFF PROMOTION",
-      "description": "東京スカパラダイスオーケストラがバンド史上初のアリーナツアーとして開催する公演。2026年3月31日に東京ガーデンシアターで行われた『［SKA］SHOWDOWN』の舞台をアリーナへ移した「Episode2」で、東京・愛知・大阪・福岡の全国4都市5公演を回る。チケットは指定席9,900円、小学生から高校生を対象とした指定席学生チケット6,600円（いずれも税込）。各公演にゲストを迎えるスペシャルな内容で、ツアー初日となるこの日はアイナ・ジ・エンドの出演が発表されている。開場17:00、開演18:00。",
+      "description": "バンド史上初のアリーナツアー「［SKA］SHOWDOWN Episode2」の幕開けを飾る日本武道館2日間公演。2月11日（木・祝）はアイナ・ジ・エンド、12日（金）は田島貴男がゲストに発表されており、両日とも開場17:00・開演18:00。指定席9,900円のほか、小学生〜高校生向けの指定席学生チケット6,600円も用意され、入場時は学生証などの提示が必要。東京公演の問い合わせ先はHOT STUFF PROMOTION。",
       "genres": [
         "スカ",
         "ロック",
@@ -6787,38 +6787,8 @@
       ],
       "image_url": null,
       "source_url": "https://tokyoska.net/live/tour.php?id=1003055&fdate=2027-02-11&ldate=2027-03-27",
-      "updated_at": "2026-10-03",
-      "presale": true,
-      "presale_datetime": "2026-09-28T12:00:00+09:00",
-      "presale_end_datetime": "2026-10-19T23:59:00+09:00",
-      "presale_url": "https://fcparadise.net/s/fc06/ticket/list?ima=1903&ct=ticket",
-      "general_sale": false,
-      "general_sale_datetime": null,
-      "general_sale_url": null
-    },
-    {
-      "id": "ja-tokyo-ska-paradise-orchestra-arena-tour-2027-20270212",
-      "name": "東京スカパラダイスオーケストラ ARENA TOUR 2027［SKA］SHOWDOWN Episode2 日本武道館公演",
-      "release_date": "2027-02-12",
-      "release_time": "18:00",
-      "release_date_approx": false,
-      "timezone": "Asia/Tokyo",
-      "category": "concert_tour",
-      "platforms": [
-        "日本武道館"
-      ],
-      "developer": "東京スカパラダイスオーケストラ",
-      "publisher": "HOT STUFF PROMOTION",
-      "description": "東京スカパラダイスオーケストラがバンド史上初のアリーナツアーとして開催する公演。2026年3月31日に東京ガーデンシアターで行われた『［SKA］SHOWDOWN』の舞台をアリーナへ移した「Episode2」で、東京・愛知・大阪・福岡の全国4都市5公演を回る。チケットは指定席9,900円、小学生から高校生を対象とした指定席学生チケット6,600円（いずれも税込）。各公演にゲストを迎えるスペシャルな内容で、武道館2DAYSの2日目にあたるこの日は田島貴男がゲストとして出演する。開場17:00、開演18:00。",
-      "genres": [
-        "スカ",
-        "ロック",
-        "ツアー"
-      ],
-      "image_url": null,
-      "source_url": "https://tokyoska.net/live/tour.php?id=1003055&fdate=2027-02-11&ldate=2027-03-27",
-      "updated_at": "2026-10-03",
-      "presale": true,
+      "updated_at": "2026-11-18",
+      "presale": false,
       "presale_datetime": "2026-09-28T12:00:00+09:00",
       "presale_end_datetime": "2026-10-19T23:59:00+09:00",
       "presale_url": "https://fcparadise.net/s/fc06/ticket/list?ima=1903&ct=ticket",
@@ -7001,7 +6971,7 @@
       ],
       "developer": "東京スカパラダイスオーケストラ",
       "publisher": "JAILHOUSE",
-      "description": "東京スカパラダイスオーケストラがバンド史上初のアリーナツアーとして開催する公演。2026年3月31日に東京ガーデンシアターで行われた『［SKA］SHOWDOWN』の舞台をアリーナへ移した「Episode2」で、東京・愛知・大阪・福岡の全国4都市5公演を回る。チケットは指定席9,900円、小学生から高校生を対象とした指定席学生チケット6,600円（いずれも税込）。各公演にゲストを迎えるスペシャルな内容で、愛知公演となるこの日は石原慎也（Saucy Dog）とムロツヨシがゲストに名を連ねる。開場17:00、開演18:00。",
+      "description": "スカパラ初のアリーナツアー「Episode2」の3公演目で、名古屋のクロコくんホール（日本ガイシホール）に舞台を移す2月23日（火・祝）の愛知公演。Saucy Dogの石原慎也と俳優のムロツヨシがゲストとして名を連ね、開場17:00・開演18:00。地元・名古屋のプロモーターJAILHOUSEが問い合わせ窓口を務める。チケットは指定席と学生向け指定席の2種。",
       "genres": [
         "スカ",
         "ロック",
@@ -7009,8 +6979,8 @@
       ],
       "image_url": null,
       "source_url": "https://tokyoska.net/live/tour.php?id=1003055&fdate=2027-02-11&ldate=2027-03-27",
-      "updated_at": "2026-10-03",
-      "presale": true,
+      "updated_at": "2026-11-18",
+      "presale": false,
       "presale_datetime": "2026-09-28T12:00:00+09:00",
       "presale_end_datetime": "2026-10-19T23:59:00+09:00",
       "presale_url": "https://fcparadise.net/s/fc06/ticket/list?ima=1903&ct=ticket",
@@ -7185,7 +7155,7 @@
       ],
       "developer": "東京スカパラダイスオーケストラ",
       "publisher": "キョードー大阪",
-      "description": "東京スカパラダイスオーケストラがバンド史上初のアリーナツアーとして開催する公演。2026年3月31日に東京ガーデンシアターで行われた『［SKA］SHOWDOWN』の舞台をアリーナへ移した「Episode2」で、東京・愛知・大阪・福岡の全国4都市5公演を回る。チケットは指定席9,900円、小学生から高校生を対象とした指定席学生チケット6,600円（いずれも税込）。各公演にゲストを迎えるスペシャルな内容で、大阪公演となるこの日は奥田民生とTK（凛として時雨）がゲストとして出演する。開場17:00、開演18:00。",
+      "description": "3月11日（木）に大阪城ホールで行われる「［SKA］SHOWDOWN Episode2」の大阪公演。ゲストは奥田民生とTK（凛として時雨）の2人で、世代もジャンルも異なる顔合わせが関西のステージに並ぶ。開場17:00・開演18:00で、問い合わせはキョードーインフォメーション。未就学児は保護者1名につき1名まで膝上観覧ならチケット不要とされている。",
       "genres": [
         "スカ",
         "ロック",
@@ -7193,8 +7163,8 @@
       ],
       "image_url": null,
       "source_url": "https://tokyoska.net/live/tour.php?id=1003055&fdate=2027-02-11&ldate=2027-03-27",
-      "updated_at": "2026-10-03",
-      "presale": true,
+      "updated_at": "2026-11-18",
+      "presale": false,
       "presale_datetime": "2026-09-28T12:00:00+09:00",
       "presale_end_datetime": "2026-10-19T23:59:00+09:00",
       "presale_url": "https://fcparadise.net/s/fc06/ticket/list?ima=1903&ct=ticket",
@@ -7327,7 +7297,7 @@
       ],
       "developer": "東京スカパラダイスオーケストラ",
       "publisher": "キョードー西日本",
-      "description": "東京スカパラダイスオーケストラがバンド史上初のアリーナツアーとして開催する公演。2026年3月31日に東京ガーデンシアターで行われた『［SKA］SHOWDOWN』の舞台をアリーナへ移した「Episode2」で、東京・愛知・大阪・福岡の全国4都市5公演を回る。チケットは指定席9,900円、小学生から高校生を対象とした指定席学生チケット6,600円（いずれも税込）。各公演にゲストを迎えるスペシャルな内容で、ツアー最終公演となる福岡では斎藤宏介（UNISON SQUARE GARDEN／TenTwenty）がゲストを務める。開場16:00、開演17:00。",
+      "description": "全国4都市5公演のアリーナツアーを締めくくる3月27日（土）の福岡国際センター公演。千秋楽のゲストはUNISON SQUARE GARDEN／TenTwentyの斎藤宏介で、ほかの会場より1時間早い開場16:00・開演17:00のスケジュール。問い合わせはキョードー西日本。チケットはお一人様4枚までで、電子チケット（分配可）と紙チケットが併用される。",
       "genres": [
         "スカ",
         "ロック",
@@ -7335,8 +7305,8 @@
       ],
       "image_url": null,
       "source_url": "https://tokyoska.net/live/tour.php?id=1003055&fdate=2027-02-11&ldate=2027-03-27",
-      "updated_at": "2026-10-03",
-      "presale": true,
+      "updated_at": "2026-11-18",
+      "presale": false,
       "presale_datetime": "2026-09-28T12:00:00+09:00",
       "presale_end_datetime": "2026-10-19T23:59:00+09:00",
       "presale_url": "https://fcparadise.net/s/fc06/ticket/list?ima=1903&ct=ticket",
@@ -7357,16 +7327,17 @@
       ],
       "developer": "ブロークン・ソーシャル・シーン",
       "publisher": "SMASH",
-      "description": "カナダ・トロントを拠点とするブロークン・ソーシャル・シーンが、2008年以来19年ぶりに行う来日公演の東京公演。2026年5月に発表した通算6作目のアルバム『リメンバー・ザ・ヒューマンズ』を携えたツアーで、2027年3月30日の東京・EX THEATER ROPPONGIと31日の大阪・UMEDA CLUB QUATTROの2公演が組まれている。EX THEATER ROPPONGIは開場18:00・開演19:00、スタンディング前売は9,500円、スタンド指定席は12,000円。招聘はSMASHが手がける。",
+      "description": "2008年以来19年ぶりとなるブロークン・ソーシャル・シーン来日ツアーの初日、3月30日（火）の東京・EX THEATER ROPPONGI公演。最新作『リメンバー・ザ・ヒューマンズ』を携えたステージで、この会場のみスタンディング9,500円に加えスタンド指定席12,000円（いずれもドリンク代別）が選べる。開場18:00・開演19:00、問い合わせはSMASH。前売りは10月31日からイープラス・チケットぴあ・ローソンチケットで扱われている。",
       "genres": [
         "インディーロック",
         "来日公演"
       ],
-      "image_url": null,
+      "image_url": "https://cdn.fujirockfestival.com/smash/tour/alZb96uCCkxduVFHSbI28rNRdtwTlAowxoTsgpNE.jpg",
       "source_url": "https://smash-jpn.com/live/?id=4785",
       "presale": false,
       "general_sale": false,
-      "updated_at": "2026-09-30"
+      "updated_at": "2026-11-18",
+      "general_sale_url": "https://eplus.jp/bss/"
     },
     {
       "id": "ja-broken-social-scene-japan-2027-osaka-20270331",
@@ -7381,16 +7352,17 @@
       ],
       "developer": "ブロークン・ソーシャル・シーン",
       "publisher": "SMASH",
-      "description": "カナダ・トロントを拠点とするブロークン・ソーシャル・シーンが、2008年以来19年ぶりに行う来日公演の大阪公演。2026年5月に発表した通算6作目のアルバム『リメンバー・ザ・ヒューマンズ』を携えたツアーで、2027年3月30日の東京・EX THEATER ROPPONGIと31日の大阪・UMEDA CLUB QUATTROの2公演が組まれている。UMEDA CLUB QUATTROは開場18:00・開演19:00、スタンディング前売は9,500円で、こちらはオールスタンディング。招聘はSMASHが手がける。",
+      "description": "東京公演の翌日、3月31日（水）に大阪・梅田のUMEDA CLUB QUATTROで行われる来日ツアー最終公演。プラザ梅田10階のライブハウスでのオールスタンディング（前売9,500円・ドリンク代別）で、大所帯バンドを至近距離で観られる一夜になる。開場18:00・開演19:00。関西の問い合わせ窓口はSMASH WESTで、未就学児は入場できない。チケットはお一人様4枚まで。",
       "genres": [
         "インディーロック",
         "来日公演"
       ],
-      "image_url": null,
+      "image_url": "https://cdn.fujirockfestival.com/smash/tour/alZb96uCCkxduVFHSbI28rNRdtwTlAowxoTsgpNE.jpg",
       "source_url": "https://smash-jpn.com/live/?id=4785",
       "presale": false,
       "general_sale": false,
-      "updated_at": "2026-09-30"
+      "updated_at": "2026-11-18",
+      "general_sale_url": "https://eplus.jp/bss/"
     },
     {
       "id": "ja-beabadoobee-powerlines-tokyo-20270409",
