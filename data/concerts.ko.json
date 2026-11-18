@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-16",
+  "last_updated": "2026-11-18",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -5085,7 +5085,7 @@
       ],
       "developer": "김필",
       "publisher": "웨이크원",
-      "description": "김필이 11월 14일과 15일 이틀간 서울 용산구 블루스퀘어 우리WON뱅킹홀에서 단독 콘서트 '저니(JOURNEY)'를 연다. 10월 29일 발매한 정규 2집과 같은 이름을 단 공연으로, 그간의 대표곡과 신곡 무대를 함께 묶어낸다. 소속사 웨이크원은 9월 10일 공연 개최를 알리며 같은 날 오후 7시 NOL 티켓 팬클럽 선예매를, 11일 일반 예매를 차례로 열었다. 2019년 정규 1집 이후 약 7년 만의 정규 신보와 맞물린 일정이라 신곡 비중이 높은 세트리스트가 예상된다.",
+      "description": "김필이 11월 14일과 15일 이틀간 서울 용산구 블루스퀘어 우리WON뱅킹홀에서 단독 콘서트 '저니(JOURNEY)'를 열었다. 10월 29일 발매한 정규 2집과 같은 이름을 단 공연으로, 그간의 대표곡과 신곡 무대를 함께 묶은 구성으로 예고됐다. 소속사 웨이크원은 9월 10일 공연 개최를 알리며 같은 날 오후 7시 NOL 티켓 팬클럽 선예매를, 11일 일반 예매를 차례로 열었다. 2019년 정규 1집 이후 약 7년 만의 정규 신보와 맞물린 일정이었다.",
       "genres": [
         "발라드",
         "콘서트"
@@ -5093,11 +5093,11 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Kim_Feel_210107.png/500px-Kim_Feel_210107.png",
       "source_url": "https://www.newspim.com/news/view/20260910000071",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-09-11T19:00:00+09:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_url": null,
-      "presale_datetime": "2026-09-10T19:00:00+09:00",
-      "updated_at": "2026-11-09"
+      "presale_datetime": null,
+      "updated_at": "2026-11-18"
     },
     {
       "id": "ko-wonderlivet-2026-20261120",
@@ -5216,7 +5216,7 @@
       ],
       "developer": "최유리",
       "publisher": null,
-      "description": "최유리 콘서트 2026 '머무름'이 11월 14일 오후 6시 대구 엑스코 오디토리움에서 투어의 마지막 무대를 갖는다. 10월 서울 장충체육관, 11월 부산 벡스코를 거쳐 도착하는 세 번째 도시이자 총 5회 공연의 피날레다. 초등학생 이상 관람가이며 공연 시간은 약 120분으로 안내됐다. 9월 1일 티켓 오픈과 동시에 서울·부산·대구 전 공연이 매진되며 최유리의 달라진 티켓 파워를 확인시켰다. 티켓은 NOL 티켓 단독 판매로 R석 15만4000원, S석 14만3000원이었다.",
+      "description": "최유리 콘서트 2026 '머무름'이 11월 14일 오후 6시 대구 엑스코 오디토리움에서 투어의 마지막 무대를 가졌다. 10월 서울 장충체육관, 11월 부산 벡스코를 거쳐 도착한 세 번째 도시이자 총 5회 공연의 피날레였다. 초등학생 이상 관람가이며 공연 시간은 약 120분으로 안내됐다. 9월 1일 티켓 오픈과 동시에 서울·부산·대구 전 공연이 매진되며 최유리의 달라진 티켓 파워를 확인시켰다. 티켓은 NOL 티켓 단독 판매로 R석 15만4000원, S석 14만3000원이었다.",
       "genres": [
         "인디",
         "포크",
@@ -5228,11 +5228,11 @@
       "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
-      "general_sale_datetime": "2026-09-01T20:00:00+09:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26012762",
-      "updated_at": "2026-11-02"
+      "general_sale_url": null,
+      "updated_at": "2026-11-18"
     },
     {
       "id": "ko-mumyeongjeonseol-incheon-20261205",
@@ -5931,7 +5931,7 @@
       ],
       "developer": "투모로우바이투게더(TOMORROW X TOGETHER)",
       "publisher": "빅히트뮤직·하이브",
-      "description": "투모로우바이투게더가 새 월드투어 〈STEAL THE WIND〉의 서울 공연을 연다. 11월 13일 오후 7시, 14일 오후 6시, 15일 오후 5시 사흘간 서울 올림픽공원 KSPO DOME에서 세 차례 무대에 오르며, 주최·주관은 빅히트뮤직과 하이브가 맡는다. 관람 등급은 만 9세 이상이다. 공연은 온·오프라인 동시 진행으로 예고됐고, 온라인 라이브 스트리밍 예매 안내는 추후 공지된다. 국내 페이지 멤버십 선예매는 10월 1일 오후 8시, 글로벌 페이지 선예매는 10월 2일 오후 8시에 열린다.",
+      "description": "투모로우바이투게더가 새 월드투어 〈STEAL THE WIND〉의 서울 공연을 열었다. 11월 13일 오후 7시, 14일 오후 6시, 15일 오후 5시 사흘간 서울 올림픽공원 KSPO DOME에서 세 차례 무대에 오르는 일정이었으며, 주최·주관은 빅히트뮤직과 하이브가 맡았다. 관람 등급은 만 9세 이상이었다. 공연은 온·오프라인 동시 진행으로 예고됐고, 온라인 라이브 스트리밍 예매 안내는 추후 공지될 예정이었다. 국내 페이지 멤버십 선예매는 10월 1일 오후 8시, 글로벌 페이지 선예매는 10월 2일 오후 8시에 열렸다.",
       "genres": [
         "K-POP",
         "콘서트",
@@ -5939,18 +5939,18 @@
       ],
       "image_url": "https://ticketimage.interpark.com/TicketImage/notice_poster/20/2026091110015991.jpg",
       "source_url": "https://tickets.interpark.com/goods/26013161",
-      "presale": true,
-      "presale_datetime": "2026-10-01T20:00:00+09:00",
-      "presale_end_datetime": "2026-10-01T23:59:00+09:00",
-      "presale_url": "https://tickets.interpark.com/goods/26013161",
-      "general_sale": true,
-      "general_sale_datetime": "2026-10-06T20:00:00+09:00",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26013161",
+      "general_sale_url": null,
       "related_locale_ids": {
         "en": "en-txt-steal-the-wind-seoul-20261113"
       },
-      "updated_at": "2026-10-29"
+      "updated_at": "2026-11-18"
     },
     {
       "id": "ko-day6-5th-fanmeeting-incheon-20261023",
@@ -6939,7 +6939,7 @@
       "general_sale_datetime": "2026-09-23T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.yes24.com/Perf/60203",
-      "updated_at": "2026-09-28"
+      "updated_at": "2026-11-18"
     },
     {
       "id": "ko-penthouse-neon-garden-seoul-20261219",
@@ -6970,7 +6970,7 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.yes24.com/Perf/59886",
-      "updated_at": "2026-09-28"
+      "updated_at": "2026-11-18"
     },
     {
       "id": "ko-fujiikaze-prema-world-tour-seoul-20270109",
@@ -7211,7 +7211,7 @@
       ],
       "developer": "소향 & 김기태",
       "publisher": "오름기획",
-      "description": "보컬리스트 소향과 김기태가 함께 무대에 오르는 전국투어 'THE GREATEST : 전율' 고양 공연이 12월 12일 오후 2시 고양어울림누리 어울림극장에서 열린다. 공연 시간은 인터미션 없이 120분이며 만 7세 이상 관람할 수 있다. 티켓은 VIP석 14만3000원부터 A석 8만8000원까지 네 등급으로 나뉘고 티켓링크에서 예매한다. 폭발적인 성량의 소향과 거친 음색의 김기태가 한 무대에서 번갈아 노래하는 구성이 예고됐다. 주최는 오름기획, 제작은 좋은콘서트다.",
+      "description": "보컬리스트 소향과 김기태가 함께 무대에 오르는 전국투어 'THE GREATEST : 전율' 고양 공연이 12월 12일 오후 2시 고양어울림누리 어울림극장에서 열린다. 공연 시간은 인터미션 없이 120분이며 만 7세 이상 관람할 수 있다. 티켓은 VIP석 14만3000원부터 A석 8만8000원까지 네 등급으로 나뉘고 티켓링크와 NOL 티켓에서 예매한다. 폭발적인 성량의 소향과 거친 음색의 김기태가 한 무대에서 번갈아 노래하는 구성이 예고됐다. 주최는 오름기획, 제작은 좋은콘서트다.",
       "genres": [
         "발라드",
         "콘서트"
@@ -7225,8 +7225,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-10-02T14:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "updated_at": "2026-10-01"
+      "general_sale_url": "https://nol.yanolja.com/ticket/products/26014150",
+      "updated_at": "2026-11-18"
     },
     {
       "id": "ko-johangjo-saenggak-goyang-20261212",
@@ -7241,7 +7241,7 @@
       ],
       "developer": "조항조",
       "publisher": "오름기획",
-      "description": "트로트 가수 조항조의 전국투어 '생각' 고양 공연이 12월 12일 오후 7시 30분 고양어울림누리 어울림극장에서 열린다. 8월 부천 공연에 이어지는 일정으로, 인터미션 없이 120분간 진행되고 만 7세 이상 관람할 수 있다. 티켓은 VVIP석 14만3000원부터 S석 8만8000원까지 네 등급이며 티켓링크에서 예매한다. '고마운 사람에게', '사랑찾아 인생찾아' 등 대표곡과 스토리텔링을 엮은 구성이 예고됐다. 주최는 오름기획, 제작은 좋은콘서트다.",
+      "description": "트로트 가수 조항조의 전국투어 '생각' 고양 공연이 12월 12일 오후 7시 30분 고양어울림누리 어울림극장에서 열린다. 8월 부천 공연에 이어지는 일정으로, 인터미션 없이 120분간 진행되고 만 7세 이상 관람할 수 있다. 티켓은 VVIP석 14만3000원부터 S석 8만8000원까지 네 등급이며 티켓링크와 NOL 티켓에서 예매한다. '고마운 사람에게', '사랑찾아 인생찾아' 등 대표곡과 스토리텔링을 엮은 구성이 예고됐다. 주최는 오름기획, 제작은 좋은콘서트다.",
       "genres": [
         "트로트",
         "콘서트"
@@ -7255,8 +7255,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-10-02T14:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "updated_at": "2026-10-01"
+      "general_sale_url": "https://nol.yanolja.com/ticket/products/26014100",
+      "updated_at": "2026-11-18"
     },
     {
       "id": "ko-kimjanghoon-dasinalda-goyang-20261213",
@@ -7285,8 +7285,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-10-02T14:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "updated_at": "2026-10-01"
+      "general_sale_url": "https://nol.yanolja.com/ticket/products/26014108",
+      "updated_at": "2026-11-18"
     },
     {
       "id": "ko-yuhki-kuramoto-peacefully-gimhae-20261215",
@@ -7301,7 +7301,7 @@
       ],
       "developer": "유키 구라모토(Yuhki Kuramoto)",
       "publisher": null,
-      "description": "일본 뉴에이지 피아니스트 유키 구라모토의 내한 투어 'Peacefully' 김해 공연이 12월 15일 오후 7시 30분 김해문화의전당 마루홀에서 열린다. 인터미션 15분을 포함해 100분간 진행되고 만 7세 이상 관람할 수 있다. 티켓은 R석 9만원부터 C석 5만원까지 다섯 등급으로 나뉘며 장애인과 국가유공자에게 20% 할인이 적용된다. 일반 예매는 10월 1일 오전 10시 NOL 티켓에서 시작된다. 이듬날 대구 공연이 이어진다.",
+      "description": "일본 뉴에이지 피아니스트 유키 구라모토의 내한 투어 'Peacefully' 김해 공연이 12월 15일 오후 7시 30분 김해문화의전당 마루홀에서 열린다. 인터미션 15분을 포함해 100분간 진행되고 만 7세 이상 관람할 수 있다. 티켓은 R석 9만원부터 C석 5만원까지 다섯 등급으로 나뉘며 장애인과 국가유공자에게 20% 할인이 적용된다. 일반 예매는 10월 1일 오전 10시 NOL 티켓에서 시작됐다. 이듬날 대구 공연이 이어진다.",
       "genres": [
         "뉴에이지",
         "피아노",
@@ -7317,7 +7317,7 @@
       "general_sale_datetime": "2026-10-01T10:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://nol.yanolja.com/ticket/products/26014068",
-      "updated_at": "2026-10-01"
+      "updated_at": "2026-11-18"
     },
     {
       "id": "ko-yuhki-kuramoto-peacefully-daegu-20261216",
@@ -7332,7 +7332,7 @@
       ],
       "developer": "유키 구라모토(Yuhki Kuramoto)",
       "publisher": null,
-      "description": "일본 뉴에이지 피아니스트 유키 구라모토의 내한 투어 'Peacefully' 대구 공연이 12월 16일 오후 7시 30분 경산 영남대학교 천마아트센터 그랜드홀에서 열린다. 하루 전 김해 공연에 이어지는 일정이다. 인터미션 15분을 포함해 100분간 진행되며 만 7세 이상 관람할 수 있다. 티켓은 R석 9만원부터 C석 5만원까지 다섯 등급이고 장애인·국가유공자 20% 할인이 있다. 일반 예매는 10월 1일 오전 10시 NOL 티켓에서 열린다.",
+      "description": "일본 뉴에이지 피아니스트 유키 구라모토의 내한 투어 'Peacefully' 대구 공연이 12월 16일 오후 7시 30분 경산 영남대학교 천마아트센터 그랜드홀에서 열린다. 하루 전 김해 공연에 이어지는 일정이다. 인터미션 15분을 포함해 100분간 진행되며 만 7세 이상 관람할 수 있다. 티켓은 R석 9만원부터 C석 5만원까지 다섯 등급이고 장애인·국가유공자 20% 할인이 있다. 일반 예매는 10월 1일 오전 10시 NOL 티켓에서 열렸다.",
       "genres": [
         "뉴에이지",
         "피아노",
@@ -7348,7 +7348,7 @@
       "general_sale_datetime": "2026-10-01T10:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://nol.yanolja.com/ticket/products/26013986",
-      "updated_at": "2026-10-01"
+      "updated_at": "2026-11-18"
     },
     {
       "id": "ko-paul-gilbert-wroc-world-tour-seoul-20261018",
@@ -7678,7 +7678,7 @@
       ],
       "developer": "린(LYn)",
       "publisher": null,
-      "description": "린이 11월 13일과 14일 이틀간 서울 서초구 한전아트센터에서 단독 콘서트 'HOME'을 연다. 두 날 모두 오후 7시 시작이며 20분 인터미션을 포함해 120분간 진행되고, 만 8세 이상 관람가로 운영된다. 'HOME'은 린이 해마다 이어온 대표 단독 공연 브랜드로, 올해도 같은 이름으로 서울 공연이 마련됐다. 티켓 가격은 R석 14만3000원, S석 13만2000원이며 10월 8일 오후 2시 NOL 티켓 단독 판매로 일반예매가 열린다.",
+      "description": "린이 11월 13일과 14일 이틀간 서울 서초구 한전아트센터에서 단독 콘서트 'HOME'을 열었다. 두 날 모두 오후 7시 시작이었으며 20분 인터미션을 포함해 120분 공연, 만 8세 이상 관람가로 안내됐다. 'HOME'은 린이 해마다 이어온 대표 단독 공연 브랜드로, 올해도 같은 이름으로 서울 공연이 마련됐다. 티켓 가격은 R석 14만3000원, S석 13만2000원이었고 10월 8일 오후 2시 NOL 티켓 단독 판매로 일반예매가 열렸다.",
       "genres": [
         "발라드",
         "R&B",
@@ -7687,10 +7687,10 @@
       "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26014091_p.gif",
       "source_url": "https://nol.yanolja.com/ticket/products/26014091",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-10-08T14:00:00+09:00",
-      "general_sale_url": "https://nol.yanolja.com/ticket/products/26014091",
-      "updated_at": "2026-10-08"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-18"
     },
     {
       "id": "ko-israel-newbreed-seoul-20261027",
@@ -7803,7 +7803,7 @@
       ],
       "developer": "소향 & 김기태",
       "publisher": "굿초이스",
-      "description": "소향과 김기태가 11월 21일 오후 1시 충남대학교 정심화홀에서 전국투어 콘서트 'THE GREATEST : 전율' 대전 공연을 연다. 관람 시간은 약 120분, 8세 이상 관람가이며 티켓은 VIP석 14만3000원, R석 12만1000원, S석 9만9000원이다. 폭발적인 고음으로 알려진 소향과 거친 음색의 김기태가 한 무대에 올라 번갈아 솔로와 합동 무대를 꾸리는 구성이다. 티켓은 10월 8일 오후 6시 티켓링크에서 일반예매로 열린다.",
+      "description": "소향과 김기태가 11월 21일 오후 1시 충남대학교 정심화홀에서 전국투어 콘서트 'THE GREATEST : 전율' 대전 공연을 연다. 관람 시간은 약 120분, 8세 이상 관람가이며 티켓은 VIP석 14만3000원, R석 12만1000원, S석 9만9000원이다. 폭발적인 고음으로 알려진 소향과 거친 음색의 김기태가 한 무대에 올라 번갈아 솔로와 합동 무대를 꾸리는 구성이다. 티켓은 10월 8일 오후 6시 티켓링크에서 일반예매로 열렸다.",
       "genres": [
         "발라드",
         "보컬",
@@ -7815,7 +7815,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-10-08T18:00:00+09:00",
       "general_sale_url": "https://www.ticketlink.co.kr/product/66167",
-      "updated_at": "2026-10-08"
+      "updated_at": "2026-11-18"
     },
     {
       "id": "ko-and2ble-winter-inside-fancon-seoul-20261205",
@@ -7863,7 +7863,7 @@
       ],
       "developer": "장우영(2PM)",
       "publisher": null,
-      "description": "2PM 장우영이 11월 14일과 15일 이틀간 서울 광진구 예스24 라이브홀에서 솔로 단독 콘서트를 연다. 그룹이 아닌 솔로 명의 공연으로, 서울을 시작으로 12월 효고, 2027년 1월 도쿄, 3월 타이베이까지 4개 도시 7회 일정이 이어진다. 예매는 예스24 단독으로, 공식 팬클럽 선예매(10월 15일)와 HOTTEST 9기 선예매(16일)를 거쳐 10월 19일 오후 8시에 일반예매가 열린다.",
+      "description": "2PM 장우영이 11월 14일과 15일 이틀간 서울 광진구 예스24 라이브홀에서 솔로 단독 콘서트를 열었다. 그룹이 아닌 솔로 명의 공연으로, 서울을 시작으로 12월 효고, 2027년 1월 도쿄, 3월 타이베이까지 4개 도시 7회 일정이 이어진다. 예매는 예스24 단독으로, 공식 팬클럽 선예매(10월 15일)와 HOTTEST 9기 선예매(16일)를 거쳐 10월 19일 오후 8시에 일반예매가 열렸다.",
       "genres": [
         "K-POP",
         "콘서트"
@@ -7871,14 +7871,14 @@
       "image_url": null,
       "source_url": "https://enews.imbc.com/News/RetrieveNewsInfo/521355",
       "presale": false,
-      "presale_datetime": "2026-10-15T20:00:00+09:00",
-      "presale_end_datetime": "2026-10-15T23:59:00+09:00",
+      "presale_datetime": null,
+      "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
-      "general_sale_datetime": "2026-10-19T20:00:00+09:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-29",
+      "updated_at": "2026-11-18",
       "related_locale_ids": {
         "en": "en-jang-wooyoung-solo-concert-seoul-20261114"
       }
@@ -7960,25 +7960,25 @@
       ],
       "developer": "빌리(Billlie)",
       "publisher": "MYSTIC, 드림어스컴퍼니",
-      "description": "그룹 빌리(Billlie)가 데뷔 5주년을 맞아 11월 15일 오후 7시 서울 서강대학교 메리홀 대극장에서 팬콘서트 'The Heist Squad'를 단 1회 연다. 사기꾼·해커·운전자 등 '작전 팀' 콘셉트를 내건 약 100분 공연이다. 티켓은 멜론티켓 단독 판매로, 팬클럽 선예매 인증(10월 20~27일)을 거쳐 선예매가 10월 26일 오후 8시, 일반예매가 29일 오후 8시에 열린다. 전석 12만1000원, 1인 2매 한정이며 8세 이상(미취학 아동 불가) 관람가다.",
+      "description": "그룹 빌리(Billlie)가 데뷔 5주년을 맞아 11월 15일 오후 7시 서울 서강대학교 메리홀 대극장에서 팬콘서트 'The Heist Squad'를 단 1회 열었다. 사기꾼·해커·운전자 등 '작전 팀' 콘셉트를 내건 약 100분 공연이었다. 티켓은 멜론티켓 단독 판매로, 팬클럽 선예매 인증(10월 20~27일)을 거쳐 선예매가 10월 26일 오후 8시, 일반예매가 29일 오후 8시에 열렸다. 전석 12만1000원, 1인 2매 한정이었으며 8세 이상(미취학 아동 불가) 관람가였다.",
       "genres": [
         "K-POP",
         "팬콘서트"
       ],
       "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/10/202610190943333882e6ba-5ae6-4d73-8ab9-8d2949bb2d1a.jpg",
       "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13084",
-      "presale": true,
-      "presale_datetime": "2026-10-26T20:00:00+09:00",
-      "presale_end_datetime": "2026-10-27T23:59:00+09:00",
-      "presale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13084",
-      "general_sale": true,
-      "general_sale_datetime": "2026-10-29T20:00:00+09:00",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13084",
+      "general_sale_url": null,
       "related_locale_ids": {
         "en": "en-billlie-the-heist-squad-fancon-seoul-20261115"
       },
-      "updated_at": "2026-10-22"
+      "updated_at": "2026-11-18"
     },
     {
       "id": "ko-nctwish-face-our-wish-seoul-20270115",
@@ -8026,7 +8026,7 @@
       ],
       "developer": null,
       "publisher": "카카오엔터테인먼트(멜론)",
-      "description": "카카오엔터테인먼트의 음악 플랫폼 멜론이 여는 시상식 MMA2026이 11월 14일과 15일 서울 고척스카이돔에서 열린다. 18년 역사상 처음으로 이틀에 걸쳐 진행되며 두 날 모두 오후 6시 시작이다. 첫날은 에스파·NCT 드림·에이티즈 등 14팀, 둘째 날은 아이브·코르티스·NCT 127 등 12팀이 무대에 선다. 티켓은 멜론티켓에서 멜론 회원만 살 수 있는데, 1차(1년 이상 GOLD 등급 이상)는 10월 19일에 마감됐고 2차는 이용권 보유자 대상으로 10월 22일 오후 8시에 열린다. 두 차례 합쳐 멜론 ID당 2매까지다.",
+      "description": "카카오엔터테인먼트의 음악 플랫폼 멜론이 여는 시상식 MMA2026이 11월 14일과 15일 서울 고척스카이돔에서 열렸다. 18년 역사상 처음으로 이틀에 걸친 일정이었으며 두 날 모두 오후 6시 시작이었다. 첫날은 에스파·NCT 드림·에이티즈 등 14팀, 둘째 날은 아이브·코르티스·NCT 127 등 12팀이 출연진으로 발표됐다. 티켓은 멜론티켓에서 멜론 회원만 살 수 있었는데, 1차(1년 이상 GOLD 등급 이상)는 10월 19일에 마감됐고 2차는 이용권 보유자 대상으로 10월 22일 오후 8시에 열렸다. 두 차례 합쳐 멜론 ID당 2매까지였다.",
       "genres": [
         "K-POP",
         "시상식"
@@ -8034,17 +8034,17 @@
       "image_url": null,
       "source_url": "https://www.etoday.co.kr/news/view/2637167",
       "presale": false,
-      "presale_datetime": "2026-10-19T20:00:00+09:00",
-      "presale_end_datetime": "2026-10-19T23:59:00+09:00",
+      "presale_datetime": null,
+      "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
-      "general_sale_datetime": "2026-10-22T20:00:00+09:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
       "related_locale_ids": {
         "en": "en-mma-2026-20261114"
       },
-      "updated_at": "2026-10-22"
+      "updated_at": "2026-11-18"
     },
     {
       "id": "ko-epikhigh-2027-concert-seoul-20270122",
@@ -8405,7 +8405,7 @@
       ],
       "developer": "크래비티(CRAVITY)",
       "publisher": "스타쉽엔터테인먼트, 쇼노트",
-      "description": "크래비티가 11월 14일과 15일 이틀간 서울 올림픽공원 올림픽홀에서 단독 콘서트 'SONOROUS(소노로스)'를 연다. 공연 제목은 9월 30일 발매한 아홉 번째 미니앨범 'SONOROUS'에서 따왔고, 15일 공연은 해외 팬을 위해 온라인으로도 동시 생중계된다. 티켓은 멜론티켓에서 판매되며, 11월 5일 오후 8시에는 1층 G·H구역과 2층 A2·E2구역 시야제한석이 추가로 풀린다. 서울 공연 뒤 11월 21일 부산 KBS홀로 무대를 옮긴다.",
+      "description": "크래비티가 11월 14일과 15일 이틀간 서울 올림픽공원 올림픽홀에서 단독 콘서트 'SONOROUS(소노로스)'를 열었다. 공연 제목은 9월 30일 발매한 아홉 번째 미니앨범 'SONOROUS'에서 따왔고, 15일 공연은 해외 팬을 위해 온라인으로도 동시 생중계되는 것으로 안내됐다. 티켓은 멜론티켓에서 판매됐으며, 11월 5일 오후 8시에는 1층 G·H구역과 2층 A2·E2구역 시야제한석이 추가로 풀렸다. 서울 공연 뒤 11월 21일 부산 KBS홀로 무대를 옮긴다.",
       "genres": [
         "K-POP",
         "콘서트"
@@ -8416,11 +8416,11 @@
       "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-11-09",
+      "updated_at": "2026-11-18",
       "related_locale_ids": {
         "en": "en-cravity-sonorous-seoul-20261114"
       }
