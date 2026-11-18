@@ -2,9 +2,32 @@
 
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
-| ko | 2026-11-09 | ← |
-| en | 2026-11-13 | |
+| ko | 2026-11-18 | |
+| en | 2026-11-13 | ← |
 | ja | 2026-11-16 | |
+
+---
+
+## 2026-11-18 · ko
+
+로테이션상 ko가 가장 오래된 점검일(2026-11-09)이라 선택. 대상 창: 2026-09-19 ~ 2027-01-17(오늘 ±60일), 창 안 항목 159건(끝난 것 94 / 예정 65). 코드는 손대지 않았고 `data/concerts.ko.json`만 수정(파일 상단 `last_updated` 2026-11-18). push 전 `validate-data.mjs` 통과(기존 en 설명 복사 묶음 경고만). 고친 항목·트랙 B 확인 항목 모두 `updated_at=2026-11-18`.
+
+**트랙 A (졸업 처리) — 8건**
+- A-1/A-2 끝난 공연(11/13~11/15)의 예매 필드·플래그 정리 + description 과거형(§7대로 `presale`/`general_sale=false` + 존재하는 예매 URL·datetime 필드 null, 시제만 교정 — 새 사실 추가 없음): ko-kimfeel-journey-concert-seoul-20261114("세트리스트가 예상된다" 문장 삭제→"맞물린 일정이었다"), ko-choiyuree-stay-daegu-20261114, ko-txt-steal-the-wind-seoul-20261113, ko-lyn-home-seoul-20261113, ko-jangwooyoung-solo-concert-seoul-20261114(이후 효고·도쿄·타이베이 일정 문장은 미래라 유지), ko-billlie-the-heist-squad-fancon-seoul-20261115, ko-mma-2026-20261114(출연은 "출연진으로 발표됐다"로 실제 진행 단정 회피), ko-cravity-sonorous-seoul-20261114(11/21 부산 문장 유지)
+- A-3: ko-postmalone-big-stadium-tour-seoul-20261002 approx=true 유지(지난 회차와 동일 판단)
+- ⚠️ **의도적 제외 — ko-sjf-theater-baekyerin-yoonseokcheol-seoul-20261117**: `release_date`는 추가된 11/17 회차지만 원래 회차 11/21(토)이 남아 있어 판매 중. 졸업 처리 안 함. 다만 `hasEventEnded()`가 release_date만 보므로(festival_days는 festival 전용) **화면에선 이미 예매 종료로 표시되고 있을 것** — 데이터 구조 문제라 Auditor 권한 밖. 운영자/리서처 판단 필요(11/21 회차 별도 항목 분리 등)
+- 확인 후 손대지 않음: kimyongbin·okf·edc·persona·youngtak·jarasum·bol4·lisa·triples·riize의 "예정" 매치는 과거 맥락 — 지난 회차 판단과 동일. txt의 "추후 공지될 예정이었다"는 이번 교정 결과
+
+**트랙 B (임박 점검) — 8건 확인** (`updated_at` 오래된 순 7건 + 3일 앞 임박 1건)
+- ko-mulasakiima-purple-shelter-seoul-20261212 — 스포츠경향(9/17) 첫 내한 기사로 12/12 일정 재확인, 취소 공지 없음. 변경 없음
+- ko-penthouse-neon-garden-seoul-20261219 — 씨네플레이 기사로 12월 첫 단독 내한 재확인, 취소 공지 없음. 변경 없음
+- ko-the-greatest-sohyang-kimkitae-goyang-20261212 / ko-johangjo-saenggak-goyang-20261212 / ko-kimjanghoon-dasinalda-goyang-20261213 — 티켓링크 오픈 공지(66074/66073/66075) 생존·날짜·시각 일치, NOL 상품(26014150/26014100/26014108)도 같은 날짜·공연장으로 판매 중. B-4로 `general_sale_url`(NOL) 보강, 소향·조항조는 "티켓링크와 NOL 티켓에서 예매한다"로 문장 보강
+- ko-yuhki-kuramoto-peacefully-gimhae-20261215 / -daegu-20261216 — NOL 26014068·26013986: 12/15 김해 마루홀·12/16 천마아트센터 19:30 일치(11/24 일괄배송). 지난 일반예매 문장 시제 교정
+- ko-the-greatest-sohyang-kimkitae-daejeon-20261121 — 티켓링크 66131 / NOL 26014572: 11/21(토) 13시 충남대 정심화홀 일치. 지난 일반예매 문장 시제 교정
+- B-3 링크: 8건 source/image/예매 URL 16개 접속 — 전부 200. ticket.yes24.com/Perf/60203·59886은 봇매니저 차단 페이지로 리다이렉트 — 봇 차단으로 판단, 죽은 링크로 단정 안 함
+
+**남은 것**: 트랙 A 대기 없음(sjf 건은 위 구조 문제). 트랙 B 다음 순번: ko-binyeseo-gift-seoul-20261227, ko-namjin-60th-chilgok-20261206, ko-vos-2nd-reunion-cheonan-20261218, ko-kimjungmin-jeongminihyeong-seoul-20261225, ko-vos-2nd-reunion-gyeongsan-20261226, ko-soran-layering-seoul-20261121 등 오래된 순. 지난 회차 이월분(고경표 팬미팅 publisher 원문 확인) 미처리
+**리서처 참고(추가 안 함)**: '소향 X 김기태 THE GREATEST : 전율' NOL에 서울(26015730)·전주·춘천·원주·군산·대구·울산·목포·부산 회차가 별도 상품으로 있음 — 미등록 회차 여부 확인 권장. 김장훈 '다시 날다' 부산(26013504)·창원(26013424) 회차도 확인 권장
 
 ---
 
