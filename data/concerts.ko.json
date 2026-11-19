@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-18",
+  "last_updated": "2026-11-19",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -8914,6 +8914,127 @@
       "image_url": null,
       "source_url": "https://www.joynews24.com/view/2026410",
       "updated_at": "2026-11-16"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13294",
+      "updated_at": "2026-11-19",
+      "id": "ko-theboyz-zeneration3-seoul-20261224",
+      "name": "2026 THE BOYZ CONCERT : ZENERATION Ⅲ",
+      "release_date": "2026-12-24",
+      "release_time": "19:30",
+      "category": "concert_tour",
+      "platforms": [
+        "KSPO DOME(올림픽체조경기장)"
+      ],
+      "developer": "더보이즈(THE BOYZ)",
+      "publisher": "세븐에잇레코즈, 본부엔터테인먼트",
+      "description": "더보이즈가 9인 완전체로 12월 24일(목) 오후 7시 30분, 25일(금) 오후 6시, 26일(토) 오후 5시, 27일(일) 오후 4시 서울 KSPO DOME에서 4회 단독 콘서트 'ZENERATION Ⅲ'를 연다. 9월 세븐에잇레코즈로 이적한 뒤 처음 여는 단독 공연이자, 군 복무를 마친 상연이 합류해 4월 같은 장소에서 약속했던 재회를 약 8개월 만에 지키는 무대다. 'ZENERATION' 시리즈를 잇는 공연으로, 멜론티켓 공지 기준 티켓은 전석 19만8000원이다.",
+      "genres": [
+        "K-pop",
+        "콘서트"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/11/2026111315220611104a2f-2804-457c-8cc6-74ee876d870d.jpg",
+      "source_url": "https://isplus.com/article/view/isp202611130112"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-11-18T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-19",
+      "id": "ko-2am-again-today-paju-20261226",
+      "name": "2026 2am 콘서트 '다시, 오늘'",
+      "release_date": "2026-12-26",
+      "release_time": "18:00",
+      "category": "concert_tour",
+      "platforms": [
+        "성신여자대학교(운정그린캠퍼스 대강당)"
+      ],
+      "developer": "2am",
+      "publisher": null,
+      "description": "조권·이창민·임슬옹·정진운 네 멤버의 2am이 완전체로 12월 26일(토) 오후 6시와 27일(일) 오후 5시 경기 파주 성신여자대학교 운정그린캠퍼스 대강당에서 단독 콘서트 '다시, 오늘'을 연다. 지난 6월 서울 공연 '오늘, 2am'의 흐름을 잇는 무대로, '이 노래', '죽어도 못 보내' 등 히트곡을 중심으로 꾸민다. 티켓은 11월 18일(수) 오후 8시 예스24 티켓에서 단독으로 열렸다.",
+      "genres": [
+        "발라드",
+        "K-pop",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://isplus.com/article/view/isp202611160050"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-19",
+      "id": "ko-forestella-beyond-edge-of-light-goyang-20261224",
+      "name": "2026-27 FORESTELLA CONCERT [BEYOND : EDGE OF LIGHT] 고양",
+      "release_date": "2026-12-24",
+      "release_time": null,
+      "category": "concert_tour",
+      "platforms": [
+        "킨텍스(제2전시장 9B홀)"
+      ],
+      "developer": "포레스텔라(Forestella)",
+      "publisher": null,
+      "description": "크로스오버 그룹 포레스텔라가 12월 24일과 25일 경기 고양 킨텍스 제2전시장 9B홀에서 연말 콘서트 'BEYOND : EDGE OF LIGHT'를 2회 연다. 정규 4집 'THE LEGACY' 전국 투어 'THE LEGACY: SYMPHONY'를 마무리한 뒤 여는 크리스마스 공연으로, 포스터에는 'AND THE FINAL CONCERT'라는 문구가 들어갔다. 일정은 11월 5일 공식 SNS로 공개됐고, 이어 2027년 1월부터 북미 투어 'BEYOND : ACROSS THE HORIZON'이 이어진다.",
+      "genres": [
+        "크로스오버",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://enews.imbc.com/News/ViewAmp/523808"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-19",
+      "id": "ko-forestella-beyond-edge-of-light-daejeon-20270103",
+      "name": "2026-27 FORESTELLA CONCERT [BEYOND : EDGE OF LIGHT] in Daejeon",
+      "release_date": "2027-01-03",
+      "release_time": null,
+      "category": "concert_tour",
+      "platforms": [
+        "대전컨벤션센터(제2전시장 3·4홀)"
+      ],
+      "developer": "포레스텔라(Forestella)",
+      "publisher": null,
+      "description": "포레스텔라의 'BEYOND : EDGE OF LIGHT' 대전 공연은 2027년 1월 3일 대전컨벤션센터 제2전시장 3·4홀에서 한 차례 열린다. 고양 킨텍스 크리스마스 2회 공연에 이어지는 국내 마지막 회차로, 문화체육관광부와 한국콘텐츠진흥원의 '2026 대중음악 공연 지역개최 활성화 사업'에 선정돼 국고 보조금을 받는다. 이 공연을 끝으로 1월 9일 로스앤젤레스를 시작으로 북미 8개 도시 투어에 나선다.",
+      "genres": [
+        "크로스오버",
+        "콘서트"
+      ],
+      "image_url": null,
+      "source_url": "https://sports.khan.co.kr/en/article/202611122024007"
     }
   ]
 }
