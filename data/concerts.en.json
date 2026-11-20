@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-17",
+  "last_updated": "2026-11-20",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -11122,6 +11122,38 @@
         "ko": "ko-exo-kase-waking-up-the-city-20261201"
       },
       "updated_at": "2026-11-17"
+    },
+    {
+      "id": "en-the-boyz-zeneration-3-seoul-20261224",
+      "name": "2026 THE BOYZ CONCERT: ZENERATION III",
+      "release_date": "2026-12-24",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KSPO Dome, Seoul(Olympic Park)"
+      ],
+      "developer": "THE BOYZ",
+      "publisher": "78RECORDS, BONBOO ENTERTAINMENT",
+      "description": "THE BOYZ return as a full nine-member group for ZENERATION III, four Christmas-week shows at KSPO Dome in Seoul: December 24 at 7:30 p.m., December 25 at 6 p.m., December 26 at 5 p.m. and December 27 at 4 p.m. KST. It is their first solo concert since moving to 78RECORDS in September. Tickets are sold only through Melon Ticket. Overseas fans use the Melon Ticket Global page, where THE B membership holders get a fan club presale on November 24 at 8 p.m. KST (one day after the Korean page), with fan club verification open until 11:59 p.m. that night. General sale opens on both pages November 25 at 8 p.m. KST. All seats cost 198,000 won (168,300 won in the fan club presale), up to four tickets per show, ages 8 and up. Tickets bought on the global page are collected on site.",
+      "genres": [
+        "K-Pop",
+        "Concert"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/11/2026111315220611104a2f-2804-457c-8cc6-74ee876d870d.jpg",
+      "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13294",
+      "presale": true,
+      "presale_datetime": "2026-11-24T20:00:00+09:00",
+      "presale_end_datetime": "2026-11-24T23:59:00+09:00",
+      "presale_url": "https://tkglobal.melon.com/",
+      "general_sale": false,
+      "general_sale_datetime": "2026-11-25T20:00:00+09:00",
+      "general_sale_url": "https://tkglobal.melon.com/",
+      "related_locale_ids": {
+        "ko": "ko-theboyz-zeneration3-seoul-20261224"
+      },
+      "updated_at": "2026-11-20"
     }
   ]
 }
