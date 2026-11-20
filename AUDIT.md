@@ -3,8 +3,32 @@
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
 | ko | 2026-11-18 | |
-| en | 2026-11-13 | ← |
-| ja | 2026-11-16 | |
+| en | 2026-11-20 | |
+| ja | 2026-11-16 | ← |
+
+---
+
+## 2026-11-20 · en
+
+로테이션상 en이 가장 오래된 점검일(2026-11-13)이라 선택. 대상 창: 2026-09-21 ~ 2027-01-19(오늘 ±60일), 창 안 항목 224건(끝난 것 146 / 예정 78). 코드는 손대지 않았고 `data/concerts.en.json`만 수정(파일 상단 `last_updated` 2026-11-20). push 전 `validate-data.mjs` 통과(기존 설명 복사 묶음 경고만 — Ghost·Bryan Adams·Jonas Brothers). 고친 항목·트랙 B 확인 항목 모두 `updated_at=2026-11-20`.
+
+**트랙 A (졸업 처리) — 15건**
+- A-1/A-2 끝난 공연의 예매 필드·플래그 정리 + description 해당 공연 문장 과거형(§7대로 `presale`/`general_sale=false` + 존재하는 예매 URL·datetime 필드 null. 새 사실 추가 없음 — 실제 진행 단정 대신 "were scheduled to / was billed"로, 투어 잔여 일정 서술은 유지): en-dave-matthews-band-fall-tour-new-york-20261112(지난 회차 이월분, MSG 11/13 종료 후 일반예매 정리), en-txt-steal-the-wind-seoul-20261113(11/15 종료), en-camp-flog-gnaw-carnival-2026-20261114(11/15 종료, AXS general_sale_url 잔존), en-jorja-smith-what-are-the-odds-los-angeles-20261114, en-rush-fifty-something-pittsburgh-20261115, en-silverstein-story-of-the-year-camp-screamo-2-seattle-20261116, en-usher-chris-brown-rb-tour-los-angeles-20261116, en-amorphis-insomnium-boston-20261117, en-jonas-brothers-hollywood-bowl-20261118, en-lindsey-stirling-snow-waltz-hollywood-20261118, en-5sos-everyones-a-star-seoul-20261119, en-jang-wooyoung-solo-concert-seoul-20261114, en-mma-2026-20261114(festival_days 11/15 종료, 출연은 "announced for"로), en-billlie-the-heist-squad-fancon-seoul-20261115, en-cravity-sonorous-seoul-20261114(11/21 부산 별도 항목은 손대지 않음)
+- A-3: en-post-malone-big-stadium-seoul-20261002 approx=true 유지(지난 회차와 동일 판단)
+- 오탐(손대지 않음): "on sale" 매치 다수(ocean-way·michelle-branch·ringo·rush-houston·lets-rock·monsta-x·godsmack·triples·national·jodeci·faint·quadeca·jannabi·park-jinyoung)는 "went on sale" 등 과거 맥락, nice-as-fuck·nexz는 지난 회차와 동일 판단
+
+**트랙 B (임박 점검) — 8건 확인** (`updated_at` 없는 항목, 공연일 가까운 순)
+- en-down-volume-v-20261120 — Blabbermouth·The Metallist·iMusic(Nuclear Blast 4065629770402): 11/20 발매 일치. 변경 없음(오늘 발매라 시제 유지)
+- en-katseye-wildworld-tour-los-angeles-20261121 — Crypto.com Arena 공식 이벤트 페이지(katseye26)·LA Live 생존, 11/21·22 양일. 취소 없음. 변경 없음
+- en-syd-beard-tour-atlanta-20261124 / en-syd-beard-tour-brooklyn-20261201 — Pollstar 원문 생존, 취소 공지 없음. 변경 없음
+- en-nia-archives-emotional-world-tour-london-20261126 — AEG Presents 이벤트 페이지 생존, ents24·Stereoboard에 11/26 Alexandra Palace 유지. 변경 없음
+- en-the-darkness-crock-of-hits-20261127 — Louder·Spill·Earache: 11/27 발매 일치. 변경 없음
+- en-rock-the-bells-festival-2026-20261129 — NJArts·Pollstar: 11/29 Prudential Center 유지. "Further additions are promised" 문장이 낡아 Pollstar(9/17) "Adds Raekwon, Ghostface Killah" 기준으로 교체, `developer`·`festival_days` 라인업에 두 명 추가(Onyx 등 기타 추가분은 원문 미확인이라 미기입)
+- en-beat-fall-tour-inglewood-20261202 — YouTube Theater 공식 이벤트 페이지(beat-1) 존재, 취소 없음. 변경 없음
+- B-3 링크: 8건 source/image/예매 URL 12개 접속 — 재확인 후 9개 200. ticketmaster(BEAT)·axs.com UK(Nia Archives) 403 2회 — 봇 차단으로 판단. upload.wikimedia.org(Nia Archives 이미지) 429 레이트리밋, Commons 파일 페이지 200이라 생존 판단. `www.rockthebellsfestival.com`은 TLS 인증서 오류(self-signed)로 접속 불가, apex `rockthebellsfestival.com`은 200 — 프록시 경로 문제일 수 있어 단정 안 하고 그대로 둠(다음 회차 재확인)
+
+**남은 것**: 트랙 A 대기 없음. en-jamila-woods-10-years-of-heavn-portland-20261119 / en-katseye-wildworld-tour-oakland-20261119는 점검 시각 기준 현지(PT) 날짜가 아직 11/19라 미종료 — 다음 회차 트랙 A 대상. 트랙 B 다음 순번: en-esdeekid-council-house-rat-london-20261203, en-the-darkness-glasgow-20261208, en-jonas-brothers-burning-up-all-over-again-denver-20261209, en-the-darkness-leeds-20261209, en-goose-goosemas-atlantic-city-20261211, en-iron-maiden-50th-anniversary-box-set-20261211부터
+**운영자/리서처 참고(추가 안 함)**: ① en-the-darkness-crock-of-hits-20261127 `image_url` 파일명이 "HollywoodVamps…"라 The Darkness 사진이 아닐 가능성 — 확인 권장(생존 링크라 손대지 않음) ② Camp Flog Gnaw `festival_days` 미보강 건은 이미 종료 ③ 신규 미등록 공연 발견 없음
 
 ---
 
