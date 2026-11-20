@@ -7035,7 +7035,7 @@
       ],
       "developer": "Dave Matthews Band",
       "publisher": null,
-      "description": "Dave Matthews Band close their fall 2026 arena tour with two nights at Madison Square Garden on November 12 and 13, both starting at 7:30 PM. The six-city run opened November 4 at the Kohl Center in Madison, Wisconsin and passes through Nashville, Chicago, Providence and Baltimore on the way to New York. A presale for members of the band's Warehouse Fan Association ran first, and general tickets went on sale August 21, 2026 at 10 a.m. local time.",
+      "description": "Dave Matthews Band were scheduled to close their fall 2026 arena tour with two nights at Madison Square Garden on November 12 and 13, both starting at 7:30 PM. The six-city run opened November 4 at the Kohl Center in Madison, Wisconsin and was routed through Nashville, Chicago, Providence and Baltimore on the way to New York. A presale for members of the band's Warehouse Fan Association ran first, and general tickets went on sale August 21, 2026 at 10 a.m. local time.",
       "genres": [
         "Rock",
         "Jam",
@@ -7044,9 +7044,9 @@
       "image_url": null,
       "source_url": "https://news.pollstar.com/2026/08/11/dave-matthews-band-announces-2026-fall-tour/",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-21T10:00:00-04:00",
-      "updated_at": "2026-11-13"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "updated_at": "2026-11-20"
     },
     {
       "id": "en-jake-bugg-alamo-20261113",
@@ -7087,18 +7087,18 @@
       ],
       "developer": "TOMORROW X TOGETHER",
       "publisher": "BIGHIT MUSIC",
-      "description": "TOMORROW X TOGETHER open their STEAL THE WIND world tour with three nights at KSPO Dome in Seoul's Olympic Park: November 13 at 7 p.m., November 14 at 6 p.m. and November 15 at 5 p.m. KST, 2026, before the run continues through Asia, Japan, North America and Europe. All three nights stream live on Weverse Concerts for MOA outside Korea. Tickets are sold through NOL, with MOA membership presales on separate domestic and global pages ahead of general sale; on the global page, membership verification runs September 28 to October 2, with presale October 2 and general sale October 6. The shows are rated for ages 9 and up.",
+      "description": "TOMORROW X TOGETHER were scheduled to open their STEAL THE WIND world tour with three nights at KSPO Dome in Seoul's Olympic Park: November 13 at 7 p.m., November 14 at 6 p.m. and November 15 at 5 p.m. KST, 2026, before the run continues through Asia, Japan, North America and Europe. All three nights were set to stream live on Weverse Concerts for MOA outside Korea. Tickets were sold through NOL, with MOA membership presales on separate domestic and global pages ahead of general sale; on the global page, membership verification ran September 28 to October 2, with presale October 2 and general sale October 6. The shows were rated for ages 9 and up.",
       "genres": [
         "K-Pop",
         "Concert"
       ],
       "image_url": null,
       "source_url": "https://www.koreajoongangdaily.com/entertainment/tomorrow-x-together-announces-venue-for-seoul-concert-to-kickstart-world-tour/12874371",
-      "updated_at": "2026-10-13",
-      "presale": true,
-      "presale_datetime": "2026-10-01T20:00:00+09:00",
-      "general_sale": true,
-      "general_sale_datetime": "2026-10-06T20:00:00+09:00",
+      "updated_at": "2026-11-20",
+      "presale": false,
+      "presale_datetime": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
       "related_locale_ids": {
         "ko": "ko-txt-steal-the-wind-seoul-20261113"
       }
@@ -7117,7 +7117,7 @@
         "Dodger Stadium, Los Angeles, CA"
       ],
       "developer": "Tyler, the Creator, Turnstile, Steve Lacy, Future, Don Toliver",
-      "description": "Tyler, the Creator's Camp Flog Gnaw Carnival returns to the Dodger Stadium lot on November 14 and 15, 2026. Tyler headlines alongside Turnstile, Steve Lacy, Future and Don Toliver, with Vince Staples, Earl Sweatshirt, J.I.D, Lupe Fiasco, Isaiah Rashad, Wallows, Magdalena Bay, Lola Young and Syd also billed. Goldenvoice revealed the lineup as a set of word scrambles; passes sold out weeks earlier and only a waitlist remains.",
+      "description": "Tyler, the Creator's Camp Flog Gnaw Carnival was scheduled to return to the Dodger Stadium lot on November 14 and 15, 2026. Tyler was billed to headline alongside Turnstile, Steve Lacy, Future and Don Toliver, with Vince Staples, Earl Sweatshirt, J.I.D, Lupe Fiasco, Isaiah Rashad, Wallows, Magdalena Bay, Lola Young and Syd also billed. Goldenvoice revealed the lineup as a set of word scrambles; passes sold out weeks earlier and only a waitlist remained.",
       "genres": [
         "Hip-Hop",
         "Festival",
@@ -7125,8 +7125,9 @@
       ],
       "source_url": "https://www.rollingstone.com/music/music-news/camp-flog-gnaw-2026-tyler-the-creator-steve-lacy-turnstile-1235611575/",
       "general_sale": false,
-      "general_sale_url": "https://www.axs.com/events/1475989/camp-flog-gnaw-2026-tickets",
-      "updated_at": "2026-11-13"
+      "general_sale_url": null,
+      "updated_at": "2026-11-20",
+      "presale": false
     },
     {
       "release_time": null,
@@ -7134,7 +7135,7 @@
       "publisher": null,
       "image_url": null,
       "presale": false,
-      "general_sale": true,
+      "general_sale": false,
       "id": "en-jorja-smith-what-are-the-odds-los-angeles-20261114",
       "name": "Jorja Smith: What Are The Odds North American Tour - Los Angeles (Opening Night)",
       "release_date": "2026-11-14",
@@ -7144,14 +7145,14 @@
         "Orpheum Theatre, Los Angeles, CA"
       ],
       "developer": "Jorja Smith",
-      "description": "Jorja Smith opens her five-date North American run at the Orpheum Theatre in Los Angeles on November 14, 2026, ahead of shows in San Francisco, Toronto, Brooklyn and Chicago. The dates cap a heavy touring year that included three nights supporting Harry Styles in Mexico City and festival slots across Europe and South America, and they follow the August 21 release of her album What Are The Odds on FAMM. General sale opened August 7 through Ticketmaster and AXS.",
+      "description": "Jorja Smith was scheduled to open her five-date North American run at the Orpheum Theatre in Los Angeles on November 14, 2026, ahead of shows in San Francisco, Toronto, Brooklyn and Chicago. The dates capped a heavy touring year that included three nights supporting Harry Styles in Mexico City and festival slots across Europe and South America, and they followed the August 21 release of her album What Are The Odds on FAMM. General sale opened August 7 through Ticketmaster and AXS.",
       "genres": [
         "R&B",
         "Soul",
         "Concert"
       ],
       "source_url": "https://news.pollstar.com/2026/08/07/jorja-smith-announces-north-american-fall-run/",
-      "updated_at": "2026-11-13"
+      "updated_at": "2026-11-20"
     },
     {
       "release_time": null,
@@ -7189,7 +7190,7 @@
       ],
       "developer": "Rush",
       "publisher": null,
-      "description": "Rush play PPG Paints Arena in Pittsburgh on November 15, 2026, the latest of four cities added to the Fifty Something Tour in August 2026. The other additions are Houston on October 1, St. Louis on October 21 and Cincinnati on October 23. The tour was already routed into April 2027 before the band found room for the extra fall dates.",
+      "description": "Rush were scheduled to play PPG Paints Arena in Pittsburgh on November 15, 2026, the latest of four cities added to the Fifty Something Tour in August 2026. The other additions were Houston on October 1, St. Louis on October 21 and Cincinnati on October 23. The tour was already routed into April 2027 before the band found room for the extra fall dates.",
       "genres": [
         "Rock",
         "Progressive Rock",
@@ -7198,9 +7199,9 @@
       "image_url": null,
       "source_url": "https://www.rush.com/4-new-rush-2026-tour-dates-added/",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-09-04T10:00:00-04:00",
-      "updated_at": "2026-11-13"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "updated_at": "2026-11-20"
     },
     {
       "id": "en-silverstein-story-of-the-year-camp-screamo-2-seattle-20261116",
@@ -7215,7 +7216,7 @@
       ],
       "developer": "Silverstein & Story of the Year",
       "publisher": null,
-      "description": "Silverstein and Story of the Year open Camp Screamo 2 at Showbox SoDo in Seattle on November 16, 2026. The co-headlining run covers 24 North American dates through December 13 at Citizens House of Blues in Boston, following the pair's first Camp Screamo leg earlier in the year. Stand Atlantic and Footballhead support throughout. Presales began July 28 with the code CAMPSCREAMO via Ticketmaster, and the general on-sale was July 31 at 10 a.m. local time.",
+      "description": "Silverstein and Story of the Year were set to open Camp Screamo 2 at Showbox SoDo in Seattle on November 16, 2026. The co-headlining run covers 24 North American dates through December 13 at Citizens House of Blues in Boston, following the pair's first Camp Screamo leg earlier in the year. Stand Atlantic and Footballhead support throughout. Presales began July 28 with the code CAMPSCREAMO via Ticketmaster, and the general on-sale was July 31 at 10 a.m. local time.",
       "genres": [
         "Rock",
         "Tour"
@@ -7223,14 +7224,14 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Silverstein_Live_Studio_Session_Digital_Promos.jpg/330px-Silverstein_Live_Studio_Session_Digital_Promos.jpg",
       "source_url": "https://consequence.net/2026/07/silverstein-story-of-the-year-camp-screamo-2-tour/",
       "presale": false,
-      "presale_datetime": "2026-07-28T10:00:00-07:00",
+      "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
-      "general_sale_datetime": "2026-07-31T10:00:00-07:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-11-13"
+      "updated_at": "2026-11-20"
     },
     {
       "release_time": null,
@@ -7246,7 +7247,7 @@
         "SoFi Stadium, Los Angeles, CA"
       ],
       "developer": "Usher, Chris Brown, Mario, Eric Bellinger, Tank",
-      "description": "Usher and Chris Brown close their Los Angeles run with a fourth SoFi Stadium show on November 16, 2026, added after the first three dates sold quickly. The Live Nation production runs close to three hours and trades the two catalogues back and forth across nine staged acts, with Mario, Eric Bellinger and Tank performing alongside them and segments paying tribute to Prince, Michael Jackson and Marvin Gaye.",
+      "description": "Usher and Chris Brown were scheduled to close their Los Angeles run with a fourth SoFi Stadium show on November 16, 2026, added after the first three dates sold quickly. The Live Nation production runs close to three hours and trades the two catalogues back and forth across nine staged acts, with Mario, Eric Bellinger and Tank performing alongside them and segments paying tribute to Prince, Michael Jackson and Marvin Gaye.",
       "genres": [
         "R&B",
         "Hip-Hop",
@@ -7254,10 +7255,10 @@
       ],
       "source_url": "https://www.sofistadium.com/news/detail/chris-brown-usher-add-eight-new-stadium-dates-to-the-rb-tour-following-incredible-fan-demand",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-24T10:00:00-07:00",
-      "general_sale_url": "https://www.ticketmaster.com/usher-raymond-chris-brown-tickets/artist/4314089",
-      "updated_at": "2026-11-13"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-20"
     },
     {
       "id": "en-amorphis-insomnium-boston-20261117",
@@ -7272,7 +7273,7 @@
       ],
       "developer": "Amorphis, Insomnium",
       "publisher": null,
-      "description": "Amorphis and Insomnium launch their North American co-headline tour at Paradise Rock Club in Boston on November 17, 2026, the first of 25 dates. From Boston the two Finnish bands cross straight into Canada for Montreal's Theatre Beanfield and Toronto's Concert Hall on the next two nights before heading west through the Midwest. Texas melodic death metal act Hinayana open the bill.",
+      "description": "Amorphis and Insomnium were scheduled to launch their North American co-headline tour at Paradise Rock Club in Boston on November 17, 2026, the first of 25 dates. From Boston the two Finnish bands were routed straight into Canada for Montreal's Theatre Beanfield and Toronto's Concert Hall on the next two nights before heading west through the Midwest. Texas melodic death metal act Hinayana open the bill.",
       "genres": [
         "Melodic Death Metal",
         "Metal",
@@ -7280,8 +7281,9 @@
       ],
       "image_url": null,
       "source_url": "https://consequence.net/2026/09/amorphis-insomnium-fall-2026-tour/",
-      "general_sale": true,
-      "updated_at": "2026-10-20"
+      "general_sale": false,
+      "updated_at": "2026-11-20",
+      "presale": false
     },
     {
       "release_time": null,
@@ -7297,17 +7299,17 @@
         "Hollywood Bowl, Los Angeles, CA"
       ],
       "developer": "Jonas Brothers, All Time Low, Magnus Ferrell, Deleasa",
-      "description": "The Jonas Brothers bring The Burning Up Tour All Over Again to Hollywood Bowl in Los Angeles on November 18, 2026, one of 45 North American arena stops on the Live Nation run that grew out of their sold-out Madison Square Garden celebrations in August 2026. The show revisits the 2008 Burning Up Tour that broke Kevin, Joe and Nick Jonas nationally, rebuilt for arenas nearly two decades later. All Time Low, Magnus Ferrell and Deleasa joins as support.",
+      "description": "The Jonas Brothers were scheduled to bring The Burning Up Tour All Over Again to Hollywood Bowl in Los Angeles on November 18, 2026, one of 45 North American arena stops on the Live Nation run that grew out of their sold-out Madison Square Garden celebrations in August 2026. The show revisits the 2008 Burning Up Tour that broke Kevin, Joe and Nick Jonas nationally, rebuilt for arenas nearly two decades later. All Time Low, Magnus Ferrell and Deleasa were billed as support.",
       "genres": [
         "Pop Rock",
         "Tour"
       ],
       "source_url": "https://variety.com/2026/music/news/jonas-brothers-2026-burning-up-north-american-tour-dates-1236836312/",
-      "general_sale": true,
-      "general_sale_url": "https://www.ticketmaster.com/jonas-brothers-tickets/artist/1225870",
+      "general_sale": false,
+      "general_sale_url": null,
       "presale": false,
-      "general_sale_datetime": "2026-08-21T10:00:00-07:00",
-      "updated_at": "2026-09-22"
+      "general_sale_datetime": null,
+      "updated_at": "2026-11-20"
     },
     {
       "id": "en-lindsey-stirling-snow-waltz-hollywood-20261118",
@@ -7319,7 +7321,7 @@
         "Hard Rock Live, Hollywood, FL"
       ],
       "developer": "Lindsey Stirling, ARKAI",
-      "description": "Lindsey Stirling launches her 25-city Snow Waltz Holiday Tour on November 18, 2026 at Hard Rock Live in Hollywood, Florida. The theatrical production pairs her violin playing with dance and staging built around holiday material, then works north and west through Syracuse, Philadelphia, St. Louis and Tucson, including a three-night stand in Las Vegas, before finishing in Texas on December 23. Electroacoustic duo ARKAI supports every date.",
+      "description": "Lindsey Stirling was scheduled to launch her 25-city Snow Waltz Holiday Tour on November 18, 2026 at Hard Rock Live in Hollywood, Florida. The theatrical production pairs her violin playing with dance and staging built around holiday material, then works north and west through Syracuse, Philadelphia, St. Louis and Tucson, including a three-night stand in Las Vegas, before finishing in Texas on December 23. Electroacoustic duo ARKAI supports every date.",
       "genres": [
         "Classical Crossover",
         "Holiday",
@@ -7327,13 +7329,13 @@
       ],
       "source_url": "https://consequence.net/2026/08/lindsey-stirling-2026-snow-waltz-holiday-tour-dates/",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-28T10:00:00-04:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "release_time": "19:00",
       "release_date_approx": false,
       "image_url": null,
       "publisher": null,
-      "updated_at": "2026-11-13"
+      "updated_at": "2026-11-20"
     },
     {
       "id": "en-5sos-everyones-a-star-seoul-20261119",
@@ -7348,7 +7350,7 @@
       ],
       "developer": "5 Seconds of Summer",
       "publisher": null,
-      "description": "Australian band 5 Seconds of Summer headline KINTEX Hall 1 in Goyang on November 19, 2026, their first standalone Korean concert and their first appearance in the country since the 2017 Pentaport Rock Festival. Every ticket is standing, priced from 143,000 won up to a 320,000 won VIP package, and sold through NOL Interpark Ticket. The EVERYONE'S A STAR! set is built as a career-spanning retrospective. Showtime is 7:30 p.m. KST.",
+      "description": "Australian band 5 Seconds of Summer were scheduled to headline KINTEX Hall 1 in Goyang on November 19, 2026, their first standalone Korean concert and their first appearance in the country since the 2017 Pentaport Rock Festival. Every ticket was standing, priced from 143,000 won up to a 320,000 won VIP package, and sold through NOL Interpark Ticket. The EVERYONE'S A STAR! set was billed as a career-spanning retrospective. Showtime was 7:30 p.m. KST.",
       "genres": [
         "Pop Rock",
         "Alternative",
@@ -7356,12 +7358,13 @@
       ],
       "image_url": null,
       "source_url": "https://sports.khan.co.kr/en/article/202604300217007",
-      "updated_at": "2026-09-22",
-      "general_sale": true,
-      "general_sale_datetime": "2026-05-13T19:00:00+09:00",
+      "updated_at": "2026-11-20",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "related_locale_ids": {
         "ko": "ko-5sos-everyones-a-star-seoul-20261119"
-      }
+      },
+      "presale": false
     },
     {
       "id": "en-jamila-woods-10-years-of-heavn-portland-20261119",
@@ -7433,7 +7436,8 @@
       "source_url": "https://www.nuclearblast.com/blogs/news/down-announce-volume-v-for-november-20th-single-video-blood-oath-now-playing",
       "release_time": null,
       "release_date_approx": false,
-      "image_url": null
+      "image_url": null,
+      "updated_at": "2026-11-20"
     },
     {
       "release_time": null,
@@ -7484,7 +7488,8 @@
       "image_url": null,
       "source_url": "https://consequence.net/2026/05/katseye-2026-wildworld-tour-how-to-get-tickets/",
       "general_sale": true,
-      "presale": false
+      "presale": false,
+      "updated_at": "2026-11-20"
     },
     {
       "id": "en-monsta-x-the-x-nexus-encore-incheon-20261121",
@@ -7592,7 +7597,8 @@
       "presale": true,
       "presale_datetime": "2026-09-16T10:00:00-05:00",
       "general_sale": true,
-      "general_sale_datetime": "2026-09-18T10:00:00-05:00"
+      "general_sale_datetime": "2026-09-18T10:00:00-05:00",
+      "updated_at": "2026-11-20"
     },
     {
       "release_time": null,
@@ -7618,7 +7624,8 @@
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": "2026-08-27T10:00:00+01:00",
-      "general_sale_url": "https://www.axs.com/uk/events/1562167/nia-archives-tickets"
+      "general_sale_url": "https://www.axs.com/uk/events/1562167/nia-archives-tickets",
+      "updated_at": "2026-11-20"
     },
     {
       "id": "en-dynamic-duo-once-in-a-while-seoul-20261127",
@@ -7671,7 +7678,8 @@
         "Compilation"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/HollywoodVampsSSe200618-69_(42513700740).jpg/960px-HollywoodVampsSSe200618-69_(42513700740).jpg",
-      "source_url": "https://www.thedarknesslive.com/the-darkness-announce-greatest-hits-album-crock-of-hits-plus-intimate-london-album-launch-show/"
+      "source_url": "https://www.thedarknesslive.com/the-darkness-announce-greatest-hits-album-crock-of-hits-plus-intimate-london-album-launch-show/",
+      "updated_at": "2026-11-20"
     },
     {
       "id": "en-gong-yoo-the-long-take-seoul-20261128",
@@ -7714,9 +7722,9 @@
       "platforms": [
         "Prudential Center, Newark, NJ"
       ],
-      "developer": "LL Cool J, SWV, Method Man & Redman, Lil' Kim, D-Nice, The LOX, LeToya Luckett, David Banner",
+      "developer": "LL Cool J, SWV, Method Man & Redman, Lil' Kim, D-Nice, The LOX, LeToya Luckett, David Banner, Raekwon, Ghostface Killah",
       "publisher": "Rock The Bells / Black Promoters Collective",
-      "description": "Rock The Bells Festival returns to the Prudential Center in Newark on Sunday, November 29, 2026, closing Hip-Hop History Month over Thanksgiving weekend. Founder LL Cool J headlines alongside SWV, Method Man & Redman and Lil' Kim, plus a D-Nice-curated set featuring LeToya Luckett, David Banner and The LOX. Further additions are promised in the weeks ahead.",
+      "description": "Rock The Bells Festival returns to the Prudential Center in Newark on Sunday, November 29, 2026, closing Hip-Hop History Month over Thanksgiving weekend. Founder LL Cool J headlines alongside SWV, Method Man & Redman and Lil' Kim, plus a D-Nice-curated set featuring LeToya Luckett, David Banner and The LOX. Raekwon and Ghostface Killah were added to the lineup in September.",
       "genres": [
         "Hip-Hop",
         "R&B",
@@ -7740,10 +7748,13 @@
             "D-Nice",
             "The LOX",
             "LeToya Luckett",
-            "David Banner"
+            "David Banner",
+            "Raekwon",
+            "Ghostface Killah"
           ]
         }
-      ]
+      ],
+      "updated_at": "2026-11-20"
     },
     {
       "id": "en-lord-huron-broken-bottle-nashville-20261201",
@@ -7796,7 +7807,8 @@
       "presale": true,
       "presale_datetime": "2026-09-16T10:00:00-05:00",
       "general_sale": true,
-      "general_sale_datetime": "2026-09-18T10:00:00-05:00"
+      "general_sale_datetime": "2026-09-18T10:00:00-05:00",
+      "updated_at": "2026-11-20"
     },
     {
       "id": "en-amorphis-insomnium-seattle-20261202",
@@ -7846,7 +7858,8 @@
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": "2026-08-07T10:00:00-07:00",
-      "general_sale_url": "https://www.ticketmaster.com/beat-tickets/artist/1860703"
+      "general_sale_url": "https://www.ticketmaster.com/beat-tickets/artist/1860703",
+      "updated_at": "2026-11-20"
     },
     {
       "id": "en-malcolm-todd-do-that-again-seoul-20261202",
@@ -10107,18 +10120,18 @@
       ],
       "developer": "Jang Wooyoung",
       "publisher": null,
-      "description": "2PM's Jang Wooyoung returns with his first solo concert in about a year, two shows at YES24 Live Hall in Seoul on November 14 and 15, 2026, where he plans to perform a new song for the first time. Tickets are sold on YES24: the official fan club presale ran October 15, the HOTTEST 9th-term presale opens October 16 at 8pm KST, and the general sale starts October 19 at 8pm KST. Hyogo, Tokyo and Taipei dates follow the Seoul shows.",
+      "description": "2PM's Jang Wooyoung was scheduled to return with his first solo concert in about a year, two shows at YES24 Live Hall in Seoul on November 14 and 15, 2026, where he planned to perform a new song for the first time. Tickets were sold on YES24: the official fan club presale ran October 15, the HOTTEST 9th-term presale opened October 16 at 8pm KST, and the general sale started October 19 at 8pm KST. Hyogo, Tokyo and Taipei dates follow the Seoul shows.",
       "genres": [
         "K-Pop",
         "Concert"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Wooyoung_Press_Conference_2PM_House_Party_Bangkok_2016_3.png",
       "source_url": "https://sports.khan.co.kr/en/article/202610160139007/",
-      "presale": true,
-      "presale_datetime": "2026-10-15T20:00:00+09:00",
-      "general_sale": true,
-      "general_sale_datetime": "2026-10-19T20:00:00+09:00",
-      "updated_at": "2026-10-23",
+      "presale": false,
+      "presale_datetime": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "updated_at": "2026-11-20",
       "related_locale_ids": {
         "ko": "ko-jangwooyoung-solo-concert-seoul-20261114"
       }
@@ -10250,7 +10263,7 @@
       ],
       "developer": null,
       "publisher": "Kakao Entertainment",
-      "description": "The 18th Melon Music Awards run over two nights for the first time, at Gocheok Sky Dome in Seoul on November 14 and 15, 2026, from 6 p.m. KST each day, with aespa, NCT DREAM and ATEEZ among 14 acts on night one and IVE, CORTIS and NCT 127 among 12 on night two. Tickets are sold on Melon Ticket to Melon members only: round one on October 19 at 8 p.m. KST is for subscribers of at least a year with GOLD grade or higher, and round two on October 22 at 8 p.m. is open to any current Melon pass holder, two tickets per Melon ID in total. No separate global sale has been announced; overseas fans can stream it on the Melon and 1theK YouTube channels.",
+      "description": "The 18th Melon Music Awards were scheduled over two nights for the first time, at Gocheok Sky Dome in Seoul on November 14 and 15, 2026, from 6 p.m. KST each day, with aespa, NCT DREAM and ATEEZ among 14 acts announced for night one and IVE, CORTIS and NCT 127 among 12 for night two. Tickets were sold on Melon Ticket to Melon members only: round one on October 19 at 8 p.m. KST was for subscribers of at least a year with GOLD grade or higher, and round two on October 22 at 8 p.m. was open to any current Melon pass holder, two tickets per Melon ID in total. No separate global sale was announced; overseas fans could stream it on the Melon and 1theK YouTube channels.",
       "genres": [
         "K-Pop",
         "Awards",
@@ -10258,12 +10271,12 @@
       ],
       "image_url": null,
       "source_url": "https://www.etoday.co.kr/news/view/2637167",
-      "presale": true,
-      "presale_datetime": "2026-10-19T20:00:00+09:00",
-      "presale_end_datetime": "2026-10-19T23:59:00+09:00",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
-      "general_sale_datetime": "2026-10-22T20:00:00+09:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_url": null,
       "festival_days": [
         {
@@ -10303,7 +10316,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-23",
+      "updated_at": "2026-11-20",
       "related_locale_ids": {
         "ko": "ko-mma-2026-20261114"
       }
@@ -10353,21 +10366,21 @@
       ],
       "developer": "Billlie",
       "publisher": "MYSTIC STORY, Dreamus Company",
-      "description": "Billlie mark five years since their debut with The Heist Squad, a single fan concert at Sogang University's Mary Hall Grand Theater in Seoul on November 15, 2026 at 7 p.m. KST, running about 100 minutes. Every seat costs 121,000 won, with a limit of two tickets per person. Sales are on Melon Ticket: the fan club presale opens October 26 at 8 p.m. KST after a verification window from October 20 to 27, and general sale follows on October 29 at 8 p.m. KST. Ages 8 and up.",
+      "description": "Billlie were set to mark five years since their debut with The Heist Squad, a single fan concert at Sogang University's Mary Hall Grand Theater in Seoul on November 15, 2026 at 7 p.m. KST, running about 100 minutes. Every seat cost 121,000 won, with a limit of two tickets per person. Sales were on Melon Ticket: the fan club presale opened October 26 at 8 p.m. KST after a verification window from October 20 to 27, and general sale followed on October 29 at 8 p.m. KST. Ages 8 and up.",
       "genres": [
         "K-Pop",
         "Fan Meeting"
       ],
       "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/10/202610190943333882e6ba-5ae6-4d73-8ab9-8d2949bb2d1a.jpg",
       "source_url": "https://www.allkpop.com/article/2026/10/billlie-to-celebrate-5th-debut-anniversary-with-fan-concert-the-heist-squad-in-november",
-      "presale": true,
-      "presale_datetime": "2026-10-26T20:00:00+09:00",
-      "presale_end_datetime": "2026-10-27T23:59:00+09:00",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
-      "general_sale_datetime": "2026-10-29T20:00:00+09:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-23",
+      "updated_at": "2026-11-20",
       "related_locale_ids": {
         "ko": "ko-billlie-the-heist-squad-fancon-seoul-20261115"
       }
@@ -10728,7 +10741,7 @@
       ],
       "developer": "CRAVITY",
       "publisher": "Starship Entertainment, SHOWNOTE",
-      "description": "CRAVITY bring SONOROUS, named after their ninth mini album, to Olympic Hall in Seoul's Olympic Park on November 14 and 15. Starship Entertainment says the November 15 show will also stream live online for global fans who cannot make the trip. Melon Ticket sells the shows on both its Korean and Global pages, and it will release extra obstructed-view seats in sections G, H, A2 and E2 on November 5 at 8 p.m. KST, capped at two per person per show.",
+      "description": "CRAVITY were scheduled to bring SONOROUS, named after their ninth mini album, to Olympic Hall in Seoul's Olympic Park on November 14 and 15. Starship Entertainment said the November 15 show would also stream live online for global fans who could not make the trip. Melon Ticket sold the shows on both its Korean and Global pages, and it scheduled extra obstructed-view seats in sections G, H, A2 and E2 for release on November 5 at 8 p.m. KST, capped at two per person per show.",
       "genres": [
         "K-Pop",
         "Concert"
@@ -10738,13 +10751,13 @@
       "presale": false,
       "presale_datetime": null,
       "presale_url": null,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_url": null,
       "related_locale_ids": {
         "ko": "ko-cravity-sonorous-seoul-20261114"
       },
-      "updated_at": "2026-11-03"
+      "updated_at": "2026-11-20"
     },
     {
       "id": "en-cravity-sonorous-busan-20261121",
