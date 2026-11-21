@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-18",
+  "last_updated": "2026-11-21",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -8526,6 +8526,106 @@
       ],
       "description": "LE SSERAFIMの2度目のワールドツアー〈PUREFLOW〉の日本追加公演で、グループ初となる京セラドーム大阪での2日間。12月19日（土）は開場15:00／開演17:00、20日（日）は開場14:00／開演16:00。指定席16,500円（税込）、FEARNOT Membership会員限定でVIP席へのアップグレード（+11,000円）も用意された。一般販売は11月7日10:00からローチケ・チケットぴあ・イープラスほかで先着順に行われている。新曲「AEIOU」のステージ初披露も予告されている。",
       "source_url": "https://www.hybejapan-concert.com/statics/le-sserafim_pureflow_kyocera_dome_osaka"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": "ウドー音楽事務所",
+      "image_url": "https://www.udo.jp/media/97qOKkvr4JGc51tuAIfudezoxzuS8IYk0HuO9sHD.jpg",
+      "presale": true,
+      "presale_datetime": "2026-10-31T12:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": "https://w.pia.jp/p/bonjovi27udoms/",
+      "general_sale": false,
+      "general_sale_datetime": "2026-11-28T10:00:00+09:00",
+      "general_sale_url": "https://w.pia.jp/t/bonjovi-2027/",
+      "updated_at": "2026-11-21",
+      "id": "ja-bon-jovi-forever-tour-tokyo-dome-20270225",
+      "name": "BON JOVI FOREVER TOUR 東京ドーム公演",
+      "release_date": "2027-02-25",
+      "release_time": "19:00",
+      "category": "concert_tour",
+      "platforms": [
+        "東京ドーム"
+      ],
+      "developer": "Bon Jovi",
+      "genres": [
+        "ロック"
+      ],
+      "description": "ボン・ジョヴィが〈BON JOVI FOREVER TOUR〉で来日し、東京ドームで2公演を行う。2月25日（木）は開場17:30／開演19:00、27日（土）は開場15:30／開演17:00。VIPパッケージのほかゴールド席8万円からB席1万円まで席種が分かれ、グループ席も用意された。ウドー・メンバーズ先行（先着・S席）は11月27日18:00まで、チケットぴあ先行も受付中で、一般発売は11月28日10:00から。企画・招聘・制作はウドー音楽事務所、主催はJ-WAVE・TOKYO FM・BAYFM78。",
+      "source_url": "https://www.udo.jp/shows/BonJovi27"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": null,
+      "image_url": null,
+      "presale": true,
+      "presale_datetime": "2026-10-31T21:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": "https://hana.b-rave.tokyo/tour/borntobloom2/",
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-21",
+      "id": "ja-hana-arena-tour-2027-born-to-bloom-2-20270320",
+      "name": "HANA Arena Tour 2027 “Born to Bloom Ⅱ”",
+      "release_date": "2027-03-20",
+      "release_time": "18:00",
+      "category": "concert_tour",
+      "platforms": [
+        "横浜アリーナ",
+        "長野市オリンピック記念アリーナ（エムウェーブ）",
+        "マリンメッセ福岡（A館）",
+        "朱鷺メッセ・新潟コンベンションセンター",
+        "セキスイハイムスーパーアリーナ",
+        "日本ガイシホール（クロコくんホール）",
+        "あなぶきアリーナ香川",
+        "広島グリーンアリーナ",
+        "GLION ARENA KOBE",
+        "真駒内セキスイハイムアイスアリーナ",
+        "大阪城ホール",
+        "さいたまスーパーアリーナ（GMOアリーナさいたま）",
+        "サンドーム福井",
+        "静岡エコパアリーナ",
+        "沖縄サントリーアリーナ"
+      ],
+      "developer": "HANA",
+      "genres": [
+        "J-POP"
+      ],
+      "description": "HANAにとって初のアリーナツアーで、2027年3月20日・21日の横浜アリーナを皮切りに8月7日・8日の沖縄サントリーアリーナまで全国15会場30公演を土日2日間ずつ回る。初日の横浜は開場17:00／開演18:00。一般指定席・着席指定席は13,000円、アップグレードのSS指定席は18,000円（税込）。FC会員とB-Town〈Architect〉会員の1次先行は11月15日で締め切られ、B-Town〈Resident〉会員1次先行（抽選）が11月25日18:00〜12月6日23:59に受け付けられる。",
+      "source_url": "https://hana.b-rave.tokyo/tour/borntobloom2/news/261031/"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "publisher": "スターダストプロモーション",
+      "image_url": null,
+      "presale": false,
+      "presale_datetime": "2026-10-17T18:00:00+09:00",
+      "presale_end_datetime": "2026-10-25T23:59:00+09:00",
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-21",
+      "id": "ja-momoclo-arena-tour-2027-vogue-and-romance-20270320",
+      "name": "MOMOIRO CLOVER Z ARENA TOUR 2027 “VOGUE AND ROMANCE”",
+      "release_date": "2027-03-20",
+      "release_time": "17:30",
+      "category": "concert_tour",
+      "platforms": [
+        "ぴあアリーナMM",
+        "神戸ワールド記念ホール",
+        "有明アリーナ"
+      ],
+      "developer": "ももいろクローバーZ",
+      "genres": [
+        "J-POP"
+      ],
+      "description": "ももいろクローバーZが2027年3月3日発売の8thアルバム『VOGUE AND ROMANCE』を携えて行うアリーナツアー。ぴあアリーナMM（3月20日・21日）、神戸ワールド記念ホール（4月24日・25日）、有明アリーナ（5月8日・9日）の3会場6公演で、土曜は「Chronostasis」公演（開場16:30／開演17:30）、日曜は「Singularity」公演（開場15:30／開演16:30）と内容が分かれる。指定席・着席指定席は12,800円。ANGEL EYES会員先行（抽選）は10月25日に締め切られ、一般発売日は未発表。",
+      "source_url": "https://www.momoclo.net/archives/news/261017_01"
     }
   ]
 }
