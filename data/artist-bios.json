@@ -1501,6 +1501,30 @@
         "agency": "두루두루 아티스트 컴퍼니",
         "members": "4인조 밴드",
         "debut": "2014"
+      },
+      "2am": {
+        "text": "2am은 조권, 이창민, 임슬옹, 정진운으로 구성된 4인조 보컬 그룹이다. 2008년 7월 11일 JYP엔터테인먼트에서 데뷔해 '이 노래', '죽어도 못 보내', '전활 받지 않는 너에게' 등 발라드곡으로 큰 사랑을 받았다. 멤버들이 각자 솔로·연기·뮤지컬 활동을 이어 오다 완전체로 다시 모였고, 2026년 연말 단독 콘서트 '다시, 오늘'을 연다.",
+        "agency": null,
+        "members": "4인조",
+        "debut": "2008.07.11"
+      },
+      "더보이즈": {
+        "text": "더보이즈(THE BOYZ)는 2017년 12월 데뷔한 보이그룹으로, 현재 상연, 제이콥, 영훈, 현재, 주연, 케빈, 큐, 선우, 에릭 9인 체제로 활동한다. 퍼포먼스와 무대 콘셉트로 주목받았고 Mnet '로드 투 킹덤' 우승으로 이름을 넓혔다. 2026년 원헌드레드와의 전속계약 분쟁 이후 9인이 신생 레이블 세븐에잇레코즈를 통해 단체 활동을 이어 가고 있으며, 연말 KSPO DOME에서 콘서트 'ZENERATION Ⅲ'를 연다.",
+        "agency": "세븐에잇레코즈",
+        "members": "9인조",
+        "debut": "2017.12"
+      },
+      "엑소-카이세훈": {
+        "text": "엑소-카이세훈(EXO-KASE)은 엑소의 카이와 세훈이 결성한 SM엔터테인먼트의 2인조 유닛이다. 2026년 12월 1일 두 멤버의 솔로곡을 포함해 7곡을 담은 첫 미니앨범 'Waking Up The City'로 데뷔하며, 이어 팬콘 투어 'SILENT CITY'로 아시아 여러 도시를 찾는다.",
+        "agency": "SM엔터테인먼트",
+        "members": "2인조",
+        "debut": "2026.12.01"
+      },
+      "포레스텔라": {
+        "text": "포레스텔라(Forestella)는 배두훈, 강형호, 조민규, 고우림으로 이뤄진 4인조 크로스오버 보컬 그룹이다. 2017년 JTBC '팬텀싱어 2'에서 최종 우승하며 결성됐고, 2018년 3월 14일 정규 1집 'Evolution'으로 데뷔했다. 성악과 팝, 록을 넘나드는 화음과 편곡으로 사랑받으며 '불후의 명곡' 등 방송과 전국 투어로 활동을 이어 오고 있다.",
+        "agency": null,
+        "members": "4인조",
+        "debut": "2018.03.14"
       }
     },
     "en": {
@@ -3339,6 +3363,108 @@
         "agency": "Dirty Hit",
         "members": "Solo",
         "debut": "2017"
+      },
+      "EXO-KASE": {
+        "text": "EXO-KASE is a duo unit of EXO members Kai and Sehun under SM Entertainment. The pair debut on December 1, 2026, with their first EP 'Waking Up The City', a seven-track record that includes a solo song from each member, followed by the 'SILENT CITY' fan concert tour across Asia.",
+        "agency": "SM Entertainment",
+        "members": "Duo",
+        "debut": "2026.12.01"
+      },
+      "THE BOYZ": {
+        "text": "THE BOYZ is a South Korean boy group that debuted in December 2017 and now promotes as nine members: Sangyeon, Jacob, Younghoon, Hyunjae, Juyeon, Kevin, Q, Sunwoo and Eric. Known for high-concept performances, they won Mnet's 'Road to Kingdom' in 2020. After a 2026 contract dispute with One Hundred, the nine continue group activities through the new label SevenEight Records and play 'ZENERATION III' at Seoul's KSPO DOME in December 2026.",
+        "agency": "SevenEight Records",
+        "members": "9 members",
+        "debut": "2017.12"
+      },
+      "Metallica": {
+        "text": "Metallica is a heavy metal band formed in Los Angeles in 1981 by drummer Lars Ulrich and singer-guitarist James Hetfield, with guitarist Kirk Hammett and bassist Robert Trujillo completing the current lineup. Their debut 'Kill 'Em All' (1983) helped define thrash metal, and the 1991 self-titled 'Black Album' became one of the best-selling records of its era. Their M72 World Tour supports the 2023 album '72 Seasons'.",
+        "agency": null,
+        "members": "4-piece band",
+        "debut": "1983"
+      },
+      "Oasis": {
+        "text": "Oasis is a rock band from Manchester, England, led by brothers Liam and Noel Gallagher. Their debut 'Definitely Maybe' (1994) and '(What's the Story) Morning Glory?' (1995) made them the defining band of Britpop, with songs like 'Wonderwall', 'Don't Look Back in Anger' and 'Live Forever'. The group split in 2009 and reunited for the Oasis Live '25 tour.",
+        "agency": null,
+        "members": "Band",
+        "debut": "1994"
+      },
+      "Bruno Mars": {
+        "text": "Bruno Mars is a singer, songwriter and producer from Honolulu, Hawaii. He broke through in 2010 with 'Just the Way You Are' from his debut album 'Doo-Wops & Hooligans', and later hits such as 'Uptown Funk' and the album '24K Magic' blended pop, funk and R&B. He also formed the duo Silk Sonic with Anderson .Paak.",
+        "agency": "Atlantic Records",
+        "members": "Solo",
+        "debut": "2010"
+      },
+      "The Weeknd": {
+        "text": "The Weeknd (Abel Tesfaye) is a Canadian singer-songwriter from Toronto. He first drew attention with self-released mixtapes in 2011, then reached global stardom with 'Can't Feel My Face' and 'Blinding Lights', the latter from the 2020 album 'After Hours'. His dark, cinematic take on R&B and synth-pop carries through his stadium tour 'After Hours til Dawn'.",
+        "agency": null,
+        "members": "Solo",
+        "debut": "2011"
+      },
+      "Olivia Rodrigo": {
+        "text": "Olivia Rodrigo is an American singer-songwriter who rose to fame with her 2021 debut single 'drivers license'. Her debut album 'SOUR' (2021) and follow-up 'GUTS' (2023) mixed confessional pop with pop-punk energy and won her multiple Grammy Awards.",
+        "agency": "Geffen Records",
+        "members": "Solo",
+        "debut": "2021"
+      },
+      "Billie Eilish": {
+        "text": "Billie Eilish is an American singer-songwriter from Los Angeles who writes and records with her brother Finneas O'Connell. After the 2015 song 'Ocean Eyes' went viral, her debut album 'When We All Fall Asleep, Where Do We Go?' (2019) topped charts worldwide. Later works include 'Happier Than Ever' (2021) and 'Hit Me Hard and Soft' (2024), and she has won Academy Awards for the songs 'No Time to Die' and 'What Was I Made For?'.",
+        "agency": "Darkroom / Interscope Records",
+        "members": "Solo",
+        "debut": "2015"
+      },
+      "Kendrick Lamar": {
+        "text": "Kendrick Lamar is a rapper and songwriter from Compton, California. His albums 'good kid, m.A.A.d city' (2012), 'To Pimp a Butterfly' (2015) and 'DAMN.' (2017) earned wide acclaim, and 'DAMN.' won the Pulitzer Prize for Music. His 2024 single 'Not Like Us' became a cultural phenomenon, and he headlined the Super Bowl halftime show in 2025.",
+        "agency": "pgLang",
+        "members": "Solo",
+        "debut": "2011"
+      },
+      "SZA": {
+        "text": "SZA (Solána Rowe) is an R&B singer-songwriter from New Jersey signed to Top Dawg Entertainment. Her debut album 'Ctrl' (2017) was praised for its candid songwriting, and its follow-up 'SOS' (2022) spawned the hit 'Kill Bill' and spent many weeks at No. 1 in the US.",
+        "agency": "Top Dawg Entertainment",
+        "members": "Solo",
+        "debut": "2017"
+      },
+      "Linkin Park": {
+        "text": "Linkin Park is a rock band from Agoura Hills, California, whose debut album 'Hybrid Theory' (2000) fused nu-metal, hip-hop and electronic sounds and became one of the best-selling debuts of the century. After singer Chester Bennington's death in 2017 the band went on hiatus, then returned in 2024 with new vocalist Emily Armstrong, the album 'From Zero' and the From Zero World Tour.",
+        "agency": "Warner Records",
+        "members": "Band",
+        "debut": "2000"
+      },
+      "Lana Del Rey": {
+        "text": "Lana Del Rey is an American singer-songwriter whose 2011 song 'Video Games' introduced her cinematic, melancholic style. Her major-label debut 'Born to Die' (2012) was followed by acclaimed records such as 'Norman Fucking Rockwell!' (2019) and 'Did You Know That There's a Tunnel Under Ocean Blvd' (2023).",
+        "agency": null,
+        "members": "Solo",
+        "debut": "2011"
+      },
+      "Megadeth": {
+        "text": "Megadeth is a thrash metal band formed in Los Angeles in 1983 by guitarist and singer Dave Mustaine after his departure from Metallica. Albums such as 'Peace Sells... but Who's Buying?' (1986) and 'Rust in Peace' (1990) made them one of thrash metal's 'Big Four'.",
+        "agency": null,
+        "members": "Band",
+        "debut": "1985"
+      },
+      "System of a Down": {
+        "text": "System of a Down is an Armenian-American metal band from Los Angeles made up of Serj Tankian, Daron Malakian, Shavo Odadjian and John Dolmayan. Their album 'Toxicity' (2001) and singles like 'Chop Suey!' combined heavy riffs with sudden shifts in tempo and politically charged lyrics.",
+        "agency": null,
+        "members": "4-piece band",
+        "debut": "1998"
+      },
+      "Jonas Brothers": {
+        "text": "Jonas Brothers is a pop-rock band of brothers Kevin, Joe and Nick Jonas from New Jersey. They became teen stars in the late 2000s through Disney Channel projects such as 'Camp Rock', split in 2013, and reunited in 2019 with the No. 1 hit 'Sucker'.",
+        "agency": null,
+        "members": "3 members",
+        "debut": "2006"
+      },
+      "Nine Inch Nails": {
+        "text": "Nine Inch Nails is an industrial rock project led by Trent Reznor, formed in Cleveland in 1988, with Atticus Ross as a permanent member since 2016. Albums such as 'Pretty Hate Machine' (1989) and 'The Downward Spiral' (1994) brought industrial music to the mainstream, and Reznor and Ross have also won Academy Awards for their film scores.",
+        "agency": null,
+        "members": "Band",
+        "debut": "1989"
+      },
+      "Usher": {
+        "text": "Usher is an R&B singer, songwriter and dancer born in Dallas, Texas, who grew up in Chattanooga, Tennessee, and Atlanta. He released his debut album in 1994 and became one of the defining R&B stars of the late '90s and 2000s with albums like 'My Way' and 'Confessions' (2004), whose singles included 'Yeah!' and 'Burn'. He headlined the Super Bowl halftime show in 2024.",
+        "agency": null,
+        "members": "Solo",
+        "debut": "1994"
       }
     },
     "ja": {
@@ -4775,6 +4901,18 @@
         "agency": null,
         "members": "4人組",
         "debut": "2017.03"
+      },
+      "Bon Jovi": {
+        "text": "ボン・ジョヴィはアメリカ・ニュージャージー州出身のロックバンド。ジョン・ボン・ジョヴィを中心に1983年に結成され、翌1984年にアルバム『夜明けのランナウェイ』でデビューした。「リヴィン・オン・ア・プレイヤー」や「イッツ・マイ・ライフ」などのヒットで世界的な人気を得て、日本でも東京ドーム公演を重ねてきた。",
+        "agency": null,
+        "members": "バンド",
+        "debut": "1984"
+      },
+      "ももいろクローバーZ": {
+        "text": "ももいろクローバーZは百田夏菜子、玉井詩織、佐々木彩夏、高城れにの4人で活動するアイドルグループ。2008年に「ももいろクローバー」として結成され、2010年にシングル「行くぜっ!怪盗少女」でメジャーデビュー、2011年に現在のグループ名に改めた。全力のパフォーマンスとジャンルを越えた楽曲で国立競技場など大規模公演を成功させてきた。",
+        "agency": "スターダストプロモーション",
+        "members": "4人組",
+        "debut": "2008"
       }
     }
   }
