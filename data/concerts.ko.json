@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-19",
+  "last_updated": "2026-11-23",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -2308,7 +2308,10 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/2025-12-08_Taemin_at_AHC_event_04_%28cropped%29.jpg",
       "source_url": "https://www.heraldmuse.com/article/10822616",
-      "updated_at": "2026-10-19"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-taemin-phase-1-soft-violence-20260831"
+      }
     },
     {
       "id": "ko-82major-heat-20260901",
@@ -3521,7 +3524,10 @@
       "general_sale_datetime": "2026-04-07T12:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-09-25"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-post-malone-big-stadium-seoul-20261002"
+      }
     },
     {
       "id": "ko-andteam-blaze-the-way-encore-seoul-20261003",
@@ -3548,7 +3554,10 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-12"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-andteam-blaze-the-way-encore-seoul-20261003"
+      }
     },
     {
       "id": "ko-choiyuree-stay-seoul-20261003",
@@ -3605,8 +3614,11 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-12",
-      "presale": false
+      "updated_at": "2026-11-23",
+      "presale": false,
+      "related_locale_ids": {
+        "en": "en-edc-korea-2026-20261003"
+      }
     },
     {
       "id": "ko-leehi-hibiscus-garden-live-20261003",
@@ -3690,7 +3702,10 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-12"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-lets-rock-festival-2026-20261003"
+      }
     },
     {
       "id": "ko-nakajimakento-idol1st-kenty-seoul-20261003",
@@ -3930,7 +3945,10 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-12"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-zara-larsson-midnight-sun-seoul-20261004"
+      }
     },
     {
       "id": "ko-theweeknd-after-hours-til-dawn-goyang-20261007",
@@ -3961,7 +3979,10 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-12"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-the-weeknd-after-hours-til-dawn-seoul-20261007"
+      }
     },
     {
       "id": "ko-10cm-the-missing-tracks-seoul-20261009",
@@ -3992,7 +4013,10 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-12"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-10cm-the-missing-tracks-seoul-20261009"
+      }
     },
     {
       "id": "ko-jarasum-jazz-2026-20261009",
@@ -4014,7 +4038,10 @@
       ],
       "image_url": null,
       "source_url": "https://kr.ambafrance-culture.org/ko/evenement/%EC%9E%90%EB%9D%BC%EC%84%AC%EC%9E%AC%EC%A6%88%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C-2026-%ED%8F%AC%EC%BB%A4%EC%8A%A4-%ED%94%84%EB%9E%91%EC%8A%A4/",
-      "updated_at": "2026-10-12"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-jarasum-jazz-festival-2026-20261009"
+      }
     },
     {
       "id": "ko-jx-core-incheon-20261009",
@@ -4075,7 +4102,10 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-12"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-lee-chang-sub-unknown-seoul-20261016"
+      }
     },
     {
       "id": "ko-pentagon-101010-seoul-20261009",
@@ -4105,7 +4135,10 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-12"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-pentagon-101010-seoul-20261009"
+      }
     },
     {
       "id": "ko-yosea-asia-tour-seoul-20261009",
@@ -4164,7 +4197,10 @@
       "general_sale_datetime": null,
       "general_sale_url": null,
       "presale_datetime": null,
-      "updated_at": "2026-10-19"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-allhours-rise-up-seoul-20261010"
+      }
     },
     {
       "id": "ko-charlieputh-whatevers-clever-goyang-20261011",
@@ -4194,7 +4230,10 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-19"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-charlie-puth-whatevers-clever-seoul-20261011"
+      }
     },
     {
       "id": "ko-hwangminhyun-dowongyeong-seoul-20261016",
@@ -4224,7 +4263,10 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-19"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-hwang-minhyun-peach-blossom-seoul-20261016"
+      }
     },
     {
       "id": "ko-gmf-2026-20261017",
@@ -4265,8 +4307,11 @@
       ],
       "general_sale": false,
       "general_sale_url": null,
-      "updated_at": "2026-10-19",
-      "presale": false
+      "updated_at": "2026-11-23",
+      "presale": false,
+      "related_locale_ids": {
+        "en": "en-grand-mint-festival-2026-20261017"
+      }
     },
     {
       "id": "ko-kimdongryul-old-song-seoul-20261017",
@@ -5593,7 +5638,10 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Onew_Percent_Showcase_2025_2.jpg/500px-Onew_Percent_Showcase_2025_2.jpg",
       "source_url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02906086645576840",
-      "updated_at": "2026-10-26"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-onew-chakgak-20261020"
+      }
     },
     {
       "id": "ko-sunghanbin-solo-debut-20261012",
@@ -5614,7 +5662,10 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Sung_Han_Bin_June_10_2025.png/500px-Sung_Han_Bin_June_10_2025.png",
       "source_url": "https://www.news1.kr/entertain/music/6281629",
-      "updated_at": "2026-10-12"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-sung-hanbin-dead-alive-20261012"
+      }
     },
     {
       "id": "ko-triples-love-and-pop-pt2-20261020",
@@ -5794,7 +5845,10 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-19"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-highlight-fan-con-seoul-20261016"
+      }
     },
     {
       "id": "ko-kennyg-live-in-seoul-20261020",
@@ -5824,7 +5878,10 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-26"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-kenny-g-live-in-seoul-20261020"
+      }
     },
     {
       "id": "ko-kgma-2026-20261107",
@@ -6225,7 +6282,10 @@
       ],
       "image_url": null,
       "source_url": "https://www.starnewskorea.com/music/2026/09/14/2026091410045383155",
-      "updated_at": "2026-10-26"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-nct-wish-i-spy-20261012"
+      }
     },
     {
       "id": "ko-riize-prologue-single-20261026",
@@ -6655,7 +6715,10 @@
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-19"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-omoinotake-one-man-tour-seoul-20261017"
+      }
     },
     {
       "id": "ko-ano-live-in-seoul-20261017",
@@ -8268,7 +8331,10 @@
       "general_sale_datetime": "2026-10-29T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26014833",
-      "updated_at": "2026-10-29"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-kyuhyun-continue-asia-tour-seoul-20261218"
+      }
     },
     {
       "id": "ko-nflying-once-upon-a-snowball-seoul-20261224",
@@ -8299,7 +8365,10 @@
       "general_sale_datetime": "2026-11-06T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13152",
-      "updated_at": "2026-10-29"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-n-flying-once-upon-a-snowball-seoul-20261224"
+      }
     },
     {
       "id": "ko-simondominic-simon-says-seoul-20270109",
@@ -8329,7 +8398,10 @@
       "general_sale_datetime": "2026-10-29T19:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://tickets.interpark.com/goods/26015319",
-      "updated_at": "2026-10-29"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-simon-dominic-simon-says-seoul-20270109"
+      }
     },
     {
       "id": "ko-chenle-leles-show-2-seoul-20261124",
@@ -8359,7 +8431,10 @@
       "general_sale_datetime": "2026-10-28T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.yes24.com/Perf/60596",
-      "updated_at": "2026-10-29"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-chenle-leles-show-2-seoul-20261124"
+      }
     },
     {
       "id": "ko-sjf-theater-baekyerin-yoonseokcheol-seoul-20261117",
@@ -8864,7 +8939,10 @@
       "general_sale_datetime": "2026-11-19T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13260",
-      "updated_at": "2026-11-12"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-super-junior-83z-1983-fancon-busan-20270123"
+      }
     },
     {
       "id": "ko-exo-kase-silent-city-fancon-seoul-20270109",
@@ -8893,7 +8971,10 @@
       "general_sale_datetime": "2026-11-25T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13280",
-      "updated_at": "2026-11-16"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-exo-kase-silent-city-fancon-seoul-20270109"
+      }
     },
     {
       "id": "ko-exo-kase-waking-up-the-city-20261201",
@@ -8913,20 +8994,23 @@
       ],
       "image_url": null,
       "source_url": "https://www.joynews24.com/view/2026410",
-      "updated_at": "2026-11-16"
+      "updated_at": "2026-11-23",
+      "related_locale_ids": {
+        "en": "en-exo-kase-waking-up-the-city-20261201"
+      }
     },
     {
       "release_date_approx": false,
       "timezone": "Asia/Seoul",
-      "presale": false,
-      "presale_datetime": null,
+      "presale": true,
+      "presale_datetime": "2026-11-23T20:00:00+09:00",
       "presale_end_datetime": null,
-      "presale_url": null,
+      "presale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13294",
       "general_sale": false,
-      "general_sale_datetime": null,
+      "general_sale_datetime": "2026-11-25T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13294",
-      "updated_at": "2026-11-19",
+      "updated_at": "2026-11-23",
       "id": "ko-theboyz-zeneration3-seoul-20261224",
       "name": "2026 THE BOYZ CONCERT : ZENERATION Ⅲ",
       "release_date": "2026-12-24",
@@ -8937,13 +9021,16 @@
       ],
       "developer": "더보이즈(THE BOYZ)",
       "publisher": "세븐에잇레코즈, 본부엔터테인먼트",
-      "description": "더보이즈가 9인 완전체로 12월 24일(목) 오후 7시 30분, 25일(금) 오후 6시, 26일(토) 오후 5시, 27일(일) 오후 4시 서울 KSPO DOME에서 4회 단독 콘서트 'ZENERATION Ⅲ'를 연다. 9월 세븐에잇레코즈로 이적한 뒤 처음 여는 단독 공연이자, 군 복무를 마친 상연이 합류해 4월 같은 장소에서 약속했던 재회를 약 8개월 만에 지키는 무대다. 'ZENERATION' 시리즈를 잇는 공연으로, 멜론티켓 공지 기준 티켓은 전석 19만8000원이다.",
+      "description": "더보이즈가 9인 완전체로 12월 24일(목) 오후 7시 30분, 25일(금) 오후 6시, 26일(토) 오후 5시, 27일(일) 오후 4시 서울 KSPO DOME에서 4회 단독 콘서트 'ZENERATION Ⅲ'를 연다. 9월 세븐에잇레코즈로 이적한 뒤 처음 여는 단독 공연이자, 군 복무를 마친 상연이 합류해 4월 같은 장소에서 약속했던 재회를 약 8개월 만에 지키는 무대다. 'ZENERATION' 시리즈를 잇는 공연으로, 멜론티켓 공지 기준 티켓은 전석 19만8000원이다. 예매는 멜론티켓 단독으로, 국내 팬클럽 선예매 11월 23일(월) 오후 8시, 글로벌 팬클럽 선예매 24일(화) 오후 8시, 일반예매 25일(수) 오후 8시에 열린다.",
       "genres": [
         "K-pop",
         "콘서트"
       ],
       "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/11/2026111315220611104a2f-2804-457c-8cc6-74ee876d870d.jpg",
-      "source_url": "https://isplus.com/article/view/isp202611130112"
+      "source_url": "https://isplus.com/article/view/isp202611130112",
+      "related_locale_ids": {
+        "en": "en-the-boyz-zeneration-3-seoul-20261224"
+      }
     },
     {
       "release_date_approx": false,
@@ -9035,6 +9122,36 @@
       ],
       "image_url": null,
       "source_url": "https://sports.khan.co.kr/en/article/202611122024007"
+    },
+    {
+      "id": "ko-ive-show-what-i-am-encore-seoul-20270129",
+      "name": "IVE WORLD TOUR <SHOW WHAT I AM> ENCORE",
+      "release_date": "2027-01-29",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KSPO DOME(올림픽체조경기장)"
+      ],
+      "developer": "아이브(IVE)",
+      "publisher": "스타쉽엔터테인먼트, 쇼노트",
+      "description": "아이브가 2025년 10월 서울에서 시작한 두 번째 월드투어 'SHOW WHAT I AM'을 2027년 1월 29일(금) 오후 7시 30분, 30일(토) 오후 6시, 31일(일) 오후 4시 KSPO DOME 앙코르 3회 공연으로 마무리한다. 투어 기간 북미 공연은 6개 도시에서 8개 도시로 늘었고, 일본에서는 교세라돔 오사카와 도쿄돔 무대에 올랐다. 멜론티켓 공지 기준 VIP석 19만8000원, 일반석 15만4000원이며 팬클럽(DIVE) 선예매는 국내 12월 16일(수)·글로벌 17일(목) 오후 8시, 일반예매는 18일(금) 오후 8시에 열린다.",
+      "genres": [
+        "K-pop",
+        "콘서트"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/11/20261119141840d8c1e068-56bf-4ef1-9b92-e612ebc9ba34.jpg",
+      "source_url": "https://www.slist.kr/news/articleView.html?idxno=783458",
+      "presale": false,
+      "presale_datetime": "2026-12-16T20:00:00+09:00",
+      "presale_end_datetime": null,
+      "presale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13340",
+      "general_sale": false,
+      "general_sale_datetime": "2026-12-18T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13340",
+      "updated_at": "2026-11-23"
     }
   ]
 }
