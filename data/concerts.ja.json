@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-21",
+  "last_updated": "2026-11-23",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -3905,7 +3905,7 @@
       ],
       "developer": "Number_i",
       "publisher": "LIVE NATION H.I.P.",
-      "description": "Number_iが初めて挑むワールド・ツアーの日本パート。8月6日に全公演の日程が解禁され、10月24日の北海道・大和ハウス プレミストドーム（札幌ドーム）を皮切りに、12月2日の京セラドーム大阪、12月9日・10日の東京ドーム、2027年1月のバンテリンドーム ナゴヤ3公演、みずほPayPayドーム福岡2公演と、全国5都市・5大ドームで計9公演が組まれた。グループにとって初のドーム公演となる。札幌公演は開場14:00・開演16:00。ファンクラブ先行受付は8月10日16時から8月16日23時59分まで実施された。",
+      "description": "Number_iが初めて挑むワールド・ツアーの日本パート。8月6日に全公演の日程が解禁され、10月24日の北海道・大和ハウス プレミストドーム（札幌ドーム）を皮切りに、12月2日の京セラドーム大阪、12月9日・10日の東京ドーム、2027年1月のバンテリンドーム ナゴヤ3日間4公演、みずほPayPayドーム福岡2公演と、全国5都市・5大ドームで計10公演が組まれた。グループにとって初のドーム公演となる。札幌公演は開場14:00・開演16:00。ファンクラブ先行受付は8月10日16時から8月16日23時59分まで実施された。",
       "genres": [
         "J-POP",
         "ヒップホップ",
@@ -3914,9 +3914,11 @@
       "image_url": null,
       "source_url": "https://realsound.jp/2026/08/post-2484181.html",
       "presale": false,
-      "presale_datetime": "2026-08-10T16:00:00+09:00",
-      "presale_end_datetime": "2026-08-16T23:59:00+09:00",
-      "presale_url": "https://tobe-official.jp/artists/number_i/concert/364"
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "updated_at": "2026-11-23"
     },
     {
       "id": "ja-yes-mama-ok-revisionary-live-20261024",
@@ -4704,7 +4706,7 @@
       ],
       "developer": ".ENDRECHERI.（堂本剛）",
       "publisher": null,
-      "description": "横浜に続くツアー2都市目として、ビルボードライブ大阪で11月16日（月）・17日（火）の2デイズが組まれている。1日2ステージ制のため大阪では合計4回の公演となり、1stは17:30、2ndは20:30に開演する（開場はそれぞれ1時間前）。チケットはClub BBL会員・法人会員向けの先行が9月28日正午、一般発売が10月1日正午に始まっており、平日夜の開催だ。",
+      "description": "横浜に続くツアー2都市目として、ビルボードライブ大阪で11月16日（月）・17日（火）の2デイズが組まれた。1日2ステージ制のため大阪では合計4回の公演が組まれ、開演は1stが17:30、2ndが20:30（開場はそれぞれ1時間前）と告知されていた。チケットはClub BBL会員・法人会員向けの先行が9月28日正午、一般発売が10月1日正午に始まっていた。平日夜の開催だった。",
       "genres": [
         "ファンク",
         "J-POP"
@@ -4713,9 +4715,9 @@
       "source_url": "https://www.billboard-japan.com/d_news/detail/165300",
       "presale": false,
       "general_sale": false,
-      "presale_datetime": "2026-09-28T12:00:00+09:00",
-      "general_sale_datetime": "2026-10-01T12:00:00+09:00",
-      "updated_at": "2026-10-31"
+      "presale_datetime": null,
+      "general_sale_datetime": null,
+      "updated_at": "2026-11-23"
     },
     {
       "id": "ja-red-bull-symphonic-awich-20261117",
@@ -4756,7 +4758,7 @@
       ],
       "developer": "宝塚歌劇団×LDH JAPAN",
       "publisher": null,
-      "description": "宝塚歌劇団とLDH JAPANのコラボレーション第5弾となるライブイベント「HiGH&LOW THE 戦国 LOVE&HATE」の有明アリーナ公演。2024年の「HiGH&LOW THE 戦国」の続編で、演劇と音楽を融合させた構成で上演される。11月18日（水）・19日（木）の2日間、各日13:00開場／14:00開演と18:00開場／19:00開演の1日2回、計4回公演。宙組の水美舞斗ら宝塚歌劇団10名に加え、藤原樹・浦川翔平（THE RAMPAGE）、中島颯太・堀夏喜（FANTASTICS）らが出演する。チケットは全席指定14,300円（税込）で未就学児は入場不可。ファンクラブ・ticketbookの各先行は10月17日で終了し、一般発売は10月24日（土）からticketbookほか各プレイガイドで行われる。",
+      "description": "宝塚歌劇団とLDH JAPANのコラボレーション第5弾となるライブイベント「HiGH&LOW THE 戦国 LOVE&HATE」の有明アリーナ公演。2024年の「HiGH&LOW THE 戦国」の続編で、演劇と音楽を融合させた構成の公演として発表された。11月18日（水）・19日（木）の2日間、各日13:00開場／14:00開演と18:00開場／19:00開演の1日2回、計4回公演。宙組の水美舞斗ら宝塚歌劇団10名に加え、藤原樹・浦川翔平（THE RAMPAGE）、中島颯太・堀夏喜（FANTASTICS）らが出演する。チケットは全席指定14,300円（税込）で未就学児は入場不可。ファンクラブ・ticketbookの各先行は10月17日で終了し、一般発売は10月24日（土）からticketbookほか各プレイガイドで行われた。",
       "genres": [
         "J-POP",
         "舞台",
@@ -4765,11 +4767,11 @@
       "image_url": null,
       "source_url": "https://www.ldh-liveschedule.jp/sys/tour/44541/",
       "presale": false,
-      "presale_datetime": "2026-08-24T15:00:00+09:00",
-      "presale_url": "https://e-ticketbook.com/",
-      "general_sale": true,
-      "general_sale_url": "https://e-ticketbook.com/high-low-sengoku26-lovehate/2608-tb/",
-      "updated_at": "2026-10-21"
+      "presale_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_url": null,
+      "updated_at": "2026-11-23"
     },
     {
       "id": "ja-yonezu-kenshi-ghost-osakajo-hall-20261118",
@@ -4790,12 +4792,12 @@
       "source_url": "https://reissuerecords.net/2026/07/03/2026-tour-ghost/",
       "presale": false,
       "general_sale": false,
-      "general_sale_datetime": "2026-07-07T18:00:00+09:00",
-      "general_sale_end_datetime": "2026-07-26T23:59:00+09:00",
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null,
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "publisher": null,
-      "updated_at": "2026-10-21"
+      "updated_at": "2026-11-23"
     },
     {
       "id": "ja-fujii-kaze-piano-recital-20261120",
@@ -4810,7 +4812,7 @@
       ],
       "developer": "藤井風",
       "publisher": "藤井風 ピアノリサイタル実行委員会",
-      "description": "藤井風が2026年11月20日・21日の2日間、東京ドームで開催する特別公演の初日。バンド編成の大規模ツアーとは趣を変え、自身の音楽活動の原点であるピアノの弾き語りと独奏を軸に据えた構成で、デビュー作『HELP EVER HURT NEVER』から最新作までの楽曲に加え、新旧のカバー曲やその場でのリクエストコーナーも予定されている。初日は開場17:00・開演19:00、終演は20時半頃を見込む。チケットは特設サイトでの最速先行（抽選）が9月9日12:00から9月23日23:59まで受け付けられた。",
+      "description": "藤井風が2026年11月20日・21日の2日間、東京ドームで開催する特別公演の初日。バンド編成の大規模ツアーとは趣を変え、自身の音楽活動の原点であるピアノの弾き語りと独奏を軸に据えた構成で、デビュー作『HELP EVER HURT NEVER』から最新作までの楽曲に加え、新旧のカバー曲やその場でのリクエストコーナーも予定されていた。初日は開場17:00・開演19:00、終演は20時半頃と案内されていた。チケットは特設サイトでの最速先行（抽選）が9月9日12:00から9月23日23:59まで受け付けられた。",
       "genres": [
         "J-POP",
         "ピアノ弾き語り"
@@ -4819,10 +4821,10 @@
       "source_url": "https://fujiikaze.com/news-article/news260909/",
       "presale": false,
       "general_sale": false,
-      "presale_datetime": "2026-09-09T12:00:00+09:00",
-      "presale_end_datetime": "2026-09-23T23:59:00+09:00",
-      "presale_url": "https://eplus.jp/sf/detail/2901490006",
-      "updated_at": "2026-09-26"
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "updated_at": "2026-11-23"
     },
     {
       "id": "ja-hotsquall-full-power-oneman-20261120",
@@ -4837,7 +4839,7 @@
       ],
       "developer": "HOTSQUALL",
       "publisher": null,
-      "description": "パンク・バンドHOTSQUALLが、11月11日発売の新作EP『DRIVE AGAIN』を記念して開催するワンマン公演。会場は東京・渋谷THE GAMEで、開場18:30／開演19:15。チケットは前売4,000円、当日4,700円（いずれもドリンク代別）で、イープラスでの先行販売が8月16日12時から行われ、一般発売は9月20日12時から始まった。新作を引っさげてのワンマンとして、バンド自身が「FULL POWER」を掲げる一夜となる。",
+      "description": "パンク・バンドHOTSQUALLが、11月11日発売の新作EP『DRIVE AGAIN』を記念して開催するワンマン公演。会場は東京・渋谷THE GAMEで、開場18:30／開演19:15。チケットは前売4,000円、当日4,700円（いずれもドリンク代別）で、イープラスでの先行販売が8月16日12時から行われ、一般発売は9月20日12時から始まった。新作を引っさげてのワンマンとして、バンド自身が「FULL POWER」を掲げた一夜として組まれた。",
       "genres": [
         "パンク",
         "ロック",
@@ -4846,11 +4848,11 @@
       "image_url": null,
       "source_url": "http://www.hotsquall.com/2026-11-20/",
       "presale": false,
-      "presale_datetime": "2026-08-16T12:00:00+09:00",
-      "presale_url": "https://eplus.jp/sf/detail/4582570001-P0030001",
-      "general_sale": true,
-      "general_sale_datetime": "2026-09-20T12:00:00+09:00",
-      "updated_at": "2026-11-06"
+      "presale_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "updated_at": "2026-11-23"
     },
     {
       "id": "ja-5-seconds-of-summer-2026-20261121",
@@ -4888,7 +4890,7 @@
       ],
       "developer": "藤井風",
       "publisher": "藤井風 ピアノリサイタル実行委員会",
-      "description": "藤井風が東京ドームで行う2日間限定のピアノリサイタル、その2日目公演。開場16:00・開演18:00と初日より1時間早い進行で、終演は19時半頃を見込む。ピアノ1台による弾き語りと独奏を中心に、デビュー以来の代表曲やカバー曲、観客からのリクエストに応える時間も設けられる。主催・企画・制作は藤井風 ピアノリサイタル実行委員会。チケットは特設サイトでの最速先行（抽選）が9月9日12:00に受付を開始した。",
+      "description": "藤井風が東京ドームで行う2日間限定のピアノリサイタル、その2日目公演。開場16:00・開演18:00と初日より1時間早い進行で、終演は19時半頃と案内されていた。ピアノ1台による弾き語りと独奏を中心に、デビュー以来の代表曲やカバー曲、観客からのリクエストに応える時間も設けられると告知されていた。主催・企画・制作は藤井風 ピアノリサイタル実行委員会。チケットは特設サイトでの最速先行（抽選）が9月9日12:00に受付を開始した。",
       "genres": [
         "J-POP",
         "ピアノ弾き語り"
@@ -4897,10 +4899,10 @@
       "source_url": "https://fujiikaze.com/news-article/news260909/",
       "presale": false,
       "general_sale": false,
-      "presale_datetime": "2026-09-09T12:00:00+09:00",
-      "presale_end_datetime": "2026-09-23T23:59:00+09:00",
-      "presale_url": "https://eplus.jp/sf/detail/2901490006",
-      "updated_at": "2026-09-26"
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "updated_at": "2026-11-23"
     },
     {
       "id": "ja-hinatazaka46-hinakuri-2026-kobe-20261121",
@@ -4944,7 +4946,7 @@
       ],
       "developer": "JxJ（SEVENTEEN）",
       "publisher": "HYBE JAPAN",
-      "description": "SEVENTEENのJEONGHANとJOSHUAによるユニットJxJが、初の単独ドームツアー〈JEONGHAN X JOSHUA JOURNEY INTO [DREAMING]〉の日本公演として埼玉・ベルーナドームで行う2日間公演。11月21日（土）・22日（日）とも開場15:00・開演17:00。10月19日リリースの1stミニアルバム『DREAMSCAPE』の世界観を軸に、夢と幻想をモチーフにした演出が予告されている。ツアーは10月30日の仁川公演を起点とし、SEVENTEEN日本公式ファンクラブCARAT会員向けの先行抽選受付は9月30日13:00から10月12日23:59まで行われた。",
+      "description": "SEVENTEENのJEONGHANとJOSHUAによるユニットJxJが、初の単独ドームツアー〈JEONGHAN X JOSHUA JOURNEY INTO [DREAMING]〉の日本公演として埼玉・ベルーナドームで行う2日間公演。11月21日（土）・22日（日）とも開場15:00・開演17:00。10月19日リリースの1stミニアルバム『DREAMSCAPE』の世界観を軸に、夢と幻想をモチーフにした演出が予告されていた。ツアーは10月30日の仁川公演を起点とし、SEVENTEEN日本公式ファンクラブCARAT会員向けの先行抽選受付は9月30日13:00から10月12日23:59まで行われた。",
       "genres": [
         "K-POP",
         "ドーム公演",
@@ -4954,9 +4956,9 @@
       "source_url": "https://prtimes.jp/main/html/rd/p/000000749.000045862.html",
       "presale": false,
       "general_sale": false,
-      "presale_datetime": "2026-09-30T13:00:00+09:00",
-      "presale_end_datetime": "2026-10-12T23:59:00+09:00",
-      "updated_at": "2026-10-21"
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "updated_at": "2026-11-23"
     },
     {
       "id": "ja-silica-gel-ballad-of-you-20261121",
@@ -4971,7 +4973,7 @@
       ],
       "developer": "Silica Gel（シリカゲル）",
       "publisher": "SMASH",
-      "description": "韓国発の4人組ロックバンド、Silica Gel（シリカゲル）が、3rdアルバム『Ballad of You』（2026年8月20日発売）を携えたアジアツアーの一環として、2026年11月21日に東京・渋谷Spotify O-EASTで一夜限りの単独来日公演を開催する。爆発的な人気で日本でも注目を集める同バンドの来日単独公演で、チケットは7,500円（別途1ドリンク）。最速先行受付は7月27日まで行われ、イープラスでの一般発売は9月25日18:00から11月20日18:00まで。開場18:00・開演19:00。",
+      "description": "韓国発の4人組ロックバンド、Silica Gel（シリカゲル）が、3rdアルバム『Ballad of You』（2026年8月20日発売）を携えたアジアツアーの一環として、2026年11月21日に東京・渋谷Spotify O-EASTでの一夜限りの単独来日公演が組まれた。爆発的な人気で日本でも注目を集める同バンドの来日単独公演で、チケットは7,500円（別途1ドリンク）。最速先行受付は7月27日まで行われ、イープラスでの一般発売は9月25日18:00から11月20日18:00まで行われた。開場18:00・開演19:00。",
       "genres": [
         "ロック",
         "来日",
@@ -4980,13 +4982,13 @@
       "image_url": null,
       "source_url": "https://spincoaster.com/news/silica-gel-ballad-of-you",
       "presale": false,
-      "presale_datetime": "2026-07-18T18:00:00+09:00",
+      "presale_datetime": null,
       "presale_url": null,
-      "updated_at": "2026-11-16",
-      "general_sale": true,
-      "general_sale_url": "https://eplus.jp/sf/detail/4415100001",
-      "general_sale_datetime": "2026-09-25T18:00:00+09:00",
-      "general_sale_end_datetime": "2026-11-20T18:00:00+09:00"
+      "updated_at": "2026-11-23",
+      "general_sale": false,
+      "general_sale_url": null,
+      "general_sale_datetime": null,
+      "general_sale_end_datetime": null
     },
     {
       "release_time": "17:00",
@@ -5009,9 +5011,10 @@
         "全国ツアー"
       ],
       "presale": false,
-      "presale_datetime": "2026-08-02T20:00:00+09:00",
-      "presale_end_datetime": "2026-08-30T23:59:00+09:00",
-      "updated_at": "2026-11-16"
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "updated_at": "2026-11-23",
+      "general_sale": false
     },
     {
       "id": "ja-nntt-peter-grimes-20261123",
@@ -5252,7 +5255,7 @@
         "心斎橋BIGCAT（ほか大阪・心斎橋／アメリカ村エリア計6会場）"
       ],
       "developer": "PK shampoo",
-      "description": "PK shampoo（ヤマトパンクス）が主催する大阪・心斎橋のサーキット・フェスで、通算4回目。2026年11月28日にBIGCAT、SUNHALL、FANJ twice、ANIMA、Pangea、HOKAGEの6会場で行われる。今回初めてDAYとNIGHTの二部構成をとり、DAYは開場12:00・開演13:00、NIGHTは21:30開場で翌朝まで続くオールナイト開催となる。出演はキュウソネコカミ、ネクライトーキー、Wienners、挫・人間、小林私、ナードマグネットら29組。チケットはDAY／NIGHT／ALL／DAY(U18)の4種。",
+      "description": "PK shampoo（ヤマトパンクス）が主催する大阪・心斎橋のサーキット・フェスで、通算4回目。2026年11月28日にBIGCAT、SUNHALL、FANJ twice、ANIMA、Pangea、HOKAGEの6会場で行われる。今回初めてDAYとNIGHTの二部構成をとり、DAYは開場12:00・開演13:00、NIGHTは21:30開場で翌朝まで続くオールナイト開催となる。出演はキュウソネコカミ、ネクライトーキー、Wienners、挫・人間、小林私、ナードマグネットら、ぴあの公演情報時点で53組（DAY・NIGHT計）ほか。チケットはDAY／NIGHT／ALL／DAY(U18)の4種。",
       "genres": [
         "ロック",
         "サーキットフェス"
@@ -5290,7 +5293,31 @@
             "ハダカエフダ",
             "Hue's",
             "フリージアン",
-            "ルサンチマン"
+            "ルサンチマン",
+            "カッパマイナス",
+            "きのホ。",
+            "Cloudy",
+            "grating hunny",
+            "三四少女",
+            "ザ・シスターズハイ",
+            "鈴木実貴子ズ",
+            "ザ ニンクス",
+            "Pastel Tang Club",
+            "林直大",
+            "THE FOREVER YOUNG",
+            "Blue Mash",
+            "眉村ちあき",
+            "muk",
+            "モーモールルギャバン",
+            "YAPOOL",
+            "ラブリーサマーちゃん",
+            "レトロマイガール！！",
+            "忘れらんねえよ",
+            "愛はズボーン",
+            "クニタケヒロキ",
+            "dj sleeper",
+            "DENIMS",
+            "Panorama Panama Town"
           ]
         }
       ],
@@ -5299,7 +5326,8 @@
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "image_url": null,
-      "publisher": null
+      "publisher": null,
+      "updated_at": "2026-11-23"
     },
     {
       "release_time": "17:00",
@@ -5367,13 +5395,14 @@
       ],
       "developer": "TWO DOOR CINEMA CLUB",
       "publisher": "CREATIVEMAN PRODUCTIONS",
-      "description": "北アイルランド出身のバンド、TWO DOOR CINEMA CLUB（トゥー・ドア・シネマ・クラブ）が、デビュー15周年を記念した約7年ぶりの単独来日公演を開催する。2026年11月30日の東京・SGC HALL ARIAKEを皮切りに、12月1日に名古屋・DIAMOND HALL、12月2日に大阪・Zepp Osaka Baysideを回る。デビュー作『Tourist History』の再現に加えベスト・ヒットを織り交ぜたセットリストで届ける。各公演とも開場18時／開演19時。",
+      "description": "北アイルランド出身のバンド、TWO DOOR CINEMA CLUB（トゥー・ドア・シネマ・クラブ）が、デビュー15周年を記念した約7年ぶりの単独来日公演を開催する。2026年11月30日の東京・SGC HALL ARIAKEを皮切りに、12月1日に名古屋・DIAMOND HALL、12月2日に大阪・Zepp Osaka Baysideを回る。デビュー作『Tourist History』の再現に加えベスト・ヒットを織り交ぜたセットリストで届ける。各公演とも開場18時／開演19時で、東京公演にはサポートアクトとしてchilldspotが出演する。",
       "genres": [
         "インディーロック",
         "来日"
       ],
       "image_url": null,
-      "source_url": "https://www.cdjournal.com/news/two-door-cinema-club/126242"
+      "source_url": "https://www.cdjournal.com/news/two-door-cinema-club/126242",
+      "updated_at": "2026-11-23"
     },
     {
       "id": "ja-art-garfunkel-tokyo-20261201",
@@ -5418,7 +5447,7 @@
         "サントリーホール"
       ],
       "developer": "マルタ・アルゲリッチ",
-      "description": "アルゲリッチ来日公演の2日目は、赤坂サントリーホールで12月1日に開催される昼公演。開場13:30・開演14:00で、ショパンを起点にアジアのピアニストが対等に共演する企画として組まれた。マズルカや幻想曲、バラード第1番・第2番、幻想ポロネーズに加え、ジュンヒョン・リーと中瀬絢音の新作が世界初演される。モーツァルトの2台のためのソナタ、ラヴェル「ラ・ヴァルス」、シューベルトの幻想曲ではアルゲリッチが酒井茜、イム・ドンヒョク、五十嵐薫子と共演する。主催はKAJIMOTO。",
+      "description": "アルゲリッチ来日公演の2日目は、赤坂サントリーホールで12月1日に開催される昼公演。開場13:30・開演14:00で、ショパンを起点にアジアのピアニストが対等に共演する企画として組まれた。マズルカや幻想曲、バラード第1番・第2番、幻想ポロネーズに加え、ジュンヒョン・リーと中瀬絢音の新作が世界初演される。モーツァルトの2台のためのソナタ、ラヴェル「ラ・ヴァルス」、シューベルトの幻想曲ではアルゲリッチが酒井茜、イム・ドンヒョク、五十嵐薫子と共演する。11月16日に主催者から曲順変更と曲目・出演者追加が発表され、現行プログラムではチェロの趙静とアルゲリッチによるショパン「序奏と華麗なるポロネーズ」も組まれている。主催はKAJIMOTO。",
       "genres": [
         "クラシック",
         "ピアノ",
@@ -5430,7 +5459,8 @@
       "presale_url": "https://w1.onlineticket.jp/sf/kajimoto/detail/4593790001-P0030002?P1=0019&P6=060&P10=10",
       "general_sale": true,
       "general_sale_datetime": "2026-09-13T10:00:00+09:00",
-      "general_sale_url": "https://eplus.jp/sf/detail/4593790001-P0030002P021002?P1=1221"
+      "general_sale_url": "https://eplus.jp/sf/detail/4593790001-P0030002P021002?P1=1221",
+      "updated_at": "2026-11-23"
     },
     {
       "id": "ja-moonriders-winter-super-moon-20261201",
@@ -5445,7 +5475,7 @@
       ],
       "developer": "ムーンライダーズ",
       "publisher": null,
-      "description": "デビュー50周年を迎えたムーンライダーズが、記念アルバム『e.d morrison /』のリリースを受けて開く冬のスペシャル公演。開場17:45・開演18:30で、ゲストに大貫妙子、清水ミチコ、野宮真貴らを迎え、コーラスには7月7日のドントラ40周年公演で結成されたCrescent Lits（岡田紫苑、konore、山口美和子）も参加する。チケットは8月26日から先行抽選受付が始まっている。9月には梅田・名古屋・渋谷・大分をまわるレコ発ツアーも予定されており、その締めくくりとなる大箱公演にあたる。",
+      "description": "デビュー50周年を迎えたムーンライダーズが、記念アルバム『e.d morrison /』のリリースを受けて開く冬のスペシャル公演。開場17:45・開演18:30で、ゲストに大貫妙子、清水ミチコ、野宮真貴らを迎え、コーラスには7月7日のドントラ40周年公演で結成されたCrescent Lits（岡田紫苑、konore、山口美和子）も参加する。チケットは8月26日から先行抽選受付が始まっている。9月の梅田・名古屋・渋谷・大分をまわるレコ発ツアーに続く大箱公演にあたる。",
       "genres": [
         "ロック",
         "日本のロック"
@@ -5454,7 +5484,8 @@
       "source_url": "https://www.cdjournal.com/news/moonriders/129112",
       "presale": true,
       "presale_url": "https://ticket.tickebo.jp/sn/moonriders-live2026-add_hp",
-      "general_sale": false
+      "general_sale": false,
+      "updated_at": "2026-11-23"
     },
     {
       "id": "ja-number-i-no3-osaka-20261202",
@@ -5469,7 +5500,7 @@
       ],
       "developer": "Number_i",
       "publisher": "LIVE NATION H.I.P.",
-      "description": "Number_iが2026年10月から2027年1月にかけて行うワールド・ツアーの日本公演「Number_i LIVE TOUR No.III」の京セラドーム大阪公演。グループにとって初のドーム・ツアーとなる本公演は全国5都市・5大ドームで全9公演が組まれており、大阪は札幌に続く2都市目にあたる。開場16:30／開演18:30。ファンクラブ先行受付は2026年8月10日から16日にかけて実施された。",
+      "description": "Number_iが2026年10月から2027年1月にかけて行うワールド・ツアーの日本公演「Number_i LIVE TOUR No.III」の京セラドーム大阪公演。グループにとって初のドーム・ツアーとなる本公演は全国5都市・5大ドームで全10公演が組まれており、大阪は札幌に続く2都市目にあたる。開場16:30／開演18:30。ファンクラブ先行受付は2026年8月10日から16日にかけて実施された。",
       "genres": [
         "J-POP",
         "ドーム公演",
@@ -5479,7 +5510,8 @@
       "source_url": "https://wmg.jp/number-i/news/92727",
       "presale": false,
       "presale_datetime": "2026-08-10T16:00:00+09:00",
-      "presale_end_datetime": "2026-08-16T23:59:00+09:00"
+      "presale_end_datetime": "2026-08-16T23:59:00+09:00",
+      "updated_at": "2026-11-23"
     },
     {
       "id": "ja-khalid-japan-2026-20261203",
@@ -5493,8 +5525,8 @@
         "東京ガーデンシアター"
       ],
       "developer": "Khalid",
-      "publisher": null,
-      "description": "米テキサス出身のシンガー・ソングライター、カリード（Khalid）が12月3日に東京ガーデンシアターで公演を行う。単独での来日はおよそ8年ぶり。昨年発表したアルバム『After the Sun Goes Down』を携えたワールド・ツアー\"It's Always Summer Somewhere\"の一環で、開場18時・開演19時。チケットはGOLD席42,800円、SS席18,800円、S席12,800円、A席9,800円（すべて税込）で、ミート＆グリートなどのVIPアップグレードも用意される。",
+      "publisher": "Live Nation H.I.P.",
+      "description": "米テキサス出身のシンガー・ソングライター、カリード（Khalid）が12月3日に東京ガーデンシアターで公演を行う。単独での来日はおよそ8年ぶり。昨年発表したアルバム『After the Sun Goes Down』を携えたワールド・ツアー\"It's Always Summer Somewhere\"の一環で、開場18時・開演19時。チケットはGOLD席42,800円、SS席18,800円、S席12,800円、A席9,800円（すべて税込）で、ミート＆グリートなどのVIPアップグレードも用意される。A席はすでに完売している。",
       "genres": [
         "R&B",
         "来日"
@@ -5502,7 +5534,8 @@
       "image_url": null,
       "source_url": "https://nme-jp.com/news/170008/",
       "presale": false,
-      "general_sale": false
+      "general_sale": false,
+      "updated_at": "2026-11-23"
     },
     {
       "id": "ja-art-garfunkel-osaka-20261204",
@@ -5554,7 +5587,8 @@
       "image_url": null,
       "source_url": "https://diskgarage.com/digaonline/news/235950",
       "general_sale": true,
-      "general_sale_url": "https://eplus.jp/rothbartbaron/"
+      "general_sale_url": "https://eplus.jp/rothbartbaron/",
+      "updated_at": "2026-11-23"
     },
     {
       "id": "ja-tatsuro-yamashita-performance-2026-20261204",
@@ -5565,7 +5599,7 @@
         "フェスティバルホール（大阪ほか全国11都市20公演）"
       ],
       "developer": "山下達郎",
-      "description": "山下達郎が2026年に行う全国ホールツアー【山下達郎 PERFORMANCE 2026 supported by Rakuten Card】のツアーファイナルにあたる大阪公演の初日。ツアーは9月18日の神奈川・よこすか芸術劇場で幕を開け、大阪フェスティバルホール、福岡サンパレス、NHKホール、ロームシアター京都、SGC HALL ARIAKE、新潟県民会館、札幌文化芸術劇場hitaru、高崎芸術劇場、愛知県芸術劇場、パシフィコ横浜と全国11都市を巡り、12月4日・5日のフェスティバルホールで全20公演を締めくくる。ホール規模にこだわり続ける山下のライブは長尺のセットリストと生演奏の密度で知られる。",
+      "description": "山下達郎が2026年に行う全国ホールツアー【山下達郎 PERFORMANCE 2026 supported by Rakuten Card】のツアーファイナルにあたる大阪公演の初日。ツアーは9月18日の神奈川・よこすか芸術劇場で幕を開け、大阪フェスティバルホール、福岡サンパレス、NHKホール、ロームシアター京都、SGC HALL ARIAKE、新潟県民会館、札幌文化芸術劇場hitaru、高崎芸術劇場、愛知県芸術劇場、パシフィコ横浜、あきた芸術劇場ミルハス、仙台サンプラザホールと全国11都市を巡り、12月4日・5日のフェスティバルホールで全20公演を締めくくる。ホール規模にこだわり続ける山下のライブは長尺のセットリストと生演奏の密度で知られる。",
       "genres": [
         "J-POP",
         "シティポップ",
@@ -5576,7 +5610,8 @@
       "release_date_approx": false,
       "timezone": "Asia/Tokyo",
       "publisher": null,
-      "image_url": null
+      "image_url": null,
+      "updated_at": "2026-11-23"
     },
     {
       "id": "ja-mochida-kaori-presence-tokyo-20261205",
