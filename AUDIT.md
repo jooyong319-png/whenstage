@@ -2,9 +2,36 @@
 
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
-| ko | 2026-11-18 | |
+| ko | 2026-11-18 | ← |
 | en | 2026-11-20 | |
-| ja | 2026-11-16 | ← |
+| ja | 2026-11-23 | |
+
+---
+
+## 2026-11-23 · ja
+
+로테이션상 ja가 가장 오래된 점검일(2026-11-16)이라 선택. 대상 창: 2026-09-24 ~ 2027-01-22(오늘 ±60일). 코드는 손대지 않았고 `data/concerts.ja.json`만 수정(파일 상단 `last_updated` 2026-11-23). push 전 `validate-data.mjs` 통과(en 설명 복사 묶음 경고만). 고친 항목·트랙 B 확인 항목 모두 `updated_at=2026-11-23`.
+
+**트랙 A (졸업 처리) — 11건**
+- A-1/A-2 끝난 공연의 예매 필드·플래그 정리(§7대로 플래그 false + 존재하는 예매 URL·datetime 필드 null): ja-number-i-no3-sapporo-20261024(FC 선행 필드 잔존), ja-endrecheri-billboard-live-tour-2026-osaka-20261116, ja-highlow-sengoku-lovehate-20261118(`general_sale=true`+URL 잔존), ja-yonezu-kenshi-ghost-osakajo-hall-20261118, ja-fujii-kaze-piano-recital-20261120, ja-fujii-kaze-piano-recital-20261121, ja-hotsquall-full-power-oneman-20261120(`general_sale=true` 잔존), ja-jxj-journey-into-dreaming-japan-20261121(11/22 종료), ja-silica-gel-ballad-of-you-20261121(`general_sale=true`+e+ URL 잔존), ja-second-backer-final-sendai-20261122
+- 위 중 description 시제 교정(새 사실 추가 없음, 실제 진행 단정 대신 "組まれた/告知されていた"): endrecheri, highlow, fujii-kaze 2건, hotsquall, jxj, silica-gel
+- 사실 교정: ja-number-i-no3-sapporo-20261024 "ナゴヤ3公演…計9公演" → "ナゴヤ3日間4公演…計10公演"(ぴあ 516108 투어 정보: 1/10 2회 공연, 全10公演)
+- 의도적 제외(투어/연속 공연 진행 중): ja-red-bull-symphonic-awich-20261117(한 항목에 11/27 요코하마까지 4공연), ja-hinatazaka46-hinakuri-2026-kobe-20261121(오늘 11/23이 3일째), jo0ji-ikari-tour·yonezu-kenshi-ghost 투어 본항목. tense 정규식 매치 나머지(ringo·abc-z·bmsg·charlie-puth 등)는 지난 회차와 동일 판단(과거 맥락)
+- A-3: ja-post-malone-2026-20261006 approx=true 유지(지난 회차와 동일)
+
+**트랙 B (임박 점검) — 8건 확인** (`updated_at` 없는 항목, 공연일 가까운 순)
+- ja-psychic-fes-2026-20261128 — ぴあ 공연 정보: 11/28 DAY 13:00~ / NIGHT 22:00~ 유지, 취소 없음. 라인업이 29→53조로 늘어 `festival_days` lineup에 추가 24조 반영, 문장의 "29組"를 "ぴあ時点で53組ほか"로 교체
+- ja-two-door-cinema-club-2026-20261130 — 크리에이티브맨 공식: 3공연 모두 발매 중, 開場18:00/開演19:00 일치. 도쿄 서포트 액트 chilldspot 1문장 추가
+- ja-martha-argerich-chopin-and-his-asia-20261201 — KAJIMOTO 11/16 "曲順変更と曲目・出演者追加" 반영(지난 회차 이월분): 현행 프로그램의 趙静(チェロ)×アルゲリッチ ショパン「序奏と華麗なるポロネーズ」 1문장 추가
+- ja-moonriders-winter-super-moon-20261201 — e+ 아티스트 페이지(12/1 국제포럼 C 18:30, 프레오더 접수 중)·홋카이도신문 PR(10/27)로 개최 확인. 지난 9월 레코발 투어 문장 시제 교정
+- ja-number-i-no3-osaka-20261202 — ぴあ 516108: 12/2 開場16:30/開演18:30 일치. "全9公演"→"全10公演" 교정
+- ja-khalid-japan-2026-20261203 — Live Nation H.I.P. 공식: 12/3 유지, A席 SOLD OUT. `publisher`=Live Nation H.I.P. 보강(B-4), 매진 사실 1문장 추가
+- ja-roth-bart-baron-gishiki-tokyo-20261204 — e+ 페이지: 12/4 草月ホール 開場18:15/開演19:00 일반발매 중. 변경 없음
+- ja-tatsuro-yamashita-performance-2026-20261204 — e+ tatsuro2026-c 공연 목록: 12/4·5 フェスティバルホール가 파이널, 전 20공연 일치. 투어 경로에서 빠져 있던 あきた芸術劇場ミルハス(11/26)·仙台サンプラザホール(11/28) 추가
+- B-3 링크: 8건 source/image/예매 URL 15개 접속 — 15개 모두 200. tobe-official(Number_i 삿포로 presale_url, 졸업 처리로 null)은 JS 렌더라 본문 확인 불가. l-tike.com은 이번에도 타임아웃(환경 문제, 해당 필드 없음)
+
+**남은 것**: 트랙 A 대기 — ja-hinatazaka46-hinakuri-2026-kobe-20261121(11/24부터), ja-red-bull-symphonic-awich-20261117(11/28부터). 트랙 B 다음 순번: ja-mochida-kaori-presence-tokyo-20261205, ja-the-piano-era-2026-20261205, ja-fkj-tyber-tour-tokyo-20261210, ja-mei-ehara-domino-tokyo-20261211, ja-kuwata-keisuke-natsumatsuri-2026-add-20261216부터
+**리서처 참고(추가 안 함)**: ① ムーンライダーズ「moonriders LIVE 2026 The Tokyo 7」2026-12-30 Zepp Haneda(TOKYO) 미등록(홋카이도신문 PR 1397422). ② ja-hinatazaka46-hinakuri-2026-kobe-20261121 `festival_days` 부재로 3일 공연이 11/22부터 종료 판정되는 문제 여전
 
 ---
 
