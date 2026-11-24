@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-20",
+  "last_updated": "2026-11-24",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -11065,17 +11065,17 @@
       ],
       "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/11/20261110183228b993289f-64d4-48ac-a857-9c8a67574099.jpg",
       "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13260",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-11-17T20:00:00+09:00",
       "presale_end_datetime": "2026-11-18T23:59:00+09:00",
       "presale_url": "https://tkglobal.melon.com/",
-      "general_sale": false,
+      "general_sale": true,
       "general_sale_datetime": "2026-11-19T20:00:00+09:00",
       "general_sale_url": "https://tkglobal.melon.com/",
       "related_locale_ids": {
         "ko": "ko-superjunior-83z-1983-fancon-busan-20270123"
       },
-      "updated_at": "2026-11-13"
+      "updated_at": "2026-11-24"
     },
     {
       "id": "en-exo-kase-silent-city-fancon-seoul-20270109",
@@ -11167,6 +11167,67 @@
         "ko": "ko-theboyz-zeneration3-seoul-20261224"
       },
       "updated_at": "2026-11-20"
+    },
+    {
+      "id": "en-ive-show-what-i-am-encore-seoul-20270129",
+      "name": "IVE WORLD TOUR <SHOW WHAT I AM> ENCORE in Seoul",
+      "release_date": "2027-01-29",
+      "release_time": "19:30",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "concert_tour",
+      "platforms": [
+        "KSPO Dome, Seoul(Olympic Park)"
+      ],
+      "developer": "IVE",
+      "publisher": "STARSHIP ENTERTAINMENT, SHOWNOTE",
+      "description": "IVE close their second world tour, SHOW WHAT I AM, back where it began in October 2025: three encore nights at KSPO Dome in Seoul on January 29 (7:30 p.m.), January 30 (6 p.m.) and January 31 (4 p.m.) KST. Tickets are sold only through Melon Ticket. Overseas fans should use the Melon Ticket Global page, where the DIVE fan club presale runs December 17 from 8 p.m. to 11:59 p.m. KST, one day after the Korean page. Fan club verification on the global page is open December 10 (2 p.m.) to December 17. General sale opens December 18 at 8 p.m. KST. VIP seats (198,000 won) include a pre-show soundcheck event; regular seats are 154,000 won. Limit one ticket per show in the presale and two in general sale, ages 7 and up, about 120 minutes with no intermission.",
+      "genres": [
+        "K-Pop",
+        "Concert"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/11/20261119141840d8c1e068-56bf-4ef1-9b92-e612ebc9ba34.jpg",
+      "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13340",
+      "presale": false,
+      "presale_datetime": "2026-12-17T20:00:00+09:00",
+      "presale_end_datetime": "2026-12-17T23:59:00+09:00",
+      "presale_url": "https://tkglobal.melon.com/",
+      "general_sale": false,
+      "general_sale_datetime": "2026-12-18T20:00:00+09:00",
+      "general_sale_url": "https://tkglobal.melon.com/",
+      "related_locale_ids": {
+        "ko": "ko-ive-show-what-i-am-encore-seoul-20270129"
+      },
+      "updated_at": "2026-11-24"
+    },
+    {
+      "id": "en-byeon-woo-seok-secret-library-encore-seoul-20261230",
+      "name": "2026 Byeon Woo-seok Asia Fanmeeting Tour <The Secret Library> Encore in Seoul",
+      "release_date": "2026-12-30",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "Korea University Hwajung Gymnasium, Seoul"
+      ],
+      "developer": "Byeon Woo-seok",
+      "publisher": "VARO Entertainment, PINN.ALIVE",
+      "description": "Actor Byeon Woo-seok wraps up his Secret Library Asia fan meeting tour, which started in Seoul in July and went on to Bangkok, Yokohama, Taipei, Singapore, Manila, Jakarta and Hong Kong, with a single encore night at Korea University's Hwajung Gymnasium on December 30 at 7 p.m. KST. Tickets are on Melon Ticket only, including its global page. The Weverse membership presale runs December 7 from 8 p.m. KST (verification December 1-7), and general sale opens December 8 at 8 p.m. KST. It is strictly one ticket per Melon Ticket ID across both rounds. Seats cost 110,000 won (99,000 won restricted view), ages 8 and up. All floor tickets and global-page bookings are collected on site with ID checks, and transfers are not allowed.",
+      "genres": [
+        "Fan Meeting",
+        "Actor"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/11/20261120130818387a0c1a-2932-4bcc-8735-e436dbf77e05.jpg",
+      "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13349",
+      "presale": false,
+      "presale_datetime": "2026-12-07T20:00:00+09:00",
+      "presale_end_datetime": "2026-12-07T23:59:00+09:00",
+      "presale_url": "https://tkglobal.melon.com/",
+      "general_sale": false,
+      "general_sale_datetime": "2026-12-08T20:00:00+09:00",
+      "general_sale_url": "https://tkglobal.melon.com/",
+      "updated_at": "2026-11-24"
     }
   ]
 }
