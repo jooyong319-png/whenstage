@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-23",
+  "last_updated": "2026-11-25",
   "last_researched_by": "ja-researcher",
   "categories": {
     "concert_tour": "コンサート・来日公演",
@@ -8661,6 +8661,155 @@
       ],
       "description": "ももいろクローバーZが2027年3月3日発売の8thアルバム『VOGUE AND ROMANCE』を携えて行うアリーナツアー。ぴあアリーナMM（3月20日・21日）、神戸ワールド記念ホール（4月24日・25日）、有明アリーナ（5月8日・9日）の3会場6公演で、土曜は「Chronostasis」公演（開場16:30／開演17:30）、日曜は「Singularity」公演（開場15:30／開演16:30）と内容が分かれる。指定席・着席指定席は12,800円。ANGEL EYES会員先行（抽選）は10月25日に締め切られ、一般発売日は未発表。",
       "source_url": "https://www.momoclo.net/archives/news/261017_01"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "presale": true,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": "https://eplus.jp/oliviadean/",
+      "general_sale": false,
+      "general_sale_datetime": "2026-12-19T10:00:00+09:00",
+      "general_sale_url": "https://eplus.jp/oliviadean/",
+      "updated_at": "2026-11-25",
+      "id": "ja-olivia-dean-art-of-loving-live-2027-k-arena-20270211",
+      "name": "OLIVIA DEAN「The Art of Loving LIVE 2027」Kアリーナ横浜公演",
+      "release_date": "2027-02-11",
+      "release_time": "18:00",
+      "category": "concert_tour",
+      "platforms": [
+        "Kアリーナ横浜"
+      ],
+      "developer": "Olivia Dean",
+      "publisher": "クリエイティブマン",
+      "genres": [
+        "R&B",
+        "ポップ",
+        "来日公演"
+      ],
+      "image_url": "https://www.creativeman.co.jp/artist/2027/oliviadean27/common/img/key.jpg",
+      "description": "英国のシンガーソングライター、オリヴィア・ディーンが約2年半ぶりに来日し、2027年2月11日（木・祝）にKアリーナ横浜で単独公演を行う。開場16:30／開演18:00の1公演のみ。席種はSS指定席・バルコニー指定席26,800円、S指定席19,800円、A指定席14,800円。アーティスト会員先行とクリエイティブマン会員先行はすでに終了し、イープラスでのオフィシャル先行を経て、一般発売は12月19日（土）10:00から。3歳以上はチケットが必要。",
+      "source_url": "https://www.creativeman.co.jp/artist/2027/oliviadean27/"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-25",
+      "id": "ja-sakurazaka46-arena-tour-2027-20270310",
+      "name": "櫻坂46 アリーナツアー2027",
+      "release_date": "2027-03-10",
+      "release_time": "19:00",
+      "category": "concert_tour",
+      "platforms": [
+        "日本ガイシホール（クロコくんホール）"
+      ],
+      "developer": "櫻坂46",
+      "publisher": null,
+      "genres": [
+        "J-POP",
+        "アイドル"
+      ],
+      "image_url": null,
+      "description": "櫻坂46が6都市12公演のアリーナツアーを2027年に開催する。11月14日のZOZOマリンスタジアムでの6th YEAR ANNIVERSARY LIVEで発表された。3月10日・11日の愛知・クロコくんホール（日本ガイシホール、各日19:00開演）で開幕し、大阪城ホール、広島グリーンアリーナ、セキスイハイムスーパーアリーナ、マリンメッセ福岡A館を経て、4月21日・22日のGMOアリーナさいたま（スタジアムモード）で締めくくる。全席指定11,000円（さいたまは12,000円）。公式サイトによると、ファンクラブ抽選先行などの受付は11月30日に始まる予定。",
+      "source_url": "https://sakurazaka46.com/s/s46/news/detail/G00246"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-12T10:00:00+09:00",
+      "general_sale_url": null,
+      "updated_at": "2026-11-25",
+      "id": "ja-europe-final-countdown-40th-nhk-hall-20270113",
+      "name": "EUROPE THE FINAL COUNTDOWN 40TH ANNIVERSARY TOUR 東京・NHKホール公演",
+      "release_date": "2027-01-13",
+      "release_time": "19:00",
+      "category": "concert_tour",
+      "platforms": [
+        "NHKホール"
+      ],
+      "developer": "EUROPE",
+      "publisher": "ウドー音楽事務所",
+      "genres": [
+        "ロック",
+        "ハードロック",
+        "来日公演"
+      ],
+      "image_url": "https://www.udo.jp/media/cF6GOfk9sgM2pdGUtdt2rfgVBtPO6syy1OQ2m9V4.jpg",
+      "description": "スウェーデンのロックバンド、ヨーロッパが「ファイナル・カウントダウン」発売40周年を記念するツアーで来日し、初日を2027年1月13日（水）にNHKホールで迎える。開場18:00／開演19:00、S席16,000円・A席15,000円。ウドー会員先行を経て9月12日に一般発売が始まり、この東京公演は完売したため、1月17日にSGCホール有明での追加公演が決まった。主催はJ-WAVE・BAYFM78、企画・招聘・制作はウドー音楽事務所。",
+      "source_url": "https://www.udo.jp/shows/Europe27"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-09-12T10:00:00+09:00",
+      "general_sale_url": "https://l-tike.com/europe/",
+      "updated_at": "2026-11-25",
+      "id": "ja-europe-final-countdown-40th-osaka-20270115",
+      "name": "EUROPE THE FINAL COUNTDOWN 40TH ANNIVERSARY TOUR 大阪公演",
+      "release_date": "2027-01-15",
+      "release_time": "19:00",
+      "category": "concert_tour",
+      "platforms": [
+        "大阪国際会議場（グランキューブ大阪）"
+      ],
+      "developer": "EUROPE",
+      "publisher": "FM COCOLO／FM802",
+      "genres": [
+        "ロック",
+        "ハードロック",
+        "来日公演"
+      ],
+      "image_url": "https://www.udo.jp/media/cF6GOfk9sgM2pdGUtdt2rfgVBtPO6syy1OQ2m9V4.jpg",
+      "description": "ヨーロッパの40周年記念来日ツアーの関西公演。2027年1月15日（金）にグランキューブ大阪で開かれ、開場は18:00、開演は19:00。東京、名古屋に続くツアー3公演目にあたる。チケットはS席16,000円、A席15,000円で、チケットぴあ・イープラス・ローソンチケットなどで一般販売中。主催はFM COCOLOとFM802、企画・招聘・制作はウドー音楽事務所大阪支社が担う。",
+      "source_url": "https://www.udo.jp/shows/Europe27"
+    },
+    {
+      "release_date_approx": false,
+      "timezone": "Asia/Tokyo",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": true,
+      "general_sale_datetime": "2026-10-17T10:00:00+09:00",
+      "general_sale_url": "https://l-tike.com/europe/",
+      "updated_at": "2026-11-25",
+      "id": "ja-europe-final-countdown-40th-sgc-ariake-20270117",
+      "name": "EUROPE THE FINAL COUNTDOWN 40TH ANNIVERSARY TOUR 東京追加公演",
+      "release_date": "2027-01-17",
+      "release_time": "18:00",
+      "category": "concert_tour",
+      "platforms": [
+        "SGC HALL ARIAKE（東京・有明）"
+      ],
+      "developer": "EUROPE",
+      "publisher": "ウドー音楽事務所",
+      "genres": [
+        "ロック",
+        "ハードロック",
+        "来日公演"
+      ],
+      "image_url": "https://www.udo.jp/media/cF6GOfk9sgM2pdGUtdt2rfgVBtPO6syy1OQ2m9V4.jpg",
+      "description": "NHKホール公演の完売を受けて9月28日に発表された、ヨーロッパ来日ツアーの最終公演。2027年1月17日（日）にSGCホール有明で開場17:00／開演18:00。ウドー・プレミアムメンバーズ先行（9月29日〜）とウドー・メンバーズ先行を経て、10月17日10:00から一般販売が行われている。料金はS席16,000円、A席15,000円。主催はJ-WAVE・BAYFM78。",
+      "source_url": "https://youngguitar.jp/news/europe-2027-japan-additioinal-date"
     }
   ]
 }
