@@ -2,9 +2,34 @@
 
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
-| ko | 2026-11-18 | ← |
-| en | 2026-11-20 | |
+| ko | 2026-11-25 | |
+| en | 2026-11-20 | ← |
 | ja | 2026-11-23 | |
+
+---
+
+## 2026-11-25 · ko
+
+로테이션상 ko가 가장 오래된 점검일(2026-11-18)이라 선택. 대상 창: 2026-09-26 ~ 2027-01-24(오늘 ±60일), 창 안 항목 160건(끝난 것 97 / 예정 63). 코드는 손대지 않았고 `data/concerts.ko.json`만 수정(파일 상단 `last_updated` 2026-11-25). push 전 `validate-data.mjs` 통과(기존 en 설명 복사 묶음 경고만). 고친 항목·트랙 B 확인 항목 모두 `updated_at=2026-11-25`.
+
+**트랙 A (졸업 처리) — 13건**
+- A-1/A-2 끝난 공연(11/17~11/24)의 예매 필드·플래그 정리 + description 과거형(§7대로 플래그 false + 존재하는 예매 URL·datetime 필드 null, 시제만 교정 — 새 사실 추가 없음, 진행 단정 대신 "잡혔다/소개됐다/발표됐다" 사용): ko-5sos-everyones-a-star-seoul-20261119(`general_sale=true`+datetime 잔존), ko-mumyeongjeonseol-daegu-encore-20261121(NOL URL 잔존), ko-wonderlivet-2026-20261120(11/22 종료, yes24 URL 잔존), ko-monstax-the-x-nexus-encore-incheon-20261121(11/22 종료, 인터파크 URL 잔존), ko-the-greatest-sohyang-kimkitae-daejeon-20261121(티켓링크 URL 잔존), ko-soran-layering-seoul-20261121(11/22 종료), ko-chenle-leles-show-2-seoul-20261124(yes24 URL 잔존), ko-cravity-sonorous-busan-20261121, ko-sjf-theater-baekyerin-yoonseokcheol-seoul-20261117(지난 회차 의도적 제외 건 — 11/21 원 회차까지 끝나 이번에 졸업)
+- A-4 description 시제만 4건: ko-kokyungpyo-kyungpyo-night-seoul-20261121, ko-roykim-year-end-concert-seoul-20261121(11/22 종료), ko-kwonjinah-save-me-seoul-20261106(12월 대구·부산 'THIS WINTER' 문장은 미래라 유지), ko-roykim-cry-out-loud-20261006(music_release — "콘서트를 연다"→"일정을 잡았다")
+- A-3: ko-postmalone-big-stadium-tour-seoul-20261002 approx=true 유지(지난 회차와 동일 판단)
+- 확인 후 손대지 않음: okf·edc·persona·youngtak·jarasum·lisa·triples·txt·riize·bol4의 "예정" 매치는 과거 맥락 — 지난 회차 판단과 동일
+
+**트랙 B (임박 점검) — 8건 확인** (`updated_at` 오래된 순)
+- ko-nmixx-zero-frontier-finale-incheon-20261127 — NOL 26013946: 11/27~29 INSPIRE ARENA 유지, iMBC(10/28) "전 회차 전석 매진". 끝난 선예매 `presale=false`, 매진 사실 1문장 반영·시제 교정
+- ko-and2ble-winter-inside-fancon-seoul-20261205 — 멜론 공지 13055 생존·12/5·6 일치. 스포츠경향(10/29)·위버스 공지 40455: 매진으로 **12월 4일 회차 추가**(추가 회차 일반예매 10/30 20:00 멜론). description에 반영, 시제 교정. `release_date`·id는 12/05 그대로 둠(아래 참고)
+- ko-namjin-60th-chilgok-20261206 — 티켓링크 공지 66138 생존, NOL 26014565(12/6 인당아트홀, 10/13 11:00 오픈) 확인. B-4로 `general_sale_url`(NOL) 보강, 시제 교정
+- ko-binyeseo-gift-seoul-20261227 — NOL 26014308(12/27 코엑스아티움 우리은행홀) 확인. B-4로 `general_sale_url` 보강, 시제 교정
+- ko-vos-2nd-reunion-cheonan-20261218 / -gyeongsan-20261226 — NOL 26014346·26014299: 12/18 천안시청 봉서홀·12/26 천마아트센터 일치. 시제 교정
+- ko-kimjungmin-jeongminihyeong-seoul-20261225 — NOL 26014375: 12/25 성암아트홀 일치. 시제 교정
+- ko-humpback-hello-anew-seoul-20270123 — 예스24 60207: PC UA는 봇매니저 차단, 모바일 페이지로 재확인 시 2027.01.23 YES24 LIVE HALL 정상. 시제 교정
+- B-3 링크: 8건 source/image/예매 URL 16개 접속 — 전부 200(yes24는 봇 차단 리다이렉트, 재확인으로 생존 판단). 취소·연기 공지 없음
+
+**남은 것**: 트랙 A 대기 없음. 트랙 B 다음 순번: ko-bulnabang-monster-farm-seoul-20261223, ko-baekhyunjin-health-seoul-20261226, ko-epikhigh-2027-concert-seoul-20270122, ko-nctwish-face-our-wish-seoul-20270115, 그 다음 10/29 묶음(dynamicduo·joyongpil·gongyoo·aespa 등 11/27~28 임박분 우선). 고경표 팬미팅 publisher 원문 확인은 공연 종료로 종결
+**운영자/리서처 참고**: ko-and2ble 항목은 실제 첫날이 12/4로 바뀌었는데 `release_date`=12/05 — 캘린더에 12/4 회차가 안 잡힘. id 변경 동반 사안이라 Auditor가 건드리지 않음(en-and2ble 연결 항목도 동일 확인 권장). NOL에 남진 60주년 투어 대전(26014606)·창원(26014560), V.O.S '제2회 동창회' 성남·청주·광주·부산·전주·대전 회차 상품 있음 — 미등록 여부 확인 권장(추가 안 함)
 
 ---
 
