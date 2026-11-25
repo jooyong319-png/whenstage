@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-23",
+  "last_updated": "2026-11-25",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -4618,7 +4618,7 @@
       ],
       "developer": "파이브 세컨즈 오브 서머(5 Seconds of Summer)",
       "publisher": null,
-      "description": "호주 4인조 밴드 파이브 세컨즈 오브 서머가 9년 만에 한국 무대에 선다. 11월 19일 오후 7시 30분 경기 고양 킨텍스 1홀에서 열리며, 2017년 펜타포트 록 페스티벌 출연 이후 처음 여는 단독 내한공연이다. 여섯 번째 정규 앨범 'EVERYONE'S A STAR'를 앞세운 월드투어의 아시아 일정으로, 전 좌석 스탠딩으로 운영된다. 티켓은 5월 11일 오후 5시 아티스트 선예매, 5월 13일 오후 7시 일반예매로 NOL 티켓에서 열렸다.",
+      "description": "호주 4인조 밴드 파이브 세컨즈 오브 서머가 9년 만에 한국 무대에 섰다. 11월 19일 오후 7시 30분 경기 고양 킨텍스 1홀에서 열린 공연으로, 2017년 펜타포트 록 페스티벌 출연 이후 처음 연 단독 내한공연이었다. 여섯 번째 정규 앨범 'EVERYONE'S A STAR'를 앞세운 월드투어의 아시아 일정으로, 전 좌석 스탠딩으로 운영됐다. 티켓은 5월 11일 오후 5시 아티스트 선예매, 5월 13일 오후 7시 일반예매로 NOL 티켓에서 열렸다.",
       "genres": [
         "록",
         "팝",
@@ -4627,17 +4627,17 @@
       "image_url": null,
       "source_url": "https://sports.khan.co.kr/article/202604300216003",
       "presale": false,
-      "presale_datetime": "2026-05-11T17:00:00+09:00",
+      "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
-      "general_sale_datetime": "2026-05-13T19:00:00+09:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
       "related_locale_ids": {
         "en": "en-5sos-everyones-a-star-seoul-20261119"
       },
-      "updated_at": "2026-10-29"
+      "updated_at": "2026-11-25"
     },
     {
       "id": "ko-kokyungpyo-kyungpyo-night-seoul-20261121",
@@ -4652,7 +4652,7 @@
       ],
       "developer": "고경표",
       "publisher": "유니온픽처스",
-      "description": "배우 고경표가 2026년 11월 21일 서울 성암아트홀에서 단독 팬미팅 '2026 KO KYUNGPYO FANMEETING: NOW 〈KYUNGPYO NIGHT〉'를 연다. 공연은 오후 2시와 오후 6시 두 차례 진행된다. 소속사 유니온픽처스가 8월 19일 개최를 공식 발표했으며, 토크와 게임, 스페셜 스테이지 등으로 구성된다. 오랜 시간 응원해 온 팬들과 직접 소통하며 작품이나 예능에서 보여준 모습과는 또 다른 무대 위 매력을 선보일 예정이다. 티켓은 10월 26일 오후 7시 티켓링크에서 선예매가 열렸다.",
+      "description": "배우 고경표가 2026년 11월 21일 서울 성암아트홀에서 단독 팬미팅 '2026 KO KYUNGPYO FANMEETING: NOW 〈KYUNGPYO NIGHT〉'를 열었다. 공연은 오후 2시와 오후 6시 두 차례로 잡혔다. 소속사 유니온픽처스가 8월 19일 개최를 공식 발표했으며, 토크와 게임, 스페셜 스테이지 등으로 구성됐다. 오랜 시간 응원해 온 팬들과 직접 소통하며 작품이나 예능에서 보여준 모습과는 또 다른 무대 위 매력을 선보이는 자리로 소개됐다. 티켓은 10월 26일 오후 7시 티켓링크에서 선예매가 열렸다.",
       "genres": [
         "팬미팅",
         "배우"
@@ -4663,7 +4663,7 @@
       "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-11-02"
+      "updated_at": "2026-11-25"
     },
     {
       "id": "ko-mumyeongjeonseol-daegu-encore-20261121",
@@ -4678,18 +4678,18 @@
       ],
       "developer": "무명전설",
       "publisher": null,
-      "description": "MBN 오디션 프로그램 '무명전설'에서 배출된 TOP7이 11월 21일 대구 엑스코 5층 컨벤션홀에서 전국투어 대구 앵콜 공연을 연다. 성리·하루·장한별·황윤성·정연호·이창민·이루네가 이날 오후 1시와 오후 6시 두 차례 무대에 오른다. 7월 18일 열린 대구 공연에 관객 성원이 이어지면서 재공연 요청에 화답해 마련된 자리이며, 예매는 7월 31일 오후 1시 NOL 티켓에서 시작됐다.",
+      "description": "MBN 오디션 프로그램 '무명전설'에서 배출된 TOP7이 11월 21일 대구 엑스코 5층 컨벤션홀에서 전국투어 대구 앵콜 공연을 열었다. 성리·하루·장한별·황윤성·정연호·이창민·이루네가 이날 오후 1시와 오후 6시 두 차례 무대에 오르는 일정이었다. 7월 18일 열린 대구 공연에 관객 성원이 이어지면서 재공연 요청에 화답해 마련된 자리였으며, 예매는 7월 31일 오후 1시 NOL 티켓에서 시작됐다.",
       "genres": [
         "트로트",
         "콘서트"
       ],
       "image_url": null,
       "source_url": "https://sports.khan.co.kr/article/202607310950003/",
-      "general_sale": true,
-      "general_sale_datetime": "2026-07-31T13:00:00+09:00",
-      "general_sale_url": "https://nol.yanolja.com/ticket/products/26010589",
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
       "general_sale_end_datetime": null,
-      "updated_at": "2026-11-02"
+      "updated_at": "2026-11-25"
     },
     {
       "id": "ko-roykim-year-end-concert-seoul-20261121",
@@ -4704,7 +4704,7 @@
       ],
       "developer": "로이킴",
       "publisher": null,
-      "description": "로이킴이 11월 21일과 22일 이틀간 서울 올림픽공원 KSPO DOME에서 연말 단독 콘서트를 연다. 데뷔 이후 처음으로 이 규모의 공연장에 서는 무대로, 로이킴은 최근 4년 연속 연말 단독 공연을 전석 매진시키며 대표적인 공연형 싱어송라이터로 자리 잡았다. 공연에 앞서 10월 6일에는 3년 연속 10월 발매가 되는 새 싱글 '크게 울어라'를 내놓는다. 구체적인 공연 제목과 티켓 예매 일정은 소속사 공식 채널을 통해 순차적으로 안내될 예정이다.",
+      "description": "로이킴이 11월 21일과 22일 이틀간 서울 올림픽공원 KSPO DOME에서 연말 단독 콘서트를 열었다. 데뷔 이후 처음으로 이 규모의 공연장에 서는 무대였으며, 로이킴은 최근 4년 연속 연말 단독 공연을 전석 매진시키며 대표적인 공연형 싱어송라이터로 자리 잡았다. 공연에 앞서 10월 6일에는 3년 연속 10월 발매가 되는 새 싱글 '크게 울어라'를 내놓았다. 구체적인 공연 제목과 티켓 예매 일정은 소속사 공식 채널을 통해 순차적으로 안내될 예정이었다.",
       "genres": [
         "발라드",
         "콘서트"
@@ -4714,7 +4714,7 @@
       "related_locale_ids": {
         "en": "en-roy-kim-roy-live-tour-seoul-20261121"
       },
-      "updated_at": "2026-10-29"
+      "updated_at": "2026-11-25"
     },
     {
       "id": "ko-gongyoo-the-long-take-seoul-20261128",
@@ -5157,7 +5157,7 @@
       ],
       "developer": null,
       "publisher": "주식회사 원더로크",
-      "description": "J-POP과 서브컬처 음악을 아우르는 페스티벌 원더리벳이 11월 20일부터 22일까지 사흘간 경기 고양 킨텍스 제2전시장 7~10홀에서 세 번째 회차를 연다. 8월 27일 한일 아티스트 42팀의 전체 라인업이 한 번에 공개됐고, 일자별 헤드라이너는 오랄시가렛과 [Alexandros], 유즈가 맡는다. 스키마스위치, 오오츠카 아이, 캬리 파뮤파뮤, 삼보마스터, 인디고 라 엔드가 이름을 올렸고 국내에서는 넬, 한로로, 쏜애플, 이디오테잎, 송소희, QWER가 함께한다. 호시마치 스이세이와 마이고, 로젤리아, 하츠네 미쿠·카사네 테토 협업 무대 등 버추얼 라인업도 포함됐다. 티켓은 9월 1일 오후 8시 오픈됐고 1일권 14만3000원, 3일권 32만9000원이다.",
+      "description": "J-POP과 서브컬처 음악을 아우르는 페스티벌 원더리벳이 11월 20일부터 22일까지 사흘간 경기 고양 킨텍스 제2전시장 7~10홀에서 세 번째 회차를 열었다. 8월 27일 한일 아티스트 42팀의 전체 라인업이 한 번에 공개됐고, 일자별 헤드라이너는 오랄시가렛과 [Alexandros], 유즈로 발표됐다. 스키마스위치, 오오츠카 아이, 캬리 파뮤파뮤, 삼보마스터, 인디고 라 엔드가 이름을 올렸고 국내에서는 넬, 한로로, 쏜애플, 이디오테잎, 송소희, QWER도 라인업에 포함됐다. 호시마치 스이세이와 마이고, 로젤리아, 하츠네 미쿠·카사네 테토 협업 무대 등 버추얼 라인업도 포함됐다. 티켓은 9월 1일 오후 8시 오픈됐고 1일권 14만3000원, 3일권 32만9000원이었다.",
       "genres": [
         "페스티벌",
         "J-POP",
@@ -5211,11 +5211,11 @@
         }
       ],
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-09-01T20:00:00+09:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://ticket.yes24.com/Perf/59840",
-      "updated_at": "2026-11-02"
+      "general_sale_url": null,
+      "updated_at": "2026-11-25"
     },
     {
       "id": "ko-choiyuree-stay-busan-20261107",
@@ -6089,14 +6089,14 @@
       ],
       "developer": "권진아",
       "publisher": null,
-      "description": "권진아가 데뷔 10주년을 맞아 첫 전국 투어의 문을 서울에서 연다. 11월 6일 오후 8시, 7일 오후 6시, 8일 오후 5시 세 차례 서울 명화라이브홀에서 'SAVE ME'라는 이름으로 무대에 오르며, 데뷔 이후 처음 시도하는 스탠딩 콘서트다. 잔잔한 발라드로 알려진 그가 밴드 사운드를 앞세운 새로운 구성을 예고했다. 서울 공연에 이어 12월에는 대구와 부산에서 연말 브랜드 공연 'THIS WINTER'가 이어진다.",
+      "description": "권진아가 데뷔 10주년을 맞아 첫 전국 투어의 문을 서울에서 열었다. 11월 6일 오후 8시, 7일 오후 6시, 8일 오후 5시 세 차례 서울 명화라이브홀에서 'SAVE ME'라는 이름으로 무대에 올랐으며, 데뷔 이후 처음 시도한 스탠딩 콘서트였다. 잔잔한 발라드로 알려진 그가 밴드 사운드를 앞세운 새로운 구성을 예고했다. 서울 공연에 이어 12월에는 대구와 부산에서 연말 브랜드 공연 'THIS WINTER'가 이어진다.",
       "genres": [
         "발라드",
         "콘서트"
       ],
       "image_url": null,
       "source_url": "https://www.joongangenews.com/news/articleView.html?idxno=546610",
-      "updated_at": "2026-10-26"
+      "updated_at": "2026-11-25"
     },
     {
       "id": "ko-kwonjinah-this-winter-daegu-20261212",
@@ -6345,14 +6345,14 @@
       "platforms": [],
       "developer": "로이킴",
       "publisher": null,
-      "description": "로이킴이 10월 6일 오후 6시 새 싱글 '크게 울어라'를 발매했다. 2024년 10월 '내게 사랑이 뭐냐고 물어본다면', 2025년 10월 '달리 표현할 수 없어요'에 이어 3년 연속 10월에 내놓은 신보로, 가을 음원 시장에서의 강세를 이어가려는 행보다. 감정을 에두르지 않고 그대로 드러내는 문장형 제목을 택했다. 로이킴은 신곡 발매에 이어 11월 21일과 22일 서울 KSPO DOME에서 연말 단독 콘서트를 연다.",
+      "description": "로이킴이 10월 6일 오후 6시 새 싱글 '크게 울어라'를 발매했다. 2024년 10월 '내게 사랑이 뭐냐고 물어본다면', 2025년 10월 '달리 표현할 수 없어요'에 이어 3년 연속 10월에 내놓은 신보로, 가을 음원 시장에서의 강세를 이어가려는 행보다. 감정을 에두르지 않고 그대로 드러내는 문장형 제목을 택했다. 로이킴은 신곡 발매에 이어 11월 21일과 22일 서울 KSPO DOME에서 연말 단독 콘서트 일정을 잡았다.",
       "genres": [
         "발라드",
         "발매"
       ],
       "image_url": null,
       "source_url": "https://www.joynews24.com/view/2005602",
-      "updated_at": "2026-10-26"
+      "updated_at": "2026-11-25"
     },
     {
       "id": "ko-oneus-us-island-fancon-seoul-20260321",
@@ -6575,22 +6575,22 @@
       ],
       "developer": "몬스타엑스(MONSTA X)",
       "publisher": "스타쉽엔터테인먼트",
-      "description": "몬스타엑스가 11월 21일과 22일 인천 인스파이어 아레나에서 월드투어 '더 엑스: 넥서스(THE X : NEXUS)' 앙코르 공연을 연다. 서울에서 출발해 일본 아레나 투어를 포함한 아시아 6개 도시와 멕시코·브라질 등 남미를 돈 투어를 한국에서 마무리하는 자리다. 10월 북미 10개 도시 일정을 소화한 뒤 이어지는 공연으로, 회차별 시작 시각은 21일 오후 6시, 22일 오후 4시다. 팬클럽 선예매는 9월 28일, 글로벌 선예매는 29일, 일반 예매는 30일 오후 8시에 차례로 열린다.",
+      "description": "몬스타엑스가 11월 21일과 22일 인천 인스파이어 아레나에서 월드투어 '더 엑스: 넥서스(THE X : NEXUS)' 앙코르 공연을 열었다. 서울에서 출발해 일본 아레나 투어를 포함한 아시아 6개 도시와 멕시코·브라질 등 남미를 돈 투어를 한국에서 마무리하는 자리였다. 10월 북미 10개 도시 일정을 소화한 뒤 이어진 공연으로, 회차별 시작 시각은 21일 오후 6시, 22일 오후 4시였다. 팬클럽 선예매는 9월 28일, 글로벌 선예매는 29일, 일반 예매는 30일 오후 8시에 차례로 열렸다.",
       "genres": [
         "K-POP",
         "콘서트"
       ],
       "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26013132_p.gif",
       "source_url": "https://www.newspim.com/news/view/20260908000196",
-      "presale": true,
-      "presale_datetime": "2026-09-28T20:00:00+09:00",
-      "presale_end_datetime": "2026-09-28T23:59:00+09:00",
-      "presale_url": "https://tickets.interpark.com/goods/26013132",
-      "general_sale": true,
-      "general_sale_datetime": "2026-09-30T20:00:00+09:00",
+      "presale": false,
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://tickets.interpark.com/goods/26013132",
-      "updated_at": "2026-10-29",
+      "general_sale_url": null,
+      "updated_at": "2026-11-25",
       "related_locale_ids": {
         "en": "en-monsta-x-the-x-nexus-encore-incheon-20261121"
       }
@@ -7082,7 +7082,7 @@
       ],
       "developer": "험프백(Hump Back)",
       "publisher": null,
-      "description": "일본 3인조 걸 밴드 험프백(Hump Back)이 2027년 1월 23일 오후 6시 서울 예스24 라이브홀에서 'HELLO ANEW TOUR SEOUL 2027' 공연을 연다. 티켓은 스탠딩석과 지정석 모두 13만2000원 동일 가격이며 예스24 티켓 단독 판매다. 일반 예매는 10월 7일 낮 12시 시작되고 회차별 1인 4매로 제한된다. 티켓 일괄배송은 2027년 1월 5일 진행되며 관람 등급은 전체관람가다.",
+      "description": "일본 3인조 걸 밴드 험프백(Hump Back)이 2027년 1월 23일 오후 6시 서울 예스24 라이브홀에서 'HELLO ANEW TOUR SEOUL 2027' 공연을 연다. 티켓은 스탠딩석과 지정석 모두 13만2000원 동일 가격이며 예스24 티켓 단독 판매다. 일반 예매는 10월 7일 낮 12시 시작됐고 회차별 1인 4매로 제한된다. 티켓 일괄배송은 2027년 1월 5일 진행되며 관람 등급은 전체관람가다.",
       "genres": [
         "J-ROCK",
         "펑크",
@@ -7098,7 +7098,7 @@
       "general_sale_datetime": "2026-10-07T12:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.yes24.com/Perf/60207",
-      "updated_at": "2026-09-28"
+      "updated_at": "2026-11-25"
     },
     {
       "id": "ko-janghanbyeol-the-star-is-born-seoul-20261031",
@@ -7581,7 +7581,7 @@
       ],
       "developer": "빈예서",
       "publisher": "예음문화콘텐츠",
-      "description": "트로트 가수 빈예서가 12월 27일 서울 강남구 코엑스아티움 우리은행홀에서 연말 단독 콘서트 '선물'을 연다. 오후 1시와 오후 6시 두 차례로 나뉘어 진행되며, 한 해 동안 응원해 준 팬들에게 감사를 전하는 자리로 마련됐다. 공연 제목에는 연말에 빈예서와 관객이 서로에게 특별한 선물이 된다는 뜻이 담겼다. 정통 트로트에서 보여 온 짙은 감성과 밝고 흥겨운 무대를 한자리에 모은 구성이 예고됐고, 티켓은 10월 6일 오후 2시 NOL에서 열린다.",
+      "description": "트로트 가수 빈예서가 12월 27일 서울 강남구 코엑스아티움 우리은행홀에서 연말 단독 콘서트 '선물'을 연다. 오후 1시와 오후 6시 두 차례로 나뉘어 진행되며, 한 해 동안 응원해 준 팬들에게 감사를 전하는 자리로 마련됐다. 공연 제목에는 연말에 빈예서와 관객이 서로에게 특별한 선물이 된다는 뜻이 담겼다. 정통 트로트에서 보여 온 짙은 감성과 밝고 흥겨운 무대를 한자리에 모은 구성이 예고됐고, 티켓은 10월 6일 오후 2시 NOL에서 열렸다.",
       "genres": [
         "트로트",
         "콘서트"
@@ -7595,8 +7595,8 @@
       "general_sale": true,
       "general_sale_datetime": "2026-10-06T14:00:00+09:00",
       "general_sale_end_datetime": null,
-      "general_sale_url": null,
-      "updated_at": "2026-10-05"
+      "general_sale_url": "https://nol.yanolja.com/ticket/products/26014308",
+      "updated_at": "2026-11-25"
     },
     {
       "id": "ko-lucy-island-daegu-20260711",
@@ -7660,7 +7660,7 @@
       ],
       "developer": "김정민",
       "publisher": "굿초이스",
-      "description": "김정민이 12월 25일 오후 2시 서울 성암아트홀에서 전국투어 '정민이형 콘서트' 서울 공연을 연다. 공연 시간은 120분, 8세 이상 관람가로 운영되며 R석 단일 11만원으로 책정됐다. 거친 록 보컬과 라이브 중심의 무대로 알려진 김정민이 '나야, 정민이 형'이라는 인사말을 내걸고 팬들과 가까이 교감하는 구성으로 꾸린 공연이다. 티켓은 10월 8일 오전 11시 NOL 티켓에서 일반예매로 열리고, 중증·경증 장애인과 국가유공자 20% 할인이 적용된다.",
+      "description": "김정민이 12월 25일 오후 2시 서울 성암아트홀에서 전국투어 '정민이형 콘서트' 서울 공연을 연다. 공연 시간은 120분, 8세 이상 관람가로 운영되며 R석 단일 11만원으로 책정됐다. 거친 록 보컬과 라이브 중심의 무대로 알려진 김정민이 '나야, 정민이 형'이라는 인사말을 내걸고 팬들과 가까이 교감하는 구성으로 꾸린 공연이다. 티켓은 10월 8일 오전 11시 NOL 티켓에서 일반예매로 열렸고, 중증·경증 장애인과 국가유공자 20% 할인이 적용된다.",
       "genres": [
         "발라드",
         "록",
@@ -7672,7 +7672,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-10-08T11:00:00+09:00",
       "general_sale_url": "https://nol.yanolja.com/ticket/products/26014375",
-      "updated_at": "2026-10-08"
+      "updated_at": "2026-11-25"
     },
     {
       "id": "ko-vos-2nd-reunion-cheonan-20261218",
@@ -7687,7 +7687,7 @@
       ],
       "developer": "V.O.S",
       "publisher": null,
-      "description": "보컬 그룹 V.O.S가 12월 18일 오후 7시 충남 천안시청 봉서홀에서 전국투어 콘서트 '제2회 동창회' 천안 공연을 연다. 관람 시간은 120분, 만 7세 이상 관람가이며 티켓은 R석 9만9000원, S석 7만7000원이다. '동창회'라는 이름대로 데뷔 이후 쌓아온 발라드 레퍼토리를 팬들과 함께 되짚는 콘셉트의 투어다. 티켓은 10월 8일 오전 11시 NOL 티켓에서 일반예매로 열리며, 20인 이상 단체 예매와 휠체어석은 기획사 전화 문의로 운영된다.",
+      "description": "보컬 그룹 V.O.S가 12월 18일 오후 7시 충남 천안시청 봉서홀에서 전국투어 콘서트 '제2회 동창회' 천안 공연을 연다. 관람 시간은 120분, 만 7세 이상 관람가이며 티켓은 R석 9만9000원, S석 7만7000원이다. '동창회'라는 이름대로 데뷔 이후 쌓아온 발라드 레퍼토리를 팬들과 함께 되짚는 콘셉트의 투어다. 티켓은 10월 8일 오전 11시 NOL 티켓에서 일반예매로 열렸으며, 20인 이상 단체 예매와 휠체어석은 기획사 전화 문의로 운영된다.",
       "genres": [
         "발라드",
         "R&B",
@@ -7699,7 +7699,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-10-08T11:00:00+09:00",
       "general_sale_url": "https://nol.yanolja.com/ticket/products/26014346",
-      "updated_at": "2026-10-08"
+      "updated_at": "2026-11-25"
     },
     {
       "id": "ko-vos-2nd-reunion-gyeongsan-20261226",
@@ -7714,7 +7714,7 @@
       ],
       "developer": "V.O.S",
       "publisher": null,
-      "description": "V.O.S가 12월 26일 오후 6시 경북 경산 영남대학교 천마아트센터에서 전국투어 콘서트 '제2회 동창회' 대구·경산 공연을 연다. 관람 시간 120분, 만 7세 이상 관람가로 운영되고 티켓 가격은 R석 9만9000원, S석 7만7000원이다. 같은 투어의 천안 공연에 이어지는 일정으로, 세 보컬의 화음을 앞세운 발라드 레퍼토리를 중심으로 꾸려진다. 티켓은 10월 8일 오후 2시 NOL 티켓에서 일반예매가 시작되며 단체 예매와 휠체어석은 기획사 문의로 접수된다.",
+      "description": "V.O.S가 12월 26일 오후 6시 경북 경산 영남대학교 천마아트센터에서 전국투어 콘서트 '제2회 동창회' 대구·경산 공연을 연다. 관람 시간 120분, 만 7세 이상 관람가로 운영되고 티켓 가격은 R석 9만9000원, S석 7만7000원이다. 같은 투어의 천안 공연에 이어지는 일정으로, 세 보컬의 화음을 앞세운 발라드 레퍼토리를 중심으로 꾸려진다. 티켓은 10월 8일 오후 2시 NOL 티켓에서 일반예매가 시작됐으며 단체 예매와 휠체어석은 기획사 문의로 접수된다.",
       "genres": [
         "발라드",
         "R&B",
@@ -7726,7 +7726,7 @@
       "general_sale": true,
       "general_sale_datetime": "2026-10-08T14:00:00+09:00",
       "general_sale_url": "https://nol.yanolja.com/ticket/products/26014299",
-      "updated_at": "2026-10-08"
+      "updated_at": "2026-11-25"
     },
     {
       "id": "ko-lyn-home-seoul-20261113",
@@ -7840,7 +7840,7 @@
       ],
       "developer": "남진",
       "publisher": "굿초이스",
-      "description": "남진이 12월 6일 오후 6시 대구보건대학교 인당아트홀에서 데뷔 60주년 기념 전국투어 콘서트 칠곡 공연을 연다. 관람 시간은 약 120분, 8세 이상 관람가이며 티켓은 R석 13만2000원, S석 11만원이다. '가슴 아프게', '님과 함께', '둥지' 등 60년 음악 인생을 관통하는 히트곡들로 무대를 채우는 구성이다. 티켓은 10월 13일 오전 11시 티켓링크에서 열리며 중증·경증 장애인과 국가유공자 20% 할인이 적용된다.",
+      "description": "남진이 12월 6일 오후 6시 대구보건대학교 인당아트홀에서 데뷔 60주년 기념 전국투어 콘서트 칠곡 공연을 연다. 관람 시간은 약 120분, 8세 이상 관람가이며 티켓은 R석 13만2000원, S석 11만원이다. '가슴 아프게', '님과 함께', '둥지' 등 60년 음악 인생을 관통하는 히트곡들로 무대를 채우는 구성이다. 티켓은 10월 13일 오전 11시 티켓링크에서 열렸고 NOL 티켓에서도 판매하며, 중증·경증 장애인과 국가유공자 20% 할인이 적용된다.",
       "genres": [
         "트로트",
         "콘서트"
@@ -7850,8 +7850,8 @@
       "presale": false,
       "general_sale": true,
       "general_sale_datetime": "2026-10-13T11:00:00+09:00",
-      "general_sale_url": null,
-      "updated_at": "2026-10-08"
+      "general_sale_url": "https://nol.yanolja.com/ticket/products/26014565",
+      "updated_at": "2026-11-25"
     },
     {
       "id": "ko-the-greatest-sohyang-kimkitae-daejeon-20261121",
@@ -7866,7 +7866,7 @@
       ],
       "developer": "소향 & 김기태",
       "publisher": "굿초이스",
-      "description": "소향과 김기태가 11월 21일 오후 1시 충남대학교 정심화홀에서 전국투어 콘서트 'THE GREATEST : 전율' 대전 공연을 연다. 관람 시간은 약 120분, 8세 이상 관람가이며 티켓은 VIP석 14만3000원, R석 12만1000원, S석 9만9000원이다. 폭발적인 고음으로 알려진 소향과 거친 음색의 김기태가 한 무대에 올라 번갈아 솔로와 합동 무대를 꾸리는 구성이다. 티켓은 10월 8일 오후 6시 티켓링크에서 일반예매로 열렸다.",
+      "description": "소향과 김기태가 11월 21일 오후 1시 충남대학교 정심화홀에서 전국투어 콘서트 'THE GREATEST : 전율' 대전 공연을 열었다. 관람 시간은 약 120분, 8세 이상 관람가였으며 티켓은 VIP석 14만3000원, R석 12만1000원, S석 9만9000원이었다. 폭발적인 고음으로 알려진 소향과 거친 음색의 김기태가 한 무대에 올라 번갈아 솔로와 합동 무대를 꾸리는 구성으로 소개됐다. 티켓은 10월 8일 오후 6시 티켓링크에서 일반예매로 열렸다.",
       "genres": [
         "발라드",
         "보컬",
@@ -7875,10 +7875,10 @@
       "image_url": "https://image.toast.com/aaaaab/ticketlink/TKL_9/jy_open_0930.jpg",
       "source_url": "https://www.ticketlink.co.kr/help/notice/66131",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-10-08T18:00:00+09:00",
-      "general_sale_url": "https://www.ticketlink.co.kr/product/66167",
-      "updated_at": "2026-11-18"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-25"
     },
     {
       "id": "ko-and2ble-winter-inside-fancon-seoul-20261205",
@@ -7893,7 +7893,7 @@
       ],
       "developer": "앤더블(AND2BLE)",
       "publisher": "YH엔터테인먼트",
-      "description": "그룹 앤더블(AND2BLE)이 12월 5일 오후 5시와 6일 오후 4시 서울 고려대학교 화정체육관에서 첫 팬콘서트 'W!nter inside'를 연다. 서울 2회 공연을 마친 뒤 12월 11~12일 일본 요코하마로 이어지는 일정이다. 티켓은 멜론티켓에서 국내 팬클럽 선예매가 10월 21일 오후 8시, 글로벌 팬클럽 선예매가 22일 오후 8시에 열리고 일반예매는 23일 오후 8시에 시작한다. 전석 14만3000원, 만 7세 이상 관람가이며 주최는 YH엔터테인먼트, 주관은 COM Z다.",
+      "description": "그룹 앤더블(AND2BLE)이 12월 5일 오후 5시와 6일 오후 4시 서울 고려대학교 화정체육관에서 첫 팬콘서트 'W!nter inside'를 연다. 기존 2회가 전석 매진되면서 12월 4일 회차가 추가돼 서울 공연은 4~6일 사흘간 열리며, 추가 회차 일반예매는 10월 30일 오후 8시 멜론티켓에서 열렸다. 서울 공연을 마친 뒤 12월 11~12일 일본 요코하마로 이어지는 일정이다. 티켓은 멜론티켓에서 국내 팬클럽 선예매가 10월 21일 오후 8시, 글로벌 팬클럽 선예매가 22일 오후 8시에 열렸고 일반예매는 23일 오후 8시에 시작됐다. 전석 14만3000원, 만 7세 이상 관람가이며 주최는 YH엔터테인먼트, 주관은 COM Z다.",
       "genres": [
         "K-POP",
         "팬콘서트"
@@ -7908,7 +7908,7 @@
       "general_sale_datetime": "2026-10-23T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13055",
-      "updated_at": "2026-10-22",
+      "updated_at": "2026-11-25",
       "related_locale_ids": {
         "en": "en-and2ble-winter-inside-fancon-seoul-20261205"
       }
@@ -7959,7 +7959,7 @@
       ],
       "developer": "소란(SORAN)",
       "publisher": null,
-      "description": "밴드 소란이 11월 21일 오후 6시와 22일 오후 4시 서울 강서구 LG아트센터 서울 LG SIGNATURE 홀에서 겨울 단독 콘서트 'LAYERING'을 연다. 두 차례 공연으로 꾸며지며, 티켓은 10월 20일 오후 6시 LG아트센터 서울 공식 홈페이지와 예스24 티켓에서 동시에 일반예매로 열린다. 매년 계절에 맞춘 단독 공연을 이어 온 소란의 올겨울 무대다.",
+      "description": "밴드 소란이 11월 21일 오후 6시와 22일 오후 4시 서울 강서구 LG아트센터 서울 LG SIGNATURE 홀에서 겨울 단독 콘서트 'LAYERING'을 열었다. 두 차례 공연으로 잡혔으며, 티켓은 10월 20일 오후 6시 LG아트센터 서울 공식 홈페이지와 예스24 티켓에서 동시에 일반예매로 열렸다. 매년 계절에 맞춘 단독 공연을 이어 온 소란의 올겨울 무대였다.",
       "genres": [
         "밴드",
         "인디",
@@ -7971,11 +7971,11 @@
       "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
-      "general_sale_datetime": "2026-10-20T18:00:00+09:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-10-19"
+      "updated_at": "2026-11-25"
     },
     {
       "id": "ko-nmixx-zero-frontier-finale-incheon-20261127",
@@ -7990,14 +7990,14 @@
       ],
       "developer": "엔믹스(NMIXX)",
       "publisher": null,
-      "description": "엔믹스(NMIXX)가 첫 월드투어 'EPISODE 1: ZERO FRONTIER'의 마지막 무대를 인천 인스파이어 아레나에서 사흘간 꾸민다. 공연은 11월 27일(금) 오후 7시, 28일(토) 오후 5시, 29일(일) 오후 4시다. 티켓은 NOL 티켓(인터파크)에서 팬클럽 NSWER 4기 선예매가 10월 26일 오후 8시부터 11시 59분까지 회차당 1인 1매로 열리고, 일반예매는 27일 오후 8시에 시작한다. 전석 지정석 15만4000원, 만 7세 이상 관람가이며 모바일 티켓으로만 입장한다.",
+      "description": "엔믹스(NMIXX)가 첫 월드투어 'EPISODE 1: ZERO FRONTIER'의 마지막 무대를 인천 인스파이어 아레나에서 사흘간 꾸민다. 공연은 11월 27일(금) 오후 7시, 28일(토) 오후 5시, 29일(일) 오후 4시다. 티켓은 NOL 티켓(인터파크)에서 팬클럽 NSWER 4기 선예매가 10월 26일 오후 8시부터 11시 59분까지 회차당 1인 1매로 열렸고, 일반예매는 27일 오후 8시에 시작돼 전 회차 전석 매진됐다. 전석 지정석 15만4000원, 만 7세 이상 관람가이며 모바일 티켓으로만 입장한다.",
       "genres": [
         "K-POP",
         "콘서트"
       ],
       "image_url": "https://ticketimage.interpark.com/Play/image/large/26/26013946_p.gif",
       "source_url": "https://nol.yanolja.com/ticket/products/26013946",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-10-26T20:00:00+09:00",
       "presale_end_datetime": "2026-10-26T23:59:00+09:00",
       "presale_url": "https://tickets.interpark.com/goods/26013946",
@@ -8008,7 +8008,7 @@
       "related_locale_ids": {
         "en": "en-nmixx-zero-frontier-finale-incheon-20261127"
       },
-      "updated_at": "2026-10-22"
+      "updated_at": "2026-11-25"
     },
     {
       "id": "ko-billlie-the-heist-squad-fancon-seoul-20261115",
@@ -8416,7 +8416,7 @@
       ],
       "developer": "천러(CHENLE)",
       "publisher": null,
-      "description": "NCT DREAM 멤버 천러가 생일을 기념한 팬 이벤트 'Lele's Show 2'를 11월 24일(화) 오후 8시 서울 YES24 LIVE HALL에서 1회 연다. 지난해 12월 같은 장소에서 열린 첫 'Lele's Show'에 이어 1년 만에 돌아오는 자리로, 천러와 함께 미션을 풀어 가는 구성이 예고됐다. 예스24 티켓 단독 판매로 NCTzen DREAM 멤버십 선예매가 10월 27일 오후 8시, 일반예매가 28일 오후 8시에 열렸다. 전석 7만7000원, 1인 1매, 만 7세 이상 관람가다.",
+      "description": "NCT DREAM 멤버 천러가 생일을 기념한 팬 이벤트 'Lele's Show 2'를 11월 24일(화) 오후 8시 서울 YES24 LIVE HALL에서 1회 열었다. 지난해 12월 같은 장소에서 열린 첫 'Lele's Show'에 이어 1년 만에 돌아온 자리로, 천러와 함께 미션을 풀어 가는 구성이 예고됐다. 예스24 티켓 단독 판매로 NCTzen DREAM 멤버십 선예매가 10월 27일 오후 8시, 일반예매가 28일 오후 8시에 열렸다. 전석 7만7000원, 1인 1매, 만 7세 이상 관람가였다.",
       "genres": [
         "K-POP",
         "팬미팅"
@@ -8424,14 +8424,14 @@
       "image_url": "https://stkfile.yes24.com/upload2/PerfBlog/202610/20261023/20261023-60596.jpg",
       "source_url": "https://x.com/NCTsmtown_DREAM/status/2113495771492520034",
       "presale": false,
-      "presale_datetime": "2026-10-27T20:00:00+09:00",
-      "presale_end_datetime": "2026-10-27T23:59:59+09:00",
-      "presale_url": "https://ticket.yes24.com/Perf/60596",
-      "general_sale": true,
-      "general_sale_datetime": "2026-10-28T20:00:00+09:00",
+      "presale_datetime": null,
+      "presale_end_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://ticket.yes24.com/Perf/60596",
-      "updated_at": "2026-11-23",
+      "general_sale_url": null,
+      "updated_at": "2026-11-25",
       "related_locale_ids": {
         "en": "en-chenle-leles-show-2-seoul-20261124"
       }
@@ -8449,7 +8449,7 @@
       ],
       "developer": "백예린",
       "publisher": "프라이빗커브, SBS",
-      "description": "싱어송라이터 백예린과 재즈 피아니스트 윤석철이 서울재즈페스티벌의 가을 공연 시리즈 '서재페 앳 더 씨어터' 무대에서 합동 공연을 한다. 처음 잡힌 11월 21일(토) 오후 7시 공연에 11월 17일(화) 오후 8시 회차가 추가돼 세종문화회관 대극장에서 모두 2회 열린다. 추가 회차 티켓은 10월 29일 정오 예스24 티켓에서 열렸고 멜론티켓에서도 판매한다. 좌석은 VIP 15만4000원부터 B석 9만9000원까지이며 초등학생 이상 입장할 수 있다.",
+      "description": "싱어송라이터 백예린과 재즈 피아니스트 윤석철이 서울재즈페스티벌의 가을 공연 시리즈 '서재페 앳 더 씨어터' 무대에서 합동 공연을 했다. 처음 잡힌 11월 21일(토) 오후 7시 공연에 11월 17일(화) 오후 8시 회차가 추가돼 세종문화회관 대극장에서 모두 2회 잡혔다. 추가 회차 티켓은 10월 29일 정오 예스24 티켓에서 열렸고 멜론티켓에서도 판매했다. 좌석은 VIP 15만4000원부터 B석 9만9000원까지였으며 초등학생 이상 입장할 수 있었다.",
       "genres": [
         "재즈",
         "팝",
@@ -8461,11 +8461,11 @@
       "presale_datetime": null,
       "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
+      "general_sale": false,
       "general_sale_datetime": null,
       "general_sale_end_datetime": null,
-      "general_sale_url": "https://ticket.yes24.com/Perf/60530",
-      "updated_at": "2026-10-29"
+      "general_sale_url": null,
+      "updated_at": "2026-11-25"
     },
     {
       "id": "ko-cravity-sonorous-seoul-20261114",
@@ -8513,7 +8513,7 @@
       ],
       "developer": "크래비티(CRAVITY)",
       "publisher": "스타쉽엔터테인먼트, 쇼노트",
-      "description": "크래비티의 2026 단독 콘서트 'SONOROUS'가 서울 올림픽홀 이틀 공연에 이어 11월 21일(토) 오후 6시 부산 KBS홀에서 투어의 마지막 무대를 연다. 멜론티켓에서 팬클럽 LUVITY 인증 회원 대상 선예매가 10월 13일 오후 8시에 먼저 열렸고, 일반예매는 10월 15일(목) 오후 8시에 시작됐다. 휠체어석은 10월 16일 오전 10시부터 전화로만 접수했다. 만 7세 이상(2019년생 이상) 관람할 수 있으며 주관은 마루·인엔터가 맡았다.",
+      "description": "크래비티의 2026 단독 콘서트 'SONOROUS'가 서울 올림픽홀 이틀 공연에 이어 11월 21일(토) 오후 6시 부산 KBS홀에서 투어의 마지막 무대를 열었다. 멜론티켓에서 팬클럽 LUVITY 인증 회원 대상 선예매가 10월 13일 오후 8시에 먼저 열렸고, 일반예매는 10월 15일(목) 오후 8시에 시작됐다. 휠체어석은 10월 16일 오전 10시부터 전화로만 접수했다. 만 7세 이상(2019년생 이상) 관람할 수 있었으며 주관은 마루·인엔터가 맡았다.",
       "genres": [
         "K-POP",
         "콘서트"
@@ -8521,14 +8521,14 @@
       "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/10/2026103013575233e976f0-968b-405a-a3f7-5b37ce905f9d.jpg",
       "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=12877",
       "presale": false,
-      "presale_datetime": "2026-10-13T20:00:00+09:00",
-      "presale_end_datetime": "2026-10-14T23:59:00+09:00",
+      "presale_datetime": null,
+      "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
-      "general_sale_datetime": "2026-10-15T20:00:00+09:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_end_datetime": null,
       "general_sale_url": null,
-      "updated_at": "2026-11-09",
+      "updated_at": "2026-11-25",
       "related_locale_ids": {
         "en": "en-cravity-sonorous-busan-20261121"
       }
