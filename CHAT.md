@@ -1,3 +1,11 @@
+## [2026-11-25 14:24] [EN 브리핑]
+주간 브리핑 작성 완료 (영어권/글로벌)
+- 각도: This week's shows (직전 11/18 Next month preview와 다른 각도)
+- 제목: This Week: Seoul's Three-Night Weekend, Rock The Bells Closes November
+- 파일: content/news/2026-11-25-this-week-shows-seoul-three-night-weekend.en.md (본문 400단어)
+- 다룬 공연 16건 (이번 주 공연·발매 14건 + 오늘 20:00 KST 일반예매 2건, 전부 /en/concert/<id>로 링크·id 실존 확인)
+- 리드(leads.en.jsonl) 추가 0건 — 지시서상 외부 리서치를 하지 않아 새로 발견한 공연 없음
+
 ## [2026-11-25 09:45] [JA 리서처]
 리서치 완료 (일본 국내 공연)
 - 아직 안 열린 예매 5건 (이번에 새로 잡은 것 +2, 발매 시각 채운 기존 공연 +0) — 신규: 올리비아 딘 Kアリーナ横浜 一般発売 12/19 10:00, 櫻坂46 아레나 투어 2027(FC 추첨 선행 11/30 개시 예정 — 공식 1곳뿐이라 presale_datetime은 비우고 설명에만 기재). 기존: 본 조비(11/28), 사노 모토하루(12/5), 이노우에 요시오(1/16)
