@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-25",
+  "last_updated": "2026-11-26",
   "last_researched_by": "ko-researcher",
   "categories": {
     "concert_tour": "콘서트·내한 공연",
@@ -8932,14 +8932,14 @@
       ],
       "image_url": null,
       "source_url": "https://www.topstarnews.net/news/articleView.html?idxno=16273769",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-11-17T20:00:00+09:00",
       "presale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13260",
-      "general_sale": false,
+      "general_sale": true,
       "general_sale_datetime": "2026-11-19T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13260",
-      "updated_at": "2026-11-23",
+      "updated_at": "2026-11-26",
       "related_locale_ids": {
         "en": "en-super-junior-83z-1983-fancon-busan-20270123"
       }
@@ -8964,14 +8964,14 @@
       ],
       "image_url": null,
       "source_url": "https://www.topstarnews.net/news/articleView.html?idxno=16275744",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-11-23T20:00:00+09:00",
       "presale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13280",
-      "general_sale": false,
+      "general_sale": true,
       "general_sale_datetime": "2026-11-25T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13280",
-      "updated_at": "2026-11-23",
+      "updated_at": "2026-11-26",
       "related_locale_ids": {
         "en": "en-exo-kase-silent-city-fancon-seoul-20270109"
       }
@@ -9002,15 +9002,15 @@
     {
       "release_date_approx": false,
       "timezone": "Asia/Seoul",
-      "presale": true,
+      "presale": false,
       "presale_datetime": "2026-11-23T20:00:00+09:00",
       "presale_end_datetime": null,
       "presale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13294",
-      "general_sale": false,
+      "general_sale": true,
       "general_sale_datetime": "2026-11-25T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13294",
-      "updated_at": "2026-11-23",
+      "updated_at": "2026-11-26",
       "id": "ko-theboyz-zeneration3-seoul-20261224",
       "name": "2026 THE BOYZ CONCERT : ZENERATION Ⅲ",
       "release_date": "2026-12-24",
@@ -9151,7 +9151,43 @@
       "general_sale_datetime": "2026-12-18T20:00:00+09:00",
       "general_sale_end_datetime": null,
       "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13340",
-      "updated_at": "2026-11-23"
+      "updated_at": "2026-11-26",
+      "related_locale_ids": {
+        "en": "en-ive-show-what-i-am-encore-seoul-20270129"
+      }
+    },
+    {
+      "id": "ko-byeonwooseok-secret-library-encore-seoul-20261230",
+      "name": "2026 ByeonWooSeok Asia Fanmeeting Tour <The Secret Library> Encore in Seoul",
+      "release_date": "2026-12-30",
+      "release_time": "19:00",
+      "release_date_approx": false,
+      "timezone": "Asia/Seoul",
+      "category": "fanmeeting",
+      "platforms": [
+        "고려대학교 화정체육관"
+      ],
+      "developer": "변우석",
+      "publisher": "바로엔터테인먼트, 피너라이브",
+      "description": "배우 변우석이 7월 서울에서 시작해 아시아 각 도시를 돈 팬미팅 투어 'The Secret Library'를 12월 30일(수) 오후 7시 고려대학교 화정체육관 앙코르 공연 1회로 마무리한다. 예매는 멜론티켓 단독으로, 위버스 멤버십 인증(12월 1일 정오~7일 자정)을 마친 팬 대상 선예매가 12월 7일(월) 오후 8시, 일반예매가 8일(화) 오후 8시에 열린다. 전석 11만원, 시야제한석 9만9000원이며 8세 이상 관람할 수 있고 공연 시간은 약 120분이다. 주최는 바로엔터테인먼트, 주관은 피너라이브가 맡는다.",
+      "genres": [
+        "팬미팅",
+        "배우"
+      ],
+      "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/11/20261120130818387a0c1a-2932-4bcc-8735-e436dbf77e05.jpg",
+      "source_url": "https://www.specialtimes.co.kr/news/articleView.html?idxno=489508",
+      "presale": false,
+      "presale_datetime": "2026-12-07T20:00:00+09:00",
+      "presale_end_datetime": "2026-12-07T23:59:00+09:00",
+      "presale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13349",
+      "general_sale": false,
+      "general_sale_datetime": "2026-12-08T20:00:00+09:00",
+      "general_sale_end_datetime": null,
+      "general_sale_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=13349",
+      "updated_at": "2026-11-26",
+      "related_locale_ids": {
+        "en": "en-byeon-woo-seok-secret-library-encore-seoul-20261230"
+      }
     }
   ]
 }
