@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-24",
+  "last_updated": "2026-11-27",
   "last_researched_by": "en-researcher",
   "categories": {
     "concert_tour": "Concerts & Tours",
@@ -7379,7 +7379,7 @@
       ],
       "developer": "Jamila Woods",
       "publisher": null,
-      "description": "Jamila Woods brings her 10 Years of HEAVN tour to Wonder Ballroom in Portland on November 19, 2026. The short six-city run marks a decade since the Chicago poet and singer released her debut album HEAVN, and travels from Los Angeles through San Francisco, Portland, Seattle and Brooklyn before a hometown finale at Thalia Hall on December 6.",
+      "description": "Jamila Woods brought her 10 Years of HEAVN tour to Wonder Ballroom in Portland on November 19, 2026. The short six-city run marked a decade since the Chicago poet and singer released her debut album HEAVN, and was routed from Los Angeles through San Francisco, Portland, Seattle and Brooklyn before a hometown finale at Thalia Hall on December 6.",
       "genres": [
         "R&B",
         "Soul",
@@ -7387,8 +7387,9 @@
       ],
       "image_url": null,
       "source_url": "https://consequence.net/2026/08/jamila-woods-2026-tour-dates-heavn-10th-anniversary/",
-      "general_sale": true,
-      "general_sale_url": "https://www.ticketmaster.com/jamila-woods-tickets/artist/1684724"
+      "general_sale": false,
+      "general_sale_url": null,
+      "updated_at": "2026-11-27"
     },
     {
       "id": "en-katseye-wildworld-tour-oakland-20261119",
@@ -7403,7 +7404,7 @@
       ],
       "developer": "KATSEYE",
       "publisher": "Live Nation",
-      "description": "KATSEYE play Oakland Arena on November 19, 2026 as the Wildworld Tour reaches Northern California. The date sits between stops in Seattle and Los Angeles on a West Coast run that closes the group's first North American arena tour. The show supports 'WILD', the third EP from the Los Angeles-based group formed through HYBE and Geffen's Dream Academy programme.",
+      "description": "KATSEYE were booked at Oakland Arena on November 19, 2026 as the Wildworld Tour reached Northern California. The date sat between stops in Seattle and Los Angeles on a West Coast run that closes the group's first North American arena tour. The show supported 'WILD', the third EP from the Los Angeles-based group formed through HYBE and Geffen's Dream Academy programme.",
       "genres": [
         "Pop",
         "K-pop",
@@ -7411,8 +7412,9 @@
       ],
       "image_url": null,
       "source_url": "https://consequence.net/2026/05/katseye-2026-wildworld-tour-how-to-get-tickets/",
-      "general_sale": true,
-      "presale": false
+      "general_sale": false,
+      "presale": false,
+      "updated_at": "2026-11-27"
     },
     {
       "id": "en-down-volume-v-20261120",
@@ -7453,7 +7455,7 @@
         "Kings Theatre, Brooklyn, NY"
       ],
       "developer": "Jorja Smith",
-      "description": "Jorja Smith plays Kings Theatre in Brooklyn on November 21, 2026, the fourth of five North American theater dates the English singer announced in early August. The short run supports What Are The Odds, her album due August 21 via FAMM, a record largely produced by P2J that leans into UK garage, grime, two-step and house rather than the soul balladry of her earlier work. Tickets went on general sale August 7.",
+      "description": "Jorja Smith was scheduled to play Kings Theatre in Brooklyn on November 21, 2026, the fourth of five North American theater dates the English singer announced in early August. The short run supported What Are The Odds, her album released August 21 via FAMM, a record largely produced by P2J that leans into UK garage, grime, two-step and house rather than the soul balladry of her earlier work. Tickets went on general sale August 7.",
       "genres": [
         "R&B",
         "Soul",
@@ -7461,10 +7463,10 @@
       ],
       "source_url": "http://news.pollstar.com/2026/08/07/jorja-smith-announces-north-american-fall-run/",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-07T10:00:00-04:00",
-      "general_sale_url": "https://www.axs.com/artists/1104051/jorja-smith-tickets",
-      "updated_at": "2026-09-22"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-27"
     },
     {
       "id": "en-katseye-wildworld-tour-los-angeles-20261121",
@@ -7479,7 +7481,7 @@
       ],
       "developer": "KATSEYE",
       "publisher": "Live Nation",
-      "description": "KATSEYE headline Crypto.com Arena on November 21, 2026, the first of two hometown nights in Los Angeles near the end of the Wildworld Tour. The group is based in Los Angeles, making the pair of arena shows the largest headline dates they have played in the city. Two further shows in Mexico City close the tour the following week.",
+      "description": "KATSEYE were billed to headline Crypto.com Arena on November 21, 2026, the first of two hometown nights in Los Angeles near the end of the Wildworld Tour. The group is based in Los Angeles, and the pair of arena shows were billed as their largest headline dates in the city. Two further shows in Mexico City were set to close the tour the following week.",
       "genres": [
         "Pop",
         "K-pop",
@@ -7487,9 +7489,9 @@
       ],
       "image_url": null,
       "source_url": "https://consequence.net/2026/05/katseye-2026-wildworld-tour-how-to-get-tickets/",
-      "general_sale": true,
+      "general_sale": false,
       "presale": false,
-      "updated_at": "2026-11-20"
+      "updated_at": "2026-11-27"
     },
     {
       "id": "en-monsta-x-the-x-nexus-encore-incheon-20261121",
@@ -7504,18 +7506,18 @@
       ],
       "developer": "MONSTA X",
       "publisher": "Starship Entertainment",
-      "description": "MONSTA X close their THE X : NEXUS world tour with two encore nights at Inspire Arena in Incheon on November 21 and 22, 2026, the Saturday show at 6 p.m. and the Sunday show at 4 p.m. Both dates are also carried as a paid online stream for Monbebe who cannot travel. Seats run 154,000 won and VIP 198,000 won. Booking opens to the Korean fan club on September 28, the global fan club on September 29 and the general public on September 30.",
+      "description": "MONSTA X were scheduled to close their THE X : NEXUS world tour with two encore nights at Inspire Arena in Incheon on November 21 and 22, 2026, the Saturday show at 6 p.m. and the Sunday show at 4 p.m. Both dates were also offered as a paid online stream for Monbebe who cannot travel. Seats ran 154,000 won and VIP 198,000 won. Booking opened to the Korean fan club on September 28, the global fan club on September 29 and the general public on September 30.",
       "genres": [
         "K-Pop",
         "Concert"
       ],
       "image_url": null,
       "source_url": "https://www.koreajoongangdaily.com/entertainment/monsta-x-announces-twonight-incheon-encore-of-the-x-nexusnbsp/12865220",
-      "updated_at": "2026-09-25",
-      "presale": true,
-      "presale_datetime": "2026-09-28T20:00:00+09:00",
-      "general_sale": true,
-      "general_sale_datetime": "2026-09-30T20:00:00+09:00",
+      "updated_at": "2026-11-27",
+      "presale": false,
+      "presale_datetime": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
       "related_locale_ids": {
         "ko": "ko-monstax-the-x-nexus-encore-incheon-20261121"
       }
@@ -7534,17 +7536,17 @@
         "Hollywood Bowl, Los Angeles, CA"
       ],
       "developer": "Steve Lacy",
-      "description": "Steve Lacy makes his Hollywood Bowl headline debut on November 21, 2026, the hometown highlight of the Oh yeah? Tour. The Compton-raised musician, once of The Internet, returns to Los Angeles behind Oh yeah?, his third solo album for RCA Records. The 27-city North American run began September 27 in Minneapolis and wraps November 30 in Vancouver. Tickets are available through Ticketmaster.",
+      "description": "Steve Lacy was billed for his Hollywood Bowl headline debut on November 21, 2026, the hometown highlight of the Oh yeah? Tour. The Compton-raised musician, once of The Internet, returned to Los Angeles behind Oh yeah?, his third solo album for RCA Records. The 27-city North American run began September 27 in Minneapolis and wraps November 30 in Vancouver. Tickets were sold through Ticketmaster.",
       "genres": [
         "R&B",
         "Alternative",
         "Tour"
       ],
       "source_url": "https://www.rollingstone.com/music/music-news/steve-lacy-oh-yeah-north-american-tour-dates-1235607338/",
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-14T10:00:00-07:00",
-      "general_sale_url": "https://www.ticketmaster.com/steve-lacy-tickets/artist/2330907",
-      "updated_at": "2026-09-22"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-27"
     },
     {
       "id": "en-trans-siberian-orchestra-denver-20261121",
@@ -7559,7 +7561,7 @@
       ],
       "developer": "Trans-Siberian Orchestra",
       "publisher": null,
-      "description": "Ball Arena in Denver gets two Trans-Siberian Orchestra performances on Saturday, November 21, 2026, at 3 p.m. and 7:30 p.m. local time, two days after the winter tour opens in Green Bay. This year's first set restages The Ghosts of Christmas Eve to mark 30 years since the debut album Christmas Eve and Other Stories, and a second set of holiday material follows with lasers and pyrotechnics.",
+      "description": "Ball Arena in Denver was booked for two Trans-Siberian Orchestra performances on Saturday, November 21, 2026, at 3 p.m. and 7:30 p.m. local time, two days after the winter tour opened in Green Bay. This year's first set was billed as a restaging of The Ghosts of Christmas Eve to mark 30 years since the debut album Christmas Eve and Other Stories, with a second set of holiday material to follow with lasers and pyrotechnics.",
       "genres": [
         "Symphonic Rock",
         "Holiday",
@@ -7568,10 +7570,10 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Trans-Siberian_Orchestra_4.jpg/960px-Trans-Siberian_Orchestra_4.jpg",
       "source_url": "https://www.ticketnews.com/2026/09/trans-siberian-orchestra-unveils-30th-anniversary-the-ghosts-of-christmas-eve-winter-tour/",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-09-18T10:00:00-07:00",
-      "general_sale_url": "https://www.ticketmaster.com/transsiberian-orchestra-tickets/artist/780815",
-      "updated_at": "2026-10-19"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-27"
     },
     {
       "id": "en-syd-beard-tour-atlanta-20261124",
@@ -7586,7 +7588,7 @@
       ],
       "developer": "Syd",
       "publisher": "Live Nation",
-      "description": "Syd brings the Beard Tour to the Tabernacle in Atlanta on November 24, 2026, supporting her album Beard. The 23-date North American run, promoted by Live Nation, opens in Vancouver on November 7 and works its way east through Texas and the Southeast. A Citi cardmember presale ran from September 16, 2026, with general tickets released on September 18. VIP packages include a pre-show soundcheck with Syd.",
+      "description": "Syd was scheduled to bring the Beard Tour to the Tabernacle in Atlanta on November 24, 2026, supporting her album Beard. The 23-date North American run, promoted by Live Nation, opened in Vancouver on November 7 and works its way east through Texas and the Southeast. A Citi cardmember presale ran from September 16, 2026, with general tickets released on September 18. VIP packages included a pre-show soundcheck with Syd.",
       "genres": [
         "R&B",
         "Soul",
@@ -7594,11 +7596,11 @@
       ],
       "image_url": null,
       "source_url": "https://news.pollstar.com/2026/09/15/syd-announces-north-american-2026-beard-tour/",
-      "presale": true,
-      "presale_datetime": "2026-09-16T10:00:00-05:00",
-      "general_sale": true,
-      "general_sale_datetime": "2026-09-18T10:00:00-05:00",
-      "updated_at": "2026-11-20"
+      "presale": false,
+      "presale_datetime": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "updated_at": "2026-11-27"
     },
     {
       "release_time": null,
@@ -7614,7 +7616,7 @@
         "Alexandra Palace, London"
       ],
       "developer": "Nia Archives, Cannelle, NEW YORK, Trickpony",
-      "description": "Nia Archives plays Alexandra Palace on November 26, 2026, the London stop of the 19-date Emotional World Tour behind her Mercury Prize-shortlisted album Emotional Junglist. Cannelle, NEW YORK and Trickpony support. The run opens in Japan in September before crossing North America and Europe, and follows a summer of festival sets including a West Stage headline slot at All Points East. AEG Presents promotes the UK leg.",
+      "description": "Nia Archives was scheduled to play Alexandra Palace on November 26, 2026, the London stop of the 19-date Emotional World Tour behind her Mercury Prize-shortlisted album Emotional Junglist. Cannelle, NEW YORK and Trickpony were announced as support. The run opened in Japan in September before crossing North America and Europe, and followed a summer of festival sets including a West Stage headline slot at All Points East. AEG Presents promoted the UK leg.",
       "genres": [
         "Jungle",
         "Electronic",
@@ -7622,10 +7624,10 @@
       ],
       "source_url": "https://www.aegpresents.co.uk/event/nia-archives/",
       "presale": false,
-      "general_sale": true,
-      "general_sale_datetime": "2026-08-27T10:00:00+01:00",
-      "general_sale_url": "https://www.axs.com/uk/events/1562167/nia-archives-tickets",
-      "updated_at": "2026-11-20"
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-27"
     },
     {
       "id": "en-dynamic-duo-once-in-a-while-seoul-20261127",
@@ -7901,7 +7903,7 @@
       ],
       "developer": "EsDeeKid",
       "publisher": null,
-      "description": "Liverpool rapper EsDeeKid brings his 48-date Council House Rat Tour to OVO Arena Wembley on December 3, the largest headline show of his career so far. The trek opens with 28 North American dates from September before crossing to Europe in November, with further UK and Ireland stops in Dublin, Glasgow and two homecoming nights in Liverpool. Tickets go on general sale July 31 at 10 a.m.",
+      "description": "Liverpool rapper EsDeeKid brings his 48-date Council House Rat Tour to OVO Arena Wembley on December 3, the largest headline show of his career so far. The trek opened with 28 North American dates from September before crossing to Europe in November, with further UK and Ireland stops in Dublin, Glasgow and two homecoming nights in Liverpool. Tickets went on general sale July 31 at 10 a.m.",
       "genres": [
         "Hip-Hop",
         "Rap",
@@ -7911,7 +7913,8 @@
       "source_url": "https://www.ovoarena.co.uk/events/detail/esdeekid",
       "general_sale": true,
       "general_sale_datetime": "2026-07-31T10:00:00+01:00",
-      "general_sale_url": "https://www.axs.com/uk/events/1537621/esdeekid-tickets?skin=wembley"
+      "general_sale_url": "https://www.axs.com/uk/events/1537621/esdeekid-tickets?skin=wembley",
+      "updated_at": "2026-11-27"
     },
     {
       "id": "en-yo-la-tengo-hanukkah-new-york-20261204",
@@ -8036,7 +8039,7 @@
       ],
       "developer": "The Darkness",
       "publisher": "AEG Presents",
-      "description": "The Darkness open their Best Of The Darkness arena tour at the OVO Hydro in Glasgow on December 8, 2026, the first night of their largest headline run in twenty years. The set is built around a career-spanning selection drawn from all eight studio albums, from 2003's Permission To Land through 2025's Dreams On Toast. Brothers Osborne and A support on every date.",
+      "description": "The Darkness open their Best Of The Darkness arena tour at the OVO Hydro in Glasgow on December 8, 2026, the first night of their largest headline run in twenty years. The set is built around a career-spanning selection drawn from all eight studio albums, from 2003's Permission To Land through 2025's Dreams On Toast. Feeder and A support on every date, Feeder having replaced Brothers Osborne, who withdrew from the tour in October.",
       "genres": [
         "Rock",
         "Glam Rock",
@@ -8044,7 +8047,8 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/HollywoodVampsSSe200618-69_(42513700740).jpg/960px-HollywoodVampsSSe200618-69_(42513700740).jpg",
       "source_url": "https://www.aegpresents.co.uk/event/the-darkness-3/",
-      "general_sale": true
+      "general_sale": true,
+      "updated_at": "2026-11-27"
     },
     {
       "release_time": null,
@@ -8085,7 +8089,7 @@
       ],
       "developer": "The Darkness",
       "publisher": "AEG Presents",
-      "description": "The Darkness bring their Best Of The Darkness tour to the First Direct Arena in Leeds on December 9, 2026. Promoted by AEG Presents, the show pairs the band's greatest hits with deeper fan favourites picked from eight albums recorded over more than two decades. Grammy-winning American country rock duo Brothers Osborne and British rock band A open the evening.",
+      "description": "The Darkness bring their Best Of The Darkness tour to the First Direct Arena in Leeds on December 9, 2026. Promoted by AEG Presents, the show pairs the band's greatest hits with deeper fan favourites picked from eight albums recorded over more than two decades. Feeder are special guests, replacing Brothers Osborne after the American duo withdrew in October, with British rock band A opening the evening.",
       "genres": [
         "Rock",
         "Glam Rock",
@@ -8094,7 +8098,8 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/HollywoodVampsSSe200618-69_(42513700740).jpg/960px-HollywoodVampsSSe200618-69_(42513700740).jpg",
       "source_url": "https://www.aegpresents.co.uk/event/the-darkness-3/",
       "general_sale": true,
-      "general_sale_url": "https://www.ticketmaster.co.uk/the-darkness-leeds-09-12-2026/event/1F006372D3AB8347"
+      "general_sale_url": "https://www.ticketmaster.co.uk/the-darkness-leeds-09-12-2026/event/1F006372D3AB8347",
+      "updated_at": "2026-11-27"
     },
     {
       "id": "en-goose-goosemas-atlantic-city-20261211",
@@ -8116,7 +8121,8 @@
         "Concert"
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Crowd_shot_of_Goose_performing_at_The_Capitol_Theatre_on_March_10%2C_2023.jpg/330px-Crowd_shot_of_Goose_performing_at_The_Capitol_Theatre_on_March_10%2C_2023.jpg",
-      "source_url": "https://www.jambase.com/article/goose-goosemas-2026-atlantic-city"
+      "source_url": "https://www.jambase.com/article/goose-goosemas-2026-atlantic-city",
+      "updated_at": "2026-11-27"
     },
     {
       "id": "en-iron-maiden-50th-anniversary-box-set-20261211",
@@ -8138,7 +8144,8 @@
         "Box Set"
       ],
       "image_url": null,
-      "source_url": "https://www.ironmaiden.com/two-special-anniversary-releases-announced/"
+      "source_url": "https://www.ironmaiden.com/two-special-anniversary-releases-announced/",
+      "updated_at": "2026-11-27"
     },
     {
       "id": "en-the-darkness-manchester-20261211",
@@ -8153,7 +8160,7 @@
       ],
       "developer": "The Darkness",
       "publisher": "AEG Presents",
-      "description": "The Darkness play the AO Arena in Manchester on December 11, 2026 as part of the Best Of The Darkness arena tour. The band promise a hits-led set spanning their whole catalogue, staged at the largest indoor venues they have headlined since the mid-2000s. Brothers Osborne and A appear as special guests, with tickets sold through AXS, Ticketmaster and See Tickets.",
+      "description": "The Darkness play the AO Arena in Manchester on December 11, 2026 as part of the Best Of The Darkness arena tour. The band promise a hits-led set spanning their whole catalogue, staged at the largest indoor venues they have headlined since the mid-2000s. Feeder, who replaced Brothers Osborne on the bill in October, and A appear as support, with tickets sold through AXS, Ticketmaster and See Tickets.",
       "genres": [
         "Rock",
         "Glam Rock",
@@ -8162,7 +8169,8 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/HollywoodVampsSSe200618-69_(42513700740).jpg/960px-HollywoodVampsSSe200618-69_(42513700740).jpg",
       "source_url": "https://www.aegpresents.co.uk/event/the-darkness-3/",
       "general_sale": true,
-      "general_sale_url": "https://www.ticketmaster.co.uk/the-darkness-bands-of-brothers-arena-manchester-11-12-2026/event/1F0064C889672E02"
+      "general_sale_url": "https://www.ticketmaster.co.uk/the-darkness-bands-of-brothers-arena-manchester-11-12-2026/event/1F0064C889672E02",
+      "updated_at": "2026-11-27"
     },
     {
       "id": "en-davichi-in-our-scenes-seoul-20261212",
@@ -8234,7 +8242,7 @@
       ],
       "developer": "The Darkness",
       "publisher": "AEG Presents",
-      "description": "The Darkness headline Utilita Arena Birmingham on December 12, 2026 on their Best Of The Darkness tour. The run follows Crock Of Hits, the band's first self-curated greatest hits collection, and gathers material from Permission To Land onwards. AEG Presents promotes the tour, and Brothers Osborne and A are billed as support across all seven arena shows.",
+      "description": "The Darkness headline Utilita Arena Birmingham on December 12, 2026 on their Best Of The Darkness tour. The run follows Crock Of Hits, the band's first self-curated greatest hits collection, and gathers material from Permission To Land onwards. AEG Presents promotes the tour, and Feeder and A are billed as support across all seven arena shows after Brothers Osborne withdrew in October.",
       "genres": [
         "Rock",
         "Glam Rock",
@@ -8243,7 +8251,8 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/HollywoodVampsSSe200618-69_(42513700740).jpg/960px-HollywoodVampsSSe200618-69_(42513700740).jpg",
       "source_url": "https://www.aegpresents.co.uk/event/the-darkness-3/",
       "general_sale": true,
-      "general_sale_url": "https://www.ticketmaster.co.uk/the-darkness-birmingham-12-12-2026/event/23006372DA441A82"
+      "general_sale_url": "https://www.ticketmaster.co.uk/the-darkness-birmingham-12-12-2026/event/23006372DA441A82",
+      "updated_at": "2026-11-27"
     },
     {
       "id": "en-the-darkness-cardiff-20261213",
@@ -9933,8 +9942,8 @@
       "category": "concert_tour",
       "publisher": null,
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/180531_%EB%A1%9C%EC%9D%B4%ED%82%B4.jpg/330px-180531_%EB%A1%9C%EC%9D%B4%ED%82%B4.jpg",
-      "presale": true,
-      "general_sale": true,
+      "presale": false,
+      "general_sale": false,
       "id": "en-roy-kim-roy-live-tour-seoul-20261120",
       "name": "2026-27 Roy Kim LIVE TOUR [R:O:Y] in Seoul (Added Show)",
       "release_date": "2026-11-20",
@@ -9942,17 +9951,17 @@
         "KSPO Dome, Seoul(Olympic Park)"
       ],
       "developer": "Roy Kim",
-      "description": "Roy Kim added a third Seoul night of his 2026-27 LIVE TOUR [R:O:Y] on November 20, 2026 at 8 p.m. KST at KSPO Dome, after the original November 21 and 22 shows sold out. It is the singer-songwriter's first time headlining the arena. For the added show, the fan club presale ran October 12 at 7 p.m. KST and general sale opens on NOL on October 13 at 8 p.m. KST, with a limit of four tickets per show.",
+      "description": "Roy Kim added a third Seoul night of his 2026-27 LIVE TOUR [R:O:Y] on November 20, 2026 at 8 p.m. KST at KSPO Dome, after the original November 21 and 22 shows sold out. It is the singer-songwriter's first time headlining the arena. For the added show, the fan club presale ran October 12 at 7 p.m. KST and general sale opened on NOL on October 13 at 8 p.m. KST, with a limit of four tickets per show.",
       "genres": [
         "Ballad",
         "Concert"
       ],
       "source_url": "https://www.slist.kr/news/articleView.html?idxno=770447",
-      "presale_datetime": "2026-10-12T19:00:00+09:00",
-      "presale_url": "https://nol.yanolja.com/ticket/products/26013078",
-      "general_sale_datetime": "2026-10-13T20:00:00+09:00",
-      "general_sale_url": "https://nol.yanolja.com/ticket/products/26013078",
-      "updated_at": "2026-10-13"
+      "presale_datetime": null,
+      "presale_url": null,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
+      "updated_at": "2026-11-27"
     },
     {
       "release_time": "18:00",
@@ -10678,7 +10687,7 @@
       ],
       "developer": "CHENLE",
       "publisher": null,
-      "description": "NCT DREAM's Chenle celebrates his birthday with Lele's Show 2, a one-night party at YES24 Live Hall in Seoul on November 24 at 8 p.m. KST, a year after the first Lele's Show. YES24 Ticket sold it alone: NCTzen DREAM (GL) Weverse members bought first on October 27 and the general sale opened October 28, both at 8 p.m. KST. Seats cost 77,000 won, one per person, and the booking, member and attendee names must all match, so resale tickets may be refused at entry.",
+      "description": "NCT DREAM's Chenle marked his birthday with Lele's Show 2, a one-night party scheduled at YES24 Live Hall in Seoul on November 24 at 8 p.m. KST, a year after the first Lele's Show. YES24 Ticket sold it alone: NCTzen DREAM (GL) Weverse members bought first on October 27 and the general sale opened October 28, both at 8 p.m. KST. Seats cost 77,000 won, one per person, and the booking, member and attendee names had to match, with resale tickets subject to refusal at entry.",
       "genres": [
         "K-Pop",
         "Fan Meeting"
@@ -10686,15 +10695,15 @@
       "image_url": "https://stkfile.yes24.com/upload2/PerfBlog/202610/20261023/20261023-60596.jpg",
       "source_url": "https://weverse.io/nctdream/notice/40261",
       "presale": false,
-      "presale_datetime": "2026-10-27T20:00:00+09:00",
-      "presale_url": "https://ticket.yes24.com/Perf/60596",
-      "general_sale": true,
-      "general_sale_datetime": "2026-10-28T20:00:00+09:00",
-      "general_sale_url": "https://ticket.yes24.com/Perf/60596",
+      "presale_datetime": null,
+      "presale_url": null,
+      "general_sale": false,
+      "general_sale_datetime": null,
+      "general_sale_url": null,
       "related_locale_ids": {
         "ko": "ko-chenle-leles-show-2-seoul-20261124"
       },
-      "updated_at": "2026-10-30"
+      "updated_at": "2026-11-27"
     },
     {
       "id": "en-sung-si-kyung-year-end-concert-seoul-20261231",
@@ -10772,7 +10781,7 @@
       ],
       "developer": "CRAVITY",
       "publisher": "Starship Entertainment, SHOWNOTE",
-      "description": "The SONOROUS run closes in Busan on Saturday, November 21, at 6 p.m. KST at KBS Hall, one week after CRAVITY's two Olympic Hall nights in Seoul. Melon Ticket held a LUVITY fan club presale on October 13 and opened the general sale on October 15, both at 8 p.m. KST; fans who verify on the Global page must also buy there. VIP seats cost 198,000 won and include a pre-show sound check, general seats 154,000 won, and attendees must be 7 or older.",
+      "description": "The SONOROUS run was scheduled to close in Busan on Saturday, November 21, at 6 p.m. KST at KBS Hall, one week after CRAVITY's two Olympic Hall nights in Seoul. Melon Ticket held a LUVITY fan club presale on October 13 and opened the general sale on October 15, both at 8 p.m. KST; fans who verified on the Global page had to buy there. VIP seats cost 198,000 won and included a pre-show sound check, general seats 154,000 won, and attendees had to be 7 or older.",
       "genres": [
         "K-Pop",
         "Concert"
@@ -10780,16 +10789,16 @@
       "image_url": "https://cdnticket.melon.co.kr/resource/image/upload/ticketopen/2026/10/2026103013575233e976f0-968b-405a-a3f7-5b37ce905f9d.jpg",
       "source_url": "https://ticket.melon.com/csoon/detail.htm?csoonId=12877",
       "presale": false,
-      "presale_datetime": "2026-10-13T20:00:00+09:00",
-      "presale_end_datetime": "2026-10-14T23:59:00+09:00",
+      "presale_datetime": null,
+      "presale_end_datetime": null,
       "presale_url": null,
-      "general_sale": true,
-      "general_sale_datetime": "2026-10-15T20:00:00+09:00",
+      "general_sale": false,
+      "general_sale_datetime": null,
       "general_sale_url": null,
       "related_locale_ids": {
         "ko": "ko-cravity-sonorous-busan-20261121"
       },
-      "updated_at": "2026-11-03"
+      "updated_at": "2026-11-27"
     },
     {
       "id": "en-hyukoh-33-tour-seoul-20270116",
