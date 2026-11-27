@@ -3,8 +3,31 @@
 | 로케일 | 마지막 점검 | 다음 순번 |
 |---|---|---|
 | ko | 2026-11-25 | |
-| en | 2026-11-20 | ← |
-| ja | 2026-11-23 | |
+| en | 2026-11-27 | |
+| ja | 2026-11-23 | ← |
+
+---
+
+## 2026-11-27 · en
+
+로테이션상 en이 가장 오래된 점검일(2026-11-20)이라 선택. 대상 창: 2026-09-28 ~ 2027-01-26(오늘 ±60일), 창 안 항목 219건(끝난 것 150 / 예정 69). 코드는 손대지 않았고 `data/concerts.en.json`만 수정(파일 상단 `last_updated` 2026-11-27). push 전 `validate-data.mjs` 통과(기존 설명 복사 묶음 경고만 — Bryan Adams·Jonas Brothers 등). 고친 항목·트랙 B 확인 항목은 `updated_at=2026-11-27`(예외 1건, 아래).
+
+**트랙 A (졸업 처리) — 12건**
+- A-1/A-2 끝난 공연의 예매 필드·플래그 정리 + description 과거형(§7대로 `presale`/`general_sale=false` + 존재하는 예매 URL·datetime 필드 null. 새 사실 추가 없음 — 실제 진행 단정 대신 "was scheduled to / were billed to"로, 투어 잔여 일정 서술은 유지): en-jamila-woods-10-years-of-heavn-portland-20261119·en-katseye-wildworld-tour-oakland-20261119(지난 회차 이월분), en-jorja-smith-kings-theatre-20261121, en-katseye-wildworld-tour-los-angeles-20261121, en-monsta-x-the-x-nexus-encore-incheon-20261121(11/22 종료), en-steve-lacy-hollywood-bowl-20261121, en-trans-siberian-orchestra-denver-20261121, en-cravity-sonorous-busan-20261121, en-roy-kim-roy-live-tour-seoul-20261120, en-syd-beard-tour-atlanta-20261124, en-chenle-leles-show-2-seoul-20261124, en-nia-archives-emotional-world-tour-london-20261126
+- A-3: en-post-malone-big-stadium-seoul-20261002 approx=true 유지(지난 회차와 동일 판단)
+- 오탐(손대지 않음): "were scheduled to" 매치 다수는 이미 과거형, en-nexz-saucin-the-world-seoul-20261018 "will"은 지난 회차와 동일 판단
+
+**트랙 B (임박 점검) — 8건 확인** (`updated_at` 없는 항목, 공연일 가까운 순)
+- en-esdeekid-council-house-rat-london-20261203 — ents24(AXS 공식 판매)·Stereoboard: 12/3(목) OVO Arena Wembley 유지, 취소 없음. 지난 일반예매 문장·투어 시작 문장 시제 교정
+- **en-the-darkness-glasgow-20261208 / -leeds-20261209 / -manchester-20261211 / -birmingham-20261212 — 서포트 교체 반영**: 밴드 공식(thedarknesslive.com 10/15)·Planet Rock(10/15)·Nation.Cymru(10/29) — Brothers Osborne 하차, Feeder가 스페셜 게스트로 대체(A는 유지). 7개 공연 일정(글래스고 12/8 포함) 변동 없음. description의 Brothers Osborne 문장을 Feeder로 교체
+- en-jonas-brothers-burning-up-all-over-again-denver-20261209 — Pollstar 투어 일정·Discotech: 12/9 Ball Arena 유지(Magnus Ferrell·Deleasa 서포트). 변경 없음. ⚠️ 이 항목은 기존 설명 복사 묶음(필라델피아·벨몬트파크·프루덴셜센터와 55~69% 유사)에 걸려 있어 `updated_at`을 오늘로 찍으면 `validate-data.mjs`가 오류로 막는다 — `updated_at` 미갱신(다음 회차가 다시 잡을 수 있음, 확인 완료 상태)
+- en-goose-goosemas-atlantic-city-20261211 — Boardwalk Hall 공식 이벤트 페이지: 12/11·12 Goosemas Night 1·2 판매 중. 변경 없음
+- en-iron-maiden-50th-anniversary-box-set-20261211 — ironmaiden.com 공지: 12/11 발매(미국은 1/8) 일치. 변경 없음
+- B-3 링크: 8건 source/image/예매 URL 12개 — aegpresents·ironmaiden(클라우드 경로)·wikimedia 이미지 2개·ticketmaster.com 200. ovoarena·xfinitymobilearena 406, axs·jambase 403, ticketmaster.co.uk 401/403 — 두 경로(사용자 PC·클라우드) 재확인 모두 봇 차단 패턴, 같은 공연을 다루는 다른 페이지로 생존 확인해 그대로 둠
+- 지난 회차 운영자 참고 ① 해소: The Darkness 항목들의 `image_url`(HollywoodVampsSSe200618-69)은 Raph_PH 촬영 "The Darkness at SSE Arena Wembley 2018" 사진(Nation.Cymru 캡션 CC BY 2.0)이라 정상
+
+**남은 것**: 트랙 B 다음 회차 **최우선** — en-the-darkness-cardiff-20261213 / -brighton-20261215 / -london-20261216 description도 Brothers Osborne 서포트로 남아 있음(상한 8건이라 이번에 못 고침, 같은 출처로 Feeder 교체만 하면 됨). 그 다음 en-syd-beard-tour-los-angeles-20261216, en-jonas-brothers-burning-up-all-over-again-belmont-park-20261219, en-backstreet-boys-into-the-millennium-nye-las-vegas-20261231, en-70000-tons-of-metal-2027-20270114, en-david-byrnes-night-manchester-20270115. 트랙 A 대기 없음
+**운영자/리서처 참고(추가 안 함)**: ① Jonas Brothers 투어 항목 설명 복사 묶음 때문에 Auditor가 확인 후 `updated_at`을 못 찍는다 — 설명 차별화는 리서처 몫 ② AEG 이벤트 페이지 일정표에 글래스고(DF Concerts 주관 추정)가 빠져 있지만 Planet Rock 일정엔 12/8 OVO Hydro 포함 — 변동 아님 ③ 신규 미등록 공연 발견 없음
 
 ---
 
